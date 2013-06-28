@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-06-28 12:17+0000\n"
+"PO-Revision-Date: 2013-06-28 13:51+0000\n"
 "Last-Translator: akukula <akukula@gmail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/tortoisegit/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -314,7 +314,7 @@ msgstr "&..."
 
 #. Resource IDs: (1656)
 msgid "&3 way merge"
-msgstr "&Trójstronne łączenie"
+msgstr "&3-stronne scalanie"
 
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
@@ -322,7 +322,7 @@ msgstr "&O TortoiseGitBlame..."
 
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitMerge..."
-msgstr ""
+msgstr "&O programie TortoiseGitMerge..."
 
 #. Resource IDs: (16920)
 msgid "&Activate"
@@ -816,7 +816,7 @@ msgstr "&Zawartość menu:"
 
 #. Resource IDs: (1735)
 msgid "&Merge"
-msgstr ""
+msgstr "&Scal"
 
 #. Resource IDs: (9)
 msgid "&Merge..."
@@ -1008,7 +1008,7 @@ msgstr "&Zresetuj pasek narzędzi"
 
 #. Resource IDs: (1355)
 msgid "&Reset filter"
-msgstr ""
+msgstr "&Resetuj filtr"
 
 #. Resource IDs: (16657)
 msgid "&Reset my usage data"
@@ -1360,7 +1360,7 @@ msgstr "<b>TortoiseGit</b> jest rozszerzeniem powłoki systemu.\nOznacza to, że
 msgid ""
 "<b>Warning:</b> It has not been checked if these branches have been fully "
 "merged into HEAD."
-msgstr ""
+msgstr "<b>Uwaga:</b> Nie zostało sprawdzone, czy te gałęzie zostały w pełni scalone w HEAD."
 
 #. Resource IDs: (84)
 msgid "<b>Warning:</b> This action will remove the branches on the remote."
@@ -1368,7 +1368,7 @@ msgstr "Wykonanie tego działania spowoduje usunięcie gałęzi zdalnej."
 
 #. Resource IDs: (84)
 msgid "<b>Warning:</b> This branch is not fully merged into HEAD."
-msgstr ""
+msgstr "<b>Uwaga:</b> Ta gałąź nie została w pełni scalona w HEAD."
 
 #. Resource IDs: (68)
 msgid ""
@@ -1523,7 +1523,7 @@ msgstr "O TortoiseGitBlame"
 
 #. Resource IDs: (136)
 msgid "About TortoiseGitMerge"
-msgstr ""
+msgstr "O programie TortoiseGitMerge"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -2265,7 +2265,7 @@ msgstr "Anuluj"
 msgid ""
 "Cancel\n"
 "Don't quit TortoiseGitMerge"
-msgstr ""
+msgstr "Anuluj\nNie kończy działania TortoiseGitMerge"
 
 #. Resource IDs: (315)
 msgid ""
@@ -3459,7 +3459,7 @@ msgstr "Usunięto"
 
 #. Resource IDs: (4570)
 msgid "Deleted merge conflict"
-msgstr "Usunięty konflikt łączenia"
+msgstr "Usunięty konflikt scalania"
 
 #. Resource IDs: (65535)
 msgid "Deleted node"
@@ -3685,7 +3685,7 @@ msgstr "Czy na pewno chcesz usunąć \"%s\"?"
 msgid ""
 "Do you really want to restore the copy? You will lose all changes that you "
 "have done after creating the copy."
-msgstr ""
+msgstr "Czy na pewno chcesz przywrócić kopię? Zostaną utracone wszelkie zmiany dokonane po utworzeniu kopii."
 
 #. Resource IDs: (119)
 #, c-format
@@ -4246,7 +4246,7 @@ msgstr "Nie udało się pobrać pliku bazowego."
 
 #. Resource IDs: (69)
 msgid "Failed to get merge file."
-msgstr ""
+msgstr "Nie powiodło się pobranie pliku scalania."
 
 #. Resource IDs: (3857)
 msgid "Failed to launch help."
@@ -5621,7 +5621,7 @@ msgstr "Wczytaj &klucz Putty"
 msgid ""
 "Load changes\n"
 "Changes made in TortoiseGitMerge are lost and replaced with the new content."
-msgstr ""
+msgstr "Wczytaj zmiany\nZmiany wykonane w TortoiseGitMerge zostaną utracone i zastąpione nową treścią."
 
 #. Resource IDs: (315)
 msgid ""
@@ -5848,11 +5848,11 @@ msgstr "Scalono"
 
 #. Resource IDs: (76)
 msgid "Merged Files"
-msgstr "Połączone pliki"
+msgstr "Scalone pliki"
 
 #. Resource IDs: (10)
 msgid "Merges another branch"
-msgstr "Łączy inną gałąź"
+msgstr "Scala inną gałąź"
 
 #. Resource IDs: (1073)
 msgid "Merging"
@@ -6405,7 +6405,7 @@ msgstr "OK"
 msgid ""
 "OLE initialization failed.  Make sure that the OLE libraries are the correct"
 " version."
-msgstr ""
+msgstr "Inicjalizacja OLE nie powiodła się. Upewnij się, że biblioteki OLE są w prawidłowej wersji."
 
 #. Resource IDs: (156, 626)
 msgid "Office 2003"
@@ -6445,7 +6445,7 @@ msgstr "Jeden lub wiele plików znajduje się w stanie konfliktu."
 
 #. Resource IDs: (1542)
 msgid "Only Current Branch"
-msgstr ""
+msgstr "Tylko bieżąca gałąź"
 
 #. Resource IDs: (1256)
 msgid "Only Merged Files"
@@ -6683,7 +6683,7 @@ msgstr "Poprawianie"
 #. Resource IDs: (169)
 #, c-format
 msgid "Patching file '%s'"
-msgstr ""
+msgstr "Poprawiam plik '%s'"
 
 #. Resource IDs: (63, 77, 198, 207)
 msgid "Path"
@@ -7011,7 +7011,7 @@ msgstr "Zamyka program; przypomina o zapisaniu zmian w dokumencie\nWyjście"
 msgid ""
 "Quit\n"
 "Exit TortoiseGitMerge without saving the modifications"
-msgstr "Wyjdź\nZakończenie TortoiseGitMerge  bez zapisu zmian"
+msgstr "Wyjdź\nZakończenie TortoiseGitMerge bez zapisu zmian"
 
 #. Resource IDs: (1073)
 msgid "R&AM drives"
@@ -7213,7 +7213,7 @@ msgstr "Zapamiętaj wybór (opcja \"svn.rmdir\")"
 
 #. Resource IDs: (1649)
 msgid "Reminder: Commit your change after resolve"
-msgstr ""
+msgstr "Przypomnienie: Zatwierdź zmianę po rozwiązaniu"
 
 #. Resource IDs: (1573)
 msgid "Remote"
@@ -7404,7 +7404,7 @@ msgstr "Wymaga GPG i klucza bez hasła."
 
 #. Resource IDs: (8)
 msgid "Res&olve..."
-msgstr ""
+msgstr "R&ozwiąż..."
 
 #. Resource IDs: (317)
 msgid "Reset"
@@ -7515,7 +7515,7 @@ msgstr ""
 #. Resource IDs: (323)
 #, c-format
 msgid "Revert to revision %s"
-msgstr ""
+msgstr "Wycofaj do wersji %s"
 
 #. Resource IDs: (73)
 msgid "Reverted"
@@ -7531,11 +7531,11 @@ msgstr "Odwraca dodanie do kontroli wersji"
 
 #. Resource IDs: (603)
 msgid "Review Patch with TortoiseGitMerge"
-msgstr ""
+msgstr "Przejrzyj poprawkę przy pomocy TortoiseGitMerge"
 
 #. Resource IDs: (14)
 msgid "Review/apply a unified diff file with TortoiseGitMerge"
-msgstr ""
+msgstr "Przejrzyj/zastosuj plik różnicowy przy pomocy TortoiseGitMerge"
 
 #. Resource IDs: (13)
 msgid "Review/apply single &patch..."
@@ -7966,13 +7966,13 @@ msgstr "Wybierz program do przeglądania plików różnicowych"
 
 #. Resource IDs: (316)
 msgid "Select what file you want to save as"
-msgstr ""
+msgstr "Wybierz, który plik chcesz zapisać pod inną nazwą"
 
 #. Resource IDs: (316)
 msgid ""
 "Select what file you want to save as\n"
 "Note: There is unresolved conflict!"
-msgstr ""
+msgstr "Wybierz, który plik chcesz zapisać pod inną nazwą\nUwaga: Występuje nierozwiązany konflikt!"
 
 #. Resource IDs: (1067)
 msgid "Select/deselect &all"
@@ -8430,13 +8430,13 @@ msgstr ""
 msgid ""
 "Some file(s) have been changed outside TortoiseGitMerge.\n"
 "Do you want to load the changes?"
-msgstr ""
+msgstr "Niektóre pliki zostały zmienione poza programem TortoiseGitMerge.\nCzy chcesz wczytać zmiany?"
 
 #. Resource IDs: (314)
 msgid ""
 "Some file(s) have been changed outside TortoiseGitMerge.\n"
 "Would you like to reload and lose your changes?"
-msgstr ""
+msgstr "Niektóre pliki zostały zmienione poza programem TortoiseGitMerge.\nCzy chcesz ponownie wczytać te pliki i utracić swoje zmiany?"
 
 #. Resource IDs: (1126)
 msgid "Sort by commit count"
@@ -9062,7 +9062,7 @@ msgid ""
 "which seems to match the directory you're applying the patch.\n"
 "\n"
 "Do you want to use the suggested path? Answering 'no' will quit TortoiseGitMerge."
-msgstr ""
+msgstr "Ścieżka\n%s\nw pliku poprawki nie istnieje.\nTortoiseGitMerge odnalazł ścieżkę względną\n%s\nktóra wydaje się pasować do folderu, w którym stosujesz poprawkę.\n\nCzy chcesz użyć sugerowanej ścieżki? Odpowiedź 'nie' spowoduje zakończenie TortoiseGitMerge."
 
 #. Resource IDs: (314)
 #, c-format
@@ -9071,7 +9071,7 @@ msgid ""
 "%s\n"
 "in the patchfile does not exist.\n"
 "TortoiseGitMerge tried to apply the patch by stripping prefixes but no matching path could be found."
-msgstr ""
+msgstr "Ścieżka\n%s\nw pliku poprawki nie istnieje.\nTortoiseGitMerge próbuje zastosować poprawkę obcinając początkowe części ścieżki, ale nie mógł znaleźć pasującej ścieżki."
 
 #. Resource IDs: (314)
 #, c-format
@@ -9082,7 +9082,7 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr ""
+msgstr "Ścieżka\n%s\nwydaje się nie pasować do ścieżek w pliku poprawki.\nJednakże TortoiseGitMerge odkrył, że ścieżka\n%s\npasuje lepiej. Czy chcesz użyć zasugerowanej ścieżki?"
 
 #. Resource IDs: (71)
 #, c-format
@@ -9414,7 +9414,7 @@ msgstr ""
 msgid ""
 "TortoiseGitMerge cannot process this patch file. The filename \"%s\" appears"
 " more than once."
-msgstr ""
+msgstr "TortoiseGitMerge nie może przetworzyć pliku poprawki. Nazwa pliku \"%s\" pojawia się więcej niż jeden raz."
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"
@@ -10051,7 +10051,7 @@ msgid ""
 "When resolving conflicts, you always have to save even if there is no "
 "conflict shown. TortoiseGitMerge can merge changes that Git can't and won't "
 "show a conflict for those!"
-msgstr ""
+msgstr "Podczas rozwiązywania konfliktów, zawsze musisz zapisać, nawet jeśli nie ma wyświetlonych konfliktów. TortoiseGitMerge może scalać zmiany, dla których Git nie pokazuje konfliktów!"
 
 #. Resource IDs: (604)
 msgid ""
@@ -10489,7 +10489,7 @@ msgstr "fałsz"
 #. Resource IDs: (66)
 #, c-format
 msgid "git did not exit cleanly (exit code %d)"
-msgstr ""
+msgstr "Polecenie git nie zostało zakończone pomyślnie (kod wyjścia %d)"
 
 #. Resource IDs: (13)
 msgid "ignored"
