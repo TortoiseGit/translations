@@ -11,13 +11,14 @@
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # omixen <omixen@gmail.com>, 2011
 # uring <uringinteristi@gmail.com>, 2011
+# dev0x10 <dev.yauri@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-07-10 18:37+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2013-07-11 02:16+0000\n"
+"Last-Translator: dev0x10 <dev.yauri@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/tortoisegit/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,12 +66,12 @@ msgstr "%1 mengandung obyek yang tidak diharapkan"
 #. Resource IDs: (3867)
 #, c-format
 msgid "%1 contains an incorrect path."
-msgstr "%1 mengandung arah yang tidak tepat."
+msgstr "%1 mengandung path yang tidak benar."
 
 #. Resource IDs: (3868)
 #, c-format
 msgid "%1 contains an incorrect schema."
-msgstr "%1 mengandung skema yang tidak tepat."
+msgstr "%1 mengandung skema yang tidak benar."
 
 #. Resource IDs: (3868)
 #, c-format
@@ -85,79 +86,79 @@ msgstr "%1 tidak ditemukan."
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Day ago"
-msgstr ""
+msgstr "%1!d! hari yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Days ago"
-msgstr ""
+msgstr "%1!d! hari yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Hour ago"
-msgstr ""
+msgstr "%1!d! jam yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Hours ago"
-msgstr ""
+msgstr "%1!d! jam yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Minute ago"
-msgstr ""
+msgstr "%1!d! menit yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Month ago"
-msgstr ""
+msgstr "%1!d! bulan yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Months ago"
-msgstr ""
+msgstr "%1!d! bulan yang lalu"
 
 #. Resource IDs: (602)
 #, c-format
 msgid "%1!d! Second ago"
-msgstr ""
+msgstr "%1!d! detik yang lalu"
 
 #. Resource IDs: (602)
 #, c-format
 msgid "%1!d! Seconds ago"
-msgstr ""
+msgstr "%1!d! detik yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Week ago"
-msgstr ""
+msgstr "%1!d! minggu yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Weeks ago"
-msgstr ""
+msgstr "%1!d! minggu yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Year ago"
-msgstr ""
+msgstr "%1!d! tahun yang lalu"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Years ago"
-msgstr ""
+msgstr "%1!d! tahun yang lalu"
 
 #. Resource IDs: (602)
 #, c-format
 msgid "%1!d! minutes ago"
-msgstr ""
+msgstr "%1!d! menit yang lalu"
 
 #. Resource IDs: (3860)
 #, c-format
 msgid ""
 "%1: %2\n"
 "Continue running script?"
-msgstr "%1: %2\nLanjutkan menjalankan naskah?"
+msgstr "%1: %2\nLanjutkan menjalankan script?"
 
 #. Resource IDs: (3859)
 #, c-format
@@ -165,17 +166,17 @@ msgid ""
 "%1\n"
 "Cannot find this file.\n"
 "Verify that the correct path and file name are given."
-msgstr "%1\nTidak dapat menemukan berkas ini.\nSilahkan verifikasi bahwa path dan berkas yang diberikan betul."
+msgstr "%1\nTidak dapat menemukan file ini.\nSilahkan verifikasi path dan nama file."
 
 #. Resource IDs: (357)
 #, c-format
 msgid "%I64d Bytes transferred"
-msgstr "%I64d Byte ditransfer"
+msgstr "%I64d Bytes telah ditransfer"
 
 #. Resource IDs: (357)
 #, c-format
 msgid "%I64d kBytes transferred"
-msgstr "%I64d kByte ditransfer"
+msgstr "%I64d kBytes telah ditransfer"
 
 #. Resource IDs: (1256)
 #, c-format
@@ -205,12 +206,12 @@ msgstr ""
 #. Resource IDs: (169)
 #, c-format
 msgid "%d files selected, %d files total"
-msgstr ""
+msgstr "%d files terpilih, %d total file"
 
 #. Resource IDs: (246)
 #, c-format
 msgid "%d most active author(s) with at least %d commits each (%d %%)"
-msgstr ""
+msgstr "%d pengarang paling aktif dengan paling sedikit %d commits setiap (%d %%)"
 
 #. Resource IDs: (8)
 #, c-format
@@ -223,12 +224,12 @@ msgstr "%i%% alpha\nklik untuk beralih alpha\nklik dua kali untuk beralih alpha 
 #. Resource IDs: (357)
 #, c-format
 msgid "%ld Bytes/s"
-msgstr ""
+msgstr "%ld Bytes/s"
 
 #. Resource IDs: (226)
 #, c-format
 msgid "%ld minute(s) and %ld second(s)"
-msgstr ""
+msgstr "%ld menit and %ld detik"
 
 #. Resource IDs: (7)
 #, c-format
@@ -238,7 +239,7 @@ msgstr "%ld dari %ld"
 #. Resource IDs: (226)
 #, c-format
 msgid "%s - at revision: %d"
-msgstr ""
+msgstr "%s - pada revisi: %d"
 
 #. Resource IDs: (3887)
 #, c-format
@@ -248,7 +249,7 @@ msgstr "%s : [Dipulihkan]"
 #. Resource IDs: (226)
 #, c-format
 msgid "%s in %s"
-msgstr ""
+msgstr "%s dalam %s"
 
 #. Resource IDs: (1383)
 #, c-format
@@ -258,7 +259,7 @@ msgstr ""
 #. Resource IDs: (357)
 #, c-format
 msgid "%s, at %s"
-msgstr ""
+msgstr "%s, pada %s"
 
 #. Resource IDs: (151)
 #, c-format
@@ -268,7 +269,7 @@ msgstr ""
 #. Resource IDs: (145)
 #, c-format
 msgid "%s\\Export (%d) of %s"
-msgstr ""
+msgstr "%s\\Ekspor (%d) dari %s"
 
 #. Resource IDs: (145)
 #, c-format
@@ -280,7 +281,7 @@ msgstr ""
 msgid ""
 "%s\n"
 "%s"
-msgstr "%s\n%s"
+msgstr "%s⏎\n%s"
 
 #. Resource IDs: (376)
 #, c-format
@@ -382,7 +383,7 @@ msgstr "&Tugaskan"
 
 #. Resource IDs: (16633)
 msgid "&Associate double-click event with:"
-msgstr "&Hubungkan peristiwa klik-ganda dengan:"
+msgstr "&Hubungkan event double-klik dengan:"
 
 #. Resource IDs: (1066)
 msgid "&Auto Hide"
@@ -390,7 +391,7 @@ msgstr "&Sembunyi Otomatis"
 
 #. Resource IDs: (65535)
 msgid "&Autoclose:"
-msgstr "&Otomatis tutup:"
+msgstr "&Tutup otomatis:"
 
 #. Resource IDs: (1505)
 msgid "&Autoload Putty Key"
@@ -438,7 +439,7 @@ msgstr "&Jelajahi..."
 
 #. Resource IDs: (16913)
 msgid "&Button Appearance..."
-msgstr "&Penampilan Tombol..."
+msgstr "&Tampilan Tombol..."
 
 #. Resource IDs: (65535)
 msgid "&Button text:"
@@ -502,7 +503,7 @@ msgstr ""
 
 #. Resource IDs: (8)
 msgid "&Commit..."
-msgstr "&Komit..."
+msgstr "&Commit..."
 
 #. Resource IDs: (1252)
 msgid "&Compare revisions"
@@ -514,7 +515,7 @@ msgstr "&Konfigurasi"
 
 #. Resource IDs: (501, 1367, 1471, 57634)
 msgid "&Copy"
-msgstr "&Copy"
+msgstr "&Salin"
 
 #. Resource IDs: (16911)
 msgid "&Copy Button Image"
@@ -526,11 +527,11 @@ msgstr ""
 
 #. Resource IDs: (1662)
 msgid "&Custom"
-msgstr "&Kustom"
+msgstr "&Custom"
 
 #. Resource IDs: (1269)
 msgid "&Default"
-msgstr "&Standar"
+msgstr "&Default"
 
 #. Resource IDs: (11, 70, 16617, 16912)
 msgid "&Delete"
@@ -546,11 +547,11 @@ msgstr ""
 
 #. Resource IDs: (12)
 msgid "&Diff"
-msgstr "&Diff"
+msgstr "&Beda"
 
 #. Resource IDs: (14)
 msgid "&Diff with previous version"
-msgstr "&Diff dengan versi sebelumnya"
+msgstr "&Beda dengan versi sebelumnya"
 
 #. Resource IDs: (65535)
 msgid "&Directory:"
@@ -606,7 +607,7 @@ msgstr ""
 
 #. Resource IDs: (1023)
 msgid "&Enable Proxy Server"
-msgstr "&Hidupkan Server Proxy"
+msgstr "&Aktifkan Server Proxy"
 
 #. Resource IDs: (32976)
 msgid "&Enable edit"
@@ -622,7 +623,7 @@ msgstr "&Eksternal"
 
 #. Resource IDs: (65535)
 msgid "&File"
-msgstr "&Berkas"
+msgstr "&File"
 
 #. Resource IDs: (1, 57636)
 msgid "&Find"
@@ -804,7 +805,7 @@ msgstr ""
 
 #. Resource IDs: (16543)
 msgid "&Menu animations:"
-msgstr "&Animasi-animasi Menu:"
+msgstr "&Animasi Menu:"
 
 #. Resource IDs: (16921)
 msgid "&Menu contents:"
@@ -852,7 +853,7 @@ msgstr "&Navigasi"
 
 #. Resource IDs: (1049)
 msgid "&Network drives"
-msgstr "&Pemacu Jaringan"
+msgstr "&Drive Jaringan"
 
 #. Resource IDs: (65535)
 msgid "&New "
@@ -868,7 +869,7 @@ msgstr "&Halaman Berikutnya"
 
 #. Resource IDs: (16632)
 msgid "&No double-click event"
-msgstr "&Tidak ada peristiwa klik-ganda"
+msgstr "&Tidak ada event double-klik"
 
 #. Resource IDs: (1734)
 msgid "&No fetch"
@@ -904,7 +905,7 @@ msgstr ""
 
 #. Resource IDs: (1382)
 msgid "&Options"
-msgstr "&Pilihan-pilihan"
+msgstr "&Pilihan"
 
 #. Resource IDs: (32772)
 msgid "&Overlay images"
@@ -912,7 +913,7 @@ msgstr "&Gambar lapisan"
 
 #. Resource IDs: (1411, 65535)
 msgid "&Password:"
-msgstr "&Kata sandi:"
+msgstr "&Password:"
 
 #. Resource IDs: (15, 501, 1253)
 msgid "&Paste"
@@ -928,11 +929,11 @@ msgstr "&Port:"
 
 #. Resource IDs: (1069)
 msgid "&Print Preview"
-msgstr "&Pratilik Halaman"
+msgstr "&Print Preview"
 
 #. Resource IDs: (58116)
 msgid "&Print..."
-msgstr "&Cetak..."
+msgstr "&Print..."
 
 #. Resource IDs: (66)
 msgid "&Proceed"
@@ -952,7 +953,7 @@ msgstr ""
 
 #. Resource IDs: (1246)
 msgid "&Recent messages"
-msgstr "&Pesan Terbaru"
+msgstr "&Pesan Terkini"
 
 #. Resource IDs: (1694)
 msgid "&Recursive"
@@ -964,7 +965,7 @@ msgstr "&Merah:"
 
 #. Resource IDs: (1253)
 msgid "&Redo"
-msgstr "&Buat Semula"
+msgstr "&Redo"
 
 #. Resource IDs: (1579)
 msgid "&Ref:"
@@ -972,7 +973,7 @@ msgstr ""
 
 #. Resource IDs: (1382)
 msgid "&Refresh"
-msgstr "&Segarkan"
+msgstr "&Refresh"
 
 #. Resource IDs: (1617)
 msgid "&Remote Branch:"
@@ -996,11 +997,11 @@ msgstr "&Penjelajah-repo"
 
 #. Resource IDs: (16613, 16624)
 msgid "&Reset"
-msgstr "&Set ulang"
+msgstr "&Reset"
 
 #. Resource IDs: (1019)
 msgid "&Reset Toolbar"
-msgstr "&Set Ulang Bilah Alat"
+msgstr "&Reset Toolbar"
 
 #. Resource IDs: (1355)
 msgid "&Reset filter"
@@ -1008,11 +1009,11 @@ msgstr ""
 
 #. Resource IDs: (16657)
 msgid "&Reset my usage data"
-msgstr "&Set ulang data penggunaan saya"
+msgstr "&Reset data penggunaan saya"
 
 #. Resource IDs: (16910)
 msgid "&Reset to Default"
-msgstr "&Set ulang ke Bawaan"
+msgstr "&Reset ke Default"
 
 #. Resource IDs: (66)
 msgid "&Resolved"
@@ -1056,7 +1057,7 @@ msgstr "&Simpan grafik sebagai..."
 
 #. Resource IDs: (322)
 msgid "&Save list of selected files to..."
-msgstr "&Simpan daftar berkas pilihan ke..."
+msgstr "&Simpan list file terpilih ke..."
 
 #. Resource IDs: (84)
 msgid "&Set MSysGit path"
@@ -1156,7 +1157,7 @@ msgstr "&Toolbar"
 
 #. Resource IDs: (65535)
 msgid "&Toolbar Name:"
-msgstr "Nama Bilah Ala&t:"
+msgstr "&Nama Toolbar:"
 
 #. Resource IDs: (65535)
 msgid "&Toolbars and Docking Windows"
@@ -1164,7 +1165,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "&Toolbars:"
-msgstr "Bilah Ala&t:"
+msgstr "&Toolbars:"
 
 #. Resource IDs: (9)
 msgid "&TortoiseGit"
@@ -1200,7 +1201,7 @@ msgstr ""
 
 #. Resource IDs: (1061)
 msgid "&Unknown drives"
-msgstr "&Pemacu tidak dikenal"
+msgstr "&Drive tak dikenal"
 
 #. Resource IDs: (1383)
 msgid "&Up"
@@ -1212,7 +1213,7 @@ msgstr ""
 
 #. Resource IDs: (1253)
 msgid "&Update item to revision"
-msgstr "Perbar&ui ke revisi"
+msgstr "&Update item ke revisi"
 
 #. Resource IDs: (1184)
 msgid "&Use auto-completion of file paths and keywords"
@@ -1257,7 +1258,7 @@ msgstr ""
 
 #. Resource IDs: (213)
 msgid "(no changelist)"
-msgstr "(tidak ada daftar perubahan)"
+msgstr "(tidak ada list perubahan)"
 
 #. Resource IDs: (314)
 msgid "(no line number)"
@@ -1528,11 +1529,11 @@ msgstr "Akses ke %1 ditolak."
 
 #. Resource IDs: (77, 319, 604)
 msgid "Action"
-msgstr "Aksi"
+msgstr "Action"
 
 #. Resource IDs: (65535)
 msgid "Action log"
-msgstr "Log Tindakan"
+msgstr "Action log"
 
 #. Resource IDs: (1251)
 msgid "Actions"
@@ -1588,7 +1589,7 @@ msgstr ""
 
 #. Resource IDs: (13)
 msgid "Add to &ignore list"
-msgstr "Tambah ke daftar aba&ikan"
+msgstr "Tambah ke &ignore list"
 
 #. Resource IDs: (1068)
 msgid "Add to Quick Access Toolbar"
