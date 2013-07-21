@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-07-11 19:10+0000\n"
+"PO-Revision-Date: 2013-07-21 17:32+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -2024,12 +2024,6 @@ msgstr "基於 TortoiseSVN 的 TortoiseIDiff"
 msgid "Basic Info"
 msgstr "基本資訊"
 
-#. Resource IDs: (69)
-msgid ""
-"Be warned that email clients tend to automatic wrap lines.\r\n"
-"Recommendation: Use attachments."
-msgstr "留意電郵軟體傾向自動換行，建議用附件"
-
 #. Resource IDs: (5060)
 msgid "Big5 (Traditional)"
 msgstr "Big5 (繁體)"
@@ -3254,6 +3248,10 @@ msgid "Credential helper:"
 msgstr "憑據助手："
 
 #. Resource IDs: (65535)
+msgid "Credentials"
+msgstr ""
+
+#. Resource IDs: (65535)
 msgid "Credits:"
 msgstr "作者："
 
@@ -3483,6 +3481,10 @@ msgstr "正在刪除"
 #. Resource IDs: (88)
 msgid "Deleting remote refs..."
 msgstr "正在刪除遠端參考點 ..."
+
+#. Resource IDs: (65535)
+msgid "Delivery:"
+msgstr ""
 
 #. Resource IDs: (1002)
 msgid "Description"
@@ -3985,6 +3987,10 @@ msgstr "讀取 %1 時發生預期外的錯誤。"
 #, c-format
 msgid "Encountered an unexpected error while writing %1."
 msgstr "寫入 %1 時發生預期外的錯誤。"
+
+#. Resource IDs: (1759)
+msgid "Encryption"
+msgstr ""
 
 #. Resource IDs: (1617)
 msgid "End"
@@ -4502,9 +4508,13 @@ msgstr "只限第一個父節點"
 msgid "First known &bad:"
 msgstr "一個已知壞的版本(&b):"
 
-#. Resource IDs: (32810)
-msgid "Fit image &sizes"
-msgstr "符合影像大小(&S)"
+#. Resource IDs: (32818)
+msgid "Fit image &heights"
+msgstr ""
+
+#. Resource IDs: (32817)
+msgid "Fit image &widths"
+msgstr ""
 
 #. Resource IDs: (1315)
 msgid "Floppy drives (A: B:)"
@@ -5002,13 +5012,17 @@ msgstr "ID:32793:V C +V"
 msgid "ID:32794:V C +R"
 msgstr "ID:32794:V C +R"
 
-#. Accelerator Entry for Menu ID:32810; 'Fit image &sizes'
-msgid "ID:32810:V   +T"
-msgstr "ID:32810:V   +T"
-
 #. Accelerator Entry for Menu ID:32811; ''
 msgid "ID:32811:V C +U"
 msgstr "ID:32811:V C +U"
+
+#. Accelerator Entry for Menu ID:32817; 'Fit image &widths'
+msgid "ID:32817:V   +W"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32818; 'Fit image &heights'
+msgid "ID:32818:V   +H"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32822; ''
 msgid "ID:32822:V C +F"
@@ -5691,7 +5705,7 @@ msgstr "紀錄訊息(輸入視窗)"
 msgid "Log messages (Show log dialog)"
 msgstr "紀錄訊息 (顯示紀錄視窗)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (1760)
 msgid "Login:"
 msgstr "登入名稱:"
 
@@ -5710,6 +5724,10 @@ msgstr "最低版本: %ld - 最高版本: %ld - 最新版本: %ld"
 #. Resource IDs: (16973)
 msgid "Lum"
 msgstr "Lum"
+
+#. Resource IDs: (90)
+msgid "MAPI"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "MSysGit"
@@ -6521,6 +6539,10 @@ msgstr "選項"
 msgid "Ori&ginal size"
 msgstr "原始大小(&G)"
 
+#. Resource IDs: (1531)
+msgid "Origin Name"
+msgstr ""
+
 #. Resource IDs: (1065)
 msgid "Other Task Panes"
 msgstr "其它工作面板"
@@ -6781,7 +6803,7 @@ msgstr "彈出"
 msgid "Port :"
 msgstr "埠:"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (1758)
 msgid "Port:"
 msgstr "埠:"
 
@@ -7646,9 +7668,13 @@ msgstr "SHA-1"
 msgid "SMTP Server requires authentication"
 msgstr "SMTP伺服器要求授權"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (1757)
 msgid "SMTP Server:"
 msgstr "SMTP伺服器:"
+
+#. Resource IDs: (90)
+msgid "SMTP, directly to destination server"
+msgstr ""
 
 #. Resource IDs: (1081)
 msgid "SSH"
@@ -8027,10 +8053,6 @@ msgstr "設定作者(&T)"
 #. Resource IDs: (1557)
 msgid "Set commit &date"
 msgstr "將檔案日期設定(&d)"
-
-#. Resource IDs: (1580)
-msgid "Set up SMTP Server"
-msgstr "設定 SMTP伺服器"
 
 #. Resource IDs: (86)
 msgid "Sets the remote as the \"pushremote\" for the selected local branch."
@@ -9681,10 +9703,6 @@ msgstr "使用方塊"
 msgid "Use HTTP path component"
 msgstr "使用 HTTP 路徑部分"
 
-#. Resource IDs: (1482)
-msgid "Use MAPI"
-msgstr "使用MAPI"
-
 #. Resource IDs: (1066)
 msgid "Use Ribbons"
 msgstr "使用 Ribbon 介面"
@@ -9908,16 +9926,16 @@ msgid "Version 1"
 msgstr "版本1"
 
 #. Resource IDs: (72)
-msgid "Version 1 (Commit Data New)"
-msgstr "版本1 (新的提交資料)"
+msgid "Version 1 (Newer commit time)"
+msgstr ""
 
 #. Resource IDs: (72, 1645)
 msgid "Version 2 (Base)"
 msgstr "版本2(基礎)"
 
 #. Resource IDs: (72)
-msgid "Version 2 (Base) (Commit Date New)"
-msgstr "版本2(基礎) (新的提交日期)"
+msgid "Version 2 (Base) (Newer commit time)"
+msgstr ""
 
 #. Resource IDs: (1075)
 msgid "Version Information"
@@ -10458,6 +10476,10 @@ msgstr "深度"
 #. Resource IDs: (58116)
 msgid "dummy"
 msgstr "dummy"
+
+#. Resource IDs: (1580)
+msgid "eMail settings"
+msgstr ""
 
 #. Resource IDs: (79)
 #, c-format

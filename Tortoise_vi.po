@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-07-14 14:38+0000\n"
+"PO-Revision-Date: 2013-07-21 17:48+0000\n"
 "Last-Translator: ppanhh <ppanhh@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/tortoisegit/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -80,72 +80,72 @@ msgstr "Không tìm thấy %1 ."
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Day ago"
-msgstr ""
+msgstr "%1!d! Ngày trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Days ago"
-msgstr ""
+msgstr "%1!d! Ngày trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Hour ago"
-msgstr ""
+msgstr "%1!d! Giờ trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Hours ago"
-msgstr ""
+msgstr "%1!d! Giờ trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Minute ago"
-msgstr ""
+msgstr "%1!d! Phút trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Month ago"
-msgstr ""
+msgstr "%1!d! Tháng trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Months ago"
-msgstr ""
+msgstr "%1!d! Tháng trước"
 
 #. Resource IDs: (602)
 #, c-format
 msgid "%1!d! Second ago"
-msgstr ""
+msgstr "%1!d! Giây trước"
 
 #. Resource IDs: (602)
 #, c-format
 msgid "%1!d! Seconds ago"
-msgstr ""
+msgstr "%1!d! Giây trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Week ago"
-msgstr ""
+msgstr "%1!d! Tuần trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Weeks ago"
-msgstr ""
+msgstr "%1!d! Tuần trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Year ago"
-msgstr ""
+msgstr "%1!d! Năm trước"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Years ago"
-msgstr ""
+msgstr "%1!d! Năm trước"
 
 #. Resource IDs: (602)
 #, c-format
 msgid "%1!d! minutes ago"
-msgstr ""
+msgstr "%1!d! phút trước"
 
 #. Resource IDs: (3860)
 #, c-format
@@ -200,7 +200,7 @@ msgstr ""
 #. Resource IDs: (169)
 #, c-format
 msgid "%d files selected, %d files total"
-msgstr ""
+msgstr "đã chọn %d tập tin, tổng cộng %d tập tin"
 
 #. Resource IDs: (246)
 #, c-format
@@ -2021,12 +2021,6 @@ msgstr ""
 msgid "Basic Info"
 msgstr ""
 
-#. Resource IDs: (69)
-msgid ""
-"Be warned that email clients tend to automatic wrap lines.\r\n"
-"Recommendation: Use attachments."
-msgstr ""
-
 #. Resource IDs: (5060)
 msgid "Big5 (Traditional)"
 msgstr ""
@@ -3251,6 +3245,10 @@ msgid "Credential helper:"
 msgstr ""
 
 #. Resource IDs: (65535)
+msgid "Credentials"
+msgstr ""
+
+#. Resource IDs: (65535)
 msgid "Credits:"
 msgstr "Công trạng:"
 
@@ -3479,6 +3477,10 @@ msgstr "Đang xoá"
 
 #. Resource IDs: (88)
 msgid "Deleting remote refs..."
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Delivery:"
 msgstr ""
 
 #. Resource IDs: (1002)
@@ -3982,6 +3984,10 @@ msgstr "Gặp lỗi không xác định được khi đang đọc %1."
 #, c-format
 msgid "Encountered an unexpected error while writing %1."
 msgstr "Gặp lỗi không xác định được khi đang ghi %1."
+
+#. Resource IDs: (1759)
+msgid "Encryption"
+msgstr ""
 
 #. Resource IDs: (1617)
 msgid "End"
@@ -4499,8 +4505,12 @@ msgstr ""
 msgid "First known &bad:"
 msgstr ""
 
-#. Resource IDs: (32810)
-msgid "Fit image &sizes"
+#. Resource IDs: (32818)
+msgid "Fit image &heights"
+msgstr ""
+
+#. Resource IDs: (32817)
+msgid "Fit image &widths"
 msgstr ""
 
 #. Resource IDs: (1315)
@@ -4999,13 +5009,17 @@ msgstr "ID:32793:V C +V"
 msgid "ID:32794:V C +R"
 msgstr "ID:32794:V C +R"
 
-#. Accelerator Entry for Menu ID:32810; 'Fit image &sizes'
-msgid "ID:32810:V   +T"
-msgstr ""
-
 #. Accelerator Entry for Menu ID:32811; ''
 msgid "ID:32811:V C +U"
 msgstr "ID:32811:V C +U"
+
+#. Accelerator Entry for Menu ID:32817; 'Fit image &widths'
+msgid "ID:32817:V   +W"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32818; 'Fit image &heights'
+msgid "ID:32818:V   +H"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32822; ''
 msgid "ID:32822:V C +F"
@@ -5688,7 +5702,7 @@ msgstr "Các thông điệp tường trình (Hộp thoại nhập liệu)"
 msgid "Log messages (Show log dialog)"
 msgstr "Các thông điệp tường trình (Hiện hộp thoại tường trình)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (1760)
 msgid "Login:"
 msgstr ""
 
@@ -5707,6 +5721,10 @@ msgstr ""
 #. Resource IDs: (16973)
 msgid "Lum"
 msgstr "Lum"
+
+#. Resource IDs: (90)
+msgid "MAPI"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "MSysGit"
@@ -6518,6 +6536,10 @@ msgstr "Các tùy chọn"
 msgid "Ori&ginal size"
 msgstr "Kích thước &nguyên thủy"
 
+#. Resource IDs: (1531)
+msgid "Origin Name"
+msgstr ""
+
 #. Resource IDs: (1065)
 msgid "Other Task Panes"
 msgstr "Các bảng tác vụ khác"
@@ -6778,7 +6800,7 @@ msgstr ""
 msgid "Port :"
 msgstr "Cổng :"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (1758)
 msgid "Port:"
 msgstr ""
 
@@ -7643,8 +7665,12 @@ msgstr "SHA-1"
 msgid "SMTP Server requires authentication"
 msgstr ""
 
-#. Resource IDs: (65535)
+#. Resource IDs: (1757)
 msgid "SMTP Server:"
+msgstr ""
+
+#. Resource IDs: (90)
+msgid "SMTP, directly to destination server"
 msgstr ""
 
 #. Resource IDs: (1081)
@@ -8023,10 +8049,6 @@ msgstr ""
 
 #. Resource IDs: (1557)
 msgid "Set commit &date"
-msgstr ""
-
-#. Resource IDs: (1580)
-msgid "Set up SMTP Server"
 msgstr ""
 
 #. Resource IDs: (86)
@@ -9678,10 +9700,6 @@ msgstr "Sử dụng các khối"
 msgid "Use HTTP path component"
 msgstr ""
 
-#. Resource IDs: (1482)
-msgid "Use MAPI"
-msgstr ""
-
 #. Resource IDs: (1066)
 msgid "Use Ribbons"
 msgstr ""
@@ -9905,7 +9923,7 @@ msgid "Version 1"
 msgstr ""
 
 #. Resource IDs: (72)
-msgid "Version 1 (Commit Data New)"
+msgid "Version 1 (Newer commit time)"
 msgstr ""
 
 #. Resource IDs: (72, 1645)
@@ -9913,7 +9931,7 @@ msgid "Version 2 (Base)"
 msgstr ""
 
 #. Resource IDs: (72)
-msgid "Version 2 (Base) (Commit Date New)"
+msgid "Version 2 (Base) (Newer commit time)"
 msgstr ""
 
 #. Resource IDs: (1075)
@@ -10455,6 +10473,10 @@ msgstr ""
 #. Resource IDs: (58116)
 msgid "dummy"
 msgstr "vật giả"
+
+#. Resource IDs: (1580)
+msgid "eMail settings"
+msgstr ""
 
 #. Resource IDs: (79)
 #, c-format

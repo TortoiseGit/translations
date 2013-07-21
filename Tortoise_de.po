@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-07-11 19:10+0000\n"
+"PO-Revision-Date: 2013-07-21 17:33+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2025,12 +2025,6 @@ msgstr "Basiert auf TortoiseIDiff von TortoiseSVN"
 msgid "Basic Info"
 msgstr "Allgemeine Informationen"
 
-#. Resource IDs: (69)
-msgid ""
-"Be warned that email clients tend to automatic wrap lines.\r\n"
-"Recommendation: Use attachments."
-msgstr "Hinweis: Manche E-Mail-Programme brechen lange Zeilen automatisch um.\nEmpfehlung: Nutzen Sie Anlagen."
-
 #. Resource IDs: (5060)
 msgid "Big5 (Traditional)"
 msgstr "Big5 (Traditionell)"
@@ -3255,6 +3249,10 @@ msgid "Credential helper:"
 msgstr "Credential helper:"
 
 #. Resource IDs: (65535)
+msgid "Credentials"
+msgstr "Anmeldeinformationen"
+
+#. Resource IDs: (65535)
 msgid "Credits:"
 msgstr "Danksagung:"
 
@@ -3484,6 +3482,10 @@ msgstr "Lösche"
 #. Resource IDs: (88)
 msgid "Deleting remote refs..."
 msgstr "Lösche entfernte Referenzen..."
+
+#. Resource IDs: (65535)
+msgid "Delivery:"
+msgstr "Versand:"
 
 #. Resource IDs: (1002)
 msgid "Description"
@@ -3986,6 +3988,10 @@ msgstr "Beim Lesen von %1 trat ein unerwarteter Fehler auf."
 #, c-format
 msgid "Encountered an unexpected error while writing %1."
 msgstr "Beim Schreiben von %1 trat ein unerwarteter Fehler auf."
+
+#. Resource IDs: (1759)
+msgid "Encryption"
+msgstr "Verschlüsselung"
 
 #. Resource IDs: (1617)
 msgid "End"
@@ -4503,9 +4509,13 @@ msgstr "Nur erster Elternteil"
 msgid "First known &bad:"
 msgstr "Erste bekannte &schlechte Version:"
 
-#. Resource IDs: (32810)
-msgid "Fit image &sizes"
-msgstr "Bildgrößen &angleichen"
+#. Resource IDs: (32818)
+msgid "Fit image &heights"
+msgstr ""
+
+#. Resource IDs: (32817)
+msgid "Fit image &widths"
+msgstr ""
 
 #. Resource IDs: (1315)
 msgid "Floppy drives (A: B:)"
@@ -5003,13 +5013,17 @@ msgstr "ID:32793:V C +V"
 msgid "ID:32794:V C +R"
 msgstr "ID:32794:V C +R"
 
-#. Accelerator Entry for Menu ID:32810; 'Fit image &sizes'
-msgid "ID:32810:V   +T"
-msgstr "ID:32810:V   +T"
-
 #. Accelerator Entry for Menu ID:32811; ''
 msgid "ID:32811:V C +U"
 msgstr "ID:32811:V C +U"
+
+#. Accelerator Entry for Menu ID:32817; 'Fit image &widths'
+msgid "ID:32817:V   +W"
+msgstr "ID:32817:V   +W"
+
+#. Accelerator Entry for Menu ID:32818; 'Fit image &heights'
+msgid "ID:32818:V   +H"
+msgstr "ID:32818:V   +H"
 
 #. Accelerator Entry for Menu ID:32822; ''
 msgid "ID:32822:V C +F"
@@ -5692,7 +5706,7 @@ msgstr "Logmeldungen (Eingabedialog)"
 msgid "Log messages (Show log dialog)"
 msgstr "Logmeldungen (Zeige Log)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (1760)
 msgid "Login:"
 msgstr "Login:"
 
@@ -5711,6 +5725,10 @@ msgstr "Ältestes gezeige Revision: %ld - Neuste gezeigt Revision: %ld - HEAD Re
 #. Resource IDs: (16973)
 msgid "Lum"
 msgstr "Lum"
+
+#. Resource IDs: (90)
+msgid "MAPI"
+msgstr "MAPI"
 
 #. Resource IDs: (65535)
 msgid "MSysGit"
@@ -6522,6 +6540,10 @@ msgstr "Einstellungen"
 msgid "Ori&ginal size"
 msgstr "Ori&ginalgröße"
 
+#. Resource IDs: (1531)
+msgid "Origin Name"
+msgstr ""
+
 #. Resource IDs: (1065)
 msgid "Other Task Panes"
 msgstr "Andere Werkzeugflächen"
@@ -6782,7 +6804,7 @@ msgstr "Popup"
 msgid "Port :"
 msgstr "Port:"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (1758)
 msgid "Port:"
 msgstr "Port:"
 
@@ -7647,9 +7669,13 @@ msgstr "SHA-1"
 msgid "SMTP Server requires authentication"
 msgstr "Der SMTP-Server erfordert Authentifizierung"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (1757)
 msgid "SMTP Server:"
 msgstr "SMTP Server:"
+
+#. Resource IDs: (90)
+msgid "SMTP, directly to destination server"
+msgstr ""
 
 #. Resource IDs: (1081)
 msgid "SSH"
@@ -8028,10 +8054,6 @@ msgstr "Setze Autor"
 #. Resource IDs: (1557)
 msgid "Set commit &date"
 msgstr "Setze Eintrage&datum"
-
-#. Resource IDs: (1580)
-msgid "Set up SMTP Server"
-msgstr "SMTP-Server einrichten"
 
 #. Resource IDs: (86)
 msgid "Sets the remote as the \"pushremote\" for the selected local branch."
@@ -9682,10 +9704,6 @@ msgstr "Verwende Blöcke"
 msgid "Use HTTP path component"
 msgstr "Beachte HTTP Pfadkomponente"
 
-#. Resource IDs: (1482)
-msgid "Use MAPI"
-msgstr "Benutze MAPI"
-
 #. Resource IDs: (1066)
 msgid "Use Ribbons"
 msgstr "Benutze Ribbons"
@@ -9909,16 +9927,16 @@ msgid "Version 1"
 msgstr "Version 1"
 
 #. Resource IDs: (72)
-msgid "Version 1 (Commit Data New)"
-msgstr "Version 1 (neuere Eintragung)"
+msgid "Version 1 (Newer commit time)"
+msgstr ""
 
 #. Resource IDs: (72, 1645)
 msgid "Version 2 (Base)"
 msgstr "Version 2 (Basis)"
 
 #. Resource IDs: (72)
-msgid "Version 2 (Base) (Commit Date New)"
-msgstr "Version 2 (Basis) (neuere Eintragung)"
+msgid "Version 2 (Base) (Newer commit time)"
+msgstr ""
 
 #. Resource IDs: (1075)
 msgid "Version Information"
@@ -10459,6 +10477,10 @@ msgstr "Tiefe"
 #. Resource IDs: (58116)
 msgid "dummy"
 msgstr "dummy"
+
+#. Resource IDs: (1580)
+msgid "eMail settings"
+msgstr "E-Mail Einstellungen"
 
 #. Resource IDs: (79)
 #, c-format
