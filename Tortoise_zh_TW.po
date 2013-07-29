@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-07-21 17:32+0000\n"
+"PO-Revision-Date: 2013-07-29 12:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1439,6 +1439,12 @@ msgstr "與你輸入的標籤相同名稱的分支已經存在(所以短參考�
 msgid "A branch with this name already exists."
 msgstr "相同名稱的分支已經存在"
 
+#. Resource IDs: (69)
+msgid ""
+"A merge process is active, so this commit will be a merge commit. In order "
+"to abort a merge, you have to perform a reset or forced checkout."
+msgstr ""
+
 #. Resource IDs: (201)
 msgid "A newer version is available. Please download the current version!"
 msgstr "發現較新的版本，請下載！"
@@ -1502,6 +1508,18 @@ msgstr "縮寫重新命名"
 #. Resource IDs: (2, 73, 1565)
 msgid "Abort"
 msgstr "放棄"
+
+#. Resource IDs: (15)
+msgid "Abort &Merge"
+msgstr "放棄合併(&M)"
+
+#. Resource IDs: (4592)
+msgid "Abort Merge"
+msgstr ""
+
+#. Resource IDs: (15)
+msgid "Aborts a running merge."
+msgstr ""
 
 #. Resource IDs: (156)
 msgid "About"
@@ -1603,10 +1621,6 @@ msgstr "加入/編輯針對副檔名的差異比對/合併工具"
 #. Resource IDs: (73, 264, 1257, 1549, 65535)
 msgid "Added"
 msgstr "已加入"
-
-#. Resource IDs: (65535)
-msgid "Added node"
-msgstr "新加入的節點"
 
 #. Resource IDs: (145)
 #, c-format
@@ -2120,6 +2134,10 @@ msgid ""
 "%s will fastforward to %s"
 msgstr "分支%s是%s的子節點\r\n%s能直接遷移到%s"
 
+#. Resource IDs: (68)
+msgid "Branch Name"
+msgstr ""
+
 #. Resource IDs: (64)
 msgid "Branch/Tag name is invalid."
 msgstr "分支/標籤名字無效"
@@ -2131,10 +2149,6 @@ msgstr "分支/標籤名字無效或空白"
 #. Resource IDs: (1518)
 msgid "Branch:"
 msgstr "分支："
-
-#. Resource IDs: (68)
-msgid "Branchname"
-msgstr "分支名稱"
 
 #. Resource IDs: (1383)
 msgid "Bro&wse"
@@ -3452,10 +3466,6 @@ msgstr "已刪除"
 #. Resource IDs: (4570)
 msgid "Deleted merge conflict"
 msgstr "刪除分支合併衝突"
-
-#. Resource IDs: (65535)
-msgid "Deleted node"
-msgstr "已刪除的節點"
 
 #. Resource IDs: (23)
 msgid ""
@@ -5362,6 +5372,10 @@ msgstr "在變更列表"
 msgid "In Commits"
 msgstr "輸入的提交"
 
+#. Resource IDs: (1649)
+msgid "In order to abort a merge progess a reset (to HEAD) is needed."
+msgstr ""
+
 #. Resource IDs: (1499)
 msgid "Include &Tags"
 msgstr "包含標籤(&T)"
@@ -6285,6 +6299,10 @@ msgstr "記憶體不足！\n嘗試折疊節點或減少縮放比例以減少版�
 #. Resource IDs: (72)
 msgid "Not patches generated."
 msgstr "沒有產生補綴檔"
+
+#. Resource IDs: (65535)
+msgid "Note node"
+msgstr ""
 
 #. Resource IDs: (3887)
 msgid ""
@@ -7362,10 +7380,6 @@ msgstr "重新命名 - TortoiseGit"
 msgid "Rename/move"
 msgstr "重新命名/移動"
 
-#. Resource IDs: (65535)
-msgid "Renamed node"
-msgstr "重新命名的節點"
-
 #. Resource IDs: (11)
 msgid "Renames files/folders inside version control"
 msgstr "重新命名版本控制樹中的檔案/資料夾"
@@ -7381,10 +7395,6 @@ msgid ""
 "Replace specific text with different text\n"
 "Replace"
 msgstr "用指定的文字取代特定文字\n取代"
-
-#. Resource IDs: (65535)
-msgid "Replaced node"
-msgstr "被取代的節點"
 
 #. Resource IDs: (74)
 msgid "Replacing"
@@ -9269,6 +9279,13 @@ msgstr "水平排列(&Z)"
 msgid "To"
 msgstr "至"
 
+#. Resource IDs: (1422)
+msgid ""
+"To avoid fetching wrong tags, if this is not an official remote,\n"
+"you are advised to disable tag fetching for this remote.\n"
+"Disable tag fetching?"
+msgstr ""
+
 #. Resource IDs: (606)
 msgid ""
 "To clear temporary files, you should ensure that no other TortoiseGit "
@@ -10615,6 +10632,10 @@ msgstr "prn"
 #. Resource IDs: (245)
 msgid "quarter of year"
 msgstr "季"
+
+#. Resource IDs: (65535)
+msgid "renamed"
+msgstr ""
 
 #. Resource IDs: (10)
 msgid "replaced"

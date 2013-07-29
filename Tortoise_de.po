@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-07-28 10:32+0000\n"
+"PO-Revision-Date: 2013-07-29 12:53+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1440,6 +1440,12 @@ msgstr "Es existiert bereits ein Zweig mit dem Namen, den Sie für die Markierun
 msgid "A branch with this name already exists."
 msgstr "Es existiert bereits ein Zweig mit diesem Namen."
 
+#. Resource IDs: (69)
+msgid ""
+"A merge process is active, so this commit will be a merge commit. In order "
+"to abort a merge, you have to perform a reset or forced checkout."
+msgstr "Ein Zusammenführungsprozess ist gerade aktiv, somit wird dies eine Zusammenführungseintragung. Um eine Zusammenführung abzubrechen, müssen Sie einen Reset oder einen (erzwungenen) Zweigwechsel durchführen."
+
 #. Resource IDs: (201)
 msgid "A newer version is available. Please download the current version!"
 msgstr "Eine neue Version ist verfügbar. Bitte laden Sie die aktuelle Version herunter!"
@@ -1503,6 +1509,18 @@ msgstr "Kürze Umbenennungen ab"
 #. Resource IDs: (2, 73, 1565)
 msgid "Abort"
 msgstr "Abbrechen"
+
+#. Resource IDs: (15)
+msgid "Abort &Merge"
+msgstr "Über &Merge"
+
+#. Resource IDs: (4592)
+msgid "Abort Merge"
+msgstr "Zusammenführen abbrechen"
+
+#. Resource IDs: (15)
+msgid "Aborts a running merge."
+msgstr "Bricht das Zusammenführen ab."
 
 #. Resource IDs: (156)
 msgid "About"
@@ -1604,10 +1622,6 @@ msgstr "Diff/Merge Programm für Dateityp bearbeiten/hinzufügen"
 #. Resource IDs: (73, 264, 1257, 1549, 65535)
 msgid "Added"
 msgstr "Hinzugefügt"
-
-#. Resource IDs: (65535)
-msgid "Added node"
-msgstr "Knoten hinzugefügt"
 
 #. Resource IDs: (145)
 #, c-format
@@ -2121,6 +2135,10 @@ msgid ""
 "%s will fastforward to %s"
 msgstr "Der Zweig %s ist hinter %s\n%s passt auf %s (fast-forward)"
 
+#. Resource IDs: (68)
+msgid "Branch Name"
+msgstr "Zweig Name"
+
 #. Resource IDs: (64)
 msgid "Branch/Tag name is invalid."
 msgstr "Zweig/Markierungsname ist ungülig."
@@ -2132,10 +2150,6 @@ msgstr "Zweig/Markierungsname darf nicht leer sein oder ist ungültig."
 #. Resource IDs: (1518)
 msgid "Branch:"
 msgstr "Zweig:"
-
-#. Resource IDs: (68)
-msgid "Branchname"
-msgstr "Zweigname"
 
 #. Resource IDs: (1383)
 msgid "Bro&wse"
@@ -3453,10 +3467,6 @@ msgstr "Gelöscht"
 #. Resource IDs: (4570)
 msgid "Deleted merge conflict"
 msgstr "Lösch-Konflikt"
-
-#. Resource IDs: (65535)
-msgid "Deleted node"
-msgstr "Gelöschter Knoten"
 
 #. Resource IDs: (23)
 msgid ""
@@ -5363,6 +5373,10 @@ msgstr "Eingehende Änderungsliste"
 msgid "In Commits"
 msgstr "Eingehende Eintragungen"
 
+#. Resource IDs: (1649)
+msgid "In order to abort a merge progess a reset (to HEAD) is needed."
+msgstr "Um das Zusammenführen abzubrechen, ist ein Reset (auf HEAD) notwendig."
+
 #. Resource IDs: (1499)
 msgid "Include &Tags"
 msgstr "Markierungen einschließen"
@@ -6286,6 +6300,10 @@ msgstr "Nicht genügend Speicher\nVersuchen Sie, die Größe des Revisionsgraphe
 #. Resource IDs: (72)
 msgid "Not patches generated."
 msgstr "Keine Patches erzeugt."
+
+#. Resource IDs: (65535)
+msgid "Note node"
+msgstr "Kommentarknoten"
 
 #. Resource IDs: (3887)
 msgid ""
@@ -7363,10 +7381,6 @@ msgstr "Umbenennen - TortoiseGit"
 msgid "Rename/move"
 msgstr "Umbenennen/Verschieben"
 
-#. Resource IDs: (65535)
-msgid "Renamed node"
-msgstr "Knoten umbenannt"
-
 #. Resource IDs: (11)
 msgid "Renames files/folders inside version control"
 msgstr "Benennt Dateien/Ordner unter Versionskontrolle um"
@@ -7382,10 +7396,6 @@ msgid ""
 "Replace specific text with different text\n"
 "Replace"
 msgstr "Text ersetzen\nErsetzen"
-
-#. Resource IDs: (65535)
-msgid "Replaced node"
-msgstr "Knoten ersetzt"
 
 #. Resource IDs: (74)
 msgid "Replacing"
@@ -9270,6 +9280,13 @@ msgstr "&Horizontal anordnen"
 msgid "To"
 msgstr "Bis"
 
+#. Resource IDs: (1422)
+msgid ""
+"To avoid fetching wrong tags, if this is not an official remote,\n"
+"you are advised to disable tag fetching for this remote.\n"
+"Disable tag fetching?"
+msgstr "Um die Aktualisierung falscher Markierungen zu verhindern, sofern dies kein offizielles entferntes Repository ist, wird empfohlen die Aktualisierung von Markierungen für dieses Repository zu deaktivieren.\nMöchten Sie die Aktualisierung von Markierungen deaktivieren?"
+
 #. Resource IDs: (606)
 msgid ""
 "To clear temporary files, you should ensure that no other TortoiseGit "
@@ -10616,6 +10633,10 @@ msgstr "prn"
 #. Resource IDs: (245)
 msgid "quarter of year"
 msgstr "Quartal"
+
+#. Resource IDs: (65535)
+msgid "renamed"
+msgstr "umbenannt"
 
 #. Resource IDs: (10)
 msgid "replaced"
