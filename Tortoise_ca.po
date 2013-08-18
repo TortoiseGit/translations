@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-18 15:59+0000\n"
+"PO-Revision-Date: 2013-08-18 16:23+0000\n"
 "Last-Translator: abanibi <abanibi@tempemail.net>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -1442,7 +1442,7 @@ msgstr "Ja existeix una branca amb aquest nom."
 msgid ""
 "A merge process is active, so this commit will be a merge commit. In order "
 "to abort a merge, you have to perform a reset or forced checkout."
-msgstr ""
+msgstr "Un procés de fusió està actiu, per tant aquesta entrega serà una entrega fusionada. Per tal d'interrompre la fusió heu de fer un Reset o una extracció forçada"
 
 #. Resource IDs: (201)
 msgid "A newer version is available. Please download the current version!"
@@ -1510,15 +1510,15 @@ msgstr "Interromp"
 
 #. Resource IDs: (15)
 msgid "Abort &Merge"
-msgstr ""
+msgstr "Interromp &Fusió"
 
 #. Resource IDs: (4592)
 msgid "Abort Merge"
-msgstr ""
+msgstr "Interromp Fusió"
 
 #. Resource IDs: (15)
 msgid "Aborts a running merge."
-msgstr ""
+msgstr "Interromp una fusió en curs"
 
 #. Resource IDs: (156)
 msgid "About"
@@ -2135,7 +2135,7 @@ msgstr "Branca %s està per darrera de %s\n%s sera avançada a %s"
 
 #. Resource IDs: (68)
 msgid "Branch Name"
-msgstr ""
+msgstr "Nom de la branca"
 
 #. Resource IDs: (64)
 msgid "Branch/Tag name is invalid."
@@ -2458,7 +2458,7 @@ msgstr "Selecciona:"
 
 #. Resource IDs: (77)
 msgid "Checkout"
-msgstr "Obté"
+msgstr "Extreu"
 
 #. Resource IDs: (67)
 msgid "Cherry Pick"
@@ -2502,7 +2502,7 @@ msgstr "Neteja tipus"
 
 #. Resource IDs: (76)
 msgid "Clean up stale remote banches"
-msgstr ""
+msgstr "Neteja les branques remotes caducades"
 
 #. Resource IDs: (145)
 msgid "Cleaning up"
@@ -3262,7 +3262,7 @@ msgstr "Auxiliar de credencials:"
 
 #. Resource IDs: (65535)
 msgid "Credentials"
-msgstr ""
+msgstr "Credencials"
 
 #. Resource IDs: (65535)
 msgid "Credits:"
@@ -3493,7 +3493,7 @@ msgstr "Eliminant refs remots..."
 
 #. Resource IDs: (65535)
 msgid "Delivery:"
-msgstr ""
+msgstr "Lliurament:"
 
 #. Resource IDs: (1002)
 msgid "Description"
@@ -3999,7 +3999,7 @@ msgstr "S'ha trobat un error inesperat mentre s'escrivia %1."
 
 #. Resource IDs: (1759)
 msgid "Encryption"
-msgstr ""
+msgstr "Encriptació"
 
 #. Resource IDs: (1617)
 msgid "End"
@@ -4519,11 +4519,11 @@ msgstr "Primer dolent connegut:"
 
 #. Resource IDs: (32818)
 msgid "Fit image &heights"
-msgstr ""
+msgstr "Ajusta l'alçada de la imatge"
 
 #. Resource IDs: (32817)
 msgid "Fit image &widths"
-msgstr ""
+msgstr "Ajusta l'amplada de la imatge"
 
 #. Resource IDs: (1315)
 msgid "Floppy drives (A: B:)"
@@ -5027,11 +5027,11 @@ msgstr "ID:32811:V C +U"
 
 #. Accelerator Entry for Menu ID:32817; 'Fit image &widths'
 msgid "ID:32817:V   +W"
-msgstr ""
+msgstr "ID:32817:V   +W"
 
 #. Accelerator Entry for Menu ID:32818; 'Fit image &heights'
 msgid "ID:32818:V   +H"
-msgstr ""
+msgstr "ID:32818:V   +H"
 
 #. Accelerator Entry for Menu ID:32822; ''
 msgid "ID:32822:V C +F"
@@ -5373,7 +5373,7 @@ msgstr "En les entregues"
 
 #. Resource IDs: (1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr ""
+msgstr "Per tal d'interrompre una fusió en curs és necessari reinicialitzar (reset to HEAD)"
 
 #. Resource IDs: (1499)
 msgid "Include &Tags"
@@ -5599,7 +5599,7 @@ msgstr "Línia moguda a la línia %ld"
 
 #. Resource IDs: (65535)
 msgid "Line width"
-msgstr ""
+msgstr "Gruix de la línia"
 
 #. Resource IDs: (65535)
 msgid "Line:"
@@ -5680,7 +5680,7 @@ msgstr "Local:"
 msgid ""
 "Location where the contents of the\n"
 "selected revision of the repository will be saved to."
-msgstr ""
+msgstr "Ruta on es desaran els continguts de la revisió del dipòsit seleccionada."
 
 #. Resource IDs: (32854)
 msgid "Locator Bar"
@@ -5744,7 +5744,7 @@ msgstr "Lum"
 
 #. Resource IDs: (90)
 msgid "MAPI"
-msgstr ""
+msgstr "MAPI"
 
 #. Resource IDs: (65535)
 msgid "MSysGit"
@@ -5798,7 +5798,7 @@ msgstr "Marca com a resolt"
 msgid ""
 "Mark as resolved\n"
 "The file status is changed to modified"
-msgstr ""
+msgstr "Marca com a resolt.\nL'estatus de l'arxiu s'ha canviat a modificat"
 
 #. Resource IDs: (2051)
 msgid ""
@@ -6117,7 +6117,7 @@ msgstr "Nou sub-mòdul"
 
 #. Resource IDs: (605)
 msgid "Newer commit time"
-msgstr "Hora de l'entrega nova"
+msgstr "Hora d'entrega més nova"
 
 #. Resource IDs: (20308)
 msgid "Next"
@@ -6151,7 +6151,7 @@ msgstr "Sense avançaments ràpids"
 
 #. Resource IDs: (1716)
 msgid "No Checkout"
-msgstr "No comprovar"
+msgstr "Sense extracció"
 
 #. Resource IDs: (1482)
 msgid "No Co&mmit"
@@ -6262,7 +6262,7 @@ msgstr "No s'ha trobat el directori de treball."
 
 #. Resource IDs: (65535)
 msgid "Node size"
-msgstr ""
+msgstr "Mida del node"
 
 #. Resource IDs: (1272)
 msgid "None"
@@ -6309,7 +6309,7 @@ msgstr "No hi ha pedaços."
 
 #. Resource IDs: (65535)
 msgid "Note node"
-msgstr ""
+msgstr "Nota del node"
 
 #. Resource IDs: (3887)
 msgid ""
@@ -6462,7 +6462,7 @@ msgstr "Office XP"
 
 #. Resource IDs: (605)
 msgid "Older commit time"
-msgstr "Hora de l'entrega antiga"
+msgstr "Hora de l'entrega més antiga"
 
 #. Resource IDs: (65535)
 msgid "Older lines"
@@ -6566,7 +6566,7 @@ msgstr "Mida original"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
-msgstr ""
+msgstr "Nom de l'origen"
 
 #. Resource IDs: (1065)
 msgid "Other Task Panes"
@@ -6732,7 +6732,7 @@ msgstr "Camí"
 
 #. Resource IDs: (314)
 msgid "Path found that matches the patch better."
-msgstr ""
+msgstr "S'ha trobat una ruta que encaixa millor amb el pedaç."
 
 #. Resource IDs: (1580, 65535)
 msgid "Path:"
@@ -6766,7 +6766,7 @@ msgstr "Escull"
 
 #. Resource IDs: (90)
 msgid "Pick commit hash"
-msgstr ""
+msgstr "Escull hash de l'entrega"
 
 #. Resource IDs: (69)
 #, c-format
@@ -7056,7 +7056,7 @@ msgstr "Surt de l'aplicació; confirma si es vol desar els documents\nSurt"
 msgid ""
 "Quit\n"
 "Exit TortoiseGitMerge without saving the modifications"
-msgstr ""
+msgstr "Tanca\nTanca TortoiseGitMerge sense desar les modificacions"
 
 #. Resource IDs: (1073)
 msgid "R&AM drives"
@@ -7274,7 +7274,7 @@ msgstr "URL Remota"
 
 #. Resource IDs: (1754)
 msgid "Remote &tracking branch"
-msgstr ""
+msgstr "Branca que segueix una branca remota"
 
 #. Resource IDs: (65535)
 msgid "Remote Branch"
@@ -7679,7 +7679,7 @@ msgstr "Es&tadístiques"
 
 #. Resource IDs: (9)
 msgid "S&witch/Checkout..."
-msgstr "Canvia a/Fes un checkout"
+msgstr "Canvia a/Extreu"
 
 #. Resource IDs: (604, 1251)
 msgid "SHA-1"
@@ -7695,7 +7695,7 @@ msgstr "Servidor SMTP:"
 
 #. Resource IDs: (90)
 msgid "SMTP, directly to destination server"
-msgstr ""
+msgstr "SMTP, directament al servidor de destí"
 
 #. Resource IDs: (1081)
 msgid "SSH"
@@ -7745,17 +7745,17 @@ msgstr "Anomena i Desa"
 msgid ""
 "Save Bottom File as\n"
 "You're asked where to save the bottom file"
-msgstr ""
+msgstr "Anomena i desa l'arxiu inferior\nHaurà d'especificar on desar l'arxiu inferior"
 
 #. Resource IDs: (316)
 msgid "Save File"
-msgstr ""
+msgstr "Desa l'arxiu"
 
 #. Resource IDs: (316)
 msgid ""
 "Save Left File as\n"
 "You're asked where to save the left file"
-msgstr ""
+msgstr "Anomena i desa l'arxiu de l'esquerra\nHaurà d'especificar on desar l'arxiu de l'esquerra"
 
 #. Resource IDs: (316)
 #, c-format
@@ -7763,13 +7763,13 @@ msgid ""
 "Save Left File\n"
 "The modifications are saved to\n"
 "%s"
-msgstr ""
+msgstr "Desa l'arxiu de l'esquerra\nLes modificacions s'han desat a \n%s"
 
 #. Resource IDs: (316)
 msgid ""
 "Save Right File as\n"
 "You're asked where to save the right file"
-msgstr ""
+msgstr "Desa l'arxiu de la dreta\nHaurà d'especificar on desar l'arxiu de la dreta"
 
 #. Resource IDs: (316)
 #, c-format
@@ -7777,13 +7777,13 @@ msgid ""
 "Save Right File\n"
 "The modifications are saved to\n"
 "%s"
-msgstr ""
+msgstr "Desa l'arxiu de la dreta\nLes modificacions s'han desat a \n%s"
 
 #. Resource IDs: (316)
 msgid ""
 "Save all\n"
 "Both Files are saved"
-msgstr ""
+msgstr "Desa'ls tots\nAmbdós arxius seran desats"
 
 #. Resource IDs: (156)
 msgid "Save as"
@@ -7801,7 +7801,7 @@ msgstr "Anomena i Desa"
 msgid ""
 "Save as\n"
 "You're asked where to save the file"
-msgstr ""
+msgstr "Anomena i desa\nHaurà d'especificar on desar l'arxiu"
 
 #. Resource IDs: (3857)
 #, c-format
@@ -7810,7 +7810,7 @@ msgstr "Desa canvis a %1?"
 
 #. Resource IDs: (314)
 msgid "Save modifications."
-msgstr ""
+msgstr "Desa canvis"
 
 #. Resource IDs: (1253)
 msgid "Save revision &to..."
@@ -7850,7 +7850,7 @@ msgstr "Desa diff unificat des de HEAD"
 msgid ""
 "Save\n"
 "Save the file with the conflict markers."
-msgstr ""
+msgstr "Desa\nDesa l'arxiu amb els marcadors de conflicte"
 
 #. Resource IDs: (314)
 #, c-format
@@ -7858,7 +7858,7 @@ msgid ""
 "Save\n"
 "The modifications are saved to\n"
 "%s"
-msgstr ""
+msgstr "Desa\nLes modificacions s'han desat a\n%s"
 
 #. Resource IDs: (108)
 msgid "Saved Data"
@@ -8007,13 +8007,13 @@ msgstr "Selecciona visualitzador per fitxers diff"
 
 #. Resource IDs: (316)
 msgid "Select what file you want to save as"
-msgstr ""
+msgstr "Seleccioni l'arxiu que voleu anomenar i desar"
 
 #. Resource IDs: (316)
 msgid ""
 "Select what file you want to save as\n"
 "Note: There is unresolved conflict!"
-msgstr ""
+msgstr "Seleccioni l'arxiu que voleu anomenar i desar\nNota: Hi ha un conflicte que encara no s'ha resolt"
 
 #. Resource IDs: (1067)
 msgid "Select/deselect &all"
@@ -8740,7 +8740,7 @@ msgstr "Canvia a/Extreu"
 
 #. Resource IDs: (1256)
 msgid "Switch/Checkout to"
-msgstr "Canvia a/Extreu"
+msgstr "Canvia a/Extreu a"
 
 #. Resource IDs: (1254)
 msgid "Switch/Checkout to this..."
@@ -9193,7 +9193,7 @@ msgstr "Ara mateix hi ha %d icones de superposició instal·lades, a part de les
 msgid ""
 "There are more editable views.\n"
 "What view do you want to save?"
-msgstr ""
+msgstr "Hi ha més vistes editables.\nQuina vista vol desar?"
 
 #. Resource IDs: (64)
 msgid "There are no issue-tracker providers available."
@@ -9499,7 +9499,7 @@ msgstr "Retalla espais de la dreta"
 
 #. Resource IDs: (251)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
-msgstr "Prova de fer  'Neteja'. Si això no funciona haureu de fer un nou checkout."
+msgstr "Prova de fer  'Neteja'. Si això no funciona haureu de fer una nova extracció."
 
 #. Resource IDs: (73)
 msgid "Try again"
@@ -9648,7 +9648,7 @@ msgstr "&Profunditat desconeguda"
 
 #. Resource IDs: (315)
 msgid "Unresolved conflicts!"
-msgstr ""
+msgstr "Conflictes sense resoldre!"
 
 #. Resource IDs: (3841)
 msgid "Untitled"
@@ -9737,7 +9737,7 @@ msgstr "Utilitza cintes"
 
 #. Resource IDs: (1500)
 msgid "Use Task Dialog"
-msgstr ""
+msgstr "Utilitza la finestra de tasques"
 
 #. Resource IDs: (1497)
 msgid "Use Thin &Pack (For slow network connections)"
@@ -9799,7 +9799,7 @@ msgstr "Utilitza fitxer esquerra"
 
 #. Resource IDs: (1762)
 msgid "Use local branch color for current branch"
-msgstr ""
+msgstr "Utilitza el color de la branca local per la branca actual"
 
 #. Resource IDs: (1432)
 msgid "Use recycle bin when reverting"
@@ -9873,7 +9873,7 @@ msgid ""
 "Use the found path.\n"
 "Apply the patch to\n"
 "%s"
-msgstr ""
+msgstr "Utilitza el pedaç trobat.\nAplica el pedaç a\n%s"
 
 #. Resource IDs: (314)
 #, c-format
@@ -9881,7 +9881,7 @@ msgid ""
 "Use the original path.\n"
 "Apply the patch to\n"
 "%s"
-msgstr ""
+msgstr "Utilitza el pedaç original\nAplica el pedaç a\n%s"
 
 #. Resource IDs: (251)
 msgid "Use this &whole file"
@@ -9959,7 +9959,7 @@ msgstr "Versió 1"
 
 #. Resource IDs: (72)
 msgid "Version 1 (Newer commit time)"
-msgstr ""
+msgstr "Versió 1 (Hora d'entrega més nova)"
 
 #. Resource IDs: (72, 1645)
 msgid "Version 2 (Base)"
@@ -9967,7 +9967,7 @@ msgstr "Versió 2 (Base)"
 
 #. Resource IDs: (72)
 msgid "Version 2 (Base) (Newer commit time)"
-msgstr ""
+msgstr "Versió 2 (Base) (Hora d'entrega més nova)"
 
 #. Resource IDs: (1075)
 msgid "Version Information"
@@ -9991,7 +9991,7 @@ msgstr "Visualiització"
 
 #. Resource IDs: (90)
 msgid "View .tgitconfig"
-msgstr ""
+msgstr "Mostra .tgitconfig"
 
 #. Resource IDs: (328, 603)
 msgid "View Patch"
@@ -10091,7 +10091,7 @@ msgid ""
 "When resolving conflicts, you always have to save even if there is no "
 "conflict shown. TortoiseGitMerge can merge changes that Git can't and won't "
 "show a conflict for those!"
-msgstr ""
+msgstr "Mentre s'estan resolent conflictes, sempre heu de desar, fins i tot quan no es mostra cap conflicte.\nTortoiseGitMerge pot fusionar arxius que Git no és capaç de fusionar, i no mostrarà conflictes en ells."
 
 #. Resource IDs: (604)
 msgid ""
@@ -10511,7 +10511,7 @@ msgstr "dummy"
 
 #. Resource IDs: (1580)
 msgid "eMail settings"
-msgstr ""
+msgstr "Configuració de correu electrònic"
 
 #. Resource IDs: (79)
 #, c-format
@@ -10650,7 +10650,7 @@ msgstr "trimestre"
 
 #. Resource IDs: (65535)
 msgid "renamed"
-msgstr ""
+msgstr "Reanomenat"
 
 #. Resource IDs: (10)
 msgid "replaced"
