@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-11 11:48+0000\n"
+"PO-Revision-Date: 2013-08-23 18:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -152,6 +152,25 @@ msgstr "%1!d!年前"
 #, c-format
 msgid "%1!d! minutes ago"
 msgstr "%1!d!分钟前"
+
+#. Resource IDs: (90)
+#, c-format
+msgid "%1!s!"
+msgstr ""
+
+#. Resource IDs: (90)
+#, c-format
+msgid ""
+"%1!s!\r\n"
+"Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
+msgstr ""
+
+#. Resource IDs: (90)
+#, c-format
+msgid ""
+"%1!s!\r\n"
+"Size %2!s!"
+msgstr ""
 
 #. Resource IDs: (3860)
 #, c-format
@@ -6772,6 +6791,10 @@ msgstr "选取"
 msgid "Pick commit hash"
 msgstr "摘取提交hash"
 
+#. Resource IDs: (90)
+msgid "Pick commit message"
+msgstr ""
+
 #. Resource IDs: (69)
 #, c-format
 msgid "Pick up %s"
@@ -8669,6 +8692,13 @@ msgstr "Submodule Update"
 #. Resource IDs: (1624)
 msgid "Submodule Update Options"
 msgstr "子模块更新选项"
+
+#. Resource IDs: (90)
+#, c-format
+msgid ""
+"Submodule \"%1!s!\"\r\n"
+"Revision %2!s!"
+msgstr ""
 
 #. Resource IDs: (1708)
 msgid "Submodules"
