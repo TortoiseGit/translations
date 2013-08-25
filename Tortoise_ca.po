@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-23 18:08+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2013-08-25 14:30+0000\n"
+"Last-Translator: abanibi <abanibi@tempemail.net>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -152,21 +152,21 @@ msgstr "fa %1!d! minuts"
 #. Resource IDs: (90)
 #, c-format
 msgid "%1!s!"
-msgstr ""
+msgstr "%1!s!"
 
 #. Resource IDs: (90)
 #, c-format
 msgid ""
 "%1!s!\r\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr ""
+msgstr "%1!s!\nMostrant %2!d! arxius, %3!d! sub-mòduls i %4!d! directoris, %5!d! elements en total"
 
 #. Resource IDs: (90)
 #, c-format
 msgid ""
 "%1!s!\r\n"
 "Size %2!s!"
-msgstr ""
+msgstr "%1!s!\nMida %2!s!"
 
 #. Resource IDs: (3860)
 #, c-format
@@ -1842,7 +1842,7 @@ msgstr "Aplicar Comparació unificada"
 
 #. Resource IDs: (156, 626)
 msgid "Aqua Style"
-msgstr "Estil Aqua"
+msgstr "Estil aqua"
 
 #. Resource IDs: (65535)
 msgid "Arabic"
@@ -2865,7 +2865,7 @@ msgstr "Tipus de configuració:"
 
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
-msgstr "Configura Scripts tipus Hook"
+msgstr "Configura scripts d'interconnexió"
 
 #. Resource IDs: (284)
 msgid "Configure Issue Tracker Integration"
@@ -3558,7 +3558,7 @@ msgstr "Visualitza diffs"
 
 #. Resource IDs: (193)
 msgid "Diff Viewer::Merge Tool"
-msgstr "Diff Viewer::Merge Tool"
+msgstr "Visor de Diffs::Eina de fusió"
 
 #. Resource IDs: (65535)
 msgid "Diff file:"
@@ -3661,7 +3661,7 @@ msgstr "No em mostris més aquest avís (si prems Ignora)"
 
 #. Resource IDs: (1669)
 msgid "Do not autoselect submodules"
-msgstr "No auto- seleccionis sub-mòduls"
+msgstr "No auto-seleccionis sub-mòduls"
 
 #. Resource IDs: (65535)
 msgid "Do not show the context menu for the following paths:"
@@ -4660,7 +4660,7 @@ msgstr "General"
 
 #. Resource IDs: (333)
 msgid "General::Alternative editor"
-msgstr "General::Alternative editor"
+msgstr "General::Editor Alternatiu"
 
 #. Resource IDs: (315)
 msgid "General::Colors 1"
@@ -4680,11 +4680,11 @@ msgstr "General:: Menú Contextual"
 
 #. Resource IDs: (196)
 msgid "General::Dialogs"
-msgstr "General::Dialogs"
+msgstr "General::Diàlegs"
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
-msgstr "General::Set Extend Menu Item"
+msgstr "General::Menú contextual estès"
 
 #. Resource IDs: (1254)
 msgid "Get merge logs"
@@ -4810,11 +4810,11 @@ msgstr "Ruta de Git.exe:"
 
 #. Resource IDs: (4591)
 msgid "Git::Credential"
-msgstr "Git::Credential"
+msgstr "Git::Credencials"
 
 #. Resource IDs: (4570)
 msgid "Git::Remote"
-msgstr "Git::Remote"
+msgstr "Git::Remot"
 
 #. Resource IDs: (89)
 msgid "Global"
@@ -4978,23 +4978,23 @@ msgstr "Inici"
 
 #. Resource IDs: (103)
 msgid "Hook Scripts"
-msgstr "Scripts Hook"
+msgstr "Scripts d'interconnexió"
 
 #. Resource IDs: (4571)
 msgid "Hook Scripts::Issue Tracker Config"
-msgstr "Hook Scripts::Issue Tracker Config"
+msgstr "Scripts d'interconnexió::Configuració del rastreig d'incidències"
 
 #. Resource IDs: (283)
 msgid "Hook Scripts::Issue Tracker Integration"
-msgstr "Scripts tipus Hook::Integració del Seguidor d'Incidències"
+msgstr "Scripts d'interconnexió::Integració del Seguidor d'Incidències"
 
 #. Resource IDs: (198)
 msgid "Hook Type"
-msgstr "Tipus de Hook"
+msgstr "Tipus d'interconnexió"
 
 #. Resource IDs: (1334)
 msgid "Hook Type:"
-msgstr "Tipus de Hook:"
+msgstr "Tipus d'interconnexió:"
 
 #. Resource IDs: (65535)
 msgid "I&nclude paths:"
@@ -5635,7 +5635,7 @@ msgstr "Línies afegides"
 
 #. Resource IDs: (64, 601)
 msgid "Lines removed"
-msgstr "Línies amagades"
+msgstr "Línies eliminades"
 
 #. Resource IDs: (3605)
 msgid ""
@@ -6103,7 +6103,7 @@ msgstr "Xarxa"
 
 #. Resource IDs: (321)
 msgid "Network::Email"
-msgstr "Network::Email"
+msgstr "Xarxa::Correu electrònic"
 
 #. Resource IDs: (1002, 30721, 65535)
 msgid "New"
@@ -6789,7 +6789,7 @@ msgstr "Escull hash de l'entrega"
 
 #. Resource IDs: (90)
 msgid "Pick commit message"
-msgstr ""
+msgstr "Escull missatge d'entrega"
 
 #. Resource IDs: (69)
 #, c-format
@@ -6825,15 +6825,15 @@ msgstr "Diagrama de sectors"
 
 #. Resource IDs: (83)
 msgid "Please enter a hook script to execute."
-msgstr "Introdueix un script tipus hook per executar."
+msgstr "Introdueix un scripts d'interconnexió per executar."
 
 #. Resource IDs: (83)
 msgid "Please enter a path where to apply the hook script to."
-msgstr "Introdueix una ruta a on aplicar el hook script"
+msgstr "Introdueix una ruta a on aplicar l'scripts d'interconnexió"
 
 #. Resource IDs: (83)
 msgid "Please select a hook type"
-msgstr "Seleccioneu un tipus de hook."
+msgstr "Seleccioneu un tipus d'interconnexió"
 
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
@@ -6861,11 +6861,11 @@ msgstr "Port :"
 
 #. Resource IDs: (569)
 msgid "Post-Commit Hook"
-msgstr "Hook Post-Entrega"
+msgstr "Interconnexió Post-Entrega"
 
 #. Resource IDs: (604)
 msgid "Post-Push Hook"
-msgstr "Hook de Post-Push"
+msgstr "Interconnexió Post-Empenta"
 
 #. Resource IDs: (58115)
 msgid "Pre&v Page"
@@ -6873,11 +6873,11 @@ msgstr "Pàgina Prè&via"
 
 #. Resource IDs: (569)
 msgid "Pre-Commit Hook"
-msgstr "Hook Pre-Entrega"
+msgstr "Interconnexió Pre-Entrega"
 
 #. Resource IDs: (604)
 msgid "Pre-Push Hook"
-msgstr "Hook de Pre-push"
+msgstr "Interconnexió Pre-empenta"
 
 #. Resource IDs: (68)
 msgid "Preparing commit..."
@@ -7131,7 +7131,7 @@ msgstr "Re&staura valor per defecte"
 
 #. Resource IDs: (8)
 msgid "Re&vert..."
-msgstr "Re&verteix..."
+msgstr "Re&stitueix..."
 
 #. Resource IDs: (606)
 msgid "Reachable"
@@ -7570,12 +7570,12 @@ msgstr "Restitueix entrega %s"
 
 #. Resource IDs: (1258)
 msgid "Revert to parent revision"
-msgstr "Restituir a la versió pare"
+msgstr "Restitueix a la revisió pare"
 
 #. Resource IDs: (323)
 #, c-format
 msgid "Revert to revision %s"
-msgstr "Restituir a la revisió %s"
+msgstr "Restitueix a la revisió %s"
 
 #. Resource IDs: (73)
 msgid "Reverted"
@@ -7991,7 +7991,7 @@ msgstr "Selecciona carpeta a on desar els fitxers seleccionats"
 
 #. Resource IDs: (197)
 msgid "Select hook script file"
-msgstr "Selecciona fitxer script tipus hook"
+msgstr "Selecciona fitxer amb l'script d'interconnexió"
 
 #. Resource IDs: (1405)
 msgid "Select items automatically"
@@ -8548,7 +8548,7 @@ msgstr "Inicia la tria"
 
 #. Resource IDs: (569)
 msgid "Start Commit Hook"
-msgstr "Hook d'inici Entrega"
+msgstr "Interconnexió d'inici Entrega"
 
 #. Resource IDs: (67, 68)
 msgid "Start Rebase"
@@ -8694,7 +8694,7 @@ msgstr "Opcions d'actualització del sub-mòdul"
 msgid ""
 "Submodule \"%1!s!\"\r\n"
 "Revision %2!s!"
-msgstr ""
+msgstr "Sub-mòdul \"%1!s!\"\nRevisió %2!s!"
 
 #. Resource IDs: (1708)
 msgid "Submodules"
@@ -9005,7 +9005,7 @@ msgstr "La carpeta \n%s\nno existeix.\nVoleu crear-la?"
 msgid ""
 "The hook script returned an error:\n"
 "%s"
-msgstr "El script hook ha retornat un error:\n%s"
+msgstr "L'script d'interconnexió ha retornat un error:\n%s"
 
 #. Resource IDs: (7)
 msgid "The image can not be shown."

@@ -7,14 +7,15 @@
 # Baquatelle <abel@abel.hu>, 2012
 # Baquatelle <abel@abel.hu>, 2012
 # gaborpro <protar.gabor@gmail.com>, 2013
+# hgrg <hgrg.wp@gmail.com>, 2013
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-25 00:34+0000\n"
-"Last-Translator: gaborpro <protar.gabor@gmail.com>\n"
+"PO-Revision-Date: 2013-08-25 13:37+0000\n"
+"Last-Translator: hgrg <hgrg.wp@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -446,7 +447,7 @@ msgstr ""
 
 #. Resource IDs: (1251)
 msgid "&Browse repository"
-msgstr "&A tároló böngészése"
+msgstr "&Tároló böngészése"
 
 #. Resource IDs: (1001, 1009)
 msgid "&Browse..."
@@ -944,7 +945,7 @@ msgstr "&Port:"
 
 #. Resource IDs: (1069)
 msgid "&Print Preview"
-msgstr "Ny&omtatási kép"
+msgstr "&Nyomtatási kép"
 
 #. Resource IDs: (58116)
 msgid "&Print..."
@@ -1830,7 +1831,7 @@ msgstr "Patch alkalmazása..."
 
 #. Resource IDs: (311)
 msgid "Apply Patches"
-msgstr "Patch alkalmazása"
+msgstr "Folt alkalmazása"
 
 #. Resource IDs: (22)
 msgid "Apply a series of patches from a mailbox"
@@ -1865,7 +1866,7 @@ msgstr "Biztos, hogy a konfliktusos fájlokat feloldottnak jelölöd?"
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose <b>all</b> changes"
 " since the last update!"
-msgstr "Biztos,hogy visszaállítasz %d elemet? Az <b>összes</b> módosításod elveszik!"
+msgstr "Biztos,hogy visszaállítasz %d elemet? Az <b>összes</b> módosítás elveszik!"
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical"
@@ -2143,7 +2144,7 @@ msgstr ""
 
 #. Resource IDs: (82, 1500, 1512, 1579, 1586)
 msgid "Branch"
-msgstr ""
+msgstr "Ág"
 
 #. Resource IDs: (604)
 #, c-format
@@ -2166,7 +2167,7 @@ msgstr ""
 
 #. Resource IDs: (1518)
 msgid "Branch:"
-msgstr ""
+msgstr "Ág:"
 
 #. Resource IDs: (1383)
 msgid "Bro&wse"
@@ -2623,7 +2624,7 @@ msgstr ""
 
 #. Resource IDs: (1572)
 msgid "Clone Existing Repository"
-msgstr "Meglévő repository klónozása"
+msgstr "Meglévő tároló klónozása"
 
 #. Resource IDs: (22)
 msgid "Clone a repository"
@@ -4232,7 +4233,7 @@ msgstr ""
 
 #. Resource IDs: (74)
 msgid "Failed revert"
-msgstr "Nem sikerült a visszaállítás"
+msgstr "Visszaállítás sikertelen"
 
 #. Resource IDs: (1)
 #, c-format
@@ -5711,7 +5712,7 @@ msgstr "Napló"
 
 #. Resource IDs: (65535)
 msgid "Log Branch Line"
-msgstr ""
+msgstr "Branch napló"
 
 #. Resource IDs: (65535)
 msgid "Log Graphic"
@@ -5719,7 +5720,7 @@ msgstr ""
 
 #. Resource IDs: (211)
 msgid "Log History"
-msgstr "Korábbi megjegyzések"
+msgstr "Korábbi bejegyzések"
 
 #. Resource IDs: (130)
 msgid "Log Messages"
@@ -6212,7 +6213,7 @@ msgstr "Nem történt hiba."
 msgid ""
 "No files or folders were modified. There is nothing for TortoiseGit to "
 "revert!"
-msgstr "Nincsenek változtatott fájlok vagy mappák. Semmit nem tud a TortoiseGit visszaállítani."
+msgstr "Nincsenek módosított fájlok vagy mappák. Így a TortoiseGit számára nincs mit visszaállítani."
 
 #. Resource IDs: (239)
 msgid ""
@@ -6226,7 +6227,7 @@ msgid ""
 "No files were changed or added since\n"
 "the last commit. There's nothing\n"
 "for TortoiseGit to do here..."
-msgstr "Nincsek változtatott vagy hozzáadott fájlok az⏎\nutolsó commit óta. A TortoiseGit nem tud⏎\nsemmit tenni..."
+msgstr "Nincsek módosított vagy hozzáadott fájlok az⏎\nutolsó commit óta. A TortoiseGit nem tud⏎\nsemmit tenni..."
 
 #. Resource IDs: (170)
 msgid ""
@@ -7583,7 +7584,7 @@ msgstr "Visszaállítva"
 
 #. Resource IDs: (9)
 msgid "Reverts all changes you made since the last update"
-msgstr "Minden módosítást visszaállít az utolsó frissítés óta"
+msgstr "Minden az utolsó frissítés óta végzett módosítást visszaállít"
 
 #. Resource IDs: (14)
 msgid "Reverts an addition to version control"
@@ -9162,7 +9163,7 @@ msgstr "A tároló sikeresen létrejött."
 msgid ""
 "The selected file appears to still have one or more conflict markers in it.\n"
 "Are you sure you want to mark the file resolved?"
-msgstr "A kiválasztott fájlban még vannak konfliktusok.\nBiztos hogy feloldottnak jelölöd a fájlt?"
+msgstr "A kiválasztott fájlban még van(nak) konfliktus(ok).\nBiztos hogy feloldottnak jelölöd?"
 
 #. Resource IDs: (170)
 #, c-format
@@ -9236,7 +9237,7 @@ msgid ""
 "You should resolve those conflicts first before saving.\n"
 "Do you want to save the file with the conflicts still there?\n"
 "If you click YES, then you have to manually resolve the conflicts in another editor!"
-msgstr "Még vannak feloldatlan konfliktusok a(z) %d. sorban!\nEzeket célszerű feloldani a mentés előt.\nBiztos, hogy elmented a fájlt a konfliktusokkal együtt?\nHa az igenre kattintasz, akkor a feloldást kézzel, egy másik programmal kell megtenned!"
+msgstr "Még vannak feloldatlan konfliktusok a(z) %d. sorban!\nEzeket célszerű feloldani a mentés előt.\nBiztos, hogy elmented a fájlt a konfliktusokkal együtt?\nHa az Igenre kattintasz, akkor a feloldást kézzel, egy másik programmal kell megtenned!"
 
 #. Resource IDs: (313)
 msgid ""
@@ -10307,7 +10308,7 @@ msgstr "Legfeljebb %d eszközt definiálhatsz."
 
 #. Resource IDs: (170)
 msgid "You must enter a log message for the commit"
-msgstr "A üzenet megadása kötelező"
+msgstr "Üzenet megadása kötelező"
 
 #. Resource IDs: (196)
 msgid "You must restart your system for the changes to take effect."
