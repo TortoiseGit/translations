@@ -6,14 +6,15 @@
 # Translators:
 # Baquatelle <abel@abel.hu>, 2012
 # Baquatelle <abel@abel.hu>, 2012
+# gaborpro <protar.gabor@gmail.com>, 2013
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-23 18:08+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2013-08-25 00:34+0000\n"
+"Last-Translator: gaborpro <protar.gabor@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,72 +82,72 @@ msgstr "%1 nem található."
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Day ago"
-msgstr ""
+msgstr "%1!d! napja"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Days ago"
-msgstr ""
+msgstr "%1!d! napja"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Hour ago"
-msgstr ""
+msgstr "%1!d! órája"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Hours ago"
-msgstr ""
+msgstr "%1!d! órája"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Minute ago"
-msgstr ""
+msgstr "%1!d! perce"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Month ago"
-msgstr ""
+msgstr "%1!d! hónapja"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Months ago"
-msgstr ""
+msgstr "%1!d! hónapja"
 
 #. Resource IDs: (602)
 #, c-format
 msgid "%1!d! Second ago"
-msgstr ""
+msgstr "%1!d! másodperce"
 
 #. Resource IDs: (602)
 #, c-format
 msgid "%1!d! Seconds ago"
-msgstr ""
+msgstr "%1!d! másodperce"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Week ago"
-msgstr ""
+msgstr "%1!d! hete"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Weeks ago"
-msgstr ""
+msgstr "%1!d! hete"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Year ago"
-msgstr ""
+msgstr "%1!d! éve"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Years ago"
-msgstr ""
+msgstr "%1!d! éve"
 
 #. Resource IDs: (602)
 #, c-format
 msgid "%1!d! minutes ago"
-msgstr ""
+msgstr "%1!d! perce"
 
 #. Resource IDs: (90)
 #, c-format
@@ -1365,7 +1366,7 @@ msgid ""
 "To use <b>TortoiseGit</b> please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all <b>TortoiseGit</b> commands.\n"
 "And <u>read the manual!</u>"
-msgstr ""
+msgstr "A <b>TortoiseGit</b> egy héj kiegészítés.⏎\nEz azt jelenti, hogy a Windows explorer-be épül be.⏎\nA <b>TortoiseGit</b> használatához a <b>TortoiseGit</b> parancsokat az explorerben a mappákon jobb egérgombbal kattintva elérhető menüben találhatja meg.⏎\n<u>Olvass el a kézikönyvet!</u>"
 
 #. Resource IDs: (84)
 msgid ""
@@ -1544,7 +1545,7 @@ msgstr "Névjegy"
 
 #. Resource IDs: (129)
 msgid "About TortoiseGit"
-msgstr ""
+msgstr "TortoiseGit névjegy"
 
 #. Resource IDs: (100)
 msgid "About TortoiseGitBlame"
@@ -1829,7 +1830,7 @@ msgstr "Patch alkalmazása..."
 
 #. Resource IDs: (311)
 msgid "Apply Patches"
-msgstr ""
+msgstr "Patch alkalmazása"
 
 #. Resource IDs: (22)
 msgid "Apply a series of patches from a mailbox"
@@ -2237,7 +2238,7 @@ msgstr "CAP"
 
 #. Resource IDs: (65535)
 msgid "CC:"
-msgstr ""
+msgstr "CC:"
 
 #. Resource IDs: (1741)
 msgid "Calculate"
@@ -2622,7 +2623,7 @@ msgstr ""
 
 #. Resource IDs: (1572)
 msgid "Clone Existing Repository"
-msgstr ""
+msgstr "Meglévő repository klónozása"
 
 #. Resource IDs: (22)
 msgid "Clone a repository"
@@ -2634,7 +2635,7 @@ msgstr ""
 
 #. Resource IDs: (14)
 msgid "Clone..."
-msgstr ""
+msgstr "Klónozás..."
 
 #. Resource IDs: (2, 1003, 1007, 1064)
 msgid "Close"
@@ -3195,7 +3196,7 @@ msgstr "Változáslista készítése"
 
 #. Resource IDs: (1527)
 msgid "Create New Branch"
-msgstr ""
+msgstr "Új ág létrehozása"
 
 #. Resource IDs: (20)
 msgid "Create Patch Serial..."
@@ -3296,7 +3297,7 @@ msgstr "Jelenlegi"
 
 #. Resource IDs: (65535)
 msgid "Current Branch"
-msgstr ""
+msgstr "Aktuális ág"
 
 #. Resource IDs: (65535)
 msgid "Current Branch:"
@@ -3304,7 +3305,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Current Filter"
-msgstr ""
+msgstr "Aktuális szűrő"
 
 #. Resource IDs: (603)
 #, c-format
@@ -3527,7 +3528,7 @@ msgstr "Változáslista kijelölésének törlése"
 
 #. Resource IDs: (1501)
 msgid "Destination"
-msgstr ""
+msgstr "Cél"
 
 #. Resource IDs: (3859)
 msgid "Destination disk drive is full."
@@ -3813,7 +3814,7 @@ msgstr ""
 
 #. Resource IDs: (1385)
 msgid "Down"
-msgstr ""
+msgstr "Le"
 
 #. Resource IDs: (1698)
 msgid "Download"
@@ -4166,7 +4167,7 @@ msgstr "Exportálás"
 
 #. Resource IDs: (1383)
 msgid "Export Zip File"
-msgstr ""
+msgstr "Mentés zip fájlként"
 
 #. Resource IDs: (94)
 msgid "Export directory:"
@@ -4545,7 +4546,7 @@ msgstr ""
 
 #. Resource IDs: (1315)
 msgid "Floppy drives (A: B:)"
-msgstr ""
+msgstr "Hajlékonylemez (A: B:)"
 
 #. Resource IDs: (1002)
 msgid "Folder"
@@ -4584,7 +4585,7 @@ msgstr ""
 
 #. Resource IDs: (312)
 msgid "Format Patch"
-msgstr ""
+msgstr "Folt formázása"
 
 #. Resource IDs: (1255)
 msgid "Format Patch..."
@@ -4663,15 +4664,15 @@ msgstr ""
 
 #. Resource IDs: (315)
 msgid "General::Colors 1"
-msgstr ""
+msgstr "Általános::Színek 1"
 
 #. Resource IDs: (212)
 msgid "General::Colors 2"
-msgstr ""
+msgstr "Általános::Színek 2"
 
 #. Resource IDs: (316)
 msgid "General::Colors 3"
-msgstr ""
+msgstr "Általános::Színek 3"
 
 #. Resource IDs: (195)
 msgid "General::Context Menu"
@@ -4717,7 +4718,7 @@ msgstr "Git"
 
 #. Resource IDs: (16)
 msgid "Git Author"
-msgstr ""
+msgstr "Git szerző"
 
 #. Resource IDs: (300)
 msgid "Git Command Progress"
@@ -4781,7 +4782,7 @@ msgstr ""
 
 #. Resource IDs: (11)
 msgid "Git Status"
-msgstr ""
+msgstr "Git állapot"
 
 #. Resource IDs: (326)
 msgid "Git Synchronization"
@@ -4789,7 +4790,7 @@ msgstr ""
 
 #. Resource IDs: (12)
 msgid "Git URL"
-msgstr ""
+msgstr "Git URL"
 
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
@@ -4801,7 +4802,7 @@ msgstr ""
 
 #. Resource IDs: (12)
 msgid "Git short URL"
-msgstr ""
+msgstr "Rövid Git URL"
 
 #. Resource IDs: (65535)
 msgid "Git.exe Path:"
@@ -4869,7 +4870,7 @@ msgstr ""
 
 #. Resource IDs: (1251)
 msgid "Graph"
-msgstr ""
+msgstr "Gráf"
 
 #. Resource IDs: (1134)
 msgid "Graph type:"
@@ -4969,7 +4970,7 @@ msgstr "Tipp: helyzetérzékeny menüben, váltson a 'Parancsok' oldalra és hú
 
 #. Resource IDs: (314)
 msgid "History"
-msgstr ""
+msgstr "Történet"
 
 #. Resource IDs: (1064)
 msgid "Home"
@@ -5001,7 +5002,7 @@ msgstr "&Engedélyezett útvonalak:"
 
 #. Resource IDs: (1251)
 msgid "ID"
-msgstr ""
+msgstr "Azonosító"
 
 #. Accelerator Entry for Menu ID:220; '&Go to\tCtrl+G'
 msgid "ID:220:V C +G"
@@ -5053,7 +5054,7 @@ msgstr ""
 
 #. Accelerator Entry for Menu ID:32822; ''
 msgid "ID:32822:V C +F"
-msgstr ""
+msgstr "ID:32822:V C +F"
 
 #. Accelerator Entry for Menu ID:32825; ''
 msgid "ID:32825:V C +L"
@@ -5511,35 +5512,35 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "LINE1"
-msgstr ""
+msgstr "Sor 1"
 
 #. Resource IDs: (65535)
 msgid "LINE2"
-msgstr ""
+msgstr "Sor 2"
 
 #. Resource IDs: (65535)
 msgid "LINE3"
-msgstr ""
+msgstr "Sor 3"
 
 #. Resource IDs: (65535)
 msgid "LINE4"
-msgstr ""
+msgstr "Sor 4"
 
 #. Resource IDs: (65535)
 msgid "LINE5"
-msgstr ""
+msgstr "Sor 5"
 
 #. Resource IDs: (65535)
 msgid "LINE6"
-msgstr ""
+msgstr "Sor 6"
 
 #. Resource IDs: (65535)
 msgid "LINE7"
-msgstr ""
+msgstr "Sor 7"
 
 #. Resource IDs: (65535)
 msgid "LINE8"
-msgstr ""
+msgstr "Sor 8"
 
 #. Resource IDs: (85)
 msgid "Last Author"
@@ -5682,7 +5683,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Local Branch"
-msgstr ""
+msgstr "Helyi ág"
 
 #. Resource IDs: (63)
 msgid "Local status"
@@ -6056,7 +6057,7 @@ msgstr "Áthelyezés..."
 
 #. Resource IDs: (79)
 msgid "MsysGit Install Path"
-msgstr ""
+msgstr "MsysGit telepítési út"
 
 #. Resource IDs: (65535)
 msgid "My file:"
@@ -6114,7 +6115,7 @@ msgstr "Új &név:"
 
 #. Resource IDs: (309)
 msgid "New Branch\\Tag"
-msgstr ""
+msgstr "Új ág\\címke"
 
 #. Resource IDs: (1001)
 msgid "New Menu"
@@ -6211,7 +6212,7 @@ msgstr "Nem történt hiba."
 msgid ""
 "No files or folders were modified. There is nothing for TortoiseGit to "
 "revert!"
-msgstr ""
+msgstr "Nincsenek változtatott fájlok vagy mappák. Semmit nem tud a TortoiseGit visszaállítani."
 
 #. Resource IDs: (239)
 msgid ""
@@ -6225,7 +6226,7 @@ msgid ""
 "No files were changed or added since\n"
 "the last commit. There's nothing\n"
 "for TortoiseGit to do here..."
-msgstr ""
+msgstr "Nincsek változtatott vagy hozzáadott fájlok az⏎\nutolsó commit óta. A TortoiseGit nem tud⏎\nsemmit tenni..."
 
 #. Resource IDs: (170)
 msgid ""
@@ -6233,7 +6234,7 @@ msgid ""
 "the last commit. There's nothing\n"
 "for TortoiseGit to do here...\n"
 "Do you want to see the unversioned files?"
-msgstr ""
+msgstr "Nincsek változtatott vagy hozzáadott fájlok az⏎\nutolsó commit óta. A TortoiseGit nem tud⏎\nsemmit tenni...\nSzeretné megjeleníteni a verziókövetésen kivüli fájlokat?"
 
 #. Resource IDs: (173)
 msgid "No graph available"
@@ -6754,7 +6755,7 @@ msgstr ""
 
 #. Resource IDs: (1580, 65535)
 msgid "Path:"
-msgstr ""
+msgstr "Elérési út:"
 
 #. Resource IDs: (116)
 msgid "Paths"
@@ -7467,7 +7468,7 @@ msgstr ""
 
 #. Resource IDs: (317)
 msgid "Reset"
-msgstr ""
+msgstr "&Visszaállítás"
 
 #. Resource IDs: (16614)
 msgid "Reset &All"
@@ -7475,7 +7476,7 @@ msgstr "Mindent &alaphelyzetbe állít"
 
 #. Resource IDs: (1554)
 msgid "Reset Type"
-msgstr ""
+msgstr "&Visszaállítás"
 
 #. Resource IDs: (1255)
 #, c-format
@@ -8116,7 +8117,7 @@ msgstr "Beállítások"
 
 #. Resource IDs: (80)
 msgid "Settings - TortoiseGit"
-msgstr ""
+msgstr "Beállítások - TortoiseGit"
 
 #. Resource IDs: (1270)
 msgid "Shell"
@@ -8414,7 +8415,7 @@ msgstr "Az összes megváltozott fájl mutatása az utolsó frissítés óta"
 
 #. Resource IDs: (10)
 msgid "Shows information about TortoiseGit"
-msgstr ""
+msgstr "Információ megjelenítése a TortoiseGit-el kapcsolatban"
 
 #. Resource IDs: (20)
 msgid "Shows reference log"
@@ -8438,7 +8439,7 @@ msgstr ""
 
 #. Resource IDs: (1532)
 msgid "Since"
-msgstr ""
+msgstr "Óta"
 
 #. Resource IDs: (74)
 msgid "Size"
@@ -8721,7 +8722,7 @@ msgstr "%s átváltása erre: %s, Verzió %s"
 
 #. Resource IDs: (1522)
 msgid "Switch To"
-msgstr ""
+msgstr "Váltás"
 
 #. Resource IDs: (3606)
 msgid ""
@@ -8848,7 +8849,7 @@ msgstr ""
 
 #. Resource IDs: (1485, 1513, 65535)
 msgid "Tags"
-msgstr ""
+msgstr "Címkék"
 
 #. Resource IDs: (65535)
 msgid "Tags:"
@@ -9698,7 +9699,7 @@ msgstr "%s kivétele a verziókezelésből"
 
 #. Resource IDs: (1384)
 msgid "Up"
-msgstr ""
+msgstr "Fel"
 
 #. Resource IDs: (1710)
 msgid "Update"
@@ -10004,7 +10005,7 @@ msgstr "Verzió információ"
 
 #. Resource IDs: (1552, 65535)
 msgid "Version:"
-msgstr ""
+msgstr "Verzió:"
 
 #. Resource IDs: (264)
 msgid "Versioned"
@@ -10306,7 +10307,7 @@ msgstr "Legfeljebb %d eszközt definiálhatsz."
 
 #. Resource IDs: (170)
 msgid "You must enter a log message for the commit"
-msgstr ""
+msgstr "A üzenet megadása kötelező"
 
 #. Resource IDs: (196)
 msgid "You must restart your system for the changes to take effect."
@@ -10360,7 +10361,7 @@ msgstr "A te verziód: %d.%d.%d.%d"
 
 #. Resource IDs: (1074)
 msgid "Zip File"
-msgstr ""
+msgstr "Zip fájl"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out"
