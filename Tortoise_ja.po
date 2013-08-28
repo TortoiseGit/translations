@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-28 02:03+0000\n"
+"PO-Revision-Date: 2013-08-28 07:58+0000\n"
 "Last-Translator: Tetsuhiko Koto <>\n"
 "Language-Team: Japanese <tortoisegit-jp@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -630,7 +630,7 @@ msgstr "プロキシーサーバーを有効にする(&E)"
 
 #. Resource IDs: (32976)
 msgid "&Enable edit"
-msgstr "編集を許可(&E)"
+msgstr "編集を有効化(&E)"
 
 #. Resource IDs: (323)
 msgid "&Export selection to..."
@@ -820,7 +820,7 @@ msgstr "明度（&L):"
 
 #. Resource IDs: (65535)
 msgid "&Max line length for inline diffs"
-msgstr "行内相違を調べる最大の1行の長さ(&M)"
+msgstr "行内差分を調べる最大の1行の長さ(&M)"
 
 #. Resource IDs: (16543)
 msgid "&Menu animations:"
@@ -3105,7 +3105,7 @@ msgstr "URLで指定したファイルを見つけることができませんで
 msgid ""
 "Could not retrieve revision %s of the file %s.\n"
 "Patching is not possible!"
-msgstr "「%s」ファイルの「%s」リビジョンが取得出来ませんでした。\nパッチを適用することが出来ません。"
+msgstr "リビジョン %s のファイル %s が取得出来ませんでした。\nパッチを適用することが出来ません。"
 
 #. Resource IDs: (64)
 #, c-format
@@ -3235,7 +3235,7 @@ msgstr "指定された個数のリビジョンに切り捨てられた履歴を
 
 #. Resource IDs: (156)
 msgid "Create patch file"
-msgstr "差分パッチファイルを作成"
+msgstr "パッチファイル作成"
 
 #. Resource IDs: (72)
 msgid "Create pull &request"
@@ -3968,7 +3968,7 @@ msgstr "空"
 
 #. Resource IDs: (156)
 msgid "Enable Edit"
-msgstr "編集可能にする"
+msgstr "編集を有効化"
 
 #. Resource IDs: (87)
 msgid ""
@@ -4848,7 +4848,7 @@ msgstr "次の相違点へ移動する\n次の相違点"
 msgid ""
 "Go to the next inline difference\n"
 "Next inline difference"
-msgstr "次の行内相違へ移動\n次の行内相違"
+msgstr "次の行内相違点へ移動\n次の行内相違点"
 
 #. Resource IDs: (2051)
 msgid ""
@@ -4866,7 +4866,7 @@ msgstr "前の相違点へ移動する\n前の相違点"
 msgid ""
 "Go to the previous inline difference\n"
 "Previous inline difference"
-msgstr "前の行内相違へ移動\n前の行内相違"
+msgstr "前の行内相違点へ移動\n前の行内相違点"
 
 #. Resource IDs: (156)
 msgid "Goto Line"
@@ -5425,15 +5425,15 @@ msgstr "\"%s\" を空のGitレポジトリとして初期化しました。"
 
 #. Resource IDs: (156)
 msgid "Inline diff"
-msgstr "行内相違"
+msgstr "行内差分"
 
 #. Resource IDs: (156)
 msgid "Inline diff word-wise"
-msgstr "単語単位での行内相違"
+msgstr "単語単位での行内差分"
 
 #. Resource IDs: (65535)
 msgid "Inline differences"
-msgstr "行内相違"
+msgstr "行内差分"
 
 #. Resource IDs: (161)
 msgid "Input"
@@ -5608,7 +5608,7 @@ msgstr "行差分バー"
 
 #. Resource IDs: (65535)
 msgid "Line differences"
-msgstr "行相違"
+msgstr "行差分"
 
 #. Resource IDs: (176)
 #, c-format
@@ -6040,11 +6040,11 @@ msgstr "移動: %s の新しい名前"
 
 #. Resource IDs: (65535)
 msgid "Moved from"
-msgstr "～から移動"
+msgstr "移動元"
 
 #. Resource IDs: (65535)
 msgid "Moved to"
-msgstr "～へ移動"
+msgstr "移動先"
 
 #. Resource IDs: (197)
 msgid "Moves the modified files to the recycle bin first before reverting"
@@ -6162,7 +6162,7 @@ msgstr "次の相違点"
 
 #. Resource IDs: (156)
 msgid "Next inline difference"
-msgstr "次の行内相違"
+msgstr "次の行内相違点"
 
 #. Resource IDs: (73)
 msgid "No"
@@ -6939,7 +6939,7 @@ msgstr "前の相違点"
 
 #. Resource IDs: (156)
 msgid "Previous inline difference"
-msgstr "前の行内相違"
+msgstr "前の行内相違点"
 
 #. Resource IDs: (1069, 16990)
 msgid "Print"
@@ -8211,13 +8211,13 @@ msgstr "HEADリビジョンのノードを表示"
 msgid ""
 "Show Inline-Diff word by word\n"
 "Inline diff word-wise"
-msgstr "単語単位で行内相違を表示する\n行内相違（単語単位）"
+msgstr "単語単位の行内差分を表示する\n行内差分（単語単位）"
 
 #. Resource IDs: (2056)
 msgid ""
 "Show Inline-Diff\n"
 "Inline diff"
-msgstr "行内相違を表示\n行内相違"
+msgstr "行内差分を表示\n行内差分"
 
 #. Resource IDs: (32781)
 msgid "Show Log"
@@ -8334,7 +8334,7 @@ msgstr "最も古いノードをトップに表示"
 msgid ""
 "Show or hide the line diff bar\n"
 "Toggle LineDiffBar"
-msgstr "行相違バーを表示/非表示\n行相違バーをトグル"
+msgstr "行差分バーを表示/非表示\n行差分バーをトグル"
 
 #. Resource IDs: (2054)
 msgid ""
@@ -8736,7 +8736,7 @@ msgstr "前のウィンドウ区画に切り替える\n前の区画"
 
 #. Resource IDs: (156)
 msgid "Switch between single and double pane view"
-msgstr "パネルビュー単複切り替え"
+msgstr "1画面/2画面表示の切り替え"
 
 #. Resource IDs: (2049)
 msgid ""
@@ -10214,13 +10214,13 @@ msgstr "作業ディレクトリーの変更"
 
 #. Resource IDs: (156)
 msgid "Wrap long lines"
-msgstr "長い行を折り返し"
+msgstr "長い行を折り返す"
 
 #. Resource IDs: (2056)
 msgid ""
 "Wrap long lines at the right border of the view\n"
 "Wrap long lines"
-msgstr "画面の右端で長い行を折り返す\n長い行の折り返し"
+msgstr "画面の右端で長い行を折り返す\n長い行を折り返す"
 
 #. Resource IDs: (73)
 msgid "Yes"
