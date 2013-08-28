@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-23 18:08+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2013-08-28 02:03+0000\n"
+"Last-Translator: Tetsuhiko Koto <>\n"
 "Language-Team: Japanese <tortoisegit-jp@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -163,14 +163,14 @@ msgstr ""
 msgid ""
 "%1!s!\r\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr ""
+msgstr "%1!s!\n%2!d! ファイル、%3!d! サブモジュール、%4!d! フォルダを表示中、全部で %5!d! 項目"
 
 #. Resource IDs: (90)
 #, c-format
 msgid ""
 "%1!s!\r\n"
 "Size %2!s!"
-msgstr ""
+msgstr "%1!s!\nサイズ %2!s!"
 
 #. Resource IDs: (3860)
 #, c-format
@@ -2824,7 +2824,7 @@ msgstr "２つのファイルを比較"
 
 #. Resource IDs: (156)
 msgid "Compare whitespaces"
-msgstr "ホワイトスペースの比較"
+msgstr "空白類を比較"
 
 #. Resource IDs: (1251)
 msgid "Compare with &working tree"
@@ -2842,7 +2842,7 @@ msgstr "直前のリビジョンと比較"
 msgid ""
 "Compares all whitespaces when diffing\n"
 "Compare whitespaces"
-msgstr "差分時に全てホワイトスペースを比較\nホワイトスペース比較"
+msgstr "差分時に全てホワイトスペースを比較\n空白類を比較"
 
 #. Resource IDs: (12)
 msgid ""
@@ -5295,7 +5295,7 @@ msgstr "全て無視"
 
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
-msgstr "全てのホワイトスペースの変更を無視"
+msgstr "全ての空白類の変更を無視"
 
 #. Resource IDs: (1067)
 msgid "Ignore case cha&nges"
@@ -5321,7 +5321,7 @@ msgstr "改行コードを無視する（推奨）(&E)"
 
 #. Resource IDs: (156)
 msgid "Ignore whitespace changes"
-msgstr "ホワイトスペースの変更を無視"
+msgstr "空白類の変更を無視"
 
 #. Resource IDs: (1432)
 msgid "Ignored"
@@ -5335,13 +5335,13 @@ msgstr "無視したファイル"
 msgid ""
 "Ignores all whitespace changes when diffing\n"
 "Ignore all whitespace changes"
-msgstr "差分時に全てのホワイトスペースの変更を無視\n全てのホワイトスペース変更を無視"
+msgstr "差分時に全てのホワイトスペースの変更を無視\n全ての空白類の変更を無視"
 
 #. Resource IDs: (2055)
 msgid ""
 "Ignores changes in whitespaces when diffing\n"
 "Ignore whitespace changes"
-msgstr "差分時にホワイトスペースの変更を無視\nホワイトスペース変更を無視"
+msgstr "差分時にホワイトスペースの変更を無視\n空白類の変更を無視"
 
 #. Resource IDs: (16916)
 msgid "Image &and Text"
@@ -6793,7 +6793,7 @@ msgstr "コミットのハッシュを選択"
 
 #. Resource IDs: (90)
 msgid "Pick commit message"
-msgstr ""
+msgstr "コミットメッセージを選択"
 
 #. Resource IDs: (69)
 #, c-format
@@ -7258,7 +7258,7 @@ msgid ""
 "\\W   : any non-alphanumeric character\r\n"
 "\\d   : digits 0-9\r\n"
 "\\s   : whitespaces"
-msgstr "正規表現による絞り込み条件\r\n.    : 任意の文字\r\nc+   : 文字 c の1回以上の出現にマッチ\r\nc*   : 文字 c の0回以上の出現にマッチ\r\n^    : 行頭\r\n$    : 行末\r\n(string){n} : 文字列 string への n 回の出現にマッチ\r\n(abcd)      : 部分式\r\n[aei0-9]    : a、e、i、0～9 にマッチ\r\n[^aei0-9]   : a、e、i、0～9 以外の文字にマッチ\r\n\r\n\\w   : a～z、A～Z、0～9、_ にマッチ\r\n\\W   : アルファベットと数字以外にマッチ\r\n\\d   : 十進数0～9にマッチ\r\n\\s   : ホワイトスペース（空白やタブなど）"
+msgstr "正規表現による絞り込み条件\n.    : 任意の文字\nc+   : 文字 c の1回以上の出現にマッチ\nc*   : 文字 c の0回以上の出現にマッチ\n^    : 行頭\n$    : 行末\n(string){n} : 文字列 string への n 回の出現にマッチ\n(abcd)      : 部分式\n[aei0-9]    : a、e、i、0～9 にマッチ\n[^aei0-9]   : a、e、i、0～9 以外の文字にマッチ\n\n\\w   : a～z、A～Z、0～9、_ にマッチ\n\\W   : アルファベットと数字以外にマッチ\n\\d   : 十進数0～9にマッチ\n\\s   : ホワイトスペース（空白やタブなど）"
 
 #. Resource IDs: (7)
 #, c-format
@@ -8241,7 +8241,7 @@ msgstr "ツールバーの上にスクリーンチップを表示(&T)"
 
 #. Resource IDs: (156)
 msgid "Show Whitespaces"
-msgstr "ホワイトスペース表示"
+msgstr "空白類を表示"
 
 #. Resource IDs: (2051)
 msgid "Show an overview of the whole graph"
@@ -8378,7 +8378,7 @@ msgstr "スクリーンチップ上にショートカットキーを表示(&K)"
 msgid ""
 "Show special characters for whitespaces and newlines\n"
 "Show Whitespaces"
-msgstr "ホワイトスペースと改行の特殊文字を表示\nホワイトスペース表示"
+msgstr "ホワイトスペースと改行を表す特殊文字を表示\n空白類を表示"
 
 #. Resource IDs: (87)
 msgid "Show symbols on ref labels to substitute part of the ref names"
@@ -8698,7 +8698,7 @@ msgstr "サブモジュールの更新オプション"
 msgid ""
 "Submodule \"%1!s!\"\r\n"
 "Revision %2!s!"
-msgstr ""
+msgstr "サブモジュール \"%1!s!\"\nリビジョン %2!s!"
 
 #. Resource IDs: (1708)
 msgid "Submodules"
@@ -8736,7 +8736,7 @@ msgstr "前のウィンドウ区画に切り替える\n前の区画"
 
 #. Resource IDs: (156)
 msgid "Switch between single and double pane view"
-msgstr "シングルとダブルでパネルビューを切り替え"
+msgstr "パネルビュー単複切り替え"
 
 #. Resource IDs: (2049)
 msgid ""
@@ -10142,7 +10142,7 @@ msgstr "デーモンでバックグラウンド稼働中は、このレポジト
 
 #. Resource IDs: (65535)
 msgid "Whitespaces"
-msgstr "空白"
+msgstr "ホワイトスペース"
 
 #. Resource IDs: (1065)
 msgid "Window Position"
