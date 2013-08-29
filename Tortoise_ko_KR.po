@@ -13,13 +13,14 @@
 # omniavinco <omniavinco@gmail.com>, 2012
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013
 # TaeDong Kim <fly1004@gmail.com>, 2011,2013
+# hebory <hebory@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-23 18:08+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2013-08-29 12:11+0000\n"
+"Last-Translator: hebory <hebory@gmail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1476,7 +1477,7 @@ msgstr ""
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr ""
+msgstr "중복된 아이콘으로 보여질 경로들의 리스트로 한줄에 하나씩 표시되어 있습니다.\n경로의 마지막에 '*' 문자를 추가한다면 모든 파일과 하위 폴더들이 해당 경로에 포함합니다."
 
 #. Resource IDs: (197)
 msgid ""
@@ -1835,7 +1836,7 @@ msgstr "패치 적용..."
 
 #. Resource IDs: (311)
 msgid "Apply Patches"
-msgstr ""
+msgstr "패치 적용하기"
 
 #. Resource IDs: (22)
 msgid "Apply a series of patches from a mailbox"
@@ -2640,7 +2641,7 @@ msgstr ""
 
 #. Resource IDs: (14)
 msgid "Clone..."
-msgstr ""
+msgstr "복제하기..."
 
 #. Resource IDs: (2, 1003, 1007, 1064)
 msgid "Close"
@@ -3819,7 +3820,7 @@ msgstr ""
 
 #. Resource IDs: (1385)
 msgid "Down"
-msgstr ""
+msgstr "아래로"
 
 #. Resource IDs: (1698)
 msgid "Download"
@@ -4172,7 +4173,7 @@ msgstr "익스포트"
 
 #. Resource IDs: (1383)
 msgid "Export Zip File"
-msgstr ""
+msgstr "Zip 파일로 압축하여 내보내기"
 
 #. Resource IDs: (94)
 msgid "Export directory:"
@@ -4340,7 +4341,7 @@ msgstr ""
 
 #. Resource IDs: (22, 66)
 msgid "Fetch"
-msgstr ""
+msgstr "원격→로컬 저장소"
 
 #. Resource IDs: (14)
 msgid "Fetch from SVN repository"
@@ -4875,7 +4876,7 @@ msgstr "특정 행으로 이동"
 
 #. Resource IDs: (1251)
 msgid "Graph"
-msgstr ""
+msgstr "그래프"
 
 #. Resource IDs: (1134)
 msgid "Graph type:"
@@ -5246,7 +5247,7 @@ msgstr ""
 #. Resource IDs: (194)
 msgid ""
 "If enabled, TortoiseGit checks once a week if a newer version is available"
-msgstr ""
+msgstr "이 항목을 활성화할 경우 일주일에 한번씩 사용 가능한 최신 버전이 있는지 확인합니다."
 
 #. Resource IDs: (197)
 msgid ""
@@ -7019,7 +7020,7 @@ msgstr ""
 
 #. Resource IDs: (22, 66, 1611)
 msgid "Pull"
-msgstr ""
+msgstr "당겨오기"
 
 #. Resource IDs: (75)
 msgid "Pull requires the selected local branch to be the current branch."
@@ -7047,7 +7048,7 @@ msgstr ""
 
 #. Resource IDs: (22, 303, 1612)
 msgid "Push"
-msgstr ""
+msgstr "밀어내기"
 
 #. Resource IDs: (1385)
 msgid "Push notes"
@@ -7290,7 +7291,7 @@ msgstr ""
 
 #. Resource IDs: (1573)
 msgid "Remote"
-msgstr ""
+msgstr "원격"
 
 #. Resource IDs: (65535)
 msgid "Remote &Branch:"
@@ -7326,7 +7327,7 @@ msgstr "원격 상태"
 
 #. Resource IDs: (65535)
 msgid "Remote:"
-msgstr ""
+msgstr "원격:"
 
 #. Resource IDs: (1332, 1470)
 msgid "Remove"
@@ -7473,7 +7474,7 @@ msgstr ""
 
 #. Resource IDs: (317)
 msgid "Reset"
-msgstr ""
+msgstr "재설정"
 
 #. Resource IDs: (16614)
 msgid "Reset &All"
@@ -7481,7 +7482,7 @@ msgstr "모두 리셋(&A)"
 
 #. Resource IDs: (1554)
 msgid "Reset Type"
-msgstr ""
+msgstr "재설정 종류"
 
 #. Resource IDs: (1255)
 #, c-format
@@ -7613,12 +7614,12 @@ msgstr "리비전"
 #. Resource IDs: (119)
 #, c-format
 msgid "Revision %d"
-msgstr ""
+msgstr "리비전 %d"
 
 #. Resource IDs: (120)
 #, c-format
 msgid "Revision %s"
-msgstr ""
+msgstr "리비전 %s"
 
 #. Resource IDs: (23)
 msgid "Revision &graph"
@@ -8122,7 +8123,7 @@ msgstr "설정"
 
 #. Resource IDs: (80)
 msgid "Settings - TortoiseGit"
-msgstr ""
+msgstr "설정 - TortoiseGit"
 
 #. Resource IDs: (1270)
 msgid "Shell"
