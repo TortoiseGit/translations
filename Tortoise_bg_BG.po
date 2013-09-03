@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
+# Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # petkovmt <petkovmt@gmail.com>, 2011
 # Stefan Ilivanov <ilivanov@gmail.com>, 2012
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
@@ -13,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-23 18:08+0000\n"
+"PO-Revision-Date: 2013-09-03 19:52+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Bulgarian (Bulgaria) (http://www.transifex.com/projects/p/tortoisegit/language/bg_BG/)\n"
 "MIME-Version: 1.0\n"
@@ -143,6 +144,11 @@ msgstr "Преди %1!d! година"
 #, c-format
 msgid "%1!d! Years ago"
 msgstr "Преди %1!d! години"
+
+#. Resource IDs: (90)
+#, c-format
+msgid "%1!d! items selected"
+msgstr ""
 
 #. Resource IDs: (602)
 #, c-format
@@ -2520,7 +2526,7 @@ msgid "Clean Type"
 msgstr "Изчистен тип"
 
 #. Resource IDs: (76)
-msgid "Clean up stale remote banches"
+msgid "Clean up stale remote branches"
 msgstr ""
 
 #. Resource IDs: (145)
@@ -7737,7 +7743,7 @@ msgid "SVN Fetch"
 msgstr ""
 
 #. Resource IDs: (21)
-msgid "SVN Rebase..."
+msgid "SVN Rebase"
 msgstr ""
 
 #. Resource IDs: (65535)
@@ -8657,12 +8663,16 @@ msgstr ""
 msgid "Submodule"
 msgstr ""
 
-#. Resource IDs: (8, 11)
-msgid "Submodule &Update"
+#. Resource IDs: (11)
+msgid "Submodule &Update..."
 msgstr ""
 
-#. Resource IDs: (20, 1589)
+#. Resource IDs: (1589)
 msgid "Submodule Add"
+msgstr ""
+
+#. Resource IDs: (20)
+msgid "Submodule Add..."
 msgstr ""
 
 #. Resource IDs: (4576)

@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-08-23 18:10+0000\n"
+"PO-Revision-Date: 2013-09-03 19:53+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -145,6 +145,11 @@ msgstr "vor %1!d! Jahr"
 #, c-format
 msgid "%1!d! Years ago"
 msgstr "vor %1!d! Jahren"
+
+#. Resource IDs: (90)
+#, c-format
+msgid "%1!d! items selected"
+msgstr ""
 
 #. Resource IDs: (602)
 #, c-format
@@ -2522,8 +2527,8 @@ msgid "Clean Type"
 msgstr "Aufräummethode"
 
 #. Resource IDs: (76)
-msgid "Clean up stale remote banches"
-msgstr "Ungültige entfernte Zweige aufräumen"
+msgid "Clean up stale remote branches"
+msgstr ""
 
 #. Resource IDs: (145)
 msgid "Cleaning up"
@@ -7739,8 +7744,8 @@ msgid "SVN Fetch"
 msgstr "SVN Aktualisieren"
 
 #. Resource IDs: (21)
-msgid "SVN Rebase..."
-msgstr "SVN neu aufbauen..."
+msgid "SVN Rebase"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -8659,13 +8664,17 @@ msgstr "Betreff:"
 msgid "Submodule"
 msgstr "Submodul"
 
-#. Resource IDs: (8, 11)
-msgid "Submodule &Update"
-msgstr "Submodul(e) &aktualisieren"
+#. Resource IDs: (11)
+msgid "Submodule &Update..."
+msgstr ""
 
-#. Resource IDs: (20, 1589)
+#. Resource IDs: (1589)
 msgid "Submodule Add"
 msgstr "Submodul hinzufügen"
+
+#. Resource IDs: (20)
+msgid "Submodule Add..."
+msgstr ""
 
 #. Resource IDs: (4576)
 msgid "Submodule Diff"
