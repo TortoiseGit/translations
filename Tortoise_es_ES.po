@@ -4,6 +4,7 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
+# Translators:
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013
 # abanibi <abanibi@tempemail.net>, 2013
 msgid ""
@@ -11,7 +12,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-09-03 20:00+0000\n"
+"PO-Revision-Date: 2013-09-15 17:00+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -141,11 +142,6 @@ msgstr "Hace %1!d! año"
 #, c-format
 msgid "%1!d! Years ago"
 msgstr "Hace %1!d! años"
-
-#. Resource IDs: (90)
-#, c-format
-msgid "%1!d! items selected"
-msgstr ""
 
 #. Resource IDs: (602)
 #, c-format
@@ -2523,7 +2519,7 @@ msgid "Clean Type"
 msgstr "Tip de limpieza"
 
 #. Resource IDs: (76)
-msgid "Clean up stale remote branches"
+msgid "Clean up stale remote banches"
 msgstr ""
 
 #. Resource IDs: (145)
@@ -7740,8 +7736,8 @@ msgid "SVN Fetch"
 msgstr "Recuperar de SVN"
 
 #. Resource IDs: (21)
-msgid "SVN Rebase"
-msgstr ""
+msgid "SVN Rebase..."
+msgstr "Integrar SVN..."
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -8660,17 +8656,13 @@ msgstr "Asunto:"
 msgid "Submodule"
 msgstr "Submódulo"
 
-#. Resource IDs: (11)
-msgid "Submodule &Update..."
-msgstr ""
+#. Resource IDs: (8, 11)
+msgid "Submodule &Update"
+msgstr "Submódulo &Actualizar"
 
-#. Resource IDs: (1589)
+#. Resource IDs: (20, 1589)
 msgid "Submodule Add"
 msgstr "Añadir Submódulo"
-
-#. Resource IDs: (20)
-msgid "Submodule Add..."
-msgstr ""
 
 #. Resource IDs: (4576)
 msgid "Submodule Diff"
