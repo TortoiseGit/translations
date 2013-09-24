@@ -4,7 +4,6 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Translators:
 # abanibi <abanibi@tempemail.net>, 2013
 # Adrià Vilanova Martínez <jocdeladria@gmail.com>, 2012
 # jmonguillot <jmonguillot@gmail.com>, 2013
@@ -15,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-09-15 17:00+0000\n"
+"PO-Revision-Date: 2013-09-24 10:01+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -145,6 +144,11 @@ msgstr "fa %1!d! any"
 #, c-format
 msgid "%1!d! Years ago"
 msgstr "fa %1!d! anys"
+
+#. Resource IDs: (90)
+#, c-format
+msgid "%1!d! items selected"
+msgstr ""
 
 #. Resource IDs: (602)
 #, c-format
@@ -1738,6 +1742,10 @@ msgid ""
 "Allow Edit"
 msgstr "Permet l'edició per aquesta vista\nPermet l'edició"
 
+#. Resource IDs: (90)
+msgid "Allow to use custom Gravatar URL"
+msgstr ""
+
 #. Resource IDs: (66)
 msgid "Already up to date."
 msgstr "Ja està al dia"
@@ -2522,8 +2530,8 @@ msgid "Clean Type"
 msgstr "Neteja tipus"
 
 #. Resource IDs: (76)
-msgid "Clean up stale remote banches"
-msgstr "Neteja les branques remotes caducades"
+msgid "Clean up stale remote branches"
+msgstr ""
 
 #. Resource IDs: (145)
 msgid "Cleaning up"
@@ -2890,6 +2898,10 @@ msgstr "Configureu el programa utilitzat per resoldre fitxers en conflicte."
 #. Resource IDs: (65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
 msgstr "Configura programa visor per diffs de GNU (arxius de pedaç)"
+
+#. Resource IDs: (1768)
+msgid "Confirm to kill running git process"
+msgstr ""
 
 #. Resource IDs: (1257, 4568)
 msgid "Conflict"
@@ -3830,6 +3842,10 @@ msgstr "Arrossega per fer flotar aquest menú"
 msgid "Draw"
 msgstr "Dibuixa"
 
+#. Resource IDs: (1073)
+msgid "Draw tag/branch labels on right side"
+msgstr ""
+
 #. Resource IDs: (1079)
 msgid "Drive Types"
 msgstr "Tipus d'Unitat"
@@ -3968,6 +3984,10 @@ msgstr "Buit"
 msgid "Enable Edit"
 msgstr "Activa l'edició"
 
+#. Resource IDs: (1766)
+msgid "Enable Gravatar"
+msgstr ""
+
 #. Resource IDs: (87)
 msgid ""
 "Enable loading/saving log cache files (tortoisegit.data, tortoisegit.index)"
@@ -3976,6 +3996,10 @@ msgstr "Activa la CAU de registra en arxius (tortoisegit.data, tortoisegit.index
 #. Resource IDs: (1744)
 msgid "Enable log cache"
 msgstr "Activa la CAU de registre"
+
+#. Resource IDs: (90)
+msgid "Enable showing Gravatar image in Log Dialog"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Enabled Overlay Handlers"
@@ -4681,8 +4705,12 @@ msgid "General::Context Menu"
 msgstr "General:: Menú Contextual"
 
 #. Resource IDs: (196)
-msgid "General::Dialogs"
-msgstr "General::Diàlegs"
+msgid "General::Dialogs 1"
+msgstr ""
+
+#. Resource IDs: (197)
+msgid "General::Dialogs 2"
+msgstr ""
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
@@ -5882,6 +5910,12 @@ msgstr "Punt de fusió"
 #. Resource IDs: (221)
 msgid "Merge Reintegrate"
 msgstr "Fusiona Reintegra"
+
+#. Resource IDs: (90)
+msgid ""
+"Merge between original branch, working tree contents, and the branch to "
+"switch to"
+msgstr ""
 
 #. Resource IDs: (1432)
 msgid "Merge non-interactive"
@@ -7739,8 +7773,8 @@ msgid "SVN Fetch"
 msgstr "Recupera de SVN"
 
 #. Resource IDs: (21)
-msgid "SVN Rebase..."
-msgstr "Rebase SVN..."
+msgid "SVN Rebase"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -7926,6 +7960,10 @@ msgstr "Cercant un camí millor on aplicar el pedaç..."
 #, c-format
 msgid "Seek failed on %1"
 msgstr "Cerca fallida a %1"
+
+#. Resource IDs: (8)
+msgid "Select"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Select &All"
@@ -8659,13 +8697,17 @@ msgstr "Assumpte:"
 msgid "Submodule"
 msgstr "Sub-mòdul"
 
-#. Resource IDs: (8, 11)
-msgid "Submodule &Update"
-msgstr "Actualització de sub-mòdul"
+#. Resource IDs: (11)
+msgid "Submodule &Update..."
+msgstr ""
 
-#. Resource IDs: (20, 1589)
+#. Resource IDs: (1589)
 msgid "Submodule Add"
 msgstr "Afegeix al sub-mòdul"
+
+#. Resource IDs: (20)
+msgid "Submodule Add..."
+msgstr ""
 
 #. Resource IDs: (4576)
 msgid "Submodule Diff"
@@ -9148,6 +9190,12 @@ msgid ""
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
 msgstr "La ruta\n%s\nsembla no encaixar les rutes del pedaç.\nPerò TortoiseGitMerge ha trobat la ruta\n%s\nque millor encaixa. Voleu utilitzar la ruta suggerida?"
+
+#. Resource IDs: (91)
+msgid ""
+"The process is still running.\n"
+"Are you sure to abort?"
+msgstr ""
 
 #. Resource IDs: (71)
 #, c-format
@@ -10111,6 +10159,12 @@ msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
 msgstr "Quan s'apliqui un pedaç, ignora els canvis en els espais en blanc, si fós necessari"
+
+#. Resource IDs: (91)
+msgid ""
+"When closing a progress dialog with a running git process, ask for "
+"confirmation before killing it"
+msgstr ""
 
 #. Resource IDs: (197)
 msgid ""

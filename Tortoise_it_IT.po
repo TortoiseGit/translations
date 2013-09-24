@@ -4,7 +4,6 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Translators:
 # acehigh, 2011
 # akira80 <akirarulez@yahoo.it>, 2013
 # akira80 <akirarulez@yahoo.it>, 2013
@@ -25,7 +24,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-09-15 17:00+0000\n"
+"PO-Revision-Date: 2013-09-24 10:01+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/tortoisegit/language/it_IT/)\n"
 "MIME-Version: 1.0\n"
@@ -155,6 +154,11 @@ msgstr "%1!d! anno fa"
 #, c-format
 msgid "%1!d! Years ago"
 msgstr "%1!d! anni fa"
+
+#. Resource IDs: (90)
+#, c-format
+msgid "%1!d! items selected"
+msgstr ""
 
 #. Resource IDs: (602)
 #, c-format
@@ -1748,6 +1752,10 @@ msgid ""
 "Allow Edit"
 msgstr ""
 
+#. Resource IDs: (90)
+msgid "Allow to use custom Gravatar URL"
+msgstr ""
+
 #. Resource IDs: (66)
 msgid "Already up to date."
 msgstr "Già aggiornato."
@@ -2532,7 +2540,7 @@ msgid "Clean Type"
 msgstr ""
 
 #. Resource IDs: (76)
-msgid "Clean up stale remote banches"
+msgid "Clean up stale remote branches"
 msgstr ""
 
 #. Resource IDs: (145)
@@ -2899,6 +2907,10 @@ msgstr "Configura l'applicazione utilizzata per risolvere i file in conflitto."
 
 #. Resource IDs: (65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
+msgstr ""
+
+#. Resource IDs: (1768)
+msgid "Confirm to kill running git process"
 msgstr ""
 
 #. Resource IDs: (1257, 4568)
@@ -3840,6 +3852,10 @@ msgstr "Trascina per rendere questo menu flottante"
 msgid "Draw"
 msgstr "Disegna"
 
+#. Resource IDs: (1073)
+msgid "Draw tag/branch labels on right side"
+msgstr ""
+
 #. Resource IDs: (1079)
 msgid "Drive Types"
 msgstr "Tipi di unità"
@@ -3978,6 +3994,10 @@ msgstr "Vuoto"
 msgid "Enable Edit"
 msgstr ""
 
+#. Resource IDs: (1766)
+msgid "Enable Gravatar"
+msgstr ""
+
 #. Resource IDs: (87)
 msgid ""
 "Enable loading/saving log cache files (tortoisegit.data, tortoisegit.index)"
@@ -3985,6 +4005,10 @@ msgstr ""
 
 #. Resource IDs: (1744)
 msgid "Enable log cache"
+msgstr ""
+
+#. Resource IDs: (90)
+msgid "Enable showing Gravatar image in Log Dialog"
 msgstr ""
 
 #. Resource IDs: (65535)
@@ -4691,7 +4715,11 @@ msgid "General::Context Menu"
 msgstr "Generale::Menu contestuale"
 
 #. Resource IDs: (196)
-msgid "General::Dialogs"
+msgid "General::Dialogs 1"
+msgstr ""
+
+#. Resource IDs: (197)
+msgid "General::Dialogs 2"
 msgstr ""
 
 #. Resource IDs: (4573)
@@ -5892,6 +5920,12 @@ msgstr ""
 #. Resource IDs: (221)
 msgid "Merge Reintegrate"
 msgstr "Unisci reintegrazioni"
+
+#. Resource IDs: (90)
+msgid ""
+"Merge between original branch, working tree contents, and the branch to "
+"switch to"
+msgstr ""
 
 #. Resource IDs: (1432)
 msgid "Merge non-interactive"
@@ -7749,7 +7783,7 @@ msgid "SVN Fetch"
 msgstr ""
 
 #. Resource IDs: (21)
-msgid "SVN Rebase..."
+msgid "SVN Rebase"
 msgstr ""
 
 #. Resource IDs: (65535)
@@ -7936,6 +7970,10 @@ msgstr "Ricerca di percorso migliore per applicare la patch..."
 #, c-format
 msgid "Seek failed on %1"
 msgstr "Cerca campo in %1"
+
+#. Resource IDs: (8)
+msgid "Select"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Select &All"
@@ -8669,13 +8707,17 @@ msgstr ""
 msgid "Submodule"
 msgstr "Submodule"
 
-#. Resource IDs: (8, 11)
-msgid "Submodule &Update"
-msgstr "&Aggiorna Submodule"
+#. Resource IDs: (11)
+msgid "Submodule &Update..."
+msgstr ""
 
-#. Resource IDs: (20, 1589)
+#. Resource IDs: (1589)
 msgid "Submodule Add"
 msgstr "Aggiungi Submodule"
+
+#. Resource IDs: (20)
+msgid "Submodule Add..."
+msgstr ""
 
 #. Resource IDs: (4576)
 msgid "Submodule Diff"
@@ -9158,6 +9200,12 @@ msgid ""
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
 msgstr "Il percorso\n%s\nsembra non corrispondere al percorso specificato nella patch.\nTortoiseGitMerge ritiene che il percorso\n%s\nsia più corretto. Si desidera usare il percorso suggerito invece di quello specificato?"
+
+#. Resource IDs: (91)
+msgid ""
+"The process is still running.\n"
+"Are you sure to abort?"
+msgstr ""
 
 #. Resource IDs: (71)
 #, c-format
@@ -10120,6 +10168,12 @@ msgstr "Quando attivato, tieni premuto il tasto SHIFT e il tasto destro del mous
 msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
+msgstr ""
+
+#. Resource IDs: (91)
+msgid ""
+"When closing a progress dialog with a running git process, ask for "
+"confirmation before killing it"
 msgstr ""
 
 #. Resource IDs: (197)

@@ -4,7 +4,6 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Translators:
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # petkovmt <petkovmt@gmail.com>, 2011
@@ -15,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-09-15 16:50+0000\n"
+"PO-Revision-Date: 2013-09-24 10:01+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Bulgarian (Bulgaria) (http://www.transifex.com/projects/p/tortoisegit/language/bg_BG/)\n"
 "MIME-Version: 1.0\n"
@@ -145,6 +144,11 @@ msgstr "Преди %1!d! година"
 #, c-format
 msgid "%1!d! Years ago"
 msgstr "Преди %1!d! години"
+
+#. Resource IDs: (90)
+#, c-format
+msgid "%1!d! items selected"
+msgstr ""
 
 #. Resource IDs: (602)
 #, c-format
@@ -1738,6 +1742,10 @@ msgid ""
 "Allow Edit"
 msgstr ""
 
+#. Resource IDs: (90)
+msgid "Allow to use custom Gravatar URL"
+msgstr ""
+
 #. Resource IDs: (66)
 msgid "Already up to date."
 msgstr "Вече е последна версия."
@@ -2522,7 +2530,7 @@ msgid "Clean Type"
 msgstr "Изчистен тип"
 
 #. Resource IDs: (76)
-msgid "Clean up stale remote banches"
+msgid "Clean up stale remote branches"
 msgstr ""
 
 #. Resource IDs: (145)
@@ -2889,6 +2897,10 @@ msgstr "Настройване на програмата за разрешава
 
 #. Resource IDs: (65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
+msgstr ""
+
+#. Resource IDs: (1768)
+msgid "Confirm to kill running git process"
 msgstr ""
 
 #. Resource IDs: (1257, 4568)
@@ -3830,6 +3842,10 @@ msgstr "Плъзнете, за да направите това меню пла�
 msgid "Draw"
 msgstr "Рисуване"
 
+#. Resource IDs: (1073)
+msgid "Draw tag/branch labels on right side"
+msgstr ""
+
 #. Resource IDs: (1079)
 msgid "Drive Types"
 msgstr "Тип устройства"
@@ -3968,6 +3984,10 @@ msgstr "Празни"
 msgid "Enable Edit"
 msgstr ""
 
+#. Resource IDs: (1766)
+msgid "Enable Gravatar"
+msgstr ""
+
 #. Resource IDs: (87)
 msgid ""
 "Enable loading/saving log cache files (tortoisegit.data, tortoisegit.index)"
@@ -3975,6 +3995,10 @@ msgstr ""
 
 #. Resource IDs: (1744)
 msgid "Enable log cache"
+msgstr ""
+
+#. Resource IDs: (90)
+msgid "Enable showing Gravatar image in Log Dialog"
 msgstr ""
 
 #. Resource IDs: (65535)
@@ -4681,7 +4705,11 @@ msgid "General::Context Menu"
 msgstr "Общи::Контекстно меню"
 
 #. Resource IDs: (196)
-msgid "General::Dialogs"
+msgid "General::Dialogs 1"
+msgstr ""
+
+#. Resource IDs: (197)
+msgid "General::Dialogs 2"
 msgstr ""
 
 #. Resource IDs: (4573)
@@ -5882,6 +5910,12 @@ msgstr ""
 #. Resource IDs: (221)
 msgid "Merge Reintegrate"
 msgstr "Сливане / повторна интеграция"
+
+#. Resource IDs: (90)
+msgid ""
+"Merge between original branch, working tree contents, and the branch to "
+"switch to"
+msgstr ""
 
 #. Resource IDs: (1432)
 msgid "Merge non-interactive"
@@ -7739,7 +7773,7 @@ msgid "SVN Fetch"
 msgstr ""
 
 #. Resource IDs: (21)
-msgid "SVN Rebase..."
+msgid "SVN Rebase"
 msgstr ""
 
 #. Resource IDs: (65535)
@@ -7926,6 +7960,10 @@ msgstr "Търсене на по-подходящ път за налагане �
 #, c-format
 msgid "Seek failed on %1"
 msgstr "Търсенето се провали на %1"
+
+#. Resource IDs: (8)
+msgid "Select"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Select &All"
@@ -8659,12 +8697,16 @@ msgstr ""
 msgid "Submodule"
 msgstr ""
 
-#. Resource IDs: (8, 11)
-msgid "Submodule &Update"
+#. Resource IDs: (11)
+msgid "Submodule &Update..."
 msgstr ""
 
-#. Resource IDs: (20, 1589)
+#. Resource IDs: (1589)
 msgid "Submodule Add"
+msgstr ""
+
+#. Resource IDs: (20)
+msgid "Submodule Add..."
 msgstr ""
 
 #. Resource IDs: (4576)
@@ -9147,6 +9189,12 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
+msgstr ""
+
+#. Resource IDs: (91)
+msgid ""
+"The process is still running.\n"
+"Are you sure to abort?"
 msgstr ""
 
 #. Resource IDs: (71)
@@ -10110,6 +10158,12 @@ msgstr ""
 msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
+msgstr ""
+
+#. Resource IDs: (91)
+msgid ""
+"When closing a progress dialog with a running git process, ask for "
+"confirmation before killing it"
 msgstr ""
 
 #. Resource IDs: (197)

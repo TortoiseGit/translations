@@ -4,7 +4,6 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Translators:
 # Eugen Cocalea <eugen.cocalea@gmail.com>, 2013
 # Eugen Cocalea <eugen.cocalea@gmail.com>, 2013
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
@@ -19,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-09-15 17:00+0000\n"
+"PO-Revision-Date: 2013-09-24 10:01+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -149,6 +148,11 @@ msgstr "cu %1!d! an în urmă"
 #, c-format
 msgid "%1!d! Years ago"
 msgstr "cu %1!d! ani în urmă"
+
+#. Resource IDs: (90)
+#, c-format
+msgid "%1!d! items selected"
+msgstr ""
 
 #. Resource IDs: (602)
 #, c-format
@@ -1742,6 +1746,10 @@ msgid ""
 "Allow Edit"
 msgstr "Permite editarea pentru această vizualizare\nPermite editarea"
 
+#. Resource IDs: (90)
+msgid "Allow to use custom Gravatar URL"
+msgstr ""
+
 #. Resource IDs: (66)
 msgid "Already up to date."
 msgstr "Deja la zi."
@@ -2526,7 +2534,7 @@ msgid "Clean Type"
 msgstr "Tip curăţare"
 
 #. Resource IDs: (76)
-msgid "Clean up stale remote banches"
+msgid "Clean up stale remote branches"
 msgstr ""
 
 #. Resource IDs: (145)
@@ -2894,6 +2902,10 @@ msgstr "Configurează programul folosit pentru a resolva fişiere cu conflicte."
 #. Resource IDs: (65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
 msgstr "Configurează program de vizualizare pentru fişiere de diferenţiere GNU (fişiere petice)"
+
+#. Resource IDs: (1768)
+msgid "Confirm to kill running git process"
+msgstr ""
 
 #. Resource IDs: (1257, 4568)
 msgid "Conflict"
@@ -3834,6 +3846,10 @@ msgstr "Trageţi pentru ca acest meniu să plutească"
 msgid "Draw"
 msgstr "Desenează"
 
+#. Resource IDs: (1073)
+msgid "Draw tag/branch labels on right side"
+msgstr ""
+
 #. Resource IDs: (1079)
 msgid "Drive Types"
 msgstr "Tipuri de discuri"
@@ -3972,6 +3988,10 @@ msgstr "Gol"
 msgid "Enable Edit"
 msgstr "Activează editarea"
 
+#. Resource IDs: (1766)
+msgid "Enable Gravatar"
+msgstr ""
+
 #. Resource IDs: (87)
 msgid ""
 "Enable loading/saving log cache files (tortoisegit.data, tortoisegit.index)"
@@ -3980,6 +4000,10 @@ msgstr "Activează încărcarea/salvarea jurnalului de fişiere (tortoisegit.dat
 #. Resource IDs: (1744)
 msgid "Enable log cache"
 msgstr "Activează jurnalul de cache"
+
+#. Resource IDs: (90)
+msgid "Enable showing Gravatar image in Log Dialog"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Enabled Overlay Handlers"
@@ -4685,8 +4709,12 @@ msgid "General::Context Menu"
 msgstr "General::Meniu contextual"
 
 #. Resource IDs: (196)
-msgid "General::Dialogs"
-msgstr "General::Dialoguri"
+msgid "General::Dialogs 1"
+msgstr ""
+
+#. Resource IDs: (197)
+msgid "General::Dialogs 2"
+msgstr ""
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
@@ -5886,6 +5914,12 @@ msgstr "Punct de îmbinare"
 #. Resource IDs: (221)
 msgid "Merge Reintegrate"
 msgstr "Reintegrează îmbinarea"
+
+#. Resource IDs: (90)
+msgid ""
+"Merge between original branch, working tree contents, and the branch to "
+"switch to"
+msgstr ""
 
 #. Resource IDs: (1432)
 msgid "Merge non-interactive"
@@ -7743,8 +7777,8 @@ msgid "SVN Fetch"
 msgstr "Preluare SVN"
 
 #. Resource IDs: (21)
-msgid "SVN Rebase..."
-msgstr "Reamplasare SVN..."
+msgid "SVN Rebase"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -7930,6 +7964,10 @@ msgstr "Se caută o locaţie mai bună pentru aplicarea peticului..."
 #, c-format
 msgid "Seek failed on %1"
 msgstr "Căutarea a eşuat la %1"
+
+#. Resource IDs: (8)
+msgid "Select"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Select &All"
@@ -8663,13 +8701,17 @@ msgstr "Subiect:"
 msgid "Submodule"
 msgstr "Submodul"
 
-#. Resource IDs: (8, 11)
-msgid "Submodule &Update"
-msgstr "Actualizează submodul"
+#. Resource IDs: (11)
+msgid "Submodule &Update..."
+msgstr ""
 
-#. Resource IDs: (20, 1589)
+#. Resource IDs: (1589)
 msgid "Submodule Add"
 msgstr "Adauga submodul"
+
+#. Resource IDs: (20)
+msgid "Submodule Add..."
+msgstr ""
 
 #. Resource IDs: (4576)
 msgid "Submodule Diff"
@@ -9152,6 +9194,12 @@ msgid ""
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
 msgstr "Nu se potriveşte calea⏎ %s⏎ cu căile din fişierul petic.⏎ Dar TortoiseMerge a găsit calea⏎ %s⏎ care se potriveşte mai bine. Doriţi să folosiţi calea sugerată?"
+
+#. Resource IDs: (91)
+msgid ""
+"The process is still running.\n"
+"Are you sure to abort?"
+msgstr ""
 
 #. Resource IDs: (71)
 #, c-format
@@ -10115,6 +10163,12 @@ msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
 msgstr "Când se aplică un petic, ignoră schimbările de spaţii goale în liniile context dacă este necesar"
+
+#. Resource IDs: (91)
+msgid ""
+"When closing a progress dialog with a running git process, ask for "
+"confirmation before killing it"
+msgstr ""
 
 #. Resource IDs: (197)
 msgid ""

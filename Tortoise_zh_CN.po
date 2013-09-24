@@ -4,7 +4,6 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Translators:
 # lznuaa <lznuaa@gmail.com>, 2012
 # Freeman Ke <guang810828@gmail.com>, 2012
 # Gongong <gongong83@gmail.com>, 2013
@@ -22,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-09-15 17:00+0000\n"
+"PO-Revision-Date: 2013-09-24 10:20+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -152,6 +151,11 @@ msgstr "%1!d!年前"
 #, c-format
 msgid "%1!d! Years ago"
 msgstr "%1!d!年前"
+
+#. Resource IDs: (90)
+#, c-format
+msgid "%1!d! items selected"
+msgstr "已选择 %1!d! 个项目"
 
 #. Resource IDs: (602)
 #, c-format
@@ -1745,6 +1749,10 @@ msgid ""
 "Allow Edit"
 msgstr "允许编辑这个视窗\n允许编辑"
 
+#. Resource IDs: (90)
+msgid "Allow to use custom Gravatar URL"
+msgstr ""
+
 #. Resource IDs: (66)
 msgid "Already up to date."
 msgstr "已经最新"
@@ -2529,7 +2537,7 @@ msgid "Clean Type"
 msgstr "清除类型"
 
 #. Resource IDs: (76)
-msgid "Clean up stale remote banches"
+msgid "Clean up stale remote branches"
 msgstr "清理过时的远程分支"
 
 #. Resource IDs: (145)
@@ -2897,6 +2905,10 @@ msgstr "设置用来解决冲突的程序。"
 #. Resource IDs: (65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
 msgstr "设置查看 GNU 差异文件（补丁文件）的程序"
+
+#. Resource IDs: (1768)
+msgid "Confirm to kill running git process"
+msgstr ""
 
 #. Resource IDs: (1257, 4568)
 msgid "Conflict"
@@ -3837,6 +3849,10 @@ msgstr "通过拖动使此菜单浮动"
 msgid "Draw"
 msgstr "画图"
 
+#. Resource IDs: (1073)
+msgid "Draw tag/branch labels on right side"
+msgstr ""
+
 #. Resource IDs: (1079)
 msgid "Drive Types"
 msgstr "磁盘驱动器类型"
@@ -3975,6 +3991,10 @@ msgstr "空"
 msgid "Enable Edit"
 msgstr "可编辑"
 
+#. Resource IDs: (1766)
+msgid "Enable Gravatar"
+msgstr ""
+
 #. Resource IDs: (87)
 msgid ""
 "Enable loading/saving log cache files (tortoisegit.data, tortoisegit.index)"
@@ -3983,6 +4003,10 @@ msgstr "使用日志缓存文件 (tortoisegit.data, tortoisegit.index)"
 #. Resource IDs: (1744)
 msgid "Enable log cache"
 msgstr "使用日志缓存"
+
+#. Resource IDs: (90)
+msgid "Enable showing Gravatar image in Log Dialog"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Enabled Overlay Handlers"
@@ -4688,8 +4712,12 @@ msgid "General::Context Menu"
 msgstr "常规设置::右键菜单"
 
 #. Resource IDs: (196)
-msgid "General::Dialogs"
-msgstr "常规设置::对话框"
+msgid "General::Dialogs 1"
+msgstr "常规::对话框组一"
+
+#. Resource IDs: (197)
+msgid "General::Dialogs 2"
+msgstr "常规::对话框组二"
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
@@ -5889,6 +5917,12 @@ msgstr "合并点"
 #. Resource IDs: (221)
 msgid "Merge Reintegrate"
 msgstr "合并复兴分支"
+
+#. Resource IDs: (90)
+msgid ""
+"Merge between original branch, working tree contents, and the branch to "
+"switch to"
+msgstr ""
 
 #. Resource IDs: (1432)
 msgid "Merge non-interactive"
@@ -7746,8 +7780,8 @@ msgid "SVN Fetch"
 msgstr "SVN Fetch"
 
 #. Resource IDs: (21)
-msgid "SVN Rebase..."
-msgstr "SVN Rebase..."
+msgid "SVN Rebase"
+msgstr "SVN Rebase"
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -7933,6 +7967,10 @@ msgstr "正在搜索更好的路径来应用补丁..."
 #, c-format
 msgid "Seek failed on %1"
 msgstr "查找错误: %1"
+
+#. Resource IDs: (8)
+msgid "Select"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Select &All"
@@ -8666,13 +8704,17 @@ msgstr "标题:"
 msgid "Submodule"
 msgstr "子模块"
 
-#. Resource IDs: (8, 11)
-msgid "Submodule &Update"
-msgstr "更新子模块(&U)"
+#. Resource IDs: (11)
+msgid "Submodule &Update..."
+msgstr "更新子模块(&U)..."
 
-#. Resource IDs: (20, 1589)
+#. Resource IDs: (1589)
 msgid "Submodule Add"
 msgstr "添加子模块"
+
+#. Resource IDs: (20)
+msgid "Submodule Add..."
+msgstr "添加子模块..."
 
 #. Resource IDs: (4576)
 msgid "Submodule Diff"
@@ -9155,6 +9197,12 @@ msgid ""
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
 msgstr "路径\n%s\n似乎不符合补丁文件中的路径\n但是TortoiseGitMerge找到更好的路径\n%s. \n你想使用建议的路径吗?"
+
+#. Resource IDs: (91)
+msgid ""
+"The process is still running.\n"
+"Are you sure to abort?"
+msgstr ""
 
 #. Resource IDs: (71)
 #, c-format
@@ -10118,6 +10166,12 @@ msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
 msgstr "在应用补丁时，忽略空白改变"
+
+#. Resource IDs: (91)
+msgid ""
+"When closing a progress dialog with a running git process, ask for "
+"confirmation before killing it"
+msgstr ""
 
 #. Resource IDs: (197)
 msgid ""

@@ -4,7 +4,6 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Translators:
 # shcham <shcham@gmail.com>, 2013
 # Arioch <the_Arioch@nm.ru>, 2012-2013
 # Arkadiy Shapkin <arkadiy_s@inbox.ru>, 2011
@@ -26,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-09-15 17:00+0000\n"
+"PO-Revision-Date: 2013-09-24 10:20+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -156,6 +155,11 @@ msgstr "%1!d! год назад"
 #, c-format
 msgid "%1!d! Years ago"
 msgstr "%1!d! лет назад"
+
+#. Resource IDs: (90)
+#, c-format
+msgid "%1!d! items selected"
+msgstr "%1!d! элементов выбрано"
 
 #. Resource IDs: (602)
 #, c-format
@@ -1749,6 +1753,10 @@ msgid ""
 "Allow Edit"
 msgstr "Разрешить редактирование этого вида⏎\nРазрешить редактирование"
 
+#. Resource IDs: (90)
+msgid "Allow to use custom Gravatar URL"
+msgstr ""
+
 #. Resource IDs: (66)
 msgid "Already up to date."
 msgstr "Уже обновлено"
@@ -2533,8 +2541,8 @@ msgid "Clean Type"
 msgstr "Тип очистки"
 
 #. Resource IDs: (76)
-msgid "Clean up stale remote banches"
-msgstr "Очистить устаревшие отдалённые ветви"
+msgid "Clean up stale remote branches"
+msgstr "Очистить от устаревших ветвей"
 
 #. Resource IDs: (145)
 msgid "Cleaning up"
@@ -2901,6 +2909,10 @@ msgstr "Настройка программы, используемой для �
 #. Resource IDs: (65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
 msgstr "Настройка программы просмотра файлов различий GNU (файлов заплаток)"
+
+#. Resource IDs: (1768)
+msgid "Confirm to kill running git process"
+msgstr ""
 
 #. Resource IDs: (1257, 4568)
 msgid "Conflict"
@@ -3841,6 +3853,10 @@ msgstr "Перетащите, чтобы сделать это меню плав
 msgid "Draw"
 msgstr "Рисование"
 
+#. Resource IDs: (1073)
+msgid "Draw tag/branch labels on right side"
+msgstr ""
+
 #. Resource IDs: (1079)
 msgid "Drive Types"
 msgstr "Типы накопителей"
@@ -3979,6 +3995,10 @@ msgstr "Отсутствующее"
 msgid "Enable Edit"
 msgstr "Разрешить редактирование"
 
+#. Resource IDs: (1766)
+msgid "Enable Gravatar"
+msgstr ""
+
 #. Resource IDs: (87)
 msgid ""
 "Enable loading/saving log cache files (tortoisegit.data, tortoisegit.index)"
@@ -3987,6 +4007,10 @@ msgstr "Разрешить загружать/сохранять файлы кэ
 #. Resource IDs: (1744)
 msgid "Enable log cache"
 msgstr "Включить кэш"
+
+#. Resource IDs: (90)
+msgid "Enable showing Gravatar image in Log Dialog"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Enabled Overlay Handlers"
@@ -4692,8 +4716,12 @@ msgid "General::Context Menu"
 msgstr "Общее::Контекстное меню"
 
 #. Resource IDs: (196)
-msgid "General::Dialogs"
-msgstr "Общее::Диалоги"
+msgid "General::Dialogs 1"
+msgstr ""
+
+#. Resource IDs: (197)
+msgid "General::Dialogs 2"
+msgstr ""
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
@@ -5893,6 +5921,12 @@ msgstr "Точка слияния"
 #. Resource IDs: (221)
 msgid "Merge Reintegrate"
 msgstr "Воссоединительное слияние"
+
+#. Resource IDs: (90)
+msgid ""
+"Merge between original branch, working tree contents, and the branch to "
+"switch to"
+msgstr ""
 
 #. Resource IDs: (1432)
 msgid "Merge non-interactive"
@@ -7750,8 +7784,8 @@ msgid "SVN Fetch"
 msgstr "SVN Fetch"
 
 #. Resource IDs: (21)
-msgid "SVN Rebase..."
-msgstr "SVN Rebase..."
+msgid "SVN Rebase"
+msgstr "SVN Перебазирование"
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -7937,6 +7971,10 @@ msgstr "Поиск подходящего пути для применения �
 #, c-format
 msgid "Seek failed on %1"
 msgstr "Поиск не удался на %1"
+
+#. Resource IDs: (8)
+msgid "Select"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Select &All"
@@ -8670,13 +8708,17 @@ msgstr "Тема:"
 msgid "Submodule"
 msgstr "Подмодуль"
 
-#. Resource IDs: (8, 11)
-msgid "Submodule &Update"
-msgstr "Подмодуль &Обновить"
+#. Resource IDs: (11)
+msgid "Submodule &Update..."
+msgstr "Подмодуль &Обновить..."
 
-#. Resource IDs: (20, 1589)
+#. Resource IDs: (1589)
 msgid "Submodule Add"
 msgstr "Подмодуль Добавить"
+
+#. Resource IDs: (20)
+msgid "Submodule Add..."
+msgstr "Подмодуль Добавить..."
 
 #. Resource IDs: (4576)
 msgid "Submodule Diff"
@@ -9159,6 +9201,12 @@ msgid ""
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
 msgstr "Путь\n%s\nне соответствует пути в файле заплатки.\nНо TortoiseGitMerge нашел путь\n%s\nкоторый подходит больше. Желаете ли вы использовать предложенный путь вместо исходного?"
+
+#. Resource IDs: (91)
+msgid ""
+"The process is still running.\n"
+"Are you sure to abort?"
+msgstr ""
 
 #. Resource IDs: (71)
 #, c-format
@@ -10122,6 +10170,12 @@ msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
 msgstr "При применении заплатки, игнорировать изменения в пробелах в контексте линий если необходимо"
+
+#. Resource IDs: (91)
+msgid ""
+"When closing a progress dialog with a running git process, ask for "
+"confirmation before killing it"
+msgstr ""
 
 #. Resource IDs: (197)
 msgid ""
