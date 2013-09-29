@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-09-24 10:10+0000\n"
+"PO-Revision-Date: 2013-09-29 12:32+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -190,6 +190,11 @@ msgid ""
 "Verify that the correct path and file name are given."
 msgstr "%1\nKonnte diese Datei nicht finden.\nBitte überprüfen Sie, ob der Pfad und der Dateiname korrekt sind."
 
+#. Resource IDs: (91)
+#, c-format
+msgid "%HOME%/gitconfig or %XDGHOME%/gitconfig"
+msgstr ""
+
 #. Resource IDs: (357)
 #, c-format
 msgid "%I64d Bytes transferred"
@@ -273,10 +278,10 @@ msgstr "%s [wieder hergestellt]"
 msgid "%s in %s"
 msgstr "%s, in %s"
 
-#. Resource IDs: (1383)
+#. Resource IDs: (87)
 #, c-format
-msgid "%s requires msysgit >= %s"
-msgstr "%s benötigt msysGit >= %s"
+msgid "%s requires Git >= %s"
+msgstr ""
 
 #. Resource IDs: (357)
 #, c-format
@@ -438,6 +443,10 @@ msgstr "Revision &annotieren"
 #. Resource IDs: (65535)
 msgid "&Blue:"
 msgstr "&Blau:"
+
+#. Resource IDs: (65535)
+msgid "&Border:"
+msgstr ""
 
 #. Resource IDs: (1512)
 msgid "&Branch"
@@ -792,6 +801,10 @@ msgstr "&Starte Neuaufbau nach Aktualisierung"
 msgid "&Limit search to modified lines"
 msgstr "Suche auf geänderte Zeilen &einschränken"
 
+#. Resource IDs: (65535)
+msgid "&Limit:"
+msgstr ""
+
 #. Resource IDs: (1078)
 msgid "&Line number"
 msgstr "&Zeilennummer"
@@ -918,8 +931,8 @@ msgid "&Open"
 msgstr "Ö&ffnen"
 
 #. Resource IDs: (84)
-msgid "&Open msysGit WebSite"
-msgstr "Ö&ffne msysGit WebSite"
+msgid "&Open Git for Windows WebSite"
+msgstr ""
 
 #. Resource IDs: (57601)
 msgid "&Open...\tCtrl+O"
@@ -1082,8 +1095,8 @@ msgid "&Save list of selected files to..."
 msgstr "&Speichere Liste der gewählten Dateien in..."
 
 #. Resource IDs: (84)
-msgid "&Set MSysGit path"
-msgstr "mSysGit Pfad &setzen"
+msgid "&Set Git path"
+msgstr ""
 
 #. Resource IDs: (1486)
 msgid "&Set upstream/track remote branch"
@@ -1330,6 +1343,10 @@ msgstr "..."
 msgid "....."
 msgstr "....."
 
+#. Resource IDs: (91)
+msgid ".git/config in the repository root"
+msgstr ""
+
 #. Resource IDs: (1691)
 msgid ".git/info/exclude"
 msgstr ".git/info/exclude"
@@ -1342,9 +1359,17 @@ msgstr ".gitignore in den jeweiligen Verzeichnissen der Objekte"
 msgid ".gitignore in the repository root"
 msgstr ".gitignore im Projektarchiv Wurzelverzeichnis"
 
+#. Resource IDs: (91)
+msgid ".tgitconfig in the repository root"
+msgstr ""
+
 #. Resource IDs: (16506)
 msgid "<.....>"
 msgstr "<.....>"
+
+#. Resource IDs: (65535)
+msgid "<<"
+msgstr "<<"
 
 #. Resource IDs: (76)
 msgid "<All Branches>"
@@ -1878,6 +1903,11 @@ msgid ""
 " since the last update!"
 msgstr "Sind Sie sicher dass Sie die Änderungen an %d Objekten rückgängig machen wollen?\nSie werden <b>alle</b> Änderungen seit der letzten Aktualisierung verlieren!"
 
+#. Resource IDs: (91)
+#, c-format
+msgid "Are you sure you want to save to \"%s\"?"
+msgstr ""
+
 #. Resource IDs: (32793)
 msgid "Arrange &vertical"
 msgstr "&Vertikal ausrichten"
@@ -2211,6 +2241,10 @@ msgstr "Bug-ID/Problem-Nr:"
 msgid "Bug-IDs"
 msgstr "Bug-IDs"
 
+#. Resource IDs: (65535)
+msgid "BugTraq"
+msgstr "BugTraq"
+
 #. Resource IDs: (16132)
 msgid "Button Appearance"
 msgstr "Aussehen der Schaltfläche"
@@ -2441,6 +2475,10 @@ msgstr "Änderungen (Doppelklick auf die Datei für Unterschiede):"
 #. Resource IDs: (2060)
 msgid "Changes the style of the application"
 msgstr "Ändert das Aussehen der Anwendung"
+
+#. Resource IDs: (65535)
+msgid "Char position where to show a border line in commit text boxes:"
+msgstr ""
 
 #. Resource IDs: (3887)
 msgid "Check"
@@ -2869,6 +2907,10 @@ msgstr "Fertig"
 #. Resource IDs: (65535)
 msgid "Config"
 msgstr "Konfiguration"
+
+#. Resource IDs: (65535)
+msgid "Config source"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Config type:"
@@ -3955,6 +3997,10 @@ msgstr "S&ystemweite gitconfig bearbeiten"
 msgid "Edit..."
 msgstr "Bearbeiten..."
 
+#. Resource IDs: (1770)
+msgid "Effective"
+msgstr ""
+
 #. Resource IDs: (79)
 msgid "Either the name or IP of the proxy server"
 msgstr "Entweder der Name oder die IP Adresse des Proxy Servers"
@@ -4660,6 +4706,10 @@ msgstr "Volltextsuche"
 msgid "Fully recursive"
 msgstr "Vollständig rekursiv"
 
+#. Resource IDs: (65535)
+msgid "Further options for the commit dialog are on Dialogs 3 page."
+msgstr ""
+
 #. Resource IDs: (5061)
 msgid "GB2312 (Simplified)"
 msgstr "GB2312 (Vereinfacht)"
@@ -4712,6 +4762,10 @@ msgstr "Allgemein::Dialoge 1"
 #. Resource IDs: (197)
 msgid "General::Dialogs 2"
 msgstr "Allgemein::Dialoge 2"
+
+#. Resource IDs: (4593)
+msgid "General::Dialogs 3"
+msgstr ""
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
@@ -4779,6 +4833,10 @@ msgstr "Git versionierte Objekte hierher exportieren"
 msgid "Git Init"
 msgstr "Git Initialisieren"
 
+#. Resource IDs: (79)
+msgid "Git Install Path"
+msgstr ""
+
 #. Resource IDs: (1270)
 msgid "Git Log"
 msgstr "Git Log"
@@ -4826,6 +4884,18 @@ msgstr "Git URL"
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
 msgstr "Git Klon - TortoiseGit"
+
+#. Resource IDs: (71)
+msgid "Git directory not set (see \"General\" settings page)."
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Git for Windows"
+msgstr ""
+
+#. Resource IDs: (84)
+msgid "Git for Windows (http://code.google.com/p/msysgit/) not found."
+msgstr ""
 
 #. Resource IDs: (79)
 msgid "Git reported an error while creating a repository!\n"
@@ -5573,6 +5643,10 @@ msgstr "Linie 7"
 msgid "LINE8"
 msgstr "Linie 8"
 
+#. Resource IDs: (65535)
+msgid "Language:"
+msgstr ""
+
 #. Resource IDs: (85)
 msgid "Last Author"
 msgstr "Letzter Autor"
@@ -5796,18 +5870,6 @@ msgstr "Lum"
 msgid "MAPI"
 msgstr "MAPI"
 
-#. Resource IDs: (65535)
-msgid "MSysGit"
-msgstr "MSysGit"
-
-#. Resource IDs: (84)
-msgid "MSysGit (http://code.google.com/p/msysgit/) not found."
-msgstr "MSysGit (http://code.google.com/p/msysgit/) nicht gefunden."
-
-#. Resource IDs: (71)
-msgid "MSysGit directory not set (see \"General\" settings page)."
-msgstr "MSysGit Verzeichnis ist nicht gesetzt (siehe \"Allgemeines\" Einstellungsseite)."
-
 #. Resource IDs: (5066)
 msgid "Macintosh"
 msgstr "Macintosh"
@@ -5982,6 +6044,10 @@ msgstr "Meine"
 msgid "Minimize the Ribbon"
 msgstr "Band minimieren"
 
+#. Resource IDs: (65535)
+msgid "Minimum number of chars for a commit message:"
+msgstr ""
+
 #. Resource IDs: (1023, 65535)
 msgid "Misc"
 msgstr "Allgemein"
@@ -6091,10 +6157,6 @@ msgstr "Verschiebe %s"
 #. Resource IDs: (80)
 msgid "Moving..."
 msgstr "Verschieben..."
-
-#. Resource IDs: (79)
-msgid "MsysGit Install Path"
-msgstr "mSysGit Installationspfad"
 
 #. Resource IDs: (65535)
 msgid "My file:"
@@ -7024,6 +7086,10 @@ msgstr "Programme (*.exe)|*.exe|Alle Dateien (*.*)|*.*||"
 msgid "Progress"
 msgstr "Fortschritt"
 
+#. Resource IDs: (91, 1772)
+msgid "Project"
+msgstr ""
+
 #. Resource IDs: (11)
 msgid "Property"
 msgstr "Eigenschaft"
@@ -7118,6 +7184,10 @@ msgid ""
 "Exit TortoiseGitMerge without saving the modifications"
 msgstr "Beenden\nTortoiseGitMerge verlassenen ohne die Änderungen zu speichern."
 
+#. Resource IDs: (1633)
+msgid "QuotePath"
+msgstr ""
+
 #. Resource IDs: (1073)
 msgid "R&AM drives"
 msgstr "&RAM disks"
@@ -7133,6 +7203,16 @@ msgstr "Rü&ckgängig zu dieser Revision"
 #. Resource IDs: (1255)
 msgid "REBASE"
 msgstr "NEUAUFBAU"
+
+#. Resource IDs: (1769)
+msgid "Randomize Sync Dialog startup position"
+msgstr ""
+
+#. Resource IDs: (91)
+msgid ""
+"Randomize the startup position of Sync Dialog. This prevents from pressing "
+"the Pull button of same dialog"
+msgstr ""
 
 #. Resource IDs: (1535)
 msgid "Range"
@@ -7849,10 +7929,6 @@ msgstr "Beide speichern\nAlle beiden Dateien werden gespeichert"
 msgid "Save as"
 msgstr "Speichern unter …"
 
-#. Resource IDs: (1567)
-msgid "Save as &Global"
-msgstr "&Global speichern"
-
 #. Resource IDs: (313)
 msgid "Save as..."
 msgstr "Speichern unter..."
@@ -7897,6 +7973,10 @@ msgstr "Geänderte Datei speichern\nDatei speichern"
 #. Resource IDs: (1132)
 msgid "Save to clipboard"
 msgstr "In Zwischenablage speichern"
+
+#. Resource IDs: (65535)
+msgid "Save to:"
+msgstr ""
 
 #. Resource IDs: (1385)
 msgid "Save unified diff"
@@ -8064,6 +8144,12 @@ msgid ""
 "Select the entire document\n"
 "Select All"
 msgstr "Markiert das gesamte Dokument\nAlles markieren"
+
+#. Resource IDs: (65535)
+msgid ""
+"Select the language this project is using. This settings affects the spell "
+"checker used for commit messages."
+msgstr ""
 
 #. Resource IDs: (78)
 msgid "Select viewer for diff-files"
@@ -10287,6 +10373,12 @@ msgstr "Alle Ja"
 msgid "You already have the latest version installed."
 msgstr "Sie haben bereits die neueste Version installiert."
 
+#. Resource IDs: (91)
+msgid ""
+"You are about to save an empty/default value. This can be useful to prevent inheriting another value.\n"
+"Do you want to remove the key instead of saving the empty/default value?"
+msgstr ""
+
 #. Resource IDs: (65535)
 msgid ""
 "You can disable specific Overlay handlers here.\n"
@@ -10316,10 +10408,10 @@ msgstr "Sie können nicht den Ref-Typ mit einer Umbenennung verändern."
 
 #. Resource IDs: (84)
 msgid ""
-"You have an old version of msysGit (http://code.google.com/p/msysgit/) installed.\n"
+"You have an old version of Git for Windows (http://code.google.com/p/msysgit/) installed.\n"
 "\n"
 "You should consider an upgrade to 1.7.10+ which supports UTF-8 and is compatible to the *nix version of git."
-msgstr "Sie haben eine alte Version von msysGit (http://code.google.com/p/msysgit/) installiert.\n\nSie sollten ein Upgrade auf 1.7.10+ in Erwägung ziehen. Diese Versionen unterstützen UTF-8 und sind kompatibel zur *nix Version von Git."
+msgstr ""
 
 #. Resource IDs: (86)
 msgid ""
@@ -10613,10 +10705,6 @@ msgstr "%s\nnach %s\nexportiert"
 msgid "external"
 msgstr "extern"
 
-#. Resource IDs: (1594, 1596, 1598)
-msgid "false"
-msgstr "falsch"
-
 #. Resource IDs: (66)
 #, c-format
 msgid "git did not exit cleanly (exit code %d)"
@@ -10637,6 +10725,10 @@ msgstr "Unvollständig"
 #. Resource IDs: (214)
 msgid "item kept locally"
 msgstr "Objekt lokal erhalten"
+
+#. Resource IDs: (65535)
+msgid "keep the file lists in English"
+msgstr ""
 
 #. Resource IDs: (69)
 #, c-format
@@ -10772,10 +10864,6 @@ msgstr "nach %1"
 msgid "to %s"
 msgstr "nach %s"
 
-#. Resource IDs: (1593, 1597, 1601)
-msgid "true"
-msgstr "wahr"
-
 #. Resource IDs: (245)
 msgid "week"
 msgstr "Woche"
@@ -10811,3 +10899,7 @@ msgstr "ja"
 #. Resource IDs: (1382)
 msgid "{BugTraq}"
 msgstr "{BugTraq}"
+
+#. Resource IDs: (65535)
+msgid "|"
+msgstr "|"
