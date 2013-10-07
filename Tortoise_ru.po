@@ -25,8 +25,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-10-07 02:50+0000\n"
-"Last-Translator: Вячеслав Третьяков <tret2003@gmail.com>\n"
+"PO-Revision-Date: 2013-10-07 05:26+0000\n"
+"Last-Translator: Герман Борисов <borisov.german@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -203,7 +203,7 @@ msgstr "%1\nЭтот файл не найден.\nПроверьте корре�
 #. Resource IDs: (91)
 #, c-format
 msgid "%HOME%/gitconfig or %XDGHOME%/gitconfig"
-msgstr ""
+msgstr "%HOME%/gitconfig или %XDGHOME%/gitconfig"
 
 #. Resource IDs: (357)
 #, c-format
@@ -291,7 +291,7 @@ msgstr "%s за %s"
 #. Resource IDs: (87)
 #, c-format
 msgid "%s requires Git >= %s"
-msgstr ""
+msgstr "%s требует Git версии >= %s"
 
 #. Resource IDs: (357)
 #, c-format
@@ -456,7 +456,7 @@ msgstr "&Син:"
 
 #. Resource IDs: (65535)
 msgid "&Border:"
-msgstr ""
+msgstr "&Граница:"
 
 #. Resource IDs: (1512)
 msgid "&Branch"
@@ -552,7 +552,7 @@ msgstr "&Сравнить ревизии"
 
 #. Resource IDs: (92)
 msgid "&Compressed Graph"
-msgstr ""
+msgstr "Сжатый граф"
 
 #. Resource IDs: (1239)
 msgid "&Configure"
@@ -728,7 +728,7 @@ msgstr "&Перейти»Ctrl+G"
 
 #. Resource IDs: (91)
 msgid "&Gray Unrelated Changed Paths"
-msgstr ""
+msgstr "&Несвязанные изменённые пути серым"
 
 #. Resource IDs: (65535)
 msgid "&Green:"
@@ -850,7 +850,7 @@ msgstr "&Локальная ветвь:"
 
 #. Resource IDs: (92)
 msgid "&Local branches"
-msgstr ""
+msgstr "&Локальные ветви"
 
 #. Resource IDs: (1504)
 msgid "&Local:"
@@ -958,7 +958,7 @@ msgstr "&Открыть"
 
 #. Resource IDs: (84)
 msgid "&Open Git for Windows WebSite"
-msgstr ""
+msgstr "&Перейти на сайт Git для Windows"
 
 #. Resource IDs: (57601)
 msgid "&Open...\tCtrl+O"
@@ -970,7 +970,7 @@ msgstr "&Параметры"
 
 #. Resource IDs: (65535)
 msgid "&Overlay Icon:"
-msgstr ""
+msgstr "Пометка:"
 
 #. Resource IDs: (32772)
 msgid "&Overlay images"
@@ -1130,7 +1130,7 @@ msgstr "Сохранить с&писок выбранных файлов..."
 
 #. Resource IDs: (84)
 msgid "&Set Git path"
-msgstr ""
+msgstr "&Установить путь к Git"
 
 #. Resource IDs: (1486)
 msgid "&Set upstream/track remote branch"
@@ -1383,7 +1383,7 @@ msgstr "....."
 
 #. Resource IDs: (91)
 msgid ".git/config in the repository root"
-msgstr ""
+msgstr ".git/config в корне хранилища"
 
 #. Resource IDs: (1691)
 msgid ".git/info/exclude"
@@ -1399,7 +1399,7 @@ msgstr ".gitignore в корне репозитария"
 
 #. Resource IDs: (91)
 msgid ".tgitconfig in the repository root"
-msgstr ""
+msgstr ".tgitconfig в корне хранилища"
 
 #. Resource IDs: (16506)
 msgid "<.....>"
@@ -1808,7 +1808,7 @@ msgstr "Разрешить редактирование этого вида⏎\n
 
 #. Resource IDs: (90)
 msgid "Allow to use custom Gravatar URL"
-msgstr ""
+msgstr "Разрешить использовать свой URL Gravatar"
 
 #. Resource IDs: (66)
 msgid "Already up to date."
@@ -2982,7 +2982,7 @@ msgstr "Настройка программы просмотра файлов р
 
 #. Resource IDs: (1768)
 msgid "Confirm to kill running git process"
-msgstr ""
+msgstr "Подтвердите принудительную остановку процесса git"
 
 #. Resource IDs: (1257, 4568)
 msgid "Conflict"
@@ -3929,7 +3929,7 @@ msgstr "Рисование"
 
 #. Resource IDs: (1073)
 msgid "Draw tag/branch labels on right side"
-msgstr ""
+msgstr "Выводить подписи веток/меток справа"
 
 #. Resource IDs: (1079)
 msgid "Drive Types"
@@ -4075,7 +4075,7 @@ msgstr "Разрешить редактирование"
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
-msgstr ""
+msgstr "Включить Gravatar"
 
 #. Resource IDs: (87)
 msgid ""
@@ -4088,7 +4088,7 @@ msgstr "Включить кэш"
 
 #. Resource IDs: (90)
 msgid "Enable showing Gravatar image in Log Dialog"
-msgstr ""
+msgstr "Отображать Gravatar'ы в журнале"
 
 #. Resource IDs: (65535)
 msgid "Enabled Overlay Handlers"
@@ -4754,7 +4754,7 @@ msgstr ""
 
 #. Resource IDs: (92)
 msgid "G&ravatar"
-msgstr ""
+msgstr "G&ravatar"
 
 #. Resource IDs: (5061)
 msgid "GB2312 (Simplified)"
@@ -4803,15 +4803,15 @@ msgstr "Общее::Контекстное меню"
 
 #. Resource IDs: (196)
 msgid "General::Dialogs 1"
-msgstr ""
+msgstr "Общее::Диалоги 1"
 
 #. Resource IDs: (197)
 msgid "General::Dialogs 2"
-msgstr ""
+msgstr "Общее::Диалоги 2"
 
 #. Resource IDs: (4593)
 msgid "General::Dialogs 3"
-msgstr ""
+msgstr "Общее::Диалоги 3"
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
@@ -4941,7 +4941,7 @@ msgstr "Git для Windows"
 
 #. Resource IDs: (84)
 msgid "Git for Windows (http://code.google.com/p/msysgit/) not found."
-msgstr ""
+msgstr "Git для Windows (http://code.google.com/p/msysgit/) не найден."
 
 #. Resource IDs: (79)
 msgid "Git reported an error while creating a repository!\n"
@@ -5111,7 +5111,7 @@ msgstr "Скрыть/показать список файлов заплатки
 
 #. Resource IDs: (92)
 msgid "Hint"
-msgstr ""
+msgstr "Подсказка"
 
 #. Resource IDs: (16519)
 msgid ""
@@ -6325,7 +6325,7 @@ msgstr "Без перемотки"
 
 #. Resource IDs: (92)
 msgid "No &merges"
-msgstr ""
+msgstr "Без слияний"
 
 #. Resource IDs: (1716)
 msgid "No Checkout"
@@ -7266,13 +7266,13 @@ msgstr "ПЕРЕБАЗИРОВАТЬ"
 
 #. Resource IDs: (1769)
 msgid "Randomize Sync Dialog startup position"
-msgstr ""
+msgstr "Случайное положение окна синхронизации"
 
 #. Resource IDs: (91)
 msgid ""
 "Randomize the startup position of Sync Dialog. This prevents from pressing "
 "the Pull button of same dialog"
-msgstr ""
+msgstr "Случайный выбор положения окна позволяет предотвратить случайное нажатие кнопок"
 
 #. Resource IDs: (1535)
 msgid "Range"
@@ -8209,7 +8209,7 @@ msgstr "Выбрать весь документ\nВыбрать всё"
 msgid ""
 "Select the language this project is using. This settings affects the spell "
 "checker used for commit messages."
-msgstr ""
+msgstr "Выберите язык проекта. Эта настройка влияет на проверку орфографии в диалоге фиксации."
 
 #. Resource IDs: (78)
 msgid "Select viewer for diff-files"
@@ -8472,7 +8472,7 @@ msgstr "Показать &игнорируемые файлы"
 
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
-msgstr ""
+msgstr "Только подписанные коммиты"
 
 #. Resource IDs: (1063)
 msgid "Show linenumber&s"
@@ -10315,7 +10315,7 @@ msgstr "При применении заплатки, игнорировать �
 msgid ""
 "When closing a progress dialog with a running git process, ask for "
 "confirmation before killing it"
-msgstr ""
+msgstr "Спрашивать о завершении процесса при попытке закрыть окно до завершения обработки"
 
 #. Resource IDs: (197)
 msgid ""
@@ -10341,7 +10341,7 @@ msgstr "Когда заплатка не применилась корректн
 msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
-msgstr ""
+msgstr "При вводе URL, если вы не указали хранилище, то автоматически будет подставляться \"origin\", так что можете не заполнять."
 
 #. Resource IDs: (1409)
 msgid ""
@@ -10475,7 +10475,7 @@ msgid ""
 "You have an old version of Git for Windows (http://code.google.com/p/msysgit/) installed.\n"
 "\n"
 "You should consider an upgrade to 1.7.10+ which supports UTF-8 and is compatible to the *nix version of git."
-msgstr ""
+msgstr "У вас установлена старая версия Git (http://code.google.com/p/msysgit/)\n\nВам следует рассмотреть возможность обновления до версии 1.7.10 и выше, которая поддерживает UTF-8 и совместима с *nix-версией git."
 
 #. Resource IDs: (86)
 msgid ""
