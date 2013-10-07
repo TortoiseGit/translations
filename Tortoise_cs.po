@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-10-05 14:01+0000\n"
+"PO-Revision-Date: 2013-10-07 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -957,6 +957,10 @@ msgstr "&Otevřít...\tCtrl+O"
 #. Resource IDs: (1382)
 msgid "&Options"
 msgstr "&Volby"
+
+#. Resource IDs: (65535)
+msgid "&Overlay Icon:"
+msgstr ""
 
 #. Resource IDs: (32772)
 msgid "&Overlay images"
@@ -3629,6 +3633,10 @@ msgstr "Device Independent Bitmap\nbitmapa nezávislá na zařízení"
 msgid "Dialog sizes and positions"
 msgstr "Velikosti a pozice dialogových oken"
 
+#. Resource IDs: (65535)
+msgid "Dialogs"
+msgstr ""
+
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
 msgstr "Porovnat dvě odevzdání"
@@ -5342,6 +5350,12 @@ msgstr "Překryvy ikon::Sada ikon"
 #. Resource IDs: (338)
 msgid "Icon Overlays::Overlay Handlers"
 msgstr "Překryvy ikon::Obslužné rutiny překrytí"
+
+#. Resource IDs: (92)
+msgid ""
+"Icons (*.ico, *.jpg, *.png, *.bmp, "
+"*.gif)|*.ico;*.jpg;*.jpeg;*.png;*.bmp;*.gif|All Files (*.*)|*.*||"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Icons/Design/Code:\t\tLuebbe Onken"
@@ -10419,12 +10433,6 @@ msgstr "Ano všem"
 msgid "You already have the latest version installed."
 msgstr "Již máte nainstalovánu nejnovější verzi."
 
-#. Resource IDs: (91)
-msgid ""
-"You are about to save an empty/default value. This can be useful to prevent inheriting another value.\n"
-"Do you want to remove the key instead of saving the empty/default value?"
-msgstr "Chystáte se uložit prázdnou/výchozí hodnotu. To může být použito k zabránění dědění jiné hodnoty.\nChcete místo uložení tento klíč odstranit?"
-
 #. Resource IDs: (65535)
 msgid ""
 "You can disable specific Overlay handlers here.\n"
@@ -10767,6 +10775,10 @@ msgstr "zahrnout &nesledované"
 #. Resource IDs: (13)
 msgid "incomplete"
 msgstr "nedokončené"
+
+#. Resource IDs: (1780, 1781, 1782, 1783)
+msgid "inherit"
+msgstr ""
 
 #. Resource IDs: (214)
 msgid "item kept locally"

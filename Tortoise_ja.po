@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-10-05 14:01+0000\n"
+"PO-Revision-Date: 2013-10-07 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese <tortoisegit-jp@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -959,6 +959,10 @@ msgstr "開く(&O)...\tCtrl+O"
 #. Resource IDs: (1382)
 msgid "&Options"
 msgstr "オプション(&O)"
+
+#. Resource IDs: (65535)
+msgid "&Overlay Icon:"
+msgstr ""
 
 #. Resource IDs: (32772)
 msgid "&Overlay images"
@@ -3631,6 +3635,10 @@ msgstr "デバイスに依存しないビットマップ\nデバイスに依存�
 msgid "Dialog sizes and positions"
 msgstr "ダイアログのサイズと位置"
 
+#. Resource IDs: (65535)
+msgid "Dialogs"
+msgstr ""
+
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
 msgstr "２つのコミットの差分"
@@ -5344,6 +5352,12 @@ msgstr "アイコンオーバーレイ::アイコンセット"
 #. Resource IDs: (338)
 msgid "Icon Overlays::Overlay Handlers"
 msgstr "アイコンオーバーレイ::オーバーレイハンドラー"
+
+#. Resource IDs: (92)
+msgid ""
+"Icons (*.ico, *.jpg, *.png, *.bmp, "
+"*.gif)|*.ico;*.jpg;*.jpeg;*.png;*.bmp;*.gif|All Files (*.*)|*.*||"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Icons/Design/Code:\t\tLuebbe Onken"
@@ -10421,12 +10435,6 @@ msgstr "すべて「はい」"
 msgid "You already have the latest version installed."
 msgstr "最新バージョンがインストールされています。"
 
-#. Resource IDs: (91)
-msgid ""
-"You are about to save an empty/default value. This can be useful to prevent inheriting another value.\n"
-"Do you want to remove the key instead of saving the empty/default value?"
-msgstr ""
-
 #. Resource IDs: (65535)
 msgid ""
 "You can disable specific Overlay handlers here.\n"
@@ -10769,6 +10777,10 @@ msgstr "バージョン管理外のファイルを含む(&U)"
 #. Resource IDs: (13)
 msgid "incomplete"
 msgstr "未完了"
+
+#. Resource IDs: (1780, 1781, 1782, 1783)
+msgid "inherit"
+msgstr ""
 
 #. Resource IDs: (214)
 msgid "item kept locally"

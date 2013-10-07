@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-10-05 14:01+0000\n"
+"PO-Revision-Date: 2013-10-07 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -963,6 +963,10 @@ msgstr "打开(&O)...\tCtrl+O"
 #. Resource IDs: (1382)
 msgid "&Options"
 msgstr "选项(&O)"
+
+#. Resource IDs: (65535)
+msgid "&Overlay Icon:"
+msgstr ""
 
 #. Resource IDs: (32772)
 msgid "&Overlay images"
@@ -3635,6 +3639,10 @@ msgstr "设备中立位图\n一种设备中立的位图"
 msgid "Dialog sizes and positions"
 msgstr "窗口大小及位置"
 
+#. Resource IDs: (65535)
+msgid "Dialogs"
+msgstr ""
+
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
 msgstr "比较两个版本差异"
@@ -5348,6 +5356,12 @@ msgstr "图标覆盖::图标集"
 #. Resource IDs: (338)
 msgid "Icon Overlays::Overlay Handlers"
 msgstr "图标覆盖::覆盖程序"
+
+#. Resource IDs: (92)
+msgid ""
+"Icons (*.ico, *.jpg, *.png, *.bmp, "
+"*.gif)|*.ico;*.jpg;*.jpeg;*.png;*.bmp;*.gif|All Files (*.*)|*.*||"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Icons/Design/Code:\t\tLuebbe Onken"
@@ -10425,12 +10439,6 @@ msgstr "全部选是"
 msgid "You already have the latest version installed."
 msgstr "你已经安装了最新版。"
 
-#. Resource IDs: (91)
-msgid ""
-"You are about to save an empty/default value. This can be useful to prevent inheriting another value.\n"
-"Do you want to remove the key instead of saving the empty/default value?"
-msgstr "您即将保存一个空值/默认值。这对防止继承另一个值很有用。\n是否移除该键而不是保存空值/默认值？"
-
 #. Resource IDs: (65535)
 msgid ""
 "You can disable specific Overlay handlers here.\n"
@@ -10773,6 +10781,10 @@ msgstr "包括未被版本控制的文件"
 #. Resource IDs: (13)
 msgid "incomplete"
 msgstr "未完成"
+
+#. Resource IDs: (1780, 1781, 1782, 1783)
+msgid "inherit"
+msgstr ""
 
 #. Resource IDs: (214)
 msgid "item kept locally"

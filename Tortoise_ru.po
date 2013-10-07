@@ -25,8 +25,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-10-05 14:01+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2013-10-07 02:50+0000\n"
+"Last-Translator: Вячеслав Третьяков <tret2003@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -805,7 +805,7 @@ msgstr "&Сохранить текущее состояние"
 
 #. Resource IDs: (92)
 msgid "&Labels"
-msgstr ""
+msgstr "&Метка"
 
 #. Resource IDs: (65535)
 msgid "&Language:"
@@ -968,6 +968,10 @@ msgstr "&Открыть...\tCtrl+O"
 msgid "&Options"
 msgstr "&Параметры"
 
+#. Resource IDs: (65535)
+msgid "&Overlay Icon:"
+msgstr ""
+
 #. Resource IDs: (32772)
 msgid "&Overlay images"
 msgstr "На&ложить изображения"
@@ -1042,7 +1046,7 @@ msgstr "&Отдалённая ветвь:"
 
 #. Resource IDs: (92)
 msgid "&Remote branches"
-msgstr ""
+msgstr "&Дистанционная ветвь:"
 
 #. Resource IDs: (1490, 1503)
 msgid "&Remote:"
@@ -3639,6 +3643,10 @@ msgstr "Независимый от устройства растр\nнезав�
 msgid "Dialog sizes and positions"
 msgstr "Размеры и расположение окон"
 
+#. Resource IDs: (65535)
+msgid "Dialogs"
+msgstr "Диалоги"
+
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
 msgstr "Различие двух коммитов"
@@ -5353,6 +5361,12 @@ msgstr "Пометки на значках::Набор значков"
 msgid "Icon Overlays::Overlay Handlers"
 msgstr "Наложения иконок::Обработчики наложений"
 
+#. Resource IDs: (92)
+msgid ""
+"Icons (*.ico, *.jpg, *.png, *.bmp, "
+"*.gif)|*.ico;*.jpg;*.jpeg;*.png;*.bmp;*.gif|All Files (*.*)|*.*||"
+msgstr "Картинки (*.ico, *.jpg, *.png, *.bmp, *.gif)|*.ico;*.jpg;*.jpeg;*.png;*.bmp;*.gif|Все файлы (*.*)|*.*||"
+
 #. Resource IDs: (65535)
 msgid "Icons/Design/Code:\t\tLuebbe Onken"
 msgstr "Значки/Дизайн/Код:\t\tLuebbe Onken"
@@ -6088,7 +6102,7 @@ msgstr "Свернуть полосу"
 
 #. Resource IDs: (65535)
 msgid "Minimum number of chars for a commit message:"
-msgstr ""
+msgstr "Минимальное количество символов в описании к киммиту:"
 
 #. Resource IDs: (1023, 65535)
 msgid "Misc"
@@ -10429,12 +10443,6 @@ msgstr "Да для всех"
 msgid "You already have the latest version installed."
 msgstr "У вас уже установлена самая последняя версия."
 
-#. Resource IDs: (91)
-msgid ""
-"You are about to save an empty/default value. This can be useful to prevent inheriting another value.\n"
-"Do you want to remove the key instead of saving the empty/default value?"
-msgstr ""
-
 #. Resource IDs: (65535)
 msgid ""
 "You can disable specific Overlay handlers here.\n"
@@ -10777,6 +10785,10 @@ msgstr "включая неверсированные"
 #. Resource IDs: (13)
 msgid "incomplete"
 msgstr "незакончен"
+
+#. Resource IDs: (1780, 1781, 1782, 1783)
+msgid "inherit"
+msgstr ""
 
 #. Resource IDs: (214)
 msgid "item kept locally"
