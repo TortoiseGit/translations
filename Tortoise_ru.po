@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-10-07 05:26+0000\n"
+"PO-Revision-Date: 2013-10-08 13:26+0000\n"
 "Last-Translator: Герман Борисов <borisov.german@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -728,7 +728,7 @@ msgstr "&Перейти»Ctrl+G"
 
 #. Resource IDs: (91)
 msgid "&Gray Unrelated Changed Paths"
-msgstr "&Несвязанные изменённые пути серым"
+msgstr "Несвязанные изменения серым"
 
 #. Resource IDs: (65535)
 msgid "&Green:"
@@ -825,7 +825,7 @@ msgstr "Поиск только в &изменённых строках"
 
 #. Resource IDs: (65535)
 msgid "&Limit:"
-msgstr ""
+msgstr "Ограничение:"
 
 #. Resource IDs: (1078)
 msgid "&Line number"
@@ -1944,7 +1944,7 @@ msgstr "Вы действительно желаете убрать измене
 #. Resource IDs: (91)
 #, c-format
 msgid "Are you sure you want to save to \"%s\"?"
-msgstr ""
+msgstr "Уверены что нужно сохранять в \"%s\"?\nУ вас выбран другой источник!"
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical"
@@ -2281,7 +2281,7 @@ msgstr "ID ошибок"
 
 #. Resource IDs: (65535)
 msgid "BugTraq"
-msgstr ""
+msgstr "BugTraq"
 
 #. Resource IDs: (16132)
 msgid "Button Appearance"
@@ -2516,7 +2516,7 @@ msgstr "Изменяет стиль приложения"
 
 #. Resource IDs: (65535)
 msgid "Char position where to show a border line in commit text boxes:"
-msgstr ""
+msgstr "Ограничение длинны строки в диалоге фиксации. Будет отображаться вертикальная черта."
 
 #. Resource IDs: (3887)
 msgid "Check"
@@ -2948,7 +2948,7 @@ msgstr "Конфигурация"
 
 #. Resource IDs: (65535)
 msgid "Config source"
-msgstr ""
+msgstr "Показывать настройки"
 
 #. Resource IDs: (65535)
 msgid "Config type:"
@@ -3368,15 +3368,15 @@ msgstr "Создаю запрос-получение..."
 
 #. Resource IDs: (89)
 msgid "Credential helper must not be empty."
-msgstr "Помощник полномочий не может быть пустым."
+msgstr "Удостоверяющий центр не может быть пустым."
 
 #. Resource IDs: (65535)
 msgid "Credential helper:"
-msgstr "Помощник полномочий:"
+msgstr "Удостоверяющий центр:"
 
 #. Resource IDs: (65535)
 msgid "Credentials"
-msgstr "Полномочия"
+msgstr "Удостоверения"
 
 #. Resource IDs: (65535)
 msgid "Credits:"
@@ -4041,7 +4041,7 @@ msgstr "Поправить..."
 
 #. Resource IDs: (1770)
 msgid "Effective"
-msgstr ""
+msgstr "Итог"
 
 #. Resource IDs: (79)
 msgid "Either the name or IP of the proxy server"
@@ -4750,7 +4750,7 @@ msgstr "Полностью рекурсивно"
 
 #. Resource IDs: (65535)
 msgid "Further options for the commit dialog are on Dialogs 3 page."
-msgstr ""
+msgstr "Остальные опции перенесены на страницу Диалоги 3"
 
 #. Resource IDs: (92)
 msgid "G&ravatar"
@@ -4957,7 +4957,7 @@ msgstr "Путь к git.exe:"
 
 #. Resource IDs: (4591)
 msgid "Git::Credential"
-msgstr "Git::Полномочия"
+msgstr "Git::Удостоверения"
 
 #. Resource IDs: (4570)
 msgid "Git::Remote"
@@ -5037,7 +5037,7 @@ msgstr "Разбить по группам изменений"
 
 #. Resource IDs: (1229)
 msgid "H&ide Unrelated Changed Paths"
-msgstr "Скрыть &несвязанные изменённые пути"
+msgstr "Несвязанные изменения скрыты"
 
 #. Resource IDs: (65535)
 msgid "H&ue:"
@@ -7246,7 +7246,7 @@ msgstr "Выйти⏎\nВыйти из TortoiseGitMerge без сохранен�
 
 #. Resource IDs: (1633)
 msgid "QuotePath"
-msgstr ""
+msgstr "QuotePath"
 
 #. Resource IDs: (1073)
 msgid "R&AM drives"
@@ -8176,7 +8176,7 @@ msgstr "Выбрать файл скрипта ловушки"
 
 #. Resource IDs: (1405)
 msgid "Select items automatically"
-msgstr "Автоматический выбор элементов"
+msgstr "Отмечать элементы автоматически"
 
 #. Resource IDs: (78)
 msgid "Select merge application"
@@ -8472,7 +8472,7 @@ msgstr "Показать &игнорируемые файлы"
 
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
-msgstr "Только подписанные коммиты"
+msgstr "Только со ссылками"
 
 #. Resource IDs: (1063)
 msgid "Show linenumber&s"
@@ -9098,13 +9098,13 @@ msgstr "Сообщение коммита не может быть пустым"
 msgid ""
 "The credential helper URL \"%s\" already exists.\n"
 "Do you want to overwrite it?"
-msgstr "В помощнике полномочий URL \"%s\" уже существует.\nВы хотите перезаписать его?"
+msgstr "Удостоверяющий центр с таким URL \"%s\" уже существует.\nВы хотите перезаписать его?"
 
 #. Resource IDs: (89)
 msgid ""
 "The credential helper was changed.\n"
 "Do you want to save now or discard changes?"
-msgstr "Помощник полномочий был изменён.\nСохранить сейчас или отменить изменения?"
+msgstr "Удостоверяющий центр был изменён.\nСохранить или отменить изменения?"
 
 #. Resource IDs: (603)
 msgid ""
@@ -10273,7 +10273,7 @@ msgstr "Ожидаю ввода"
 
 #. Resource IDs: (1776)
 msgid "Walk Be&haviour"
-msgstr ""
+msgstr "Поведение"
 
 #. Resource IDs: (88)
 msgid "Warning"
@@ -10788,7 +10788,7 @@ msgstr "незакончен"
 
 #. Resource IDs: (1780, 1781, 1782, 1783)
 msgid "inherit"
-msgstr ""
+msgstr "не перекрывать"
 
 #. Resource IDs: (214)
 msgid "item kept locally"
