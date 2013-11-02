@@ -11,10 +11,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-10-27 15:26+0000\n"
-"Last-Translator: Ricardo RCDMK Souza <srrcdmk@gmail.com>\n"
+"PO-Revision-Date: 2013-11-02 15:30+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3253,6 +3253,15 @@ msgstr "Não foi possível iniciar o Agente Putty (pageant)."
 msgid "Could not start thread!"
 msgstr "Não foi possível iniciar a thread!"
 
+#. Resource IDs: (1501)
+msgid "Coun&t"
+msgstr ""
+
+#. Resource IDs: (94)
+#, c-format
+msgid "Count: %d matches."
+msgstr ""
+
 #. Resource IDs: (1683)
 msgid "Create &Library"
 msgstr "Criar Bibi&lioteca"
@@ -4615,6 +4624,20 @@ msgid ""
 "Find"
 msgstr "Localizar o texto especificado\nLocalizar"
 
+#. Resource IDs: (95)
+#, c-format
+msgid "Find: Can't find the text \"%s\""
+msgstr ""
+
+#. Resource IDs: (95)
+msgid ""
+"Find: First occurrence from the bottom found. Beginning of document reached."
+msgstr ""
+
+#. Resource IDs: (95)
+msgid "Find: First occurrence from the top found. End of document reached."
+msgstr ""
+
 #. Resource IDs: (67)
 msgid "Finish"
 msgstr "Término"
@@ -5625,6 +5648,10 @@ msgstr "KOI8-R"
 msgid "KOI8-U"
 msgstr "KOI8-U"
 
+#. Resource IDs: (92)
+msgid "Keep"
+msgstr ""
+
 #. Resource IDs: (1126)
 msgid "Keep changelists"
 msgstr "Manter listas de alterações"
@@ -6261,6 +6288,10 @@ msgstr "Novo Menu"
 msgid "New name for %s"
 msgstr "Novo nome para %s"
 
+#. Resource IDs: (92)
+msgid "New name must not be empty or the same as the original name!"
+msgstr ""
+
 #. Resource IDs: (98)
 msgid "New name:"
 msgstr "Novo nome:"
@@ -6272,6 +6303,10 @@ msgstr "Novo submódulo"
 #. Resource IDs: (605)
 msgid "Newer commit time"
 msgstr "Nova hora de submissão"
+
+#. Resource IDs: (101)
+msgid "Newlines"
+msgstr ""
 
 #. Resource IDs: (20308)
 msgid "Next"
@@ -6757,6 +6792,10 @@ msgstr "Output.prn"
 #. Resource IDs: (1523)
 msgid "Override branch if exists"
 msgstr "Sobrescrever ramo se já existir"
+
+#. Resource IDs: (92)
+msgid "Overwrite"
+msgstr "Sobrescrever"
 
 #. Resource IDs: (3845)
 #, c-format
@@ -7566,6 +7605,11 @@ msgstr "Renomear %s"
 #. Resource IDs: (151)
 msgid "Rename - TortoiseGit"
 msgstr "Renomear - TortoiseGit"
+
+#. Resource IDs: (92)
+#, c-format
+msgid "Rename \"%s\":"
+msgstr ""
 
 #. Resource IDs: (221)
 msgid "Rename/move"
@@ -9358,6 +9402,12 @@ msgid ""
 "Are you sure you want to initialize a git repository inside that folder?"
 msgstr "A pasta destino ⏎ %s⏎ não está vazia!⏎ Você tem certeza de que você quer inicializar um repositório git dentro desta pasta?"
 
+#. Resource IDs: (101)
+msgid ""
+"The text is identical, but the files do not match!\r\n"
+"The following differences were found:"
+msgstr ""
+
 #. Resource IDs: (195)
 msgid ""
 "The time in seconds after which the parsing of the selected files stops.\r\n"
@@ -10329,6 +10379,10 @@ msgid ""
 "authentication and/or encryption."
 msgstr ""
 
+#. Resource IDs: (101)
+msgid "Whitespace changes (tabs, spaces)"
+msgstr ""
+
 #. Resource IDs: (65535)
 msgid "Whitespaces"
 msgstr "Espaços em branco"
@@ -10620,6 +10674,20 @@ msgstr "[Padrão]"
 #. Resource IDs: (1001)
 msgid "[Unassigned]"
 msgstr "[Não assinado]"
+
+#. Resource IDs: (93)
+#, c-format
+msgid ""
+"\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
+"Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
+msgstr ""
+
+#. Resource IDs: (92)
+#, c-format
+msgid ""
+"\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
+"Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
+msgstr ""
 
 #. Resource IDs: (72)
 #, c-format

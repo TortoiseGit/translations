@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-10-17 16:21+0000\n"
+"PO-Revision-Date: 2013-11-02 15:29+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3249,6 +3249,15 @@ msgstr "Could not start the Putty Agent (pageant)."
 msgid "Could not start thread!"
 msgstr "Could not start thread!"
 
+#. Resource IDs: (1501)
+msgid "Coun&t"
+msgstr "Coun&t"
+
+#. Resource IDs: (94)
+#, c-format
+msgid "Count: %d matches."
+msgstr "Count: %d matches."
+
 #. Resource IDs: (1683)
 msgid "Create &Library"
 msgstr "Create &Library"
@@ -4611,6 +4620,20 @@ msgid ""
 "Find"
 msgstr "Find the specified text\nFind"
 
+#. Resource IDs: (95)
+#, c-format
+msgid "Find: Can't find the text \"%s\""
+msgstr "Find: Can't find the text \"%s\""
+
+#. Resource IDs: (95)
+msgid ""
+"Find: First occurrence from the bottom found. Beginning of document reached."
+msgstr "Find: First occurrence from the bottom found. Beginning of document reached."
+
+#. Resource IDs: (95)
+msgid "Find: First occurrence from the top found. End of document reached."
+msgstr "Find: First occurrence from the top found. End of document reached."
+
 #. Resource IDs: (67)
 msgid "Finish"
 msgstr "Finish"
@@ -5621,6 +5644,10 @@ msgstr "KOI8-R"
 msgid "KOI8-U"
 msgstr "KOI8-U"
 
+#. Resource IDs: (92)
+msgid "Keep"
+msgstr "Keep"
+
 #. Resource IDs: (1126)
 msgid "Keep changelists"
 msgstr "Keep changelists"
@@ -6257,6 +6284,10 @@ msgstr "New Menu"
 msgid "New name for %s"
 msgstr "New name for %s"
 
+#. Resource IDs: (92)
+msgid "New name must not be empty or the same as the original name!"
+msgstr "New name must not be empty or the same as the original name!"
+
 #. Resource IDs: (98)
 msgid "New name:"
 msgstr "New name:"
@@ -6268,6 +6299,10 @@ msgstr "New submodule"
 #. Resource IDs: (605)
 msgid "Newer commit time"
 msgstr "Newer commit time"
+
+#. Resource IDs: (101)
+msgid "Newlines"
+msgstr "Newlines"
 
 #. Resource IDs: (20308)
 msgid "Next"
@@ -6753,6 +6788,10 @@ msgstr "Output.prn"
 #. Resource IDs: (1523)
 msgid "Override branch if exists"
 msgstr "Override branch if exists"
+
+#. Resource IDs: (92)
+msgid "Overwrite"
+msgstr "Overwrite"
 
 #. Resource IDs: (3845)
 #, c-format
@@ -7562,6 +7601,11 @@ msgstr "Rename %s"
 #. Resource IDs: (151)
 msgid "Rename - TortoiseGit"
 msgstr "Rename - TortoiseGit"
+
+#. Resource IDs: (92)
+#, c-format
+msgid "Rename \"%s\":"
+msgstr "Rename \"%s\":"
 
 #. Resource IDs: (221)
 msgid "Rename/move"
@@ -9354,6 +9398,12 @@ msgid ""
 "Are you sure you want to initialize a git repository inside that folder?"
 msgstr "The target folder \n%s\nis not empty!\nAre you sure you want to initialize a git repository inside that folder?"
 
+#. Resource IDs: (101)
+msgid ""
+"The text is identical, but the files do not match!\r\n"
+"The following differences were found:"
+msgstr "The text is identical, but the files do not match!\r\nThe following differences were found:"
+
 #. Resource IDs: (195)
 msgid ""
 "The time in seconds after which the parsing of the selected files stops.\r\n"
@@ -10325,6 +10375,10 @@ msgid ""
 "authentication and/or encryption."
 msgstr "While running daemon, all data of this repository is exposed without authentication and/or encryption."
 
+#. Resource IDs: (101)
+msgid "Whitespace changes (tabs, spaces)"
+msgstr "Whitespace changes (tabs, spaces)"
+
 #. Resource IDs: (65535)
 msgid "Whitespaces"
 msgstr "Whitespaces"
@@ -10616,6 +10670,20 @@ msgstr "[Default]"
 #. Resource IDs: (1001)
 msgid "[Unassigned]"
 msgstr "[Unassigned]"
+
+#. Resource IDs: (93)
+#, c-format
+msgid ""
+"\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
+"Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
+msgstr "\"%s\" contains a git repository. It will not work as a submodule out of the box.\nDo you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
+
+#. Resource IDs: (92)
+#, c-format
+msgid ""
+"\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
+"Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
+msgstr "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\nDo you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
 
 #. Resource IDs: (72)
 #, c-format
