@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-02 15:30+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2013-11-06 02:56+0000\n"
+"Last-Translator: Y.F Yang <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3263,12 +3263,12 @@ msgstr "无法启动线程！"
 
 #. Resource IDs: (1501)
 msgid "Coun&t"
-msgstr ""
+msgstr "计数(&T)"
 
 #. Resource IDs: (94)
 #, c-format
 msgid "Count: %d matches."
-msgstr ""
+msgstr "计数：%d 次匹配。"
 
 #. Resource IDs: (1683)
 msgid "Create &Library"
@@ -4635,16 +4635,16 @@ msgstr "查找指定文字\n查找"
 #. Resource IDs: (95)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
-msgstr ""
+msgstr "查找：无法找到文本“%s”"
 
 #. Resource IDs: (95)
 msgid ""
 "Find: First occurrence from the bottom found. Beginning of document reached."
-msgstr ""
+msgstr "查找：从底部首次找到。已跃过文档开头。"
 
 #. Resource IDs: (95)
 msgid "Find: First occurrence from the top found. End of document reached."
-msgstr ""
+msgstr "查找：从顶部首次找到。已跃过文档末尾。"
 
 #. Resource IDs: (67)
 msgid "Finish"
@@ -5658,7 +5658,7 @@ msgstr "KOI8-U"
 
 #. Resource IDs: (92)
 msgid "Keep"
-msgstr ""
+msgstr "保持"
 
 #. Resource IDs: (1126)
 msgid "Keep changelists"
@@ -6298,7 +6298,7 @@ msgstr "%s 的新名称"
 
 #. Resource IDs: (92)
 msgid "New name must not be empty or the same as the original name!"
-msgstr ""
+msgstr "新名称不能为空或相同！"
 
 #. Resource IDs: (98)
 msgid "New name:"
@@ -6314,7 +6314,7 @@ msgstr "新的提交时间"
 
 #. Resource IDs: (101)
 msgid "Newlines"
-msgstr ""
+msgstr "新行"
 
 #. Resource IDs: (20308)
 msgid "Next"
@@ -7617,7 +7617,7 @@ msgstr "重命名 - TortoiseGit"
 #. Resource IDs: (92)
 #, c-format
 msgid "Rename \"%s\":"
-msgstr ""
+msgstr "重命名“%s”："
 
 #. Resource IDs: (221)
 msgid "Rename/move"
@@ -9414,7 +9414,7 @@ msgstr "目标文件夹\n%s\n不为空!\n你确定要在这里创建git版本仓
 msgid ""
 "The text is identical, but the files do not match!\r\n"
 "The following differences were found:"
-msgstr ""
+msgstr "文本是相同的，但文件不匹配。\n发现下列差异："
 
 #. Resource IDs: (195)
 msgid ""
@@ -10389,7 +10389,7 @@ msgstr "当运行后台保护进程时，该版本库的所有数据都会暴露
 
 #. Resource IDs: (101)
 msgid "Whitespace changes (tabs, spaces)"
-msgstr ""
+msgstr "空白符的变化（制表符、空格）"
 
 #. Resource IDs: (65535)
 msgid "Whitespaces"
