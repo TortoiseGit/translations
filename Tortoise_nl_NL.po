@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-02 15:29+0000\n"
+"PO-Revision-Date: 2013-11-10 12:02+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/tortoisegit/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
@@ -2471,6 +2471,10 @@ msgstr "Verplaats het venster"
 msgid "Change the window size"
 msgstr "Wijzig afmetingen van het venster"
 
+#. Resource IDs: (95)
+msgid "Change type"
+msgstr ""
+
 #. Resource IDs: (199)
 msgid "Changed Files"
 msgstr "Gewijzigde bestanden"
@@ -4733,6 +4737,11 @@ msgstr "Patch Samenstellen..."
 msgid "Forward"
 msgstr "Vooruit"
 
+#. Resource IDs: (95)
+#, c-format
+msgid "Forward %d"
+msgstr ""
+
 #. Resource IDs: (68)
 msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
@@ -5122,6 +5131,14 @@ msgstr "Verberg geparkeerd venster"
 msgid "Hide the script while running"
 msgstr "Verberg script bij uitvoeren"
 
+#. Resource IDs: (95)
+msgid "Hide unchanged"
+msgstr ""
+
+#. Resource IDs: (95, 1781)
+msgid "Hide unchanged refs in Ref Compare List"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Hide/Show the patch file list"
 msgstr "Verberg/toon bestandslijst uit patch"
@@ -5241,6 +5258,10 @@ msgstr "ID:32825:VA  +D"
 #. Accelerator Entry for Menu ID:32837; ''
 msgid "ID:32837:VA  +M"
 msgstr "ID:32837:VA  +M"
+
+#. Accelerator Entry for Menu ID:32860; ''
+msgid "ID:32860:VA  +F"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32870; ''
 msgid "ID:32870:V C +L"
@@ -6295,6 +6316,14 @@ msgstr "Nieuwe Branch\\Label"
 msgid "New Menu"
 msgstr "Nieuw Menu"
 
+#. Resource IDs: (95)
+msgid "New hash"
+msgstr ""
+
+#. Resource IDs: (95)
+msgid "New message"
+msgstr ""
+
 #. Resource IDs: (97)
 #, c-format
 msgid "New name for %s"
@@ -6664,6 +6693,14 @@ msgstr "Office 2007 kleuren"
 #. Resource IDs: (156, 626)
 msgid "Office XP"
 msgstr "Office XP"
+
+#. Resource IDs: (95)
+msgid "Old hash"
+msgstr ""
+
+#. Resource IDs: (95)
+msgid "Old message"
+msgstr ""
 
 #. Resource IDs: (605)
 msgid "Older commit time"
@@ -7425,6 +7462,10 @@ msgstr "Referentie"
 msgid "Ref (Click it then go to)"
 msgstr "Referentie (Klik erop dan ga naar)"
 
+#. Resource IDs: (95)
+msgid "Ref List"
+msgstr ""
+
 #. Resource IDs: (69)
 msgid "RefBrowse"
 msgstr "Referentiebrowser"
@@ -7861,6 +7902,11 @@ msgstr "Revisie:"
 msgid "Rewind"
 msgstr ""
 
+#. Resource IDs: (95)
+#, c-format
+msgid "Rewind %d"
+msgstr ""
+
 #. Resource IDs: (3850)
 msgid ""
 "Rich Text (RTF)\n"
@@ -7960,6 +8006,10 @@ msgstr "Sa&feCrLf:"
 #. Resource IDs: (65535)
 msgid "Safe Crlf:"
 msgstr "Safe Crlf:"
+
+#. Resource IDs: (95)
+msgid "Same"
+msgstr ""
 
 #. Resource IDs: (605)
 msgid "Same commit time"
@@ -8863,6 +8913,10 @@ msgstr "Stopt bisect modus"
 #. Resource IDs: (1)
 msgid "Strategy"
 msgstr "Strategie"
+
+#. Resource IDs: (1406)
+msgid "Strip lines starting with \"#\" in commit message"
+msgstr ""
 
 #. Resource IDs: (156)
 msgid "Style"

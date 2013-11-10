@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-02 15:30+0000\n"
+"PO-Revision-Date: 2013-11-10 12:20+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2461,6 +2461,10 @@ msgstr "Fensterposition ändern"
 msgid "Change the window size"
 msgstr "Fenstergröße ändern"
 
+#. Resource IDs: (95)
+msgid "Change type"
+msgstr "Änderungstyp"
+
 #. Resource IDs: (199)
 msgid "Changed Files"
 msgstr "Geänderte Dateien"
@@ -3257,12 +3261,12 @@ msgstr "Thread konnte nicht gestartet werden!"
 
 #. Resource IDs: (1501)
 msgid "Coun&t"
-msgstr ""
+msgstr "&Zählen"
 
 #. Resource IDs: (94)
 #, c-format
 msgid "Count: %d matches."
-msgstr ""
+msgstr "Anzahl: %d Treffer."
 
 #. Resource IDs: (1683)
 msgid "Create &Library"
@@ -4629,16 +4633,16 @@ msgstr "Angegebenen Text suchen\nSuchen"
 #. Resource IDs: (95)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
-msgstr ""
+msgstr "Suche: Der Text \"%s\" konnte nicht gefunden werden."
 
 #. Resource IDs: (95)
 msgid ""
 "Find: First occurrence from the bottom found. Beginning of document reached."
-msgstr ""
+msgstr "Suchen: Erster Treffer von oben gefunden. Ende des Dokuments erreicht."
 
 #. Resource IDs: (95)
 msgid "Find: First occurrence from the top found. End of document reached."
-msgstr ""
+msgstr "Suchen: Erster Treffer von oben gefunden. Ende des Dokuments erreicht."
 
 #. Resource IDs: (67)
 msgid "Finish"
@@ -4722,6 +4726,11 @@ msgstr "Erzeuge &Patch..."
 #. Resource IDs: (1064, 1257)
 msgid "Forward"
 msgstr "Forward"
+
+#. Resource IDs: (95)
+#, c-format
+msgid "Forward %d"
+msgstr "Forward %d"
 
 #. Resource IDs: (68)
 msgid ""
@@ -5112,6 +5121,14 @@ msgstr "Angedocktes Fenster verbergen"
 msgid "Hide the script while running"
 msgstr "Skript beim Ablauf verbergen"
 
+#. Resource IDs: (95)
+msgid "Hide unchanged"
+msgstr "Unveränderte ausblenden"
+
+#. Resource IDs: (95, 1781)
+msgid "Hide unchanged refs in Ref Compare List"
+msgstr "Blendet alle unveränderten Refs in Der Ref Vergleichsansicht aus"
+
 #. Resource IDs: (156)
 msgid "Hide/Show the patch file list"
 msgstr "Ein/Ausblenden der Patchdatei-Liste"
@@ -5231,6 +5248,10 @@ msgstr "ID:32825:VA  +D"
 #. Accelerator Entry for Menu ID:32837; ''
 msgid "ID:32837:VA  +M"
 msgstr "ID:32837:VA  +M"
+
+#. Accelerator Entry for Menu ID:32860; ''
+msgid "ID:32860:VA  +F"
+msgstr "ID:32860:VA  +F"
 
 #. Accelerator Entry for Menu ID:32870; ''
 msgid "ID:32870:V C +L"
@@ -5652,7 +5673,7 @@ msgstr "KOI8-U"
 
 #. Resource IDs: (92)
 msgid "Keep"
-msgstr ""
+msgstr "Behalten"
 
 #. Resource IDs: (1126)
 msgid "Keep changelists"
@@ -6285,6 +6306,14 @@ msgstr "Neuer Zweig/Markierung"
 msgid "New Menu"
 msgstr "Neues Menü"
 
+#. Resource IDs: (95)
+msgid "New hash"
+msgstr "Neuer SHA-1"
+
+#. Resource IDs: (95)
+msgid "New message"
+msgstr "Neue Meldung"
+
 #. Resource IDs: (97)
 #, c-format
 msgid "New name for %s"
@@ -6292,7 +6321,7 @@ msgstr "Neuer Name für %s"
 
 #. Resource IDs: (92)
 msgid "New name must not be empty or the same as the original name!"
-msgstr ""
+msgstr "Der neue Name darf nicht leer oder gleich dem ursprünglichen Namen sein!"
 
 #. Resource IDs: (98)
 msgid "New name:"
@@ -6654,6 +6683,14 @@ msgstr "Office 2007 Farben"
 #. Resource IDs: (156, 626)
 msgid "Office XP"
 msgstr "Office XP"
+
+#. Resource IDs: (95)
+msgid "Old hash"
+msgstr "Alter SHA-1"
+
+#. Resource IDs: (95)
+msgid "Old message"
+msgstr "Alte Meldung"
 
 #. Resource IDs: (605)
 msgid "Older commit time"
@@ -7415,6 +7452,10 @@ msgstr "Ref"
 msgid "Ref (Click it then go to)"
 msgstr "Ref (Klicken Sie hier)"
 
+#. Resource IDs: (95)
+msgid "Ref List"
+msgstr "Ref Liste"
+
 #. Resource IDs: (69)
 msgid "RefBrowse"
 msgstr "Referenzen durchsuchen"
@@ -7611,7 +7652,7 @@ msgstr "Umbenennen - TortoiseGit"
 #. Resource IDs: (92)
 #, c-format
 msgid "Rename \"%s\":"
-msgstr ""
+msgstr "Umenennen von \"%s\":"
 
 #. Resource IDs: (221)
 msgid "Rename/move"
@@ -7851,6 +7892,11 @@ msgstr "Revision:"
 msgid "Rewind"
 msgstr "Rewind"
 
+#. Resource IDs: (95)
+#, c-format
+msgid "Rewind %d"
+msgstr "Rewind %d"
+
 #. Resource IDs: (3850)
 msgid ""
 "Rich Text (RTF)\n"
@@ -7950,6 +7996,10 @@ msgstr "Sa&feCrLf:"
 #. Resource IDs: (65535)
 msgid "Safe Crlf:"
 msgstr "Safe Crlf:"
+
+#. Resource IDs: (95)
+msgid "Same"
+msgstr "Identisch"
 
 #. Resource IDs: (605)
 msgid "Same commit time"
@@ -8853,6 +8903,10 @@ msgstr "Stoppt den bisect Modus"
 #. Resource IDs: (1)
 msgid "Strategy"
 msgstr "Strategie"
+
+#. Resource IDs: (1406)
+msgid "Strip lines starting with \"#\" in commit message"
+msgstr "Entferne Zeilen in Eintragenachricht, die mit \"#\" starten"
 
 #. Resource IDs: (156)
 msgid "Style"
@@ -10682,14 +10736,14 @@ msgstr "[nicht zugewiesen]"
 msgid ""
 "\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
-msgstr ""
+msgstr "\"%s\" enthält ein Git Repository. Es wird nicht ohne weitere Schritte als Submodul funktionieren.\nMöchten Sie den .git-Verzeichniseintrag löschen und alle Dateien dem übergeordneten Repository hinzufügen oder das Repository als separates Repository in einem Unterverzeichnis behalten?"
 
 #. Resource IDs: (92)
 #, c-format
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
-msgstr ""
+msgstr "\"%s\" enthält ein Git Submodul. Es ist unwahrscheinlich, dass dieses im Zielverzeichnis noch funktionieren wird.\nMöchten Sie den .git-Verzeichniseintrag löschen und alle Dateien dem übergeordneten Repository hinzufügen oder dieses mögliche Probleme ignorieren und den .git Verzeichniseintrag behalten?"
 
 #. Resource IDs: (72)
 #, c-format
