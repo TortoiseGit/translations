@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-20 11:25+0000\n"
+"PO-Revision-Date: 2013-11-21 22:04+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Bulgarian (Bulgaria) (http://www.transifex.com/projects/p/tortoisegit/language/bg_BG/)\n"
 "MIME-Version: 1.0\n"
@@ -203,11 +203,6 @@ msgstr "%I64d байта прехвърлени"
 #, c-format
 msgid "%I64d kBytes transferred"
 msgstr "%I64d килобайта прехвърлени"
-
-#. Resource IDs: (1256)
-#, c-format
-msgid "%d Parent"
-msgstr ""
 
 #. Resource IDs: (75)
 #, c-format
@@ -4972,6 +4967,15 @@ msgstr ""
 msgid "Git short URL"
 msgstr "Git кратък уеб адрес"
 
+#. Resource IDs: (93)
+msgid ""
+"Git uses the concept of a hierarchical configuration.\n"
+"I.e. there are multiple levels; settings in higher levels override values in lower levels.\n"
+"The \"Effective\" tab shows you the effective values for the current scope (read-only).\n"
+"Select any level to see the values stored there.\n"
+"In order to change settings select a level, enter the values and select where to store to."
+msgstr ""
+
 #. Resource IDs: (65535)
 msgid "Git.exe Path:"
 msgstr ""
@@ -6870,6 +6874,11 @@ msgstr "Параметри:"
 #. Resource IDs: (70)
 #, c-format
 msgid "Parent %d does not exist"
+msgstr ""
+
+#. Resource IDs: (1256)
+#, c-format
+msgid "Parent %s"
 msgstr ""
 
 #. Resource IDs: (606)

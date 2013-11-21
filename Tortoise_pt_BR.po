@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-20 11:25+0000\n"
+"PO-Revision-Date: 2013-11-21 22:04+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -202,11 +202,6 @@ msgstr "%I64d Bytes transferidos"
 #, c-format
 msgid "%I64d kBytes transferred"
 msgstr "%I64d kBytes transferidos"
-
-#. Resource IDs: (1256)
-#, c-format
-msgid "%d Parent"
-msgstr "Pai de %d"
 
 #. Resource IDs: (75)
 #, c-format
@@ -4971,6 +4966,15 @@ msgstr "Git reportou um erro ao criar repositório!\n"
 msgid "Git short URL"
 msgstr "URL curta Git"
 
+#. Resource IDs: (93)
+msgid ""
+"Git uses the concept of a hierarchical configuration.\n"
+"I.e. there are multiple levels; settings in higher levels override values in lower levels.\n"
+"The \"Effective\" tab shows you the effective values for the current scope (read-only).\n"
+"Select any level to see the values stored there.\n"
+"In order to change settings select a level, enter the values and select where to store to."
+msgstr ""
+
 #. Resource IDs: (65535)
 msgid "Git.exe Path:"
 msgstr "Caminho Git.exe:"
@@ -6870,6 +6874,11 @@ msgstr "Parâmetros:"
 #, c-format
 msgid "Parent %d does not exist"
 msgstr "Pai %d não existe"
+
+#. Resource IDs: (1256)
+#, c-format
+msgid "Parent %s"
+msgstr ""
 
 #. Resource IDs: (606)
 msgid "Parent 1"
