@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-25 17:00+0000\n"
+"PO-Revision-Date: 2013-11-25 19:38+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -3599,7 +3599,7 @@ msgstr "Eliminando"
 
 #. Resource IDs: (88)
 msgid "Deleting remote refs..."
-msgstr "Borrando referencias remotas"
+msgstr "Borrando referencias remotas..."
 
 #. Resource IDs: (65535)
 msgid "Delivery:"
@@ -3678,7 +3678,7 @@ msgstr "Diferenciando"
 
 #. Resource IDs: (2054)
 msgid "Diffing commits"
-msgstr ""
+msgstr "Comparando (diff') commits (acometimientos)"
 
 #. Resource IDs: (14)
 msgid "Diffs the working tree file with the one before the last commit"
@@ -3778,7 +3778,7 @@ msgstr "¿Estás seguro que quieres suprimir la barra de herramientas '%s'?"
 
 #. Resource IDs: (88)
 msgid "Do you really want to mark the selected file(s) as assume-valid?"
-msgstr "¿De verdad quiere marcar el(los) fichero(s) seleccionado(s) como asumir-valido(s)?"
+msgstr "¿De verdad quiere marcar el(los) fichero(s) seleccionado(s) como asumir-válido?"
 
 #. Resource IDs: (88)
 msgid "Do you really want to mark the selected file(s) as skip-worktree?"
@@ -3887,13 +3887,13 @@ msgstr "No recuperar estos documentos auto-salvados\nUsar explicitamente las úl
 msgid ""
 "Don't save\n"
 "Close the views without saving the modifications"
-msgstr "No salvar\nCerrar las vistas sin salvar las modificaciones"
+msgstr "No guardar\nCerrar las vistas sin guardar las modificaciones"
 
 #. Resource IDs: (315)
 msgid ""
 "Don't save\n"
 "Reload the views without saving the modifications"
-msgstr "No salvar\nRecargar las vistas sin salvar las modificaciones"
+msgstr "No guardar\nRecargar las vistas sin guardar las modificaciones"
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -4067,7 +4067,7 @@ msgstr "Vaciar"
 
 #. Resource IDs: (156)
 msgid "Enable Edit"
-msgstr "Habilitar Edición"
+msgstr "Habilitar edición"
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -4080,7 +4080,7 @@ msgstr "Habilitar carga/descarga de ficheros de caché de registro ('log') (tort
 
 #. Resource IDs: (1744)
 msgid "Enable log cache"
-msgstr "Habilitar caché de registro"
+msgstr "Habilitar caché de registro ('log')"
 
 #. Resource IDs: (90)
 msgid "Enable showing Gravatar image in Log Dialog"
@@ -4509,7 +4509,7 @@ msgstr "El fichero no tiene conflictos"
 
 #. Resource IDs: (314)
 msgid "File is empty."
-msgstr "El fichero está vacío"
+msgstr "El fichero está vacío."
 
 #. Resource IDs: (213)
 msgid "File list is empty"
@@ -4981,7 +4981,7 @@ msgstr "Ruta de Git.exe:"
 
 #. Resource IDs: (4591)
 msgid "Git::Credential"
-msgstr "Git::Credential"
+msgstr "Git::Credencial"
 
 #. Resource IDs: (4570)
 msgid "Git::Remote"
@@ -5077,7 +5077,7 @@ msgstr "CABEZA:"
 
 #. Resource IDs: (89)
 msgid "Hard"
-msgstr "Duro"
+msgstr "Difícil"
 
 #. Resource IDs: (1552)
 msgid "Hard: Reset working tree and index (discard all local changes)"
@@ -5494,7 +5494,7 @@ msgstr "Ignorar todos los cambios"
 msgid ""
 "Ignore changes\n"
 "Ignore the outside changes."
-msgstr ""
+msgstr "Ignorar cambios\nIgnorar los cambios del exterior."
 
 #. Resource IDs: (1687)
 msgid "Ignore item(s) only in the containing folder(s)"
@@ -5585,7 +5585,7 @@ msgstr "En Consignas"
 
 #. Resource IDs: (1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr ""
+msgstr "Para abortar un merge (fundido) en marcha, es necesario un reset (a HEAD)."
 
 #. Resource IDs: (1499)
 msgid "Include &Tags"
@@ -5610,7 +5610,7 @@ msgstr "importación inicial"
 #. Resource IDs: (87)
 #, c-format
 msgid "Initialized empty Git repository in %s."
-msgstr ""
+msgstr "Respositorio Git vacío inicializado en %s"
 
 #. Resource IDs: (156)
 msgid "Inline diff"
@@ -5689,7 +5689,7 @@ msgstr "¿Mantener archivo localmente?"
 msgid ""
 "Keep resolving\n"
 "Jump to first unresolved conflict"
-msgstr ""
+msgstr "Seguir resolviendo\nSaltar al primer conflicto no resuelto"
 
 #. Resource IDs: (16136)
 msgid "Keyboard"
@@ -5779,7 +5779,7 @@ msgstr "Último autor activo:"
 msgid ""
 "Leave as conflicted\n"
 "The conflict status of the file is kept"
-msgstr ""
+msgstr "Dejar como en-conflicto\nEl estatus de conflicto del fichero se mantiene."
 
 #. Resource IDs: (188)
 msgid "Left View: "
@@ -5819,7 +5819,7 @@ msgstr "Línea movida a la línea %ld"
 
 #. Resource IDs: (65535)
 msgid "Line width"
-msgstr ""
+msgstr "Ancho de línea"
 
 #. Resource IDs: (65535)
 msgid "Line:"
@@ -5866,13 +5866,13 @@ msgstr "&Clave Putty"
 msgid ""
 "Load changes\n"
 "Changes made in TortoiseGitMerge are lost and replaced with the new content."
-msgstr ""
+msgstr "Cargar cambios\nLos cambios realizados en TortoiseGitMerge se pedieron y fueron reemplazados con los nuevos contenidos."
 
 #. Resource IDs: (315)
 msgid ""
 "Load changes\n"
 "The views are updated with the new content."
-msgstr ""
+msgstr "Cargar cambios\nLas vistas se actualizan con los nuevos contenidos."
 
 #. Resource IDs: (369,1379)
 msgid "Loading..."
@@ -5880,7 +5880,7 @@ msgstr "Cargando..."
 
 #. Resource IDs: (89)
 msgid "Local"
-msgstr ""
+msgstr "Local"
 
 #. Resource IDs: (65535)
 msgid "Local Branch"
@@ -5900,7 +5900,7 @@ msgstr "Local:      "
 msgid ""
 "Location where the contents of the\n"
 "selected revision of the repository will be saved to."
-msgstr ""
+msgstr "Ubicación donde los contenidos de la revisión\nseleccionada del repositorio se guardarán."
 
 #. Resource IDs: (32854)
 msgid "Locator Bar"
@@ -5928,7 +5928,7 @@ msgstr "Reg. Mensajes"
 
 #. Resource IDs: (345)
 msgid "Log commit ordering"
-msgstr ""
+msgstr "Registrar orden de commits (acometimientos)"
 
 #. Resource IDs: (65535)
 msgid "Log messages"
@@ -6006,7 +6006,7 @@ msgstr "Marcar como resuelto"
 msgid ""
 "Mark as resolved\n"
 "The file status is changed to modified"
-msgstr ""
+msgstr "Marcar como resuelto\nEl estatus del fichero se cambió a modificado"
 
 #. Resource IDs: (2051)
 msgid ""
@@ -6381,7 +6381,7 @@ msgstr "No Comprobar"
 
 #. Resource IDs: (1482)
 msgid "No Co&mmit"
-msgstr ""
+msgstr "Sin Co&mmit"
 
 #. Resource IDs: (67)
 msgid "No HEAD found"
@@ -6488,7 +6488,7 @@ msgstr "No hay directorio de trabajo."
 
 #. Resource IDs: (65535)
 msgid "Node size"
-msgstr ""
+msgstr "Tamaño del nodo"
 
 #. Resource IDs: (1272)
 msgid "None"
@@ -6535,7 +6535,7 @@ msgstr "No hay parches generados."
 
 #. Resource IDs: (65535)
 msgid "Note node"
-msgstr ""
+msgstr "Anotar nodo"
 
 #. Resource IDs: (3887)
 msgid ""
@@ -6780,7 +6780,7 @@ msgstr "Abrir ayudas\nTemas de ayuda"
 
 #. Resource IDs: (21)
 msgid "Opens the Reference Browser dialog."
-msgstr ""
+msgstr "Abre el diálogo del navegador de referencia."
 
 #. Resource IDs: (15)
 msgid "Opens the repository browser"
@@ -6800,7 +6800,7 @@ msgstr "Tamaño ori&ginal"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
-msgstr ""
+msgstr "Nombre del origin (repositorio original)"
 
 #. Resource IDs: (1065)
 msgid "Other Task Panes"
@@ -6898,7 +6898,7 @@ msgstr "Parte del código es de TortoiseSVN Blame"
 
 #. Resource IDs: (4585)
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 #. Resource IDs: (69, 65535)
 msgid "Password:"
@@ -6975,7 +6975,7 @@ msgstr "Ruta"
 
 #. Resource IDs: (314)
 msgid "Path found that matches the patch better."
-msgstr ""
+msgstr "Se encontró una ruta que concuerda mejor con el patch (parche)."
 
 #. Resource IDs: (1580, 65535)
 msgid "Path:"
@@ -7009,11 +7009,11 @@ msgstr "Escoger"
 
 #. Resource IDs: (90)
 msgid "Pick commit hash"
-msgstr ""
+msgstr "Escojer identificador ('hash') de commit (acometimiento)"
 
 #. Resource IDs: (90)
 msgid "Pick commit message"
-msgstr ""
+msgstr "Escojer mensaje de commit (acometimiento)"
 
 #. Resource IDs: (69)
 #, c-format
@@ -7035,7 +7035,7 @@ msgid ""
 "Pictures (*.svg, *.wmf, *.jpg, *.png, *.bmp, "
 "*.gif)|*.svg;*.wmf;*.jpg;*.jpeg;*.png;*.bmp;*.gif|Graphs (*.gv)|*.gv|All "
 "Files (*.*)|*.*||"
-msgstr ""
+msgstr "Imágenes (*.svg, *.wmf, *.jpg, *.png, *.bmp, *.gif)|*.svg;*.wmf;*.jpg;*.jpeg;*.png;*.bmp;*.gif|Gráficos (*.gv)|*.gv|Todos los ficheros (*.*)|*.*||"
 
 #. Resource IDs: (157)
 msgid ""
