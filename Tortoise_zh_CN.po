@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-21 22:04+0000\n"
+"PO-Revision-Date: 2013-12-01 17:18+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -2090,6 +2090,10 @@ msgstr "自动"
 msgid "Automatically check for &newer versions every week"
 msgstr "每周都自动检查新版本(&N)"
 
+#. Resource IDs: (306)
+msgid "Autotext Tester"
+msgstr ""
+
 #. Resource IDs: (1157)
 msgid "Average"
 msgstr "平均"
@@ -3119,6 +3123,11 @@ msgstr "无法向忽略列表中加入 %s ！"
 #. Resource IDs: (201)
 msgid "Could not check for a newer version!"
 msgstr "无法检查新版！"
+
+#. Resource IDs: (93)
+#, c-format
+msgid "Could not check for a newer version! (Error code: 0x%08X)"
+msgstr ""
 
 #. Resource IDs: (81)
 #, c-format
@@ -4209,6 +4218,10 @@ msgstr "请输入介于 0 到 255 之间的整数。"
 msgid "Enter an integer."
 msgstr "请输入整数。"
 
+#. Resource IDs: (65535)
+msgid "Enter file content to test for below:"
+msgstr ""
+
 #. Resource IDs: (1065)
 msgid "Enter log &message:"
 msgstr "输入日志信息(&M): "
@@ -4217,6 +4230,10 @@ msgstr "输入日志信息(&M): "
 #, c-format
 msgid "Enter no more than %1 characters."
 msgstr "请勿输入超过 %1 个字符。"
+
+#. Resource IDs: (65535)
+msgid "Enter the regex string below:"
+msgstr ""
 
 #. Resource IDs: (3603)
 msgid ""
@@ -4738,6 +4755,10 @@ msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
 "proceed."
 msgstr "找到一个空的提交信息。必须输入一个或者变基没完成。"
+
+#. Resource IDs: (65535)
+msgid "Found auto words:"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
@@ -5899,10 +5920,8 @@ msgid "Local status"
 msgstr "本地状态"
 
 #. Resource IDs: (65535)
-msgid ""
-"Local:"
-"                                                                                            "
-msgstr "本地:"
+msgid "Local:"
+msgstr ""
 
 #. Resource IDs: (94)
 msgid ""
@@ -6878,15 +6897,15 @@ msgstr "参数"
 msgid "Parameters:"
 msgstr "参数:"
 
+#. Resource IDs: (1256)
+#, c-format
+msgid "Parent %d"
+msgstr ""
+
 #. Resource IDs: (70)
 #, c-format
 msgid "Parent %d does not exist"
 msgstr "父节点%d不存在"
-
-#. Resource IDs: (1256)
-#, c-format
-msgid "Parent %s"
-msgstr ""
 
 #. Resource IDs: (606)
 msgid "Parent 1"
@@ -8164,6 +8183,10 @@ msgstr "失败保存配置(键: \"%s\", 值: \"%s\")。"
 msgid "Saving notes failed."
 msgstr "失败保存注释"
 
+#. Resource IDs: (1522)
+msgid "Scan"
+msgstr ""
+
 #. Resource IDs: (1014, 1064, 1636)
 msgid "Scintilla"
 msgstr "Scintilla"
@@ -9089,6 +9112,10 @@ msgstr "系统"
 #. Resource IDs: (1556)
 msgid "System &sounds"
 msgstr "系统声音(&S)"
+
+#. Resource IDs: (93)
+msgid "System in offline mode. Check Internet Explorer."
+msgstr ""
 
 #. Resource IDs: (3857)
 msgid ""

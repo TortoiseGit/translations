@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-21 22:04+0000\n"
+"PO-Revision-Date: 2013-12-01 17:18+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -2082,6 +2082,10 @@ msgstr "Automático"
 msgid "Automatically check for &newer versions every week"
 msgstr "Verificar, semanalmente, se existem &novas versões"
 
+#. Resource IDs: (306)
+msgid "Autotext Tester"
+msgstr ""
+
 #. Resource IDs: (1157)
 msgid "Average"
 msgstr "Média"
@@ -3111,6 +3115,11 @@ msgstr "%s não pôde ser adicionado à lista de ignorados!"
 #. Resource IDs: (201)
 msgid "Could not check for a newer version!"
 msgstr "Não foi possível verficar a existência de uma nova versão!"
+
+#. Resource IDs: (93)
+#, c-format
+msgid "Could not check for a newer version! (Error code: 0x%08X)"
+msgstr ""
 
 #. Resource IDs: (81)
 #, c-format
@@ -4201,6 +4210,10 @@ msgstr "Insira um inteiro entre 0 and 255."
 msgid "Enter an integer."
 msgstr "Insira um inteiro."
 
+#. Resource IDs: (65535)
+msgid "Enter file content to test for below:"
+msgstr ""
+
 #. Resource IDs: (1065)
 msgid "Enter log &message:"
 msgstr "Insira &mensagem de histórico:"
@@ -4209,6 +4222,10 @@ msgstr "Insira &mensagem de histórico:"
 #, c-format
 msgid "Enter no more than %1 characters."
 msgstr "Não insira mais que %1 caracteres."
+
+#. Resource IDs: (65535)
+msgid "Enter the regex string below:"
+msgstr ""
 
 #. Resource IDs: (3603)
 msgid ""
@@ -4730,6 +4747,10 @@ msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
 "proceed."
 msgstr "Encontrada uma mensagem de submissão em branco. Você tem que informar uma ou a reorganização não pode prosseguir."
+
+#. Resource IDs: (65535)
+msgid "Found auto words:"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
@@ -5891,10 +5912,8 @@ msgid "Local status"
 msgstr "Status local"
 
 #. Resource IDs: (65535)
-msgid ""
-"Local:"
-"                                                                                            "
-msgstr "Local:                                                                                            "
+msgid "Local:"
+msgstr ""
 
 #. Resource IDs: (94)
 msgid ""
@@ -6870,15 +6889,15 @@ msgstr "Parâmetros"
 msgid "Parameters:"
 msgstr "Parâmetros:"
 
+#. Resource IDs: (1256)
+#, c-format
+msgid "Parent %d"
+msgstr ""
+
 #. Resource IDs: (70)
 #, c-format
 msgid "Parent %d does not exist"
 msgstr "Pai %d não existe"
-
-#. Resource IDs: (1256)
-#, c-format
-msgid "Parent %s"
-msgstr ""
 
 #. Resource IDs: (606)
 msgid "Parent 1"
@@ -8156,6 +8175,10 @@ msgstr "Falha ao salvar configuração (chave: \"%s\", valor: \"%s\")."
 msgid "Saving notes failed."
 msgstr "Falha ao salvar notas."
 
+#. Resource IDs: (1522)
+msgid "Scan"
+msgstr ""
+
 #. Resource IDs: (1014, 1064, 1636)
 msgid "Scintilla"
 msgstr "Scintilla"
@@ -9081,6 +9104,10 @@ msgstr ""
 #. Resource IDs: (1556)
 msgid "System &sounds"
 msgstr "&Sons do sistema"
+
+#. Resource IDs: (93)
+msgid "System in offline mode. Check Internet Explorer."
+msgstr ""
 
 #. Resource IDs: (3857)
 msgid ""

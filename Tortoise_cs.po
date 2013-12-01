@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-26 21:25+0000\n"
+"PO-Revision-Date: 2013-12-01 17:48+0000\n"
 "Last-Translator: Zbyněk Schwarz <zbynek.schwarz@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -2084,6 +2084,10 @@ msgstr "Automatické"
 msgid "Automatically check for &newer versions every week"
 msgstr "Automaticky zjišťovat &novou verzi každý týden"
 
+#. Resource IDs: (306)
+msgid "Autotext Tester"
+msgstr ""
+
 #. Resource IDs: (1157)
 msgid "Average"
 msgstr "Průměr"
@@ -3113,6 +3117,11 @@ msgstr "Nelze přidat %s do seznamu k ignorování!"
 #. Resource IDs: (201)
 msgid "Could not check for a newer version!"
 msgstr "Nelze zkontrolovat novou verzi!"
+
+#. Resource IDs: (93)
+#, c-format
+msgid "Could not check for a newer version! (Error code: 0x%08X)"
+msgstr "Nelze zkontrolovat novou verzi! (Kód chyby: 0x%08X)"
 
 #. Resource IDs: (81)
 #, c-format
@@ -4203,6 +4212,10 @@ msgstr "Zadejte celé číslo mezi 0 a 255."
 msgid "Enter an integer."
 msgstr "Zadejte celé číslo."
 
+#. Resource IDs: (65535)
+msgid "Enter file content to test for below:"
+msgstr ""
+
 #. Resource IDs: (1065)
 msgid "Enter log &message:"
 msgstr "&Zadejte zprávu protokolu:"
@@ -4211,6 +4224,10 @@ msgstr "&Zadejte zprávu protokolu:"
 #, c-format
 msgid "Enter no more than %1 characters."
 msgstr "Nezadávejte více než %1 znaků."
+
+#. Resource IDs: (65535)
+msgid "Enter the regex string below:"
+msgstr "Níže zadejte řetězec regulárního výrazu:"
 
 #. Resource IDs: (3603)
 msgid ""
@@ -4725,13 +4742,17 @@ msgstr "Dopředu"
 #. Resource IDs: (95)
 #, c-format
 msgid "Forward %d"
-msgstr ""
+msgstr "Dopředu %d"
 
 #. Resource IDs: (68)
 msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
 "proceed."
 msgstr "Nalezena prázdná zpráva odevzdání. Musíte nějakou zadat, jinak přeskládání nemůže pokračovat."
+
+#. Resource IDs: (65535)
+msgid "Found auto words:"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
@@ -5893,9 +5914,7 @@ msgid "Local status"
 msgstr "Místní stav"
 
 #. Resource IDs: (65535)
-msgid ""
-"Local:"
-"                                                                                            "
+msgid "Local:"
 msgstr "Místní:"
 
 #. Resource IDs: (94)
@@ -6312,7 +6331,7 @@ msgstr "Nová nabídka"
 
 #. Resource IDs: (95)
 msgid "New hash"
-msgstr ""
+msgstr "Nový kontrolní součet"
 
 #. Resource IDs: (95)
 msgid "New message"
@@ -6690,7 +6709,7 @@ msgstr "Office XP"
 
 #. Resource IDs: (95)
 msgid "Old hash"
-msgstr ""
+msgstr "Starý kontrolní součet"
 
 #. Resource IDs: (95)
 msgid "Old message"
@@ -6872,15 +6891,15 @@ msgstr "Parametry"
 msgid "Parameters:"
 msgstr "Parametry:"
 
+#. Resource IDs: (1256)
+#, c-format
+msgid "Parent %d"
+msgstr "Rodič %d"
+
 #. Resource IDs: (70)
 #, c-format
 msgid "Parent %d does not exist"
 msgstr "Rodič %d neexistuje"
-
-#. Resource IDs: (1256)
-#, c-format
-msgid "Parent %s"
-msgstr "Rodič %s"
 
 #. Resource IDs: (606)
 msgid "Parent 1"
@@ -7463,7 +7482,7 @@ msgstr "Odkaz (Klikněte na něj a pak přejděte)"
 
 #. Resource IDs: (95)
 msgid "Ref List"
-msgstr ""
+msgstr "Seznam revizí"
 
 #. Resource IDs: (69)
 msgid "RefBrowse"
@@ -8157,6 +8176,10 @@ msgstr "Uložení nastavení selhalo (klíč: \"%s\", hodnota: \"%s\")."
 #. Resource IDs: (75)
 msgid "Saving notes failed."
 msgstr "Ukládání poznámek selhalo."
+
+#. Resource IDs: (1522)
+msgid "Scan"
+msgstr "Skenovat"
 
 #. Resource IDs: (1014, 1064, 1636)
 msgid "Scintilla"
@@ -9083,6 +9106,10 @@ msgstr "Systém"
 #. Resource IDs: (1556)
 msgid "System &sounds"
 msgstr "&Zvuky systému"
+
+#. Resource IDs: (93)
+msgid "System in offline mode. Check Internet Explorer."
+msgstr "Systém je v režimu offline. Zkontrolujte Internet Explorer."
 
 #. Resource IDs: (3857)
 msgid ""
@@ -10752,7 +10779,7 @@ msgstr ""
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
-msgstr ""
+msgstr "\"%s\" obsahuje podmodul git. Je pravděpodobné, že po kopírování toto již nebude fungovat.\nChcete smazat .git-entry a přidat všechny soubory do vrchního úložiště, nebo si nevšímat případných problémů a soubor nemazat?"
 
 #. Resource IDs: (72)
 #, c-format

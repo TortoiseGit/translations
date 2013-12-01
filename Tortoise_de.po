@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-21 22:20+0000\n"
+"PO-Revision-Date: 2013-12-01 17:25+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2084,6 +2084,10 @@ msgstr "Automatisch"
 msgid "Automatically check for &newer versions every week"
 msgstr "&Wöchentlich auf neue Version prüfen"
 
+#. Resource IDs: (306)
+msgid "Autotext Tester"
+msgstr "Autotext Tester"
+
 #. Resource IDs: (1157)
 msgid "Average"
 msgstr "Durchschnitt"
@@ -3113,6 +3117,11 @@ msgstr "Konnte %s nicht zur 'Ignorieren' Liste hinzufügen!"
 #. Resource IDs: (201)
 msgid "Could not check for a newer version!"
 msgstr "Suche nach einer neuen Version fehlgeschlagen!"
+
+#. Resource IDs: (93)
+#, c-format
+msgid "Could not check for a newer version! (Error code: 0x%08X)"
+msgstr "Suche nach einer neuen Version fehlgeschlagen! (Fehlercode: 0x%08X)"
 
 #. Resource IDs: (81)
 #, c-format
@@ -4203,6 +4212,10 @@ msgstr "Bitte geben Sie eine Ganzzahl zwischen 0 und 255 ein."
 msgid "Enter an integer."
 msgstr "Bitte geben Sie eine Ganzzahl ein."
 
+#. Resource IDs: (65535)
+msgid "Enter file content to test for below:"
+msgstr "Tragen Sie die zu testenden Texte hier ein:"
+
 #. Resource IDs: (1065)
 msgid "Enter log &message:"
 msgstr "Log-&Meldung eingeben"
@@ -4211,6 +4224,10 @@ msgstr "Log-&Meldung eingeben"
 #, c-format
 msgid "Enter no more than %1 characters."
 msgstr "Bitte nicht mehr als %1 Zeichen eingeben."
+
+#. Resource IDs: (65535)
+msgid "Enter the regex string below:"
+msgstr "Geben Sie den RegEx Text hier ein:"
 
 #. Resource IDs: (3603)
 msgid ""
@@ -4734,6 +4751,10 @@ msgid ""
 msgstr "Eine leere Log-Meldung wurde gefunden. Sie müssen eine eingeben, um das neu Aufbauen fortzusetzen."
 
 #. Resource IDs: (65535)
+msgid "Found auto words:"
+msgstr "Gefundene Autotexte:"
+
+#. Resource IDs: (65535)
 msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
 msgstr "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
 
@@ -4975,7 +4996,7 @@ msgid ""
 "The \"Effective\" tab shows you the effective values for the current scope (read-only).\n"
 "Select any level to see the values stored there.\n"
 "In order to change settings select a level, enter the values and select where to store to."
-msgstr ""
+msgstr "Git benutzt das Konzept einer hierarchischen Konfiguration.\nD.h. es gibt mehrere Level; Einstellungen in höhreren Leveln überschreiben Einstellungen niedrigerer Level.\nDer \"Effektiv\"-Tab zeigt die effektiven Werte für den aktuellen Anwendungsbereich (nur lesend).\nWählen Sie ein Level, um die Werte, die dort gespeichert sind, einzusehen.\nUm Einstellungen zu ändern, wählen Sein ein level aus, geben die Werte und entscheiden in welches Level die Werte gespeichert werden sollen."
 
 #. Resource IDs: (65535)
 msgid "Git.exe Path:"
@@ -5893,10 +5914,8 @@ msgid "Local status"
 msgstr "Lokaler Status"
 
 #. Resource IDs: (65535)
-msgid ""
-"Local:"
-"                                                                                            "
-msgstr "Lokal:                                                                                            "
+msgid "Local:"
+msgstr "Lokal:"
 
 #. Resource IDs: (94)
 msgid ""
@@ -6341,7 +6360,7 @@ msgstr "Neueres Eintragedatum"
 
 #. Resource IDs: (101)
 msgid "Newlines"
-msgstr ""
+msgstr "Zeilenumbrüche"
 
 #. Resource IDs: (20308)
 msgid "Next"
@@ -6872,15 +6891,15 @@ msgstr "Parameter"
 msgid "Parameters:"
 msgstr "Parameter:"
 
+#. Resource IDs: (1256)
+#, c-format
+msgid "Parent %d"
+msgstr "Elternteil %d"
+
 #. Resource IDs: (70)
 #, c-format
 msgid "Parent %d does not exist"
 msgstr "Elternteil %d existiert nicht"
-
-#. Resource IDs: (1256)
-#, c-format
-msgid "Parent %s"
-msgstr "Elter %s"
 
 #. Resource IDs: (606)
 msgid "Parent 1"
@@ -8158,6 +8177,10 @@ msgstr "Speichern der Konfiguration fehlgeschlagen (Schlüssel: \"%s\", Wert: \"
 msgid "Saving notes failed."
 msgstr "Speichern der Anmerkungen fehlgeschlagen."
 
+#. Resource IDs: (1522)
+msgid "Scan"
+msgstr "Durchsuchen"
+
 #. Resource IDs: (1014, 1064, 1636)
 msgid "Scintilla"
 msgstr "Scintilla"
@@ -9084,6 +9107,10 @@ msgstr "System"
 msgid "System &sounds"
 msgstr "System &Klänge"
 
+#. Resource IDs: (93)
+msgid "System in offline mode. Check Internet Explorer."
+msgstr "System im Offline-Modus. Prüfen Sie dies im Internet Explorer."
+
 #. Resource IDs: (3857)
 msgid ""
 "System registry entries have been removed and the INI file (if any) was "
@@ -9471,7 +9498,7 @@ msgstr "Das Zielverzeichnis\n%s\nist nicht leer!\nSind Sie sicher, dass Sie eine
 msgid ""
 "The text is identical, but the files do not match!\r\n"
 "The following differences were found:"
-msgstr ""
+msgstr "Der Text ist identisch, aber die Dateien stimmen nicht überein!\nFolgende Unterschiede wurden gefunden:"
 
 #. Resource IDs: (195)
 msgid ""
@@ -10446,7 +10473,7 @@ msgstr "Solange der Dämon läuft, wird das gesamte Repository ohne Authentifizi
 
 #. Resource IDs: (101)
 msgid "Whitespace changes (tabs, spaces)"
-msgstr ""
+msgstr "Whitespace-Änderungen (Tabs, Leerzeichen)"
 
 #. Resource IDs: (65535)
 msgid "Whitespaces"

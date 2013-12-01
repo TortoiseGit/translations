@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-11-21 22:04+0000\n"
+"PO-Revision-Date: 2013-12-01 17:18+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2078,6 +2078,10 @@ msgstr "Automatic"
 msgid "Automatically check for &newer versions every week"
 msgstr "Automatically check for &newer versions every week"
 
+#. Resource IDs: (306)
+msgid "Autotext Tester"
+msgstr "Autotext Tester"
+
 #. Resource IDs: (1157)
 msgid "Average"
 msgstr "Average"
@@ -3107,6 +3111,11 @@ msgstr "Could not add %s to the ignore list!"
 #. Resource IDs: (201)
 msgid "Could not check for a newer version!"
 msgstr "Could not check for a newer version!"
+
+#. Resource IDs: (93)
+#, c-format
+msgid "Could not check for a newer version! (Error code: 0x%08X)"
+msgstr "Could not check for a newer version! (Error code: 0x%08X)"
 
 #. Resource IDs: (81)
 #, c-format
@@ -4197,6 +4206,10 @@ msgstr "Enter an integer between 0 and 255."
 msgid "Enter an integer."
 msgstr "Enter an integer."
 
+#. Resource IDs: (65535)
+msgid "Enter file content to test for below:"
+msgstr "Enter file content to test for below:"
+
 #. Resource IDs: (1065)
 msgid "Enter log &message:"
 msgstr "Enter log &message:"
@@ -4205,6 +4218,10 @@ msgstr "Enter log &message:"
 #, c-format
 msgid "Enter no more than %1 characters."
 msgstr "Enter no more than %1 characters."
+
+#. Resource IDs: (65535)
+msgid "Enter the regex string below:"
+msgstr "Enter the regex string below:"
 
 #. Resource IDs: (3603)
 msgid ""
@@ -4726,6 +4743,10 @@ msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
 "proceed."
 msgstr "Found an empty commit message. You have to enter one or rebase cannot proceed."
+
+#. Resource IDs: (65535)
+msgid "Found auto words:"
+msgstr "Found auto words:"
 
 #. Resource IDs: (65535)
 msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
@@ -5887,10 +5908,8 @@ msgid "Local status"
 msgstr "Local status"
 
 #. Resource IDs: (65535)
-msgid ""
-"Local:"
-"                                                                                            "
-msgstr "Local:                                                                                            "
+msgid "Local:"
+msgstr "Local:"
 
 #. Resource IDs: (94)
 msgid ""
@@ -6866,15 +6885,15 @@ msgstr "Parameters"
 msgid "Parameters:"
 msgstr "Parameters:"
 
+#. Resource IDs: (1256)
+#, c-format
+msgid "Parent %d"
+msgstr "Parent %d"
+
 #. Resource IDs: (70)
 #, c-format
 msgid "Parent %d does not exist"
 msgstr "Parent %d does not exist"
-
-#. Resource IDs: (1256)
-#, c-format
-msgid "Parent %s"
-msgstr "Parent %s"
 
 #. Resource IDs: (606)
 msgid "Parent 1"
@@ -8152,6 +8171,10 @@ msgstr "Saving config failed (key: \"%s\", value: \"%s\")."
 msgid "Saving notes failed."
 msgstr "Saving notes failed."
 
+#. Resource IDs: (1522)
+msgid "Scan"
+msgstr "Scan"
+
 #. Resource IDs: (1014, 1064, 1636)
 msgid "Scintilla"
 msgstr "Scintilla"
@@ -9077,6 +9100,10 @@ msgstr "System"
 #. Resource IDs: (1556)
 msgid "System &sounds"
 msgstr "System &sounds"
+
+#. Resource IDs: (93)
+msgid "System in offline mode. Check Internet Explorer."
+msgstr "System in offline mode. Check Internet Explorer."
 
 #. Resource IDs: (3857)
 msgid ""
