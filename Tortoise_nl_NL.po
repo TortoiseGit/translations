@@ -25,8 +25,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-09 14:41+0000\n"
-"Last-Translator: duvel3 <duvel3@gmail.com>\n"
+"PO-Revision-Date: 2013-12-10 17:35+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/tortoisegit/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -585,6 +585,14 @@ msgstr "&Verwijderen (lokaal behouden)"
 msgid "&Delete remote && local"
 msgstr "Verwij&der extern && lokaal"
 
+#. Resource IDs: (65535)
+msgid "&Detect moved or copied lines"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "&Detect moved or copied lines:"
+msgstr ""
+
 #. Resource IDs: (12)
 msgid "&Diff"
 msgstr "&Verschil"
@@ -596,6 +604,10 @@ msgstr "&Vergelijk met vorige revisie"
 #. Resource IDs: (65535)
 msgid "&Directory:"
 msgstr "&Map:"
+
+#. Resource IDs: (32789)
+msgid "&Disabled"
+msgstr ""
 
 #. Resource IDs: (71)
 msgid "&Discard"
@@ -757,6 +769,10 @@ msgstr "&Negeren"
 #, c-format
 msgid "&Ignore %d items by name"
 msgstr "%d zaken &negeren op naam"
+
+#. Resource IDs: (32786)
+msgid "&Ignore whitespace"
+msgstr ""
 
 #. Resource IDs: (16914)
 msgid "&Image"
@@ -1310,6 +1326,10 @@ msgstr "&Compleet Project"
 #. Resource IDs: (1066, 20085)
 msgid "&Whole word"
 msgstr "&Heel woord"
+
+#. Resource IDs: (32790)
+msgid "&Within file"
+msgstr ""
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -1966,6 +1986,14 @@ msgstr ""
 msgid "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
 msgstr ""
 
+#. Resource IDs: (32792)
+msgid "At file &creation"
+msgstr ""
+
+#. Resource IDs: (2054)
+msgid "At file creation"
+msgstr ""
+
 #. Resource IDs: (77)
 #, c-format
 msgid "At revision: %d"
@@ -2160,10 +2188,6 @@ msgid ""
 "a bitmap"
 msgstr "Bitmap\neen bitmap"
 
-#. Resource IDs: (65535)
-msgid "BlAMEPOPUP"
-msgstr "BlAMEPOPUP"
-
 #. Resource IDs: (156, 626)
 msgid "Black Style"
 msgstr "Zwarte stijl"
@@ -2228,6 +2252,10 @@ msgstr "Branch"
 msgid ""
 "Branch %s behind %s\r\n"
 "%s will fastforward to %s"
+msgstr ""
+
+#. Resource IDs: (93)
+msgid "Branch (FF)"
 msgstr ""
 
 #. Resource IDs: (68)
@@ -2895,10 +2923,6 @@ msgstr "Vastleggen van een map zonder versiebeheer voegt de bestanden in de map 
 #. Resource IDs: (2054)
 msgid "Compare &HEAD revisions"
 msgstr "Vergelijk &HEAD revisies"
-
-#. Resource IDs: (1254)
-msgid "Compare and blame with previous revision"
-msgstr "Vergelijk en verklaar met vorige revisie"
 
 #. Resource IDs: (79)
 msgid "Compare selected refs"
@@ -3650,6 +3674,24 @@ msgstr "De doelschijf is vol."
 msgid "Detect and highlight moved blocks"
 msgstr "Detecteer en toon verplaatste blokken"
 
+#. Resource IDs: (2050)
+msgid "Detect moved and copied lines from existing files at any commit"
+msgstr ""
+
+#. Resource IDs: (2050)
+msgid ""
+"Detect moved and copied lines from existing files at the commit where the "
+"destination file has been created"
+msgstr ""
+
+#. Resource IDs: (2050)
+msgid "Detect moved and copied lines from files modified in the same commit"
+msgstr ""
+
+#. Resource IDs: (2050)
+msgid "Detect moved or copied lines within a file"
+msgstr ""
+
 #. Resource IDs: (3849)
 msgid ""
 "Device Independent Bitmap\n"
@@ -3679,10 +3721,6 @@ msgstr "Diff-viewer::Samenvoeg gereedschap"
 #. Resource IDs: (65535)
 msgid "Diff file:"
 msgstr "Diff-bestand:"
-
-#. Resource IDs: (32780)
-msgid "Diff previous revision"
-msgstr "Vergelijk met vorige revisie"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3722,6 +3760,10 @@ msgid ""
 "Disable this option if you have really big working trees and experience\r\n"
 "too much disk access when browsing the working tree."
 msgstr "Schakel deze instelling uit als u een enorme werkmap heeft en merkt\ndat er teveel schijfactiviteit plaatsvindt terwijl u deze werkmap doorbladert."
+
+#. Resource IDs: (2054)
+msgid "Disabled"
+msgstr ""
 
 #. Resource IDs: (3867)
 #, c-format
@@ -4776,9 +4818,25 @@ msgstr "Van"
 msgid "From &SVN Repository"
 msgstr "Van &SVN Archief"
 
+#. Resource IDs: (32793)
+msgid "From &existing files"
+msgstr ""
+
+#. Resource IDs: (32791)
+msgid "From &modified files"
+msgstr ""
+
 #. Resource IDs: (1603)
 msgid "From SVN Repository"
 msgstr "Van SVN Archief"
+
+#. Resource IDs: (2054)
+msgid "From existing files"
+msgstr ""
+
+#. Resource IDs: (2054)
+msgid "From modified files"
+msgstr ""
 
 #. Resource IDs: (1200, 65535)
 msgid "From:"
@@ -4993,6 +5051,14 @@ msgstr "Git voor Windows (http://code.google.com/p/msysgit/) niet gevonden."
 
 #. Resource IDs: (79)
 msgid "Git reported an error while creating a repository!\n"
+msgstr ""
+
+#. Resource IDs: (2050)
+msgid "Git revision list contains the complete file history"
+msgstr ""
+
+#. Resource IDs: (2049)
+msgid "Git revision list follows file renames"
 msgstr ""
 
 #. Resource IDs: (12)
@@ -5284,8 +5350,8 @@ msgstr "ID:32825:VA  +D"
 msgid "ID:32837:VA  +M"
 msgstr "ID:32837:VA  +M"
 
-#. Accelerator Entry for Menu ID:32860; ''
-msgid "ID:32860:VA  +F"
+#. Accelerator Entry for Menu ID:32857; ''
+msgid "ID:32857:VA  +F"
 msgstr ""
 
 #. Accelerator Entry for Menu ID:32870; ''
@@ -5541,9 +5607,17 @@ msgstr "Negeer item(s) recursief"
 msgid "Ignore line &endings (recommended)"
 msgstr "Negeer &regeleinden (aanbevolen)"
 
+#. Resource IDs: (1676)
+msgid "Ignore whitespace"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Ignore whitespace changes"
 msgstr "Negeer wijzigingen in spaties en witregels"
+
+#. Resource IDs: (2050)
+msgid "Ignore whitespace when comparing the parents version and the child's "
+msgstr ""
 
 #. Resource IDs: (1432)
 msgid "Ignored"
@@ -8520,10 +8594,6 @@ msgid ""
 "Inline diff"
 msgstr "Toon inline-verschil\nInline-verschil"
 
-#. Resource IDs: (32781)
-msgid "Show Log"
-msgstr "Toon Logboek"
-
 #. Resource IDs: (1065)
 msgid "Show More Buttons"
 msgstr "Toon meer knoppen"
@@ -8560,6 +8630,14 @@ msgstr "Toon branches met deze vastlegging"
 msgid "Show changes as &unified diff"
 msgstr "Toon wijzigingen als &unified diff"
 
+#. Resource IDs: (32787)
+msgid "Show com&plete log"
+msgstr ""
+
+#. Resource IDs: (32864)
+msgid "Show complete log"
+msgstr ""
+
 #. Resource IDs: (32784)
 msgid "Show date"
 msgstr "Toon datum"
@@ -8583,6 +8661,10 @@ msgstr "Toon uitgesloten mappen als 'normaal'"
 #. Resource IDs: (16656)
 msgid "Show f&ull menus after a short delay"
 msgstr "Toon &gehele menu na korte tijd"
+
+#. Resource IDs: (2051, 32802)
+msgid "Show file name"
+msgstr ""
 
 #. Resource IDs: (1264)
 msgid "Show i&gnored files"
@@ -8664,6 +8746,10 @@ msgid ""
 "Show or hide the toolbar\n"
 "Toggle ToolBar"
 msgstr "Toon of verberg de werkbalk\nWissel werkbalk"
+
+#. Resource IDs: (2051, 32803)
+msgid "Show original line number"
+msgstr ""
 
 #. Resource IDs: (1270)
 msgid ""
@@ -10544,6 +10630,10 @@ msgstr "Windows-1257"
 #. Resource IDs: (5028)
 msgid "Windows-1258"
 msgstr "Windows-1258"
+
+#. Resource IDs: (2054)
+msgid "Within file"
+msgstr ""
 
 #. Resource IDs: (20, 158)
 msgid "Working Tree"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-01 17:18+0000\n"
+"PO-Revision-Date: 2013-12-10 17:35+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -569,6 +569,14 @@ msgstr "&Delete (keep local)"
 msgid "&Delete remote && local"
 msgstr "&Delete remote && local"
 
+#. Resource IDs: (65535)
+msgid "&Detect moved or copied lines"
+msgstr "&Detect moved or copied lines"
+
+#. Resource IDs: (65535)
+msgid "&Detect moved or copied lines:"
+msgstr "&Detect moved or copied lines:"
+
 #. Resource IDs: (12)
 msgid "&Diff"
 msgstr "&Diff"
@@ -580,6 +588,10 @@ msgstr "&Diff with previous version"
 #. Resource IDs: (65535)
 msgid "&Directory:"
 msgstr "&Directory:"
+
+#. Resource IDs: (32789)
+msgid "&Disabled"
+msgstr "&Disabled"
 
 #. Resource IDs: (71)
 msgid "&Discard"
@@ -741,6 +753,10 @@ msgstr "&Ignore"
 #, c-format
 msgid "&Ignore %d items by name"
 msgstr "&Ignore %d items by name"
+
+#. Resource IDs: (32786)
+msgid "&Ignore whitespace"
+msgstr "&Ignore whitespace"
 
 #. Resource IDs: (16914)
 msgid "&Image"
@@ -1294,6 +1310,10 @@ msgstr "&Whole Project"
 #. Resource IDs: (1066, 20085)
 msgid "&Whole word"
 msgstr "&Whole word"
+
+#. Resource IDs: (32790)
+msgid "&Within file"
+msgstr "&Within file"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -1950,6 +1970,14 @@ msgstr "Assume valid/unchanged"
 msgid "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
 msgstr "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
 
+#. Resource IDs: (32792)
+msgid "At file &creation"
+msgstr "At file &creation"
+
+#. Resource IDs: (2054)
+msgid "At file creation"
+msgstr "At file creation"
+
 #. Resource IDs: (77)
 #, c-format
 msgid "At revision: %d"
@@ -2144,10 +2172,6 @@ msgid ""
 "a bitmap"
 msgstr "Bitmap\na bitmap"
 
-#. Resource IDs: (65535)
-msgid "BlAMEPOPUP"
-msgstr "BlAMEPOPUP"
-
 #. Resource IDs: (156, 626)
 msgid "Black Style"
 msgstr "Black Style"
@@ -2213,6 +2237,10 @@ msgid ""
 "Branch %s behind %s\r\n"
 "%s will fastforward to %s"
 msgstr "Branch %s behind %s\r\n%s will fastforward to %s"
+
+#. Resource IDs: (93)
+msgid "Branch (FF)"
+msgstr "Branch (FF)"
 
 #. Resource IDs: (68)
 msgid "Branch Name"
@@ -2879,10 +2907,6 @@ msgstr "Committing an unversioned folder will not recursively add its child item
 #. Resource IDs: (2054)
 msgid "Compare &HEAD revisions"
 msgstr "Compare &HEAD revisions"
-
-#. Resource IDs: (1254)
-msgid "Compare and blame with previous revision"
-msgstr "Compare and blame with previous revision"
 
 #. Resource IDs: (79)
 msgid "Compare selected refs"
@@ -3634,6 +3658,24 @@ msgstr "Destination disk drive is full."
 msgid "Detect and highlight moved blocks"
 msgstr "Detect and highlight moved blocks"
 
+#. Resource IDs: (2050)
+msgid "Detect moved and copied lines from existing files at any commit"
+msgstr "Detect moved and copied lines from existing files at any commit"
+
+#. Resource IDs: (2050)
+msgid ""
+"Detect moved and copied lines from existing files at the commit where the "
+"destination file has been created"
+msgstr "Detect moved and copied lines from existing files at the commit where the destination file has been created"
+
+#. Resource IDs: (2050)
+msgid "Detect moved and copied lines from files modified in the same commit"
+msgstr "Detect moved and copied lines from files modified in the same commit"
+
+#. Resource IDs: (2050)
+msgid "Detect moved or copied lines within a file"
+msgstr "Detect moved or copied lines within a file"
+
 #. Resource IDs: (3849)
 msgid ""
 "Device Independent Bitmap\n"
@@ -3663,10 +3705,6 @@ msgstr "Diff Viewer::Merge Tool"
 #. Resource IDs: (65535)
 msgid "Diff file:"
 msgstr "Diff file:"
-
-#. Resource IDs: (32780)
-msgid "Diff previous revision"
-msgstr "Diff previous revision"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3706,6 +3744,10 @@ msgid ""
 "Disable this option if you have really big working trees and experience\r\n"
 "too much disk access when browsing the working tree."
 msgstr "Disable this option if you have really big working trees and experience\r\ntoo much disk access when browsing the working tree."
+
+#. Resource IDs: (2054)
+msgid "Disabled"
+msgstr "Disabled"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -4760,9 +4802,25 @@ msgstr "From"
 msgid "From &SVN Repository"
 msgstr "From &SVN Repository"
 
+#. Resource IDs: (32793)
+msgid "From &existing files"
+msgstr "From &existing files"
+
+#. Resource IDs: (32791)
+msgid "From &modified files"
+msgstr "From &modified files"
+
 #. Resource IDs: (1603)
 msgid "From SVN Repository"
 msgstr "From SVN Repository"
+
+#. Resource IDs: (2054)
+msgid "From existing files"
+msgstr "From existing files"
+
+#. Resource IDs: (2054)
+msgid "From modified files"
+msgstr "From modified files"
 
 #. Resource IDs: (1200, 65535)
 msgid "From:"
@@ -4978,6 +5036,14 @@ msgstr "Git for Windows (http://code.google.com/p/msysgit/) not found."
 #. Resource IDs: (79)
 msgid "Git reported an error while creating a repository!\n"
 msgstr "Git reported an error while creating a repository!\n"
+
+#. Resource IDs: (2050)
+msgid "Git revision list contains the complete file history"
+msgstr "Git revision list contains the complete file history"
+
+#. Resource IDs: (2049)
+msgid "Git revision list follows file renames"
+msgstr "Git revision list follows file renames"
 
 #. Resource IDs: (12)
 msgid "Git short URL"
@@ -5268,9 +5334,9 @@ msgstr "ID:32825:VA  +D"
 msgid "ID:32837:VA  +M"
 msgstr "ID:32837:VA  +M"
 
-#. Accelerator Entry for Menu ID:32860; ''
-msgid "ID:32860:VA  +F"
-msgstr "ID:32860:VA  +F"
+#. Accelerator Entry for Menu ID:32857; ''
+msgid "ID:32857:VA  +F"
+msgstr "ID:32857:VA  +F"
 
 #. Accelerator Entry for Menu ID:32870; ''
 msgid "ID:32870:V C +L"
@@ -5525,9 +5591,17 @@ msgstr "Ignore item(s) recursively"
 msgid "Ignore line &endings (recommended)"
 msgstr "Ignore line &endings (recommended)"
 
+#. Resource IDs: (1676)
+msgid "Ignore whitespace"
+msgstr "Ignore whitespace"
+
 #. Resource IDs: (156)
 msgid "Ignore whitespace changes"
 msgstr "Ignore whitespace changes"
+
+#. Resource IDs: (2050)
+msgid "Ignore whitespace when comparing the parents version and the child's "
+msgstr "Ignore whitespace when comparing the parents version and the child's "
 
 #. Resource IDs: (1432)
 msgid "Ignored"
@@ -8504,10 +8578,6 @@ msgid ""
 "Inline diff"
 msgstr "Show Inline-Diff\nInline diff"
 
-#. Resource IDs: (32781)
-msgid "Show Log"
-msgstr "Show Log"
-
 #. Resource IDs: (1065)
 msgid "Show More Buttons"
 msgstr "Show More Buttons"
@@ -8544,6 +8614,14 @@ msgstr "Show branches this commit is on"
 msgid "Show changes as &unified diff"
 msgstr "Show changes as &unified diff"
 
+#. Resource IDs: (32787)
+msgid "Show com&plete log"
+msgstr "Show com&plete log"
+
+#. Resource IDs: (32864)
+msgid "Show complete log"
+msgstr "Show complete log"
+
 #. Resource IDs: (32784)
 msgid "Show date"
 msgstr "Show date"
@@ -8567,6 +8645,10 @@ msgstr "Show excluded folders as normal"
 #. Resource IDs: (16656)
 msgid "Show f&ull menus after a short delay"
 msgstr "Show f&ull menus after a short delay"
+
+#. Resource IDs: (2051, 32802)
+msgid "Show file name"
+msgstr "Show file name"
 
 #. Resource IDs: (1264)
 msgid "Show i&gnored files"
@@ -8648,6 +8730,10 @@ msgid ""
 "Show or hide the toolbar\n"
 "Toggle ToolBar"
 msgstr "Show or hide the toolbar\nToggle ToolBar"
+
+#. Resource IDs: (2051, 32803)
+msgid "Show original line number"
+msgstr "Show original line number"
 
 #. Resource IDs: (1270)
 msgid ""
@@ -10528,6 +10614,10 @@ msgstr "Windows-1257"
 #. Resource IDs: (5028)
 msgid "Windows-1258"
 msgstr "Windows-1258"
+
+#. Resource IDs: (2054)
+msgid "Within file"
+msgstr "Within file"
 
 #. Resource IDs: (20, 158)
 msgid "Working Tree"

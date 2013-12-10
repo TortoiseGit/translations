@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-01 17:18+0000\n"
+"PO-Revision-Date: 2013-12-10 17:35+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -573,6 +573,14 @@ msgstr "&Eliminar (mantener local)"
 msgid "&Delete remote && local"
 msgstr "&Eliminar en remoto y local"
 
+#. Resource IDs: (65535)
+msgid "&Detect moved or copied lines"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "&Detect moved or copied lines:"
+msgstr ""
+
 #. Resource IDs: (12)
 msgid "&Diff"
 msgstr "&Dif."
@@ -584,6 +592,10 @@ msgstr "&Dif. con versión anterior"
 #. Resource IDs: (65535)
 msgid "&Directory:"
 msgstr "&Directorio"
+
+#. Resource IDs: (32789)
+msgid "&Disabled"
+msgstr ""
 
 #. Resource IDs: (71)
 msgid "&Discard"
@@ -745,6 +757,10 @@ msgstr "&Ignorar"
 #, c-format
 msgid "&Ignore %d items by name"
 msgstr "&Ignorar %d objetos por nombre"
+
+#. Resource IDs: (32786)
+msgid "&Ignore whitespace"
+msgstr ""
 
 #. Resource IDs: (16914)
 msgid "&Image"
@@ -1298,6 +1314,10 @@ msgstr "&Proyecto entero"
 #. Resource IDs: (1066, 20085)
 msgid "&Whole word"
 msgstr "&Palabra completa"
+
+#. Resource IDs: (32790)
+msgid "&Within file"
+msgstr ""
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -1954,6 +1974,14 @@ msgstr "Considerar válido/inalterado"
 msgid "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
 msgstr "Considerar válido/inalterado (\"Necesita-bloqueo\" en TortoiseSVN)"
 
+#. Resource IDs: (32792)
+msgid "At file &creation"
+msgstr ""
+
+#. Resource IDs: (2054)
+msgid "At file creation"
+msgstr ""
+
 #. Resource IDs: (77)
 #, c-format
 msgid "At revision: %d"
@@ -2148,10 +2176,6 @@ msgid ""
 "a bitmap"
 msgstr "Mapa de bit \na mapa de bit"
 
-#. Resource IDs: (65535)
-msgid "BlAMEPOPUP"
-msgstr "POP-UP-ACUSE"
-
 #. Resource IDs: (156, 626)
 msgid "Black Style"
 msgstr "Estilo Oscuro"
@@ -2217,6 +2241,10 @@ msgid ""
 "Branch %s behind %s\r\n"
 "%s will fastforward to %s"
 msgstr "La rama %s trás %s\r\n%s avanzará rápidamente a %s"
+
+#. Resource IDs: (93)
+msgid "Branch (FF)"
+msgstr ""
 
 #. Resource IDs: (68)
 msgid "Branch Name"
@@ -2883,10 +2911,6 @@ msgstr "¡Consignando una carpeta no versionada no añadirá recursivamente tus 
 #. Resource IDs: (2054)
 msgid "Compare &HEAD revisions"
 msgstr "Comparar revisión &HEAD"
-
-#. Resource IDs: (1254)
-msgid "Compare and blame with previous revision"
-msgstr "Compare y vea acuse con la versión anterior"
 
 #. Resource IDs: (79)
 msgid "Compare selected refs"
@@ -3638,6 +3662,24 @@ msgstr "La unidad de disco de destino está llena."
 msgid "Detect and highlight moved blocks"
 msgstr "Detectar y resaltar los bloques movidos"
 
+#. Resource IDs: (2050)
+msgid "Detect moved and copied lines from existing files at any commit"
+msgstr ""
+
+#. Resource IDs: (2050)
+msgid ""
+"Detect moved and copied lines from existing files at the commit where the "
+"destination file has been created"
+msgstr ""
+
+#. Resource IDs: (2050)
+msgid "Detect moved and copied lines from files modified in the same commit"
+msgstr ""
+
+#. Resource IDs: (2050)
+msgid "Detect moved or copied lines within a file"
+msgstr ""
+
 #. Resource IDs: (3849)
 msgid ""
 "Device Independent Bitmap\n"
@@ -3667,10 +3709,6 @@ msgstr "Visor Dif.::Herramienta de combinación"
 #. Resource IDs: (65535)
 msgid "Diff file:"
 msgstr "Archivo Dif.:"
-
-#. Resource IDs: (32780)
-msgid "Diff previous revision"
-msgstr "Dif. con revisión anterior"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3710,6 +3748,10 @@ msgid ""
 "Disable this option if you have really big working trees and experience\r\n"
 "too much disk access when browsing the working tree."
 msgstr "Desactiva esta opción si tienes árboles de trabajo muy grandes y experimentas\r\ndemasiados accesos al disco cuando exploras el árblos e trabajo."
+
+#. Resource IDs: (2054)
+msgid "Disabled"
+msgstr ""
 
 #. Resource IDs: (3867)
 #, c-format
@@ -4764,9 +4806,25 @@ msgstr "Desde"
 msgid "From &SVN Repository"
 msgstr "Desde repositorio &SVN "
 
+#. Resource IDs: (32793)
+msgid "From &existing files"
+msgstr ""
+
+#. Resource IDs: (32791)
+msgid "From &modified files"
+msgstr ""
+
 #. Resource IDs: (1603)
 msgid "From SVN Repository"
 msgstr "Desde repositorio SVN "
+
+#. Resource IDs: (2054)
+msgid "From existing files"
+msgstr ""
+
+#. Resource IDs: (2054)
+msgid "From modified files"
+msgstr ""
 
 #. Resource IDs: (1200, 65535)
 msgid "From:"
@@ -4982,6 +5040,14 @@ msgstr ""
 #. Resource IDs: (79)
 msgid "Git reported an error while creating a repository!\n"
 msgstr "¡Git devolvió de un error al crear un repositorio!\n"
+
+#. Resource IDs: (2050)
+msgid "Git revision list contains the complete file history"
+msgstr ""
+
+#. Resource IDs: (2049)
+msgid "Git revision list follows file renames"
+msgstr ""
 
 #. Resource IDs: (12)
 msgid "Git short URL"
@@ -5272,8 +5338,8 @@ msgstr "ID:32825:VA  +D"
 msgid "ID:32837:VA  +M"
 msgstr "ID:32837:VA  +M"
 
-#. Accelerator Entry for Menu ID:32860; ''
-msgid "ID:32860:VA  +F"
+#. Accelerator Entry for Menu ID:32857; ''
+msgid "ID:32857:VA  +F"
 msgstr ""
 
 #. Accelerator Entry for Menu ID:32870; ''
@@ -5529,9 +5595,17 @@ msgstr "Ignorar objeto(s) recusivamente"
 msgid "Ignore line &endings (recommended)"
 msgstr "Ignorar terminaciones de línea (recomendable)"
 
+#. Resource IDs: (1676)
+msgid "Ignore whitespace"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Ignore whitespace changes"
 msgstr "Ignorar cambios en espacios en blanco"
+
+#. Resource IDs: (2050)
+msgid "Ignore whitespace when comparing the parents version and the child's "
+msgstr ""
 
 #. Resource IDs: (1432)
 msgid "Ignored"
@@ -8508,10 +8582,6 @@ msgid ""
 "Inline diff"
 msgstr "Mostar Dif. en línea\nDif. en línea"
 
-#. Resource IDs: (32781)
-msgid "Show Log"
-msgstr "Mostar Reg."
-
 #. Resource IDs: (1065)
 msgid "Show More Buttons"
 msgstr "Mostrar más Botones"
@@ -8548,6 +8618,14 @@ msgstr "Mostrar Ramas donde está la consigna"
 msgid "Show changes as &unified diff"
 msgstr "Mostrar cambios como dif. &unificado"
 
+#. Resource IDs: (32787)
+msgid "Show com&plete log"
+msgstr ""
+
+#. Resource IDs: (32864)
+msgid "Show complete log"
+msgstr ""
+
 #. Resource IDs: (32784)
 msgid "Show date"
 msgstr ""
@@ -8571,6 +8649,10 @@ msgstr "Mostrar carpetas excluidas como normales"
 #. Resource IDs: (16656)
 msgid "Show f&ull menus after a short delay"
 msgstr "Mostrar  menús &completos después de un breve tiempo"
+
+#. Resource IDs: (2051, 32802)
+msgid "Show file name"
+msgstr ""
 
 #. Resource IDs: (1264)
 msgid "Show i&gnored files"
@@ -8652,6 +8734,10 @@ msgid ""
 "Show or hide the toolbar\n"
 "Toggle ToolBar"
 msgstr "Mostrar u ocultar la barra de herramientas\nAlternar BarraHerramientas"
+
+#. Resource IDs: (2051, 32803)
+msgid "Show original line number"
+msgstr ""
 
 #. Resource IDs: (1270)
 msgid ""
@@ -10532,6 +10618,10 @@ msgstr "Windows-1257"
 #. Resource IDs: (5028)
 msgid "Windows-1258"
 msgstr "Windows-1258"
+
+#. Resource IDs: (2054)
+msgid "Within file"
+msgstr ""
 
 #. Resource IDs: (20, 158)
 msgid "Working Tree"
