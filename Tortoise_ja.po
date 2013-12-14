@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-10 17:35+0000\n"
+"PO-Revision-Date: 2013-12-14 12:22+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -3714,6 +3714,15 @@ msgstr "差分ビューアー::マージツール"
 msgid "Diff file:"
 msgstr "差分ファイル:"
 
+#. Resource IDs: (15)
+msgid "Diff later"
+msgstr ""
+
+#. Resource IDs: (15)
+#, c-format
+msgid "Diff with \"%s\""
+msgstr ""
+
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
@@ -4945,10 +4954,6 @@ msgstr "Unified 形式の差分を取得中"
 msgid "Git"
 msgstr "Git"
 
-#. Resource IDs: (16)
-msgid "Git Author"
-msgstr "Git: 作者"
-
 #. Resource IDs: (300)
 msgid "Git Command Progress"
 msgstr "Git コマンド実行中"
@@ -4997,10 +5002,6 @@ msgstr "Git: バージョン管理されたファイルをここへ移動"
 msgid "Git Remote Settings"
 msgstr "リモート設定(Git Remote Settings)"
 
-#. Resource IDs: (11)
-msgid "Git Revision"
-msgstr "Git: リビジョン"
-
 #. Resource IDs: (1260)
 msgid "Git Revision List"
 msgstr "リビジョン一覧（Git Revision List)"
@@ -5013,17 +5014,9 @@ msgstr "Git SVN DCommit"
 msgid "Git SVN Rebase"
 msgstr "Git SVNリベース(ローカルへ反映)"
 
-#. Resource IDs: (11)
-msgid "Git Status"
-msgstr "Git: 状態"
-
 #. Resource IDs: (326)
 msgid "Git Synchronization"
 msgstr "Git 同期"
-
-#. Resource IDs: (12)
-msgid "Git URL"
-msgstr "Git: URL"
 
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
@@ -5052,10 +5045,6 @@ msgstr ""
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
 msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git short URL"
-msgstr "Git: 短いURL"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5476,10 +5465,6 @@ msgstr "ISO 8859-9"
 msgid "Icon Overlays"
 msgstr "アイコンオーバーレイ"
 
-#. Resource IDs: (65535)
-msgid "Icon Overlays/Status Columns"
-msgstr "アイコンオーバーレイ/状態表示列"
-
 #. Resource IDs: (184)
 msgid "Icon Overlays::Icon Set"
 msgstr "アイコンオーバーレイ::アイコンセット"
@@ -5861,10 +5846,6 @@ msgstr "最後の修正:"
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr "問題の無かったものの最後(&G):"
-
-#. Resource IDs: (11)
-msgid "Last saved revision of item"
-msgstr "最後に保存した項目のリビジョン"
 
 #. Resource IDs: (12)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -8510,10 +8491,6 @@ msgstr "Shift-JIS"
 msgid "Short &date/time format in log messages"
 msgstr "ログメッセージに短い日付/時刻形式を使用する(&D)"
 
-#. Resource IDs: (12)
-msgid "Short URL of Git items"
-msgstr "Git 項目の短いURL"
-
 #. Resource IDs: (1255)
 msgid "Shorten property list"
 msgstr "プロパティリストを短縮する"
@@ -9012,13 +8989,15 @@ msgstr "状態のキャッシュは、ファイルの変更を検出する外部
 msgid "Status cache only for one folder, no recursive overlays"
 msgstr "１つのフォルダーに対してのみ状態をキャッシュし、再帰的なオーバーレイは行いません"
 
-#. Resource IDs: (11)
-msgid "Status of item in Git"
-msgstr "Gitの項目の状態"
-
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
 msgstr "二分探索モードを停止"
+
+#. Resource IDs: (15)
+msgid ""
+"Stores the path of the file to be used for a diff on a later right-click. "
+"Hold down the Ctrl key to remove the last saved path."
+msgstr ""
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -9601,10 +9580,6 @@ msgid ""
 "It's not possible to show the log messages between them!"
 msgstr "選択された2つのURLは同じルートから作成されたものではありません。\nそのため、これら2つの間のログメッセージを表示することはできません。"
 
-#. Resource IDs: (16)
-msgid "The user who did the last commit"
-msgstr "最後にコミットを行ったユーザー"
-
 #. Resource IDs: (65535)
 msgid "Their file:"
 msgstr "Their ファイル:"
@@ -9969,10 +9944,6 @@ msgstr "URL とディレクトリーいづれにも空白を指定する事は�
 #. Resource IDs: (1272)
 msgid "URL history"
 msgstr "URLの履歴"
-
-#. Resource IDs: (12)
-msgid "URL of Git items"
-msgstr "Git 項目のURL"
 
 #. Resource IDs: (65535)
 msgid "URL:"

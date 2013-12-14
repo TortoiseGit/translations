@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-10 17:35+0000\n"
+"PO-Revision-Date: 2013-12-14 12:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Nepali (http://www.transifex.com/projects/p/tortoisegit/language/ne/)\n"
 "MIME-Version: 1.0\n"
@@ -3708,6 +3708,15 @@ msgstr ""
 msgid "Diff file:"
 msgstr ""
 
+#. Resource IDs: (15)
+msgid "Diff later"
+msgstr ""
+
+#. Resource IDs: (15)
+#, c-format
+msgid "Diff with \"%s\""
+msgstr ""
+
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
@@ -4939,10 +4948,6 @@ msgstr ""
 msgid "Git"
 msgstr "Git"
 
-#. Resource IDs: (16)
-msgid "Git Author"
-msgstr ""
-
 #. Resource IDs: (300)
 msgid "Git Command Progress"
 msgstr ""
@@ -4991,10 +4996,6 @@ msgstr ""
 msgid "Git Remote Settings"
 msgstr ""
 
-#. Resource IDs: (11)
-msgid "Git Revision"
-msgstr ""
-
 #. Resource IDs: (1260)
 msgid "Git Revision List"
 msgstr ""
@@ -5007,16 +5008,8 @@ msgstr ""
 msgid "Git SVN Rebase"
 msgstr ""
 
-#. Resource IDs: (11)
-msgid "Git Status"
-msgstr ""
-
 #. Resource IDs: (326)
 msgid "Git Synchronization"
-msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git URL"
 msgstr ""
 
 #. Resource IDs: (297)
@@ -5045,10 +5038,6 @@ msgstr ""
 
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
-msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git short URL"
 msgstr ""
 
 #. Resource IDs: (93)
@@ -5470,10 +5459,6 @@ msgstr "ISO 8859-9"
 msgid "Icon Overlays"
 msgstr ""
 
-#. Resource IDs: (65535)
-msgid "Icon Overlays/Status Columns"
-msgstr ""
-
 #. Resource IDs: (184)
 msgid "Icon Overlays::Icon Set"
 msgstr ""
@@ -5854,10 +5839,6 @@ msgstr ""
 
 #. Resource IDs: (1616)
 msgid "Last known &good:"
-msgstr ""
-
-#. Resource IDs: (11)
-msgid "Last saved revision of item"
 msgstr ""
 
 #. Resource IDs: (12)
@@ -8504,10 +8485,6 @@ msgstr ""
 msgid "Short &date/time format in log messages"
 msgstr ""
 
-#. Resource IDs: (12)
-msgid "Short URL of Git items"
-msgstr ""
-
 #. Resource IDs: (1255)
 msgid "Shorten property list"
 msgstr ""
@@ -9006,12 +8983,14 @@ msgstr ""
 msgid "Status cache only for one folder, no recursive overlays"
 msgstr ""
 
-#. Resource IDs: (11)
-msgid "Status of item in Git"
-msgstr ""
-
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
+msgstr ""
+
+#. Resource IDs: (15)
+msgid ""
+"Stores the path of the file to be used for a diff on a later right-click. "
+"Hold down the Ctrl key to remove the last saved path."
 msgstr ""
 
 #. Resource IDs: (1)
@@ -9595,10 +9574,6 @@ msgid ""
 "It's not possible to show the log messages between them!"
 msgstr ""
 
-#. Resource IDs: (16)
-msgid "The user who did the last commit"
-msgstr ""
-
 #. Resource IDs: (65535)
 msgid "Their file:"
 msgstr ""
@@ -9962,10 +9937,6 @@ msgstr ""
 
 #. Resource IDs: (1272)
 msgid "URL history"
-msgstr ""
-
-#. Resource IDs: (12)
-msgid "URL of Git items"
 msgstr ""
 
 #. Resource IDs: (65535)

@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-10 17:36+0000\n"
+"PO-Revision-Date: 2013-12-14 12:29+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -577,11 +577,11 @@ msgstr "&Lösche entfernt und lokal"
 
 #. Resource IDs: (65535)
 msgid "&Detect moved or copied lines"
-msgstr ""
+msgstr "&Erkenne verschobene und kopierte Zeilen"
 
 #. Resource IDs: (65535)
 msgid "&Detect moved or copied lines:"
-msgstr ""
+msgstr "&Erkenne verschobene und kopierte Zeilen:"
 
 #. Resource IDs: (12)
 msgid "&Diff"
@@ -597,7 +597,7 @@ msgstr "&Verzeichnis:"
 
 #. Resource IDs: (32789)
 msgid "&Disabled"
-msgstr ""
+msgstr "&Deaktiviert"
 
 #. Resource IDs: (71)
 msgid "&Discard"
@@ -1319,7 +1319,7 @@ msgstr "Ganzes &Wort"
 
 #. Resource IDs: (32790)
 msgid "&Within file"
-msgstr ""
+msgstr "&Innerhalb der Datei"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -1978,11 +1978,11 @@ msgstr "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
 
 #. Resource IDs: (32792)
 msgid "At file &creation"
-msgstr ""
+msgstr "Bei Datei&erstellung"
 
 #. Resource IDs: (2054)
 msgid "At file creation"
-msgstr ""
+msgstr "Bei Dateierstellung"
 
 #. Resource IDs: (77)
 #, c-format
@@ -2246,7 +2246,7 @@ msgstr "Der Zweig %s ist hinter %s\n%s passt auf %s (fast-forward)"
 
 #. Resource IDs: (93)
 msgid "Branch (FF)"
-msgstr ""
+msgstr "Zweig (FF)"
 
 #. Resource IDs: (68)
 msgid "Branch Name"
@@ -3666,7 +3666,7 @@ msgstr "Verschobene Blöcke erkennen und hervorheben"
 
 #. Resource IDs: (2050)
 msgid "Detect moved and copied lines from existing files at any commit"
-msgstr ""
+msgstr "Erkenne verschobene und kopierte Zeilen aus existierenden Dateien einer beliebigen Eintragung"
 
 #. Resource IDs: (2050)
 msgid ""
@@ -3676,11 +3676,11 @@ msgstr ""
 
 #. Resource IDs: (2050)
 msgid "Detect moved and copied lines from files modified in the same commit"
-msgstr ""
+msgstr "Erkenne verschobene und kopierte Zeilen aus modifizierten Dateien der gleichen Eintragung"
 
 #. Resource IDs: (2050)
 msgid "Detect moved or copied lines within a file"
-msgstr ""
+msgstr "Erkenne verschobene und kopierte Zeilen innerhalb einer Datei"
 
 #. Resource IDs: (3849)
 msgid ""
@@ -3711,6 +3711,15 @@ msgstr "Vergleichsprogramm::Zusammenführen"
 #. Resource IDs: (65535)
 msgid "Diff file:"
 msgstr "Diffdatei:"
+
+#. Resource IDs: (15)
+msgid "Diff later"
+msgstr "Später vergleichen"
+
+#. Resource IDs: (15)
+#, c-format
+msgid "Diff with \"%s\""
+msgstr "Vergleichen mit \"%s\""
 
 #. Resource IDs: (81)
 #, c-format
@@ -3753,7 +3762,7 @@ msgstr "Deaktivieren Sie diese Option, wenn Sie einen wirklich großen Arbeitsba
 
 #. Resource IDs: (2054)
 msgid "Disabled"
-msgstr ""
+msgstr "Deaktiviert"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -4810,11 +4819,11 @@ msgstr "Aus &SVN Projektarchiv"
 
 #. Resource IDs: (32793)
 msgid "From &existing files"
-msgstr ""
+msgstr "Von &existierenden Dateien"
 
 #. Resource IDs: (32791)
 msgid "From &modified files"
-msgstr ""
+msgstr "Von &veränderten Dateien"
 
 #. Resource IDs: (1603)
 msgid "From SVN Repository"
@@ -4822,11 +4831,11 @@ msgstr "Aus SVN Projektarchiv"
 
 #. Resource IDs: (2054)
 msgid "From existing files"
-msgstr ""
+msgstr "Von existierenden Dateien"
 
 #. Resource IDs: (2054)
 msgid "From modified files"
-msgstr ""
+msgstr "Von veränderten Dateien"
 
 #. Resource IDs: (1200, 65535)
 msgid "From:"
@@ -4943,10 +4952,6 @@ msgstr "Hole Standard-Diff"
 msgid "Git"
 msgstr "Git"
 
-#. Resource IDs: (16)
-msgid "Git Author"
-msgstr "Git Autor"
-
 #. Resource IDs: (300)
 msgid "Git Command Progress"
 msgstr "Git Befehls-Fortschritt"
@@ -4995,10 +5000,6 @@ msgstr "Git Objekte hierher verschieben"
 msgid "Git Remote Settings"
 msgstr "Git Archiv Einstellungen"
 
-#. Resource IDs: (11)
-msgid "Git Revision"
-msgstr "Git Revision"
-
 #. Resource IDs: (1260)
 msgid "Git Revision List"
 msgstr "Git Revision Liste"
@@ -5011,17 +5012,9 @@ msgstr "Git SVN DCommit"
 msgid "Git SVN Rebase"
 msgstr "Git SVN neu aufbauen"
 
-#. Resource IDs: (11)
-msgid "Git Status"
-msgstr "Git Status"
-
 #. Resource IDs: (326)
 msgid "Git Synchronization"
 msgstr "Git Synchronisation"
-
-#. Resource IDs: (12)
-msgid "Git URL"
-msgstr "Git URL"
 
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
@@ -5049,11 +5042,7 @@ msgstr ""
 
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
-msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git short URL"
-msgstr "Git kurze URL"
+msgstr "Git Revisionsliste folgt Dateiumbenennungen"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5474,10 +5463,6 @@ msgstr "ISO 8859-9"
 msgid "Icon Overlays"
 msgstr "Überlagerte Symbole"
 
-#. Resource IDs: (65535)
-msgid "Icon Overlays/Status Columns"
-msgstr "Überlagerte Symbole/Statusspalten"
-
 #. Resource IDs: (184)
 msgid "Icon Overlays::Icon Set"
 msgstr "Überlagerte Symbole::Auswahl"
@@ -5599,7 +5584,7 @@ msgstr "Ignoriere &Zeilenenden (empfohlen)"
 
 #. Resource IDs: (1676)
 msgid "Ignore whitespace"
-msgstr ""
+msgstr "Ignoriere Änderungen an Leerzeichen"
 
 #. Resource IDs: (156)
 msgid "Ignore whitespace changes"
@@ -5607,7 +5592,7 @@ msgstr "Ignoriere Änderungen in der Anzahl von Leerzeichen"
 
 #. Resource IDs: (2050)
 msgid "Ignore whitespace when comparing the parents version and the child's "
-msgstr ""
+msgstr "Ignoriert Änderungen an Leerzeichen beim Vergleichen der Eltern- und Kindversionen"
 
 #. Resource IDs: (1432)
 msgid "Ignored"
@@ -5859,10 +5844,6 @@ msgstr "Zuletzt geändert:"
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr "Letzte bekannte &gute Version:"
-
-#. Resource IDs: (11)
-msgid "Last saved revision of item"
-msgstr "Letzte gespeicherte Revision"
 
 #. Resource IDs: (12)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -8508,10 +8489,6 @@ msgstr "Shift-JIS"
 msgid "Short &date/time format in log messages"
 msgstr "&Kurzes Datum-/Zeitformat"
 
-#. Resource IDs: (12)
-msgid "Short URL of Git items"
-msgstr "Kurze URL von Git-Objekten"
-
 #. Resource IDs: (1255)
 msgid "Shorten property list"
 msgstr "Eigenschaftsliste kürzen"
@@ -8622,11 +8599,11 @@ msgstr "Zeige Änderungen als &Standard-Diff"
 
 #. Resource IDs: (32787)
 msgid "Show com&plete log"
-msgstr ""
+msgstr "Zeige &vollständigen Log"
 
 #. Resource IDs: (32864)
 msgid "Show complete log"
-msgstr ""
+msgstr "Zeige vollständigen Log"
 
 #. Resource IDs: (32784)
 msgid "Show date"
@@ -8654,7 +8631,7 @@ msgstr "Zeige &vollständige Menüs nach einer kurzen Pause"
 
 #. Resource IDs: (2051, 32802)
 msgid "Show file name"
-msgstr ""
+msgstr "Zeige Dateiname"
 
 #. Resource IDs: (1264)
 msgid "Show i&gnored files"
@@ -8739,7 +8716,7 @@ msgstr "Verberge/Zeige die Werkzeugleiste\nVerbirgt oder zeigt die Werkzeugleist
 
 #. Resource IDs: (2051, 32803)
 msgid "Show original line number"
-msgstr ""
+msgstr "Zeige original Zeilennummer"
 
 #. Resource IDs: (1270)
 msgid ""
@@ -9010,13 +8987,15 @@ msgstr "Statuspuffer in einem externen Prozess. Überlagertes Symbole können re
 msgid "Status cache only for one folder, no recursive overlays"
 msgstr "Statuspuffer nur für einen Ordner. Keine rekursiv überlagerten Symbole."
 
-#. Resource IDs: (11)
-msgid "Status of item in Git"
-msgstr "Status eines Objekts in Git"
-
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
 msgstr "Stoppt den bisect Modus"
+
+#. Resource IDs: (15)
+msgid ""
+"Stores the path of the file to be used for a diff on a later right-click. "
+"Hold down the Ctrl key to remove the last saved path."
+msgstr ""
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -9599,10 +9578,6 @@ msgid ""
 "It's not possible to show the log messages between them!"
 msgstr "Die zwei gewählten URLs haben nicht die gleiche Basis.\nEs ist nicht möglich, die Logmeldungen dazwischen anzuzeigen."
 
-#. Resource IDs: (16)
-msgid "The user who did the last commit"
-msgstr "Der Autor der letzten Änderung"
-
 #. Resource IDs: (65535)
 msgid "Their file:"
 msgstr "Deren Datei:"
@@ -9967,10 +9942,6 @@ msgstr "URL und Verzeichnis dürfen nicht gleichzeitig leer sein."
 #. Resource IDs: (1272)
 msgid "URL history"
 msgstr "URL-Historie"
-
-#. Resource IDs: (12)
-msgid "URL of Git items"
-msgstr "URL von Git Objekten"
 
 #. Resource IDs: (65535)
 msgid "URL:"
@@ -10623,7 +10594,7 @@ msgstr "Windows-1258"
 
 #. Resource IDs: (2054)
 msgid "Within file"
-msgstr ""
+msgstr "Innerhalb der Datei"
 
 #. Resource IDs: (20, 158)
 msgid "Working Tree"

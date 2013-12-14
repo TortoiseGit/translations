@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-10 17:35+0000\n"
+"PO-Revision-Date: 2013-12-14 12:22+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -3724,6 +3724,15 @@ msgstr "수정사항(Diff) 뷰어::병합 도구"
 msgid "Diff file:"
 msgstr "비교 파일:"
 
+#. Resource IDs: (15)
+msgid "Diff later"
+msgstr ""
+
+#. Resource IDs: (15)
+#, c-format
+msgid "Diff with \"%s\""
+msgstr ""
+
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
@@ -4955,10 +4964,6 @@ msgstr "unified diff 만드는 중..."
 msgid "Git"
 msgstr "Git"
 
-#. Resource IDs: (16)
-msgid "Git Author"
-msgstr "Git Author"
-
 #. Resource IDs: (300)
 msgid "Git Command Progress"
 msgstr "Git Command Progress"
@@ -5007,10 +5012,6 @@ msgstr "Git Move versioned item(s) here"
 msgid "Git Remote Settings"
 msgstr "Git Remote Settings"
 
-#. Resource IDs: (11)
-msgid "Git Revision"
-msgstr "Git 리비전"
-
 #. Resource IDs: (1260)
 msgid "Git Revision List"
 msgstr "Git 리비전 목록"
@@ -5023,17 +5024,9 @@ msgstr "Git SVN DCommit"
 msgid "Git SVN Rebase"
 msgstr "Git SVN Rebase"
 
-#. Resource IDs: (11)
-msgid "Git Status"
-msgstr "Git 상태"
-
 #. Resource IDs: (326)
 msgid "Git Synchronization"
 msgstr "Git 동기화"
-
-#. Resource IDs: (12)
-msgid "Git URL"
-msgstr "Git URL"
 
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
@@ -5062,10 +5055,6 @@ msgstr ""
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
 msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git short URL"
-msgstr "Git 짧은 URL"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5486,10 +5475,6 @@ msgstr "ISO 8859-9"
 msgid "Icon Overlays"
 msgstr "아이콘 오버레이"
 
-#. Resource IDs: (65535)
-msgid "Icon Overlays/Status Columns"
-msgstr "Icon Overlays/Status Columns"
-
 #. Resource IDs: (184)
 msgid "Icon Overlays::Icon Set"
 msgstr "아이콘 오버레이::아이콘 모음"
@@ -5871,10 +5856,6 @@ msgstr "마지막 수정:"
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr "검색 시작 버전(&G):"
-
-#. Resource IDs: (11)
-msgid "Last saved revision of item"
-msgstr "아이템의 마지막 저장 리비전"
 
 #. Resource IDs: (12)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -8520,10 +8501,6 @@ msgstr "Shift-JIS"
 msgid "Short &date/time format in log messages"
 msgstr "로그 메시지에 간략한 날짜/시간 형식 쓰기(&D)"
 
-#. Resource IDs: (12)
-msgid "Short URL of Git items"
-msgstr "Short URL of Git items"
-
 #. Resource IDs: (1255)
 msgid "Shorten property list"
 msgstr "짧은 속성 리스트"
@@ -9022,13 +8999,15 @@ msgstr "파일변경을 감시하는 외부 프로세스에 상태 캐시를 저
 msgid "Status cache only for one folder, no recursive overlays"
 msgstr "재귀적이 아닌 하나의 디렉토리에 대한 상태를 캐시합니다."
 
-#. Resource IDs: (11)
-msgid "Status of item in Git"
-msgstr "Status of item in Git"
-
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
 msgstr "이분검색 중지"
+
+#. Resource IDs: (15)
+msgid ""
+"Stores the path of the file to be used for a diff on a later right-click. "
+"Hold down the Ctrl key to remove the last saved path."
+msgstr ""
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -9611,10 +9590,6 @@ msgid ""
 "It's not possible to show the log messages between them!"
 msgstr "선택된 두 URL은 같은 루트로부터 생성된것이 아닙니다.\n둘 간의 로그를 보는 것은 불가능합니다."
 
-#. Resource IDs: (16)
-msgid "The user who did the last commit"
-msgstr "마지막으로 커밋한 사용자"
-
 #. Resource IDs: (65535)
 msgid "Their file:"
 msgstr "저장소 파일:"
@@ -9979,10 +9954,6 @@ msgstr "URL and directory must not be empty at the same time."
 #. Resource IDs: (1272)
 msgid "URL history"
 msgstr "URL 기록"
-
-#. Resource IDs: (12)
-msgid "URL of Git items"
-msgstr "URL of Git items"
 
 #. Resource IDs: (65535)
 msgid "URL:"

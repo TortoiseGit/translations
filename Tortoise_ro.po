@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-10 17:35+0000\n"
+"PO-Revision-Date: 2013-12-14 12:22+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -3715,6 +3715,15 @@ msgstr "Vizualizator diferenţe::Unealtă de îmbinare"
 msgid "Diff file:"
 msgstr "Fişier de diferenţiere:"
 
+#. Resource IDs: (15)
+msgid "Diff later"
+msgstr ""
+
+#. Resource IDs: (15)
+#, c-format
+msgid "Diff with \"%s\""
+msgstr ""
+
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
@@ -4946,10 +4955,6 @@ msgstr "Se obţine diferenţierea unificată"
 msgid "Git"
 msgstr "Git"
 
-#. Resource IDs: (16)
-msgid "Git Author"
-msgstr "Autor Git"
-
 #. Resource IDs: (300)
 msgid "Git Command Progress"
 msgstr "Evoluţie comandă Git"
@@ -4998,10 +5003,6 @@ msgstr "Git-mută elementul (elementele) cu versiune aici"
 msgid "Git Remote Settings"
 msgstr "Preferinţe Git destinaţie"
 
-#. Resource IDs: (11)
-msgid "Git Revision"
-msgstr "Revizie git"
-
 #. Resource IDs: (1260)
 msgid "Git Revision List"
 msgstr "Listă revizii Git"
@@ -5014,17 +5015,9 @@ msgstr "Git SVN DCommit"
 msgid "Git SVN Rebase"
 msgstr "Reamplasare din SVN in Git"
 
-#. Resource IDs: (11)
-msgid "Git Status"
-msgstr "Stare Git"
-
 #. Resource IDs: (326)
 msgid "Git Synchronization"
 msgstr "Sincronizare Git"
-
-#. Resource IDs: (12)
-msgid "Git URL"
-msgstr "URL Git"
 
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
@@ -5053,10 +5046,6 @@ msgstr ""
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
 msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git short URL"
-msgstr "URL scurt Git"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5477,10 +5466,6 @@ msgstr "ISO 8859-9"
 msgid "Icon Overlays"
 msgstr "Suprapuneri de iconiţe"
 
-#. Resource IDs: (65535)
-msgid "Icon Overlays/Status Columns"
-msgstr "Suprapuneri de iconiţe/coloane de stare"
-
 #. Resource IDs: (184)
 msgid "Icon Overlays::Icon Set"
 msgstr "Suprapuneri de iconiţe::Set de iconiţe"
@@ -5862,10 +5847,6 @@ msgstr "Ultima modificare:"
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr "Ultima stare corectă ştiută:"
-
-#. Resource IDs: (11)
-msgid "Last saved revision of item"
-msgstr "Ultima revizie salvată a elementului"
 
 #. Resource IDs: (12)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -8511,10 +8492,6 @@ msgstr "Shift-JIS"
 msgid "Short &date/time format in log messages"
 msgstr "Foloseşte format prescurtat de &data/ora pentru mesaje din jurnal"
 
-#. Resource IDs: (12)
-msgid "Short URL of Git items"
-msgstr "URL scurt pentru elemente Git"
-
 #. Resource IDs: (1255)
 msgid "Shorten property list"
 msgstr "Scurtează lista de proprietăţi"
@@ -9013,13 +8990,15 @@ msgstr "Cache de stare ţinut într-un proces extern care detectează schimbări
 msgid "Status cache only for one folder, no recursive overlays"
 msgstr "Cache de stare pentr-un singur dosar, fără suprapuneri recursive"
 
-#. Resource IDs: (11)
-msgid "Status of item in Git"
-msgstr "Starea elementului în git"
-
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
 msgstr "Opreşte modul înjumătăţire"
+
+#. Resource IDs: (15)
+msgid ""
+"Stores the path of the file to be used for a diff on a later right-click. "
+"Hold down the Ctrl key to remove the last saved path."
+msgstr ""
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -9602,10 +9581,6 @@ msgid ""
 "It's not possible to show the log messages between them!"
 msgstr "Cele două URL-uri nu a fost create din aceeaşi rădăcină.\nNu se poate afişa mesajele din jurnal între acestea!"
 
-#. Resource IDs: (16)
-msgid "The user who did the last commit"
-msgstr "Utilizatorul care a facut ultima transmitere"
-
 #. Resource IDs: (65535)
 msgid "Their file:"
 msgstr "Fişierul lor:"
@@ -9970,10 +9945,6 @@ msgstr "URL-ul şi dosarul nu pot fi ambele nule în acelaşi timp."
 #. Resource IDs: (1272)
 msgid "URL history"
 msgstr "Istoric URL"
-
-#. Resource IDs: (12)
-msgid "URL of Git items"
-msgstr "URL pentru elemente git"
 
 #. Resource IDs: (65535)
 msgid "URL:"

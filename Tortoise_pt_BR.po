@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-10 17:35+0000\n"
+"PO-Revision-Date: 2013-12-14 12:22+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -3710,6 +3710,15 @@ msgstr "Visualizador de Diferenças::Ferramenta de Combinação"
 msgid "Diff file:"
 msgstr "Arquivo de comparação:"
 
+#. Resource IDs: (15)
+msgid "Diff later"
+msgstr ""
+
+#. Resource IDs: (15)
+#, c-format
+msgid "Diff with \"%s\""
+msgstr ""
+
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
@@ -4941,10 +4950,6 @@ msgstr "Obtendo  comparação unificada"
 msgid "Git"
 msgstr "Git"
 
-#. Resource IDs: (16)
-msgid "Git Author"
-msgstr "Autor Git"
-
 #. Resource IDs: (300)
 msgid "Git Command Progress"
 msgstr "Progresso do Comando Git"
@@ -4993,10 +4998,6 @@ msgstr "Mover itens versionados aqui com o Git"
 msgid "Git Remote Settings"
 msgstr "Configurações do Git Remoto"
 
-#. Resource IDs: (11)
-msgid "Git Revision"
-msgstr "Revisão Git"
-
 #. Resource IDs: (1260)
 msgid "Git Revision List"
 msgstr "Lista de Revisão Git"
@@ -5009,17 +5010,9 @@ msgstr "DCommit do Git SVN"
 msgid "Git SVN Rebase"
 msgstr "Reorganização do Git SVN"
 
-#. Resource IDs: (11)
-msgid "Git Status"
-msgstr "Status Git"
-
 #. Resource IDs: (326)
 msgid "Git Synchronization"
 msgstr "Sincronização Git"
-
-#. Resource IDs: (12)
-msgid "Git URL"
-msgstr "URL Git"
 
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
@@ -5048,10 +5041,6 @@ msgstr ""
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
 msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git short URL"
-msgstr "URL curta Git"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5472,10 +5461,6 @@ msgstr "ISO 8859-9"
 msgid "Icon Overlays"
 msgstr "Sobreposição de Ícones"
 
-#. Resource IDs: (65535)
-msgid "Icon Overlays/Status Columns"
-msgstr "Sobreposições de Ícones/Colunas de Estado"
-
 #. Resource IDs: (184)
 msgid "Icon Overlays::Icon Set"
 msgstr "Sobreposição de Ícones::Conjunto de Ícones"
@@ -5857,10 +5842,6 @@ msgstr "Última Modificação:"
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr "Ultimo &bom conhecido:"
-
-#. Resource IDs: (11)
-msgid "Last saved revision of item"
-msgstr "Última revisão salva do item"
 
 #. Resource IDs: (12)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -8506,10 +8487,6 @@ msgstr "Shift-JIS"
 msgid "Short &date/time format in log messages"
 msgstr "Formato curto de &data/hora no histórico"
 
-#. Resource IDs: (12)
-msgid "Short URL of Git items"
-msgstr "URL Curta de itens do Git"
-
 #. Resource IDs: (1255)
 msgid "Shorten property list"
 msgstr "Lista de propriedades reduzida"
@@ -9008,13 +8985,15 @@ msgstr "Cachê de estado mantido em um processo externo que detecta mudanças, p
 msgid "Status cache only for one folder, no recursive overlays"
 msgstr "Cache de status para apenas uma pasta, sem sobreposições recursivas"
 
-#. Resource IDs: (11)
-msgid "Status of item in Git"
-msgstr "Estado do item no Git"
-
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
 msgstr "Para o modo de bifurcação"
+
+#. Resource IDs: (15)
+msgid ""
+"Stores the path of the file to be used for a diff on a later right-click. "
+"Hold down the Ctrl key to remove the last saved path."
+msgstr ""
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -9597,10 +9576,6 @@ msgid ""
 "It's not possible to show the log messages between them!"
 msgstr "As duas URL's selecionadas não foram criadas a partir da mesma raiz.\nNão é possível exibir as mensagens de histórico entre elas!"
 
-#. Resource IDs: (16)
-msgid "The user who did the last commit"
-msgstr "O usuário que fez a útima submissão"
-
 #. Resource IDs: (65535)
 msgid "Their file:"
 msgstr "Arquivo deles:"
@@ -9965,10 +9940,6 @@ msgstr "URL e diretório não podem estar vazias ao mesmo tempo."
 #. Resource IDs: (1272)
 msgid "URL history"
 msgstr "Histórico de URLs"
-
-#. Resource IDs: (12)
-msgid "URL of Git items"
-msgstr "URL de items do Git"
 
 #. Resource IDs: (65535)
 msgid "URL:"

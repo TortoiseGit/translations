@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-10 17:35+0000\n"
+"PO-Revision-Date: 2013-12-14 12:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -3720,6 +3720,15 @@ msgstr ""
 msgid "Diff file:"
 msgstr "Karşılaştırma dosyası:"
 
+#. Resource IDs: (15)
+msgid "Diff later"
+msgstr ""
+
+#. Resource IDs: (15)
+#, c-format
+msgid "Diff with \"%s\""
+msgstr ""
+
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
@@ -4951,10 +4960,6 @@ msgstr "Birleştirilmiş karşılaştırma dosyası getiriliyor"
 msgid "Git"
 msgstr "Git"
 
-#. Resource IDs: (16)
-msgid "Git Author"
-msgstr "Git Yazarı"
-
 #. Resource IDs: (300)
 msgid "Git Command Progress"
 msgstr ""
@@ -5003,10 +5008,6 @@ msgstr "Git versiyonlanmış eleman(lar)ı buraya taşı"
 msgid "Git Remote Settings"
 msgstr ""
 
-#. Resource IDs: (11)
-msgid "Git Revision"
-msgstr "Git Revizyonu"
-
 #. Resource IDs: (1260)
 msgid "Git Revision List"
 msgstr ""
@@ -5019,17 +5020,9 @@ msgstr "Git SVN DCommit"
 msgid "Git SVN Rebase"
 msgstr "Git SVN Rebase"
 
-#. Resource IDs: (11)
-msgid "Git Status"
-msgstr "Git Durumu"
-
 #. Resource IDs: (326)
 msgid "Git Synchronization"
 msgstr "Git Eşleme"
-
-#. Resource IDs: (12)
-msgid "Git URL"
-msgstr "Git URL"
 
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
@@ -5058,10 +5051,6 @@ msgstr ""
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
 msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git short URL"
-msgstr "Git kısa URL"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5482,10 +5471,6 @@ msgstr "ISO 8859-9"
 msgid "Icon Overlays"
 msgstr "Simge Ayarları"
 
-#. Resource IDs: (65535)
-msgid "Icon Overlays/Status Columns"
-msgstr ""
-
 #. Resource IDs: (184)
 msgid "Icon Overlays::Icon Set"
 msgstr "Simge Ayarları::Simge Seti"
@@ -5867,10 +5852,6 @@ msgstr "Son Düzenleme:"
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr ""
-
-#. Resource IDs: (11)
-msgid "Last saved revision of item"
-msgstr "Öğenin son kayıtlı uyarlaması"
 
 #. Resource IDs: (12)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -8516,10 +8497,6 @@ msgstr "Shift-JIS"
 msgid "Short &date/time format in log messages"
 msgstr "Günlük mesajlarında kısaltılmış &Tarih/Zaman kullan"
 
-#. Resource IDs: (12)
-msgid "Short URL of Git items"
-msgstr "Git elemanlarının kısaltılmış URL'si"
-
 #. Resource IDs: (1255)
 msgid "Shorten property list"
 msgstr "Özellik listesini kısalt"
@@ -9018,13 +8995,15 @@ msgstr ""
 msgid "Status cache only for one folder, no recursive overlays"
 msgstr "Durum önbelleği sadece tek bir klasör için, özyineli işaretler yok "
 
-#. Resource IDs: (11)
-msgid "Status of item in Git"
-msgstr "Git öğe durumu"
-
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
 msgstr "İkiye bölünmüş kipten çık"
+
+#. Resource IDs: (15)
+msgid ""
+"Stores the path of the file to be used for a diff on a later right-click. "
+"Hold down the Ctrl key to remove the last saved path."
+msgstr ""
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -9607,10 +9586,6 @@ msgid ""
 "It's not possible to show the log messages between them!"
 msgstr "Seçili URL'ler aynı kökten(kaynaktan) yaratılmamıştır.\nAralarındaki Günlük mesajlarını göstermek mümkün değildir!"
 
-#. Resource IDs: (16)
-msgid "The user who did the last commit"
-msgstr "Son teslimi yapan kullanıcı"
-
 #. Resource IDs: (65535)
 msgid "Their file:"
 msgstr "Onların dosyası:"
@@ -9975,10 +9950,6 @@ msgstr ""
 #. Resource IDs: (1272)
 msgid "URL history"
 msgstr "URL Geçmişi"
-
-#. Resource IDs: (12)
-msgid "URL of Git items"
-msgstr "Git elemanlarının kısaltılmış URL'si"
 
 #. Resource IDs: (65535)
 msgid "URL:"

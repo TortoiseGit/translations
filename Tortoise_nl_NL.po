@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-10 17:35+0000\n"
+"PO-Revision-Date: 2013-12-14 12:22+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/tortoisegit/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
@@ -3722,6 +3722,15 @@ msgstr "Diff-viewer::Samenvoeg gereedschap"
 msgid "Diff file:"
 msgstr "Diff-bestand:"
 
+#. Resource IDs: (15)
+msgid "Diff later"
+msgstr ""
+
+#. Resource IDs: (15)
+#, c-format
+msgid "Diff with \"%s\""
+msgstr ""
+
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
@@ -4953,10 +4962,6 @@ msgstr "Unified diff ophalen..."
 msgid "Git"
 msgstr "Git"
 
-#. Resource IDs: (16)
-msgid "Git Author"
-msgstr "Git auteur"
-
 #. Resource IDs: (300)
 msgid "Git Command Progress"
 msgstr "Git Proces Voortgang"
@@ -5005,10 +5010,6 @@ msgstr ""
 msgid "Git Remote Settings"
 msgstr "Git Extern Archief Instellingen"
 
-#. Resource IDs: (11)
-msgid "Git Revision"
-msgstr "Git revisie"
-
 #. Resource IDs: (1260)
 msgid "Git Revision List"
 msgstr "Git Revisielijst"
@@ -5021,17 +5022,9 @@ msgstr ""
 msgid "Git SVN Rebase"
 msgstr ""
 
-#. Resource IDs: (11)
-msgid "Git Status"
-msgstr "Git status"
-
 #. Resource IDs: (326)
 msgid "Git Synchronization"
 msgstr "Git Synchronisatie"
-
-#. Resource IDs: (12)
-msgid "Git URL"
-msgstr "Git URL"
 
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
@@ -5060,10 +5053,6 @@ msgstr ""
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
 msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git short URL"
-msgstr "Git verkorte URL"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5484,10 +5473,6 @@ msgstr "ISO 8859-9"
 msgid "Icon Overlays"
 msgstr "Overlay iconen"
 
-#. Resource IDs: (65535)
-msgid "Icon Overlays/Status Columns"
-msgstr ""
-
 #. Resource IDs: (184)
 msgid "Icon Overlays::Icon Set"
 msgstr "Overlay iconen::Iconen set"
@@ -5869,10 +5854,6 @@ msgstr "Laatst Gewijzigd:"
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr "Laatst bekende &correct:"
-
-#. Resource IDs: (11)
-msgid "Last saved revision of item"
-msgstr "Laatst bewaarde revisie van het onderdeel"
 
 #. Resource IDs: (12)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -8518,10 +8499,6 @@ msgstr "Shift-JIS"
 msgid "Short &date/time format in log messages"
 msgstr "Verkorte &datum/tijd in logboek-boodschappen"
 
-#. Resource IDs: (12)
-msgid "Short URL of Git items"
-msgstr "Korte URL van Git items"
-
 #. Resource IDs: (1255)
 msgid "Shorten property list"
 msgstr "Verkort eigenschappen-lijst"
@@ -9020,13 +8997,15 @@ msgstr ""
 msgid "Status cache only for one folder, no recursive overlays"
 msgstr "Status cache alleen voor mappen; geen recursieve status"
 
-#. Resource IDs: (11)
-msgid "Status of item in Git"
-msgstr "Status van item in Git"
-
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
 msgstr "Stopt bisect modus"
+
+#. Resource IDs: (15)
+msgid ""
+"Stores the path of the file to be used for a diff on a later right-click. "
+"Hold down the Ctrl key to remove the last saved path."
+msgstr ""
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -9609,10 +9588,6 @@ msgid ""
 "It's not possible to show the log messages between them!"
 msgstr "De twee geselecteerde URLs zijn niet gebaseerd op dezelfde basis.\nHet is niet mogelijk om logboodschappen tussen deze twee te tonen!"
 
-#. Resource IDs: (16)
-msgid "The user who did the last commit"
-msgstr "De gebruiker die het laatst heeft vastgelegd"
-
 #. Resource IDs: (65535)
 msgid "Their file:"
 msgstr "Hun bestand:"
@@ -9977,10 +9952,6 @@ msgstr "URL en map mogen niet beiden leeg zijn."
 #. Resource IDs: (1272)
 msgid "URL history"
 msgstr "URL geschiedenis"
-
-#. Resource IDs: (12)
-msgid "URL of Git items"
-msgstr "URL van Git items"
 
 #. Resource IDs: (65535)
 msgid "URL:"

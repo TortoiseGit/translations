@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-10 17:35+0000\n"
+"PO-Revision-Date: 2013-12-14 12:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Serbian (Latin) (http://www.transifex.com/projects/p/tortoisegit/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
@@ -3712,6 +3712,15 @@ msgstr "Dif pregledač::alat stapanja"
 msgid "Diff file:"
 msgstr "Diff fajl:"
 
+#. Resource IDs: (15)
+msgid "Diff later"
+msgstr ""
+
+#. Resource IDs: (15)
+#, c-format
+msgid "Diff with \"%s\""
+msgstr ""
+
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
@@ -4943,10 +4952,6 @@ msgstr "Uzimanje popisa objedinjenih razlika"
 msgid "Git"
 msgstr "Git"
 
-#. Resource IDs: (16)
-msgid "Git Author"
-msgstr "Git Autor"
-
 #. Resource IDs: (300)
 msgid "Git Command Progress"
 msgstr ""
@@ -4995,10 +5000,6 @@ msgstr "Git Pomeri verzionisanu satvku(e) ovde"
 msgid "Git Remote Settings"
 msgstr ""
 
-#. Resource IDs: (11)
-msgid "Git Revision"
-msgstr "Git Revizija"
-
 #. Resource IDs: (1260)
 msgid "Git Revision List"
 msgstr ""
@@ -5011,17 +5012,9 @@ msgstr ""
 msgid "Git SVN Rebase"
 msgstr ""
 
-#. Resource IDs: (11)
-msgid "Git Status"
-msgstr "Git Status"
-
 #. Resource IDs: (326)
 msgid "Git Synchronization"
 msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git URL"
-msgstr "Git URL"
 
 #. Resource IDs: (297)
 msgid "Git clone - TortoiseGit"
@@ -5050,10 +5043,6 @@ msgstr ""
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
 msgstr ""
-
-#. Resource IDs: (12)
-msgid "Git short URL"
-msgstr "Git skraćeni URL"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5474,10 +5463,6 @@ msgstr "ISO 8859-9"
 msgid "Icon Overlays"
 msgstr "Prekrivne ikone"
 
-#. Resource IDs: (65535)
-msgid "Icon Overlays/Status Columns"
-msgstr ""
-
 #. Resource IDs: (184)
 msgid "Icon Overlays::Icon Set"
 msgstr "Prekrivne ikone::Skup ikona"
@@ -5859,10 +5844,6 @@ msgstr ""
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr ""
-
-#. Resource IDs: (11)
-msgid "Last saved revision of item"
-msgstr "Poslednja sačuvana revizija stavke"
 
 #. Resource IDs: (12)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -8508,10 +8489,6 @@ msgstr ""
 msgid "Short &date/time format in log messages"
 msgstr "Kratak oblik &datuma/vremena u dnevniku poruka"
 
-#. Resource IDs: (12)
-msgid "Short URL of Git items"
-msgstr ""
-
 #. Resource IDs: (1255)
 msgid "Shorten property list"
 msgstr "Aktiviraj listu zadataka"
@@ -9010,12 +8987,14 @@ msgstr ""
 msgid "Status cache only for one folder, no recursive overlays"
 msgstr "Status keš je samo za jedan folder, nema rekurzivnog prekrivanja"
 
-#. Resource IDs: (11)
-msgid "Status of item in Git"
-msgstr ""
-
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
+msgstr ""
+
+#. Resource IDs: (15)
+msgid ""
+"Stores the path of the file to be used for a diff on a later right-click. "
+"Hold down the Ctrl key to remove the last saved path."
 msgstr ""
 
 #. Resource IDs: (1)
@@ -9599,10 +9578,6 @@ msgid ""
 "It's not possible to show the log messages between them!"
 msgstr "Dva odabrana URL-a ne potiču od istog izvora.\nNije moguće prikazati njihove poruke dnevnika!"
 
-#. Resource IDs: (16)
-msgid "The user who did the last commit"
-msgstr "Korisnik koji je napravio zadnje urezivanja"
-
 #. Resource IDs: (65535)
 msgid "Their file:"
 msgstr "NJihov fajl:"
@@ -9967,10 +9942,6 @@ msgstr ""
 #. Resource IDs: (1272)
 msgid "URL history"
 msgstr "URL istorija"
-
-#. Resource IDs: (12)
-msgid "URL of Git items"
-msgstr ""
 
 #. Resource IDs: (65535)
 msgid "URL:"
