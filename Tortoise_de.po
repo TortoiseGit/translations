@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-14 12:29+0000\n"
+"PO-Revision-Date: 2013-12-15 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -762,7 +762,7 @@ msgstr "&Ignoriere %d Objekte nach Name"
 
 #. Resource IDs: (32786)
 msgid "&Ignore whitespace"
-msgstr ""
+msgstr "&Ignoriere Leerzeichenänderungen"
 
 #. Resource IDs: (16914)
 msgid "&Image"
@@ -3293,8 +3293,8 @@ msgstr "&Zählen"
 
 #. Resource IDs: (94)
 #, c-format
-msgid "Count: %d matches."
-msgstr "Anzahl: %d Treffer."
+msgid "Count: %u matches."
+msgstr "Anzahl: %u Treffer."
 
 #. Resource IDs: (1683)
 msgid "Create &Library"
@@ -3672,7 +3672,7 @@ msgstr "Erkenne verschobene und kopierte Zeilen aus existierenden Dateien einer 
 msgid ""
 "Detect moved and copied lines from existing files at the commit where the "
 "destination file has been created"
-msgstr ""
+msgstr "Erkenne verschobene und kopierte Zeilen aus existierenden Dateien in der Eintragung in der, die Datei erstellt wurde"
 
 #. Resource IDs: (2050)
 msgid "Detect moved and copied lines from files modified in the same commit"
@@ -5038,7 +5038,7 @@ msgstr "Git hat einen Fehler beim Erstellen der Arbeitsbaum gemeldet!\n"
 
 #. Resource IDs: (2050)
 msgid "Git revision list contains the complete file history"
-msgstr ""
+msgstr "Git Revisionsliste zeigt vollständige Dateihistorie"
 
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
@@ -8995,7 +8995,7 @@ msgstr "Stoppt den bisect Modus"
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
 "Hold down the Ctrl key to remove the last saved path."
-msgstr ""
+msgstr "Speichert den Pfad der Datei für einen späteren Vergleich per Rechtsklick. Halten Sie die Strg Taste gedrückt, um den letzten gespeicherten Pfad zu entfernen."
 
 #. Resource IDs: (1)
 msgid "Strategy"
