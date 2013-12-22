@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-22 02:09+0000\n"
-"Last-Translator: 鋰 乙酸 <ch3cooli@gmail.com>\n"
+"PO-Revision-Date: 2013-12-22 15:20+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -355,6 +355,10 @@ msgstr "增加(&A)"
 msgid "&Add >>"
 msgstr "增加(&A) >>"
 
+#. Resource IDs: (1505)
+msgid "&Add Filter"
+msgstr ""
+
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
 msgstr "增加/保存(&A)"
@@ -571,6 +575,10 @@ msgstr "刪除(&D)"
 msgid "&Delete (keep local)"
 msgstr "刪除並保留檔案(&D)"
 
+#. Resource IDs: (1507)
+msgid "&Delete Filter"
+msgstr ""
+
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
 msgstr "刪除遠端及本地(&D)"
@@ -630,6 +638,10 @@ msgstr "編輯(&E) .git/config"
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
 msgstr "編輯全部(&E)"
+
+#. Resource IDs: (1506)
+msgid "&Edit Filter"
+msgstr ""
 
 #. Resource IDs: (12)
 msgid "&Edit conflicts"
@@ -2398,12 +2410,6 @@ msgstr "取消\n不要離開 TortoiseGitMerge"
 #. Resource IDs: (315)
 msgid ""
 "Cancel\n"
-"Don't reload views"
-msgstr "取消\n不重新載入視窗"
-
-#. Resource IDs: (315)
-msgid ""
-"Cancel\n"
 "Don't switch the views"
 msgstr "取消\n不切換顯示"
 
@@ -2979,6 +2985,10 @@ msgstr "組態來源"
 msgid "Config type:"
 msgstr "組態類別："
 
+#. Resource IDs: (7)
+msgid "Configure Filter Regexes"
+msgstr ""
+
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
 msgstr "設定掛勾指令檔"
@@ -3229,20 +3239,8 @@ msgid ""
 msgstr "無法取得 %s 版本的 %s 檔案.\n無法進行補綴!"
 
 #. Resource IDs: (64)
-#, c-format
-msgid "Could not save the file %s!"
-msgstr "無法儲存檔案 %s!"
-
-#. Resource IDs: (64)
 msgid "Could not start TortoiseGitBlame"
 msgstr "無法啟動TortoiseGitBlame"
-
-#. Resource IDs: (70)
-#, c-format
-msgid ""
-"Could not start diff viewer!\n"
-"%s"
-msgstr "無法啟動差異檢視器!\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3271,13 +3269,6 @@ msgstr "無法啟動外部合併工具!\n\n%s"
 #. Resource IDs: (3857)
 msgid "Could not start print job."
 msgstr "無法啟動列印工作."
-
-#. Resource IDs: (83)
-#, c-format
-msgid ""
-"Could not start text viewer!\n"
-"%s"
-msgstr "無法啟動文字檢視器!\n%s"
 
 #. Resource IDs: (83)
 #, c-format
@@ -3918,10 +3909,6 @@ msgid ""
 "Note: you will lose all changes you've made!"
 msgstr "確定要重新載入文件以反映設定變更嗎?\n注意: 所有變更將不會儲存!"
 
-#. Resource IDs: (313)
-msgid "Do you want to save your changes?"
-msgstr "是否要儲存你所做的變動?"
-
 #. Resource IDs: (66)
 msgid "Do you want to see changes?"
 msgstr "要檢視變更嗎？"
@@ -3933,10 +3920,6 @@ msgstr "你現在想取出藏起嗎？"
 #. Resource IDs: (65535)
 msgid "Document :"
 msgstr "文件 :"
-
-#. Resource IDs: (564)
-msgid "Don't ask me again"
-msgstr "不要再問我"
 
 #. Resource IDs: (75)
 #, c-format
@@ -3968,10 +3951,6 @@ msgstr "不儲存\n不儲存變更直接重新載入顯示"
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
 msgstr "不再顯示此訊息"
-
-#. Resource IDs: (564)
-msgid "Don't tell me again"
-msgstr "不要再告訴我"
 
 #. Resource IDs: (66, 602)
 msgid "Done"
@@ -5552,6 +5531,10 @@ msgstr "忽略"
 msgid "Ignore %d items by &extension"
 msgstr "依副檔名忽略 %d 項(&E)"
 
+#. Resource IDs: (156)
+msgid "Ignore Comments"
+msgstr ""
+
 #. Resource IDs: (1692)
 msgid "Ignore File"
 msgstr "忽略檔案"
@@ -5559,10 +5542,6 @@ msgstr "忽略檔案"
 #. Resource IDs: (1686)
 msgid "Ignore Type"
 msgstr "忽略類別"
-
-#. Resource IDs: (564)
-msgid "Ignore all"
-msgstr "忽略所有空白字元"
 
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
@@ -6561,10 +6540,6 @@ msgstr "無狀態快取, 僅目錄有圖示, 檔案沒有."
 #. Resource IDs: (1253)
 msgid "No thesaurus suggestions"
 msgstr "沒有同義字建議"
-
-#. Resource IDs: (564)
-msgid "No to all"
-msgstr "全部皆否"
 
 #. Resource IDs: (65)
 msgid "No working directory found."
@@ -7567,6 +7542,18 @@ msgstr "重新整理"
 msgid "Refreshing..."
 msgstr "重新整理中..."
 
+#. Resource IDs: (32, 156, 165)
+msgid "Regex Filter"
+msgstr ""
+
+#. Resource IDs: (164)
+msgid "Regex Filters"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Regex:"
+msgstr ""
+
 #. Resource IDs: (117)
 msgid ""
 "Regular expressions filter:\r\n"
@@ -7679,6 +7666,12 @@ msgstr "移除分支(&B)"
 msgid "Remove &non-ignored untracked files (-f)"
 msgstr "移除非忽略的未追蹤檔案(-f)(&N)"
 
+#. Resource IDs: (2057)
+msgid ""
+"Remove all comments before doing the diff so changes inside comments don't "
+"show as different"
+msgstr ""
+
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
 msgstr "自忽略列表移除(&I)"
@@ -7765,13 +7758,13 @@ msgid ""
 "Replace"
 msgstr "用指定的文字取代特定文字\n取代"
 
+#. Resource IDs: (65535)
+msgid "Replace:"
+msgstr ""
+
 #. Resource IDs: (74)
 msgid "Replacing"
 msgstr "正在取代"
-
-#. Resource IDs: (564)
-msgid "Report"
-msgstr "報告"
 
 #. Resource IDs: (1618)
 msgid "Repository &URL"
@@ -8357,14 +8350,6 @@ msgstr "選擇合併工具"
 msgid "Select merge target"
 msgstr "選擇合併目標"
 
-#. Resource IDs: (13)
-msgid "Select patch file..."
-msgstr "選擇補綴檔..."
-
-#. Resource IDs: (79)
-msgid "Select text editor application"
-msgstr "選擇文字編輯工具"
-
 #. Resource IDs: (79)
 msgid ""
 "Select the behaviour of the progress dialog at the end of the operation."
@@ -8820,10 +8805,6 @@ msgstr "略過"
 msgid "Skip Patch: %s"
 msgstr "略過補綴: %s"
 
-#. Resource IDs: (564)
-msgid "Skip all"
-msgstr "略過全部"
-
 #. Resource IDs: (11029)
 msgid "Skip worktree"
 msgstr "跳過工作樹"
@@ -8843,6 +8824,10 @@ msgstr "已跳過的缺少目標"
 #. Resource IDs: (1070)
 msgid "Slide"
 msgstr "滑動"
+
+#. Resource IDs: (156)
+msgid "Smart tab char"
+msgstr ""
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -9244,8 +9229,8 @@ msgid "Tasks Pane"
 msgstr "工作面板"
 
 #. Resource IDs: (65535)
-msgid "Temp files"
-msgstr "暫時檔案"
+msgid "Temp files (including Gravatar images)"
+msgstr ""
 
 #. Resource IDs: (219)
 msgid "Test Only"
@@ -9272,11 +9257,6 @@ msgstr "分支 \"%s\" 是一個 <i>遠端</i>分支\n\n確定要<ct=0x0000FF>刪
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
 msgstr "區塊大小與加入/移除的行數不符!"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The chunk start '@@' was expected in line %d !"
-msgstr "區塊起始標記 '@@' 應該位於第 %d 行!"
 
 #. Resource IDs: (67)
 msgid "The commit message must not be empty."
@@ -9403,24 +9383,8 @@ msgstr "bug 追踪程式提供者無法檢驗參數的正確性"
 
 #. Resource IDs: (63)
 #, c-format
-msgid "The line '====' was expected in line %d !"
-msgstr "'====' 行應該出現在第 %d 行!"
-
-#. Resource IDs: (63)
-msgid ""
-"The line 'Index: ' was not found!\n"
-"Either this is not a diff file or the diff is empty."
-msgstr "找不到 'Index: ' 行!\n這可能不是差異檔, 或是沒有差異."
-
-#. Resource IDs: (63)
-#, c-format
 msgid "The line indicating the new file was expected in line %d !"
 msgstr "新檔案的標示行應該位於第 %d 行!"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The line indicating the old file was expected in line %d !"
-msgstr "舊檔案的標示行應該位於第 %d 行!"
 
 #. Resource IDs: (88)
 #, c-format
@@ -9449,12 +9413,6 @@ msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
 msgstr "行為紀錄的最大保留行數.\n超過上限的時候會從最舊的開始移除."
-
-#. Resource IDs: (63)
-msgid ""
-"The old file does not match the new file.\n"
-"Renaming of files is not (yet) supported!"
-msgstr "舊檔案與新檔案不符.\n尚不支援檔案改名功能!"
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -9493,28 +9451,6 @@ msgid ""
 "\n"
 "Do you want to proceed anyway?"
 msgstr "您輸入的路徑/URL在Windows上有錯誤!\n您可以照用, 但之後可能發生問題.\n\n檔案名稱中不可以包含下列字元 '<<>|\"?*:' 或是下列的裝置名稱:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n\n確定要繼續嗎?"
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge found the relative path\n"
-"%s\n"
-"which seems to match the directory you're applying the patch.\n"
-"\n"
-"Do you want to use the suggested path? Answering 'no' will quit TortoiseGitMerge."
-msgstr "補綴檔中的\n%s\n路徑不存在.\nTortoiseGitMerge找到的\n%s\n可能是正確的路徑. \n\n要改用找到的路徑嗎? 選擇 '否' 會結束 TortoiseGitMerge."
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge tried to apply the patch by stripping prefixes but no matching path could be found."
-msgstr "補綴檔中的路徑\n%s\n不存在.\nTortoiseGitMerge 嘗試找出相對路徑但是失敗了."
 
 #. Resource IDs: (314)
 #, c-format
@@ -9717,9 +9653,11 @@ msgstr "為了避免獲取錯誤的標籤，若這不是一個官方的遠端，
 
 #. Resource IDs: (606)
 msgid ""
-"To clear temporary files, you should ensure that no other TortoiseGit "
-"applications are running."
-msgstr "要清除暫時檔案，你應確定沒有其他的 TortoiseGit 應用程式在執行"
+"To clear temporary files, you should ensure that no other TortoiseGit applications are running.\n"
+"\n"
+"If you wish to completely clear Gravatar images,\n"
+"you may also need to clear Internet Explorer Temporary Internet Files."
+msgstr ""
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10227,6 +10165,10 @@ msgstr "使用正規表示式"
 msgid "Use right block"
 msgstr "使用右方區塊"
 
+#. Resource IDs: (156)
+msgid "Use spaces"
+msgstr ""
+
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
 msgstr "使用系統語系表示日期/時間"
@@ -10510,12 +10452,17 @@ msgid ""
 "automatically selected"
 msgstr "啟用時, 送交視窗中, 有版本控制的項目會自動被選取."
 
-#. Resource IDs: (316)
+#. Resource IDs: (2062)
 msgid ""
-"When resolving conflicts, you always have to save even if there is no "
-"conflict shown. TortoiseGitMerge can merge changes that Git can't and won't "
-"show a conflict for those!"
-msgstr "處理衝突時，就算沒有列出衝突也需要存檔。因為 TortoiseGitMerge 能夠自動合併某些 Git 不能處理的情況，但是不會顯示有衝突！"
+"When selected, Spaces will be used instead of tab\n"
+"Use spaces"
+msgstr ""
+
+#. Resource IDs: (2062)
+msgid ""
+"When selected, it tries to infer tab / spaces to use\n"
+"Smart tab char"
+msgstr ""
 
 #. Resource IDs: (604)
 msgid ""

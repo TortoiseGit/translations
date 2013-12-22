@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-16 19:48+0000\n"
+"PO-Revision-Date: 2013-12-22 15:20+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -358,6 +358,10 @@ msgstr "&Adaugă"
 msgid "&Add >>"
 msgstr "&Adaugă >>"
 
+#. Resource IDs: (1505)
+msgid "&Add Filter"
+msgstr ""
+
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
 msgstr "&Adauga nou/salvează"
@@ -574,6 +578,10 @@ msgstr "Ş&terge"
 msgid "&Delete (keep local)"
 msgstr "Ş&terge (păstrează local)"
 
+#. Resource IDs: (1507)
+msgid "&Delete Filter"
+msgstr ""
+
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
 msgstr "Şterge destinaţie && local"
@@ -633,6 +641,10 @@ msgstr "&Editează .git/config"
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
 msgstr "&Editează TOT"
+
+#. Resource IDs: (1506)
+msgid "&Edit Filter"
+msgstr ""
 
 #. Resource IDs: (12)
 msgid "&Edit conflicts"
@@ -2401,12 +2413,6 @@ msgstr ""
 #. Resource IDs: (315)
 msgid ""
 "Cancel\n"
-"Don't reload views"
-msgstr ""
-
-#. Resource IDs: (315)
-msgid ""
-"Cancel\n"
 "Don't switch the views"
 msgstr ""
 
@@ -2982,6 +2988,10 @@ msgstr ""
 msgid "Config type:"
 msgstr "Tip configurare:"
 
+#. Resource IDs: (7)
+msgid "Configure Filter Regexes"
+msgstr ""
+
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
 msgstr "Configurează scripturi hook"
@@ -3232,20 +3242,8 @@ msgid ""
 msgstr "Nu s-a putut obţine revizia %s a fişierului %s.⏎Peticirea nu este posibilă!"
 
 #. Resource IDs: (64)
-#, c-format
-msgid "Could not save the file %s!"
-msgstr "Fişierul %s nu a putut fi salvat!"
-
-#. Resource IDs: (64)
 msgid "Could not start TortoiseGitBlame"
 msgstr "Nu s-a putut porni TortoiseGitBlame"
-
-#. Resource IDs: (70)
-#, c-format
-msgid ""
-"Could not start diff viewer!\n"
-"%s"
-msgstr "Nu s-a putut porni vizualizatorul de diferenţiere!\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3274,13 +3272,6 @@ msgstr "Nu s-a putut porni programul extern de îmbinare!⏎ ⏎ %s"
 #. Resource IDs: (3857)
 msgid "Could not start print job."
 msgstr "Nu s-a putut porni sarcina de tipărire."
-
-#. Resource IDs: (83)
-#, c-format
-msgid ""
-"Could not start text viewer!\n"
-"%s"
-msgstr "Nu s-a putut porni vizualizatorul de text!\n%s"
 
 #. Resource IDs: (83)
 #, c-format
@@ -3921,10 +3912,6 @@ msgid ""
 "Note: you will lose all changes you've made!"
 msgstr "Doriţi să reîncărcaţi documentele pentru a reflecta modificările preferinţelor?\nNotiţă: veţi pierde toate modificările pe care le-aţi făcut!"
 
-#. Resource IDs: (313)
-msgid "Do you want to save your changes?"
-msgstr "Doriţi să salvaţi modificările?"
-
 #. Resource IDs: (66)
 msgid "Do you want to see changes?"
 msgstr "Doriţi să vedeţi modificările?"
@@ -3936,10 +3923,6 @@ msgstr "Doriţi să scoateţi din tainiţă acum?"
 #. Resource IDs: (65535)
 msgid "Document :"
 msgstr "Document :"
-
-#. Resource IDs: (564)
-msgid "Don't ask me again"
-msgstr "Nu mă întreba din nou"
 
 #. Resource IDs: (75)
 #, c-format
@@ -3971,10 +3954,6 @@ msgstr ""
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
 msgstr "Nu mai afişa mesajul acesta"
-
-#. Resource IDs: (564)
-msgid "Don't tell me again"
-msgstr "Nu-mi spune din nou"
 
 #. Resource IDs: (66, 602)
 msgid "Done"
@@ -5555,6 +5534,10 @@ msgstr "Ignoră"
 msgid "Ignore %d items by &extension"
 msgstr "Ignoră %d elemente după &extensie"
 
+#. Resource IDs: (156)
+msgid "Ignore Comments"
+msgstr ""
+
 #. Resource IDs: (1692)
 msgid "Ignore File"
 msgstr "Ignoră fişier"
@@ -5562,10 +5545,6 @@ msgstr "Ignoră fişier"
 #. Resource IDs: (1686)
 msgid "Ignore Type"
 msgstr "Ignoră tip"
-
-#. Resource IDs: (564)
-msgid "Ignore all"
-msgstr "Ignoră tot"
 
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
@@ -6564,10 +6543,6 @@ msgstr "Fără status prestocat. Doar dosarele cu versiune pot avea imagini supr
 #. Resource IDs: (1253)
 msgid "No thesaurus suggestions"
 msgstr "Nici o sugestie de sinonime"
-
-#. Resource IDs: (564)
-msgid "No to all"
-msgstr "Nu pentru toate"
 
 #. Resource IDs: (65)
 msgid "No working directory found."
@@ -7570,6 +7545,18 @@ msgstr "Reîmprospătează"
 msgid "Refreshing..."
 msgstr "Reîmprospătează..."
 
+#. Resource IDs: (32, 156, 165)
+msgid "Regex Filter"
+msgstr ""
+
+#. Resource IDs: (164)
+msgid "Regex Filters"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Regex:"
+msgstr ""
+
 #. Resource IDs: (117)
 msgid ""
 "Regular expressions filter:\r\n"
@@ -7682,6 +7669,12 @@ msgstr "Şterge ramura"
 msgid "Remove &non-ignored untracked files (-f)"
 msgstr "Şterge fişierele neurmărite care nu sunt ignorate (-f)"
 
+#. Resource IDs: (2057)
+msgid ""
+"Remove all comments before doing the diff so changes inside comments don't "
+"show as different"
+msgstr ""
+
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
 msgstr "Elimină de pe lista de &ignorări"
@@ -7768,13 +7761,13 @@ msgid ""
 "Replace"
 msgstr "Înlocuieşte textul specificat cu alt text\nÎnlocuieşte"
 
+#. Resource IDs: (65535)
+msgid "Replace:"
+msgstr ""
+
 #. Resource IDs: (74)
 msgid "Replacing"
 msgstr "Se înlocuieşte"
-
-#. Resource IDs: (564)
-msgid "Report"
-msgstr "Raport"
 
 #. Resource IDs: (1618)
 msgid "Repository &URL"
@@ -8360,14 +8353,6 @@ msgstr "Selectaţi aplicaţia de îmbinare"
 msgid "Select merge target"
 msgstr "Selectaţi destinaţia îmbinării"
 
-#. Resource IDs: (13)
-msgid "Select patch file..."
-msgstr "Selectează fișier petic..."
-
-#. Resource IDs: (79)
-msgid "Select text editor application"
-msgstr "Selectează aplicaţia de editare text"
-
 #. Resource IDs: (79)
 msgid ""
 "Select the behaviour of the progress dialog at the end of the operation."
@@ -8823,10 +8808,6 @@ msgstr "Omite"
 msgid "Skip Patch: %s"
 msgstr "Omite peticul: %s"
 
-#. Resource IDs: (564)
-msgid "Skip all"
-msgstr "Omite tot"
-
 #. Resource IDs: (11029)
 msgid "Skip worktree"
 msgstr "Omite structura de lucru"
@@ -8846,6 +8827,10 @@ msgstr "S-a omis destinaţia care lipseşte"
 #. Resource IDs: (1070)
 msgid "Slide"
 msgstr "Glisor"
+
+#. Resource IDs: (156)
+msgid "Smart tab char"
+msgstr ""
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -9247,8 +9232,8 @@ msgid "Tasks Pane"
 msgstr "Panou de sarcini"
 
 #. Resource IDs: (65535)
-msgid "Temp files"
-msgstr "Fişiere temporare"
+msgid "Temp files (including Gravatar images)"
+msgstr ""
 
 #. Resource IDs: (219)
 msgid "Test Only"
@@ -9275,11 +9260,6 @@ msgstr "Ramura  \"%s\" este o ramură <i>destinaţie</i>.⏎ ⏎ Chiar doriţi s
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
 msgstr "Mărimea de chunk nu s-a potrivit cu numărul de linii adăugate/eliminate!"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The chunk start '@@' was expected in line %d !"
-msgstr "Începutul de chunk '@@' s-a aşteptat în linia %d !"
 
 #. Resource IDs: (67)
 msgid "The commit message must not be empty."
@@ -9406,24 +9386,8 @@ msgstr "Furnizorul monitorului de probleme nu a putut valida textul parametrului
 
 #. Resource IDs: (63)
 #, c-format
-msgid "The line '====' was expected in line %d !"
-msgstr "Linia '====' a fost aşteptată în linia %d !"
-
-#. Resource IDs: (63)
-msgid ""
-"The line 'Index: ' was not found!\n"
-"Either this is not a diff file or the diff is empty."
-msgstr "Linia 'Index:' nu a fost găsită!\nSau acesta nu este un fişier de diferenţiere sau diferenţierea este goală."
-
-#. Resource IDs: (63)
-#, c-format
 msgid "The line indicating the new file was expected in line %d !"
 msgstr "Linia care indică fişierul nou a fost aşteptată în linia %d !"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The line indicating the old file was expected in line %d !"
-msgstr "Linia care indică fişierul vechi a fost aşteptată în linia %d !"
 
 #. Resource IDs: (88)
 #, c-format
@@ -9452,12 +9416,6 @@ msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
 msgstr "Numărul maxim de linii în jurnalul de acţiuni care vor fi păstrate.\nToate liniile adăugte peste aceasta limită vor elimina liniile cele mai vechi din fişier."
-
-#. Resource IDs: (63)
-msgid ""
-"The old file does not match the new file.\n"
-"Renaming of files is not (yet) supported!"
-msgstr "Fişierul vechi nu se potriveşte cu cel nou.\nRenumirea fişierelor nu este (încă) permisă!"
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -9496,28 +9454,6 @@ msgid ""
 "\n"
 "Do you want to proceed anyway?"
 msgstr "Se pare că URL-ul sau calea introdusă nu este validă în Windows!⏎Puteţi să continuaţi, dar s-ar putea să întâmpinaţi erori ulterior.⏎ ⏎O cale validă în Windows nu poate conţine '<<>|\"?*:' sau unul dintre următoarele nume de dispozitiv:⏎com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$⏎⏎Sigur doriţi să continuaţi?"
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge found the relative path\n"
-"%s\n"
-"which seems to match the directory you're applying the patch.\n"
-"\n"
-"Do you want to use the suggested path? Answering 'no' will quit TortoiseGitMerge."
-msgstr "Calea⏎ %s⏎ din fişierul petic nu există.⏎ TortoiseGitMerge a găsit calea relativă⏎ %s⏎ care pare a fi similară cu dosarul în care aplicaţi peticul.⏎ ⏎ Doriţi să folosiţi calea sugerată? Dacă răspundeţi nu se va ieşi din TortoiseGitMerge."
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge tried to apply the patch by stripping prefixes but no matching path could be found."
-msgstr "Calea⏎ %s⏎ din fişierul petic nu există.⏎ TortoiseGitMerge a încercat să aplice peticul prin tăierea prefixelor dar nu s-a găsit nicio cale potrivită."
 
 #. Resource IDs: (314)
 #, c-format
@@ -9720,9 +9656,11 @@ msgstr ""
 
 #. Resource IDs: (606)
 msgid ""
-"To clear temporary files, you should ensure that no other TortoiseGit "
-"applications are running."
-msgstr "Pentru a şterge fişierele temporare trebuie să vă asiguraţi că nu mai rulează niciun alt program TortoiseGit."
+"To clear temporary files, you should ensure that no other TortoiseGit applications are running.\n"
+"\n"
+"If you wish to completely clear Gravatar images,\n"
+"you may also need to clear Internet Explorer Temporary Internet Files."
+msgstr ""
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10230,6 +10168,10 @@ msgstr "Foloseşte expresie regulară"
 msgid "Use right block"
 msgstr "Folosește blocul din dreapta"
 
+#. Resource IDs: (156)
+msgid "Use spaces"
+msgstr ""
+
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
 msgstr "Foloseşte localizarea sistemului pentru data/ora"
@@ -10513,11 +10455,16 @@ msgid ""
 "automatically selected"
 msgstr "Când este activat, elementele cu versiune afişate în dialogul de transmitere sunt automat selectate"
 
-#. Resource IDs: (316)
+#. Resource IDs: (2062)
 msgid ""
-"When resolving conflicts, you always have to save even if there is no "
-"conflict shown. TortoiseGitMerge can merge changes that Git can't and won't "
-"show a conflict for those!"
+"When selected, Spaces will be used instead of tab\n"
+"Use spaces"
+msgstr ""
+
+#. Resource IDs: (2062)
+msgid ""
+"When selected, it tries to infer tab / spaces to use\n"
+"Smart tab char"
 msgstr ""
 
 #. Resource IDs: (604)

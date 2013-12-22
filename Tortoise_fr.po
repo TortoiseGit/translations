@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-16 19:48+0000\n"
+"PO-Revision-Date: 2013-12-22 15:20+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -361,6 +361,10 @@ msgstr "&Ajouter"
 msgid "&Add >>"
 msgstr "&Ajouter >>"
 
+#. Resource IDs: (1505)
+msgid "&Add Filter"
+msgstr ""
+
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
 msgstr "&Ajouter nouveau/Enregistrer"
@@ -577,6 +581,10 @@ msgstr "E&ffacer"
 msgid "&Delete (keep local)"
 msgstr "&Supprimer (conserver localement)"
 
+#. Resource IDs: (1507)
+msgid "&Delete Filter"
+msgstr ""
+
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
 msgstr "&Supprimer à distance et en local"
@@ -636,6 +644,10 @@ msgstr "&Editer .git/config"
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
 msgstr "&Editer TOUT"
+
+#. Resource IDs: (1506)
+msgid "&Edit Filter"
+msgstr ""
 
 #. Resource IDs: (12)
 msgid "&Edit conflicts"
@@ -2404,12 +2416,6 @@ msgstr "Annuler⏎\n ne pas quitter TortoiseGitMerge"
 #. Resource IDs: (315)
 msgid ""
 "Cancel\n"
-"Don't reload views"
-msgstr "Annuler⏎\n Ne pas recharger les vues"
-
-#. Resource IDs: (315)
-msgid ""
-"Cancel\n"
 "Don't switch the views"
 msgstr "Annuler⏎\n Ne pas basculer les vues"
 
@@ -2985,6 +2991,10 @@ msgstr "Source de configuration"
 msgid "Config type:"
 msgstr "Type de configuration:"
 
+#. Resource IDs: (7)
+msgid "Configure Filter Regexes"
+msgstr ""
+
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
 msgstr "Configurer les scripts hook"
@@ -3235,20 +3245,8 @@ msgid ""
 msgstr "Ne peut pas récupérer la révision %s du fichier %s.\nL'application du patch n'est pas possible !"
 
 #. Resource IDs: (64)
-#, c-format
-msgid "Could not save the file %s!"
-msgstr "Ne peut pas enregistrer le fichier %s !"
-
-#. Resource IDs: (64)
 msgid "Could not start TortoiseGitBlame"
 msgstr "Ne peut pas démarrer TortoiseGitBlame"
-
-#. Resource IDs: (70)
-#, c-format
-msgid ""
-"Could not start diff viewer!\n"
-"%s"
-msgstr "Impossible de démarrer l'afficheur de différence !\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3277,13 +3275,6 @@ msgstr "Impossible de démarrer le programme externe de fusion!\n\n%s"
 #. Resource IDs: (3857)
 msgid "Could not start print job."
 msgstr "Ne peut pas démarrer l'impression."
-
-#. Resource IDs: (83)
-#, c-format
-msgid ""
-"Could not start text viewer!\n"
-"%s"
-msgstr "Impossible de démarrer l'afficheur de texte !\n%s"
 
 #. Resource IDs: (83)
 #, c-format
@@ -3924,10 +3915,6 @@ msgid ""
 "Note: you will lose all changes you've made!"
 msgstr "Voulez-vous recharger le document pour tenir compte du changement des options ?\nNote : vous allez perdre vos dernières modifications !"
 
-#. Resource IDs: (313)
-msgid "Do you want to save your changes?"
-msgstr "Voulez-vous enregistrer vos modifications?"
-
 #. Resource IDs: (66)
 msgid "Do you want to see changes?"
 msgstr "Voulez-vous voir les modifications ?"
@@ -3939,10 +3926,6 @@ msgstr "Voulez-vous ouvrir la sauvegarde ?"
 #. Resource IDs: (65535)
 msgid "Document :"
 msgstr "Document :"
-
-#. Resource IDs: (564)
-msgid "Don't ask me again"
-msgstr "Ne pas redemander"
 
 #. Resource IDs: (75)
 #, c-format
@@ -3974,10 +3957,6 @@ msgstr "Ne pas sauver⏎\nRecharger les vues sans sauver les modifications"
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
 msgstr "Ne plus afficher ce message"
-
-#. Resource IDs: (564)
-msgid "Don't tell me again"
-msgstr "Ne pas me réavertir"
 
 #. Resource IDs: (66, 602)
 msgid "Done"
@@ -5558,6 +5537,10 @@ msgstr "Ignorer"
 msgid "Ignore %d items by &extension"
 msgstr "Ignorer %d éléments par &extension"
 
+#. Resource IDs: (156)
+msgid "Ignore Comments"
+msgstr ""
+
 #. Resource IDs: (1692)
 msgid "Ignore File"
 msgstr "Ignorer le fichier"
@@ -5565,10 +5548,6 @@ msgstr "Ignorer le fichier"
 #. Resource IDs: (1686)
 msgid "Ignore Type"
 msgstr "Ignorer le type"
-
-#. Resource IDs: (564)
-msgid "Ignore all"
-msgstr "Tout ignorer"
 
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
@@ -6567,10 +6546,6 @@ msgstr "Pas de cache du statut. Seuls les répertoires versionnés sont recouver
 #. Resource IDs: (1253)
 msgid "No thesaurus suggestions"
 msgstr "Aucune suggestion du thésaurus"
-
-#. Resource IDs: (564)
-msgid "No to all"
-msgstr "Non à tout"
 
 #. Resource IDs: (65)
 msgid "No working directory found."
@@ -7573,6 +7548,18 @@ msgstr "Rafraîchir"
 msgid "Refreshing..."
 msgstr "Rafraîchissement..."
 
+#. Resource IDs: (32, 156, 165)
+msgid "Regex Filter"
+msgstr ""
+
+#. Resource IDs: (164)
+msgid "Regex Filters"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Regex:"
+msgstr ""
+
 #. Resource IDs: (117)
 msgid ""
 "Regular expressions filter:\r\n"
@@ -7685,6 +7672,12 @@ msgstr "Supprimer la &branche"
 msgid "Remove &non-ignored untracked files (-f)"
 msgstr "Retirer les fichiers &non-ignorés et non pistés (-f)"
 
+#. Resource IDs: (2057)
+msgid ""
+"Remove all comments before doing the diff so changes inside comments don't "
+"show as different"
+msgstr ""
+
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
 msgstr "Retirer de la liste des &ignorés"
@@ -7771,13 +7764,13 @@ msgid ""
 "Replace"
 msgstr "Remplacer le texte par un autre\nRemplacer"
 
+#. Resource IDs: (65535)
+msgid "Replace:"
+msgstr ""
+
 #. Resource IDs: (74)
 msgid "Replacing"
 msgstr "Remplace"
-
-#. Resource IDs: (564)
-msgid "Report"
-msgstr "Rapport"
 
 #. Resource IDs: (1618)
 msgid "Repository &URL"
@@ -8363,14 +8356,6 @@ msgstr "Sélectionner l'application de fusion"
 msgid "Select merge target"
 msgstr "Sélectionner la cible de la fusion"
 
-#. Resource IDs: (13)
-msgid "Select patch file..."
-msgstr "Sélectionner le fichier de patch…"
-
-#. Resource IDs: (79)
-msgid "Select text editor application"
-msgstr "Choisir l'éditeur de texte"
-
 #. Resource IDs: (79)
 msgid ""
 "Select the behaviour of the progress dialog at the end of the operation."
@@ -8826,10 +8811,6 @@ msgstr "Passer"
 msgid "Skip Patch: %s"
 msgstr "Sauter le patch : %s"
 
-#. Resource IDs: (564)
-msgid "Skip all"
-msgstr "Tout passer"
-
 #. Resource IDs: (11029)
 msgid "Skip worktree"
 msgstr "Eviter l'arborescence de travail"
@@ -8849,6 +8830,10 @@ msgstr "Ignoré, cible absente "
 #. Resource IDs: (1070)
 msgid "Slide"
 msgstr "Glisser"
+
+#. Resource IDs: (156)
+msgid "Smart tab char"
+msgstr ""
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -9250,8 +9235,8 @@ msgid "Tasks Pane"
 msgstr "Panneau des Tâches"
 
 #. Resource IDs: (65535)
-msgid "Temp files"
-msgstr "Fichiers temporaires"
+msgid "Temp files (including Gravatar images)"
+msgstr ""
 
 #. Resource IDs: (219)
 msgid "Test Only"
@@ -9278,11 +9263,6 @@ msgstr "La branche \"%s\" est une branche <i>distante</i>.\n\nVoulez-vous vraime
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
 msgstr "La taille du marquage ne correspond pas aux lignes ajoutées/supprimées !"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The chunk start '@@' was expected in line %d !"
-msgstr "La chaîne '@@' était attendue à la ligne %d !"
 
 #. Resource IDs: (67)
 msgid "The commit message must not be empty."
@@ -9409,24 +9389,8 @@ msgstr "Le fournisseur du système de suivi des problèmes n'a pas été capable
 
 #. Resource IDs: (63)
 #, c-format
-msgid "The line '====' was expected in line %d !"
-msgstr "La ligne '====' était attendue à la ligne %d !"
-
-#. Resource IDs: (63)
-msgid ""
-"The line 'Index: ' was not found!\n"
-"Either this is not a diff file or the diff is empty."
-msgstr "La ligne 'Index: ' n'a pas été trouvée !\nSoit ce n'est pas un fichier diff ou le diff est vide."
-
-#. Resource IDs: (63)
-#, c-format
 msgid "The line indicating the new file was expected in line %d !"
 msgstr "La ligne indiquant le nouveau fichier était attendu à la ligne %d !"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The line indicating the old file was expected in line %d !"
-msgstr "La ligne indiquant l'ancien fichier était attendu à la ligne %d !"
 
 #. Resource IDs: (88)
 #, c-format
@@ -9455,12 +9419,6 @@ msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
 msgstr "Le nombre maximum de lignes dans le journal des actions à conserver.\nChaque ligne ajoutée au-dessus de cette limite supprimera la ligne la plus ancienne du fichier."
-
-#. Resource IDs: (63)
-msgid ""
-"The old file does not match the new file.\n"
-"Renaming of files is not (yet) supported!"
-msgstr "L'ancien fichier ne correspond pas au nouveau.\nRenommer les fichiers n'est pas (encore) supporté !"
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -9499,28 +9457,6 @@ msgid ""
 "\n"
 "Do you want to proceed anyway?"
 msgstr "Le chemin/URL que vous avez entré semble illégal sous Windows !\nVous pouvez quand même essayer, mais vous aurez peut-être une erreur plus tard.\n\nUn chemin valide sous windows ne doit pas contenir '<<>|\"?*:' ou l'un des noms de périphériques suivant :\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n\nVoulez-vous continuer malgré tout ?"
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge found the relative path\n"
-"%s\n"
-"which seems to match the directory you're applying the patch.\n"
-"\n"
-"Do you want to use the suggested path? Answering 'no' will quit TortoiseGitMerge."
-msgstr "Le chemin \n%s\ndans le fichier de patch n'existe pas.\nTortoiseGitMerge a trouvé le chemin relatif\n%s\nqui semble correspondre au dossier auquel vous appliquez le patch.\n\nVoulez-vous utiliser le chemin suggéré? Répondre \"non\" vous fera quitter TortoiseGitMerge."
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge tried to apply the patch by stripping prefixes but no matching path could be found."
-msgstr "Le chemin\n%s\ndans le fichier de patch n'existe pas.\nTortoiseGitMerge a essayé d'appliquer le patch en essayant des préfixes mais aucun chemin correspondant n'a pu être trouvé."
 
 #. Resource IDs: (314)
 #, c-format
@@ -9723,9 +9659,11 @@ msgstr "Pour éviter de chercher les mauvais tags, si ceci n'est pas un serveur 
 
 #. Resource IDs: (606)
 msgid ""
-"To clear temporary files, you should ensure that no other TortoiseGit "
-"applications are running."
-msgstr "Pour effacer les fichiers temporaires, vous devez vérifier que aucune autre application TortoiseGit est en cours d'éxécution."
+"To clear temporary files, you should ensure that no other TortoiseGit applications are running.\n"
+"\n"
+"If you wish to completely clear Gravatar images,\n"
+"you may also need to clear Internet Explorer Temporary Internet Files."
+msgstr ""
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10233,6 +10171,10 @@ msgstr "Utiliser les expressions régulières"
 msgid "Use right block"
 msgstr "Utiliser le bloc de droite"
 
+#. Resource IDs: (156)
+msgid "Use spaces"
+msgstr ""
+
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
 msgstr "Utiliser les réglages internationaux du système pour la date/l'heure"
@@ -10516,12 +10458,17 @@ msgid ""
 "automatically selected"
 msgstr "Si activé, les éléments versionnés listés dans la boîte de dialogue de livraison sont automatiquement sélectionnés."
 
-#. Resource IDs: (316)
+#. Resource IDs: (2062)
 msgid ""
-"When resolving conflicts, you always have to save even if there is no "
-"conflict shown. TortoiseGitMerge can merge changes that Git can't and won't "
-"show a conflict for those!"
-msgstr "Lors de la résolution de conflits, vous avez toujours à sauver même s'il n'y a pas de conflit montré. TortoiseGitMerge peut joindre les changements que Git ne peut en ne montrera pas pour ceux-ci! "
+"When selected, Spaces will be used instead of tab\n"
+"Use spaces"
+msgstr ""
+
+#. Resource IDs: (2062)
+msgid ""
+"When selected, it tries to infer tab / spaces to use\n"
+"Smart tab char"
+msgstr ""
 
 #. Resource IDs: (604)
 msgid ""

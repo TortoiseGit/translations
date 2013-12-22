@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-16 19:48+0000\n"
+"PO-Revision-Date: 2013-12-22 15:20+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -367,6 +367,10 @@ msgstr "추가(&A)"
 msgid "&Add >>"
 msgstr "추가(&A) >>"
 
+#. Resource IDs: (1505)
+msgid "&Add Filter"
+msgstr ""
+
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
 msgstr "추가하고 저장(&A)"
@@ -583,6 +587,10 @@ msgstr "삭제(&D)"
 msgid "&Delete (keep local)"
 msgstr "버전관리에서 제외(&D)"
 
+#. Resource IDs: (1507)
+msgid "&Delete Filter"
+msgstr ""
+
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
 msgstr "&Delete remote && local"
@@ -642,6 +650,10 @@ msgstr "&Edit .git/config"
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
 msgstr "모두 편집 (&E)"
+
+#. Resource IDs: (1506)
+msgid "&Edit Filter"
+msgstr ""
 
 #. Resource IDs: (12)
 msgid "&Edit conflicts"
@@ -2410,12 +2422,6 @@ msgstr "Cancel\nDon't quit TortoiseGitMerge"
 #. Resource IDs: (315)
 msgid ""
 "Cancel\n"
-"Don't reload views"
-msgstr "Cancel\nDon't reload views"
-
-#. Resource IDs: (315)
-msgid ""
-"Cancel\n"
 "Don't switch the views"
 msgstr "Cancel\nDon't switch the views"
 
@@ -2991,6 +2997,10 @@ msgstr "설정 저장 위치"
 msgid "Config type:"
 msgstr "Config type:"
 
+#. Resource IDs: (7)
+msgid "Configure Filter Regexes"
+msgstr ""
+
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
 msgstr "훅 스크립트 구성"
@@ -3241,20 +3251,8 @@ msgid ""
 msgstr "Could not retrieve revision %s of the file %s.\nPatching is not possible!"
 
 #. Resource IDs: (64)
-#, c-format
-msgid "Could not save the file %s!"
-msgstr "%s 파일을 저장할 수 없습니다!"
-
-#. Resource IDs: (64)
 msgid "Could not start TortoiseGitBlame"
 msgstr "TortoiseGitBlame을 실행할 수 없습니다"
-
-#. Resource IDs: (70)
-#, c-format
-msgid ""
-"Could not start diff viewer!\n"
-"%s"
-msgstr "차이점 보기 프로그램을 시작할 수 없습니다!\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3283,13 +3281,6 @@ msgstr "Could not start external merge program!\n\n%s"
 #. Resource IDs: (3857)
 msgid "Could not start print job."
 msgstr "프린트 작업을 시작할 수 없습니다."
-
-#. Resource IDs: (83)
-#, c-format
-msgid ""
-"Could not start text viewer!\n"
-"%s"
-msgstr "텍스트 뷰어를 시작할 수 없습니다!\n%s"
 
 #. Resource IDs: (83)
 #, c-format
@@ -3930,10 +3921,6 @@ msgid ""
 "Note: you will lose all changes you've made!"
 msgstr "다시 읽어들이시겠습니까?\n주의: 바뀐 설정 내용이 모두 사라집니다."
 
-#. Resource IDs: (313)
-msgid "Do you want to save your changes?"
-msgstr "바뀐 내용을 저장하시겠습니까?"
-
 #. Resource IDs: (66)
 msgid "Do you want to see changes?"
 msgstr "변경 사항을 보시겠습니까?"
@@ -3945,10 +3932,6 @@ msgstr "Do you want to stash pop now?"
 #. Resource IDs: (65535)
 msgid "Document :"
 msgstr "문서 :"
-
-#. Resource IDs: (564)
-msgid "Don't ask me again"
-msgstr "다시 묻지 않기"
 
 #. Resource IDs: (75)
 #, c-format
@@ -3980,10 +3963,6 @@ msgstr "Don't save\nReload the views without saving the modifications"
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
 msgstr "이 메시지를 다시 표시하지 않음"
-
-#. Resource IDs: (564)
-msgid "Don't tell me again"
-msgstr "다시 알리지 않음"
 
 #. Resource IDs: (66, 602)
 msgid "Done"
@@ -5564,6 +5543,10 @@ msgstr "무시"
 msgid "Ignore %d items by &extension"
 msgstr "확장자에 따라 %d 개 아이템을 무시하기(&E)"
 
+#. Resource IDs: (156)
+msgid "Ignore Comments"
+msgstr ""
+
 #. Resource IDs: (1692)
 msgid "Ignore File"
 msgstr "Ignore File"
@@ -5571,10 +5554,6 @@ msgstr "Ignore File"
 #. Resource IDs: (1686)
 msgid "Ignore Type"
 msgstr "Ignore Type"
-
-#. Resource IDs: (564)
-msgid "Ignore all"
-msgstr "모든것 무시하기"
 
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
@@ -6573,10 +6552,6 @@ msgstr "상태 캐시를 사용하지 않으며, 버전관리 대상인 폴더�
 #. Resource IDs: (1253)
 msgid "No thesaurus suggestions"
 msgstr "유의어 추천을 하지 않습니다."
-
-#. Resource IDs: (564)
-msgid "No to all"
-msgstr "전부 아니요"
 
 #. Resource IDs: (65)
 msgid "No working directory found."
@@ -7579,6 +7554,18 @@ msgstr "새로고침"
 msgid "Refreshing..."
 msgstr "Refreshing..."
 
+#. Resource IDs: (32, 156, 165)
+msgid "Regex Filter"
+msgstr ""
+
+#. Resource IDs: (164)
+msgid "Regex Filters"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Regex:"
+msgstr ""
+
 #. Resource IDs: (117)
 msgid ""
 "Regular expressions filter:\r\n"
@@ -7691,6 +7678,12 @@ msgstr "Remove &branch"
 msgid "Remove &non-ignored untracked files (-f)"
 msgstr "버전관리하지 않는 파일 중 무시목록에 없는 파일을 지우기 [-f] (&N)"
 
+#. Resource IDs: (2057)
+msgid ""
+"Remove all comments before doing the diff so changes inside comments don't "
+"show as different"
+msgstr ""
+
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
 msgstr "무시 목록에서 제거(&I)"
@@ -7777,13 +7770,13 @@ msgid ""
 "Replace"
 msgstr "특정 문자열을 다른 문자열로 치환\n치환"
 
+#. Resource IDs: (65535)
+msgid "Replace:"
+msgstr ""
+
 #. Resource IDs: (74)
 msgid "Replacing"
 msgstr "재배치"
-
-#. Resource IDs: (564)
-msgid "Report"
-msgstr "보고"
 
 #. Resource IDs: (1618)
 msgid "Repository &URL"
@@ -8369,14 +8362,6 @@ msgstr "병합 프로그램 선택"
 msgid "Select merge target"
 msgstr "병합 대상 선택"
 
-#. Resource IDs: (13)
-msgid "Select patch file..."
-msgstr "패치 파일 선택..."
-
-#. Resource IDs: (79)
-msgid "Select text editor application"
-msgstr "텍스트 에디터 프로그램 선택"
-
 #. Resource IDs: (79)
 msgid ""
 "Select the behaviour of the progress dialog at the end of the operation."
@@ -8832,10 +8817,6 @@ msgstr "생략"
 msgid "Skip Patch: %s"
 msgstr "Skip Patch: %s"
 
-#. Resource IDs: (564)
-msgid "Skip all"
-msgstr "모두 생략"
-
 #. Resource IDs: (11029)
 msgid "Skip worktree"
 msgstr "Skip worktree"
@@ -8855,6 +8836,10 @@ msgstr "없는 개체는 건너뜀"
 #. Resource IDs: (1070)
 msgid "Slide"
 msgstr "슬라이드"
+
+#. Resource IDs: (156)
+msgid "Smart tab char"
+msgstr ""
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -9256,8 +9241,8 @@ msgid "Tasks Pane"
 msgstr "작업 창"
 
 #. Resource IDs: (65535)
-msgid "Temp files"
-msgstr "임시 파일"
+msgid "Temp files (including Gravatar images)"
+msgstr ""
 
 #. Resource IDs: (219)
 msgid "Test Only"
@@ -9284,11 +9269,6 @@ msgstr "The branch \"%s\" is a <i>remote</i> branch.\n\nDo you really want to <c
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
 msgstr "chunk 크기가 추가/제거된 라인수와 일치하지 않습니다."
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The chunk start '@@' was expected in line %d !"
-msgstr "chunk의 시작인  '@@' 가 있어야합니다. 행 번호 %d !"
 
 #. Resource IDs: (67)
 msgid "The commit message must not be empty."
@@ -9415,24 +9395,8 @@ msgstr "이슈 트레커 프로바이더가 파라메터 스트링의 유효성�
 
 #. Resource IDs: (63)
 #, c-format
-msgid "The line '====' was expected in line %d !"
-msgstr "'====' 가 있어야 할 라인입니다. : 행 번호 %d !"
-
-#. Resource IDs: (63)
-msgid ""
-"The line 'Index: ' was not found!\n"
-"Either this is not a diff file or the diff is empty."
-msgstr "'Index: ' 라는 행이 없습니다!\n혹은 diff 파일이 아니거나 비어 있습니다."
-
-#. Resource IDs: (63)
-#, c-format
 msgid "The line indicating the new file was expected in line %d !"
 msgstr "새 파일을 지시하는 곳은 %d 행 입니다."
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The line indicating the old file was expected in line %d !"
-msgstr "이전 파일을 지시하는 곳은 %d 행 입니다."
 
 #. Resource IDs: (88)
 #, c-format
@@ -9461,12 +9425,6 @@ msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
 msgstr "명령 로그를 저장할 최대 개수\n가장 오래된 것부터 파일에서 제거 됩니다."
-
-#. Resource IDs: (63)
-msgid ""
-"The old file does not match the new file.\n"
-"Renaming of files is not (yet) supported!"
-msgstr "이전 파일이 새 파일과 맞지 않습니다.\n파일들의 이름을 바꾸는 것은 아직 지원하지 않습니다."
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -9505,28 +9463,6 @@ msgid ""
 "\n"
 "Do you want to proceed anyway?"
 msgstr "The path/URL you've entered seems to be illegal on Windows!\nYou can try it anyway, but you might get an error later.\n\nA valid path on windows must not contain '<<>|\"?*:' or one of the following device names:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n\nDo you want to proceed anyway?"
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge found the relative path\n"
-"%s\n"
-"which seems to match the directory you're applying the patch.\n"
-"\n"
-"Do you want to use the suggested path? Answering 'no' will quit TortoiseGitMerge."
-msgstr "The path\n%s\nin the patchfile does not exist.\nTortoiseGitMerge found the relative path\n%s\nwhich seems to match the directory you're applying the patch.\n\nDo you want to use the suggested path? Answering 'no' will quit TortoiseGitMerge."
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge tried to apply the patch by stripping prefixes but no matching path could be found."
-msgstr "패치 파일내의 경로\n%s\n이(가) 존재하지 않습니다.\nTortoiseGitMerge는 경로의 앞부분을 제거하고 시도하여 보았으나, 적절한 경로가 발견되지 않았습니다."
 
 #. Resource IDs: (314)
 #, c-format
@@ -9729,9 +9665,11 @@ msgstr "To avoid fetching wrong tags, if this is not an official remote,\nyou ar
 
 #. Resource IDs: (606)
 msgid ""
-"To clear temporary files, you should ensure that no other TortoiseGit "
-"applications are running."
-msgstr "To clear temporary files, you should ensure that no other TortoiseGit applications are running."
+"To clear temporary files, you should ensure that no other TortoiseGit applications are running.\n"
+"\n"
+"If you wish to completely clear Gravatar images,\n"
+"you may also need to clear Internet Explorer Temporary Internet Files."
+msgstr ""
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10239,6 +10177,10 @@ msgstr "정규표현식을 사용"
 msgid "Use right block"
 msgstr "Use right block"
 
+#. Resource IDs: (156)
+msgid "Use spaces"
+msgstr ""
+
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
 msgstr "날짜/시간을 위해 시스템 국가설정을 사용"
@@ -10522,12 +10464,17 @@ msgid ""
 "automatically selected"
 msgstr "체크해두면 버전관리 중인 파일은 커밋 대화상자에서 알아서 선택합니다"
 
-#. Resource IDs: (316)
+#. Resource IDs: (2062)
 msgid ""
-"When resolving conflicts, you always have to save even if there is no "
-"conflict shown. TortoiseGitMerge can merge changes that Git can't and won't "
-"show a conflict for those!"
-msgstr "When resolving conflicts, you always have to save even if there is no conflict shown. TortoiseGitMerge can merge changes that Git can't and won't show a conflict for those!"
+"When selected, Spaces will be used instead of tab\n"
+"Use spaces"
+msgstr ""
+
+#. Resource IDs: (2062)
+msgid ""
+"When selected, it tries to infer tab / spaces to use\n"
+"Smart tab char"
+msgstr ""
 
 #. Resource IDs: (604)
 msgid ""

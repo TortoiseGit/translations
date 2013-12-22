@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-16 19:48+0000\n"
+"PO-Revision-Date: 2013-12-22 15:20+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -356,6 +356,10 @@ msgstr "Hozzá&adás"
 msgid "&Add >>"
 msgstr "&Hozzáad >>"
 
+#. Resource IDs: (1505)
+msgid "&Add Filter"
+msgstr ""
+
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
 msgstr ""
@@ -572,6 +576,10 @@ msgstr "&Törlés"
 msgid "&Delete (keep local)"
 msgstr "&Törlés (helyi példány megtartása)"
 
+#. Resource IDs: (1507)
+msgid "&Delete Filter"
+msgstr ""
+
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
 msgstr ""
@@ -630,6 +638,10 @@ msgstr ""
 
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
+msgstr ""
+
+#. Resource IDs: (1506)
+msgid "&Edit Filter"
 msgstr ""
 
 #. Resource IDs: (12)
@@ -2399,12 +2411,6 @@ msgstr ""
 #. Resource IDs: (315)
 msgid ""
 "Cancel\n"
-"Don't reload views"
-msgstr ""
-
-#. Resource IDs: (315)
-msgid ""
-"Cancel\n"
 "Don't switch the views"
 msgstr ""
 
@@ -2980,6 +2986,10 @@ msgstr ""
 msgid "Config type:"
 msgstr ""
 
+#. Resource IDs: (7)
+msgid "Configure Filter Regexes"
+msgstr ""
+
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
 msgstr "Hook szkriptek beállítása"
@@ -3230,20 +3240,8 @@ msgid ""
 msgstr "Nem érhető el a(z) %s verziója a %s fájlnak.\nNem lehetséges a patch-elés!"
 
 #. Resource IDs: (64)
-#, c-format
-msgid "Could not save the file %s!"
-msgstr "Nem menthető a(z) %s fájl!"
-
-#. Resource IDs: (64)
 msgid "Could not start TortoiseGitBlame"
 msgstr ""
-
-#. Resource IDs: (70)
-#, c-format
-msgid ""
-"Could not start diff viewer!\n"
-"%s"
-msgstr "A diff megjelenítő nem indítható!\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3272,13 +3270,6 @@ msgstr ""
 #. Resource IDs: (3857)
 msgid "Could not start print job."
 msgstr "A nyomtatás nem sikerült."
-
-#. Resource IDs: (83)
-#, c-format
-msgid ""
-"Could not start text viewer!\n"
-"%s"
-msgstr "A szöveg-megjelenítőt nem sikerült elindítani!\n%s"
 
 #. Resource IDs: (83)
 #, c-format
@@ -3919,10 +3910,6 @@ msgid ""
 "Note: you will lose all changes you've made!"
 msgstr "Biztos hogy újratöltöd a dokumentumot?\nAz összes változtatásod el fog veszni!"
 
-#. Resource IDs: (313)
-msgid "Do you want to save your changes?"
-msgstr "El akarod menteni a változtatásaidat?"
-
 #. Resource IDs: (66)
 msgid "Do you want to see changes?"
 msgstr ""
@@ -3934,10 +3921,6 @@ msgstr ""
 #. Resource IDs: (65535)
 msgid "Document :"
 msgstr "Dokumentum :"
-
-#. Resource IDs: (564)
-msgid "Don't ask me again"
-msgstr ""
 
 #. Resource IDs: (75)
 #, c-format
@@ -3969,10 +3952,6 @@ msgstr ""
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
 msgstr "Ne mutassa többet ezt az üzenetet"
-
-#. Resource IDs: (564)
-msgid "Don't tell me again"
-msgstr ""
 
 #. Resource IDs: (66, 602)
 msgid "Done"
@@ -5553,16 +5532,16 @@ msgstr "Kihagyás"
 msgid "Ignore %d items by &extension"
 msgstr "%d fájl kizárása &kiterjesztés alapján"
 
+#. Resource IDs: (156)
+msgid "Ignore Comments"
+msgstr ""
+
 #. Resource IDs: (1692)
 msgid "Ignore File"
 msgstr ""
 
 #. Resource IDs: (1686)
 msgid "Ignore Type"
-msgstr ""
-
-#. Resource IDs: (564)
-msgid "Ignore all"
 msgstr ""
 
 #. Resource IDs: (156)
@@ -6562,10 +6541,6 @@ msgstr "Nem gyorsítótárazza az állapotokat. Csak a verziókezelt mappák kap
 #. Resource IDs: (1253)
 msgid "No thesaurus suggestions"
 msgstr "Nincs szinonima"
-
-#. Resource IDs: (564)
-msgid "No to all"
-msgstr ""
 
 #. Resource IDs: (65)
 msgid "No working directory found."
@@ -7568,6 +7543,18 @@ msgstr "Frissítés"
 msgid "Refreshing..."
 msgstr ""
 
+#. Resource IDs: (32, 156, 165)
+msgid "Regex Filter"
+msgstr ""
+
+#. Resource IDs: (164)
+msgid "Regex Filters"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Regex:"
+msgstr ""
+
 #. Resource IDs: (117)
 msgid ""
 "Regular expressions filter:\r\n"
@@ -7680,6 +7667,12 @@ msgstr ""
 msgid "Remove &non-ignored untracked files (-f)"
 msgstr ""
 
+#. Resource IDs: (2057)
+msgid ""
+"Remove all comments before doing the diff so changes inside comments don't "
+"show as different"
+msgstr ""
+
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
 msgstr "El&távolítás a kizárási listáról"
@@ -7766,13 +7759,13 @@ msgid ""
 "Replace"
 msgstr "Megadott szöveget egy másikra cserél\nCsere"
 
+#. Resource IDs: (65535)
+msgid "Replace:"
+msgstr ""
+
 #. Resource IDs: (74)
 msgid "Replacing"
 msgstr "Lecserélve"
-
-#. Resource IDs: (564)
-msgid "Report"
-msgstr ""
 
 #. Resource IDs: (1618)
 msgid "Repository &URL"
@@ -8358,14 +8351,6 @@ msgstr "Válassz egyesítő programot"
 msgid "Select merge target"
 msgstr "Válaszd ki az egyesítés célpontját"
 
-#. Resource IDs: (13)
-msgid "Select patch file..."
-msgstr ""
-
-#. Resource IDs: (79)
-msgid "Select text editor application"
-msgstr "Válassz szövegszerkesztő programot"
-
 #. Resource IDs: (79)
 msgid ""
 "Select the behaviour of the progress dialog at the end of the operation."
@@ -8821,10 +8806,6 @@ msgstr ""
 msgid "Skip Patch: %s"
 msgstr ""
 
-#. Resource IDs: (564)
-msgid "Skip all"
-msgstr ""
-
 #. Resource IDs: (11029)
 msgid "Skip worktree"
 msgstr ""
@@ -8843,6 +8824,10 @@ msgstr "Hiányzó cél kihagyva"
 
 #. Resource IDs: (1070)
 msgid "Slide"
+msgstr ""
+
+#. Resource IDs: (156)
+msgid "Smart tab char"
 msgstr ""
 
 #. Resource IDs: (89)
@@ -9245,7 +9230,7 @@ msgid "Tasks Pane"
 msgstr "Feladatlista"
 
 #. Resource IDs: (65535)
-msgid "Temp files"
+msgid "Temp files (including Gravatar images)"
 msgstr ""
 
 #. Resource IDs: (219)
@@ -9273,11 +9258,6 @@ msgstr ""
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
 msgstr "A darab mérete nem egyezik meg a hozzáadott/törölt sorok számával!"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The chunk start '@@' was expected in line %d !"
-msgstr "A %d. sorban új darab kezdetének \"@@\" kellene lennie!"
 
 #. Resource IDs: (67)
 msgid "The commit message must not be empty."
@@ -9404,24 +9384,8 @@ msgstr "A hibakövető-szolgáltató nem tudta ellenőrizni a paramétereket"
 
 #. Resource IDs: (63)
 #, c-format
-msgid "The line '====' was expected in line %d !"
-msgstr "A %d. sorban az \"====\" sornak kellene lennie!"
-
-#. Resource IDs: (63)
-msgid ""
-"The line 'Index: ' was not found!\n"
-"Either this is not a diff file or the diff is empty."
-msgstr "Az \"Index: \" sor nem található!\nA fájl nem diff fájl, vagy a diff üres."
-
-#. Resource IDs: (63)
-#, c-format
 msgid "The line indicating the new file was expected in line %d !"
 msgstr "A sor, amely az új fájlt jelöli, a(z) %d. sorban kellene lennie!"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The line indicating the old file was expected in line %d !"
-msgstr "A sor, amely a régi fájlt jelöli, a(z) %d. sorban kellene lennie!"
 
 #. Resource IDs: (88)
 #, c-format
@@ -9450,12 +9414,6 @@ msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
 msgstr "Legfeljebb ennyi sort tart meg az eseménynapló.\nHa ennél több sor kerül bele, a legrégebbi bejegyzéset törölve lesznek!"
-
-#. Resource IDs: (63)
-msgid ""
-"The old file does not match the new file.\n"
-"Renaming of files is not (yet) supported!"
-msgstr "A régi fájl nem egyezik meg az újjal.\nA fájlok átnevezése (még) nem támogatott!"
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -9494,28 +9452,6 @@ msgid ""
 "\n"
 "Do you want to proceed anyway?"
 msgstr "Az útvonal/URL hibásnak tűnik Windows alatt!\nMegpróbálhatod, de valószínűleg hibát fogsz kapni később.\n\nEgy útvonal nem tartalmazhatja az alábbi karaktereket: <<>|\"?*: és nem lehetnek az alábbi eszköznevek:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\nBiztosan folytatod?"
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge found the relative path\n"
-"%s\n"
-"which seems to match the directory you're applying the patch.\n"
-"\n"
-"Do you want to use the suggested path? Answering 'no' will quit TortoiseGitMerge."
-msgstr ""
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge tried to apply the patch by stripping prefixes but no matching path could be found."
-msgstr "A patch fájlban lévő\n%s\nútvonal nem létezik.\nA TortoiseGitMerge megpróbálta alkalmazni a patch-et az előtagok elhagyásával, de így sem talált megfelelő útvonalat."
 
 #. Resource IDs: (314)
 #, c-format
@@ -9718,8 +9654,10 @@ msgstr ""
 
 #. Resource IDs: (606)
 msgid ""
-"To clear temporary files, you should ensure that no other TortoiseGit "
-"applications are running."
+"To clear temporary files, you should ensure that no other TortoiseGit applications are running.\n"
+"\n"
+"If you wish to completely clear Gravatar images,\n"
+"you may also need to clear Internet Explorer Temporary Internet Files."
 msgstr ""
 
 #. Resource IDs: (1201, 65535)
@@ -10228,6 +10166,10 @@ msgstr "Regex használata"
 msgid "Use right block"
 msgstr ""
 
+#. Resource IDs: (156)
+msgid "Use spaces"
+msgstr ""
+
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
 msgstr "Rendszerbeállítás használata dátumhoz/időhőz"
@@ -10511,11 +10453,16 @@ msgid ""
 "automatically selected"
 msgstr "Ha be van jelölve, a beküldés ablakban automatikusan ki lesznek jelölve a verziókezelt fájlok"
 
-#. Resource IDs: (316)
+#. Resource IDs: (2062)
 msgid ""
-"When resolving conflicts, you always have to save even if there is no "
-"conflict shown. TortoiseGitMerge can merge changes that Git can't and won't "
-"show a conflict for those!"
+"When selected, Spaces will be used instead of tab\n"
+"Use spaces"
+msgstr ""
+
+#. Resource IDs: (2062)
+msgid ""
+"When selected, it tries to infer tab / spaces to use\n"
+"Smart tab char"
 msgstr ""
 
 #. Resource IDs: (604)

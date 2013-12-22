@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-16 19:48+0000\n"
+"PO-Revision-Date: 2013-12-22 15:20+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/tortoisegit/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -354,6 +354,10 @@ msgstr "&Thêm"
 msgid "&Add >>"
 msgstr "&Thêm >>"
 
+#. Resource IDs: (1505)
+msgid "&Add Filter"
+msgstr ""
+
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
 msgstr "&Thêm mới/Lưu"
@@ -570,6 +574,10 @@ msgstr "&Xóa"
 msgid "&Delete (keep local)"
 msgstr "&Xóa (giữ bản trên máy)"
 
+#. Resource IDs: (1507)
+msgid "&Delete Filter"
+msgstr ""
+
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
 msgstr "&Xóa phần từ xa && địa phương"
@@ -629,6 +637,10 @@ msgstr "&Chỉnh sửa .git/config"
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
 msgstr "&Chỉnh sửa TẤT CẢ"
+
+#. Resource IDs: (1506)
+msgid "&Edit Filter"
+msgstr ""
 
 #. Resource IDs: (12)
 msgid "&Edit conflicts"
@@ -2397,12 +2409,6 @@ msgstr ""
 #. Resource IDs: (315)
 msgid ""
 "Cancel\n"
-"Don't reload views"
-msgstr ""
-
-#. Resource IDs: (315)
-msgid ""
-"Cancel\n"
 "Don't switch the views"
 msgstr "Hủy bỏ\nĐừng chuyển chế độ xem"
 
@@ -2978,6 +2984,10 @@ msgstr ""
 msgid "Config type:"
 msgstr ""
 
+#. Resource IDs: (7)
+msgid "Configure Filter Regexes"
+msgstr ""
+
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
 msgstr "Cấu hình kịch bản móc"
@@ -3228,20 +3238,8 @@ msgid ""
 msgstr ""
 
 #. Resource IDs: (64)
-#, c-format
-msgid "Could not save the file %s!"
-msgstr "Không thể lưu tập tin %s!"
-
-#. Resource IDs: (64)
 msgid "Could not start TortoiseGitBlame"
 msgstr ""
-
-#. Resource IDs: (70)
-#, c-format
-msgid ""
-"Could not start diff viewer!\n"
-"%s"
-msgstr "Không thể chạy chương trình xem khác biệt!\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3270,13 +3268,6 @@ msgstr ""
 #. Resource IDs: (3857)
 msgid "Could not start print job."
 msgstr "Không thể bắt đầu công việc in ấn."
-
-#. Resource IDs: (83)
-#, c-format
-msgid ""
-"Could not start text viewer!\n"
-"%s"
-msgstr "Không thể bắt đầu chương trình xem văn bản!\n%s"
 
 #. Resource IDs: (83)
 #, c-format
@@ -3917,10 +3908,6 @@ msgid ""
 "Note: you will lose all changes you've made!"
 msgstr "Bạn có muốn tải lại các tài liệu để phản ánh các thay đổi trong thiết lập?\nGhi chú: bạn sẽ mất tất cả các thay đổi đã làm!"
 
-#. Resource IDs: (313)
-msgid "Do you want to save your changes?"
-msgstr "Bạn có muốn lưu các thay đổi của bạn?"
-
 #. Resource IDs: (66)
 msgid "Do you want to see changes?"
 msgstr ""
@@ -3932,10 +3919,6 @@ msgstr ""
 #. Resource IDs: (65535)
 msgid "Document :"
 msgstr "Tài liệu :"
-
-#. Resource IDs: (564)
-msgid "Don't ask me again"
-msgstr "Đừng hỏi tôi nữa"
 
 #. Resource IDs: (75)
 #, c-format
@@ -3967,10 +3950,6 @@ msgstr "Đừng lưu\nTải lại trình xem mà không lưu các sửa đổi"
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
 msgstr "Đừng hiện lại thông điệp này nữa"
-
-#. Resource IDs: (564)
-msgid "Don't tell me again"
-msgstr "Đừng nói cho tôi nữa"
 
 #. Resource IDs: (66, 602)
 msgid "Done"
@@ -5551,6 +5530,10 @@ msgstr "Bỏ qua"
 msgid "Ignore %d items by &extension"
 msgstr "Bỏ qua %d món bởi phần mở &rộng"
 
+#. Resource IDs: (156)
+msgid "Ignore Comments"
+msgstr ""
+
 #. Resource IDs: (1692)
 msgid "Ignore File"
 msgstr ""
@@ -5558,10 +5541,6 @@ msgstr ""
 #. Resource IDs: (1686)
 msgid "Ignore Type"
 msgstr ""
-
-#. Resource IDs: (564)
-msgid "Ignore all"
-msgstr "Bỏ qua tất cả"
 
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
@@ -6560,10 +6539,6 @@ msgstr "Không có trạng thái nào được lưu tạm. Chỉ có các thư m
 #. Resource IDs: (1253)
 msgid "No thesaurus suggestions"
 msgstr "Không có đề nghị nào từ bộ từ điển"
-
-#. Resource IDs: (564)
-msgid "No to all"
-msgstr "Không với tất cả"
 
 #. Resource IDs: (65)
 msgid "No working directory found."
@@ -7566,6 +7541,18 @@ msgstr "Làm mới"
 msgid "Refreshing..."
 msgstr ""
 
+#. Resource IDs: (32, 156, 165)
+msgid "Regex Filter"
+msgstr ""
+
+#. Resource IDs: (164)
+msgid "Regex Filters"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Regex:"
+msgstr ""
+
 #. Resource IDs: (117)
 msgid ""
 "Regular expressions filter:\r\n"
@@ -7678,6 +7665,12 @@ msgstr ""
 msgid "Remove &non-ignored untracked files (-f)"
 msgstr ""
 
+#. Resource IDs: (2057)
+msgid ""
+"Remove all comments before doing the diff so changes inside comments don't "
+"show as different"
+msgstr ""
+
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
 msgstr "Loại bỏ khỏi danh sách &bỏ qua"
@@ -7764,13 +7757,13 @@ msgid ""
 "Replace"
 msgstr "Thay thế văn bản được chỉ ra với văn bản khác\nThay thế"
 
+#. Resource IDs: (65535)
+msgid "Replace:"
+msgstr ""
+
 #. Resource IDs: (74)
 msgid "Replacing"
 msgstr "Đang thay thế"
-
-#. Resource IDs: (564)
-msgid "Report"
-msgstr "Báo cáo"
 
 #. Resource IDs: (1618)
 msgid "Repository &URL"
@@ -8356,14 +8349,6 @@ msgstr "Chọn ứng dụng hợp nhất"
 msgid "Select merge target"
 msgstr "Chọn đối tượng hợp nhất"
 
-#. Resource IDs: (13)
-msgid "Select patch file..."
-msgstr "Chọn tập tin vá..."
-
-#. Resource IDs: (79)
-msgid "Select text editor application"
-msgstr "Chọn ứng dụng biên tập văn bản"
-
 #. Resource IDs: (79)
 msgid ""
 "Select the behaviour of the progress dialog at the end of the operation."
@@ -8819,10 +8804,6 @@ msgstr "Bỏ qua"
 msgid "Skip Patch: %s"
 msgstr ""
 
-#. Resource IDs: (564)
-msgid "Skip all"
-msgstr "Bỏ qua tất cả"
-
 #. Resource IDs: (11029)
 msgid "Skip worktree"
 msgstr ""
@@ -8842,6 +8823,10 @@ msgstr "Bỏ qua đích bị thiếu"
 #. Resource IDs: (1070)
 msgid "Slide"
 msgstr "Trượt"
+
+#. Resource IDs: (156)
+msgid "Smart tab char"
+msgstr ""
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -9243,7 +9228,7 @@ msgid "Tasks Pane"
 msgstr "Bảng nhiệm vụ"
 
 #. Resource IDs: (65535)
-msgid "Temp files"
+msgid "Temp files (including Gravatar images)"
 msgstr ""
 
 #. Resource IDs: (219)
@@ -9271,11 +9256,6 @@ msgstr ""
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
 msgstr "Kích thước một mẩu không khớp số dòng được thêm/loại bỏ!"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The chunk start '@@' was expected in line %d !"
-msgstr "Mẩu bắt đầu bằng '@@' cần có trong dòng %d !"
 
 #. Resource IDs: (67)
 msgid "The commit message must not be empty."
@@ -9402,24 +9382,8 @@ msgstr "Bộ cung cấp theo dõi vấn đề không thể xác nhận được 
 
 #. Resource IDs: (63)
 #, c-format
-msgid "The line '====' was expected in line %d !"
-msgstr "Dòng '====' phải có trong dòng %d !"
-
-#. Resource IDs: (63)
-msgid ""
-"The line 'Index: ' was not found!\n"
-"Either this is not a diff file or the diff is empty."
-msgstr "Dòng 'Index: ' không tìm thấy!\nHoặc là đây không phải là một tập tin diff hoặc diff bị trống."
-
-#. Resource IDs: (63)
-#, c-format
 msgid "The line indicating the new file was expected in line %d !"
 msgstr "Dòng thể hiện tập tin mới phải có trong dòng %d !"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The line indicating the old file was expected in line %d !"
-msgstr "Dòng thể hiện tập tin cũ phải có trong dòng %d !"
 
 #. Resource IDs: (88)
 #, c-format
@@ -9448,12 +9412,6 @@ msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
 msgstr "Số tối đa các dòng tường trình hành động để giữ.\nBất kỳ dòng nào thêm vào quá giới hạn này sẽ loại bỏ dòng cũ nhất khỏi tập tin."
-
-#. Resource IDs: (63)
-msgid ""
-"The old file does not match the new file.\n"
-"Renaming of files is not (yet) supported!"
-msgstr "Tập tin cũ không khớp tập tin mới.\nĐổi tên các tập tin chưa được hỗ trợ!"
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -9492,28 +9450,6 @@ msgid ""
 "\n"
 "Do you want to proceed anyway?"
 msgstr "Đường dẫn/đường liên kết bạn điền vào có trạng thái không hợp lệ trong hệ điều hành Windows!\nBạn vẫn có thể thực hiện điều này, nhưng rồi sẽ nhận được một thông báo lỗi.\n\nMột đường dẫn được xem là hợp lệ trong hệ điều hành Windows không được phép chứa '<<>|\"?*:' hoặc một trong các tên thiết bị sau:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n\nBạn vẫn muốn tiếp tục?"
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge found the relative path\n"
-"%s\n"
-"which seems to match the directory you're applying the patch.\n"
-"\n"
-"Do you want to use the suggested path? Answering 'no' will quit TortoiseGitMerge."
-msgstr ""
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge tried to apply the patch by stripping prefixes but no matching path could be found."
-msgstr ""
 
 #. Resource IDs: (314)
 #, c-format
@@ -9716,8 +9652,10 @@ msgstr ""
 
 #. Resource IDs: (606)
 msgid ""
-"To clear temporary files, you should ensure that no other TortoiseGit "
-"applications are running."
+"To clear temporary files, you should ensure that no other TortoiseGit applications are running.\n"
+"\n"
+"If you wish to completely clear Gravatar images,\n"
+"you may also need to clear Internet Explorer Temporary Internet Files."
 msgstr ""
 
 #. Resource IDs: (1201, 65535)
@@ -10226,6 +10164,10 @@ msgstr "Dùng biểu thức thông thường"
 msgid "Use right block"
 msgstr ""
 
+#. Resource IDs: (156)
+msgid "Use spaces"
+msgstr ""
+
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
 msgstr "Dùng văn hóa hệ thống cho ngày/tháng"
@@ -10509,11 +10451,16 @@ msgid ""
 "automatically selected"
 msgstr "Khi được cho phép, các món được đánh phiên bản liệt kê trong hộp thoại cam kết sẽ tự động được lựa chọn"
 
-#. Resource IDs: (316)
+#. Resource IDs: (2062)
 msgid ""
-"When resolving conflicts, you always have to save even if there is no "
-"conflict shown. TortoiseGitMerge can merge changes that Git can't and won't "
-"show a conflict for those!"
+"When selected, Spaces will be used instead of tab\n"
+"Use spaces"
+msgstr ""
+
+#. Resource IDs: (2062)
+msgid ""
+"When selected, it tries to infer tab / spaces to use\n"
+"Smart tab char"
 msgstr ""
 
 #. Resource IDs: (604)

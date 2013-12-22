@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-16 19:48+0000\n"
+"PO-Revision-Date: 2013-12-22 15:20+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -357,6 +357,10 @@ msgstr "追加(&A)"
 msgid "&Add >>"
 msgstr "追加(&A) >>"
 
+#. Resource IDs: (1505)
+msgid "&Add Filter"
+msgstr ""
+
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
 msgstr "新規に追加/保存(&A)"
@@ -573,6 +577,10 @@ msgstr "削除(&D)"
 msgid "&Delete (keep local)"
 msgstr "削除(ローカルを保持）(&D)"
 
+#. Resource IDs: (1507)
+msgid "&Delete Filter"
+msgstr ""
+
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
 msgstr "ローカル、リモート共に削除(&D)"
@@ -632,6 +640,10 @@ msgstr "ローカルリポジトリの設定を編集(&E)"
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
 msgstr "全て編集(&E)"
+
+#. Resource IDs: (1506)
+msgid "&Edit Filter"
+msgstr ""
 
 #. Resource IDs: (12)
 msgid "&Edit conflicts"
@@ -2400,12 +2412,6 @@ msgstr "キャンセル\nTortoiseGitMergeを終了しない"
 #. Resource IDs: (315)
 msgid ""
 "Cancel\n"
-"Don't reload views"
-msgstr "キャンセル\nビューを再読み込みしない"
-
-#. Resource IDs: (315)
-msgid ""
-"Cancel\n"
 "Don't switch the views"
 msgstr "キャンセル\nビューを切り替えない"
 
@@ -2981,6 +2987,10 @@ msgstr "設定のでどころ"
 msgid "Config type:"
 msgstr "設定タイプ:"
 
+#. Resource IDs: (7)
+msgid "Configure Filter Regexes"
+msgstr ""
+
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
 msgstr "フックスクリプトの設定"
@@ -3231,20 +3241,8 @@ msgid ""
 msgstr "リビジョン %s のファイル %s が取得出来ませんでした。\nパッチを適用することが出来ません。"
 
 #. Resource IDs: (64)
-#, c-format
-msgid "Could not save the file %s!"
-msgstr "ファイル %s を保存できません。"
-
-#. Resource IDs: (64)
 msgid "Could not start TortoiseGitBlame"
 msgstr "TortoiseGitBlame　を起動できません"
-
-#. Resource IDs: (70)
-#, c-format
-msgid ""
-"Could not start diff viewer!\n"
-"%s"
-msgstr "差分ビュアーを起動できません!\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3273,13 +3271,6 @@ msgstr "外部マージプログラムを起動出来ませんでした。\n\n%s
 #. Resource IDs: (3857)
 msgid "Could not start print job."
 msgstr "印刷ジョブを開始できません。"
-
-#. Resource IDs: (83)
-#, c-format
-msgid ""
-"Could not start text viewer!\n"
-"%s"
-msgstr "テキストビュアーを起動できません!\n%s"
 
 #. Resource IDs: (83)
 #, c-format
@@ -3920,10 +3911,6 @@ msgid ""
 "Note: you will lose all changes you've made!"
 msgstr "設定を反映するためにドキュメントを再読込しますか？\n【注意】全ての変更が失われます。"
 
-#. Resource IDs: (313)
-msgid "Do you want to save your changes?"
-msgstr "変更を保存しますか？"
-
 #. Resource IDs: (66)
 msgid "Do you want to see changes?"
 msgstr "変更点を表示しますか？"
@@ -3935,10 +3922,6 @@ msgstr "スタッシュに保存した変更を復元しますか？"
 #. Resource IDs: (65535)
 msgid "Document :"
 msgstr "ドキュメント:"
-
-#. Resource IDs: (564)
-msgid "Don't ask me again"
-msgstr "再度問合せしない"
 
 #. Resource IDs: (75)
 #, c-format
@@ -3970,10 +3953,6 @@ msgstr "保存しない\n変更点を保存しないでビューを再読込"
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
 msgstr "このメッセージを再び表示しない"
-
-#. Resource IDs: (564)
-msgid "Don't tell me again"
-msgstr "再度通知しない"
 
 #. Resource IDs: (66, 602)
 msgid "Done"
@@ -5554,6 +5533,10 @@ msgstr "無視"
 msgid "Ignore %d items by &extension"
 msgstr "拡張子によって %d 個の項目を無視する(&E)"
 
+#. Resource IDs: (156)
+msgid "Ignore Comments"
+msgstr ""
+
 #. Resource IDs: (1692)
 msgid "Ignore File"
 msgstr "無視ファイル"
@@ -5561,10 +5544,6 @@ msgstr "無視ファイル"
 #. Resource IDs: (1686)
 msgid "Ignore Type"
 msgstr "無視タイプ"
-
-#. Resource IDs: (564)
-msgid "Ignore all"
-msgstr "全て無視"
 
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
@@ -6563,10 +6542,6 @@ msgstr "状態をキャッシュしません。バージョン管理されたフ
 #. Resource IDs: (1253)
 msgid "No thesaurus suggestions"
 msgstr "シソーラスからの提案はありません"
-
-#. Resource IDs: (564)
-msgid "No to all"
-msgstr "全ていいえ"
 
 #. Resource IDs: (65)
 msgid "No working directory found."
@@ -7569,6 +7544,18 @@ msgstr "最新に更新"
 msgid "Refreshing..."
 msgstr "更新中"
 
+#. Resource IDs: (32, 156, 165)
+msgid "Regex Filter"
+msgstr ""
+
+#. Resource IDs: (164)
+msgid "Regex Filters"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Regex:"
+msgstr ""
+
 #. Resource IDs: (117)
 msgid ""
 "Regular expressions filter:\r\n"
@@ -7681,6 +7668,12 @@ msgstr "ブランチを削除(&B)"
 msgid "Remove &non-ignored untracked files (-f)"
 msgstr "無視リストにない、バージョン管理外のファイルを削除 (-f) (&A)"
 
+#. Resource IDs: (2057)
+msgid ""
+"Remove all comments before doing the diff so changes inside comments don't "
+"show as different"
+msgstr ""
+
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
 msgstr "無視リストから削除(&I)"
@@ -7767,13 +7760,13 @@ msgid ""
 "Replace"
 msgstr "指定された文字列を、他の文字列に置き換える\n置換"
 
+#. Resource IDs: (65535)
+msgid "Replace:"
+msgstr ""
+
 #. Resource IDs: (74)
 msgid "Replacing"
 msgstr "置換"
-
-#. Resource IDs: (564)
-msgid "Report"
-msgstr "レポート"
 
 #. Resource IDs: (1618)
 msgid "Repository &URL"
@@ -8359,14 +8352,6 @@ msgstr "マージ用アプリケーションを選択"
 msgid "Select merge target"
 msgstr "マージするターゲットを選択"
 
-#. Resource IDs: (13)
-msgid "Select patch file..."
-msgstr "パッチファイルの選択..."
-
-#. Resource IDs: (79)
-msgid "Select text editor application"
-msgstr "テキストエディタを選択"
-
 #. Resource IDs: (79)
 msgid ""
 "Select the behaviour of the progress dialog at the end of the operation."
@@ -8822,10 +8807,6 @@ msgstr "スキップ"
 msgid "Skip Patch: %s"
 msgstr "パッチをスキップ: %s"
 
-#. Resource IDs: (564)
-msgid "Skip all"
-msgstr "全てスキップ"
-
 #. Resource IDs: (11029)
 msgid "Skip worktree"
 msgstr "作業ツリーの代わりにindexを使用 (skip-worktree)"
@@ -8845,6 +8826,10 @@ msgstr "ターゲットが見つからないのでスキップ"
 #. Resource IDs: (1070)
 msgid "Slide"
 msgstr "スライド"
+
+#. Resource IDs: (156)
+msgid "Smart tab char"
+msgstr ""
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -9246,8 +9231,8 @@ msgid "Tasks Pane"
 msgstr "タスク領域"
 
 #. Resource IDs: (65535)
-msgid "Temp files"
-msgstr "一時ファイル"
+msgid "Temp files (including Gravatar images)"
+msgstr ""
 
 #. Resource IDs: (219)
 msgid "Test Only"
@@ -9274,11 +9259,6 @@ msgstr "\"%s\" は <i>リモート</i>ブランチです。\n\n<ct=0x0000FF>削�
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
 msgstr "チャンクサイズが追加・削除された行数と合いませんでした。"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The chunk start '@@' was expected in line %d !"
-msgstr "チャンクの開始 '@@'が%d 行目にありません!"
 
 #. Resource IDs: (67)
 msgid "The commit message must not be empty."
@@ -9405,24 +9385,8 @@ msgstr "課題追跡システムのプロバイダーは、パラメーター文
 
 #. Resource IDs: (63)
 #, c-format
-msgid "The line '====' was expected in line %d !"
-msgstr "「====」行は%d行目にあると思われます。"
-
-#. Resource IDs: (63)
-msgid ""
-"The line 'Index: ' was not found!\n"
-"Either this is not a diff file or the diff is empty."
-msgstr "「Index:」行が見つかりませんでした。\n差分ファイルではないか、差分が存在しないかのどちらかです。"
-
-#. Resource IDs: (63)
-#, c-format
 msgid "The line indicating the new file was expected in line %d !"
 msgstr "新しいファイルを示している行は、%d行目だと思われます。"
-
-#. Resource IDs: (63)
-#, c-format
-msgid "The line indicating the old file was expected in line %d !"
-msgstr "古いファイルを示している行は、%d行目だと思われます。"
 
 #. Resource IDs: (88)
 #, c-format
@@ -9451,12 +9415,6 @@ msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
 msgstr "アクションログ内で保持する最大の行数。\nこの行数を超えて追加された場合は、古い行から順に削除されます。"
-
-#. Resource IDs: (63)
-msgid ""
-"The old file does not match the new file.\n"
-"Renaming of files is not (yet) supported!"
-msgstr "古いファイルは新しいファイルとマッチしません。\nファイルの名前を変更する機能は（まだ）サポートしていません。"
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -9495,28 +9453,6 @@ msgid ""
 "\n"
 "Do you want to proceed anyway?"
 msgstr "このパスや URL は、 Windows では不正です。\nこのまま続行すると、後でエラーが発生するかもしれません。\n\nWindows では、パスに「<>|\"?*:」のいずれかの文字や、次のデバイス名を含めることはできません。\ncom1～com9、lpt1～lpt9、prn、aux、con、nul、clock$\n\n続行してもよろしいですか？"
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge found the relative path\n"
-"%s\n"
-"which seems to match the directory you're applying the patch.\n"
-"\n"
-"Do you want to use the suggested path? Answering 'no' will quit TortoiseGitMerge."
-msgstr "パッチファイルのパス\n%s\nが、ありません。\nTortoiseGitMerge が以下の似たパスを見つけました。\n%s\nこのディレクトリは、パッチを当てようとしているパスより適切そうです。\n\nこちらのパスを使用しますか？ 'no' の場合には TortoiseGitMerge を終了します。"
-
-#. Resource IDs: (314)
-#, c-format
-msgid ""
-"The path\n"
-"%s\n"
-"in the patchfile does not exist.\n"
-"TortoiseGitMerge tried to apply the patch by stripping prefixes but no matching path could be found."
-msgstr "パッチファイルのパス\n%s\nが、ありません。\nTortoiseGitMerge は、パス前方を取り除いて適用しようとしましたが、適合するパスが見つかりませんでした。"
 
 #. Resource IDs: (314)
 #, c-format
@@ -9719,9 +9655,11 @@ msgstr "もしこれが公式なリモートではないなら、不適切なタ
 
 #. Resource IDs: (606)
 msgid ""
-"To clear temporary files, you should ensure that no other TortoiseGit "
-"applications are running."
-msgstr "一時ファイルを削除するには、その他のTortoiseGitアプリケーションが動いていないことが必要です。"
+"To clear temporary files, you should ensure that no other TortoiseGit applications are running.\n"
+"\n"
+"If you wish to completely clear Gravatar images,\n"
+"you may also need to clear Internet Explorer Temporary Internet Files."
+msgstr ""
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10229,6 +10167,10 @@ msgstr "正規表現を使用する"
 msgid "Use right block"
 msgstr "右ブロックを使用"
 
+#. Resource IDs: (156)
+msgid "Use spaces"
+msgstr ""
+
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
 msgstr "日付/時刻にシステムロケールを使用する"
@@ -10512,12 +10454,17 @@ msgid ""
 "automatically selected"
 msgstr "有効にすると、コミットダイアログに表示されるバージョン管理中の項目が自動的に選択されるようになります。"
 
-#. Resource IDs: (316)
+#. Resource IDs: (2062)
 msgid ""
-"When resolving conflicts, you always have to save even if there is no "
-"conflict shown. TortoiseGitMerge can merge changes that Git can't and won't "
-"show a conflict for those!"
-msgstr "コンフリクトを解決する時には、コンフリクトが表示されていなかったとしても常に保存しなければなりません。TortoiseGitMerge では、GITで表示されない/できないコンフリクトでも、マージすることが可能です。"
+"When selected, Spaces will be used instead of tab\n"
+"Use spaces"
+msgstr ""
+
+#. Resource IDs: (2062)
+msgid ""
+"When selected, it tries to infer tab / spaces to use\n"
+"Smart tab char"
+msgstr ""
 
 #. Resource IDs: (604)
 msgid ""
