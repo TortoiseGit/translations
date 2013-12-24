@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-22 15:20+0000\n"
+"PO-Revision-Date: 2013-12-24 01:52+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -357,7 +357,7 @@ msgstr "&Hinzufügen >>"
 
 #. Resource IDs: (1505)
 msgid "&Add Filter"
-msgstr ""
+msgstr "Filter &hinzufügen"
 
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
@@ -577,7 +577,7 @@ msgstr "&Löschen (lokal erhalten)"
 
 #. Resource IDs: (1507)
 msgid "&Delete Filter"
-msgstr ""
+msgstr "Filter lö&schen"
 
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
@@ -641,7 +641,7 @@ msgstr "ALLE &bearbeiten"
 
 #. Resource IDs: (1506)
 msgid "&Edit Filter"
-msgstr ""
+msgstr "Filter &bearbeiten"
 
 #. Resource IDs: (12)
 msgid "&Edit conflicts"
@@ -2987,7 +2987,7 @@ msgstr "Konfiguration:"
 
 #. Resource IDs: (7)
 msgid "Configure Filter Regexes"
-msgstr ""
+msgstr "RegEx-Filter einrichten"
 
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
@@ -3427,10 +3427,6 @@ msgstr "Aktueller Zweig"
 #. Resource IDs: (65535)
 msgid "Current Branch:"
 msgstr "Aktueller Zweig:"
-
-#. Resource IDs: (65535)
-msgid "Current Filter"
-msgstr "Aktueller Filter"
 
 #. Resource IDs: (603)
 #, c-format
@@ -5216,10 +5212,6 @@ msgid ""
 "toolbar buttons into the menu window."
 msgstr "Hinweis: Wählen Sie das Kontextmenü, wechseln Sie auf die Seite 'Befehle' und ziehen Sie die Schaltflächen der Werkzeugleiste in das Menüfenster."
 
-#. Resource IDs: (314)
-msgid "History"
-msgstr "Letzte Logmeldungen"
-
 #. Resource IDs: (1064)
 msgid "Home"
 msgstr "Pos1"
@@ -5533,7 +5525,7 @@ msgstr "Ignoriere %d Objekte nach &Erweiterung"
 
 #. Resource IDs: (156)
 msgid "Ignore Comments"
-msgstr ""
+msgstr "Kommentare ignorieren"
 
 #. Resource IDs: (1692)
 msgid "Ignore File"
@@ -7544,15 +7536,15 @@ msgstr "Aktualisieren..."
 
 #. Resource IDs: (32, 156, 165)
 msgid "Regex Filter"
-msgstr ""
+msgstr "RegEx Filter"
 
 #. Resource IDs: (164)
 msgid "Regex Filters"
-msgstr ""
+msgstr "RegEx Filter"
 
 #. Resource IDs: (65535)
 msgid "Regex:"
-msgstr ""
+msgstr "RegEx:"
 
 #. Resource IDs: (117)
 msgid ""
@@ -7670,7 +7662,7 @@ msgstr "Entferne &nicht-ignorierte nicht-versionierte Dateien (-f)"
 msgid ""
 "Remove all comments before doing the diff so changes inside comments don't "
 "show as different"
-msgstr ""
+msgstr "Vor dem Vergleich alle Kommentare entfernen, so dass Unterschiede in Kommentaren nicht angezeigt werden"
 
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
@@ -7760,7 +7752,7 @@ msgstr "Text ersetzen\nErsetzen"
 
 #. Resource IDs: (65535)
 msgid "Replace:"
-msgstr ""
+msgstr "Ersetzen:"
 
 #. Resource IDs: (74)
 msgid "Replacing"
@@ -8827,7 +8819,7 @@ msgstr "Gleiten"
 
 #. Resource IDs: (156)
 msgid "Smart tab char"
-msgstr ""
+msgstr "Intelligenter Tabulator"
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -9230,7 +9222,7 @@ msgstr "Werkzeugfläche"
 
 #. Resource IDs: (65535)
 msgid "Temp files (including Gravatar images)"
-msgstr ""
+msgstr "Temporäre Dateien (inklusive Gravatar-Bilder)"
 
 #. Resource IDs: (219)
 msgid "Test Only"
@@ -9657,7 +9649,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr ""
+msgstr "Um temporäre Dateien zu löschen, sollten Sie sicherstellen, dass keine weiteren TortoiseGit Anwendungen laufen.\n\nSollten Sie die Gravatar-Bilder löschen möchten,\nmüssen Sie eventuell auch den Internet Explorer Cache löschen."
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10167,7 +10159,7 @@ msgstr "Verwende den rechten Block"
 
 #. Resource IDs: (156)
 msgid "Use spaces"
-msgstr ""
+msgstr "Leerzeichen verwenden"
 
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
@@ -10456,13 +10448,13 @@ msgstr "Aktivieren Sie diese Option, damit die versionierten Objekte im Übertra
 msgid ""
 "When selected, Spaces will be used instead of tab\n"
 "Use spaces"
-msgstr ""
+msgstr "Leerzeichen anstelle von Tabulatoren verwenden\nVerwende Leerzeichen"
 
 #. Resource IDs: (2062)
 msgid ""
 "When selected, it tries to infer tab / spaces to use\n"
 "Smart tab char"
-msgstr ""
+msgstr "Versuche zu erkennen, ob Leerzeichen oder Tabulatoren\nIntelligenter Tabulatore"
 
 #. Resource IDs: (604)
 msgid ""
