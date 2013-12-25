@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-25 09:44+0000\n"
+"PO-Revision-Date: 2013-12-25 13:40+0000\n"
 "Last-Translator: 鋰 乙酸 <ch3cooli@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -357,7 +357,7 @@ msgstr "增加(&A) >>"
 
 #. Resource IDs: (1505)
 msgid "&Add Filter"
-msgstr ""
+msgstr "新增過濾器(&A)"
 
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
@@ -577,7 +577,7 @@ msgstr "刪除並保留檔案(&D)"
 
 #. Resource IDs: (1507)
 msgid "&Delete Filter"
-msgstr ""
+msgstr "刪除過濾器(&D)"
 
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
@@ -641,7 +641,7 @@ msgstr "編輯全部(&E)"
 
 #. Resource IDs: (1506)
 msgid "&Edit Filter"
-msgstr ""
+msgstr "編輯過濾器(&E)"
 
 #. Resource IDs: (12)
 msgid "&Edit conflicts"
@@ -2987,7 +2987,7 @@ msgstr "組態類別："
 
 #. Resource IDs: (7)
 msgid "Configure Filter Regexes"
-msgstr ""
+msgstr "設定過濾器正規表示式 "
 
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
@@ -3661,7 +3661,7 @@ msgstr "偵測並標示出移動過的區塊"
 
 #. Resource IDs: (2050)
 msgid "Detect moved and copied lines from existing files at any commit"
-msgstr ""
+msgstr "偵測所有版本及檔案的移動的和複製的行"
 
 #. Resource IDs: (2050)
 msgid ""
@@ -3675,7 +3675,7 @@ msgstr ""
 
 #. Resource IDs: (2050)
 msgid "Detect moved or copied lines within a file"
-msgstr ""
+msgstr "偵測檔案内移動或複製的行"
 
 #. Resource IDs: (3849)
 msgid ""
@@ -5525,7 +5525,7 @@ msgstr "依副檔名忽略 %d 項(&E)"
 
 #. Resource IDs: (156)
 msgid "Ignore Comments"
-msgstr ""
+msgstr "忽略註解"
 
 #. Resource IDs: (1692)
 msgid "Ignore File"
@@ -6378,7 +6378,7 @@ msgstr "%s 的新名稱"
 
 #. Resource IDs: (92)
 msgid "New name must not be empty or the same as the original name!"
-msgstr ""
+msgstr "名稱不能留空或與原先的相同！"
 
 #. Resource IDs: (98)
 msgid "New name:"
@@ -7536,15 +7536,15 @@ msgstr "重新整理中..."
 
 #. Resource IDs: (32, 156, 165)
 msgid "Regex Filter"
-msgstr ""
+msgstr "正規表示式過濾器"
 
 #. Resource IDs: (164)
 msgid "Regex Filters"
-msgstr ""
+msgstr "正規表示式過濾器"
 
 #. Resource IDs: (65535)
 msgid "Regex:"
-msgstr ""
+msgstr "正規表示式："
 
 #. Resource IDs: (117)
 msgid ""
@@ -7662,7 +7662,7 @@ msgstr "移除非忽略的未追蹤檔案(-f)(&N)"
 msgid ""
 "Remove all comments before doing the diff so changes inside comments don't "
 "show as different"
-msgstr ""
+msgstr "比對差異前先移除所有註解，註解中的異動將不會顯示出來。"
 
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
@@ -7752,7 +7752,7 @@ msgstr "用指定的文字取代特定文字\n取代"
 
 #. Resource IDs: (65535)
 msgid "Replace:"
-msgstr ""
+msgstr "取代："
 
 #. Resource IDs: (74)
 msgid "Replacing"
@@ -8819,7 +8819,7 @@ msgstr "滑動"
 
 #. Resource IDs: (156)
 msgid "Smart tab char"
-msgstr ""
+msgstr "智慧 Tab"
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -8980,7 +8980,7 @@ msgstr "停止二分法"
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
 "Hold down the Ctrl key to remove the last saved path."
-msgstr ""
+msgstr "儲存選定檔的路徑並用於稍後右鍵選單中的「比對差異」，按住Ctrl鍵可以清除先前儲存的路徑。"
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -8988,7 +8988,7 @@ msgstr "策略"
 
 #. Resource IDs: (1406)
 msgid "Strip lines starting with \"#\" in commit message"
-msgstr ""
+msgstr "移除以 \"#\" 開頭的提交訊息"
 
 #. Resource IDs: (156)
 msgid "Style"
@@ -9499,7 +9499,7 @@ msgstr "目的資料夾\n%s\n有其它檔案！\n確定要初始化 git 檔案�
 msgid ""
 "The text is identical, but the files do not match!\r\n"
 "The following differences were found:"
-msgstr ""
+msgstr "內文是相同的，但檔案並不完全相符！\n找到以下的差異："
 
 #. Resource IDs: (195)
 msgid ""
@@ -9649,7 +9649,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr ""
+msgstr "要清除暫時檔案，你應確定沒有其他的 TortoiseGit 應用程式在執行。\n\n若你想徹底清除 Gravatar 圖像，你可能需要清除 INternet Explorer 暫存檔案。"
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10448,13 +10448,13 @@ msgstr "啟用時, 送交視窗中, 有版本控制的項目會自動被選取."
 msgid ""
 "When selected, Spaces will be used instead of tab\n"
 "Use spaces"
-msgstr ""
+msgstr "一律使用空白鍵而不使用 tab\n轉換為空白"
 
 #. Resource IDs: (2062)
 msgid ""
 "When selected, it tries to infer tab / spaces to use\n"
 "Smart tab char"
-msgstr ""
+msgstr "自動猜測要使用空白或是tab\n智慧 tab"
 
 #. Resource IDs: (604)
 msgid ""
