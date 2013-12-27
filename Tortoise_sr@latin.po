@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-24 01:47+0000\n"
+"PO-Revision-Date: 2013-12-27 22:42+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Serbian (Latin) (http://www.transifex.com/projects/p/tortoisegit/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
@@ -416,8 +416,8 @@ msgid "&Auto Hide"
 msgstr "&Automatski Sakrij"
 
 #. Resource IDs: (65535)
-msgid "&Autoclose:"
-msgstr "&Automatski zatvori:"
+msgid "&Autoclose Git.exe dialog:"
+msgstr ""
 
 #. Resource IDs: (1505)
 msgid "&Autoload Putty Key"
@@ -2095,16 +2095,16 @@ msgid "Auto&Crlf"
 msgstr ""
 
 #. Resource IDs: (222)
-msgid "Auto-close for local operations"
-msgstr "Automatski zatvori za lokalne operacije"
-
-#. Resource IDs: (222)
 msgid "Auto-close if no conflicts"
 msgstr "Automatsko zatvaranje ako nema sukoba"
 
 #. Resource IDs: (222)
 msgid "Auto-close if no errors"
 msgstr "Automatsko zatvaranje ako nema grešaka"
+
+#. Resource IDs: (222)
+msgid "Auto-close if no further options are available"
+msgstr ""
 
 #. Resource IDs: (222)
 msgid "Auto-close if no merges, adds or deletes"
@@ -3877,6 +3877,12 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "which were made in this revision? These changes will be reverted by reverse-merging the revision into your working tree."
+msgstr ""
+
+#. Resource IDs: (93)
+msgid ""
+"Do you really want to unflag the selected file(s) as skip-worktree or "
+"assume-unchanged?"
 msgstr ""
 
 #. Resource IDs: (86)
@@ -5942,6 +5948,12 @@ msgstr ""
 #. Resource IDs: (65535)
 msgid "Local Branch"
 msgstr "Lokalna Grana"
+
+#. Resource IDs: (93)
+msgid ""
+"Local changes ignored (assumed valid/unchanged or skip worktree flagged "
+"files)"
+msgstr ""
 
 #. Resource IDs: (63)
 msgid "Local status"
@@ -8622,6 +8634,10 @@ msgstr ""
 msgid "Show i&gnored files"
 msgstr ""
 
+#. Resource IDs: (1265)
+msgid "Show ignore local changes flagged files"
+msgstr ""
+
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
 msgstr ""
@@ -9967,6 +9983,10 @@ msgstr "Poništi poslednju modifikaciju\nPoništi"
 #. Resource IDs: (3859)
 msgid "Unexpected file format."
 msgstr "Neočekivani format fajlovi."
+
+#. Resource IDs: (93)
+msgid "Unflag as skip-worktree and assume-unchanged"
+msgstr ""
 
 #. Resource IDs: (1070)
 msgid "Unfold"

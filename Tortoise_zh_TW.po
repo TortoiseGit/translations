@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2013-12-25 13:40+0000\n"
-"Last-Translator: 鋰 乙酸 <ch3cooli@gmail.com>\n"
+"PO-Revision-Date: 2013-12-27 22:42+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -416,8 +416,8 @@ msgid "&Auto Hide"
 msgstr "自動隱藏(&A)"
 
 #. Resource IDs: (65535)
-msgid "&Autoclose:"
-msgstr "自動關閉(&A)："
+msgid "&Autoclose Git.exe dialog:"
+msgstr ""
 
 #. Resource IDs: (1505)
 msgid "&Autoload Putty Key"
@@ -2095,16 +2095,16 @@ msgid "Auto&Crlf"
 msgstr "自動轉換換行符號(&C)"
 
 #. Resource IDs: (222)
-msgid "Auto-close for local operations"
-msgstr "本地作業時自動關閉"
-
-#. Resource IDs: (222)
 msgid "Auto-close if no conflicts"
 msgstr "無衝突時自動關閉視窗"
 
 #. Resource IDs: (222)
 msgid "Auto-close if no errors"
 msgstr "無錯誤時自動關閉"
+
+#. Resource IDs: (222)
+msgid "Auto-close if no further options are available"
+msgstr ""
 
 #. Resource IDs: (222)
 msgid "Auto-close if no merges, adds or deletes"
@@ -3878,6 +3878,12 @@ msgid ""
 "%s\n"
 "which were made in this revision? These changes will be reverted by reverse-merging the revision into your working tree."
 msgstr "確定要復原\n%s\n此版本的所有變更? 這些變更將會反向合併至工作目錄."
+
+#. Resource IDs: (93)
+msgid ""
+"Do you really want to unflag the selected file(s) as skip-worktree or "
+"assume-unchanged?"
+msgstr ""
 
 #. Resource IDs: (86)
 msgid "Do you want to fetch remote branches from the newly added remote?"
@@ -5942,6 +5948,12 @@ msgstr "本地"
 #. Resource IDs: (65535)
 msgid "Local Branch"
 msgstr "本地分支"
+
+#. Resource IDs: (93)
+msgid ""
+"Local changes ignored (assumed valid/unchanged or skip worktree flagged "
+"files)"
+msgstr ""
 
 #. Resource IDs: (63)
 msgid "Local status"
@@ -8622,6 +8634,10 @@ msgstr "顯示檔案名稱"
 msgid "Show i&gnored files"
 msgstr "顯示忽略的檔案(&I)"
 
+#. Resource IDs: (1265)
+msgid "Show ignore local changes flagged files"
+msgstr ""
+
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
 msgstr "僅僅顯示有標記的提交(&B)"
@@ -9967,6 +9983,10 @@ msgstr "還原上次動作\n還原"
 #. Resource IDs: (3859)
 msgid "Unexpected file format."
 msgstr "預期外的檔案格式."
+
+#. Resource IDs: (93)
+msgid "Unflag as skip-worktree and assume-unchanged"
+msgstr ""
 
 #. Resource IDs: (1070)
 msgid "Unfold"
