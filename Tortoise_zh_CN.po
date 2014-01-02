@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2013 the TortoiseGit team
+# Copyright (C) 2008-2014 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -7,7 +7,7 @@
 # lznuaa <lznuaa@gmail.com>, 2012
 # Freeman Ke <guang810828@gmail.com>, 2012
 # Gongong <gongong83@gmail.com>, 2013
-# lznuaa <lznuaa@gmail.com>, 2013
+# lznuaa <lznuaa@gmail.com>, 2013-2014
 # lznuaa <lznuaa@gmail.com>, 2012-2013
 # lznuaa <lznuaa@gmail.com>, 2012-2013
 # RAMBOO <ramboooo@126.com>, 2013
@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-01-01 20:40+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-01-02 16:26+0000\n"
+"Last-Translator: lznuaa <lznuaa@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1337,7 +1337,7 @@ msgstr "全字匹配(&W)"
 
 #. Resource IDs: (32790)
 msgid "&Within file"
-msgstr ""
+msgstr "在文件中(&W)"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -2004,11 +2004,11 @@ msgstr "假设有效/没有修改(\"Needs-lock\" 在TortotiseSVN)"
 
 #. Resource IDs: (32792)
 msgid "At file &creation"
-msgstr ""
+msgstr "在文件创建(&c)"
 
 #. Resource IDs: (2054)
 msgid "At file creation"
-msgstr ""
+msgstr "在文件创建"
 
 #. Resource IDs: (77)
 #, c-format
@@ -3673,11 +3673,11 @@ msgstr "检测已有文件在任何提交中已移动和复制的行"
 msgid ""
 "Detect moved and copied lines from existing files at the commit where the "
 "destination file has been created"
-msgstr ""
+msgstr "检测已有文件在涉及文件修改的提交中已移动和复制的行"
 
 #. Resource IDs: (2050)
 msgid "Detect moved and copied lines from files modified in the same commit"
-msgstr ""
+msgstr "在同一个提交的修改文件中检测移动和复制的行"
 
 #. Resource IDs: (2050)
 msgid "Detect moved or copied lines within a file"
@@ -3889,7 +3889,7 @@ msgstr "你确定要恢复此版本对\n%s\n的所有修改吗？这些修改将
 msgid ""
 "Do you really want to unflag the selected file(s) as skip-worktree or "
 "assume-unchanged?"
-msgstr ""
+msgstr "你真想取消选择文件的skip-worktree(Git将不再检查他们是否更新）或者 assume-valid 标记?"
 
 #. Resource IDs: (86)
 msgid "Do you want to fetch remote branches from the newly added remote?"
@@ -4380,11 +4380,11 @@ msgstr "扩展名"
 
 #. Resource IDs: (1722)
 msgid "Extension specific programs"
-msgstr ""
+msgstr "根据扩展名指定的程序"
 
 #. Resource IDs: (65535)
 msgid "Extension:"
-msgstr ""
+msgstr "扩展名"
 
 #. Resource IDs: (65535)
 msgid "Extern DLL Path:"
@@ -4788,7 +4788,7 @@ msgstr "转发"
 #. Resource IDs: (95)
 #, c-format
 msgid "Forward %d"
-msgstr ""
+msgstr "向前 %d"
 
 #. Resource IDs: (68)
 msgid ""
@@ -5037,7 +5037,7 @@ msgstr "Git修订列表，含完整文件历史"
 
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
-msgstr ""
+msgstr "Git修订列表包括文件从命名"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5959,7 +5959,7 @@ msgstr "本地分支"
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
-msgstr ""
+msgstr "忽略的本地改动(设置为valid/unchanged 或者skip worktree 标记的文件)"
 
 #. Resource IDs: (63)
 msgid "Local status"
@@ -8641,7 +8641,7 @@ msgstr "显示被忽略的文件(&G)"
 
 #. Resource IDs: (1265)
 msgid "Show ignore local changes flagged files"
-msgstr ""
+msgstr "显示忽略本地改动标记的文件"
 
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
@@ -9991,7 +9991,7 @@ msgstr "预期外的文件格式。"
 
 #. Resource IDs: (93)
 msgid "Unflag as skip-worktree and assume-unchanged"
-msgstr ""
+msgstr "取消 skip-worktree和assume-unchanged标记"
 
 #. Resource IDs: (1070)
 msgid "Unfold"
@@ -10805,14 +10805,14 @@ msgstr "[未分配]"
 msgid ""
 "\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
-msgstr ""
+msgstr "\"%s\" 包含git版本库. 他不能作为一个子模块。.\n你想删除.git同时把全部文件加入到上级版本库 还是 作为独立版本库在子目录中保留它?"
 
 #. Resource IDs: (92)
 #, c-format
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
-msgstr ""
+msgstr "\"%s\" 包含一个子模块. 很可能拷贝后不能在目的目录工作。\n你想删除.git同时添加全部文件到顶层git版本库 还是 忽略可能的问题保留它?"
 
 #. Resource IDs: (72)
 #, c-format

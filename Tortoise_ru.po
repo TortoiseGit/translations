@@ -1,10 +1,10 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2013 the TortoiseGit team
+# Copyright (C) 2008-2014 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# shcham <shcham@gmail.com>, 2013
+# shcham <shcham@gmail.com>, 2013-2014
 # Arioch <the_Arioch@nm.ru>, 2012-2013
 # Arkadiy Shapkin <arkadiy_s@inbox.ru>, 2011
 # KOLANICH <c770453@rmqkr.net>, 2013
@@ -20,13 +20,14 @@
 # Arioch <the_Arioch@nm.ru>, 2012
 # Виталий Переславцев <pstracker@mail.ru>, 2013
 # Вячеслав Третьяков <tret2003@gmail.com>, 2012-2013
+# Dmitry Sytkov <sytkov@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-01-01 20:32+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-01-02 14:56+0000\n"
+"Last-Translator: shcham <shcham@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -427,7 +428,7 @@ msgstr "&Скрывать автоматически"
 
 #. Resource IDs: (65535)
 msgid "&Autoclose Git.exe dialog:"
-msgstr ""
+msgstr "Диалог &Автозакрытия Git.exe:"
 
 #. Resource IDs: (1505)
 msgid "&Autoload Putty Key"
@@ -2114,7 +2115,7 @@ msgstr "Автозакрытие при отсутствии ошибок"
 
 #. Resource IDs: (222)
 msgid "Auto-close if no further options are available"
-msgstr ""
+msgstr "Авто-закрыть если более недоступно никаких опций"
 
 #. Resource IDs: (222)
 msgid "Auto-close if no merges, adds or deletes"
@@ -2997,7 +2998,7 @@ msgstr "Тип конфигурации:"
 
 #. Resource IDs: (7)
 msgid "Configure Filter Regexes"
-msgstr ""
+msgstr "Настроить Фильтры регулярных выражений"
 
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
@@ -3893,7 +3894,7 @@ msgstr "Действительно хотите откатить все изме
 msgid ""
 "Do you really want to unflag the selected file(s) as skip-worktree or "
 "assume-unchanged?"
-msgstr ""
+msgstr "Вы действительно хотите снять установленный флаг с выбранного файла(ы) как опустить-в-рабочей-копии или предположительно-неизменённый?"
 
 #. Resource IDs: (86)
 msgid "Do you want to fetch remote branches from the newly added remote?"
@@ -4384,11 +4385,11 @@ msgstr "Расширение"
 
 #. Resource IDs: (1722)
 msgid "Extension specific programs"
-msgstr ""
+msgstr "Программы для определённых расширений"
 
 #. Resource IDs: (65535)
 msgid "Extension:"
-msgstr ""
+msgstr "Расширение:"
 
 #. Resource IDs: (65535)
 msgid "Extern DLL Path:"
@@ -5963,7 +5964,7 @@ msgstr "Локальная ветвь"
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
-msgstr ""
+msgstr "Локальные изменения игнорируются (файлы типа предположительно-годный/неизменённый или пропустить-в-рабочей-копии)"
 
 #. Resource IDs: (63)
 msgid "Local status"
@@ -7310,7 +7311,7 @@ msgstr "Настройки сервера-посредника"
 
 #. Resource IDs: (1603)
 msgid "Prune"
-msgstr ""
+msgstr "Упростить"
 
 #. Resource IDs: (22, 66, 1611)
 msgid "Pull"
@@ -7557,15 +7558,15 @@ msgstr "Обновление..."
 
 #. Resource IDs: (32, 156, 165)
 msgid "Regex Filter"
-msgstr ""
+msgstr "Фильтр регулярного выражения"
 
 #. Resource IDs: (164)
 msgid "Regex Filters"
-msgstr ""
+msgstr "Фильтры регулярных выражений"
 
 #. Resource IDs: (65535)
 msgid "Regex:"
-msgstr ""
+msgstr "Регулярное выражение:"
 
 #. Resource IDs: (117)
 msgid ""
@@ -8645,7 +8646,7 @@ msgstr "Показать &игнорируемые файлы"
 
 #. Resource IDs: (1265)
 msgid "Show ignore local changes flagged files"
-msgstr ""
+msgstr "Показать файлы, помеченные как игнорировать-локальные-изменения"
 
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
@@ -8844,7 +8845,7 @@ msgstr "Сдвиг"
 
 #. Resource IDs: (156)
 msgid "Smart tab char"
-msgstr ""
+msgstr "Символ смарт табуляции"
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -9674,7 +9675,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr ""
+msgstr "Для очистки временных файлов вы должны проверить, что другой копии приложения TortoiseGit не запущенно.\n\nЕсли вы хотите полностью очистить изображения Gravatar,\nвам ещё, возможно, потребуется очистить Временные Файлы Интернета в Проводнике."
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -9995,7 +9996,7 @@ msgstr "Неожиданный формат файла."
 
 #. Resource IDs: (93)
 msgid "Unflag as skip-worktree and assume-unchanged"
-msgstr ""
+msgstr "Снять пометку как пропустить-в-рабочей-копии и предположительно-неизменённый"
 
 #. Resource IDs: (1070)
 msgid "Unfold"
@@ -10483,7 +10484,7 @@ msgstr "Когда выбрано, будут использованы проб�
 msgid ""
 "When selected, it tries to infer tab / spaces to use\n"
 "Smart tab char"
-msgstr ""
+msgstr "Когда выбрано, будет использован символ табуляции / пробелы\nСимвол смарт табуляции"
 
 #. Resource IDs: (604)
 msgid ""
