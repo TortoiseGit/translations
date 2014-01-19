@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-01-16 00:33+0000\n"
+"PO-Revision-Date: 2014-01-19 21:09+0000\n"
 "Last-Translator: GMTA <jelle@gmta.nl>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/tortoisegit/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
@@ -439,7 +439,7 @@ msgstr "&Maak reservekopie van origineel"
 
 #. Resource IDs: (13)
 msgid "&Blame"
-msgstr ""
+msgstr "&Annotatie"
 
 #. Resource IDs: (1254)
 msgid "&Blame changes"
@@ -455,7 +455,7 @@ msgstr "&Blauw:"
 
 #. Resource IDs: (65535)
 msgid "&Border:"
-msgstr ""
+msgstr "&Rand:"
 
 #. Resource IDs: (1512)
 msgid "&Branch"
@@ -731,7 +731,7 @@ msgstr "&Forceer Overschrijven Bestaande Branch (Kan wijzigingen weggooien)"
 
 #. Resource IDs: (1607)
 msgid "&Force Rebase"
-msgstr ""
+msgstr "&Forceer Rebasen"
 
 #. Resource IDs: (1608)
 msgid "&From:"
@@ -840,7 +840,7 @@ msgstr "&Grote iconen"
 
 #. Resource IDs: (1602)
 msgid "&Launch Rebase After Fetch"
-msgstr ""
+msgstr "&Start Rebasen Na Fetchen"
 
 #. Resource IDs: (1065)
 msgid "&Limit search to modified lines"
@@ -921,7 +921,7 @@ msgstr "&Minimaliseren"
 
 #. Resource IDs: (32880)
 msgid "&Moved blocks"
-msgstr ""
+msgstr "&Verplaatste blokken"
 
 #. Resource IDs: (1515)
 msgid "&Name"
@@ -957,7 +957,7 @@ msgstr "&Geen dubbelklik event"
 
 #. Resource IDs: (1734)
 msgid "&No fetch"
-msgstr ""
+msgstr "Gee&n fetch"
 
 #. Resource IDs: (1702)
 msgid "&None"
@@ -1081,7 +1081,7 @@ msgstr "&Verwijderen"
 
 #. Resource IDs: (1411)
 msgid "&Remove this file from index"
-msgstr ""
+msgstr "Ve&rwijder dit bestand uit de index"
 
 #. Resource IDs: (15)
 msgid "&Repo-browser"
@@ -1919,11 +1919,11 @@ msgstr "Een onbekend soort regel aangetroffen op regel %d !"
 
 #. Resource IDs: (251)
 msgid "Append right block"
-msgstr ""
+msgstr "Rechterblok erna toevoegen"
 
 #. Resource IDs: (251)
 msgid "Append this block to left"
-msgstr ""
+msgstr "Dit blok links ervoor toevoegen"
 
 #. Resource IDs: (65535)
 msgid "Application Frame Menus: "
@@ -1963,7 +1963,7 @@ msgstr "Willekeurige &URL:"
 
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr ""
+msgstr "Weet u zeker dat u het rebaseproces wilt afbreken?"
 
 #. Resource IDs: (145)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -2218,7 +2218,7 @@ msgstr "Verklaren"
 
 #. Resource IDs: (1)
 msgid "Blame error"
-msgstr ""
+msgstr "Annoteringsfout"
 
 #. Resource IDs: (32776)
 msgid "Blame previous revision"
@@ -2238,7 +2238,7 @@ msgstr "Blauwe stijl"
 
 #. Resource IDs: (1)
 msgid "Body"
-msgstr ""
+msgstr "Bericht"
 
 #. Resource IDs: (83)
 msgid ""
@@ -2456,7 +2456,7 @@ msgstr "Kan de vastleggingen nu niet combineren.\nZorg ervoor dat u het logboek 
 #. Resource IDs: (1)
 #, c-format
 msgid "Cannot show blame. \"%s\" is not under version control by git."
-msgstr ""
+msgstr "Kan annotatie niet tonen. \"%s\" valt niet onder versiebeheer door git."
 
 #. Resource IDs: (68)
 msgid "Cannot show diff because of inconsistent newlines in the file."
@@ -2514,7 +2514,7 @@ msgstr "Wijzig afmetingen van het venster"
 
 #. Resource IDs: (95)
 msgid "Change type"
-msgstr ""
+msgstr "Wijzigingstype"
 
 #. Resource IDs: (199)
 msgid "Changed Files"
@@ -2641,7 +2641,7 @@ msgstr "Selecteer Archief"
 
 #. Resource IDs: (88)
 msgid "Chronological reversed (git default)"
-msgstr ""
+msgstr "Omgekeerd chronologisch (git standaard)"
 
 #. Resource IDs: (4572)
 msgid "Clean"
@@ -2989,7 +2989,7 @@ msgstr "Configuratie"
 
 #. Resource IDs: (65535)
 msgid "Config source"
-msgstr ""
+msgstr "Configuratiebron"
 
 #. Resource IDs: (65535)
 msgid "Config type:"
@@ -3370,7 +3370,7 @@ msgstr "Maak patch-bestand"
 
 #. Resource IDs: (72)
 msgid "Create pull &request"
-msgstr ""
+msgstr "Pull aanv&raag aanmaken"
 
 #. Resource IDs: (8)
 msgid "Create repositor&y here..."
@@ -3897,7 +3897,7 @@ msgstr ""
 
 #. Resource IDs: (86)
 msgid "Do you want to fetch remote branches from the newly added remote?"
-msgstr ""
+msgstr "Wilt u de branches ophalen van het nieuw toegevoegde externe archief?"
 
 #. Resource IDs: (315)
 msgid "Do you want to load the changed files?"
@@ -4157,7 +4157,7 @@ msgstr "Encodeer"
 
 #. Resource IDs: (300, 301)
 msgid "Encoding"
-msgstr ""
+msgstr "Codering"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -4519,20 +4519,20 @@ msgstr "Fetch"
 
 #. Resource IDs: (14)
 msgid "Fetch from SVN repository"
-msgstr ""
+msgstr "Fetch vanuit een SVN archief"
 
 #. Resource IDs: (78)
 #, c-format
 msgid "Fetch from \"%s\""
-msgstr ""
+msgstr "Fetchen van \"%s\""
 
 #. Resource IDs: (76)
 msgid "Fetch&&Re&base"
-msgstr ""
+msgstr "Fetchen&&Re&basen"
 
 #. Resource IDs: (20)
 msgid "Fetch..."
-msgstr ""
+msgstr "Fetchen..."
 
 #. Resource IDs: (1251)
 msgid "Fetching Status..."
@@ -4557,7 +4557,7 @@ msgstr "Bestand"
 
 #. Resource IDs: (252)
 msgid "File Encoding"
-msgstr ""
+msgstr "Bestandscodering"
 
 #. Resource IDs: (605)
 #, c-format
@@ -4574,7 +4574,7 @@ msgstr "Diff van twee bestanden"
 
 #. Resource IDs: (319)
 msgid "File has no conflicts"
-msgstr ""
+msgstr "Bestand heeft geen conflicten"
 
 #. Resource IDs: (314)
 msgid "File is empty."
@@ -4798,7 +4798,7 @@ msgstr ""
 msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
 "proceed."
-msgstr ""
+msgstr "Leeg commitbericht gevonden. U moet er een opgeven voordat het rebasen voortgezet kan worden."
 
 #. Resource IDs: (65535)
 msgid "Found auto words:"
@@ -5009,7 +5009,7 @@ msgstr ""
 
 #. Resource IDs: (22)
 msgid "Git SVN Rebase"
-msgstr ""
+msgstr "Git SVN Rebase"
 
 #. Resource IDs: (326)
 msgid "Git Synchronization"
@@ -5202,7 +5202,7 @@ msgstr "Verberg script bij uitvoeren"
 
 #. Resource IDs: (95)
 msgid "Hide unchanged"
-msgstr ""
+msgstr "Verberg ongewijzigd"
 
 #. Resource IDs: (95, 1781)
 msgid "Hide unchanged refs in Ref Compare List"
@@ -5752,7 +5752,7 @@ msgstr "KOI8-U"
 
 #. Resource IDs: (92)
 msgid "Keep"
-msgstr ""
+msgstr "Behouden"
 
 #. Resource IDs: (1126)
 msgid "Keep changelists"
@@ -5892,7 +5892,7 @@ msgstr "Regel verplaatst naar regel %ld"
 
 #. Resource IDs: (65535)
 msgid "Line width"
-msgstr ""
+msgstr "Lijnbreedte"
 
 #. Resource IDs: (65535)
 msgid "Line:"
@@ -6387,11 +6387,11 @@ msgstr "Nieuw Menu"
 
 #. Resource IDs: (95)
 msgid "New hash"
-msgstr ""
+msgstr "Nieuwe hash"
 
 #. Resource IDs: (95)
 msgid "New message"
-msgstr ""
+msgstr "Nieuw bericht"
 
 #. Resource IDs: (97)
 #, c-format
@@ -6400,7 +6400,7 @@ msgstr "Nieuwe naam voor %s"
 
 #. Resource IDs: (92)
 msgid "New name must not be empty or the same as the original name!"
-msgstr ""
+msgstr "Nieuwe naam mag niet leeg of hetzelfde als de oorspronkelijke naam zijn!"
 
 #. Resource IDs: (98)
 msgid "New name:"
@@ -6412,7 +6412,7 @@ msgstr ""
 
 #. Resource IDs: (605)
 msgid "Newer commit time"
-msgstr ""
+msgstr "Nieuwere committijd"
 
 #. Resource IDs: (101)
 msgid "Newlines"
@@ -6450,7 +6450,7 @@ msgstr ""
 
 #. Resource IDs: (92)
 msgid "No &merges"
-msgstr ""
+msgstr "Geen sa&menvoegingen"
 
 #. Resource IDs: (1716)
 msgid "No Checkout"
@@ -6458,7 +6458,7 @@ msgstr ""
 
 #. Resource IDs: (1482)
 msgid "No Co&mmit"
-msgstr ""
+msgstr "Geen Co&mmit"
 
 #. Resource IDs: (67)
 msgid "No HEAD found"
@@ -6638,11 +6638,11 @@ msgstr ""
 msgid ""
 "Nothing need rebase\r\n"
 "%s equal %s"
-msgstr ""
+msgstr "Niets hoeft gerebased te worden\n%s is gelijk aan %s"
 
 #. Resource IDs: (67)
 msgid "Nothing to Rebase"
-msgstr ""
+msgstr "Niets om te Rebasen"
 
 #. Resource IDs: (603)
 msgid "Nothing to commit"
@@ -6761,7 +6761,7 @@ msgstr "Office XP"
 
 #. Resource IDs: (95)
 msgid "Old hash"
-msgstr ""
+msgstr "Oude hash"
 
 #. Resource IDs: (95)
 msgid "Old message"
@@ -6769,7 +6769,7 @@ msgstr "Oud bericht"
 
 #. Resource IDs: (605)
 msgid "Older commit time"
-msgstr ""
+msgstr "Oudere committijd"
 
 #. Resource IDs: (65535)
 msgid "Older lines"
@@ -7114,7 +7114,7 @@ msgstr "Afbeeldingen (*.svg, *.wmf, *.jpg, *.png, *.bmp, *.gif)|*.svg;*.wmf;*.jp
 msgid ""
 "Pictures (*.wmf, *.jpg, *.png, *.bmp, "
 "*.gif)|*.wmf;*.jpg;*.jpeg;*.png;*.bmp;*.gif|All Files (*.*)|*.*||"
-msgstr ""
+msgstr "Afbeeldingen (*.wmf, *.jpg, *.png, *.bmp, *.gif)|*.wmf;*.jpg;*.jpeg;*.png;*.bmp;*.gif|Alle Bestanden (*.*)|*.*||"
 
 #. Resource IDs: (246)
 msgid "Pie Graph"
@@ -7182,11 +7182,11 @@ msgstr "Bezig met het voorbereiden van de vastlegging..."
 
 #. Resource IDs: (251)
 msgid "Prepend right block"
-msgstr ""
+msgstr "Rechterblok ervoor toevoegen"
 
 #. Resource IDs: (251)
 msgid "Prepend this block to left"
-msgstr ""
+msgstr "Dit blok links erna toevoegen"
 
 #. Resource IDs: (65535)
 msgid "Press &New Shortcut Key:"
@@ -7322,11 +7322,11 @@ msgstr ""
 
 #. Resource IDs: (14)
 msgid "Pull..."
-msgstr ""
+msgstr "Pullen..."
 
 #. Resource IDs: (302)
 msgid "Pull/Fetch"
-msgstr ""
+msgstr "Pullen/Fetchen"
 
 #. Resource IDs: (66)
 msgid "Pulled Diff"
@@ -7399,7 +7399,7 @@ msgstr "&Ongedaan maken tot deze revisie"
 
 #. Resource IDs: (1255)
 msgid "REBASE"
-msgstr ""
+msgstr "REBASE"
 
 #. Resource IDs: (1769)
 msgid "Randomize Sync Dialog startup position"
@@ -7417,7 +7417,7 @@ msgstr "Bereik"
 
 #. Resource IDs: (1736)
 msgid "Re&base"
-msgstr ""
+msgstr "Re&base"
 
 #. Resource IDs: (1494)
 msgid "Re&mote:"
@@ -7457,21 +7457,21 @@ msgstr "Lees de 'Gids voor dagelijks gebruik' voordat u vast komt te zitten"
 
 #. Resource IDs: (318)
 msgid "Rebase"
-msgstr ""
+msgstr "Rebase"
 
 #. Resource IDs: (1254)
 #, c-format
 msgid "Rebase \"%s\" onto this..."
-msgstr ""
+msgstr "Rebase \"%s\" hierop..."
 
 #. Resource IDs: (20)
 msgid "Rebase..."
-msgstr ""
+msgstr "Rebase..."
 
 #. Resource IDs: (67)
 #, c-format
 msgid "Rebasing... (%d/%d)"
-msgstr ""
+msgstr "Bezig met rebasen... (%d/%d)"
 
 #. Resource IDs: (1002)
 msgid "Recent"
@@ -7497,7 +7497,7 @@ msgstr "Herstel de automatisch opgeslagen documenten\nOpen de automatisch opgesl
 
 #. Resource IDs: (603)
 msgid "Recover to the status before rebase"
-msgstr ""
+msgstr "Herstel naar de status voor de rebase"
 
 #. Resource IDs: (1057)
 msgid ""
@@ -7793,7 +7793,7 @@ msgstr "Archief:"
 
 #. Resource IDs: (334)
 msgid "Request pull"
-msgstr ""
+msgstr "Pull aanvragen"
 
 #. Resource IDs: (65535)
 msgid "Requests a username and a password"
@@ -7866,7 +7866,7 @@ msgstr "Lost conflicten in bestanden op"
 
 #. Resource IDs: (66)
 msgid "Restart rebase"
-msgstr ""
+msgstr "Rebase herstarten"
 
 #. Resource IDs: (64)
 msgid "Restore"
@@ -7911,12 +7911,12 @@ msgstr "Vastlegging %s terugdraaien"
 
 #. Resource IDs: (1258)
 msgid "Revert to parent revision"
-msgstr ""
+msgstr "Herstel naar bovenliggende revisie"
 
 #. Resource IDs: (323)
 #, c-format
 msgid "Revert to revision %s"
-msgstr ""
+msgstr "Herstel naar revisie %s"
 
 #. Resource IDs: (73)
 msgid "Reverted"
@@ -8080,11 +8080,11 @@ msgstr "SVN DCommit..."
 
 #. Resource IDs: (13)
 msgid "SVN Fetch"
-msgstr "SVN Ophalen"
+msgstr "SVN Fetch"
 
 #. Resource IDs: (21)
 msgid "SVN Rebase"
-msgstr ""
+msgstr "SVN Rebase"
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -8223,7 +8223,7 @@ msgstr "Unified diff vanaf HEAD opslaan"
 msgid ""
 "Save\n"
 "Save the file with the conflict markers."
-msgstr ""
+msgstr "Opslaan\nSla het bestand op met de conflictmarkeringen."
 
 #. Resource IDs: (314)
 #, c-format
@@ -8386,7 +8386,7 @@ msgstr "Selecteer viewer voor diff-bestanden"
 
 #. Resource IDs: (316)
 msgid "Select what file you want to save as"
-msgstr ""
+msgstr "Selecteer als welk bestand u het wilt opslaan"
 
 #. Resource IDs: (316)
 msgid ""
@@ -8621,7 +8621,7 @@ msgstr "Toon doelmap"
 
 #. Resource IDs: (1696)
 msgid "Show diff"
-msgstr ""
+msgstr "Toon vergelijking"
 
 #. Resource IDs: (1556)
 msgid "Show diff to last commit"
@@ -8920,7 +8920,7 @@ msgstr "Start Vastleggen Hook-script"
 
 #. Resource IDs: (67, 68)
 msgid "Start Rebase"
-msgstr ""
+msgstr "Start met Rebasen"
 
 #. Resource IDs: (12)
 msgid "Start bisect mode..."
@@ -8928,7 +8928,7 @@ msgstr "Start bisect modus..."
 
 #. Resource IDs: (14)
 msgid "Starts a git server running git protocol"
-msgstr ""
+msgstr "Start een git server die het git procotol draait"
 
 #. Resource IDs: (1384, 4575)
 msgid "Stash"
@@ -9072,7 +9072,7 @@ msgstr ""
 msgid ""
 "Submodule \"%1!s!\"\r\n"
 "Revision %2!s!"
-msgstr ""
+msgstr "Submodule \"%1!s!\"\nRevisie %2!s!"
 
 #. Resource IDs: (1708)
 msgid "Submodules"
@@ -9666,7 +9666,7 @@ msgid ""
 "To avoid fetching wrong tags, if this is not an official remote,\n"
 "you are advised to disable tag fetching for this remote.\n"
 "Disable tag fetching?"
-msgstr ""
+msgstr "Om te voorkomen dat de verkeerde labels worden opgehaald,\nwordt u geadviseerd het ophalen van labels voor dit extern archief uit te schakelen.\nLabels ophalen uitschakelen?"
 
 #. Resource IDs: (606)
 msgid ""
@@ -9674,7 +9674,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr ""
+msgstr "Om tijdelijke bestanden te verwijderen, moet u zeker zijn dat er geen andere TortoiseGit applicaties actief zijn.\n\nAls u de Gravatar afbeeldingen volledig wilt verwijderen,\nmoet u mogelijk ook de tijdelijke bestanden van Internet Explorer verwijderen."
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -9764,7 +9764,7 @@ msgstr "TortoiseGitBlame"
 msgid ""
 "TortoiseGitBlame was already initialized for the repository \"%s\". Cannot "
 "switch to another repository (\"%s\") at runtime."
-msgstr ""
+msgstr "TortoiseGitBlame was al geïnitialiseerd voor het archief \"%s\". Kan niet omschakelen naar een ander archief (\"%s\") nadat de applicatie gestart is."
 
 #. Resource IDs: (1)
 #, c-format
@@ -10184,7 +10184,7 @@ msgstr "Gebruik reguliere expressie"
 
 #. Resource IDs: (251)
 msgid "Use right block"
-msgstr ""
+msgstr "Gebruik rechterblok"
 
 #. Resource IDs: (156)
 msgid "Use spaces"
@@ -10266,7 +10266,7 @@ msgstr "&Gebruik dit gehele bestand"
 
 #. Resource IDs: (251)
 msgid "Use this block on left"
-msgstr ""
+msgstr "Gebruik dit blok links"
 
 #. Resource IDs: (251)
 msgid "Use whole other &file"
@@ -10506,7 +10506,7 @@ msgstr "Zolang de server draait is alle data van dit archief openbaar zonder aut
 
 #. Resource IDs: (101)
 msgid "Whitespace changes (tabs, spaces)"
-msgstr ""
+msgstr "Wijzigingen in witruimte (tabs, spaties)"
 
 #. Resource IDs: (65535)
 msgid "Whitespaces"
@@ -11127,11 +11127,11 @@ msgstr "wincred - alleen dit archief"
 
 #. Resource IDs: (88)
 msgid "winstore - current Windows user"
-msgstr ""
+msgstr "winstore - huidige Windows gebruiker"
 
 #. Resource IDs: (88)
 msgid "winstore - this repository only"
-msgstr ""
+msgstr "winstore - alleen dit archief"
 
 #. Resource IDs: (245)
 msgid "year"
