@@ -11,10 +11,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-01-13 17:11+0000\n"
-"Last-Translator: strel\n"
+"PO-Revision-Date: 2014-01-25 19:48+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2306,6 +2306,10 @@ msgstr "Explorar..."
 msgid "Bug-ID"
 msgstr "ID-mala"
 
+#. Resource IDs: (1578)
+msgid "Bug-ID e&xpression:"
+msgstr ""
+
 #. Resource IDs: (1119)
 msgid "Bug-ID/Issue-Nr:"
 msgstr "ID-mala/Nº-problema:"
@@ -2317,6 +2321,10 @@ msgstr "IDs-malas"
 #. Resource IDs: (65535)
 msgid "BugTraq"
 msgstr "BugTraq"
+
+#. Resource IDs: (327)
+msgid "Bugtraq Regex Tester - TortoiseGit"
+msgstr ""
 
 #. Resource IDs: (16132)
 msgid "Button Appearance"
@@ -6189,6 +6197,10 @@ msgstr "Mensaje"
 msgid "Message onl&y"
 msgstr "Sólo mensajes"
 
+#. Resource IDs: (1579)
+msgid "Message part &expression:"
+msgstr ""
+
 #. Resource IDs: (116)
 msgid "Messages"
 msgstr "Mensajes"
@@ -8090,6 +8102,24 @@ msgstr ""
 msgid "Same commit time"
 msgstr "Consignas de la misma fecha"
 
+#. Resource IDs: (93)
+msgid ""
+"Sample log message to test the bugtraq: regex strings.\n"
+"\n"
+"Testing mentions of issues inside a text: Mention single issue #55. Mention issues #77, #78, and #78. Mention more issues #123, #124 and #125 and some more separate ones: Issue #45, issue #46 and issue #47.\n"
+"\n"
+"\n"
+"Update issue #101\n"
+"Fixes issue #202\n"
+"Fixed issue #123\n"
+"Resolves issue #88.\n"
+"Closes issue #99.\n"
+msgstr ""
+
+#. Resource IDs: (1612)
+msgid "Sample text:"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Save"
 msgstr "Salvar"
@@ -9237,6 +9267,10 @@ msgstr "Panel de Tareas"
 msgid "Temp files (including Gravatar images)"
 msgstr ""
 
+#. Resource IDs: (1787)
+msgid "Test"
+msgstr ""
+
 #. Resource IDs: (219)
 msgid "Test Only"
 msgstr "Sólo Provisional"
@@ -9499,6 +9533,15 @@ msgid ""
 "Commit the submodule now or ignore dirty changes?"
 msgstr "El submódulo \"%s\" está sucio.\nEs decir, consignar el superprojecto no puede rastrear ó salvar dichos cambios al submódulo.\n¿Consignar el submódulo ahora o ignorar los cambios sucios?"
 
+#. Resource IDs: (93)
+#, c-format
+msgid ""
+"The target folder \n"
+"%s\n"
+"is a special folder and is not supposed to be a repository root!\n"
+"Are you sure you want to initialize a git repository inside that folder?"
+msgstr ""
+
 #. Resource IDs: (88)
 #, c-format
 msgid ""
@@ -9673,6 +9716,10 @@ msgid ""
 "Toggle One/Two Pages display\n"
 "Toggle One/Two Pages display"
 msgstr "Alternar entre mostrar Una/Dos páginas\nAlternar entre mostrar Una/Dos páginas"
+
+#. Resource IDs: (93)
+msgid "Toggle checked filters"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Toolbar"

@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2013 the TortoiseGit team
+# Copyright (C) 2008-2014 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -25,9 +25,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-01-01 20:32+0000\n"
+"PO-Revision-Date: 2014-01-25 19:48+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -2320,6 +2320,10 @@ msgstr "찾아보기..."
 msgid "Bug-ID"
 msgstr "버그 ID"
 
+#. Resource IDs: (1578)
+msgid "Bug-ID e&xpression:"
+msgstr ""
+
 #. Resource IDs: (1119)
 msgid "Bug-ID/Issue-Nr:"
 msgstr "버그-ID/이슈-No:"
@@ -2331,6 +2335,10 @@ msgstr "버그 ID"
 #. Resource IDs: (65535)
 msgid "BugTraq"
 msgstr "BugTraq"
+
+#. Resource IDs: (327)
+msgid "Bugtraq Regex Tester - TortoiseGit"
+msgstr ""
 
 #. Resource IDs: (16132)
 msgid "Button Appearance"
@@ -6203,6 +6211,10 @@ msgstr "메시지"
 msgid "Message onl&y"
 msgstr "메시지만 커밋(&Y)"
 
+#. Resource IDs: (1579)
+msgid "Message part &expression:"
+msgstr ""
+
 #. Resource IDs: (116)
 msgid "Messages"
 msgstr "메시지"
@@ -8104,6 +8116,24 @@ msgstr ""
 msgid "Same commit time"
 msgstr "Same commit time"
 
+#. Resource IDs: (93)
+msgid ""
+"Sample log message to test the bugtraq: regex strings.\n"
+"\n"
+"Testing mentions of issues inside a text: Mention single issue #55. Mention issues #77, #78, and #78. Mention more issues #123, #124 and #125 and some more separate ones: Issue #45, issue #46 and issue #47.\n"
+"\n"
+"\n"
+"Update issue #101\n"
+"Fixes issue #202\n"
+"Fixed issue #123\n"
+"Resolves issue #88.\n"
+"Closes issue #99.\n"
+msgstr ""
+
+#. Resource IDs: (1612)
+msgid "Sample text:"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Save"
 msgstr "저장하기"
@@ -9251,6 +9281,10 @@ msgstr "작업 창"
 msgid "Temp files (including Gravatar images)"
 msgstr ""
 
+#. Resource IDs: (1787)
+msgid "Test"
+msgstr ""
+
 #. Resource IDs: (219)
 msgid "Test Only"
 msgstr "시험용"
@@ -9513,6 +9547,15 @@ msgid ""
 "Commit the submodule now or ignore dirty changes?"
 msgstr "The submodule \"%s\" is dirty.\nMerely committing the superproject cannot track or save such changes to the submodule.\nCommit the submodule now or ignore dirty changes?"
 
+#. Resource IDs: (93)
+#, c-format
+msgid ""
+"The target folder \n"
+"%s\n"
+"is a special folder and is not supposed to be a repository root!\n"
+"Are you sure you want to initialize a git repository inside that folder?"
+msgstr ""
+
 #. Resource IDs: (88)
 #, c-format
 msgid ""
@@ -9687,6 +9730,10 @@ msgid ""
 "Toggle One/Two Pages display\n"
 "Toggle One/Two Pages display"
 msgstr "하나/두개의 페이지 보기 토글하기\n하나/두개의 페이지 보기 토글하기"
+
+#. Resource IDs: (93)
+msgid "Toggle checked filters"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Toolbar"
