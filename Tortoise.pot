@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-01-25 19:48+0000\n"
+"PO-Revision-Date: 2014-02-07 16:00+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1287,13 +1287,13 @@ msgstr "&Unknown drives"
 msgid "&Up"
 msgstr "&Up"
 
-#. Resource IDs: (4567)
-msgid "&UpStream:"
-msgstr "&UpStream:"
-
 #. Resource IDs: (1253)
 msgid "&Update item to revision"
 msgstr "&Update item to revision"
+
+#. Resource IDs: (4567)
+msgid "&Upstream:"
+msgstr "&Upstream:"
 
 #. Resource IDs: (1184)
 msgid "&Use auto-completion of file paths and keywords"
@@ -2602,6 +2602,10 @@ msgstr "Check:"
 #. Resource IDs: (77)
 msgid "Checkout"
 msgstr "Checkout"
+
+#. Resource IDs: (93)
+msgid "Checkout with merge"
+msgstr "Checkout with merge"
 
 #. Resource IDs: (67)
 msgid "Cherry Pick"
@@ -8343,6 +8347,10 @@ msgstr "Select changelist"
 msgid "Select diff application"
 msgstr "Select diff application"
 
+#. Resource IDs: (93)
+msgid "Select file"
+msgstr "Select file"
+
 #. Resource IDs: (64)
 msgid "Select folder to associate with this issue tracker"
 msgstr "Select folder to associate with this issue tracker"
@@ -8777,6 +8785,11 @@ msgstr "Show un&versioned files"
 #. Resource IDs: (198)
 msgid "Show/Hide"
 msgstr "Show/Hide"
+
+#. Resource IDs: (93)
+#, c-format
+msgid "Showing %1!d! ref(s), %2!d! ref(s) selected"
+msgstr "Showing %1!d! ref(s), %2!d! ref(s) selected"
 
 #. Resource IDs: (76)
 #, c-format
@@ -9714,8 +9727,8 @@ msgid ""
 msgstr "Toggle One/Two Pages display\nToggle One/Two Pages display"
 
 #. Resource IDs: (93)
-msgid "Toggle checked filters"
-msgstr "Toggle checked filters"
+msgid "Toggle filters"
+msgstr "Toggle filters"
 
 #. Resource IDs: (65535)
 msgid "Toolbar"
