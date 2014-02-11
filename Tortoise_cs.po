@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-02-07 16:00+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-02-11 08:09+0000\n"
+"Last-Translator: Zbyněk Schwarz <zbynek.schwarz@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1299,7 +1299,7 @@ msgstr "&Aktualizovat položku na revizi"
 
 #. Resource IDs: (4567)
 msgid "&Upstream:"
-msgstr ""
+msgstr "&Pramen:"
 
 #. Resource IDs: (1184)
 msgid "&Use auto-completion of file paths and keywords"
@@ -2310,7 +2310,7 @@ msgstr "ID chyby"
 
 #. Resource IDs: (1578)
 msgid "Bug-ID e&xpression:"
-msgstr ""
+msgstr "&Výraz části ID chyby:"
 
 #. Resource IDs: (1119)
 msgid "Bug-ID/Issue-Nr:"
@@ -2326,7 +2326,7 @@ msgstr "BugTraq"
 
 #. Resource IDs: (327)
 msgid "Bugtraq Regex Tester - TortoiseGit"
-msgstr ""
+msgstr "Zkouška regulárního výrazu Bugtraq - TortoiseGit"
 
 #. Resource IDs: (16132)
 msgid "Button Appearance"
@@ -2611,7 +2611,7 @@ msgstr "Získat"
 
 #. Resource IDs: (93)
 msgid "Checkout with merge"
-msgstr ""
+msgstr "Získání se sloučením"
 
 #. Resource IDs: (67)
 msgid "Cherry Pick"
@@ -6205,7 +6205,7 @@ msgstr "&Pouze zpráva"
 
 #. Resource IDs: (1579)
 msgid "Message part &expression:"
-msgstr ""
+msgstr "Vý&raz části Zpráva: "
 
 #. Resource IDs: (116)
 msgid "Messages"
@@ -8120,11 +8120,11 @@ msgid ""
 "Fixed issue #123\n"
 "Resolves issue #88.\n"
 "Closes issue #99.\n"
-msgstr ""
+msgstr "Vzorová zpráva záznamu pro vyzkoušení regulárních řetězců bugtraq.\n\nZkouška se zmiňuje o úlohách v textu: Zmiňuje jednu úlohu #55. Zmiňuje úlohy #77, #78 a #79. Zmiňuje další úlohy #123, #124 a #125 a některé oddělené: Úlohu #45, úlohu #46 a úlohu #47.\n\n\nAktualizace úlohy #101\nOpravuje problém #202\nProblém #123 opraven\nŘeší úlohu #88.\nUzavírá úlohu #99.\n"
 
 #. Resource IDs: (1612)
 msgid "Sample text:"
-msgstr ""
+msgstr "Vzorový text:"
 
 #. Resource IDs: (156)
 msgid "Save"
@@ -8355,7 +8355,7 @@ msgstr "Vybrat aplikaci pro porovnání"
 
 #. Resource IDs: (93)
 msgid "Select file"
-msgstr ""
+msgstr "Vyberte soubor"
 
 #. Resource IDs: (64)
 msgid "Select folder to associate with this issue tracker"
@@ -8795,7 +8795,7 @@ msgstr "Zobrazit/Skrýt"
 #. Resource IDs: (93)
 #, c-format
 msgid "Showing %1!d! ref(s), %2!d! ref(s) selected"
-msgstr ""
+msgstr "Zobrazováno %1!d! odkaz(ů), vybráno %2!d! odkaz(ů)"
 
 #. Resource IDs: (76)
 #, c-format
@@ -9284,7 +9284,7 @@ msgstr "Dočasné soubory (včetně obrázků Gravatar)"
 
 #. Resource IDs: (1787)
 msgid "Test"
-msgstr ""
+msgstr "Vyzkoušet"
 
 #. Resource IDs: (219)
 msgid "Test Only"
@@ -9555,7 +9555,7 @@ msgid ""
 "%s\n"
 "is a special folder and is not supposed to be a repository root!\n"
 "Are you sure you want to initialize a git repository inside that folder?"
-msgstr ""
+msgstr "Cílová složka\n%s\nje speciální složkou a nemá být kořenem úložiště!\nOpravdu chcete zavést úložiště git v této složce?"
 
 #. Resource IDs: (88)
 #, c-format
@@ -9734,7 +9734,7 @@ msgstr "Přepnout Jedno/Dvoj-panelové zobrazení\nPřepnout Jedno/Dvoj-panelov�
 
 #. Resource IDs: (93)
 msgid "Toggle filters"
-msgstr ""
+msgstr "Přepnout filtry"
 
 #. Resource IDs: (65535)
 msgid "Toolbar"
