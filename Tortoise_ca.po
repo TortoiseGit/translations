@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-02-07 16:00+0000\n"
+"PO-Revision-Date: 2014-02-27 21:48+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -2451,6 +2451,12 @@ msgid ""
 "Make sure you are viewing the log of your current branch and no filters are applied."
 msgstr "No es poden combinar entregues ara\nAsseguri's que esta veient el registre de la branca actual i que no hi ha filtres aplicats"
 
+#. Resource IDs: (94)
+msgid ""
+"Cannot force updating current branch. Use reset command if you want to do "
+"so."
+msgstr ""
+
 #. Resource IDs: (1)
 #, c-format
 msgid "Cannot show blame. \"%s\" is not under version control by git."
@@ -3703,6 +3709,10 @@ msgstr "Mides i posicions dels formularis"
 msgid "Dialogs"
 msgstr ""
 
+#. Resource IDs: (1789)
+msgid "Diff Options"
+msgstr ""
+
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
 msgstr "Diffs de dues entregues"
@@ -4135,6 +4145,10 @@ msgstr "Activa l'edició"
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
 msgstr "Activa Gravatar"
+
+#. Resource IDs: (1788)
+msgid "Enable drag context menu"
+msgstr ""
 
 #. Resource IDs: (87)
 msgid ""
@@ -5553,9 +5567,17 @@ msgstr "Ignora arxiu"
 msgid "Ignore Type"
 msgstr "Ignora tipus"
 
+#. Resource IDs: (94)
+msgid "Ignore all space"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
 msgstr "Ignora tots els canvis d'espais en blanc"
+
+#. Resource IDs: (94)
+msgid "Ignore blank lines"
+msgstr ""
 
 #. Resource IDs: (1067)
 msgid "Ignore case cha&nges"
@@ -5578,6 +5600,14 @@ msgstr "Ignora element(s) recursivament"
 #. Resource IDs: (1018)
 msgid "Ignore line &endings (recommended)"
 msgstr "Ignora &finals de línia (recomanat)"
+
+#. Resource IDs: (94)
+msgid "Ignore space at EOL"
+msgstr ""
+
+#. Resource IDs: (94)
+msgid "Ignore space change"
+msgstr ""
 
 #. Resource IDs: (1676)
 msgid "Ignore whitespace"
@@ -7138,6 +7168,14 @@ msgstr "Introdueix una ruta a on aplicar l'scripts d'interconnexió"
 msgid "Please select a hook type"
 msgstr "Seleccioneu un tipus d'interconnexió"
 
+#. Resource IDs: (94)
+msgid "Please select branch"
+msgstr ""
+
+#. Resource IDs: (94)
+msgid "Please select upstream"
+msgstr ""
+
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
 msgstr "Espereu mentre es cancel·la..."
@@ -7318,6 +7356,10 @@ msgstr "Configuració proxy"
 msgid "Prune"
 msgstr ""
 
+#. Resource IDs: (1785)
+msgid "Prune (All remotes)"
+msgstr ""
+
 #. Resource IDs: (22, 66, 1611)
 msgid "Pull"
 msgstr "Estira"
@@ -7349,6 +7391,10 @@ msgstr "Empeny"
 #. Resource IDs: (22, 303, 1612)
 msgid "Push"
 msgstr "Empeny"
+
+#. Resource IDs: (1786)
+msgid "Push Default"
+msgstr ""
 
 #. Resource IDs: (1385)
 msgid "Push notes"
@@ -9192,8 +9238,8 @@ msgid "Switch/Checkout working tree to another branch/tag"
 msgstr "Extreu a/canvia el directori de treball a una altra branca/etiqueta"
 
 #. Resource IDs: (325)
-msgid "Switches the comparison left<<->right"
-msgstr "Intercanvia dreta i esquerra"
+msgid "Switches the comparison left<->right"
+msgstr ""
 
 #. Resource IDs: (1733)
 msgid "Symbolize ref names"
@@ -10515,6 +10561,12 @@ msgstr "Quan s'apliqui un pedaç, ignora els canvis en els espais en blanc, si f
 msgid ""
 "When closing a progress dialog with a running git process, ask for "
 "confirmation before killing it"
+msgstr ""
+
+#. Resource IDs: (94)
+msgid ""
+"When enabled, TortoiseGit move context menu items will be available when "
+"dragging folders / files"
 msgstr ""
 
 #. Resource IDs: (197)

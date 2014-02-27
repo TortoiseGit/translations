@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-02-07 16:00+0000\n"
+"PO-Revision-Date: 2014-02-27 21:48+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/tortoisegit/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -2450,6 +2450,12 @@ msgid ""
 "Make sure you are viewing the log of your current branch and no filters are applied."
 msgstr ""
 
+#. Resource IDs: (94)
+msgid ""
+"Cannot force updating current branch. Use reset command if you want to do "
+"so."
+msgstr ""
+
 #. Resource IDs: (1)
 #, c-format
 msgid "Cannot show blame. \"%s\" is not under version control by git."
@@ -3702,6 +3708,10 @@ msgstr "Kích thước và vị trí của hộp thoại"
 msgid "Dialogs"
 msgstr ""
 
+#. Resource IDs: (1789)
+msgid "Diff Options"
+msgstr ""
+
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
 msgstr ""
@@ -4133,6 +4143,10 @@ msgstr ""
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
+msgstr ""
+
+#. Resource IDs: (1788)
+msgid "Enable drag context menu"
 msgstr ""
 
 #. Resource IDs: (87)
@@ -5552,9 +5566,17 @@ msgstr ""
 msgid "Ignore Type"
 msgstr ""
 
+#. Resource IDs: (94)
+msgid "Ignore all space"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
 msgstr "Bỏ qua tất cả các thay đổi trên khoảng trắng"
+
+#. Resource IDs: (94)
+msgid "Ignore blank lines"
+msgstr ""
 
 #. Resource IDs: (1067)
 msgid "Ignore case cha&nges"
@@ -5577,6 +5599,14 @@ msgstr ""
 #. Resource IDs: (1018)
 msgid "Ignore line &endings (recommended)"
 msgstr "Bỏ qua các dấu &hết dòng (khuyên dùng)"
+
+#. Resource IDs: (94)
+msgid "Ignore space at EOL"
+msgstr ""
+
+#. Resource IDs: (94)
+msgid "Ignore space change"
+msgstr ""
 
 #. Resource IDs: (1676)
 msgid "Ignore whitespace"
@@ -7137,6 +7167,14 @@ msgstr "Vui lòng nhập vào một đường dẫn để áp dụng kịch bả
 msgid "Please select a hook type"
 msgstr "Vui lòng chọn kiểu hook"
 
+#. Resource IDs: (94)
+msgid "Please select branch"
+msgstr ""
+
+#. Resource IDs: (94)
+msgid "Please select upstream"
+msgstr ""
+
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
 msgstr "Vui lòng chờ trong khi đang hủy bỏ..."
@@ -7317,6 +7355,10 @@ msgstr "Thiết lập Proxy"
 msgid "Prune"
 msgstr ""
 
+#. Resource IDs: (1785)
+msgid "Prune (All remotes)"
+msgstr ""
+
 #. Resource IDs: (22, 66, 1611)
 msgid "Pull"
 msgstr "Kéo"
@@ -7348,6 +7390,10 @@ msgstr ""
 #. Resource IDs: (22, 303, 1612)
 msgid "Push"
 msgstr "Đẩy"
+
+#. Resource IDs: (1786)
+msgid "Push Default"
+msgstr ""
 
 #. Resource IDs: (1385)
 msgid "Push notes"
@@ -9191,8 +9237,8 @@ msgid "Switch/Checkout working tree to another branch/tag"
 msgstr ""
 
 #. Resource IDs: (325)
-msgid "Switches the comparison left<<->right"
-msgstr "Chuyển đổi dạng so sánh trái<<->phải"
+msgid "Switches the comparison left<->right"
+msgstr ""
 
 #. Resource IDs: (1733)
 msgid "Symbolize ref names"
@@ -10514,6 +10560,12 @@ msgstr ""
 msgid ""
 "When closing a progress dialog with a running git process, ask for "
 "confirmation before killing it"
+msgstr ""
+
+#. Resource IDs: (94)
+msgid ""
+"When enabled, TortoiseGit move context menu items will be available when "
+"dragging folders / files"
 msgstr ""
 
 #. Resource IDs: (197)

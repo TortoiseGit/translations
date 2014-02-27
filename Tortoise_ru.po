@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-02-07 16:00+0000\n"
+"PO-Revision-Date: 2014-02-27 21:48+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -2462,6 +2462,12 @@ msgid ""
 "Make sure you are viewing the log of your current branch and no filters are applied."
 msgstr "Невозможно объединить коммиты сейчас.\nУбедитесь что вы просматриваете журнал вашей текущей ветви и не применено ни одного фильтра."
 
+#. Resource IDs: (94)
+msgid ""
+"Cannot force updating current branch. Use reset command if you want to do "
+"so."
+msgstr ""
+
 #. Resource IDs: (1)
 #, c-format
 msgid "Cannot show blame. \"%s\" is not under version control by git."
@@ -3714,6 +3720,10 @@ msgstr "Размеры и расположение окон"
 msgid "Dialogs"
 msgstr "Диалоги"
 
+#. Resource IDs: (1789)
+msgid "Diff Options"
+msgstr ""
+
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
 msgstr "Различие двух коммитов"
@@ -4146,6 +4156,10 @@ msgstr "Разрешить редактирование"
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
 msgstr "Включить Gravatar"
+
+#. Resource IDs: (1788)
+msgid "Enable drag context menu"
+msgstr ""
 
 #. Resource IDs: (87)
 msgid ""
@@ -5564,9 +5578,17 @@ msgstr "Игнорировать файл"
 msgid "Ignore Type"
 msgstr "Игнорируемые типы файлов"
 
+#. Resource IDs: (94)
+msgid "Ignore all space"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
 msgstr "Игнорировать все изменения непечатаемых знаков"
+
+#. Resource IDs: (94)
+msgid "Ignore blank lines"
+msgstr ""
 
 #. Resource IDs: (1067)
 msgid "Ignore case cha&nges"
@@ -5589,6 +5611,14 @@ msgstr "Игнорировать элемент(ы) рекурсивно"
 #. Resource IDs: (1018)
 msgid "Ignore line &endings (recommended)"
 msgstr "Игнорировать &завершения строк(рекомендуется)"
+
+#. Resource IDs: (94)
+msgid "Ignore space at EOL"
+msgstr ""
+
+#. Resource IDs: (94)
+msgid "Ignore space change"
+msgstr ""
 
 #. Resource IDs: (1676)
 msgid "Ignore whitespace"
@@ -7149,6 +7179,14 @@ msgstr "Пожалуйста, введите путь для применени�
 msgid "Please select a hook type"
 msgstr "Пожалуйста, выберите тип хука"
 
+#. Resource IDs: (94)
+msgid "Please select branch"
+msgstr ""
+
+#. Resource IDs: (94)
+msgid "Please select upstream"
+msgstr ""
+
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
 msgstr "Пожалуйста, подождите отмены..."
@@ -7329,6 +7367,10 @@ msgstr "Настройки сервера-посредника"
 msgid "Prune"
 msgstr "Упростить"
 
+#. Resource IDs: (1785)
+msgid "Prune (All remotes)"
+msgstr ""
+
 #. Resource IDs: (22, 66, 1611)
 msgid "Pull"
 msgstr "Получить"
@@ -7360,6 +7402,10 @@ msgstr "Отп&равить"
 #. Resource IDs: (22, 303, 1612)
 msgid "Push"
 msgstr "Отправить"
+
+#. Resource IDs: (1786)
+msgid "Push Default"
+msgstr ""
 
 #. Resource IDs: (1385)
 msgid "Push notes"
@@ -9203,8 +9249,8 @@ msgid "Switch/Checkout working tree to another branch/tag"
 msgstr "Переключить рабочую копию на другую ветвь/метку"
 
 #. Resource IDs: (325)
-msgid "Switches the comparison left<<->right"
-msgstr "Меняет направление сравнения: левое <<-> правое"
+msgid "Switches the comparison left<->right"
+msgstr ""
 
 #. Resource IDs: (1733)
 msgid "Symbolize ref names"
@@ -10527,6 +10573,12 @@ msgid ""
 "When closing a progress dialog with a running git process, ask for "
 "confirmation before killing it"
 msgstr "Спрашивать о завершении процесса при попытке закрыть окно до завершения обработки"
+
+#. Resource IDs: (94)
+msgid ""
+"When enabled, TortoiseGit move context menu items will be available when "
+"dragging folders / files"
+msgstr ""
 
 #. Resource IDs: (197)
 msgid ""
