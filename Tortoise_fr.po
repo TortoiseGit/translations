@@ -9,6 +9,7 @@
 # Pinky007 <pinky__007@hotmail.com>, 2013-2014
 # gregseth <greg.seth@gmail.com>, 2013
 # gregseth <greg.seth@gmail.com>, 2013
+# bauland <nicolas.bauland@laposte.net>, 2014
 # softity <softy@yopmail.com>, 2013
 # Pinky007 <pinky__007@hotmail.com>, 2013
 # Pinky007 <pinky__007@hotmail.com>, 2013
@@ -21,8 +22,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-02-27 21:48+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-02-28 10:53+0000\n"
+"Last-Translator: bauland <nicolas.bauland@laposte.net>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2571,7 +2572,7 @@ msgstr "Changer le style de l'application"
 
 #. Resource IDs: (65535)
 msgid "Char position where to show a border line in commit text boxes:"
-msgstr ""
+msgstr "Position du caractère à laquelle on affiche une ligne de bordure dans la boîte de texte de livraison"
 
 #. Resource IDs: (3887)
 msgid "Check"
@@ -4717,16 +4718,16 @@ msgstr "Rechercher le texte spécifié\nRechercher"
 #. Resource IDs: (95)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
-msgstr ""
+msgstr "Find: Text non trouvé \"%s\""
 
 #. Resource IDs: (95)
 msgid ""
 "Find: First occurrence from the bottom found. Beginning of document reached."
-msgstr ""
+msgstr "Find: Première occurrence en partant du bas. Début du document atteint."
 
 #. Resource IDs: (95)
 msgid "Find: First occurrence from the top found. End of document reached."
-msgstr ""
+msgstr "Find: Première occurrence trouvée depuis le haut. Fin du document atteint."
 
 #. Resource IDs: (67)
 msgid "Finish"
@@ -4876,7 +4877,7 @@ msgstr "Complètement récursif"
 
 #. Resource IDs: (65535)
 msgid "Further options for the commit dialog are on Dialogs 3 page."
-msgstr ""
+msgstr "D'autres options pour la fenêtre de livraison sont sur la page de Dialogs 3."
 
 #. Resource IDs: (92)
 msgid "G&ravatar"
@@ -6189,7 +6190,7 @@ msgstr "Fusionner Réintégrer"
 msgid ""
 "Merge between original branch, working tree contents, and the branch to "
 "switch to"
-msgstr ""
+msgstr "Fusion entre la branche d'origine, l'arbre de travail et la branche sur laquelle on bascule"
 
 #. Resource IDs: (1432)
 msgid "Merge non-interactive"
@@ -6442,7 +6443,7 @@ msgstr "Nouveau nom pour %s"
 
 #. Resource IDs: (92)
 msgid "New name must not be empty or the same as the original name!"
-msgstr ""
+msgstr "Le nouveau nom ne doit pas être vide ni être le même que l'original !"
 
 #. Resource IDs: (98)
 msgid "New name:"
@@ -8729,7 +8730,7 @@ msgstr ""
 
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
-msgstr ""
+msgstr "Afficher uniquement les commentaires rédigés"
 
 #. Resource IDs: (1063)
 msgid "Show linenumber&s"
@@ -10604,7 +10605,7 @@ msgstr "Quand le patch ne s'applique pas proprement, se rabattre sur la fusion e
 msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
-msgstr ""
+msgstr "Quand l'URL est saisie, le nom distant est automatiquement rempli par \"origin\" si le nom distant est vide, donc vous n'êtes pas obligés de le faire."
 
 #. Resource IDs: (1409)
 msgid ""
