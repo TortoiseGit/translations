@@ -9,14 +9,15 @@
 # 鋰 乙酸 <ch3cooli@gmail.com>, 2012-2014
 # Hydriz <admin@alphacorp.tk>, 2013
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
+# Yue_Lin_Ho <yuelinho777@gmail.com>, 2014
 # 鋰 乙酸 <ch3cooli@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-03-02 13:18+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-03-03 10:45+0000\n"
+"Last-Translator: 鋰 乙酸 <ch3cooli@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1335,7 +1336,7 @@ msgstr "在檔案之內(&W)"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
-msgstr "忽略空格改動(&i)"
+msgstr "忽略空格變更(&i)"
 
 #. Resource IDs: (88)
 msgid "(TortoiseGit default)"
@@ -2455,7 +2456,7 @@ msgstr "現在無法合併提交\r\n請確定你正在檢視當前分支及沒�
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr ""
+msgstr "將與目前分支產生同名衝突而無法新建分支. 可使用重置命令移動目前分支來達到相同結果."
 
 #. Resource IDs: (1)
 #, c-format
@@ -3711,7 +3712,7 @@ msgstr "視窗"
 
 #. Resource IDs: (1789)
 msgid "Diff Options"
-msgstr ""
+msgstr "比對差異選項"
 
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
@@ -4148,7 +4149,7 @@ msgstr "啟用 Gravatar"
 
 #. Resource IDs: (1788)
 msgid "Enable drag context menu"
-msgstr ""
+msgstr "啟用拖曳快顯功能表"
 
 #. Resource IDs: (87)
 msgid ""
@@ -5274,7 +5275,7 @@ msgstr "包含路徑(&N):"
 
 #. Resource IDs: (1580)
 msgid "IBugTraqProvider"
-msgstr ""
+msgstr "IBugTraqProvider"
 
 #. Resource IDs: (1251)
 msgid "ID"
@@ -5573,7 +5574,7 @@ msgstr "忽略類別"
 
 #. Resource IDs: (94)
 msgid "Ignore all space"
-msgstr ""
+msgstr "忽略所有空格"
 
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
@@ -5581,7 +5582,7 @@ msgstr "無視所有空白字元變更"
 
 #. Resource IDs: (94)
 msgid "Ignore blank lines"
-msgstr ""
+msgstr "忽略空白行"
 
 #. Resource IDs: (1067)
 msgid "Ignore case cha&nges"
@@ -5607,11 +5608,11 @@ msgstr "(建議)忽略換行CRLF符號(&E)"
 
 #. Resource IDs: (94)
 msgid "Ignore space at EOL"
-msgstr ""
+msgstr "忽略行末空白字元"
 
 #. Resource IDs: (94)
 msgid "Ignore space change"
-msgstr ""
+msgstr "忽略空格變更"
 
 #. Resource IDs: (1676)
 msgid "Ignore whitespace"
@@ -5619,7 +5620,7 @@ msgstr "忽略空白字元"
 
 #. Resource IDs: (156)
 msgid "Ignore whitespace changes"
-msgstr "無視空白字元變更"
+msgstr "忽略空白字元變更"
 
 #. Resource IDs: (2050)
 msgid "Ignore whitespace when comparing the parents version and the child's "
@@ -7174,11 +7175,11 @@ msgstr "請選擇掛勾類型"
 
 #. Resource IDs: (94)
 msgid "Please select branch"
-msgstr ""
+msgstr "請選擇分支"
 
 #. Resource IDs: (94)
 msgid "Please select upstream"
-msgstr ""
+msgstr "請選擇上游"
 
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
@@ -7350,15 +7351,15 @@ msgstr "提供者"
 
 #. Resource IDs: (1586)
 msgid "Provider para&meters:"
-msgstr ""
+msgstr "提供者參數(&m):"
 
 #. Resource IDs: (1581)
 msgid "Provider uuid win&32:"
-msgstr ""
+msgstr "提供者 uuid win&32:"
 
 #. Resource IDs: (1583)
 msgid "Provider uuid x6&4:"
-msgstr ""
+msgstr "提供者 uuid x6&4"
 
 #. Resource IDs: (1475)
 msgid "Provider:"
@@ -7370,11 +7371,11 @@ msgstr "Proxy 設定"
 
 #. Resource IDs: (1603)
 msgid "Prune"
-msgstr "砍掉"
+msgstr "剪除"
 
 #. Resource IDs: (1785)
 msgid "Prune (All remotes)"
-msgstr ""
+msgstr "剪除 (所有遠端)"
 
 #. Resource IDs: (22, 66, 1611)
 msgid "Pull"
@@ -7410,7 +7411,7 @@ msgstr "推送"
 
 #. Resource IDs: (1786)
 msgid "Push Default"
-msgstr ""
+msgstr "推送預設值"
 
 #. Resource IDs: (1385)
 msgid "Push notes"
@@ -9255,7 +9256,7 @@ msgstr "切換工作目錄至其他分支/標記"
 
 #. Resource IDs: (325)
 msgid "Switches the comparison left<->right"
-msgstr ""
+msgstr "左右切換比對視窗"
 
 #. Resource IDs: (1733)
 msgid "Symbolize ref names"
@@ -10583,7 +10584,7 @@ msgstr "當要關閉進度視窗仍有執行中的 git 程序，需確認才停�
 msgid ""
 "When enabled, TortoiseGit move context menu items will be available when "
 "dragging folders / files"
-msgstr ""
+msgstr "啟用後, 在拖曳資料夾/檔案時, 將顯示 TortoiseGit 快顯功能表移動選項"
 
 #. Resource IDs: (197)
 msgid ""
