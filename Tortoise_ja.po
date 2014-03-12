@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-03-07 06:07+0000\n"
+"PO-Revision-Date: 2014-03-12 08:20+0000\n"
 "Last-Translator: Tetsuhiko Koto <>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -635,7 +635,7 @@ msgstr "編集(&E)"
 
 #. Resource IDs: (84)
 msgid "&Edit .git/config"
-msgstr "ローカルリポジトリの設定を編集(&E)"
+msgstr ".git/configを編集(&E)"
 
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
@@ -1402,7 +1402,7 @@ msgstr "....."
 
 #. Resource IDs: (91)
 msgid ".git/config in the repository root"
-msgstr "リポジトリルートの .git/config ファイル"
+msgstr "ローカルリポジトリのルートの .git/config ファイル"
 
 #. Resource IDs: (1691)
 msgid ".git/info/exclude"
@@ -2136,7 +2136,7 @@ msgstr "新しいバージョンを自動的に毎週チェックする(&N)"
 
 #. Resource IDs: (306)
 msgid "Autotext Tester"
-msgstr ""
+msgstr "自動テキストテスター"
 
 #. Resource IDs: (1157)
 msgid "Average"
@@ -2520,7 +2520,7 @@ msgstr "ウィンドウサイズを変更する"
 
 #. Resource IDs: (95)
 msgid "Change type"
-msgstr ""
+msgstr "変更のタイプ"
 
 #. Resource IDs: (199)
 msgid "Changed Files"
@@ -4052,11 +4052,11 @@ msgstr "編集"
 
 #. Resource IDs: (84)
 msgid "Edit &global .gitconfig"
-msgstr "このユーザの設定を編集(&G)"
+msgstr "グローバルの.gitconfigを編集(&G)"
 
 #. Resource IDs: (1383)
 msgid "Edit &local .git/config"
-msgstr "ローカルリポジトリの設定を編集(&L)"
+msgstr "ローカルの.git/configを編集(&L)"
 
 #. Resource IDs: (1755)
 msgid "Edit .tgitconfig"
@@ -4088,7 +4088,7 @@ msgstr "拡張子に対応したマージプログラムを編集"
 
 #. Resource IDs: (1382)
 msgid "Edit gl&obal .gitconfig"
-msgstr "このユーザの設定を編集(&O)"
+msgstr "グローバルの.gitconfigを編集(&O)"
 
 #. Resource IDs: (1718)
 msgid "Edit global &XDG config"
@@ -4096,7 +4096,7 @@ msgstr "このユーザのXDG設定を編集(&X)"
 
 #. Resource IDs: (71)
 msgid "Edit local git config"
-msgstr "ローカルリポジトリの設定を編集"
+msgstr "ローカルのgit configを編集"
 
 #. Resource IDs: (1254)
 msgid "Edit log message"
@@ -4104,7 +4104,7 @@ msgstr "ログメッセージを編集"
 
 #. Resource IDs: (1384)
 msgid "Edit s&ystemwide gitconfig"
-msgstr "全ユーザ共通の設定を編集(&Y)"
+msgstr "システム全体のgitconfigを編集(&Y)"
 
 #. Resource IDs: (1331, 1382)
 msgid "Edit..."
@@ -4810,7 +4810,7 @@ msgstr "前へ"
 #. Resource IDs: (95)
 #, c-format
 msgid "Forward %d"
-msgstr ""
+msgstr "%d コミット先"
 
 #. Resource IDs: (68)
 msgid ""
@@ -5068,7 +5068,7 @@ msgid ""
 "The \"Effective\" tab shows you the effective values for the current scope (read-only).\n"
 "Select any level to see the values stored there.\n"
 "In order to change settings select a level, enter the values and select where to store to."
-msgstr ""
+msgstr "Gitは、階層的な設定の概念を使用しています。\nすなわち、いくつかのレベルが有り、高いレベルの設定値は、低いレベルの設定値を上書きします。\n「有効値」は、現在のスコープで、結果的に使用される設定の値が表示され、これはリードオンリーです。\nレベル（ローカル/グローバル/システム）を選択すると、そのレベルの設定値が表示されます。\n設定の値を変えるには、レベルを選び、値を設定し、どこに値を保存したかを選択してください。"
 
 #. Resource IDs: (65535)
 msgid "Git.exe Path:"
@@ -5220,11 +5220,11 @@ msgstr "実行時はスクリプトを非表示にする"
 
 #. Resource IDs: (95)
 msgid "Hide unchanged"
-msgstr ""
+msgstr "変更のないものを隠す"
 
 #. Resource IDs: (95, 1781)
 msgid "Hide unchanged refs in Ref Compare List"
-msgstr ""
+msgstr "Ref比較リストにおいて変更のないものを隠す"
 
 #. Resource IDs: (156)
 msgid "Hide/Show the patch file list"
@@ -5692,11 +5692,11 @@ msgstr "%s をインポート"
 
 #. Resource IDs: (75)
 msgid "In ChangeList"
-msgstr "変更リストにて"
+msgstr "受け入れ変更リスト"
 
 #. Resource IDs: (75)
 msgid "In Commits"
-msgstr "コミットにて"
+msgstr "受け入れコミット"
 
 #. Resource IDs: (1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
@@ -6429,11 +6429,11 @@ msgstr "新規メニュー"
 
 #. Resource IDs: (95)
 msgid "New hash"
-msgstr ""
+msgstr "新しいハッシュ"
 
 #. Resource IDs: (95)
 msgid "New message"
-msgstr ""
+msgstr "新しいメッセージ"
 
 #. Resource IDs: (97)
 #, c-format
@@ -6803,11 +6803,11 @@ msgstr "Office XP"
 
 #. Resource IDs: (95)
 msgid "Old hash"
-msgstr ""
+msgstr "古いハッシュ"
 
 #. Resource IDs: (95)
 msgid "Old message"
-msgstr ""
+msgstr "古いメッセージ"
 
 #. Resource IDs: (605)
 msgid "Older commit time"
@@ -6927,11 +6927,11 @@ msgstr "Others"
 
 #. Resource IDs: (75)
 msgid "Out ChangeList"
-msgstr "変更リストを出力"
+msgstr "送り出し変更リスト"
 
 #. Resource IDs: (75)
 msgid "Out Commits"
-msgstr "コミットを出力"
+msgstr "送り出しコミット"
 
 #. Resource IDs: (3843)
 msgid "Out of memory."
@@ -7603,7 +7603,7 @@ msgstr "Ref (クリックすると移動)"
 
 #. Resource IDs: (95)
 msgid "Ref List"
-msgstr ""
+msgstr "Refリスト"
 
 #. Resource IDs: (69)
 msgid "RefBrowse"
@@ -8062,7 +8062,7 @@ msgstr "巻き戻し"
 #. Resource IDs: (95)
 #, c-format
 msgid "Rewind %d"
-msgstr ""
+msgstr "%d コミット巻き戻し"
 
 #. Resource IDs: (3850)
 msgid ""
@@ -8166,7 +8166,7 @@ msgstr "安全な改行コード:"
 
 #. Resource IDs: (95)
 msgid "Same"
-msgstr ""
+msgstr "同じ"
 
 #. Resource IDs: (605)
 msgid "Same commit time"
@@ -9110,7 +9110,7 @@ msgstr "方針"
 
 #. Resource IDs: (1406)
 msgid "Strip lines starting with \"#\" in commit message"
-msgstr ""
+msgstr "コミットメッセージにおいて、\"#\" で始まる行を取り除く"
 
 #. Resource IDs: (156)
 msgid "Style"
@@ -10502,7 +10502,7 @@ msgstr "外部エディターでこのリビジョンを表示"
 
 #. Resource IDs: (1717)
 msgid "View system&wide gitconfig"
-msgstr "全ユーザ共通の設定を表示(&W)"
+msgstr "システム全体のgitconfigを編集(&W)"
 
 #. Resource IDs: (1084)
 msgid "Visit our website"
