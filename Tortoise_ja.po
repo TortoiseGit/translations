@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-03-12 08:20+0000\n"
+"PO-Revision-Date: 2014-03-13 07:47+0000\n"
 "Last-Translator: Tetsuhiko Koto <>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -419,7 +419,7 @@ msgstr "自動的に隠す(&A)"
 
 #. Resource IDs: (65535)
 msgid "&Autoclose Git.exe dialog:"
-msgstr ""
+msgstr "Git.exe のダイアログを自動的に閉じる(&A):"
 
 #. Resource IDs: (1505)
 msgid "&Autoload Putty Key"
@@ -1703,11 +1703,11 @@ msgstr "「&Signed-off-by」を追加"
 
 #. Resource IDs: (110)
 msgid "Add extension specific diff program"
-msgstr "拡張子に対応した差分プログラムを追加"
+msgstr "拡張子に応じた差分プログラムを追加"
 
 #. Resource IDs: (110)
 msgid "Add extension specific merge program"
-msgstr "拡張子に対応したマージプログラムを追加"
+msgstr "拡張子に応じたマージプログラムを追加"
 
 #. Resource IDs: (1065)
 msgid "Add new files automatically to Git"
@@ -1727,7 +1727,7 @@ msgstr "追加..."
 
 #. Resource IDs: (171)
 msgid "Add/Edit Extension Specific Diff/Merge Program"
-msgstr "拡張子に対応した差分/マージプログラムの追加/編集"
+msgstr "拡張子に応じた差分/マージプログラムの追加/編集"
 
 #. Resource IDs: (73, 264, 1257, 1549, 65535)
 msgid "Added"
@@ -2268,7 +2268,7 @@ msgstr "ブランチ %s は %s の下流にあります。\n%s は %s へファ�
 
 #. Resource IDs: (93)
 msgid "Branch (FF)"
-msgstr ""
+msgstr "ブランチ (FF)"
 
 #. Resource IDs: (68)
 msgid "Branch Name"
@@ -3183,7 +3183,7 @@ msgstr "最新のバージョンのチェックができませんでした。"
 #. Resource IDs: (93)
 #, c-format
 msgid "Could not check for a newer version! (Error code: 0x%08X)"
-msgstr ""
+msgstr "最新のバージョンのチェックができませんでした。\n(エラーコード: 0x%08X)"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3313,7 +3313,7 @@ msgstr "総数(&t)"
 #. Resource IDs: (94)
 #, c-format
 msgid "Count: %u matches."
-msgstr ""
+msgstr "カウント: %u個マッチしました。"
 
 #. Resource IDs: (1683)
 msgid "Create &Library"
@@ -3733,12 +3733,12 @@ msgstr "差分ファイル:"
 
 #. Resource IDs: (15)
 msgid "Diff later"
-msgstr ""
+msgstr "後で差分を取る"
 
 #. Resource IDs: (15)
 #, c-format
 msgid "Diff with \"%s\""
-msgstr ""
+msgstr "\"%s\" と差分を取る"
 
 #. Resource IDs: (81)
 #, c-format
@@ -4080,11 +4080,11 @@ msgstr "説明を編集"
 
 #. Resource IDs: (110)
 msgid "Edit extension specific diff program"
-msgstr "拡張子に対応した差分プログラムを編集"
+msgstr "拡張子に応じた差分プログラムを編集"
 
 #. Resource IDs: (110)
 msgid "Edit extension specific merge program"
-msgstr "拡張子に対応したマージプログラムを編集"
+msgstr "拡張子に応じたマージプログラムを編集"
 
 #. Resource IDs: (1382)
 msgid "Edit gl&obal .gitconfig"
@@ -4282,7 +4282,7 @@ msgstr "整数を入力してください。"
 
 #. Resource IDs: (65535)
 msgid "Enter file content to test for below:"
-msgstr ""
+msgstr "テストするファイルの内容を下へ入力:"
 
 #. Resource IDs: (1065)
 msgid "Enter log &message:"
@@ -4295,7 +4295,7 @@ msgstr "%1 文字以上は入力できません。"
 
 #. Resource IDs: (65535)
 msgid "Enter the regex string below:"
-msgstr ""
+msgstr "正規表現を下へ入力:"
 
 #. Resource IDs: (3603)
 msgid ""
@@ -4402,11 +4402,11 @@ msgstr "拡張子"
 
 #. Resource IDs: (1722)
 msgid "Extension specific programs"
-msgstr ""
+msgstr "拡張子に応じたプログラム"
 
 #. Resource IDs: (65535)
 msgid "Extension:"
-msgstr ""
+msgstr "拡張子:"
 
 #. Resource IDs: (65535)
 msgid "Extern DLL Path:"
@@ -4810,7 +4810,7 @@ msgstr "前へ"
 #. Resource IDs: (95)
 #, c-format
 msgid "Forward %d"
-msgstr "%d コミット先"
+msgstr "前進 %d"
 
 #. Resource IDs: (68)
 msgid ""
@@ -4820,7 +4820,7 @@ msgstr "空のコミットメッセージが見つかったため、リベース
 
 #. Resource IDs: (65535)
 msgid "Found auto words:"
-msgstr ""
+msgstr "見つかった単語:"
 
 #. Resource IDs: (65535)
 msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
@@ -4848,11 +4848,11 @@ msgstr "SVNのリポジトリから"
 
 #. Resource IDs: (2054)
 msgid "From existing files"
-msgstr ""
+msgstr "存在するファイルから"
 
 #. Resource IDs: (2054)
 msgid "From modified files"
-msgstr ""
+msgstr "変更されたファイルから"
 
 #. Resource IDs: (1200, 65535)
 msgid "From:"
@@ -5348,7 +5348,7 @@ msgstr "ID:32837:VA  +M"
 
 #. Accelerator Entry for Menu ID:32857; ''
 msgid "ID:32857:VA  +F"
-msgstr ""
+msgstr "ID:32857:VA  +F"
 
 #. Accelerator Entry for Menu ID:32870; ''
 msgid "ID:32870:V C +L"
@@ -5563,7 +5563,7 @@ msgstr "拡張子によって %d 個の項目を無視する(&E)"
 
 #. Resource IDs: (156)
 msgid "Ignore Comments"
-msgstr ""
+msgstr "コメントを無視"
 
 #. Resource IDs: (1692)
 msgid "Ignore File"
@@ -5575,7 +5575,7 @@ msgstr "無視タイプ"
 
 #. Resource IDs: (94)
 msgid "Ignore all space"
-msgstr ""
+msgstr "全ての空白を無視"
 
 #. Resource IDs: (156)
 msgid "Ignore all whitespace changes"
@@ -5583,7 +5583,7 @@ msgstr "全ての空白類の変更を無視"
 
 #. Resource IDs: (94)
 msgid "Ignore blank lines"
-msgstr ""
+msgstr "空行を無視"
 
 #. Resource IDs: (1067)
 msgid "Ignore case cha&nges"
@@ -5609,11 +5609,11 @@ msgstr "改行コードを無視する（推奨）(&E)"
 
 #. Resource IDs: (94)
 msgid "Ignore space at EOL"
-msgstr ""
+msgstr "行末の空白を無視"
 
 #. Resource IDs: (94)
 msgid "Ignore space change"
-msgstr ""
+msgstr "空白の変更を無視"
 
 #. Resource IDs: (1676)
 msgid "Ignore whitespace"
@@ -6009,7 +6009,7 @@ msgstr "ローカルの状態"
 
 #. Resource IDs: (65535)
 msgid "Local:"
-msgstr ""
+msgstr "ローカル:"
 
 #. Resource IDs: (94)
 msgid ""
@@ -6988,7 +6988,7 @@ msgstr "パラメーター:"
 #. Resource IDs: (1256)
 #, c-format
 msgid "Parent %d"
-msgstr ""
+msgstr "親 %d"
 
 #. Resource IDs: (70)
 #, c-format
@@ -7635,7 +7635,7 @@ msgstr "正規表現フィルター"
 
 #. Resource IDs: (65535)
 msgid "Regex:"
-msgstr ""
+msgstr "正規表現:"
 
 #. Resource IDs: (117)
 msgid ""
@@ -7753,7 +7753,7 @@ msgstr "無視リストにない、バージョン管理外のファイルを削
 msgid ""
 "Remove all comments before doing the diff so changes inside comments don't "
 "show as different"
-msgstr ""
+msgstr "差分を取る前に、全てのコメントを取り除きます。このため、コメントの中の変化は、差分として表示されません。"
 
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
@@ -7843,7 +7843,7 @@ msgstr "指定された文字列を、他の文字列に置き換える\n置換"
 
 #. Resource IDs: (65535)
 msgid "Replace:"
-msgstr ""
+msgstr "置き換え:"
 
 #. Resource IDs: (74)
 msgid "Replacing"
@@ -8062,7 +8062,7 @@ msgstr "巻き戻し"
 #. Resource IDs: (95)
 #, c-format
 msgid "Rewind %d"
-msgstr "%d コミット巻き戻し"
+msgstr "後退 %d"
 
 #. Resource IDs: (3850)
 msgid ""
@@ -8336,7 +8336,7 @@ msgstr "ノートの保存に失敗しました。"
 
 #. Resource IDs: (1522)
 msgid "Scan"
-msgstr ""
+msgstr "スキャン"
 
 #. Resource IDs: (1014, 1064, 1636)
 msgid "Scintilla"
@@ -8697,11 +8697,11 @@ msgstr "&Unified 形式で変更を表示"
 
 #. Resource IDs: (32787)
 msgid "Show com&plete log"
-msgstr ""
+msgstr "完全なログを表示(&P)"
 
 #. Resource IDs: (32864)
 msgid "Show complete log"
-msgstr ""
+msgstr "完全なログを表示"
 
 #. Resource IDs: (32784)
 msgid "Show date"
@@ -8729,7 +8729,7 @@ msgstr "少しの遅延の後にすべてのメニューを表示(&U)"
 
 #. Resource IDs: (2051, 32802)
 msgid "Show file name"
-msgstr ""
+msgstr "ファイル名を表示"
 
 #. Resource IDs: (1264)
 msgid "Show i&gnored files"
@@ -8818,7 +8818,7 @@ msgstr "ツールバーを表示/非表示にする\nツールバーを表示"
 
 #. Resource IDs: (2051, 32803)
 msgid "Show original line number"
-msgstr ""
+msgstr "オリジナルの行番号を表示"
 
 #. Resource IDs: (1270)
 msgid ""
@@ -8941,7 +8941,7 @@ msgstr "スライド"
 
 #. Resource IDs: (156)
 msgid "Smart tab char"
-msgstr ""
+msgstr "タブ/スペースを推測"
 
 #. Resource IDs: (89)
 msgid "Soft"
@@ -9102,7 +9102,7 @@ msgstr "二分探索モードを停止"
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
 "Hold down the Ctrl key to remove the last saved path."
-msgstr ""
+msgstr "ファイルのパスを、後で右クリックから差分を取るために保存します。Ctrlキーを押し下げていると、最後に保存したパスを取り除きます。"
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -9281,7 +9281,7 @@ msgstr "システムサウンド(&S):"
 
 #. Resource IDs: (93)
 msgid "System in offline mode. Check Internet Explorer."
-msgstr ""
+msgstr "システムはオフラインモードです。Internet Explorerをチェックしてください。"
 
 #. Resource IDs: (3857)
 msgid ""
@@ -9344,7 +9344,7 @@ msgstr "タスク領域"
 
 #. Resource IDs: (65535)
 msgid "Temp files (including Gravatar images)"
-msgstr ""
+msgstr "一時ファイル（Gravatarの画像を含む）"
 
 #. Resource IDs: (1787)
 msgid "Test"
@@ -9784,7 +9784,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr ""
+msgstr "テンポラリファイルを削除するには、他の TortoiseGit が動いていないことを確認して下さい。\n\nもし、完全に　Gravatar の画像を削除したい場合、\nInternet Explorer のテンポラリファイルも削除する必要があるかもしれません。"
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10302,7 +10302,7 @@ msgstr "右ブロックを使用"
 
 #. Resource IDs: (156)
 msgid "Use spaces"
-msgstr ""
+msgstr "スペースを使用"
 
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
@@ -10603,7 +10603,7 @@ msgstr ""
 msgid ""
 "When selected, it tries to infer tab / spaces to use\n"
 "Smart tab char"
-msgstr ""
+msgstr "選択すると、タブ文字とスペース文字のどちらを使うか推測します\nタブ/スペースを推測"
 
 #. Resource IDs: (604)
 msgid ""
