@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-03-13 07:47+0000\n"
+"PO-Revision-Date: 2014-03-14 04:31+0000\n"
 "Last-Translator: Tetsuhiko Koto <>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1483,7 +1483,7 @@ msgstr "<ct=0x0000FF>現在の HEAD は切り離されました</ct>, ブラン�
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
-msgstr "<ct=0x0000FF><b>全ての</b>スタッシュを削除しても宜しいですか？</ct>"
+msgstr "<ct=0x0000FF>本当に<b>全ての</b>スタッシュを削除しても宜しいですか？</ct>"
 
 #. Resource IDs: (72)
 msgid "<ct=0x0000FF>Stash Apply failed!!!</ct>"
@@ -1988,15 +1988,15 @@ msgstr "割り当て:"
 
 #. Resource IDs: (10)
 msgid "Assume Unchanged"
-msgstr "変更されていないものとみなす"
+msgstr "変更なしとみなす (assume-unchanged)"
 
 #. Resource IDs: (1550)
 msgid "Assume valid/unchanged"
-msgstr "変更されていないものとみなす (assume-unchanged)"
+msgstr "変更なしとみなす (assume-unchanged)"
 
 #. Resource IDs: (1550)
 msgid "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
-msgstr "変更されていないものとみなす (TortoiseSVNでは\"Needs-lock\")"
+msgstr "\"assume-unchanged\" (TortoiseSVNでは\"ロックが必要\")"
 
 #. Resource IDs: (32792)
 msgid "At file &creation"
@@ -2106,7 +2106,7 @@ msgstr "エラーがなければ自動的に閉じる"
 
 #. Resource IDs: (222)
 msgid "Auto-close if no further options are available"
-msgstr ""
+msgstr "他のオプションがなければ自動的に閉じる"
 
 #. Resource IDs: (222)
 msgid "Auto-close if no merges, adds or deletes"
@@ -2312,7 +2312,7 @@ msgstr "バグID"
 
 #. Resource IDs: (1578)
 msgid "Bug-ID e&xpression:"
-msgstr ""
+msgstr "バグIDの正規表現(&X):"
 
 #. Resource IDs: (1119)
 msgid "Bug-ID/Issue-Nr:"
@@ -2328,7 +2328,7 @@ msgstr "BugTraq"
 
 #. Resource IDs: (327)
 msgid "Bugtraq Regex Tester - TortoiseGit"
-msgstr ""
+msgstr "Bugtraq 正規表現テスター - TortoiseGit"
 
 #. Resource IDs: (16132)
 msgid "Button Appearance"
@@ -2457,7 +2457,7 @@ msgstr "結合してコミットができません。\r\n現在のブランチ�
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr ""
+msgstr "現在のブランチは強制的にアップデート出来ません。望むなら、リセットを実行してください。"
 
 #. Resource IDs: (1)
 #, c-format
@@ -2615,11 +2615,11 @@ msgstr "チェック:"
 
 #. Resource IDs: (77)
 msgid "Checkout"
-msgstr "切り替え"
+msgstr "チェックアウト"
 
 #. Resource IDs: (93)
 msgid "Checkout with merge"
-msgstr ""
+msgstr "マージを伴うチェックアウト"
 
 #. Resource IDs: (67)
 msgid "Cherry Pick"
@@ -3713,7 +3713,7 @@ msgstr "ダイアログ"
 
 #. Resource IDs: (1789)
 msgid "Diff Options"
-msgstr ""
+msgstr "差分のオプション"
 
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
@@ -3850,7 +3850,7 @@ msgstr "ゴミ箱は使用しない"
 #. Resource IDs: (70)
 #, c-format
 msgid "Do you really want to <ct=0x0000FF>delete</ct> <b>%s</b>?"
-msgstr "<b>%s</b> をほんとに<ct=0x0000FF>削除</ct>しても宜しいですか？"
+msgstr "本当に<b>%s</b> を<ct=0x0000FF>削除</ct>しても宜しいですか？"
 
 #. Resource IDs: (1007)
 #, c-format
@@ -3859,11 +3859,11 @@ msgstr "本当にこのツールバー「%s」を削除してもよろしいで�
 
 #. Resource IDs: (88)
 msgid "Do you really want to mark the selected file(s) as assume-valid?"
-msgstr "選択したファイルを ”assume-valid” とマークして本当によろしいですか？"
+msgstr "本当に、選択したファイルを \"assume-unchanged (変更なしとみなす)\" とマークしてよろしいですか？"
 
 #. Resource IDs: (88)
 msgid "Do you really want to mark the selected file(s) as skip-worktree?"
-msgstr "選択したファイルを ”skip-worktree(作業ツリーを保持)” とマークして本当によろしいですか？"
+msgstr "本当に、選択したファイルを \"skip-worktree (作業ツリーを保持)\" とマークしてよろしいですか？"
 
 #. Resource IDs: (145)
 msgid "Do you really want to move this file or folder?"
@@ -3879,7 +3879,7 @@ msgstr "本当に選択した %d refs を完全に削除していいですか？
 #. Resource IDs: (71)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
-msgstr "\"%s\" を削除しても宜しいですか？"
+msgstr "本当に\"%s\" を削除しても宜しいですか？"
 
 #. Resource IDs: (69)
 msgid ""
@@ -3893,7 +3893,7 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "and go back to this revision? These changes will be reverted by reverse-merging the revisions into your working tree."
-msgstr "%s\nの全ての変更を本当に取り消して、このリビジョンに戻りますか？\nワーキングツリーでリビジョンをさかのぼって逆マージされて変更が取り消されます。"
+msgstr "本当に\n%s\nの全ての変更を取り消して、このリビジョンに戻りますか？\nワーキングツリーでリビジョンをさかのぼって逆マージされて変更が取り消されます。"
 
 #. Resource IDs: (76)
 #, c-format
@@ -3901,13 +3901,13 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "which were made in this revision? These changes will be reverted by reverse-merging the revision into your working tree."
-msgstr "このリビジョンで作成した\n%s\nの全ての変更を本当に取り消しますか?\nワーキングツリーでリビジョンをさかのぼって逆マージされて変更が取り消されます。"
+msgstr "本当に、このリビジョンで作成した\n%s\nの全ての変更を取り消しますか?\nワーキングツリーでリビジョンをさかのぼって逆マージされて変更が取り消されます。"
 
 #. Resource IDs: (93)
 msgid ""
 "Do you really want to unflag the selected file(s) as skip-worktree or "
 "assume-unchanged?"
-msgstr ""
+msgstr "本当に、選択したファイルから、フラグ \"assume-unchanged (変更なしとみなす)\" あるいは \"skip-worktree (作業ツリーを保持)\" を削除してよろしいですか？"
 
 #. Resource IDs: (86)
 msgid "Do you want to fetch remote branches from the newly added remote?"
@@ -4150,7 +4150,7 @@ msgstr "Gravatarを有効化"
 
 #. Resource IDs: (1788)
 msgid "Enable drag context menu"
-msgstr ""
+msgstr "ドラッグ時コンテキストメニューを有効化"
 
 #. Resource IDs: (87)
 msgid ""
@@ -5055,11 +5055,11 @@ msgstr "リポジトリを作成する際にエラーが発生しました！\n"
 
 #. Resource IDs: (2050)
 msgid "Git revision list contains the complete file history"
-msgstr ""
+msgstr "Gitリビジョンリストはファイルの完全な履歴を含みます"
 
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
-msgstr ""
+msgstr "Gitリビジョンリストはファイルの名前の変更を追跡します"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5068,7 +5068,7 @@ msgid ""
 "The \"Effective\" tab shows you the effective values for the current scope (read-only).\n"
 "Select any level to see the values stored there.\n"
 "In order to change settings select a level, enter the values and select where to store to."
-msgstr "Gitは、階層的な設定の概念を使用しています。\nすなわち、いくつかのレベルが有り、高いレベルの設定値は、低いレベルの設定値を上書きします。\n「有効値」は、現在のスコープで、結果的に使用される設定の値が表示され、これはリードオンリーです。\nレベル（ローカル/グローバル/システム）を選択すると、そのレベルの設定値が表示されます。\n設定の値を変えるには、レベルを選び、値を設定し、どこに値を保存したかを選択してください。"
+msgstr "Gitは、階層的な設定の概念を使用しています。\nすなわち、いくつかのレベルが有り、高いレベルの設定値は、低いレベルの設定値を上書きします。\n「有効値」では、現在のスコープで、結果的に使用される設定の値が表示され、これはリードオンリーです。\nローカル/グローバル/システムといったレベルを選択すると、そのレベルの設定値が表示されます。\n設定の値を変えるには、レベルを選び、値を設定し、どこに値を保存したいかを選択してください。"
 
 #. Resource IDs: (65535)
 msgid "Git.exe Path:"
@@ -5276,7 +5276,7 @@ msgstr "含めるパス(&N):"
 
 #. Resource IDs: (1580)
 msgid "IBugTraqProvider"
-msgstr ""
+msgstr "IBugTraqProvider"
 
 #. Resource IDs: (1251)
 msgid "ID"
@@ -6001,7 +6001,7 @@ msgstr "ローカルブランチ"
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
-msgstr ""
+msgstr "ローカルの変更を無視 (\"assume-unchanged (変更なしとみなす)\" もしくは \"skip-worktree (作業ツリーを保持)\" フラグが付いたファイル)"
 
 #. Resource IDs: (63)
 msgid "Local status"
@@ -6241,7 +6241,7 @@ msgstr "メッセージのみ (&Y)"
 
 #. Resource IDs: (1579)
 msgid "Message part &expression:"
-msgstr ""
+msgstr "メッセージ部の正規表現(&E):"
 
 #. Resource IDs: (116)
 msgid "Messages"
@@ -7176,11 +7176,11 @@ msgstr "フックの種類を選択してください"
 
 #. Resource IDs: (94)
 msgid "Please select branch"
-msgstr ""
+msgstr "ブランチを選択してください"
 
 #. Resource IDs: (94)
 msgid "Please select upstream"
-msgstr ""
+msgstr "上流を選択してください"
 
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
@@ -7352,15 +7352,15 @@ msgstr "プロバイダー"
 
 #. Resource IDs: (1586)
 msgid "Provider para&meters:"
-msgstr ""
+msgstr "プロバイダーのパラメーター(&M)"
 
 #. Resource IDs: (1581)
 msgid "Provider uuid win&32:"
-msgstr ""
+msgstr "プロバイダーのUUID (win&32):"
 
 #. Resource IDs: (1583)
 msgid "Provider uuid x6&4:"
-msgstr ""
+msgstr "プロバイダーのUUID (x6&4):"
 
 #. Resource IDs: (1475)
 msgid "Provider:"
@@ -7372,11 +7372,11 @@ msgstr "プロキシの設定"
 
 #. Resource IDs: (1603)
 msgid "Prune"
-msgstr ""
+msgstr "刈り取り"
 
 #. Resource IDs: (1785)
 msgid "Prune (All remotes)"
-msgstr ""
+msgstr "刈り取り (全てのリモート)"
 
 #. Resource IDs: (22, 66, 1611)
 msgid "Pull"
@@ -7412,7 +7412,7 @@ msgstr "プッシュ"
 
 #. Resource IDs: (1786)
 msgid "Push Default"
-msgstr ""
+msgstr "デフォルトのプッシュ先"
 
 #. Resource IDs: (1385)
 msgid "Push notes"
@@ -8184,11 +8184,11 @@ msgid ""
 "Fixed issue #123\n"
 "Resolves issue #88.\n"
 "Closes issue #99.\n"
-msgstr ""
+msgstr "Bugtraq の正規表現をテストするための、サンプルログメッセージ:\n\nテキストに埋め込まれた言及へのテスト: 単独の問題 issue #55。issues #77, #78, #78 への言及。さらなる問題 issues #123, #124, #125 に加え、個々の問題 Issue #45, issue #46 そして issue #47 への言及。\n\n\nissue #101 を更新。\nissue #202 を修正。\nissue #123 を修正。\nissue #88 を解決。\nissue #99 をクローズ。\n"
 
 #. Resource IDs: (1612)
 msgid "Sample text:"
-msgstr ""
+msgstr "サンプルテキスト:"
 
 #. Resource IDs: (156)
 msgid "Save"
@@ -8340,7 +8340,7 @@ msgstr "スキャン"
 
 #. Resource IDs: (1014, 1064, 1636)
 msgid "Scintilla"
-msgstr "痕跡"
+msgstr "Scintilla"
 
 #. Resource IDs: (1003)
 msgid "Scroll Left"
@@ -8419,7 +8419,7 @@ msgstr "差分用アプリケーションを選択"
 
 #. Resource IDs: (93)
 msgid "Select file"
-msgstr ""
+msgstr "ファイルを選択"
 
 #. Resource IDs: (64)
 msgid "Select folder to associate with this issue tracker"
@@ -8737,7 +8737,7 @@ msgstr "無視ファイルを表示(&G)"
 
 #. Resource IDs: (1265)
 msgid "Show ignore local changes flagged files"
-msgstr ""
+msgstr "ローカルの変更無視のフラグの付いたファイルを表示"
 
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
@@ -8859,7 +8859,7 @@ msgstr "表示/非表示"
 #. Resource IDs: (93)
 #, c-format
 msgid "Showing %1!d! ref(s), %2!d! ref(s) selected"
-msgstr ""
+msgstr "%1!d!個のrefを表示中。%2!d!個のrefを選択しています。"
 
 #. Resource IDs: (76)
 #, c-format
@@ -8921,11 +8921,11 @@ msgstr "パッチをスキップ: %s"
 
 #. Resource IDs: (11029)
 msgid "Skip worktree"
-msgstr "作業ツリーの代わりにindexを使用 (skip-worktree)"
+msgstr "作業ツリーを保持 (skip-worktree)"
 
 #. Resource IDs: (1529)
 msgid "Skip worktree (\"Locked\" in TortoiseSVN)"
-msgstr "作業ツリーの代わりにindexを使用(TortoiseSVNでは\"ロック中\")"
+msgstr "\"skip-worktree\" (TortoiseSVNでは\"ロック\")"
 
 #. Resource IDs: (74)
 msgid "Skipped"
@@ -9253,7 +9253,7 @@ msgstr "ここへ切り替え..."
 
 #. Resource IDs: (9)
 msgid "Switch/Checkout working tree to another branch/tag"
-msgstr "ワーキングツリーを別のブランチ/タグにスイッチ/チェックアウト"
+msgstr "ワーキングツリーを別のブランチ/タグに切り替え/チェックアウト"
 
 #. Resource IDs: (325)
 msgid "Switches the comparison left<->right"
@@ -9348,7 +9348,7 @@ msgstr "一時ファイル（Gravatarの画像を含む）"
 
 #. Resource IDs: (1787)
 msgid "Test"
-msgstr ""
+msgstr "テスト"
 
 #. Resource IDs: (219)
 msgid "Test Only"
@@ -9370,7 +9370,7 @@ msgid ""
 "The branch \"%s\" is a <i>remote</i> branch.\n"
 "\n"
 "Do you really want to <ct=0x0000FF>delete</ct> it?"
-msgstr "\"%s\" は <i>リモート</i>ブランチです。\n\n<ct=0x0000FF>削除</ct>しますか？"
+msgstr "\"%s\" は <i>リモート</i>ブランチです。\n\n本当に<ct=0x0000FF>削除</ct>しますか？"
 
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -9619,7 +9619,7 @@ msgid ""
 "%s\n"
 "is a special folder and is not supposed to be a repository root!\n"
 "Are you sure you want to initialize a git repository inside that folder?"
-msgstr ""
+msgstr "対象のフォルダ\n%s\nは、特別なフォルダであり、リポジトリのルートとしてサポートされません!\nそのフォルダをgitのレポジトリフォルダとして初期化していいですか？"
 
 #. Resource IDs: (88)
 #, c-format
@@ -9798,7 +9798,7 @@ msgstr "1ページ表示/2ページ表示を切り替え\n1ページ表示/2ペ�
 
 #. Resource IDs: (93)
 msgid "Toggle filters"
-msgstr ""
+msgstr "フィルタを反転"
 
 #. Resource IDs: (65535)
 msgid "Toolbar"
@@ -9941,7 +9941,7 @@ msgstr "TortoiseGitMerge %d.%d.%d.%d - %s, %s\nlibsvn_diff %d.%d.%d, %s\napr %d.
 msgid ""
 "TortoiseGitMerge cannot process this patch file. The filename \"%s\" appears"
 " more than once."
-msgstr "TortoiseGitMergeは、このパッチファイルを適用できません。ファイル名 ”%s\" が2回以上出現します。"
+msgstr "TortoiseGitMergeは、このパッチファイルを適用できません。ファイル名 \"%s\" が2回以上出現します。"
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"
@@ -10109,7 +10109,7 @@ msgstr "予期せぬファイルフォーマットです。"
 
 #. Resource IDs: (93)
 msgid "Unflag as skip-worktree and assume-unchanged"
-msgstr ""
+msgstr "フラグ assume-unchanged と skip-worktree を削除"
 
 #. Resource IDs: (1070)
 msgid "Unfold"
@@ -10553,7 +10553,7 @@ msgid ""
 "Warning: \"%s\" will be permanently deleted. It can <ct=0x0000FF><b>NOT</b></ct> be recovered!\r\n"
 "\r\n"
 "Do you really want to continue?"
-msgstr "警告: \"%s\" は完全に削除されます。 削除後は<ct=0x0000FF><b>取り消す事はできません！</b></ct>\n\n続行しますか？"
+msgstr "警告: \"%s\" は完全に削除されます。 削除後は<ct=0x0000FF><b>取り消す事はできません！</b></ct>\n\n本当に続行しますか？"
 
 #. Resource IDs: (71)
 msgid "Web"
@@ -10585,7 +10585,7 @@ msgstr "gitプロセスの実行中に進行ダイアログを閉じる場合、
 msgid ""
 "When enabled, TortoiseGit move context menu items will be available when "
 "dragging folders / files"
-msgstr ""
+msgstr "有効にすると、ファイルやフォルダをドラッグした時のコンテキストメニューを拡張します。"
 
 #. Resource IDs: (197)
 msgid ""
@@ -10597,7 +10597,7 @@ msgstr "有効にすると、コミットダイアログに表示されるバー
 msgid ""
 "When selected, Spaces will be used instead of tab\n"
 "Use spaces"
-msgstr ""
+msgstr "選択すると、タブの代わりにスペースを使用します\nスペースを使用"
 
 #. Resource IDs: (2062)
 msgid ""
@@ -10778,7 +10778,7 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr "%d 個のファイルを選択して差分表示しようとしています。それぞれのファイル毎に新しく差分ビュアーが起動します。そんなに沢山のファイルの差分を本当に同時に表示してよろしいですか？"
+msgstr "%d 個のファイルを選択して差分表示しようとしています。それぞれのファイル毎に新しく差分ビュアーが起動します。本当に、そんなに沢山のファイルの差分を一度に表示してよろしいですか？"
 
 #. Resource IDs: (169)
 msgid ""
@@ -10929,7 +10929,7 @@ msgstr "[Unassigned]"
 msgid ""
 "\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
-msgstr "”%s” はgitのリポジトリを含んでいます。これは、Box外ではサブモジュールとして機能しません。\n.git-entryを削除して、全てのファイルをトップのレポジトリに追加しますか？　それとも、サブディレクトリの中の切り離されたリポジトリとして維持しますか？"
+msgstr "\"%s\" はgitのリポジトリを含んでいます。これは、Box外ではサブモジュールとして機能しません。\n.git-entryを削除して、全てのファイルをトップのレポジトリに追加しますか？　それとも、サブディレクトリの中の切り離されたリポジトリとして維持しますか？"
 
 #. Resource IDs: (92)
 #, c-format
@@ -10980,7 +10980,7 @@ msgstr "そして、開発者たちをサポートしてください。"
 
 #. Resource IDs: (195)
 msgid "assume-valid"
-msgstr "変更されていないものとみなす"
+msgstr "assume-unchanged (変更なしとみなす)"
 
 #. Resource IDs: (245)
 msgid "author"
@@ -11206,7 +11206,7 @@ msgstr "パスをスキャン中:"
 
 #. Resource IDs: (195)
 msgid "skip-worktree"
-msgstr "作業ツリーの代わりにindexを使用"
+msgstr "skip-worktree (作業ツリーを保持)"
 
 #. Resource IDs: (208)
 #, c-format
