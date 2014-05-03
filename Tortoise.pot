@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-03-18 19:09+0000\n"
+"PO-Revision-Date: 2014-05-03 19:33+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
-"Language-Team: \n"
+"Language-Team: English (http://www.transifex.com/projects/p/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1046,6 +1046,10 @@ msgstr "&Ref:"
 #. Resource IDs: (1382)
 msgid "&Refresh"
 msgstr "&Refresh"
+
+#. Resource IDs: (20093)
+msgid "&Regular Expression"
+msgstr "&Regular Expression"
 
 #. Resource IDs: (1617)
 msgid "&Remote Branch:"
@@ -2166,6 +2170,10 @@ msgstr "Based on TortoiseIDiff of TortoiseSVN"
 msgid "Basic Info"
 msgstr "Basic Info"
 
+#. Resource IDs: (65535)
+msgid "Between files:"
+msgstr "Between files:"
+
 #. Resource IDs: (5060)
 msgid "Big5 (Traditional)"
 msgstr "Big5 (Traditional)"
@@ -2866,6 +2874,11 @@ msgstr "Commands"
 #. Resource IDs: (67, 77, 135, 229, 1083, 1383, 1514)
 msgid "Commit"
 msgstr "Commit"
+
+#. Resource IDs: (94)
+#, c-format
+msgid "Commit %s not found in \"%s\". Update submodule now?"
+msgstr "Commit %s not found in \"%s\". Update submodule now?"
 
 #. Resource IDs: (1255)
 msgid "Commit Date"
@@ -6703,6 +6716,10 @@ msgstr "Number of %s"
 msgid "Number of authors:"
 msgstr "Number of authors:"
 
+#. Resource IDs: (65535)
+msgid "Number of characters required for moved or copied line detection:"
+msgstr "Number of characters required for moved or copied line detection:"
+
 #. Resource IDs: (1160)
 msgid "Number of weeks:"
 msgstr "Number of weeks:"
@@ -7177,6 +7194,10 @@ msgstr "Please select branch"
 #. Resource IDs: (94)
 msgid "Please select upstream"
 msgstr "Please select upstream"
+
+#. Resource IDs: (94)
+msgid "Please take a look at the skipped commits"
+msgstr "Please take a look at the skipped commits"
 
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
@@ -9019,6 +9040,10 @@ msgstr "Start Rebase"
 msgid "Start bisect mode..."
 msgstr "Start bisect mode..."
 
+#. Resource IDs: (1542)
+msgid "Start registry editor"
+msgstr "Start registry editor"
+
 #. Resource IDs: (14)
 msgid "Starts a git server running git protocol"
 msgstr "Starts a git server running git protocol"
@@ -9258,6 +9283,10 @@ msgstr "Switches the comparison left<->right"
 #. Resource IDs: (1733)
 msgid "Symbolize ref names"
 msgstr "Symbolize ref names"
+
+#. Resource IDs: (11031)
+msgid "Symlink"
+msgstr "Symlink"
 
 #. Resource IDs: (22)
 msgid "Sync Remote Repositories, including pull, push, email patch and so on"
@@ -9582,6 +9611,12 @@ msgid ""
 "The process is still running.\n"
 "Are you sure to abort?"
 msgstr "The process is still running.\nAre you sure to abort?"
+
+#. Resource IDs: (70)
+msgid ""
+"The regular expression is invalid!\n"
+"Please enter a valid regular expression."
+msgstr "The regular expression is invalid!\nPlease enter a valid regular expression."
 
 #. Resource IDs: (71)
 #, c-format
@@ -10013,8 +10048,8 @@ msgid "URL"
 msgstr "URL"
 
 #. Resource IDs: (71)
-msgid "URL and directory must not be empty at the same time."
-msgstr "URL and directory must not be empty at the same time."
+msgid "URL and directory must not be empty."
+msgstr "URL and directory must not be empty."
 
 #. Resource IDs: (1272)
 msgid "URL history"
@@ -10695,6 +10730,10 @@ msgstr "Windows-1257"
 #. Resource IDs: (5028)
 msgid "Windows-1258"
 msgstr "Windows-1258"
+
+#. Resource IDs: (65535)
+msgid "Within a file:"
+msgstr "Within a file:"
 
 #. Resource IDs: (2054)
 msgid "Within file"
