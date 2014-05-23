@@ -8,7 +8,7 @@
 # adem4ik, 2014
 # Arioch <the_Arioch@nm.ru>, 2012-2013
 # Arkadiy Shapkin <arkadiy_s@inbox.ru>, 2011
-# KOLANICH <c770453@rmqkr.net>, 2013
+# KOLANICH <c770453@rmqkr.net>, 2013-2014
 # _deniska <denis_levin@mail.ru>, 2011
 # Dmitry Sytkov <sytkov@gmail.com>, 2011
 # Герман Борисов <borisov.german@gmail.com>, 2012-2013
@@ -27,8 +27,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-05-20 09:11+0000\n"
-"Last-Translator: adem4ik\n"
+"PO-Revision-Date: 2014-05-23 18:04+0000\n"
+"Last-Translator: KOLANICH <c770453@rmqkr.net>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1067,7 +1067,7 @@ msgstr "&Обновить"
 
 #. Resource IDs: (20093)
 msgid "&Regular Expression"
-msgstr ""
+msgstr "&Регулярное выражение"
 
 #. Resource IDs: (1617)
 msgid "&Remote Branch:"
@@ -1183,7 +1183,7 @@ msgstr "&Текстовые метки"
 
 #. Resource IDs: (65535)
 msgid "&Signing key ID:"
-msgstr "&Ключ подписи:"
+msgstr "ID &ключа для подписи:"
 
 #. Resource IDs: (66)
 msgid "&Skip"
@@ -2190,7 +2190,7 @@ msgstr "Основная информация"
 
 #. Resource IDs: (65535)
 msgid "Between files:"
-msgstr ""
+msgstr "Между файлами:"
 
 #. Resource IDs: (5060)
 msgid "Big5 (Traditional)"
@@ -2896,7 +2896,7 @@ msgstr "Коммит"
 #. Resource IDs: (94)
 #, c-format
 msgid "Commit %s not found in \"%s\". Update submodule now?"
-msgstr ""
+msgstr "Коммит %s не найден в \"%s\". Обновить подмодуль сейчас?"
 
 #. Resource IDs: (1255)
 msgid "Commit Date"
@@ -6736,7 +6736,7 @@ msgstr "Количество авторов:"
 
 #. Resource IDs: (65535)
 msgid "Number of characters required for moved or copied line detection:"
-msgstr ""
+msgstr "Число символов, используемое для поиска перемещённых/копированных строк:"
 
 #. Resource IDs: (1160)
 msgid "Number of weeks:"
@@ -7215,7 +7215,7 @@ msgstr "Выберите, пожалуйста, верховую:"
 
 #. Resource IDs: (94)
 msgid "Please take a look at the skipped commits"
-msgstr ""
+msgstr "Пожалуйста гляньте пропущенные коммиты"
 
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
@@ -9060,7 +9060,7 @@ msgstr "Начать бинарный поиск..."
 
 #. Resource IDs: (1542)
 msgid "Start registry editor"
-msgstr ""
+msgstr "Запустить редактор реестра"
 
 #. Resource IDs: (14)
 msgid "Starts a git server running git protocol"
@@ -9304,7 +9304,7 @@ msgstr "Изображать символически имена ссылок"
 
 #. Resource IDs: (11031)
 msgid "Symlink"
-msgstr ""
+msgstr "Символическая ссылка"
 
 #. Resource IDs: (22)
 msgid "Sync Remote Repositories, including pull, push, email patch and so on"
@@ -9634,7 +9634,7 @@ msgstr "Процесс всё еще выполняется.\nВы действ�
 msgid ""
 "The regular expression is invalid!\n"
 "Please enter a valid regular expression."
-msgstr ""
+msgstr "Плохая, негодная регулярка!\nВведите хорошую, ну пожалуйста!"
 
 #. Resource IDs: (71)
 #, c-format
@@ -10067,7 +10067,7 @@ msgstr "URL"
 
 #. Resource IDs: (71)
 msgid "URL and directory must not be empty."
-msgstr ""
+msgstr "URL и папка не должны пустовать."
 
 #. Resource IDs: (1272)
 msgid "URL history"
