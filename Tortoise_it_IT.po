@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-05-25 12:39+0000\n"
+"PO-Revision-Date: 2014-05-30 18:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Italian (Italy) (http://www.transifex.com/projects/p/tortoisegit/language/it_IT/)\n"
 "MIME-Version: 1.0\n"
@@ -2543,6 +2543,11 @@ msgstr "File modificati"
 
 #. Resource IDs: (324)
 #, c-format
+msgid "Changed files between %s and %s"
+msgstr ""
+
+#. Resource IDs: (324)
+#, c-format
 msgid "Changed files between %s, %s and %s, %s"
 msgstr "File modificati tra %s, %s e %s, %s"
 
@@ -3614,6 +3619,11 @@ msgstr ""
 
 #. Resource IDs: (4579)
 msgid "Delete remote tag - TortoiseGit"
+msgstr ""
+
+#. Resource IDs: (95)
+#, c-format
+msgid "Delete remote tags on \"%s\"..."
 msgstr ""
 
 #. Resource IDs: (86)
@@ -9398,6 +9408,10 @@ msgstr ""
 msgid "Test Only"
 msgstr "Solo Test"
 
+#. Resource IDs: (157)
+msgid "Text Files (*.txt)|*.txt|All Files (*.*)|*.*||"
+msgstr ""
+
 #. Resource IDs: (65535)
 msgid "Thai"
 msgstr ""
@@ -9793,6 +9807,12 @@ msgstr "Questa applicazione richiede il file %s, ma il file non è stato trovato
 #. Resource IDs: (15)
 msgid "This property is only allowed on folders, not files."
 msgstr "Questa proprietà è disponibile solo per le cartelle, non per i file."
+
+#. Resource IDs: (95)
+msgid ""
+"This remote name collides with fetch refspec of other remotes\n"
+"Please use another name"
+msgstr ""
 
 #. Resource IDs: (67)
 msgid "This task requires a clean working tree."

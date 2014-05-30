@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-05-25 12:40+0000\n"
+"PO-Revision-Date: 2014-05-30 18:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/projects/p/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -2528,6 +2528,11 @@ msgstr "Changed Files"
 
 #. Resource IDs: (324)
 #, c-format
+msgid "Changed files between %s and %s"
+msgstr "Changed files between %s and %s"
+
+#. Resource IDs: (324)
+#, c-format
 msgid "Changed files between %s, %s and %s, %s"
 msgstr "Changed files between %s, %s and %s, %s"
 
@@ -3600,6 +3605,11 @@ msgstr "Delete remote branch"
 #. Resource IDs: (4579)
 msgid "Delete remote tag - TortoiseGit"
 msgstr "Delete remote tag - TortoiseGit"
+
+#. Resource IDs: (95)
+#, c-format
+msgid "Delete remote tags on \"%s\"..."
+msgstr "Delete remote tags on \"%s\"..."
 
 #. Resource IDs: (86)
 msgid "Delete remote tags..."
@@ -9383,6 +9393,10 @@ msgstr "Test"
 msgid "Test Only"
 msgstr "Test Only"
 
+#. Resource IDs: (157)
+msgid "Text Files (*.txt)|*.txt|All Files (*.*)|*.*||"
+msgstr "Text Files (*.txt)|*.txt|All Files (*.*)|*.*||"
+
 #. Resource IDs: (65535)
 msgid "Thai"
 msgstr "Thai"
@@ -9778,6 +9792,12 @@ msgstr "This program requires the file %s, which was not found on this system."
 #. Resource IDs: (15)
 msgid "This property is only allowed on folders, not files."
 msgstr "This property is only allowed on folders, not files."
+
+#. Resource IDs: (95)
+msgid ""
+"This remote name collides with fetch refspec of other remotes\n"
+"Please use another name"
+msgstr "This remote name collides with fetch refspec of other remotes\nPlease use another name"
 
 #. Resource IDs: (67)
 msgid "This task requires a clean working tree."
