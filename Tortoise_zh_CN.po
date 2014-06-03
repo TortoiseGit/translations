@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-06-03 15:22+0000\n"
+"PO-Revision-Date: 2014-06-03 18:11+0000\n"
 "Last-Translator: Y.F Yang <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -80,12 +80,12 @@ msgstr "%1 包含有错误的结构。"
 #. Resource IDs: (3868)
 #, c-format
 msgid "%1 has a bad format."
-msgstr "%1 格式错误。"
+msgstr "%1 存在格式错误。"
 
 #. Resource IDs: (3867)
 #, c-format
 msgid "%1 was not found."
-msgstr "找不到 %1。"
+msgstr "未找到 %1。"
 
 #. Resource IDs: (601)
 #, c-format
@@ -135,12 +135,12 @@ msgstr "%1!d!秒前"
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Week ago"
-msgstr "%1!d!星期前"
+msgstr "%1!d!周前"
 
 #. Resource IDs: (601)
 #, c-format
 msgid "%1!d! Weeks ago"
-msgstr "%1!d!星期前"
+msgstr "%1!d!周前"
 
 #. Resource IDs: (601)
 #, c-format
@@ -671,7 +671,7 @@ msgstr "使用代理服务器(&E)"
 
 #. Resource IDs: (32976)
 msgid "&Enable edit"
-msgstr "可编辑(&E)"
+msgstr "启用编辑(&E)"
 
 #. Resource IDs: (323)
 msgid "&Export selection to..."
@@ -723,7 +723,7 @@ msgstr "强制(&F)"
 
 #. Resource IDs: (1480)
 msgid "&Force Overwrite Existing Branch (May discard changes)"
-msgstr "强制覆盖已存在的分支(可能丢失改动) (&F)"
+msgstr "强制覆盖现存的分支（可能丢弃变更） (&F)"
 
 #. Resource IDs: (1607)
 msgid "&Force Rebase"
@@ -1556,7 +1556,7 @@ msgstr "你输入的标签的名字和一个分支的名字相同，\n这可能�
 
 #. Resource IDs: (85)
 msgid "A branch with this name already exists."
-msgstr "分支名已存在"
+msgstr "此名称的分支已存在。"
 
 #. Resource IDs: (69)
 msgid ""
@@ -1600,7 +1600,7 @@ msgstr "你输入的分支的名字和一个标签的名字相同，\n这可能�
 
 #. Resource IDs: (85)
 msgid "A tag with this name already exists."
-msgstr "标签名已存在"
+msgstr "此名称的标签已存在。"
 
 #. Resource IDs: (79)
 msgid ""
@@ -2782,7 +2782,7 @@ msgstr "克隆"
 
 #. Resource IDs: (1572)
 msgid "Clone Existing Repository"
-msgstr "克隆存在的版本库"
+msgstr "克隆现存的版本库"
 
 #. Resource IDs: (22)
 msgid "Clone a repository"
@@ -3637,7 +3637,7 @@ msgstr "删除标签"
 
 #. Resource IDs: (85)
 msgid "Delete the existing branch or use a different name."
-msgstr "删除已存在的分支或者使用不同的名字"
+msgstr "删除现存的分支，或者使用不同的名字。"
 
 #. Resource IDs: (314)
 msgid ""
@@ -4169,7 +4169,7 @@ msgstr "空"
 
 #. Resource IDs: (156)
 msgid "Enable Edit"
-msgstr "可编辑"
+msgstr "启用编辑"
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -5552,7 +5552,7 @@ msgstr "如果选中该项，则如果在提交过程中发生错误，提交对
 #. Resource IDs: (194)
 msgid ""
 "If enabled, TortoiseGit checks once a week if a newer version is available"
-msgstr "如果选中此项，TortoiseGit将每周检查是否存在新版本"
+msgstr "如果选中此项，TortoiseGit 将每周检查是否有新版本可用"
 
 #. Resource IDs: (197)
 msgid ""
@@ -7028,7 +7028,7 @@ msgstr "父亲 %d"
 #. Resource IDs: (70)
 #, c-format
 msgid "Parent %d does not exist"
-msgstr "父节点%d不存在"
+msgstr "父节点 %d 不存在"
 
 #. Resource IDs: (606)
 msgid "Parent 1"
@@ -9739,7 +9739,7 @@ msgstr "除 Tortoise 所用以外，現在还有 %d 个已安装的图标覆盖�
 msgid ""
 "There are more editable views.\n"
 "What view do you want to save?"
-msgstr "有多个可编辑的视图。\n您要保存哪个视图？"
+msgstr "有多个可进行编辑的视图。\n您要保存哪个视图？"
 
 #. Resource IDs: (64)
 msgid "There are no issue-tracker providers available."
@@ -10315,7 +10315,7 @@ msgstr "使用剪贴板上的标准差异(&C)"
 
 #. Resource IDs: (85)
 msgid "Use a different name or use the \"Force\" option to overwrite it."
-msgstr "使用不同的名字或者使用“强制”选项覆盖已存在的"
+msgstr "使用不同的名字，或者使用“强制”选项覆盖已存在的。"
 
 #. Resource IDs: (85)
 msgid "Use a different name or use the \"Override branch\" option."
