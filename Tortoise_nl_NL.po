@@ -4,20 +4,20 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# duvel3 <duvel3@gmail.com>, 2013
-# duvel3 <duvel3@gmail.com>, 2013
+# Bas <duvel3@gmail.com>, 2013
+# Bas <duvel3@gmail.com>, 2013
 # Eric van Aert <ericvanaert@gmail.com>, 2012
-# GMTA <jelle@gmta.nl>, 2013
+# Jelle Raaijmakers <jelle@gmta.nl>, 2013
 # Jean-Marc van Leerdam <j.m.van.leerdam@gmail.com>, 2011-2012
-# GMTA <jelle@gmta.nl>, 2013-2014
+# Jelle Raaijmakers <jelle@gmta.nl>, 2013-2014
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # Lübbe  <luebbe.tortoisesvn@googlemail.com>, 2012
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # Maarten Hilferink <mhilferink@objectvision.nl>, 2011
 # Paul <paul@piak.nl>, 2011
 # Paul <paul@piak.nl>, 2011
-# Rvanlaak <rvanlaak@gmail.com>, 2012
-# Rvanlaak <rvanlaak@gmail.com>, 2012
+# Richard van Laak <rvanlaak@gmail.com>, 2012
+# Richard van Laak <rvanlaak@gmail.com>, 2012
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
 # W VB <vanbeirendonck.willem@gmail.com>, 2011
 msgid ""
@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-05-31 10:17+0000\n"
+"PO-Revision-Date: 2014-06-09 20:55+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/tortoisegit/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
@@ -1086,6 +1086,14 @@ msgstr "&Verwijderen"
 #. Resource IDs: (1411)
 msgid "&Remove this file from index"
 msgstr "Ve&rwijder dit bestand uit de index"
+
+#. Resource IDs: (1511)
+msgid "&Replace"
+msgstr ""
+
+#. Resource IDs: (1512)
+msgid "&Replace All"
+msgstr ""
 
 #. Resource IDs: (15)
 msgid "&Repo-browser"
@@ -7889,8 +7897,17 @@ msgid ""
 msgstr "Vervang tekst met andere tekst\nVervangen"
 
 #. Resource IDs: (65535)
+msgid "Replace with:"
+msgstr ""
+
+#. Resource IDs: (65535)
 msgid "Replace:"
 msgstr "Vervang:"
+
+#. Resource IDs: (95)
+#, c-format
+msgid "Replaced %d matches"
+msgstr ""
 
 #. Resource IDs: (74)
 msgid "Replacing"
@@ -8400,6 +8417,10 @@ msgstr "Scroll naar rechts"
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
 msgstr "Doorzoek &logboekberichten..."
+
+#. Resource IDs: (1074)
+msgid "Search &up"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Search for:"

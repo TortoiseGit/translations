@@ -5,30 +5,30 @@
 # 
 # Translators:
 # Sangjun Jung <spamcoffee+transifex@gmail.com>, 2011
-# Daniel Yun <youn.daniel@gmail.com>, 2013
-# hebory <hebory@gmail.com>, 2013
-# Hoj Gim <solum5013@gmail.com>, 2013
-# kmkh12 <kmkh12@paran.com>, 2011
-# kmkh12 <kmkh12@paran.com>, 2011
-# ks k <kmshts@gmail.com>, 2012
-# learder <learder@gmail.com>, 2012
-# learder <learder@gmail.com>, 2012
+# yun.daniel <youn.daniel@gmail.com>, 2013
+# yang <hebory@gmail.com>, 2013
+# jeiea <solum5013@gmail.com>, 2013
+# Kim KiHyeon <kmkh12@paran.com>, 2011
+# Kim KiHyeon <kmkh12@paran.com>, 2011
+# kmshts <kmshts@gmail.com>, 2012
+# Ian Yoon <learder@gmail.com>, 2012
+# Ian Yoon <learder@gmail.com>, 2012
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # omniavinco <omniavinco@gmail.com>, 2012
 # omniavinco <omniavinco@gmail.com>, 2012
 # pCsOrI <pcsori@gmail.com>, 2014
 # Sangjun Jung <spamcoffee+transifex@gmail.com>, 2011
-# Hoj Gim <solum5013@gmail.com>, 2013
+# jeiea <solum5013@gmail.com>, 2013
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013
 # TaeDong Kim <fly1004@gmail.com>, 2011,2013
-# hebory <hebory@gmail.com>, 2013
+# yang <hebory@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-05-31 10:17+0000\n"
+"PO-Revision-Date: 2014-06-09 20:56+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -1089,6 +1089,14 @@ msgstr "삭제(&R)"
 #. Resource IDs: (1411)
 msgid "&Remove this file from index"
 msgstr "&Remove this file from index"
+
+#. Resource IDs: (1511)
+msgid "&Replace"
+msgstr ""
+
+#. Resource IDs: (1512)
+msgid "&Replace All"
+msgstr ""
 
 #. Resource IDs: (15)
 msgid "&Repo-browser"
@@ -7892,7 +7900,16 @@ msgid ""
 msgstr "특정 문자열을 다른 문자열로 치환\n치환"
 
 #. Resource IDs: (65535)
+msgid "Replace with:"
+msgstr ""
+
+#. Resource IDs: (65535)
 msgid "Replace:"
+msgstr ""
+
+#. Resource IDs: (95)
+#, c-format
+msgid "Replaced %d matches"
 msgstr ""
 
 #. Resource IDs: (74)
@@ -8403,6 +8420,10 @@ msgstr "오른쪽으로 스크롤하기"
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
 msgstr "로그 메시지 검색(&l)..."
+
+#. Resource IDs: (1074)
+msgid "Search &up"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Search for:"

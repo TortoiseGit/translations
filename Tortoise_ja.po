@@ -9,17 +9,17 @@
 # Takumi Shotoku <sinsoku.listy@gmail.com>, 2012
 # Tetsuhiko Koto, 2012-2014
 # Tetsuhiko Koto, 2014
-# tt yn <tetuyano+transi@gmail.com>, 2012-2013
-# tt yn <tetuyano+transi@gmail.com>, 2013
-# tt yn <tetuyano+transi@gmail.com>, 2013
+# YANO Tetsu <tetuyano+transi@gmail.com>, 2012-2013
+# YANO Tetsu <tetuyano+transi@gmail.com>, 2013
+# YANO Tetsu <tetuyano+transi@gmail.com>, 2013
 # Yoshiharu Hirose <yh1224@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-06-02 03:37+0000\n"
-"Last-Translator: Tetsuhiko Koto\n"
+"PO-Revision-Date: 2014-06-09 20:56+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1079,6 +1079,14 @@ msgstr "削除(&R)"
 #. Resource IDs: (1411)
 msgid "&Remove this file from index"
 msgstr "このファイルをインデックスから削除(&R)"
+
+#. Resource IDs: (1511)
+msgid "&Replace"
+msgstr ""
+
+#. Resource IDs: (1512)
+msgid "&Replace All"
+msgstr ""
 
 #. Resource IDs: (15)
 msgid "&Repo-browser"
@@ -7882,8 +7890,17 @@ msgid ""
 msgstr "指定された文字列を、他の文字列に置き換える\n置換"
 
 #. Resource IDs: (65535)
+msgid "Replace with:"
+msgstr ""
+
+#. Resource IDs: (65535)
 msgid "Replace:"
 msgstr "置き換え:"
+
+#. Resource IDs: (95)
+#, c-format
+msgid "Replaced %d matches"
+msgstr ""
 
 #. Resource IDs: (74)
 msgid "Replacing"
@@ -8393,6 +8410,10 @@ msgstr "右へスクロール"
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
 msgstr "ログメッセージを検索(&L)..."
+
+#. Resource IDs: (1074)
+msgid "Search &up"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Search for:"

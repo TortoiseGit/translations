@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-05-31 10:17+0000\n"
+"PO-Revision-Date: 2014-06-09 20:56+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1076,6 +1076,14 @@ msgstr "Ent&fernen"
 #. Resource IDs: (1411)
 msgid "&Remove this file from index"
 msgstr "&Lösche diese Datei aus dem Index"
+
+#. Resource IDs: (1511)
+msgid "&Replace"
+msgstr ""
+
+#. Resource IDs: (1512)
+msgid "&Replace All"
+msgstr ""
 
 #. Resource IDs: (15)
 msgid "&Repo-browser"
@@ -7879,8 +7887,17 @@ msgid ""
 msgstr "Text ersetzen\nErsetzen"
 
 #. Resource IDs: (65535)
+msgid "Replace with:"
+msgstr ""
+
+#. Resource IDs: (65535)
 msgid "Replace:"
 msgstr "Ersetzen:"
+
+#. Resource IDs: (95)
+#, c-format
+msgid "Replaced %d matches"
+msgstr ""
 
 #. Resource IDs: (74)
 msgid "Replacing"
@@ -8391,6 +8408,10 @@ msgstr "Nach rechts rollen"
 msgid "Search &log messages..."
 msgstr "Durchsuche &Logmeldungen..."
 
+#. Resource IDs: (1074)
+msgid "Search &up"
+msgstr ""
+
 #. Resource IDs: (65535)
 msgid "Search for:"
 msgstr "Suche nach:"
@@ -8770,7 +8791,7 @@ msgstr "Zeige Dateiname"
 
 #. Resource IDs: (1782)
 msgid "Show git.exe execution timings and timestamp"
-msgstr ""
+msgstr "Zeige git.exe Laufzeiten und Zeitstempel"
 
 #. Resource IDs: (1264)
 msgid "Show i&gnored files"
