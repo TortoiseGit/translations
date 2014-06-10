@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-06-10 10:23+0000\n"
+"PO-Revision-Date: 2014-06-10 17:10+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -214,7 +214,7 @@ msgstr "已传输 %I64d KB"
 #. Resource IDs: (75)
 #, c-format
 msgid "%d commits ahead \"%s\""
-msgstr "%d 提交先于 \"%s\""
+msgstr "%d 个提交领先于 \"%s\""
 
 #. Resource IDs: (1256)
 #, c-format
@@ -1495,7 +1495,7 @@ msgstr "<b>警告：</b>这个分支被没有完全并入 HEAD。"
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
 "Do you want to a create branch now?"
-msgstr "你是否想创建分支?"
+msgstr "<ct=0x0000FF>当前的 HEAD 已分离</ct>，您正在一个 (无分支) 上工作。您想现在就创建一个分支吗。"
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -2425,7 +2425,7 @@ msgstr "不能定制菜单!"
 
 #. Resource IDs: (1001)
 msgid "Can't paste bitmap image from the clipboard!"
-msgstr "不能从剪贴板黏贴位图!"
+msgstr "不能从剪贴板粘贴位图！"
 
 #. Resource IDs: (2, 73, 1069)
 msgid "Cancel"
@@ -3898,7 +3898,7 @@ msgstr "你真想标记选择文件为 assume-valid"
 
 #. Resource IDs: (88)
 msgid "Do you really want to mark the selected file(s) as skip-worktree?"
-msgstr "你真想标记选择文件为skip-worktree(Git将不再检查他们是否更新）?"
+msgstr "您真的想标记选定的文件为 skip-worktree（跳过工作副本）吗？"
 
 #. Resource IDs: (145)
 msgid "Do you really want to move this file or folder?"
@@ -4765,7 +4765,7 @@ msgstr "完成"
 
 #. Resource IDs: (67)
 msgid "Finished rebasing."
-msgstr "完成变基"
+msgstr "变基已完成。"
 
 #. Resource IDs: (77, 219)
 msgid "Finished!"
@@ -4777,7 +4777,7 @@ msgstr "第一个父亲节点"
 
 #. Resource IDs: (119)
 msgid "First Parent Only"
-msgstr "第一个父亲节点"
+msgstr "仅第一个父亲节点"
 
 #. Resource IDs: (1617)
 msgid "First known &bad:"
@@ -4793,7 +4793,7 @@ msgstr "适合图像宽度(&W)"
 
 #. Resource IDs: (1315)
 msgid "Floppy drives (A: B:)"
-msgstr "软驱(A:B:)"
+msgstr "软驱 (A: B:)"
 
 #. Resource IDs: (1002)
 msgid "Folder"
@@ -5798,7 +5798,7 @@ msgstr "非法货币。"
 
 #. Resource IDs: (82)
 msgid "Invalid revision number!"
-msgstr "无效的修订版本号"
+msgstr "无效的修订版本号！"
 
 #. Resource IDs: (145)
 msgid ""
@@ -5994,7 +5994,7 @@ msgstr "列出帮助主题\n帮助主题"
 msgid ""
 "List a renamed file as \"long/path/{to => for}/file.txt\" instead of "
 "\"long/path/for/file.txt (from long/path/to/file.txt)\"."
-msgstr "列出重命名文件\"long/path/{to => for}/file.txt\"，而不是\"long/path/for/file.txt (from long/path/to/file.txt)\""
+msgstr "列出已更名的文件为 \"long/path/{to => for}/file.txt\"，而不是 \"long/path/for/file.txt (from long/path/to/file.txt)\""
 
 #. Resource IDs: (16631, 16992)
 msgid "List1"
@@ -7074,7 +7074,7 @@ msgstr "粘贴最近的消息..."
 msgid ""
 "Paste Tool\n"
 "Paste"
-msgstr "黏贴工具\n黏贴"
+msgstr "粘贴工具\n粘贴"
 
 #. Resource IDs: (172)
 msgid "Paste filename list"
@@ -9659,13 +9659,13 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr "路径\n%s\n似乎不符合补丁文件中的路径\n但是TortoiseGitMerge找到更好的路径\n%s. \n你想使用建议的路径吗?"
+msgstr "路径\n%s\n似乎不符合补丁文件中的路径。\n不过 TortoiseGitMerge 找到了更好的路径\n%s。\n您想改为使用建议的路径吗？"
 
 #. Resource IDs: (91)
 msgid ""
 "The process is still running.\n"
 "Are you sure to abort?"
-msgstr "该过程仍在运行中。\n您确定要中止吗？"
+msgstr "该进程仍在运行中。\n您确定要中止吗？"
 
 #. Resource IDs: (70)
 msgid ""
@@ -10191,7 +10191,7 @@ msgstr "撤销增加..."
 msgid ""
 "Undo the last action\n"
 "Undo"
-msgstr "撤消掉上次的修改\n撤消"
+msgstr "撤消上一次操作\n撤消"
 
 #. Resource IDs: (3603)
 msgid ""
@@ -10468,7 +10468,7 @@ msgid ""
 "Use the found path.\n"
 "Apply the patch to\n"
 "%s"
-msgstr "用新找的路径。\n应用补丁于\n%s"
+msgstr "使用找到的路径。\n应用补丁至\n%s"
 
 #. Resource IDs: (314)
 #, c-format
@@ -10476,7 +10476,7 @@ msgid ""
 "Use the original path.\n"
 "Apply the patch to\n"
 "%s"
-msgstr "用原始的路径。\n应用补丁于\n%s"
+msgstr "使用原路径。\n应用补丁至\n%s"
 
 #. Resource IDs: (251)
 msgid "Use this &whole file"
@@ -10558,15 +10558,15 @@ msgstr "版本1 (较新提交时间)"
 
 #. Resource IDs: (72, 1645)
 msgid "Version 2 (Base)"
-msgstr "版本2(基础)"
+msgstr "版本2 (基础)"
 
 #. Resource IDs: (72)
 msgid "Version 2 (Base) (Newer commit time)"
-msgstr "版本2(基础) (较新提交时间)"
+msgstr "版本2 (基础) (较新提交时间)"
 
 #. Resource IDs: (1075)
 msgid "Version Information"
-msgstr "版本取信息"
+msgstr "版本信息"
 
 #. Resource IDs: (1552, 65535)
 msgid "Version:"
@@ -10665,7 +10665,7 @@ msgstr "Web"
 
 #. Resource IDs: (65535)
 msgid "Western European"
-msgstr "Western European"
+msgstr "西欧"
 
 #. Resource IDs: (198)
 msgid ""
@@ -10814,7 +10814,7 @@ msgstr "工作区改动"
 
 #. Resource IDs: (156)
 msgid "Wrap long lines"
-msgstr "换行"
+msgstr "长行折行"
 
 #. Resource IDs: (2056)
 msgid ""
@@ -10843,7 +10843,7 @@ msgstr "你可以禁止特定的图标覆盖。\n禁止图标覆盖将不设置�
 #. Resource IDs: (1001)
 #, c-format
 msgid "You can paste bitmap with the size (%d x %d) only!"
-msgstr "你只能黏贴尺寸为(%d x %d)的位图!"
+msgstr "您只能粘贴尺寸为 %d x %d 的位图！"
 
 #. Resource IDs: (1016)
 #, c-format
@@ -10911,7 +10911,7 @@ msgstr "你可以定义最多 %d 个工具。"
 
 #. Resource IDs: (170)
 msgid "You must enter a log message for the commit"
-msgstr "必须为提交输入日志信息"
+msgstr "您必须为提交输入一个日志信息"
 
 #. Resource IDs: (196)
 msgid "You must restart your system for the changes to take effect."
@@ -10919,7 +10919,7 @@ msgstr "你必须重新启动操作系统使改变生效。"
 
 #. Resource IDs: (65)
 msgid "You must select a filename for the zip-file!"
-msgstr "必须为zip文件输入一个文件名"
+msgstr "您必须为 zip 文件选择一个文件名！"
 
 #. Resource IDs: (65)
 msgid ""
@@ -11049,7 +11049,7 @@ msgstr "\"%s\" 包含一个子模块. 很可能拷贝后不能在目的目录工
 #. Resource IDs: (72)
 #, c-format
 msgid "\"%s\" is invalid."
-msgstr "\"%s\" 是非法字符"
+msgstr "\"%s\" 无效。"
 
 #. Resource IDs: (602)
 #, c-format
@@ -11060,7 +11060,7 @@ msgstr "\"%s\"不是git版本库"
 msgid ""
 "\"git am\" is still in apply mode.\n"
 "Do you want to abort?"
-msgstr "\"git am\" 仍然在应用模式.\n你想放弃吗?"
+msgstr "\"git am\" 仍然在应用模式。\n您想放弃吗？"
 
 #. Resource IDs: (65535)
 msgid "_POPUP_"
@@ -11177,7 +11177,7 @@ msgstr "外部"
 #. Resource IDs: (66)
 #, c-format
 msgid "git did not exit cleanly (exit code %d)"
-msgstr "git不能完全退出(退出码 %d)"
+msgstr "git 未能顺利结束 (退出码 %d)"
 
 #. Resource IDs: (13)
 msgid "ignored"
@@ -11277,7 +11277,7 @@ msgstr "没有找到"
 
 #. Resource IDs: (11)
 msgid "obstructed"
-msgstr "阻碍"
+msgstr "有障碍"
 
 #. Resource IDs: (3845)
 #, c-format
@@ -11302,7 +11302,7 @@ msgstr "季度"
 
 #. Resource IDs: (65535)
 msgid "renamed"
-msgstr "重命名"
+msgstr "更名"
 
 #. Resource IDs: (10)
 msgid "replaced"
