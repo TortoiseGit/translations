@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-06-09 21:25+0000\n"
+"PO-Revision-Date: 2014-06-10 10:00+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -391,7 +391,7 @@ msgstr "全部(&A)"
 
 #. Resource IDs: (3936)
 msgid "&All Branches"
-msgstr "全部分支(&A)"
+msgstr "所有分支(&A)"
 
 #. Resource IDs: (65535)
 msgid "&Application Look"
@@ -659,7 +659,7 @@ msgstr "编辑(&E)..."
 
 #. Resource IDs: (1614)
 msgid "&Email Patch"
-msgstr "Email补丁(&E)"
+msgstr "&Email补丁"
 
 #. Resource IDs: (65535)
 msgid "&Email:"
@@ -1809,7 +1809,7 @@ msgstr "所有文件 (*.*)|*.*||"
 
 #. Resource IDs: (1256)
 msgid "All Parents"
-msgstr "全部分支"
+msgstr "所有父"
 
 #. Resource IDs: (93)
 msgid "All local branches"
@@ -2052,7 +2052,7 @@ msgstr "试图写入读取中的 %1。"
 
 #. Resource IDs: (65535)
 msgid "Attention: This command affects the whole working tree!"
-msgstr "注意：这个命令影响整个工作树"
+msgstr "注意：此命令将影响整个工作副本！"
 
 #. Resource IDs: (131, 160)
 msgid "Authentication"
@@ -4169,7 +4169,7 @@ msgstr "邮件抄送地址和收件人不能同时为空"
 
 #. Resource IDs: (87)
 msgid "Emails"
-msgstr "Emails"
+msgstr "邮件地址"
 
 #. Resource IDs: (65535)
 msgid "Empty"
@@ -6228,7 +6228,7 @@ msgstr "合并复兴分支"
 msgid ""
 "Merge between original branch, working tree contents, and the branch to "
 "switch to"
-msgstr "合并原始分支、工作树内容和要切换到的分支"
+msgstr "合并原分支、工作副本内容，并将分支切换到"
 
 #. Resource IDs: (1432)
 msgid "Merge non-interactive"
@@ -7828,7 +7828,7 @@ msgstr "删除未被版本控制的目录(-d)"
 
 #. Resource IDs: (9)
 msgid "Remove untracked files from the working tree, ..."
-msgstr "从工作树中删除不受版本控制的文件"
+msgstr "从工作副本中移除未受版本控制的文件..."
 
 #. Resource IDs: (65535)
 msgid "Removed"
@@ -8753,7 +8753,7 @@ msgstr "显示作者"
 
 #. Resource IDs: (1251)
 msgid "Show branches this commit is on"
-msgstr "显示所有分支为已提交"
+msgstr "显示所有包含此提交的分支"
 
 #. Resource IDs: (1251)
 msgid "Show changes as &unified diff"
@@ -9325,7 +9325,7 @@ msgstr "切换/检出到这个..."
 
 #. Resource IDs: (9)
 msgid "Switch/Checkout working tree to another branch/tag"
-msgstr "切换/检出工作树到另一个分支/标签"
+msgstr "切换/检出工作副本到另一个分支/标签"
 
 #. Resource IDs: (325)
 msgid "Switches the comparison left<->right"
@@ -9391,7 +9391,7 @@ msgstr "标签"
 
 #. Resource IDs: (1382)
 msgid "Tag (FF)"
-msgstr "Tag (FF)"
+msgstr "标签 (FF)"
 
 #. Resource IDs: (82)
 msgid "Tag Info"
@@ -10205,7 +10205,7 @@ msgstr "预期外的文件格式。"
 
 #. Resource IDs: (93)
 msgid "Unflag as skip-worktree and assume-unchanged"
-msgstr "取消 skip-worktree和assume-unchanged标记"
+msgstr "取消 skip-worktree 和 assume-unchanged 标记"
 
 #. Resource IDs: (1070)
 msgid "Unfold"
