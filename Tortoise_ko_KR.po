@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-07-13 08:34+0000\n"
+"PO-Revision-Date: 2014-07-13 14:02+0000\n"
 "Last-Translator: jeiea <solum5013@gmail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -1326,7 +1326,7 @@ msgstr "위로(&U)"
 
 #. Resource IDs: (1253)
 msgid "&Update item to revision"
-msgstr "특정 버전으로 업데이트하기(&U)"
+msgstr "특정 리비전으로 업데이트하기(&U)"
 
 #. Resource IDs: (4567)
 msgid "&Upstream:"
@@ -1370,7 +1370,7 @@ msgstr "&ignore space change"
 
 #. Resource IDs: (88)
 msgid "(TortoiseGit default)"
-msgstr "(TortoiseGit default)"
+msgstr "(TortoiseGit 기본값)"
 
 #. Resource IDs: (85)
 #, c-format
@@ -1435,15 +1435,15 @@ msgstr "저장소 루트에 있는 .git/config"
 
 #. Resource IDs: (1691)
 msgid ".git/info/exclude"
-msgstr ".git/info/exclude"
+msgstr ".git/info/exclude 파일"
 
 #. Resource IDs: (1690)
 msgid ".gitignore in the containing directories of the items"
-msgstr ".gitignore in the containing directories of the items"
+msgstr "선택한 항목 폴더의 .gitignore 파일"
 
 #. Resource IDs: (1689)
 msgid ".gitignore in the repository root"
-msgstr ".gitignore in the repository root"
+msgstr "저장소 최상위 .gitignore 파일"
 
 #. Resource IDs: (91)
 msgid ".tgitconfig in the repository root"
@@ -1922,7 +1922,7 @@ msgstr "An external merge program used\r\nto resolve conflicted files.\r\n\r\nYo
 #. Resource IDs: (3867)
 #, c-format
 msgid "An incorrect file handle was associated with %1."
-msgstr "%1과 관련하여 잘못된 파일 핸들이 연관되어있습니다."
+msgstr "%1에 잘못된 파일 핸들이 열려있습니다."
 
 #. Resource IDs: (3843)
 msgid "An unknown error has occurred."
@@ -2021,11 +2021,11 @@ msgstr "Assume Unchanged"
 
 #. Resource IDs: (1550)
 msgid "Assume valid/unchanged"
-msgstr "Assume valid/unchanged"
+msgstr "변경 사항 무시"
 
 #. Resource IDs: (1550)
 msgid "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
-msgstr "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
+msgstr "변경 사항 무시 (TortoiseSVN의 \"읽기 전용\" 아이콘)"
 
 #. Resource IDs: (32792)
 msgid "At file &creation"
@@ -2325,7 +2325,7 @@ msgstr "찾아보기(&W)"
 
 #. Resource IDs: (21)
 msgid "Browse References"
-msgstr "Browse References"
+msgstr "참조 탐색"
 
 #. Resource IDs: (78)
 msgid "Browse for the external diff program"
@@ -2333,7 +2333,7 @@ msgstr "외부 비교 프로그램 찾아보기..."
 
 #. Resource IDs: (322)
 msgid "Browse references"
-msgstr "Browse references"
+msgstr "참조 탐색"
 
 #. Resource IDs: (1069)
 msgid "Browse..."
@@ -2689,7 +2689,7 @@ msgstr "Choose Repository"
 
 #. Resource IDs: (88)
 msgid "Chronological reversed (git default)"
-msgstr "Chronological reversed (git default)"
+msgstr "시간 내림차순 (깃 기본값)"
 
 #. Resource IDs: (4572)
 msgid "Clean"
@@ -2924,7 +2924,7 @@ msgstr "커밋 날짜"
 
 #. Resource IDs: (1255)
 msgid "Commit Email"
-msgstr "Commit Email"
+msgstr "커미터 이메일"
 
 #. Resource IDs: (603)
 msgid "Commit Finish"
@@ -2940,11 +2940,11 @@ msgstr "커밋 메시지"
 
 #. Resource IDs: (1255)
 msgid "Commit Name"
-msgstr "Commit Name"
+msgstr "커미터 이름"
 
 #. Resource IDs: (1750)
 msgid "Commit Ordering:"
-msgstr "Commit Ordering:"
+msgstr "커밋 순서:"
 
 #. Resource IDs: (1110)
 msgid "Commit to:"
@@ -3025,7 +3025,7 @@ msgstr "차이점을 비교할 때 모든 공백문자를 비교\n공백문자 �
 msgid ""
 "Compares the file with the last committed revision to show you the changes "
 "you made"
-msgstr "작업한 내용을 마지막 커밋된 버전과 비교하여 보여줍니다."
+msgstr "작업한 내용을 마지막으로 커밋한 리비전과 비교해 보여줍니다."
 
 #. Resource IDs: (120)
 #, c-format
@@ -3068,7 +3068,7 @@ msgstr "대체 편집기를 지정합니다. *nix계열의 줄바꿈 문자를 �
 
 #. Resource IDs: (65535)
 msgid "Configure the program used for comparing different revisions of files"
-msgstr "두 리비전 파일들의 차이점을 찾는 프로그램에 대한 설정을 합니다."
+msgstr "두 리비전의 파일들을 비교하는 프로그램을 설정합니다."
 
 #. Resource IDs: (65535)
 msgid "Configure the program used to resolve conflicted files."
@@ -5264,7 +5264,7 @@ msgstr "붙어있는 윈도우를 숨기기"
 
 #. Resource IDs: (1326)
 msgid "Hide the script while running"
-msgstr "스크립트 수행중 숨김"
+msgstr "스크립트 수행 중 숨김"
 
 #. Resource IDs: (95)
 msgid "Hide unchanged"
@@ -5585,7 +5585,7 @@ msgstr "If enabled, working tree folders which are excluded from\nshowing overla
 msgid ""
 "If set, files inside unversioned folders can be shown in the status control.\r\n"
 "The status control is used for example in the commit dialog."
-msgstr "설정하면, 버전관리대상이 아닌 폴더도 상태 컨트롤에서 보여집니다.\r\n상태 컨트롤은 커밋 대화상자안의 예제로 사용됩니다."
+msgstr "설정하면, 버전관리 대상이 아닌 폴더도 상태 컨트롤에서 보여집니다.\r\n상태 컨트롤은 커밋 대화상자안의 예제로 사용됩니다."
 
 #. Resource IDs: (196)
 msgid ""
@@ -5615,11 +5615,11 @@ msgstr ""
 
 #. Resource IDs: (1692)
 msgid "Ignore File"
-msgstr "Ignore File"
+msgstr "무시 기록 파일"
 
 #. Resource IDs: (1686)
 msgid "Ignore Type"
-msgstr "Ignore Type"
+msgstr "무시 방법"
 
 #. Resource IDs: (94)
 msgid "Ignore all space"
@@ -5645,11 +5645,11 @@ msgstr "Ignore changes\nIgnore the outside changes."
 
 #. Resource IDs: (1687)
 msgid "Ignore item(s) only in the containing folder(s)"
-msgstr "Ignore item(s) only in the containing folder(s)"
+msgstr "해당 폴더에서만 무시하기"
 
 #. Resource IDs: (1688)
 msgid "Ignore item(s) recursively"
-msgstr "Ignore item(s) recursively"
+msgstr "하위 폴더 전체에서 무시하기"
 
 #. Resource IDs: (1018)
 msgid "Ignore line &endings (recommended)"
@@ -6091,7 +6091,7 @@ msgstr "로그 메시지"
 
 #. Resource IDs: (345)
 msgid "Log commit ordering"
-msgstr "Log commit ordering"
+msgstr "커밋 로그 순서"
 
 #. Resource IDs: (65535)
 msgid "Log messages"
@@ -7101,7 +7101,7 @@ msgstr "Paste last commit message"
 msgid ""
 "Pastes the svn path from the clipboard, resulting in a move (cut) or copy "
 "operation"
-msgstr "클립보드에 있는 이동(잘라내기) 혹은 복사의 결과인 svn 경로를 붙여넣습니다."
+msgstr "클립보드에 있는 이동(잘라내기) 혹은 복사의 결과인 SVN 경로를 붙여넣습니다."
 
 #. Resource IDs: (65)
 msgid "Patch"
@@ -7811,7 +7811,7 @@ msgstr "Remove &branch"
 
 #. Resource IDs: (1628)
 msgid "Remove &non-ignored untracked files (-f)"
-msgstr "버전관리하지 않는 파일 중 무시목록에 없는 파일을 지우기 [-f] (&N)"
+msgstr "미관리 파일 중 무시목록에 없는 파일을 지우기 [-f] (&N)"
 
 #. Resource IDs: (2057)
 msgid ""
@@ -7865,7 +7865,7 @@ msgstr "선택된 파일 또는 파일 마스크를 무시 목록에서 제거"
 
 #. Resource IDs: (16616)
 msgid "Rena&me..."
-msgstr "이름 변경하기(&M)..."
+msgstr "이름 바꾸기(&M)..."
 
 #. Resource IDs: (79, 1257)
 msgid "Rename"
@@ -7883,7 +7883,7 @@ msgstr "이름 바꾸기 - TortoiseGit"
 #. Resource IDs: (92)
 #, c-format
 msgid "Rename \"%s\":"
-msgstr "\"%s\"의 이름을 바꿉니다."
+msgstr "\"%s\"의 이름 변경"
 
 #. Resource IDs: (221)
 msgid "Rename/move"
@@ -7940,7 +7940,7 @@ msgstr "Request pull"
 
 #. Resource IDs: (65535)
 msgid "Requests a username and a password"
-msgstr "사용자명과 암호를 요구합니다."
+msgstr "사용자 이름과 암호를 요구합니다"
 
 #. Resource IDs: (82)
 msgid "Requires GPG and a key without passphrase."
@@ -8105,7 +8105,7 @@ msgstr "리비전 그래프(&G)"
 
 #. Resource IDs: (67)
 msgid "Revision Files"
-msgstr "이 판 파일"
+msgstr "이 리비전 파일"
 
 #. Resource IDs: (4580)
 msgid "Revision Graph"
@@ -8179,7 +8179,7 @@ msgstr "하나의 행에 버튼을 보여줍니다(&H)"
 
 #. Resource IDs: (1065)
 msgid "S&how Buttons on Two Rows"
-msgstr "두개의 행에 버튼을 보여줍니다(&H)"
+msgstr "두 개의 행에 버튼을 보여줍니다(&H)"
 
 #. Resource IDs: (17078)
 msgid "S&how Quick Access Toolbar below the Ribbon"
@@ -8506,7 +8506,7 @@ msgstr "이 이슈 트래커와 연결할 폴더를 선택하십시오."
 msgid ""
 "Select folder to export to.\n"
 "You might need to create a new folder before performing this export."
-msgstr "익스포트할 폴더 선택.\n익스포트하기 전에 폴더를 새로 만들어야 할 수도 있습니다."
+msgstr "내보낼 폴더 선택.\n내보내기 전에 폴더를 새로 만들어야 할 수도 있습니다."
 
 #. Resource IDs: (197)
 msgid "Select folder to run script for"
@@ -8682,7 +8682,7 @@ msgstr "Show &Reflog"
 
 #. Resource IDs: (1073)
 msgid "Show &Unversioned Files"
-msgstr "관리하지 않는 파일보기(&U)"
+msgstr "관리하지 않는 파일 보기(&U)"
 
 #. Resource IDs: (1208)
 msgid "Show &Whole Project"
@@ -8889,7 +8889,7 @@ msgstr "Show or hide the status bar\nToggle Status Bar"
 msgid ""
 "Show or hide the status bar\n"
 "Toggle StatusBar"
-msgstr "상태바 보기/숨기기\n상태바 토글"
+msgstr "상태 표시줄 보기/숨기기\n상태 표시줄 토글"
 
 #. Resource IDs: (3713)
 msgid ""
@@ -8940,14 +8940,14 @@ msgstr "보기/숨기기"
 #. Resource IDs: (93)
 #, c-format
 msgid "Showing %1!d! ref(s), %2!d! ref(s) selected"
-msgstr ""
+msgstr "%1!d!개의 참조 중 %2!d!개 참조 선택"
 
 #. Resource IDs: (76)
 #, c-format
 msgid ""
 "Showing %ld revision(s), from revision %s to revision %s - %ld revision(s) "
 "selected, %ld file(s) selected\r\n"
-msgstr "총 %ld개(%s에서 %s까지)버전 - %ld개 버전과 %ld개 파일을 선택했습니다\r\n"
+msgstr "총 %ld개 리비전(%s에서 %s까지) - %ld개 리비전과 %ld개 파일을 선택했습니다\r\n"
 
 #. Resource IDs: (24)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9002,11 +9002,11 @@ msgstr "Skip Patch: %s"
 
 #. Resource IDs: (11029)
 msgid "Skip worktree"
-msgstr "Skip worktree"
+msgstr "처리 안 함"
 
 #. Resource IDs: (1529)
 msgid "Skip worktree (\"Locked\" in TortoiseSVN)"
-msgstr "Skip worktree (\"Locked\" in TortoiseSVN)"
+msgstr "처리 안 함 (TortoiseSVN의 \"잠김\" 아이콘)"
 
 #. Resource IDs: (74)
 msgid "Skipped"
@@ -9066,7 +9066,7 @@ msgstr "행을 분리함"
 msgid ""
 "Split the active window into panes\n"
 "Split"
-msgstr "활성화된 창을 두개로 나누기\n분리"
+msgstr "활성화된 창을 두 개로 나누기\n분리"
 
 #. Resource IDs: (1254, 1257)
 msgid "Squash"
@@ -9106,7 +9106,7 @@ msgstr "Start bisect mode..."
 
 #. Resource IDs: (1542)
 msgid "Start registry editor"
-msgstr ""
+msgstr "레지스트리 편집기 실행"
 
 #. Resource IDs: (14)
 msgid "Starts a git server running git protocol"
@@ -9408,7 +9408,7 @@ msgstr "Tag (FF)"
 
 #. Resource IDs: (82)
 msgid "Tag Info"
-msgstr "고리표 정보"
+msgstr "꼬리표 정보"
 
 #. Resource IDs: (79)
 #, c-format
@@ -9421,7 +9421,7 @@ msgstr "꼬리표"
 
 #. Resource IDs: (65535)
 msgid "Tags:"
-msgstr "고리표:"
+msgstr "리표:"
 
 #. Resource IDs: (64)
 msgid "Tasks"
@@ -9467,7 +9467,7 @@ msgstr "The branch \"%s\" is a <i>remote</i> branch.\n\nDo you really want to <c
 
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
-msgstr "chunk 크기가 추가/제거된 라인수와 일치하지 않습니다."
+msgstr "chunk 크기가 추가/제거된 줄 수와 일치하지 않습니다."
 
 #. Resource IDs: (67)
 msgid "The commit message must not be empty."
@@ -9533,11 +9533,11 @@ msgstr "삭제 시도하는 파일\n%s\n이/가 비어 있습니다\n파일을 �
 
 #. Resource IDs: (69)
 msgid "The file is too big"
-msgstr "너무 커서 열 수가 없습니다."
+msgstr "너무 커서 열 수 없습니다."
 
 #. Resource IDs: (3857)
 msgid "The file is too large to open."
-msgstr "너무 커서 열수가 없습니다."
+msgstr "너무 커서 열 수 없습니다."
 
 #. Resource IDs: (80)
 #, c-format
@@ -9586,11 +9586,11 @@ msgstr "이미지를 볼 수 없습니다."
 msgid ""
 "The issue-tracker provider could not be created. Please check that it is "
 "installed correctly."
-msgstr "이슈 트래커 프로바이더가 생성될 수 없습니다. 정상적으로 설치되었는지 체크하십시오."
+msgstr "이슈 트래커 프로바이더를 만들 수 없습니다. 정상적으로 설치되었는지 체크하십시오."
 
 #. Resource IDs: (64)
 msgid "The issue-tracker provider was unable to validate the parameter string"
-msgstr "이슈 트레커 프로바이더가 파라메터 스트링의 유효성을 검증하기 위해서 비활성화되었습니다."
+msgstr "이슈 트래커 공급자가 문자열 인자가 유효한지 확인하기 위해 비활성화되었습니다."
 
 #. Resource IDs: (63)
 #, c-format
@@ -9808,7 +9808,7 @@ msgstr "색인"
 msgid ""
 "These are more recently saved than the currently open documents and contain "
 "changes that were made before the application closed."
-msgstr "이 문서는 최근에 열린 문서보다 더 최근에 저장되었습니다. 그리고 어플리케이션이 닫히기 전에 만들어진 변경사항을 포함하고 있습니다."
+msgstr "이 문서는 최근에 열린 문서보다 더 최근에 저장되었습니다. 그리고 프로그램이 닫히기 전에 만들어진 변경사항을 포함하고 있습니다."
 
 #. Resource IDs: (78)
 msgid "This field is required and must not be empty."
@@ -9858,7 +9858,7 @@ msgid ""
 "This will delete the record of commands you've used in this application and "
 "restore the default set of visible commands to the menus and toolbars. It "
 "will not undo any explicit customizations. Are you sure you want to do this?"
-msgstr "이것은 이 어플리케이션에서 사용된 명령들을 저장해 놓은 것을 삭제할 것입니다. 그리고 메뉴와 툴바에서 보이는 명령들을 기본 값으로 되돌릴 것입니다. 이것은 명시적으로 커스터마이징한 것을 되돌리지는 않을 것입니다. 정말로 이것을 수행하시겠습니까?"
+msgstr "이 프로그램에서 사용한 명령을 저장한 것을 삭제하고 메뉴와 툴바에서 보이는 명령을 기본 값으로 되돌립니다. 명시적으로 설정한 것을 되돌리지는 않습니다. 정말로 수행하겠습니까?"
 
 #. Resource IDs: (604)
 msgid "Three way diff"
@@ -10095,7 +10095,7 @@ msgstr "Trim right"
 
 #. Resource IDs: (251)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
-msgstr "'정리'를 하십시오. 정리되지 않는다면 깨끗이 다시 체크아웃하셔야합니다."
+msgstr "'정리' 하십시오. 정리되지 않는다면 깨끗이 다시 체크아웃하셔야합니다."
 
 #. Resource IDs: (73)
 msgid "Try again"
@@ -10285,7 +10285,7 @@ msgstr "서브모듈 업데이트"
 
 #. Resource IDs: (74)
 msgid "Updated"
-msgstr "업데이트됨"
+msgstr "업데이트 됨"
 
 #. Resource IDs: (3849)
 msgid "Updating ActiveX objects"
@@ -10369,7 +10369,7 @@ msgstr "오른쪽 전에 왼쪽의 블럭을 사용합니다."
 msgid ""
 "Use block from left view before block from right view\n"
 "Use block from left before right"
-msgstr "오른쪽 창의 블럭전에 왼쪽 창의 블럭을 사용합니다.\n오른쪽 전에 왼쪽 블럭을 사용"
+msgstr "오른쪽 창의 블럭 전에 왼쪽 창의 블럭을 사용합니다.\n오른쪽 전에 왼쪽 블럭을 사용"
 
 #. Resource IDs: (32859)
 msgid "Use block from right before left"
@@ -10379,7 +10379,7 @@ msgstr "왼쪽 전에 오른쪽 블럭을 사용합니다."
 msgid ""
 "Use block from right view before block from left view\n"
 "Use block from right before left"
-msgstr "왼쪽 창의 블럭전에 오른쪽 창의 블럭을 사용합니다.\n왼쪽 전에 오른쪽 블럭을 사용"
+msgstr "왼쪽 창의 블럭 전에 오른쪽 창의 블럭을 사용합니다.\n왼쪽 전에 오른쪽 블럭을 사용"
 
 #. Resource IDs: (251)
 msgid "Use both text blocks (this one first)"
@@ -10451,13 +10451,13 @@ msgstr "'작업 사본'의 텍스트 블럭 사용\n'작업 사본'의 텍스트
 
 #. Resource IDs: (251)
 msgid "Use text block from 't&heirs' before 'mine'"
-msgstr "'작업사본' 텍스트를 사용하기 전에 '저장소'의 텍스트 블럭을 사용(&H)"
+msgstr "'작업 사본' 텍스트를 사용하기 전에 '저장소'의 텍스트 블럭을 사용(&H)"
 
 #. Resource IDs: (2052)
 msgid ""
 "Use text block from 'theirs' before 'mine'\n"
 "Use 'theirs' text block then 'mine'"
-msgstr "'작업사본' 텍스트를 사용하기 전에 '저장소'의 텍스트 블럭 사용\n'저장소'의 텍스트 블럭을 사용후에 '작업 사본'의 텍스트를 사용"
+msgstr "'작업 사본' 텍스트를 사용하기 전에 '저장소'의 텍스트 블럭 사용\n'저장소'의 텍스트 블럭을 사용후에 '작업 사본'의 텍스트를 사용"
 
 #. Resource IDs: (2052)
 msgid ""
@@ -10469,7 +10469,7 @@ msgstr "'저장소'의 텍스트 블럭 사용\n'저장소'의 텍스트 블럭 
 msgid ""
 "Use text block from the left view\n"
 "Use left block"
-msgstr "왼쪽창의 텍스트 블럭을 사용합니다.\n왼쪽 블럭 사용"
+msgstr "왼쪽 창의 텍스트 블럭을 사용합니다.\n왼쪽 블럭 사용"
 
 #. Resource IDs: (251)
 msgid "Use th&is text block"
@@ -10615,7 +10615,7 @@ msgstr "웹 브라우저에서 해당 경로의 리비전 보기(&W)"
 
 #. Resource IDs: (1252)
 msgid "View revision in alternative editor"
-msgstr "이 버전을 다른 편집기로 보기"
+msgstr "이 리비전을 다른 편집기로 보기"
 
 #. Resource IDs: (1717)
 msgid "View system&wide gitconfig"
@@ -11101,7 +11101,7 @@ msgstr "개발자 후원"
 
 #. Resource IDs: (195)
 msgid "assume-valid"
-msgstr "assume-valid"
+msgstr "변경사항 무시"
 
 #. Resource IDs: (245)
 msgid "author"
@@ -11198,7 +11198,7 @@ msgstr "무시됨"
 
 #. Resource IDs: (1130)
 msgid "include &untracked"
-msgstr "미버전 관리도 포함"
+msgstr "미관리 대상도 포함"
 
 #. Resource IDs: (13)
 msgid "incomplete"
@@ -11327,7 +11327,7 @@ msgstr "경로 스캔중:"
 
 #. Resource IDs: (195)
 msgid "skip-worktree"
-msgstr "skip-worktree"
+msgstr "처리 안 함"
 
 #. Resource IDs: (208)
 #, c-format
