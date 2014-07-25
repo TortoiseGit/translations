@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-06-10 05:38+0000\n"
+"PO-Revision-Date: 2014-07-25 02:28+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1082,10 +1082,6 @@ msgstr "從索引中移除此檔案(&R)"
 msgid "&Replace"
 msgstr "取代(&R)"
 
-#. Resource IDs: (1512)
-msgid "&Replace All"
-msgstr "全部取代(&A)"
-
 #. Resource IDs: (15)
 msgid "&Repo-browser"
 msgstr "檔案庫瀏覽器(&R)"
@@ -1964,6 +1960,10 @@ msgstr "阿拉伯"
 msgid "Arbitrary &URL:"
 msgstr "任意 &URL:"
 
+#. Resource IDs: (1258)
+msgid "Are you sure to reset columns?"
+msgstr "確定要重設所有欄位?"
+
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
 msgstr "確定要中止變基過程？"
@@ -2681,6 +2681,14 @@ msgstr "清除"
 msgid "Clean Type"
 msgstr "清除類型"
 
+#. Resource IDs: (96)
+msgid "Clean permanently"
+msgstr "永久刪除"
+
+#. Resource IDs: (96)
+msgid "Clean to recycle bin"
+msgstr "移到資源回收筒"
+
 #. Resource IDs: (76)
 msgid "Clean up stale remote branches"
 msgstr "清除陳舊的遠端分支"
@@ -3093,6 +3101,10 @@ msgstr "衝突: %d"
 msgid "Context Menus: "
 msgstr "快顯式選單:"
 
+#. Resource IDs: (65535)
+msgid "Context lines for patches"
+msgstr ""
+
 #. Resource IDs: (67, 73, 1564)
 msgid "Continue"
 msgstr "繼續"
@@ -3189,8 +3201,8 @@ msgid "Copying..."
 msgstr "正在複製..."
 
 #. Resource IDs: (1001)
-msgid "Copyright (C) 2009-2013 TortoiseGit"
-msgstr "版權所有 (C) 2009-2013 TortoiseGit"
+msgid "Copyright (C) 2009-2014 TortoiseGit"
+msgstr "版權所有 (C) 2009-2014 TortoiseGit"
 
 #. Resource IDs: (1254)
 msgid "Corrections"
@@ -4173,6 +4185,10 @@ msgstr "空的"
 #. Resource IDs: (156)
 msgid "Enable Edit"
 msgstr "啟用編輯"
+
+#. Resource IDs: (1510)
+msgid "Enable EditorConfig"
+msgstr ""
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -6225,10 +6241,6 @@ msgid ""
 "switch to"
 msgstr "合併原先分支、工作目錄內容及切換至的分支"
 
-#. Resource IDs: (1432)
-msgid "Merge non-interactive"
-msgstr "合併 非互動模式"
-
 #. Resource IDs: (1252)
 #, c-format
 msgid "Merge to \"%s\"..."
@@ -7881,6 +7893,10 @@ msgid ""
 "Repeat"
 msgstr "重覆上次動作\n重覆"
 
+#. Resource IDs: (1512)
+msgid "Replace &All"
+msgstr "全部取代(&A)"
+
 #. Resource IDs: (3603)
 msgid ""
 "Replace specific text with different text\n"
@@ -8210,6 +8226,10 @@ msgstr "SVN 獲取"
 #. Resource IDs: (21)
 msgid "SVN Rebase"
 msgstr "SVN 變基"
+
+#. Resource IDs: (1256)
+msgid "SVN Rev"
+msgstr "SVN 版本"
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -9029,6 +9049,10 @@ msgstr "TortoiseGitMerge 開啟中的檔案有外部變更。\n是否要重新�
 #. Resource IDs: (1126)
 msgid "Sort by commit count"
 msgstr "依提交數排序"
+
+#. Resource IDs: (1795)
+msgid "Sort tag list in reversed order"
+msgstr "反轉標籤下拉選單的排列順序"
 
 #. Resource IDs: (196)
 msgid ""
@@ -10686,23 +10710,17 @@ msgid ""
 "dragging folders / files"
 msgstr "啟用後, 在拖曳資料夾/檔案時, 將顯示 TortoiseGit 快顯功能表移動選項"
 
+#. Resource IDs: (95)
+msgid ""
+"When enabled, larger version numbers come first. It is because latest "
+"versions are usually more useful."
+msgstr "啟用後，較大的版本號在前面，因為新版通常比較有用。"
+
 #. Resource IDs: (197)
 msgid ""
 "When enabled, the versioned items listed in the commit dialog are "
 "automatically selected"
 msgstr "啟用時, 送交視窗中, 有版本控制的項目會自動被選取."
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, Spaces will be used instead of tab\n"
-"Use spaces"
-msgstr "一律使用空白鍵而不使用 tab\n轉換為空白"
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, it tries to infer tab / spaces to use\n"
-"Smart tab char"
-msgstr "自動猜測要使用空白或是tab\n智慧 tab"
 
 #. Resource IDs: (604)
 msgid ""

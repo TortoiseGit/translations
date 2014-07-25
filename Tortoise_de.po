@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-06-09 20:56+0000\n"
+"PO-Revision-Date: 2014-07-24 23:42+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1081,10 +1081,6 @@ msgstr "&Lösche diese Datei aus dem Index"
 msgid "&Replace"
 msgstr ""
 
-#. Resource IDs: (1512)
-msgid "&Replace All"
-msgstr ""
-
 #. Resource IDs: (15)
 msgid "&Repo-browser"
 msgstr "P&rojektarchiv"
@@ -1963,6 +1959,10 @@ msgstr "Arabisch"
 msgid "Arbitrary &URL:"
 msgstr "Beliebige &URL:"
 
+#. Resource IDs: (1258)
+msgid "Are you sure to reset columns?"
+msgstr ""
+
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
 msgstr "Sind Sie sicher, dass Sie das neu Aufbauen abbrechen möchten?"
@@ -2680,6 +2680,14 @@ msgstr "Sauber"
 msgid "Clean Type"
 msgstr "Aufräummethode"
 
+#. Resource IDs: (96)
+msgid "Clean permanently"
+msgstr ""
+
+#. Resource IDs: (96)
+msgid "Clean to recycle bin"
+msgstr ""
+
 #. Resource IDs: (76)
 msgid "Clean up stale remote branches"
 msgstr "Ungültige entfernte Zweige aufräumen"
@@ -3092,6 +3100,10 @@ msgstr "Konflikte: %d"
 msgid "Context Menus: "
 msgstr "Kontextmenüs:"
 
+#. Resource IDs: (65535)
+msgid "Context lines for patches"
+msgstr ""
+
 #. Resource IDs: (67, 73, 1564)
 msgid "Continue"
 msgstr "Fortsetzen"
@@ -3188,8 +3200,8 @@ msgid "Copying..."
 msgstr "Kopiere..."
 
 #. Resource IDs: (1001)
-msgid "Copyright (C) 2009-2013 TortoiseGit"
-msgstr "Copyright (C) 2009-2013 TortoiseGit"
+msgid "Copyright (C) 2009-2014 TortoiseGit"
+msgstr ""
 
 #. Resource IDs: (1254)
 msgid "Corrections"
@@ -4172,6 +4184,10 @@ msgstr "Leer"
 #. Resource IDs: (156)
 msgid "Enable Edit"
 msgstr "Bearbeiten aktivieren"
+
+#. Resource IDs: (1510)
+msgid "Enable EditorConfig"
+msgstr ""
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -6224,10 +6240,6 @@ msgid ""
 "switch to"
 msgstr "Zusammenführen der Änderungen des original Zweigs, Arbeitsbaums und dem Zweig zu dem gewechselt werden soll"
 
-#. Resource IDs: (1432)
-msgid "Merge non-interactive"
-msgstr "Nicht interaktiv zusammenführen"
-
 #. Resource IDs: (1252)
 #, c-format
 msgid "Merge to \"%s\"..."
@@ -7880,6 +7892,10 @@ msgid ""
 "Repeat"
 msgstr "Letzte Aktion wiederholen\nWiederholen"
 
+#. Resource IDs: (1512)
+msgid "Replace &All"
+msgstr ""
+
 #. Resource IDs: (3603)
 msgid ""
 "Replace specific text with different text\n"
@@ -8209,6 +8225,10 @@ msgstr "SVN Aktualisieren"
 #. Resource IDs: (21)
 msgid "SVN Rebase"
 msgstr "SVN neu aufbauen"
+
+#. Resource IDs: (1256)
+msgid "SVN Rev"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -9028,6 +9048,10 @@ msgstr "Einige Dateien wurden außerhalb von TortoiseMerge geändert.\nWollen Si
 #. Resource IDs: (1126)
 msgid "Sort by commit count"
 msgstr "Nach Anzahl der Eintragungen sortieren"
+
+#. Resource IDs: (1795)
+msgid "Sort tag list in reversed order"
+msgstr ""
 
 #. Resource IDs: (196)
 msgid ""
@@ -10685,23 +10709,17 @@ msgid ""
 "dragging folders / files"
 msgstr "Falls aktiviert, fügt TortoiseGit Einträge zum Kontextmenü bei Drag'n'Drop Aktionen hinzu"
 
+#. Resource IDs: (95)
+msgid ""
+"When enabled, larger version numbers come first. It is because latest "
+"versions are usually more useful."
+msgstr ""
+
 #. Resource IDs: (197)
 msgid ""
 "When enabled, the versioned items listed in the commit dialog are "
 "automatically selected"
 msgstr "Aktivieren Sie diese Option, damit die versionierten Objekte im Übertragen-Dialog automatisch markiert werden."
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, Spaces will be used instead of tab\n"
-"Use spaces"
-msgstr "Leerzeichen anstelle von Tabulatoren verwenden\nVerwende Leerzeichen"
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, it tries to infer tab / spaces to use\n"
-"Smart tab char"
-msgstr "Versuche zu erkennen, ob Leerzeichen oder Tabulatoren\nIntelligenter Tabulatore"
 
 #. Resource IDs: (604)
 msgid ""

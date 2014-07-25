@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-06-10 00:07+0000\n"
-"Last-Translator: Tetsuhiko Koto\n"
+"PO-Revision-Date: 2014-07-24 23:42+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1084,10 +1084,6 @@ msgstr "このファイルをインデックスから削除(&R)"
 msgid "&Replace"
 msgstr ""
 
-#. Resource IDs: (1512)
-msgid "&Replace All"
-msgstr ""
-
 #. Resource IDs: (15)
 msgid "&Repo-browser"
 msgstr "リポジトリブラウザー(&R)"
@@ -1966,6 +1962,10 @@ msgstr "アラビア語"
 msgid "Arbitrary &URL:"
 msgstr "任意の&URL:"
 
+#. Resource IDs: (1258)
+msgid "Are you sure to reset columns?"
+msgstr ""
+
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
 msgstr "リベース処理を中断しても宜しいですか？"
@@ -2683,6 +2683,14 @@ msgstr "クリーン"
 msgid "Clean Type"
 msgstr "クリーンタイプ"
 
+#. Resource IDs: (96)
+msgid "Clean permanently"
+msgstr ""
+
+#. Resource IDs: (96)
+msgid "Clean to recycle bin"
+msgstr ""
+
 #. Resource IDs: (76)
 msgid "Clean up stale remote branches"
 msgstr "古いリモートブランチをクリーンナップ"
@@ -3095,6 +3103,10 @@ msgstr "競合: %d"
 msgid "Context Menus: "
 msgstr "コンテキストメニュー: "
 
+#. Resource IDs: (65535)
+msgid "Context lines for patches"
+msgstr ""
+
 #. Resource IDs: (67, 73, 1564)
 msgid "Continue"
 msgstr "続行"
@@ -3191,8 +3203,8 @@ msgid "Copying..."
 msgstr "コピー中..."
 
 #. Resource IDs: (1001)
-msgid "Copyright (C) 2009-2013 TortoiseGit"
-msgstr "Copyright (C) 2009-2013 TortoiseGit"
+msgid "Copyright (C) 2009-2014 TortoiseGit"
+msgstr ""
 
 #. Resource IDs: (1254)
 msgid "Corrections"
@@ -4175,6 +4187,10 @@ msgstr "空"
 #. Resource IDs: (156)
 msgid "Enable Edit"
 msgstr "編集を 有効化"
+
+#. Resource IDs: (1510)
+msgid "Enable EditorConfig"
+msgstr ""
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -6227,10 +6243,6 @@ msgid ""
 "switch to"
 msgstr "オリジナルのブランチと、作業ツリーの内容と、切り替え先のブランチとをマージする"
 
-#. Resource IDs: (1432)
-msgid "Merge non-interactive"
-msgstr "非対話的なマージ"
-
 #. Resource IDs: (1252)
 #, c-format
 msgid "Merge to \"%s\"..."
@@ -7883,6 +7895,10 @@ msgid ""
 "Repeat"
 msgstr "直前に行った操作を繰り返す\n繰り返し"
 
+#. Resource IDs: (1512)
+msgid "Replace &All"
+msgstr ""
+
 #. Resource IDs: (3603)
 msgid ""
 "Replace specific text with different text\n"
@@ -8212,6 +8228,10 @@ msgstr "SVNからフェッチ"
 #. Resource IDs: (21)
 msgid "SVN Rebase"
 msgstr "SVNリベース(ローカルへ反映)"
+
+#. Resource IDs: (1256)
+msgid "SVN Rev"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -9031,6 +9051,10 @@ msgstr "TortoiseGitMerge外でいくつかファイルに変更がありまし�
 #. Resource IDs: (1126)
 msgid "Sort by commit count"
 msgstr "コミット数でソート"
+
+#. Resource IDs: (1795)
+msgid "Sort tag list in reversed order"
+msgstr ""
 
 #. Resource IDs: (196)
 msgid ""
@@ -10688,23 +10712,17 @@ msgid ""
 "dragging folders / files"
 msgstr "有効にすると、ファイルやフォルダーをドラッグした時のコンテキストメニューを拡張します。"
 
+#. Resource IDs: (95)
+msgid ""
+"When enabled, larger version numbers come first. It is because latest "
+"versions are usually more useful."
+msgstr ""
+
 #. Resource IDs: (197)
 msgid ""
 "When enabled, the versioned items listed in the commit dialog are "
 "automatically selected"
 msgstr "有効にすると、コミットダイアログに表示されるバージョン管理中の項目が自動的に選択されるようになります。"
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, Spaces will be used instead of tab\n"
-"Use spaces"
-msgstr "選択すると、タブの代わりにスペースを使用します\nスペースを使用"
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, it tries to infer tab / spaces to use\n"
-"Smart tab char"
-msgstr "選択すると、タブ文字とスペース文字のどちらを使うか推測します\nタブ/スペースを推測"
 
 #. Resource IDs: (604)
 msgid ""

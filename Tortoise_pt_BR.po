@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-06-09 20:56+0000\n"
+"PO-Revision-Date: 2014-07-24 23:42+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -1081,10 +1081,6 @@ msgstr "&Remover este arquivo do índice"
 msgid "&Replace"
 msgstr ""
 
-#. Resource IDs: (1512)
-msgid "&Replace All"
-msgstr ""
-
 #. Resource IDs: (15)
 msgid "&Repo-browser"
 msgstr "Navegador de &repositório"
@@ -1963,6 +1959,10 @@ msgstr "Arábico"
 msgid "Arbitrary &URL:"
 msgstr "&URL:"
 
+#. Resource IDs: (1258)
+msgid "Are you sure to reset columns?"
+msgstr ""
+
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
 msgstr "Tem certeza de que quer abortar o processo de reorganização?"
@@ -2680,6 +2680,14 @@ msgstr "Limpar"
 msgid "Clean Type"
 msgstr "Limpar Tipo"
 
+#. Resource IDs: (96)
+msgid "Clean permanently"
+msgstr ""
+
+#. Resource IDs: (96)
+msgid "Clean to recycle bin"
+msgstr ""
+
 #. Resource IDs: (76)
 msgid "Clean up stale remote branches"
 msgstr "Limpar ramos remotos órfãos"
@@ -3092,6 +3100,10 @@ msgstr "Conflitos: %d"
 msgid "Context Menus: "
 msgstr "Menus de Contexto:"
 
+#. Resource IDs: (65535)
+msgid "Context lines for patches"
+msgstr ""
+
 #. Resource IDs: (67, 73, 1564)
 msgid "Continue"
 msgstr "Continuar"
@@ -3188,8 +3200,8 @@ msgid "Copying..."
 msgstr "Copiando..."
 
 #. Resource IDs: (1001)
-msgid "Copyright (C) 2009-2013 TortoiseGit"
-msgstr "Direitos de cópia (C) 2009-2013 TortoiseGit"
+msgid "Copyright (C) 2009-2014 TortoiseGit"
+msgstr ""
 
 #. Resource IDs: (1254)
 msgid "Corrections"
@@ -4172,6 +4184,10 @@ msgstr "Vazio"
 #. Resource IDs: (156)
 msgid "Enable Edit"
 msgstr "Habilitar Edição"
+
+#. Resource IDs: (1510)
+msgid "Enable EditorConfig"
+msgstr ""
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -6224,10 +6240,6 @@ msgid ""
 "switch to"
 msgstr "Mesclar entre ramo original, conteúdo da pasta de trabalho, e ramo para o qual trocar"
 
-#. Resource IDs: (1432)
-msgid "Merge non-interactive"
-msgstr "Combinação não interativa"
-
 #. Resource IDs: (1252)
 #, c-format
 msgid "Merge to \"%s\"..."
@@ -7880,6 +7892,10 @@ msgid ""
 "Repeat"
 msgstr "Repetir a última ação\nRepetir"
 
+#. Resource IDs: (1512)
+msgid "Replace &All"
+msgstr ""
+
 #. Resource IDs: (3603)
 msgid ""
 "Replace specific text with different text\n"
@@ -8209,6 +8225,10 @@ msgstr "Obter do SVN"
 #. Resource IDs: (21)
 msgid "SVN Rebase"
 msgstr "Reorganização do SVN"
+
+#. Resource IDs: (1256)
+msgid "SVN Rev"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -9028,6 +9048,10 @@ msgstr "Alguns arquivos foram alterados fora do TortoiseGitMerge.\nVocê quer ca
 #. Resource IDs: (1126)
 msgid "Sort by commit count"
 msgstr "Ordenar com contagem de submissões"
+
+#. Resource IDs: (1795)
+msgid "Sort tag list in reversed order"
+msgstr ""
 
 #. Resource IDs: (196)
 msgid ""
@@ -10685,23 +10709,17 @@ msgid ""
 "dragging folders / files"
 msgstr "Quando habilitada, o TortoiseGit move os itens do menu de contexto para estarem disponíveis quando arrastar pastas / arquivos"
 
+#. Resource IDs: (95)
+msgid ""
+"When enabled, larger version numbers come first. It is because latest "
+"versions are usually more useful."
+msgstr ""
+
 #. Resource IDs: (197)
 msgid ""
 "When enabled, the versioned items listed in the commit dialog are "
 "automatically selected"
 msgstr "Quando habilitado, os itens com controle de versão listados no diálogo de submissão serão automaticamente selecionados "
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, Spaces will be used instead of tab\n"
-"Use spaces"
-msgstr "Quando selecionada, Espaços serão usados ao invés de tabulações\nUsar espaços"
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, it tries to infer tab / spaces to use\n"
-"Smart tab char"
-msgstr "Quando selecionada, tenta identificar se usa tabulações / espaços\nCaractere de tabulação inteligente"
 
 #. Resource IDs: (604)
 msgid ""

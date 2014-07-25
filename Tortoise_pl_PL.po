@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-06-09 20:55+0000\n"
+"PO-Revision-Date: 2014-07-24 23:42+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/tortoisegit/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -1087,10 +1087,6 @@ msgstr ""
 msgid "&Replace"
 msgstr ""
 
-#. Resource IDs: (1512)
-msgid "&Replace All"
-msgstr ""
-
 #. Resource IDs: (15)
 msgid "&Repo-browser"
 msgstr "&Przeglądarka repozytorium"
@@ -1969,6 +1965,10 @@ msgstr "arabski"
 msgid "Arbitrary &URL:"
 msgstr "Dowolny &URL:"
 
+#. Resource IDs: (1258)
+msgid "Are you sure to reset columns?"
+msgstr ""
+
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
 msgstr "Czy na pewno chcesz przerwać proces zmiany bazy?"
@@ -2686,6 +2686,14 @@ msgstr "Wyczyść"
 msgid "Clean Type"
 msgstr ""
 
+#. Resource IDs: (96)
+msgid "Clean permanently"
+msgstr ""
+
+#. Resource IDs: (96)
+msgid "Clean to recycle bin"
+msgstr ""
+
 #. Resource IDs: (76)
 msgid "Clean up stale remote branches"
 msgstr ""
@@ -3098,6 +3106,10 @@ msgstr "Konflikty: %d"
 msgid "Context Menus: "
 msgstr "Menu kontekstowe: "
 
+#. Resource IDs: (65535)
+msgid "Context lines for patches"
+msgstr ""
+
 #. Resource IDs: (67, 73, 1564)
 msgid "Continue"
 msgstr "Kontynuuj"
@@ -3194,8 +3206,8 @@ msgid "Copying..."
 msgstr "Kopiowanie..."
 
 #. Resource IDs: (1001)
-msgid "Copyright (C) 2009-2013 TortoiseGit"
-msgstr "Copyright (C) 2009-2013 TortoiseGit"
+msgid "Copyright (C) 2009-2014 TortoiseGit"
+msgstr ""
 
 #. Resource IDs: (1254)
 msgid "Corrections"
@@ -4177,6 +4189,10 @@ msgstr "Pusty"
 
 #. Resource IDs: (156)
 msgid "Enable Edit"
+msgstr ""
+
+#. Resource IDs: (1510)
+msgid "Enable EditorConfig"
 msgstr ""
 
 #. Resource IDs: (1766)
@@ -6230,10 +6246,6 @@ msgid ""
 "switch to"
 msgstr ""
 
-#. Resource IDs: (1432)
-msgid "Merge non-interactive"
-msgstr "Scalaj nieinteraktywnie"
-
 #. Resource IDs: (1252)
 #, c-format
 msgid "Merge to \"%s\"..."
@@ -7886,6 +7898,10 @@ msgid ""
 "Repeat"
 msgstr "Powtarza ostatnią operację\nPowtórz"
 
+#. Resource IDs: (1512)
+msgid "Replace &All"
+msgstr ""
+
 #. Resource IDs: (3603)
 msgid ""
 "Replace specific text with different text\n"
@@ -8214,6 +8230,10 @@ msgstr "SVN Pobierz"
 
 #. Resource IDs: (21)
 msgid "SVN Rebase"
+msgstr ""
+
+#. Resource IDs: (1256)
+msgid "SVN Rev"
 msgstr ""
 
 #. Resource IDs: (65535)
@@ -9034,6 +9054,10 @@ msgstr "Niektóre pliki zostały zmienione poza programem TortoiseGitMerge.\nCzy
 #. Resource IDs: (1126)
 msgid "Sort by commit count"
 msgstr "Posortuj wg liczby zapisów"
+
+#. Resource IDs: (1795)
+msgid "Sort tag list in reversed order"
+msgstr ""
 
 #. Resource IDs: (196)
 msgid ""
@@ -10691,23 +10715,17 @@ msgid ""
 "dragging folders / files"
 msgstr ""
 
+#. Resource IDs: (95)
+msgid ""
+"When enabled, larger version numbers come first. It is because latest "
+"versions are usually more useful."
+msgstr ""
+
 #. Resource IDs: (197)
 msgid ""
 "When enabled, the versioned items listed in the commit dialog are "
 "automatically selected"
 msgstr "Kiedy włączone, elementy poddane kontroli wersji pokazane w oknie zatwierdzania zmian będą automatycznie zaznaczone"
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, Spaces will be used instead of tab\n"
-"Use spaces"
-msgstr ""
-
-#. Resource IDs: (2062)
-msgid ""
-"When selected, it tries to infer tab / spaces to use\n"
-"Smart tab char"
-msgstr ""
 
 #. Resource IDs: (604)
 msgid ""
