@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-07-24 23:42+0000\n"
+"PO-Revision-Date: 2014-07-29 12:59+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Bulgarian (Bulgaria) (http://www.transifex.com/projects/p/tortoisegit/language/bg_BG/)\n"
 "MIME-Version: 1.0\n"
@@ -47,13 +47,8 @@ msgstr "# автори, показани поотделно:"
 
 #. Resource IDs: (357)
 #, c-format
-msgid "%.2f MBytes transferred"
-msgstr "%.2f мегабайта прехвърлени"
-
-#. Resource IDs: (357)
-#, c-format
-msgid "%.2f kBytes/s"
-msgstr "%.2f килобайта/сек"
+msgid "%.2f MiB transferred"
+msgstr ""
 
 #. Resource IDs: (3868)
 #, c-format
@@ -201,8 +196,8 @@ msgstr "%I64d байта прехвърлени"
 
 #. Resource IDs: (357)
 #, c-format
-msgid "%I64d kBytes transferred"
-msgstr "%I64d килобайта прехвърлени"
+msgid "%I64d KiB transferred"
+msgstr ""
 
 #. Resource IDs: (75)
 #, c-format
@@ -241,11 +236,6 @@ msgid ""
 "click to toggle alpha\n"
 "double click to automatically toggle alpha"
 msgstr "%i%% alpha\nкликни за да включиш алфа\nкликни два пъти за да избереш алфа автоматчно"
-
-#. Resource IDs: (357)
-#, c-format
-msgid "%ld Bytes/s"
-msgstr "%ld байта/с"
 
 #. Resource IDs: (226)
 #, c-format
@@ -6879,6 +6869,10 @@ msgstr "Един или повече файлове са в конфликтно
 
 #. Resource IDs: (1542)
 msgid "Only Current Branch"
+msgstr ""
+
+#. Resource IDs: (1543)
+msgid "Only Local Branches"
 msgstr ""
 
 #. Resource IDs: (1256)

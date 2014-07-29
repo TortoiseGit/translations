@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-07-26 09:03+0000\n"
+"PO-Revision-Date: 2014-07-29 15:27+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -54,13 +54,8 @@ msgstr "# 作者单独显示:"
 
 #. Resource IDs: (357)
 #, c-format
-msgid "%.2f MBytes transferred"
-msgstr "已传输 %.2f MB"
-
-#. Resource IDs: (357)
-#, c-format
-msgid "%.2f kBytes/s"
-msgstr "%.2f kBytes/s"
+msgid "%.2f MiB transferred"
+msgstr "已传输 %.2f MiB"
 
 #. Resource IDs: (3868)
 #, c-format
@@ -208,8 +203,8 @@ msgstr "已传输 %I64d 字节"
 
 #. Resource IDs: (357)
 #, c-format
-msgid "%I64d kBytes transferred"
-msgstr "已传输 %I64d KB"
+msgid "%I64d KiB transferred"
+msgstr "已传输 %I64d KiB"
 
 #. Resource IDs: (75)
 #, c-format
@@ -248,11 +243,6 @@ msgid ""
 "click to toggle alpha\n"
 "double click to automatically toggle alpha"
 msgstr "%i%% alpha\n单击以切换 alpha\n双击以自动切换 alpha"
-
-#. Resource IDs: (357)
-#, c-format
-msgid "%ld Bytes/s"
-msgstr "%ld Bytes/s"
 
 #. Resource IDs: (226)
 #, c-format
@@ -6887,6 +6877,10 @@ msgstr "至少还有一个的文件处于冲突状态。"
 #. Resource IDs: (1542)
 msgid "Only Current Branch"
 msgstr "仅对当前分支"
+
+#. Resource IDs: (1543)
+msgid "Only Local Branches"
+msgstr "仅本地分支"
 
 #. Resource IDs: (1256)
 msgid "Only Merged Files"

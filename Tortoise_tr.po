@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-07-24 23:42+0000\n"
+"PO-Revision-Date: 2014-07-29 12:59+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -56,13 +56,8 @@ msgstr "# yazarların bireysel gösterimi:"
 
 #. Resource IDs: (357)
 #, c-format
-msgid "%.2f MBytes transferred"
-msgstr "%.2f MByte yollandı"
-
-#. Resource IDs: (357)
-#, c-format
-msgid "%.2f kBytes/s"
-msgstr "%.2f kByte/sn"
+msgid "%.2f MiB transferred"
+msgstr ""
 
 #. Resource IDs: (3868)
 #, c-format
@@ -210,8 +205,8 @@ msgstr "%I64d Byte aktarıldı"
 
 #. Resource IDs: (357)
 #, c-format
-msgid "%I64d kBytes transferred"
-msgstr "%I64d kByte aktarıldı"
+msgid "%I64d KiB transferred"
+msgstr ""
 
 #. Resource IDs: (75)
 #, c-format
@@ -250,11 +245,6 @@ msgid ""
 "click to toggle alpha\n"
 "double click to automatically toggle alpha"
 msgstr "%i%% alfa\nalfayı değiştirmek için tıklayın\nalfayı otomatik olarak değiştirmek için çift tıklayın"
-
-#. Resource IDs: (357)
-#, c-format
-msgid "%ld Bytes/s"
-msgstr "%ld Byte/sn"
 
 #. Resource IDs: (226)
 #, c-format
@@ -6888,6 +6878,10 @@ msgstr "Bir yada daha fazla dosya çakışır durumunda."
 
 #. Resource IDs: (1542)
 msgid "Only Current Branch"
+msgstr ""
+
+#. Resource IDs: (1543)
+msgid "Only Local Branches"
 msgstr ""
 
 #. Resource IDs: (1256)
