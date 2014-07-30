@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-07-29 12:59+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-07-30 03:56+0000\n"
+"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +50,7 @@ msgstr "# 個別顯示作者："
 #. Resource IDs: (357)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr ""
+msgstr "已傳送 %.2f MiB"
 
 #. Resource IDs: (3868)
 #, c-format
@@ -199,7 +199,7 @@ msgstr "傳輸了 %I64d k位元組"
 #. Resource IDs: (357)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr ""
+msgstr "已傳送 %I64d MiB"
 
 #. Resource IDs: (75)
 #, c-format
@@ -2456,13 +2456,13 @@ msgstr "取消\n保留目前設定"
 msgid ""
 "Cannot combine commits now.\r\n"
 "Make sure you are viewing the log of your current branch and no filters are applied."
-msgstr "現在無法合併提交\r\n請確定你正在檢視當前分支及沒有套用過濾器"
+msgstr "現在無法合併提交\n請確定你正在檢視當前分支及沒有套用過濾器"
 
 #. Resource IDs: (94)
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr "將與目前分支產生同名衝突而無法新建分支. 可使用重置命令移動目前分支來達到相同結果."
+msgstr "將與當前分支產生同名衝突而無法新建分支. 可使用重置命令移動當前分支來達到相同結果."
 
 #. Resource IDs: (1)
 #, c-format
@@ -3469,11 +3469,11 @@ msgstr "目前"
 
 #. Resource IDs: (65535)
 msgid "Current Branch"
-msgstr "現在分支"
+msgstr "當前分支"
 
 #. Resource IDs: (65535)
 msgid "Current Branch:"
-msgstr "現在分支:"
+msgstr "當前分支:"
 
 #. Resource IDs: (603)
 #, c-format
@@ -3481,7 +3481,7 @@ msgid ""
 "Current branch %s is up to date\r\n"
 "\r\n"
 " If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr "現在分支%s已經是最新\n\n如果你想強制變基，請選擇下面“強制變基”選項"
+msgstr "當前分支%s已經是最新\n\n如果你想強制變基，請選擇下面“強制變基”選項"
 
 #. Resource IDs: (1113)
 msgid "Current version is:"
@@ -4829,7 +4829,7 @@ msgstr "強制建立分支/標籤，即使已存在"
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
-msgstr "儘管現在分支是你想變基到的後裔節點，也要強制變基。\r\n正常情况命令列印「現在分支已經最新(Current branch is up to date)」，然後退出。"
+msgstr "儘管當前分支是你想變基到的後裔節點，也要強制變基。\n正常情况命令列印「現在分支已經最新(Current branch is up to date)」，然後退出。"
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -6871,11 +6871,11 @@ msgstr "尚有一個以上的檔案處於衝突狀態."
 
 #. Resource IDs: (1542)
 msgid "Only Current Branch"
-msgstr "只限現在的分支"
+msgstr "只顯示當前分支"
 
 #. Resource IDs: (1543)
 msgid "Only Local Branches"
-msgstr ""
+msgstr "只顯示本地分支"
 
 #. Resource IDs: (1256)
 msgid "Only Merged Files"
@@ -7432,7 +7432,7 @@ msgstr "拉取"
 
 #. Resource IDs: (75)
 msgid "Pull requires the selected local branch to be the current branch."
-msgstr "拉取要求已選的分支為現在分支"
+msgstr "拉取要求已選的分支為當前分支"
 
 #. Resource IDs: (14)
 msgid "Pull..."
@@ -7970,7 +7970,7 @@ msgstr "重設行"
 #. Resource IDs: (64)
 #, c-format
 msgid "Reset current branch \"%s\" to"
-msgstr "重設現在分支 %s 到"
+msgstr "重設當前分支 %s 到"
 
 #. Resource IDs: (77, 207, 229)
 msgid "Resolve"
@@ -10403,7 +10403,7 @@ msgstr "使用左視窗中未被標記的內容"
 
 #. Resource IDs: (1762)
 msgid "Use local branch color for current branch"
-msgstr "現時分支用本地分支顏色"
+msgstr "當前分支用本地分支顏色"
 
 #. Resource IDs: (1432)
 msgid "Use recycle bin when reverting"
@@ -10505,7 +10505,7 @@ msgstr "全部使用另一個檔案(&f)"
 
 #. Resource IDs: (119)
 msgid "Used to amend the tip of the current branch."
-msgstr "用於修改現時分支的提示"
+msgstr "用於修改當前分支的提示"
 
 #. Resource IDs: (65535)
 msgid "User Email:"
