@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-07-29 15:27+0000\n"
+"PO-Revision-Date: 2014-07-30 21:59+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -219,12 +219,12 @@ msgstr "%d个文件修改"
 #. Resource IDs: (65)
 #, c-format
 msgid "%d files removed."
-msgstr "%d个文件删除."
+msgstr "%d个文件已删除。"
 
 #. Resource IDs: (69)
 #, c-format
 msgid "%d files reverted to %s."
-msgstr "%d个文件回滚到 %s."
+msgstr "%d个文件已回滚到 %s。"
 
 #. Resource IDs: (169)
 #, c-format
@@ -333,11 +333,11 @@ msgstr "3路合并(&3)"
 
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
-msgstr "关于TortoiseGitBlame(&A)..."
+msgstr "关于 TortoiseGitBlame(&A)..."
 
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitMerge..."
-msgstr "关于 TortoiseGitMerge...(&A)"
+msgstr "关于 TortoiseGitMerge(&A)..."
 
 #. Resource IDs: (16920)
 msgid "&Activate"
@@ -493,7 +493,7 @@ msgstr "选择命令(&C):"
 
 #. Resource IDs: (8)
 msgid "&Clean up..."
-msgstr "清理...(&C)"
+msgstr "清理(&C)..."
 
 #. Resource IDs: (57632)
 msgid "&Clear"
@@ -2150,7 +2150,7 @@ msgstr "平均"
 
 #. Resource IDs: (1003, 1011)
 msgid "B&rowse..."
-msgstr "浏览...(&B)"
+msgstr "浏览(&B)..."
 
 #. Resource IDs: (1064)
 msgid "Back"
@@ -2259,7 +2259,7 @@ msgstr "底部视图："
 
 #. Resource IDs: (1007)
 msgid "Br&owse..."
-msgstr "浏览...(&O)"
+msgstr "浏览(&O)..."
 
 #. Resource IDs: (1510)
 msgid "Branc&h:"
@@ -3416,7 +3416,7 @@ msgstr "创建拉取请求(&R)"
 
 #. Resource IDs: (8)
 msgid "Create repositor&y here..."
-msgstr "在这里创建版本库...(&Y)"
+msgstr "在这里创建版本库(&Y)..."
 
 #. Resource IDs: (85)
 msgid "Created"
@@ -6992,7 +6992,7 @@ msgstr "输出目录"
 
 #. Resource IDs: (3845)
 msgid "Output.prn"
-msgstr "输出.prn"
+msgstr "Output.prn"
 
 #. Resource IDs: (1523)
 msgid "Override branch if exists"
@@ -7074,7 +7074,7 @@ msgstr "粘贴"
 
 #. Resource IDs: (603)
 msgid "Paste Recent Message..."
-msgstr "粘贴最近的消息..."
+msgstr "粘贴近期的信息..."
 
 #. Resource IDs: (1057)
 msgid ""
@@ -7734,7 +7734,7 @@ msgstr "重新加载所有已打开的文件并且还原所有变更。\n重新�
 
 #. Resource IDs: (1660)
 msgid "Remember selection (\"svn.rmdir\" option)"
-msgstr "记住 (\"svn.rmdir\"选项)"
+msgstr "记住选择 (\"svn.rmdir\"选项)"
 
 #. Resource IDs: (1649)
 msgid "Reminder: Commit your change after resolve"
@@ -7945,7 +7945,7 @@ msgstr "需要GPG和一个没有密码的密钥"
 
 #. Resource IDs: (8)
 msgid "Res&olve..."
-msgstr "解决冲突...(&O)"
+msgstr "解决冲突(&O)..."
 
 #. Resource IDs: (317)
 msgid "Reset"
@@ -9363,7 +9363,7 @@ msgstr "同步远端版本库，包括拉取，推送，发送补丁等等"
 
 #. Resource IDs: (22)
 msgid "Sync..."
-msgstr "同步.."
+msgstr "同步..."
 
 #. Resource IDs: (89)
 msgid "System"
@@ -9468,7 +9468,7 @@ msgid ""
 "The branch \"%s\" is a <i>remote</i> branch.\n"
 "\n"
 "Do you really want to <ct=0x0000FF>delete</ct> it?"
-msgstr "分支\"%s\"是一个<i>远程分支</i>.\n\n你真的想<ct=0x0000FF>删除</ct>吗?"
+msgstr "分支\"%s\"是一个<i>远程分支</i>。\n\n你真的想<ct=0x0000FF>删除</ct>吗？"
 
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -9696,7 +9696,7 @@ msgstr "该正则表达式是无效的！\n请输入一个有效的正则表达�
 msgid ""
 "The remote \"%s\" already exists.\n"
 "Do you want to overwrite it?"
-msgstr "远端\"%s\"已经存在.\n你想覆盖吗?"
+msgstr "远端\"%s\"已经存在。\n你想覆盖它吗？"
 
 #. Resource IDs: (80)
 msgid "The repository was successfully created."
@@ -9961,7 +9961,7 @@ msgid ""
 "The commit dialog cannot handle this.\n"
 "\n"
 "Do you want to remove it from the index?"
-msgstr "TortoiseGit 检查到文件 \"%s\" 不存在, 但是标记为 \"添加\".\n提交对话框不能处理这种情况.\n\n你想从索引中删除它吗？"
+msgstr "TortoiseGit 检查到文件 \"%s\" 不存在，但是已标记为“添加”。\n提交对话框不能处理这种情况。\n\n你想从索引中删除它吗？"
 
 #. Resource IDs: (98)
 #, c-format
@@ -9988,7 +9988,7 @@ msgstr "TortoiseGitBlame"
 msgid ""
 "TortoiseGitBlame was already initialized for the repository \"%s\". Cannot "
 "switch to another repository (\"%s\") at runtime."
-msgstr "TortoiseGitBlame 已经配置成版本库 \"%s\".  不能动态切换到版本库 (\"%s\") 。"
+msgstr "TortoiseGitBlame 已经配置成版本库 \"%s\"。不能动态切换到版本库 (\"%s\") 。"
 
 #. Resource IDs: (1)
 #, c-format
