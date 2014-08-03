@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-07-29 12:59+0000\n"
+"PO-Revision-Date: 2014-08-03 21:42+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -56,12 +56,12 @@ msgstr "! %d"
 
 #. Resource IDs: (1262)
 msgid "# authors shown individually:"
-msgstr "# число отдельных авторов:"
+msgstr "# отдельных авторов:"
 
 #. Resource IDs: (357)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr ""
+msgstr "%.2f МиБ передано"
 
 #. Resource IDs: (3868)
 #, c-format
@@ -210,7 +210,7 @@ msgstr "%I64d Байт передано"
 #. Resource IDs: (357)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr ""
+msgstr "%I64d КиБ передано"
 
 #. Resource IDs: (75)
 #, c-format
@@ -268,7 +268,7 @@ msgstr "%s - до ревизии: %d"
 #. Resource IDs: (3887)
 #, c-format
 msgid "%s [Recovered]"
-msgstr "%s [Возвращено]"
+msgstr "%s [Восстановлено]"
 
 #. Resource IDs: (226)
 #, c-format
@@ -1347,6 +1347,10 @@ msgstr "&В файле"
 msgid "&ignore space change"
 msgstr "&Игнорировать изменения пробелов"
 
+#. Resource IDs: (1498)
+msgid "&known changes"
+msgstr ""
+
 #. Resource IDs: (88)
 msgid "(TortoiseGit default)"
 msgstr "(по умолчанию в TortoiseGit)"
@@ -1963,7 +1967,7 @@ msgstr "Произвольный &URL:"
 
 #. Resource IDs: (1258)
 msgid "Are you sure to reset columns?"
-msgstr ""
+msgstr "Вы уверены, что хотите восстановить состав столбцов?"
 
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
@@ -2684,11 +2688,11 @@ msgstr "Тип очистки"
 
 #. Resource IDs: (96)
 msgid "Clean permanently"
-msgstr ""
+msgstr "Удалить навсегда"
 
 #. Resource IDs: (96)
 msgid "Clean to recycle bin"
-msgstr ""
+msgstr "Удалить в мусорную корзину"
 
 #. Resource IDs: (76)
 msgid "Clean up stale remote branches"
@@ -3104,7 +3108,7 @@ msgstr "Контекстные меню:"
 
 #. Resource IDs: (65535)
 msgid "Context lines for patches"
-msgstr ""
+msgstr "Контекстные строки для исправлений"
 
 #. Resource IDs: (67, 73, 1564)
 msgid "Continue"
@@ -3203,7 +3207,7 @@ msgstr "Копирование..."
 
 #. Resource IDs: (1001)
 msgid "Copyright (C) 2009-2014 TortoiseGit"
-msgstr ""
+msgstr "Авторские права (C) 2009-2014 TortoiseGit"
 
 #. Resource IDs: (1254)
 msgid "Corrections"
@@ -4189,7 +4193,7 @@ msgstr "Разрешить редактирование"
 
 #. Resource IDs: (1510)
 msgid "Enable EditorConfig"
-msgstr ""
+msgstr "Включить EditorConfig"
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -4836,11 +4840,29 @@ msgid ""
 "Force creation of branch/tag - even if one with same name already exists."
 msgstr "Принудительное создание ветви/метки, даже если уже существует другая с таким же именем."
 
+#. Resource IDs: (96)
+msgid ""
+"Force push only if the remote reference points to the same commit as the remote tracking branch.\n"
+"This can cause the remote repository to lose commits; use it with care.\n"
+"This option corresponds to the --force-with-lease git option."
+msgstr ""
+
 #. Resource IDs: (603)
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
 msgstr "Принудительно переместить, даже если текущая ветвь является потомком коммита, на который вы хотите переместить.\nОбычно, в такой ситуации, перемещение завершится сообщением \"Текущая ветвь в актуальном состоянии\"."
+
+#. Resource IDs: (1796)
+msgid "Force: May discard"
+msgstr ""
+
+#. Resource IDs: (1796)
+msgid ""
+"Force push to the selected remote reference and override it without any safety checks.\n"
+"This can cause the remote repository to lose unseen commits; use it with care.\n"
+"This option corresponds to the --force git option."
+msgstr ""
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -6886,7 +6908,7 @@ msgstr "Только текущая ветвь"
 
 #. Resource IDs: (1543)
 msgid "Only Local Branches"
-msgstr ""
+msgstr "Только локальные ветви"
 
 #. Resource IDs: (1256)
 msgid "Only Merged Files"
@@ -7900,7 +7922,7 @@ msgstr "Повторить последнее действие\nПовторит
 
 #. Resource IDs: (1512)
 msgid "Replace &All"
-msgstr ""
+msgstr "Заменить &все"
 
 #. Resource IDs: (3603)
 msgid ""
@@ -8234,7 +8256,7 @@ msgstr "SVN Перебазирование"
 
 #. Resource IDs: (1256)
 msgid "SVN Rev"
-msgstr ""
+msgstr "рев. SVN"
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
@@ -9057,7 +9079,7 @@ msgstr "Сортировать по количеству фиксаций"
 
 #. Resource IDs: (1795)
 msgid "Sort tag list in reversed order"
-msgstr ""
+msgstr "Отсортировать список меток в обратном порядке"
 
 #. Resource IDs: (196)
 msgid ""
@@ -10719,7 +10741,7 @@ msgstr "Когда включен, пункты перемещения конт�
 msgid ""
 "When enabled, larger version numbers come first. It is because latest "
 "versions are usually more useful."
-msgstr ""
+msgstr "Если включено,  большие номера версий будут идти первыми. Потому что последние версии обычно полезнее."
 
 #. Resource IDs: (197)
 msgid ""
@@ -11354,6 +11376,10 @@ msgstr "до %1"
 #, c-format
 msgid "to %s"
 msgstr "в %s"
+
+#. Resource IDs: (1480)
+msgid "u&nknown changes"
+msgstr ""
 
 #. Resource IDs: (245)
 msgid "week"

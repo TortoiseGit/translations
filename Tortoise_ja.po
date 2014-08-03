@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-07-29 12:59+0000\n"
+"PO-Revision-Date: 2014-08-03 21:42+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1337,6 +1337,10 @@ msgstr "ファイルの中で(&W)"
 #. Resource IDs: (1657)
 msgid "&ignore space change"
 msgstr "空白の変更を無視(&I)"
+
+#. Resource IDs: (1498)
+msgid "&known changes"
+msgstr ""
 
 #. Resource IDs: (88)
 msgid "(TortoiseGit default)"
@@ -4827,11 +4831,29 @@ msgid ""
 "Force creation of branch/tag - even if one with same name already exists."
 msgstr "同じ名前がすでに存在しても、強制的にブランチ/タグを作ります。"
 
+#. Resource IDs: (96)
+msgid ""
+"Force push only if the remote reference points to the same commit as the remote tracking branch.\n"
+"This can cause the remote repository to lose commits; use it with care.\n"
+"This option corresponds to the --force-with-lease git option."
+msgstr ""
+
 #. Resource IDs: (603)
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
 msgstr "現在のブランチが、接続しようとしているコミットの子孫であっても、強制的にリベースします。\n通常、そのようなコマンドは、\"現在のブランチは最新です\" のようなメッセージを出力して終了します。"
+
+#. Resource IDs: (1796)
+msgid "Force: May discard"
+msgstr ""
+
+#. Resource IDs: (1796)
+msgid ""
+"Force push to the selected remote reference and override it without any safety checks.\n"
+"This can cause the remote repository to lose unseen commits; use it with care.\n"
+"This option corresponds to the --force git option."
+msgstr ""
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -11345,6 +11367,10 @@ msgstr "to %1"
 #, c-format
 msgid "to %s"
 msgstr "%s へ"
+
+#. Resource IDs: (1480)
+msgid "u&nknown changes"
+msgstr ""
 
 #. Resource IDs: (245)
 msgid "week"

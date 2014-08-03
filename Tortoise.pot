@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-07-29 12:59+0000\n"
+"PO-Revision-Date: 2014-08-03 21:42+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/projects/p/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -1328,6 +1328,10 @@ msgstr "&Within file"
 #. Resource IDs: (1657)
 msgid "&ignore space change"
 msgstr "&ignore space change"
+
+#. Resource IDs: (1498)
+msgid "&known changes"
+msgstr "&known changes"
 
 #. Resource IDs: (88)
 msgid "(TortoiseGit default)"
@@ -4818,11 +4822,29 @@ msgid ""
 "Force creation of branch/tag - even if one with same name already exists."
 msgstr "Force creation of branch/tag - even if one with same name already exists."
 
+#. Resource IDs: (96)
+msgid ""
+"Force push only if the remote reference points to the same commit as the remote tracking branch.\n"
+"This can cause the remote repository to lose commits; use it with care.\n"
+"This option corresponds to the --force-with-lease git option."
+msgstr "Force push only if the remote reference points to the same commit as the remote tracking branch.\nThis can cause the remote repository to lose commits; use it with care.\nThis option corresponds to the --force-with-lease git option."
+
 #. Resource IDs: (603)
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
 msgstr "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\nNormally the command will exit with the message \"Current branch is up to date\" in such a situation."
+
+#. Resource IDs: (1796)
+msgid "Force: May discard"
+msgstr "Force: May discard"
+
+#. Resource IDs: (1796)
+msgid ""
+"Force push to the selected remote reference and override it without any safety checks.\n"
+"This can cause the remote repository to lose unseen commits; use it with care.\n"
+"This option corresponds to the --force git option."
+msgstr "Force push to the selected remote reference and override it without any safety checks.\nThis can cause the remote repository to lose unseen commits; use it with care.\nThis option corresponds to the --force git option."
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -11336,6 +11358,10 @@ msgstr "to %1"
 #, c-format
 msgid "to %s"
 msgstr "to %s"
+
+#. Resource IDs: (1480)
+msgid "u&nknown changes"
+msgstr "u&nknown changes"
 
 #. Resource IDs: (245)
 msgid "week"
