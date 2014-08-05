@@ -7,6 +7,7 @@
 #  Koto <>, 2012
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013
 # Takumi Shotoku <sinsoku.listy@gmail.com>, 2012
+# Tetsuhiko Koto, 2014
 # Tetsuhiko Koto, 2012-2014
 # Tetsuhiko Koto, 2014
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2012-2013
@@ -18,8 +19,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-03 21:42+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-08-05 08:28+0000\n"
+"Last-Translator: Tetsuhiko Koto\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +53,7 @@ msgstr "別個に表示する作者の人数:"
 #. Resource IDs: (357)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr ""
+msgstr "%.2f MiB 転送しました"
 
 #. Resource IDs: (3868)
 #, c-format
@@ -201,7 +202,7 @@ msgstr "%I64d バイトを転送しました"
 #. Resource IDs: (357)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr ""
+msgstr "%I64d KiB 転送しました"
 
 #. Resource IDs: (75)
 #, c-format
@@ -1072,7 +1073,7 @@ msgstr "このファイルをインデックスから削除(&R)"
 
 #. Resource IDs: (1511)
 msgid "&Replace"
-msgstr ""
+msgstr "置き換え(&R)"
 
 #. Resource IDs: (15)
 msgid "&Repo-browser"
@@ -1340,7 +1341,7 @@ msgstr "空白の変更を無視(&I)"
 
 #. Resource IDs: (1498)
 msgid "&known changes"
-msgstr ""
+msgstr "既知の変更(&K)"
 
 #. Resource IDs: (88)
 msgid "(TortoiseGit default)"
@@ -1958,11 +1959,11 @@ msgstr "任意の&URL:"
 
 #. Resource IDs: (1258)
 msgid "Are you sure to reset columns?"
-msgstr ""
+msgstr "カラムをリセットしてよろしいですか？"
 
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr "リベース処理を中断しても宜しいですか？"
+msgstr "リベース処理を中断してもよろしいですか？"
 
 #. Resource IDs: (145)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -2679,11 +2680,11 @@ msgstr "クリーンタイプ"
 
 #. Resource IDs: (96)
 msgid "Clean permanently"
-msgstr ""
+msgstr "完全に削除する"
 
 #. Resource IDs: (96)
 msgid "Clean to recycle bin"
-msgstr ""
+msgstr "ごみ箱へ入れる"
 
 #. Resource IDs: (76)
 msgid "Clean up stale remote branches"
@@ -3198,7 +3199,7 @@ msgstr "コピー中..."
 
 #. Resource IDs: (1001)
 msgid "Copyright (C) 2009-2014 TortoiseGit"
-msgstr ""
+msgstr "Copyright (C) 2009-2014 TortoiseGit"
 
 #. Resource IDs: (1254)
 msgid "Corrections"
@@ -3883,7 +3884,7 @@ msgstr "次のパスではコンテキストメニューを表示しない"
 
 #. Resource IDs: (1730)
 msgid "Do not use recycle bin"
-msgstr "ゴミ箱は使用しない"
+msgstr "ごみ箱は使用しない"
 
 #. Resource IDs: (70)
 #, c-format
@@ -4184,7 +4185,7 @@ msgstr "編集を 有効化"
 
 #. Resource IDs: (1510)
 msgid "Enable EditorConfig"
-msgstr ""
+msgstr "エディタの設定を有効化"
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -4846,7 +4847,7 @@ msgstr "現在のブランチが、接続しようとしているコミットの
 
 #. Resource IDs: (1796)
 msgid "Force: May discard"
-msgstr ""
+msgstr "強制: 以下を失う可能性がある"
 
 #. Resource IDs: (1796)
 msgid ""
@@ -6899,7 +6900,7 @@ msgstr "現在のブランチのみ"
 
 #. Resource IDs: (1543)
 msgid "Only Local Branches"
-msgstr ""
+msgstr "ローカルブランチのみ"
 
 #. Resource IDs: (1256)
 msgid "Only Merged Files"
@@ -7913,7 +7914,7 @@ msgstr "直前に行った操作を繰り返す\n繰り返し"
 
 #. Resource IDs: (1512)
 msgid "Replace &All"
-msgstr ""
+msgstr "すべて置き換え(&A)"
 
 #. Resource IDs: (3603)
 msgid ""
@@ -7923,7 +7924,7 @@ msgstr "指定された文字列を、他の文字列に置き換える\n置換"
 
 #. Resource IDs: (65535)
 msgid "Replace with:"
-msgstr ""
+msgstr "置換後の文字列:"
 
 #. Resource IDs: (65535)
 msgid "Replace:"
@@ -10903,7 +10904,7 @@ msgstr "古いバージョンの Git for Windows (http://code.google.com/p/msysg
 msgid ""
 "You have checked \"include untracked\".\n"
 "This includes a \"git clean -fd\" call, so ignored files/directories are removed w/o using recycle bin."
-msgstr "あなたは「バージョン管理外のファイルを含む」を有効にしました。これは、「git clean -fd」の呼び出しを含むので、無視ファイルとディレクトリが、ゴミ箱に入ることなく削除されます。"
+msgstr "あなたは「バージョン管理外のファイルを含む」を有効にしました。これは、「git clean -fd」の呼び出しを含むので、無視ファイルとディレクトリが、ごみ箱に入ることなく削除されます。"
 
 #. Resource IDs: (16)
 msgid ""
