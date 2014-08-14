@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-10 20:41+0000\n"
+"PO-Revision-Date: 2014-08-14 06:06+0000\n"
 "Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "# användarnamn visade individuellt:"
 #. Resource IDs: (357)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr ""
+msgstr "%.2f MiB överfört"
 
 #. Resource IDs: (3868)
 #, c-format
@@ -150,7 +150,7 @@ msgstr "%1!d! År sedan"
 #. Resource IDs: (90)
 #, c-format
 msgid "%1!d! items selected"
-msgstr ""
+msgstr "%1!d! objekt valda"
 
 #. Resource IDs: (602)
 #, c-format
@@ -160,7 +160,7 @@ msgstr "%1!d! minuter sedan"
 #. Resource IDs: (90)
 #, c-format
 msgid "%1!s!"
-msgstr ""
+msgstr "%1!s!"
 
 #. Resource IDs: (90)
 #, c-format
@@ -199,7 +199,7 @@ msgstr "%HOME%/gitconfig eller %XDGHOME%/gitconfig"
 #. Resource IDs: (357)
 #, c-format
 msgid "%I64d Bytes transferred"
-msgstr "%I64d Bytes överförda"
+msgstr "%I64d bytes överförda"
 
 #. Resource IDs: (357)
 #, c-format
@@ -629,7 +629,7 @@ msgstr "&Redigera"
 
 #. Resource IDs: (84)
 msgid "&Edit .git/config"
-msgstr ""
+msgstr "&Redigera .git/config"
 
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
@@ -637,7 +637,7 @@ msgstr ""
 
 #. Resource IDs: (1506)
 msgid "&Edit Filter"
-msgstr ""
+msgstr "&Redigera Filter"
 
 #. Resource IDs: (12)
 msgid "&Edit conflicts"
@@ -2062,7 +2062,7 @@ msgstr "Användarnamn"
 
 #. Resource IDs: (605)
 msgid "Author Email"
-msgstr ""
+msgstr "Användarens email"
 
 #. Resource IDs: (65535)
 msgid "Author:\t\t\t\tStefan Kueng"
@@ -2966,7 +2966,7 @@ msgstr "Sparar dina ändringar i arkivet"
 
 #. Resource IDs: (605)
 msgid "Committer Email"
-msgstr ""
+msgstr "Arkiverarens email"
 
 #. Resource IDs: (170)
 msgid ""
@@ -3774,17 +3774,17 @@ msgstr "Patchfil:"
 
 #. Resource IDs: (15)
 msgid "Diff later"
-msgstr ""
+msgstr "Jämför seanre"
 
 #. Resource IDs: (15)
 #, c-format
 msgid "Diff with \"%s\""
-msgstr ""
+msgstr "Jämför med \"%s\""
 
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
-msgstr ""
+msgstr "Jämför med förälder %d"
 
 #. Resource IDs: (1302)
 msgid "Difference between"
@@ -3822,7 +3822,7 @@ msgstr ""
 
 #. Resource IDs: (2054)
 msgid "Disabled"
-msgstr ""
+msgstr "Inaktiv"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -3870,11 +3870,11 @@ msgstr "Visa programinformation, versionsnummer och copyright\nOm"
 
 #. Resource IDs: (86)
 msgid "Do &not show me this warning again (if Continue is selected)"
-msgstr ""
+msgstr "Visa i&nte denna varning igen (om Fortsätt väljs)"
 
 #. Resource IDs: (84)
 msgid "Do &not show me this warning again (if Ignore is selected)"
-msgstr ""
+msgstr "Visa i&nte denna varning igen (om Ignorera väljs)"
 
 #. Resource IDs: (1669)
 msgid "Do not autoselect submodules"
@@ -3886,7 +3886,7 @@ msgstr "Visa inte snabbmenyn för följande sökvägar"
 
 #. Resource IDs: (1730)
 msgid "Do not use recycle bin"
-msgstr ""
+msgstr "Använd inte Papperskorgen"
 
 #. Resource IDs: (70)
 #, c-format
@@ -5243,7 +5243,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebreiska"
 
 #. Resource IDs: (9, 73)
 msgid "Help"
@@ -5387,11 +5387,11 @@ msgstr "ID:32811:V C +U"
 
 #. Accelerator Entry for Menu ID:32817; 'Fit image &widths'
 msgid "ID:32817:V   +W"
-msgstr ""
+msgstr "ID:32817:V   +W"
 
 #. Accelerator Entry for Menu ID:32818; 'Fit image &heights'
 msgid "ID:32818:V   +H"
-msgstr ""
+msgstr "ID:32818:V   +H"
 
 #. Accelerator Entry for Menu ID:32822; ''
 msgid "ID:32822:V C +F"
@@ -5411,7 +5411,7 @@ msgstr "ID:32837:VA  +M"
 
 #. Accelerator Entry for Menu ID:32857; ''
 msgid "ID:32857:VA  +F"
-msgstr ""
+msgstr "ID:32857:VA  +F"
 
 #. Accelerator Entry for Menu ID:32870; ''
 msgid "ID:32870:V C +L"
@@ -5919,23 +5919,23 @@ msgstr "RAD8"
 
 #. Resource IDs: (65535)
 msgid "Language:"
-msgstr ""
+msgstr "Språk:"
 
 #. Resource IDs: (85)
 msgid "Last Author"
-msgstr ""
+msgstr "Senaste författare"
 
 #. Resource IDs: (68)
 msgid "Last Commit"
-msgstr ""
+msgstr "Senaste arkiverare"
 
 #. Resource IDs: (86)
 msgid "Last Modified"
-msgstr ""
+msgstr "Senaste modifiering"
 
 #. Resource IDs: (65535)
 msgid "Last Modified:"
-msgstr ""
+msgstr "Senaste modifiering:"
 
 #. Resource IDs: (1616)
 msgid "Last known &good:"
@@ -6246,7 +6246,7 @@ msgstr ""
 
 #. Resource IDs: (606)
 msgid "Merge Point"
-msgstr ""
+msgstr "Punkt för förening"
 
 #. Resource IDs: (221)
 msgid "Merge Reintegrate"
@@ -6261,7 +6261,7 @@ msgstr ""
 #. Resource IDs: (1252)
 #, c-format
 msgid "Merge to \"%s\"..."
-msgstr ""
+msgstr "Förenad till \"%s\"..."
 
 #. Resource IDs: (263, 1257)
 msgid "Merged"
@@ -6269,11 +6269,11 @@ msgstr "Förenade"
 
 #. Resource IDs: (76)
 msgid "Merged Files"
-msgstr ""
+msgstr "Förenade filer"
 
 #. Resource IDs: (10)
 msgid "Merges another branch"
-msgstr ""
+msgstr "Förenar en annan gren"
 
 #. Resource IDs: (1073)
 msgid "Merging"
@@ -6348,11 +6348,11 @@ msgstr "Ändrad"
 
 #. Resource IDs: (76)
 msgid "Modified Files"
-msgstr ""
+msgstr "Modifierade filer"
 
 #. Resource IDs: (1070)
 msgid "More"
-msgstr "Flytta"
+msgstr "Mer"
 
 #. Resource IDs: (1002)
 msgid "More Buttons"
