@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-15 22:27+0000\n"
+"PO-Revision-Date: 2014-08-16 09:25+0000\n"
 "Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -306,7 +306,7 @@ msgstr "%s\n%s"
 msgid ""
 "%s\n"
 "Could not be cleanly patched."
-msgstr ""
+msgstr "%s\nKunde inte patchas."
 
 #. Resource IDs: (145)
 #, c-format
@@ -389,7 +389,7 @@ msgstr "&Programutseende"
 
 #. Resource IDs: (1613)
 msgid "&Apply Patch"
-msgstr "&Applicera patch"
+msgstr "&Applicera Patch"
 
 #. Resource IDs: (1013)
 msgid "&Apply unified diff"
@@ -717,7 +717,7 @@ msgstr "&Tvinga överskrivning av existerande gren (Ändringar kan förloras)"
 
 #. Resource IDs: (1607)
 msgid "&Force Rebase"
-msgstr "&Tvinga Rebase"
+msgstr "&Tvinga Ombasering (Rebase)"
 
 #. Resource IDs: (1608)
 msgid "&From:"
@@ -826,7 +826,7 @@ msgstr "S&tora ikoner"
 
 #. Resource IDs: (1602)
 msgid "&Launch Rebase After Fetch"
-msgstr ""
+msgstr "Starta Ombasering (Rebase) efter Hämtning"
 
 #. Resource IDs: (1065)
 msgid "&Limit search to modified lines"
@@ -1508,7 +1508,7 @@ msgid ""
 "<ct=0x0000FF>previous rebase directory rebase-apply still exists but mbox given</ct>\n"
 "\n"
 "Do you want to"
-msgstr ""
+msgstr "<ct=0x0000FF>föregående rebase mapp rebase-apply finns fortfarande men mbox är angiven</ct>\n\nVill du"
 
 #. Resource IDs: (85)
 msgid "<ct=0x0000ff>Stash Apply failed, there are conflicts</ct>"
@@ -1929,15 +1929,15 @@ msgstr "Program menyer:"
 
 #. Resource IDs: (20)
 msgid "Apply Patch Serial..."
-msgstr "Applicera patch seriellt..."
+msgstr "Applicera en Patch-serie..."
 
 #. Resource IDs: (603)
 msgid "Apply Patch..."
-msgstr "Applicera patch..."
+msgstr "Applicera Patch..."
 
 #. Resource IDs: (311)
 msgid "Apply Patches"
-msgstr "Applicera patchar"
+msgstr "Applicera Patchar"
 
 #. Resource IDs: (22)
 msgid "Apply a series of patches from a mailbox"
@@ -1965,7 +1965,7 @@ msgstr "Är du säker du vill återställa kolumnerna?"
 
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr "Är du säker på att du vill avbryta Rebasen"
+msgstr "Är du säker på att du vill avbryta Ombaseringen (Rebase)?"
 
 #. Resource IDs: (145)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -2255,7 +2255,7 @@ msgstr "Både /logmsg och /logmsgfile angavs!\nEndast en av dem kan användas å
 #. Resource IDs: (70)
 msgid ""
 "Both the path to the patch file and the target path must be absolute paths!"
-msgstr ""
+msgstr "Både sökvägen till patch-filen och målsökvägen måste vara absoluta sökvägar!"
 
 #. Resource IDs: (188)
 msgid "Bottom View:"
@@ -3102,7 +3102,7 @@ msgstr "Snabbmenyer:"
 
 #. Resource IDs: (65535)
 msgid "Context lines for patches"
-msgstr ""
+msgstr "Omgivande rader för patchar"
 
 #. Resource IDs: (67, 73, 1564)
 msgid "Continue"
@@ -3365,7 +3365,7 @@ msgstr "Skapa Gren"
 
 #. Resource IDs: (1254)
 msgid "Create Branch at this version..."
-msgstr "Skapa Gren vid denna version..."
+msgstr "Skapa Gren vid denna revision..."
 
 #. Resource IDs: (9)
 msgid "Create Branch..."
@@ -3381,7 +3381,7 @@ msgstr "Skapa ny Gren"
 
 #. Resource IDs: (20)
 msgid "Create Patch Serial..."
-msgstr "Skapa Patch seriellt..."
+msgstr "Skapa en Patch-serie..."
 
 #. Resource IDs: (81)
 msgid "Create Tag"
@@ -3389,7 +3389,7 @@ msgstr "Skapa Märke"
 
 #. Resource IDs: (1254)
 msgid "Create Tag at this version..."
-msgstr "Skapa Märke vid denna version..."
+msgstr "Skapa Märke vid denna revision..."
 
 #. Resource IDs: (20)
 msgid "Create Tag..."
@@ -3438,7 +3438,7 @@ msgstr ""
 msgid ""
 "Creates a patch file from the differences of the two files\n"
 "Create patch file"
-msgstr "Skapa en patchfil från skillnaderna mellan två filer\nSkapa patchfil"
+msgstr "Skapa en patch-fil från skillnaderna mellan två filer\nSkapa patch-fil"
 
 #. Resource IDs: (10)
 msgid "Creates a repository database at the current location"
@@ -3490,7 +3490,7 @@ msgid ""
 "Current branch %s is up to date\r\n"
 "\r\n"
 " If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "Nuvarande gren %s är uppdaterad\n\nOm du vill tvinga fram en ombasering (rebase) trots att nuvarande gren är en ättling till arkiveringen du ombaserar till så kan du markera \"Tvinga Ombasering\" hör under."
 
 #. Resource IDs: (1113)
 msgid "Current version is:"
@@ -3674,11 +3674,11 @@ msgstr "Raderar och lägger till vald(a) fil(er) eller filfilter på undantagsli
 
 #. Resource IDs: (11)
 msgid "Deletes files/folders from version control"
-msgstr ""
+msgstr "Tar bort filer/mappar från versionkontroll"
 
 #. Resource IDs: (18)
 msgid "Deletes files/folders from version control but keeps the file"
-msgstr ""
+msgstr "Tar bort filer/mappar från versionskontroll men behåller filen/mappen"
 
 #. Resource IDs: (198)
 msgid "Deletes the action log file"
@@ -4422,7 +4422,7 @@ msgstr "Exportera markering till..."
 
 #. Resource IDs: (1254)
 msgid "Export this version..."
-msgstr "Exportera denna version..."
+msgstr "Exportera denna revision..."
 
 #. Resource IDs: (79)
 msgid "Export unversioned files too"
@@ -4649,7 +4649,7 @@ msgstr "Fillistan är tom"
 
 #. Resource IDs: (135, 376)
 msgid "File patches"
-msgstr "Filpatchar"
+msgstr "Fil-patchar"
 
 #. Resource IDs: (7)
 #, c-format
@@ -4845,7 +4845,7 @@ msgstr ""
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
-msgstr ""
+msgstr "Tvinga en ombasering (rebase) även om nuvarande gren är en ättling till arkiveringen du ombaserar till.\nDetta kommando skulle normalt sluta med meddelandet \"Nuvarande gren är uppdaterad\"."
 
 #. Resource IDs: (1796)
 msgid "Force: May discard"
@@ -4860,11 +4860,11 @@ msgstr ""
 
 #. Resource IDs: (312)
 msgid "Format Patch"
-msgstr "Formatera patch"
+msgstr "Skapa Patch"
 
 #. Resource IDs: (1255)
 msgid "Format Patch..."
-msgstr ""
+msgstr "Skapa Patch..."
 
 #. Resource IDs: (1064, 1257)
 msgid "Forward"
@@ -4879,7 +4879,7 @@ msgstr "Framåt %d"
 msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
 "proceed."
-msgstr ""
+msgstr "Hittade ett tomt arkiveringsmeddelande. Du måste ange ett annars kan inte ombaseringen fortsätta."
 
 #. Resource IDs: (65535)
 msgid "Found auto words:"
@@ -5090,7 +5090,7 @@ msgstr ""
 
 #. Resource IDs: (22)
 msgid "Git SVN Rebase"
-msgstr ""
+msgstr "Git SVN Rebase"
 
 #. Resource IDs: (326)
 msgid "Git Synchronization"
@@ -5297,7 +5297,7 @@ msgstr "Visa/dölj listan med patch-filer"
 msgid ""
 "Hide/Show the patch file list\n"
 "Hides or shows the patch file list"
-msgstr "Visa/Göm patch fillistan\nVisar eller gömmer patch fillistan"
+msgstr "Visa/Göm listan med patch-filer\nVisar eller gömmer listan med patch-filer"
 
 #. Resource IDs: (92)
 msgid "Hint"
@@ -6261,7 +6261,7 @@ msgstr ""
 #. Resource IDs: (1252)
 #, c-format
 msgid "Merge to \"%s\"..."
-msgstr "Förenad till \"%s\"..."
+msgstr "Förena till \"%s\"..."
 
 #. Resource IDs: (263, 1257)
 msgid "Merged"
@@ -6709,7 +6709,7 @@ msgstr "Otillräckligt med minne!\nFörsök att reducera storleken på revisions
 
 #. Resource IDs: (72)
 msgid "Not patches generated."
-msgstr ""
+msgstr "Inga patchar skapade."
 
 #. Resource IDs: (65535)
 msgid "Note node"
@@ -6743,11 +6743,11 @@ msgstr "Noteringar"
 msgid ""
 "Nothing need rebase\r\n"
 "%s equal %s"
-msgstr ""
+msgstr "Inget behöver ombaseras\n%s är samma som %s"
 
 #. Resource IDs: (67)
 msgid "Nothing to Rebase"
-msgstr ""
+msgstr "Inget att Ombasera"
 
 #. Resource IDs: (603)
 msgid "Nothing to commit"
@@ -6936,7 +6936,7 @@ msgstr "Öppna ett befintligt dokument\nÖppna"
 msgid ""
 "Open files for diff or to apply a patch\n"
 "Open files"
-msgstr ""
+msgstr "Öppnar filer för jämförelse eller för att applicare en patch\nÖppna filer"
 
 #. Resource IDs: (1132)
 msgid "Open from clipboard"
@@ -7132,7 +7132,7 @@ msgstr "&Patcha markerade"
 
 #. Resource IDs: (1579)
 msgid "Patch As Attachment"
-msgstr ""
+msgstr "Patchen som en bilaga"
 
 #. Resource IDs: (376)
 msgid "Patch all files"
@@ -7161,7 +7161,7 @@ msgstr "Sökväg"
 
 #. Resource IDs: (314)
 msgid "Path found that matches the patch better."
-msgstr ""
+msgstr "Hittade en sökväg som bättre matchar patchen."
 
 #. Resource IDs: (1580, 65535)
 msgid "Path:"
@@ -7548,7 +7548,7 @@ msgstr "&Återställ till denna revisionen"
 
 #. Resource IDs: (1255)
 msgid "REBASE"
-msgstr ""
+msgstr "OMBASERA"
 
 #. Resource IDs: (1769)
 msgid "Randomize Sync Dialog startup position"
@@ -7606,16 +7606,16 @@ msgstr "Läs i lathunden om du kört fast..."
 
 #. Resource IDs: (318)
 msgid "Rebase"
-msgstr ""
+msgstr "Ombasera"
 
 #. Resource IDs: (1254)
 #, c-format
 msgid "Rebase \"%s\" onto this..."
-msgstr ""
+msgstr "Ombasera (Rebase) \"%s\" till denna..."
 
 #. Resource IDs: (20)
 msgid "Rebase..."
-msgstr ""
+msgstr "Ombasera (Rebase)..."
 
 #. Resource IDs: (67)
 #, c-format
@@ -7646,7 +7646,7 @@ msgstr "Återställ de automatiskt sparade dokumenten\nÖppna de automatiskt spa
 
 #. Resource IDs: (603)
 msgid "Recover to the status before rebase"
-msgstr ""
+msgstr "Återställ till läget innan ombaseringen"
 
 #. Resource IDs: (1057)
 msgid ""
@@ -7738,7 +7738,7 @@ msgstr "Reguljära uttrycksfilter:\r\n. : alla tecken\r\nc+ : bokstaven c en ell
 #. Resource IDs: (7)
 #, c-format
 msgid "Rejected patch hunks for '%s'"
-msgstr "Misslyckade patchdelar för \"%s\""
+msgstr "Misslyckade patch-delar för \"%s\""
 
 #. Resource IDs: (1072)
 msgid "Relative Times in log"
@@ -8028,7 +8028,7 @@ msgstr "Markerar konflikten i filen som löst"
 
 #. Resource IDs: (66)
 msgid "Restart rebase"
-msgstr ""
+msgstr "Starta om ombaseringen"
 
 #. Resource IDs: (64)
 msgid "Restore"
@@ -8102,7 +8102,7 @@ msgstr ""
 
 #. Resource IDs: (13)
 msgid "Review/apply single &patch..."
-msgstr ""
+msgstr "Granska/applicera en &patch..."
 
 #. Resource IDs: (208, 1253, 1522)
 msgid "Revision"
@@ -8246,7 +8246,7 @@ msgstr ""
 
 #. Resource IDs: (21)
 msgid "SVN Rebase"
-msgstr ""
+msgstr "SVN Rebase"
 
 #. Resource IDs: (1256)
 msgid "SVN Rev"
@@ -8460,7 +8460,7 @@ msgstr "Sök:"
 
 #. Resource IDs: (169)
 msgid "Searching for better path to apply patch..."
-msgstr "Söker efter en bättre sökväg för att applicera patch..."
+msgstr "Söker efter en bättre sökväg för att applicera patchen..."
 
 #. Resource IDs: (3867)
 #, c-format
@@ -9125,7 +9125,7 @@ msgstr "\"Börja arkivera\" krok"
 
 #. Resource IDs: (67, 68)
 msgid "Start Rebase"
-msgstr "Starta Rebase"
+msgstr "Starta Ombasering (Rebase)"
 
 #. Resource IDs: (12)
 msgid "Start bisect mode..."
@@ -9540,7 +9540,7 @@ msgstr "Filen %s finns inte!"
 #. Resource IDs: (64)
 #, c-format
 msgid "The file %s was not found in the patch file!"
-msgstr "Filen %s kunde inte hittas i patchfilen!"
+msgstr "Filen %s kunde inte hittas i patch-filen!"
 
 #. Resource IDs: (64)
 #, c-format
@@ -9677,7 +9677,7 @@ msgid ""
 "and the patchline\n"
 "%s\n"
 "do not match!"
-msgstr "Patchen verkar gammal! Filraden\n%s\noch patchraden\n%s\n matchar inte!"
+msgstr "Patchen verkar gammal! Filraden\n%s\noch patch-raden\n%s\n matchar inte!"
 
 #. Resource IDs: (88)
 msgid ""
@@ -9699,7 +9699,7 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr "Sökvägen\n%s\nverkar inte stämma överens med sökvägen i patchfilen.\nTortoiseGitMerge hittade sökvägen\n%s\nsom stämmer bättre. Vill du använda den föreslagna sökvägen istället?"
+msgstr "Sökvägen\n%s\nverkar inte stämma överens med sökvägen i patch-filen.\nTortoiseGitMerge hittade sökvägen\n%s\nsom stämmer bättre. Vill du använda den föreslagna sökvägen istället?"
 
 #. Resource IDs: (91)
 msgid ""
@@ -10073,7 +10073,7 @@ msgstr "TortoiseGitMerge %d.%d.%d.%d - %s, %s\nlibsvn_diff %d.%d.%d, %s\napr %d.
 msgid ""
 "TortoiseGitMerge cannot process this patch file. The filename \"%s\" appears"
 " more than once."
-msgstr "TortoiseGitMerge kan inte processa den här patchfilen. Filnamnet \"%s\" förekommer mer än en gång."
+msgstr "TortoiseGitMerge kan inte processa den här patch-filen. Filnamnet \"%s\" förekommer mer än en gång."
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"
@@ -10508,7 +10508,7 @@ msgid ""
 "Use the found path.\n"
 "Apply the patch to\n"
 "%s"
-msgstr ""
+msgstr "Använd den funna sökvägen.\nApplicera patchen på\n%s"
 
 #. Resource IDs: (314)
 #, c-format
@@ -10516,7 +10516,7 @@ msgid ""
 "Use the original path.\n"
 "Apply the patch to\n"
 "%s"
-msgstr ""
+msgstr "Använd ursprungliga sökvägen.\nApplicera patchen på\n%s"
 
 #. Resource IDs: (251)
 msgid "Use this &whole file"
@@ -10581,7 +10581,7 @@ msgstr "Värde"
 
 #. Resource IDs: (1004, 1075, 1539)
 msgid "Version"
-msgstr "Version"
+msgstr "Revision"
 
 #. Resource IDs: (7)
 #, c-format
@@ -10717,7 +10717,7 @@ msgstr ""
 msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
-msgstr ""
+msgstr "När en patch appliceras, ignorera tomrumsändringar i omgivande rader, om nödvändigt"
 
 #. Resource IDs: (91)
 msgid ""
@@ -11299,7 +11299,7 @@ msgstr "beskrivning för detta kommando saknas"
 
 #. Resource IDs: (10)
 msgid "non-versioned"
-msgstr "ej i arkivet"
+msgstr "icke versionhanterad"
 
 #. Resource IDs: (10)
 msgid "normal"
