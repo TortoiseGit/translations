@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-15 18:10+0000\n"
+"PO-Revision-Date: 2014-08-16 00:03+0000\n"
 "Last-Translator: Ricardo Souza <srrcdmk@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -1465,7 +1465,7 @@ msgstr "<b>TortoiseGit</b> é uma extensão da shell.\nIsto significa que é int
 msgid ""
 "<b>Warning:</b> It has not been checked if these branches have been fully "
 "merged into HEAD."
-msgstr "<b>Aviso:</b> Não foi verificado se estes ramos foram combinados completamente com HEAD."
+msgstr "<b>Aviso:</b> Não foi verificado se estes ramos foram combinados completamente no CABEÇALHO."
 
 #. Resource IDs: (84)
 msgid "<b>Warning:</b> This action will remove the branches on the remote."
@@ -1473,13 +1473,13 @@ msgstr "<b>Aviso:</b> Esta ação irá remover os ramos no servidor remoto."
 
 #. Resource IDs: (84)
 msgid "<b>Warning:</b> This branch is not fully merged into HEAD."
-msgstr "<b>Aviso:</b> Este ramo não foi combinado completamente com HEAD."
+msgstr "<b>Aviso:</b> Este ramo não foi combinado completamente no CABEÇALHO."
 
 #. Resource IDs: (68)
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
 "Do you want to a create branch now?"
-msgstr "<ct=0x0000FF>HEAD Atual Destacada</ct>, você está trabalhando em (nenhum ramo).\nQuer criar um ramo agora?"
+msgstr "<ct=0x0000FF>CABEÇALHO Atual Destacado</ct>, você está trabalhando em (sem ramo).\nQuer criar um ramo agora?"
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -3272,7 +3272,7 @@ msgstr "Não foi possível restaurar para a última submissão (segundo passo). 
 
 #. Resource IDs: (70)
 msgid "Could not reset to original HEAD."
-msgstr "Não foi possível restaurar para o original em HEAD."
+msgstr "Não foi possível restaurar para o CABEÇALHO original."
 
 #. Resource IDs: (81)
 #, c-format
@@ -5221,11 +5221,11 @@ msgstr "&Matiz:"
 
 #. Resource IDs: (1353, 1354, 1511, 1684)
 msgid "HEAD"
-msgstr "HEAD"
+msgstr "CABEÇALHO"
 
 #. Resource IDs: (65535)
 msgid "HEAD:"
-msgstr "HEAD:"
+msgstr "CABEÇALHO:"
 
 #. Resource IDs: (89)
 msgid "Hard"
@@ -5757,7 +5757,7 @@ msgstr "Em Submissões"
 
 #. Resource IDs: (1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr "Para cancelar o processo de mesclagem, uma restauração (para HEAD) é necessária."
+msgstr "Para cancelar o processo de mesclagem, uma restauração (para o CABEÇALHO) é necessária."
 
 #. Resource IDs: (1499)
 msgid "Include &Tags"
@@ -6561,7 +6561,7 @@ msgstr "Não &Submeter"
 
 #. Resource IDs: (67)
 msgid "No HEAD found"
-msgstr "HEAD não encontrada"
+msgstr "CABEÇALHO não encontrado"
 
 #. Resource IDs: (81)
 msgid ""
@@ -8395,7 +8395,7 @@ msgstr "Salvar dif. unifi."
 
 #. Resource IDs: (1385)
 msgid "Save unified diff since HEAD"
-msgstr "Salvar dif. unificadas desde HEAD"
+msgstr "Salvar dif. unificadas desde o CABEÇALHO"
 
 #. Resource IDs: (315)
 msgid ""
@@ -8739,7 +8739,7 @@ msgstr "Exibir Menos Botões"
 
 #. Resource IDs: (2051)
 msgid "Show HEAD revision nodes"
-msgstr "Exibir nós da revisão HEAD"
+msgstr "Exibir nós da revisão CABEÇALHO"
 
 #. Resource IDs: (2052)
 msgid ""
@@ -8843,7 +8843,7 @@ msgstr "Exibir apenas submissões &rotuladas"
 
 #. Resource IDs: (1063)
 msgid "Show linenumber&s"
-msgstr "Exibir linhas numerada&s"
+msgstr "Exibir &números de linha"
 
 #. Resource IDs: (64)
 msgid "Show log"
@@ -8948,7 +8948,7 @@ msgstr "Exibir arquivos não &modificados"
 
 #. Resource IDs: (1073)
 msgid "Show un&versioned files"
-msgstr "Exibir arquivos sem co&ntrole de versão"
+msgstr "Exibir arquivos sem controle de &versão"
 
 #. Resource IDs: (198)
 msgid "Show/Hide"
@@ -8994,7 +8994,7 @@ msgstr "Exibe o histórico para o arquivo/pasta selecionado"
 
 #. Resource IDs: (1523)
 msgid "Si&gn"
-msgstr "Assi&nar"
+msgstr "&Assinar"
 
 #. Resource IDs: (156, 626)
 msgid "Silver Style"
@@ -9409,7 +9409,7 @@ msgstr "TORTOISEGITIDIFF"
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
-msgstr "Eti&quetas:"
+msgstr "&Etiquetas:"
 
 #. Resource IDs: (16970)
 msgid "Tab Placeholder"
@@ -10087,7 +10087,7 @@ msgstr "Total de alterações de arquivos:"
 
 #. Resource IDs: (1520)
 msgid "Trac&k"
-msgstr "Rastrea&r"
+msgstr "&Rastrear"
 
 #. Resource IDs: (1520)
 msgid "Track"
@@ -10253,7 +10253,7 @@ msgstr "Texto sem Formatação\ntexto sem nenhuma formatação"
 
 #. Resource IDs: (2054)
 msgid "Unified &diff of HEAD revisions"
-msgstr "Correções &unificadas das revisões do HEAD"
+msgstr "&Correções unificadas das revisões do CABEÇALHO"
 
 #. Resource IDs: (1258)
 msgid "Unknown"
@@ -10318,11 +10318,11 @@ msgstr "Atualizando índice"
 
 #. Resource IDs: (16530)
 msgid "Use &Default Image: "
-msgstr "Usar Imagem pa&drão:"
+msgstr "Usar Imagem &Padrão:"
 
 #. Resource IDs: (1024)
 msgid "Use &one-pane view as default for 2-file diff"
-msgstr "Usar visualização em um painel p&or padrão para comparação de 2 arquivos"
+msgstr "Usar visualização de &um painel por padrão para comparação de 2 arquivos"
 
 #. Resource IDs: (251)
 msgid "Use &other text block"
@@ -10494,7 +10494,7 @@ msgstr "Usar bloco de texto da esquerdae \"deles\"\nUse \"deles\" do bloco de te
 
 #. Resource IDs: (251)
 msgid "Use th&is text block"
-msgstr "Usar e&sse bloco de texto"
+msgstr "Usar &esse bloco de texto"
 
 #. Resource IDs: (314)
 #, c-format
@@ -10640,7 +10640,7 @@ msgstr "Ver revisão no editor alternativo"
 
 #. Resource IDs: (1717)
 msgid "View system&wide gitconfig"
-msgstr "Visuali&zar gitconfig do sistema"
+msgstr "Visualizar gitconfig do &sistema"
 
 #. Resource IDs: (1084)
 msgid "Visit our website"
@@ -10675,7 +10675,7 @@ msgstr "Aguardando por entrada"
 
 #. Resource IDs: (1776)
 msgid "Walk Be&haviour"
-msgstr "Comportamento de &Travessia"
+msgstr "&Comportamento de Travessia"
 
 #. Resource IDs: (88)
 msgid "Warning"
@@ -10997,7 +10997,7 @@ msgstr "Arquivo Zip"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out"
-msgstr "Menos zoo&m"
+msgstr "&Menos zoom"
 
 #. Resource IDs: (1069)
 msgid "Zoom"
@@ -11009,7 +11009,7 @@ msgstr "Ma&is zoom"
 
 #. Resource IDs: (58118)
 msgid "Zoom &Out"
-msgstr "Men&os zoom"
+msgstr "&Menos zoom"
 
 #. Resource IDs: (2051)
 #, c-format
@@ -11030,7 +11030,7 @@ msgstr "Menos zoom\nMenos zoom"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n"
-msgstr "M&ais zoom"
+msgstr "Ma&is zoom"
 
 #. Resource IDs: (2049)
 msgid "Zoom in"

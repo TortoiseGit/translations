@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-15 21:58+0000\n"
+"PO-Revision-Date: 2014-08-15 22:27+0000\n"
 "Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -50,7 +50,7 @@ msgstr "! %d"
 
 #. Resource IDs: (1262)
 msgid "# authors shown individually:"
-msgstr "# användarnamn visade individuellt:"
+msgstr "Antal användare som visas separat:"
 
 #. Resource IDs: (357)
 #, c-format
@@ -229,7 +229,7 @@ msgstr ""
 #. Resource IDs: (169)
 #, c-format
 msgid "%d files selected, %d files total"
-msgstr "%d filer markerade, %d filer totalt"
+msgstr "%d fil(er) markerade, %d fil(er) totalt"
 
 #. Resource IDs: (246)
 #, c-format
@@ -814,7 +814,7 @@ msgstr ""
 
 #. Resource IDs: (92)
 msgid "&Labels"
-msgstr ""
+msgstr "Visa Märkes- o Gren-etiketter"
 
 #. Resource IDs: (65535)
 msgid "&Language:"
@@ -2578,7 +2578,7 @@ msgstr "Flyttade ändringslistan %s"
 
 #. Resource IDs: (1242)
 msgid "Changes made (double-click on file for diff):"
-msgstr "Ändringar (dubbelklicka på fil för jämförelse):"
+msgstr "Gjorda ändringar (dubbelklicka på en fil för se ändringarna):"
 
 #. Resource IDs: (2060)
 msgid "Changes the style of the application"
@@ -2900,7 +2900,7 @@ msgstr "Kommandon"
 
 #. Resource IDs: (67, 77, 135, 229, 1083, 1383, 1514)
 msgid "Commit"
-msgstr "Arkivera"
+msgstr "Arkivering"
 
 #. Resource IDs: (94)
 #, c-format
@@ -3553,7 +3553,7 @@ msgstr "Datum"
 
 #. Resource IDs: (68)
 msgid "Date Last Commit"
-msgstr "Datum för sista arkivering"
+msgstr "Datum för senaste arkivering"
 
 #. Resource IDs: (1008)
 msgid "Default"
@@ -4041,7 +4041,7 @@ msgstr "Rita"
 
 #. Resource IDs: (1073)
 msgid "Draw tag/branch labels on right side"
-msgstr ""
+msgstr "Rita märkes- o gren-etiketter på höger sida"
 
 #. Resource IDs: (1079)
 msgid "Drive Types"
@@ -5219,7 +5219,7 @@ msgstr "Gruppera ändringslistor"
 
 #. Resource IDs: (1229)
 msgid "H&ide Unrelated Changed Paths"
-msgstr ""
+msgstr "Göm orelaterade ändrade sökvägar"
 
 #. Resource IDs: (65535)
 msgid "H&ue:"
@@ -5927,7 +5927,7 @@ msgstr "Senaste författare"
 
 #. Resource IDs: (68)
 msgid "Last Commit"
-msgstr "Senaste arkiverare"
+msgstr "Senaste arkivering"
 
 #. Resource IDs: (86)
 msgid "Last Modified"
@@ -6006,11 +6006,11 @@ msgstr "Rad: %*ld"
 
 #. Resource IDs: (64, 601)
 msgid "Lines added"
-msgstr "Raderna är tillagda"
+msgstr "Tillagda rader"
 
 #. Resource IDs: (64, 601)
 msgid "Lines removed"
-msgstr "Raderna är borttagna"
+msgstr "Borttagna rader"
 
 #. Resource IDs: (3605)
 msgid ""
@@ -7694,7 +7694,7 @@ msgstr ""
 
 #. Resource IDs: (83)
 msgid "Refname"
-msgstr ""
+msgstr "Ref-namn"
 
 #. Resource IDs: (135, 1382)
 msgid "Refresh"
@@ -8705,7 +8705,7 @@ msgstr "Visa &Reflogg"
 
 #. Resource IDs: (1073)
 msgid "Show &Unversioned Files"
-msgstr "Visa filer &utanför versionskontroll"
+msgstr "Visa filer som &inte är versionshanterade"
 
 #. Resource IDs: (1208)
 msgid "Show &Whole Project"
@@ -11355,7 +11355,7 @@ msgstr ""
 msgid ""
 "switched to\r\n"
 "%s"
-msgstr "Växlade till\r\n%s"
+msgstr "växlade till\n%s"
 
 #. Resource IDs: (1386)
 msgid "take care of submodule changes"
