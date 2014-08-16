@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-03 21:42+0000\n"
+"PO-Revision-Date: 2014-08-16 11:24+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/tortoisegit/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
@@ -714,10 +714,6 @@ msgstr "&Lettertype:"
 #. Resource IDs: (1521)
 msgid "&Force"
 msgstr "&Forceer"
-
-#. Resource IDs: (1480)
-msgid "&Force Overwrite Existing Branch (May discard changes)"
-msgstr "&Forceer Overschrijven Bestaande Branch (Kan wijzigingen weggooien)"
 
 #. Resource IDs: (1607)
 msgid "&Force Rebase"
@@ -2939,6 +2935,10 @@ msgstr "Commit Naam"
 msgid "Commit Ordering:"
 msgstr "Commit Volgorde:"
 
+#. Resource IDs: (96)
+msgid "Commit super project"
+msgstr ""
+
 #. Resource IDs: (1110)
 msgid "Commit to:"
 msgstr "Vastleggen in:"
@@ -4845,6 +4845,13 @@ msgid ""
 "This option corresponds to the --force-with-lease git option."
 msgstr ""
 
+#. Resource IDs: (1796)
+msgid ""
+"Force push to the selected remote reference and override it without any safety checks.\n"
+"This can cause the remote repository to lose unseen commits; use it with care.\n"
+"This option corresponds to the --force git option."
+msgstr ""
+
 #. Resource IDs: (603)
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
@@ -4853,13 +4860,6 @@ msgstr ""
 
 #. Resource IDs: (1796)
 msgid "Force: May discard"
-msgstr ""
-
-#. Resource IDs: (1796)
-msgid ""
-"Force push to the selected remote reference and override it without any safety checks.\n"
-"This can cause the remote repository to lose unseen commits; use it with care.\n"
-"This option corresponds to the --force git option."
 msgstr ""
 
 #. Resource IDs: (312)
@@ -9778,6 +9778,12 @@ msgid ""
 "The two selected URL's are not created from the same root.\n"
 "It's not possible to show the log messages between them!"
 msgstr "De twee geselecteerde URLs zijn niet gebaseerd op dezelfde basis.\nHet is niet mogelijk om logboodschappen tussen deze twee te tonen!"
+
+#. Resource IDs: (96)
+msgid ""
+"The working tree is not clean and contains unstaged changes. This can cause "
+"conflicts white rebasing/cherry picking."
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Their file:"

@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-06 04:47+0000\n"
+"PO-Revision-Date: 2014-08-16 15:10+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -704,10 +704,6 @@ msgstr "&Fuente:"
 msgid "&Force"
 msgstr "&Forzar"
 
-#. Resource IDs: (1480)
-msgid "&Force Overwrite Existing Branch (May discard changes)"
-msgstr "&Forzar sobrescribir rama existente (puede descartar cambios)"
-
 #. Resource IDs: (1607)
 msgid "&Force Rebase"
 msgstr "&Forzar Reorganizar"
@@ -1336,7 +1332,7 @@ msgstr "&Ignorar cámbios de espacios"
 
 #. Resource IDs: (1498)
 msgid "&known changes"
-msgstr ""
+msgstr "&cambios conocidos"
 
 #. Resource IDs: (88)
 msgid "(TortoiseGit default)"
@@ -2464,7 +2460,7 @@ msgstr "Ahora no se pueden combinar consignas.\r\nAsegúrese de que estás viend
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr ""
+msgstr "No se pudo forzar la actualización de la rama actual. Use el comando restablecer si quiere hacerlo así."
 
 #. Resource IDs: (1)
 #, c-format
@@ -2927,6 +2923,10 @@ msgstr "Consignador"
 #. Resource IDs: (1750)
 msgid "Commit Ordering:"
 msgstr "Orden de consignas:"
+
+#. Resource IDs: (96)
+msgid "Commit super project"
+msgstr "Consignar super proyecto"
 
 #. Resource IDs: (1110)
 msgid "Commit to:"
@@ -4834,6 +4834,13 @@ msgid ""
 "This option corresponds to the --force-with-lease git option."
 msgstr ""
 
+#. Resource IDs: (1796)
+msgid ""
+"Force push to the selected remote reference and override it without any safety checks.\n"
+"This can cause the remote repository to lose unseen commits; use it with care.\n"
+"This option corresponds to the --force git option."
+msgstr ""
+
 #. Resource IDs: (603)
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
@@ -4842,14 +4849,7 @@ msgstr "Forzar el integrar, incluso si la rama actual es una descendiente de la 
 
 #. Resource IDs: (1796)
 msgid "Force: May discard"
-msgstr ""
-
-#. Resource IDs: (1796)
-msgid ""
-"Force push to the selected remote reference and override it without any safety checks.\n"
-"This can cause the remote repository to lose unseen commits; use it with care.\n"
-"This option corresponds to the --force git option."
-msgstr ""
+msgstr "Forzar: Podría descartar"
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -7248,7 +7248,7 @@ msgstr ""
 
 #. Resource IDs: (94)
 msgid "Please take a look at the skipped commits"
-msgstr ""
+msgstr "Por favor eche un vistazo a las consignaciones omitidas"
 
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
@@ -7300,11 +7300,11 @@ msgstr "Preparando consigna..."
 
 #. Resource IDs: (251)
 msgid "Prepend right block"
-msgstr ""
+msgstr "Anexar el bloque a la derecha"
 
 #. Resource IDs: (251)
 msgid "Prepend this block to left"
-msgstr ""
+msgstr "Anexar este bloque a la izquierda"
 
 #. Resource IDs: (65535)
 msgid "Press &New Shortcut Key:"
@@ -7551,7 +7551,7 @@ msgstr "Posición de inicio aleatoria del Cuadro de Diálogo de Sincronización 
 msgid ""
 "Randomize the startup position of Sync Dialog. This prevents from pressing "
 "the Pull button of same dialog"
-msgstr ""
+msgstr "Aleatorizar el posición de inicio de Cuadro de Diálogo de sincronización. Esto evita que pulse el botón de extracción del mismo diálogo."
 
 #. Resource IDs: (1535)
 msgid "Range"
@@ -7675,7 +7675,7 @@ msgstr "Ref. (Haz clic en él y luego ve)"
 
 #. Resource IDs: (95)
 msgid "Ref List"
-msgstr ""
+msgstr "Lista de referencia"
 
 #. Resource IDs: (69)
 msgid "RefBrowse"
@@ -8239,7 +8239,7 @@ msgstr "Recuperar de SVN"
 
 #. Resource IDs: (21)
 msgid "SVN Rebase"
-msgstr ""
+msgstr "Reasentado de SVN"
 
 #. Resource IDs: (1256)
 msgid "SVN Rev"
@@ -8273,7 +8273,7 @@ msgid ""
 "Fixed issue #123\n"
 "Resolves issue #88.\n"
 "Closes issue #99.\n"
-msgstr ""
+msgstr "Mensaje de registro (log) de ejemplo para probar el bugtraq: cadenas de expresiones regulares (regex).\n\nProbando menciones de problemas dentro de un texto: Mencione un problema individual #55. Mencione problemas #77, #78 , y #78. Mencione más problemas #123, #124 y #125 y algunos más aparte: Problema #45, problema #46 y problema #47.\n\nActualizar problema #101\nRepara el problema #202\nReparado el problema #123\nResuelve el problema #88. \nCierra el problem #99.\n"
 
 #. Resource IDs: (1612)
 msgid "Sample text:"
@@ -9767,6 +9767,12 @@ msgid ""
 "The two selected URL's are not created from the same root.\n"
 "It's not possible to show the log messages between them!"
 msgstr "Las dos URL's seleccionadas no son creadas desde la misma raíz.\n¡No es posible mostrar los mensajes de reg. entre ellas!"
+
+#. Resource IDs: (96)
+msgid ""
+"The working tree is not clean and contains unstaged changes. This can cause "
+"conflicts white rebasing/cherry picking."
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Their file:"

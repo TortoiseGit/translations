@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-16 00:03+0000\n"
-"Last-Translator: Ricardo Souza <srrcdmk@gmail.com>\n"
+"PO-Revision-Date: 2014-08-16 11:24+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -704,10 +704,6 @@ msgstr "&Fonte:"
 #. Resource IDs: (1521)
 msgid "&Force"
 msgstr "&Forçar"
-
-#. Resource IDs: (1480)
-msgid "&Force Overwrite Existing Branch (May discard changes)"
-msgstr "&Forçar Sobrescrever Ramo Existente (Alterações podem ser perdidas)"
 
 #. Resource IDs: (1607)
 msgid "&Force Rebase"
@@ -2929,6 +2925,10 @@ msgstr "Submeter Nome"
 msgid "Commit Ordering:"
 msgstr "Ordem das Submissões:"
 
+#. Resource IDs: (96)
+msgid "Commit super project"
+msgstr ""
+
 #. Resource IDs: (1110)
 msgid "Commit to:"
 msgstr "Submeter em:"
@@ -4835,6 +4835,13 @@ msgid ""
 "This option corresponds to the --force-with-lease git option."
 msgstr "Força empurrar apenas se a referência remota aponta para a mesma submissão que o ramo remoto rastreado.\nIsto pode fazer com que o repositório remoto perca submissões; use com cuidado.\nEsta opção corresponde a opção --force-with-lease do git."
 
+#. Resource IDs: (1796)
+msgid ""
+"Force push to the selected remote reference and override it without any safety checks.\n"
+"This can cause the remote repository to lose unseen commits; use it with care.\n"
+"This option corresponds to the --force git option."
+msgstr "Força empurrar para a referência remota selecionada e a sobrescreve sem qualquer checagem de segurança.\nIsto pode fazer com que o repositório remoto perca submissões não vistas; use com cuidado.\nEsta opção corresponde a opção --force do git."
+
 #. Resource IDs: (603)
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
@@ -4844,13 +4851,6 @@ msgstr "Força a reorganização mesmo se o ramo atual é um descendente da subm
 #. Resource IDs: (1796)
 msgid "Force: May discard"
 msgstr "Forçar: Pode descartar"
-
-#. Resource IDs: (1796)
-msgid ""
-"Force push to the selected remote reference and override it without any safety checks.\n"
-"This can cause the remote repository to lose unseen commits; use it with care.\n"
-"This option corresponds to the --force git option."
-msgstr "Força empurrar para a referência remota selecionada e a sobrescreve sem qualquer checagem de segurança.\nIsto pode fazer com que o repositório remoto perca submissões não vistas; use com cuidado.\nEsta opção corresponde a opção --force do git."
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -9768,6 +9768,12 @@ msgid ""
 "The two selected URL's are not created from the same root.\n"
 "It's not possible to show the log messages between them!"
 msgstr "As duas URL's selecionadas não foram criadas a partir da mesma raiz.\nNão é possível exibir as mensagens de histórico entre elas!"
+
+#. Resource IDs: (96)
+msgid ""
+"The working tree is not clean and contains unstaged changes. This can cause "
+"conflicts white rebasing/cherry picking."
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Their file:"
