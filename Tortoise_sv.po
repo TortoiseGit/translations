@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-16 17:06+0000\n"
+"PO-Revision-Date: 2014-08-17 15:37+0000\n"
 "Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -1283,7 +1283,7 @@ msgstr "\"&Unified Diff\""
 
 #. Resource IDs: (1256)
 msgid "&Unified diff with"
-msgstr ""
+msgstr "\"&Unified Diff\" med"
 
 #. Resource IDs: (1061)
 msgid "&Unknown drives"
@@ -1335,7 +1335,7 @@ msgstr "&Inom fil"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
-msgstr "&ignorera mellanslagsändringar"
+msgstr "&Ignorera ändrat tomrum"
 
 #. Resource IDs: (1498)
 msgid "&known changes"
@@ -1661,7 +1661,7 @@ msgstr "Åtgärd"
 
 #. Resource IDs: (65535)
 msgid "Action log"
-msgstr "Åtgärdslogg"
+msgstr "Händelselogg"
 
 #. Resource IDs: (1251)
 msgid "Actions"
@@ -2050,7 +2050,7 @@ msgstr "Autentisering"
 
 #. Resource IDs: (1278)
 msgid "Authentication data"
-msgstr "Autentiserings data"
+msgstr "Autentiseringsdata"
 
 #. Resource IDs: (207, 1251)
 msgid "Author"
@@ -3682,7 +3682,7 @@ msgstr "Tar bort filer/mappar från versionskontroll men behåller filen/mappen"
 
 #. Resource IDs: (198)
 msgid "Deletes the action log file"
-msgstr "Tar bort åtgärdsloggfilen"
+msgstr "Tar bort händelseloggen"
 
 #. Resource IDs: (263)
 msgid "Deleting"
@@ -4591,7 +4591,7 @@ msgstr "Hämta från \"%s\""
 
 #. Resource IDs: (76)
 msgid "Fetch&&Re&base"
-msgstr ""
+msgstr "Hämta&&Om&basera"
 
 #. Resource IDs: (20)
 msgid "Fetch..."
@@ -5199,7 +5199,7 @@ msgstr "Gå till rad"
 
 #. Resource IDs: (1251)
 msgid "Graph"
-msgstr "Diagram"
+msgstr "Graf"
 
 #. Resource IDs: (1134)
 msgid "Graph type:"
@@ -6218,7 +6218,7 @@ msgstr "Max antal sparade loggmeddelanden"
 
 #. Resource IDs: (65535)
 msgid "Max. lines in action log"
-msgstr "Övre gräns för antal rader i åtgärdsloggen"
+msgstr "Max antal rader i händelseloggen"
 
 #. Resource IDs: (16655)
 msgid "Me&nus show recently used commands first"
@@ -7010,7 +7010,7 @@ msgstr "Slut på tillgängligt minne."
 
 #. Resource IDs: (1538)
 msgid "Output Directory"
-msgstr "Destinationsmapp"
+msgstr "Destination"
 
 #. Resource IDs: (3845)
 msgid "Output.prn"
@@ -7467,7 +7467,7 @@ msgstr ""
 
 #. Resource IDs: (302)
 msgid "Pull/Fetch"
-msgstr ""
+msgstr "Pull/Hämta"
 
 #. Resource IDs: (66)
 msgid "Pulled Diff"
@@ -8098,7 +8098,7 @@ msgstr "Granska Patchen med TortoiseGitMerge"
 
 #. Resource IDs: (14)
 msgid "Review/apply a unified diff file with TortoiseGitMerge"
-msgstr ""
+msgstr "Granska/applicera en fil i \"Unified Diff\"-format med hjälp av TortoiseGitMerge"
 
 #. Resource IDs: (13)
 msgid "Review/apply single &patch..."
@@ -8397,11 +8397,11 @@ msgstr "Spara till:"
 
 #. Resource IDs: (1385)
 msgid "Save unified diff"
-msgstr ""
+msgstr "Spara ändringar som en \"Unified Diff\""
 
 #. Resource IDs: (1385)
 msgid "Save unified diff since HEAD"
-msgstr ""
+msgstr "Spara ändringar sedan HEAD som en \"Unified Diff\""
 
 #. Resource IDs: (315)
 msgid ""
@@ -8793,7 +8793,7 @@ msgstr "Visa grenar som denna arkivering finns på"
 
 #. Resource IDs: (1251)
 msgid "Show changes as &unified diff"
-msgstr "Visa ändringar &som \"Unified Diff\""
+msgstr "Visa ändringar &som en \"Unified Diff\""
 
 #. Resource IDs: (32787)
 msgid "Show com&plete log"
@@ -8992,7 +8992,7 @@ msgstr "Visa referensloggen"
 
 #. Resource IDs: (198)
 msgid "Shows the action log file in the default text editor"
-msgstr "Visar åtgärdsloggen i standardprogrammet för textredigering"
+msgstr "Visar händelseloggen i standardprogrammet för textredigering"
 
 #. Resource IDs: (12)
 msgid "Shows the log for the selected file/folder"
@@ -9650,7 +9650,7 @@ msgstr "Det lokala gren/märkes-namnet är tomt. Detta kommer att resultera i en
 msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
-msgstr "Den övre gränsen för antalet rader i åtgärdsloggen.\nNär gränsen är nådd så tas den äldsta raden bort när en ny läggs till. "
+msgstr "Den övre gränsen för antalet rader i händelseloggen.\nNär gränsen är nådd så tas den äldsta raden bort när en ny läggs till. "
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -10671,7 +10671,7 @@ msgid ""
 "WARNING:\r\n"
 "Only change these settings if you are absolutely sure what you are doing!\r\n"
 "To set the values to their default, delete the value text."
-msgstr "VARNING:\r\nÄndra endast dessa inställningar om du är absolut säkert på vad du gör!\r\nRadera värdestexten för att återställa till standardvärden."
+msgstr "VARNING:\nÄndra endast dessa inställningar om du är absolut säkert på vad du gör!\nRadera värdet för att återställa till standardvärden."
 
 #. Resource IDs: (198)
 msgid "Wait"
