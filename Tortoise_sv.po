@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-19 14:16+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-08-21 14:41+0000\n"
+"Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -417,7 +417,7 @@ msgstr "&Stäng Git.exe dialog automatiskt:"
 
 #. Resource IDs: (1505)
 msgid "&Autoload Putty Key"
-msgstr "&Auto-laddning av Putty nyckel"
+msgstr "&Auto-laddning av Putty-nyckel"
 
 #. Resource IDs: (1015)
 msgid "&Backup original file"
@@ -633,7 +633,7 @@ msgstr "&Redigera .git/config"
 
 #. Resource IDs: (1559)
 msgid "&Edit ALL"
-msgstr "&Redigera ALL"
+msgstr "&Redigera ALLA"
 
 #. Resource IDs: (1506)
 msgid "&Edit Filter"
@@ -991,7 +991,7 @@ msgstr "K&listra in"
 
 #. Resource IDs: (1560)
 msgid "&Pick ALL"
-msgstr "&Välj ALL"
+msgstr "&Välj ALLA"
 
 #. Resource IDs: (1414)
 msgid "&Port:"
@@ -1386,7 +1386,7 @@ msgstr "- alla -"
 
 #. Resource IDs: (1131)
 msgid "--&all"
-msgstr "--&alla"
+msgstr "--&all"
 
 #. Resource IDs: (1007)
 msgid ""
@@ -2126,11 +2126,11 @@ msgstr "Automatisk ifyllning föreslår ord (vanligtvis klass- eller medlemsnamn
 
 #. Resource IDs: (1505)
 msgid "AutoLoad Putty &Key"
-msgstr "Automatisk laddning av Putty &nyckel"
+msgstr "Auto-laddning av Putty-&nyckel"
 
 #. Resource IDs: (1619)
 msgid "Autoload Putty &Key"
-msgstr "Automatisk laddning av Putty nyckel"
+msgstr "Auto-laddning av Putty-nyckel"
 
 #. Resource IDs: (438)
 msgid "Automatic"
@@ -2202,7 +2202,7 @@ msgstr "Bisect börja om"
 
 #. Resource IDs: (9, 4574)
 msgid "Bisect start"
-msgstr "Bisect starta"
+msgstr "Starta Bisect..."
 
 #. Resource IDs: (3850)
 msgid ""
@@ -2467,7 +2467,7 @@ msgstr ""
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr ""
+msgstr "Kan inte tvinga uppdatering av nuvarande gren. Använd \"Återställ\" om du ändå vill göra detta."
 
 #. Resource IDs: (1)
 #, c-format
@@ -2614,7 +2614,7 @@ msgstr "Markera de menyobjekt som du vill ska finnas tillgängliga i huvudmenyn 
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
 "menu (SHIFT + left click)"
-msgstr ""
+msgstr "Välj det menyinnehåll som du bara vill ska visas i den utökade kontext-menyn (SHIFT + vänsterklick)"
 
 #. Resource IDs: (81)
 msgid "Check to show relative times in log messages"
@@ -2852,7 +2852,7 @@ msgstr "Färg"
 
 #. Resource IDs: (32785)
 msgid "Color by age, &continuous"
-msgstr ""
+msgstr "Färg visar ålder, &flytande"
 
 #. Resource IDs: (138, 16961, 65535)
 msgid "Colors"
@@ -2933,7 +2933,7 @@ msgstr "Arkiveringsordning:"
 
 #. Resource IDs: (96)
 msgid "Commit super project"
-msgstr ""
+msgstr "Arkivera super-projekt"
 
 #. Resource IDs: (1110)
 msgid "Commit to:"
@@ -3169,7 +3169,7 @@ msgstr "Kopiera sökvägar till urklipp"
 
 #. Resource IDs: (90)
 msgid "Copy ref names"
-msgstr ""
+msgstr "Kopiera ref-namn"
 
 #. Resource IDs: (323)
 msgid "Copy selection to cli&pboard"
@@ -4187,7 +4187,7 @@ msgstr "Tillåt Redigering"
 
 #. Resource IDs: (1510)
 msgid "Enable EditorConfig"
-msgstr ""
+msgstr "Tillåt EditorConfig"
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -4195,7 +4195,7 @@ msgstr "Aktivera Gravatar"
 
 #. Resource IDs: (1788)
 msgid "Enable drag context menu"
-msgstr ""
+msgstr "Tillåt flytt av kontextmenyn"
 
 #. Resource IDs: (87)
 msgid ""
@@ -4561,16 +4561,16 @@ msgstr "Misslyckades!"
 
 #. Resource IDs: (75)
 msgid "Fast Forward"
-msgstr ""
+msgstr "Fast Forward"
 
 #. Resource IDs: (1484)
 msgid "Fast Forward o&nly"
-msgstr ""
+msgstr "E&nbart Fast Forward"
 
 #. Resource IDs: (67)
 #, c-format
 msgid "Fast forward to %s"
-msgstr ""
+msgstr "Fast Forward till %s"
 
 #. Resource IDs: (76)
 msgid "Fetc&h"
@@ -4661,7 +4661,7 @@ msgid ""
 "Vertical Resolution:\t%.1f dpi\n"
 "Depth:\t\t\t%d bit\n"
 "Zoom:\t\t\t%d%%"
-msgstr "Filstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorizontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%"
+msgstr "Filstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorisontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%"
 
 #. Resource IDs: (8)
 #, c-format
@@ -4681,7 +4681,7 @@ msgid ""
 "Vertical Resolution:\t%.1f dpi\n"
 "Depth:\t\t\t%d bit\n"
 "Zoom:\t\t\t%d%%"
-msgstr "Filstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorizontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%\n\nFilstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorizontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%"
+msgstr "Filstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorisontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%\n\nFilstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorisontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%"
 
 #. Resource IDs: (7)
 #, c-format
@@ -4693,7 +4693,7 @@ msgid ""
 "Vertical Resolution:\t\t%.1f dpi\n"
 "Depth:\t\t\t%d bit\n"
 "Zoom:\t\t\t%d%%"
-msgstr "Filstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorizontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%"
+msgstr "Filstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorisontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%"
 
 #. Resource IDs: (7)
 #, c-format
@@ -4713,7 +4713,7 @@ msgid ""
 "Vertical Resolution:\t\t%.1f dpi\n"
 "Depth:\t\t\t%d bit\n"
 "Zoom:\t\t\t%d%%"
-msgstr "Filstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorizontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%\n\nFilstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorizontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitarZoom:\t\t\t%d%%"
+msgstr "Filstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorisontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%\n\nFilstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\nHorisontell upplösning:\t%.1f dpi\nVertikal upplösning:\t%.1f dpi\nDjup:\t\t\t%d bitar\nZoom:\t\t\t%d%%"
 
 #. Resource IDs: (208)
 msgid "Filename"
@@ -4739,11 +4739,11 @@ msgstr "Filtrera sökvägar"
 
 #. Resource IDs: (1479)
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #. Resource IDs: (20090)
 msgid "Filter: "
-msgstr ""
+msgstr "Filter: "
 
 #. Resource IDs: (139, 1269, 20100)
 msgid "Find"
@@ -4856,7 +4856,7 @@ msgstr "Tvinga en ombasering (rebase) även om nuvarande gren är en ättling ti
 
 #. Resource IDs: (1796)
 msgid "Force: May discard"
-msgstr ""
+msgstr "Tvinga: Kan överge"
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -5613,7 +5613,7 @@ msgid ""
 "If you plan to work inside this folder, leave this unchecked. Typically a "
 "bare repo can only have changes 'pushed' to it. (By convention, a bare repo "
 "folder should have a name that ends with '.git')"
-msgstr ""
+msgstr "Om du planerar att arbeta i den här mappen så lämna denna avaktiverad. Ett bart arkiv kan typiskt bara få ändringar \"pushade\" till sig. (Konventionen säger att arkivmappar som är bara bör ha ett namn som slutar med '.git')"
 
 #. Resource IDs: (73)
 msgid "Ignore"
@@ -5656,7 +5656,7 @@ msgstr "Ig&norera ändringar mellan gemener/versaler"
 msgid ""
 "Ignore changes\n"
 "Ignore the outside changes."
-msgstr ""
+msgstr "Ignorera ändringar\nIgnorera dom externa ändringarna."
 
 #. Resource IDs: (1687)
 msgid "Ignore item(s) only in the containing folder(s)"
@@ -5688,7 +5688,7 @@ msgstr "Ignorera ändringar av tomrum"
 
 #. Resource IDs: (2050)
 msgid "Ignore whitespace when comparing the parents version and the child's "
-msgstr ""
+msgstr "Ignorera tomrumsändringar vid jämförelse av förälderns och barnets version"
 
 #. Resource IDs: (1432)
 msgid "Ignored"
@@ -6986,7 +6986,7 @@ msgstr "Ursprungli&g storlek"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
-msgstr ""
+msgstr "Origin Namn"
 
 #. Resource IDs: (1065)
 msgid "Other Task Panes"
@@ -7427,7 +7427,7 @@ msgstr "Provider"
 
 #. Resource IDs: (1586)
 msgid "Provider para&meters:"
-msgstr ""
+msgstr "Provider-para&metrar:"
 
 #. Resource IDs: (1581)
 msgid "Provider uuid win&32:"
@@ -7656,7 +7656,7 @@ msgstr "Rektangelverktyg\nRektangel"
 
 #. Resource IDs: (1487)
 msgid "Recurse submodule"
-msgstr "Gå igenom sub-modulen rekursivt"
+msgstr "Sub-moduler rekursivt"
 
 #. Resource IDs: (1654)
 msgid "Recursive"
@@ -7760,7 +7760,7 @@ msgstr "Kom ihåg mitt val (\"svn.rmdir\" option)"
 
 #. Resource IDs: (1649)
 msgid "Reminder: Commit your change after resolve"
-msgstr ""
+msgstr "Kom ihåg: Arkivera dina ändringar efter att du löst konflikterna"
 
 #. Resource IDs: (1573)
 msgid "Remote"
@@ -7967,7 +7967,7 @@ msgstr "Kräver GPG och en nyckel utan lösenord."
 
 #. Resource IDs: (8)
 msgid "Res&olve..."
-msgstr ""
+msgstr "Lös k&onflikter..."
 
 #. Resource IDs: (317)
 msgid "Reset"
@@ -8648,12 +8648,12 @@ msgstr "Ändra &datum"
 
 #. Resource IDs: (86)
 msgid "Sets the remote as the \"pushremote\" for the selected local branch."
-msgstr ""
+msgstr "Sätter fjärrarkivet som \"pushremote\" för den valda lokala grenen."
 
 #. Resource IDs: (86)
 msgid ""
 "Sets the remote branch as the \"pushbranch\" for the selected local branch."
-msgstr ""
+msgstr "Sätter fjärrgrenen som \"pushbranch\" för den valda lokala grenen."
 
 #. Resource IDs: (13)
 msgid "Setting properties..."
@@ -9903,7 +9903,7 @@ msgstr "Ordna &vertikalt"
 
 #. Resource IDs: (16924)
 msgid "Tile Hori&zontally"
-msgstr "Ordna hori&zontellt"
+msgstr "Ordna hori&sontellt"
 
 #. Resource IDs: (1676)
 msgid "To"
@@ -10374,7 +10374,7 @@ msgstr ""
 
 #. Resource IDs: (1497)
 msgid "Use Thin &Pack (For slow network connections)"
-msgstr ""
+msgstr "Använd \"Thin &Pack\" (För långsamma nätverk)"
 
 #. Resource IDs: (1064)
 msgid "Use Unified Diff from &clipboard"
@@ -11250,7 +11250,7 @@ msgid ""
 "%s = %ld\n"
 "%s = %ld\n"
 "%s = %ld"
-msgstr "rad: %d(+) %d(-) filer: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld"
+msgstr "rader: %d(+) %d(-) filer: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld"
 
 #. Resource IDs: (69)
 #, c-format
@@ -11261,7 +11261,7 @@ msgid ""
 "%s = %ld\n"
 "%s = %ld\n"
 "%s = %ld"
-msgstr "rad: %d(+) %d(-) filer: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s = %ld"
+msgstr "rader: %d(+) %d(-) filer: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s = %ld"
 
 #. Resource IDs: (1494)
 msgid "master"
@@ -11330,7 +11330,7 @@ msgstr "pixlar"
 
 #. Resource IDs: (65535)
 msgid "possible or real conflict/obstructed"
-msgstr "möjlig eller verklig konflikt/obstruktion"
+msgstr "möjlig eller verklig konflikt/blockering"
 
 #. Resource IDs: (3845)
 msgid "prn"
