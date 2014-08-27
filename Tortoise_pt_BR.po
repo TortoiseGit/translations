@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-20 13:34+0000\n"
+"PO-Revision-Date: 2014-08-27 13:24+0000\n"
 "Last-Translator: Ricardo Souza <srrcdmk@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -731,7 +731,7 @@ msgstr "&Verde:"
 
 #. Resource IDs: (1511)
 msgid "&HEAD"
-msgstr "&CABEÇALHO"
+msgstr "&HEAD"
 
 #. Resource IDs: (12, 57670, 65535)
 msgid "&Help"
@@ -1461,7 +1461,7 @@ msgstr "<b>TortoiseGit</b> é uma extensão da shell.\nIsto significa que é int
 msgid ""
 "<b>Warning:</b> It has not been checked if these branches have been fully "
 "merged into HEAD."
-msgstr "<b>Aviso:</b> Não foi verificado se estes ramos foram combinados completamente no CABEÇALHO."
+msgstr "<b>Aviso:</b> Não foi verificado se estes ramos foram combinados completamente no HEAD."
 
 #. Resource IDs: (84)
 msgid "<b>Warning:</b> This action will remove the branches on the remote."
@@ -1469,13 +1469,13 @@ msgstr "<b>Aviso:</b> Esta ação irá remover os ramos no servidor remoto."
 
 #. Resource IDs: (84)
 msgid "<b>Warning:</b> This branch is not fully merged into HEAD."
-msgstr "<b>Aviso:</b> Este ramo não foi combinado completamente no CABEÇALHO."
+msgstr "<b>Aviso:</b> Este ramo não foi combinado completamente no HEAD."
 
 #. Resource IDs: (68)
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
 "Do you want to a create branch now?"
-msgstr "<ct=0x0000FF>CABEÇALHO Atual Destacado</ct>, você está trabalhando em (sem ramo).\nQuer criar um ramo agora?"
+msgstr "<ct=0x0000FF>HEAD Atual Destacado</ct>, você está trabalhando em (sem ramo).\nQuer criar um ramo agora?"
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -2972,7 +2972,7 @@ msgstr "Adicionar uma pasta não versionada não irá adicionar suas subpastas r
 
 #. Resource IDs: (2054)
 msgid "Compare &HEAD revisions"
-msgstr "Comparar revisões do &CABEÇALHO"
+msgstr "Comparar revisões do &HEAD"
 
 #. Resource IDs: (79)
 msgid "Compare selected refs"
@@ -3272,7 +3272,7 @@ msgstr "Não foi possível restaurar para a última submissão (segundo passo). 
 
 #. Resource IDs: (70)
 msgid "Could not reset to original HEAD."
-msgstr "Não foi possível restaurar para o CABEÇALHO original."
+msgstr "Não foi possível restaurar para o HEAD original."
 
 #. Resource IDs: (81)
 #, c-format
@@ -5221,11 +5221,11 @@ msgstr "&Matiz:"
 
 #. Resource IDs: (1353, 1354, 1511, 1684)
 msgid "HEAD"
-msgstr "CABEÇALHO"
+msgstr "HEAD"
 
 #. Resource IDs: (65535)
 msgid "HEAD:"
-msgstr "CABEÇALHO:"
+msgstr "HEAD:"
 
 #. Resource IDs: (89)
 msgid "Hard"
@@ -5757,7 +5757,7 @@ msgstr "Em Submissões"
 
 #. Resource IDs: (1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr "Para cancelar o processo de mesclagem, uma restauração (para o CABEÇALHO) é necessária."
+msgstr "Para cancelar o processo de mesclagem, uma restauração (para o HEAD) é necessária."
 
 #. Resource IDs: (1499)
 msgid "Include &Tags"
@@ -6128,7 +6128,7 @@ msgstr "Revisão visível mais baixa: %ld - Revisão visível mais alta: %ld"
 msgid ""
 "Lowest shown revision: %ld - Highest shown revision: %ld - HEAD revision: "
 "%ld"
-msgstr "Revisão visível mais baixa: %ld - Revisão visível mais alta: %ld - Revisão Mais Recente: %ld"
+msgstr "Revisão visível mais baixa: %ld - Revisão visível mais alta: %ld - Revisão HEAD: %ld"
 
 #. Resource IDs: (16973)
 msgid "Lum"
@@ -6537,7 +6537,7 @@ msgstr "Próxima Diferença"
 
 #. Resource IDs: (156)
 msgid "Next inline difference"
-msgstr "Prócima diferença em linha"
+msgstr "Próxima diferença em linha"
 
 #. Resource IDs: (73)
 msgid "No"
@@ -6561,7 +6561,7 @@ msgstr "Não &Submeter"
 
 #. Resource IDs: (67)
 msgid "No HEAD found"
-msgstr "CABEÇALHO não encontrado"
+msgstr "HEAD não encontrado"
 
 #. Resource IDs: (81)
 msgid ""
@@ -8395,7 +8395,7 @@ msgstr "Salvar dif. unifi."
 
 #. Resource IDs: (1385)
 msgid "Save unified diff since HEAD"
-msgstr "Salvar dif. unificadas desde o CABEÇALHO"
+msgstr "Salvar dif. unificadas desde o HEAD"
 
 #. Resource IDs: (315)
 msgid ""
@@ -8739,7 +8739,7 @@ msgstr "Exibir Menos Botões"
 
 #. Resource IDs: (2051)
 msgid "Show HEAD revision nodes"
-msgstr "Exibir nós da revisão CABEÇALHO"
+msgstr "Exibir nós da revisão HEAD"
 
 #. Resource IDs: (2052)
 msgid ""
@@ -10259,7 +10259,7 @@ msgstr "Texto sem Formatação\ntexto sem nenhuma formatação"
 
 #. Resource IDs: (2054)
 msgid "Unified &diff of HEAD revisions"
-msgstr "&Correções unificadas das revisões do CABEÇALHO"
+msgstr "&Correções unificadas das revisões do HEAD"
 
 #. Resource IDs: (1258)
 msgid "Unknown"
