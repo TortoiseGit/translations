@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-30 03:55+0000\n"
+"PO-Revision-Date: 2014-08-30 15:50+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -275,7 +275,7 @@ msgstr "%s, de %s"
 #. Resource IDs: (151)
 #, c-format
 msgid "%s: Working Tree"
-msgstr "%s: árbol de trabajo"
+msgstr "%s: Árbol de trabajo (working tree)"
 
 #. Resource IDs: (145)
 #, c-format
@@ -6249,7 +6249,7 @@ msgstr "Reintegración Combinar"
 msgid ""
 "Merge between original branch, working tree contents, and the branch to "
 "switch to"
-msgstr ""
+msgstr "Fusión entre el ramal original, contenidos del árbol de trabajo (working tree), y el ramal al que cambiar"
 
 #. Resource IDs: (1252)
 #, c-format
@@ -6266,7 +6266,7 @@ msgstr "Archivos Combinados"
 
 #. Resource IDs: (10)
 msgid "Merges another branch"
-msgstr "Combina otra rama"
+msgstr "Fusiona otro ramal"
 
 #. Resource IDs: (1073)
 msgid "Merging"
@@ -6477,7 +6477,7 @@ msgstr "Nuevo &nombre:"
 
 #. Resource IDs: (309)
 msgid "New Branch\\Tag"
-msgstr "Nueva Rama\\Etiqueta"
+msgstr "Nuevo Ramal\\Etiqueta"
 
 #. Resource IDs: (1001)
 msgid "New Menu"
@@ -6891,11 +6891,11 @@ msgstr "Uno o más archivos están en conflicto."
 
 #. Resource IDs: (1542)
 msgid "Only Current Branch"
-msgstr "Sólo Rama actual"
+msgstr "Sólo ramal actual"
 
 #. Resource IDs: (1543)
 msgid "Only Local Branches"
-msgstr ""
+msgstr "Sólo ramales locales"
 
 #. Resource IDs: (1256)
 msgid "Only Merged Files"
@@ -7011,7 +7011,7 @@ msgstr "Salida.impr"
 
 #. Resource IDs: (1523)
 msgid "Override branch if exists"
-msgstr "Reemplazar rama si existe"
+msgstr "Reemplazar ramal si existe"
 
 #. Resource IDs: (92)
 msgid "Overwrite"
@@ -7240,7 +7240,7 @@ msgstr "Por favor, selecciona un tipo de enganchados"
 
 #. Resource IDs: (94)
 msgid "Please select branch"
-msgstr ""
+msgstr "Por favor seleccione ramal"
 
 #. Resource IDs: (94)
 msgid "Please select upstream"
@@ -7452,7 +7452,7 @@ msgstr "Tirar"
 
 #. Resource IDs: (75)
 msgid "Pull requires the selected local branch to be the current branch."
-msgstr "El Tirar requiere que la rama local seleccionada sea la rama actual."
+msgstr "Pull (adquirir) requiere que el ramal local seleccionado sea el ramal actual."
 
 #. Resource IDs: (14)
 msgid "Pull..."
@@ -7761,7 +7761,7 @@ msgstr "Remoto"
 
 #. Resource IDs: (65535)
 msgid "Remote &Branch:"
-msgstr "&Rama Remota:"
+msgstr "&Ramal remoto:"
 
 #. Resource IDs: (1618)
 msgid "Remote &URL:"
@@ -7769,11 +7769,11 @@ msgstr "&URL Remota:"
 
 #. Resource IDs: (1754)
 msgid "Remote &tracking branch"
-msgstr ""
+msgstr "Ramal de seguimiento remoto"
 
 #. Resource IDs: (65535)
 msgid "Remote Branch"
-msgstr "Rama Remota:"
+msgstr "Ramal remoto:"
 
 #. Resource IDs: (71)
 msgid "Remote URL must not be empty."
@@ -7815,7 +7815,7 @@ msgstr "Eliminar &todos los archivos sín seguimiento (-fx)"
 
 #. Resource IDs: (75)
 msgid "Remove &branch"
-msgstr "Quitar &rama"
+msgstr "Eliminar &ramal"
 
 #. Resource IDs: (1628)
 msgid "Remove &non-ignored untracked files (-f)"
@@ -7981,7 +7981,7 @@ msgstr "Reinicia \"%s\" a este..."
 
 #. Resource IDs: (1553)
 msgid "Reset active branch"
-msgstr "Reinicia rama activa"
+msgstr "Restablecer ramal activo"
 
 #. Resource IDs: (1255)
 msgid "Reset columns"
@@ -7990,7 +7990,7 @@ msgstr "Reiniciar columnas"
 #. Resource IDs: (64)
 #, c-format
 msgid "Reset current branch \"%s\" to"
-msgstr "Inicializar rama actual  \"%s\" a"
+msgstr "Restablecer ramal actual  \"%s\" a"
 
 #. Resource IDs: (77, 207, 229)
 msgid "Resolve"
@@ -8641,12 +8641,12 @@ msgstr "Establecer &fecha de autoría"
 
 #. Resource IDs: (86)
 msgid "Sets the remote as the \"pushremote\" for the selected local branch."
-msgstr "Ajustar el remoto como el, \"EmpujarRemoto\" para la rama local seleccionada."
+msgstr "Establece el remoto como el \"pushremote\" (remoto de vertido)  para el ramal local seleccionado."
 
 #. Resource IDs: (86)
 msgid ""
 "Sets the remote branch as the \"pushbranch\" for the selected local branch."
-msgstr "Ajustar la rama remota para el, \"EmpujarRama\" para la rama local seleccionada."
+msgstr "Establece el ramal remoto como el \"pushbranch\" (ramal de vertido) para el ramal local seleccionado."
 
 #. Resource IDs: (13)
 msgid "Setting properties..."
@@ -8782,7 +8782,7 @@ msgstr "Mostrar autor"
 
 #. Resource IDs: (1251)
 msgid "Show branches this commit is on"
-msgstr "Mostrar Ramas donde está la consigna"
+msgstr "Mostrar ramales donde esta consignación (commit) está activa"
 
 #. Resource IDs: (1251)
 msgid "Show changes as &unified diff"
@@ -8967,7 +8967,7 @@ msgstr "Mostrando %ld revisión(es), desde la revisión %s a la revisión %s - %
 
 #. Resource IDs: (24)
 msgid "Shows a graphical representation of copies/tags/branches"
-msgstr "Mostrar una representación gráfica de copias/etiquetas/ramas"
+msgstr "Muestra una representación gráfica de copias/etiquetas/ramales"
 
 #. Resource IDs: (13)
 msgid ""
@@ -9358,7 +9358,7 @@ msgstr "Conmutar/Comprobar a este..."
 
 #. Resource IDs: (9)
 msgid "Switch/Checkout working tree to another branch/tag"
-msgstr "Conmutar/Comprobar árbol de trabajo a otra rama/etiqueta"
+msgstr "Cambiar/Comprobar árbol de trabajo a otro ramal/etiqueta"
 
 #. Resource IDs: (325)
 msgid "Switches the comparison left<->right"
@@ -9483,7 +9483,7 @@ msgid ""
 "The branch \"%s\" is a <i>remote</i> branch.\n"
 "\n"
 "Do you really want to <ct=0x0000FF>delete</ct> it?"
-msgstr "La rama \"%s\" en una rama <i>remota</i>.\n\n¿Estás seguro que quieres <ct=0x0000FF>eliminarla</ct>?"
+msgstr "El ramal \"%s\" en un ramal <i>remoto</i>.\n\n¿De verdad quiere <ct=0x0000FF>eliminarlo</ct>?"
 
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -9523,7 +9523,7 @@ msgstr "El motor del dif. abortó debido a un error:\n%s"
 msgid ""
 "The entered source ref is ambiguous.\n"
 "You have to make it unique (e.g. by adding \"refs/heads/\" as a prefix for branches or \"refs/tags/\" for tags)!"
-msgstr "La Ref fuente introducida es ambigua.\n¡Debes hacerla única (Ej: añadiendo \"refs/heads/\" como prefijo para ramas ó \"refs/tags/\" para etiquetas)!"
+msgstr "La referencia (ref) fuente introducida es ambigua.\n¡Tiene que hacerla única (ej. añadiendo \"refs/heads/\" (referencias/cabeceras) como prefijo para ramales o \"refs/tags/\" (referencias/etiquetas) para etiquetas)!"
 
 #. Resource IDs: (64)
 #, c-format
@@ -9625,19 +9625,19 @@ msgstr "El número de línea debe estar entre %d y %d"
 #. Resource IDs: (86)
 #, c-format
 msgid "The local branch \"%s\" does not fast-forward to the remote branch \"%s\"."
-msgstr "La rama local \"%s\" no hace el avance-rápido a la rama remota \"%s\"."
+msgstr "El ramal local \"%s\" no realiza avance-rápido (fast-forward) hacia el ramal remoto \"%s\"."
 
 #. Resource IDs: (64)
 msgid ""
 "The local branch name and the remote branch name are empty.\n"
 "Continue?"
-msgstr "El nombre de la rama local y el nombre de la rama remota están vacíos.\n¿Continuar?"
+msgstr "Los nombres del ramal local y del ramal remoto están vacíos.\n¿Continuar?"
 
 #. Resource IDs: (64)
 msgid ""
 "The local branch/tag name is empty. This results in a remote removal.\r\n"
 "Continue?"
-msgstr "El nombre de la rama/etiqueta está vacío. Estó ocasionará el borrado del remoto.\r\n¿Continuar?"
+msgstr "El nombre del ramal/etiqueta está vacío. Estó ocasionará el borrado del remoto.\n¿Continuar?"
 
 #. Resource IDs: (198)
 msgid ""
@@ -10100,11 +10100,11 @@ msgstr "Rastrear"
 
 #. Resource IDs: (11023)
 msgid "Tracked Remote Branch:"
-msgstr "Ramas Remotas en seguimiento:"
+msgstr "Ramal remoto rastreado:"
 
 #. Resource IDs: (94)
 msgid "Tracked branch"
-msgstr ""
+msgstr "Ramal rastreado"
 
 #. Resource IDs: (357)
 #, c-format
@@ -10379,7 +10379,7 @@ msgstr "Usa otro nombre o utilizar el \"Forzar\" como opción para sobrescribir.
 
 #. Resource IDs: (85)
 msgid "Use a different name or use the \"Override branch\" option."
-msgstr "Usa otro nombre o utiliza la opción \"Sobrescribir rama\"."
+msgstr "Utilice un nombre diferente o use la opción \"Reemplazar ramal\"."
 
 #. Resource IDs: (2054)
 msgid ""
@@ -10429,7 +10429,7 @@ msgstr "Usar el fichero de la izquierda excepto para los bloques marcados"
 
 #. Resource IDs: (1762)
 msgid "Use local branch color for current branch"
-msgstr ""
+msgstr "Usar color del ramal local para el ramal actual"
 
 #. Resource IDs: (1432)
 msgid "Use recycle bin when reverting"
@@ -10531,7 +10531,7 @@ msgstr "Usar otro &archivo completo"
 
 #. Resource IDs: (119)
 msgid "Used to amend the tip of the current branch."
-msgstr "Usalo para rectificar la punta de la rama actual."
+msgstr "Usado para rectificar el aviso del ramal actual."
 
 #. Resource IDs: (65535)
 msgid "User Email:"
@@ -11286,7 +11286,7 @@ msgstr "mes"
 
 #. Resource IDs: (1681)
 msgid "new branch"
-msgstr "nueva rama"
+msgstr "nuevo ramal"
 
 #. Resource IDs: (18)
 msgid "no"
