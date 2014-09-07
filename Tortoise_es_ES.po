@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-09-06 21:36+0000\n"
+"PO-Revision-Date: 2014-09-07 00:21+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -3036,7 +3036,7 @@ msgstr "Configurar expresiones regulares de filtros"
 
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
-msgstr "Configurar sentencias enganchadas"
+msgstr "Configurar scripts de enganches (hooks)"
 
 #. Resource IDs: (284)
 msgid "Configure Issue Tracker Integration"
@@ -5308,19 +5308,19 @@ msgstr "Home"
 
 #. Resource IDs: (103)
 msgid "Hook Scripts"
-msgstr "Sentencias Enganchadas"
+msgstr "Scripts de enganches (hooks)"
 
 #. Resource IDs: (4571)
 msgid "Hook Scripts::Issue Tracker Config"
-msgstr "Sentencias enganchadas::Configuración del rastreador de problemas"
+msgstr "Scripts de enganches::Configuración del rastreador de problemas"
 
 #. Resource IDs: (283)
 msgid "Hook Scripts::Issue Tracker Integration"
-msgstr "Sentencias enganchadas::Integración del rastreador de problemas"
+msgstr "Scripts de enganches::Integración del rastreador de problemas"
 
 #. Resource IDs: (198)
 msgid "Hook Type"
-msgstr "Tipo de Enganchados"
+msgstr "Tipo de enganche"
 
 #. Resource IDs: (1334)
 msgid "Hook Type:"
@@ -7228,15 +7228,15 @@ msgstr "Gráfico de tarta"
 
 #. Resource IDs: (83)
 msgid "Please enter a hook script to execute."
-msgstr "Por favor, introduce una sentencia encanchada a ejecutar."
+msgstr "Por favor introduzca un script de enganche (hook) a ejecutar."
 
 #. Resource IDs: (83)
 msgid "Please enter a path where to apply the hook script to."
-msgstr "Por favor, introduce una ruta donde aplicar la sentencia encanchada."
+msgstr "Por favor, introduzca una ruta donde aplicar el script de enganche (hook)."
 
 #. Resource IDs: (83)
 msgid "Please select a hook type"
-msgstr "Por favor, selecciona un tipo de enganchados"
+msgstr "Por favor, seleccione un tipo de enganche (hook)"
 
 #. Resource IDs: (94)
 msgid "Please select branch"
@@ -7276,11 +7276,11 @@ msgstr "Puerto:"
 
 #. Resource IDs: (569)
 msgid "Post-Commit Hook"
-msgstr "Enganchados post-consigna"
+msgstr "Enganche post-consignación (commit)"
 
 #. Resource IDs: (604)
 msgid "Post-Push Hook"
-msgstr "Enganchados post-mandado"
+msgstr "Enganche post-impulsado (push)"
 
 #. Resource IDs: (58115)
 msgid "Pre&v Page"
@@ -7288,11 +7288,11 @@ msgstr "Página An&terior"
 
 #. Resource IDs: (569)
 msgid "Pre-Commit Hook"
-msgstr "Enganchados Previo-consigna"
+msgstr "Enganche previa consignación (commit)"
 
 #. Resource IDs: (604)
 msgid "Pre-Push Hook"
-msgstr "Enganchados Previo-mandado"
+msgstr "Enganche previo-impulsado (push)"
 
 #. Resource IDs: (68)
 msgid "Preparing commit..."
@@ -8534,7 +8534,7 @@ msgstr "Seleccione la carpeta a donde guardar los archivos seleccionados"
 
 #. Resource IDs: (197)
 msgid "Select hook script file"
-msgstr "Seleccionar archivo de sentencias enganchadas"
+msgstr "Seleccionar archivo de script de enganche (hook)"
 
 #. Resource IDs: (1405)
 msgid "Select items automatically"
@@ -9114,7 +9114,7 @@ msgstr "Iniciar Entresacar"
 
 #. Resource IDs: (569)
 msgid "Start Commit Hook"
-msgstr "Iniciar enganchados de Consigna"
+msgstr "Iniciar enganche (hook) de consignado (commit)"
 
 #. Resource IDs: (67, 68)
 msgid "Start Rebase"
@@ -9596,7 +9596,7 @@ msgstr "La carpeta \n%s\nno existe.\n¿Quieres crearla primero?"
 msgid ""
 "The hook script returned an error:\n"
 "%s"
-msgstr "La Sentencia Enganchada devolvió un error:\n%s"
+msgstr "El script de enganche (hook) devolvió un error:\n%s"
 
 #. Resource IDs: (7)
 msgid "The image can not be shown."
