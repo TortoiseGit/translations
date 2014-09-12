@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-19 14:16+0000\n"
+"PO-Revision-Date: 2014-09-12 09:29+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -206,8 +206,8 @@ msgstr "%1\n위 파일을 찾을 수 없습니다.\n주어진 경로나 파일�
 
 #. Resource IDs: (91)
 #, c-format
-msgid "%HOME%/gitconfig or %XDGHOME%/gitconfig"
-msgstr "%HOME%/gitconfig나 %XDGHOME%/gitconfig"
+msgid "%HOME%/.gitconfig or %XDGHOME%/git/config"
+msgstr ""
 
 #. Resource IDs: (357)
 #, c-format
@@ -1493,8 +1493,8 @@ msgstr "<b>경고:</b> 이 브랜치는 HEAD와 완전히 병합되지 않았습
 #. Resource IDs: (68)
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
-"Do you want to a create branch now?"
-msgstr "<ct=0x0000FF>현재 HEAD가 떨어졌습니다</ct>, (브랜치 없음)에서 작업하는 중입니다.\n지금 브랜치를 만들겠습니까?"
+"Do you want to create a branch now?"
+msgstr ""
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -3709,6 +3709,10 @@ msgstr "Deleting remote refs..."
 msgid "Delivery:"
 msgstr "전송수단:"
 
+#. Resource IDs: (1646)
+msgid "Depth"
+msgstr ""
+
 #. Resource IDs: (1002)
 msgid "Description"
 msgstr "설명"
@@ -4145,8 +4149,8 @@ msgid "Edit gl&obal .gitconfig"
 msgstr "TGit .gitconfig 편집하기(&O)"
 
 #. Resource IDs: (1718)
-msgid "Edit global &XDG config"
-msgstr "Edit global &XDG config"
+msgid "Edit global &XDG git/config"
+msgstr ""
 
 #. Resource IDs: (71)
 msgid "Edit local git config"
@@ -11201,10 +11205,6 @@ msgstr "일"
 #. Resource IDs: (10)
 msgid "deleted"
 msgstr "삭제됨"
-
-#. Resource IDs: (1646)
-msgid "depth "
-msgstr "깊이"
 
 #. Resource IDs: (58116)
 msgid "dummy"

@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-19 14:16+0000\n"
+"PO-Revision-Date: 2014-09-12 09:29+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -190,7 +190,7 @@ msgstr "%1\nAcest fişier nu poate fi găsit.\nVerificaţi dacă numele fişieru
 
 #. Resource IDs: (91)
 #, c-format
-msgid "%HOME%/gitconfig or %XDGHOME%/gitconfig"
+msgid "%HOME%/.gitconfig or %XDGHOME%/git/config"
 msgstr ""
 
 #. Resource IDs: (357)
@@ -1477,8 +1477,8 @@ msgstr "<b>Avertisment:</b> Această ramură nu a fost îmbinată complet cu HEA
 #. Resource IDs: (68)
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
-"Do you want to a create branch now?"
-msgstr "<ct=0x0000FF>HEAD curent desprins</ct>, nu lucraţi pe (nicio) ramură.⏎ Doriţi să creaţi o ramură nouă?"
+"Do you want to create a branch now?"
+msgstr ""
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -3693,6 +3693,10 @@ msgstr "Ştergere referinţe destinaţie..."
 msgid "Delivery:"
 msgstr ""
 
+#. Resource IDs: (1646)
+msgid "Depth"
+msgstr ""
+
 #. Resource IDs: (1002)
 msgid "Description"
 msgstr "Descriere"
@@ -4129,8 +4133,8 @@ msgid "Edit gl&obal .gitconfig"
 msgstr "Editează .gitconfig gl&obal"
 
 #. Resource IDs: (1718)
-msgid "Edit global &XDG config"
-msgstr "Editează configurare &XDG globală"
+msgid "Edit global &XDG git/config"
+msgstr ""
 
 #. Resource IDs: (71)
 msgid "Edit local git config"
@@ -11185,10 +11189,6 @@ msgstr "zi"
 #. Resource IDs: (10)
 msgid "deleted"
 msgstr "şters"
-
-#. Resource IDs: (1646)
-msgid "depth "
-msgstr "adâncime"
 
 #. Resource IDs: (58116)
 msgid "dummy"

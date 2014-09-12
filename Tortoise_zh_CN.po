@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-09-10 18:26+0000\n"
+"PO-Revision-Date: 2014-09-12 09:30+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -194,8 +194,8 @@ msgstr "%1\n无法找到该文件，\n请检查输入的路径和文件名是否
 
 #. Resource IDs: (91)
 #, c-format
-msgid "%HOME%/gitconfig or %XDGHOME%/gitconfig"
-msgstr "%HOME%/gitconfig 或 %XDGHOME%/gitconfig"
+msgid "%HOME%/.gitconfig or %XDGHOME%/git/config"
+msgstr ""
 
 #. Resource IDs: (357)
 #, c-format
@@ -1481,8 +1481,8 @@ msgstr "<b>警告：</b>这个分支被没有完全并入 HEAD。"
 #. Resource IDs: (68)
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
-"Do you want to a create branch now?"
-msgstr "<ct=0x0000FF>当前的 HEAD 已分离</ct>，您正在一个 (无分支) 上工作。您想现在就创建一个分支吗。"
+"Do you want to create a branch now?"
+msgstr ""
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -3697,6 +3697,10 @@ msgstr "删除远程引用..."
 msgid "Delivery:"
 msgstr "发布"
 
+#. Resource IDs: (1646)
+msgid "Depth"
+msgstr ""
+
 #. Resource IDs: (1002)
 msgid "Description"
 msgstr "描述"
@@ -4133,8 +4137,8 @@ msgid "Edit gl&obal .gitconfig"
 msgstr "编辑全局.git/config(&O)"
 
 #. Resource IDs: (1718)
-msgid "Edit global &XDG config"
-msgstr "编辑全局XDG配置文件(&X)"
+msgid "Edit global &XDG git/config"
+msgstr ""
 
 #. Resource IDs: (71)
 msgid "Edit local git config"
@@ -11189,10 +11193,6 @@ msgstr "天"
 #. Resource IDs: (10)
 msgid "deleted"
 msgstr "已删除"
-
-#. Resource IDs: (1646)
-msgid "depth "
-msgstr "深度"
 
 #. Resource IDs: (58116)
 msgid "dummy"

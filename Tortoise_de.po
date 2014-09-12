@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-19 14:17+0000\n"
+"PO-Revision-Date: 2014-09-12 09:30+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -187,8 +187,8 @@ msgstr "%1\nKonnte diese Datei nicht finden.\nBitte überprüfen Sie, ob der Pfa
 
 #. Resource IDs: (91)
 #, c-format
-msgid "%HOME%/gitconfig or %XDGHOME%/gitconfig"
-msgstr "%HOME%/gitconfig oder %XDGHOME%/gitconfig"
+msgid "%HOME%/.gitconfig or %XDGHOME%/git/config"
+msgstr ""
 
 #. Resource IDs: (357)
 #, c-format
@@ -1474,8 +1474,8 @@ msgstr "<b>Warnung:</b> Dieser Zweig wurde bisher nicht vollständig in HEAD int
 #. Resource IDs: (68)
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
-"Do you want to a create branch now?"
-msgstr "<ct=0x0000FF>Der aktuelle HEAD ist losgelöst</ct>, Sie arbeiten gerade auf keinem Zweig.\nMöchten Sie einen Zweig anlegen?"
+"Do you want to create a branch now?"
+msgstr ""
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -3690,6 +3690,10 @@ msgstr "Lösche entfernte Referenzen..."
 msgid "Delivery:"
 msgstr "Versand:"
 
+#. Resource IDs: (1646)
+msgid "Depth"
+msgstr ""
+
 #. Resource IDs: (1002)
 msgid "Description"
 msgstr "Beschreibung"
@@ -4126,8 +4130,8 @@ msgid "Edit gl&obal .gitconfig"
 msgstr "Gl&obale .gitconfig bearbeiten"
 
 #. Resource IDs: (1718)
-msgid "Edit global &XDG config"
-msgstr "Bearbeite globale &XDG config"
+msgid "Edit global &XDG git/config"
+msgstr ""
 
 #. Resource IDs: (71)
 msgid "Edit local git config"
@@ -11182,10 +11186,6 @@ msgstr "Tag"
 #. Resource IDs: (10)
 msgid "deleted"
 msgstr "Gelöscht"
-
-#. Resource IDs: (1646)
-msgid "depth "
-msgstr "Tiefe"
 
 #. Resource IDs: (58116)
 msgid "dummy"

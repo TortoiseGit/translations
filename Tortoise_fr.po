@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-08-19 14:16+0000\n"
+"PO-Revision-Date: 2014-09-12 09:30+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -194,8 +194,8 @@ msgstr "%1\nImpossible de trouver ce fichier.\nVérifier que le chemin et le nom
 
 #. Resource IDs: (91)
 #, c-format
-msgid "%HOME%/gitconfig or %XDGHOME%/gitconfig"
-msgstr "%HOME%/gitconfig en %XDGHOME%/gitconfig"
+msgid "%HOME%/.gitconfig or %XDGHOME%/git/config"
+msgstr ""
 
 #. Resource IDs: (357)
 #, c-format
@@ -1481,8 +1481,8 @@ msgstr "<b>Attention :</b> Cette branche n'est pas totalement fusionnée sur HEA
 #. Resource IDs: (68)
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
-"Do you want to a create branch now?"
-msgstr "<ct=0x0000FF>Current HEAD Detached</ct>, vous travaillez sur (aucune section).\nVoulez-vous créer une section maintenant ?"
+"Do you want to create a branch now?"
+msgstr ""
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -3697,6 +3697,10 @@ msgstr "Supprimer les refs distant..."
 msgid "Delivery:"
 msgstr "Livraison :"
 
+#. Resource IDs: (1646)
+msgid "Depth"
+msgstr ""
+
 #. Resource IDs: (1002)
 msgid "Description"
 msgstr "Description"
@@ -4133,8 +4137,8 @@ msgid "Edit gl&obal .gitconfig"
 msgstr "Modifier le fichier .gitconfig &global"
 
 #. Resource IDs: (1718)
-msgid "Edit global &XDG config"
-msgstr "Editer la configuration globale &XDG"
+msgid "Edit global &XDG git/config"
+msgstr ""
 
 #. Resource IDs: (71)
 msgid "Edit local git config"
@@ -11189,10 +11193,6 @@ msgstr "jour"
 #. Resource IDs: (10)
 msgid "deleted"
 msgstr "effacé"
-
-#. Resource IDs: (1646)
-msgid "depth "
-msgstr "profondeur "
 
 #. Resource IDs: (58116)
 msgid "dummy"
