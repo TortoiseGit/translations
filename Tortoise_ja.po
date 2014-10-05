@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-09-19 06:53+0000\n"
-"Last-Translator: Tetsuhiko Koto\n"
+"PO-Revision-Date: 2014-10-05 12:24+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -536,10 +536,6 @@ msgstr "リビジョンの比較(&C)"
 #. Resource IDs: (92)
 msgid "&Compressed Graph"
 msgstr "短縮されたグラフ(&C)"
-
-#. Resource IDs: (1239)
-msgid "&Configure"
-msgstr "設定(&C)"
 
 #. Resource IDs: (501, 1367, 1471, 57634)
 msgid "&Copy"
@@ -2895,6 +2891,11 @@ msgstr "コマンド"
 #. Resource IDs: (67, 77, 135, 229, 1083, 1383, 1514)
 msgid "Commit"
 msgstr "コミット"
+
+#. Resource IDs: (96)
+#, c-format
+msgid "Commit %s is NOT visible right now."
+msgstr ""
 
 #. Resource IDs: (94)
 #, c-format
@@ -8592,6 +8593,10 @@ msgstr "どのファイルを名前を付けて保存するか選択してくだ
 msgid "Select/deselect &all"
 msgstr "すべてを選択/解除(&A)"
 
+#. Resource IDs: (96)
+msgid "Selection History"
+msgstr ""
+
 #. Resource IDs: (1)
 msgid "Send"
 msgstr "送信"
@@ -9392,10 +9397,6 @@ msgstr "同期..."
 #. Resource IDs: (89)
 msgid "System"
 msgstr "システム"
-
-#. Resource IDs: (1556)
-msgid "System &sounds"
-msgstr "システムサウンド(&S)"
 
 #. Resource IDs: (93)
 msgid "System in offline mode. Check Internet Explorer."

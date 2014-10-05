@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-09-12 09:30+0000\n"
+"PO-Revision-Date: 2014-10-05 12:24+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/projects/p/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -526,10 +526,6 @@ msgstr "&Compare revisions"
 #. Resource IDs: (92)
 msgid "&Compressed Graph"
 msgstr "&Compressed Graph"
-
-#. Resource IDs: (1239)
-msgid "&Configure"
-msgstr "&Configure"
 
 #. Resource IDs: (501, 1367, 1471, 57634)
 msgid "&Copy"
@@ -2885,6 +2881,11 @@ msgstr "Commands"
 #. Resource IDs: (67, 77, 135, 229, 1083, 1383, 1514)
 msgid "Commit"
 msgstr "Commit"
+
+#. Resource IDs: (96)
+#, c-format
+msgid "Commit %s is NOT visible right now."
+msgstr "Commit %s is NOT visible right now."
 
 #. Resource IDs: (94)
 #, c-format
@@ -8582,6 +8583,10 @@ msgstr "Select what file you want to save as\nNote: There is unresolved conflict
 msgid "Select/deselect &all"
 msgstr "Select/deselect &all"
 
+#. Resource IDs: (96)
+msgid "Selection History"
+msgstr "Selection History"
+
 #. Resource IDs: (1)
 msgid "Send"
 msgstr "Send"
@@ -9382,10 +9387,6 @@ msgstr "Sync..."
 #. Resource IDs: (89)
 msgid "System"
 msgstr "System"
-
-#. Resource IDs: (1556)
-msgid "System &sounds"
-msgstr "System &sounds"
 
 #. Resource IDs: (93)
 msgid "System in offline mode. Check Internet Explorer."

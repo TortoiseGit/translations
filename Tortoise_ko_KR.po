@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-09-12 09:29+0000\n"
+"PO-Revision-Date: 2014-10-05 12:24+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -551,10 +551,6 @@ msgstr "리비전 비교(&C)"
 #. Resource IDs: (92)
 msgid "&Compressed Graph"
 msgstr "그래프 줄이기(&C)"
-
-#. Resource IDs: (1239)
-msgid "&Configure"
-msgstr "설정(&C)"
 
 #. Resource IDs: (501, 1367, 1471, 57634)
 msgid "&Copy"
@@ -2910,6 +2906,11 @@ msgstr "명령"
 #. Resource IDs: (67, 77, 135, 229, 1083, 1383, 1514)
 msgid "Commit"
 msgstr "커밋"
+
+#. Resource IDs: (96)
+#, c-format
+msgid "Commit %s is NOT visible right now."
+msgstr ""
 
 #. Resource IDs: (94)
 #, c-format
@@ -8607,6 +8608,10 @@ msgstr "Select what file you want to save as\nNote: There is unresolved conflict
 msgid "Select/deselect &all"
 msgstr "전체 선택/해제(&A)"
 
+#. Resource IDs: (96)
+msgid "Selection History"
+msgstr ""
+
 #. Resource IDs: (1)
 msgid "Send"
 msgstr "보내기"
@@ -9407,10 +9412,6 @@ msgstr "동기화..."
 #. Resource IDs: (89)
 msgid "System"
 msgstr "시스템"
-
-#. Resource IDs: (1556)
-msgid "System &sounds"
-msgstr "시스템 소리(&S)"
 
 #. Resource IDs: (93)
 msgid "System in offline mode. Check Internet Explorer."
