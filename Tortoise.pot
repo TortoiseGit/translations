@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-10-05 12:24+0000\n"
+"PO-Revision-Date: 2014-10-17 17:01+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/projects/p/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -1602,6 +1602,10 @@ msgstr "A&pply"
 msgid "Abbreviate renamings"
 msgstr "Abbreviate renamings"
 
+#. Resource IDs: (65535)
+msgid "Abbreviated size"
+msgstr "Abbreviated size"
+
 #. Resource IDs: (2, 73, 1565)
 msgid "Abort"
 msgstr "Abort"
@@ -1633,6 +1637,10 @@ msgstr "About TortoiseGitBlame"
 #. Resource IDs: (136)
 msgid "About TortoiseGitMerge"
 msgstr "About TortoiseGitMerge"
+
+#. Resource IDs: (1)
+msgid "Accept certificate"
+msgstr "Accept certificate"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -1785,6 +1793,14 @@ msgstr "All Parents"
 msgid "All local branches"
 msgstr "All local branches"
 
+#. Resource IDs: (96)
+msgid "All refs"
+msgstr "All refs"
+
+#. Resource IDs: (96)
+msgid "All tags"
+msgstr "All tags"
+
 #. Resource IDs: (9690)
 msgid "All tags only"
 msgstr "All tags only"
@@ -1834,6 +1850,10 @@ msgstr "Always push to the selected remote archive for this local branch"
 #. Resource IDs: (1485)
 msgid "Always push to the selected remote branch for this local branch"
 msgstr "Always push to the selected remote branch for this local branch"
+
+#. Resource IDs: (1805)
+msgid "Always show long format"
+msgstr "Always show long format"
 
 #. Resource IDs: (197)
 msgid "Always use the system locale settings to show times and dates"
@@ -1894,6 +1914,10 @@ msgstr "An unknown error occurred while accessing %1."
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "An unknown line type was found in line %d !"
+
+#. Resource IDs: (96)
+msgid "Annotated tags"
+msgstr "Annotated tags"
 
 #. Resource IDs: (251)
 msgid "Append right block"
@@ -2470,6 +2494,10 @@ msgstr "Casca&de"
 msgid "Cascaded context menu"
 msgstr "Cascaded context menu"
 
+#. Resource IDs: (117)
+msgid "Case-sensitive"
+msgstr "Case-sensitive"
+
 #. Resource IDs: (65535)
 msgid "Cate&gories:"
 msgstr "Cate&gories:"
@@ -2481,6 +2509,10 @@ msgstr "Celtic"
 #. Resource IDs: (65535)
 msgid "Central European"
 msgstr "Central European"
+
+#. Resource IDs: (65535)
+msgid "Certificate verification failed!"
+msgstr "Certificate verification failed!"
 
 #. Resource IDs: (1697)
 msgid "Change log"
@@ -2964,6 +2996,10 @@ msgid ""
 "\n"
 "Are you sure that you want to continue the commit?"
 msgstr "Committing an unversioned folder will not recursively add its child items!\nYou might want to add these folders recursively by using the 'Add...' context menu item.\n\nAre you sure that you want to continue the commit?"
+
+#. Resource IDs: (65535)
+msgid "Common Name:"
+msgstr "Common Name:"
 
 #. Resource IDs: (2054)
 msgid "Compare &HEAD revisions"
@@ -3689,6 +3725,14 @@ msgstr "Delivery:"
 msgid "Depth"
 msgstr "Depth"
 
+#. Resource IDs: (65535)
+msgid "Describe"
+msgstr "Describe"
+
+#. Resource IDs: (65535)
+msgid "Describe Strategy"
+msgstr "Describe Strategy"
+
 #. Resource IDs: (1002)
 msgid "Description"
 msgstr "Description"
@@ -4355,6 +4399,11 @@ msgstr "Error"
 msgid "Error rebuilding Shell Icon Cache!"
 msgstr "Error rebuilding Shell Icon Cache!"
 
+#. Resource IDs: (96)
+#, c-format
+msgid "Error validating server certificate for \"%s\":"
+msgstr "Error validating server certificate for \"%s\":"
+
 #. Resource IDs: (70)
 #, c-format
 msgid ""
@@ -4761,6 +4810,10 @@ msgstr "Find: First occurrence from the bottom found. Beginning of document reac
 #. Resource IDs: (95)
 msgid "Find: First occurrence from the top found. End of document reached."
 msgstr "Find: First occurrence from the top found. End of document reached."
+
+#. Resource IDs: (65535)
+msgid "Fingerprints"
+msgstr "Fingerprints"
 
 #. Resource IDs: (67)
 msgid "Finish"
@@ -5821,6 +5874,10 @@ msgstr "Invalid Currency."
 msgid "Invalid revision number!"
 msgstr "Invalid revision number!"
 
+#. Resource IDs: (65535)
+msgid "Issuer:"
+msgstr "Issuer:"
+
 #. Resource IDs: (145)
 msgid ""
 "It is not possible to rename a file by changing the case of its name alone.\n"
@@ -6767,6 +6824,10 @@ msgstr "Number of authors:"
 msgid "Number of characters required for moved or copied line detection:"
 msgstr "Number of characters required for moved or copied line detection:"
 
+#. Resource IDs: (96)
+msgid "Number of characters to show in the abbreviated hash part"
+msgstr "Number of characters to show in the abbreviated hash part"
+
 #. Resource IDs: (1160)
 msgid "Number of weeks:"
 msgstr "Number of weeks:"
@@ -6924,6 +6985,10 @@ msgid ""
 "Open an existing document\n"
 "Open"
 msgstr "Open an existing document\nOpen"
+
+#. Resource IDs: (1797)
+msgid "Open certificate"
+msgstr "Open certificate"
 
 #. Resource IDs: (3601)
 msgid ""
@@ -8209,6 +8274,14 @@ msgstr "S&witch/Checkout..."
 msgid "SHA-1"
 msgstr "SHA-1"
 
+#. Resource IDs: (65535)
+msgid "SHA-1:"
+msgstr "SHA-1:"
+
+#. Resource IDs: (65535)
+msgid "SHA-256:"
+msgstr "SHA-256:"
+
 #. Resource IDs: (1585)
 msgid "SMTP Server requires authentication"
 msgstr "SMTP Server requires authentication"
@@ -8804,6 +8877,14 @@ msgstr "Show complete log"
 msgid "Show date"
 msgstr "Show date"
 
+#. Resource IDs: (1804)
+msgid "Show describe in log"
+msgstr "Show describe in log"
+
+#. Resource IDs: (96)
+msgid "Show describe in log dialog"
+msgstr "Show describe in log dialog"
+
 #. Resource IDs: (83)
 msgid "Show destination folder"
 msgstr "Show destination folder"
@@ -8872,6 +8953,10 @@ msgstr "Show log of this folder"
 #. Resource IDs: (1256)
 msgid "Show log..."
 msgstr "Show log..."
+
+#. Resource IDs: (96)
+msgid "Show long format even if a tag is exactly on that commit"
+msgstr "Show long format even if a tag is exactly on that commit"
 
 #. Resource IDs: (1382)
 msgid "Show modified files in working tree"
@@ -10754,6 +10839,10 @@ msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
 msgstr "When you type the URL, the remote name will be automatically filled with \"origin\" if the remote name is empty, so you do not have to."
+
+#. Resource IDs: (96)
+msgid "Whether to reference only annotated tags, all tags or all refs"
+msgstr "Whether to reference only annotated tags, all tags or all refs"
 
 #. Resource IDs: (1409)
 msgid ""

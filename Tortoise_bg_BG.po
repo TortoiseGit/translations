@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-10-05 12:24+0000\n"
+"PO-Revision-Date: 2014-10-17 17:00+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Bulgarian (Bulgaria) (http://www.transifex.com/projects/p/tortoisegit/language/bg_BG/)\n"
 "MIME-Version: 1.0\n"
@@ -1607,6 +1607,10 @@ msgstr ""
 msgid "Abbreviate renamings"
 msgstr ""
 
+#. Resource IDs: (65535)
+msgid "Abbreviated size"
+msgstr ""
+
 #. Resource IDs: (2, 73, 1565)
 msgid "Abort"
 msgstr "Прекъсване"
@@ -1638,6 +1642,10 @@ msgstr ""
 #. Resource IDs: (136)
 msgid "About TortoiseGitMerge"
 msgstr "Относно TortoiseGitMerge"
+
+#. Resource IDs: (1)
+msgid "Accept certificate"
+msgstr ""
 
 #. Resource IDs: (3867)
 #, c-format
@@ -1790,6 +1798,14 @@ msgstr "Всички основни"
 msgid "All local branches"
 msgstr ""
 
+#. Resource IDs: (96)
+msgid "All refs"
+msgstr ""
+
+#. Resource IDs: (96)
+msgid "All tags"
+msgstr ""
+
 #. Resource IDs: (9690)
 msgid "All tags only"
 msgstr "Всички тагове само"
@@ -1838,6 +1854,10 @@ msgstr ""
 
 #. Resource IDs: (1485)
 msgid "Always push to the selected remote branch for this local branch"
+msgstr ""
+
+#. Resource IDs: (1805)
+msgid "Always show long format"
 msgstr ""
 
 #. Resource IDs: (197)
@@ -1899,6 +1919,10 @@ msgstr "Неизвестна грешка при достъп до %1."
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "Неизвестен тип на ред бе открит на ред %d !"
+
+#. Resource IDs: (96)
+msgid "Annotated tags"
+msgstr ""
 
 #. Resource IDs: (251)
 msgid "Append right block"
@@ -2475,6 +2499,10 @@ msgstr "&Каскада"
 msgid "Cascaded context menu"
 msgstr "Падащо контекстно меню"
 
+#. Resource IDs: (117)
+msgid "Case-sensitive"
+msgstr ""
+
 #. Resource IDs: (65535)
 msgid "Cate&gories:"
 msgstr "&Категории:"
@@ -2486,6 +2514,10 @@ msgstr "Келтски"
 #. Resource IDs: (65535)
 msgid "Central European"
 msgstr "Централно европейски"
+
+#. Resource IDs: (65535)
+msgid "Certificate verification failed!"
+msgstr ""
 
 #. Resource IDs: (1697)
 msgid "Change log"
@@ -2969,6 +3001,10 @@ msgid ""
 "\n"
 "Are you sure that you want to continue the commit?"
 msgstr "Поверяването на неконтролирана папка няма да добави рекурсивно децата й!\nВероятно бихте искали да добавите тези подпапки рекурсивно чрез контекстното менюто 'Добавяне...'.\n\nСигурни ли сте, че желаете да продължите с поверяването?"
+
+#. Resource IDs: (65535)
+msgid "Common Name:"
+msgstr ""
 
 #. Resource IDs: (2054)
 msgid "Compare &HEAD revisions"
@@ -3694,6 +3730,14 @@ msgstr ""
 msgid "Depth"
 msgstr ""
 
+#. Resource IDs: (65535)
+msgid "Describe"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Describe Strategy"
+msgstr ""
+
 #. Resource IDs: (1002)
 msgid "Description"
 msgstr "Описание"
@@ -4360,6 +4404,11 @@ msgstr "Грешка"
 msgid "Error rebuilding Shell Icon Cache!"
 msgstr "Грешка при възобновяването на системната кеш-памет за иконки!"
 
+#. Resource IDs: (96)
+#, c-format
+msgid "Error validating server certificate for \"%s\":"
+msgstr ""
+
 #. Resource IDs: (70)
 #, c-format
 msgid ""
@@ -4765,6 +4814,10 @@ msgstr ""
 
 #. Resource IDs: (95)
 msgid "Find: First occurrence from the top found. End of document reached."
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Fingerprints"
 msgstr ""
 
 #. Resource IDs: (67)
@@ -5826,6 +5879,10 @@ msgstr "Невалидна валута."
 msgid "Invalid revision number!"
 msgstr ""
 
+#. Resource IDs: (65535)
+msgid "Issuer:"
+msgstr ""
+
 #. Resource IDs: (145)
 msgid ""
 "It is not possible to rename a file by changing the case of its name alone.\n"
@@ -6772,6 +6829,10 @@ msgstr "Брой автори:"
 msgid "Number of characters required for moved or copied line detection:"
 msgstr ""
 
+#. Resource IDs: (96)
+msgid "Number of characters to show in the abbreviated hash part"
+msgstr ""
+
 #. Resource IDs: (1160)
 msgid "Number of weeks:"
 msgstr "Брой седмици:"
@@ -6928,6 +6989,10 @@ msgstr "Отваряне"
 msgid ""
 "Open an existing document\n"
 "Open"
+msgstr ""
+
+#. Resource IDs: (1797)
+msgid "Open certificate"
 msgstr ""
 
 #. Resource IDs: (3601)
@@ -8214,6 +8279,14 @@ msgstr ""
 msgid "SHA-1"
 msgstr "SHA-1"
 
+#. Resource IDs: (65535)
+msgid "SHA-1:"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "SHA-256:"
+msgstr ""
+
 #. Resource IDs: (1585)
 msgid "SMTP Server requires authentication"
 msgstr ""
@@ -8809,6 +8882,14 @@ msgstr ""
 msgid "Show date"
 msgstr ""
 
+#. Resource IDs: (1804)
+msgid "Show describe in log"
+msgstr ""
+
+#. Resource IDs: (96)
+msgid "Show describe in log dialog"
+msgstr ""
+
 #. Resource IDs: (83)
 msgid "Show destination folder"
 msgstr ""
@@ -8877,6 +8958,10 @@ msgstr ""
 #. Resource IDs: (1256)
 msgid "Show log..."
 msgstr "Показва дневник..."
+
+#. Resource IDs: (96)
+msgid "Show long format even if a tag is exactly on that commit"
+msgstr ""
 
 #. Resource IDs: (1382)
 msgid "Show modified files in working tree"
@@ -10758,6 +10843,10 @@ msgstr ""
 msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
+msgstr ""
+
+#. Resource IDs: (96)
+msgid "Whether to reference only annotated tags, all tags or all refs"
 msgstr ""
 
 #. Resource IDs: (1409)

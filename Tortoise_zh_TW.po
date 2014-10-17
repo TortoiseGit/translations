@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-10-05 12:31+0000\n"
-"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
+"PO-Revision-Date: 2014-10-17 17:01+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1610,6 +1610,10 @@ msgstr "套用(&p)"
 msgid "Abbreviate renamings"
 msgstr "縮寫重新命名"
 
+#. Resource IDs: (65535)
+msgid "Abbreviated size"
+msgstr ""
+
 #. Resource IDs: (2, 73, 1565)
 msgid "Abort"
 msgstr "放棄"
@@ -1641,6 +1645,10 @@ msgstr "關於 TortoiseGitBlame"
 #. Resource IDs: (136)
 msgid "About TortoiseGitMerge"
 msgstr "關於 TortoiseGitMerge"
+
+#. Resource IDs: (1)
+msgid "Accept certificate"
+msgstr ""
 
 #. Resource IDs: (3867)
 #, c-format
@@ -1793,6 +1801,14 @@ msgstr "所有父版本"
 msgid "All local branches"
 msgstr "所有本地分支"
 
+#. Resource IDs: (96)
+msgid "All refs"
+msgstr ""
+
+#. Resource IDs: (96)
+msgid "All tags"
+msgstr ""
+
 #. Resource IDs: (9690)
 msgid "All tags only"
 msgstr "只包括全部標籤"
@@ -1842,6 +1858,10 @@ msgstr "永遠推送這本地分支到已選遠端保存"
 #. Resource IDs: (1485)
 msgid "Always push to the selected remote branch for this local branch"
 msgstr "永遠推送這本地分支到已選遠端分支"
+
+#. Resource IDs: (1805)
+msgid "Always show long format"
+msgstr ""
 
 #. Resource IDs: (197)
 msgid "Always use the system locale settings to show times and dates"
@@ -1902,6 +1922,10 @@ msgstr "存取 %1 時發生不明錯誤."
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "在第 %d 行發現不明型態資料!"
+
+#. Resource IDs: (96)
+msgid "Annotated tags"
+msgstr ""
 
 #. Resource IDs: (251)
 msgid "Append right block"
@@ -2478,6 +2502,10 @@ msgstr "顯層式顯示 (&D)"
 msgid "Cascaded context menu"
 msgstr "階層式快顯功能表"
 
+#. Resource IDs: (117)
+msgid "Case-sensitive"
+msgstr ""
+
 #. Resource IDs: (65535)
 msgid "Cate&gories:"
 msgstr "類別(&G):"
@@ -2489,6 +2517,10 @@ msgstr "塞爾特語"
 #. Resource IDs: (65535)
 msgid "Central European"
 msgstr "中歐"
+
+#. Resource IDs: (65535)
+msgid "Certificate verification failed!"
+msgstr ""
 
 #. Resource IDs: (1697)
 msgid "Change log"
@@ -2972,6 +3004,10 @@ msgid ""
 "\n"
 "Are you sure that you want to continue the commit?"
 msgstr "提交無版本控制的資料夾並不會自動加入底下的子項目!\n使用 '加入...' 選項可以加入底下全部的子資料夾和檔案.\n\n確定要進行送交嗎?"
+
+#. Resource IDs: (65535)
+msgid "Common Name:"
+msgstr ""
 
 #. Resource IDs: (2054)
 msgid "Compare &HEAD revisions"
@@ -3697,6 +3733,14 @@ msgstr "傳遞方式："
 msgid "Depth"
 msgstr "深度"
 
+#. Resource IDs: (65535)
+msgid "Describe"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "Describe Strategy"
+msgstr ""
+
 #. Resource IDs: (1002)
 msgid "Description"
 msgstr "描述"
@@ -4363,6 +4407,11 @@ msgstr "錯誤"
 msgid "Error rebuilding Shell Icon Cache!"
 msgstr "建立圖示快取失敗！"
 
+#. Resource IDs: (96)
+#, c-format
+msgid "Error validating server certificate for \"%s\":"
+msgstr ""
+
 #. Resource IDs: (70)
 #, c-format
 msgid ""
@@ -4769,6 +4818,10 @@ msgstr "搜尋: 找到自文件結尾算起的第一筆. 已抵達文件開始."
 #. Resource IDs: (95)
 msgid "Find: First occurrence from the top found. End of document reached."
 msgstr "搜尋: 找到自文件開始的第一筆. 已抵達文件結尾"
+
+#. Resource IDs: (65535)
+msgid "Fingerprints"
+msgstr ""
 
 #. Resource IDs: (67)
 msgid "Finish"
@@ -5829,6 +5882,10 @@ msgstr "不正確的貨幣."
 msgid "Invalid revision number!"
 msgstr "錯誤的版本編號!"
 
+#. Resource IDs: (65535)
+msgid "Issuer:"
+msgstr ""
+
 #. Resource IDs: (145)
 msgid ""
 "It is not possible to rename a file by changing the case of its name alone.\n"
@@ -6775,6 +6832,10 @@ msgstr "作者數:"
 msgid "Number of characters required for moved or copied line detection:"
 msgstr "偵測 移動行 或 複製行 所需的字元數"
 
+#. Resource IDs: (96)
+msgid "Number of characters to show in the abbreviated hash part"
+msgstr ""
+
 #. Resource IDs: (1160)
 msgid "Number of weeks:"
 msgstr "週數:"
@@ -6932,6 +6993,10 @@ msgid ""
 "Open an existing document\n"
 "Open"
 msgstr "開啟現有文件\n開啟"
+
+#. Resource IDs: (1797)
+msgid "Open certificate"
+msgstr ""
 
 #. Resource IDs: (3601)
 msgid ""
@@ -8217,6 +8282,14 @@ msgstr "切換(&W)/取出..."
 msgid "SHA-1"
 msgstr "SHA-1"
 
+#. Resource IDs: (65535)
+msgid "SHA-1:"
+msgstr ""
+
+#. Resource IDs: (65535)
+msgid "SHA-256:"
+msgstr ""
+
 #. Resource IDs: (1585)
 msgid "SMTP Server requires authentication"
 msgstr "SMTP伺服器要求授權"
@@ -8812,6 +8885,14 @@ msgstr "顯示完整記錄"
 msgid "Show date"
 msgstr "顯示日期"
 
+#. Resource IDs: (1804)
+msgid "Show describe in log"
+msgstr ""
+
+#. Resource IDs: (96)
+msgid "Show describe in log dialog"
+msgstr ""
+
 #. Resource IDs: (83)
 msgid "Show destination folder"
 msgstr "顯示目的資料夾"
@@ -8880,6 +8961,10 @@ msgstr "顯示資料夾記錄"
 #. Resource IDs: (1256)
 msgid "Show log..."
 msgstr "顯示記錄..."
+
+#. Resource IDs: (96)
+msgid "Show long format even if a tag is exactly on that commit"
+msgstr ""
 
 #. Resource IDs: (1382)
 msgid "Show modified files in working tree"
@@ -10762,6 +10847,10 @@ msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
 msgstr "如果遠端名稱為空，當你鍵入的URL時遠端名稱將被自動填充為“origin”，所以你不必填。"
+
+#. Resource IDs: (96)
+msgid "Whether to reference only annotated tags, all tags or all refs"
+msgstr ""
 
 #. Resource IDs: (1409)
 msgid ""
