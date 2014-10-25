@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-10-18 14:30+0000\n"
+"PO-Revision-Date: 2014-10-25 00:08+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -2171,6 +2171,10 @@ msgid "Back"
 msgstr "Negro"
 
 #. Resource IDs: (65535)
+msgid "Background"
+msgstr "Segundo plano"
+
+#. Resource IDs: (65535)
 msgid "Baltic"
 msgstr "Báltico"
 
@@ -3812,12 +3816,36 @@ msgid "Diff Viewer::Merge Tool"
 msgstr "Visor Dif.::Herramienta de combinación"
 
 #. Resource IDs: (65535)
+msgid "Diff added lines"
+msgstr "Diff líneaas añadidas"
+
+#. Resource IDs: (65535)
+msgid "Diff command"
+msgstr "Diff comando"
+
+#. Resource IDs: (65535)
+msgid "Diff comment"
+msgstr "Diff comentario"
+
+#. Resource IDs: (65535)
 msgid "Diff file:"
 msgstr "Archivo Dif.:"
+
+#. Resource IDs: (65535)
+msgid "Diff header"
+msgstr "Diff cabecera"
 
 #. Resource IDs: (15)
 msgid "Diff later"
 msgstr "Diff más tarde"
+
+#. Resource IDs: (65535)
+msgid "Diff position"
+msgstr "Diff posición"
+
+#. Resource IDs: (65535)
+msgid "Diff removed lines"
+msgstr "Diff líneas eliminadas"
 
 #. Resource IDs: (15)
 #, c-format
@@ -4909,6 +4937,10 @@ msgstr "Forzar el reasentado (rebase), incluso si el ramal actual es un descendi
 #. Resource IDs: (1796)
 msgid "Force: May discard"
 msgstr "Forzar: Podría descartar"
+
+#. Resource IDs: (65535)
+msgid "Foreground"
+msgstr "Primer plano"
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -6777,6 +6809,10 @@ msgid ""
 "explicitly save them to overwrite the original documents.  If you choose to "
 "not recover the auto-saved versions, they will be deleted."
 msgstr "Ten en cuenta que si opta por recuperar los documentos auto-salvados, implicitamente se guardarán sobreescribiento los documentos originales. Si decides no recuperar las versiones auto-salvadas, se eliminarán."
+
+#. Resource IDs: (65535)
+msgid "Note: These settings also apply to the Patch Viewer dialog."
+msgstr "Nota: Estas configuraciones también se aplican al cuadro de diálogo de Visor de Parches."
 
 #. Resource IDs: (1481)
 msgid "Note: the folder contains unversioned items"
@@ -10164,6 +10200,10 @@ msgid ""
 "TortoiseGitMerge cannot process this patch file. The filename \"%s\" appears"
 " more than once."
 msgstr "TortoiseGitMerge no puede procesar este fichero de parche. El nombre de fichero \"%s\" aparece más de una vez."
+
+#. Resource IDs: (357)
+msgid "TortoiseGitUDiff"
+msgstr "TortoiseGitUDiff"
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"
