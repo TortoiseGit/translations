@@ -10,14 +10,15 @@
 # Gábor Prótár <protar.gabor@gmail.com>, 2013-2014
 # Hgrg <hgrg.wp@gmail.com>, 2013
 # Hgrg <hgrg.wp@gmail.com>, 2013
+# Péter Handbauer <loserock@gmail.com>, 2014
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-10-24 22:58+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-10-26 15:21+0000\n"
+"Last-Translator: Péter Handbauer <loserock@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +51,7 @@ msgstr "Megjelenített fejlesztők száma:"
 #. Resource IDs: (357)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr ""
+msgstr "%.2f MiB forgalom"
 
 #. Resource IDs: (3868)
 #, c-format
@@ -209,7 +210,7 @@ msgstr ""
 #. Resource IDs: (1256)
 #, c-format
 msgid "%d files changed"
-msgstr ""
+msgstr "%d fájl megváltozott"
 
 #. Resource IDs: (65)
 #, c-format
@@ -7803,7 +7804,7 @@ msgstr "Frissítés"
 
 #. Resource IDs: (75)
 msgid "Refreshing..."
-msgstr ""
+msgstr "Frissítés folyamatban..."
 
 #. Resource IDs: (32, 156, 165)
 msgid "Regex Filter"
@@ -8003,7 +8004,7 @@ msgstr ""
 
 #. Resource IDs: (221)
 msgid "Rename/move"
-msgstr ""
+msgstr "Átnevezés/áthelyezés"
 
 #. Resource IDs: (11)
 msgid "Renames files/folders inside version control"
@@ -8179,7 +8180,7 @@ msgstr ""
 #. Resource IDs: (323)
 #, c-format
 msgid "Revert to revision %s"
-msgstr ""
+msgstr "Visszaállítás a %s verzióra"
 
 #. Resource IDs: (73)
 msgid "Reverted"
@@ -8319,19 +8320,19 @@ msgstr "SHA-1"
 
 #. Resource IDs: (65535)
 msgid "SHA-1:"
-msgstr ""
+msgstr "SHA-1:"
 
 #. Resource IDs: (65535)
 msgid "SHA-256:"
-msgstr ""
+msgstr "SHA-256:"
 
 #. Resource IDs: (1585)
 msgid "SMTP Server requires authentication"
-msgstr ""
+msgstr "Az SMTP szerver azonosítást kér"
 
 #. Resource IDs: (1757)
 msgid "SMTP Server:"
-msgstr ""
+msgstr "SMTP szerver:"
 
 #. Resource IDs: (90)
 msgid "SMTP, directly to destination server"
@@ -8397,7 +8398,7 @@ msgstr ""
 
 #. Resource IDs: (156)
 msgid "Save"
-msgstr ""
+msgstr "Mentés"
 
 #. Resource IDs: (101)
 msgid "Save &as..."
@@ -8415,7 +8416,7 @@ msgstr ""
 
 #. Resource IDs: (316)
 msgid "Save File"
-msgstr ""
+msgstr "Fájl mentése"
 
 #. Resource IDs: (316)
 msgid ""
@@ -8449,7 +8450,7 @@ msgstr ""
 msgid ""
 "Save all\n"
 "Both Files are saved"
-msgstr ""
+msgstr "Mentés mind\nMindkét fájl elmentve"
 
 #. Resource IDs: (156)
 msgid "Save as"
@@ -8472,7 +8473,7 @@ msgstr "Elmented %1 változásait?"
 
 #. Resource IDs: (314)
 msgid "Save modifications."
-msgstr ""
+msgstr "Módosítások mentése."
 
 #. Resource IDs: (1253)
 msgid "Save revision &to..."
@@ -8502,7 +8503,7 @@ msgstr "Vágólapra mentés"
 
 #. Resource IDs: (65535)
 msgid "Save to:"
-msgstr ""
+msgstr "Mentés ide:"
 
 #. Resource IDs: (1385)
 msgid "Save unified diff"
@@ -8850,7 +8851,7 @@ msgstr "Megjelenítés a szalag alatt"
 
 #. Resource IDs: (1382)
 msgid "Show Environment Variables"
-msgstr ""
+msgstr "Környezeti változók megjelenítése"
 
 #. Resource IDs: (1065)
 msgid "Show Fewer Buttons"
@@ -8898,7 +8899,7 @@ msgstr "Áttekintés a teljes grafikonról"
 
 #. Resource IDs: (32775)
 msgid "Show author"
-msgstr ""
+msgstr "Szerző megjelenítése"
 
 #. Resource IDs: (1251)
 msgid "Show branches this commit is on"
@@ -8918,7 +8919,7 @@ msgstr ""
 
 #. Resource IDs: (32784)
 msgid "Show date"
-msgstr ""
+msgstr "Dátum megjelenítése"
 
 #. Resource IDs: (1804)
 msgid "Show describe in log"
@@ -8950,7 +8951,7 @@ msgstr "&Teljes menü megjelenítése egy rövid késleltetés után"
 
 #. Resource IDs: (2051, 32802)
 msgid "Show file name"
-msgstr ""
+msgstr "Fájlnév megjelenítése"
 
 #. Resource IDs: (1782)
 msgid "Show git.exe execution timings and timestamp"
@@ -10689,7 +10690,7 @@ msgstr ""
 
 #. Resource IDs: (1650)
 msgid "User&name:"
-msgstr ""
+msgstr "Felhasználó&név:"
 
 #. Resource IDs: (69)
 msgid "Username:"
@@ -11218,7 +11219,7 @@ msgstr ""
 #. Resource IDs: (72)
 #, c-format
 msgid "\"%s\" is invalid."
-msgstr ""
+msgstr "\"%s\" érvénytelen."
 
 #. Resource IDs: (602)
 #, c-format
@@ -11467,7 +11468,7 @@ msgstr "negyedév"
 
 #. Resource IDs: (65535)
 msgid "renamed"
-msgstr ""
+msgstr "átnevezve"
 
 #. Resource IDs: (10)
 msgid "replaced"
