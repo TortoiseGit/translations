@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-01 10:53+0000\n"
+"PO-Revision-Date: 2014-11-01 11:58+0000\n"
 "Last-Translator: Péter Handbauer <loserock@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -146,7 +146,7 @@ msgstr "%1!d! éve"
 #. Resource IDs: (90)
 #, c-format
 msgid "%1!d! items selected"
-msgstr ""
+msgstr "%1!d! elem kiválasztva"
 
 #. Resource IDs: (602)
 #, c-format
@@ -163,7 +163,7 @@ msgstr ""
 msgid ""
 "%1!s!\r\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr ""
+msgstr "%1!s!\n%2!d! fájl, %3!d! almodul és %4!d! mappa megjelenítve, összesen %5!d! elem"
 
 #. Resource IDs: (90)
 #, c-format
@@ -215,7 +215,7 @@ msgstr "%d fájl megváltozott"
 #. Resource IDs: (65)
 #, c-format
 msgid "%d files removed."
-msgstr ""
+msgstr "%d fájl eltávolítva."
 
 #. Resource IDs: (69)
 #, c-format
@@ -2938,7 +2938,7 @@ msgstr ""
 
 #. Resource IDs: (1255)
 msgid "Commit Date"
-msgstr ""
+msgstr "Beküldési Dátum"
 
 #. Resource IDs: (1255)
 msgid "Commit Email"
@@ -2999,7 +2999,7 @@ msgstr "Elküldi a tárolóba a változtatásaidat"
 
 #. Resource IDs: (605)
 msgid "Committer Email"
-msgstr ""
+msgstr "Beküldő Email"
 
 #. Resource IDs: (170)
 msgid ""
@@ -3711,11 +3711,11 @@ msgstr "Kiválasztott fájl(ok) vagy kiterjesztés(ek) törlése és hozzáadás
 
 #. Resource IDs: (11)
 msgid "Deletes files/folders from version control"
-msgstr ""
+msgstr "Törli a fájlokat/mappákat a verziókezelésből"
 
 #. Resource IDs: (18)
 msgid "Deletes files/folders from version control but keeps the file"
-msgstr ""
+msgstr "Törli a fájlokat/mappákat a verziókezelésből, de a fájl megmarad"
 
 #. Resource IDs: (198)
 msgid "Deletes the action log file"
@@ -5746,7 +5746,7 @@ msgstr ""
 
 #. Resource IDs: (1687)
 msgid "Ignore item(s) only in the containing folder(s)"
-msgstr ""
+msgstr "Elem(ek) kihagyása csak a tartalmazó mappá(k)ban"
 
 #. Resource IDs: (1688)
 msgid "Ignore item(s) recursively"
@@ -8008,7 +8008,7 @@ msgstr "Átnevezés/áthelyezés"
 
 #. Resource IDs: (11)
 msgid "Renames files/folders inside version control"
-msgstr ""
+msgstr "Átnevez fájlokat/mappákat a verziókezelésen belül"
 
 #. Resource IDs: (3603)
 msgid ""
@@ -8915,7 +8915,7 @@ msgstr ""
 
 #. Resource IDs: (32864)
 msgid "Show complete log"
-msgstr ""
+msgstr "Mutasd a teljes naplót"
 
 #. Resource IDs: (32784)
 msgid "Show date"
@@ -8923,7 +8923,7 @@ msgstr "Dátum megjelenítése"
 
 #. Resource IDs: (1804)
 msgid "Show describe in log"
-msgstr ""
+msgstr "Mutasd a leírást a naplóban"
 
 #. Resource IDs: (96)
 msgid "Show describe in log dialog"
@@ -8931,7 +8931,7 @@ msgstr ""
 
 #. Resource IDs: (83)
 msgid "Show destination folder"
-msgstr ""
+msgstr "Mutasd a célmappát"
 
 #. Resource IDs: (1696)
 msgid "Show diff"
@@ -8963,7 +8963,7 @@ msgstr "&Kizárt fájlok mutatása"
 
 #. Resource IDs: (1265)
 msgid "Show ignore local changes flagged files"
-msgstr ""
+msgstr "Mutasd a helyi változások kihagyására megjelölt fájlokat"
 
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
@@ -8984,15 +8984,15 @@ msgstr ""
 #. Resource IDs: (88)
 #, c-format
 msgid "Show log of %s"
-msgstr ""
+msgstr "Mutasd a %s naplóját"
 
 #. Resource IDs: (81)
 msgid "Show log of submodule"
-msgstr ""
+msgstr "Mutasd az almodul naplóját"
 
 #. Resource IDs: (14)
 msgid "Show log of this folder"
-msgstr ""
+msgstr "Mutasd a mappa naplóját"
 
 #. Resource IDs: (1256)
 msgid "Show log..."
@@ -10274,7 +10274,7 @@ msgstr "Típus"
 
 #. Resource IDs: (1720)
 msgid "Type:"
-msgstr ""
+msgstr "Típus:"
 
 #. Resource IDs: (164, 207)
 msgid "URL"
@@ -10786,11 +10786,11 @@ msgstr "Látogasd meg a honlapunkat"
 
 #. Resource IDs: (156, 626)
 msgid "Visual Studio 2005"
-msgstr ""
+msgstr "Visual Studio 2005"
 
 #. Resource IDs: (156, 626)
 msgid "Visual Studio 2008"
-msgstr ""
+msgstr "Visual Studio 2008"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -11056,7 +11056,7 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr ""
+msgstr "%d elemet választott ki a változások megtekintésére.\nValamennyi elemhez a változáskövető új példánya fog megnyílni.\nBiztosan szeretné az összeset egyszerre megtekinteni?"
 
 #. Resource IDs: (169)
 msgid ""
