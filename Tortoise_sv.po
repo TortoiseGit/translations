@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-01 22:59+0000\n"
+"PO-Revision-Date: 2014-11-11 19:35+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -2187,6 +2187,10 @@ msgstr "Baltisk"
 #. Resource IDs: (246)
 msgid "Bar Graph"
 msgstr "Stapeldiagram"
+
+#. Resource IDs: (1385)
+msgid "Base"
+msgstr ""
 
 #. Resource IDs: (1522)
 msgid "Base On"
@@ -5507,6 +5511,10 @@ msgstr "ID:32857:VA  +F"
 msgid "ID:32870:V C +L"
 msgstr "ID:32870:V C +L"
 
+#. Accelerator Entry for Menu ID:32873; ''
+msgid "ID:32873:V C +E"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32881; ''
 msgid "ID:32881:V C +P"
 msgstr "ID:32881:V C +P"
@@ -5650,6 +5658,10 @@ msgstr "Ikoner (*.ico, *.jpg, *.png, *.bmp, *.gif)|*.ico;*.jpg;*.jpeg;*.png;*.bm
 #. Resource IDs: (65535)
 msgid "Icons/Design/Code:\t\tLuebbe Onken"
 msgstr "Ikoner/Design/Kodning: \t\tLuebbe Onken"
+
+#. Resource IDs: (97)
+msgid "Identical"
+msgstr ""
 
 #. Resource IDs: (194)
 msgid ""
@@ -8105,6 +8117,10 @@ msgstr "Återställ nuvarande gren \"%s\" till"
 msgid "Resolve"
 msgstr "Markera konflikt som löst"
 
+#. Resource IDs: (4595)
+msgid "Resolve Submodule Conflict"
+msgstr ""
+
 #. Resource IDs: (282)
 msgid "Resolve conflict using 'mine'"
 msgstr "Använd \"min\" för att lösa konflikten"
@@ -9219,6 +9235,10 @@ msgstr "Specificerar hur många gamla loggmeddelanden som ska sparas i loggmedde
 msgid "Spin1"
 msgstr "Spin1"
 
+#. Resource IDs: (1827)
+msgid "Split commit"
+msgstr ""
+
 #. Resource IDs: (1253)
 msgid "Split lines"
 msgstr "Dela rader"
@@ -9907,8 +9927,8 @@ msgstr "De två valda URL:erna är inte skapade från samma rot.\nDet går inte 
 
 #. Resource IDs: (96)
 msgid ""
-"The working tree is not clean and contains unstaged changes. This can cause "
-"conflicts while rebasing/cherry picking."
+"The working tree is not clean and contains unstaged changes.\n"
+"Review and commit the changes?"
 msgstr ""
 
 #. Resource IDs: (65535)
@@ -10657,6 +10677,10 @@ msgid ""
 "Apply the patch to\n"
 "%s"
 msgstr "Använd ursprungliga sökvägen.\nApplicera patchen på\n%s"
+
+#. Resource IDs: (1825, 1826)
+msgid "Use this"
+msgstr ""
 
 #. Resource IDs: (251)
 msgid "Use this &whole file"
