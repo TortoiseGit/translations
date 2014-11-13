@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-11 19:35+0000\n"
+"PO-Revision-Date: 2014-11-13 16:50+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -6055,6 +6055,10 @@ msgid ""
 "The conflict status of the file is kept"
 msgstr "Als Konflikt lassen\nDer Status 'Konflikt' der Datei wird beibehalten"
 
+#. Resource IDs: (252)
+msgid "Leave only marked blocks"
+msgstr ""
+
 #. Resource IDs: (188)
 msgid "Left View: "
 msgstr "Linke Ansicht:"
@@ -6289,6 +6293,10 @@ msgstr "Als aufgelöst markieren\nDer Status der Datei wird auf 'verändert' ges
 #. Resource IDs: (252)
 msgid "Mark this block"
 msgstr "Block markieren"
+
+#. Resource IDs: (7)
+msgid "Marked Blocks"
+msgstr ""
 
 #. Resource IDs: (2051)
 msgid ""
@@ -8462,6 +8470,24 @@ msgid ""
 "Both Files are saved"
 msgstr "Beide speichern\nAlle beiden Dateien werden gespeichert"
 
+#. Resource IDs: (7)
+msgid ""
+"Save and exclude\n"
+"Your changes are saved and the original content is used"
+msgstr ""
+
+#. Resource IDs: (7)
+msgid ""
+"Save and ignore marked blocks\n"
+"Only your manual edits are saved, marked blocks are left as they are"
+msgstr ""
+
+#. Resource IDs: (7)
+msgid ""
+"Save and include\n"
+"Your changes are saved and the marked blocks are included"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Save as"
 msgstr "Speichern unter …"
@@ -10578,10 +10604,6 @@ msgstr "Verwende linken Block"
 msgid "Use left file"
 msgstr "Verwende linke Datei"
 
-#. Resource IDs: (252)
-msgid "Use left file except marked blocks"
-msgstr "Benutze linke Datei, bis auf markierte Blöcke"
-
 #. Resource IDs: (1762)
 msgid "Use local branch color for current branch"
 msgstr "Benutze die \"Lokale Zweig\"-Farbe für den aktiven Zweig"
@@ -11069,6 +11091,10 @@ msgid ""
 "You have checked \"include untracked\".\n"
 "This includes a \"git clean -fd\" call, so ignored files/directories are removed w/o using recycle bin."
 msgstr "Sie haben \"nicht-&versionierte Objekte einbeziehen\" angewählt.\nDies beinhaltet den \"git clean -fd\" Aufruf, der ignorierte Dateien/Verzeichnisse löscht ohne den Papierkorb zu benutzen,"
+
+#. Resource IDs: (7)
+msgid "You have marked changed blocks. How should those blocks be saved?"
+msgstr ""
 
 #. Resource IDs: (16)
 msgid ""

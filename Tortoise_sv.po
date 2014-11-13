@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-11 19:35+0000\n"
+"PO-Revision-Date: 2014-11-13 16:50+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -6061,6 +6061,10 @@ msgid ""
 "The conflict status of the file is kept"
 msgstr "Lämna som konflikt\nKonfliktstatus för filen behålls"
 
+#. Resource IDs: (252)
+msgid "Leave only marked blocks"
+msgstr ""
+
 #. Resource IDs: (188)
 msgid "Left View: "
 msgstr "Vänster vy:"
@@ -6295,6 +6299,10 @@ msgstr "Markera som löst\nFilens status ändras till \"modifierad\""
 #. Resource IDs: (252)
 msgid "Mark this block"
 msgstr "Markera blocket"
+
+#. Resource IDs: (7)
+msgid "Marked Blocks"
+msgstr ""
 
 #. Resource IDs: (2051)
 msgid ""
@@ -8468,6 +8476,24 @@ msgid ""
 "Both Files are saved"
 msgstr "Spara alla\nBåda filerna sparas"
 
+#. Resource IDs: (7)
+msgid ""
+"Save and exclude\n"
+"Your changes are saved and the original content is used"
+msgstr ""
+
+#. Resource IDs: (7)
+msgid ""
+"Save and ignore marked blocks\n"
+"Only your manual edits are saved, marked blocks are left as they are"
+msgstr ""
+
+#. Resource IDs: (7)
+msgid ""
+"Save and include\n"
+"Your changes are saved and the marked blocks are included"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Save as"
 msgstr "Spara som"
@@ -10584,10 +10610,6 @@ msgstr "Använd vänster block"
 msgid "Use left file"
 msgstr "Använd den vänstra filen"
 
-#. Resource IDs: (252)
-msgid "Use left file except marked blocks"
-msgstr "Använd vänster fil förutom de markerade blocken"
-
 #. Resource IDs: (1762)
 msgid "Use local branch color for current branch"
 msgstr "Använd färgen för lokal gren även för nuvarande gren"
@@ -11074,6 +11096,10 @@ msgstr "Du har en gammal version av Git för Windows (http://code.google.com/p/m
 msgid ""
 "You have checked \"include untracked\".\n"
 "This includes a \"git clean -fd\" call, so ignored files/directories are removed w/o using recycle bin."
+msgstr ""
+
+#. Resource IDs: (7)
+msgid "You have marked changed blocks. How should those blocks be saved?"
 msgstr ""
 
 #. Resource IDs: (16)

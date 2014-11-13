@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-11 19:35+0000\n"
+"PO-Revision-Date: 2014-11-13 16:50+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -6059,6 +6059,10 @@ msgid ""
 "The conflict status of the file is kept"
 msgstr "競合したままにする\nファイルの競合状態を保持"
 
+#. Resource IDs: (252)
+msgid "Leave only marked blocks"
+msgstr ""
+
 #. Resource IDs: (188)
 msgid "Left View: "
 msgstr "左ビュー: "
@@ -6293,6 +6297,10 @@ msgstr "解決済みとする\nファイルのステータスは、修正済み�
 #. Resource IDs: (252)
 msgid "Mark this block"
 msgstr "このブロックをマークする"
+
+#. Resource IDs: (7)
+msgid "Marked Blocks"
+msgstr ""
 
 #. Resource IDs: (2051)
 msgid ""
@@ -8466,6 +8474,24 @@ msgid ""
 "Both Files are saved"
 msgstr "すべてを保存\n両方のファイルを保存"
 
+#. Resource IDs: (7)
+msgid ""
+"Save and exclude\n"
+"Your changes are saved and the original content is used"
+msgstr ""
+
+#. Resource IDs: (7)
+msgid ""
+"Save and ignore marked blocks\n"
+"Only your manual edits are saved, marked blocks are left as they are"
+msgstr ""
+
+#. Resource IDs: (7)
+msgid ""
+"Save and include\n"
+"Your changes are saved and the marked blocks are included"
+msgstr ""
+
 #. Resource IDs: (156)
 msgid "Save as"
 msgstr "名付けて保存"
@@ -10582,10 +10608,6 @@ msgstr "左側のブロックを使用"
 msgid "Use left file"
 msgstr "左側のファイルを使用"
 
-#. Resource IDs: (252)
-msgid "Use left file except marked blocks"
-msgstr "マークを除き、左側のファイルを使用"
-
 #. Resource IDs: (1762)
 msgid "Use local branch color for current branch"
 msgstr "ローカルブランチの色をカレントブランチに使用"
@@ -11073,6 +11095,10 @@ msgid ""
 "You have checked \"include untracked\".\n"
 "This includes a \"git clean -fd\" call, so ignored files/directories are removed w/o using recycle bin."
 msgstr "あなたは「バージョン管理外のファイルを含む」を有効にしました。これは、「git clean -fd」の呼び出しを含むので、無視ファイルとディレクトリが、ごみ箱に入ることなく削除されます。"
+
+#. Resource IDs: (7)
+msgid "You have marked changed blocks. How should those blocks be saved?"
+msgstr ""
 
 #. Resource IDs: (16)
 msgid ""
