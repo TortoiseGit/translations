@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-13 18:48+0000\n"
+"PO-Revision-Date: 2014-11-20 13:31+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -578,11 +578,11 @@ msgstr "删除远程和本地(&D)"
 
 #. Resource IDs: (65535)
 msgid "&Detect moved or copied lines"
-msgstr "删除已移动或复制的行(&D)"
+msgstr "检测已移动或已复制的行(&D)"
 
 #. Resource IDs: (65535)
 msgid "&Detect moved or copied lines:"
-msgstr "删除已移动或复制的行(&D)："
+msgstr "检测已移动或已复制的行(&D)："
 
 #. Resource IDs: (12)
 msgid "&Diff"
@@ -2651,7 +2651,7 @@ msgstr "选中你希望出现在右键菜单，而不是 TortoiseGit 子菜单�
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
 "menu (SHIFT + left click)"
-msgstr "选择你想移到扩展右键菜单的项目(需要按Shift键右击)"
+msgstr "选择您想移到扩展右键菜单（按Shift键+左键单击）的项目"
 
 #. Resource IDs: (81)
 msgid "Check to show relative times in log messages"
@@ -2807,7 +2807,7 @@ msgstr "点击“高级设置”可根据不同扩展名指定不同的差异比
 msgid ""
 "Click on \"Advanced\" to specify alternate merge programs based on file "
 "extension"
-msgstr "点击“高级设置”可根据不同扩展名指定不同合并程序"
+msgstr "点击“高级设置”可根据不同扩展名指定不同的合并程序"
 
 #. Resource IDs: (2058)
 msgid ""
@@ -3500,7 +3500,7 @@ msgstr "正在创建拉取请求..."
 
 #. Resource IDs: (89)
 msgid "Credential helper must not be empty."
-msgstr "凭据助手不能为空"
+msgstr "凭证助手不能为空。"
 
 #. Resource IDs: (65535)
 msgid "Credential helper:"
@@ -4089,13 +4089,13 @@ msgstr "不恢复自动保存文档\n打开曾经保存的版本而不是自动�
 msgid ""
 "Don't save\n"
 "Close the views without saving the modifications"
-msgstr "不保存\n关闭视图而没有保存修改"
+msgstr "不保存\n关闭视图而不保存修改"
 
 #. Resource IDs: (315)
 msgid ""
 "Don't save\n"
 "Reload the views without saving the modifications"
-msgstr "不保存\n重新加载视图而没有保存修改"
+msgstr "不保存\n重新加载视图而不保存修改"
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -5030,7 +5030,7 @@ msgstr "全递归"
 
 #. Resource IDs: (65535)
 msgid "Further options for the commit dialog are on Dialogs 3 page."
-msgstr "在对话框组三页面有更多关于提交对话框的选项。"
+msgstr "在“对话框组三”页面有更多有关提交对话框的选项。"
 
 #. Resource IDs: (92)
 msgid "G&ravatar"
@@ -5386,7 +5386,7 @@ msgstr "隐藏引用比较列表中未变更的引用"
 
 #. Resource IDs: (156)
 msgid "Hide/Show the patch file list"
-msgstr "隐藏/显示 补丁文件列表"
+msgstr "隐藏/显示补丁文件列表"
 
 #. Resource IDs: (2052)
 msgid ""
@@ -5716,7 +5716,7 @@ msgid ""
 "If you plan to work inside this folder, leave this unchecked. Typically a "
 "bare repo can only have changes 'pushed' to it. (By convention, a bare repo "
 "folder should have a name that ends with '.git')"
-msgstr "如果你计划在这个目录中工作，应不选此项。典型的一个纯版本仅用于推送到它。（根据惯例，一个纯版本库的名称应使用 '.git' 结尾）"
+msgstr "如果你计划在这个目录中工作，应不选此项。典型的一个纯版本库仅用于被推送。（根据惯例，一个纯版本库的名称应使用 '.git' 结尾）"
 
 #. Resource IDs: (73)
 msgid "Ignore"
@@ -6038,7 +6038,7 @@ msgstr "最后的提交"
 
 #. Resource IDs: (86)
 msgid "Last Modified"
-msgstr "最近修改"
+msgstr "最后修改"
 
 #. Resource IDs: (65535)
 msgid "Last Modified:"
@@ -6519,7 +6519,7 @@ msgstr "移动到修改列表"
 
 #. Resource IDs: (65535)
 msgid "Move to extended context menu (press shift key to show it)"
-msgstr "移动到扩展右键菜单(通过按shift键显示)"
+msgstr "移动到扩展右键菜单（按下 Shift 键来显示）"
 
 #. Resource IDs: (229)
 msgid "Move/Rename"
@@ -6769,7 +6769,7 @@ msgstr "没有要修正的拼写"
 msgid ""
 "No status cache. Only versioned folders get an overlay, files don't get an "
 "overlay"
-msgstr "无状态缓存。仅影响版本控制的文件夹，不影响文件"
+msgstr "无状态缓存。只有版本控制的文件夹获得图标覆盖，文件不会获得图标覆盖"
 
 #. Resource IDs: (1253)
 msgid "No thesaurus suggestions"
@@ -7651,7 +7651,7 @@ msgstr "结束程序；提示保存文件\n退出"
 msgid ""
 "Quit\n"
 "Exit TortoiseGitMerge without saving the modifications"
-msgstr "退出\n不保存修改并且退出TortoiseGitMerge "
+msgstr "退出\n不保存修改并且退出 TortoiseGitMerge "
 
 #. Resource IDs: (1633)
 msgid "QuotePath"
@@ -8455,7 +8455,7 @@ msgid ""
 "Save Left File\n"
 "The modifications are saved to\n"
 "%s"
-msgstr "保存左边文件\n修改被保存到\n%s"
+msgstr "保存左边文件\n修改将保存到\n%s"
 
 #. Resource IDs: (316)
 msgid ""
@@ -8469,7 +8469,7 @@ msgid ""
 "Save Right File\n"
 "The modifications are saved to\n"
 "%s"
-msgstr "保存右边文件\n修改被保存到\n%s"
+msgstr "保存右边文件\n修改将保存到\n%s"
 
 #. Resource IDs: (316)
 msgid ""
@@ -8568,7 +8568,7 @@ msgid ""
 "Save\n"
 "The modifications are saved to\n"
 "%s"
-msgstr "保存\n修改已保存至%s"
+msgstr "保存\n修改将保存到\n%s"
 
 #. Resource IDs: (108)
 msgid "Saved Data"
@@ -9147,7 +9147,7 @@ msgstr "正在显示 %1!d! 个引用，已选择 %2!d! 个引用"
 msgid ""
 "Showing %ld revision(s), from revision %s to revision %s - %ld revision(s) "
 "selected, %ld file(s) selected\r\n"
-msgstr "显示 %ld 版本, 从 %s 到 %s - 已选择 %ld 版本,  已选择 %ld 文件\n"
+msgstr "正显示 %ld 个修订版本, 从 %s 到 %s - 已选择 %ld 个版本,  已选择 %ld 个文件\n"
 
 #. Resource IDs: (24)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9375,17 +9375,17 @@ msgstr "状态缓存"
 #. Resource IDs: (197)
 msgid ""
 "Status cache for only one folder, with full status and recursive overlays"
-msgstr "状态缓存仅用于一个文件夹，递归完全状态"
+msgstr "状态缓存仅用于一个文件夹，具有完全状态并递归覆盖"
 
 #. Resource IDs: (196)
 msgid ""
 "Status cache kept in an external process that detects file changes, can show"
 " the overlay recursively"
-msgstr "在外部进程中保存状态缓存信息，能够递归的显示"
+msgstr "在外部进程中保存状态缓存信息，它能够检测到文件变更，可以递归的显示图标覆盖"
 
 #. Resource IDs: (196)
 msgid "Status cache only for one folder, no recursive overlays"
-msgstr "状态缓存仅用于一个文件夹，并不递归"
+msgstr "状态缓存仅用于一个文件夹，并不递归覆盖"
 
 #. Resource IDs: (13)
 msgid "Stops bisect mode"
@@ -10002,7 +10002,7 @@ msgstr "%d 行还有尚未处理的冲突！\n请在保存之前先解决它们�
 msgid ""
 "There are unsaved modifications!\n"
 "Do you want to save your changes?"
-msgstr "有尚未保存的修改！\n是否要保存你做的修改？"
+msgstr "有未保存的修改！\n您要保存所做的修改吗？"
 
 #. Resource IDs: (82)
 msgid ""
@@ -10852,7 +10852,7 @@ msgid ""
 "WARNING:\r\n"
 "Only change these settings if you are absolutely sure what you are doing!\r\n"
 "To set the values to their default, delete the value text."
-msgstr "警告：\r\n只有你明确知道这些设置的意义时，才可以修改它们\r\n要恢复默认设置，删除这些值即可。"
+msgstr "警告：\n仅在您明确知道这些设置的意义时修改它们！\n要恢复值到默认设置，删除值内容即可。"
 
 #. Resource IDs: (198)
 msgid "Wait"
@@ -11023,7 +11023,7 @@ msgstr "在文件中:"
 
 #. Resource IDs: (2054)
 msgid "Within file"
-msgstr "在文件内"
+msgstr "在同个文件内"
 
 #. Resource IDs: (20, 158)
 msgid "Working Tree"

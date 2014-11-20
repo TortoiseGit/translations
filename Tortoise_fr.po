@@ -24,8 +24,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-13 18:42+0000\n"
-"Last-Translator: Fred <pinky__007@hotmail.com>\n"
+"PO-Revision-Date: 2014-11-20 14:58+0000\n"
+"Last-Translator: bauland <nicolas.bauland@laposte.net>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1298,7 +1298,7 @@ msgstr "Mettre à jo&ur l'élément à la révision"
 
 #. Resource IDs: (4567)
 msgid "&Upstream:"
-msgstr ""
+msgstr "&Branche:"
 
 #. Resource IDs: (1184)
 msgid "&Use auto-completion of file paths and keywords"
@@ -1480,7 +1480,7 @@ msgstr "<b>Attention :</b> Cette branche n'est pas totalement fusionnée sur HEA
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr ""
+msgstr "<ct=0x0000FF>HEAD actuelle détachée</ct>, vous travaillez sur (aucune branche).\nVoulez-vous créer une branche maintenant?"
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -1619,7 +1619,7 @@ msgstr "Renommer avec des abréviations"
 
 #. Resource IDs: (65535)
 msgid "Abbreviated size"
-msgstr ""
+msgstr "Taille des abréviations"
 
 #. Resource IDs: (2, 73, 1565)
 msgid "Abort"
@@ -1810,7 +1810,7 @@ msgstr "Toutes les branches locales"
 
 #. Resource IDs: (96)
 msgid "All refs"
-msgstr ""
+msgstr "Toutes les références"
 
 #. Resource IDs: (96)
 msgid "All tags"
@@ -2193,7 +2193,7 @@ msgstr "Graphique en barre"
 
 #. Resource IDs: (1385)
 msgid "Base"
-msgstr ""
+msgstr "Basé sur"
 
 #. Resource IDs: (1522)
 msgid "Base On"
@@ -2940,7 +2940,7 @@ msgstr "Livrer"
 #. Resource IDs: (96)
 #, c-format
 msgid "Commit %s is NOT visible right now."
-msgstr ""
+msgstr "La livraison %s N'EST PAS encore visible."
 
 #. Resource IDs: (94)
 #, c-format
@@ -2977,7 +2977,7 @@ msgstr "Livraisons ordonnées:"
 
 #. Resource IDs: (96)
 msgid "Commit super project"
-msgstr ""
+msgstr "Livrer le super projet"
 
 #. Resource IDs: (1110)
 msgid "Commit to:"
@@ -4217,7 +4217,7 @@ msgstr "Modifier le fichier .gitconfig &global"
 
 #. Resource IDs: (1718)
 msgid "Edit global &XDG git/config"
-msgstr ""
+msgstr "Modifier la configuration globale du fichier git/.config"
 
 #. Resource IDs: (71)
 msgid "Edit local git config"
@@ -4449,7 +4449,7 @@ msgstr "Erreur lors de la reconstruction du Cache d'Icônes du Shell !"
 #. Resource IDs: (96)
 #, c-format
 msgid "Error validating server certificate for \"%s\":"
-msgstr ""
+msgstr "Erreur de validation du certificat de serveur pour \"%s\" :"
 
 #. Resource IDs: (70)
 #, c-format
@@ -4939,7 +4939,7 @@ msgid ""
 "Force push to the selected remote reference and override it without any safety checks.\n"
 "This can cause the remote repository to lose unseen commits; use it with care.\n"
 "This option corresponds to the --force git option."
-msgstr ""
+msgstr "Forcer la commande \"pousser\" seulement si la référence distante pointe sur la même livraison que la branche distante suivie. Cela peut entraîner que le référentiel distant perde des livraisons; à utiliser avec précaution. Cette option correspond à l'option git --force."
 
 #. Resource IDs: (603)
 msgid ""
@@ -5516,7 +5516,7 @@ msgstr "ID:32870:V C +L"
 
 #. Accelerator Entry for Menu ID:32873; ''
 msgid "ID:32873:V C +E"
-msgstr ""
+msgstr "ID:32873:V C +E"
 
 #. Accelerator Entry for Menu ID:32881; ''
 msgid "ID:32881:V C +P"
@@ -5935,7 +5935,7 @@ msgstr "Numéro de révision invalide !"
 
 #. Resource IDs: (65535)
 msgid "Issuer:"
-msgstr ""
+msgstr "Rapporteur:"
 
 #. Resource IDs: (145)
 msgid ""
@@ -6421,7 +6421,7 @@ msgstr "Seul&ement un message"
 
 #. Resource IDs: (1579)
 msgid "Message part &expression:"
-msgstr ""
+msgstr "Expression régulière du message:"
 
 #. Resource IDs: (116)
 msgid "Messages"
@@ -6841,7 +6841,7 @@ msgstr "Notez que si vous choisissez de récupérer les documents automatiquemen
 
 #. Resource IDs: (65535)
 msgid "Note: These settings also apply to the Patch Viewer dialog."
-msgstr ""
+msgstr "Note : les réglages de police de caractères affectent également TortoiseUDiff"
 
 #. Resource IDs: (1481)
 msgid "Note: the folder contains unversioned items"
@@ -7376,7 +7376,7 @@ msgstr "Merci de sélectionner une branche"
 
 #. Resource IDs: (94)
 msgid "Please select upstream"
-msgstr ""
+msgstr "Merci de sélectionner une branche"
 
 #. Resource IDs: (94)
 msgid "Please take a look at the skipped commits"
