@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-13 16:50+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2014-11-25 04:52+0000\n"
+"Last-Translator: Tetsuhiko Koto\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1614,7 +1614,7 @@ msgstr "名前の変更を短縮"
 
 #. Resource IDs: (65535)
 msgid "Abbreviated size"
-msgstr ""
+msgstr "短縮する文字数"
 
 #. Resource IDs: (2, 73, 1565)
 msgid "Abort"
@@ -1650,7 +1650,7 @@ msgstr "TortoiseGitMergeについて"
 
 #. Resource IDs: (1)
 msgid "Accept certificate"
-msgstr ""
+msgstr "証明書を受け入れる"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -1805,11 +1805,11 @@ msgstr "すべてのローカルブランチ"
 
 #. Resource IDs: (96)
 msgid "All refs"
-msgstr ""
+msgstr "すべてのRef"
 
 #. Resource IDs: (96)
 msgid "All tags"
-msgstr ""
+msgstr "すべてのタグ"
 
 #. Resource IDs: (9690)
 msgid "All tags only"
@@ -1863,7 +1863,7 @@ msgstr "このローカルブランチでのpushを常に指定のリモート�
 
 #. Resource IDs: (1805)
 msgid "Always show long format"
-msgstr ""
+msgstr "常に長いフォーマットで表示"
 
 #. Resource IDs: (197)
 msgid "Always use the system locale settings to show times and dates"
@@ -1927,7 +1927,7 @@ msgstr "想定外の種類の行が、%d行目で見つかりました。"
 
 #. Resource IDs: (96)
 msgid "Annotated tags"
-msgstr ""
+msgstr "注釈付き (annotated) タグ"
 
 #. Resource IDs: (251)
 msgid "Append right block"
@@ -2176,7 +2176,7 @@ msgstr "戻る"
 
 #. Resource IDs: (65535)
 msgid "Background"
-msgstr ""
+msgstr "背景"
 
 #. Resource IDs: (65535)
 msgid "Baltic"
@@ -2188,7 +2188,7 @@ msgstr "ヒストグラム"
 
 #. Resource IDs: (1385)
 msgid "Base"
-msgstr ""
+msgstr "ベース"
 
 #. Resource IDs: (1522)
 msgid "Base On"
@@ -2514,7 +2514,7 @@ msgstr "コンテキストメニューに表示する項目"
 
 #. Resource IDs: (117)
 msgid "Case-sensitive"
-msgstr ""
+msgstr "大文字/小文字を区別"
 
 #. Resource IDs: (65535)
 msgid "Cate&gories:"
@@ -2530,7 +2530,7 @@ msgstr "中央ヨーロッパ"
 
 #. Resource IDs: (65535)
 msgid "Certificate verification failed!"
-msgstr ""
+msgstr "証明書の検証に失敗しました (Certificate verification failed)"
 
 #. Resource IDs: (1697)
 msgid "Change log"
@@ -2935,7 +2935,7 @@ msgstr "コミット"
 #. Resource IDs: (96)
 #, c-format
 msgid "Commit %s is NOT visible right now."
-msgstr ""
+msgstr "コミット %s は、今のところ見えません。"
 
 #. Resource IDs: (94)
 #, c-format
@@ -3017,7 +3017,7 @@ msgstr "バージョン管理外のフォルダーをコミットする場合、
 
 #. Resource IDs: (65535)
 msgid "Common Name:"
-msgstr ""
+msgstr "Common Name:"
 
 #. Resource IDs: (2054)
 msgid "Compare &HEAD revisions"
@@ -3745,11 +3745,11 @@ msgstr "深さ"
 
 #. Resource IDs: (65535)
 msgid "Describe"
-msgstr ""
+msgstr "Describe"
 
 #. Resource IDs: (65535)
 msgid "Describe Strategy"
-msgstr ""
+msgstr "Describe の方式"
 
 #. Resource IDs: (1002)
 msgid "Description"
@@ -3825,15 +3825,15 @@ msgstr "差分ビューアー::マージツール"
 
 #. Resource IDs: (65535)
 msgid "Diff added lines"
-msgstr ""
+msgstr "diffの追加された行"
 
 #. Resource IDs: (65535)
 msgid "Diff command"
-msgstr ""
+msgstr "diffコマンド"
 
 #. Resource IDs: (65535)
 msgid "Diff comment"
-msgstr ""
+msgstr "diffのコメント"
 
 #. Resource IDs: (65535)
 msgid "Diff file:"
@@ -3841,7 +3841,7 @@ msgstr "差分ファイル:"
 
 #. Resource IDs: (65535)
 msgid "Diff header"
-msgstr ""
+msgstr "diffのヘッダ"
 
 #. Resource IDs: (15)
 msgid "Diff later"
@@ -3849,11 +3849,11 @@ msgstr "後で差分を取る"
 
 #. Resource IDs: (65535)
 msgid "Diff position"
-msgstr ""
+msgstr "diffの位置"
 
 #. Resource IDs: (65535)
 msgid "Diff removed lines"
-msgstr ""
+msgstr "diffの削除された行"
 
 #. Resource IDs: (15)
 #, c-format
@@ -4444,7 +4444,7 @@ msgstr "シェルのアイコンキャッシュの再構築中にエラーが発
 #. Resource IDs: (96)
 #, c-format
 msgid "Error validating server certificate for \"%s\":"
-msgstr ""
+msgstr "\"%s\" のためのサーバー証明書の検証におけるエラー:"
 
 #. Resource IDs: (70)
 #, c-format
@@ -4855,7 +4855,7 @@ msgstr "検索: ドキュメントの末尾に達したため、先頭から最�
 
 #. Resource IDs: (65535)
 msgid "Fingerprints"
-msgstr ""
+msgstr "Fingerprints"
 
 #. Resource IDs: (67)
 msgid "Finish"
@@ -4948,7 +4948,7 @@ msgstr "強制: 以下を失う可能性がある"
 
 #. Resource IDs: (65535)
 msgid "Foreground"
-msgstr ""
+msgstr "テキストの色"
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -5511,7 +5511,7 @@ msgstr "ID:32870:V C +L"
 
 #. Accelerator Entry for Menu ID:32873; ''
 msgid "ID:32873:V C +E"
-msgstr ""
+msgstr "ID:32873:V C +E"
 
 #. Accelerator Entry for Menu ID:32881; ''
 msgid "ID:32881:V C +P"
@@ -5659,7 +5659,7 @@ msgstr "アイコン/デザイン/コード:\t\tLuebbe Onken"
 
 #. Resource IDs: (97)
 msgid "Identical"
-msgstr ""
+msgstr "同一"
 
 #. Resource IDs: (194)
 msgid ""
@@ -5930,7 +5930,7 @@ msgstr "不正なリビジョン番号！"
 
 #. Resource IDs: (65535)
 msgid "Issuer:"
-msgstr ""
+msgstr "Issuer:"
 
 #. Resource IDs: (145)
 msgid ""
@@ -6061,7 +6061,7 @@ msgstr "競合したままにする\nファイルの競合状態を保持"
 
 #. Resource IDs: (252)
 msgid "Leave only marked blocks"
-msgstr ""
+msgstr "マークされたブロックだけを残す"
 
 #. Resource IDs: (188)
 msgid "Left View: "
@@ -6300,7 +6300,7 @@ msgstr "このブロックをマークする"
 
 #. Resource IDs: (7)
 msgid "Marked Blocks"
-msgstr ""
+msgstr "マークされたブロック"
 
 #. Resource IDs: (2051)
 msgid ""
@@ -6836,7 +6836,7 @@ msgstr "もしあなたが、自動保存されたドキュメントの復元を
 
 #. Resource IDs: (65535)
 msgid "Note: These settings also apply to the Patch Viewer dialog."
-msgstr ""
+msgstr "注意: この設定は、パッチビューアーダイアログにも適用されます"
 
 #. Resource IDs: (1481)
 msgid "Note: the folder contains unversioned items"
@@ -6888,7 +6888,7 @@ msgstr "移動/コピーされた行と判定するのに必要な文字数"
 
 #. Resource IDs: (96)
 msgid "Number of characters to show in the abbreviated hash part"
-msgstr ""
+msgstr "短縮されたハッシュ値部分の文字数"
 
 #. Resource IDs: (1160)
 msgid "Number of weeks:"
@@ -7050,7 +7050,7 @@ msgstr "既存のドキュメントを開く\n開く"
 
 #. Resource IDs: (1797)
 msgid "Open certificate"
-msgstr ""
+msgstr "証明書を開く"
 
 #. Resource IDs: (3601)
 msgid ""
@@ -8125,7 +8125,7 @@ msgstr "競合の解決"
 
 #. Resource IDs: (4595)
 msgid "Resolve Submodule Conflict"
-msgstr ""
+msgstr "サブモジュールの競合の解決"
 
 #. Resource IDs: (282)
 msgid "Resolve conflict using 'mine'"
@@ -8342,11 +8342,11 @@ msgstr "SHA-1"
 
 #. Resource IDs: (65535)
 msgid "SHA-1:"
-msgstr ""
+msgstr "SHA-1:"
 
 #. Resource IDs: (65535)
 msgid "SHA-256:"
-msgstr ""
+msgstr "SHA-256:"
 
 #. Resource IDs: (1585)
 msgid "SMTP Server requires authentication"
@@ -8478,19 +8478,19 @@ msgstr "すべてを保存\n両方のファイルを保存"
 msgid ""
 "Save and exclude\n"
 "Your changes are saved and the original content is used"
-msgstr ""
+msgstr "マーク以外を採用して保存\nマークされていないブロックは変更後の内容で、マークされたブロックは変更前の内容で保存します。いずれの場合も、手動の変更は保存します。"
 
 #. Resource IDs: (7)
 msgid ""
 "Save and ignore marked blocks\n"
 "Only your manual edits are saved, marked blocks are left as they are"
-msgstr ""
+msgstr "マークは無視して保存\n現在のビューの内容を保存します。"
 
 #. Resource IDs: (7)
 msgid ""
 "Save and include\n"
 "Your changes are saved and the marked blocks are included"
-msgstr ""
+msgstr "マークを採用して保存\nマークされたブロックは変更後の内容(右/下のビューの内容)で、マークされていないブロックは変更前の内容(左/上のビューの内容)で保存します。いずれの場合も、TortoiseGitMergeウィンドウ上で手動で変更した内容は保存します。"
 
 #. Resource IDs: (156)
 msgid "Save as"
@@ -8742,7 +8742,7 @@ msgstr "すべてを選択/解除(&A)"
 
 #. Resource IDs: (96)
 msgid "Selection History"
-msgstr ""
+msgstr "選択履歴"
 
 #. Resource IDs: (1)
 msgid "Send"
@@ -8939,11 +8939,11 @@ msgstr "グラフ全体の概要を表示"
 
 #. Resource IDs: (1074)
 msgid "Show asterisk log prefix"
-msgstr ""
+msgstr "ログのプレフィックスのアスタリスクを表示する"
 
 #. Resource IDs: (97)
 msgid "Show asterisk log prefix in log dialog"
-msgstr ""
+msgstr "ログダイアログにおいて、ログのプレフィックスのアスタリスクを表示する"
 
 #. Resource IDs: (32775)
 msgid "Show author"
@@ -8971,11 +8971,11 @@ msgstr "日付を表示"
 
 #. Resource IDs: (1804)
 msgid "Show describe in log"
-msgstr ""
+msgstr "ログに describe を表示する"
 
 #. Resource IDs: (96)
 msgid "Show describe in log dialog"
-msgstr ""
+msgstr "ログダイアログに git-describe で得られれ describe を表示します"
 
 #. Resource IDs: (83)
 msgid "Show destination folder"
@@ -9048,7 +9048,7 @@ msgstr "ログを表示..."
 
 #. Resource IDs: (96)
 msgid "Show long format even if a tag is exactly on that commit"
-msgstr ""
+msgstr "該当コミットにタグがあっても、長いフォーマットで表示する"
 
 #. Resource IDs: (1382)
 msgid "Show modified files in working tree"
@@ -9261,7 +9261,7 @@ msgstr "Spin1"
 
 #. Resource IDs: (1827)
 msgid "Split commit"
-msgstr ""
+msgstr "分割してコミット"
 
 #. Resource IDs: (1253)
 msgid "Split lines"
@@ -9953,7 +9953,7 @@ msgstr "選択された2つのURLは同じルートから作成されたもの�
 msgid ""
 "The working tree is not clean and contains unstaged changes.\n"
 "Review and commit the changes?"
-msgstr ""
+msgstr "作業ツリーに変更が残っています。この変更をレビューしてコミットしますか？"
 
 #. Resource IDs: (65535)
 msgid "Their file:"
@@ -10257,7 +10257,7 @@ msgstr "TortoiseGitMergeは、このパッチファイルを適用できませ�
 
 #. Resource IDs: (357)
 msgid "TortoiseGitUDiff"
-msgstr ""
+msgstr "TortoiseGitUDiff"
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"
@@ -10700,7 +10700,7 @@ msgstr "元々のパスを利用します。\nパッチを以下に適用\n%s"
 
 #. Resource IDs: (1825, 1826)
 msgid "Use this"
-msgstr ""
+msgstr "これを使う"
 
 #. Resource IDs: (251)
 msgid "Use this &whole file"
@@ -10942,7 +10942,7 @@ msgstr "URLを入力すると、リモート名が空ならば自動的に \"ori
 
 #. Resource IDs: (96)
 msgid "Whether to reference only annotated tags, all tags or all refs"
-msgstr ""
+msgstr "「注釈付きタグ (annotated tag)」「すべてのタグ」「すべてのRef」のどれを参照するか指定します。"
 
 #. Resource IDs: (1409)
 msgid ""
@@ -11098,7 +11098,7 @@ msgstr "あなたは「バージョン管理外のファイルを含む」を有
 
 #. Resource IDs: (7)
 msgid "You have marked changed blocks. How should those blocks be saved?"
-msgstr ""
+msgstr "マークされた変更ブロックがあります。それらをどう保存しますか?"
 
 #. Resource IDs: (16)
 msgid ""
