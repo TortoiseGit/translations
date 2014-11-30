@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-20 13:31+0000\n"
+"PO-Revision-Date: 2014-11-30 13:18+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -330,7 +330,7 @@ msgstr "&..."
 
 #. Resource IDs: (1656)
 msgid "&3 way merge"
-msgstr "3路合并(&3)"
+msgstr "三路合并(&3)"
 
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
@@ -2303,7 +2303,7 @@ msgstr "分支"
 msgid ""
 "Branch %s behind %s\r\n"
 "%s will fastforward to %s"
-msgstr "分支%s是%s的子节点\n%s能直接迁移到%s"
+msgstr "分支 %s 落后于 %s\n%s 将快进到 %s"
 
 #. Resource IDs: (93)
 msgid "Branch (FF)"
@@ -4648,16 +4648,16 @@ msgstr "失败！"
 
 #. Resource IDs: (75)
 msgid "Fast Forward"
-msgstr "直接迁移"
+msgstr "快进式"
 
 #. Resource IDs: (1484)
 msgid "Fast Forward o&nly"
-msgstr "仅仅直接迁移(&N)"
+msgstr "仅快进式(&N)"
 
 #. Resource IDs: (67)
 #, c-format
 msgid "Fast forward to %s"
-msgstr "直接迁移到%s"
+msgstr "快进到%s"
 
 #. Resource IDs: (76)
 msgid "Fetc&h"
@@ -5827,7 +5827,7 @@ msgstr "图片"
 
 #. Resource IDs: (19)
 msgid "Immediate children, including folders"
-msgstr "直接子节点，包含文件夹"
+msgstr "直接子节点，包括文件夹"
 
 #. Resource IDs: (77)
 msgid "Import"
@@ -5870,15 +5870,15 @@ msgstr "为了放弃合并过程，需要一个重置(reset)操作"
 
 #. Resource IDs: (1499)
 msgid "Include &Tags"
-msgstr "包含标签(&T)"
+msgstr "包括标签(&T)"
 
 #. Resource IDs: (1068)
 msgid "Include &ignored files"
-msgstr "包含忽略文件(&I)"
+msgstr "包括忽略文件(&I)"
 
 #. Resource IDs: (65535)
 msgid "Include only the following revision range:"
-msgstr "仅包含以下版本范围:"
+msgstr "仅包括下列版本范围:"
 
 #. Resource IDs: (3857)
 msgid "Incorrect filename."
@@ -6843,7 +6843,7 @@ msgstr "注意：这些设置也影响补丁查看器对话框。"
 
 #. Resource IDs: (1481)
 msgid "Note: the folder contains unversioned items"
-msgstr "注释: 此目录包含未版本控制的条目"
+msgstr "注意：此目录包含未版本控制的条目"
 
 #. Resource IDs: (65535)
 msgid "Note: this affects all Tortoise clients, not just TortoiseGit!"
@@ -9294,7 +9294,7 @@ msgstr "标准"
 
 #. Resource IDs: (68)
 msgid "Start (FastFwd)"
-msgstr "开始(直接迁移)"
+msgstr "开始（快进式）"
 
 #. Resource IDs: (67)
 msgid "Start Cherry Pick"
@@ -9809,7 +9809,7 @@ msgstr "行号必须在 %d 至 %d 之间"
 #. Resource IDs: (86)
 #, c-format
 msgid "The local branch \"%s\" does not fast-forward to the remote branch \"%s\"."
-msgstr "本地分支\"%s\"不能直接迁移到远端分支\"%s\""
+msgstr "本地分支“%s”不能快进到远端分支“%s”。"
 
 #. Resource IDs: (64)
 msgid ""
