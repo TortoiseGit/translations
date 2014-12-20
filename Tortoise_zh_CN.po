@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-11-30 13:18+0000\n"
+"PO-Revision-Date: 2014-12-20 22:51+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -215,7 +215,7 @@ msgstr "%d 个提交领先于 \"%s\""
 #. Resource IDs: (1256)
 #, c-format
 msgid "%d files changed"
-msgstr "%d个文件修改"
+msgstr "%d个文件已更改"
 
 #. Resource IDs: (65)
 #, c-format
@@ -314,7 +314,7 @@ msgstr "%s\n无法引用补丁。"
 msgid ""
 "%s\n"
 "Do you want to remove it anyway?"
-msgstr "%s\n确定要删除吗？"
+msgstr "%s\n您确定要删除它吗？"
 
 #. Resource IDs: (69)
 #, c-format
@@ -1108,11 +1108,11 @@ msgstr "恢复到老状态(&R)"
 
 #. Resource IDs: (1252)
 msgid "&Revert change by this commit"
-msgstr "还原这个版本的改动(&R)"
+msgstr "还原此版本做出的变更(&R)"
 
 #. Resource IDs: (1252)
 msgid "&Revert changes by these commits"
-msgstr "还原这些版本的改动(&R)"
+msgstr "还原这些版本的变更(&R)"
 
 #. Resource IDs: (65535)
 msgid "&SSH client:"
@@ -1332,7 +1332,7 @@ msgstr "在文件中(&W)"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
-msgstr "忽略空格改动(&iI)"
+msgstr "忽略空格变更(&iI)"
 
 #. Resource IDs: (1498)
 msgid "&known changes"
@@ -1482,7 +1482,7 @@ msgstr "<ct=0x0000FF>当前的 HEAD 已分离</ct>，您将工作在 (无分支)
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
-msgstr "<ct=0x0000FF>是否你想删除 <b>全部</b> 储藏(stash)?</ct>"
+msgstr "<ct=0x0000FF>您确定要删除<b>全部</b>储藏(stash)吗？</ct>"
 
 #. Resource IDs: (72)
 msgid "<ct=0x0000FF>Stash Apply failed!!!</ct>"
@@ -1501,15 +1501,15 @@ msgid ""
 "<ct=0x0000FF>previous rebase directory rebase-apply still exists but mbox given</ct>\n"
 "\n"
 "Do you want to"
-msgstr "<ct=0x0000FF>先前变基目录rebase-apply仍然存在，但是提供mbox</ct>\n\n是否你想"
+msgstr "<ct=0x0000FF>先前变基目录rebase-apply仍然存在，但是提供mbox</ct>\n\n是否您想"
 
 #. Resource IDs: (85)
 msgid "<ct=0x0000ff>Stash Apply failed, there are conflicts</ct>"
-msgstr "<ct=0x0000ff>应用储藏(stash)失败, 有冲突存在</ct>"
+msgstr "<ct=0x0000ff>应用储藏(stash)失败，有冲突存在</ct>"
 
 #. Resource IDs: (85)
 msgid "<ct=0x0000ff>Stash POP failed, there are conflicts</ct>"
-msgstr "<ct=0x0000ff>弹出储藏(stash)失败, 有冲突存在</ct>"
+msgstr "<ct=0x0000ff>弹出储藏(stash)失败，有冲突存在</ct>"
 
 #. Resource IDs: (84)
 msgid "<ct=0xff0000>Stash Apply successful</ct>"
@@ -1543,7 +1543,7 @@ msgstr "?"
 msgid ""
 "A branch with the same name as your entered tag name already exists (so the short ref is ambiguous).\n"
 "This can cause problems so you should avoid it."
-msgstr "你输入的标签的名字和一个分支的名字相同，\n这可能引起问题，请避免这种情况"
+msgstr "您输入的标签名称与另一个分支的名称相同。\n这可能引起问题，您应该避免这种情况。"
 
 #. Resource IDs: (85)
 msgid "A branch with this name already exists."
@@ -1553,7 +1553,7 @@ msgstr "此名称的分支已存在。"
 msgid ""
 "A merge process is active, so this commit will be a merge commit. In order "
 "to abort a merge, you have to perform a reset or forced checkout."
-msgstr "正在进行合并过程，这个提交是一个合并提交。为了放弃合并，你不得不作一个重置(reset)或者强制签出。"
+msgstr "合并过程正在进行，因此此提交将变成一个合并提交。若要中止合并，您必须进行一次重置或者强制检出。"
 
 #. Resource IDs: (201)
 msgid "A newer version is available. Please download the current version!"
@@ -1563,21 +1563,21 @@ msgstr "新版本发布，请下载!"
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "以换行分隔的列表，包含要显示图标覆盖的目录。\r\n如果你在路径后面加上字符“*”，那么此路径下的所有文件及子目录也都会显示。"
+msgstr "以换行分隔的列表，包含要显示图标覆盖的目录。\n如果您在路径后面加上字符“*”，此路径下的所有文件及子目录也都会显示。"
 
 #. Resource IDs: (197)
 msgid ""
 "A newline separated list of paths for which no context menu is shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
 "An empty list will allow the context menu on all paths."
-msgstr "以换行分隔的列表，列出的目录不显示上下文菜单。\r\n如果你在路径后面加上字符“*”， 那么此路径下的所有文件及子目录也都不会显示。\r\n列表为空时表示所有路径都显示上下文菜单。"
+msgstr "以换行分隔的列表，列出的目录不显示上下文菜单。\n如果您在路径后面加上字符“*”， 此路径下的所有文件及子目录也都不会显示。\n列表为空时表示所有路径都显示上下文菜单。"
 
 #. Resource IDs: (194)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
 "An empty list will allow overlays on all paths."
-msgstr "以换行分隔的列表，列出的目录不显示图标覆盖。\r\n如果你在路径后面加上字符“*”， 那么此路径下的所有文件及子目录也都不会显示。\r\n列表为空时表示所有路径都显示图标覆盖。"
+msgstr "以换行分隔的列表，列出的目录不显示图标覆盖。\n如果您在路径后面加上字符“*”， 此路径下的所有文件及子目录也都不会显示。\n列表为空时表示所有路径都显示图标覆盖。"
 
 #. Resource IDs: (3843)
 msgid "A required resource was unavailable."
@@ -1587,7 +1587,7 @@ msgstr "找不到需要的资源。"
 msgid ""
 "A tag with the same name as your entered branch name already exists (so the short ref is ambiguous).\n"
 "This can cause problems so you should avoid it."
-msgstr "你输入的分支的名字和一个标签的名字相同，\n这可能引起问题，请避免这种情况"
+msgstr "您输入的分支名称与另一个标签的名称相同。\n这可能引起问题，您应该避免这种情况。"
 
 #. Resource IDs: (85)
 msgid "A tag with this name already exists."
@@ -1822,25 +1822,25 @@ msgstr "仅全部标签"
 msgid ""
 "All your changes will be lost! Do you really want to reset all toolbars and "
 "menus?"
-msgstr "将要丢弃你的全部修改! 你真的要重置全部工具栏和菜单吗?"
+msgstr "这将会丢弃您的全部更改！您确定要重置所有工具栏和菜单吗？"
 
 #. Resource IDs: (1008)
 msgid ""
 "All your changes will be lost! Do you really want to reset the keyboard "
 "assignments?"
-msgstr "将要丢弃你的全部修改! 你真的要重置全部键盘分配吗?"
+msgstr "这将会丢弃您的全部更改！您确定要重置键盘分配吗？"
 
 #. Resource IDs: (1008)
 #, c-format
 msgid ""
 "All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "将要丢弃你的全部修改! 你真的要重置菜单“%s”吗?"
+msgstr "这将会丢弃您的全部更改！您确定要重置菜单“%s”吗？"
 
 #. Resource IDs: (1007)
 #, c-format
 msgid ""
 "All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "将要丢弃你的全部修改! 你真的要重置工具栏“%s”吗?"
+msgstr "这将会丢弃您的全部更改！您确定要重置工具栏“%s”吗？"
 
 #. Resource IDs: (2062)
 msgid ""
@@ -1894,7 +1894,7 @@ msgid ""
 "You can specify the following parameters to the path:\r\n"
 "%base: the base file\r\n"
 "%mine: the modified file"
-msgstr "用来比较不同版本间文件差异的外部程序。\n\n你可以指定以下的参数至路径中: \n%base : 基础文件名称\n%mine : 修改过的文件。"
+msgstr "用来比较不同版本间文件差异的外部程序。\n\n您可以指定以下的参数至路径中: \n%base : 基础文件名称\n%mine : 修改过的文件。"
 
 #. Resource IDs: (79)
 #, c-format
@@ -1907,7 +1907,7 @@ msgid ""
 "%theirs: the file as it is in the repository\r\n"
 "%mine: your own file, with your changes\r\n"
 "%base: the original file without your changes"
-msgstr "用来解决冲突文件的外部合并程序。\n\n你可以在程序路径中指定以下参数: \n%merged : 发生冲突的文件存放位置\n%theirs : 版本库中存放的文件\n%mine : 你修改过的文件\n%base : 不包含你所做修改的原始文件"
+msgstr "用来解决冲突文件的外部合并程序。\n\n您可以在程序路径中指定以下参数: \n%merged : 发生冲突的文件存放位置\n%theirs : 版本库中存放的文件\n%mine : 你修改过的文件\n%base : 不包含你所做修改的原始文件"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -1982,7 +1982,7 @@ msgstr "您确定要重置列吗？"
 
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr "你真的想放弃变基过程吗？"
+msgstr "您确定要放弃变基过程吗？"
 
 #. Resource IDs: (145)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -2040,7 +2040,7 @@ msgstr "于版本: %d"
 
 #. Resource IDs: (84)
 msgid "At the moment, you can only rename branches."
-msgstr "这时你仅仅能重命名分支。"
+msgstr "这时您只能重命名分支。"
 
 #. Resource IDs: (3843)
 msgid "Attempted an unsupported operation."
@@ -2143,7 +2143,7 @@ msgstr "如无合并、增加、删除操作，自动关闭"
 msgid ""
 "Auto-complete suggests words (usually class or member names)\r\n"
 "from the files that you have changed as you type a log message."
-msgstr "自动完成建议的字符(通常是类名或成员名)\r\n它来自于你已经修改的文件，作为你输入的日志信息。"
+msgstr "自动完成建议的字符（通常是类名或成员名）\n它来自于您已经更改的文件，作为您输入的日志信息。"
 
 #. Resource IDs: (1505)
 msgid "AutoLoad Putty &Key"
@@ -2571,22 +2571,22 @@ msgstr "更改类型"
 
 #. Resource IDs: (199)
 msgid "Changed Files"
-msgstr "已改变的文件"
+msgstr "已变更的文件"
 
 #. Resource IDs: (324)
 #, c-format
 msgid "Changed files between %s and %s"
-msgstr "在 %s 和 %s之间改动的文件"
+msgstr "在 %s 和 %s之间已变更的文件"
 
 #. Resource IDs: (324)
 #, c-format
 msgid "Changed files between %s, %s and %s, %s"
-msgstr "从 %s，%s 到 %s，%s 所改变的文件"
+msgstr "从 %s，%s 到 %s，%s 所变更的文件"
 
 #. Resource IDs: (163)
 #, c-format
 msgid "Changed files: %d"
-msgstr "变动文件数: %d"
+msgstr "已变更文件: %d"
 
 #. Resource IDs: (2054)
 msgid "Changed lines including added/deleted files"
@@ -2639,13 +2639,13 @@ msgstr "检查更新(&F)"
 
 #. Resource IDs: (251)
 msgid "Check the path and/or URL you've entered."
-msgstr "请检查你输入的路径或 URL。"
+msgstr "请检查您输入的路径或 URL。"
 
 #. Resource IDs: (194)
 msgid ""
 "Check those menu entries you want to appear in the top context menu instead "
 "of the TortoiseGit submenu"
-msgstr "选中你希望出现在右键菜单，而不是 TortoiseGit 子菜单中的菜单项"
+msgstr "选中您希望直接出现在右键菜单而不是 TortoiseGit 子菜单中的菜单项"
 
 #. Resource IDs: (173)
 msgid ""
@@ -2782,7 +2782,7 @@ msgstr "已经从  %ld 个版本库清除缓存日志"
 msgid ""
 "Clears the stored authentication.\r\n"
 "You will have to enter your username/password again for all repositories."
-msgstr "清除保存的认证。\r\n你需要为全部的版本库重新输入用户名和密码。"
+msgstr "清除已保存的身份认证。\n您将需要为所有版本库重新输入用户名和密码。"
 
 #. Resource IDs: (196)
 #, c-format
@@ -3004,7 +3004,7 @@ msgstr "每周提交次数: "
 
 #. Resource IDs: (9)
 msgid "Commits your changes to the repository"
-msgstr "将你所做的修改提交至版本库"
+msgstr "将您所做的更改提交到该版本库"
 
 #. Resource IDs: (605)
 msgid "Committer Email"
@@ -3016,7 +3016,7 @@ msgid ""
 "You might want to add these folders recursively by using the 'Add...' context menu item.\n"
 "\n"
 "Are you sure that you want to continue the commit?"
-msgstr "提交未版本控制的目录不会递归增加它的子孙！\n你可能需要用上下文菜单的“增加...”来递归增加这些目录。\n\n你确定要继续提交吗？"
+msgstr "提交未版本控制的目录不会递归增加它的子孙！\n您可能需要用上下文菜单的“增加...”来递归增加这些目录。\n\n您确定要继续提交吗？"
 
 #. Resource IDs: (65535)
 msgid "Common Name:"
@@ -3060,7 +3060,7 @@ msgstr "进行差异比较时比较空白字符\n比较空白字符"
 msgid ""
 "Compares the file with the last committed revision to show you the changes "
 "you made"
-msgstr "比较此文件与上次提交的版本并列出你所做的修改"
+msgstr "比较此文件与上次提交的版本并列出您所做的更改"
 
 #. Resource IDs: (120)
 #, c-format
@@ -3454,7 +3454,7 @@ msgid ""
 "clone or fetch from it, nor push from nor into it), but is adequate if you "
 "are only interested in the recent history of a large project with a long "
 "history, and would want to send in fixes as patches."
-msgstr "创建一个截断的版本库。这个版本库有限定数量的历史记录(你不能克隆、拉取、获取和推送）。你仅仅感兴趣最近的历史和发送补丁。"
+msgstr "创建一个历史记录被截断到指定数量的浅克隆（shallow clone）版本库。浅克隆的版本库有许多的限制（您不能“克隆”或“获取”它，也不能为它“获取”或“推送”）。但如果您只是对一个具有着庞大历史记录的大型项目的最近的记录感兴趣，并且只想以补丁文件形式发送修复补丁，它已是足够的。"
 
 #. Resource IDs: (156)
 msgid "Create patch file"
@@ -3492,7 +3492,7 @@ msgstr "在当前地址创建文件数据库"
 
 #. Resource IDs: (14)
 msgid "Creates a unified diff file with all changes you made"
-msgstr "创建包含你所有修改的标准差异文件"
+msgstr "创建包含有您做出的所有更改的标准差异文件"
 
 #. Resource IDs: (605)
 msgid "Creating pull-request..."
@@ -3536,7 +3536,7 @@ msgid ""
 "Current branch %s is up to date\r\n"
 "\r\n"
 " If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr "当前分支%s已经最新\n\n如果你想强制变基，请选择下面“强制变基”选项"
+msgstr "当前分支 %s 已经最新\n\n如果您想强制变基（即使当前分支已是您变基目标的后代），请选择下面“强制变基”选项。"
 
 #. Resource IDs: (1113)
 msgid "Current version is:"
@@ -3900,7 +3900,7 @@ msgstr "目录: "
 msgid ""
 "Disable this option if you have really big working trees and experience\r\n"
 "too much disk access when browsing the working tree."
-msgstr "如果你的工作副本非常大，占用了较大的硬盘空间，请禁用此选项。\n浏览本地副本时它会带来太多的磁盘访问。"
+msgstr "如果您的工作副本非常大并且感觉到卡顿，请禁用此选项。\n浏览本地副本时它会带来较多的磁盘访问。"
 
 #. Resource IDs: (2054)
 msgid "Disabled"
@@ -3948,7 +3948,7 @@ msgstr "显示如何使用帮助\n帮助"
 msgid ""
 "Display program information, version number and copyright\n"
 "About"
-msgstr "显示文件信息, 版本号码, 以及版权声明\n关于"
+msgstr "显示程序信息、版本号及版权声明\n关于"
 
 #. Resource IDs: (86)
 msgid "Do &not show me this warning again (if Continue is selected)"
@@ -3973,16 +3973,16 @@ msgstr "不使用回收站"
 #. Resource IDs: (70)
 #, c-format
 msgid "Do you really want to <ct=0x0000FF>delete</ct> <b>%s</b>?"
-msgstr "是否你真的想<ct=0x0000FF>删除</ct> <b>%s</b>吗?"
+msgstr "您确定要<ct=0x0000FF>删除</ct> <b>%s</b>吗？"
 
 #. Resource IDs: (1007)
 #, c-format
 msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "你真的要删除工具栏“%s”吗？"
+msgstr "您确定要删除工具栏“%s”吗？"
 
 #. Resource IDs: (88)
 msgid "Do you really want to mark the selected file(s) as assume-valid?"
-msgstr "你真想标记选择文件为 assume-valid"
+msgstr "您确定要标记选择文件为 assume-valid 吗？"
 
 #. Resource IDs: (88)
 msgid "Do you really want to mark the selected file(s) as skip-worktree?"
@@ -3990,25 +3990,25 @@ msgstr "您真的想标记选定的文件为 skip-worktree（跳过工作副本�
 
 #. Resource IDs: (145)
 msgid "Do you really want to move this file or folder?"
-msgstr "你确认要移动这个文件或目录吗？"
+msgstr "您确定要移动这个文件或目录吗？"
 
 #. Resource IDs: (70)
 #, c-format
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can "
 "<ct=0x0000FF><b>NOT</b></ct> be recovered!"
-msgstr "是否你真的想永久删除%d个选择的引用? 这个操作<ct=0x0000FF><b>不能</b></ct>被恢复!"
+msgstr "您确定要永久删除%d个选择的引用？这个操作<ct=0x0000FF><b>不能</b></ct>被恢复！"
 
 #. Resource IDs: (71)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
-msgstr "是否你真的想删除\"%s\""
+msgstr "您确定要删除\"%s\"吗？"
 
 #. Resource IDs: (69)
 msgid ""
 "Do you really want to restore the copy? You will lose all changes that you "
 "have done after creating the copy."
-msgstr "您真的确定要恢复该副本？您将丢失所有的在创建该副本之后的改动。"
+msgstr "您真的确定要恢复该副本？您将丢失所有的在创建该副本之后的变更。"
 
 #. Resource IDs: (119)
 #, c-format
@@ -4016,7 +4016,7 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "and go back to this revision? These changes will be reverted by reverse-merging the revisions into your working tree."
-msgstr "你确定要恢复\n%s\n从此版本直到工作版本的所有修改吗？这些修改将会反向合并到你的工作副本。"
+msgstr "您确定要恢复\n%s\n的所有更改并返回到此版本吗？这些修改将会反向合并到您的工作副本。"
 
 #. Resource IDs: (76)
 #, c-format
@@ -4024,21 +4024,21 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "which were made in this revision? These changes will be reverted by reverse-merging the revision into your working tree."
-msgstr "你确定要恢复此版本对\n%s\n的所有修改吗？这些修改将会反向合并到你的工作副本。"
+msgstr "您确定要恢复在此版本中对\n%s\n做出的所有更改吗？这些更改将会反向合并到您的工作副本。"
 
 #. Resource IDs: (93)
 msgid ""
 "Do you really want to unflag the selected file(s) as skip-worktree or "
 "assume-unchanged?"
-msgstr "你真想取消选择文件的skip-worktree(Git将不再检查他们是否更新）或者 assume-valid 标记?"
+msgstr "您确定要取消选中文件的 skip-worktree （Git 将不再检查他们是否被更新）或者 assume-valid 标记吗？"
 
 #. Resource IDs: (86)
 msgid "Do you want to fetch remote branches from the newly added remote?"
-msgstr "你想从新添加的远程服务器下载远程分支吗？"
+msgstr "您要从新添加的远程服务器下载远程分支吗？"
 
 #. Resource IDs: (315)
 msgid "Do you want to load the changed files?"
-msgstr "你想加载修改的文件吗?"
+msgstr "您要加载已变更的文件吗？"
 
 #. Resource IDs: (319)
 #, c-format
@@ -4046,11 +4046,11 @@ msgid ""
 "Do you want to mark the file\n"
 "%s\n"
 "as resolved?"
-msgstr "你是否想标记文件\n%s\n为已解决的？"
+msgstr "您要标记文件\n%s\n为已解决吗？"
 
 #. Resource IDs: (3887)
 msgid "Do you want to recover these auto-saved documents?"
-msgstr "你想恢复这些自动保存文档吗？"
+msgstr "您要恢复这些自动保存的文档吗？"
 
 #. Resource IDs: (313)
 msgid ""
@@ -4060,11 +4060,11 @@ msgstr "确定要重新加载文件以反映设置变更吗?\n注意: 所有变�
 
 #. Resource IDs: (66)
 msgid "Do you want to see changes?"
-msgstr "是否浏览改动？"
+msgstr "您要查看变更吗？"
 
 #. Resource IDs: (604)
 msgid "Do you want to stash pop now?"
-msgstr "你想弹出贮藏(Stash)吗?"
+msgstr "您现在要弹出贮藏(Stash)吗？"
 
 #. Resource IDs: (65535)
 msgid "Document :"
@@ -4077,7 +4077,7 @@ msgstr "因为未知分支\"%s\"，所以不知道推送内容"
 
 #. Resource IDs: (75)
 msgid "Don't know what will push because you enter URL"
-msgstr "因为你输入URL，所以不知道推送内容"
+msgstr "因为您输入了 URL，所以不知道什么将被推送"
 
 #. Resource IDs: (3887)
 msgid ""
@@ -4347,7 +4347,7 @@ msgstr "行结束符风格"
 
 #. Resource IDs: (3825)
 msgid "Enlarge the window to full size"
-msgstr "忽略空格改动(&i)"
+msgstr "忽略空格变更(&i)"
 
 #. Resource IDs: (241)
 msgid "Enter Log Message"
@@ -4562,23 +4562,23 @@ msgstr "失败"
 
 #. Resource IDs: (74)
 msgid "Failed revert"
-msgstr "复原失败"
+msgstr "还原失败"
 
 #. Resource IDs: (1)
 #, c-format
 msgid "Failed to checkout file \"%s\""
-msgstr "失败签出文件\"%s\""
+msgstr "检出文件“%s”失败"
 
 #. Resource IDs: (69)
 #, c-format
 msgid "Failed to checkout file \"%s\" of revision %s to \"%s\"."
-msgstr "失败签出文件\"%s\"  从版本 %s 到版本 \"%s\"."
+msgstr "检出文件“%s”的版本 %s 到“%s”失败。"
 
 #. Resource IDs: (3865)
 msgid ""
 "Failed to connect.\n"
 "Link may be broken."
-msgstr "连接失败。\n硬件链接可能中断。"
+msgstr "连接失败。\n链接可能中断了。"
 
 #. Resource IDs: (3865)
 msgid "Failed to convert ActiveX object."
@@ -4586,37 +4586,37 @@ msgstr "转换 ActiveX 对象失败。"
 
 #. Resource IDs: (3857)
 msgid "Failed to create empty document."
-msgstr "无法创建空文件。"
+msgstr "创建空文档失败。"
 
 #. Resource IDs: (3865)
 msgid ""
 "Failed to create object.  Make sure the application is entered in the system"
 " registry."
-msgstr "创建对象失败。请确认此应用在系统注册表中。"
+msgstr "创建对象失败。请确认此应用程序已在系统注册表中。"
 
 #. Resource IDs: (72)
 msgid "Failed to create pull-request."
-msgstr "失败创建拉取请求"
+msgstr "创建拉取请求失败。"
 
 #. Resource IDs: (69)
 msgid "Failed to get base file."
-msgstr "失败得到基本文件"
+msgstr "获取基础文件失败。"
 
 #. Resource IDs: (69)
 msgid "Failed to get merge file."
-msgstr "失败得到合并文件"
+msgstr "获取合并文件失败。"
 
 #. Resource IDs: (3857)
 msgid "Failed to launch help."
-msgstr "无法打开帮助。"
+msgstr "启动帮助失败。"
 
 #. Resource IDs: (3865)
 msgid "Failed to launch server application."
-msgstr "启动服务器操作失败。"
+msgstr "启动服务器应用程序失败。"
 
 #. Resource IDs: (3857)
 msgid "Failed to open document."
-msgstr "打开文件失败。"
+msgstr "打开文档失败。"
 
 #. Resource IDs: (3865)
 msgid "Failed to perform server operation."
@@ -4624,7 +4624,7 @@ msgstr "执行服务器操作失败。"
 
 #. Resource IDs: (3857)
 msgid "Failed to save document."
-msgstr "保存文件失败。"
+msgstr "保存文档失败。"
 
 #. Resource IDs: (264)
 #, c-format
@@ -4640,7 +4640,7 @@ msgstr "启动问题跟踪器的 COM 提供者“%s”失败。\n%s"
 
 #. Resource IDs: (72)
 msgid "Failed waiting for pageant to finish loading key."
-msgstr "失败等待pageant加载密钥"
+msgstr "等待 pageant 完成加载密钥失败。"
 
 #. Resource IDs: (220)
 msgid "Failed!"
@@ -4686,11 +4686,11 @@ msgstr "获取..."
 
 #. Resource IDs: (1251)
 msgid "Fetching Status..."
-msgstr "获取状态..."
+msgstr "正在获取状态..."
 
 #. Resource IDs: (81)
 msgid "Fetching changed files..."
-msgstr "获取改动的文件..."
+msgstr "正在获取已变更的文件..."
 
 #. Resource IDs: (313)
 msgid "Fetching file..."
@@ -5753,13 +5753,13 @@ msgstr "忽略空行"
 
 #. Resource IDs: (1067)
 msgid "Ignore case cha&nges"
-msgstr "忽略大小写改动(&n)"
+msgstr "忽略大小写变更(&n)"
 
 #. Resource IDs: (315)
 msgid ""
 "Ignore changes\n"
 "Ignore the outside changes."
-msgstr "忽略改动\n忽略外部改动"
+msgstr "忽略变更\n忽略外部变更。"
 
 #. Resource IDs: (1687)
 msgid "Ignore item(s) only in the containing folder(s)"
@@ -5805,7 +5805,7 @@ msgstr "忽略的文件"
 msgid ""
 "Ignores all whitespace changes when diffing\n"
 "Ignore all whitespace changes"
-msgstr "在比较时忽略全部空格改动\n忽略全部空格改动"
+msgstr "在比较时忽略全部空格变更\n忽略全部空格变更"
 
 #. Resource IDs: (2055)
 msgid ""
@@ -6175,7 +6175,7 @@ msgstr "本地分支"
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
-msgstr "忽略的本地改动(设置为valid/unchanged 或者skip worktree 标记的文件)"
+msgstr "已忽略的本地变更（设置了 valid/unchanged 或者 skip worktree 标记的文件）"
 
 #. Resource IDs: (63)
 msgid "Local status"
@@ -6443,7 +6443,7 @@ msgstr "提交消息的最小字符数:"
 
 #. Resource IDs: (1023, 65535)
 msgid "Misc"
-msgstr "其它"
+msgstr "其他"
 
 #. Resource IDs: (3887)
 msgid "Mixed"
@@ -6895,7 +6895,7 @@ msgstr "显示在缩写哈希部分的字符数量"
 
 #. Resource IDs: (1160)
 msgid "Number of weeks:"
-msgstr "周数"
+msgstr "周数:"
 
 #. Resource IDs: (5045)
 msgid "OEM 720"
@@ -7113,7 +7113,7 @@ msgstr "原始名字"
 
 #. Resource IDs: (1065)
 msgid "Other Task Panes"
-msgstr "其它任务窗格"
+msgstr "其他任务窗格"
 
 #. Resource IDs: (245)
 msgid "Others"
@@ -7121,7 +7121,7 @@ msgstr "对方的"
 
 #. Resource IDs: (75)
 msgid "Out ChangeList"
-msgstr "将推送的改动"
+msgstr "将推送的变更"
 
 #. Resource IDs: (75)
 msgid "Out Commits"
@@ -7203,7 +7203,7 @@ msgstr "父节点"
 
 #. Resource IDs: (65535)
 msgid "Part of code come from TortoiseSVN Blame"
-msgstr "一部分代码来自TortoiseSVN Blame"
+msgstr "部分代码来自于 TortoiseSVN Blame"
 
 #. Resource IDs: (4585)
 msgid "Password"
@@ -7327,7 +7327,7 @@ msgstr "摘取提交信息"
 #. Resource IDs: (69)
 #, c-format
 msgid "Pick up %s"
-msgstr "选取%s"
+msgstr "摘取 %s"
 
 #. Resource IDs: (3849)
 msgid ""
@@ -7382,7 +7382,7 @@ msgstr "请看看忽略的提交"
 
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
-msgstr "正在取消, 请稍候…"
+msgstr "正在取消, 请稍候..."
 
 #. Resource IDs: (319)
 msgid "Please wait while differences are obtained..."
@@ -7725,7 +7725,7 @@ msgstr "可达成"
 
 #. Resource IDs: (12)
 msgid "Read the 'Daily Use Guide' before you are stuck..."
-msgstr "在你卡住之前, 请先阅读日常使用指南…"
+msgstr "在您卡住之前，请先阅读日常使用指南……"
 
 #. Resource IDs: (318)
 msgid "Rebase"
@@ -8086,7 +8086,7 @@ msgstr "需要用户名和密码"
 
 #. Resource IDs: (82)
 msgid "Requires GPG and a key without passphrase."
-msgstr "需要GPG和一个没有密码的密钥"
+msgstr "需要 GPG 和一个没有密码的密钥。"
 
 #. Resource IDs: (8)
 msgid "Res&olve..."
@@ -8196,7 +8196,7 @@ msgstr "还原提交"
 #. Resource IDs: (69)
 #, c-format
 msgid "Revert commit %s"
-msgstr "还原提交%s"
+msgstr "还原提交 %s"
 
 #. Resource IDs: (1258)
 msgid "Revert to parent revision"
@@ -8268,7 +8268,7 @@ msgstr "版本分支图"
 #. Resource IDs: (86)
 msgid ""
 "Revision(s) reverted. All changes are integrated into your working tree now."
-msgstr "版本已经回溯. 所有的改动现在已经在工作目录."
+msgstr "版本已经回溯。所有的变更现在已经在您的工作目录。"
 
 #. Resource IDs: (1579, 65535)
 msgid "Revision:"
@@ -8512,7 +8512,7 @@ msgstr "保存文件\n您将被询问在何处保存底部文件"
 #. Resource IDs: (3857)
 #, c-format
 msgid "Save changes to %1?"
-msgstr "是否保存 %1 的改动？"
+msgstr "是否保存 %1 的变更？"
 
 #. Resource IDs: (314)
 msgid "Save modifications."
@@ -9014,7 +9014,7 @@ msgstr "显示被忽略的文件(&G)"
 
 #. Resource IDs: (1265)
 msgid "Show ignore local changes flagged files"
-msgstr "显示忽略本地改动标记的文件"
+msgstr "显示已标记的忽略本地变更的文件"
 
 #. Resource IDs: (92)
 msgid "Show la&beled commits only"
@@ -9061,7 +9061,7 @@ msgstr "显示工作区修改的文件"
 msgid ""
 "Show next change of selected commit\n"
 "Show next"
-msgstr "显示选定提交的下一个改动\n显示下一个"
+msgstr "显示选定提交的下一个变更\n显示下一个"
 
 #. Resource IDs: (2051)
 msgid "Show oldest node at top"
@@ -9105,7 +9105,7 @@ msgstr "显示原始行号"
 msgid ""
 "Show previous change of selected commit\n"
 "Show previous"
-msgstr "显示选定提交的上一个改动\n显示上一个"
+msgstr "显示选定提交的上一个变更\n显示上一个"
 
 #. Resource IDs: (1252)
 msgid "Show revision properties"
@@ -9157,7 +9157,7 @@ msgstr "显示图形化的复制/标签/分支"
 msgid ""
 "Shows all files which were changed since the last update, locally and in the"
 " repository"
-msgstr "不论在版本库中或在本地端都显示从上次更新以后有改动的文件"
+msgstr "不论在版本库中或是在本地端，都显示从上次更新以后有变更的文件"
 
 #. Resource IDs: (10)
 msgid "Shows information about TortoiseGit"
@@ -9230,7 +9230,7 @@ msgstr "软"
 
 #. Resource IDs: (1550)
 msgid "Soft: Leave working tree and index untouched"
-msgstr "不改动工作区和索引"
+msgstr "不更改工作区和索引"
 
 #. Resource IDs: (314)
 msgid ""
@@ -9694,7 +9694,7 @@ msgstr "凭证助手已经改变。你想保存还是放弃？"
 msgid ""
 "The current working tree is not clean.\n"
 "Do you want to stash the changes?"
-msgstr "当前工作区有改动\n你想储藏(stash)改动吗？"
+msgstr "当前的工作副本有变更。\n您要储藏(stash)这些变更吗？"
 
 #. Resource IDs: (68)
 #, c-format
@@ -9913,7 +9913,7 @@ msgid ""
 "The submodule \"%s\" is dirty.\n"
 "Merely committing the superproject cannot track or save such changes to the submodule.\n"
 "Commit the submodule now or ignore dirty changes?"
-msgstr "子模块\"%s\"不洁净。\n只提交到父工程的改动不能记录或保存到子模块。\n现在提交子模块的修改，或者直接忽略改动？"
+msgstr "子模块\"%s\"不洁净。\n只提交到父工程的变更不能记录或保存到子模块。\n立即提交子模块的修改，或者直接忽略改动？"
 
 #. Resource IDs: (93)
 #, c-format
@@ -9996,7 +9996,7 @@ msgid ""
 "You should resolve those conflicts first before saving.\n"
 "Do you want to save the file with the conflicts still there?\n"
 "If you click YES, then you have to manually resolve the conflicts in another editor!"
-msgstr "%d 行还有尚未处理的冲突！\n请在保存之前先解决它们。\n你确定要在还有冲突时保存文件吗？\n如果你选择“是”，之后必须自行在其它编辑器中处理冲突！"
+msgstr "%d 行还有尚未处理的冲突！\n请在保存之前先解决它们。\n你确定要在还有冲突时保存文件吗？\n如果你选择“是”，之后必须自行在其他编辑器中处理冲突！"
 
 #. Resource IDs: (313)
 msgid ""
@@ -10276,7 +10276,7 @@ msgstr "提交分析统计: "
 
 #. Resource IDs: (1163)
 msgid "Total file changes:"
-msgstr "文件改动次数合计: "
+msgstr "文件变更次数合计: "
 
 #. Resource IDs: (1520)
 msgid "Trac&k"
@@ -10519,7 +10519,7 @@ msgstr "对两个文件进行比较时默认使用单窗口方式(&O)"
 
 #. Resource IDs: (251)
 msgid "Use &other text block"
-msgstr "使用其它文本块(&O)"
+msgstr "使用其他文本块(&O)"
 
 #. Resource IDs: (156)
 msgid "Use 'mine' text block"
@@ -10715,7 +10715,7 @@ msgstr "将内容添加至左侧"
 
 #. Resource IDs: (251)
 msgid "Use whole other &file"
-msgstr "使用其它文件(&F)"
+msgstr "使用其他文件(&F)"
 
 #. Resource IDs: (119)
 msgid "Used to amend the tip of the current branch."
@@ -10884,7 +10884,7 @@ msgid ""
 "Warning: \"%s\" will be permanently deleted. It can <ct=0x0000FF><b>NOT</b></ct> be recovered!\r\n"
 "\r\n"
 "Do you really want to continue?"
-msgstr "警告: \"%s\" 将被永久删除. 这个操作<ct=0x0000FF><b>不能</b></ct>被恢复!\n\n你真的想继续吗?"
+msgstr "警告：“%s”将被永久删除。这个操作<ct=0x0000FF><b>不能</b></ct>被恢复！\n\n您确定要继续吗？"
 
 #. Resource IDs: (71)
 msgid "Web"
@@ -11035,7 +11035,7 @@ msgstr "工作副本路径"
 
 #. Resource IDs: (1253)
 msgid "Working dir changes"
-msgstr "工作区改动"
+msgstr "工作目录变更"
 
 #. Resource IDs: (156)
 msgid "Wrap long lines"
@@ -11063,7 +11063,7 @@ msgstr "你已经安装了最新版。"
 msgid ""
 "You can disable specific Overlay handlers here.\n"
 "Disabled handlers won't use up an overlay slot and give other shell extensions a chance to show their overlays."
-msgstr "你可以禁止特定的图标覆盖。\n禁止图标覆盖将不设置图标显示，以便其它的外壳扩展设置覆盖。"
+msgstr "您可以在这里禁用特定的图标覆盖处理器。\n已禁用的图标覆盖将不会使用覆盖槽，以便允许其他的外壳扩展设置他们的图标覆盖。"
 
 #. Resource IDs: (1001)
 #, c-format
@@ -11131,7 +11131,7 @@ msgstr "你还没有签署通过(添加Signed-off-by)！"
 msgid ""
 "You marked some files as \"Restore after commit\".\n"
 "Do you want to restore them now? You might lose all changes to this file after marking it."
-msgstr "你标记一些文件为\"提交后恢复\"。\n你现在想恢复码？这可能丢失标记后所有这些文件的改动。"
+msgstr "你标记了一些文件为“提交后恢复”。\n您想要现在就恢复吗？这可能丢失这些文件在标记后的所有变更。"
 
 #. Resource IDs: (1002)
 #, c-format
@@ -11325,7 +11325,7 @@ msgstr "作者"
 
 #. Resource IDs: (65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"
-msgstr "基于TortoiseSVN (http://www.tortoisesvn.net/)"
+msgstr "基于 TortoiseSVN (http://www.tortoisesvn.net/)"
 
 #. Resource IDs: (65535)
 msgid "bugtraq.append"
@@ -11550,7 +11550,7 @@ msgstr "切换到\r\n%s"
 
 #. Resource IDs: (1386)
 msgid "take care of submodule changes"
-msgstr "关心子模块的改动"
+msgstr "关心子模块的变更"
 
 #. Resource IDs: (3845)
 #, c-format
