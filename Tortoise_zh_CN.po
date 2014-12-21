@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-12-21 12:16+0000\n"
+"PO-Revision-Date: 2014-12-21 18:50+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -430,7 +430,7 @@ msgstr "追溯(&B)"
 
 #. Resource IDs: (1254)
 msgid "&Blame changes"
-msgstr "追溯改变(&B)"
+msgstr "追溯变更(&B)"
 
 #. Resource IDs: (322, 1252)
 msgid "&Blame revisions"
@@ -718,7 +718,7 @@ msgstr "从(&F):"
 
 #. Resource IDs: (2153)
 msgid "&Git Style Commit (--rmdir)"
-msgstr "Git风格提交(--rmdir)(&G)"
+msgstr "Git风格提交 (--rmdir)(&G)"
 
 #. Resource IDs: (220)
 msgid "&Go to\tCtrl+G"
@@ -1966,7 +1966,7 @@ msgstr "应用标准差异文件"
 
 #. Resource IDs: (156, 626)
 msgid "Aqua Style"
-msgstr "水族风格"
+msgstr "水绿风格"
 
 #. Resource IDs: (65535)
 msgid "Arabic"
@@ -2203,7 +2203,7 @@ msgstr "基础文件:"
 
 #. Resource IDs: (1005)
 msgid "Based on TortoiseIDiff of TortoiseSVN"
-msgstr "基于TortoiseSVN的TortoiseIDiff "
+msgstr "基于 TortoiseSVN 的 TortoiseIDiff "
 
 #. Resource IDs: (1)
 msgid "Basic Info"
@@ -2555,7 +2555,7 @@ msgstr "更改打印选项\n打印设置"
 msgid ""
 "Change the style of the application\n"
 "Change Style"
-msgstr "改版程序的风格\n改变风格"
+msgstr "更改应用程序的风格\n更改风格"
 
 #. Resource IDs: (3825)
 msgid "Change the window position"
@@ -2615,7 +2615,7 @@ msgstr "变更列表（双击文件查看差异）: "
 
 #. Resource IDs: (2060)
 msgid "Changes the style of the application"
-msgstr "更改程序的风格"
+msgstr "更改应用程序的风格"
 
 #. Resource IDs: (65535)
 msgid "Char position where to show a border line in commit text boxes:"
@@ -2776,7 +2776,7 @@ msgstr "清除%ld个用户名/密码、%ld个SSL认证数据及%ld个用户名"
 #. Resource IDs: (197)
 #, c-format
 msgid "Clears cached logs from %ld repositories"
-msgstr "已经从  %ld 个版本库清除缓存日志"
+msgstr "已经清空 %ld 个版本库中缓存的日志"
 
 #. Resource IDs: (195)
 msgid ""
@@ -2787,7 +2787,7 @@ msgstr "清除已保存的身份认证。\n您将需要为所有版本库重新�
 #. Resource IDs: (196)
 #, c-format
 msgid "Clears the stored sizes and positions of %ld dialogs"
-msgstr "清除存储的 %ld个对话框的大小和位置数据"
+msgstr "清除存储的 %ld 个对话框的大小和位置数据"
 
 #. Resource IDs: (1466)
 msgid "Click here to go to the website"
@@ -2943,7 +2943,7 @@ msgstr "提交 %s 目前不可见。"
 #. Resource IDs: (94)
 #, c-format
 msgid "Commit %s not found in \"%s\". Update submodule now?"
-msgstr "提交 %s 未在 \"%s\" 中找到。立即更新子模块？"
+msgstr "提交 %s 未在“%s”中找到。立即更新子模块？"
 
 #. Resource IDs: (1255)
 msgid "Commit Date"
@@ -2963,7 +2963,7 @@ msgstr "提交信息"
 
 #. Resource IDs: (66)
 msgid "Commit Message"
-msgstr "提交信息"
+msgstr "提交消息"
 
 #. Resource IDs: (1255)
 msgid "Commit Name"
@@ -2996,7 +2996,7 @@ msgstr "每日提交次数"
 #. Resource IDs: (604)
 #, c-format
 msgid "Commits each %s"
-msgstr "每个提交%s"
+msgstr "提交每%s"
 
 #. Resource IDs: (1135)
 msgid "Commits each week:"
@@ -5042,12 +5042,12 @@ msgstr "GB2312 (Simplified)"
 
 #. Resource IDs: (273)
 msgid "GDI+ couldn't be initialized!"
-msgstr "无法初始化 GDI+"
+msgstr "无法初始化 GDI+！"
 
 #. Resource IDs: (273)
 msgid ""
 "GDI+ couldn't create a bitmap object. You probably don't have enough memory."
-msgstr "GDI+ 无法创建位图对象，有可能是由于系统内存不足造成的。"
+msgstr "GDI+ 无法创建位图对象。可能是您的系统内存不足。"
 
 #. Resource IDs: (284)
 msgid "Gathering information. Please wait..."
@@ -8870,7 +8870,7 @@ msgstr "显示整个工程(&W)"
 
 #. Resource IDs: (1254)
 msgid "Show &changes"
-msgstr "显示改变(&C)..."
+msgstr "显示变更(&C)"
 
 #. Resource IDs: (12, 101, 1016)
 msgid "Show &log"
@@ -8958,7 +8958,7 @@ msgstr "显示所有包含此提交的分支"
 
 #. Resource IDs: (1251)
 msgid "Show changes as &unified diff"
-msgstr "以标准差异格式显示改变(&U)"
+msgstr "以标准差异格式显示变更(&U)"
 
 #. Resource IDs: (32787)
 msgid "Show com&plete log"
@@ -10904,7 +10904,7 @@ msgstr "在激活后，当单击右键时保持 SHIFT 键按下即可将 Tortois
 msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
-msgstr "在应用补丁时，忽略空白改变"
+msgstr "在应用补丁时，如必要，忽略上下文行的空白变更"
 
 #. Resource IDs: (91)
 msgid ""
@@ -11084,7 +11084,7 @@ msgstr "您不能在文件夹上设置此属性，它只能设置在文件上！
 
 #. Resource IDs: (84)
 msgid "You cannot change the type of this ref with a rename."
-msgstr "不能通过重命名改变这个引用的类型"
+msgstr "您不能通过重命名更改此引用的类型。"
 
 #. Resource IDs: (84)
 msgid ""
