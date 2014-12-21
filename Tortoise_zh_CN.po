@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-12-21 03:10+0000\n"
+"PO-Revision-Date: 2014-12-21 05:52+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -168,7 +168,7 @@ msgstr "%1!s!"
 msgid ""
 "%1!s!\r\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr "%1!s!\n总计显示 %2!d! 个文件, %3!d! 个子模块和 %4!d! 个文件夹, %5!d! 个项目"
+msgstr "%1!s!\n总计显示 %2!d! 个文件，%3!d! 个子模块和 %4!d! 个文件夹，%5!d! 个项目"
 
 #. Resource IDs: (90)
 #, c-format
@@ -1557,7 +1557,7 @@ msgstr "合并过程正在进行，因此此提交将变成一个合并提交。
 
 #. Resource IDs: (201)
 msgid "A newer version is available. Please download the current version!"
-msgstr "有新版本可用，请下载新版本！"
+msgstr "有新版本可用。请下载最新版本！"
 
 #. Resource IDs: (195)
 msgid ""
@@ -1621,19 +1621,19 @@ msgstr "缩写大小"
 
 #. Resource IDs: (2, 73, 1565)
 msgid "Abort"
-msgstr "放弃"
+msgstr "中止"
 
 #. Resource IDs: (15)
 msgid "Abort &Merge"
-msgstr "取消合并(&M)"
+msgstr "中止合并(&M)"
 
 #. Resource IDs: (4592)
 msgid "Abort Merge"
-msgstr "取消合并"
+msgstr "中止合并"
 
 #. Resource IDs: (15)
 msgid "Aborts a running merge."
-msgstr "放弃进行中的合并"
+msgstr "中止进行中的合并。"
 
 #. Resource IDs: (156)
 msgid "About"
@@ -1982,7 +1982,7 @@ msgstr "您确定要重置列吗？"
 
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr "您确定要放弃变基过程吗？"
+msgstr "您确定要中止变基过程吗？"
 
 #. Resource IDs: (145)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -2375,7 +2375,7 @@ msgstr "按钮外观"
 
 #. Resource IDs: (1382)
 msgid "Button1"
-msgstr "按钮 1"
+msgstr "按钮一"
 
 #. Resource IDs: (1383)
 msgid "Button3"
@@ -2496,7 +2496,7 @@ msgstr "现在不能结合提交。\n请确定您在查看您的当前分支的�
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr "不能强制更新当前分支。如果需要，请使用 reset 命令。"
+msgstr "不能强制更新当前分支。如果您需要，请使用 reset 命令。"
 
 #. Resource IDs: (1)
 #, c-format
@@ -3260,7 +3260,7 @@ msgstr "无法向忽略列表中加入 %s ！"
 
 #. Resource IDs: (201)
 msgid "Could not check for a newer version!"
-msgstr "无法检查新版！"
+msgstr "无法检查新版本！"
 
 #. Resource IDs: (93)
 #, c-format
@@ -3290,7 +3290,7 @@ msgstr "不能找到父工程"
 
 #. Resource IDs: (81)
 msgid "Could not get the status!"
-msgstr "无法获取状态！"
+msgstr "无法获得状态！"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -3316,11 +3316,11 @@ msgstr "无法从忽略列表删除 %s！"
 
 #. Resource IDs: (70)
 msgid "Could not reset to first commit (first step). Aborting..."
-msgstr "不能重置到第一个提交(第一步)。放弃..."
+msgstr "不能重置到第一个提交（第一步）。中止中..."
 
 #. Resource IDs: (70)
 msgid "Could not reset to last commit (second step). Aborting..."
-msgstr "不能重置到最后一个提交(第二步)。放弃..."
+msgstr "不能重置到最后一个提交（第二步）。中止中..."
 
 #. Resource IDs: (70)
 msgid "Could not reset to original HEAD."
@@ -3728,7 +3728,7 @@ msgstr "只从版本控制树中删除文件/文件夹，保留本地文件"
 
 #. Resource IDs: (198)
 msgid "Deletes the action log file"
-msgstr "删除动作记录文件"
+msgstr "删除操作记录文件"
 
 #. Resource IDs: (263)
 msgid "Deleting"
@@ -3930,7 +3930,7 @@ msgstr "显示完整的页面\n打印预览"
 msgid ""
 "Display help for clicked on buttons, menus and windows\n"
 "Help"
-msgstr "显示点选的按钮, 菜单, 或窗口的帮助\n帮助"
+msgstr "显示被点选的按钮、菜单或窗口的帮助\n帮助"
 
 #. Resource IDs: (3605)
 msgid ""
@@ -4239,7 +4239,7 @@ msgstr "实际生效"
 
 #. Resource IDs: (79)
 msgid "Either the name or IP of the proxy server"
-msgstr "输入代理服务器的 IP 地址或名称"
+msgstr "代理服务器的名称或 IP 地址"
 
 #. Resource IDs: (1057)
 msgid ""
@@ -4253,7 +4253,7 @@ msgstr "Email"
 
 #. Resource IDs: (602)
 msgid "Email Address To and CC can't empty at the same time."
-msgstr "邮件抄送地址和收件人不能同时为空"
+msgstr "邮件抄送地址和收件人不能同时为空。"
 
 #. Resource IDs: (87)
 msgid "Emails"
@@ -4359,7 +4359,7 @@ msgstr "输入 URL"
 
 #. Resource IDs: (3858)
 msgid "Enter a GUID."
-msgstr "请输入 GUID。"
+msgstr "请输入一个 GUID。"
 
 #. Resource IDs: (3858)
 msgid "Enter a currency."
@@ -4375,7 +4375,7 @@ msgstr "请输入日期。"
 
 #. Resource IDs: (65535)
 msgid "Enter a name for the changelist:"
-msgstr "输入修改列表名称: "
+msgstr "请输入修改列表的名称: "
 
 #. Resource IDs: (3858)
 #, c-format
@@ -4413,7 +4413,7 @@ msgstr "请在下面输入要测试的文件内容："
 
 #. Resource IDs: (1065)
 msgid "Enter log &message:"
-msgstr "输入日志信息(&M): "
+msgstr "请输入日志信息(&M): "
 
 #. Resource IDs: (3858)
 #, c-format
@@ -4454,7 +4454,7 @@ msgstr "“%s”的服务器证书验证出错："
 msgid ""
 "Error while reading/writing the registry key %s\n"
 "%s"
-msgstr "读写注册表键 %s 时发生错误\n%s"
+msgstr "读写注册表键值 %s 时发生错误\n%s"
 
 #. Resource IDs: (75)
 msgid "Everything updated."
@@ -4468,11 +4468,11 @@ msgstr "可执行 (*.exe)|*.exe|命令 (*.com)|*.com|信息 (*.pdf)|*.pdf|批处
 
 #. Resource IDs: (11028)
 msgid "Executable (+x)"
-msgstr "可执行(+X)"
+msgstr "可执行 (+x)"
 
 #. Resource IDs: (1002)
 msgid "Existing"
-msgstr "已经存在"
+msgstr "已存在"
 
 #. Resource IDs: (156)
 msgid "Exit"
@@ -4542,7 +4542,7 @@ msgstr "扩展名"
 
 #. Resource IDs: (65535)
 msgid "Extern DLL Path:"
-msgstr "外置DLL路径:"
+msgstr "外置 DLL 路径:"
 
 #. Resource IDs: (74)
 msgid "External"
@@ -4600,11 +4600,11 @@ msgstr "创建拉取请求失败。"
 
 #. Resource IDs: (69)
 msgid "Failed to get base file."
-msgstr "获取基础文件失败。"
+msgstr "获得基础文件失败。"
 
 #. Resource IDs: (69)
 msgid "Failed to get merge file."
-msgstr "获取合并文件失败。"
+msgstr "获得合并文件失败。"
 
 #. Resource IDs: (3857)
 msgid "Failed to launch help."
@@ -5099,7 +5099,7 @@ msgstr "常规设置::扩展菜单"
 
 #. Resource IDs: (1254)
 msgid "Get merge logs"
-msgstr "取得合并日志"
+msgstr "获取合并日志"
 
 #. Resource IDs: (119)
 #, c-format
@@ -5109,7 +5109,7 @@ msgstr "正在获取文件 %s"
 #. Resource IDs: (120)
 #, c-format
 msgid "Getting file %s, revision %s"
-msgstr "正在获取文件 %s  版本 %s"
+msgstr "正在获取文件的 %s 版本 %s"
 
 #. Resource IDs: (120)
 msgid "Getting information..."
@@ -5117,7 +5117,7 @@ msgstr "正在获取信息..."
 
 #. Resource IDs: (220)
 msgid "Getting required information..."
-msgstr "正在获取需要的信息..."
+msgstr "正在获取所需信息..."
 
 #. Resource IDs: (119)
 msgid "Getting unified diff"
@@ -5709,7 +5709,7 @@ msgstr "如果选中该项，未受版本控制的文件夹中的文件将出现
 msgid ""
 "If set, then unversioned files will mark the status of the parent directory as modified\r\n"
 "i.e. they get the modified overlay icon."
-msgstr "如果选中该项，包含未受版本控制的文件的文件夹将标记为已修改。\n例如，它们的图标将显示为以修改状态。"
+msgstr "如果选中该项，包含未受版本控制的文件的文件夹将标记为已修改。\n例如，它们的图标将显示为已修改状态。"
 
 #. Resource IDs: (1654)
 msgid ""
@@ -5866,7 +5866,7 @@ msgstr "在提交中"
 
 #. Resource IDs: (1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr "为了放弃合并过程，需要一个重置(reset)操作"
+msgstr "为了中止合并过程，需要进行一次重置操作。"
 
 #. Resource IDs: (1499)
 msgid "Include &Tags"
@@ -6397,7 +6397,7 @@ msgstr "合并"
 #. Resource IDs: (229)
 #, c-format
 msgid "Merging from %s, revision %s to %s, revision %s into %s, %s%s"
-msgstr "从 %s 合并, 版本 %s 至 %s，版本 %s 到 %s， %s%s"
+msgstr "从 %s 合并，版本 %s 至 %s，版本 %s 到 %s，%s%s"
 
 #. Resource IDs: (83)
 msgid ""
@@ -7382,7 +7382,7 @@ msgstr "请看看忽略的提交"
 
 #. Resource IDs: (13)
 msgid "Please wait while cancelling..."
-msgstr "正在取消, 请稍候..."
+msgstr "正在取消，请稍候..."
 
 #. Resource IDs: (319)
 msgid "Please wait while differences are obtained..."
@@ -8577,11 +8577,11 @@ msgstr "已保存数据"
 #. Resource IDs: (71)
 #, c-format
 msgid "Saving config failed (key: \"%s\", value: \"%s\")."
-msgstr "失败保存配置(键: \"%s\", 值: \"%s\")。"
+msgstr "保存配置失败（键：“%s”，值：“%s”）。"
 
 #. Resource IDs: (75)
 msgid "Saving notes failed."
-msgstr "失败保存注释"
+msgstr "保存注释失败。"
 
 #. Resource IDs: (1522)
 msgid "Scan"
@@ -8660,7 +8660,7 @@ msgstr "请选择一个按钮。"
 
 #. Resource IDs: (3585)
 msgid "Select an object on which to get Help"
-msgstr "选择要查询帮助的对象"
+msgstr "请选择一个要获取帮助的对象"
 
 #. Resource IDs: (213)
 msgid "Select changelist"
@@ -9147,7 +9147,7 @@ msgstr "正在显示 %1!d! 个引用，已选择 %2!d! 个引用"
 msgid ""
 "Showing %ld revision(s), from revision %s to revision %s - %ld revision(s) "
 "selected, %ld file(s) selected\r\n"
-msgstr "正显示 %ld 个修订版本, 从 %s 到 %s - 已选择 %ld 个版本,  已选择 %ld 个文件\n"
+msgstr "正在显示 %ld 个修订版本，从 %s 到 %s - 已选择 %ld 个版本， 已选择 %ld 个文件\n"
 
 #. Resource IDs: (24)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9214,7 +9214,7 @@ msgstr "跳过"
 
 #. Resource IDs: (263)
 msgid "Skipped missing target"
-msgstr "跳过丢失的目标项"
+msgstr "跳过缺失的目标项"
 
 #. Resource IDs: (1070)
 msgid "Slide"
@@ -9701,7 +9701,7 @@ msgstr "当前的工作副本有变更。\n您要储藏(stash)这些变更吗？
 msgid ""
 "The diffing engine aborted because of an error:\n"
 "%s"
-msgstr "差异比较引擎终止，错误信息:\n%s"
+msgstr "差异比较引擎中止，错误信息：\n%s"
 
 #. Resource IDs: (85)
 msgid ""
@@ -10072,7 +10072,7 @@ msgstr "这将删除您在应用程序中使用的命令记录，恢复到默认
 
 #. Resource IDs: (604)
 msgid "Three way diff"
-msgstr "三向比较"
+msgstr "三路比较"
 
 #. Resource IDs: (16928)
 msgid "Tile &Vertically"
@@ -10150,7 +10150,7 @@ msgstr "TortoiseGit"
 #. Resource IDs: (107)
 #, c-format
 msgid "TortoiseGit %d.%d.%d, Build %d - %s, %s"
-msgstr "TortoiseGit %d.%d.%d, Build %d - %s, %s"
+msgstr "TortoiseGit %d.%d.%d，版本 %d - %s, %s"
 
 #. Resource IDs: (107)
 #, c-format
@@ -10198,7 +10198,7 @@ msgstr "TortoiseGitBlame 已经配置成版本库 \"%s\"。不能动态切换到
 #. Resource IDs: (1)
 #, c-format
 msgid "TortoiseGitBlame, Version %d.%d.%d.%d"
-msgstr "TortoiseGitBlame, 版本%d.%d.%d.%d"
+msgstr "TortoiseGitBlame，版本 %d.%d.%d.%d"
 
 #. Resource IDs: (1)
 msgid ""
@@ -10391,7 +10391,7 @@ msgstr "无法写入只读属性。"
 #. Resource IDs: (3859)
 #, c-format
 msgid "Unable to write to %1, it is read-only or opened by someone else."
-msgstr "无法写入 %1, 它可能被设为只读或另有人打开。"
+msgstr "无法写入 %1，它可能是只读或者已被其他人打开。"
 
 #. Resource IDs: (3887)
 msgid "Uncheck"
@@ -10898,7 +10898,7 @@ msgstr "西欧"
 msgid ""
 "When activated, hold down the SHIFT key when right-clicking to get the "
 "TortoiseGit menus added to the context menu"
-msgstr "激活后，当单击右键时保持 SHIFT 键按下，从而将 TortoiseGit 菜单增加到右键菜单"
+msgstr "在激活后，当单击右键时保持 SHIFT 键按下即可将 TortoiseGit 菜单增加到右键菜单"
 
 #. Resource IDs: (604)
 msgid ""
@@ -10935,7 +10935,7 @@ msgid ""
 "When the patch does not apply cleanly, fall back on 3-way merge if the patch"
 " records the identity of blobs it is supposed to apply to and we have those "
 "blobs available locally."
-msgstr "当引用补丁失败时，尝试三向合并。"
+msgstr "当补丁进行非干净的合并失败时，如果补丁记录有 blob 的单元并且我们本地的 blob 可供应用，后退到三路合并。"
 
 #. Resource IDs: (92)
 msgid ""
