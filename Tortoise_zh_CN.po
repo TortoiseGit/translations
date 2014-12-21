@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-12-20 22:51+0000\n"
+"PO-Revision-Date: 2014-12-21 03:10+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -418,7 +418,7 @@ msgstr "自动关闭 Git.exe 对话框(&A)："
 
 #. Resource IDs: (1505)
 msgid "&Autoload Putty Key"
-msgstr "自动加载putty密钥(&A)"
+msgstr "自动加载 Putty 密钥(&A)"
 
 #. Resource IDs: (1015)
 msgid "&Backup original file"
@@ -1104,7 +1104,7 @@ msgstr "恢复(&R)"
 
 #. Resource IDs: (68)
 msgid "&Restore old state"
-msgstr "恢复到老状态(&R)"
+msgstr "恢复到旧状态(&R)"
 
 #. Resource IDs: (1252)
 msgid "&Revert change by this commit"
@@ -1557,7 +1557,7 @@ msgstr "合并过程正在进行，因此此提交将变成一个合并提交。
 
 #. Resource IDs: (201)
 msgid "A newer version is available. Please download the current version!"
-msgstr "新版本发布，请下载!"
+msgstr "有新版本可用，请下载新版本！"
 
 #. Resource IDs: (195)
 msgid ""
@@ -1685,7 +1685,7 @@ msgstr "活动文件"
 msgid ""
 "ActiveX objects cannot be saved while exiting Windows!\n"
 "Discard all changes to %1?"
-msgstr "当窗口存在时不能保存 ActiveX 对象!\n丢弃对 %1 的全部修改?"
+msgstr "当窗口存在时不能保存 ActiveX 对象！\n丢弃对 %1 的全部修改?"
 
 #. Resource IDs: (77, 155, 209, 229)
 msgid "Add"
@@ -1883,7 +1883,7 @@ msgstr "修改上次提交(&L)"
 #. Resource IDs: (80)
 msgid ""
 "An alternative editor. Which should preferably support *nix line endings."
-msgstr "编辑器，能够支持*nix"
+msgstr "一个替代编辑器，它最好能够支持 *nix 行尾符号。"
 
 #. Resource IDs: (78)
 #, c-format
@@ -1907,21 +1907,21 @@ msgid ""
 "%theirs: the file as it is in the repository\r\n"
 "%mine: your own file, with your changes\r\n"
 "%base: the original file without your changes"
-msgstr "用来解决冲突文件的外部合并程序。\n\n您可以在程序路径中指定以下参数: \n%merged : 发生冲突的文件存放位置\n%theirs : 版本库中存放的文件\n%mine : 你修改过的文件\n%base : 不包含你所做修改的原始文件"
+msgstr "用来解决冲突文件的外部合并程序。\n\n您可以在程序路径中指定以下参数: \n%merged : 发生冲突的文件存放位置\n%theirs : 版本库中存放的文件\n%mine : 您拥有的修改过的文件\n%base : 不包含您所做修改的原始文件"
 
 #. Resource IDs: (3867)
 #, c-format
 msgid "An incorrect file handle was associated with %1."
-msgstr "%1 关联到错误的文件句柄。"
+msgstr "%1 关联到了一个错误的文件句柄。"
 
 #. Resource IDs: (3843)
 msgid "An unknown error has occurred."
-msgstr "发生不明错误。"
+msgstr "发生未知错误。"
 
 #. Resource IDs: (3867, 3868)
 #, c-format
 msgid "An unknown error occurred while accessing %1."
-msgstr "存取 %1 时发生不明错误。"
+msgstr "存取 %1 时发生未知错误。"
 
 #. Resource IDs: (63)
 #, c-format
@@ -2007,7 +2007,7 @@ msgstr "垂直排列(&V)"
 #. Resource IDs: (264)
 #, c-format
 msgid "Assigned to changelist '%s'"
-msgstr "指派到修改列表 “%s”"
+msgstr "指派到修改列表“%s”"
 
 #. Resource IDs: (16528)
 msgid "Assigned to:"
@@ -2147,11 +2147,11 @@ msgstr "自动完成建议的字符（通常是类名或成员名）\n它来自�
 
 #. Resource IDs: (1505)
 msgid "AutoLoad Putty &Key"
-msgstr "自动加载putty密钥(&K)"
+msgstr "自动加载 Putty 密钥(&K)"
 
 #. Resource IDs: (1619)
 msgid "Autoload Putty &Key"
-msgstr "自动加载putty密钥(&K)"
+msgstr "自动加载 Putty 密钥(&K)"
 
 #. Resource IDs: (438)
 msgid "Automatic"
@@ -2275,7 +2275,7 @@ msgstr "正文"
 msgid ""
 "Both /logmsg and /logmsgfile were specified!\n"
 "Only one of those can be specified."
-msgstr "同时指定了 /logmsg 和 /logmsgfile !\n它们只能指定一个。"
+msgstr "同时指定了 /logmsg 和 /logmsgfile！\n两者只能指定其中一个。"
 
 #. Resource IDs: (70)
 msgid ""
@@ -2375,11 +2375,11 @@ msgstr "按钮外观"
 
 #. Resource IDs: (1382)
 msgid "Button1"
-msgstr "Button1"
+msgstr "按钮 1"
 
 #. Resource IDs: (1383)
 msgid "Button3"
-msgstr "Button3"
+msgstr "按钮 3"
 
 #. Resource IDs: (1215, 1216)
 msgid "C&heck now"
@@ -2432,15 +2432,15 @@ msgstr "无法复制 \n%s\n到\n%s"
 
 #. Resource IDs: (1001)
 msgid "Can't copy bitmap image into the clipboard!"
-msgstr "不能复制位图图像到剪贴板!"
+msgstr "不能复制位图图像到剪贴板！"
 
 #. Resource IDs: (1001)
 msgid "Can't create a new image!"
-msgstr "不能创建新图像!"
+msgstr "不能创建新图像！"
 
 #. Resource IDs: (1001)
 msgid "Can't customize menus!"
-msgstr "不能定制菜单!"
+msgstr "不能定制菜单！"
 
 #. Resource IDs: (1001)
 msgid "Can't paste bitmap image from the clipboard!"
@@ -2607,7 +2607,7 @@ msgstr "每日的修改行数（不包括增加/删除的文件）"
 #. Resource IDs: (264)
 #, c-format
 msgid "Changelist %s moved"
-msgstr "修改列表 %s 已经删除"
+msgstr "修改列表 %s 已移动"
 
 #. Resource IDs: (1242)
 msgid "Changes made (double-click on file for diff):"
@@ -2615,7 +2615,7 @@ msgstr "变更列表（双击文件查看差异）: "
 
 #. Resource IDs: (2060)
 msgid "Changes the style of the application"
-msgstr "改版程序的风格"
+msgstr "更改程序的风格"
 
 #. Resource IDs: (65535)
 msgid "Char position where to show a border line in commit text boxes:"
@@ -3156,7 +3156,7 @@ msgstr "继续"
 
 #. Resource IDs: (1001)
 msgid "Contract docked window"
-msgstr "契约钉住的窗口"
+msgstr "收缩钉住的窗口"
 
 #. Resource IDs: (501)
 msgid "Convert spaces to tabs"
@@ -3273,7 +3273,7 @@ msgid ""
 "Could not copy the files!\n"
 "\n"
 "%s"
-msgstr "不能复制文件!\n\n%s"
+msgstr "不能复制文件！\n\n%s"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -3350,7 +3350,7 @@ msgid ""
 "Could not start diff viewer!\n"
 "\n"
 "%s"
-msgstr "不能开始比较程序!\n\n%s"
+msgstr "不能开始比较程序！\n\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3358,7 +3358,7 @@ msgid ""
 "Could not start external diff program!\n"
 "\n"
 "%s"
-msgstr "不能打开外部比较程序!\n\n%s"
+msgstr "不能启动外部比较程序！\n\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3366,7 +3366,7 @@ msgid ""
 "Could not start external merge program!\n"
 "\n"
 "%s"
-msgstr "不能打开外部合并程序!\n\n%s"
+msgstr "不能启动外部合并程序!\n\n%s"
 
 #. Resource IDs: (3857)
 msgid "Could not start print job."
@@ -3378,11 +3378,11 @@ msgid ""
 "Could not start text viewer!\n"
 "\n"
 "%s"
-msgstr "不能打开文本视图!\n\n%s"
+msgstr "不能启动文本查看器！\n\n%s"
 
 #. Resource IDs: (603)
 msgid "Could not start the Putty Agent (pageant)."
-msgstr "无法启动Putty Agent (pageant).！"
+msgstr "无法启动 Putty 助手 (pageant)。"
 
 #. Resource IDs: (1253)
 msgid "Could not start thread!"
@@ -3740,7 +3740,7 @@ msgstr "删除远程引用..."
 
 #. Resource IDs: (65535)
 msgid "Delivery:"
-msgstr "发布"
+msgstr "投递:"
 
 #. Resource IDs: (1646)
 msgid "Depth"
@@ -4135,7 +4135,7 @@ msgstr "试运行"
 
 #. Resource IDs: (1279)
 msgid "Dummy Button Form "
-msgstr "Dummy Button Form "
+msgstr "虚拟按钮形式"
 
 #. Resource IDs: (1566, 1659)
 msgid "Dumy Group For locat TabCtr"
@@ -4183,7 +4183,7 @@ msgstr "编辑本地.git/config(&L)"
 
 #. Resource IDs: (1755)
 msgid "Edit .tgitconfig"
-msgstr "编辑.tgitconfig"
+msgstr "编辑 .tgitconfig"
 
 #. Resource IDs: (16133)
 msgid "Edit Button Image"
@@ -4215,7 +4215,7 @@ msgstr "编辑全局.git/config(&O)"
 
 #. Resource IDs: (1718)
 msgid "Edit global &XDG git/config"
-msgstr "编辑全局的 &XDG git/config"
+msgstr "编辑全局 &XDG git/config"
 
 #. Resource IDs: (71)
 msgid "Edit local git config"
@@ -4943,7 +4943,7 @@ msgstr "强制推送到选定的远程引用并覆盖它，不进行任何安全
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
-msgstr "尽管当前分支是你想变基到的后裔节点，也要强制变基。\n正常情况命令打印“当前分支已经最新(Current branch is up to date)\"，然后退出。"
+msgstr "即便当前分支是您想变基到的后裔节点也要强制变基。\n正常情况下该命令显示“当前分支已经最新”消息并退出。"
 
 #. Resource IDs: (1796)
 msgid "Force: May discard"
@@ -5067,15 +5067,15 @@ msgstr "常规设置::编辑器"
 
 #. Resource IDs: (315)
 msgid "General::Colors 1"
-msgstr "常规设置::颜色1"
+msgstr "常规设置::颜色一"
 
 #. Resource IDs: (212)
 msgid "General::Colors 2"
-msgstr "常规设置::颜色2"
+msgstr "常规设置::颜色二"
 
 #. Resource IDs: (316)
 msgid "General::Colors 3"
-msgstr "常规设置::颜色3"
+msgstr "常规设置::颜色三"
 
 #. Resource IDs: (195)
 msgid "General::Context Menu"
@@ -5173,7 +5173,7 @@ msgstr "Git 移动版本控制的条目到当前位置"
 
 #. Resource IDs: (84)
 msgid "Git Remote Settings"
-msgstr "Git远程服务器设置"
+msgstr "Git远端设置"
 
 #. Resource IDs: (1260)
 msgid "Git Revision List"
@@ -5209,7 +5209,7 @@ msgstr "未找到 Git for Windows (http://code.google.com/p/msysgit/)。"
 
 #. Resource IDs: (79)
 msgid "Git reported an error while creating a repository!\n"
-msgstr "当创建版本库的时候,Git报告一个错误\n"
+msgstr "在创建版本库时，Git 报告了一个错误！\n"
 
 #. Resource IDs: (2050)
 msgid "Git revision list contains the complete file history"
@@ -5217,7 +5217,7 @@ msgstr "Git修订列表，含完整文件历史"
 
 #. Resource IDs: (2049)
 msgid "Git revision list follows file renames"
-msgstr "Git修订列表包括文件从命名"
+msgstr "Git修订列表包括文件更名"
 
 #. Resource IDs: (93)
 msgid ""
@@ -5402,7 +5402,7 @@ msgstr "示意"
 msgid ""
 "Hint: select the context menu, change the page to 'Commands' and drag the "
 "toolbar buttons into the menu window."
-msgstr "提示: 在右键菜单中，进入“命令”页，将工具栏按钮拖到菜单窗口中。"
+msgstr "提示：选择右键菜单，进入“命令”页，将工具栏按钮拖到菜单窗口中。"
 
 #. Resource IDs: (1064)
 msgid "Home"
@@ -5716,7 +5716,7 @@ msgid ""
 "If you plan to work inside this folder, leave this unchecked. Typically a "
 "bare repo can only have changes 'pushed' to it. (By convention, a bare repo "
 "folder should have a name that ends with '.git')"
-msgstr "如果你计划在这个目录中工作，应不选此项。典型的一个纯版本库仅用于被推送。（根据惯例，一个纯版本库的名称应使用 '.git' 结尾）"
+msgstr "如果您计划在这个目录中工作，应不选此项。典型的一个纯版本库仅用于被推送。（根据惯例，一个纯版本库的名称应使用 '.git' 结尾）"
 
 #. Resource IDs: (73)
 msgid "Ignore"
@@ -5771,7 +5771,7 @@ msgstr "递归忽略文件或目录"
 
 #. Resource IDs: (1018)
 msgid "Ignore line &endings (recommended)"
-msgstr "忽略 CRLF(&E)"
+msgstr "忽略行尾符号（推荐）(&E)"
 
 #. Resource IDs: (94)
 msgid "Ignore space at EOL"
@@ -5858,7 +5858,7 @@ msgstr "正在导入文件 %s"
 
 #. Resource IDs: (75)
 msgid "In ChangeList"
-msgstr "在改变列表中"
+msgstr "在修改列表中"
 
 #. Resource IDs: (75)
 msgid "In Commits"
@@ -6145,7 +6145,7 @@ msgstr "载入图片"
 
 #. Resource IDs: (1505)
 msgid "Load Putty &Key"
-msgstr "加载putty密钥(&K)"
+msgstr "加载 Putty 密钥(&K)"
 
 #. Resource IDs: (315)
 msgid ""
@@ -6824,7 +6824,7 @@ msgstr "内存不足！\n尝试折叠节点或减少缩放比例\n以减少版�
 
 #. Resource IDs: (72)
 msgid "Not patches generated."
-msgstr "没补丁创建"
+msgstr "没有生成出补丁。"
 
 #. Resource IDs: (65535)
 msgid "Note node"
@@ -6835,7 +6835,7 @@ msgid ""
 "Note that if you choose to recover the auto-saved documents, you must "
 "explicitly save them to overwrite the original documents.  If you choose to "
 "not recover the auto-saved versions, they will be deleted."
-msgstr "如果你选择恢复自动保存文档，你需要将他们保存并覆盖至原文件。如果你选择不恢复自动保存文档，他们将会被删除。"
+msgstr "如果您选择恢复自动保存的文档，您必须明确地将它们保存并覆盖原文件。如果您选择不恢复自动保存的文档，它们将被删除。"
 
 #. Resource IDs: (65535)
 msgid "Note: These settings also apply to the Patch Viewer dialog."
@@ -6969,7 +6969,7 @@ msgstr "确定"
 msgid ""
 "OLE initialization failed.  Make sure that the OLE libraries are the correct"
 " version."
-msgstr "OLE初始化失败。确保OLE库是正确的版本"
+msgstr "OLE 初始化失败。请确保 OLE 库是正确的版本。"
 
 #. Resource IDs: (156, 626)
 msgid "Office 2003"
@@ -6997,7 +6997,7 @@ msgstr "旧消息"
 
 #. Resource IDs: (605)
 msgid "Older commit time"
-msgstr "老的提交时间"
+msgstr "旧提交时间"
 
 #. Resource IDs: (65535)
 msgid "Older lines"
@@ -7630,11 +7630,11 @@ msgstr "推送..."
 
 #. Resource IDs: (65535)
 msgid "Putty Key:"
-msgstr "putty密钥:"
+msgstr "Putty 密钥:"
 
 #. Resource IDs: (71)
 msgid "Putty Private Key (*.ppk)|*.ppk|All Files (*.*)|*.*||"
-msgstr "Putty私钥 (*.ppk)|*.ppk|所有文件 (*.*)|*.*||"
+msgstr "Putty 私钥 (*.ppk)|*.ppk|所有文件 (*.*)|*.*||"
 
 #. Resource IDs: (246)
 #, c-format
@@ -7681,7 +7681,7 @@ msgstr "同步对话框启动位置随机化"
 msgid ""
 "Randomize the startup position of Sync Dialog. This prevents from pressing "
 "the Pull button of same dialog"
-msgstr "随机化同步对话框的启动位置。这可以防止按到相同对话框中的 Pull 按钮。"
+msgstr "随机化“同步”对话框的启动位置。这可以防止按到同一对话框中的“拉取”按钮。"
 
 #. Resource IDs: (1535)
 msgid "Range"
@@ -8321,11 +8321,11 @@ msgstr "选择(&E)..."
 
 #. Resource IDs: (1065)
 msgid "S&how Buttons on One Row"
-msgstr "在一行显示按钮(&H)"
+msgstr "在一行上显示按钮(&H)"
 
 #. Resource IDs: (1065)
 msgid "S&how Buttons on Two Rows"
-msgstr "在两行显示按钮(&H)"
+msgstr "在两行上显示按钮(&H)"
 
 #. Resource IDs: (17078)
 msgid "S&how Quick Access Toolbar below the Ribbon"
@@ -8682,7 +8682,7 @@ msgstr "选择要关联此问题跟踪器的文件夹"
 msgid ""
 "Select folder to export to.\n"
 "You might need to create a new folder before performing this export."
-msgstr "选择要导出至的文件夹。\n你可能需要在进行导出之前先创建新文件夹。"
+msgstr "请选择要导出至的文件夹。\n您可能需要在进行导出前先创建一个新文件夹。"
 
 #. Resource IDs: (197)
 msgid "Select folder to run script for"
@@ -8694,7 +8694,7 @@ msgstr "选择保存选中文件的文件夹"
 
 #. Resource IDs: (197)
 msgid "Select hook script file"
-msgstr "选择 Hook 脚本文件..."
+msgstr "选择 Hook 脚本文件"
 
 #. Resource IDs: (1405)
 msgid "Select items automatically"
@@ -9236,13 +9236,13 @@ msgstr "不更改工作区和索引"
 msgid ""
 "Some file(s) have been changed outside TortoiseGitMerge.\n"
 "Do you want to load the changes?"
-msgstr "一些文件在TortoiseGitMerge外部被修改了。\n你想加载这些修改吗？"
+msgstr "一些文件在 TortoiseGitMerge 外部被更改了。\n您想加载这些更改吗？"
 
 #. Resource IDs: (314)
 msgid ""
 "Some file(s) have been changed outside TortoiseGitMerge.\n"
 "Would you like to reload and lose your changes?"
-msgstr "一些文件在TortoiseGitMerge外部被修改了。\n你想重新加载文件吗？（你当前的修改会丢失。）"
+msgstr "一些文件在 TortoiseGitMerge 外部被更改了。\n您想重新加载这些文件吗？（你当前的更改会丢失。）"
 
 #. Resource IDs: (1126)
 msgid "Sort by commit count"
@@ -9302,7 +9302,7 @@ msgstr "开始摘取"
 
 #. Resource IDs: (569)
 msgid "Start Commit Hook"
-msgstr "启动提交 Hook"
+msgstr "Start Commit Hook"
 
 #. Resource IDs: (67, 68)
 msgid "Start Rebase"
@@ -9362,7 +9362,7 @@ msgstr "状态"
 
 #. Resource IDs: (1068)
 msgid "Status Bar Configuration"
-msgstr "状态栏的配置"
+msgstr "状态栏配置"
 
 #. Resource IDs: (65535)
 msgid "Status and action colors"
@@ -9667,7 +9667,7 @@ msgid ""
 "The branch \"%s\" is a <i>remote</i> branch.\n"
 "\n"
 "Do you really want to <ct=0x0000FF>delete</ct> it?"
-msgstr "分支\"%s\"是一个<i>远程分支</i>。\n\n你真的想<ct=0x0000FF>删除</ct>吗？"
+msgstr "分支“%s”是一个<i>远程分支</i>。\n\n您确定要<ct=0x0000FF>删除它</ct>吗？"
 
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -9682,13 +9682,13 @@ msgstr "提交消息不能为空"
 msgid ""
 "The credential helper URL \"%s\" already exists.\n"
 "Do you want to overwrite it?"
-msgstr "凭证助手URL  \"%s\" 已经存在。你想覆盖它吗？"
+msgstr "凭证助手 URL “%s”已经存在。您要覆盖它吗？"
 
 #. Resource IDs: (89)
 msgid ""
 "The credential helper was changed.\n"
 "Do you want to save now or discard changes?"
-msgstr "凭证助手已经改变。你想保存还是放弃？"
+msgstr "凭证助手已经更改。您要保存还是放弃更改？"
 
 #. Resource IDs: (603)
 msgid ""
@@ -9724,7 +9724,7 @@ msgstr "补丁文件中找不到文件: %s！"
 msgid ""
 "The file \"%s\" does not exist in your working tree.\n"
 "Do you want to select another file to diff?"
-msgstr "文件“%s“不在你的操作树中，你是否想选择另一个文件去比较？"
+msgstr "文件“%s“不在您的工作副本中。\n您要选择另一个文件去比较吗？"
 
 #. Resource IDs: (314)
 #, c-format
@@ -9749,7 +9749,7 @@ msgid ""
 "The file\n"
 "%s\n"
 "already exists! Do you want to overwrite it?"
-msgstr "文件\n%s\n已存在! 是否要覆盖？"
+msgstr "文件\n%s\n已存在！您要覆盖它吗？"
 
 #. Resource IDs: (69)
 #, c-format
@@ -9764,7 +9764,7 @@ msgstr "文件\n%s\n不是一个有效的文本文件！"
 msgid ""
 "The folder %s\n"
 "contains unversioned and/or modified file(s). Do you want to remove it anyway?"
-msgstr "文件夹 %s\n中包含了未受版本控制的文件和/或修改过的文件。你确认要删除吗？"
+msgstr "文件夹 %s\n中包含了未受版本控制的文件和/或修改过的文件。您要删除它吗？"
 
 #. Resource IDs: (88)
 #, c-format
@@ -9837,7 +9837,7 @@ msgstr "操作失败。"
 msgid ""
 "The parameters '/path' and '/pathfile' are mutually exclusive.\n"
 "You must only specify one of them."
-msgstr "参数“/path”和“/pathfile”互斥。\n你只能指定其中的一个。"
+msgstr "参数“/path”和“/pathfile”互斥。\n您只能指定其中的一个。"
 
 #. Resource IDs: (7)
 #, c-format
@@ -9865,7 +9865,7 @@ msgid ""
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n"
 "\n"
 "Do you want to proceed anyway?"
-msgstr "输入的 PATH/URL 似乎在 Windows 上非法！\n你可以继续尝试，但可能会出现错误。\n\n正确的 Windows 路径不能包含 “<<>|\"?*:” 或以下设备名: \ncom1-com9，lpt1-lpt9，prn，aux，con，nul，clock$\n\n你想继续尝试吗？"
+msgstr "输入的 PATH/URL 似乎在 Windows 上非法！\n您可以继续尝试，但可能会出现错误。\n\n正确的 Windows 路径不能包含 “<<>|\"?*:” 或以下设备名: \ncom1-com9，lpt1-lpt9，prn，aux，con，nul，clock$\n\n您想继续尝试吗？"
 
 #. Resource IDs: (314)
 #, c-format
@@ -9895,7 +9895,7 @@ msgstr "该正则表达式是无效的！\n请输入一个有效的正则表达�
 msgid ""
 "The remote \"%s\" already exists.\n"
 "Do you want to overwrite it?"
-msgstr "远端\"%s\"已经存在。\n你想覆盖它吗？"
+msgstr "远端“%s”已经存在。\n您要覆盖它吗？"
 
 #. Resource IDs: (80)
 msgid "The repository was successfully created."
@@ -9905,7 +9905,7 @@ msgstr "版本库创建成功。"
 msgid ""
 "The selected file appears to still have one or more conflict markers in it.\n"
 "Are you sure you want to mark the file resolved?"
-msgstr "选择的文件尚有一个以上的冲突标记。\n你确定要将其视为已解决？"
+msgstr "选择的文件尚有一个或多个冲突标记。\n您确定要将其标记为已解决吗？"
 
 #. Resource IDs: (170)
 #, c-format
@@ -9931,7 +9931,7 @@ msgid ""
 "%s\n"
 "is not empty!\n"
 "Are you sure you want to initialize a git repository inside that folder?"
-msgstr "目标文件夹\n%s\n不为空!\n你确定要在这里创建git版本仓库吗？"
+msgstr "目标文件夹\n%s\n不是空的！\n您确定要在此文件夹里面创建一个 git 版本库吗？"
 
 #. Resource IDs: (101)
 msgid ""
@@ -9996,7 +9996,7 @@ msgid ""
 "You should resolve those conflicts first before saving.\n"
 "Do you want to save the file with the conflicts still there?\n"
 "If you click YES, then you have to manually resolve the conflicts in another editor!"
-msgstr "%d 行还有尚未处理的冲突！\n请在保存之前先解决它们。\n你确定要在还有冲突时保存文件吗？\n如果你选择“是”，之后必须自行在其他编辑器中处理冲突！"
+msgstr "%d 行还有尚未处理的冲突！\n请在保存之前先解决它们。\n您确定要在还有冲突时保存文件吗？\n如果您选择“是”，之后必须自行在其他编辑器中处理冲突！"
 
 #. Resource IDs: (313)
 msgid ""
@@ -10068,7 +10068,7 @@ msgid ""
 "This will delete the record of commands you've used in this application and "
 "restore the default set of visible commands to the menus and toolbars. It "
 "will not undo any explicit customizations. Are you sure you want to do this?"
-msgstr "这会删除你在应用程序中使用的命令记录，恢复到默认菜单和工具栏的可视化命令集合。它不会撤销任何显式的的定制。你确认吗？"
+msgstr "这将删除您在应用程序中使用的命令记录，恢复到默认菜单和工具栏的可视化命令集合。它不会撤销任何显式的的定制。您确定吗？"
 
 #. Resource IDs: (604)
 msgid "Three way diff"
@@ -10091,7 +10091,7 @@ msgid ""
 "To avoid fetching wrong tags, if this is not an official remote,\n"
 "you are advised to disable tag fetching for this remote.\n"
 "Disable tag fetching?"
-msgstr "如果这不是一个官方的远程，为了避免获取错误的标签，建议你关闭获取标签选项。\n关闭获取标签吗？"
+msgstr "如果这不是一个官方的远程，为了避免获取到错误的标签，建议您禁用获取标签选项。\n禁用获取标签吗？"
 
 #. Resource IDs: (606)
 msgid ""
@@ -10099,7 +10099,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr "要清除临时文件，你应该确定没有其他 TortoiseGit 应用程序正在运行。\n\n如果你想彻底清除 Gravatar 图像，\n你可能还需要清除 Internet Explorer 的临时文件夹。"
+msgstr "要清除临时文件，您应该确定没有其他 TortoiseGit 应用程序正在运行。\n\n如果您想彻底清除 Gravatar 图像，\n您可能还需要清除 Internet Explorer 的临时文件夹。"
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10129,7 +10129,7 @@ msgstr "工具栏操作"
 
 #. Resource IDs: (1001)
 msgid "Toolbar internal error. Please contact your application vendor."
-msgstr "工具栏内部错误。清联系你的应用程序销售商。"
+msgstr "工具栏内部错误。请联系您的应用程序销售商。"
 
 #. Resource IDs: (16105)
 msgid "Toolbars"
@@ -10166,14 +10166,14 @@ msgid ""
 "The commit dialog cannot handle this.\n"
 "\n"
 "Do you want to remove it from the index?"
-msgstr "TortoiseGit 检查到文件 \"%s\" 不存在，但是已标记为“添加”。\n提交对话框不能处理这种情况。\n\n你想从索引中删除它吗？"
+msgstr "TortoiseGit 检查到文件“%s”不存在，但已标记为“添加”。\n提交对话框不能处理它。\n\n您想从索引中删除它吗？"
 
 #. Resource IDs: (98)
 #, c-format
 msgid ""
 "TortoiseGit has detected similar filenames. Do you want the files:%s\n"
 "to be renamed too?"
-msgstr "TortoiseGit 检测到类似的文件名。你要同时改名\n文件 %s 吗？"
+msgstr "TortoiseGit 检测到类似的文件名。您要同时改名\n文件 %s 吗？"
 
 #. Resource IDs: (198)
 #, c-format
@@ -10309,7 +10309,7 @@ msgstr "去掉行尾空格"
 
 #. Resource IDs: (251)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
-msgstr "试试“清理”，如果无效，你需要重新检出文件。"
+msgstr "试试“清理”。如果无效，您需要重新检出文件。"
 
 #. Resource IDs: (73)
 msgid "Try again"
@@ -10813,7 +10813,7 @@ msgstr "视图"
 
 #. Resource IDs: (90)
 msgid "View .tgitconfig"
-msgstr "查看.tgitconfig"
+msgstr "查看 .tgitconfig"
 
 #. Resource IDs: (328, 603)
 msgid "View Patch"
@@ -10833,7 +10833,7 @@ msgstr "在其他编辑器中查看版本"
 
 #. Resource IDs: (1717)
 msgid "View system&wide gitconfig"
-msgstr "编辑系统gitconfig(&W)"
+msgstr "查看系统级 gitconfig(&W)"
 
 #. Resource IDs: (1084)
 msgid "Visit our website"
@@ -10941,7 +10941,7 @@ msgstr "当引用补丁失败时，尝试三向合并。"
 msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
-msgstr "如果远程名称为空，当你键入的URL时远程名称将自动填充为“origin”，所以这不是你的必填项。"
+msgstr "如果远程名称为空，在你键入 URL 时，远程名称将自动填充为“origin”，因此这不是您的必填项。"
 
 #. Resource IDs: (96)
 msgid "Whether to reference only annotated tags, all tags or all refs"
@@ -11031,7 +11031,7 @@ msgstr "工作副本"
 
 #. Resource IDs: (1335, 1472)
 msgid "Working Tree Path:"
-msgstr "工作副本路径"
+msgstr "工作副本路径:"
 
 #. Resource IDs: (1253)
 msgid "Working dir changes"
@@ -11057,7 +11057,7 @@ msgstr "全部选是"
 
 #. Resource IDs: (201)
 msgid "You already have the latest version installed."
-msgstr "你已经安装了最新版。"
+msgstr "您已经安装了最新版本。"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -11073,14 +11073,14 @@ msgstr "您只能粘贴尺寸为 %d x %d 的位图！"
 #. Resource IDs: (1016)
 #, c-format
 msgid "You can't create more than %d user-defined toolbars!"
-msgstr "你不能创建多于 %d 个自定义工具栏!"
+msgstr "您不能创建多于 %d 个自定义工具栏！"
 
 #. Resource IDs: (16)
 msgid ""
 "You can't set this property on folders, only on files!\n"
 "If you want to set it on all files within that folder,\n"
 "you must activate the 'recursive' checkbox."
-msgstr "你不能在文件夹上设置该属性，它只能设置在文件上！\n如果你要为该文件夹中所有文件设置该属性，\n你必须选择“递归”选项。"
+msgstr "您不能在文件夹上设置此属性，它只能设置在文件上！\n如果您要为该文件夹中所有文件设置该属性，\n您必须选中“递归”选项。"
 
 #. Resource IDs: (84)
 msgid "You cannot change the type of this ref with a rename."
@@ -11097,7 +11097,7 @@ msgstr "您已安装了一个旧版本的 Git for Windows (http://code.google.co
 msgid ""
 "You have checked \"include untracked\".\n"
 "This includes a \"git clean -fd\" call, so ignored files/directories are removed w/o using recycle bin."
-msgstr "你选择了“包括未被版本控制的文件\"。\n这实际调用\"git clean -fd\"命令，于是忽略文件将被直接删除，而不会进入回收站。"
+msgstr "您选择了“包括未被版本控制的\"。\n这实际调用“git clean -fd”命令，于是采用回收站的忽略文件/目录将被直接删除。"
 
 #. Resource IDs: (7)
 msgid "You have marked changed blocks. How should those blocks be saved?"
@@ -11107,7 +11107,7 @@ msgstr "您标记了已更改的块。如何决策这些块的保存？"
 msgid ""
 "You have modified properties without saving them first.\n"
 "Do you want to save them now?"
-msgstr "你已修改的设置还没有保存。\n现在保存吗？"
+msgstr "您有尚未保存的已修改的设置。\n现在要保存吗？"
 
 #. Resource IDs: (87)
 #, c-format
@@ -11115,28 +11115,28 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr "你已经选择%d 显示差异.\n每一个都会打开一个差异比较程序.\n你正的想一次打开如此多差异比较程序吗？"
+msgstr "您选择了 %d 个项目要显示差异。\n这些项目中的每一个都会打开一个差异查看器实例。\n您确定想要一次打开如此多的差异比较程序吗？"
 
 #. Resource IDs: (169)
 msgid ""
 "You haven't entered an issue number!\n"
 "Are you sure you want to commit without an issue number?"
-msgstr "你尚未输入问题编号！\n确定要进行提交吗？"
+msgstr "您尚未输入问题编号！\n您确定要就这样提交吗？"
 
 #. Resource IDs: (68)
 msgid "You haven't entered your Signed-Off-By line!"
-msgstr "你还没有签署通过(添加Signed-off-by)！"
+msgstr "您还没有输入您的 Signed-Off-By！"
 
 #. Resource IDs: (68)
 msgid ""
 "You marked some files as \"Restore after commit\".\n"
 "Do you want to restore them now? You might lose all changes to this file after marking it."
-msgstr "你标记了一些文件为“提交后恢复”。\n您想要现在就恢复吗？这可能丢失这些文件在标记后的所有变更。"
+msgstr "您标记了一些文件为“提交后恢复”。\n您想要现在就恢复吗？这可能丢失这些文件在标记后的所有变更。"
 
 #. Resource IDs: (1002)
 #, c-format
 msgid "You may define up to %d tools."
-msgstr "你可以定义最多 %d 个工具。"
+msgstr "您可以定义最多 %d 个工具。"
 
 #. Resource IDs: (170)
 msgid "You must enter a log message for the commit"
@@ -11144,7 +11144,7 @@ msgstr "您必须为提交输入一个日志信息"
 
 #. Resource IDs: (196)
 msgid "You must restart your system for the changes to take effect."
-msgstr "你必须重新启动操作系统使改变生效。"
+msgstr "您必须重新启动操作系统才能使更改生效。"
 
 #. Resource IDs: (65)
 msgid "You must select a filename for the zip-file!"
@@ -11154,43 +11154,43 @@ msgstr "您必须为 zip 文件选择一个文件名！"
 msgid ""
 "You selected a folder.\r\n"
 "Exports are only possible to a (zip) file."
-msgstr "你选择的是目录\n导出只能是一个(zip)文件"
+msgstr "您选择了一个目录。\n导出只能是一个(zip)文件。"
 
 #. Resource IDs: (77)
 msgid ""
 "You selected an unversioned file.\n"
 "The file will be added to version control when you commit."
-msgstr "你选择了一个未受版本控制的文件。\n该文件将会在您提交时被加入版本控制。"
+msgstr "您选择了一个未受版本控制的文件。\n该文件将会在您提交时被加入版本控制。"
 
 #. Resource IDs: (1001)
 msgid "You should enter a text!"
-msgstr "你应该输入文本!"
+msgstr "您应该输入一段文本！"
 
 #. Resource IDs: (1001)
 msgid "You should select an image!"
-msgstr "你应该选择一个图片!"
+msgstr "您应该选择一个图片！"
 
 #. Resource IDs: (195)
 #, c-format
 msgid ""
 "You've changed the icon set from <i>%s</i> to <i>%s</i>.\n"
 "That change won't take effect until you restart your computer or logoff and logon again!"
-msgstr "你把图标集从 <i>%s</i> 修改为 <i>%s</i>。\n此改变将在下次系统重启或注销后再登录时生效！"
+msgstr "您已经把图标集从 <i>%s</i> 修改为 <i>%s</i>。\n此更改将在您的计算机重启或您注销后再登录后生效！"
 
 #. Resource IDs: (170)
 msgid ""
 "Your previously entered log messages have been saved.\n"
 "Click here to read and insert them again."
-msgstr "你过去输入过的日志信息已经保存。\n点击这里阅读历史并重新插入日志。"
+msgstr "您过去输入过的日志信息已被保存。\n点击这里阅读历史和重新插入它们。"
 
 #. Resource IDs: (1112)
 msgid "Your version is:"
-msgstr "你的版本是: "
+msgstr "您的版本是: "
 
 #. Resource IDs: (201)
 #, c-format
 msgid "Your version is: %d.%d.%d.%d"
-msgstr "你的版本是: %d.%d.%d.%d"
+msgstr "您的版本是: %d.%d.%d.%d"
 
 #. Resource IDs: (1074)
 msgid "Zip File"
@@ -11266,14 +11266,14 @@ msgstr "[未分配]"
 msgid ""
 "\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
-msgstr "\"%s\" 包含git版本库. 他不能作为一个子模块。.\n你想删除.git同时把全部文件加入到上级版本库 还是 作为独立版本库在子目录中保留它?"
+msgstr "“%s”包含一个git版本库。它不能作为一个子模块正常工作。\n您想删除 .git 并同时把全部文件加入到上级版本库，还是将它作为独立版本库在子目录中保留它？"
 
 #. Resource IDs: (92)
 #, c-format
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
-msgstr "\"%s\" 包含一个子模块. 很可能拷贝后不能在目的目录工作。\n你想删除.git同时添加全部文件到顶层git版本库 还是 忽略可能的问题保留它?"
+msgstr "“%s”包含一个 git 子模块。它很可能在拷贝后不能在目的目录正常工作。\n您想删除 .git 并同时添加全部文件到顶层版本库， 还是忽略可能的问题并保留它？"
 
 #. Resource IDs: (72)
 #, c-format
@@ -11410,7 +11410,7 @@ msgstr "忽略"
 
 #. Resource IDs: (1130)
 msgid "include &untracked"
-msgstr "包括未被版本控制的文件"
+msgstr "包括未版本控制的(&u)"
 
 #. Resource IDs: (13)
 msgid "incomplete"
