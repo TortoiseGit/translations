@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-12-23 17:18+0000\n"
+"PO-Revision-Date: 2014-12-24 15:26+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -307,7 +307,7 @@ msgstr "%s\n%s"
 msgid ""
 "%s\n"
 "Could not be cleanly patched."
-msgstr "%s\n无法引用补丁。"
+msgstr "%s\n无法顺利地应用补丁。"
 
 #. Resource IDs: (145)
 #, c-format
@@ -322,7 +322,7 @@ msgid ""
 "%s\n"
 "is a directory, not a file!\n"
 "TortoiseGitMerge can't diff directories."
-msgstr "%s\n是一个目录，而不是文件！\nTortoiseGitMerge无法对目录进行差异比较。"
+msgstr "%s\n是一个目录，而不是文件！\nTortoiseGitMerge 不能对目录进行差异比较。"
 
 #. Resource IDs: (16923)
 msgid "&..."
@@ -3599,7 +3599,7 @@ msgstr "日期"
 
 #. Resource IDs: (68)
 msgid "Date Last Commit"
-msgstr "最近提交的日期"
+msgstr "最后提交日期"
 
 #. Resource IDs: (1008)
 msgid "Default"
@@ -3866,7 +3866,7 @@ msgstr "与“%s”比较差异"
 #. Resource IDs: (81)
 #, c-format
 msgid "Diff with parent %d"
-msgstr "与第%d个父节点比较"
+msgstr "与第%d个父节点比较差异"
 
 #. Resource IDs: (1302)
 msgid "Difference between"
@@ -3882,7 +3882,7 @@ msgstr "比较提交差异"
 
 #. Resource IDs: (14)
 msgid "Diffs the working tree file with the one before the last commit"
-msgstr "将工作副本中的文件与最后提交之前比较"
+msgstr "比较工作副本文件与上次提交之间的差异"
 
 #. Resource IDs: (22)
 msgid "Diffs two any commits"
@@ -4840,7 +4840,7 @@ msgstr "查找"
 msgid ""
 "Find the specified text\n"
 "Find"
-msgstr "查找指定文字\n查找"
+msgstr "查找指定文本\n查找"
 
 #. Resource IDs: (95)
 #, c-format
@@ -6730,7 +6730,7 @@ msgid ""
 "No files were changed or added since\n"
 "the last commit. There's nothing\n"
 "for TortoiseGit to do here..."
-msgstr "在上次提交后没有添加或更改过文件。\nTortoiseGit 不需要做任何事情..."
+msgstr "在上次提交后没有添加或更改过文件。\nTortoiseGit 在这里不需要做任何事情……"
 
 #. Resource IDs: (170)
 msgid ""
@@ -6738,7 +6738,7 @@ msgid ""
 "the last commit. There's nothing\n"
 "for TortoiseGit to do here...\n"
 "Do you want to see the unversioned files?"
-msgstr "在上次提交后没有添加或更改过文件。\nTortoiseGit 不需要做任何事情...\n要显示未版本控制的文件吗？"
+msgstr "在上次提交后没有添加或更改过文件。\nTortoiseGit 在这里不需要做任何事情……\n要显示未受版本控制的文件吗？"
 
 #. Resource IDs: (173)
 msgid "No graph available"
@@ -7233,7 +7233,7 @@ msgstr "粘贴文件名列表"
 
 #. Resource IDs: (172)
 msgid "Paste last commit message"
-msgstr "粘贴前次提交的日志"
+msgstr "粘贴上次提交的信息"
 
 #. Resource IDs: (15)
 msgid ""
@@ -8045,7 +8045,7 @@ msgstr "全部替换(&A)"
 msgid ""
 "Replace specific text with different text\n"
 "Replace"
-msgstr "用指定的文字替换特定文字\n替换"
+msgstr "用指定文本替换特定文本\n替换"
 
 #. Resource IDs: (65535)
 msgid "Replace with:"
@@ -8225,7 +8225,7 @@ msgstr "在TortosieGitMerge中审核补丁"
 
 #. Resource IDs: (14)
 msgid "Review/apply a unified diff file with TortoiseGitMerge"
-msgstr "使用TortoiseGitMerge审核/应用单个补丁..."
+msgstr "使用 TortoiseGitMerge 审核/应用一个标准差异文件"
 
 #. Resource IDs: (13)
 msgid "Review/apply single &patch..."
@@ -9250,7 +9250,7 @@ msgstr "一些文件在 TortoiseGitMerge 外部被更改了。\n您想加载这�
 msgid ""
 "Some file(s) have been changed outside TortoiseGitMerge.\n"
 "Would you like to reload and lose your changes?"
-msgstr "一些文件在 TortoiseGitMerge 外部被更改了。\n您想重新加载这些文件吗？（你当前的更改会丢失。）"
+msgstr "一些文件在 TortoiseGitMerge 外部被更改了。\n您想重新加载这些文件吗？（您当前的更改会丢失。）"
 
 #. Resource IDs: (1126)
 msgid "Sort by commit count"
@@ -9852,7 +9852,7 @@ msgstr "参数“/path”和“/pathfile”互斥。\n您只能指定其中的�
 msgid ""
 "The patch does not apply cleanly to %s and no version information is given.\n"
 "Patching is not possible!"
-msgstr "补丁文件不能完全引用到%s，并且没有版本信息\n不能打补丁"
+msgstr "补丁文件不能顺利地应用到 %s，并且没有提供版本信息。\n无法完成应用补丁！"
 
 #. Resource IDs: (64)
 #, c-format
@@ -10953,7 +10953,7 @@ msgstr "当补丁进行非干净的合并失败时，如果补丁记录有 blob 
 msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
-msgstr "如果远程名称为空，在你键入 URL 时，远程名称将自动填充为“origin”，因此这不是您的必填项。"
+msgstr "如果远程名称为空，在您键入 URL 时，远程名称将自动填充为“origin”，因此这不是您的必填项。"
 
 #. Resource IDs: (96)
 msgid "Whether to reference only annotated tags, all tags or all refs"
