@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2014-12-24 15:26+0000\n"
+"PO-Revision-Date: 2014-12-25 00:26+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -574,7 +574,7 @@ msgstr "删除过滤器(&D)"
 
 #. Resource IDs: (70)
 msgid "&Delete remote && local"
-msgstr "删除远程和本地(&D)"
+msgstr "删除远端和本地(&D)"
 
 #. Resource IDs: (65535)
 msgid "&Detect moved or copied lines"
@@ -904,11 +904,11 @@ msgstr "移动块(&M)"
 
 #. Resource IDs: (1515)
 msgid "&Name"
-msgstr "名字(&N)"
+msgstr "名称(&N)"
 
 #. Resource IDs: (65535)
 msgid "&Name:"
-msgstr "名字(&N):"
+msgstr "名称(&N):"
 
 #. Resource IDs: (65535)
 msgid "&Navigate"
@@ -1052,7 +1052,7 @@ msgstr "远端分支(&R)"
 
 #. Resource IDs: (92)
 msgid "&Remote branches"
-msgstr "远程分支(&R)"
+msgstr "远端分支(&R)"
 
 #. Resource IDs: (1490, 1503)
 msgid "&Remote:"
@@ -1144,7 +1144,7 @@ msgstr "设置 Git 路径(&S)"
 
 #. Resource IDs: (1486)
 msgid "&Set upstream/track remote branch"
-msgstr "设置上游/跟踪远程分支(&S)"
+msgstr "设置上游/跟踪远端分支(&S)"
 
 #. Resource IDs: (9)
 msgid "&Settings"
@@ -1468,7 +1468,7 @@ msgstr "<b>警告：</b>如果这些分支已经完全并入 HEAD，它将不被
 
 #. Resource IDs: (84)
 msgid "<b>Warning:</b> This action will remove the branches on the remote."
-msgstr "<b>警告:</b> 这个操作将删除所有远程服务器上的分支"
+msgstr "<b>警告：</b>此操作将删除远端服务器上的所有分支。"
 
 #. Resource IDs: (84)
 msgid "<b>Warning:</b> This branch is not fully merged into HEAD."
@@ -1702,7 +1702,7 @@ msgstr "增加“%s”到目录"
 
 #. Resource IDs: (323)
 msgid "Add Remote"
-msgstr "添加远程服务器"
+msgstr "添加远端"
 
 #. Resource IDs: (1482)
 msgid "Add \"&Signed-off-by\""
@@ -2311,15 +2311,15 @@ msgstr "分支 (FF)"
 
 #. Resource IDs: (68)
 msgid "Branch Name"
-msgstr "分支名字"
+msgstr "分支名称"
 
 #. Resource IDs: (64)
 msgid "Branch/Tag name is invalid."
-msgstr "非法分支/标签名字"
+msgstr "分支/标签名称不合规定。"
 
 #. Resource IDs: (602)
 msgid "Branch/Tag name must not be empty or is invalid."
-msgstr "非法或者空分支/标签名字"
+msgstr "分支/标签名称必须非空且符合规定。"
 
 #. Resource IDs: (1518)
 msgid "Branch:"
@@ -2687,11 +2687,11 @@ msgstr "摘取选中的版本..."
 
 #. Resource IDs: (1255)
 msgid "Cherry Pick this commit..."
-msgstr "摘取这个版本..."
+msgstr "摘取此提交..."
 
 #. Resource IDs: (90)
 msgid "Cherry-pick failed! Skip this commit?"
-msgstr "摘取失败！跳过这个提交？"
+msgstr "摘取失败！跳过此提交？"
 
 #. Resource IDs: (65535)
 msgid "Chinese"
@@ -2723,7 +2723,7 @@ msgstr "清空回收站"
 
 #. Resource IDs: (76)
 msgid "Clean up stale remote branches"
-msgstr "清理过时的远程分支"
+msgstr "清理过时的远端分支"
 
 #. Resource IDs: (145)
 msgid "Cleaning up"
@@ -2967,7 +2967,7 @@ msgstr "提交消息"
 
 #. Resource IDs: (1255)
 msgid "Commit Name"
-msgstr "提交者名字"
+msgstr "提交者名称"
 
 #. Resource IDs: (1750)
 msgid "Commit Ordering:"
@@ -3215,7 +3215,7 @@ msgstr "将路径复制到剪贴板"
 
 #. Resource IDs: (90)
 msgid "Copy ref names"
-msgstr "复制参考名字"
+msgstr "复制参考名称"
 
 #. Resource IDs: (323)
 msgid "Copy selection to cli&pboard"
@@ -3629,7 +3629,7 @@ msgstr "删除%d个分支"
 #. Resource IDs: (80)
 #, c-format
 msgid "Delete %d remote branches"
-msgstr "删除%d个远程分支"
+msgstr "删除%d个远端分支"
 
 #. Resource IDs: (84)
 #, c-format
@@ -3672,20 +3672,20 @@ msgstr "删除分支/标签"
 
 #. Resource IDs: (80)
 msgid "Delete remote branch"
-msgstr "删除远程分支"
+msgstr "删除远端分支"
 
 #. Resource IDs: (4579)
 msgid "Delete remote tag - TortoiseGit"
-msgstr "删除远程标签 - TortoiseGit"
+msgstr "删除远端标签 - TortoiseGit"
 
 #. Resource IDs: (95)
 #, c-format
 msgid "Delete remote tags on \"%s\"..."
-msgstr "删除远端标签 在 \"%s\"..."
+msgstr "删除远端标签 在“%s”..."
 
 #. Resource IDs: (86)
 msgid "Delete remote tags..."
-msgstr "删除远程标签..."
+msgstr "删除远端标签..."
 
 #. Resource IDs: (605)
 msgid "Delete submodule"
@@ -3697,7 +3697,7 @@ msgstr "删除标签"
 
 #. Resource IDs: (85)
 msgid "Delete the existing branch or use a different name."
-msgstr "删除现存的分支，或者使用不同的名字。"
+msgstr "删除现存的分支，或者使用其他名称。"
 
 #. Resource IDs: (314)
 msgid ""
@@ -3736,7 +3736,7 @@ msgstr "正在删除"
 
 #. Resource IDs: (88)
 msgid "Deleting remote refs..."
-msgstr "删除远程引用..."
+msgstr "删除远端引用..."
 
 #. Resource IDs: (65535)
 msgid "Delivery:"
@@ -4034,7 +4034,7 @@ msgstr "您确定要取消选中文件的 skip-worktree （Git 将不再检查�
 
 #. Resource IDs: (86)
 msgid "Do you want to fetch remote branches from the newly added remote?"
-msgstr "您要从新添加的远程服务器下载远程分支吗？"
+msgstr "您要从新添加的远端获取远端分支吗？"
 
 #. Resource IDs: (315)
 msgid "Do you want to load the changed files?"
@@ -4930,14 +4930,14 @@ msgid ""
 "Force push only if the remote reference points to the same commit as the remote tracking branch.\n"
 "This can cause the remote repository to lose commits; use it with care.\n"
 "This option corresponds to the --force-with-lease git option."
-msgstr "仅在远程引用指向同一个提交为远程跟踪分支时强制推送。\n这可能导致远程仓库丢失提交。请谨慎使用。\n此选项对应 git 选项 --force-with-lease。"
+msgstr "仅在远端引用指向同一个提交为远端跟踪分支时强制推送。\n这可能导致远端仓库丢失提交。请谨慎使用。\n此选项对应 git 选项 --force-with-lease。"
 
 #. Resource IDs: (1796)
 msgid ""
 "Force push to the selected remote reference and override it without any safety checks.\n"
 "This can cause the remote repository to lose unseen commits; use it with care.\n"
 "This option corresponds to the --force git option."
-msgstr "强制推送到选定的远程引用并覆盖它，不进行任何安全检查。\n这可能导致远程仓库丢失不可见的提交。请谨慎使用。\n此选项对应 git 选项 --force。"
+msgstr "强制推送到选定的远端引用并覆盖它，不进行任何安全检查。\n这可能导致远端仓库丢失不可见的提交。请谨慎使用。\n此选项对应 git 选项 --force。"
 
 #. Resource IDs: (603)
 msgid ""
@@ -6553,11 +6553,11 @@ msgstr "数字"
 
 #. Resource IDs: (1071)
 msgid "Name"
-msgstr "名字"
+msgstr "名称"
 
 #. Resource IDs: (65535)
 msgid "Name:"
-msgstr "名字:"
+msgstr "名称:"
 
 #. Resource IDs: (156)
 msgid "Navigate"
@@ -6723,7 +6723,7 @@ msgid ""
 "No files to show with the current setting.\n"
 "Check one or more settings below to see unversioned, ignored and/or unmodified files.\n"
 "To see remote changes, click on 'Check Repository'"
-msgstr "根据当前配置，没有文件显示。\n检查下面的配置项，查看未版本控制的、被忽略的或未修改的文件。\n为了查看远程修改，请点击 “检查版本库”。"
+msgstr "根据当前配置，没有文件显示。\n检查下面的配置项，查看未版本控制的、被忽略的或未修改的文件。\n要查看远端修改，请点击“检查版本库”。"
 
 #. Resource IDs: (77)
 msgid ""
@@ -7109,7 +7109,7 @@ msgstr "原始大小(&G)"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
-msgstr "原始名字"
+msgstr "原名称"
 
 #. Resource IDs: (1065)
 msgid "Other Task Panes"
@@ -7899,7 +7899,7 @@ msgstr "远端URL(&U):"
 
 #. Resource IDs: (1754)
 msgid "Remote &tracking branch"
-msgstr "远程跟踪分支(&t)"
+msgstr "远端跟踪分支(&t)"
 
 #. Resource IDs: (65535)
 msgid "Remote Branch"
@@ -7907,19 +7907,19 @@ msgstr "远端分支"
 
 #. Resource IDs: (71)
 msgid "Remote URL must not be empty."
-msgstr "远程URL不能为空"
+msgstr "远端 URL 不能为空。"
 
 #. Resource IDs: (76)
 msgid "Remote Update"
-msgstr "更新远程"
+msgstr "更新远端"
 
 #. Resource IDs: (71)
 msgid "Remote name must not be empty."
-msgstr "远程名字不能为空"
+msgstr "远端名称不能为空。"
 
 #. Resource IDs: (63)
 msgid "Remote status"
-msgstr "远程状态"
+msgstr "远端状态"
 
 #. Resource IDs: (65535)
 msgid "Remote:"
@@ -8813,12 +8813,12 @@ msgstr "设置作者日期(&D)"
 
 #. Resource IDs: (86)
 msgid "Sets the remote as the \"pushremote\" for the selected local branch."
-msgstr "为选定的本地分支设置远端作为\"pushremote\""
+msgstr "设置该远端为选定本地分支的“pushremote”。"
 
 #. Resource IDs: (86)
 msgid ""
 "Sets the remote branch as the \"pushbranch\" for the selected local branch."
-msgstr "为选定的本地分支设置远端分支作为\"pushbranch\""
+msgstr "设置该远端分支为选定本地分支的“pushbranch”。"
 
 #. Resource IDs: (13)
 msgid "Setting properties..."
@@ -9570,7 +9570,7 @@ msgstr "符号链接"
 
 #. Resource IDs: (22)
 msgid "Sync Remote Repositories, including pull, push, email patch and so on"
-msgstr "同步远端版本库，包括拉取，推送，发送补丁等等"
+msgstr "同步远端版本库，包括拉取、推送、发送补丁等等"
 
 #. Resource IDs: (22)
 msgid "Sync..."
@@ -9667,7 +9667,7 @@ msgstr "Thai"
 msgid ""
 "The Remote Config was changed.\n"
 "Do you want to save now or discard changes?"
-msgstr "远程配置已经更新。\n现在保存还是放弃？"
+msgstr "远端配置已更改。\n您想保存还是放弃更改？"
 
 #. Resource IDs: (70)
 #, c-format
@@ -9675,7 +9675,7 @@ msgid ""
 "The branch \"%s\" is a <i>remote</i> branch.\n"
 "\n"
 "Do you really want to <ct=0x0000FF>delete</ct> it?"
-msgstr "分支“%s”是一个<i>远程分支</i>。\n\n您确定要<ct=0x0000FF>删除它</ct>吗？"
+msgstr "分支“%s”是一个<i>远端分支</i>。\n\n您确定要<ct=0x0000FF>删除它</ct>吗？"
 
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -9715,7 +9715,7 @@ msgstr "差异比较引擎中止，错误信息：\n%s"
 msgid ""
 "The entered source ref is ambiguous.\n"
 "You have to make it unique (e.g. by adding \"refs/heads/\" as a prefix for branches or \"refs/tags/\" for tags)!"
-msgstr "含糊的原引用名\n分支使用\"refs/heads/\"前缀，标签使用 \"refs/tags/\"前缀来使得名字唯一！"
+msgstr "输入的源引用不明确。\n您必须确保目标唯一！您可以添加“refs/heads/”作为分支的前缀，添加“refs/tags/”作为标签的前缀。"
 
 #. Resource IDs: (64)
 #, c-format
@@ -9968,11 +9968,11 @@ msgstr "该工作树并不干净，并且含有未暂存的变更。\n审阅并�
 
 #. Resource IDs: (65535)
 msgid "Their file:"
-msgstr "远程文件:"
+msgstr "远端文件:"
 
 #. Resource IDs: (263)
 msgid "Theirs"
-msgstr "远程文件（theirs）"
+msgstr "远端文件（theirs）"
 
 #. Resource IDs: (169)
 msgid ""
@@ -10030,7 +10030,7 @@ msgstr "这里有比当前打开的文档更新的文档，包含了程序关闭
 
 #. Resource IDs: (78)
 msgid "This field is required and must not be empty."
-msgstr "这个域必须输入且不能为空"
+msgstr "此栏必填且不能为空。"
 
 #. Resource IDs: (83)
 msgid ""
@@ -10065,7 +10065,7 @@ msgstr "该属性只能设置在文件夹上，不能在文件上设置。"
 msgid ""
 "This remote name collides with fetch refspec of other remotes\n"
 "Please use another name"
-msgstr "远端名字和其他名字冲突\n请使用其他名字"
+msgstr "远端名称和其他名称冲突\n请使用其他名称"
 
 #. Resource IDs: (67)
 msgid "This task requires a clean working tree."
@@ -10099,7 +10099,7 @@ msgid ""
 "To avoid fetching wrong tags, if this is not an official remote,\n"
 "you are advised to disable tag fetching for this remote.\n"
 "Disable tag fetching?"
-msgstr "如果这不是一个官方的远程，为了避免获取到错误的标签，建议您禁用获取标签选项。\n禁用获取标签吗？"
+msgstr "如果这不是一个官方的远端，为了避免获取到错误的标签，建议您禁用获取标签选项。\n禁用获取标签吗？"
 
 #. Resource IDs: (606)
 msgid ""
@@ -10571,11 +10571,11 @@ msgstr "使用剪贴板上的标准差异(&C)"
 
 #. Resource IDs: (85)
 msgid "Use a different name or use the \"Force\" option to overwrite it."
-msgstr "使用不同的名字，或者使用“强制”选项覆盖已存在的。"
+msgstr "使用其他名称，或者使用“强制”选项覆盖已存在的。"
 
 #. Resource IDs: (85)
 msgid "Use a different name or use the \"Override branch\" option."
-msgstr "使用不同的名字或者使用“覆盖分支”选项"
+msgstr "使用其他名称或者使用“覆盖分支”选项。"
 
 #. Resource IDs: (2054)
 msgid ""
@@ -10772,7 +10772,7 @@ msgid ""
 "/merged:<path to resulting merged file>\n"
 "/diff:<path to unified diff file>\n"
 "/patchpath:<path to folder>"
-msgstr "可用的命令行选项有: \n/base: <基础文件的路径>\n/theirs: <远程文件的路径>\n/yours: <本地文件的路径>\n/merged: <合并后文件的路径>\n/diff: <标准差异文件的路径>\n/patchpath: <文件夹路径>"
+msgstr "可用的命令行选项有: \n/base: <基础文件的路径>\n/theirs: <远端文件的路径>\n/yours: <本地文件的路径>\n/merged: <合并后文件的路径>\n/diff: <标准差异文件的路径>\n/patchpath: <文件夹路径>"
 
 #. Resource IDs: (11, 357)
 msgid "Value"
@@ -10953,7 +10953,7 @@ msgstr "当补丁进行非干净的合并失败时，如果补丁记录有 blob 
 msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
-msgstr "如果远程名称为空，在您键入 URL 时，远程名称将自动填充为“origin”，因此这不是您的必填项。"
+msgstr "如果远端名称为空，在您键入 URL 时，远端名称将自动填充为“origin”，因此这不是您的必填项。"
 
 #. Resource IDs: (96)
 msgid "Whether to reference only annotated tags, all tags or all refs"
