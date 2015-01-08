@@ -10,14 +10,14 @@
 # Hydriz Scholz <admin@alphacorp.tk>, 2013
 # Hydriz Scholz <admin@alphacorp.tk>, 2013,2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
-# Yue Lin Ho <yuelinho777@gmail.com>, 2014
+# Yue Lin Ho <yuelinho777@gmail.com>, 2014-2015
 # ch cooli <ch3cooli@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-01-08 02:09+0000\n"
+"PO-Revision-Date: 2015-01-08 07:11+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -521,7 +521,7 @@ msgstr "提交子模組(&C) ..."
 
 #. Resource IDs: (68)
 msgid "&Commit w/o"
-msgstr "提交但不(&C)"
+msgstr "強制提交(&C)"
 
 #. Resource IDs: (8)
 msgid "&Commit..."
@@ -863,7 +863,7 @@ msgstr "亮度(&L):"
 
 #. Resource IDs: (65535)
 msgid "&Max line length for inline diffs"
-msgstr "行內比對的最大行長度"
+msgstr "比對行內差異的長度上限(&M)"
 
 #. Resource IDs: (16543)
 msgid "&Menu animations:"
@@ -1047,7 +1047,7 @@ msgstr "正規表示式(&R)"
 
 #. Resource IDs: (97)
 msgid "&Remind me later"
-msgstr "稍微再提醒(&R)"
+msgstr "稍後再提醒(&R)"
 
 #. Resource IDs: (1617)
 msgid "&Remote Branch:"
@@ -6223,7 +6223,7 @@ msgstr "紀錄"
 
 #. Resource IDs: (65535)
 msgid "Log Branch Line"
-msgstr "歷史中的分支行"
+msgstr "歷史紀錄中的分支線"
 
 #. Resource IDs: (65535)
 msgid "Log Graphic"
@@ -9884,7 +9884,7 @@ msgid ""
 "and the patchline\n"
 "%s\n"
 "do not match!"
-msgstr "補綴檔似乎過舊! 檔案中的\n%s\n 行與補綴檔中的\n%s\n行不符合!"
+msgstr "補綴檔似乎過舊! 檔案中此行\n%s\n與補綴檔中此行\n%s\n不符合！"
 
 #. Resource IDs: (88)
 msgid ""
@@ -10462,7 +10462,7 @@ msgstr "預期外的檔案格式."
 
 #. Resource IDs: (93)
 msgid "Unflag as skip-worktree and assume-unchanged"
-msgstr "取消忽略本地變更旗標 skip-worktree 及 assume-unchanged"
+msgstr "取消 skip-worktree 及 assume-unchanged 標記"
 
 #. Resource IDs: (1070)
 msgid "Unfold"
