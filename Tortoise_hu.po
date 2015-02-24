@@ -10,15 +10,15 @@
 # Gábor Prótár <protar.gabor@gmail.com>, 2013-2014
 # Hgrg <hgrg.wp@gmail.com>, 2013
 # Hgrg <hgrg.wp@gmail.com>, 2013
-# Péter Handbauer <loserock@gmail.com>, 2014
+# Péter Handbauer <loserock@gmail.com>, 2014-2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-02-17 13:08+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2015-02-24 20:25+0000\n"
+"Last-Translator: Péter Handbauer <loserock@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -190,7 +190,7 @@ msgstr "%1\nA fájl nem található.\nEllenőrizd, hogy helyes-e az elérési ú
 #. Resource IDs: (91)
 #, c-format
 msgid "%HOME%/.gitconfig or %XDGHOME%/git/config"
-msgstr ""
+msgstr "%HOME%/.gitconfig vagy %XDGHOME%/git/config"
 
 #. Resource IDs: (357)
 #, c-format
@@ -220,7 +220,7 @@ msgstr "%d fájl eltávolítva."
 #. Resource IDs: (69)
 #, c-format
 msgid "%d files reverted to %s."
-msgstr ""
+msgstr "%d fájl visszaállítva %s verzióra."
 
 #. Resource IDs: (169)
 #, c-format
@@ -1554,7 +1554,7 @@ msgstr ""
 
 #. Resource IDs: (85)
 msgid "A branch with this name already exists."
-msgstr ""
+msgstr "Már létezik azonos nevű branch."
 
 #. Resource IDs: (69)
 msgid ""
@@ -1564,7 +1564,7 @@ msgstr ""
 
 #. Resource IDs: (201)
 msgid "A newer version is available. Please download the current version!"
-msgstr ""
+msgstr "Újabb verzió érhető el. Kérem töltse le a friss verziót!"
 
 #. Resource IDs: (195)
 msgid ""
@@ -1640,7 +1640,7 @@ msgstr ""
 
 #. Resource IDs: (15)
 msgid "Aborts a running merge."
-msgstr ""
+msgstr "Futó merge megszakítása."
 
 #. Resource IDs: (156)
 msgid "About"
@@ -1947,11 +1947,11 @@ msgstr ""
 
 #. Resource IDs: (251)
 msgid "Append right block"
-msgstr ""
+msgstr "Baloldali blokk hozzáfűzése."
 
 #. Resource IDs: (251)
 msgid "Append this block to left"
-msgstr ""
+msgstr "Jelen blokk hozzáfűzése balra"
 
 #. Resource IDs: (65535)
 msgid "Application Frame Menus: "
@@ -2053,7 +2053,7 @@ msgstr "Jelenlegi verzió: %d"
 
 #. Resource IDs: (84)
 msgid "At the moment, you can only rename branches."
-msgstr ""
+msgstr "Jelen pillanatban a branch-ágak csak átnevezhetők."
 
 #. Resource IDs: (3843)
 msgid "Attempted an unsupported operation."
@@ -2076,7 +2076,7 @@ msgstr "A program %1-ból olvasás közben kísérelt meg írni."
 
 #. Resource IDs: (65535)
 msgid "Attention: This command affects the whole working tree!"
-msgstr ""
+msgstr "Figyelem: A parancs a teljes fejelsztői fát befolyásolja!"
 
 #. Resource IDs: (131, 160)
 msgid "Authentication"
@@ -2467,7 +2467,7 @@ msgstr "Mégse"
 msgid ""
 "Cancel\n"
 "Don't quit TortoiseGitMerge"
-msgstr ""
+msgstr "Mégse\nNem lép ki a TortoiseGitMerge"
 
 #. Resource IDs: (315)
 msgid ""
@@ -2479,13 +2479,13 @@ msgstr ""
 msgid ""
 "Cancel\n"
 "Keep the empty file."
-msgstr ""
+msgstr "Mégse\nÜres fájl megtartása."
 
 #. Resource IDs: (315)
 msgid ""
 "Cancel\n"
 "Resolve the conflicts first."
-msgstr ""
+msgstr "Mégse\nKonfliktusok feloldása először."
 
 #. Resource IDs: (315)
 msgid ""
@@ -2530,7 +2530,7 @@ msgstr "Jobbklikk-re megjelenő menü"
 
 #. Resource IDs: (117)
 msgid "Case-sensitive"
-msgstr ""
+msgstr "Nagybetű érzékeny"
 
 #. Resource IDs: (65535)
 msgid "Cate&gories:"
@@ -2834,7 +2834,7 @@ msgstr "Vágólap"
 
 #. Resource IDs: (606)
 msgid "Clone"
-msgstr ""
+msgstr "Klónozás"
 
 #. Resource IDs: (1572)
 msgid "Clone Existing Repository"
@@ -2846,7 +2846,7 @@ msgstr "Tároló klónozása"
 
 #. Resource IDs: (1653)
 msgid "Clone into Bare Repo"
-msgstr ""
+msgstr "Klónozás csupasz tárolóba"
 
 #. Resource IDs: (14)
 msgid "Clone..."
@@ -2888,7 +2888,7 @@ msgstr "Bezárja az aktív ablakot és megkérdezi, hogy elmentse-e a dokumentum
 
 #. Resource IDs: (156)
 msgid "Collapse"
-msgstr ""
+msgstr "Összecsukás"
 
 #. Resource IDs: (2055)
 msgid ""
@@ -2918,7 +2918,7 @@ msgstr ""
 
 #. Resource IDs: (1255)
 msgid "Combine to one commit"
-msgstr ""
+msgstr "Egyesítés egy kommitba"
 
 #. Resource IDs: (65535)
 msgid "Comman&ds:"
@@ -3090,7 +3090,7 @@ msgstr "Beállítások"
 
 #. Resource IDs: (65535)
 msgid "Config source"
-msgstr ""
+msgstr "Forrás beállítása"
 
 #. Resource IDs: (65535)
 msgid "Config type:"
@@ -3128,7 +3128,7 @@ msgstr ""
 
 #. Resource IDs: (1768)
 msgid "Confirm to kill running git process"
-msgstr ""
+msgstr "Futó git folyamat kilövésének megerősítése"
 
 #. Resource IDs: (1257, 4568)
 msgid "Conflict"
@@ -3136,7 +3136,7 @@ msgstr "Konfliktus"
 
 #. Resource IDs: (67)
 msgid "Conflict Files"
-msgstr ""
+msgstr "Konfliktus fájlok"
 
 #. Resource IDs: (65535)
 msgid "Conflict resolved"
@@ -3148,7 +3148,7 @@ msgstr "Konfliktusos"
 
 #. Resource IDs: (86)
 msgid "Conflicts"
-msgstr ""
+msgstr "Konfliktusok"
 
 #. Resource IDs: (188)
 #, c-format
@@ -3173,11 +3173,11 @@ msgstr "Dokkolt ablak összecsukása"
 
 #. Resource IDs: (501)
 msgid "Convert spaces to tabs"
-msgstr ""
+msgstr "Szóközök cseréje tabulátorra"
 
 #. Resource IDs: (501)
 msgid "Convert tabs to spaces"
-msgstr ""
+msgstr "Tabulátorok cseréje szóközre"
 
 #. Resource IDs: (1253)
 msgid "Cop&y"
@@ -3216,11 +3216,11 @@ msgstr "Másolás és átnevezés"
 
 #. Resource IDs: (1252)
 msgid "Copy log messages to clipboard"
-msgstr ""
+msgstr "Log üzenetek másolása vágólapra"
 
 #. Resource IDs: (32777)
 msgid "Copy log to clipboard"
-msgstr ""
+msgstr "Log másolása vágólapra"
 
 #. Resource IDs: (209)
 msgid "Copy paths to clipboard"
@@ -3420,7 +3420,7 @@ msgstr ".gitignore fájl létrehozása"
 
 #. Resource IDs: (82)
 msgid "Create Branch"
-msgstr ""
+msgstr "Branch létrehozása"
 
 #. Resource IDs: (1254)
 msgid "Create Branch at this version..."
@@ -3677,7 +3677,7 @@ msgstr "%d &elem törlése és kizárása kiterjesztés alapján"
 
 #. Resource IDs: (80)
 msgid "Delete branch"
-msgstr ""
+msgstr "Branch törlése"
 
 #. Resource IDs: (1255)
 msgid "Delete branch/tag"
@@ -3685,7 +3685,7 @@ msgstr "Ág/címke törlése"
 
 #. Resource IDs: (80)
 msgid "Delete remote branch"
-msgstr ""
+msgstr "Távoli branch törlése"
 
 #. Resource IDs: (4579)
 msgid "Delete remote tag - TortoiseGit"
@@ -3702,7 +3702,7 @@ msgstr ""
 
 #. Resource IDs: (605)
 msgid "Delete submodule"
-msgstr ""
+msgstr "Almodul törlése"
 
 #. Resource IDs: (83)
 msgid "Delete tag"
@@ -3710,7 +3710,7 @@ msgstr ""
 
 #. Resource IDs: (85)
 msgid "Delete the existing branch or use a different name."
-msgstr ""
+msgstr "Törölje a létező branch-ágat vagy használjon másik nevet."
 
 #. Resource IDs: (314)
 msgid ""
@@ -4034,7 +4034,7 @@ msgstr ""
 #. Resource IDs: (71)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
-msgstr ""
+msgstr "Biztosan el akarja \"%s\"-t távolítani?"
 
 #. Resource IDs: (69)
 msgid ""
