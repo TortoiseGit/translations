@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-02-28 23:22+0000\n"
+"PO-Revision-Date: 2015-03-10 10:47+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -872,7 +872,7 @@ msgstr "内嵌差异比较的最大行长度(&M)"
 
 #. Resource IDs: (16543)
 msgid "&Menu animations:"
-msgstr "动画菜单(&M):"
+msgstr "菜单动画(&M):"
 
 #. Resource IDs: (16921)
 msgid "&Menu contents:"
@@ -2123,11 +2123,11 @@ msgstr "作者:\tFrank Li (lznuaa@gmail.com),\n\t\tSven Strickroth (email@cs-war
 
 #. Resource IDs: (65535)
 msgid "Auto CrLf convert"
-msgstr "自动DOS\\UNIX换行符转化"
+msgstr "自动CrLf换行符转换"
 
 #. Resource IDs: (65535)
 msgid "Auto Crlf:"
-msgstr "自动DOS\\UNIX换行符转化:"
+msgstr "自动CrLf转换:"
 
 #. Resource IDs: (1003)
 msgid "Auto Hide"
@@ -2413,7 +2413,7 @@ msgstr "从版本创建分支/标签(&R)"
 
 #. Resource IDs: (65535)
 msgid "C&urrent Keys:"
-msgstr "当前主键(&U):"
+msgstr "当前快捷键(&U):"
 
 #. Resource IDs: (501)
 msgid "C&ut"
@@ -2519,7 +2519,7 @@ msgstr "不能强制更新当前分支。如果您需要，请使用 reset 命�
 #. Resource IDs: (1)
 #, c-format
 msgid "Cannot show blame. \"%s\" is not under version control by git."
-msgstr "不能显示追溯. \"%s\" 没有被git管理"
+msgstr "不能显示追溯。“%s”没有被 git 管理。"
 
 #. Resource IDs: (68)
 msgid "Cannot show diff because of inconsistent newlines in the file."
@@ -2989,7 +2989,7 @@ msgstr "提交者名称"
 
 #. Resource IDs: (1750)
 msgid "Commit Ordering:"
-msgstr "提交排序："
+msgstr "对提交的排序方式："
 
 #. Resource IDs: (96)
 msgid "Commit super project"
@@ -3605,7 +3605,7 @@ msgstr "Cyrillic"
 
 #. Resource IDs: (1624)
 msgid "DCommit Type"
-msgstr "DCommit类型"
+msgstr "DCommit 类型"
 
 #. Resource IDs: (14)
 msgid "Daemon"
@@ -3729,7 +3729,7 @@ msgstr "已删除"
 
 #. Resource IDs: (4570)
 msgid "Deleted merge conflict"
-msgstr "删除分支合并冲突"
+msgstr "已删除合并冲突"
 
 #. Resource IDs: (23)
 msgid ""
@@ -4286,7 +4286,7 @@ msgstr "代理服务器的名称或 IP 地址"
 msgid ""
 "Ellipse Tools\n"
 "Ellipse"
-msgstr "Ellipse 工具\nEllipse"
+msgstr "椭圆工具\n椭圆"
 
 #. Resource IDs: (1255)
 msgid "Email"
@@ -5881,7 +5881,7 @@ msgstr "导入%s 到 %s%s"
 
 #. Resource IDs: (22, 329)
 msgid "Import SVN Ignore"
-msgstr "输入SVN忽略设置"
+msgstr "导入 SVN 忽略设置"
 
 #. Resource IDs: (22)
 msgid "Import SVN Ignore ..."
@@ -5890,7 +5890,7 @@ msgstr "导入SVN忽略..."
 #. Resource IDs: (1640)
 msgid ""
 "Import svn ignore file to .git/info/exclude file (file will be overwritten)"
-msgstr "导入 SVN 忽略文件到目录.git/info/exclude file(如果存在，文件将被覆盖)"
+msgstr "导入 SVN 忽略文件到 .git/info/exclude 文件（文件将被覆盖）"
 
 #. Resource IDs: (120)
 #, c-format
@@ -6378,7 +6378,7 @@ msgstr "动作记录最大行数"
 
 #. Resource IDs: (16655)
 msgid "Me&nus show recently used commands first"
-msgstr "用来显示最近使用的命令列表的菜单(&N)"
+msgstr "菜单中首先显示最近使用过的命令(&N)"
 
 #. Resource IDs: (16134)
 msgid "Menu"
@@ -6390,7 +6390,7 @@ msgstr "菜单栏"
 
 #. Resource IDs: (16626)
 msgid "Menu s&hadows"
-msgstr "阴影菜单(&H)"
+msgstr "菜单阴影(&H)"
 
 #. Resource IDs: (78, 313)
 msgid "Merge"
@@ -7374,11 +7374,11 @@ msgstr "摘取 %s"
 msgid ""
 "Picture (Metafile)\n"
 "a picture"
-msgstr "图画(元文件)\n一幅图画"
+msgstr "图片 (元文件)\n一张图片"
 
 #. Resource IDs: (65535)
 msgid "Picture:"
-msgstr "图画:"
+msgstr "图片:"
 
 #. Resource IDs: (157)
 msgid ""
@@ -7479,11 +7479,11 @@ msgstr "前置这个块到左边"
 
 #. Resource IDs: (65535)
 msgid "Press &New Shortcut Key:"
-msgstr "按新的快捷键(&N):"
+msgstr "按下新的快捷键(&N):"
 
 #. Resource IDs: (65535)
 msgid "Press &new shortcut key:"
-msgstr "按新的快捷键(&N):"
+msgstr "按下新的快捷键(&N):"
 
 #. Resource IDs: (1069)
 msgid "Preview"
@@ -8418,7 +8418,7 @@ msgstr "STARTTLS"
 
 #. Resource IDs: (331)
 msgid "SVN Commit Type"
-msgstr "SVN Commit类型"
+msgstr "SVN Commit 类型"
 
 #. Resource IDs: (22)
 msgid "SVN DCommit..."
@@ -8979,7 +8979,7 @@ msgstr "在缎带下方显示快捷访问工具栏"
 
 #. Resource IDs: (16651)
 msgid "Show Screen&Tips on toolbars"
-msgstr "在工具栏中显示屏幕提示(&T)"
+msgstr "在工具栏上显示工具提示(&T)"
 
 #. Resource IDs: (156)
 msgid "Show Whitespaces"
@@ -9464,11 +9464,11 @@ msgstr "风格"
 
 #. Resource IDs: (1, 65)
 msgid "Subject"
-msgstr "标题"
+msgstr "主题"
 
 #. Resource IDs: (65535)
 msgid "Subject:"
-msgstr "标题:"
+msgstr "主题:"
 
 #. Resource IDs: (1639)
 msgid "Submodule"
@@ -10129,15 +10129,15 @@ msgstr "三路比较"
 
 #. Resource IDs: (16928)
 msgid "Tile &Vertically"
-msgstr "垂直标题(&V)"
+msgstr "垂直堆叠(&V)"
 
 #. Resource IDs: (16924)
 msgid "Tile Hori&zontally"
-msgstr "水平标题(&Z)"
+msgstr "水平堆叠(&Z)"
 
 #. Resource IDs: (1676)
 msgid "To"
-msgstr "收件人"
+msgstr "至"
 
 #. Resource IDs: (1422)
 msgid ""
