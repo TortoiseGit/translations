@@ -8,11 +8,11 @@
 # Andrei Stepanov, 2014
 # Arioch <the_Arioch@nm.ru>, 2012-2013
 # Arkady Shapkin <arkadiy_s@inbox.ru>, 2011
-# KOLANICH <c770453@rmqkr.net>, 2013-2014
+# KOLANICH, 2013-2015
 # _deniska <denis_levin@mail.ru>, 2011
 # Дмитрий Сытьков <sytkov@gmail.com>, 2011
 # German Borisov <borisov.german@gmail.com>, 2012-2013
-# KOLANICH <c770453@rmqkr.net>, 2013
+# KOLANICH, 2013
 # Lübbe Onken <l.onken@rac.de>, 2011
 # Alexander Shchekaturov <shcham@gmail.com>, 2013
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013
@@ -27,8 +27,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-02-28 21:49+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2015-03-13 14:38+0000\n"
+"Last-Translator: KOLANICH\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -965,7 +965,7 @@ msgstr "&Одна страница"
 
 #. Resource IDs: (1828)
 msgid "&Onto"
-msgstr ""
+msgstr "Поверх"
 
 #. Resource IDs: (101, 1251, 32773, 57601)
 msgid "&Open"
@@ -1873,7 +1873,7 @@ msgstr "Разрешить использовать свой URL Gravatar"
 msgid ""
 "Allows to create an empty commit which only has a commit message and no "
 "files (cf. git commit --allow-empty)."
-msgstr ""
+msgstr "Позволяет создать пустой коммит, в котором есть только комментарий коммита и нет файлов (cf. git commit --allow-empty)."
 
 #. Resource IDs: (66)
 msgid "Already up to date."
@@ -3929,7 +3929,7 @@ msgstr "Папка:"
 
 #. Resource IDs: (1796)
 msgid "Disable sounds"
-msgstr ""
+msgstr "Отключить звуки"
 
 #. Resource IDs: (195)
 msgid ""
@@ -9177,7 +9177,7 @@ msgstr "Показать специальные символы для непеч
 
 #. Resource IDs: (1314)
 msgid "Show status of subrepositories in parent folders"
-msgstr ""
+msgstr "Показывать состояние подрепозиториев в родительских папках"
 
 #. Resource IDs: (87)
 msgid "Show symbols on ref labels to substitute part of the ref names"
@@ -9520,7 +9520,7 @@ msgstr "Подмодуль \"%1!s!\"↩⏎\nРевизия %2!s!"
 
 #. Resource IDs: (1585)
 msgid "Submodule of Project: "
-msgstr ""
+msgstr "Подмодуль проекта"
 
 #. Resource IDs: (1708)
 msgid "Submodules"
@@ -10830,7 +10830,7 @@ msgid ""
 "/saverequiredonconflicts\n"
 "/oneway <forces the one-way view>\n"
 "/line:<line number to jump to>"
-msgstr ""
+msgstr "Верные параметры командной строки:\n/base:<путь к базовому файлу>\n/basename:<базовое имя в заголовке>\n/theirs:<путь к \"их\" файлу>\n/theirsname:<\"их\" имя в заголовке>\n/mine:<путь к \"нашему\" файлу>\n/minename:<\"наше\" имя в заголовке>\n/merged:<путь к слитому файлу>\n/mergedname:<name to show on the view title>\n/diff:<путь к файлу унифицированноных различий>\n/patchpath:<путь к папке>\n/saverequired\n/saverequiredonconflicts\n/oneway <принудительный однонаправленный вид>\n/line:<номер строки, к которой перейти>"
 
 #. Resource IDs: (11, 357)
 msgid "Value"
