@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-03-01 17:08+0000\n"
-"Last-Translator: Zbyněk Schwarz <zbynek.schwarz@gmail.com>\n"
+"PO-Revision-Date: 2015-03-19 22:52+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -657,6 +657,10 @@ msgstr "&Povolit proxy server"
 msgid "&Enable edit"
 msgstr "&Povolit úpravy"
 
+#. Resource IDs: (32771)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (323)
 msgid "&Export selection to..."
 msgstr "&Exportovat výběr do..."
@@ -923,6 +927,10 @@ msgstr "&Nové "
 msgid "&New..."
 msgstr "&Nové..."
 
+#. Resource IDs: (1014)
+msgid "&Next >"
+msgstr ""
+
 #. Resource IDs: (58114)
 msgid "&Next Page"
 msgstr "&Další stránka"
@@ -994,6 +1002,10 @@ msgstr "&Vybrat VŠE"
 #. Resource IDs: (1414)
 msgid "&Port:"
 msgstr "&Port:"
+
+#. Resource IDs: (32782)
+msgid "&Print"
+msgstr ""
 
 #. Resource IDs: (1069)
 msgid "&Print Preview"
@@ -1423,6 +1435,10 @@ msgstr ".gitignore v kořeni úložiště"
 #. Resource IDs: (91)
 msgid ".tgitconfig in the repository root"
 msgstr ".tgitconfig v kořeni úložiště"
+
+#. Resource IDs: (1020)
+msgid "< &Previous"
+msgstr ""
 
 #. Resource IDs: (16506)
 msgid "<.....>"
@@ -1955,6 +1971,10 @@ msgstr "Umístit tento blok za konec levého"
 msgid "Application Frame Menus: "
 msgstr "Nabídky rámečků aplikace"
 
+#. Resource IDs: (32780)
+msgid "Apply &Patch..."
+msgstr ""
+
 #. Resource IDs: (20)
 msgid "Apply Patch Serial..."
 msgstr "Použít řadovou záplatu..."
@@ -2103,10 +2123,6 @@ msgstr "Autoři"
 #. Resource IDs: (1265)
 msgid "Authors case sensitive"
 msgstr "Citlivost na velikost písmen u autorů"
-
-#. Resource IDs: (65535)
-msgid "Authors:"
-msgstr "Autoři:"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -3521,10 +3537,6 @@ msgstr "Pomocník pověření:"
 msgid "Credentials"
 msgstr "Pověření"
 
-#. Resource IDs: (65535)
-msgid "Credits:"
-msgstr "Poděkování:"
-
 #. Resource IDs: (1253)
 msgid "Cu&t"
 msgstr "&Vyjmout"
@@ -4130,6 +4142,10 @@ msgid ""
 "Don't save\n"
 "Reload the views without saving the modifications"
 msgstr "Neukládat\nZnovu načíst zobrazení bez uložení změn"
+
+#. Resource IDs: (65535)
+msgid "Don't show the selected items: (press shift key to show them)"
+msgstr ""
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -4876,6 +4892,10 @@ msgid ""
 "Find"
 msgstr "Najít zadaný text\nNajít"
 
+#. Resource IDs: (65535)
+msgid "Find:"
+msgstr ""
+
 #. Resource IDs: (95)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
@@ -5013,10 +5033,6 @@ msgstr "Nalezena prázdná zpráva odevzdání. Musíte nějakou zadat, jinak p�
 #. Resource IDs: (65535)
 msgid "Found auto words:"
 msgstr "Nalezena automatická slova:"
-
-#. Resource IDs: (65535)
-msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
-msgstr "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
 
 #. Resource IDs: (1385, 1522, 65535)
 msgid "From"
@@ -5478,6 +5494,10 @@ msgstr "ID"
 msgid "ID:220:V C +G"
 msgstr "ID:220:V C +G"
 
+#. Accelerator Entry for Menu ID:32771; '&Exit'
+msgid "ID:32771:V C +W"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32772; '&Overlay images'
 msgid "ID:32772:V   +O"
 msgstr "ID:32772:V   +O"
@@ -5485,6 +5505,14 @@ msgstr "ID:32772:V   +O"
 #. Accelerator Entry for Menu ID:32773; '&Open'
 msgid "ID:32773:V C +O"
 msgstr "ID:32773:V C +O"
+
+#. Accelerator Entry for Menu ID:32773; 'Save &as'
+msgid "ID:32773:V CS+S"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32774; '&Open'
+msgid "ID:32774:V C +O"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32774; '&Whitespaces'
 msgid "ID:32774:V C +T"
@@ -5494,6 +5522,10 @@ msgstr "ID:32774:V C +T"
 msgid "ID:32775:V C +D"
 msgstr "ID:32775:V C +D"
 
+#. Accelerator Entry for Menu ID:32776; '&Save'
+msgid "ID:32776:V C +S"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32778; '&Fit images in window'
 msgid "ID:32778:V   +F"
 msgstr "ID:32778:V   +F"
@@ -5501,6 +5533,14 @@ msgstr "ID:32778:V   +F"
 #. Accelerator Entry for Menu ID:32779; 'Ori&ginal size'
 msgid "ID:32779:V   +S"
 msgstr "ID:32779:V   +S"
+
+#. Accelerator Entry for Menu ID:32782; '&Print'
+msgid "ID:32782:V C +P"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32787; ''
+msgid "ID:32787:V C +F"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical'
 msgid "ID:32793:V C +V"
@@ -6353,6 +6393,10 @@ msgstr "Označí revizi jako špatnou"
 msgid "Marks revision as good"
 msgstr "Označí revizi jako dobrou"
 
+#. Resource IDs: (1021)
+msgid "Mat&ch case"
+msgstr ""
+
 #. Resource IDs: (1064, 20084)
 msgid "Match &case"
 msgstr "Shoda s &velikostí písmen"
@@ -6550,10 +6594,6 @@ msgstr "Přesunout a přejmenovat"
 #. Resource IDs: (209)
 msgid "Move to changelist"
 msgstr "Přesunout do seznamu změn"
-
-#. Resource IDs: (65535)
-msgid "Move to extended context menu (press shift key to show it)"
-msgstr "Přesunout do rozšířené kontextové nabídky (pro zobrazení použijte klávesu shift)"
 
 #. Resource IDs: (229)
 msgid "Move/Rename"
@@ -7107,6 +7147,10 @@ msgstr "Otevřít obrázkový soubor..."
 msgid "Open parent folder"
 msgstr "Otevřít nadřazenou složku"
 
+#. Resource IDs: (7)
+msgid "Open patch file"
+msgstr ""
+
 #. Resource IDs: (3602)
 msgid "Open this document"
 msgstr "Otevřít tento dokument"
@@ -7180,6 +7224,10 @@ msgstr "Přepsat větev pokud existuje"
 #. Resource IDs: (92)
 msgid "Overwrite"
 msgstr "Přepsat"
+
+#. Resource IDs: (32781)
+msgid "P&age setup"
+msgstr ""
 
 #. Resource IDs: (3845)
 #, c-format
@@ -8467,6 +8515,10 @@ msgstr "Vzorový text:"
 msgid "Save"
 msgstr "Uložit"
 
+#. Resource IDs: (32773)
+msgid "Save &as"
+msgstr ""
+
 #. Resource IDs: (101)
 msgid "Save &as..."
 msgstr "&Uložit jako..."
@@ -8560,6 +8612,10 @@ msgstr "Uložit změny do %1?"
 msgid "Save modifications."
 msgstr "Uložit změny."
 
+#. Resource IDs: (7)
+msgid "Save patch file"
+msgstr ""
+
 #. Resource IDs: (1253)
 msgid "Save revision &to..."
 msgstr "Uložit revizi &do..."
@@ -8640,6 +8696,10 @@ msgstr "Posunout doleva"
 #. Resource IDs: (1003)
 msgid "Scroll Right"
 msgstr "Posunout doprava"
+
+#. Resource IDs: (32779)
+msgid "Se&ttings"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
@@ -9225,6 +9285,10 @@ msgstr "Zobrazí protokol pro zvolený soubor/složku"
 msgid "Si&gn"
 msgstr "&Podepsat"
 
+#. Resource IDs: (65535)
+msgid "Significant contributions by: (see Git repository for a complete list)"
+msgstr ""
+
 #. Resource IDs: (156, 626)
 msgid "Silver Style"
 msgstr "Stříbrný Styl"
@@ -9518,13 +9582,6 @@ msgstr "Podmoduly"
 msgid "Success"
 msgstr "Úspěch"
 
-#. Resource IDs: (65535)
-msgid ""
-"Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi "
-"<snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp "
-"<djszapi@archlinux.us>"
-msgstr "Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi <snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp <djszapi@archlinux.us>"
-
 #. Resource IDs: (78)
 msgid "Switch"
 msgstr "Přejít"
@@ -9635,6 +9692,10 @@ msgstr "TIS-620"
 #. Resource IDs: (7)
 msgid "TORTOISEGITIDIFF"
 msgstr "TORTOISEGITIDIFF"
+
+#. Resource IDs: (7)
+msgid "TORTOISEGITUDIFF"
+msgstr ""
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10307,6 +10368,17 @@ msgstr "TortoiseGitMerge nemůže zpracovat tuto záplatu. Název souboru \"%s\"
 #. Resource IDs: (357)
 msgid "TortoiseGitUDiff"
 msgstr "TortoiseGitUDiff"
+
+#. Resource IDs: (7)
+msgid ""
+"TortoiseGitUDiff: the unified diff viewer for TortoiseSVN\n"
+"\n"
+"Available command line parameters are:\n"
+"/patchfile:\"path to unified diff file\"\n"
+"/title:\"title to show for the viewer\"\n"
+"/?  - this help dialog\n"
+"/p  - read diff input from console pipe"
+msgstr ""
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"

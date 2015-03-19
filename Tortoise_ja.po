@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-02-28 21:49+0000\n"
+"PO-Revision-Date: 2015-03-19 22:52+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -661,6 +661,10 @@ msgstr "プロキシサーバーを有効にする(&E)"
 msgid "&Enable edit"
 msgstr "編集を有効化(&E)"
 
+#. Resource IDs: (32771)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (323)
 msgid "&Export selection to..."
 msgstr "選択をエクスポート(&E)..."
@@ -927,6 +931,10 @@ msgstr "新規(&N)"
 msgid "&New..."
 msgstr "新規(&N)..."
 
+#. Resource IDs: (1014)
+msgid "&Next >"
+msgstr ""
+
 #. Resource IDs: (58114)
 msgid "&Next Page"
 msgstr "次のページ(&N)"
@@ -998,6 +1006,10 @@ msgstr "すべて採用(&P)"
 #. Resource IDs: (1414)
 msgid "&Port:"
 msgstr "ポート(&P):"
+
+#. Resource IDs: (32782)
+msgid "&Print"
+msgstr ""
 
 #. Resource IDs: (1069)
 msgid "&Print Preview"
@@ -1427,6 +1439,10 @@ msgstr "リポジトリルートの無視リストファイル(.gitignore)"
 #. Resource IDs: (91)
 msgid ".tgitconfig in the repository root"
 msgstr "リポジトリルートの .tgitconfig ファイル"
+
+#. Resource IDs: (1020)
+msgid "< &Previous"
+msgstr ""
 
 #. Resource IDs: (16506)
 msgid "<.....>"
@@ -1959,6 +1975,10 @@ msgstr "このブロックを左側の後ろへ追加"
 msgid "Application Frame Menus: "
 msgstr "アプリケーションメニュー: "
 
+#. Resource IDs: (32780)
+msgid "Apply &Patch..."
+msgstr ""
+
 #. Resource IDs: (20)
 msgid "Apply Patch Serial..."
 msgstr "パッチを適用..."
@@ -2107,10 +2127,6 @@ msgstr "作者"
 #. Resource IDs: (1265)
 msgid "Authors case sensitive"
 msgstr "作者名の大文字/小文字を区別する"
-
-#. Resource IDs: (65535)
-msgid "Authors:"
-msgstr "作者:"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -3525,10 +3541,6 @@ msgstr "資格情報ヘルパー:"
 msgid "Credentials"
 msgstr "資格情報"
 
-#. Resource IDs: (65535)
-msgid "Credits:"
-msgstr "謝辞:"
-
 #. Resource IDs: (1253)
 msgid "Cu&t"
 msgstr "切り取り(&T)"
@@ -4134,6 +4146,10 @@ msgid ""
 "Don't save\n"
 "Reload the views without saving the modifications"
 msgstr "保存しない\n変更点を保存しないでビューを再読込"
+
+#. Resource IDs: (65535)
+msgid "Don't show the selected items: (press shift key to show them)"
+msgstr ""
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -4880,6 +4896,10 @@ msgid ""
 "Find"
 msgstr "指定された文字列を検索する\n検索"
 
+#. Resource IDs: (65535)
+msgid "Find:"
+msgstr ""
+
 #. Resource IDs: (95)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
@@ -5017,10 +5037,6 @@ msgstr "空のコミットメッセージが見つかったため、リベース
 #. Resource IDs: (65535)
 msgid "Found auto words:"
 msgstr "見つかった単語:"
-
-#. Resource IDs: (65535)
-msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
-msgstr "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
 
 #. Resource IDs: (1385, 1522, 65535)
 msgid "From"
@@ -5482,6 +5498,10 @@ msgstr "ID"
 msgid "ID:220:V C +G"
 msgstr "ID:220:V C +G"
 
+#. Accelerator Entry for Menu ID:32771; '&Exit'
+msgid "ID:32771:V C +W"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32772; '&Overlay images'
 msgid "ID:32772:V   +O"
 msgstr "ID:32772:V   +O"
@@ -5489,6 +5509,14 @@ msgstr "ID:32772:V   +O"
 #. Accelerator Entry for Menu ID:32773; '&Open'
 msgid "ID:32773:V C +O"
 msgstr "ID:32773:V C +O"
+
+#. Accelerator Entry for Menu ID:32773; 'Save &as'
+msgid "ID:32773:V CS+S"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32774; '&Open'
+msgid "ID:32774:V C +O"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32774; '&Whitespaces'
 msgid "ID:32774:V C +T"
@@ -5498,6 +5526,10 @@ msgstr "ID:32774:V C +T"
 msgid "ID:32775:V C +D"
 msgstr "ID:32775:V C +D"
 
+#. Accelerator Entry for Menu ID:32776; '&Save'
+msgid "ID:32776:V C +S"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32778; '&Fit images in window'
 msgid "ID:32778:V   +F"
 msgstr "ID:32778:V   +F"
@@ -5505,6 +5537,14 @@ msgstr "ID:32778:V   +F"
 #. Accelerator Entry for Menu ID:32779; 'Ori&ginal size'
 msgid "ID:32779:V   +S"
 msgstr "ID:32779:V   +S"
+
+#. Accelerator Entry for Menu ID:32782; '&Print'
+msgid "ID:32782:V C +P"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32787; ''
+msgid "ID:32787:V C +F"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical'
 msgid "ID:32793:V C +V"
@@ -6357,6 +6397,10 @@ msgstr "マークしたリビジョンに問題があります"
 msgid "Marks revision as good"
 msgstr "マークしたリビジョンは適切です"
 
+#. Resource IDs: (1021)
+msgid "Mat&ch case"
+msgstr ""
+
 #. Resource IDs: (1064, 20084)
 msgid "Match &case"
 msgstr "大文字と小文字を区別(&C)"
@@ -6554,10 +6598,6 @@ msgstr "移動して名前を変更"
 #. Resource IDs: (209)
 msgid "Move to changelist"
 msgstr "変更リストへ移動"
-
-#. Resource IDs: (65535)
-msgid "Move to extended context menu (press shift key to show it)"
-msgstr "拡張コンテキストメニュー (shiftキーで表示されます) へ移動"
 
 #. Resource IDs: (229)
 msgid "Move/Rename"
@@ -7111,6 +7151,10 @@ msgstr "画像ファイルを開く ..."
 msgid "Open parent folder"
 msgstr "親フォルダーを開く"
 
+#. Resource IDs: (7)
+msgid "Open patch file"
+msgstr ""
+
 #. Resource IDs: (3602)
 msgid "Open this document"
 msgstr "ドキュメントを開く"
@@ -7184,6 +7228,10 @@ msgstr "存在する場合はブランチを上書き"
 #. Resource IDs: (92)
 msgid "Overwrite"
 msgstr "上書き"
+
+#. Resource IDs: (32781)
+msgid "P&age setup"
+msgstr ""
 
 #. Resource IDs: (3845)
 #, c-format
@@ -8471,6 +8519,10 @@ msgstr "サンプルテキスト:"
 msgid "Save"
 msgstr "保存"
 
+#. Resource IDs: (32773)
+msgid "Save &as"
+msgstr ""
+
 #. Resource IDs: (101)
 msgid "Save &as..."
 msgstr "名前を付けて保存(&A)..."
@@ -8564,6 +8616,10 @@ msgstr "変更を %1 へ保存しますか？"
 msgid "Save modifications."
 msgstr "変更を保存する。"
 
+#. Resource IDs: (7)
+msgid "Save patch file"
+msgstr ""
+
 #. Resource IDs: (1253)
 msgid "Save revision &to..."
 msgstr "リビジョンを保存(&T)..."
@@ -8644,6 +8700,10 @@ msgstr "左へスクロール"
 #. Resource IDs: (1003)
 msgid "Scroll Right"
 msgstr "右へスクロール"
+
+#. Resource IDs: (32779)
+msgid "Se&ttings"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
@@ -9229,6 +9289,10 @@ msgstr "選択したファイル/フォルダーのログを表示"
 msgid "Si&gn"
 msgstr "署名(&G)"
 
+#. Resource IDs: (65535)
+msgid "Significant contributions by: (see Git repository for a complete list)"
+msgstr ""
+
 #. Resource IDs: (156, 626)
 msgid "Silver Style"
 msgstr "シルバースタイル"
@@ -9522,13 +9586,6 @@ msgstr "サブモジュール"
 msgid "Success"
 msgstr "成功"
 
-#. Resource IDs: (65535)
-msgid ""
-"Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi "
-"<snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp "
-"<djszapi@archlinux.us>"
-msgstr "Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi <snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp <djszapi@archlinux.us>"
-
 #. Resource IDs: (78)
 msgid "Switch"
 msgstr "切り替え"
@@ -9639,6 +9696,10 @@ msgstr "TIS-620"
 #. Resource IDs: (7)
 msgid "TORTOISEGITIDIFF"
 msgstr "TORTOISEGITIDIFF"
+
+#. Resource IDs: (7)
+msgid "TORTOISEGITUDIFF"
+msgstr ""
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10311,6 +10372,17 @@ msgstr "TortoiseGitMergeは、このパッチファイルを適用できませ�
 #. Resource IDs: (357)
 msgid "TortoiseGitUDiff"
 msgstr "TortoiseGitUDiff"
+
+#. Resource IDs: (7)
+msgid ""
+"TortoiseGitUDiff: the unified diff viewer for TortoiseSVN\n"
+"\n"
+"Available command line parameters are:\n"
+"/patchfile:\"path to unified diff file\"\n"
+"/title:\"title to show for the viewer\"\n"
+"/?  - this help dialog\n"
+"/p  - read diff input from console pipe"
+msgstr ""
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"

@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-03-17 14:55+0000\n"
-"Last-Translator: ch cooli <ch3cooli@gmail.com>\n"
+"PO-Revision-Date: 2015-03-19 22:52+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -659,6 +659,10 @@ msgstr "啟用代理伺服器(&E)"
 msgid "&Enable edit"
 msgstr "啟用編輯(&E)"
 
+#. Resource IDs: (32771)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (323)
 msgid "&Export selection to..."
 msgstr "匯出選取範圍至(&E)..."
@@ -925,6 +929,10 @@ msgstr "新增(&N)"
 msgid "&New..."
 msgstr "新增(&N)..."
 
+#. Resource IDs: (1014)
+msgid "&Next >"
+msgstr ""
+
 #. Resource IDs: (58114)
 msgid "&Next Page"
 msgstr "下一頁(&N)"
@@ -996,6 +1004,10 @@ msgstr "選取全部(&P)"
 #. Resource IDs: (1414)
 msgid "&Port:"
 msgstr "埠(&P):"
+
+#. Resource IDs: (32782)
+msgid "&Print"
+msgstr ""
 
 #. Resource IDs: (1069)
 msgid "&Print Preview"
@@ -1425,6 +1437,10 @@ msgstr ".gitignore 在根目錄"
 #. Resource IDs: (91)
 msgid ".tgitconfig in the repository root"
 msgstr ".tgitconfig 在根目錄"
+
+#. Resource IDs: (1020)
+msgid "< &Previous"
+msgstr ""
 
 #. Resource IDs: (16506)
 msgid "<.....>"
@@ -1957,6 +1973,10 @@ msgstr "附加這個區塊至左方"
 msgid "Application Frame Menus: "
 msgstr "應用程式窗框選單："
 
+#. Resource IDs: (32780)
+msgid "Apply &Patch..."
+msgstr ""
+
 #. Resource IDs: (20)
 msgid "Apply Patch Serial..."
 msgstr "套用補綴序列(&P)..."
@@ -2105,10 +2125,6 @@ msgstr "作者"
 #. Resource IDs: (1265)
 msgid "Authors case sensitive"
 msgstr "作者欄有大小寫之分"
-
-#. Resource IDs: (65535)
-msgid "Authors:"
-msgstr "作者:"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -3523,10 +3539,6 @@ msgstr "憑據助手："
 msgid "Credentials"
 msgstr "憑據"
 
-#. Resource IDs: (65535)
-msgid "Credits:"
-msgstr "作者："
-
 #. Resource IDs: (1253)
 msgid "Cu&t"
 msgstr "剪下(&T)"
@@ -4132,6 +4144,10 @@ msgid ""
 "Don't save\n"
 "Reload the views without saving the modifications"
 msgstr "不儲存\n不儲存變更直接重新載入顯示"
+
+#. Resource IDs: (65535)
+msgid "Don't show the selected items: (press shift key to show them)"
+msgstr ""
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -4878,6 +4894,10 @@ msgid ""
 "Find"
 msgstr "搜尋指定文字\n搜尋"
 
+#. Resource IDs: (65535)
+msgid "Find:"
+msgstr ""
+
 #. Resource IDs: (95)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
@@ -5015,10 +5035,6 @@ msgstr "找到空白的提交訊息，請輸入提交訊息，否則不能繼續
 #. Resource IDs: (65535)
 msgid "Found auto words:"
 msgstr "找到 auto word:"
-
-#. Resource IDs: (65535)
-msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
-msgstr "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
 
 #. Resource IDs: (1385, 1522, 65535)
 msgid "From"
@@ -5480,6 +5496,10 @@ msgstr "ID"
 msgid "ID:220:V C +G"
 msgstr "ID:220:V C +G"
 
+#. Accelerator Entry for Menu ID:32771; '&Exit'
+msgid "ID:32771:V C +W"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32772; '&Overlay images'
 msgid "ID:32772:V   +O"
 msgstr "ID:32772:V   +O"
@@ -5487,6 +5507,14 @@ msgstr "ID:32772:V   +O"
 #. Accelerator Entry for Menu ID:32773; '&Open'
 msgid "ID:32773:V C +O"
 msgstr "ID:32773:V C +O"
+
+#. Accelerator Entry for Menu ID:32773; 'Save &as'
+msgid "ID:32773:V CS+S"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32774; '&Open'
+msgid "ID:32774:V C +O"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32774; '&Whitespaces'
 msgid "ID:32774:V C +T"
@@ -5496,6 +5524,10 @@ msgstr "ID:32774:V C +T"
 msgid "ID:32775:V C +D"
 msgstr "ID:32775:V C +D"
 
+#. Accelerator Entry for Menu ID:32776; '&Save'
+msgid "ID:32776:V C +S"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32778; '&Fit images in window'
 msgid "ID:32778:V   +F"
 msgstr "ID:32778:V   +F"
@@ -5503,6 +5535,14 @@ msgstr "ID:32778:V   +F"
 #. Accelerator Entry for Menu ID:32779; 'Ori&ginal size'
 msgid "ID:32779:V   +S"
 msgstr "ID:32779:V   +S"
+
+#. Accelerator Entry for Menu ID:32782; '&Print'
+msgid "ID:32782:V C +P"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32787; ''
+msgid "ID:32787:V C +F"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical'
 msgid "ID:32793:V C +V"
@@ -6355,6 +6395,10 @@ msgstr "標示為壞的版本"
 msgid "Marks revision as good"
 msgstr "標示為好的版本"
 
+#. Resource IDs: (1021)
+msgid "Mat&ch case"
+msgstr ""
+
 #. Resource IDs: (1064, 20084)
 msgid "Match &case"
 msgstr "符合大小寫(&C)"
@@ -6552,10 +6596,6 @@ msgstr "移動並重新命名"
 #. Resource IDs: (209)
 msgid "Move to changelist"
 msgstr "移至變更列表"
-
-#. Resource IDs: (65535)
-msgid "Move to extended context menu (press shift key to show it)"
-msgstr "移動到擴展右鍵選單的項目(需要按住Shift鍵)"
 
 #. Resource IDs: (229)
 msgid "Move/Rename"
@@ -7109,6 +7149,10 @@ msgstr "開啟影像檔..."
 msgid "Open parent folder"
 msgstr "開啟上層目錄"
 
+#. Resource IDs: (7)
+msgid "Open patch file"
+msgstr ""
+
 #. Resource IDs: (3602)
 msgid "Open this document"
 msgstr "開啟此文件"
@@ -7182,6 +7226,10 @@ msgstr "覆寫已存在的分支"
 #. Resource IDs: (92)
 msgid "Overwrite"
 msgstr "覆寫"
+
+#. Resource IDs: (32781)
+msgid "P&age setup"
+msgstr ""
 
 #. Resource IDs: (3845)
 #, c-format
@@ -8469,6 +8517,10 @@ msgstr "樣本文字："
 msgid "Save"
 msgstr "儲存"
 
+#. Resource IDs: (32773)
+msgid "Save &as"
+msgstr ""
+
 #. Resource IDs: (101)
 msgid "Save &as..."
 msgstr "另存新檔(&A)..."
@@ -8562,6 +8614,10 @@ msgstr "是否儲存 %1 的變動?"
 msgid "Save modifications."
 msgstr "儲存變更。"
 
+#. Resource IDs: (7)
+msgid "Save patch file"
+msgstr ""
+
 #. Resource IDs: (1253)
 msgid "Save revision &to..."
 msgstr "儲存版本至(&T)..."
@@ -8642,6 +8698,10 @@ msgstr "向左捲動"
 #. Resource IDs: (1003)
 msgid "Scroll Right"
 msgstr "向右捲動"
+
+#. Resource IDs: (32779)
+msgid "Se&ttings"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
@@ -9227,6 +9287,10 @@ msgstr "顯示選定的檔案/資料夾的記錄"
 msgid "Si&gn"
 msgstr "簽名(&G)"
 
+#. Resource IDs: (65535)
+msgid "Significant contributions by: (see Git repository for a complete list)"
+msgstr ""
+
 #. Resource IDs: (156, 626)
 msgid "Silver Style"
 msgstr "銀色樣式"
@@ -9520,13 +9584,6 @@ msgstr "子模組"
 msgid "Success"
 msgstr "成功"
 
-#. Resource IDs: (65535)
-msgid ""
-"Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi "
-"<snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp "
-"<djszapi@archlinux.us>"
-msgstr "Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi <snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp <djszapi@archlinux.us>"
-
 #. Resource IDs: (78)
 msgid "Switch"
 msgstr "切換"
@@ -9637,6 +9694,10 @@ msgstr "TIS-620"
 #. Resource IDs: (7)
 msgid "TORTOISEGITIDIFF"
 msgstr "TORTOISEGITIDIFF"
+
+#. Resource IDs: (7)
+msgid "TORTOISEGITUDIFF"
+msgstr ""
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10309,6 +10370,17 @@ msgstr "TortoiseGitMerge 無法處理這補綴檔，檔名 %s 出現多於一次
 #. Resource IDs: (357)
 msgid "TortoiseGitUDiff"
 msgstr "TortoiseGitUDiff"
+
+#. Resource IDs: (7)
+msgid ""
+"TortoiseGitUDiff: the unified diff viewer for TortoiseSVN\n"
+"\n"
+"Available command line parameters are:\n"
+"/patchfile:\"path to unified diff file\"\n"
+"/title:\"title to show for the viewer\"\n"
+"/?  - this help dialog\n"
+"/p  - read diff input from console pipe"
+msgstr ""
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"

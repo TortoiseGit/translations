@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-02-28 21:49+0000\n"
+"PO-Revision-Date: 2015-03-19 22:52+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/tortoisegit/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -657,6 +657,10 @@ msgstr "&Cho phép Máy Chủ Proxy"
 msgid "&Enable edit"
 msgstr "&Cho phép chỉnh sửa"
 
+#. Resource IDs: (32771)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (323)
 msgid "&Export selection to..."
 msgstr "&Xuất lựa chọn sang..."
@@ -923,6 +927,10 @@ msgstr "&Mới"
 msgid "&New..."
 msgstr "&Mới..."
 
+#. Resource IDs: (1014)
+msgid "&Next >"
+msgstr ""
+
 #. Resource IDs: (58114)
 msgid "&Next Page"
 msgstr "&Trang tiếp theo"
@@ -994,6 +1002,10 @@ msgstr "&Chọn tất cả"
 #. Resource IDs: (1414)
 msgid "&Port:"
 msgstr "&Cổng:"
+
+#. Resource IDs: (32782)
+msgid "&Print"
+msgstr ""
 
 #. Resource IDs: (1069)
 msgid "&Print Preview"
@@ -1422,6 +1434,10 @@ msgstr ""
 
 #. Resource IDs: (91)
 msgid ".tgitconfig in the repository root"
+msgstr ""
+
+#. Resource IDs: (1020)
+msgid "< &Previous"
 msgstr ""
 
 #. Resource IDs: (16506)
@@ -1955,6 +1971,10 @@ msgstr ""
 msgid "Application Frame Menus: "
 msgstr "Thực đơn cho khung ứng dụng:"
 
+#. Resource IDs: (32780)
+msgid "Apply &Patch..."
+msgstr ""
+
 #. Resource IDs: (20)
 msgid "Apply Patch Serial..."
 msgstr "Áp dụng mã số vá..."
@@ -2103,10 +2123,6 @@ msgstr "Các tác giả"
 #. Resource IDs: (1265)
 msgid "Authors case sensitive"
 msgstr "Các tác giả có phân biệt chữ thường và hoa"
-
-#. Resource IDs: (65535)
-msgid "Authors:"
-msgstr "Các tác giả:"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -3521,10 +3537,6 @@ msgstr ""
 msgid "Credentials"
 msgstr ""
 
-#. Resource IDs: (65535)
-msgid "Credits:"
-msgstr "Công trạng:"
-
 #. Resource IDs: (1253)
 msgid "Cu&t"
 msgstr "&Cắt"
@@ -4130,6 +4142,10 @@ msgid ""
 "Don't save\n"
 "Reload the views without saving the modifications"
 msgstr "Đừng lưu\nTải lại trình xem mà không lưu các sửa đổi"
+
+#. Resource IDs: (65535)
+msgid "Don't show the selected items: (press shift key to show them)"
+msgstr ""
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -4876,6 +4892,10 @@ msgid ""
 "Find"
 msgstr "Tìm các dòng chữ đã chỉ ra\nTìm"
 
+#. Resource IDs: (65535)
+msgid "Find:"
+msgstr ""
+
 #. Resource IDs: (95)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
@@ -5012,10 +5032,6 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Found auto words:"
-msgstr ""
-
-#. Resource IDs: (65535)
-msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
 msgstr ""
 
 #. Resource IDs: (1385, 1522, 65535)
@@ -5478,6 +5494,10 @@ msgstr "ID"
 msgid "ID:220:V C +G"
 msgstr ""
 
+#. Accelerator Entry for Menu ID:32771; '&Exit'
+msgid "ID:32771:V C +W"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32772; '&Overlay images'
 msgid "ID:32772:V   +O"
 msgstr "ID:32772:V   +O"
@@ -5485,6 +5505,14 @@ msgstr "ID:32772:V   +O"
 #. Accelerator Entry for Menu ID:32773; '&Open'
 msgid "ID:32773:V C +O"
 msgstr "ID:32773:V C +O"
+
+#. Accelerator Entry for Menu ID:32773; 'Save &as'
+msgid "ID:32773:V CS+S"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32774; '&Open'
+msgid "ID:32774:V C +O"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32774; '&Whitespaces'
 msgid "ID:32774:V C +T"
@@ -5494,6 +5522,10 @@ msgstr "ID:32774:V C +T"
 msgid "ID:32775:V C +D"
 msgstr "ID:32775:V C +D"
 
+#. Accelerator Entry for Menu ID:32776; '&Save'
+msgid "ID:32776:V C +S"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32778; '&Fit images in window'
 msgid "ID:32778:V   +F"
 msgstr "ID:32778:V   +F"
@@ -5501,6 +5533,14 @@ msgstr "ID:32778:V   +F"
 #. Accelerator Entry for Menu ID:32779; 'Ori&ginal size'
 msgid "ID:32779:V   +S"
 msgstr "ID:32779:V   +S"
+
+#. Accelerator Entry for Menu ID:32782; '&Print'
+msgid "ID:32782:V C +P"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32787; ''
+msgid "ID:32787:V C +F"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical'
 msgid "ID:32793:V C +V"
@@ -6353,6 +6393,10 @@ msgstr ""
 msgid "Marks revision as good"
 msgstr ""
 
+#. Resource IDs: (1021)
+msgid "Mat&ch case"
+msgstr ""
+
 #. Resource IDs: (1064, 20084)
 msgid "Match &case"
 msgstr "Khớp xét &chữ hoa"
@@ -6550,10 +6594,6 @@ msgstr "Di chuyển và đổi tên"
 #. Resource IDs: (209)
 msgid "Move to changelist"
 msgstr "Chuyển đến danh sách thay đổi"
-
-#. Resource IDs: (65535)
-msgid "Move to extended context menu (press shift key to show it)"
-msgstr ""
 
 #. Resource IDs: (229)
 msgid "Move/Rename"
@@ -7107,6 +7147,10 @@ msgstr "Mở tập tin ảnh..."
 msgid "Open parent folder"
 msgstr "Mở thư mục cha"
 
+#. Resource IDs: (7)
+msgid "Open patch file"
+msgstr ""
+
 #. Resource IDs: (3602)
 msgid "Open this document"
 msgstr ""
@@ -7179,6 +7223,10 @@ msgstr ""
 
 #. Resource IDs: (92)
 msgid "Overwrite"
+msgstr ""
+
+#. Resource IDs: (32781)
+msgid "P&age setup"
 msgstr ""
 
 #. Resource IDs: (3845)
@@ -8467,6 +8515,10 @@ msgstr ""
 msgid "Save"
 msgstr "Lưu"
 
+#. Resource IDs: (32773)
+msgid "Save &as"
+msgstr ""
+
 #. Resource IDs: (101)
 msgid "Save &as..."
 msgstr "Lưu như &là..."
@@ -8560,6 +8612,10 @@ msgstr "Lưu thay đổi sang %1?"
 msgid "Save modifications."
 msgstr "Lưu các thay đổi."
 
+#. Resource IDs: (7)
+msgid "Save patch file"
+msgstr ""
+
 #. Resource IDs: (1253)
 msgid "Save revision &to..."
 msgstr "Lưu chỉnh sửa &vào..."
@@ -8640,6 +8696,10 @@ msgstr "Cuộn Trái"
 #. Resource IDs: (1003)
 msgid "Scroll Right"
 msgstr "Cuộn Phải"
+
+#. Resource IDs: (32779)
+msgid "Se&ttings"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
@@ -9225,6 +9285,10 @@ msgstr ""
 msgid "Si&gn"
 msgstr ""
 
+#. Resource IDs: (65535)
+msgid "Significant contributions by: (see Git repository for a complete list)"
+msgstr ""
+
 #. Resource IDs: (156, 626)
 msgid "Silver Style"
 msgstr "Kiều Màu Bạc"
@@ -9518,13 +9582,6 @@ msgstr ""
 msgid "Success"
 msgstr ""
 
-#. Resource IDs: (65535)
-msgid ""
-"Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi "
-"<snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp "
-"<djszapi@archlinux.us>"
-msgstr "Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi <snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp <djszapi@archlinux.us>"
-
 #. Resource IDs: (78)
 msgid "Switch"
 msgstr "Xoay chuyển"
@@ -9635,6 +9692,10 @@ msgstr "TIS-620"
 #. Resource IDs: (7)
 msgid "TORTOISEGITIDIFF"
 msgstr "TORTOISEGITIDIFF"
+
+#. Resource IDs: (7)
+msgid "TORTOISEGITUDIFF"
+msgstr ""
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10306,6 +10367,17 @@ msgstr ""
 
 #. Resource IDs: (357)
 msgid "TortoiseGitUDiff"
+msgstr ""
+
+#. Resource IDs: (7)
+msgid ""
+"TortoiseGitUDiff: the unified diff viewer for TortoiseSVN\n"
+"\n"
+"Available command line parameters are:\n"
+"/patchfile:\"path to unified diff file\"\n"
+"/title:\"title to show for the viewer\"\n"
+"/?  - this help dialog\n"
+"/p  - read diff input from console pipe"
 msgstr ""
 
 #. Resource IDs: (1739)

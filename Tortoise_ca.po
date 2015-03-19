@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-02-28 21:49+0000\n"
+"PO-Revision-Date: 2015-03-19 22:52+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -657,6 +657,10 @@ msgstr "&Habilita Servidor intermediari"
 msgid "&Enable edit"
 msgstr "&Activa l'edició"
 
+#. Resource IDs: (32771)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (323)
 msgid "&Export selection to..."
 msgstr "&Exporta selecció a..."
@@ -923,6 +927,10 @@ msgstr "&Nou"
 msgid "&New..."
 msgstr "&Nou..."
 
+#. Resource IDs: (1014)
+msgid "&Next >"
+msgstr ""
+
 #. Resource IDs: (58114)
 msgid "&Next Page"
 msgstr "Pàgina &Següent"
@@ -994,6 +1002,10 @@ msgstr "&Escull tots"
 #. Resource IDs: (1414)
 msgid "&Port:"
 msgstr "&Port:"
+
+#. Resource IDs: (32782)
+msgid "&Print"
+msgstr ""
 
 #. Resource IDs: (1069)
 msgid "&Print Preview"
@@ -1422,6 +1434,10 @@ msgstr ".gitignore a l'arrel del dipòsit"
 
 #. Resource IDs: (91)
 msgid ".tgitconfig in the repository root"
+msgstr ""
+
+#. Resource IDs: (1020)
+msgid "< &Previous"
 msgstr ""
 
 #. Resource IDs: (16506)
@@ -1955,6 +1971,10 @@ msgstr "Afegeix aquest bloc a l'esquerra, al final"
 msgid "Application Frame Menus: "
 msgstr "Menús d'Estructura de l'Aplicació: "
 
+#. Resource IDs: (32780)
+msgid "Apply &Patch..."
+msgstr ""
+
 #. Resource IDs: (20)
 msgid "Apply Patch Serial..."
 msgstr "Aplica pedaç serial"
@@ -2103,10 +2123,6 @@ msgstr "Autors"
 #. Resource IDs: (1265)
 msgid "Authors case sensitive"
 msgstr "Autors distingint Majusc./minúsc."
-
-#. Resource IDs: (65535)
-msgid "Authors:"
-msgstr "Autors:"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -3521,10 +3537,6 @@ msgstr "Auxiliar de credencials:"
 msgid "Credentials"
 msgstr "Credencials"
 
-#. Resource IDs: (65535)
-msgid "Credits:"
-msgstr "Crèdits:"
-
 #. Resource IDs: (1253)
 msgid "Cu&t"
 msgstr "Re&talla"
@@ -4130,6 +4142,10 @@ msgid ""
 "Don't save\n"
 "Reload the views without saving the modifications"
 msgstr "No ho desis\nRecarrega les vistes sense desar les modificacions"
+
+#. Resource IDs: (65535)
+msgid "Don't show the selected items: (press shift key to show them)"
+msgstr ""
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -4876,6 +4892,10 @@ msgid ""
 "Find"
 msgstr "Troba el text especificat\nTroba"
 
+#. Resource IDs: (65535)
+msgid "Find:"
+msgstr ""
+
 #. Resource IDs: (95)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
@@ -5013,10 +5033,6 @@ msgstr "No s'ha trobat un missatge per aquesta entrega. N'heu d'introduir un per
 #. Resource IDs: (65535)
 msgid "Found auto words:"
 msgstr ""
-
-#. Resource IDs: (65535)
-msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
-msgstr "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
 
 #. Resource IDs: (1385, 1522, 65535)
 msgid "From"
@@ -5478,6 +5494,10 @@ msgstr "ID"
 msgid "ID:220:V C +G"
 msgstr "ID:220:V C +G"
 
+#. Accelerator Entry for Menu ID:32771; '&Exit'
+msgid "ID:32771:V C +W"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32772; '&Overlay images'
 msgid "ID:32772:V   +O"
 msgstr "ID:32772:V   +O"
@@ -5485,6 +5505,14 @@ msgstr "ID:32772:V   +O"
 #. Accelerator Entry for Menu ID:32773; '&Open'
 msgid "ID:32773:V C +O"
 msgstr "ID:32773:V C +O"
+
+#. Accelerator Entry for Menu ID:32773; 'Save &as'
+msgid "ID:32773:V CS+S"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32774; '&Open'
+msgid "ID:32774:V C +O"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32774; '&Whitespaces'
 msgid "ID:32774:V C +T"
@@ -5494,6 +5522,10 @@ msgstr "ID:32774:V C +T"
 msgid "ID:32775:V C +D"
 msgstr "ID:32775:V C +D"
 
+#. Accelerator Entry for Menu ID:32776; '&Save'
+msgid "ID:32776:V C +S"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32778; '&Fit images in window'
 msgid "ID:32778:V   +F"
 msgstr "ID:32778:V   +F"
@@ -5501,6 +5533,14 @@ msgstr "ID:32778:V   +F"
 #. Accelerator Entry for Menu ID:32779; 'Ori&ginal size'
 msgid "ID:32779:V   +S"
 msgstr "ID:32779:V   +S"
+
+#. Accelerator Entry for Menu ID:32782; '&Print'
+msgid "ID:32782:V C +P"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32787; ''
+msgid "ID:32787:V C +F"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical'
 msgid "ID:32793:V C +V"
@@ -6353,6 +6393,10 @@ msgstr "Marca revisió com a dolenta"
 msgid "Marks revision as good"
 msgstr "Marca revisió com a bona"
 
+#. Resource IDs: (1021)
+msgid "Mat&ch case"
+msgstr ""
+
 #. Resource IDs: (1064, 20084)
 msgid "Match &case"
 msgstr "Fer coincidir  ma&júsc/minúsc"
@@ -6550,10 +6594,6 @@ msgstr "Mou i canvia el nom"
 #. Resource IDs: (209)
 msgid "Move to changelist"
 msgstr "Mou a la llista de canvis"
-
-#. Resource IDs: (65535)
-msgid "Move to extended context menu (press shift key to show it)"
-msgstr "Mou per extendre el menú contextual (prem MAJUSC per mostrar-ho)"
 
 #. Resource IDs: (229)
 msgid "Move/Rename"
@@ -7107,6 +7147,10 @@ msgstr "Obre fitxer d'imatge"
 msgid "Open parent folder"
 msgstr "Obre carpeta pare"
 
+#. Resource IDs: (7)
+msgid "Open patch file"
+msgstr ""
+
 #. Resource IDs: (3602)
 msgid "Open this document"
 msgstr "Obre aquest document"
@@ -7179,6 +7223,10 @@ msgstr "Sobreesciu la branca, si ja existeix"
 
 #. Resource IDs: (92)
 msgid "Overwrite"
+msgstr ""
+
+#. Resource IDs: (32781)
+msgid "P&age setup"
 msgstr ""
 
 #. Resource IDs: (3845)
@@ -8467,6 +8515,10 @@ msgstr ""
 msgid "Save"
 msgstr "Desa"
 
+#. Resource IDs: (32773)
+msgid "Save &as"
+msgstr ""
+
 #. Resource IDs: (101)
 msgid "Save &as..."
 msgstr "&Anomena i Desa..."
@@ -8560,6 +8612,10 @@ msgstr "Desa canvis a %1?"
 msgid "Save modifications."
 msgstr "Desa canvis"
 
+#. Resource IDs: (7)
+msgid "Save patch file"
+msgstr ""
+
 #. Resource IDs: (1253)
 msgid "Save revision &to..."
 msgstr "Desa revisió &a..."
@@ -8640,6 +8696,10 @@ msgstr "Mou cap a l'Esquerra"
 #. Resource IDs: (1003)
 msgid "Scroll Right"
 msgstr "Mou cap a la Dreta"
+
+#. Resource IDs: (32779)
+msgid "Se&ttings"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
@@ -9225,6 +9285,10 @@ msgstr "Mostra el registre per l'arxiu/carpeta seleccionat"
 msgid "Si&gn"
 msgstr "&Signa"
 
+#. Resource IDs: (65535)
+msgid "Significant contributions by: (see Git repository for a complete list)"
+msgstr ""
+
 #. Resource IDs: (156, 626)
 msgid "Silver Style"
 msgstr "Estil platejat"
@@ -9518,13 +9582,6 @@ msgstr "Sub-mòduls"
 msgid "Success"
 msgstr "Èxit"
 
-#. Resource IDs: (65535)
-msgid ""
-"Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi "
-"<snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp "
-"<djszapi@archlinux.us>"
-msgstr "Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi <snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp <djszapi@archlinux.us>"
-
 #. Resource IDs: (78)
 msgid "Switch"
 msgstr "Canvia"
@@ -9635,6 +9692,10 @@ msgstr "TIS-620"
 #. Resource IDs: (7)
 msgid "TORTOISEGITIDIFF"
 msgstr "TORTOISEGITIDIFF"
+
+#. Resource IDs: (7)
+msgid "TORTOISEGITUDIFF"
+msgstr ""
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10306,6 +10367,17 @@ msgstr "TortoiseGitMerge no pot processar aquest arxiu de pedaç. L'arxiu \"%s\"
 
 #. Resource IDs: (357)
 msgid "TortoiseGitUDiff"
+msgstr ""
+
+#. Resource IDs: (7)
+msgid ""
+"TortoiseGitUDiff: the unified diff viewer for TortoiseSVN\n"
+"\n"
+"Available command line parameters are:\n"
+"/patchfile:\"path to unified diff file\"\n"
+"/title:\"title to show for the viewer\"\n"
+"/?  - this help dialog\n"
+"/p  - read diff input from console pipe"
 msgstr ""
 
 #. Resource IDs: (1739)

@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-02-28 21:49+0000\n"
+"PO-Revision-Date: 2015-03-19 22:52+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -677,6 +677,10 @@ msgstr "프록시 서버 활성화(&E)"
 msgid "&Enable edit"
 msgstr "&Enable edit"
 
+#. Resource IDs: (32771)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (323)
 msgid "&Export selection to..."
 msgstr "선택한 것을 내보내기(&E)..."
@@ -943,6 +947,10 @@ msgstr "새로 만들기(&N)"
 msgid "&New..."
 msgstr "새로 만들기(&N)..."
 
+#. Resource IDs: (1014)
+msgid "&Next >"
+msgstr ""
+
 #. Resource IDs: (58114)
 msgid "&Next Page"
 msgstr "다음 페이지(&N)"
@@ -1014,6 +1022,10 @@ msgstr "모두 고르기(&P)"
 #. Resource IDs: (1414)
 msgid "&Port:"
 msgstr "포트(&P):"
+
+#. Resource IDs: (32782)
+msgid "&Print"
+msgstr ""
 
 #. Resource IDs: (1069)
 msgid "&Print Preview"
@@ -1443,6 +1455,10 @@ msgstr "저장소 최상위 .gitignore 파일"
 #. Resource IDs: (91)
 msgid ".tgitconfig in the repository root"
 msgstr "저장소 루트에 있는 .tgitconfig"
+
+#. Resource IDs: (1020)
+msgid "< &Previous"
+msgstr ""
 
 #. Resource IDs: (16506)
 msgid "<.....>"
@@ -1975,6 +1991,10 @@ msgstr "Append this block to left"
 msgid "Application Frame Menus: "
 msgstr "어플리케이션 프레임 메뉴:"
 
+#. Resource IDs: (32780)
+msgid "Apply &Patch..."
+msgstr ""
+
 #. Resource IDs: (20)
 msgid "Apply Patch Serial..."
 msgstr "패치 적용하기..."
@@ -2123,10 +2143,6 @@ msgstr "작성자"
 #. Resource IDs: (1265)
 msgid "Authors case sensitive"
 msgstr "작성자 대소문자 구별함"
-
-#. Resource IDs: (65535)
-msgid "Authors:"
-msgstr "작성자:"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -3541,10 +3557,6 @@ msgstr "자격 증명 도우미:"
 msgid "Credentials"
 msgstr "자격 증명"
 
-#. Resource IDs: (65535)
-msgid "Credits:"
-msgstr "만든 이들:"
-
 #. Resource IDs: (1253)
 msgid "Cu&t"
 msgstr "잘라내기(&T)"
@@ -4150,6 +4162,10 @@ msgid ""
 "Don't save\n"
 "Reload the views without saving the modifications"
 msgstr "Don't save\nReload the views without saving the modifications"
+
+#. Resource IDs: (65535)
+msgid "Don't show the selected items: (press shift key to show them)"
+msgstr ""
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -4896,6 +4912,10 @@ msgid ""
 "Find"
 msgstr "특정 문자열 찾기\n찾기"
 
+#. Resource IDs: (65535)
+msgid "Find:"
+msgstr ""
+
 #. Resource IDs: (95)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
@@ -5033,10 +5053,6 @@ msgstr "Found an empty commit message. You have to enter one or rebase cannot pr
 #. Resource IDs: (65535)
 msgid "Found auto words:"
 msgstr "자동 단어 찾기:"
-
-#. Resource IDs: (65535)
-msgid "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
-msgstr "Frank Li (lznuaa@gmail.com), Sven Strickroth <email@cs-ware.de>"
 
 #. Resource IDs: (1385, 1522, 65535)
 msgid "From"
@@ -5498,6 +5514,10 @@ msgstr "ID"
 msgid "ID:220:V C +G"
 msgstr "ID:220:V C +G"
 
+#. Accelerator Entry for Menu ID:32771; '&Exit'
+msgid "ID:32771:V C +W"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32772; '&Overlay images'
 msgid "ID:32772:V   +O"
 msgstr "ID:32772:V   +O"
@@ -5505,6 +5525,14 @@ msgstr "ID:32772:V   +O"
 #. Accelerator Entry for Menu ID:32773; '&Open'
 msgid "ID:32773:V C +O"
 msgstr "ID:32773:V C +O"
+
+#. Accelerator Entry for Menu ID:32773; 'Save &as'
+msgid "ID:32773:V CS+S"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32774; '&Open'
+msgid "ID:32774:V C +O"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32774; '&Whitespaces'
 msgid "ID:32774:V C +T"
@@ -5514,6 +5542,10 @@ msgstr "ID:32774:V C +T"
 msgid "ID:32775:V C +D"
 msgstr "ID:32775:V C +D"
 
+#. Accelerator Entry for Menu ID:32776; '&Save'
+msgid "ID:32776:V C +S"
+msgstr ""
+
 #. Accelerator Entry for Menu ID:32778; '&Fit images in window'
 msgid "ID:32778:V   +F"
 msgstr "ID:32778:V   +F"
@@ -5521,6 +5553,14 @@ msgstr "ID:32778:V   +F"
 #. Accelerator Entry for Menu ID:32779; 'Ori&ginal size'
 msgid "ID:32779:V   +S"
 msgstr "ID:32779:V   +S"
+
+#. Accelerator Entry for Menu ID:32782; '&Print'
+msgid "ID:32782:V C +P"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32787; ''
+msgid "ID:32787:V C +F"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical'
 msgid "ID:32793:V C +V"
@@ -6373,6 +6413,10 @@ msgstr "Marks revision as bad"
 msgid "Marks revision as good"
 msgstr "Marks revision as good"
 
+#. Resource IDs: (1021)
+msgid "Mat&ch case"
+msgstr ""
+
 #. Resource IDs: (1064, 20084)
 msgid "Match &case"
 msgstr "대소문자 구별(&C)"
@@ -6570,10 +6614,6 @@ msgstr "이동하고 이름 변경"
 #. Resource IDs: (209)
 msgid "Move to changelist"
 msgstr "변경 리스트로 이동"
-
-#. Resource IDs: (65535)
-msgid "Move to extended context menu (press shift key to show it)"
-msgstr "확장 컨텍스트 메뉴 항목 (이걸 보려면 시프트키를 누른 상태로 메뉴를 열어야 합니다)"
 
 #. Resource IDs: (229)
 msgid "Move/Rename"
@@ -7127,6 +7167,10 @@ msgstr "이미지 파일 열기..."
 msgid "Open parent folder"
 msgstr "상위 폴더 열기"
 
+#. Resource IDs: (7)
+msgid "Open patch file"
+msgstr ""
+
 #. Resource IDs: (3602)
 msgid "Open this document"
 msgstr "이 문서 열기"
@@ -7200,6 +7244,10 @@ msgstr "브랜치가 이미 있으면 덮어쓰기"
 #. Resource IDs: (92)
 msgid "Overwrite"
 msgstr "덮어쓰기"
+
+#. Resource IDs: (32781)
+msgid "P&age setup"
+msgstr ""
 
 #. Resource IDs: (3845)
 #, c-format
@@ -8487,6 +8535,10 @@ msgstr "견본:"
 msgid "Save"
 msgstr "저장하기"
 
+#. Resource IDs: (32773)
+msgid "Save &as"
+msgstr ""
+
 #. Resource IDs: (101)
 msgid "Save &as..."
 msgstr "다른 이름으로 저장(&A)..."
@@ -8580,6 +8632,10 @@ msgstr "변경된 것을 %1에 저장하시겠습니까?"
 msgid "Save modifications."
 msgstr "Save modifications."
 
+#. Resource IDs: (7)
+msgid "Save patch file"
+msgstr ""
+
 #. Resource IDs: (1253)
 msgid "Save revision &to..."
 msgstr "이 리비전을 저장(&T)..."
@@ -8660,6 +8716,10 @@ msgstr "왼쪽으로 스크롤하기"
 #. Resource IDs: (1003)
 msgid "Scroll Right"
 msgstr "오른쪽으로 스크롤하기"
+
+#. Resource IDs: (32779)
+msgid "Se&ttings"
+msgstr ""
 
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
@@ -9245,6 +9305,10 @@ msgstr "Shows the log for the selected file/folder"
 msgid "Si&gn"
 msgstr "Si&gn"
 
+#. Resource IDs: (65535)
+msgid "Significant contributions by: (see Git repository for a complete list)"
+msgstr ""
+
 #. Resource IDs: (156, 626)
 msgid "Silver Style"
 msgstr "Silver Style"
@@ -9538,13 +9602,6 @@ msgstr "서브모듈"
 msgid "Success"
 msgstr "완료"
 
-#. Resource IDs: (65535)
-msgid ""
-"Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi "
-"<snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp "
-"<djszapi@archlinux.us>"
-msgstr "Sup Yut Sum <ch3cooli@gmail.com>, Colin Law <clanlaw@googlemail.com>, Myagi <snowcoder@gmail.com>, Johan 't Hart <johanthart@gmail.com>, Laszlo Papp <djszapi@archlinux.us>"
-
 #. Resource IDs: (78)
 msgid "Switch"
 msgstr "스위치"
@@ -9655,6 +9712,10 @@ msgstr "TIS-620"
 #. Resource IDs: (7)
 msgid "TORTOISEGITIDIFF"
 msgstr "TORTOISEGITIDIFF"
+
+#. Resource IDs: (7)
+msgid "TORTOISEGITUDIFF"
+msgstr ""
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10326,6 +10387,17 @@ msgstr "TortoiseGitMerge cannot process this patch file. The filename \"%s\" app
 
 #. Resource IDs: (357)
 msgid "TortoiseGitUDiff"
+msgstr ""
+
+#. Resource IDs: (7)
+msgid ""
+"TortoiseGitUDiff: the unified diff viewer for TortoiseSVN\n"
+"\n"
+"Available command line parameters are:\n"
+"/patchfile:\"path to unified diff file\"\n"
+"/title:\"title to show for the viewer\"\n"
+"/?  - this help dialog\n"
+"/p  - read diff input from console pipe"
 msgstr ""
 
 #. Resource IDs: (1739)
