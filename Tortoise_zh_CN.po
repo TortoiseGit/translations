@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-03-19 22:52+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2015-03-20 09:38+0000\n"
+"Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -666,7 +666,7 @@ msgstr "启用编辑(&E)"
 
 #. Resource IDs: (32771)
 msgid "&Exit"
-msgstr ""
+msgstr "退出(&E)"
 
 #. Resource IDs: (323)
 msgid "&Export selection to..."
@@ -936,7 +936,7 @@ msgstr "新建(&N)..."
 
 #. Resource IDs: (1014)
 msgid "&Next >"
-msgstr ""
+msgstr "下一个(&N) >"
 
 #. Resource IDs: (58114)
 msgid "&Next Page"
@@ -978,6 +978,10 @@ msgstr "打开(&O)"
 msgid "&Open Git for Windows WebSite"
 msgstr "打开 Git for Windows 网站(&O)"
 
+#. Resource IDs: (32774)
+msgid "&Open..."
+msgstr "打开(&O)..."
+
 #. Resource IDs: (57601)
 msgid "&Open...\tCtrl+O"
 msgstr "打开(&O)...\tCtrl+O"
@@ -1009,10 +1013,6 @@ msgstr "选取全部(&P)"
 #. Resource IDs: (1414)
 msgid "&Port:"
 msgstr "端口(&P): "
-
-#. Resource IDs: (32782)
-msgid "&Print"
-msgstr ""
 
 #. Resource IDs: (1069)
 msgid "&Print Preview"
@@ -1445,7 +1445,7 @@ msgstr "版本库根目录中的 .tgitconfig"
 
 #. Resource IDs: (1020)
 msgid "< &Previous"
-msgstr ""
+msgstr "< 上一个(&P)"
 
 #. Resource IDs: (16506)
 msgid "<.....>"
@@ -1980,7 +1980,7 @@ msgstr "应用程序框架菜单:"
 
 #. Resource IDs: (32780)
 msgid "Apply &Patch..."
-msgstr ""
+msgstr "应用补丁(&P)..."
 
 #. Resource IDs: (20)
 msgid "Apply Patch Serial..."
@@ -4152,7 +4152,7 @@ msgstr "不保存\n重新加载视图而不保存修改"
 
 #. Resource IDs: (65535)
 msgid "Don't show the selected items: (press shift key to show them)"
-msgstr ""
+msgstr "不显示选定项: (仅在按下 Shift 键时显示)"
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -4901,7 +4901,7 @@ msgstr "查找指定文本\n查找"
 
 #. Resource IDs: (65535)
 msgid "Find:"
-msgstr ""
+msgstr "查找:"
 
 #. Resource IDs: (95)
 #, c-format
@@ -5503,7 +5503,7 @@ msgstr "ID:220:V C +G"
 
 #. Accelerator Entry for Menu ID:32771; '&Exit'
 msgid "ID:32771:V C +W"
-msgstr ""
+msgstr "ID:32771:V C +W"
 
 #. Accelerator Entry for Menu ID:32772; '&Overlay images'
 msgid "ID:32772:V   +O"
@@ -5515,11 +5515,11 @@ msgstr "ID:32773:V C +O"
 
 #. Accelerator Entry for Menu ID:32773; 'Save &as'
 msgid "ID:32773:V CS+S"
-msgstr ""
+msgstr "ID:32773:V CS+S"
 
 #. Accelerator Entry for Menu ID:32774; '&Open'
 msgid "ID:32774:V C +O"
-msgstr ""
+msgstr "ID:32774:V C +O"
 
 #. Accelerator Entry for Menu ID:32774; '&Whitespaces'
 msgid "ID:32774:V C +T"
@@ -5531,7 +5531,7 @@ msgstr "ID:32775:V C +D"
 
 #. Accelerator Entry for Menu ID:32776; '&Save'
 msgid "ID:32776:V C +S"
-msgstr ""
+msgstr "ID:32776:V C +S"
 
 #. Accelerator Entry for Menu ID:32778; '&Fit images in window'
 msgid "ID:32778:V   +F"
@@ -5543,11 +5543,11 @@ msgstr "ID:32779:V   +S"
 
 #. Accelerator Entry for Menu ID:32782; '&Print'
 msgid "ID:32782:V C +P"
-msgstr ""
+msgstr "ID:32782:V C +P"
 
 #. Accelerator Entry for Menu ID:32787; ''
 msgid "ID:32787:V C +F"
-msgstr ""
+msgstr "ID:32787:V C +F"
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical'
 msgid "ID:32793:V C +V"
@@ -6402,7 +6402,7 @@ msgstr "标记为好版本"
 
 #. Resource IDs: (1021)
 msgid "Mat&ch case"
-msgstr ""
+msgstr "区分大小写(&C)"
 
 #. Resource IDs: (1064, 20084)
 msgid "Match &case"
@@ -7156,7 +7156,7 @@ msgstr "打开父目录"
 
 #. Resource IDs: (7)
 msgid "Open patch file"
-msgstr ""
+msgstr "创建补丁文件"
 
 #. Resource IDs: (3602)
 msgid "Open this document"
@@ -7233,8 +7233,8 @@ msgid "Overwrite"
 msgstr "覆盖"
 
 #. Resource IDs: (32781)
-msgid "P&age setup"
-msgstr ""
+msgid "P&age setup..."
+msgstr "页面设置(&A)..."
 
 #. Resource IDs: (3845)
 #, c-format
@@ -8522,10 +8522,6 @@ msgstr "测试例子:"
 msgid "Save"
 msgstr "保存"
 
-#. Resource IDs: (32773)
-msgid "Save &as"
-msgstr ""
-
 #. Resource IDs: (101)
 msgid "Save &as..."
 msgstr "另存为(&A)..."
@@ -8621,7 +8617,7 @@ msgstr "保存修改。"
 
 #. Resource IDs: (7)
 msgid "Save patch file"
-msgstr ""
+msgstr "保存补丁文件"
 
 #. Resource IDs: (1253)
 msgid "Save revision &to..."
@@ -8705,8 +8701,8 @@ msgid "Scroll Right"
 msgstr "右卷"
 
 #. Resource IDs: (32779)
-msgid "Se&ttings"
-msgstr ""
+msgid "Se&ttings..."
+msgstr "设置(&T)..."
 
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
@@ -9294,7 +9290,7 @@ msgstr "签名(&G)"
 
 #. Resource IDs: (65535)
 msgid "Significant contributions by: (see Git repository for a complete list)"
-msgstr ""
+msgstr "主要贡献者: (完整列表见 Git 版本库)"
 
 #. Resource IDs: (156, 626)
 msgid "Silver Style"
@@ -9702,7 +9698,7 @@ msgstr "TORTOISEGITIDIFF"
 
 #. Resource IDs: (7)
 msgid "TORTOISEGITUDIFF"
-msgstr ""
+msgstr "TORTOISEGITUDIFF"
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10378,14 +10374,14 @@ msgstr "TortoiseGitUDiff"
 
 #. Resource IDs: (7)
 msgid ""
-"TortoiseGitUDiff: the unified diff viewer for TortoiseSVN\n"
+"TortoiseGitUDiff: the unified diff viewer for TortoiseGit\n"
 "\n"
 "Available command line parameters are:\n"
 "/patchfile:\"path to unified diff file\"\n"
 "/title:\"title to show for the viewer\"\n"
 "/?  - this help dialog\n"
 "/p  - read diff input from console pipe"
-msgstr ""
+msgstr "TortoiseGitUDiff：TortoiseGit 的统一差异查看器\n\n可用的命令行参数：\n/patchfile:\"统一差异文件的路径\"\n/title:\"查看器的标题\"\n/?  - 本帮助对话框\n/p  - 从控制台管道读入差异"
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"
