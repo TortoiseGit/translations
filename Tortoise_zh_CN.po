@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-03-22 16:58+0000\n"
+"PO-Revision-Date: 2015-03-22 17:49+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -1292,7 +1292,7 @@ msgstr "双页(&T)"
 
 #. Resource IDs: (1076, 65535)
 msgid "&URL:"
-msgstr "URL(&U):"
+msgstr "&URL:"
 
 #. Resource IDs: (1253, 57643)
 msgid "&Undo"
@@ -1486,7 +1486,7 @@ msgid ""
 "To use <b>TortoiseGit</b> please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all <b>TortoiseGit</b> commands.\n"
 "And <u>read the manual!</u>"
-msgstr "<b>TortoiseGit</b> 是一个 Windows 外壳扩展。\n这意味着本程序会集成在 Windows 资源管理器中。\n要使用 <b>TortoiseGit</b>，请打开资源管理器，在任意目录中单击鼠标右键，\n在弹出的右键菜单中您可以找到所有的 <b>TortoiseGit</b> 命令。\n更详细的操作方法请阅读手册。"
+msgstr "<b>TortoiseGit</b> 是一个 Windows 外壳扩展。\n这意味着本程序会集成在 Windows 资源管理器中。\n要使用 <b>TortoiseGit</b>，请打开资源管理器，在任意文件夹中单击鼠标右键，\n在弹出的右键菜单中您可以找到所有的 <b>TortoiseGit</b> 命令。\n更详细的操作方法请阅读手册。"
 
 #. Resource IDs: (84)
 msgid ""
@@ -3050,7 +3050,7 @@ msgid ""
 "You might want to add these folders recursively by using the 'Add...' context menu item.\n"
 "\n"
 "Are you sure that you want to continue the commit?"
-msgstr "提交未版本控制的目录不会递归增加它的子孙！\n您可能需要用上下文菜单的“增加...”来递归增加这些目录。\n\n您确定要继续提交吗？"
+msgstr "提交未版本控制的文件夹不会递归增加它的子项目！\n您可能需要用上下文菜单的“增加...”来递归增加这些文件夹。\n\n您确定要继续提交吗？"
 
 #. Resource IDs: (65535)
 msgid "Common Name:"
@@ -3512,7 +3512,7 @@ msgstr "创建分支/标签"
 
 #. Resource IDs: (76)
 msgid "Creates a library folder with special settings for Git working trees"
-msgstr "创建一个Git工作区的库文件夹"
+msgstr "创建一个用于 Git 工作区的“库”文件夹"
 
 #. Resource IDs: (2052)
 msgid ""
@@ -3685,7 +3685,7 @@ msgstr "根据名称删除和忽略 %d 项(&I)"
 
 #. Resource IDs: (23)
 msgid "Delete and add to &ignore list"
-msgstr "删除并且添加到忽略列表(&I)"
+msgstr "删除并添加到忽略列表(&I)"
 
 #. Resource IDs: (23)
 #, c-format
@@ -4043,7 +4043,7 @@ msgstr "您确定要标记选中文件为 skip-worktree（跳过工作树）吗�
 
 #. Resource IDs: (145)
 msgid "Do you really want to move this file or folder?"
-msgstr "您确定要移动这个文件或目录吗？"
+msgstr "您确定要移动这个文件或文件夹吗？"
 
 #. Resource IDs: (70)
 #, c-format
@@ -4959,7 +4959,7 @@ msgstr "软驱 (A: B:)"
 
 #. Resource IDs: (1002)
 msgid "Folder"
-msgstr "目录"
+msgstr "文件夹"
 
 #. Resource IDs: (1675)
 msgid "Follow renames"
@@ -5198,15 +5198,15 @@ msgstr "Git 复制并更名版本控制的项目到当前位置"
 
 #. Resource IDs: (13)
 msgid "Git Copy versioned item(s) here"
-msgstr "Git 复制版本控制的条目到当前位置"
+msgstr "Git 复制受版本控制的项目到当前位置"
 
 #. Resource IDs: (14)
 msgid "Git Export all items here"
-msgstr "Git 导出所有条目到当前位置"
+msgstr "Git 导出所有项目到当前位置"
 
 #. Resource IDs: (14)
 msgid "Git Export versioned items here"
-msgstr "Git 导出版本控制的条目到当前位置"
+msgstr "Git 导出受版本控制的项目到当前位置"
 
 #. Resource IDs: (330)
 msgid "Git Init"
@@ -5226,7 +5226,7 @@ msgstr "Git 移动并更名版本控制的项目到当前位置"
 
 #. Resource IDs: (12)
 msgid "Git Move versioned item(s) here"
-msgstr "Git 移动版本控制的条目到当前位置"
+msgstr "Git 移动受版本控制的项目到当前位置"
 
 #. Resource IDs: (84)
 msgid "Git Remote Settings"
@@ -5778,7 +5778,7 @@ msgstr "如果选中此项，TortoiseGit 将每周检查是否有新版本可用
 msgid ""
 "If enabled, working tree folders which are excluded from\n"
 "showing overlays still show the overlay for status 'normal'"
-msgstr "如果选中该项，已从覆盖显示排除的工作副本目录仍旧会按照“正常”情况覆盖显示"
+msgstr "如果选中该项，已从覆盖显示排除的工作副本文件夹仍旧会按照“正常”情况覆盖显示"
 
 #. Resource IDs: (196)
 msgid ""
@@ -5797,7 +5797,7 @@ msgid ""
 "If you plan to work inside this folder, leave this unchecked. Typically a "
 "bare repo can only have changes 'pushed' to it. (By convention, a bare repo "
 "folder should have a name that ends with '.git')"
-msgstr "如果您计划在这个目录中工作，应不选此项。典型的一个纯版本库仅用于被推送。（根据惯例，一个纯版本库的名称应使用 '.git' 结尾）"
+msgstr "如果您计划在这个文件夹中工作，应不选此项。典型的一个纯版本库仅用于被推送。（根据惯例，一个纯版本库的名称应使用 '.git' 结尾）"
 
 #. Resource IDs: (73)
 msgid "Ignore"
@@ -5844,7 +5844,7 @@ msgstr "忽略变更\n忽略外部变更。"
 
 #. Resource IDs: (1687)
 msgid "Ignore item(s) only in the containing folder(s)"
-msgstr "只忽略指定文件夹中的文件或目录"
+msgstr "只忽略指定文件夹中的文件或文件夹"
 
 #. Resource IDs: (1688)
 msgid "Ignore item(s) recursively"
@@ -6924,7 +6924,7 @@ msgstr "注意：这些设置也影响“补丁查看器”对话框。"
 
 #. Resource IDs: (1481)
 msgid "Note: the folder contains unversioned items"
-msgstr "注意：此目录包含未版本控制的条目"
+msgstr "注意：此文件夹包含未版本控制的项目"
 
 #. Resource IDs: (65535)
 msgid "Note: this affects all Tortoise clients, not just TortoiseGit!"
@@ -7152,7 +7152,7 @@ msgstr "打开图像文件..."
 
 #. Resource IDs: (282)
 msgid "Open parent folder"
-msgstr "打开父目录"
+msgstr "打开父文件夹"
 
 #. Resource IDs: (7)
 msgid "Open patch file"
@@ -9099,7 +9099,7 @@ msgstr "显示和上次提交的差异"
 
 #. Resource IDs: (1126)
 msgid "Show excluded folders as normal"
-msgstr "对排除的目录正常显示"
+msgstr "对排除的文件夹正常显示"
 
 #. Resource IDs: (16656)
 msgid "Show f&ull menus after a short delay"
@@ -9148,7 +9148,7 @@ msgstr "显示子模块历史"
 
 #. Resource IDs: (14)
 msgid "Show log of this folder"
-msgstr "显示此目录的日志"
+msgstr "显示此文件夹的日志"
 
 #. Resource IDs: (1256)
 msgid "Show log..."
@@ -9369,7 +9369,7 @@ msgstr "反向顺序排序标签列表"
 msgid ""
 "Specifies how many items you want to keep in the most recent log messages "
 "dialog."
-msgstr "设定在最新的日志对话框中显示的条目数量。"
+msgstr "设定在最近日志对话框中显示的条目数量。"
 
 #. Resource IDs: (16976, 16977, 16978, 16979, 16980, 16981)
 msgid "Spin1"
@@ -10118,7 +10118,7 @@ msgstr "有未保存的修改！\n您要保存所做的修改吗？"
 msgid ""
 "There is nothing to add. All the files and folders are either under version "
 "control, have been ignored or the global ignore configuration setting."
-msgstr "没有待添加的内容，所有文件和目录已在在版本库中或是被全局配置文件忽略。"
+msgstr "没有待添加的内容，所有文件和文件夹已在在版本库中或是被全局配置文件忽略。"
 
 #. Resource IDs: (1253)
 msgid "Thesaurus"
@@ -11230,7 +11230,7 @@ msgstr "您已安装的 Git for Windows (https://msysgit.github.io/) 是旧版�
 msgid ""
 "You have checked \"include untracked\".\n"
 "This includes a \"git clean -fd\" call, so ignored files/directories are removed w/o using recycle bin."
-msgstr "您选择了“包括未被版本控制的\"。\n这实际调用“git clean -fd”命令，于是采用回收站的忽略文件/目录将被直接删除。"
+msgstr "您选择了“包括未被版本控制的\"。\n这实际包括了调用“git clean -fd”命令，于是已忽略的文件/目录将被直接删除到回收站。"
 
 #. Resource IDs: (7)
 msgid "You have marked changed blocks. How should those blocks be saved?"
@@ -11287,7 +11287,7 @@ msgstr "您必须为 zip 文件选择一个文件名！"
 msgid ""
 "You selected a folder.\r\n"
 "Exports are only possible to a (zip) file."
-msgstr "您选择了一个目录。\n导出只能是一个(zip)文件。"
+msgstr "您选择了一个文件夹。\n导出只能是一个(zip)文件。"
 
 #. Resource IDs: (77)
 msgid ""
