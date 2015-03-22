@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-03-20 11:17+0000\n"
+"PO-Revision-Date: 2015-03-22 16:58+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -225,7 +225,7 @@ msgstr "%d个文件已删除。"
 #. Resource IDs: (69)
 #, c-format
 msgid "%d files reverted to %s."
-msgstr "%d个文件已回滚到 %s。"
+msgstr "%d个文件已还原到 %s。"
 
 #. Resource IDs: (169)
 #, c-format
@@ -4061,7 +4061,7 @@ msgstr "您确定要删除\"%s\"吗？"
 msgid ""
 "Do you really want to restore the copy? You will lose all changes that you "
 "have done after creating the copy."
-msgstr "您真的确定要恢复该副本？您将丢失所有的在创建该副本之后的变更。"
+msgstr "您真的确定要恢复该副本？您将丢失所有在创建该副本后的变更。"
 
 #. Resource IDs: (119)
 #, c-format
@@ -4069,7 +4069,7 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "and go back to this revision? These changes will be reverted by reverse-merging the revisions into your working tree."
-msgstr "您确定要恢复\n%s\n的所有更改并返回到此版本吗？这些修改将会反向合并到您的工作副本。"
+msgstr "您确定要还原\n%s\n的所有更改并返回到此版本吗？这些更改将被反向合并到您的工作副本。"
 
 #. Resource IDs: (76)
 #, c-format
@@ -4077,7 +4077,7 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "which were made in this revision? These changes will be reverted by reverse-merging the revision into your working tree."
-msgstr "您确定要恢复在此版本中对\n%s\n做出的所有更改吗？这些更改将会反向合并到您的工作副本。"
+msgstr "您确定要还原在此版本中对\n%s\n做出的所有更改吗？这些更改将被反向合并到您的工作副本。"
 
 #. Resource IDs: (93)
 msgid ""
@@ -6613,7 +6613,7 @@ msgstr "移动: %s 的新名称"
 
 #. Resource IDs: (197)
 msgid "Moves the modified files to the recycle bin first before reverting"
-msgstr "在恢复前将已经修改的文件移动到回收站"
+msgstr "在还原前将已经修改的文件移动到回收站"
 
 #. Resource IDs: (80)
 #, c-format
@@ -6797,7 +6797,7 @@ msgstr "没有发生错误。"
 msgid ""
 "No files or folders were modified. There is nothing for TortoiseGit to "
 "revert!"
-msgstr "从上次提交以来没有任何文件修改或加入。TortoiseGit 不需要进行复原！"
+msgstr "自上次提交以来没有文件或文件夹被修改。TortoiseGit 不需要进行任何还原！"
 
 #. Resource IDs: (239)
 msgid ""
@@ -8248,7 +8248,7 @@ msgstr "重新开始变基"
 
 #. Resource IDs: (64)
 msgid "Restore"
-msgstr "锁定"
+msgstr "恢复"
 
 #. Resource IDs: (1254)
 msgid "Restore Default"
@@ -8264,7 +8264,7 @@ msgstr "还原窗口至一般大小"
 
 #. Resource IDs: (73)
 msgid "Restored"
-msgstr "还原"
+msgstr "已恢复"
 
 #. Resource IDs: (73)
 msgid "Retry"
@@ -8289,12 +8289,12 @@ msgstr "还原提交 %s"
 
 #. Resource IDs: (1258)
 msgid "Revert to parent revision"
-msgstr "复原到父版本"
+msgstr "还原到父版本"
 
 #. Resource IDs: (323)
 #, c-format
 msgid "Revert to revision %s"
-msgstr "复原到版本%s"
+msgstr "还原到版本 %s"
 
 #. Resource IDs: (73)
 msgid "Reverted"
@@ -8302,7 +8302,7 @@ msgstr "已还原"
 
 #. Resource IDs: (9)
 msgid "Reverts all changes you made since the last update"
-msgstr "复原从上次更新之后全部的变动"
+msgstr "还原上次更新后的全部变更"
 
 #. Resource IDs: (14)
 msgid "Reverts an addition to version control"
@@ -8357,7 +8357,7 @@ msgstr "版本分支图"
 #. Resource IDs: (86)
 msgid ""
 "Revision(s) reverted. All changes are integrated into your working tree now."
-msgstr "版本已恢复。所有的变更现在已集成到您的工作目录。"
+msgstr "版本已还原。所有的变更现在已集成到您的工作树。"
 
 #. Resource IDs: (1579, 65535)
 msgid "Revision:"
@@ -10742,7 +10742,7 @@ msgstr "当前分支颜色使用本地分支颜色"
 
 #. Resource IDs: (1432)
 msgid "Use recycle bin when reverting"
-msgstr "在恢复时使用回收站"
+msgstr "在还原时使用回收站"
 
 #. Resource IDs: (116)
 msgid "Use regular expression"
