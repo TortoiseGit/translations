@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-03-30 00:22+0000\n"
+"PO-Revision-Date: 2015-04-02 18:53+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/tortoisegit/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -1728,6 +1728,10 @@ msgstr "Thêm phần điều khiển từ xa"
 #. Resource IDs: (1482)
 msgid "Add \"&Signed-off-by\""
 msgstr "Thêm \"&Signed-off-by\""
+
+#. Resource IDs: (98)
+msgid "Add another commit?"
+msgstr ""
 
 #. Resource IDs: (110)
 msgid "Add extension specific diff program"
@@ -4282,6 +4286,10 @@ msgstr ""
 #. Resource IDs: (1331, 1382)
 msgid "Edit..."
 msgstr "Biên tập..."
+
+#. Resource IDs: (1827)
+msgid "Edit/Split commit"
+msgstr ""
 
 #. Resource IDs: (1770)
 msgid "Effective"
@@ -9372,10 +9380,6 @@ msgstr "Chỉ ra bao nhiêu món bạn muốn giữ lại trong hộp thoại th
 msgid "Spin1"
 msgstr "Spin1"
 
-#. Resource IDs: (1827)
-msgid "Split commit"
-msgstr ""
-
 #. Resource IDs: (1253)
 msgid "Split lines"
 msgstr "Tách các dòng"
@@ -10143,6 +10147,12 @@ msgid ""
 "A valid path must not contain '<<>|\"?*:' or one of the following device names:\n"
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
 msgstr "Đây không phải là một đường dẫn hợp lệ!\nMột đường dẫn được xem là hợp lệ khi không chứa '<<>|\"?*:' hoặc một trong các tên thiết bị sau:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
+
+#. Resource IDs: (98)
+msgid ""
+"This operation cannot be started while the log dialog is still loading "
+"commits."
+msgstr ""
 
 #. Resource IDs: (3857)
 #, c-format

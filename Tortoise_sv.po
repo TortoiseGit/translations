@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-03-30 18:22+0000\n"
-"Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
+"PO-Revision-Date: 2015-04-02 18:53+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1734,6 +1734,10 @@ msgstr "Lägg till Fjärrarkiv"
 #. Resource IDs: (1482)
 msgid "Add \"&Signed-off-by\""
 msgstr "Lägg till \"&Signed-Off-By\""
+
+#. Resource IDs: (98)
+msgid "Add another commit?"
+msgstr ""
 
 #. Resource IDs: (110)
 msgid "Add extension specific diff program"
@@ -4288,6 +4292,10 @@ msgstr "Redigera syst. gitconfig"
 #. Resource IDs: (1331, 1382)
 msgid "Edit..."
 msgstr "Redigera..."
+
+#. Resource IDs: (1827)
+msgid "Edit/Split commit"
+msgstr ""
 
 #. Resource IDs: (1770)
 msgid "Effective"
@@ -9378,10 +9386,6 @@ msgstr "Specificerar hur många gamla loggmeddelanden som ska sparas i loggmedde
 msgid "Spin1"
 msgstr "Spin1"
 
-#. Resource IDs: (1827)
-msgid "Split commit"
-msgstr ""
-
 #. Resource IDs: (1253)
 msgid "Split lines"
 msgstr "Dela rader"
@@ -10149,6 +10153,12 @@ msgid ""
 "A valid path must not contain '<<>|\"?*:' or one of the following device names:\n"
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
 msgstr "Det här är inte en giltig sökväg!\nEn giltig sökväg får inte innehålla '<<>|\"?*:' eller ett av följande enhetsnamn:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
+
+#. Resource IDs: (98)
+msgid ""
+"This operation cannot be started while the log dialog is still loading "
+"commits."
+msgstr ""
 
 #. Resource IDs: (3857)
 #, c-format
