@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-04-02 18:53+0000\n"
+"PO-Revision-Date: 2015-04-08 13:41+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1733,7 +1733,7 @@ msgstr "\"&Signed-off-by\" hinzufügen"
 
 #. Resource IDs: (98)
 msgid "Add another commit?"
-msgstr ""
+msgstr "Weitere Eintragung hinzufügen?"
 
 #. Resource IDs: (110)
 msgid "Add extension specific diff program"
@@ -1883,7 +1883,7 @@ msgstr "Benutze benutzerdefinierte Gravatar URL"
 msgid ""
 "Allows to create an empty commit which only has a commit message and no "
 "files (cf. git commit --allow-empty)."
-msgstr ""
+msgstr "Erlaubt das Erstellen einer leeren Eintragung, die nur aus eine Eintragungsmeldung und keinen Dateien besteht (siehe auch git commit --allow-empty)."
 
 #. Resource IDs: (66)
 msgid "Already up to date."
@@ -4151,7 +4151,7 @@ msgstr "Nicht speichern\nDie Ansichten neu laden, ohne die Änderungen zu speich
 
 #. Resource IDs: (65535)
 msgid "Don't show the selected items: (press shift key to show them)"
-msgstr ""
+msgstr "Zeige die gewählten Einträge nicht immer an (zum Anzeigen die Umschalttaste drücken)"
 
 #. Resource IDs: (73, 80)
 msgid "Don't show this message again"
@@ -4291,7 +4291,7 @@ msgstr "Bearbeiten..."
 
 #. Resource IDs: (1827)
 msgid "Edit/Split commit"
-msgstr ""
+msgstr "Eintragung bearbeiten/aufspalten"
 
 #. Resource IDs: (1770)
 msgid "Effective"
@@ -5111,7 +5111,7 @@ msgstr "GDI+ konnte kein Bitmapobjekt erzeugen. Vermutlich reicht der Speicher n
 
 #. Resource IDs: (82)
 msgid "GPG signs the tag, see manual for details"
-msgstr ""
+msgstr "Markierung GPG-signieren, beachten Sie die Hilfe für Details"
 
 #. Resource IDs: (284)
 msgid "Gathering information. Please wait..."
@@ -5966,7 +5966,7 @@ msgstr "beachte &ignorierte Dateien"
 
 #. Resource IDs: (1797)
 msgid "Include FETCH_HEAD in branch selection boxes"
-msgstr ""
+msgstr "FETCH_HEAD in Zweig-Auswahlboxen anzeigen"
 
 #. Resource IDs: (65535)
 msgid "Include only the following revision range:"
@@ -6391,7 +6391,7 @@ msgstr "Als aufgelöst markieren\nDer Status der Datei wird auf 'verändert' ges
 
 #. Resource IDs: (97)
 msgid "Mark for comparison"
-msgstr ""
+msgstr "Für Vergleich auswählen"
 
 #. Resource IDs: (252)
 msgid "Mark this block"
@@ -10154,7 +10154,7 @@ msgstr "Dies ist kein gültiger Pfad!\nEine gültige Pfadangabe unter Windows da
 msgid ""
 "This operation cannot be started while the log dialog is still loading "
 "commits."
-msgstr ""
+msgstr "Diese Operation kann nicht gestartet werden solange der Aktionslog noch Eintragungen lädt."
 
 #. Resource IDs: (3857)
 #, c-format
@@ -10390,7 +10390,7 @@ msgid ""
 "/title:\"title to show for the viewer\"\n"
 "/?  - this help dialog\n"
 "/p  - read diff input from console pipe"
-msgstr ""
+msgstr "TortoiseGitUDiff: Der Unified-Diff-Viewer von TortoiseGit\n\nVerfügbare Kommandozeilenparameter sind:\n/patchfile:\"Pfad zur unified diff Datei\"\n/title:\"Titel der im Viewer angezeigt werden soll\"\n/?  - dieser Dialog\n/p  - Lese die Vergleichseingabe vom Standard-Input der Konsole"
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"
@@ -10821,7 +10821,7 @@ msgstr "Verwende &diesen Textblock"
 
 #. Resource IDs: (98)
 msgid "Use the current time by setting the author date to the commit date."
-msgstr ""
+msgstr "Benutzt die aktuelle Zeit für die Eintrage- und den Autorenzeitstempel der Eintragung."
 
 #. Resource IDs: (314)
 #, c-format
@@ -10906,7 +10906,7 @@ msgid ""
 "/saverequiredonconflicts\n"
 "/oneway <forces the one-way view>\n"
 "/line:<line number to jump to>"
-msgstr ""
+msgstr "Gültige Kommandozeilenparameter sind:\n/base:<Pfad zur Basisdatei>\n/basename:<Anzeigename für die Titelzeile>\n/theirs:<Pfad zur zu integrierenden Datei>\n/theirsname:<Anzeigename für die Titelzeile>\n/mine:<Pfad zu Ihrer Datei>\n/minename:<Anzeigename für die Titelzeile>\n/merged:<Pfad zur Ergebnisdatei>\n/mergedname:<Anzeigename für die Titelzeile>\n/diff:<Pfad zur Standard-Diffdatei>\n/patchpath:<Pfad zum Ordner>\n/saverequired\n/saverequiredonconflicts\n/oneway <Erzwingt die Einfenstersicht>\n/line:<Zeilennummer in die gesprungen werden soll>"
 
 #. Resource IDs: (11, 357)
 msgid "Value"
@@ -11526,7 +11526,7 @@ msgstr "Gelöscht"
 
 #. Resource IDs: (7)
 msgid "diff from pipe"
-msgstr ""
+msgstr "Vergleichen über Standard-Input-Pipe"
 
 #. Resource IDs: (58116)
 msgid "dummy"
