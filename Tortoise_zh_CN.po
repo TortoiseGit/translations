@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-04-02 19:43+0000\n"
+"PO-Revision-Date: 2015-04-09 23:51+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -350,7 +350,7 @@ msgstr "添加(&A)"
 
 #. Resource IDs: (17075)
 msgid "&Add >>"
-msgstr "增加(&A) >>"
+msgstr "添加(&A) >>"
 
 #. Resource IDs: (1505)
 msgid "&Add Filter"
@@ -366,11 +366,11 @@ msgstr "添加(&A)"
 
 #. Resource IDs: (1064)
 msgid "&Add or Remove Buttons"
-msgstr "增加或删除按钮(&A)"
+msgstr "添加或移除按钮(&A)"
 
 #. Resource IDs: (8, 1098)
 msgid "&Add..."
-msgstr "增加(&A)..."
+msgstr "添加(&A)..."
 
 #. Resource IDs: (1090, 1093)
 msgid "&Advanced..."
@@ -554,7 +554,7 @@ msgstr "复制(&C)\tCtrl+C"
 
 #. Resource IDs: (1662)
 msgid "&Custom"
-msgstr "定制(&C)"
+msgstr "自定义(&C)"
 
 #. Resource IDs: (1269)
 msgid "&Default"
@@ -1340,7 +1340,7 @@ msgstr "查看(&V):"
 
 #. Resource IDs: (1568)
 msgid "&Warn on missing Signed-Off-By on commit"
-msgstr "在提交缺少Signed-off-by时给出警告(&W)"
+msgstr "在提交缺少 Signed-off-by 时给出警告(&W)"
 
 #. Resource IDs: (1203)
 msgid "&Whole Project"
@@ -1726,7 +1726,7 @@ msgstr "添加“Signed-off-by”(&S)"
 #. Resource IDs: (1253)
 #, c-format
 msgid "Add '%s' to dictionary"
-msgstr "增加“%s”到目录"
+msgstr "添加“%s”到目录"
 
 #. Resource IDs: (323)
 msgid "Add Remote"
@@ -1754,7 +1754,7 @@ msgstr "自动添加新文件到 Git"
 
 #. Resource IDs: (13)
 msgid "Add to &ignore list"
-msgstr "增加到忽略列表(&I)"
+msgstr "添加到忽略列表(&I)"
 
 #. Resource IDs: (1068)
 msgid "Add to Quick Access Toolbar"
@@ -1762,15 +1762,15 @@ msgstr "添加到快速访问工具栏"
 
 #. Resource IDs: (209, 1279)
 msgid "Add..."
-msgstr "增加..."
+msgstr "添加..."
 
 #. Resource IDs: (171)
 msgid "Add/Edit Extension Specific Diff/Merge Program"
-msgstr "增加/编辑针对扩展名的差异比较/合并工具"
+msgstr "添加/编辑针对扩展名的差异比较/合并工具"
 
 #. Resource IDs: (73, 264, 1257, 1549, 65535)
 msgid "Added"
-msgstr "已增加"
+msgstr "已添加"
 
 #. Resource IDs: (145)
 #, c-format
@@ -1778,11 +1778,11 @@ msgid ""
 "Added the file pattern(s)\n"
 "%s\n"
 "to the ignore list."
-msgstr "将选定的文件类型\n%s\n增加到忽略列表。"
+msgstr "将选定的文件类型\n%s\n添加到忽略列表。"
 
 #. Resource IDs: (263)
 msgid "Adding"
-msgstr "正在增加"
+msgstr "正在添加"
 
 #. Resource IDs: (9)
 msgid "Adds file(s) to Git control"
@@ -2175,7 +2175,7 @@ msgstr "如果没有进一步的选项可用，自动关闭"
 
 #. Resource IDs: (222)
 msgid "Auto-close if no merges, adds or deletes"
-msgstr "如无合并、增加、删除操作，自动关闭"
+msgstr "如无合并、添加或删除操作，自动关闭"
 
 #. Resource IDs: (195)
 msgid ""
@@ -2478,7 +2478,7 @@ msgstr "不能创建新图像！"
 
 #. Resource IDs: (1001)
 msgid "Can't customize menus!"
-msgstr "不能定制菜单！"
+msgstr "不能自定义菜单！"
 
 #. Resource IDs: (1001)
 msgid "Can't paste bitmap image from the clipboard!"
@@ -2632,7 +2632,7 @@ msgstr "包括添加/删除文件的修改行数"
 
 #. Resource IDs: (2054)
 msgid "Changed lines including added/deleted files by date"
-msgstr "每日的修改行数（包括增加/删除的文件）"
+msgstr "每日的修改行数（包括添加/删除的文件）"
 
 #. Resource IDs: (2054)
 msgid "Changed lines not including added/deleted files"
@@ -2640,7 +2640,7 @@ msgstr "不包括添加/删除文件的修改行数"
 
 #. Resource IDs: (2054)
 msgid "Changed lines not including added/deleted files by date"
-msgstr "每日的修改行数（不包括增加/删除的文件）"
+msgstr "每日的修改行数（不包括添加/删除的文件）"
 
 #. Resource IDs: (264)
 #, c-format
@@ -3054,7 +3054,7 @@ msgid ""
 "You might want to add these folders recursively by using the 'Add...' context menu item.\n"
 "\n"
 "Are you sure that you want to continue the commit?"
-msgstr "提交未版本控制的文件夹不会递归增加它的子项目！\n您可能需要用上下文菜单的“增加...”来递归增加这些文件夹。\n\n您确定要继续提交吗？"
+msgstr "提交未版本控制的文件夹不会递归添加它的子项目！\n您可能需要用上下文菜单的“添加...”来递归添加这些文件夹。\n\n您确定要继续提交吗？"
 
 #. Resource IDs: (65535)
 msgid "Common Name:"
@@ -3583,19 +3583,19 @@ msgstr "当前版本是: %s"
 
 #. Resource IDs: (17079)
 msgid "Cus&tomize..."
-msgstr "定制(&T)..."
+msgstr "自定义(&T)..."
 
 #. Resource IDs: (16963)
 msgid "Custom"
-msgstr "定制"
+msgstr "自定义"
 
 #. Resource IDs: (1007, 17074)
 msgid "Customize"
-msgstr "定制"
+msgstr "自定义"
 
 #. Resource IDs: (17076)
 msgid "Customize Keyboard"
-msgstr "定制键盘"
+msgstr "自定义键盘"
 
 #. Resource IDs: (1069)
 msgid "Customize Quick Access Toolbar"
@@ -3607,7 +3607,7 @@ msgstr "自定义快速访问工具栏..."
 
 #. Resource IDs: (1258)
 msgid "Customize..."
-msgstr "定制..."
+msgstr "自定义..."
 
 #. Resource IDs: (3603)
 msgid ""
@@ -5419,7 +5419,7 @@ msgstr "键盘帮助"
 
 #. Resource IDs: (65535)
 msgid "Helper:"
-msgstr "助手："
+msgstr "助手:"
 
 #. Resource IDs: (65535)
 msgid "Helpers:"
@@ -6214,7 +6214,7 @@ msgstr "行号: %*ld"
 
 #. Resource IDs: (64, 601)
 msgid "Lines added"
-msgstr "增加行数"
+msgstr "添加行数"
 
 #. Resource IDs: (64, 601)
 msgid "Lines removed"
@@ -7894,7 +7894,7 @@ msgstr "递归"
 msgid ""
 "Redo the previously undone action\n"
 "Redo"
-msgstr "重做上次还原的动作\n重做"
+msgstr "重做上次撤销的动作\n重做"
 
 #. Resource IDs: (3825)
 msgid "Reduce the window to an icon"
@@ -8140,7 +8140,7 @@ msgstr "重命名版本控制树中的文件/文件夹"
 msgid ""
 "Repeat the last action\n"
 "Repeat"
-msgstr "重复上次动作\n重复"
+msgstr "重复上一个动作\n重复"
 
 #. Resource IDs: (1512)
 msgid "Replace &All"
@@ -8318,7 +8318,7 @@ msgstr "还原上次更新后的全部变更"
 
 #. Resource IDs: (14)
 msgid "Reverts an addition to version control"
-msgstr "撤销增加文件到版本控制"
+msgstr "撤销添加文件到版本控制"
 
 #. Resource IDs: (603)
 msgid "Review Patch with TortoiseGitMerge"
@@ -9945,7 +9945,7 @@ msgstr "本地分支/标签名称为空。这将导致一个远端分支/标签�
 msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
-msgstr "保存的最大动作记录行数。\n如果新增的行超过此限制，最旧的行会被删除。"
+msgstr "最多保存的动作记录行数。\n如果新增的行超过此限制，最旧的行会被删除。"
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -10192,7 +10192,7 @@ msgid ""
 "This will delete the record of commands you've used in this application and "
 "restore the default set of visible commands to the menus and toolbars. It "
 "will not undo any explicit customizations. Are you sure you want to do this?"
-msgstr "这将删除您在应用程序中使用的命令记录，恢复到默认菜单和工具栏的可视化命令集合。它不会撤销任何显式的的定制。您确定吗？"
+msgstr "这将删除您在应用程序中使用的命令记录，恢复到默认菜单和工具栏的可视化命令集合。它不会撤销任何显式的的自定义。您确定吗？"
 
 #. Resource IDs: (604)
 msgid "Three way diff"
@@ -10547,7 +10547,7 @@ msgstr "撤销 1 个操作"
 
 #. Resource IDs: (14)
 msgid "Undo Add..."
-msgstr "撤销增加..."
+msgstr "撤销添加..."
 
 #. Resource IDs: (3603)
 msgid ""
@@ -11049,7 +11049,7 @@ msgstr "西欧"
 msgid ""
 "When activated, hold down the SHIFT key when right-clicking to get the "
 "TortoiseGit menus added to the context menu"
-msgstr "在激活后，当单击右键时保持 SHIFT 键按下即可将 TortoiseGit 菜单增加到右键菜单"
+msgstr "在激活后，当单击右键时保持 SHIFT 键按下即可将 TortoiseGit 菜单添加到右键菜单"
 
 #. Resource IDs: (604)
 msgid ""
@@ -11452,11 +11452,11 @@ msgstr "添加“摘取从\""
 
 #. Resource IDs: (10)
 msgid "added"
-msgstr "增加"
+msgstr "添加"
 
 #. Resource IDs: (65535)
 msgid "added files"
-msgstr "增加文件"
+msgstr "添加文件"
 
 #. Resource IDs: (3841)
 msgid "an unnamed file"
