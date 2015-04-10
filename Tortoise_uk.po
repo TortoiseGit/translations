@@ -9,6 +9,7 @@
 # ktretyak <ktretyakgm@gmail.com>, 2013
 # Maks Lyashuk <m_lyashuk@ukr.net>, 2013
 # Maks Lyashuk <m_lyashuk@ukr.net>, 2013
+# Tymur Mudzhyri <intrueder@gmail.com>, 2015
 # Vitaliy Katerusha <vitali_kat@hotmail.com>, 2011
 # Віктор Лелейко <victor.leleyko@gmail.com>, 2013
 msgid ""
@@ -16,8 +17,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-04-02 18:53+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2015-04-10 19:58+0000\n"
+"Last-Translator: Tymur Mudzhyri <intrueder@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -204,7 +205,7 @@ msgstr "%I64d КіБ переслано"
 #. Resource IDs: (75)
 #, c-format
 msgid "%d commits ahead \"%s\""
-msgstr ""
+msgstr "%d фіксацій перед \"%s\""
 
 #. Resource IDs: (1256)
 #, c-format
@@ -716,7 +717,7 @@ msgstr ""
 
 #. Resource IDs: (1608)
 msgid "&From:"
-msgstr ""
+msgstr "&Від:"
 
 #. Resource IDs: (2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -1569,7 +1570,7 @@ msgstr ""
 
 #. Resource IDs: (85)
 msgid "A branch with this name already exists."
-msgstr ""
+msgstr "Гілка з такою назвою вже існує."
 
 #. Resource IDs: (69)
 msgid ""
@@ -1830,7 +1831,7 @@ msgstr ""
 
 #. Resource IDs: (93)
 msgid "All local branches"
-msgstr ""
+msgstr "Усі локальні гілки"
 
 #. Resource IDs: (96)
 msgid "All refs"
@@ -2618,7 +2619,7 @@ msgstr ""
 #. Resource IDs: (163)
 #, c-format
 msgid "Changed files: %d"
-msgstr ""
+msgstr "Змінені файли: %d"
 
 #. Resource IDs: (2054)
 msgid "Changed lines including added/deleted files"
@@ -2659,7 +2660,7 @@ msgstr "Позначити"
 
 #. Resource IDs: (174)
 msgid "Check For Updates - TortoiseGit"
-msgstr ""
+msgstr "Перевірити наявність оновлень - TortoiseGit"
 
 #. Resource IDs: (1031)
 msgid "Check For Updates..."
@@ -2861,7 +2862,7 @@ msgstr ""
 
 #. Resource IDs: (22)
 msgid "Clone a repository"
-msgstr ""
+msgstr "Клонувати сховище"
 
 #. Resource IDs: (1653)
 msgid "Clone into Bare Repo"
@@ -2979,7 +2980,7 @@ msgstr ""
 
 #. Resource IDs: (1255)
 msgid "Commit Date"
-msgstr ""
+msgstr "Дата фіксації"
 
 #. Resource IDs: (1255)
 msgid "Commit Email"
@@ -2999,7 +3000,7 @@ msgstr ""
 
 #. Resource IDs: (1255)
 msgid "Commit Name"
-msgstr ""
+msgstr "Назва фіксації"
 
 #. Resource IDs: (1750)
 msgid "Commit Ordering:"
@@ -3155,7 +3156,7 @@ msgstr ""
 
 #. Resource IDs: (67)
 msgid "Conflict Files"
-msgstr ""
+msgstr "Конфліктні файли"
 
 #. Resource IDs: (65535)
 msgid "Conflict resolved"
@@ -3167,7 +3168,7 @@ msgstr "Конфліктні"
 
 #. Resource IDs: (86)
 msgid "Conflicts"
-msgstr ""
+msgstr "Конфлікти"
 
 #. Resource IDs: (188)
 #, c-format
@@ -3184,7 +3185,7 @@ msgstr ""
 
 #. Resource IDs: (67, 73, 1564)
 msgid "Continue"
-msgstr ""
+msgstr "Продовжити"
 
 #. Resource IDs: (1001)
 msgid "Contract docked window"
@@ -3227,7 +3228,7 @@ msgstr "Знаряддя для копіювання\nКопіювати"
 
 #. Resource IDs: (209)
 msgid "Copy all information to clipboard"
-msgstr ""
+msgstr "Копіювати всю інформацію до буфера обміну"
 
 #. Resource IDs: (146)
 msgid "Copy and rename"
@@ -3243,7 +3244,7 @@ msgstr ""
 
 #. Resource IDs: (209)
 msgid "Copy paths to clipboard"
-msgstr ""
+msgstr "Копіювати шляхи до буфера обміну"
 
 #. Resource IDs: (90)
 msgid "Copy ref names"
@@ -3279,7 +3280,7 @@ msgstr "Копіювання..."
 
 #. Resource IDs: (1001)
 msgid "Copyright (C) 2009-2015 TortoiseGit"
-msgstr ""
+msgstr "Copyright (C) 2009-2015 TortoiseGit"
 
 #. Resource IDs: (1254)
 msgid "Corrections"
@@ -3297,7 +3298,7 @@ msgstr "Не вдалося перевірити наявність новішо
 #. Resource IDs: (93)
 #, c-format
 msgid "Could not check for a newer version! %s (Error code: 0x%08X)"
-msgstr ""
+msgstr "Не вдалося перевірити наявність новішої версії! %s (Код помилки: 0x%08X)"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3305,7 +3306,7 @@ msgid ""
 "Could not copy the files!\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "Не вдалося скопіювати файли!\n\n%s"
 
 #. Resource IDs: (3867)
 #, c-format
@@ -3447,7 +3448,7 @@ msgstr ""
 
 #. Resource IDs: (9)
 msgid "Create Branch..."
-msgstr ""
+msgstr "Створити гілку..."
 
 #. Resource IDs: (243)
 msgid "Create Changelist"
@@ -3455,7 +3456,7 @@ msgstr "Створити список змін"
 
 #. Resource IDs: (1527)
 msgid "Create New Branch"
-msgstr ""
+msgstr "Створити нову гілку"
 
 #. Resource IDs: (20)
 msgid "Create Patch Serial..."
@@ -3552,11 +3553,11 @@ msgstr "Поточний"
 
 #. Resource IDs: (65535)
 msgid "Current Branch"
-msgstr ""
+msgstr "Поточна гілка"
 
 #. Resource IDs: (65535)
 msgid "Current Branch:"
-msgstr ""
+msgstr "Поточна гілка:"
 
 #. Resource IDs: (603)
 #, c-format
@@ -3692,7 +3693,7 @@ msgstr "Знищити й ігнорувати %d елементів за роз
 
 #. Resource IDs: (80)
 msgid "Delete branch"
-msgstr ""
+msgstr "Знищити гілку"
 
 #. Resource IDs: (1255)
 msgid "Delete branch/tag"
@@ -3700,7 +3701,7 @@ msgstr ""
 
 #. Resource IDs: (80)
 msgid "Delete remote branch"
-msgstr ""
+msgstr "Знищити віддалену гілку"
 
 #. Resource IDs: (4579)
 msgid "Delete remote tag - TortoiseGit"
@@ -4745,7 +4746,7 @@ msgstr ""
 
 #. Resource IDs: (1251)
 msgid "Fetching Status..."
-msgstr ""
+msgstr "Видобувається стан..."
 
 #. Resource IDs: (81)
 msgid "Fetching changed files..."
@@ -5741,7 +5742,7 @@ msgstr ""
 msgid ""
 "Icons (*.ico, *.jpg, *.png, *.bmp, "
 "*.gif)|*.ico;*.jpg;*.jpeg;*.png;*.bmp;*.gif|All Files (*.*)|*.*||"
-msgstr ""
+msgstr "Піктограми (*.ico, *.jpg, *.png, *.bmp, *.gif)|*.ico;*.jpg;*.jpeg;*.png;*.bmp;*.gif|Всі файли (*.*)|*.*||"
 
 #. Resource IDs: (65535)
 msgid "Icons/Design/Code:\t\tLuebbe Onken"
@@ -6121,11 +6122,11 @@ msgstr "&Мова:"
 
 #. Resource IDs: (85)
 msgid "Last Author"
-msgstr ""
+msgstr "Останній автор"
 
 #. Resource IDs: (68)
 msgid "Last Commit"
-msgstr ""
+msgstr "Остання фіксація"
 
 #. Resource IDs: (86)
 msgid "Last Modified"
@@ -6208,11 +6209,11 @@ msgstr "Рядок: %*ld"
 
 #. Resource IDs: (64, 601)
 msgid "Lines added"
-msgstr ""
+msgstr "Рядків додано"
 
 #. Resource IDs: (64, 601)
 msgid "Lines removed"
-msgstr ""
+msgstr "Рядків видалено"
 
 #. Resource IDs: (3605)
 msgid ""
@@ -6260,7 +6261,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Local Branch"
-msgstr ""
+msgstr "Локальна гілка"
 
 #. Resource IDs: (93)
 msgid ""
@@ -6270,7 +6271,7 @@ msgstr ""
 
 #. Resource IDs: (63)
 msgid "Local status"
-msgstr ""
+msgstr "Локальний стан"
 
 #. Resource IDs: (65535)
 msgid "Local:"
@@ -8018,7 +8019,7 @@ msgstr ""
 
 #. Resource IDs: (63)
 msgid "Remote status"
-msgstr "Віддалений статус"
+msgstr "Віддалений стан"
 
 #. Resource IDs: (65535)
 msgid "Remote:"
@@ -9490,7 +9491,7 @@ msgstr "Кеш стану"
 #. Resource IDs: (197)
 msgid ""
 "Status cache for only one folder, with full status and recursive overlays"
-msgstr ""
+msgstr "Кеш стану лише для одного каталогу, з повним станом та рекурсивними перекриваннями"
 
 #. Resource IDs: (196)
 msgid ""
