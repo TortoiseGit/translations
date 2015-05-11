@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-05-08 18:27+0000\n"
+"PO-Revision-Date: 2015-05-11 07:20+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -701,7 +701,7 @@ msgstr "跟隨重新命名(&F)"
 
 #. Resource IDs: (65535)
 msgid "&Font for log messages:"
-msgstr "訊息紀錄字型(&F):"
+msgstr "日誌訊息字型(&F):"
 
 #. Resource IDs: (65535)
 msgid "&Font:"
@@ -1689,7 +1689,7 @@ msgstr "行動"
 
 #. Resource IDs: (65535)
 msgid "Action log"
-msgstr "行為紀錄"
+msgstr "行為日誌"
 
 #. Resource IDs: (1251)
 msgid "Actions"
@@ -2176,7 +2176,7 @@ msgstr "無合併, 新增, 刪除時自動關閉"
 msgid ""
 "Auto-complete suggests words (usually class or member names)\r\n"
 "from the files that you have changed as you type a log message."
-msgstr "在輸入記錄訊息時, 自動從這次有修改的檔案內\r\n容中提示單字(通常是類別或成員的名字)."
+msgstr "在輸入日誌訊息時, 自動從這次有修改的檔案內\n容中提示單字(通常是類別或成員的名字)."
 
 #. Resource IDs: (1505)
 msgid "AutoLoad Putty &Key"
@@ -2448,7 +2448,7 @@ msgstr "計算"
 
 #. Resource IDs: (1127)
 msgid "Can double-click in log list to compare with previous revision"
-msgstr "可使用雙擊與前一個版本比對"
+msgstr "可在日誌列表上使用雙擊與前一個版本比對"
 
 #. Resource IDs: (3865)
 msgid "Can not activate a static ActiveX object."
@@ -2523,7 +2523,7 @@ msgstr "取消\n保留目前設定"
 msgid ""
 "Cannot combine commits now.\r\n"
 "Make sure you are viewing the log of your current branch and no filters are applied."
-msgstr "現在無法合併提交\r\n請確定你正在檢視當前分支及沒有套用過濾器"
+msgstr "現在無法合併提交\n請確定在日誌中只有檢視當前分支並且沒有套用過濾器，同時確認這些提交是連續的。"
 
 #. Resource IDs: (94)
 msgid ""
@@ -2570,7 +2570,7 @@ msgstr "憑證驗證失敗!"
 
 #. Resource IDs: (1697)
 msgid "Change log"
-msgstr "變更記錄"
+msgstr "變更日誌"
 
 #. Resource IDs: (3601)
 msgid ""
@@ -2688,11 +2688,11 @@ msgstr "選擇你想移到擴展右鍵選單的項目(需要按住Shift鍵)"
 
 #. Resource IDs: (81)
 msgid "Check to show relative times in log messages"
-msgstr "在歷史記錄中顯示相對時間"
+msgstr "在日誌中顯示相對時間"
 
 #. Resource IDs: (80)
 msgid "Check to use a less verbose date and time format in log messages"
-msgstr "勾選可在記錄訊息中使用較簡短的日期及時間"
+msgstr "勾選後可在日誌中使用較簡短的日期及時間"
 
 #. Resource IDs: (1700)
 msgid "Check:"
@@ -2798,7 +2798,7 @@ msgstr "清除了 %ld 組 URL (自 %ld 份工作目錄)"
 #. Resource IDs: (196)
 #, c-format
 msgid "Clears %ld log messages stored for %ld working trees"
-msgstr "清除了 %ld 組訊息紀錄 (自 %ld 份工作目錄)"
+msgstr "清除了 %ld 組日誌訊息 (自 %ld 份工作目錄)"
 
 #. Resource IDs: (196)
 #, c-format
@@ -2809,7 +2809,7 @@ msgstr "清除了 %ld 組帳號密碼, %ld 份 SSL 憑證, 以及 %ld 組帳號"
 #. Resource IDs: (197)
 #, c-format
 msgid "Clears cached logs from %ld repositories"
-msgstr "從 %ld 個倉儲中清除快取紀錄訊息"
+msgstr "從 %ld 個倉儲中清除快取日誌訊息"
 
 #. Resource IDs: (195)
 msgid ""
@@ -3236,11 +3236,11 @@ msgstr "複製及重新命名"
 
 #. Resource IDs: (1252)
 msgid "Copy log messages to clipboard"
-msgstr "複製記錄訊息到剪貼簿"
+msgstr "複製日誌訊息到剪貼簿"
 
 #. Resource IDs: (32777)
 msgid "Copy log to clipboard"
-msgstr "複製記錄到剪貼簿"
+msgstr "複製日誌到剪貼簿"
 
 #. Resource IDs: (209)
 msgid "Copy paths to clipboard"
@@ -3757,7 +3757,7 @@ msgstr "從版本控制樹中刪除但保留檔案"
 
 #. Resource IDs: (198)
 msgid "Deletes the action log file"
-msgstr "刪除動作紀錄"
+msgstr "刪除動作日誌檔案"
 
 #. Resource IDs: (263)
 msgid "Deleting"
@@ -4279,7 +4279,7 @@ msgstr "編輯本地 .git/config"
 
 #. Resource IDs: (1254)
 msgid "Edit log message"
-msgstr "編輯記錄訊息"
+msgstr "編輯日誌訊息"
 
 #. Resource IDs: (1384)
 msgid "Edit s&ystemwide gitconfig"
@@ -4342,15 +4342,15 @@ msgstr "啟用拖曳快顯功能表"
 #. Resource IDs: (87)
 msgid ""
 "Enable loading/saving log cache files (tortoisegit.data, tortoisegit.index)"
-msgstr "啟用載入/儲存記錄快取檔  (tortoisegit.data, tortoisegit.index)"
+msgstr "啟用 載入/儲存 日誌快取檔  (tortoisegit.data, tortoisegit.index)"
 
 #. Resource IDs: (1744)
 msgid "Enable log cache"
-msgstr "啟用記錄快取"
+msgstr "啟用日誌快取"
 
 #. Resource IDs: (90)
 msgid "Enable showing Gravatar image in Log Dialog"
-msgstr "啟用在記錄視窗顯示 Gravatar 影像"
+msgstr "啟用在日誌視窗中顯示 Gravatar 影像"
 
 #. Resource IDs: (65535)
 msgid "Enabled Overlay Handlers"
@@ -4411,7 +4411,7 @@ msgstr "將視窗放到最大"
 
 #. Resource IDs: (241)
 msgid "Enter Log Message"
-msgstr "輸入紀錄訊息"
+msgstr "輸入日誌訊息"
 
 #. Resource IDs: (80)
 msgid "Enter URL"
@@ -4473,7 +4473,7 @@ msgstr "輸入檔案內容以測試:"
 
 #. Resource IDs: (1065)
 msgid "Enter log &message:"
-msgstr "輸入紀錄訊息(&M)："
+msgstr "輸入日誌訊息(&M)："
 
 #. Resource IDs: (3858)
 #, c-format
@@ -5163,7 +5163,7 @@ msgstr "一般::擴展選單項目"
 
 #. Resource IDs: (1254)
 msgid "Get merge logs"
-msgstr "取得合併紀錄"
+msgstr "取得合併日誌"
 
 #. Resource IDs: (119)
 #, c-format
@@ -5225,7 +5225,7 @@ msgstr "Git 安裝路徑"
 
 #. Resource IDs: (1270)
 msgid "Git Log"
-msgstr "Git 記錄"
+msgstr "Git 日誌"
 
 #. Resource IDs: (17)
 msgid "Git Move and rename versioned item here"
@@ -5762,19 +5762,19 @@ msgstr "如果選了這項，在“另存為...”或“開啟”對話視窗中
 msgid ""
 "If checked --track is passed to git, if unchecked --no-track is passed to "
 "git, else neither --track nor --no-track is passed to git (see help)."
-msgstr "若選取則把 --track 傳給 git；若不選取則把 --no-track 傳給 git；否則兩者都不傳給 git"
+msgstr "如果啟用則把 --track 傳給 git；如果不啟用則把 --no-track 傳給 git；否則兩者都不傳給 git"
 
 #. Resource IDs: (197)
 msgid ""
 "If checked, double-clicking on a revision in the log list compares it with "
 "the previous revision"
-msgstr "如果選中該項，可以在記錄列表中的一個版本上雙擊，與其比較"
+msgstr "如果啟用，可以在日誌列表中的一個版本上雙擊與其前一版比較"
 
 #. Resource IDs: (196)
 msgid ""
 "If checked, the commit dialog will be started again automatically after an error,\r\n"
 "while preserving your last selection and log message."
-msgstr "勾選此選項時, 在送交中發生錯誤後, 會自動重新顯示送交視窗,\r\n並保留先前的選項與送交訊息."
+msgstr "如果啟用, 在送交中發生錯誤後, 會自動重新顯示送交視窗,\n並保留先前的選項與日誌訊息."
 
 #. Resource IDs: (194)
 msgid ""
@@ -6289,39 +6289,39 @@ msgstr "定位列"
 
 #. Resource IDs: (65)
 msgid "Log"
-msgstr "紀錄"
+msgstr "日誌"
 
 #. Resource IDs: (65535)
 msgid "Log Branch Line"
-msgstr "歷史紀錄中的分支線"
+msgstr "日誌中的分支線"
 
 #. Resource IDs: (65535)
 msgid "Log Graphic"
-msgstr "歷史版本圖"
+msgstr "日誌版本圖"
 
 #. Resource IDs: (211)
 msgid "Log History"
-msgstr "訊息紀錄"
+msgstr "日誌歷史"
 
 #. Resource IDs: (130)
 msgid "Log Messages"
-msgstr "紀錄訊息"
+msgstr "日誌訊息"
 
 #. Resource IDs: (345)
 msgid "Log commit ordering"
-msgstr "提交排列"
+msgstr "日誌提交排列順序"
 
 #. Resource IDs: (65535)
 msgid "Log messages"
-msgstr "紀錄訊息"
+msgstr "日誌訊息"
 
 #. Resource IDs: (1274)
 msgid "Log messages (Input dialog)"
-msgstr "紀錄訊息(輸入視窗)"
+msgstr "日誌訊息(輸入視窗)"
 
 #. Resource IDs: (1280)
 msgid "Log messages (Show log dialog)"
-msgstr "紀錄訊息 (顯示紀錄視窗)"
+msgstr "日誌訊息 (顯示紀錄視窗)"
 
 #. Resource IDs: (1760)
 msgid "Login:"
@@ -6425,11 +6425,11 @@ msgstr "最大"
 
 #. Resource IDs: (1317)
 msgid "Max. items to keep in the log message history"
-msgstr "訊息紀錄最大保留筆數"
+msgstr "歷史日誌訊息的最大保留筆數"
 
 #. Resource IDs: (65535)
 msgid "Max. lines in action log"
-msgstr "行為紀錄最大行數"
+msgstr "行為日誌的最大行數"
 
 #. Resource IDs: (16655)
 msgid "Me&nus show recently used commands first"
@@ -7913,7 +7913,7 @@ msgstr "參考點瀏覽"
 
 #. Resource IDs: (69, 1588)
 msgid "RefLog"
-msgstr "參考點記錄"
+msgstr "參照日誌"
 
 #. Resource IDs: (83)
 msgid "Refname"
@@ -7965,7 +7965,7 @@ msgstr "拒絕補綴方塊 '%s'"
 
 #. Resource IDs: (1072)
 msgid "Relative Times in log"
-msgstr "歷史中使用相對时間"
+msgstr "日誌中使用相對时間"
 
 #. Resource IDs: (32794)
 msgid "Reload"
@@ -8713,7 +8713,7 @@ msgstr "設定(&T)..."
 
 #. Resource IDs: (1253)
 msgid "Search &log messages..."
-msgstr "搜尋記錄訊息(&L)..."
+msgstr "搜尋日誌訊息(&L)..."
 
 #. Resource IDs: (1074)
 msgid "Search &up"
@@ -8954,7 +8954,7 @@ msgstr "Shift-JIS"
 
 #. Resource IDs: (1105)
 msgid "Short &date/time format in log messages"
-msgstr "記錄訊息使用簡短日期/時間格式(&D)"
+msgstr "日誌訊息使用簡短日期/時間格式(&D)"
 
 #. Resource IDs: (1255)
 msgid "Shorten property list"
@@ -8970,7 +8970,7 @@ msgstr "顯示快捷鍵(&A):"
 
 #. Resource IDs: (20)
 msgid "Show &Reflog"
-msgstr "顯示參考點記錄(&R)"
+msgstr "顯示參照日誌(&R)"
 
 #. Resource IDs: (1073)
 msgid "Show &Unversioned Files"
@@ -8986,11 +8986,11 @@ msgstr "顯示變更(&C)"
 
 #. Resource IDs: (12, 101, 1016)
 msgid "Show &log"
-msgstr "顯示記錄(&L)"
+msgstr "顯示日誌(&L)"
 
 #. Resource IDs: (1031)
 msgid "Show &log..."
-msgstr "顯示記錄(&L)..."
+msgstr "顯示日誌(&L)..."
 
 #. Resource IDs: (1088)
 msgid "Show &overlays and context menu only in explorer"
@@ -9058,7 +9058,7 @@ msgstr "Subject 開頭加註星號"
 
 #. Resource IDs: (97)
 msgid "Show asterisk log prefix in log dialog"
-msgstr "在記錄視窗中的訊息的 Subject 開頭加註星號"
+msgstr "在日誌視窗中的訊息的 Subject 開頭加註星號"
 
 #. Resource IDs: (32775)
 msgid "Show author"
@@ -9074,11 +9074,11 @@ msgstr "以單一差異檔顯示差異(&W)"
 
 #. Resource IDs: (32787)
 msgid "Show com&plete log"
-msgstr "顯示完整記錄(&P)"
+msgstr "顯示完整日誌(&P)"
 
 #. Resource IDs: (32864)
 msgid "Show complete log"
-msgstr "顯示完整記錄"
+msgstr "顯示完整日誌"
 
 #. Resource IDs: (32784)
 msgid "Show date"
@@ -9086,11 +9086,11 @@ msgstr "顯示日期"
 
 #. Resource IDs: (1804)
 msgid "Show describe in log"
-msgstr "在記錄訊息中顯示 describe"
+msgstr "在日誌訊息中顯示 describe"
 
 #. Resource IDs: (96)
 msgid "Show describe in log dialog"
-msgstr "在記錄視窗中顯示 describe"
+msgstr "在日誌視窗中顯示 describe"
 
 #. Resource IDs: (83)
 msgid "Show destination folder"
@@ -9138,28 +9138,28 @@ msgstr "顯示行號(&S)"
 
 #. Resource IDs: (64)
 msgid "Show log"
-msgstr "顯示記錄"
+msgstr "顯示日誌"
 
 #. Resource IDs: (65)
 msgid "Show log &before rename/copy"
-msgstr "顯示重新命名/複製前的記錄"
+msgstr "顯示重新命名/複製前的日誌"
 
 #. Resource IDs: (88)
 #, c-format
 msgid "Show log of %s"
-msgstr "顯示 %s 的記錄"
+msgstr "顯示 %s 的日誌"
 
 #. Resource IDs: (81)
 msgid "Show log of submodule"
-msgstr "顯示子模組記錄"
+msgstr "顯示子模組日誌"
 
 #. Resource IDs: (14)
 msgid "Show log of this folder"
-msgstr "顯示資料夾記錄"
+msgstr "顯示該資料夾日誌"
 
 #. Resource IDs: (1256)
 msgid "Show log..."
-msgstr "顯示記錄..."
+msgstr "顯示日誌..."
 
 #. Resource IDs: (96)
 msgid "Show long format even if a tag is exactly on that commit"
@@ -9281,15 +9281,15 @@ msgstr "顯示關於 TortoiseGit 的資訊"
 
 #. Resource IDs: (20)
 msgid "Shows reference log"
-msgstr "顯示參照記錄"
+msgstr "顯示參照日誌"
 
 #. Resource IDs: (198)
 msgid "Shows the action log file in the default text editor"
-msgstr "用預設的文字編輯器顯示行為紀錄"
+msgstr "用預設的文字編輯器顯示行為日誌"
 
 #. Resource IDs: (12)
 msgid "Shows the log for the selected file/folder"
-msgstr "顯示選定的檔案/資料夾的記錄"
+msgstr "顯示選定的檔案/資料夾的日誌"
 
 #. Resource IDs: (1523)
 msgid "Si&gn"
@@ -9376,7 +9376,7 @@ msgstr "反向排序標籤下拉選單的內容"
 msgid ""
 "Specifies how many items you want to keep in the most recent log messages "
 "dialog."
-msgstr "指定最近訊息紀錄要保留幾筆資料."
+msgstr "指定要保留幾筆最近使用的日誌資料."
 
 #. Resource IDs: (16976, 16977, 16978, 16979, 16980, 16981)
 msgid "Spin1"
@@ -9940,7 +9940,7 @@ msgstr "本地分支/標籤為空，這導致刪除遠端分支/標籤。繼續�
 msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
-msgstr "行為紀錄的最大保留行數.\n超過上限的時候會從最舊的開始移除."
+msgstr "行為日誌的最大保留行數.\n超過上限的時候會從最舊的開始移除."
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -10063,7 +10063,7 @@ msgstr "處理選定檔案的時間上限(單位是秒).\r\n設定較低的值�
 msgid ""
 "The two selected URL's are not created from the same root.\n"
 "It's not possible to show the log messages between them!"
-msgstr "選擇的兩個 URL 不是由同樣的來源建立的.\n無法顯示兩者之間的紀錄訊息."
+msgstr "選擇的兩個 URL 不是由同樣的來源建立的.\n無法顯示兩者之間的日誌訊息."
 
 #. Resource IDs: (96)
 msgid ""
@@ -10154,7 +10154,7 @@ msgstr "路徑錯誤!\n正確的路徑不可以包含'<<>|\"?*:' 或是下列的
 msgid ""
 "This operation cannot be started while the log dialog is still loading "
 "commits."
-msgstr "在記錄視窗仍在載入提交時，不能開始這動作。"
+msgstr "在日誌視窗仍在載入提交時，不能開始這動作。"
 
 #. Resource IDs: (3857)
 #, c-format
@@ -10512,7 +10512,7 @@ msgid ""
 "This can happen if the file has been renamed.\n"
 "Please start the log dialog on this specific file alone and then revert the changes\n"
 "from the top pane in the log dialog."
-msgstr "無法重建工作目錄路徑!\n如果檔案名稱有變動, 可能造成這個問題.\n請對特定檔案查詢紀錄, 並從紀錄視窗上方將變更\n復原."
+msgstr "無法重建工作目錄路徑!\n如果檔案名稱有變動, 可能造成這個問題.\n請對特定檔案查詢日誌, 並從日誌視窗上方將變更\n復原."
 
 #. Resource IDs: (3865)
 msgid "Unable to write read-only property."
@@ -11091,7 +11091,7 @@ msgstr "如果遠端名稱為空，當你鍵入的URL時遠端名稱將被自動
 
 #. Resource IDs: (96)
 msgid "Whether to reference only annotated tags, all tags or all refs"
-msgstr "搜尋參照的依據可以是 (1)只有含附註的標籤, (2)所有標籤, 或是 (3)所有參考點"
+msgstr "搜尋參照的依據可以是 (1)只有含附註的標籤, (2)所有標籤, 或是 (3)所有參照"
 
 #. Resource IDs: (1409)
 msgid ""
@@ -11286,7 +11286,7 @@ msgstr "你可以定義最多 %d 組工具."
 
 #. Resource IDs: (170)
 msgid "You must enter a log message for the commit"
-msgstr "必須為提交輸入訊息"
+msgstr "必須輸入日誌訊息"
 
 #. Resource IDs: (196)
 msgid "You must restart your system for the changes to take effect."
@@ -11327,7 +11327,7 @@ msgstr "你已經將圖示組從 <i>%s</i> 變更為 <i>%s</i>.\n在重新登出
 msgid ""
 "Your previously entered log messages have been saved.\n"
 "Click here to read and insert them again."
-msgstr "你之前輸入的紀錄訊息已經儲存.\n點擊這裡可以閱讀或再次使用它們."
+msgstr "你上次輸入的日誌訊息已經被儲存.\n點擊這裡可以把它們讀取回來."
 
 #. Resource IDs: (1112)
 msgid "Your version is:"
