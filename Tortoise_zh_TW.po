@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-05-11 07:20+0000\n"
+"PO-Revision-Date: 2015-05-12 02:34+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -806,7 +806,7 @@ msgstr "保持换行符號(&K)"
 
 #. Resource IDs: (68)
 msgid "&Keep current state"
-msgstr "保持現時狀態(&K)"
+msgstr "保持目前狀態(&K)"
 
 #. Resource IDs: (92)
 msgid "&Labels"
@@ -1501,7 +1501,7 @@ msgstr "<b>警告:</b> 這分支未完全合併進 HEAD"
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr "<ct=0x0000FF>現在的 HEAD 脫離了</ct>，你正在 (沒有分支)工作。\n要現在建立分支嗎？"
+msgstr "<ct=0x0000FF>目前的 HEAD 脫離了</ct>，你正在（沒有分支）工作。\n要現在建立分支嗎？"
 
 #. Resource IDs: (70)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
@@ -1907,11 +1907,11 @@ msgstr "一律使用系統語系顯示時間與日期"
 
 #. Resource IDs: (67)
 msgid "Amend"
-msgstr "更正"
+msgstr "修訂"
 
 #. Resource IDs: (1555)
 msgid "Amend &Last Commit"
-msgstr "修改上次提交"
+msgstr "修訂上次提交"
 
 #. Resource IDs: (80)
 msgid ""
@@ -2336,11 +2336,11 @@ msgstr "分支"
 msgid ""
 "Branch %s behind %s\r\n"
 "%s will fastforward to %s"
-msgstr "分支%s是%s的子節點\r\n%s能直接遷移到%s"
+msgstr "分支 %s 是 %s 的子節點\n%s 將快進到 %s"
 
 #. Resource IDs: (93)
 msgid "Branch (FF)"
-msgstr "分支(直接遷移)"
+msgstr "分支（快進）"
 
 #. Resource IDs: (68)
 msgid "Branch Name"
@@ -2517,19 +2517,19 @@ msgstr "取消\n保留目前的檔案"
 msgid ""
 "Cancel\n"
 "Stay with current settings"
-msgstr "取消\n保留目前設定"
+msgstr "取消\n保留目前的設定"
 
 #. Resource IDs: (70)
 msgid ""
 "Cannot combine commits now.\r\n"
 "Make sure you are viewing the log of your current branch and no filters are applied."
-msgstr "現在無法合併提交\n請確定在日誌中只有檢視當前分支並且沒有套用過濾器，同時確認這些提交是連續的。"
+msgstr "現在無法合併這些提交\n請確定在日誌中只有檢視目前分支並且沒有套用過濾器，同時確認這些提交是連續的。"
 
 #. Resource IDs: (94)
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr "將與當前分支產生同名衝突而無法新建分支. 可使用重置命令移動當前分支來達到相同結果."
+msgstr "將與目前分支產生同名衝突而無法新建分支。可使用重置命令移動目前分支來達到相同結果。"
 
 #. Resource IDs: (1)
 #, c-format
@@ -3340,7 +3340,7 @@ msgstr "無法開啟檔案\n%s"
 #. Resource IDs: (3867)
 #, c-format
 msgid "Could not remove %1 because it is the current directory."
-msgstr "%1 是目前目錄, 無法移除."
+msgstr "%1 是目前目錄，無法移除。"
 
 #. Resource IDs: (82)
 #, c-format
@@ -3521,7 +3521,7 @@ msgstr "根據兩個檔案的差異建立補綴檔\n建立補綴檔"
 
 #. Resource IDs: (10)
 msgid "Creates a repository database at the current location"
-msgstr "在目前位址建立檔案資料庫"
+msgstr "在目前位置建立檔案資料庫"
 
 #. Resource IDs: (14)
 msgid "Creates a unified diff file with all changes you made"
@@ -3553,11 +3553,11 @@ msgstr "目前"
 
 #. Resource IDs: (65535)
 msgid "Current Branch"
-msgstr "當前分支"
+msgstr "目前分支"
 
 #. Resource IDs: (65535)
 msgid "Current Branch:"
-msgstr "當前分支:"
+msgstr "目前分支："
 
 #. Resource IDs: (603)
 #, c-format
@@ -3565,16 +3565,16 @@ msgid ""
 "Current branch %s is up to date\r\n"
 "\r\n"
 " If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr "當前分支%s已經是最新\n\n如果你想強制變基，請選擇下面“強制變基”選項"
+msgstr "目前分支 %s 已經是最新\n\n如果你想強制變基，請選擇下面「強制變基」選項。"
 
 #. Resource IDs: (1113)
 msgid "Current version is:"
-msgstr "目前版本是:"
+msgstr "目前版本是："
 
 #. Resource IDs: (201)
 #, c-format
 msgid "Current version is: %s"
-msgstr "目前版本是: %s"
+msgstr "目前版本是：%s"
 
 #. Resource IDs: (17079)
 msgid "Cus&tomize..."
@@ -4708,16 +4708,16 @@ msgstr "失敗!"
 
 #. Resource IDs: (75)
 msgid "Fast Forward"
-msgstr "直接遷移"
+msgstr "快進"
 
 #. Resource IDs: (1484)
 msgid "Fast Forward o&nly"
-msgstr "只限直接遷移(&N)"
+msgstr "只限快進(&N)"
 
 #. Resource IDs: (67)
 #, c-format
 msgid "Fast forward to %s"
-msgstr "直接遷移至 %s"
+msgstr "快進至 %s"
 
 #. Resource IDs: (76)
 msgid "Fetc&h"
@@ -5007,7 +5007,7 @@ msgstr "強制推送選取的遠端參考點並且沒有任何安全檢查地覆
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
-msgstr "儘管當前分支是你想變基到的後裔節點，也要強制變基。\n正常情况命令列印「現在分支已經最新(Current branch is up to date)」，然後退出。"
+msgstr "儘管你想要變基的基準點是目前分支的後裔節點，也要強制變基。\n正常情况下該命令會列印「目前分支已是最新(Current branch is up to date)」，然後退出。"
 
 #. Resource IDs: (1796)
 msgid "Force: May discard"
@@ -5290,7 +5290,7 @@ msgid ""
 "The \"Effective\" tab shows you the effective values for the current scope (read-only).\n"
 "Select any level to see the values stored there.\n"
 "In order to change settings select a level, enter the values and select where to store to."
-msgstr "Git 採用階層式組態的概念。\n即 有多層；在較高層的設定覆蓋較低層的。\n「有效的」 分頁顯示當前範圍的有效設定值(唯讀)。\n選擇任一層以檢視其設定值。\n要變更設定值，選擇該層，輸入新的值並選擇儲存到哪一層。"
+msgstr "Git 採用階層式組態的概念。\n意即有多層；高層設定會覆蓋低層設定。\n「有效的」分頁顯示目前範圍的有效設定值（唯讀）。\n選擇任一層以檢視其設定值。\n要變更設定值，選擇該層，輸入新的值並選擇儲存到哪一層。"
 
 #. Resource IDs: (65535)
 msgid "Git.exe Path:"
@@ -6758,7 +6758,7 @@ msgstr "否"
 
 #. Resource IDs: (1481)
 msgid "No &Fast Forward"
-msgstr "非 Fast Forward(&F)"
+msgstr "不用快進(&F)"
 
 #. Resource IDs: (92)
 msgid "No &merges"
@@ -6815,7 +6815,7 @@ msgid ""
 "No files to show with the current setting.\n"
 "Check one or more settings below to see unversioned, ignored and/or unmodified files.\n"
 "To see remote changes, click on 'Check Repository'"
-msgstr "目前設定下沒有可顯示的檔案.\n勾選以下的設定以顯示無版本控制的, 忽略的, 或是無變更的檔案.\n選擇 '檢查倉儲' 可顯示遠端變更."
+msgstr "目前設定下沒有可顯示的檔案。\n勾選以下的設定以顯示無版本控制的、忽略的、或是無變更的檔案。\n選擇「檢查倉儲」可顯示遠端變更。"
 
 #. Resource IDs: (77)
 msgid ""
@@ -7109,7 +7109,7 @@ msgstr "尚有一個以上的檔案處於衝突狀態."
 
 #. Resource IDs: (1542)
 msgid "Only Current Branch"
-msgstr "只顯示當前分支"
+msgstr "只顯示目前分支"
 
 #. Resource IDs: (1543)
 msgid "Only Local Branches"
@@ -7596,7 +7596,7 @@ msgstr "列印文件\n列印(&P)"
 msgid ""
 "Print the active document using current options\n"
 "Quick Print"
-msgstr "以現在的選項列印現行文件\n快速列印"
+msgstr "以目在的選項列印現行文件\n快速列印"
 
 #. Resource IDs: (3601)
 msgid ""
@@ -7682,7 +7682,7 @@ msgstr "拉取"
 
 #. Resource IDs: (75)
 msgid "Pull requires the selected local branch to be the current branch."
-msgstr "拉取要求已選的分支為當前分支"
+msgstr "拉取時所選擇的本地分支必需是目前分支。"
 
 #. Resource IDs: (14)
 msgid "Pull..."
@@ -9410,7 +9410,7 @@ msgstr "標準"
 
 #. Resource IDs: (68)
 msgid "Start (FastFwd)"
-msgstr "開始 (FastFwd)"
+msgstr "開始 (快進)"
 
 #. Resource IDs: (67)
 msgid "Start Cherry Pick"
@@ -9721,7 +9721,7 @@ msgstr "標籤"
 
 #. Resource IDs: (1382)
 msgid "Tag (FF)"
-msgstr "標籤 (直接遷移)"
+msgstr "標籤 (快進)"
 
 #. Resource IDs: (82)
 msgid "Tag Info"
@@ -9807,7 +9807,7 @@ msgstr "憑證組態已改變\n要儲存/放棄？"
 msgid ""
 "The current working tree is not clean.\n"
 "Do you want to stash the changes?"
-msgstr "現在工作目錄有改動，\n你想藏起(stash)改動嗎？"
+msgstr "目前工作目錄有改動，\n你想藏起(stash)改動嗎？"
 
 #. Resource IDs: (68)
 #, c-format
@@ -9922,7 +9922,7 @@ msgstr "行號必須在 %d 至 %d 之間"
 #. Resource IDs: (86)
 #, c-format
 msgid "The local branch \"%s\" does not fast-forward to the remote branch \"%s\"."
-msgstr "本地分支 \"%s\" 並不可直接遷移到遠端分支 \"%s\""
+msgstr "本地分支 \"%s\" 無法快進到遠端分支 \"%s\""
 
 #. Resource IDs: (64)
 msgid ""
@@ -10090,7 +10090,7 @@ msgstr "子模組包含的目錄中有修改或是未納入版本控制的檔案
 msgid ""
 "There are currently %d overlay handlers installed besides the ones Tortoise "
 "uses."
-msgstr "除了 Tortoise 以外，現在還有%d 個圖示覆蓋。"
+msgstr "除了 Tortoise 以外，目前還有 %d 個圖示覆蓋。"
 
 #. Resource IDs: (316)
 msgid ""
@@ -10131,7 +10131,7 @@ msgstr "倉庫"
 msgid ""
 "These are more recently saved than the currently open documents and contain "
 "changes that were made before the application closed."
-msgstr "這些是比目前版本還要更新的儲存檔，並含有程式關閉前留下的變更"
+msgstr "這些是比目前版本還要更新的儲存檔，並含有程式關閉前留下的變更。"
 
 #. Resource IDs: (78)
 msgid "This field is required and must not be empty."
@@ -10747,7 +10747,7 @@ msgstr "使用左方檔案"
 
 #. Resource IDs: (1762)
 msgid "Use local branch color for current branch"
-msgstr "當前分支用本地分支顏色"
+msgstr "採用本地分支的顏色做為目前分支的顏色"
 
 #. Resource IDs: (1432)
 msgid "Use recycle bin when reverting"
@@ -10857,7 +10857,7 @@ msgstr "全部使用另一個檔案(&f)"
 
 #. Resource IDs: (119)
 msgid "Used to amend the tip of the current branch."
-msgstr "用於修改當前分支的提示"
+msgstr "用於修訂目前分支最後一個提交"
 
 #. Resource IDs: (65535)
 msgid "User Email:"
@@ -11730,7 +11730,7 @@ msgstr "wincred - 所有 Windows 使用者"
 
 #. Resource IDs: (88)
 msgid "wincred - current Windows user"
-msgstr "wincred - 當前 Windows 使用者"
+msgstr "wincred - 目前 Windows 使用者"
 
 #. Resource IDs: (88)
 msgid "wincred - this repository only"
@@ -11738,7 +11738,7 @@ msgstr "wincred - 只限此檔案庫"
 
 #. Resource IDs: (88)
 msgid "winstore - current Windows user"
-msgstr "winstore - 當前 Windows 使用者"
+msgstr "winstore - 目前 Windows 使用者"
 
 #. Resource IDs: (88)
 msgid "winstore - this repository only"
