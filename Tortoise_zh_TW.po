@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-05-12 02:34+0000\n"
+"PO-Revision-Date: 2015-05-13 04:00+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -341,31 +341,31 @@ msgstr "啟動(&A)"
 
 #. Resource IDs: (1382)
 msgid "&Add"
-msgstr "增加(&A)"
+msgstr "加入(&A)"
 
 #. Resource IDs: (17075)
 msgid "&Add >>"
-msgstr "增加(&A) >>"
+msgstr "加入(&A) >>"
 
 #. Resource IDs: (1505)
 msgid "&Add Filter"
-msgstr "新增過濾器(&A)"
+msgstr "加入過濾器(&A)"
 
 #. Resource IDs: (1382)
 msgid "&Add New/Save"
-msgstr "增加/保存(&A)"
+msgstr "新增／保存(&A)"
 
 #. Resource IDs: (68)
 msgid "&Add it"
-msgstr "增加它(&A)"
+msgstr "加入它(&A)"
 
 #. Resource IDs: (1064)
 msgid "&Add or Remove Buttons"
-msgstr "新增或移除按鈕(&A)"
+msgstr "加入或移除按鈕(&A)"
 
 #. Resource IDs: (8, 1098)
 msgid "&Add..."
-msgstr "增加(&A)..."
+msgstr "加入(&A)..."
 
 #. Resource IDs: (1090, 1093)
 msgid "&Advanced..."
@@ -389,7 +389,7 @@ msgstr "套用補綴(&A)"
 
 #. Resource IDs: (1013)
 msgid "&Apply unified diff"
-msgstr "套用單一差異檔(&A)"
+msgstr "套用統合式差異檔(&A)"
 
 #. Resource IDs: (65535)
 msgid "&Arguments:"
@@ -581,11 +581,11 @@ msgstr "偵測已移動及複製的行(&D):"
 
 #. Resource IDs: (12)
 msgid "&Diff"
-msgstr "比對差異(&D)"
+msgstr "比較差異(&D)"
 
 #. Resource IDs: (14)
 msgid "&Diff with previous version"
-msgstr "與前一個版本比對(&D)"
+msgstr "與前一個版本比較(&D)"
 
 #. Resource IDs: (65535)
 msgid "&Directory:"
@@ -1295,11 +1295,11 @@ msgstr "復原(&U)"
 
 #. Resource IDs: (110)
 msgid "&Unified diff"
-msgstr "單一差異 (&U)"
+msgstr "統合式差異 (&U)"
 
 #. Resource IDs: (1256)
 msgid "&Unified diff with"
-msgstr "單一差異檔(&U)"
+msgstr "統合式差異檔(&U)"
 
 #. Resource IDs: (1061)
 msgid "&Unknown drives"
@@ -1586,21 +1586,21 @@ msgstr "發現較新的版本，請下載！"
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "以換行分隔的列表, 包含要顯示圖示覆蓋的目錄.\r\n如果你在路徑後面加上 '*', 那麼此路徑下的所有檔案及子目錄也都會顯示."
+msgstr "以換行分隔的列表，包含要顯示圖示覆蓋的目錄。\n如果你在路徑後面加上「*」，那麼此路徑下的所有檔案及子目錄也都會顯示。"
 
 #. Resource IDs: (197)
 msgid ""
 "A newline separated list of paths for which no context menu is shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
 "An empty list will allow the context menu on all paths."
-msgstr "以換行分隔的列表，列出的目錄不顯示圖示覆蓋。\r\n如果你在路徑後面加上 '*'， 那麼此路徑下的所有檔案及子目錄也都不會顯示。\n列表為空時表示所有路徑都顯示圖示覆蓋。"
+msgstr "以換行分隔的列表，列出的目錄不顯示圖示覆蓋。\n如果你在路徑後面加上「*」， 那麼此路徑下的所有檔案及子目錄也都不會顯示。\n列表為空時表示所有路徑都顯示圖示覆蓋。"
 
 #. Resource IDs: (194)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
 "An empty list will allow overlays on all paths."
-msgstr "以換行分隔的列表，列出的目錄不顯示圖示覆蓋。\r\n如果你在路徑後面加上 '*'，那麼此路徑下的所有檔案及子目錄也都不會顯示。\r\n列表為空時表示所有路徑都顯示圖示覆蓋。"
+msgstr "以換行分隔的列表，列出的目錄不顯示圖示覆蓋。\n如果你在路徑後面加上「*」，那麼此路徑下的所有檔案及子目錄也都不會顯示。\n列表為空時表示所有路徑都顯示圖示覆蓋。"
 
 #. Resource IDs: (3843)
 msgid "A required resource was unavailable."
@@ -1721,7 +1721,7 @@ msgstr "加入 &Signed-off-by"
 #. Resource IDs: (1253)
 #, c-format
 msgid "Add '%s' to dictionary"
-msgstr "將 '%s' 加入字典"
+msgstr "將「%s」加入字典"
 
 #. Resource IDs: (323)
 msgid "Add Remote"
@@ -1729,15 +1729,15 @@ msgstr "加入遠端伺服器"
 
 #. Resource IDs: (1482)
 msgid "Add \"&Signed-off-by\""
-msgstr "加入 \"&Signed-off-by\""
+msgstr "加入「&Signed-off-by」"
 
 #. Resource IDs: (98)
 msgid "Add another commit?"
-msgstr "加入另一個提交?"
+msgstr "加入另一個提交？"
 
 #. Resource IDs: (110)
 msgid "Add extension specific diff program"
-msgstr "根據副檔名加入差異比對程式"
+msgstr "根據副檔名加入比較差異程式"
 
 #. Resource IDs: (110)
 msgid "Add extension specific merge program"
@@ -1753,7 +1753,7 @@ msgstr "加入忽略列表(&I)"
 
 #. Resource IDs: (1068)
 msgid "Add to Quick Access Toolbar"
-msgstr "新增至快速存取工具列"
+msgstr "加至快速存取工具列"
 
 #. Resource IDs: (209, 1279)
 msgid "Add..."
@@ -1761,7 +1761,7 @@ msgstr "加入..."
 
 #. Resource IDs: (171)
 msgid "Add/Edit Extension Specific Diff/Merge Program"
-msgstr "加入/編輯針對副檔名的差異比對/合併工具"
+msgstr "「加入／編輯」針對副檔名的「比較差異／合併」工具"
 
 #. Resource IDs: (73, 264, 1257, 1549, 65535)
 msgid "Added"
@@ -1773,7 +1773,7 @@ msgid ""
 "Added the file pattern(s)\n"
 "%s\n"
 "to the ignore list."
-msgstr "加入檔名樣式(們)\n%s\n至忽略列表。"
+msgstr "已加入檔名樣式(們)\n%s\n至忽略列表。"
 
 #. Resource IDs: (263)
 msgid "Adding"
@@ -1799,11 +1799,11 @@ msgstr "進階"
 
 #. Resource IDs: (170)
 msgid "Advanced Diff/Merge Settings"
-msgstr "進階差異比對/合併設定"
+msgstr "進階「差異比對／合併」設定"
 
 #. Resource IDs: (110)
 msgid "Advanced diff settings"
-msgstr "進階差異比對設定"
+msgstr "進階「比較差異」設定"
 
 #. Resource IDs: (110)
 msgid "Advanced merge settings"
@@ -1927,7 +1927,7 @@ msgid ""
 "You can specify the following parameters to the path:\r\n"
 "%base: the base file\r\n"
 "%mine: the modified file"
-msgstr "用來比對不同版本間檔案差\r\n異的外部程式.\r\n\r\n你可以指定以下的參數至路徑中:\r\n%base : 檔案名稱\r\n%mine : 修改過的檔案."
+msgstr "用來比較不同版本間檔案差異\n的外部程式。\n\n你可以指定以下的參數至路徑中：\n%base：檔案名稱\n%mine：修改過的檔案."
 
 #. Resource IDs: (79)
 #, c-format
@@ -1999,7 +1999,7 @@ msgstr "從郵箱套用補綴序列"
 
 #. Resource IDs: (1072)
 msgid "Apply unified diff"
-msgstr "套用單一差異檔"
+msgstr "套用統合式差異檔"
 
 #. Resource IDs: (156, 626)
 msgid "Aqua Style"
@@ -2170,7 +2170,7 @@ msgstr "無更多選項時自動關閉"
 
 #. Resource IDs: (222)
 msgid "Auto-close if no merges, adds or deletes"
-msgstr "無合併, 新增, 刪除時自動關閉"
+msgstr "無合併、新增、刪除時自動關閉"
 
 #. Resource IDs: (195)
 msgid ""
@@ -2368,7 +2368,7 @@ msgstr "瀏覽參照"
 
 #. Resource IDs: (78)
 msgid "Browse for the external diff program"
-msgstr "尋找外部比對差異工具"
+msgstr "尋找外部比較差異工具"
 
 #. Resource IDs: (322)
 msgid "Browse references"
@@ -2538,7 +2538,7 @@ msgstr "無法顯示譴責，\"%s\"不被版本控制"
 
 #. Resource IDs: (68)
 msgid "Cannot show diff because of inconsistent newlines in the file."
-msgstr "無法比對差異, 因為檔案中的換行字元不一致."
+msgstr "無法比較差異，因為檔案中的換行字元不一致。"
 
 #. Resource IDs: (16926)
 msgid "Casca&de"
@@ -2623,19 +2623,19 @@ msgstr "已變動檔案數：%d"
 
 #. Resource IDs: (2054)
 msgid "Changed lines including added/deleted files"
-msgstr "變更行數包含新增/刪除的檔案"
+msgstr "統計變更行數，包含「已加入／已刪除」的檔案"
 
 #. Resource IDs: (2054)
 msgid "Changed lines including added/deleted files by date"
-msgstr "變更行數包含新增/刪除的檔案按日期"
+msgstr "依日期統計變更行數，包含「已加入／已刪除」的檔案"
 
 #. Resource IDs: (2054)
 msgid "Changed lines not including added/deleted files"
-msgstr "變更行數不包含新增/刪除的檔案"
+msgstr "約計變更行數，不包含「已加入／已刪除」的檔案"
 
 #. Resource IDs: (2054)
 msgid "Changed lines not including added/deleted files by date"
-msgstr "變更行數不包含新增/刪除的檔案按日期"
+msgstr "依日期統計變更行數，不包含「已加入／已刪除」的檔案"
 
 #. Resource IDs: (264)
 #, c-format
@@ -2644,7 +2644,7 @@ msgstr "移動了變更列表 %s"
 
 #. Resource IDs: (1242)
 msgid "Changes made (double-click on file for diff):"
-msgstr "變動(雙點可查詢細節):"
+msgstr "變更（雙點檔案可檢視差異）"
 
 #. Resource IDs: (2060)
 msgid "Changes the style of the application"
@@ -2834,7 +2834,7 @@ msgstr "點擊這裡以選擇最近輸入過的訊息"
 msgid ""
 "Click on \"Advanced\" to specify alternate diff programs based on file "
 "extension"
-msgstr "點擊 \"進階設定\" 可根據不同副檔名指定不同的差異比對程式"
+msgstr "點擊「進階設定」可根據不同副檔名指定不同的比較差異程式"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -3049,7 +3049,7 @@ msgid ""
 "You might want to add these folders recursively by using the 'Add...' context menu item.\n"
 "\n"
 "Are you sure that you want to continue the commit?"
-msgstr "提交無版本控制的資料夾並不會自動加入底下的子項目!\n使用 '加入...' 選項可以加入底下全部的子資料夾和檔案.\n\n確定要進行送交嗎?"
+msgstr "提交無版本控制的資料夾並不會自動加入底下的子項目！\n使用「加入...」快顯功能表選項可以加入底下全部子資料夾下的檔案。\n\n確定要進行提交嗎？"
 
 #. Resource IDs: (65535)
 msgid "Common Name:"
@@ -3136,7 +3136,7 @@ msgstr "設定用來比對不同版本檔案的工具程式，最好能處理*ni
 
 #. Resource IDs: (65535)
 msgid "Configure the program used for comparing different revisions of files"
-msgstr "設定用來比對不同版本檔案的工具程式."
+msgstr "設定用來比對不同版本檔案的工具程式"
 
 #. Resource IDs: (65535)
 msgid "Configure the program used to resolve conflicted files."
@@ -3144,7 +3144,7 @@ msgstr "設定用來解決衝突檔案的工具程式."
 
 #. Resource IDs: (65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
-msgstr "設定檢視 GNU 差異檔(補綴檔)的工具程式."
+msgstr "設定檢視 GNU 差異檔（補綴檔）的工具程式."
 
 #. Resource IDs: (1768)
 msgid "Confirm to kill running git process"
@@ -3289,7 +3289,7 @@ msgstr "修正"
 #. Resource IDs: (81)
 #, c-format
 msgid "Could not add %s to the ignore list!"
-msgstr "無法加入 %s 至忽略列表!"
+msgstr "無法加入「%s」至忽略列表!"
 
 #. Resource IDs: (201)
 msgid "Could not check for a newer version!"
@@ -3383,7 +3383,7 @@ msgid ""
 "Could not start diff viewer!\n"
 "\n"
 "%s"
-msgstr "無法啟動差異檢視器!\n\n%s"
+msgstr "無法啟動比較差異檢視器！\n\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3391,7 +3391,7 @@ msgid ""
 "Could not start external diff program!\n"
 "\n"
 "%s"
-msgstr "無法啟動外部差異比對工具!\n\n%s"
+msgstr "無法啟動外部比較差異工具！\n\n%s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3525,7 +3525,7 @@ msgstr "在目前位置建立檔案資料庫"
 
 #. Resource IDs: (14)
 msgid "Creates a unified diff file with all changes you made"
-msgstr "建立包含你所有修改的統一變動檔"
+msgstr "建立包含你所有修改的統合式差異檔"
 
 #. Resource IDs: (605)
 msgid "Creating pull-request..."
@@ -3684,7 +3684,7 @@ msgstr "依名稱刪除並忽略 %d 項(&I)"
 
 #. Resource IDs: (23)
 msgid "Delete and add to &ignore list"
-msgstr "刪除並加入忽略列表(&I)"
+msgstr "刪除並加入至忽略列表(&I)"
 
 #. Resource IDs: (23)
 #, c-format
@@ -3745,7 +3745,7 @@ msgstr "刪除分支合併衝突"
 #. Resource IDs: (23)
 msgid ""
 "Deletes and adds the selected file(s) or the filemask to the 'ignore' list"
-msgstr "將選定的檔案遮罩刪除並加入忽略列表"
+msgstr "刪除選定的檔案並將其檔案遮罩加入至忽略列表"
 
 #. Resource IDs: (11)
 msgid "Deletes files/folders from version control"
@@ -3849,11 +3849,11 @@ msgstr "視窗"
 
 #. Resource IDs: (1789)
 msgid "Diff Options"
-msgstr "比對差異選項"
+msgstr "比較差異選項"
 
 #. Resource IDs: (22)
 msgid "Diff Two Commits"
-msgstr "比較兩個版本差異"
+msgstr "比較兩個提交"
 
 #. Resource IDs: (192)
 msgid "Diff Viewer"
@@ -3865,40 +3865,40 @@ msgstr "差異檢視器::合併工具"
 
 #. Resource IDs: (65535)
 msgid "Diff added lines"
-msgstr "差異-新增行"
+msgstr "差異－加入行"
 
 #. Resource IDs: (65535)
 msgid "Diff command"
-msgstr "差異-命令"
+msgstr "差異－命令"
 
 #. Resource IDs: (65535)
 msgid "Diff comment"
-msgstr "差異-註解"
+msgstr "差異－註解"
 
 #. Resource IDs: (65535)
 msgid "Diff file:"
-msgstr "差異檔:"
+msgstr "差異檔："
 
 #. Resource IDs: (65535)
 msgid "Diff header"
-msgstr "差異-標頭"
+msgstr "差異－標頭"
 
 #. Resource IDs: (15)
 msgid "Diff later"
-msgstr "稍後比對差異"
+msgstr "設為比較基準"
 
 #. Resource IDs: (65535)
 msgid "Diff position"
-msgstr "差異-位置"
+msgstr "差異－位置"
 
 #. Resource IDs: (65535)
 msgid "Diff removed lines"
-msgstr "差異-移除行"
+msgstr "差異－移除行"
 
 #. Resource IDs: (15)
 #, c-format
 msgid "Diff with \"%s\""
-msgstr "與 \"%s\" 比對差異"
+msgstr "比較至 %s"
 
 #. Resource IDs: (81)
 #, c-format
@@ -3907,7 +3907,7 @@ msgstr "與父版本 %d 比對"
 
 #. Resource IDs: (1302)
 msgid "Difference between"
-msgstr "兩者之間的差異:"
+msgstr "兩者之間的差異"
 
 #. Resource IDs: (1022)
 msgid "Diffing"
@@ -3915,15 +3915,15 @@ msgstr "比較差異"
 
 #. Resource IDs: (2054)
 msgid "Diffing commits"
-msgstr "正在比對提交"
+msgstr "正在比較提交"
 
 #. Resource IDs: (14)
 msgid "Diffs the working tree file with the one before the last commit"
-msgstr "比較工作目錄檔案與前次送交版本的差異."
+msgstr "比較工作目錄檔案與前次送交版本的差異"
 
 #. Resource IDs: (22)
 msgid "Diffs two any commits"
-msgstr "比較任個兩個提交"
+msgstr "比較任兩個提交"
 
 #. Resource IDs: (71)
 msgid "Dir..."
@@ -4259,7 +4259,7 @@ msgstr "編輯描述"
 
 #. Resource IDs: (110)
 msgid "Edit extension specific diff program"
-msgstr "編輯根據副檔名的差異比對程式"
+msgstr "編輯該副檔名專用的比較差異程式"
 
 #. Resource IDs: (110)
 msgid "Edit extension specific merge program"
@@ -4313,7 +4313,7 @@ msgstr "電郵"
 
 #. Resource IDs: (602)
 msgid "Email Address To and CC can't empty at the same time."
-msgstr "電郵地址及抄送地址不能同時留空"
+msgstr "電郵地址及轉寄地址不能同時空白"
 
 #. Resource IDs: (87)
 msgid "Emails"
@@ -5185,7 +5185,7 @@ msgstr "正在取得必要資訊..."
 
 #. Resource IDs: (119)
 msgid "Getting unified diff"
-msgstr "正在取得單一差異檔"
+msgstr "正在取得統合式差異檔"
 
 #. Resource IDs: (4569)
 msgid "Git"
@@ -6142,7 +6142,7 @@ msgstr "最後已知好的版本(&G):"
 
 #. Resource IDs: (12)
 msgid "Launches the external diff/merge program to solve the conflicts"
-msgstr "啟動外部差異比對/合併程式處理衝突"
+msgstr "啟動外部「比較差異／合併」程式處理衝突"
 
 #. Resource IDs: (1137)
 msgid "Least active author:"
@@ -6209,7 +6209,7 @@ msgstr "行: %*ld"
 
 #. Resource IDs: (64, 601)
 msgid "Lines added"
-msgstr "增加的行"
+msgstr "加入的行"
 
 #. Resource IDs: (64, 601)
 msgid "Lines removed"
@@ -6498,7 +6498,7 @@ msgstr "正在自 %s 合併檔案, 版本 %s 至 %s, 版本 %s 併入 %s, %s%s"
 #. Resource IDs: (83)
 msgid ""
 "Merging requires different revisions or different URLs in 'From:' and 'To:'"
-msgstr "合併時, '從:' 和 '到:' 的 URL 或是版本不可以相同"
+msgstr "合併時，「從：」和「到：」的 URL 或是版本不可以相同"
 
 #. Resource IDs: (229)
 #, c-format
@@ -6822,7 +6822,7 @@ msgid ""
 "No files were changed or added since\n"
 "the last commit. There's nothing\n"
 "for TortoiseGit to do here..."
-msgstr "從上次提交以來沒有任何檔案\n變動或加入. TortoiseGit 沒有\n什麼事可做."
+msgstr "從上次提交以來沒有任何檔案\n變動或加入。TortoiseGit 沒有\n什麼事可做。"
 
 #. Resource IDs: (170)
 msgid ""
@@ -6830,7 +6830,7 @@ msgid ""
 "the last commit. There's nothing\n"
 "for TortoiseGit to do here...\n"
 "Do you want to see the unversioned files?"
-msgstr "從上次提交以來沒有任何檔案\n變動或加入. TortoiseGit 沒有\n什麼事可做...\n要檢視未加入版本控制的檔案嗎?"
+msgstr "從上次提交以來沒有任何檔案\n變動或加入。TortoiseGit 沒有\n什麼事可做．．．\n要檢視未加入版本控制的檔案嗎？"
 
 #. Resource IDs: (173)
 msgid "No graph available"
@@ -7151,7 +7151,7 @@ msgstr "開啟憑證"
 msgid ""
 "Open files for diff or to apply a patch\n"
 "Open files"
-msgstr "比對檔案或套用補綴\n開啟檔案"
+msgstr "開啟檔案以比較檔案或套用補綴\n開啟檔案"
 
 #. Resource IDs: (1132)
 msgid "Open from clipboard"
@@ -7486,7 +7486,7 @@ msgstr "正在取消, 請稍候..."
 
 #. Resource IDs: (319)
 msgid "Please wait while differences are obtained..."
-msgstr "正在比對差異, 請稍候..."
+msgstr "正在比較差異，請稍候．．．"
 
 #. Resource IDs: (119, 146, 213)
 msgid "Please wait..."
@@ -8055,7 +8055,7 @@ msgstr "移除非忽略的未追蹤檔案(-f)(&N)"
 msgid ""
 "Remove all comments before doing the diff so changes inside comments don't "
 "show as different"
-msgstr "比對差異前先移除所有註解，註解中的異動將不會顯示出來。"
+msgstr "比較差異前先移除所有註解，註解中的異動將不會顯示出來。"
 
 #. Resource IDs: (15)
 msgid "Remove from &ignore list"
@@ -8321,7 +8321,7 @@ msgstr "在 TortoiseGitMerge 中審查補綴"
 
 #. Resource IDs: (14)
 msgid "Review/apply a unified diff file with TortoiseGitMerge"
-msgstr "使用 TortoiseGitMerge 審查/套用單一補綴..."
+msgstr "使用 TortoiseGitMerge 「審查／套用」統合式差異檔"
 
 #. Resource IDs: (13)
 msgid "Review/apply single &patch..."
@@ -8658,11 +8658,11 @@ msgstr "儲存至："
 
 #. Resource IDs: (1385)
 msgid "Save unified diff"
-msgstr "保存標準差異檔案"
+msgstr "保存統合式差異（unified diff）檔案"
 
 #. Resource IDs: (1385)
 msgid "Save unified diff since HEAD"
-msgstr "自從HEAD儲存差異檔案"
+msgstr "從 HEAD 儲存統合式差異（unified diff）檔案"
 
 #. Resource IDs: (315)
 msgid ""
@@ -8780,7 +8780,7 @@ msgstr "選擇變更列表"
 
 #. Resource IDs: (78)
 msgid "Select diff application"
-msgstr "選擇比對差異工具"
+msgstr "選擇比較差異工具"
 
 #. Resource IDs: (93)
 msgid "Select file"
@@ -8839,7 +8839,7 @@ msgstr "選擇該項目正在使用的語言。此設定會影響到用於提交
 
 #. Resource IDs: (78)
 msgid "Select viewer for diff-files"
-msgstr "選擇檢視差異檔工具"
+msgstr "選擇檔案差異檢視器"
 
 #. Resource IDs: (316)
 msgid "Select what file you want to save as"
@@ -9020,7 +9020,7 @@ msgstr "顯示 HEAD 版本節點"
 msgid ""
 "Show Inline-Diff word by word\n"
 "Inline diff word-wise"
-msgstr "逐字顯示行內差異\n行內逐字比較差異"
+msgstr "逐字顯示行內差異\n行內逐字差異"
 
 #. Resource IDs: (2056)
 msgid ""
@@ -9070,7 +9070,7 @@ msgstr "顯示這版本所屬的分支"
 
 #. Resource IDs: (1251)
 msgid "Show changes as &unified diff"
-msgstr "以單一差異檔顯示差異(&W)"
+msgstr "以統合式差異格式顯示變更(&W)"
 
 #. Resource IDs: (32787)
 msgid "Show com&plete log"
@@ -9511,7 +9511,7 @@ msgstr "停止二分法"
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
 "Hold down the Ctrl key to remove the last saved path."
-msgstr "儲存選定檔的路徑並用於稍後右鍵選單中的「比對差異」，按住Ctrl鍵可以清除先前儲存的路徑。"
+msgstr "儲存選定檔的路徑並用於稍後右鍵選單中的「比對至」，按住Ctrl鍵可以清除先前儲存的路徑。"
 
 #. Resource IDs: (1)
 msgid "Strategy"
@@ -9543,15 +9543,15 @@ msgstr "子模組更新(&U)..."
 
 #. Resource IDs: (1589)
 msgid "Submodule Add"
-msgstr "添加子模組"
+msgstr "加入子模組"
 
 #. Resource IDs: (20)
 msgid "Submodule Add..."
-msgstr "子模組新增"
+msgstr "加入子模組..."
 
 #. Resource IDs: (4576)
 msgid "Submodule Diff"
-msgstr "比較子模組"
+msgstr "子模組差異"
 
 #. Resource IDs: (76)
 msgid "Submodule Init"
@@ -9784,7 +9784,7 @@ msgstr "分支 \"%s\" 是一個 <i>遠端</i>分支\n\n確定要<ct=0x0000FF>刪
 
 #. Resource IDs: (63)
 msgid "The chunk size did not match the number of added/removed lines!"
-msgstr "區塊大小與加入/移除的行數不符!"
+msgstr "區塊（chunk）大小與「加入／移除」的行數不符！"
 
 #. Resource IDs: (67)
 msgid "The commit message must not be empty."
@@ -9814,13 +9814,13 @@ msgstr "目前工作目錄有改動，\n你想藏起(stash)改動嗎？"
 msgid ""
 "The diffing engine aborted because of an error:\n"
 "%s"
-msgstr "差異比對引擎停止, 錯誤:\n%s"
+msgstr "比較差異引擎中止，錯誤：\n%s"
 
 #. Resource IDs: (85)
 msgid ""
 "The entered source ref is ambiguous.\n"
 "You have to make it unique (e.g. by adding \"refs/heads/\" as a prefix for branches or \"refs/tags/\" for tags)!"
-msgstr "輸入的參考點是無棱兩可的，\n你應輸入獨一無二的參考點(如：在分支名稱前加上 \"refs/heads/\" 或 在標籤名稱前加上 \"refs/tags/\")！"
+msgstr "輸入的參照是模稜兩可的，\n你應輸入獨一無二的參照（如：在分支名稱前加上「refs/heads/」或在標籤名稱前加上「refs/tags/」）！"
 
 #. Resource IDs: (64)
 #, c-format
@@ -9837,7 +9837,7 @@ msgstr "補綴檔中找不到檔案: %s!"
 msgid ""
 "The file \"%s\" does not exist in your working tree.\n"
 "Do you want to select another file to diff?"
-msgstr "這檔案 \"%s\" 不在工作目錄，要選擇另一檔案以進行比對嗎？"
+msgstr "檔案 \"%s\" 不存在於工作目錄，要選擇另一檔案以進行比對嗎？"
 
 #. Resource IDs: (314)
 #, c-format
@@ -9940,7 +9940,7 @@ msgstr "本地分支/標籤為空，這導致刪除遠端分支/標籤。繼續�
 msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
-msgstr "行為日誌的最大保留行數.\n超過上限的時候會從最舊的開始移除."
+msgstr "行為日誌的最大保留行數。\n超過上限的時候會從最舊的開始移除。"
 
 #. Resource IDs: (220)
 msgid "The operation failed."
@@ -10121,7 +10121,7 @@ msgstr "還有尚未儲存的變更!\n是否要儲存你所做的變動?"
 msgid ""
 "There is nothing to add. All the files and folders are either under version "
 "control, have been ignored or the global ignore configuration setting."
-msgstr "没有可增加的項目，所有檔案和資料夾都已經進行了版本控制、被忽略或全域忽略設定中設為忽略。"
+msgstr "没有可加入的項目。所有檔案要不是已經進行了版本控制、不然就是被忽略或者被全域忽略設定中設為忽略。"
 
 #. Resource IDs: (1253)
 msgid "Thesaurus"
@@ -10191,7 +10191,7 @@ msgstr "這個動作會刪除你在本程式中的所有命令紀錄, 並將所�
 
 #. Resource IDs: (604)
 msgid "Three way diff"
-msgstr "3路比較"
+msgstr "三路比較"
 
 #. Resource IDs: (16928)
 msgid "Tile &Vertically"
@@ -10285,7 +10285,7 @@ msgid ""
 "The commit dialog cannot handle this.\n"
 "\n"
 "Do you want to remove it from the index?"
-msgstr "TortoiseGit 偵測到檔案 \"%s\" 不存在，但被加入索引中。\n提交對話盒不能處理這情況。\n\n你要從索引中移除此檔案嗎？"
+msgstr "TortoiseGit 偵測到檔案「%s」不存在，但被加入索引中。\n提交對話盒不能處理此種情況。\n\n你要從索引中移除此檔案嗎？"
 
 #. Resource IDs: (98)
 #, c-format
@@ -10336,7 +10336,7 @@ msgstr "TortoiseGitIDiff"
 
 #. Resource IDs: (65535)
 msgid "TortoiseGitIDiff - An image diff tool, part of TortoiseGit"
-msgstr "TortoiseGitIDiff - 影像比對工具, TortoiseGit 的一部分"
+msgstr "TortoiseGitIDiff － 影像比對工具，TortoiseGit 的一部分。"
 
 #. Resource IDs: (7)
 msgid ""
@@ -10350,7 +10350,7 @@ msgid ""
 "/overlay\t\tto enable overlay mode\n"
 "/fit\t\tto fit the images sizes\n"
 "/showinfo\t\tto show the image info boxes"
-msgstr "TortoiseGitIDiff: TortoiseSVN 的檔案差異比對工具\n\n以下是可用的命令列參數:\n/left:\"左方檔案的路徑\"\n/lefttitle:\"左方視窗的標題\"\n/right:\"右方檔案的路徑\"\n/righttitle:\"右方視窗的標題\"\n/overlay\t\t啟用覆蓋模式\n/fit\t\t符合影像大小\n/showinfo\t\t顯示影像資訊"
+msgstr "TortoiseGitIDiff：TortoiseSVN 的影像檔案差異檢視器\n\n以下是可用的命令列參數：\n/left:\"左方檔案的路徑\"\n/lefttitle:\"左方視窗的標題\"\n/right:\"右方檔案的路徑\"\n/righttitle:\"右方視窗的標題\"\n/overlay\t\t啟用覆蓋模式\n/fit\t\t符合影像大小\n/showinfo\t\t顯示影像資訊"
 
 #. Resource IDs: (7, 130, 3585)
 msgid "TortoiseGitMerge"
@@ -10390,15 +10390,15 @@ msgid ""
 "/title:\"title to show for the viewer\"\n"
 "/?  - this help dialog\n"
 "/p  - read diff input from console pipe"
-msgstr "TortoiseGitUDiff: TortoiseGit 的單一差異檔檢視器\n可使用的命令列參數有:\n/patchfile:\"單一差異檔的路徑\"\n/title:\"要顯示在檢視器抬頭的文字\"\n/? - 顯示關於這個對話框的說明文件\n/p - 從控制台管道讀取差異輸入"
+msgstr "TortoiseGitUDiff：TortoiseGit 的統合式差異檔檢視器\n\n可使用的命令列參數有：\n/patchfile:\"統合式差異檔的路徑\"\n/title:\"要顯示在檢視器抬頭的文字\"\n/? - 顯示關於這個對話框的說明文件\n/p - 從控制台管道讀取差異輸入"
 
 #. Resource IDs: (1739)
 msgid "Total changed lines including added/deleted files:"
-msgstr "總變更行數包含新增/刪除的檔案"
+msgstr "總變更行數，包含「已加入／已刪除」的檔案"
 
 #. Resource IDs: (1737)
 msgid "Total changed lines not including added/deleted files:"
-msgstr "總變更行數不包含新增/刪除的檔案"
+msgstr "總變更行數，不包含「已加入／已刪除」的檔案"
 
 #. Resource IDs: (1162)
 msgid "Total commits analyzed:"
@@ -10576,7 +10576,7 @@ msgstr "無格式文字\n沒有設定格式的文字"
 
 #. Resource IDs: (2054)
 msgid "Unified &diff of HEAD revisions"
-msgstr "HEAD 版本的單一差異 (&D)"
+msgstr "HEAD 版本的統合式差異 (&D)"
 
 #. Resource IDs: (1258)
 msgid "Unknown"
@@ -10645,7 +10645,7 @@ msgstr "使用預設影像(&D):"
 
 #. Resource IDs: (1024)
 msgid "Use &one-pane view as default for 2-file diff"
-msgstr "雙檔案比較時, 預設使用單區檢視(&O)"
+msgstr "預設使用單區檢視雙檔案差異(&O)"
 
 #. Resource IDs: (251)
 msgid "Use &other text block"
@@ -10689,15 +10689,15 @@ msgstr "使用小包(為慢速網路連接)(&P)"
 
 #. Resource IDs: (1064)
 msgid "Use Unified Diff from &clipboard"
-msgstr "使用剪貼簿中的單一差異檔(&C)"
+msgstr "使用剪貼簿中的統合式差異檔(&C)"
 
 #. Resource IDs: (85)
 msgid "Use a different name or use the \"Force\" option to overwrite it."
-msgstr "用另一名稱或用「強制」選項覆寫"
+msgstr "用另一名稱或用「強制」選項覆寫它。"
 
 #. Resource IDs: (85)
 msgid "Use a different name or use the \"Override branch\" option."
-msgstr "用另一名稱或用「覆寫分支」選項"
+msgstr "用另一名稱或用「覆寫分支」選項。"
 
 #. Resource IDs: (2054)
 msgid ""
@@ -10906,7 +10906,7 @@ msgid ""
 "/saverequiredonconflicts\n"
 "/oneway <forces the one-way view>\n"
 "/line:<line number to jump to>"
-msgstr "有效的命令列選項有:\n/base:<基礎檔案的路徑>\n/basename:<顯示在基礎檢視區抬頭的名稱>\n/theirs:<倉儲檔案的路徑>\n/theirsname:<顯示在倉儲檢視區抬頭的名稱>\n/mine:<本地檔案的路徑>\n/minename:<顯示在本地檢視區抬頭的名稱>\n/merged:<合併後檔案的路徑>\n/mergedname:<顯示在合併檢視區抬頭的名稱>\n/diff:<單一差異檔的路徑>\n/patchpath:<資料夾路徑>\n/saverequired\n/saverequiredonconflicts\n/oneway <強制使用單一檢視>\n/line:<跳至行號>"
+msgstr "有效的命令列選項有：\n/base:<基礎檔案的路徑>\n/basename:<顯示在基礎檢視區抬頭的名稱>\n/theirs:<倉儲檔案的路徑>\n/theirsname:<顯示在倉儲檢視區抬頭的名稱>\n/mine:<本地檔案的路徑>\n/minename:<顯示在本地檢視區抬頭的名稱>\n/merged:<合併後檔案的路徑>\n/mergedname:<顯示在合併檢視區抬頭的名稱>\n/diff:<單一差異檔的路徑>\n/patchpath:<資料夾路徑>\n/saverequired\n/saverequiredonconflicts\n/oneway <強制使用單一檢視>\n/line:<跳至行號>"
 
 #. Resource IDs: (11, 357)
 msgid "Value"
@@ -11044,7 +11044,7 @@ msgstr "西歐"
 msgid ""
 "When activated, hold down the SHIFT key when right-clicking to get the "
 "TortoiseGit menus added to the context menu"
-msgstr "啟用後，當單擊右鍵時保持 SHIFT 鍵按下，從而將 TortoiseSVN 功能表增加到上下文功能表"
+msgstr "啟用後，當單擊右鍵並保持 SHIFT 鍵按下時，才會顯示 TortoiseGit 快顯功能表。"
 
 #. Resource IDs: (604)
 msgid ""
@@ -11261,7 +11261,7 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr "你已選取 %d 個檔案去顯示差異\n對於每一檔案，會啟動一個新的差異檢視器實體\n你真的要一次過顯示這麼多檔案的差異？"
+msgstr "你已選取 %d 個檔案去顯示差異\n對於每一檔案，會啟動一個新的差異檢視器實體。\n你真的要一次顯示這麼多檔案的差異？"
 
 #. Resource IDs: (169)
 msgid ""
@@ -11306,7 +11306,7 @@ msgstr "你選擇了一個資料夾\r\n只能匯出到 zip 檔"
 msgid ""
 "You selected an unversioned file.\n"
 "The file will be added to version control when you commit."
-msgstr "你選擇了無版本控制的檔案.\n它會在送交之前被加入版本控制."
+msgstr "你選擇了無版本控制的檔案。\n提交時，它會被加入版本控制。"
 
 #. Resource IDs: (1001)
 msgid "You should enter a text!"
@@ -11412,14 +11412,14 @@ msgstr "[未指定]"
 msgid ""
 "\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
-msgstr "\"%s\" 包含一個 git 檔案庫，但子模組不能運作。\n你要刪除 .git 及加入所有檔案至上層檔案庫，還是在子目錄保留為一個獨立的檔案庫？"
+msgstr "「%s」包含一個 git 檔案庫，但不能被當作子模組而運作。\n你要刪除「.git」並加入所有檔案至上層倉儲，還是在子目錄保留為一個獨立的倉儲？"
 
 #. Resource IDs: (92)
 #, c-format
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
-msgstr "\"%s\" 包含一個 git 子模組，但很可能在複製後不能運作。\n你要刪除 .git 及加入所有檔案至上層檔案庫，還是保留它而忽略可能發生的問題？"
+msgstr "「%s」包含一個 git 子模組，但很可能在複製後不能運作。\n你要刪除「.git」及加入所有檔案至上層倉儲，還是保留它而忽略可能發生的問題？"
 
 #. Resource IDs: (72)
 #, c-format
@@ -11443,15 +11443,15 @@ msgstr "_POPUP_"
 
 #. Resource IDs: (1682)
 msgid "add \"cherry picked from\""
-msgstr "增加「摘取從」"
+msgstr "加入「cherry picked from」"
 
 #. Resource IDs: (10)
 msgid "added"
-msgstr "增加"
+msgstr "已加入"
 
 #. Resource IDs: (65535)
 msgid "added files"
-msgstr "增加的檔案"
+msgstr "加入的檔案"
 
 #. Resource IDs: (3841)
 msgid "an unnamed file"
