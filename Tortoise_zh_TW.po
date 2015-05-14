@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-05-13 09:52+0000\n"
+"PO-Revision-Date: 2015-05-14 03:56+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -2244,7 +2244,7 @@ msgstr "基本資訊"
 
 #. Resource IDs: (65535)
 msgid "Between files:"
-msgstr "檔案之間："
+msgstr "檔案之間（-C 參數）："
 
 #. Resource IDs: (5060)
 msgid "Big5 (Traditional)"
@@ -10026,7 +10026,7 @@ msgid ""
 "The submodule \"%s\" is dirty.\n"
 "Merely committing the superproject cannot track or save such changes to the submodule.\n"
 "Commit the submodule now or ignore dirty changes?"
-msgstr "子模組「%s」有未提交的變更，\n僅僅提交至父專案並不能夠儲存子模組的變更。\n要現在提交子模組的變更，還是忽略呢？"
+msgstr "子模組「%s」有未提交的變更，\n僅僅提交至上層專案並不能夠儲存子模組的變更。\n要現在提交子模組的變更，還是忽略呢？"
 
 #. Resource IDs: (93)
 #, c-format
@@ -10883,7 +10883,7 @@ msgstr "必須在提交前設定姓名及電郵，要現在設定？"
 
 #. Resource IDs: (1650)
 msgid "User&name:"
-msgstr "使用者名稱(&N)："
+msgstr "使用者名稱(&n)："
 
 #. Resource IDs: (69)
 msgid "Username:"
@@ -10998,7 +10998,7 @@ msgid ""
 "WARNING:\r\n"
 "Only change these settings if you are absolutely sure what you are doing!\r\n"
 "To set the values to their default, delete the value text."
-msgstr "警告：\r\n只有你明確知道這些設定的意義時，才可以修改它們\r\n要恢復預設設定，删除這些值即可。"
+msgstr "警告：\n當你明確地知道這些設定的意義時，才可以修改它們！\n要恢復預設設定，删除這些值即可。"
 
 #. Resource IDs: (198)
 msgid "Wait"
@@ -11165,7 +11165,7 @@ msgstr "Windows-1258"
 
 #. Resource IDs: (65535)
 msgid "Within a file:"
-msgstr "檔案內："
+msgstr "檔案內（-M 參數）："
 
 #. Resource IDs: (2054)
 msgid "Within file"
