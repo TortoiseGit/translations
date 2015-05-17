@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-04-08 13:41+0000\n"
+"PO-Revision-Date: 2015-05-17 11:00+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -327,6 +327,10 @@ msgstr "&..."
 msgid "&3 way merge"
 msgstr "&3-Wege Zusammenführen"
 
+#. Resource IDs: (73)
+msgid "&Abort"
+msgstr "A&bbrechen"
+
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
 msgstr "Ü&ber TortoiseGitBlame..."
@@ -535,6 +539,10 @@ msgstr "Revisionen &vergleichen"
 msgid "&Compressed Graph"
 msgstr "&Komprimierter Graph"
 
+#. Resource IDs: (73)
+msgid "&Continue"
+msgstr "&Weiter"
+
 #. Resource IDs: (501, 1367, 1471, 57634)
 msgid "&Copy"
 msgstr "&Kopieren"
@@ -610,6 +618,10 @@ msgstr "&Andocken"
 #. Resource IDs: (1032)
 msgid "&Don't ask me again"
 msgstr "&Nicht erneut nachfragen"
+
+#. Resource IDs: (73)
+msgid "&Don't show this message again"
+msgstr "&Diese Meldung nicht wieder anzeigen"
 
 #. Resource IDs: (1384)
 msgid "&Down"
@@ -937,6 +949,10 @@ msgstr "&Nächste >"
 msgid "&Next Page"
 msgstr "&Nächste Seite"
 
+#. Resource IDs: (73)
+msgid "&No"
+msgstr "&Nein"
+
 #. Resource IDs: (16632)
 msgid "&No double-click event"
 msgstr "&Kein Doppelklick-Ereignis"
@@ -1125,6 +1141,10 @@ msgstr "&Wiederherstellen"
 msgid "&Restore old state"
 msgstr "Alten Status &wiederherstellen"
 
+#. Resource IDs: (73)
+msgid "&Retry"
+msgstr "Wieder&holen"
+
 #. Resource IDs: (1252)
 msgid "&Revert change by this commit"
 msgstr "Änderungen dieser Eintragung &Rückgängig machen"
@@ -1281,6 +1301,10 @@ msgstr "&TortoiseGitMerge"
 msgid "&Trunk:"
 msgstr "&Trunk:"
 
+#. Resource IDs: (73)
+msgid "&Try Again"
+msgstr "Wie&derholen"
+
 #. Resource IDs: (3845)
 msgid "&Two Page"
 msgstr "&Zwei Seiten"
@@ -1348,6 +1372,10 @@ msgstr "Ganzes &Wort"
 #. Resource IDs: (32790)
 msgid "&Within file"
 msgstr "&Innerhalb der Datei"
+
+#. Resource IDs: (73)
+msgid "&Yes"
+msgstr "&Ja"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -6752,10 +6780,6 @@ msgstr "Nächster Unterschied"
 msgid "Next inline difference"
 msgstr "Nächster Unterschied in der Zeile"
 
-#. Resource IDs: (73)
-msgid "No"
-msgstr "Nein"
-
 #. Resource IDs: (1481)
 msgid "No &Fast Forward"
 msgstr "Kein &Fast-Forward"
@@ -8273,10 +8297,6 @@ msgstr "Stelle die Normalgröße des Fensters wieder her"
 msgid "Restored"
 msgstr "Zurückgesetzt"
 
-#. Resource IDs: (73)
-msgid "Retry"
-msgstr "Wiederholen"
-
 #. Resource IDs: (602)
 msgid "Retrying in 2 seconds..."
 msgstr "Wiederhole in 2 Sekunden..."
@@ -8837,6 +8857,10 @@ msgid ""
 "checker used for commit messages."
 msgstr "Legt die verwendete Sprache fest. Diese Einstellung beeinflusst die Rechtschreibprüfung der Logmeldungen."
 
+#. Resource IDs: (98)
+msgid "Select tracked branch"
+msgstr "Beobachteten entfernten Zweig festlegen"
+
 #. Resource IDs: (78)
 msgid "Select viewer for diff-files"
 msgstr "Betrachter für Standard-Diffdateien auswählen"
@@ -8991,6 +9015,10 @@ msgstr "Zeige &Log"
 #. Resource IDs: (1031)
 msgid "Show &log..."
 msgstr "Zeige &Log..."
+
+#. Resource IDs: (1830)
+msgid "Show &nested refs"
+msgstr "Zeige &verschachtelte Refs"
 
 #. Resource IDs: (1088)
 msgid "Show &overlays and context menu only in explorer"
@@ -9395,6 +9423,10 @@ msgstr "Teile aktives Fenster auf\nAufteilen"
 #. Resource IDs: (1254, 1257)
 msgid "Squash"
 msgstr "Zusammenfügen"
+
+#. Resource IDs: (1254)
+msgid "Squash (with commit below)"
+msgstr "Zusammenfassen (mit Eintragung darunter)"
 
 #. Resource IDs: (246)
 msgid "Stacked Bar Graph"
@@ -10441,10 +10473,6 @@ msgstr "rechts abschneiden/bereinigen"
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
 msgstr "Versuchen Sie ein 'Aufräumen'. Falls dies nicht hilft, müssen Sie von neuem Auschecken."
 
-#. Resource IDs: (73)
-msgid "Try again"
-msgstr "Nochmals"
-
 #. Resource IDs: (65535)
 msgid "Turkish"
 msgstr "Türkisch"
@@ -10593,6 +10621,10 @@ msgstr "Markierung des Blocks aufheben"
 #. Resource IDs: (315)
 msgid "Unresolved conflicts!"
 msgstr "Nicht aufgelöste Konflikte!"
+
+#. Resource IDs: (98)
+msgid "Unset tracked branch"
+msgstr "Beobachteten entfernten Zweig nicht mehr beobachten"
 
 #. Resource IDs: (3841)
 msgid "Untitled"
@@ -11192,10 +11224,6 @@ msgid ""
 "Wrap long lines at the right border of the view\n"
 "Wrap long lines"
 msgstr "Lange Zeilen am rechten Rand der Ansicht umbrechen\nLange Zeilen umbrechen"
-
-#. Resource IDs: (73)
-msgid "Yes"
-msgstr "Ja"
 
 #. Resource IDs: (145)
 msgid "Yes to all"

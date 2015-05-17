@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-04-02 22:23+0000\n"
+"PO-Revision-Date: 2015-05-17 14:43+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -203,7 +203,7 @@ msgstr "%I64d KiB transferidos"
 #. Resource IDs: (75)
 #, c-format
 msgid "%d commits ahead \"%s\""
-msgstr "%d consignas por delante \"%s\""
+msgstr "%d consignacions (commits) por delante \"%s\""
 
 #. Resource IDs: (1256)
 #, c-format
@@ -228,7 +228,7 @@ msgstr "%d archivos seleccionados, de %d archivos"
 #. Resource IDs: (246)
 #, c-format
 msgid "%d most active author(s) with at least %d commits each (%d %%)"
-msgstr "%d autor(es) más activo(s) con al menos %d consignas cada uno (%d %%)"
+msgstr "%d autor(es) más activo(s) con al menos %d consignaciones (commits) cada uno (%d %%)"
 
 #. Resource IDs: (8)
 #, c-format
@@ -324,6 +324,10 @@ msgstr "&..."
 #. Resource IDs: (1656)
 msgid "&3 way merge"
 msgstr "&Combinar a 3 bandas"
+
+#. Resource IDs: (73)
+msgid "&Abort"
+msgstr "&Abortar"
 
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
@@ -511,19 +515,19 @@ msgstr "&Comando:"
 
 #. Resource IDs: (1625)
 msgid "&Commit"
-msgstr "&Consigna"
+msgstr "&Consignar (commit)"
 
 #. Resource IDs: (355)
 msgid "&Commit submodule..."
-msgstr "&Consignar submódulo..."
+msgstr "&Consignar (commit) submódulo..."
 
 #. Resource IDs: (68)
 msgid "&Commit w/o"
-msgstr "&Consigna ciega"
+msgstr "&Consignar (commit) sin"
 
 #. Resource IDs: (8)
 msgid "&Commit..."
-msgstr "&Consignar..."
+msgstr "&Consignar (commit)..."
 
 #. Resource IDs: (1252)
 msgid "&Compare revisions"
@@ -532,6 +536,10 @@ msgstr "&Comparar revisiones"
 #. Resource IDs: (92)
 msgid "&Compressed Graph"
 msgstr "&Gráfico comprimido"
+
+#. Resource IDs: (73)
+msgid "&Continue"
+msgstr "&Continuar"
 
 #. Resource IDs: (501, 1367, 1471, 57634)
 msgid "&Copy"
@@ -608,6 +616,10 @@ msgstr "&Acoplado"
 #. Resource IDs: (1032)
 msgid "&Don't ask me again"
 msgstr "&No me pregunte de nuevo"
+
+#. Resource IDs: (73)
+msgid "&Don't show this message again"
+msgstr "&No mostrar este mensaje de nuevo"
 
 #. Resource IDs: (1384)
 msgid "&Down"
@@ -719,7 +731,7 @@ msgstr "&Desde:"
 
 #. Resource IDs: (2153)
 msgid "&Git Style Commit (--rmdir)"
-msgstr "&Estilo de consigna Git (--rmdir)"
+msgstr "&Estilo Git de consignación (--rmdir)"
 
 #. Resource IDs: (220)
 msgid "&Go to\tCtrl+G"
@@ -935,6 +947,10 @@ msgstr "&Siguiente>"
 msgid "&Next Page"
 msgstr "&Página siguiente"
 
+#. Resource IDs: (73)
+msgid "&No"
+msgstr "&No"
+
 #. Resource IDs: (16632)
 msgid "&No double-click event"
 msgstr "&Sin acciones de doble-click"
@@ -1029,7 +1045,7 @@ msgstr "&Impulsar (push) todos las ramales"
 
 #. Resource IDs: (72)
 msgid "&ReCommit"
-msgstr "&ReConsignar"
+msgstr "&ReConsignar (commit)"
 
 #. Resource IDs: (1246)
 msgid "&Recent messages"
@@ -1123,13 +1139,17 @@ msgstr "&Restaura"
 msgid "&Restore old state"
 msgstr "&Restaurar el estado anterior"
 
+#. Resource IDs: (73)
+msgid "&Retry"
+msgstr "&Reintentar"
+
 #. Resource IDs: (1252)
 msgid "&Revert change by this commit"
-msgstr "&Restituir cambios de esta consigna"
+msgstr "&Revertir cambios de esta consignación (commit)"
 
 #. Resource IDs: (1252)
 msgid "&Revert changes by these commits"
-msgstr "&Restituir cambios de estas consignas"
+msgstr "&Revertir cambios de estas consignaciones (commits)"
 
 #. Resource IDs: (65535)
 msgid "&SSH client:"
@@ -1189,11 +1209,11 @@ msgstr "&Saltar"
 
 #. Resource IDs: (1524)
 msgid "&Squash"
-msgstr "&Machacar"
+msgstr "&Compactar (squash)"
 
 #. Resource IDs: (1561)
 msgid "&Squash ALL"
-msgstr "&Aplastar TODO"
+msgstr "&Compactar (squash) TODO"
 
 #. Resource IDs: (1616)
 msgid "&Start"
@@ -1279,6 +1299,10 @@ msgstr "&TortoiseGitMerge"
 msgid "&Trunk:"
 msgstr "&Troncal:"
 
+#. Resource IDs: (73)
+msgid "&Try Again"
+msgstr "&Intentar de nuevo"
+
 #. Resource IDs: (3845)
 msgid "&Two Page"
 msgstr "&Dos páginas"
@@ -1333,7 +1357,7 @@ msgstr "&Ver:"
 
 #. Resource IDs: (1568)
 msgid "&Warn on missing Signed-Off-By on commit"
-msgstr "&Avisar cuando falte Firmado Por en las consignas"
+msgstr "&Advertir cuando falte el Firmado-por en la consignación (commit)"
 
 #. Resource IDs: (1203)
 msgid "&Whole Project"
@@ -1346,6 +1370,10 @@ msgstr "&Palabra completa"
 #. Resource IDs: (32790)
 msgid "&Within file"
 msgstr "&Dentro del fichero"
+
+#. Resource IDs: (73)
+msgid "&Yes"
+msgstr "&Sí"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -6750,10 +6778,6 @@ msgstr "Siguiende Dif."
 msgid "Next inline difference"
 msgstr "Siguiente Dif. en línea"
 
-#. Resource IDs: (73)
-msgid "No"
-msgstr "No"
-
 #. Resource IDs: (1481)
 msgid "No &Fast Forward"
 msgstr "Sin &Avance rápido"
@@ -8271,10 +8295,6 @@ msgstr "Restaurar ventana a tamaño normal"
 msgid "Restored"
 msgstr "Restaurado"
 
-#. Resource IDs: (73)
-msgid "Retry"
-msgstr "Reintentar"
-
 #. Resource IDs: (602)
 msgid "Retrying in 2 seconds..."
 msgstr "Reintentando en 2 segundos..."
@@ -8835,6 +8855,10 @@ msgid ""
 "checker used for commit messages."
 msgstr "Seleccionar el idioma que este usando este proyecto. Esta configuración afecta al corrector ortográfico usado para los mensajes de consignación (commit)."
 
+#. Resource IDs: (98)
+msgid "Select tracked branch"
+msgstr "Seleccionar ramal (branch) en seguimiento"
+
 #. Resource IDs: (78)
 msgid "Select viewer for diff-files"
 msgstr "Seleccionar el visor de archivos dif."
@@ -8989,6 +9013,10 @@ msgstr "Mostrar &Reg."
 #. Resource IDs: (1031)
 msgid "Show &log..."
 msgstr "Mostrar &Reg..."
+
+#. Resource IDs: (1830)
+msgid "Show &nested refs"
+msgstr "Mostrar referencias (refs) &anidadas"
 
 #. Resource IDs: (1088)
 msgid "Show &overlays and context menu only in explorer"
@@ -9392,7 +9420,11 @@ msgstr "Dividir la ventana activa en paneles\nDividir"
 
 #. Resource IDs: (1254, 1257)
 msgid "Squash"
-msgstr "Machacar"
+msgstr "Compactar (squash)"
+
+#. Resource IDs: (1254)
+msgid "Squash (with commit below)"
+msgstr "Compactación (squash) (con consignación (commit) debajo)"
 
 #. Resource IDs: (246)
 msgid "Stacked Bar Graph"
@@ -10439,10 +10471,6 @@ msgstr "Recortar a la derecha"
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
 msgstr "Intenta una 'Limpieza'. Si eso no funciona necesitas hacer una copia local nueva."
 
-#. Resource IDs: (73)
-msgid "Try again"
-msgstr "Inténtalo de nuevo"
-
 #. Resource IDs: (65535)
 msgid "Turkish"
 msgstr "Turco"
@@ -10591,6 +10619,10 @@ msgstr "Desmarcar este bloque"
 #. Resource IDs: (315)
 msgid "Unresolved conflicts!"
 msgstr "¡Conflictos no resueltos!"
+
+#. Resource IDs: (98)
+msgid "Unset tracked branch"
+msgstr "Vaciar la configuración del ramal (branch) en seguimiento"
 
 #. Resource IDs: (3841)
 msgid "Untitled"
@@ -11190,10 +11222,6 @@ msgid ""
 "Wrap long lines at the right border of the view\n"
 "Wrap long lines"
 msgstr "Acortar líneas largas en el borde derecho de la vista\nAcortar líneas largas"
-
-#. Resource IDs: (73)
-msgid "Yes"
-msgstr "Si"
 
 #. Resource IDs: (145)
 msgid "Yes to all"

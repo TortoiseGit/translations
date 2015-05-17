@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-04-02 18:53+0000\n"
+"PO-Revision-Date: 2015-05-17 10:53+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -345,6 +345,10 @@ msgstr "&..."
 msgid "&3 way merge"
 msgstr "&3 way merge"
 
+#. Resource IDs: (73)
+msgid "&Abort"
+msgstr ""
+
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
 msgstr "TortoiseGitBlame 정보(&A)..."
@@ -553,6 +557,10 @@ msgstr "리비전 비교(&C)"
 msgid "&Compressed Graph"
 msgstr "그래프 줄이기(&C)"
 
+#. Resource IDs: (73)
+msgid "&Continue"
+msgstr ""
+
 #. Resource IDs: (501, 1367, 1471, 57634)
 msgid "&Copy"
 msgstr "복사(&C)"
@@ -627,6 +635,10 @@ msgstr "붙이기(&D)"
 
 #. Resource IDs: (1032)
 msgid "&Don't ask me again"
+msgstr ""
+
+#. Resource IDs: (73)
+msgid "&Don't show this message again"
 msgstr ""
 
 #. Resource IDs: (1384)
@@ -955,6 +967,10 @@ msgstr ""
 msgid "&Next Page"
 msgstr "다음 페이지(&N)"
 
+#. Resource IDs: (73)
+msgid "&No"
+msgstr ""
+
 #. Resource IDs: (16632)
 msgid "&No double-click event"
 msgstr "더블클릭 이벤트 없음(&N)"
@@ -1143,6 +1159,10 @@ msgstr "복원(&R)"
 msgid "&Restore old state"
 msgstr "이전 상태로 복원(&R)"
 
+#. Resource IDs: (73)
+msgid "&Retry"
+msgstr ""
+
 #. Resource IDs: (1252)
 msgid "&Revert change by this commit"
 msgstr "이 커밋 변경을 취소(&R)"
@@ -1299,6 +1319,10 @@ msgstr "&TortoiseGitMerge"
 msgid "&Trunk:"
 msgstr "&Trunk:"
 
+#. Resource IDs: (73)
+msgid "&Try Again"
+msgstr ""
+
 #. Resource IDs: (3845)
 msgid "&Two Page"
 msgstr "두 페이지(&T)"
@@ -1366,6 +1390,10 @@ msgstr "전체 단어(&W)"
 #. Resource IDs: (32790)
 msgid "&Within file"
 msgstr "파일 안에서만(&W)"
+
+#. Resource IDs: (73)
+msgid "&Yes"
+msgstr ""
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -6770,10 +6798,6 @@ msgstr "다음 차이점"
 msgid "Next inline difference"
 msgstr "다음 줄단위 차이점"
 
-#. Resource IDs: (73)
-msgid "No"
-msgstr "아니오"
-
 #. Resource IDs: (1481)
 msgid "No &Fast Forward"
 msgstr "No &Fast Forward"
@@ -8291,10 +8315,6 @@ msgstr "윈도우를 보통 크기로 되돌리기"
 msgid "Restored"
 msgstr "복구됨"
 
-#. Resource IDs: (73)
-msgid "Retry"
-msgstr "재시도"
-
 #. Resource IDs: (602)
 msgid "Retrying in 2 seconds..."
 msgstr "2초 후에 재시도합니다..."
@@ -8855,6 +8875,10 @@ msgid ""
 "checker used for commit messages."
 msgstr "이 프로젝트에서 쓰는 언어를 선택해 주세요. 이 설정은 커밋 메시지 철자 검사를 할 때도 적용됩니다."
 
+#. Resource IDs: (98)
+msgid "Select tracked branch"
+msgstr ""
+
 #. Resource IDs: (78)
 msgid "Select viewer for diff-files"
 msgstr "Diff 파일 보기 프로그램 선택"
@@ -9009,6 +9033,10 @@ msgstr "로그 보기(&L)"
 #. Resource IDs: (1031)
 msgid "Show &log..."
 msgstr "로그 보기(&L)..."
+
+#. Resource IDs: (1830)
+msgid "Show &nested refs"
+msgstr ""
 
 #. Resource IDs: (1088)
 msgid "Show &overlays and context menu only in explorer"
@@ -9413,6 +9441,10 @@ msgstr "활성화된 창을 두 개로 나누기\n분리"
 #. Resource IDs: (1254, 1257)
 msgid "Squash"
 msgstr "Squash"
+
+#. Resource IDs: (1254)
+msgid "Squash (with commit below)"
+msgstr ""
 
 #. Resource IDs: (246)
 msgid "Stacked Bar Graph"
@@ -10459,10 +10491,6 @@ msgstr "Trim right"
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
 msgstr "'정리' 하십시오. 정리되지 않는다면 깨끗이 다시 체크아웃하셔야합니다."
 
-#. Resource IDs: (73)
-msgid "Try again"
-msgstr "다시 시도하십시오."
-
 #. Resource IDs: (65535)
 msgid "Turkish"
 msgstr "터키어"
@@ -10611,6 +10639,10 @@ msgstr ""
 #. Resource IDs: (315)
 msgid "Unresolved conflicts!"
 msgstr "Unresolved conflicts!"
+
+#. Resource IDs: (98)
+msgid "Unset tracked branch"
+msgstr ""
 
 #. Resource IDs: (3841)
 msgid "Untitled"
@@ -11210,10 +11242,6 @@ msgid ""
 "Wrap long lines at the right border of the view\n"
 "Wrap long lines"
 msgstr "오른쪽 경계를 넘어가는 긴 줄을 줄 바꿈 하기\n긴 줄 보호"
-
-#. Resource IDs: (73)
-msgid "Yes"
-msgstr "예"
 
 #. Resource IDs: (145)
 msgid "Yes to all"

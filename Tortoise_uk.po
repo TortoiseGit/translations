@@ -7,8 +7,8 @@
 # Віктор Лелейко <victor.leleyko@gmail.com>, 2013
 # Dmytro Kutianskyi <dmytro.kutyansky@gmail.com>, 2015
 # ktretyak <ktretyakgm@gmail.com>, 2013
-# Maks Lyashuk <m_lyashuk@ukr.net>, 2013
-# Maks Lyashuk <m_lyashuk@ukr.net>, 2013
+# Max Lyashuk <m_lyashuk@ukr.net>, 2013
+# Max Lyashuk <m_lyashuk@ukr.net>, 2013
 # Tymur Mudzhyri <intrueder@gmail.com>, 2015
 # Vitaliy Katerusha <vitali_kat@hotmail.com>, 2011
 # Віктор Лелейко <victor.leleyko@gmail.com>, 2013
@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-04-11 18:36+0000\n"
-"Last-Translator: Tymur Mudzhyri <intrueder@gmail.com>\n"
+"PO-Revision-Date: 2015-05-17 10:53+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -327,6 +327,10 @@ msgstr "&..."
 msgid "&3 way merge"
 msgstr "&3-стороннє злиття"
 
+#. Resource IDs: (73)
+msgid "&Abort"
+msgstr ""
+
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
 msgstr "&Про TortoiseGitBlame..."
@@ -535,6 +539,10 @@ msgstr "По&рівняти ревізії"
 msgid "&Compressed Graph"
 msgstr "&Стиснутий граф"
 
+#. Resource IDs: (73)
+msgid "&Continue"
+msgstr ""
+
 #. Resource IDs: (501, 1367, 1471, 57634)
 msgid "&Copy"
 msgstr "&Копіювати"
@@ -610,6 +618,10 @@ msgstr "С&тикування"
 #. Resource IDs: (1032)
 msgid "&Don't ask me again"
 msgstr "&Не запитувати мене знову"
+
+#. Resource IDs: (73)
+msgid "&Don't show this message again"
+msgstr ""
 
 #. Resource IDs: (1384)
 msgid "&Down"
@@ -937,6 +949,10 @@ msgstr "&Далі >"
 msgid "&Next Page"
 msgstr "&Наступна сторінка"
 
+#. Resource IDs: (73)
+msgid "&No"
+msgstr ""
+
 #. Resource IDs: (16632)
 msgid "&No double-click event"
 msgstr "&Без події подвійного кліку"
@@ -1125,6 +1141,10 @@ msgstr "&Відновити"
 msgid "&Restore old state"
 msgstr "&Відновити старий стан"
 
+#. Resource IDs: (73)
+msgid "&Retry"
+msgstr ""
+
 #. Resource IDs: (1252)
 msgid "&Revert change by this commit"
 msgstr ""
@@ -1281,6 +1301,10 @@ msgstr "&TortoiseGitMerge"
 msgid "&Trunk:"
 msgstr "&Trunk:"
 
+#. Resource IDs: (73)
+msgid "&Try Again"
+msgstr ""
+
 #. Resource IDs: (3845)
 msgid "&Two Page"
 msgstr "&Дві сторінки"
@@ -1347,6 +1371,10 @@ msgstr "&Ціле слово"
 
 #. Resource IDs: (32790)
 msgid "&Within file"
+msgstr ""
+
+#. Resource IDs: (73)
+msgid "&Yes"
 msgstr ""
 
 #. Resource IDs: (1657)
@@ -6752,10 +6780,6 @@ msgstr ""
 msgid "Next inline difference"
 msgstr ""
 
-#. Resource IDs: (73)
-msgid "No"
-msgstr ""
-
 #. Resource IDs: (1481)
 msgid "No &Fast Forward"
 msgstr ""
@@ -8273,10 +8297,6 @@ msgstr "Відновити вікно до нормального розміру
 msgid "Restored"
 msgstr "Відновлено"
 
-#. Resource IDs: (73)
-msgid "Retry"
-msgstr ""
-
 #. Resource IDs: (602)
 msgid "Retrying in 2 seconds..."
 msgstr ""
@@ -8837,6 +8857,10 @@ msgid ""
 "checker used for commit messages."
 msgstr ""
 
+#. Resource IDs: (98)
+msgid "Select tracked branch"
+msgstr ""
+
 #. Resource IDs: (78)
 msgid "Select viewer for diff-files"
 msgstr "Виберіть переглядач для файлів відмінностей"
@@ -8991,6 +9015,10 @@ msgstr "Показати &лог"
 #. Resource IDs: (1031)
 msgid "Show &log..."
 msgstr "Показати &лог..."
+
+#. Resource IDs: (1830)
+msgid "Show &nested refs"
+msgstr ""
 
 #. Resource IDs: (1088)
 msgid "Show &overlays and context menu only in explorer"
@@ -9394,6 +9422,10 @@ msgstr "Розділити активне вікно на панелі\nРозд
 
 #. Resource IDs: (1254, 1257)
 msgid "Squash"
+msgstr ""
+
+#. Resource IDs: (1254)
+msgid "Squash (with commit below)"
 msgstr ""
 
 #. Resource IDs: (246)
@@ -10441,10 +10473,6 @@ msgstr ""
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
 msgstr "Спробуйте 'Прибрати'. Якщо це не спрацює, доведеться зробити свіжу вивірку."
 
-#. Resource IDs: (73)
-msgid "Try again"
-msgstr ""
-
 #. Resource IDs: (65535)
 msgid "Turkish"
 msgstr ""
@@ -10593,6 +10621,10 @@ msgstr ""
 #. Resource IDs: (315)
 msgid "Unresolved conflicts!"
 msgstr "Невирішені конфлікти!"
+
+#. Resource IDs: (98)
+msgid "Unset tracked branch"
+msgstr ""
 
 #. Resource IDs: (3841)
 msgid "Untitled"
@@ -11191,10 +11223,6 @@ msgstr ""
 msgid ""
 "Wrap long lines at the right border of the view\n"
 "Wrap long lines"
-msgstr ""
-
-#. Resource IDs: (73)
-msgid "Yes"
 msgstr ""
 
 #. Resource IDs: (145)

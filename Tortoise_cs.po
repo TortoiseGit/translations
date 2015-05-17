@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-04-03 07:21+0000\n"
+"PO-Revision-Date: 2015-05-17 11:19+0000\n"
 "Last-Translator: Zbyněk Schwarz <zbynek.schwarz@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -326,6 +326,10 @@ msgstr "&..."
 msgid "&3 way merge"
 msgstr "&Trojité porovnání"
 
+#. Resource IDs: (73)
+msgid "&Abort"
+msgstr "&Ukončit"
+
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
 msgstr "&O TortoiseGitBlame..."
@@ -534,6 +538,10 @@ msgstr "&Porovnat revize"
 msgid "&Compressed Graph"
 msgstr "&Zhuštěný graf"
 
+#. Resource IDs: (73)
+msgid "&Continue"
+msgstr "&Pokračovat"
+
 #. Resource IDs: (501, 1367, 1471, 57634)
 msgid "&Copy"
 msgstr "&Kopírovat"
@@ -609,6 +617,10 @@ msgstr "&Ukotvení"
 #. Resource IDs: (1032)
 msgid "&Don't ask me again"
 msgstr "&Již se mě neptat"
+
+#. Resource IDs: (73)
+msgid "&Don't show this message again"
+msgstr "&Tuto zprávu již nezobrazovat"
 
 #. Resource IDs: (1384)
 msgid "&Down"
@@ -936,6 +948,10 @@ msgstr "&Další >"
 msgid "&Next Page"
 msgstr "&Další stránka"
 
+#. Resource IDs: (73)
+msgid "&No"
+msgstr "&Ne"
+
 #. Resource IDs: (16632)
 msgid "&No double-click event"
 msgstr "Žádná &událost při dvojitém kliknutí"
@@ -1124,6 +1140,10 @@ msgstr "&Obnovit"
 msgid "&Restore old state"
 msgstr "&Obnovit starý stav"
 
+#. Resource IDs: (73)
+msgid "&Retry"
+msgstr "&Zkusit znovu"
+
 #. Resource IDs: (1252)
 msgid "&Revert change by this commit"
 msgstr "&Vrátit změnu od tohoto odevzdání"
@@ -1280,6 +1300,10 @@ msgstr "&TortoiseGitMerge"
 msgid "&Trunk:"
 msgstr "&Kmen:"
 
+#. Resource IDs: (73)
+msgid "&Try Again"
+msgstr "&Zkusit znovu"
+
 #. Resource IDs: (3845)
 msgid "&Two Page"
 msgstr "&Dvoustránkový"
@@ -1347,6 +1371,10 @@ msgstr "&Celé slovo"
 #. Resource IDs: (32790)
 msgid "&Within file"
 msgstr "&Uvnitř souboru"
+
+#. Resource IDs: (73)
+msgid "&Yes"
+msgstr "&Ano"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -6751,10 +6779,6 @@ msgstr "Další rozdíl"
 msgid "Next inline difference"
 msgstr "Další rozdíl v řádku"
 
-#. Resource IDs: (73)
-msgid "No"
-msgstr "Ne"
-
 #. Resource IDs: (1481)
 msgid "No &Fast Forward"
 msgstr "Žádný &rychlý posun vpřed"
@@ -8272,10 +8296,6 @@ msgstr "Obnovit normální velikost okna"
 msgid "Restored"
 msgstr "Obnoveno"
 
-#. Resource IDs: (73)
-msgid "Retry"
-msgstr "Zkusit znovu"
-
 #. Resource IDs: (602)
 msgid "Retrying in 2 seconds..."
 msgstr "Další pokus za 2 vteřiny..."
@@ -8836,6 +8856,10 @@ msgid ""
 "checker used for commit messages."
 msgstr "Vybrat jazyk, který tento projekt používá. Toto nastavení ovlivňuje kontrolu pravopisu ve zprávě odevzdání."
 
+#. Resource IDs: (98)
+msgid "Select tracked branch"
+msgstr "Vybrat sledovanou větev"
+
 #. Resource IDs: (78)
 msgid "Select viewer for diff-files"
 msgstr "Vybrat prohlížeč pro soubory rozdílů"
@@ -8990,6 +9014,10 @@ msgstr "Zobrazit &protokol"
 #. Resource IDs: (1031)
 msgid "Show &log..."
 msgstr "Zobrazit &protokol..."
+
+#. Resource IDs: (1830)
+msgid "Show &nested refs"
+msgstr "Zobrazit &vnořené odkazy"
 
 #. Resource IDs: (1088)
 msgid "Show &overlays and context menu only in explorer"
@@ -9394,6 +9422,10 @@ msgstr "Rozdělit aktivní okno na panely\nRozdělit"
 #. Resource IDs: (1254, 1257)
 msgid "Squash"
 msgstr "Slisovat"
+
+#. Resource IDs: (1254)
+msgid "Squash (with commit below)"
+msgstr "Slisovat (s níže uvedeným odevzdáním)"
 
 #. Resource IDs: (246)
 msgid "Stacked Bar Graph"
@@ -10440,10 +10472,6 @@ msgstr "Oříznout vpravo"
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
 msgstr "Zkuste 'Vyčistit'. Pokud toto nebude fungovat, pak je třeba znovu provést nové získání."
 
-#. Resource IDs: (73)
-msgid "Try again"
-msgstr "Zkusit znovu"
-
 #. Resource IDs: (65535)
 msgid "Turkish"
 msgstr "Turečtina"
@@ -10592,6 +10620,10 @@ msgstr "Odznačit tento blok"
 #. Resource IDs: (315)
 msgid "Unresolved conflicts!"
 msgstr "Nevyřešené konflikty!"
+
+#. Resource IDs: (98)
+msgid "Unset tracked branch"
+msgstr "Zrušit sledování větve"
 
 #. Resource IDs: (3841)
 msgid "Untitled"
@@ -11191,10 +11223,6 @@ msgid ""
 "Wrap long lines at the right border of the view\n"
 "Wrap long lines"
 msgstr "Zalomí dlouhé řádky v právem okraji zobrazení\nZalomit dlouhé řádky"
-
-#. Resource IDs: (73)
-msgid "Yes"
-msgstr "Ano"
 
 #. Resource IDs: (145)
 msgid "Yes to all"
