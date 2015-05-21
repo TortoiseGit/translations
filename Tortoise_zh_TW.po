@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-05-18 09:39+0000\n"
+"PO-Revision-Date: 2015-05-21 02:49+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -302,7 +302,7 @@ msgstr "%s\n%s"
 msgid ""
 "%s\n"
 "Could not be cleanly patched."
-msgstr "%s\n無法修補"
+msgstr "%s\n無法補綴。"
 
 #. Resource IDs: (145)
 #, c-format
@@ -7367,15 +7367,15 @@ msgstr "自剪貼簿貼上 svn 路徑, 並進行移動(剪下)或複製動作"
 
 #. Resource IDs: (65)
 msgid "Patch"
-msgstr "修補"
+msgstr "補綴"
 
 #. Resource IDs: (1076)
 msgid "Patch &all items"
-msgstr "修補全部項目(&A)"
+msgstr "補綴全部項目(&A)"
 
 #. Resource IDs: (1075)
 msgid "Patch &selected item"
-msgstr "修補選定項目(&S)"
+msgstr "補綴選定項目(&S)"
 
 #. Resource IDs: (1579)
 msgid "Patch As Attachment"
@@ -7383,11 +7383,11 @@ msgstr "補綴作為附件"
 
 #. Resource IDs: (376)
 msgid "Patch all files"
-msgstr "修補所有檔案"
+msgstr "補綴所有檔案"
 
 #. Resource IDs: (376)
 msgid "Patch selected files"
-msgstr "修補選定的檔案"
+msgstr "補綴選定的檔案"
 
 #. Resource IDs: (157)
 msgid "Patchfiles (*.diff, *.patch)|*.diff;*.patch|All Files (*.*)|*.*||"
@@ -7395,12 +7395,12 @@ msgstr "補綴檔 (*.diff, *.patch)|*.diff;*.patch|所有檔案 (*.*)|*.*||"
 
 #. Resource IDs: (169)
 msgid "Patching"
-msgstr "修補中"
+msgstr "補綴中"
 
 #. Resource IDs: (169)
 #, c-format
 msgid "Patching file '%s'"
-msgstr "正在修補檔案 '%s'"
+msgstr "正在補綴檔案「%s」"
 
 #. Resource IDs: (63, 77, 198, 207)
 msgid "Path"
@@ -7985,7 +7985,7 @@ msgstr "正規表示式過濾器：\r\n.：任意字元\r\nc+：匹配一個以�
 #. Resource IDs: (7)
 #, c-format
 msgid "Rejected patch hunks for '%s'"
-msgstr "拒絕補綴方塊 '%s'"
+msgstr "拒絕補綴方塊「%s」"
 
 #. Resource IDs: (1072)
 msgid "Relative Times in log"
@@ -9703,7 +9703,7 @@ msgstr "符號連結"
 
 #. Resource IDs: (22)
 msgid "Sync Remote Repositories, including pull, push, email patch and so on"
-msgstr "同步遠端倉儲,包括拉取,推送,電郵補綴等等"
+msgstr "同步遠端倉儲，包括拉取，推送，電郵補綴等等"
 
 #. Resource IDs: (22)
 msgid "Sync..."
@@ -9862,7 +9862,7 @@ msgstr "檔案 %s 不存在!"
 #. Resource IDs: (64)
 #, c-format
 msgid "The file %s was not found in the patch file!"
-msgstr "補綴檔中找不到檔案: %s!"
+msgstr "在補綴檔中找不到檔案「%s」！"
 
 #. Resource IDs: (64)
 #, c-format
@@ -9999,7 +9999,7 @@ msgid ""
 "and the patchline\n"
 "%s\n"
 "do not match!"
-msgstr "補綴檔似乎過舊! 檔案中此行\n%s\n與補綴檔中此行\n%s\n不符合！"
+msgstr "補綴檔似乎過舊！檔案中此行\n%s\n與補綴檔中此行\n%s\n不符合！"
 
 #. Resource IDs: (88)
 msgid ""
@@ -10021,7 +10021,7 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr "路徑\n%s\n與補綴檔中的路徑不相符.\nTortoiseGitMerge找到了\n%s\n可能是正確的路徑. 要改用找到的路徑嗎?"
+msgstr "路徑\n%s\n與補綴檔中的路徑不相符。\nTortoiseGitMerge找到了\n%s\n可能是正確的路徑。要改用找到的路徑嗎？"
 
 #. Resource IDs: (91)
 msgid ""
