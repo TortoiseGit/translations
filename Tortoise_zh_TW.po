@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-05-21 02:49+0000\n"
+"PO-Revision-Date: 2015-05-21 06:46+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1648,7 +1648,7 @@ msgstr "相同名稱的標籤已經存在"
 msgid ""
 "A viewer program for GNU diff files (patch files).\r\n"
 "If you don't have one use NotePad."
-msgstr "用來檢視 GNU 差異檔 (補綴檔) 的程式。\r\n如果沒有，可以使用記事本。"
+msgstr "用來檢視 GNU 差異檔（補綴檔） 的程式。\n如果不知道要使用哪一個，可以考慮使用記事本。"
 
 #. Resource IDs: (66)
 msgid "A&bort"
@@ -2023,7 +2023,7 @@ msgstr "套用補綴"
 
 #. Resource IDs: (22)
 msgid "Apply a series of patches from a mailbox"
-msgstr "從郵箱套用補綴序列"
+msgstr "從郵箱(mailbox)套用補綴序列"
 
 #. Resource IDs: (1072)
 msgid "Apply unified diff"
@@ -3399,7 +3399,7 @@ msgstr "無法取得檔案的 URL!\n%s"
 msgid ""
 "Could not retrieve revision %s of the file %s.\n"
 "Patching is not possible!"
-msgstr "無法取得 %s 版本的 %s 檔案.\n無法進行補綴!"
+msgstr "無法取得 %s 版本的 %s 檔案。\n無法進行補綴！"
 
 #. Resource IDs: (64)
 msgid "Could not start TortoiseGitBlame"
@@ -3515,7 +3515,7 @@ msgid ""
 "clone or fetch from it, nor push from nor into it), but is adequate if you "
 "are only interested in the recent history of a large project with a long "
 "history, and would want to send in fixes as patches."
-msgstr "建立一個淺層克隆的倉儲。這個倉儲有限定數量的歷史記錄(你不能克隆、拉取、獲取和推送）。你僅僅感興趣最近的歷史和發送補綴。"
+msgstr "建立一個淺層克隆的倉儲。這個倉儲只含有限定版本數量的歷史記錄，因此你不能克隆、拉取、獲取和推送，但足夠你查看最近有興趣的歷史以及發送補綴。"
 
 #. Resource IDs: (156)
 msgid "Create patch file"
@@ -6940,7 +6940,7 @@ msgstr "記憶體不足！\n嘗試折疊節點或減少縮放比例以減少版�
 
 #. Resource IDs: (72)
 msgid "Not patches generated."
-msgstr "沒有產生補綴檔"
+msgstr "沒有產生任何補綴檔。"
 
 #. Resource IDs: (65535)
 msgid "Note node"
