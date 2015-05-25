@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-05-25 03:30+0000\n"
+"PO-Revision-Date: 2015-05-25 06:31+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -317,7 +317,7 @@ msgid ""
 "%s\n"
 "is a directory, not a file!\n"
 "TortoiseGitMerge can't diff directories."
-msgstr "%s\n是目錄, 不是檔案!\nTortoiseGitMerge 無法比對目錄差異."
+msgstr "「%s」\n是目錄，並不是檔案！\nTortoiseGitMerge 無法比較目錄差異。"
 
 #. Resource IDs: (16923)
 msgid "&..."
@@ -325,11 +325,11 @@ msgstr "&..."
 
 #. Resource IDs: (1656)
 msgid "&3 way merge"
-msgstr "3路合併(&3)"
+msgstr "三方合併(&3)"
 
 #. Resource IDs: (73)
 msgid "&Abort"
-msgstr "放棄(&A)"
+msgstr "中止(&A)"
 
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
@@ -1604,7 +1604,7 @@ msgstr "相同名稱的分支已經存在"
 msgid ""
 "A merge process is active, so this commit will be a merge commit. In order "
 "to abort a merge, you have to perform a reset or forced checkout."
-msgstr "合併過程進行中，所以這個提交將會是一個合併提交。要中止合併，你需要進行重置或強行取出。"
+msgstr "合併程序進行中，所以這個提交將會是一個合併提交。要中止合併，你需要進行重設或強行檢出。"
 
 #. Resource IDs: (201)
 msgid "A newer version is available. Please download the current version!"
@@ -1672,19 +1672,19 @@ msgstr "縮寫長度"
 
 #. Resource IDs: (2, 73, 1565)
 msgid "Abort"
-msgstr "放棄"
+msgstr "中止"
 
 #. Resource IDs: (15)
 msgid "Abort &Merge"
-msgstr "放棄合併(&M)"
+msgstr "中止合併(&M)"
 
 #. Resource IDs: (4592)
 msgid "Abort Merge"
-msgstr "放棄合併"
+msgstr "中止合併"
 
 #. Resource IDs: (15)
 msgid "Aborts a running merge."
-msgstr "放棄進行中的合併"
+msgstr "中止進行中的合併。"
 
 #. Resource IDs: (156)
 msgid "About"
@@ -2047,7 +2047,7 @@ msgstr "確定要重設所有欄位？"
 
 #. Resource IDs: (68)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr "確定要中止變基過程？"
+msgstr "確定要中止變基程序？"
 
 #. Resource IDs: (145)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -2799,14 +2799,14 @@ msgstr "正在清除."
 msgid ""
 "Cleanup failed to process the following paths:\n"
 "%s"
-msgstr "清理以下路徑時發生錯誤：\n%s"
+msgstr "清理以下路徑時發生錯誤：\n「%s」"
 
 #. Resource IDs: (79)
 #, c-format
 msgid ""
 "Cleanup has successfully processed the following paths:\n"
 "%s"
-msgstr "以下路徑已清理完成：\n%s"
+msgstr "以下路徑已清理完成：\n「%s」"
 
 #. Resource IDs: (1273, 1275, 1276, 1279, 1281, 1427)
 msgid "Clear"
@@ -3377,11 +3377,11 @@ msgstr "無法從忽略列表中移除 %s"
 
 #. Resource IDs: (70)
 msgid "Could not reset to first commit (first step). Aborting..."
-msgstr "無法重設到第一個提交(第一步). 中止中..."
+msgstr "無法重設到第一個提交（第一步）。中止中．．．"
 
 #. Resource IDs: (70)
 msgid "Could not reset to last commit (second step). Aborting..."
-msgstr "無法重設到最後一個提交(第二步). 中止中..."
+msgstr "無法重設到最後一個提交（第二步）。中止中．．．"
 
 #. Resource IDs: (70)
 msgid "Could not reset to original HEAD."
@@ -5982,7 +5982,7 @@ msgstr "輸入的提交"
 
 #. Resource IDs: (1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr "為了放棄合併過程，需要重置(至 HEAD)。"
+msgstr "為了中止合併程序，需要重設（至 HEAD）。"
 
 #. Resource IDs: (1499)
 msgid "Include &Tags"
@@ -9529,7 +9529,7 @@ msgstr "狀態快取僅用於一個資料夾，遞迴完全狀態"
 msgid ""
 "Status cache kept in an external process that detects file changes, can show"
 " the overlay recursively"
-msgstr "以外部程式保存狀態快取, 可包含子目錄"
+msgstr "以外部程式保存狀態快取（包括子目錄），偵測檔案變更，並依狀態顯示圖示覆蓋。"
 
 #. Resource IDs: (196)
 msgid "Status cache only for one folder, no recursive overlays"
@@ -9846,7 +9846,7 @@ msgstr "目前工作目錄有改動，\n你想藏起(stash)改動嗎？"
 msgid ""
 "The diffing engine aborted because of an error:\n"
 "%s"
-msgstr "比較差異引擎中止，錯誤：\n%s"
+msgstr "比較差異引擎中止了，由於錯誤：\n「%s」"
 
 #. Resource IDs: (85)
 msgid ""
@@ -10027,7 +10027,7 @@ msgstr "該路徑\n「%s」\n與補綴檔中的路徑不相符。\nTortoiseGitMe
 msgid ""
 "The process is still running.\n"
 "Are you sure to abort?"
-msgstr "程序仍在執行中，\n確定要終止？"
+msgstr "程序仍在執行中。\n確定要中止？"
 
 #. Resource IDs: (70)
 msgid ""
@@ -10223,7 +10223,7 @@ msgstr "這個動作會刪除你在本程式中的所有命令的紀錄，並將
 
 #. Resource IDs: (604)
 msgid "Three way diff"
-msgstr "三路比較"
+msgstr "三方比較差異"
 
 #. Resource IDs: (16928)
 msgid "Tile &Vertically"
@@ -10523,7 +10523,7 @@ msgstr "無法載入郵件系統功能."
 
 #. Resource IDs: (3865)
 msgid "Unable to process command, server busy."
-msgstr "伺服器忙碌中, 無法處理命令."
+msgstr "伺服器忙碌中，無法處理命令。"
 
 #. Resource IDs: (3859)
 #, c-format
@@ -11088,7 +11088,7 @@ msgstr "在套用補綴檔時，忽略空白字元的變更。"
 msgid ""
 "When closing a progress dialog with a running git process, ask for "
 "confirmation before killing it"
-msgstr "當要關閉進度視窗仍有執行中的 git 程序，需確認才停止它"
+msgstr "當想要關閉仍有執行中 git 程序的進度視窗時，需經確認後才能停止它。"
 
 #. Resource IDs: (94)
 msgid ""
