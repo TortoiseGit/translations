@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-05-24 18:07+0000\n"
+"PO-Revision-Date: 2015-05-25 03:30+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -9703,7 +9703,7 @@ msgstr "符號連結"
 
 #. Resource IDs: (22)
 msgid "Sync Remote Repositories, including pull, push, email patch and so on"
-msgstr "同步遠端倉儲，包括拉取，推送，電郵補綴等等"
+msgstr "同步遠端倉儲，包括拉取、推送、電郵補綴等等"
 
 #. Resource IDs: (22)
 msgid "Sync..."
@@ -9989,7 +9989,7 @@ msgstr "參數「/path」和「/pathfile」不能同時使用。\n請指定其�
 msgid ""
 "The patch does not apply cleanly to %s and no version information is given.\n"
 "Patching is not possible!"
-msgstr "補綴檔無法乾淨地套用至 %s，沒有版本資訊\n使補綴不可能"
+msgstr "版本資訊是空的，因此補綴檔無法乾淨地套用至 「%s」。\n不可能進行補綴！"
 
 #. Resource IDs: (64)
 #, c-format
@@ -9999,7 +9999,7 @@ msgid ""
 "and the patchline\n"
 "%s\n"
 "do not match!"
-msgstr "補綴檔似乎過舊！檔案中此行\n%s\n與補綴檔中此行\n%s\n不符合！"
+msgstr "補綴檔似乎過時了！檔案中此行\n「%s」\n與補綴檔中此行\n「%s」\n不符合！"
 
 #. Resource IDs: (88)
 msgid ""
@@ -10021,7 +10021,7 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr "路徑\n%s\n與補綴檔中的路徑不相符。\nTortoiseGitMerge找到了\n%s\n可能是正確的路徑。要改用找到的路徑嗎？"
+msgstr "該路徑\n「%s」\n與補綴檔中的路徑不相符。\nTortoiseGitMerge 找到了\n「%s」\n可能是正確的路徑。要改用這個建議的路徑嗎？"
 
 #. Resource IDs: (91)
 msgid ""
@@ -10407,7 +10407,7 @@ msgstr "TortoiseGitMerge %d.%d.%d.%d - %s, %s\nlibsvn_diff %d.%d.%d, %s\napr %d.
 msgid ""
 "TortoiseGitMerge cannot process this patch file. The filename \"%s\" appears"
 " more than once."
-msgstr "TortoiseGitMerge 無法處理這補綴檔，檔名「%s」 出現多於一次。"
+msgstr "TortoiseGitMerge 無法處理這個補綴檔，檔名「%s」 出現多於一次。"
 
 #. Resource IDs: (357)
 msgid "TortoiseGitUDiff"
@@ -10869,7 +10869,7 @@ msgid ""
 "Use the original path.\n"
 "Apply the patch to\n"
 "%s"
-msgstr "使用原先的路徑\n套用補綴至\n%s"
+msgstr "使用原先的路徑。\n套用補綴至\n%s"
 
 #. Resource IDs: (1825, 1826)
 msgid "Use this"
@@ -11082,7 +11082,7 @@ msgstr "啟用後，當單擊右鍵並保持 SHIFT 鍵按下時，才會顯示 T
 msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
-msgstr "在套用補綴檔時，忽略空白的改變"
+msgstr "在套用補綴檔時，忽略空白字元的變更。"
 
 #. Resource IDs: (91)
 msgid ""
@@ -11113,7 +11113,7 @@ msgid ""
 "When the patch does not apply cleanly, fall back on 3-way merge if the patch"
 " records the identity of blobs it is supposed to apply to and we have those "
 "blobs available locally."
-msgstr "當套用補綴失敗時，嘗試3路合併。"
+msgstr "無法乾淨地套用補綴時，如果本機中含有補綴檔中記錄用來套用補綴的 blobs，則嘗試三方合併。"
 
 #. Resource IDs: (92)
 msgid ""
