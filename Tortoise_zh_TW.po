@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-01 14:22+0000\n"
+"PO-Revision-Date: 2015-06-02 03:51+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -521,7 +521,7 @@ msgstr "提交(&C)"
 
 #. Resource IDs: (355)
 msgid "&Commit submodule..."
-msgstr "提交子模組(&C) ..."
+msgstr "提交子模組(&C)..."
 
 #. Resource IDs: (68)
 msgid "&Commit w/o"
@@ -1621,7 +1621,7 @@ msgid ""
 "A newline separated list of paths for which no context menu is shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
 "An empty list will allow the context menu on all paths."
-msgstr "以換行分隔的列表，列出的目錄不顯示圖示覆蓋。\r\n如果你在路徑後面加上「*」， 那麼此路徑下的所有檔案及子目錄也都不會顯示。\r\n列表為空時表示所有路徑都顯示圖示覆蓋。"
+msgstr "以換行分隔的列表，列出的目錄不顯示快顯功能表。\n如果你在路徑後面加上「*」， 那麼此路徑下的所有檔案及子目錄也都不會顯示。\n列表為空時表示所有路徑都顯示快顯功能表。"
 
 #. Resource IDs: (194)
 msgid ""
@@ -1905,13 +1905,13 @@ msgstr "允許在此視窗中編輯\n允許編輯"
 
 #. Resource IDs: (90)
 msgid "Allow to use custom Gravatar URL"
-msgstr "容許使用自訂的 Gravatar URL"
+msgstr "允許使用自訂的 Gravatar URL"
 
 #. Resource IDs: (97)
 msgid ""
 "Allows to create an empty commit which only has a commit message and no "
 "files (cf. git commit --allow-empty)."
-msgstr "允許產生一個只有提交訊息而沒有任何檔案修改的空提交 (參考: git commit --allow-empty)"
+msgstr "允許產生一個只有提交訊息而沒有任何檔案修改的空提交（參考: git commit --allow-empty）"
 
 #. Resource IDs: (66)
 msgid "Already up to date."
@@ -2501,7 +2501,7 @@ msgstr "無法建立新影像!"
 
 #. Resource IDs: (1001)
 msgid "Can't customize menus!"
-msgstr "無法自訂選單!"
+msgstr "無法自訂選單！"
 
 #. Resource IDs: (1001)
 msgid "Can't paste bitmap image from the clipboard!"
@@ -2792,7 +2792,7 @@ msgstr "正在清除."
 
 #. Resource IDs: (146)
 msgid "Cleaning up."
-msgstr "正在清除."
+msgstr "正在清除。"
 
 #. Resource IDs: (83)
 #, c-format
@@ -7151,7 +7151,7 @@ msgstr "僅包含檔案"
 msgid ""
 "Only numbers (optionally separated by commas)\n"
 "are allowed!"
-msgstr "只可以輸入數字(可以用逗\n點分隔)!"
+msgstr "只允許輸入數字！\n（可以用逗號分隔）"
 
 #. Resource IDs: (19)
 msgid "Only this item"
@@ -10202,7 +10202,7 @@ msgstr "系統中找不到本程式需要的 %s."
 
 #. Resource IDs: (15)
 msgid "This property is only allowed on folders, not files."
-msgstr "這個性質只能設置在資料夾上, 檔案不能."
+msgstr "這個性質只能設置在資料夾上，檔案不能。"
 
 #. Resource IDs: (95)
 msgid ""
@@ -10212,7 +10212,7 @@ msgstr "遠端名稱與其他遠端的獲取 refspec 衝突，請用另一名稱
 
 #. Resource IDs: (67)
 msgid "This task requires a clean working tree."
-msgstr "這工作需要清潔的工作目錄"
+msgstr "這工作需要乾淨的工作目錄。"
 
 #. Resource IDs: (1016)
 msgid ""
@@ -11271,7 +11271,7 @@ msgstr "你安裝了舊版的、有安全漏洞的 Git for Windows （https://ms
 msgid ""
 "You have checked \"include untracked\".\n"
 "This includes a \"git clean -fd\" call, so ignored files/directories are removed w/o using recycle bin."
-msgstr "你選擇了 「包含未追蹤的檔案」，這包含一個「git clean -fd」命令，因此不會使用資源回收筒來移除這些「檔案／目錄」。"
+msgstr "你選擇了 「包含未追蹤的檔案」。\n這包含一個「git clean -fd」命令，因此不會使用資源回收筒來移除這些「檔案／目錄」。"
 
 #. Resource IDs: (7)
 msgid "You have marked changed blocks. How should those blocks be saved?"
@@ -11580,7 +11580,7 @@ msgstr "外部"
 #. Resource IDs: (66)
 #, c-format
 msgid "git did not exit cleanly (exit code %d)"
-msgstr "Git 並非正常地結束 (傳回 %d)"
+msgstr "Git 不正常結束（傳回 %d）"
 
 #. Resource IDs: (13)
 msgid "ignored"
