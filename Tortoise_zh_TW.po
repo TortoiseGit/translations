@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-22 03:40+0000\n"
+"PO-Revision-Date: 2015-06-22 09:45+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1359,7 +1359,7 @@ msgstr "檢視(&V)："
 
 #. Resource IDs: (65535)
 msgid "&Warn on missing Signed-Off-By on commit"
-msgstr "在提交記錄中缺少Signed-Off-By時發出警告"
+msgstr "提交記錄缺少 Signed-Off-By 時發出警告"
 
 #. Resource IDs: (1203)
 msgid "&Whole Project"
@@ -1945,7 +1945,7 @@ msgstr "修訂上次提交"
 #. Resource IDs: (1265)
 msgid ""
 "An alternative editor. Which should preferably support *nix line endings."
-msgstr "編輯器，能夠支援*nix換行符號"
+msgstr "編輯器，能夠支援 *nix 換行符號。"
 
 #. Resource IDs: (1245)
 #, c-format
@@ -2167,11 +2167,11 @@ msgstr "作者：\tFrank Li (lznuaa@gmail.com),\n\t\tSven Strickroth (email@cs-w
 
 #. Resource IDs: (65535)
 msgid "Auto CrLf convert"
-msgstr "自動轉換DOS\\UNIX換行符號"
+msgstr "自動轉換 DOS\\UNIX 換行符號"
 
 #. Resource IDs: (65535)
 msgid "Auto Crlf:"
-msgstr "自動轉換 DOS\\UNIX 換行符號："
+msgstr "自動轉換換行符號："
 
 #. Resource IDs: (16033)
 msgid "Auto Hide"
@@ -2183,7 +2183,7 @@ msgstr "自動隱藏全部"
 
 #. Resource IDs: (1631)
 msgid "Auto&Crlf"
-msgstr "自動轉換換行符號(&C)"
+msgstr "Auto&Crlf"
 
 #. Resource IDs: (3542)
 msgid "Auto-close if no conflicts"
@@ -2205,7 +2205,7 @@ msgstr "無合併、新增、刪除時自動關閉"
 msgid ""
 "Auto-complete suggests words (usually class or member names)\r\n"
 "from the files that you have changed as you type a log message."
-msgstr "在輸入日誌訊息時, 自動從這次有修改的檔案內\n容中提示單字(通常是類別或成員的名字)."
+msgstr "在輸入日誌訊息時，自動從這次有修改的檔案內容中\n提示單字（通常是類別或成員的名字）。"
 
 #. Resource IDs: (1505)
 msgid "AutoLoad Putty &Key"
@@ -2273,7 +2273,7 @@ msgstr "基本資訊"
 
 #. Resource IDs: (65535)
 msgid "Between files:"
-msgstr "檔案之間（-C 參數）："
+msgstr "檔案之間(-C)："
 
 #. Resource IDs: (5060)
 msgid "Big5 (Traditional)"
@@ -2409,7 +2409,7 @@ msgstr "瀏覽..."
 
 #. Resource IDs: (20006)
 msgid "Bug-ID"
-msgstr "Bug編號"
+msgstr "Bug 編號"
 
 #. Resource IDs: (1578)
 msgid "Bug-ID e&xpression:"
@@ -2421,7 +2421,7 @@ msgstr "臭蟲編號／問題編號："
 
 #. Resource IDs: (1856)
 msgid "Bug-IDs"
-msgstr "Bug編號"
+msgstr "Bug 編號"
 
 #. Resource IDs: (65535)
 msgid "BugTraq"
@@ -2822,18 +2822,18 @@ msgstr "清除工具\n清除"
 #. Resource IDs: (3127)
 #, c-format
 msgid "Clears %ld URLs stored for %ld working trees"
-msgstr "清除了 %ld 組 URL (自 %ld 份工作目錄)"
+msgstr "清除 %ld 組 URL（自 %ld 份工作目錄）"
 
 #. Resource IDs: (3126)
 #, c-format
 msgid "Clears %ld log messages stored for %ld working trees"
-msgstr "清除了 %ld 組日誌訊息 (自 %ld 份工作目錄)"
+msgstr "清除 %ld 組日誌訊息（自 %ld 份工作目錄）"
 
 #. Resource IDs: (3129)
 #, c-format
 msgid ""
 "Clears %ld username/password pairs, %ld ssl certificates and %ld usernames"
-msgstr "清除了 %ld 組帳號密碼、 %ld 份 SSL 憑證、以及 %ld 組帳號"
+msgstr "清除 %ld 組帳號密碼、 %ld 份 SSL 憑證、以及 %ld 組帳號"
 
 #. Resource IDs: (3139)
 #, c-format
@@ -3161,7 +3161,7 @@ msgstr "設定 Bug 追蹤系統整合功能"
 msgid ""
 "Configure alternative editor. Preferably one which can handle *nix line "
 "endings."
-msgstr "設定用來比對不同版本檔案的工具程式，最好能處理*nix檔案."
+msgstr "設定用來比對不同版本檔案的工具程式，最好能處理 *nix 檔案。"
 
 #. Resource IDs: (65535)
 msgid "Configure the program used for comparing different revisions of files"
@@ -3978,7 +3978,7 @@ msgstr "停用檢查更新"
 
 #. Resource IDs: (32859)
 msgid "Disabled"
-msgstr "己停用"
+msgstr "已停用"
 
 #. Resource IDs: (61869)
 #, c-format
@@ -4059,7 +4059,7 @@ msgid ""
 "Do you really want to disable automatic update checks for TortoiseGit?\r\n"
 "\r\n"
 "Automatic update checks can be re-enabled in TortoiseGit settings on the General page."
-msgstr "你真的想要停用 TortoiseGit 的自動檢查更新?\r\n\r\n自動檢查更新可以在 TortoiseGit 的「一般」設定頁中被重新啟用"
+msgstr "你真的想要停用 TortoiseGit 的自動檢查更新？\n\n自動檢查更新可以在 TortoiseGit 的「一般」設定頁中被重新啟用。"
 
 #. Resource IDs: (1392)
 msgid "Do you really want to mark the selected file(s) as assume-valid?"
@@ -5790,7 +5790,7 @@ msgstr "一致的"
 msgid ""
 "If activated, prevents the overlays and the context menu from showing in "
 "'save as...' or 'open' dialogs"
-msgstr "如果選了這項，在“另存為...”或“開啟”對話視窗中不顯示覆蓋圖示和上下文功能表。"
+msgstr "如果啟用，在「另存新檔」或「開啟舊檔」對話視窗中不顯示覆蓋圖示和快顯功能表。"
 
 #. Resource IDs: (1348)
 msgid ""
@@ -5813,13 +5813,13 @@ msgstr "如果啟用, 在送交中發生錯誤後, 會自動重新顯示送交�
 #. Resource IDs: (3100)
 msgid ""
 "If enabled, TortoiseGit checks once a week if a newer version is available"
-msgstr "啟用時, TortoiseGit 每週會檢查一次最新版本"
+msgstr "啟用時，TortoiseGit 每週會檢查一次最新版本。"
 
 #. Resource IDs: (3138)
 msgid ""
 "If enabled, working tree folders which are excluded from\n"
 "showing overlays still show the overlay for status 'normal'"
-msgstr "啟用時, 工作目錄中設定為除外的資料夾\n仍然會顯示 '正常' 狀態的覆蓋圖示."
+msgstr "啟用時，工作目錄中設定為除外的資料夾\n仍然會顯示「正常」狀態的覆蓋圖示。"
 
 #. Resource IDs: (3121)
 msgid ""
@@ -5831,7 +5831,7 @@ msgstr "設定此選項時, 位於無版本控制目錄下的檔案也會在狀�
 msgid ""
 "If set, then unversioned files will mark the status of the parent directory as modified\r\n"
 "i.e. they get the modified overlay icon."
-msgstr "設定此選項時, 含有無版本控制的檔案會使上層的資料夾顯示為已修改\r\n也就是會顯示已修改的圖示."
+msgstr "設定此選項時，含有無版本控制的檔案會使上層的資料夾被標記為已修改\n也就是會顯示已修改的圖示。"
 
 #. Resource IDs: (1654)
 msgid ""
@@ -6230,7 +6230,7 @@ msgstr "移動至行 %ld"
 
 #. Resource IDs: (65535)
 msgid "Line width"
-msgstr "線寬度"
+msgstr "線寬"
 
 #. Resource IDs: (65535)
 msgid "Line:"
@@ -6842,7 +6842,7 @@ msgstr "沒有發生錯誤."
 msgid ""
 "No files or folders were modified. There is nothing for TortoiseGit to "
 "revert!"
-msgstr "沒有變動的檔案或目錄, 不需要 TortoiseGit 復原!"
+msgstr "沒有變動的檔案或目錄，不需要 TortoiseGit 復原！"
 
 #. Resource IDs: (3810)
 msgid ""
@@ -6895,7 +6895,7 @@ msgstr "沒有拼字修正"
 msgid ""
 "No status cache. Only versioned folders get an overlay, files don't get an "
 "overlay"
-msgstr "無狀態快取, 僅目錄有圖示, 檔案沒有."
+msgstr "無狀態快取，僅目錄有圖示，檔案無圖示。"
 
 #. Resource IDs: (20043)
 msgid "No thesaurus suggestions"
@@ -7013,7 +7013,7 @@ msgstr "作者數："
 
 #. Resource IDs: (65535)
 msgid "Number of characters required for moved or copied line detection:"
-msgstr "偵測 移動行 或 複製行 所需的字元數："
+msgstr "偵測「移動行」或「複製行」所需的字元數："
 
 #. Resource IDs: (1534)
 msgid "Number of characters to show in the abbreviated hash part"
@@ -7354,7 +7354,7 @@ msgstr "貼上"
 
 #. Resource IDs: (9644)
 msgid "Paste Recent Message..."
-msgstr "貼上上次提交的訊息..."
+msgstr "貼上最近用過的提交訊息..."
 
 #. Resource IDs: (16908)
 msgid ""
@@ -8532,7 +8532,7 @@ msgstr "SVN 版本"
 
 #. Resource IDs: (65535)
 msgid "Sa&feCrLf:"
-msgstr "檢查换行符號(&F)："
+msgstr "Sa&feCrLf:"
 
 #. Resource IDs: (65535)
 msgid "Safe Crlf:"
@@ -8878,7 +8878,7 @@ msgstr "選擇該項目正在使用的語言。此設定會影響到用於提交
 
 #. Resource IDs: (1559)
 msgid "Select tracked branch"
-msgstr "追蹤遠端分支"
+msgstr "設定遠端追蹤分支"
 
 #. Resource IDs: (1242)
 msgid "Select viewer for diff-files"
@@ -9314,7 +9314,7 @@ msgstr "顯示 %1!d! 個參照，%2!d! 個已選取"
 msgid ""
 "Showing %ld revision(s), from revision %s to revision %s - %ld revision(s) "
 "selected, %ld file(s) selected\r\n"
-msgstr "顯示 %ld 個版本, 由版本 %s 至 版本%s - %ld 個版本己選取, %ld 個檔案已選取\n"
+msgstr "顯示 %ld 個版本，由版本 %s 至版本 %s － %ld 個版本己選取，%ld 個檔案已選取\n"
 
 #. Resource IDs: (368)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9427,7 +9427,7 @@ msgstr "反向排序標籤下拉選單的內容"
 msgid ""
 "Specifies how many items you want to keep in the most recent log messages "
 "dialog."
-msgstr "指定要保留幾筆最近使用的日誌資料."
+msgstr "指定要保留幾筆最近使用的日誌資料。"
 
 #. Resource IDs: (16976, 16977, 16978, 16979, 16980, 16981)
 msgid "Spin1"
@@ -9556,7 +9556,7 @@ msgstr "以外部程式保存狀態快取（包括子目錄），偵測檔案變
 
 #. Resource IDs: (3124)
 msgid "Status cache only for one folder, no recursive overlays"
-msgstr "僅保存資料夾的狀態, 不包含子目錄"
+msgstr "僅保存資料夾的狀態，不包含子目錄"
 
 #. Resource IDs: (202)
 msgid "Stops bisect mode"
@@ -10112,7 +10112,7 @@ msgid ""
 "The time in seconds after which the parsing of the selected files stops.\r\n"
 "A lower value will make the auto-completion list available sooner,\r\n"
 "but maybe not scan all files."
-msgstr "處理選定檔案的時間上限(單位是秒).\r\n設定較低的值能讓自動完成列表較快出現,\r\n但不一定來得及處理完全部檔案."
+msgstr "處理選定檔案的時間上限（單位是秒）。\n設定較低的值能讓自動完成列表較快出現，\n但不一定來得及處理完全部檔案。"
 
 #. Resource IDs: (1311)
 msgid ""
@@ -10273,7 +10273,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr "要清除暫時檔案，你應確定沒有其他的 TortoiseGit 應用程式在執行。\n\n若你想徹底清除 Gravatar 圖像，你可能需要清除 INternet Explorer 暫存檔案。"
+msgstr "要清除暫時檔案，你應確定沒有其他的 TortoiseGit 應用程式在執行。\n\n若你想徹底清除 Gravatar 圖像，你可能需要清除 Internet Explorer 暫存檔案。"
 
 #. Resource IDs: (1201, 65535)
 msgid "To:"
@@ -10647,7 +10647,7 @@ msgstr "未消除的衝突！"
 
 #. Resource IDs: (1558)
 msgid "Unset tracked branch"
-msgstr "取消追蹤遠端分支"
+msgstr "取消遠端追蹤分支"
 
 #. Resource IDs: (61443)
 msgid "Untitled"
@@ -10659,7 +10659,7 @@ msgstr "未有版本控制"
 
 #. Resource IDs: (1313)
 msgid "Unversioned files mark parent folder as modified"
-msgstr "含有無版本控制的檔案時, 上層資料夾顯示為已修改"
+msgstr "含有無版本控制的檔案時，將上層資料夾標記為「已修改」"
 
 #. Resource IDs: (4563)
 #, c-format
@@ -11129,7 +11129,7 @@ msgstr "啟用後，較大的版本號在前面，因為新版通常比較有用
 msgid ""
 "When enabled, the versioned items listed in the commit dialog are "
 "automatically selected"
-msgstr "啟用時, 送交視窗中, 有版本控制的項目會自動被選取."
+msgstr "啟用時，送交視窗中有版本控制的項目會自動被選取。"
 
 #. Resource IDs: (9660)
 msgid ""
@@ -11220,7 +11220,7 @@ msgstr "Windows-1258"
 
 #. Resource IDs: (65535)
 msgid "Within a file:"
-msgstr "檔案內（-M 參數）："
+msgstr "檔案內(-M)："
 
 #. Resource IDs: (32860)
 msgid "Within file"
@@ -11260,7 +11260,7 @@ msgstr "你已經安裝了最新版."
 msgid ""
 "You can disable specific Overlay handlers here.\n"
 "Disabled handlers won't use up an overlay slot and give other shell extensions a chance to show their overlays."
-msgstr "你可以停用特定的圖示覆蓋。\n停用圖示覆蓋將不顯示圖示，以便其它的擴展程式覆蓋。"
+msgstr "你可以停用特定的圖示覆蓋。\n作業系統可顯示的圖示數量有限，停用圖示可讓其它擴展程式有機會顯示它們的圖示。"
 
 #. Resource IDs: (16005)
 #, c-format
@@ -11667,7 +11667,7 @@ msgstr "遺失／已刪除／已取代"
 
 #. Resource IDs: (159)
 msgid "modified"
-msgstr "己修改"
+msgstr "已修改"
 
 #. Resource IDs: (65535)
 msgid "modified/copied"
