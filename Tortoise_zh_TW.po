@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-24 05:08+0000\n"
-"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
+"PO-Revision-Date: 2015-06-24 20:16+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6806,10 +6806,6 @@ msgstr "不提交(&M)"
 msgid "No HEAD found"
 msgstr "找不到 HEAD"
 
-#. Resource IDs: (1565)
-msgid "No changes after merge"
-msgstr "合併時沒有額外帶入的變更"
-
 #. Resource IDs: (1283)
 msgid ""
 "No command specified!\n"
@@ -6837,6 +6833,10 @@ msgstr "沒有錯誤訊息."
 #. Resource IDs: (61856, 61872)
 msgid "No error occurred."
 msgstr "沒有發生錯誤."
+
+#. Resource IDs: (1565)
+msgid "No extra changes after merge"
+msgstr ""
 
 #. Resource IDs: (1310)
 msgid ""
@@ -9115,10 +9115,6 @@ msgstr "顯示作者"
 msgid "Show branches this commit is on"
 msgstr "顯示這版本所屬的分支"
 
-#. Resource IDs: (1564)
-msgid "Show changes after merge"
-msgstr "顯示合併時額外帶入的變更"
-
 #. Resource IDs: (20011, 20026)
 msgid "Show changes as &unified diff"
 msgstr "以統合式差異格式顯示變更(&W)"
@@ -9158,6 +9154,10 @@ msgstr "顯示和上次提交的差異"
 #. Resource IDs: (1126)
 msgid "Show excluded folders as normal"
 msgstr "排除的資料夾顯示正常圖示"
+
+#. Resource IDs: (1564)
+msgid "Show extra changes after merge"
+msgstr ""
 
 #. Resource IDs: (16656)
 msgid "Show f&ull menus after a short delay"
