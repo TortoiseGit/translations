@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-23 09:22+0000\n"
+"PO-Revision-Date: 2015-06-24 03:52+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -56,27 +56,27 @@ msgstr "傳輸了 %.2f MiB"
 #. Resource IDs: (61878)
 #, c-format
 msgid "%1 contained an unexpected object."
-msgstr "%1 含有預期之外的物件。"
+msgstr "%1 包含未預期的物件。"
 
 #. Resource IDs: (61859)
 #, c-format
 msgid "%1 contains an incorrect path."
-msgstr "%1 含有不正確的路徑。"
+msgstr "%1 包含不正確的路徑。"
 
 #. Resource IDs: (61879)
 #, c-format
 msgid "%1 contains an incorrect schema."
-msgstr "%1 含有不正確的綱要。"
+msgstr "%1 包含不正確的結構描述。"
 
 #. Resource IDs: (61877)
 #, c-format
 msgid "%1 has a bad format."
-msgstr "%1 格式錯誤。"
+msgstr "%1 的格式不正確。"
 
 #. Resource IDs: (61858)
 #, c-format
 msgid "%1 was not found."
-msgstr "找不到 %1。"
+msgstr "找不到 %1 。"
 
 #. Resource IDs: (9611)
 #, c-format
@@ -177,7 +177,7 @@ msgstr "%1!s!\n大小 %2!s!"
 msgid ""
 "%1: %2\n"
 "Continue running script?"
-msgstr "%1: %2\n要繼續執行？"
+msgstr "%1: %2\n要繼續執行指令碼嗎?"
 
 #. Resource IDs: (61729)
 #, c-format
@@ -185,7 +185,7 @@ msgid ""
 "%1\n"
 "Cannot find this file.\n"
 "Verify that the correct path and file name are given."
-msgstr "%1\n找不到這個檔案。\n請確定輸入了正確的路徑和檔案名稱。"
+msgstr "%1找不到這個檔案。\n請確認指定的路徑和檔名是否正確。"
 
 #. Resource IDs: (1446)
 #, c-format
@@ -258,7 +258,7 @@ msgstr "%s - 於版本：%d"
 #. Resource IDs: (62186)
 #, c-format
 msgid "%s [Recovered]"
-msgstr "%s［已還原］"
+msgstr "%s [已復原]"
 
 #. Resource IDs: (3603)
 #, c-format
@@ -365,7 +365,7 @@ msgstr "追加它(&A)"
 
 #. Resource IDs: (17018)
 msgid "&Add or Remove Buttons"
-msgstr "加入或移除按鈕(&A)"
+msgstr "新增或移除按鈕(&A)"
 
 #. Resource IDs: (124, 1098)
 msgid "&Add..."
@@ -397,7 +397,7 @@ msgstr "套用統合式差異檔(&A)"
 
 #. Resource IDs: (65535)
 msgid "&Arguments:"
-msgstr "參數(&A)："
+msgstr "引數(&A):"
 
 #. Resource IDs: (16645)
 msgid "&Assign"
@@ -405,7 +405,7 @@ msgstr "指派(&A)"
 
 #. Resource IDs: (16633)
 msgid "&Associate double-click event with:"
-msgstr "設定雙擊事件關連(&A)："
+msgstr "將按兩下事件與下列項目產生關聯(&A):"
 
 #. Resource IDs: (17041)
 msgid "&Auto Hide"
@@ -437,7 +437,7 @@ msgstr "譴責修訂(&B)"
 
 #. Resource IDs: (65535)
 msgid "&Blue:"
-msgstr "藍(&B)："
+msgstr "藍色(&B):"
 
 #. Resource IDs: (65535)
 msgid "&Border:"
@@ -469,7 +469,7 @@ msgstr "按鈕外觀(&B)..."
 
 #. Resource IDs: (65535)
 msgid "&Button text:"
-msgstr "按鈕文字(&B)："
+msgstr "按鈕文字(&B):"
 
 #. Resource IDs: (1051)
 msgid "&CD-ROM"
@@ -481,15 +481,15 @@ msgstr "取消(&C)"
 
 #. Resource IDs: (65535)
 msgid "&Categories:"
-msgstr "類別(&C)："
+msgstr "分類(&C):"
 
 #. Resource IDs: (65535)
 msgid "&Category:"
-msgstr "類別(&C)："
+msgstr "分類(&C):"
 
 #. Resource IDs: (65535)
 msgid "&Choose commands from:"
-msgstr "選擇命令從(&C)："
+msgstr "選取命令(&C):"
 
 #. Resource IDs: (126)
 msgid "&Clean up..."
@@ -613,7 +613,7 @@ msgstr "對其餘的作相同處理(&D)"
 
 #. Resource IDs: (17040)
 msgid "&Docking"
-msgstr "視窗停駐(&D)"
+msgstr "停駐(&D)"
 
 #. Resource IDs: (1032)
 msgid "&Don't ask me again"
@@ -1051,7 +1051,7 @@ msgstr "重新提交(&R)"
 
 #. Resource IDs: (1246)
 msgid "&Recent messages"
-msgstr "最近的紀錄訊息(&R)"
+msgstr "最近的記錄訊息(&R)"
 
 #. Resource IDs: (1694)
 msgid "&Recursive"
@@ -1123,7 +1123,7 @@ msgstr "重設過濾器 (&R)"
 
 #. Resource IDs: (16657)
 msgid "&Reset my usage data"
-msgstr "重設個人使用紀錄(&R)"
+msgstr "重設我的使用狀況資料(&R)"
 
 #. Resource IDs: (16910)
 msgid "&Reset to Default"
@@ -2660,7 +2660,7 @@ msgstr "依日期統計變更行數，包含「已加入／已刪除」的檔案
 
 #. Resource IDs: (32856)
 msgid "Changed lines not including added/deleted files"
-msgstr "約計變更行數，不包含「已加入／已刪除」的檔案"
+msgstr "統計變更行數，不包含「已加入／已刪除」的檔案"
 
 #. Resource IDs: (32854)
 msgid "Changed lines not including added/deleted files by date"
@@ -3049,16 +3049,16 @@ msgstr "提交..."
 
 #. Resource IDs: (3900)
 msgid "Commits by author"
-msgstr "依作者排序的提交紀錄"
+msgstr "依作者排序的提交記錄"
 
 #. Resource IDs: (3901)
 msgid "Commits by date"
-msgstr "依日期排序的提交紀錄"
+msgstr "依日期排序的提交記錄"
 
 #. Resource IDs: (9663)
 #, c-format
 msgid "Commits each %s"
-msgstr "每個提交 %s"
+msgstr "每%s的提交數"
 
 #. Resource IDs: (1135)
 msgid "Commits each week:"
@@ -5011,7 +5011,7 @@ msgstr "請按 F1 以取得說明. 使用 Ctrl-捲動可進行橫向捲動."
 
 #. Resource IDs: (1892)
 msgid "For complete history deselect 'Stop on copy/rename'"
-msgstr "要列出完整歷程紀錄請勿選擇「止於 複製／重新命名」"
+msgstr "要列出完整歷程記錄請勿選擇「止於 複製／重新命名」"
 
 #. Resource IDs: (1521)
 msgid "Force"
@@ -5123,7 +5123,7 @@ msgstr "全部遞迴"
 
 #. Resource IDs: (65535)
 msgid "Further options for the commit dialog are on Dialogs 3 page."
-msgstr "提交視窗的更多選項在視窗 3。"
+msgstr "更多提交視窗的選項在視窗 3。"
 
 #. Resource IDs: (1461)
 msgid "G&ravatar"
@@ -6355,7 +6355,7 @@ msgstr "日誌訊息(輸入視窗)"
 
 #. Resource IDs: (1280)
 msgid "Log messages (Show log dialog)"
-msgstr "日誌訊息 (顯示紀錄視窗)"
+msgstr "日誌訊息 (顯示記錄視窗)"
 
 #. Resource IDs: (1760)
 msgid "Login:"
@@ -6935,7 +6935,7 @@ msgstr "並非所有檔案可以下載及檢驗。"
 
 #. Resource IDs: (61708)
 msgid "Not all of the system registry entries (or INI file) were removed."
-msgstr "並未移除全部的登錄紀錄 (或 INI 檔案)."
+msgstr "未移除所有的系統登錄項目 (或 INI 檔)。"
 
 #. Resource IDs: (1313)
 msgid "Not enough memory to complete operation."
@@ -7338,7 +7338,7 @@ msgstr "父版本"
 
 #. Resource IDs: (65535)
 msgid "Part of code come from TortoiseSVN Blame"
-msgstr "部分原始碼來由 TortoiseSVN Blame"
+msgstr "部分原始碼來自 TortoiseSVN Blame"
 
 #. Resource IDs: (4585)
 msgid "Password"
@@ -9744,7 +9744,7 @@ msgstr "系統在離線模式，請檢查 Internet Explorer。"
 msgid ""
 "System registry entries have been removed and the INI file (if any) was "
 "deleted."
-msgstr "系統登錄紀錄及 INI 檔案(如果有) 移除完成."
+msgstr "已經移除系統登錄項目，而且 INI 檔已經刪除 (如果有)。"
 
 #. Resource IDs: (5065)
 msgid "TIS-620"
@@ -10242,7 +10242,7 @@ msgid ""
 "This will delete the record of commands you've used in this application and "
 "restore the default set of visible commands to the menus and toolbars. It "
 "will not undo any explicit customizations. Are you sure you want to do this?"
-msgstr "這個動作會刪除你在本程式中的所有命令的紀錄，並將所有選單和工具列設為預設值。它不會消除任何外部設定值。你確定要繼續嗎？"
+msgstr "這將會刪除您在這個應用程式中所使用的命令記錄，並且將可見命令的預設組合還原為功能表與工具列。這並不會復原任何明確的自訂值。您確定要這樣做嗎?"
 
 #. Resource IDs: (9659)
 msgid "Three way diff"
@@ -10522,7 +10522,7 @@ msgstr "URL 或 目錄 不可為空"
 
 #. Resource IDs: (1272)
 msgid "URL history"
-msgstr "URL 紀錄"
+msgstr "URL 記錄"
 
 #. Resource IDs: (65535)
 msgid "URL:"
@@ -11554,7 +11554,7 @@ msgstr "bugtraq.warningifnoissue"
 
 #. Resource IDs: (3903, 3905)
 msgid "commits"
-msgstr "提交紀錄"
+msgstr "提交記錄"
 
 #. Resource IDs: (161)
 msgid "conflicted"
