@@ -15,9 +15,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
+"Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-24 20:16+0000\n"
+"PO-Revision-Date: 2015-07-05 14:27+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1093,7 +1093,7 @@ msgstr "&Entfernte Zweige"
 msgid "&Remote:"
 msgstr "A&rchiv:"
 
-#. Resource IDs: (1100, 1385, 16646)
+#. Resource IDs: (1100, 1385, 1569, 16646)
 msgid "&Remove"
 msgstr "Ent&fernen"
 
@@ -4024,6 +4024,10 @@ msgid ""
 "About"
 msgstr "Zeigt Informationen übers Programm, Versionsnummer und Copyright an\nÜber"
 
+#. Resource IDs: (1075)
+msgid "Display subject and body of commit messages"
+msgstr "Zeige Titel und Körper der Eintragungsmeldungen"
+
 #. Resource IDs: (1374)
 msgid "Do &not show me this warning again (if Continue is selected)"
 msgstr "Zeige diese Warnung &nicht wieder (wenn Fortfahren gewählt wurde)"
@@ -4080,10 +4084,27 @@ msgid ""
 "<ct=0x0000FF><b>NOT</b></ct> be recovered!"
 msgstr "Möchten Sie wirklich die %d ausgewählten Referencen permantent löschen? Dies kann <ct=0x0000FF><b>NICHT</b></ct> rückgängig gemacht werden!"
 
-#. Resource IDs: (1128, 1421)
+#. Resource IDs: (1568)
+#, c-format
+msgid "Do you really want to remove \"%s\" from the index?"
+msgstr "Sind Sie sicher, dass Sie \"%s\" vom Index löschen möchten?"
+
+#. Resource IDs: (1128)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
 msgstr "Sind Sie sicher, dass Sie \"%s\" löschen möchten?"
+
+#. Resource IDs: (1567)
+#, c-format
+msgid ""
+"Do you really want to remove the %d selected files/directories from the "
+"index?"
+msgstr "Sind Sie sicher, dass Sie die %d markierten Dateien/Verzeichnnisse vom Index löschen möchten?"
+
+#. Resource IDs: (1566)
+#, c-format
+msgid "Do you really want to remove the %d selected files/directories?"
+msgstr "Sind Sie sicher, dass Sie die %d markierten Dateien/Verzeichnnisse löschen möchten?"
 
 #. Resource IDs: (1089)
 msgid ""
@@ -4760,6 +4781,10 @@ msgstr "&Aktualisieren"
 msgid "Fetch"
 msgstr "Aktualisieren"
 
+#. Resource IDs: (1210)
+msgid "Fetch && Re&base"
+msgstr "Aktualisieren && neu Auf&bauen"
+
 #. Resource IDs: (210)
 msgid "Fetch from SVN repository"
 msgstr "Aus SVN Projektarchiv holen"
@@ -4768,10 +4793,6 @@ msgstr "Aus SVN Projektarchiv holen"
 #, c-format
 msgid "Fetch from \"%s\""
 msgstr "Aktualisieren von \"%s\""
-
-#. Resource IDs: (1210)
-msgid "Fetch&&Re&base"
-msgstr "Aktualisieren&&neu Auf&bauen"
 
 #. Resource IDs: (311)
 msgid "Fetch..."
@@ -6836,7 +6857,7 @@ msgstr "Kein Fehler aufgetreten."
 
 #. Resource IDs: (1565)
 msgid "No extra changes after merge"
-msgstr ""
+msgstr "Keine weiteren Änderungen nach dem Zusammenführen"
 
 #. Resource IDs: (1310)
 msgid ""
@@ -7352,23 +7373,23 @@ msgstr "Passwort:"
 msgid "Paste"
 msgstr "Einfügen"
 
+#. Resource IDs: (2750)
+msgid "Paste &filename list"
+msgstr "Dateinamensliste ein&fügen"
+
+#. Resource IDs: (2751)
+msgid "Paste &last commit message"
+msgstr "&Letzte Log-Meldung einfügen"
+
 #. Resource IDs: (9644)
-msgid "Paste Recent Message..."
-msgstr "Letzte Log-Meldungen..."
+msgid "Paste &recent message..."
+msgstr "&Letzte Log-Meldung einfügen..."
 
 #. Resource IDs: (16908)
 msgid ""
 "Paste Tool\n"
 "Paste"
 msgstr "Einfügewerkzeug\nEinfügen"
-
-#. Resource IDs: (2750)
-msgid "Paste filename list"
-msgstr "Dateinamensliste einfügen"
-
-#. Resource IDs: (2751)
-msgid "Paste last commit message"
-msgstr "Letzte Log-Meldung einfügen"
 
 #. Resource IDs: (226)
 msgid ""
@@ -7452,12 +7473,12 @@ msgid "Pick"
 msgstr "Nehmen"
 
 #. Resource IDs: (1430)
-msgid "Pick commit hash"
-msgstr "Wähle Eintragungs-SHA1"
+msgid "Pick commit &hash"
+msgstr "Wähle Eintragungs-S&HA1"
 
 #. Resource IDs: (1431)
-msgid "Pick commit message"
-msgstr "Wähle Log-Meldung"
+msgid "Pick commit &message"
+msgstr "Wähle Log-&Meldung"
 
 #. Resource IDs: (1103)
 #, c-format
@@ -9157,7 +9178,7 @@ msgstr "Ausgeschlossene Ordner 'normal' anzeigen"
 
 #. Resource IDs: (1564)
 msgid "Show extra changes after merge"
-msgstr ""
+msgstr "Zeige weitere Änderungen nach dem Zusammenführen"
 
 #. Resource IDs: (16656)
 msgid "Show f&ull menus after a short delay"
@@ -9321,10 +9342,8 @@ msgid "Shows a graphical representation of copies/tags/branches"
 msgstr "Zeigt eine graphische Darstellung der Zweige/Marken"
 
 #. Resource IDs: (193)
-msgid ""
-"Shows all files which were changed since the last update, locally and in the"
-" repository"
-msgstr "Zeigt alle Dateien, die sich seit der letzten Aktualisierung lokal oder im Projektarchiv geändert haben."
+msgid "Shows all files which were changed since the last commit."
+msgstr "Zeigt alle Dateien, die sich seit der letzten Eintragung geändert haben."
 
 #. Resource IDs: (146)
 msgid "Shows information about TortoiseGit"
@@ -11519,6 +11538,11 @@ msgstr "assume-valid"
 #. Resource IDs: (3904)
 msgid "author"
 msgstr "Autor"
+
+#. Resource IDs: (1421)
+#, c-format
+msgid "author (>= 0.5%)"
+msgstr "Autor (>= 0,5%)"
 
 #. Resource IDs: (65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"

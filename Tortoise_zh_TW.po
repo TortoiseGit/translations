@@ -15,10 +15,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
+"Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-03 13:30+0000\n"
-"Last-Translator: ch cooli <ch3cooli@gmail.com>\n"
+"PO-Revision-Date: 2015-07-05 14:21+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1093,7 +1093,7 @@ msgstr "遠端分支(&R)"
 msgid "&Remote:"
 msgstr "遠端(&R)："
 
-#. Resource IDs: (1100, 1385, 16646)
+#. Resource IDs: (1100, 1385, 1569, 16646)
 msgid "&Remove"
 msgstr "移除(&R)"
 
@@ -4024,6 +4024,10 @@ msgid ""
 "About"
 msgstr "顯示檔案資訊, 版本號碼, 以及版權宣告\n關於"
 
+#. Resource IDs: (1075)
+msgid "Display subject and body of commit messages"
+msgstr ""
+
 #. Resource IDs: (1374)
 msgid "Do &not show me this warning again (if Continue is selected)"
 msgstr "不要顯示這警告 (如果選擇繼續)"
@@ -4080,10 +4084,27 @@ msgid ""
 "<ct=0x0000FF><b>NOT</b></ct> be recovered!"
 msgstr "確定要永久刪除這 %d 個所選的參照？這是<ct=0x0000FF><b>無法</b></ct>還原的！"
 
-#. Resource IDs: (1128, 1421)
+#. Resource IDs: (1568)
+#, c-format
+msgid "Do you really want to remove \"%s\" from the index?"
+msgstr ""
+
+#. Resource IDs: (1128)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
 msgstr "確定要移除「%s」？"
+
+#. Resource IDs: (1567)
+#, c-format
+msgid ""
+"Do you really want to remove the %d selected files/directories from the "
+"index?"
+msgstr ""
+
+#. Resource IDs: (1566)
+#, c-format
+msgid "Do you really want to remove the %d selected files/directories?"
+msgstr ""
 
 #. Resource IDs: (1089)
 msgid ""
@@ -4760,6 +4781,10 @@ msgstr "獲取(&H)"
 msgid "Fetch"
 msgstr "獲取"
 
+#. Resource IDs: (1210)
+msgid "Fetch && Re&base"
+msgstr ""
+
 #. Resource IDs: (210)
 msgid "Fetch from SVN repository"
 msgstr "從 SVN 獲取"
@@ -4768,10 +4793,6 @@ msgstr "從 SVN 獲取"
 #, c-format
 msgid "Fetch from \"%s\""
 msgstr "從「%s」獲取"
-
-#. Resource IDs: (1210)
-msgid "Fetch&&Re&base"
-msgstr "獲取及變基(&B)"
 
 #. Resource IDs: (311)
 msgid "Fetch..."
@@ -7352,23 +7373,23 @@ msgstr "密碼："
 msgid "Paste"
 msgstr "貼上"
 
+#. Resource IDs: (2750)
+msgid "Paste &filename list"
+msgstr ""
+
+#. Resource IDs: (2751)
+msgid "Paste &last commit message"
+msgstr ""
+
 #. Resource IDs: (9644)
-msgid "Paste Recent Message..."
-msgstr "貼上最近用過的提交訊息..."
+msgid "Paste &recent message..."
+msgstr ""
 
 #. Resource IDs: (16908)
 msgid ""
 "Paste Tool\n"
 "Paste"
 msgstr "粘貼工具\n貼上"
-
-#. Resource IDs: (2750)
-msgid "Paste filename list"
-msgstr "貼上檔名列表"
-
-#. Resource IDs: (2751)
-msgid "Paste last commit message"
-msgstr "貼上上次提交的訊息"
 
 #. Resource IDs: (226)
 msgid ""
@@ -7452,12 +7473,12 @@ msgid "Pick"
 msgstr "選取"
 
 #. Resource IDs: (1430)
-msgid "Pick commit hash"
-msgstr "選取版本號"
+msgid "Pick commit &hash"
+msgstr ""
 
 #. Resource IDs: (1431)
-msgid "Pick commit message"
-msgstr "選取提交訊息"
+msgid "Pick commit &message"
+msgstr ""
 
 #. Resource IDs: (1103)
 #, c-format
@@ -9321,10 +9342,8 @@ msgid "Shows a graphical representation of copies/tags/branches"
 msgstr "顯示圖形化的「複製／標籤／分支」"
 
 #. Resource IDs: (193)
-msgid ""
-"Shows all files which were changed since the last update, locally and in the"
-" repository"
-msgstr "顯示從上次更新以後變動過的檔案，不論在倉儲中或在本地端。"
+msgid "Shows all files which were changed since the last commit."
+msgstr ""
 
 #. Resource IDs: (146)
 msgid "Shows information about TortoiseGit"
@@ -11519,6 +11538,11 @@ msgstr "假設有效"
 #. Resource IDs: (3904)
 msgid "author"
 msgstr "作者"
+
+#. Resource IDs: (1421)
+#, c-format
+msgid "author (>= 0.5%)"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"

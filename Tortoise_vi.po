@@ -13,9 +13,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
+"Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-24 20:16+0000\n"
+"PO-Revision-Date: 2015-07-05 14:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/tortoisegit/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -1091,7 +1091,7 @@ msgstr ""
 msgid "&Remote:"
 msgstr "&Từ xa:"
 
-#. Resource IDs: (1100, 1385, 16646)
+#. Resource IDs: (1100, 1385, 1569, 16646)
 msgid "&Remove"
 msgstr "&Loại bỏ"
 
@@ -4022,6 +4022,10 @@ msgid ""
 "About"
 msgstr "Hiện thông tin về chương trình, số phiên bản và bản quyền\nNói về"
 
+#. Resource IDs: (1075)
+msgid "Display subject and body of commit messages"
+msgstr ""
+
 #. Resource IDs: (1374)
 msgid "Do &not show me this warning again (if Continue is selected)"
 msgstr ""
@@ -4078,9 +4082,26 @@ msgid ""
 "<ct=0x0000FF><b>NOT</b></ct> be recovered!"
 msgstr ""
 
-#. Resource IDs: (1128, 1421)
+#. Resource IDs: (1568)
+#, c-format
+msgid "Do you really want to remove \"%s\" from the index?"
+msgstr ""
+
+#. Resource IDs: (1128)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
+msgstr ""
+
+#. Resource IDs: (1567)
+#, c-format
+msgid ""
+"Do you really want to remove the %d selected files/directories from the "
+"index?"
+msgstr ""
+
+#. Resource IDs: (1566)
+#, c-format
+msgid "Do you really want to remove the %d selected files/directories?"
 msgstr ""
 
 #. Resource IDs: (1089)
@@ -4758,6 +4779,10 @@ msgstr ""
 msgid "Fetch"
 msgstr "Trải ra"
 
+#. Resource IDs: (1210)
+msgid "Fetch && Re&base"
+msgstr ""
+
 #. Resource IDs: (210)
 msgid "Fetch from SVN repository"
 msgstr ""
@@ -4765,10 +4790,6 @@ msgstr ""
 #. Resource IDs: (1247)
 #, c-format
 msgid "Fetch from \"%s\""
-msgstr ""
-
-#. Resource IDs: (1210)
-msgid "Fetch&&Re&base"
 msgstr ""
 
 #. Resource IDs: (311)
@@ -7350,8 +7371,16 @@ msgstr "Mật khẩu:"
 msgid "Paste"
 msgstr "Dán"
 
+#. Resource IDs: (2750)
+msgid "Paste &filename list"
+msgstr ""
+
+#. Resource IDs: (2751)
+msgid "Paste &last commit message"
+msgstr ""
+
 #. Resource IDs: (9644)
-msgid "Paste Recent Message..."
+msgid "Paste &recent message..."
 msgstr ""
 
 #. Resource IDs: (16908)
@@ -7359,14 +7388,6 @@ msgid ""
 "Paste Tool\n"
 "Paste"
 msgstr "Công cụ dán\nDán"
-
-#. Resource IDs: (2750)
-msgid "Paste filename list"
-msgstr "Dán danh sách tên tập tin"
-
-#. Resource IDs: (2751)
-msgid "Paste last commit message"
-msgstr ""
 
 #. Resource IDs: (226)
 msgid ""
@@ -7450,11 +7471,11 @@ msgid "Pick"
 msgstr ""
 
 #. Resource IDs: (1430)
-msgid "Pick commit hash"
+msgid "Pick commit &hash"
 msgstr ""
 
 #. Resource IDs: (1431)
-msgid "Pick commit message"
+msgid "Pick commit &message"
 msgstr ""
 
 #. Resource IDs: (1103)
@@ -9319,10 +9340,8 @@ msgid "Shows a graphical representation of copies/tags/branches"
 msgstr "Hiển thị biểu diễn đồ hoạ của các bản sao/thẻ/nhánh"
 
 #. Resource IDs: (193)
-msgid ""
-"Shows all files which were changed since the last update, locally and in the"
-" repository"
-msgstr "Hiển thị tất cả các tập tin được thay đổi kể từ lần cập nhất cuối, địa phương và trong kho chứa"
+msgid "Shows all files which were changed since the last commit."
+msgstr ""
 
 #. Resource IDs: (146)
 msgid "Shows information about TortoiseGit"
@@ -11517,6 +11536,11 @@ msgstr ""
 #. Resource IDs: (3904)
 msgid "author"
 msgstr "tác giả"
+
+#. Resource IDs: (1421)
+#, c-format
+msgid "author (>= 0.5%)"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"

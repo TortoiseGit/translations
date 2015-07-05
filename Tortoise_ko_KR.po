@@ -33,9 +33,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
+"Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-24 20:16+0000\n"
+"PO-Revision-Date: 2015-07-05 14:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -1111,7 +1111,7 @@ msgstr "원격 브랜치(&R)"
 msgid "&Remote:"
 msgstr "원격(&R):"
 
-#. Resource IDs: (1100, 1385, 16646)
+#. Resource IDs: (1100, 1385, 1569, 16646)
 msgid "&Remove"
 msgstr "삭제(&R)"
 
@@ -4042,6 +4042,10 @@ msgid ""
 "About"
 msgstr "프로그램 정보 표시, 버전 번호, 저작권\n프로그램 정보"
 
+#. Resource IDs: (1075)
+msgid "Display subject and body of commit messages"
+msgstr ""
+
 #. Resource IDs: (1374)
 msgid "Do &not show me this warning again (if Continue is selected)"
 msgstr "앞으로 이 경고를 띄우지 않습니다 (계속을 선택했을 시)(&N)"
@@ -4098,10 +4102,27 @@ msgid ""
 "<ct=0x0000FF><b>NOT</b></ct> be recovered!"
 msgstr "정말 참조 %d개를 완전히 삭제하겠습니까? 삭제하면 복구가 <ct=0x0000FF><b>불가능</b></ct>합니다!"
 
-#. Resource IDs: (1128, 1421)
+#. Resource IDs: (1568)
+#, c-format
+msgid "Do you really want to remove \"%s\" from the index?"
+msgstr ""
+
+#. Resource IDs: (1128)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
 msgstr "\"%s\"를 정말 지우겠습니까?"
+
+#. Resource IDs: (1567)
+#, c-format
+msgid ""
+"Do you really want to remove the %d selected files/directories from the "
+"index?"
+msgstr ""
+
+#. Resource IDs: (1566)
+#, c-format
+msgid "Do you really want to remove the %d selected files/directories?"
+msgstr ""
 
 #. Resource IDs: (1089)
 msgid ""
@@ -4778,6 +4799,10 @@ msgstr "가져오기(&H)"
 msgid "Fetch"
 msgstr "가져오기"
 
+#. Resource IDs: (1210)
+msgid "Fetch && Re&base"
+msgstr ""
+
 #. Resource IDs: (210)
 msgid "Fetch from SVN repository"
 msgstr "SVN 저장소에서 가져오기"
@@ -4786,10 +4811,6 @@ msgstr "SVN 저장소에서 가져오기"
 #, c-format
 msgid "Fetch from \"%s\""
 msgstr "\"%s\"에서 가져오기"
-
-#. Resource IDs: (1210)
-msgid "Fetch&&Re&base"
-msgstr "가져오기&&재배치(&B)"
 
 #. Resource IDs: (311)
 msgid "Fetch..."
@@ -7370,23 +7391,23 @@ msgstr "암호:"
 msgid "Paste"
 msgstr "붙여넣기"
 
+#. Resource IDs: (2750)
+msgid "Paste &filename list"
+msgstr ""
+
+#. Resource IDs: (2751)
+msgid "Paste &last commit message"
+msgstr ""
+
 #. Resource IDs: (9644)
-msgid "Paste Recent Message..."
-msgstr "최근 메시지 붙여넣기..."
+msgid "Paste &recent message..."
+msgstr ""
 
 #. Resource IDs: (16908)
 msgid ""
 "Paste Tool\n"
 "Paste"
 msgstr "붙여넣기 툴\n붙여넣기"
-
-#. Resource IDs: (2750)
-msgid "Paste filename list"
-msgstr "바뀐 파일 이름 붙이기"
-
-#. Resource IDs: (2751)
-msgid "Paste last commit message"
-msgstr "Paste last commit message"
 
 #. Resource IDs: (226)
 msgid ""
@@ -7470,12 +7491,12 @@ msgid "Pick"
 msgstr "Pick"
 
 #. Resource IDs: (1430)
-msgid "Pick commit hash"
-msgstr "Pick commit hash"
+msgid "Pick commit &hash"
+msgstr ""
 
 #. Resource IDs: (1431)
-msgid "Pick commit message"
-msgstr "Pick commit message"
+msgid "Pick commit &message"
+msgstr ""
 
 #. Resource IDs: (1103)
 #, c-format
@@ -9339,10 +9360,8 @@ msgid "Shows a graphical representation of copies/tags/branches"
 msgstr "복사/꼬리표/브랜치를 그래프로 보기"
 
 #. Resource IDs: (193)
-msgid ""
-"Shows all files which were changed since the last update, locally and in the"
-" repository"
-msgstr "작업 사본과 저장소에서 마지막 업데이트 후에 변경된 모든 파일들 보기"
+msgid "Shows all files which were changed since the last commit."
+msgstr ""
 
 #. Resource IDs: (146)
 msgid "Shows information about TortoiseGit"
@@ -11537,6 +11556,11 @@ msgstr "변경사항 무시"
 #. Resource IDs: (3904)
 msgid "author"
 msgstr "작성자"
+
+#. Resource IDs: (1421)
+#, c-format
+msgid "author (>= 0.5%)"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"

@@ -22,9 +22,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
+"Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-24 20:16+0000\n"
+"PO-Revision-Date: 2015-07-05 14:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/tortoisegit/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -1100,7 +1100,7 @@ msgstr ""
 msgid "&Remote:"
 msgstr "&Zdalny:"
 
-#. Resource IDs: (1100, 1385, 16646)
+#. Resource IDs: (1100, 1385, 1569, 16646)
 msgid "&Remove"
 msgstr "&Usuń"
 
@@ -4031,6 +4031,10 @@ msgid ""
 "About"
 msgstr "Wyświetla informacje o programie, numerze wersji i prawach autorskich\nO programie"
 
+#. Resource IDs: (1075)
+msgid "Display subject and body of commit messages"
+msgstr ""
+
 #. Resource IDs: (1374)
 msgid "Do &not show me this warning again (if Continue is selected)"
 msgstr "&Nie pokazuj mi tej uwagi ponownie (jeśli Kontynuuj jest zaznaczone)"
@@ -4087,10 +4091,27 @@ msgid ""
 "<ct=0x0000FF><b>NOT</b></ct> be recovered!"
 msgstr ""
 
-#. Resource IDs: (1128, 1421)
+#. Resource IDs: (1568)
+#, c-format
+msgid "Do you really want to remove \"%s\" from the index?"
+msgstr ""
+
+#. Resource IDs: (1128)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
 msgstr "Czy na pewno chcesz usunąć \"%s\"?"
+
+#. Resource IDs: (1567)
+#, c-format
+msgid ""
+"Do you really want to remove the %d selected files/directories from the "
+"index?"
+msgstr ""
+
+#. Resource IDs: (1566)
+#, c-format
+msgid "Do you really want to remove the %d selected files/directories?"
+msgstr ""
 
 #. Resource IDs: (1089)
 msgid ""
@@ -4767,6 +4788,10 @@ msgstr "Pobie&rz"
 msgid "Fetch"
 msgstr "Pobierz"
 
+#. Resource IDs: (1210)
+msgid "Fetch && Re&base"
+msgstr ""
+
 #. Resource IDs: (210)
 msgid "Fetch from SVN repository"
 msgstr "Pobierz z repozytorium SVN"
@@ -4775,10 +4800,6 @@ msgstr "Pobierz z repozytorium SVN"
 #, c-format
 msgid "Fetch from \"%s\""
 msgstr "Pobierz z \"%s\""
-
-#. Resource IDs: (1210)
-msgid "Fetch&&Re&base"
-msgstr ""
 
 #. Resource IDs: (311)
 msgid "Fetch..."
@@ -7359,23 +7380,23 @@ msgstr "Hasło:"
 msgid "Paste"
 msgstr "Wklej"
 
+#. Resource IDs: (2750)
+msgid "Paste &filename list"
+msgstr ""
+
+#. Resource IDs: (2751)
+msgid "Paste &last commit message"
+msgstr ""
+
 #. Resource IDs: (9644)
-msgid "Paste Recent Message..."
-msgstr "Wklej ostatnią wiadomość..."
+msgid "Paste &recent message..."
+msgstr ""
 
 #. Resource IDs: (16908)
 msgid ""
 "Paste Tool\n"
 "Paste"
 msgstr "Narzędzie wklejania\nWklej"
-
-#. Resource IDs: (2750)
-msgid "Paste filename list"
-msgstr "Wstaw listę plików"
-
-#. Resource IDs: (2751)
-msgid "Paste last commit message"
-msgstr "Wklej ostatnią zatwierdzoną wiadomość"
 
 #. Resource IDs: (226)
 msgid ""
@@ -7459,11 +7480,11 @@ msgid "Pick"
 msgstr "Wybierz"
 
 #. Resource IDs: (1430)
-msgid "Pick commit hash"
+msgid "Pick commit &hash"
 msgstr ""
 
 #. Resource IDs: (1431)
-msgid "Pick commit message"
+msgid "Pick commit &message"
 msgstr ""
 
 #. Resource IDs: (1103)
@@ -9328,10 +9349,8 @@ msgid "Shows a graphical representation of copies/tags/branches"
 msgstr "Prezentuje graficzną reprezentację kopii/etykiet/gałęzi"
 
 #. Resource IDs: (193)
-msgid ""
-"Shows all files which were changed since the last update, locally and in the"
-" repository"
-msgstr "Pokazuje wszystkie pliki zmienione od czasu ostatniej aktualizacji - lokalnie i w repozytorium"
+msgid "Shows all files which were changed since the last commit."
+msgstr ""
 
 #. Resource IDs: (146)
 msgid "Shows information about TortoiseGit"
@@ -11526,6 +11545,11 @@ msgstr ""
 #. Resource IDs: (3904)
 msgid "author"
 msgstr "autor"
+
+#. Resource IDs: (1421)
+#, c-format
+msgid "author (>= 0.5%)"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"

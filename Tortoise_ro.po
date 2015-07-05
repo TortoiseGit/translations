@@ -18,9 +18,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
+"Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-24 20:16+0000\n"
+"PO-Revision-Date: 2015-07-05 14:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -1096,7 +1096,7 @@ msgstr ""
 msgid "&Remote:"
 msgstr "&Destinaţie:"
 
-#. Resource IDs: (1100, 1385, 16646)
+#. Resource IDs: (1100, 1385, 1569, 16646)
 msgid "&Remove"
 msgstr "&Elimină"
 
@@ -4027,6 +4027,10 @@ msgid ""
 "About"
 msgstr "Afişează informaţii despre program, versiune şi drepturi de autor\nDespre"
 
+#. Resource IDs: (1075)
+msgid "Display subject and body of commit messages"
+msgstr ""
+
 #. Resource IDs: (1374)
 msgid "Do &not show me this warning again (if Continue is selected)"
 msgstr "Nu-mi arăta din nou acest avertisment (dacă este selectat Continuă)"
@@ -4083,10 +4087,27 @@ msgid ""
 "<ct=0x0000FF><b>NOT</b></ct> be recovered!"
 msgstr "Chiar doriţi să ştergeţi definitiv cele  %d referinţe selectate? <ct=0x0000FF><b>NU</b></ct> vor putea fi recuperate!"
 
-#. Resource IDs: (1128, 1421)
+#. Resource IDs: (1568)
+#, c-format
+msgid "Do you really want to remove \"%s\" from the index?"
+msgstr ""
+
+#. Resource IDs: (1128)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
 msgstr "Chiar doriţi să ştergeţi \"%s\"?"
+
+#. Resource IDs: (1567)
+#, c-format
+msgid ""
+"Do you really want to remove the %d selected files/directories from the "
+"index?"
+msgstr ""
+
+#. Resource IDs: (1566)
+#, c-format
+msgid "Do you really want to remove the %d selected files/directories?"
+msgstr ""
 
 #. Resource IDs: (1089)
 msgid ""
@@ -4763,6 +4784,10 @@ msgstr "Preia"
 msgid "Fetch"
 msgstr "Preia"
 
+#. Resource IDs: (1210)
+msgid "Fetch && Re&base"
+msgstr ""
+
 #. Resource IDs: (210)
 msgid "Fetch from SVN repository"
 msgstr "Preia din depozit SVN"
@@ -4771,10 +4796,6 @@ msgstr "Preia din depozit SVN"
 #, c-format
 msgid "Fetch from \"%s\""
 msgstr "Preia din \"%s\""
-
-#. Resource IDs: (1210)
-msgid "Fetch&&Re&base"
-msgstr "Preia&&Reamplasează"
 
 #. Resource IDs: (311)
 msgid "Fetch..."
@@ -7355,23 +7376,23 @@ msgstr "Parola:"
 msgid "Paste"
 msgstr "Inserează"
 
+#. Resource IDs: (2750)
+msgid "Paste &filename list"
+msgstr ""
+
+#. Resource IDs: (2751)
+msgid "Paste &last commit message"
+msgstr ""
+
 #. Resource IDs: (9644)
-msgid "Paste Recent Message..."
-msgstr "Inserează mesaj recent..."
+msgid "Paste &recent message..."
+msgstr ""
 
 #. Resource IDs: (16908)
 msgid ""
 "Paste Tool\n"
 "Paste"
 msgstr "Unealtă inserare\nInserează"
-
-#. Resource IDs: (2750)
-msgid "Paste filename list"
-msgstr "Inserează lista numelor de fişiere"
-
-#. Resource IDs: (2751)
-msgid "Paste last commit message"
-msgstr "Inserează ultimul mesaj de transmitere"
 
 #. Resource IDs: (226)
 msgid ""
@@ -7455,12 +7476,12 @@ msgid "Pick"
 msgstr "Alege"
 
 #. Resource IDs: (1430)
-msgid "Pick commit hash"
-msgstr "Alege hash-ul commit-ului"
+msgid "Pick commit &hash"
+msgstr ""
 
 #. Resource IDs: (1431)
-msgid "Pick commit message"
-msgstr "Alegeti mesajul de transmitere"
+msgid "Pick commit &message"
+msgstr ""
 
 #. Resource IDs: (1103)
 #, c-format
@@ -9324,10 +9345,8 @@ msgid "Shows a graphical representation of copies/tags/branches"
 msgstr "Afişează o reprezentare grafică a copiilor/etichetelor/ramurilor"
 
 #. Resource IDs: (193)
-msgid ""
-"Shows all files which were changed since the last update, locally and in the"
-" repository"
-msgstr "Afişează toate fişierele schimbate de când s-a făcut ultima actualizare, atât local cât şi în depozit"
+msgid "Shows all files which were changed since the last commit."
+msgstr ""
 
 #. Resource IDs: (146)
 msgid "Shows information about TortoiseGit"
@@ -11522,6 +11541,11 @@ msgstr "Presupus-valid"
 #. Resource IDs: (3904)
 msgid "author"
 msgstr "autor"
+
+#. Resource IDs: (1421)
+#, c-format
+msgid "author (>= 0.5%)"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"

@@ -19,9 +19,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
-"Report-Msgid-Bugs-To: http://code.google.com/p/tortoisegit/issues\n"
+"Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-06-24 20:16+0000\n"
+"PO-Revision-Date: 2015-07-05 14:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -1097,7 +1097,7 @@ msgstr "Fjä&rrgrenar"
 msgid "&Remote:"
 msgstr "Fjä&rr:"
 
-#. Resource IDs: (1100, 1385, 16646)
+#. Resource IDs: (1100, 1385, 1569, 16646)
 msgid "&Remove"
 msgstr "&Ta bort"
 
@@ -4028,6 +4028,10 @@ msgid ""
 "About"
 msgstr "Visa programinformation, versionsnummer och copyright\nOm"
 
+#. Resource IDs: (1075)
+msgid "Display subject and body of commit messages"
+msgstr ""
+
 #. Resource IDs: (1374)
 msgid "Do &not show me this warning again (if Continue is selected)"
 msgstr "Visa i&nte denna varning igen (om Fortsätt väljs)"
@@ -4084,10 +4088,27 @@ msgid ""
 "<ct=0x0000FF><b>NOT</b></ct> be recovered!"
 msgstr "Vill du verkligen permanent ta bort dom %d valda referenserna? Det kan <ct=0x0000FF><b>INTE</b></ct> ångras!"
 
-#. Resource IDs: (1128, 1421)
+#. Resource IDs: (1568)
+#, c-format
+msgid "Do you really want to remove \"%s\" from the index?"
+msgstr ""
+
+#. Resource IDs: (1128)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
 msgstr "Vill du verkligen ta bort \"%s\"?"
+
+#. Resource IDs: (1567)
+#, c-format
+msgid ""
+"Do you really want to remove the %d selected files/directories from the "
+"index?"
+msgstr ""
+
+#. Resource IDs: (1566)
+#, c-format
+msgid "Do you really want to remove the %d selected files/directories?"
+msgstr ""
 
 #. Resource IDs: (1089)
 msgid ""
@@ -4764,6 +4785,10 @@ msgstr "&Hämta"
 msgid "Fetch"
 msgstr "Hämta"
 
+#. Resource IDs: (1210)
+msgid "Fetch && Re&base"
+msgstr ""
+
 #. Resource IDs: (210)
 msgid "Fetch from SVN repository"
 msgstr "Hämta från SVN-arkiv"
@@ -4772,10 +4797,6 @@ msgstr "Hämta från SVN-arkiv"
 #, c-format
 msgid "Fetch from \"%s\""
 msgstr "Hämta från \"%s\""
-
-#. Resource IDs: (1210)
-msgid "Fetch&&Re&base"
-msgstr "Hämta&&Om&basera"
 
 #. Resource IDs: (311)
 msgid "Fetch..."
@@ -7356,23 +7377,23 @@ msgstr "Lösenord:"
 msgid "Paste"
 msgstr "Klistra in"
 
+#. Resource IDs: (2750)
+msgid "Paste &filename list"
+msgstr ""
+
+#. Resource IDs: (2751)
+msgid "Paste &last commit message"
+msgstr ""
+
 #. Resource IDs: (9644)
-msgid "Paste Recent Message..."
-msgstr "Klistra in nyligen skrivet meddelande..."
+msgid "Paste &recent message..."
+msgstr ""
 
 #. Resource IDs: (16908)
 msgid ""
 "Paste Tool\n"
 "Paste"
 msgstr "Klistra-in verktyg\nKlistra-in"
-
-#. Resource IDs: (2750)
-msgid "Paste filename list"
-msgstr "Klistra in namn på ändrade filer"
-
-#. Resource IDs: (2751)
-msgid "Paste last commit message"
-msgstr "Klistra in senaste arkiveringsmeddelande"
 
 #. Resource IDs: (226)
 msgid ""
@@ -7456,12 +7477,12 @@ msgid "Pick"
 msgstr "Välj"
 
 #. Resource IDs: (1430)
-msgid "Pick commit hash"
-msgstr "Välj arkiveringshash"
+msgid "Pick commit &hash"
+msgstr ""
 
 #. Resource IDs: (1431)
-msgid "Pick commit message"
-msgstr "Välj arkiveringsmeddelande"
+msgid "Pick commit &message"
+msgstr ""
 
 #. Resource IDs: (1103)
 #, c-format
@@ -9325,10 +9346,8 @@ msgid "Shows a graphical representation of copies/tags/branches"
 msgstr "Visar en grafisk representation av kopior/märken/grenar"
 
 #. Resource IDs: (193)
-msgid ""
-"Shows all files which were changed since the last update, locally and in the"
-" repository"
-msgstr "Visar alla ändrade filer sen förra uppdateringen, både lokalt och i arkivet"
+msgid "Shows all files which were changed since the last commit."
+msgstr ""
 
 #. Resource IDs: (146)
 msgid "Shows information about TortoiseGit"
@@ -11523,6 +11542,11 @@ msgstr "assume-valid"
 #. Resource IDs: (3904)
 msgid "author"
 msgstr "användarnamn"
+
+#. Resource IDs: (1421)
+#, c-format
+msgid "author (>= 0.5%)"
+msgstr ""
 
 #. Resource IDs: (65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"
