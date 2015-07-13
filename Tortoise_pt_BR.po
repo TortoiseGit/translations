@@ -8,7 +8,7 @@
 # lengli <allengli@yahoo.com.br>, 2014
 # Rafael Neri <rafepel@gmail.com>, 2014
 # Ricardo Souza <srrcdmk@gmail.com>, 2012
-# Ricardo Souza <srrcdmk@gmail.com>, 2012-2014
+# Ricardo Souza <srrcdmk@gmail.com>, 2012-2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2014
 # Victor Westmann <victor.westmann@gmail.com>, 2012,2015
 msgid ""
@@ -16,9 +16,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-05 14:21+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
+"PO-Revision-Date: 2015-07-13 16:29+0000\n"
+"Last-Translator: Ricardo Souza <srrcdmk@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2999,7 +2999,7 @@ msgstr "Submeter"
 #. Resource IDs: (1526)
 #, c-format
 msgid "Commit %s is NOT visible right now."
-msgstr ""
+msgstr "A submissão %s NÃO está visível neste momento."
 
 #. Resource IDs: (1496)
 #, c-format
@@ -4025,7 +4025,7 @@ msgstr "Exibe informações do programa, número da versão e direitos autorais\
 
 #. Resource IDs: (1075)
 msgid "Display subject and body of commit messages"
-msgstr ""
+msgstr "Exibir assunto e corpo das mensagens de submissão"
 
 #. Resource IDs: (1374)
 msgid "Do &not show me this warning again (if Continue is selected)"
@@ -4062,7 +4062,7 @@ msgid ""
 "Do you really want to disable automatic update checks for TortoiseGit?\r\n"
 "\r\n"
 "Automatic update checks can be re-enabled in TortoiseGit settings on the General page."
-msgstr ""
+msgstr "Você quer realmente desligar as verificações automáticas de atualização para o TortoiseGit?\n\nAs verificações de atualização automáticas podem ser ser reativadas nas configurações do TortoiseGit na página Geral."
 
 #. Resource IDs: (1392)
 msgid "Do you really want to mark the selected file(s) as assume-valid?"
@@ -4086,7 +4086,7 @@ msgstr "Você realmente quer excluir permanentemente %d referências selecionada
 #. Resource IDs: (1568)
 #, c-format
 msgid "Do you really want to remove \"%s\" from the index?"
-msgstr ""
+msgstr "Você realmente quer remover \"%s\" do índice?"
 
 #. Resource IDs: (1128)
 #, c-format
@@ -4098,12 +4098,12 @@ msgstr "Você realmente quer remover \"%s\"?"
 msgid ""
 "Do you really want to remove the %d selected files/directories from the "
 "index?"
-msgstr ""
+msgstr "Você quer realmente remover os %d arquivos/diretórios selecionados do índice?"
 
 #. Resource IDs: (1566)
 #, c-format
 msgid "Do you really want to remove the %d selected files/directories?"
-msgstr ""
+msgstr "Você quer realmente remover os %d arquivos/diretórios selecionados?"
 
 #. Resource IDs: (1089)
 msgid ""
@@ -4200,7 +4200,7 @@ msgstr "Não salvar\nRecarregar a visualização sem salvar as modificações"
 
 #. Resource IDs: (65535)
 msgid "Don't show the selected items: (press shift key to show them)"
-msgstr ""
+msgstr "Não exibir os itens selecionados: (pressione a tecla shift para exibí-los)"
 
 #. Resource IDs: (1272)
 msgid "Don't show this message again"
@@ -4248,7 +4248,7 @@ msgstr "Grupo Falso Para localizar TabCtr"
 
 #. Resource IDs: (1563)
 msgid "E&dit unselected"
-msgstr ""
+msgstr "E&ditar não selecionados"
 
 #. Resource IDs: (65535)
 msgid "E&xclude paths:"
@@ -4560,7 +4560,7 @@ msgstr "Erro ao resconstruir o cache de ícones do Shell!"
 #. Resource IDs: (1528)
 #, c-format
 msgid "Error validating server certificate for \"%s\":"
-msgstr ""
+msgstr "Erro ao validar certificado do servidor para \"%s\":"
 
 #. Resource IDs: (1110)
 #, c-format
@@ -4782,7 +4782,7 @@ msgstr "Obter"
 
 #. Resource IDs: (1210)
 msgid "Fetch && Re&base"
-msgstr ""
+msgstr "Obter && Re&organizar"
 
 #. Resource IDs: (210)
 msgid "Fetch from SVN repository"
@@ -6856,7 +6856,7 @@ msgstr "Não ocorreu nenhum erro."
 
 #. Resource IDs: (1565)
 msgid "No extra changes after merge"
-msgstr ""
+msgstr "Nenhuma outra alteração após a mesclagem"
 
 #. Resource IDs: (1310)
 msgid ""
@@ -7374,15 +7374,15 @@ msgstr "Colar"
 
 #. Resource IDs: (2750)
 msgid "Paste &filename list"
-msgstr ""
+msgstr "Colar lista de &nomes de arquivo"
 
 #. Resource IDs: (2751)
 msgid "Paste &last commit message"
-msgstr ""
+msgstr "Colar ú&ltima mensagem de submissão"
 
 #. Resource IDs: (9644)
 msgid "Paste &recent message..."
-msgstr ""
+msgstr "Colar mensagem &recente..."
 
 #. Resource IDs: (16908)
 msgid ""
@@ -7473,11 +7473,11 @@ msgstr "Pegar"
 
 #. Resource IDs: (1430)
 msgid "Pick commit &hash"
-msgstr ""
+msgstr "Pegar &hash da submissão"
 
 #. Resource IDs: (1431)
 msgid "Pick commit &message"
-msgstr ""
+msgstr "Pegar &mensagem da submissão"
 
 #. Resource IDs: (1103)
 #, c-format
@@ -8480,11 +8480,11 @@ msgstr "&Exibir Barra de Acesso Rápido na Faixa de Opções"
 
 #. Resource IDs: (1561)
 msgid "S&kip unselected"
-msgstr ""
+msgstr "&Pular não selecionados"
 
 #. Resource IDs: (1562)
 msgid "S&quash unselected"
-msgstr ""
+msgstr "&Esmagar não selecionados"
 
 #. Resource IDs: (1132)
 msgid "S&tatistics"
@@ -8650,7 +8650,7 @@ msgstr "Salvar e excluir\nSuas alterações são salvas e o conteúdo original �
 msgid ""
 "Save and ignore marked blocks\n"
 "Only your manual edits are saved, marked blocks are left as they are"
-msgstr ""
+msgstr "Salvar e ignorar blocos marcados\nApenas edições manuais são salvas, blocos marcados são deixados como estavam"
 
 #. Resource IDs: (105)
 msgid ""
@@ -9177,7 +9177,7 @@ msgstr "Apresentar pastas apagadas como normal"
 
 #. Resource IDs: (1564)
 msgid "Show extra changes after merge"
-msgstr ""
+msgstr "Exibir outras alterações após a mesclagem"
 
 #. Resource IDs: (16656)
 msgid "Show f&ull menus after a short delay"
@@ -9342,7 +9342,7 @@ msgstr "Exibir representação gráfica de cópias/etiquetas/ramos"
 
 #. Resource IDs: (193)
 msgid "Shows all files which were changed since the last commit."
-msgstr ""
+msgstr "Exibir todos os arquivos que foram alterados deste a última submissão."
 
 #. Resource IDs: (146)
 msgid "Shows information about TortoiseGit"
@@ -10665,7 +10665,7 @@ msgstr "Conflitos não resolvidos!"
 
 #. Resource IDs: (1558)
 msgid "Unset tracked branch"
-msgstr ""
+msgstr "Remover ramo rastreado"
 
 #. Resource IDs: (61443)
 msgid "Untitled"
@@ -10979,7 +10979,7 @@ msgid ""
 "/saverequiredonconflicts\n"
 "/oneway <forces the one-way view>\n"
 "/line:<line number to jump to>"
-msgstr ""
+msgstr "Opções de linha de comando válidas são:\n/base:<caminho base do arquivo>\n/basename:<nome para exibir no título da visualização>\n/theirs:<caminho para o arquivo deles>\n/theirsname:<nome para exibir no título da visualização>\n/mine:<caminho para o seu arquivo>\n/minename:<nome para exibir no título da visualização>\n/merged:<caminho para o arquivo mesclado resultante>\n/mergedname:<nome para exibir no título da visualização>\n/diff:<caminho para o arquivo de diferenças unificadas>\n/patchpath:<caminho para a pasta>\n/saverequired\n/saverequiredonconflicts\n/oneway <força a visualização única>\n/line:<número da linha para pular até ela>"
 
 #. Resource IDs: (165, 5708)
 msgid "Value"
@@ -11541,7 +11541,7 @@ msgstr "autor"
 #. Resource IDs: (1421)
 #, c-format
 msgid "author (>= 0.5%)"
-msgstr ""
+msgstr "autor (>= 0,5%)"
 
 #. Resource IDs: (65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"
@@ -11600,7 +11600,7 @@ msgstr "excluído"
 
 #. Resource IDs: (108)
 msgid "diff from pipe"
-msgstr ""
+msgstr "comparação de pipe"
 
 #. Resource IDs: (58116)
 msgid "dummy"
