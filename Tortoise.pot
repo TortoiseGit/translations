@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-05 14:21+0000\n"
+"PO-Revision-Date: 2015-07-18 16:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
-"Language-Team: English (http://www.transifex.com/projects/p/tortoisegit/language/en/)\n"
+"Language-Team: English (http://www.transifex.com/p/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5026,10 +5026,6 @@ msgstr "For Help, press F1. Scroll horizontally with Ctrl-Scrollwheel"
 msgid "For complete history deselect 'Stop on copy/rename'"
 msgstr "For complete history deselect 'Stop on copy/rename'"
 
-#. Resource IDs: (1521)
-msgid "Force"
-msgstr "Force"
-
 #. Resource IDs: (1301)
 msgid ""
 "Force creation of branch/tag - even if one with same name already exists."
@@ -6860,9 +6856,8 @@ msgstr "No files or folders were modified. There is nothing for TortoiseGit to r
 #. Resource IDs: (3810)
 msgid ""
 "No files to show with the current setting.\n"
-"Check one or more settings below to see unversioned, ignored and/or unmodified files.\n"
-"To see remote changes, click on 'Check Repository'"
-msgstr "No files to show with the current setting.\nCheck one or more settings below to see unversioned, ignored and/or unmodified files.\nTo see remote changes, click on 'Check Repository'"
+"Check one or more settings below to see unversioned, ignored and/or unmodified files."
+msgstr "No files to show with the current setting.\nCheck one or more settings below to see unversioned, ignored and/or unmodified files."
 
 #. Resource IDs: (1220)
 msgid ""
@@ -7290,6 +7285,10 @@ msgstr "Override branch if exists"
 #. Resource IDs: (1467)
 msgid "Overwrite"
 msgstr "Overwrite"
+
+#. Resource IDs: (1521)
+msgid "Overwrite working tree changes (force)"
+msgstr "Overwrite working tree changes (force)"
 
 #. Resource IDs: (32781)
 msgid "P&age setup..."

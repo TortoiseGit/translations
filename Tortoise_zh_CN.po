@@ -22,9 +22,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-05 18:03+0000\n"
-"Last-Translator: YF <yfdyh000@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
+"PO-Revision-Date: 2015-07-18 16:39+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5039,10 +5039,6 @@ msgstr "按 F1 键寻求帮助；用 Ctrl+鼠标滚轮横向滚动"
 msgid "For complete history deselect 'Stop on copy/rename'"
 msgstr "取消选择“复制/更名时停止”以查看完整的历史列表"
 
-#. Resource IDs: (1521)
-msgid "Force"
-msgstr "强制"
-
 #. Resource IDs: (1301)
 msgid ""
 "Force creation of branch/tag - even if one with same name already exists."
@@ -6873,9 +6869,8 @@ msgstr "自上次提交以来没有文件或文件夹被修改。TortoiseGit 不
 #. Resource IDs: (3810)
 msgid ""
 "No files to show with the current setting.\n"
-"Check one or more settings below to see unversioned, ignored and/or unmodified files.\n"
-"To see remote changes, click on 'Check Repository'"
-msgstr "根据当前配置，没有文件显示。\n检查下面的配置项，查看未版本控制的、被忽略的或未修改的文件。\n要查看远端修改，请点击“检查版本库”。"
+"Check one or more settings below to see unversioned, ignored and/or unmodified files."
+msgstr ""
 
 #. Resource IDs: (1220)
 msgid ""
@@ -7303,6 +7298,10 @@ msgstr "覆盖已存在的分支"
 #. Resource IDs: (1467)
 msgid "Overwrite"
 msgstr "覆盖"
+
+#. Resource IDs: (1521)
+msgid "Overwrite working tree changes (force)"
+msgstr ""
 
 #. Resource IDs: (32781)
 msgid "P&age setup..."

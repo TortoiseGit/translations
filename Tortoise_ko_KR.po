@@ -35,9 +35,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-05 14:21+0000\n"
+"PO-Revision-Date: 2015-07-18 16:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
-"Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
+"Language-Team: Korean (Korea) (http://www.transifex.com/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5052,10 +5052,6 @@ msgstr "도움말은 F1을 누르시고, 좌우 스크롤은 Ctrl을 누른 상�
 msgid "For complete history deselect 'Stop on copy/rename'"
 msgstr "모든 로그를 보려면 '복사/이름변경 시점에서 중지'을 끄면 됩니다"
 
-#. Resource IDs: (1521)
-msgid "Force"
-msgstr "강제로"
-
 #. Resource IDs: (1301)
 msgid ""
 "Force creation of branch/tag - even if one with same name already exists."
@@ -6886,9 +6882,8 @@ msgstr "되돌릴 파일, 폴더가 없습니다. 모든 것이 그대롭니다.
 #. Resource IDs: (3810)
 msgid ""
 "No files to show with the current setting.\n"
-"Check one or more settings below to see unversioned, ignored and/or unmodified files.\n"
-"To see remote changes, click on 'Check Repository'"
-msgstr "현재 설정으로는 어떤 파일도 보여지지 않습니다.\n버전관리가 아니거나, 무시목록에 있는 것 혹은 수정되지 않은 파일을 보고 싶으면,\n아래 중 하나 이상을 선택하십시오. 저장소파일의 변경 상태를 보려면 '저장소 확인'을 선택하세요"
+"Check one or more settings below to see unversioned, ignored and/or unmodified files."
+msgstr ""
 
 #. Resource IDs: (1220)
 msgid ""
@@ -7316,6 +7311,10 @@ msgstr "브랜치가 이미 있으면 덮어쓰기"
 #. Resource IDs: (1467)
 msgid "Overwrite"
 msgstr "덮어쓰기"
+
+#. Resource IDs: (1521)
+msgid "Overwrite working tree changes (force)"
+msgstr ""
 
 #. Resource IDs: (32781)
 msgid "P&age setup..."

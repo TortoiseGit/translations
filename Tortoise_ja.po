@@ -19,9 +19,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-05 14:21+0000\n"
+"PO-Revision-Date: 2015-07-18 16:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/tortoisegit/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/p/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5036,10 +5036,6 @@ msgstr "F1でヘルプ、Ctrl+ホイール操作で横スクロール"
 msgid "For complete history deselect 'Stop on copy/rename'"
 msgstr "すべての履歴を表示するためには「コピー/名前変更が発生したら停止」のチェックをはずしてください"
 
-#. Resource IDs: (1521)
-msgid "Force"
-msgstr "強制実行"
-
 #. Resource IDs: (1301)
 msgid ""
 "Force creation of branch/tag - even if one with same name already exists."
@@ -6870,9 +6866,8 @@ msgstr "ファイルやフォルダーは何も変更されていません。 To
 #. Resource IDs: (3810)
 msgid ""
 "No files to show with the current setting.\n"
-"Check one or more settings below to see unversioned, ignored and/or unmodified files.\n"
-"To see remote changes, click on 'Check Repository'"
-msgstr "現在の設定では表示するファイルはありません。\nバージョン管理外、無視、未変更、のファイルを見るためには以下の設定にチェックをしてください。\nリモートでの変更を見るためには、「リポジトリをチェック」をクリックしてください。"
+"Check one or more settings below to see unversioned, ignored and/or unmodified files."
+msgstr ""
 
 #. Resource IDs: (1220)
 msgid ""
@@ -7300,6 +7295,10 @@ msgstr "存在する場合はブランチを上書き"
 #. Resource IDs: (1467)
 msgid "Overwrite"
 msgstr "上書き"
+
+#. Resource IDs: (1521)
+msgid "Overwrite working tree changes (force)"
+msgstr ""
 
 #. Resource IDs: (32781)
 msgid "P&age setup..."

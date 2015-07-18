@@ -17,9 +17,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-05 14:27+0000\n"
+"PO-Revision-Date: 2015-07-18 16:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5034,10 +5034,6 @@ msgstr "Drücken Sie F1 für Hilfe. Mit Strg+Mausrad horizontal verschieben."
 msgid "For complete history deselect 'Stop on copy/rename'"
 msgstr "Deaktivieren Sie 'Bei Kopien/Umbenennen anhalten', um eine vollständige Historie zu erhalten."
 
-#. Resource IDs: (1521)
-msgid "Force"
-msgstr "Erzwingen"
-
 #. Resource IDs: (1301)
 msgid ""
 "Force creation of branch/tag - even if one with same name already exists."
@@ -6868,9 +6864,8 @@ msgstr "Es wurden keine Dateien/Ordner modifiziert.\nEs sind keine Änderungen v
 #. Resource IDs: (3810)
 msgid ""
 "No files to show with the current setting.\n"
-"Check one or more settings below to see unversioned, ignored and/or unmodified files.\n"
-"To see remote changes, click on 'Check Repository'"
-msgstr "Mit der aktuellen Einstellung werden keine Dateien angezeigt.\nWählen Sie eine oder mehrere der untenstehenden Optionen, um\nunversionierte, ignorierte oder unmodifizierte Dateien zu sehen\nÄnderungen im Projektarchiv werden erst nach 'Projektarchiv prüfen' angezeigt."
+"Check one or more settings below to see unversioned, ignored and/or unmodified files."
+msgstr ""
 
 #. Resource IDs: (1220)
 msgid ""
@@ -7298,6 +7293,10 @@ msgstr "Überschreibe Zweig, falls er existiert"
 #. Resource IDs: (1467)
 msgid "Overwrite"
 msgstr "Überschreiben"
+
+#. Resource IDs: (1521)
+msgid "Overwrite working tree changes (force)"
+msgstr ""
 
 #. Resource IDs: (32781)
 msgid "P&age setup..."
