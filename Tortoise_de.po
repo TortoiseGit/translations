@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-18 16:39+0000\n"
+"PO-Revision-Date: 2015-07-18 23:12+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -4406,6 +4406,10 @@ msgstr "Meldungszwischenspeicher aktivieren"
 msgid "Enable showing Gravatar image in Log Dialog"
 msgstr "Zeige Gravatar-Icons im Log Dialog"
 
+#. Resource IDs: (32806)
+msgid "Enable syntax highlighting"
+msgstr "Aktiviere Syntax-Hervorhebungen"
+
 #. Resource IDs: (65535)
 msgid "Enabled Overlay Handlers"
 msgstr "Aktivierte überlagerte Symbole"
@@ -6865,22 +6869,20 @@ msgstr "Es wurden keine Dateien/Ordner modifiziert.\nEs sind keine Änderungen v
 msgid ""
 "No files to show with the current setting.\n"
 "Check one or more settings below to see unversioned, ignored and/or unmodified files."
-msgstr ""
+msgstr "Mit der aktuellen Einstellung werden keine Dateien angezeigt.\nWählen Sie eine oder mehrere der untenstehenden Optionen, um\nunversionierte, ignorierte oder unmodifizierte Dateien zu sehen."
 
 #. Resource IDs: (1220)
 msgid ""
 "No files were changed or added since\n"
-"the last commit. There's nothing\n"
-"for TortoiseGit to do here..."
-msgstr "Seit der letzten Eintragung wurden keine\\nDateien/Ordner verändert oder hinzugefügt.\nEs gibt nichts zu tun für TortoiseSVN..."
+"the last commit."
+msgstr "Seit der letzten Eintragung wurden keine\nDateien/Ordner verändert oder hinzugefügt."
 
 #. Resource IDs: (2704)
 msgid ""
 "No files were changed or added since\n"
-"the last commit. There's nothing\n"
-"for TortoiseGit to do here...\n"
+"the last commit.\n"
 "Do you want to see the unversioned files?"
-msgstr "Seit der letzten Eintragung wurden keine Dateien geändert oder hinzugefügt.\nEs gibt hier für TortoiseGit nichts zu tun.\nMöchten Sie die unversionierten Objekte anzeigen lassen?"
+msgstr "Seit der letzten Eintragung wurden keine\nDateien/Ordner verändert oder hinzugefügt.\nMöchten Sie die unversionierten Objekte anzeigen lassen?"
 
 #. Resource IDs: (2754)
 msgid "No graph available"
@@ -7296,7 +7298,7 @@ msgstr "Überschreiben"
 
 #. Resource IDs: (1521)
 msgid "Overwrite working tree changes (force)"
-msgstr ""
+msgstr "Überschreibe Arbetisbaum-Änderungen (force)"
 
 #. Resource IDs: (32781)
 msgid "P&age setup..."
