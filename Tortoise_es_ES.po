@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-26 00:31+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2015-07-26 15:54+0000\n"
+"Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -723,7 +723,7 @@ msgstr "&Forzar"
 
 #. Resource IDs: (1607)
 msgid "&Force Rebase"
-msgstr "&Forzar Reorganizar"
+msgstr "&Forzar reasentado"
 
 #. Resource IDs: (1608)
 msgid "&From:"
@@ -832,7 +832,7 @@ msgstr "&Iconos grandes"
 
 #. Resource IDs: (1602)
 msgid "&Launch Rebase After Fetch"
-msgstr "&Lanzar reorganizar después de recuperar"
+msgstr "&Lanzar reasentar (rebase) después de descargar (fetch)"
 
 #. Resource IDs: (1065)
 msgid "&Limit search to modified lines"
@@ -957,7 +957,7 @@ msgstr "&Sin acciones de doble-click"
 
 #. Resource IDs: (1734)
 msgid "&No fetch"
-msgstr "&No recuperar"
+msgstr "&No descargar (fetch)"
 
 #. Resource IDs: (1702)
 msgid "&None"
@@ -1037,7 +1037,7 @@ msgstr "&Proceder"
 
 #. Resource IDs: (1208)
 msgid "&Pull"
-msgstr "&Pull (tomar)"
+msgstr "&Incorporar (pull)"
 
 #. Resource IDs: (1481)
 msgid "&Push all branches"
@@ -1049,7 +1049,7 @@ msgstr "&ReConsignar (commit)"
 
 #. Resource IDs: (1581)
 msgid "&Rebase"
-msgstr ""
+msgstr "&Reasentar (rebase)"
 
 #. Resource IDs: (1246)
 msgid "&Recent messages"
@@ -1532,11 +1532,11 @@ msgstr "<b>Advertencia:</b> Este ramal no está completamente combinado en HEAD 
 msgid ""
 "<ct=0x0000FF>Current HEAD Detached</ct>, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr "<ct=0x0000FF>HEAD desacoplado actual</ct>, sobre el que usted está trabajando (sin ramal).\n¿Quiere crear un ramal (branch) ahora?"
+msgstr "<ct=0x0000FF>HEAD (cabecera) actual desacoplada</ct>, sobre la que usted está trabajando (no hay ramal).\n¿Quiere crear un ramal (branch) ahora?"
 
 #. Resource IDs: (1118)
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL</b> stash?</ct>"
-msgstr "<ct=0x0000FF>¿Estás seguro que quieres eliminar <b>TODOS</b> los resguardados?</ct>"
+msgstr "<ct=0x0000FF>¿Estás seguro de que quieres eliminar <b>TODOS</b> los resguardados?</ct>"
 
 #. Resource IDs: (1143)
 msgid "<ct=0x0000FF>Stash Apply failed!!!</ct>"
@@ -1555,7 +1555,7 @@ msgid ""
 "<ct=0x0000FF>previous rebase directory rebase-apply still exists but mbox given</ct>\n"
 "\n"
 "Do you want to"
-msgstr "<ct=0x0000FF>el anterior directorio que aplicó reorganizar aún existe para la mbox dada</ct>\n\nQué quieres"
+msgstr "<ct=0x0000FF>el anterior directorio de reasentamiento que aplicó reasentado (rebase) aún existe pero se proporcionó mbox</ct>\n\n¿Desea"
 
 #. Resource IDs: (1346)
 msgid "<ct=0x0000ff>Stash Apply failed, there are conflicts</ct>"
@@ -1579,7 +1579,7 @@ msgstr "<ct=0xff0000>Resguardo exitoso</ct>"
 
 #. Resource IDs: (16603)
 msgid "<descr>"
-msgstr "<descif>"
+msgstr "<descr>"
 
 #. Resource IDs: (3339)
 msgid "<new changelist>"
@@ -1587,7 +1587,7 @@ msgstr "<nueva lista de cambios>"
 
 #. Resource IDs: (59392)
 msgid "<placeholder>"
-msgstr "<marcador>"
+msgstr "<señalizador>"
 
 #. Resource IDs: (32814)
 msgid "?"
@@ -1624,18 +1624,18 @@ msgid ""
 "A newline separated list of paths for which no context menu is shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
 "An empty list will allow the context menu on all paths."
-msgstr "En líeas separadas, Lista las rutas que no mostrarán menú contextual.\r\nSi añades un caracter '*' al final de la ruta, tambien se incluirán todos los archivos y subdirectorios dentro de esa ruta.\r\nUna lista vacia permitirá el menú contaxtual en todas las rutas."
+msgstr "Una lista separada por líneas en blanco de rutas para las que no se muestra menú contextual.\nSi añade un caracter '*' al final de la ruta, todos los ficheros y subdirectorios dentro de esa ruta también carecerán de este.\nUna lista vacía permitirá el menú contextual en todas las rutas."
 
 #. Resource IDs: (3103)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\r\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
 "An empty list will allow overlays on all paths."
-msgstr "En líeas separadas, Lista las rutas que no mostrarán iconos superpuestos.\r\nSi añades un caracter '*' al final de la ruta, tambien se incluirán todos los archivos y subdirectorios dentro de esa ruta.\r\nUna lista vacia permitirá superpuestos en todas las rutas."
+msgstr "Una lista separada por líneas en blanco de rutas para las que no se mostrarán iconos sobreimpresos.\nSi añade un caracter '*' al final de la ruta, todos los archivos y subdirectorios dentro de esa ruta también carecerán de estos.\nUna lista vacía permitirá sobreimpresiones en todas las rutas."
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
-msgstr "El recurso requerido no estaba disponible."
+msgstr "Un recurso requerido no estaba disponible."
 
 #. Resource IDs: (1358)
 msgid ""
@@ -1645,13 +1645,13 @@ msgstr "Ya existe una etiqueta con el mismo nombre que el de ramal que ha indrod
 
 #. Resource IDs: (1353)
 msgid "A tag with this name already exists."
-msgstr "Existe ya una etiqueta con el mismo nombre."
+msgstr "Ya existe una etiqueta con el mismo nombre."
 
 #. Resource IDs: (1252)
 msgid ""
 "A viewer program for GNU diff files (patch files).\r\n"
 "If you don't have one use NotePad."
-msgstr "Un programa visor de archivos dif. GNU (archivos de parche).\r\nSi no dispones de un NotePad."
+msgstr "Un programa visor de archivos GNU diff (archivos de parche).\nSi no dispone de uno utilice NotePad."
 
 #. Resource IDs: (1042)
 msgid "A&bort"
@@ -3526,7 +3526,7 @@ msgstr "Crear archivo de parche"
 
 #. Resource IDs: (1150)
 msgid "Create pull &request"
-msgstr "Crear &petición pull (tomar)"
+msgstr "Crear &petición de incorporación (pull)"
 
 #. Resource IDs: (123)
 msgid "Create repositor&y here..."
@@ -3560,7 +3560,7 @@ msgstr "Crea un archivo de dif. unificado con todos los cambios hechos"
 
 #. Resource IDs: (9676)
 msgid "Creating pull-request..."
-msgstr "Creando petición-pull (tomar)..."
+msgstr "Creando petición de incorporación (pull)..."
 
 #. Resource IDs: (1418)
 msgid "Credential helper must not be empty."
@@ -3675,7 +3675,7 @@ msgstr "Menú de aplicación Predeterminado. Aparece cuando no hay documentos ab
 
 #. Resource IDs: (65535)
 msgid "Default limitation of log messages:"
-msgstr ""
+msgstr "Limitación por defecto de los mensajes de registro (log):"
 
 #. Resource IDs: (1064)
 msgid "Default to UTF-8 encoding"
@@ -4142,7 +4142,7 @@ msgstr "¿De verdad quiere retirar al fichero(s) seleccionado(s) el distintivo o
 
 #. Resource IDs: (1372)
 msgid "Do you want to fetch remote branches from the newly added remote?"
-msgstr "¿Quiere descargar ramales remotos desde el remoto recién añadido?"
+msgstr "¿Quiere descargar (fetch) ramales remotos desde el remoto recién añadido?"
 
 #. Resource IDs: (5029)
 msgid "Do you want to load the changed files?"
@@ -4185,7 +4185,7 @@ msgstr "No sé qué se impulsará (push) porque el ramal es desconocido \"%s\""
 
 #. Resource IDs: (1193)
 msgid "Don't know what will push because you enter URL"
-msgstr "No sé qué se va impulsar porque usted introdujo la URL"
+msgstr "No sé qué se va impulsar (push) porque usted introdujo una URL"
 
 #. Resource IDs: (62185)
 msgid ""
@@ -4414,7 +4414,7 @@ msgstr "Habilitar mostrado de imagen de Gravatar en el cuadro de diálogo de Reg
 
 #. Resource IDs: (32806)
 msgid "Enable syntax highlighting"
-msgstr ""
+msgstr "Habilitar destacamiento de sintaxis"
 
 #. Resource IDs: (65535)
 msgid "Enabled Overlay Handlers"
@@ -4720,7 +4720,7 @@ msgstr "Fallo al crear el objeto. Asegúrese de que la aplicación está incluid
 
 #. Resource IDs: (1151)
 msgid "Failed to create pull-request."
-msgstr "Fallo al crear petición-pull (tomar)..."
+msgstr "Fallo al crear petición de incorporación (pull)."
 
 #. Resource IDs: (1094)
 msgid "Failed to get base file."
@@ -4789,41 +4789,41 @@ msgstr "Recu&perar"
 
 #. Resource IDs: (350, 1053)
 msgid "Fetch"
-msgstr "Recuperar"
+msgstr "Descargar (fetch)"
 
 #. Resource IDs: (1210)
 msgid "Fetch && Re&base"
-msgstr "Descargar (fetch) && rea&sentar (rebase)"
+msgstr "Descargar (fetch) y rea&sentar (rebase)"
 
 #. Resource IDs: (210)
 msgid "Fetch from SVN repository"
-msgstr "Recuperar de repositorio SVN"
+msgstr "Descargar (fetch) del repositorio SVN"
 
 #. Resource IDs: (1247)
 #, c-format
 msgid "Fetch from \"%s\""
-msgstr "Recuperar de \"%s\""
+msgstr "Descargar (fectch) de \"%s\""
 
 #. Resource IDs: (311)
 msgid "Fetch..."
-msgstr "Recuperar..."
+msgstr "Descargar (fetch)..."
 
 #. Resource IDs: (20005)
 msgid "Fetching Status..."
-msgstr "Estado de Recuperación..."
+msgstr "Estado de la descarga (fetch)..."
 
 #. Resource IDs: (1295)
 msgid "Fetching changed files..."
-msgstr "Recuperando archivos cambiados..."
+msgstr "Descargando (fetch) archivos cambiados..."
 
 #. Resource IDs: (5003)
 msgid "Fetching file..."
-msgstr "Recuperando archivo..."
+msgstr "Descargando (fetch) archivo..."
 
 #. Resource IDs: (5004)
 #, c-format
 msgid "Fetching revision %s of file:"
-msgstr "Recuperando revisión %s del archivo:"
+msgstr "Descargando (fetch) revisión %s del archivo:"
 
 #. Resource IDs: (1000, 1180, 1217, 5100, 16015)
 msgid "File"
@@ -5054,14 +5054,14 @@ msgid ""
 "Force push only if the remote reference points to the same commit as the remote tracking branch.\n"
 "This can cause the remote repository to lose commits; use it with care.\n"
 "This option corresponds to the --force-with-lease git option."
-msgstr "Forzar impulsar (push) sólo si la referencia remota apunta hacia la misma consignación (commit) que el ramal de rastreado remoto.\nEsto puede causar que el repositorio remoto pierda consignaciones; úselo con cuidado.\nEsta opción corresponde a la opción de git  --force-with-lease ."
+msgstr "Forzar impulsión (push) sólo si la referencia remota apunta hacia la misma consignación (commit) que el ramal de rastreado remoto.\nEsto puede causar que el repositorio remoto pierda consignaciones; úselo con cuidado.\nEsta opción corresponde a la opción --force-with-lease de git."
 
 #. Resource IDs: (1523)
 msgid ""
 "Force push to the selected remote reference and override it without any safety checks.\n"
 "This can cause the remote repository to lose unseen commits; use it with care.\n"
 "This option corresponds to the --force git option."
-msgstr "Forzar impulsar (push) hacia la referencia remota seleccionada y sustituirla sin ninguna comprobación de seguridad.\nEsto puede causar que el repositorio remoto pierda consignaciones (commits) no vistas; úselo con cuidado.\nEsta opción correspone a la opción --force de git."
+msgstr "Forzar impulsión (push) hacia la referencia remota seleccionada y sustituirla sin ninguna comprobación de seguridad.\nEsto puede causar que el repositorio remoto pierda consignaciones (commit) no vistas; úselo con cuidado.\nEsta opción correspone a la opción --force de git."
 
 #. Resource IDs: (9646)
 msgid ""
@@ -6027,7 +6027,7 @@ msgstr "Incl. arch. &ignorados"
 
 #. Resource IDs: (1797)
 msgid "Include FETCH_HEAD in branch selection boxes"
-msgstr "Incluir FETCH_HEAD (descargar cabecera) en los campos de selección de ramal"
+msgstr "Incluir FETCH_HEAD (descargar cabecera) en los campos de selección de ramal (branch)"
 
 #. Resource IDs: (65535)
 msgid "Include only the following revision range:"
@@ -6184,22 +6184,22 @@ msgstr "Idioma:"
 #. Resource IDs: (1574)
 #, c-format
 msgid "Last %s commit(s)"
-msgstr ""
+msgstr "Última(s) %s consignación(es) (commit)"
 
 #. Resource IDs: (1571)
 #, c-format
 msgid "Last %s month(s)"
-msgstr ""
+msgstr "Último(s) %s mes(es)"
 
 #. Resource IDs: (1570)
 #, c-format
 msgid "Last %s week(s)"
-msgstr ""
+msgstr "Última(s) %s semana(s)"
 
 #. Resource IDs: (1572)
 #, c-format
 msgid "Last %s year(s)"
-msgstr ""
+msgstr "Último(s) %s año(s)"
 
 #. Resource IDs: (1350)
 msgid "Last Author"
@@ -6223,7 +6223,7 @@ msgstr "Último &bueno conocido:"
 
 #. Resource IDs: (1578)
 msgid "Last selected date"
-msgstr ""
+msgstr "Última fecha seleccionada"
 
 #. Resource IDs: (187)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -6905,14 +6905,14 @@ msgstr "No hay ficheros que mostrar con la actual configuración.\nMarque uno o 
 msgid ""
 "No files were changed or added since\n"
 "the last commit."
-msgstr ""
+msgstr "No se cambiaron o añadieron ficheros\ndesde la última consignación (commit)."
 
 #. Resource IDs: (2704)
 msgid ""
 "No files were changed or added since\n"
 "the last commit.\n"
 "Do you want to see the unversioned files?"
-msgstr ""
+msgstr "No se cambiaron o añadieron ficheros\ndesde la última consignación (commit).\n¿Quiere ver los ficheros no versionados?"
 
 #. Resource IDs: (2754)
 msgid "No graph available"
@@ -6925,7 +6925,7 @@ msgstr "No se encuentra codificador de imagen para %s."
 
 #. Resource IDs: (1577)
 msgid "No limitation"
-msgstr ""
+msgstr "Sin limitación"
 
 #. Resource IDs: (1375)
 msgid "No more revisions found."
@@ -7601,7 +7601,7 @@ msgstr "Enganche post-consignación (commit)"
 
 #. Resource IDs: (9653)
 msgid "Post-Push Hook"
-msgstr "Enganche post-impulsado (push)"
+msgstr "Enganche post-impulsión (push)"
 
 #. Resource IDs: (58115)
 msgid "Pre&v Page"
@@ -7613,7 +7613,7 @@ msgstr "Enganche previa consignación (commit)"
 
 #. Resource IDs: (9652)
 msgid "Pre-Push Hook"
-msgstr "Enganche previo-impulsado (push)"
+msgstr "Enganche pre-impulsión (push)"
 
 #. Resource IDs: (1082)
 msgid "Preparing commit..."
@@ -7769,27 +7769,27 @@ msgstr "Podar ([prune] todos los remotos)"
 
 #. Resource IDs: (347, 1052, 1611)
 msgid "Pull"
-msgstr "Pull (tomar)"
+msgstr "Incorporar (pull)"
 
 #. Resource IDs: (1189)
 msgid "Pull requires the selected local branch to be the current branch."
-msgstr "Pull (tomar) requiere que el ramal local seleccionado sea el ramal actual."
+msgstr "Incorporar (pull) requiere que el ramal (branch) local seleccionado sea el ramal actual."
 
 #. Resource IDs: (221)
 msgid "Pull..."
-msgstr "Pull (tomar)..."
+msgstr "Incorporar (pull)..."
 
 #. Resource IDs: (302)
 msgid "Pull/Fetch"
-msgstr "Pull/Fetch (tomar/descargar)"
+msgstr "Incorporar/Descargar (pull/fetch)"
 
 #. Resource IDs: (1050)
 msgid "Pulled Diff"
-msgstr "Diff sobre tomado (pull)"
+msgstr "Se incorporó (pull) el diff"
 
 #. Resource IDs: (1051)
 msgid "Pulled Log"
-msgstr "Registro (log) del tomado (pull)"
+msgstr "Se incorporó (pull) el registro (log)"
 
 #. Resource IDs: (1199)
 msgid "Pus&h"
@@ -7797,27 +7797,27 @@ msgstr "Empu&jar"
 
 #. Resource IDs: (303, 348, 1612)
 msgid "Push"
-msgstr "Empujar"
+msgstr "Impulsar (push)"
 
 #. Resource IDs: (1786)
 msgid "Push Default"
-msgstr "Impulsado (push) por defecto"
+msgstr "Impulsión (push) predeterminada"
 
 #. Resource IDs: (65535)
 msgid "Push URL:"
-msgstr "URL de impulsado (push):"
+msgstr "URL de impulsión (push):"
 
 #. Resource IDs: (1385)
 msgid "Push notes"
-msgstr "Notas de impulsado (push)"
+msgstr "Notas de impulsión (push)"
 
 #. Resource IDs: (1207)
 msgid "Push ta&gs"
-msgstr "Empujar Eti&quetas"
+msgstr "Impulsar (push) Eti&quetas"
 
 #. Resource IDs: (222, 1017)
 msgid "Push..."
-msgstr "Empujar..."
+msgstr "Impulsar (push)..."
 
 #. Resource IDs: (65535)
 msgid "Putty Key:"
@@ -7872,7 +7872,7 @@ msgstr "Posición de inicio aleatoria del Cuadro de Diálogo de Sincronización 
 msgid ""
 "Randomize the startup position of Sync Dialog. This prevents from pressing "
 "the Pull button of same dialog"
-msgstr "Aleatorizar posición de arranque del Cuadro de Diálogo de Sincronización. Esto evita que pulse el botón Pull (tomar) del mismo diálogo."
+msgstr "Designar al azar la posición de arranque del Cuadro de Diálogo de Sincronización. Esto evita que pulse por error el botón Incorporar (pull) del propio diálogo."
 
 #. Resource IDs: (1535)
 msgid "Range"
@@ -8269,7 +8269,7 @@ msgstr "Repositorio:"
 
 #. Resource IDs: (334)
 msgid "Request pull"
-msgstr "Solicitar pull (tomar)"
+msgstr "Solicitar incorporación (pull)"
 
 #. Resource IDs: (65535)
 msgid "Requests a username and a password"
@@ -8576,7 +8576,7 @@ msgstr "Dconsigna SVN..."
 
 #. Resource IDs: (206)
 msgid "SVN Fetch"
-msgstr "Recuperar de SVN"
+msgstr "Descargar (fetch) del SVN"
 
 #. Resource IDs: (335)
 msgid "SVN Rebase"
@@ -9016,12 +9016,12 @@ msgstr "Establecer &fecha de autoría"
 
 #. Resource IDs: (1363)
 msgid "Sets the remote as the \"pushremote\" for the selected local branch."
-msgstr "Establece el remoto como el \"pushremote\" (remoto de vertido)  para el ramal local seleccionado."
+msgstr "Establece el remoto como el \"pushremote\" (remoto de impulsión) para el ramal local seleccionado."
 
 #. Resource IDs: (1362)
 msgid ""
 "Sets the remote branch as the \"pushbranch\" for the selected local branch."
-msgstr "Establece el ramal remoto como el \"pushbranch\" (ramal de vertido) para el ramal local seleccionado."
+msgstr "Establece el ramal remoto como el \"pushbranch\" (ramal de impulsión) para el ramal local seleccionado."
 
 #. Resource IDs: (200)
 msgid "Setting properties..."
@@ -9780,7 +9780,7 @@ msgstr "Vínculo simbólico"
 
 #. Resource IDs: (340)
 msgid "Sync Remote Repositories, including pull, push, email patch and so on"
-msgstr "Sincronizar repositorios remotos, incluyendo pull (adquirir), push (impulsar), email (correo), patch (parchear), y demás"
+msgstr "Sincronizar repositorios remotos, incluyendo incorporaciones (pull), impulsiones (push), servicio de correo electrónico, y demás"
 
 #. Resource IDs: (339)
 msgid "Sync..."
@@ -9887,7 +9887,7 @@ msgstr "La configuración remota ha cambiado\n¿Quieres guardar ahora o descarta
 msgid ""
 "The \"number of\" value for those \"Last N\" options.\n"
 "Should be > 0"
-msgstr ""
+msgstr "El valor \"número de\" para esas \"Últimas N\" opciones.\nDebe ser > 0"
 
 #. Resource IDs: (1115)
 #, c-format
@@ -9929,7 +9929,7 @@ msgid ""
 "The default limitation of log messages when you open Log Message dialog.\n"
 "Note: For showing all commits in Log Message dialog,\n"
 "you can right click on \"FROM\" date control, then click \"No limitation\" item."
-msgstr ""
+msgstr "La limitación por defecto de los mensajes de registro (log) cuando abre un cuadro de diálogo de Mensaje de Registro (log).\nNota: Para mostrar todos las consignaciones en el cuadro de diálogo Mensaje de Registro (log),\npuede hacer clic principal en el control de fecha \"DESDE\", y luego hacer clic en el elemento \"Sin limitación\"."
 
 #. Resource IDs: (1080)
 #, c-format
@@ -9949,7 +9949,7 @@ msgid ""
 "The fetched branch fast-forwards upon the current branch.\n"
 "\n"
 "Merge or open the rebase dialog anyway?"
-msgstr ""
+msgstr "El ramal (branch) descargado (fetch) representa un avance rápido sobre el ramal actual.\n\n¿Fusionar (merge) o abrir el cuadro de diálogo reasentar (rebase) de todas formas?"
 
 #. Resource IDs: (1020)
 #, c-format
@@ -10144,7 +10144,7 @@ msgid ""
 "The remote branch has not changed.\n"
 "\n"
 "Open the rebase dialog anyway?"
-msgstr ""
+msgstr "El ramal (branch) remoto no ha cambiado.\n\n¿Abrir el cuadro de diálogo reasentar (rebase) de todas formas?"
 
 #. Resource IDs: (1267)
 msgid "The repository was successfully created."
@@ -10312,7 +10312,7 @@ msgstr "Esta propiedad sólo está permitida en carpetas, no en archivos."
 msgid ""
 "This remote name collides with fetch refspec of other remotes\n"
 "Please use another name"
-msgstr "Este nombre remoto produce colisiona con las especificaciones de referencia (refspec) obtenidas de otros remotos\nPor favor use otro nombre"
+msgstr "Este nombre remoto colisiona con las especificaciones de referencia (refspec) descargadas (fetch) de otros remotos\nPor favor, use otro nombre"
 
 #. Resource IDs: (1059)
 msgid "This task requires a clean working tree."
@@ -10346,7 +10346,7 @@ msgid ""
 "To avoid fetching wrong tags, if this is not an official remote,\n"
 "you are advised to disable tag fetching for this remote.\n"
 "Disable tag fetching?"
-msgstr "Para evitar obtener la etiquetas incorrectas, si este no es un remoto oficial,\nle advertimos que deshabilite la obtención de etiqueta para este remoto.\n¿Deshabilitar la obtención de etiqueta?"
+msgstr "Para evitar descargar (fetch) la etiquetas incorrectas, si este\nno es un remoto oficial, le advertimos que deshabilite la\ndescarga de etiqueta para este remoto.\n¿Deshabilitar la descarga de etiqueta?"
 
 #. Resource IDs: (9683)
 msgid ""
