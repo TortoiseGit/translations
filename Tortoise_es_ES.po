@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-26 15:54+0000\n"
+"PO-Revision-Date: 2015-07-26 17:11+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -2050,7 +2050,7 @@ msgstr "¿Está seguro de que quiere restablecer columnas?"
 
 #. Resource IDs: (1075)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr "¿Seguro que desea cancelar el proceso de reorganizar?"
+msgstr "¿Seguro que desea cancelar el proceso de reasentamiento (rebase)?"
 
 #. Resource IDs: (2308)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -4042,6 +4042,10 @@ msgstr "No volver a mostrar esta advertencia (si se selecciona Continuar)"
 msgid "Do &not show me this warning again (if Ignore is selected)"
 msgstr "&No volver a mostrarme este mensaje de nuevo (si está seleccionado Ignorar)"
 
+#. Resource IDs: (1407)
+msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
+msgstr "No seleccionar automáticamente ficheros \"desaparecidos\" (borrados, pero no representados)"
+
 #. Resource IDs: (1669)
 msgid "Do not autoselect submodules"
 msgstr "No autoseleccionar submódulos"
@@ -5098,7 +5102,7 @@ msgstr "Reenviar %d"
 msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
 "proceed."
-msgstr "Detectado un mensaje de consigna vacío. Tienes que introducir uno o la integración no continuará."
+msgstr "Detectado un mensaje de consignación (commit) vacío. Tiene que introducir uno o el reasentado (rebase) no podrá continuar."
 
 #. Resource IDs: (65535)
 msgid "Found auto words:"
@@ -5309,7 +5313,7 @@ msgstr "Git SVN DConsigna"
 
 #. Resource IDs: (336)
 msgid "Git SVN Rebase"
-msgstr "Git SVN Integra"
+msgstr "Reasentado (rebase) SVN de git"
 
 #. Resource IDs: (326)
 msgid "Git Synchronization"
@@ -6626,6 +6630,10 @@ msgstr "Número mínimo de caracteres para un mensaje de consignación (commit):
 msgid "Misc"
 msgstr "Miscelánea"
 
+#. Resource IDs: (20120)
+msgid "Missing"
+msgstr "Desaparecido"
+
 #. Resource IDs: (1422, 62179)
 msgid "Mixed"
 msgstr "Mezclado"
@@ -7036,11 +7044,11 @@ msgstr "Notas"
 msgid ""
 "Nothing need rebase\r\n"
 "%s equal %s"
-msgstr "No hay nada que integrar\r\n%s es igual que %s"
+msgstr "No hay nada que reasentar (rebase)\n%s es igual que %s"
 
 #. Resource IDs: (1058)
 msgid "Nothing to Rebase"
-msgstr "Nada que Integrar"
+msgstr "Nada que reasentar (rebase)"
 
 #. Resource IDs: (9642)
 msgid "Nothing to commit"
@@ -7862,7 +7870,7 @@ msgstr "R&evertir a esta revisión"
 
 #. Resource IDs: (20079)
 msgid "REBASE"
-msgstr "INTEGRAR"
+msgstr "Reasentar (rebase)"
 
 #. Resource IDs: (1769)
 msgid "Randomize Sync Dialog startup position"
@@ -7920,16 +7928,16 @@ msgstr "Lee la 'Guía de uso diario' antes de que te atranques..."
 
 #. Resource IDs: (318)
 msgid "Rebase"
-msgstr "Integrar"
+msgstr "Reasentar (rebase)"
 
 #. Resource IDs: (20063)
 #, c-format
 msgid "Rebase \"%s\" onto this..."
-msgstr "Integrar \"%s\" hacia este..."
+msgstr "Reasentar (rebase) \"%s\" sobre este..."
 
 #. Resource IDs: (312)
 msgid "Rebase..."
-msgstr "Integrar..."
+msgstr "Reasentar (rebase)..."
 
 #. Resource IDs: (1065)
 #, c-format
@@ -7960,7 +7968,7 @@ msgstr "Recuparar documentos auto-salvados\nAbrir lversiones auto-salvadas en lu
 
 #. Resource IDs: (9647)
 msgid "Recover to the status before rebase"
-msgstr "Recuperar a como estaba antes de integrar"
+msgstr "Recuperar al estado anterior al reasentamiento (rebase)"
 
 #. Resource IDs: (16905)
 msgid ""
@@ -8342,7 +8350,7 @@ msgstr "Resuelve los archivos con conflictos"
 
 #. Resource IDs: (1054)
 msgid "Restart rebase"
-msgstr "Reinicia integrar"
+msgstr "Reiniciar reasentado (rebase)"
 
 #. Resource IDs: (1014)
 msgid "Restore"
@@ -9531,7 +9539,7 @@ msgstr "Iniciar enganche (hook) de consignado (commit)"
 
 #. Resource IDs: (1062, 1072)
 msgid "Start Rebase"
-msgstr "Iniciar Integrar"
+msgstr "Iniciar reasentado (rebase)"
 
 #. Resource IDs: (188)
 msgid "Start bisect mode..."
@@ -9929,7 +9937,7 @@ msgid ""
 "The default limitation of log messages when you open Log Message dialog.\n"
 "Note: For showing all commits in Log Message dialog,\n"
 "you can right click on \"FROM\" date control, then click \"No limitation\" item."
-msgstr "La limitación por defecto de los mensajes de registro (log) cuando abre un cuadro de diálogo de Mensaje de Registro (log).\nNota: Para mostrar todos las consignaciones en el cuadro de diálogo Mensaje de Registro (log),\npuede hacer clic principal en el control de fecha \"DESDE\", y luego hacer clic en el elemento \"Sin limitación\"."
+msgstr "La limitación por defecto de los mensajes de registro (log) cuando abre un cuadro de diálogo de Mensaje de Registro.\nNota: Para mostrar todas las consignaciones (commit) en el cuadro de diálogo Mensaje de Registro,\npuede hacer clic primario en el control de fecha \"DESDE\", y luego hacer clic en el elemento \"Sin limitación\"."
 
 #. Resource IDs: (1080)
 #, c-format
@@ -9949,7 +9957,7 @@ msgid ""
 "The fetched branch fast-forwards upon the current branch.\n"
 "\n"
 "Merge or open the rebase dialog anyway?"
-msgstr "El ramal (branch) descargado (fetch) representa un avance rápido sobre el ramal actual.\n\n¿Fusionar (merge) o abrir el cuadro de diálogo reasentar (rebase) de todas formas?"
+msgstr "El ramal descargado (fetch) representa un avance rápido sobre el ramal actual.\n\n¿Fusionar (merge) o abrir el cuadro de diálogo reasentar (rebase) de todas formas?"
 
 #. Resource IDs: (1020)
 #, c-format
@@ -10144,7 +10152,7 @@ msgid ""
 "The remote branch has not changed.\n"
 "\n"
 "Open the rebase dialog anyway?"
-msgstr "El ramal (branch) remoto no ha cambiado.\n\n¿Abrir el cuadro de diálogo reasentar (rebase) de todas formas?"
+msgstr "El ramal remoto no ha cambiado.\n\n¿Abrir el cuadro de diálogo reasentar (rebase) de todas formas?"
 
 #. Resource IDs: (1267)
 msgid "The repository was successfully created."

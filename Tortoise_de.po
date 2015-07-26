@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-26 00:31+0000\n"
+"PO-Revision-Date: 2015-07-26 16:29+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1051,7 +1051,7 @@ msgstr "E&rneut eintragen"
 
 #. Resource IDs: (1581)
 msgid "&Rebase"
-msgstr ""
+msgstr "&Neu aufbauen"
 
 #. Resource IDs: (1246)
 msgid "&Recent messages"
@@ -3677,7 +3677,7 @@ msgstr "Standard Anwendungsmenü. Wird angezeigt, wenn keine Dokumente geöffnet
 
 #. Resource IDs: (65535)
 msgid "Default limitation of log messages:"
-msgstr ""
+msgstr "Standard Limit für Log-Meldungen:"
 
 #. Resource IDs: (1064)
 msgid "Default to UTF-8 encoding"
@@ -4044,6 +4044,10 @@ msgstr "Zeige diese Warnung &nicht wieder (wenn Fortfahren gewählt wurde)"
 msgid "Do &not show me this warning again (if Ignore is selected)"
 msgstr "Zeige diese Warnung &nicht wieder (wenn Ignorieren gewählt wurde)"
 
+#. Resource IDs: (1407)
+msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
+msgstr "\"Fehlende\" Dateien nicht automatisch auswähnen (gelöscht, aber nicht im Index)"
+
 #. Resource IDs: (1669)
 msgid "Do not autoselect submodules"
 msgstr "Submodule nicht automatisch auswählen"
@@ -4257,7 +4261,7 @@ msgstr "Dumy Group For locat TabCtr"
 
 #. Resource IDs: (1563)
 msgid "E&dit unselected"
-msgstr ""
+msgstr "Nicht ausgewählte be&arbeiten"
 
 #. Resource IDs: (65535)
 msgid "E&xclude paths:"
@@ -6186,22 +6190,22 @@ msgstr "Sprache:"
 #. Resource IDs: (1574)
 #, c-format
 msgid "Last %s commit(s)"
-msgstr ""
+msgstr "Letzte %s Eintragung(en)"
 
 #. Resource IDs: (1571)
 #, c-format
 msgid "Last %s month(s)"
-msgstr ""
+msgstr "Letzte(r) %s Monat(e)"
 
 #. Resource IDs: (1570)
 #, c-format
 msgid "Last %s week(s)"
-msgstr ""
+msgstr "Letzte %s Woche(n)"
 
 #. Resource IDs: (1572)
 #, c-format
 msgid "Last %s year(s)"
-msgstr ""
+msgstr "Letzte(s) %s Jahr(e)"
 
 #. Resource IDs: (1350)
 msgid "Last Author"
@@ -6225,7 +6229,7 @@ msgstr "Letzte bekannte &gute Version:"
 
 #. Resource IDs: (1578)
 msgid "Last selected date"
-msgstr ""
+msgstr "Letztes ausgewähltes Datum"
 
 #. Resource IDs: (187)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -6628,6 +6632,10 @@ msgstr "Minimale Anzahl von Zeichen für eine Logmeldung:"
 msgid "Misc"
 msgstr "Allgemein"
 
+#. Resource IDs: (20120)
+msgid "Missing"
+msgstr "Fehlt"
+
 #. Resource IDs: (1422, 62179)
 msgid "Mixed"
 msgstr "Gemischt"
@@ -6927,7 +6935,7 @@ msgstr "Kein Bildkodierer für %s gefunden."
 
 #. Resource IDs: (1577)
 msgid "No limitation"
-msgstr ""
+msgstr "Keine Limitierung"
 
 #. Resource IDs: (1375)
 msgid "No more revisions found."
@@ -8518,11 +8526,11 @@ msgstr "Zeige Schnellzugriffsleiste &unterhalb des Bandes"
 
 #. Resource IDs: (1561)
 msgid "S&kip unselected"
-msgstr ""
+msgstr "Nicht ausgewählte i&gnorieren"
 
 #. Resource IDs: (1562)
 msgid "S&quash unselected"
-msgstr ""
+msgstr "Nicht ausgewählte z&usammenfassen"
 
 #. Resource IDs: (1132)
 msgid "S&tatistics"
@@ -9889,7 +9897,7 @@ msgstr "Die Archivkonfiguration wurde geändert.\nMöchten Sie die Änderungen s
 msgid ""
 "The \"number of\" value for those \"Last N\" options.\n"
 "Should be > 0"
-msgstr ""
+msgstr "Der Anzahl Wert für die \"Letzte N\"-Optionen.\nMuss > 0 sein"
 
 #. Resource IDs: (1115)
 #, c-format
@@ -9931,7 +9939,7 @@ msgid ""
 "The default limitation of log messages when you open Log Message dialog.\n"
 "Note: For showing all commits in Log Message dialog,\n"
 "you can right click on \"FROM\" date control, then click \"No limitation\" item."
-msgstr ""
+msgstr "Die Standard-Limitation der Log-Eintragungen, wenn Sie den Log-Meldungen Dialog öffnen.\nBeachten Sie: Um alle Log-Meldungen anzuzeigen,\nöffnen Sie auf dem \"Von\"-Datum-Element das Kontextmenü und wähnen \"Keine Limitierung\"."
 
 #. Resource IDs: (1080)
 #, c-format
@@ -9951,7 +9959,7 @@ msgid ""
 "The fetched branch fast-forwards upon the current branch.\n"
 "\n"
 "Merge or open the rebase dialog anyway?"
-msgstr ""
+msgstr "Der geholte Zweig kann direkt auf den aktuellen Zweig angewendet werden (fast-forward).\n\nZusammenführen oder den \"Neu aufbauen\" Dialog trotzdem öffnen?"
 
 #. Resource IDs: (1020)
 #, c-format
@@ -10146,7 +10154,7 @@ msgid ""
 "The remote branch has not changed.\n"
 "\n"
 "Open the rebase dialog anyway?"
-msgstr ""
+msgstr "Der entfernte Zweig wurde nicht geändert.\n\nMöchten Sie den \"Neu aufbauen\" Dialog trotzdem öffnen?"
 
 #. Resource IDs: (1267)
 msgid "The repository was successfully created."

@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-26 06:59+0000\n"
+"PO-Revision-Date: 2015-07-26 19:16+0000\n"
 "Last-Translator: Zbyněk Schwarz <zbynek.schwarz@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -4043,6 +4043,10 @@ msgstr "&Toto varování již nepotřebuji vidět (pokud je zvoleno Pokračovat)
 msgid "Do &not show me this warning again (if Ignore is selected)"
 msgstr "&Toto varování již nepotřebuji vidět (pokud je zvoleno Ignorovat)"
 
+#. Resource IDs: (1407)
+msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
+msgstr "Nevybírat automaticky \"chybějící\" soubory (smazané, ale nezařazené)"
+
 #. Resource IDs: (1669)
 msgid "Do not autoselect submodules"
 msgstr "Podmoduly nevybírat automaticky"
@@ -6195,12 +6199,12 @@ msgstr "Poslední %s měsíc(e)"
 #. Resource IDs: (1570)
 #, c-format
 msgid "Last %s week(s)"
-msgstr ""
+msgstr "Poslední(ch) %s týden/týdnů"
 
 #. Resource IDs: (1572)
 #, c-format
 msgid "Last %s year(s)"
-msgstr ""
+msgstr "Poslední(ch) %s rok(ů)"
 
 #. Resource IDs: (1350)
 msgid "Last Author"
@@ -6224,7 +6228,7 @@ msgstr "Poslední známá &dobrá:"
 
 #. Resource IDs: (1578)
 msgid "Last selected date"
-msgstr ""
+msgstr "Poslední zvolené datum"
 
 #. Resource IDs: (187)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -6627,6 +6631,10 @@ msgstr "Minimální počet znaků ve zprávě odevzdání:"
 msgid "Misc"
 msgstr "Ostatní"
 
+#. Resource IDs: (20120)
+msgid "Missing"
+msgstr "Chybějící"
+
 #. Resource IDs: (1422, 62179)
 msgid "Mixed"
 msgstr "Smíšené"
@@ -6926,7 +6934,7 @@ msgstr "Pro %s nenalezen žádný kodér obrázku."
 
 #. Resource IDs: (1577)
 msgid "No limitation"
-msgstr ""
+msgstr "Bez omezení"
 
 #. Resource IDs: (1375)
 msgid "No more revisions found."
@@ -9888,7 +9896,7 @@ msgstr "Vzdálené nastavení bylo změněno.\nChcete ho uložit nebo změny zah
 msgid ""
 "The \"number of\" value for those \"Last N\" options.\n"
 "Should be > 0"
-msgstr ""
+msgstr "Hodnota \"počet\" pro volby \"Posledních N\".\nMěla by být > 0"
 
 #. Resource IDs: (1115)
 #, c-format
@@ -9930,7 +9938,7 @@ msgid ""
 "The default limitation of log messages when you open Log Message dialog.\n"
 "Note: For showing all commits in Log Message dialog,\n"
 "you can right click on \"FROM\" date control, then click \"No limitation\" item."
-msgstr ""
+msgstr "Výchozí omezení zpráv záznamu při otevření dialogového okna zpráv záznamu.\nPoznámka: Pro zobrazení všech zpráv v dialogovém okně\nmůžete kliknout pravým tlačítkem na datové pole \"OD\" a pak kliknout na položku \"Bez omezení\"."
 
 #. Resource IDs: (1080)
 #, c-format
@@ -9950,7 +9958,7 @@ msgid ""
 "The fetched branch fast-forwards upon the current branch.\n"
 "\n"
 "Merge or open the rebase dialog anyway?"
-msgstr ""
+msgstr "Získaná větev rychle posouvá vpřed současnou větev.\n\nChcete přesto sloučit nebo otevřít dialogové okno přeskládání?"
 
 #. Resource IDs: (1020)
 #, c-format
@@ -10145,7 +10153,7 @@ msgid ""
 "The remote branch has not changed.\n"
 "\n"
 "Open the rebase dialog anyway?"
-msgstr ""
+msgstr "Vzdálená větev se nezměnila.\n\nChcete přesto otevřít dialogové okno přeskládání?"
 
 #. Resource IDs: (1267)
 msgid "The repository was successfully created."
