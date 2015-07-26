@@ -22,9 +22,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-19 05:21+0000\n"
-"Last-Translator: YF <yfdyh000@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/p/tortoisegit/language/zh_CN/)\n"
+"PO-Revision-Date: 2015-07-26 00:31+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -894,7 +894,7 @@ msgstr "菜单动画(&M):"
 msgid "&Menu contents:"
 msgstr "菜单内容(&M):"
 
-#. Resource IDs: (1735)
+#. Resource IDs: (1580, 1735)
 msgid "&Merge"
 msgstr "合并(&M)"
 
@@ -1053,6 +1053,10 @@ msgstr "推送所有分支(&P)"
 #. Resource IDs: (1136)
 msgid "&ReCommit"
 msgstr "重新提交(&R)"
+
+#. Resource IDs: (1581)
+msgid "&Rebase"
+msgstr ""
 
 #. Resource IDs: (1246)
 msgid "&Recent messages"
@@ -3676,6 +3680,10 @@ msgstr "默认菜单"
 msgid "Default application menu. Appears when no documents are open."
 msgstr "默认应用程序菜单。在没有打开文档的时候显示。"
 
+#. Resource IDs: (65535)
+msgid "Default limitation of log messages:"
+msgstr ""
+
 #. Resource IDs: (1064)
 msgid "Default to UTF-8 encoding"
 msgstr "默认为UTF-8编码"
@@ -6180,6 +6188,26 @@ msgstr "行8"
 msgid "Language:"
 msgstr "语言:"
 
+#. Resource IDs: (1574)
+#, c-format
+msgid "Last %s commit(s)"
+msgstr ""
+
+#. Resource IDs: (1571)
+#, c-format
+msgid "Last %s month(s)"
+msgstr ""
+
+#. Resource IDs: (1570)
+#, c-format
+msgid "Last %s week(s)"
+msgstr ""
+
+#. Resource IDs: (1572)
+#, c-format
+msgid "Last %s year(s)"
+msgstr ""
+
 #. Resource IDs: (1350)
 msgid "Last Author"
 msgstr "最后的作者"
@@ -6199,6 +6227,10 @@ msgstr "最后修改:"
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr "最后已知正常版本(&G):"
+
+#. Resource IDs: (1578)
+msgid "Last selected date"
+msgstr ""
 
 #. Resource IDs: (187)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -6897,6 +6929,10 @@ msgstr "没有可使用的图表"
 #, c-format
 msgid "No image encoder found for %s."
 msgstr "没有找到适用于 %s 的图像解码器。"
+
+#. Resource IDs: (1577)
+msgid "No limitation"
+msgstr ""
 
 #. Resource IDs: (1375)
 msgid "No more revisions found."
@@ -9854,6 +9890,12 @@ msgid ""
 "Do you want to save now or discard changes?"
 msgstr "远端配置已更改。\n您想保存还是放弃更改？"
 
+#. Resource IDs: (1575)
+msgid ""
+"The \"number of\" value for those \"Last N\" options.\n"
+"Should be > 0"
+msgstr ""
+
 #. Resource IDs: (1115)
 #, c-format
 msgid ""
@@ -9889,6 +9931,13 @@ msgid ""
 "Do you want to stash the changes?"
 msgstr "当前的工作副本有变更。\n您要储藏(stash)这些变更吗？"
 
+#. Resource IDs: (1576)
+msgid ""
+"The default limitation of log messages when you open Log Message dialog.\n"
+"Note: For showing all commits in Log Message dialog,\n"
+"you can right click on \"FROM\" date control, then click \"No limitation\" item."
+msgstr ""
+
 #. Resource IDs: (1080)
 #, c-format
 msgid ""
@@ -9901,6 +9950,13 @@ msgid ""
 "The entered source ref is ambiguous.\n"
 "You have to make it unique (e.g. by adding \"refs/heads/\" as a prefix for branches or \"refs/tags/\" for tags)!"
 msgstr "输入的源引用不明确。\n您必须确保目标唯一！您可以添加“refs/heads/”作为分支的前缀，添加“refs/tags/”作为标签的前缀。"
+
+#. Resource IDs: (1579)
+msgid ""
+"The fetched branch fast-forwards upon the current branch.\n"
+"\n"
+"Merge or open the rebase dialog anyway?"
+msgstr ""
 
 #. Resource IDs: (1020)
 #, c-format
@@ -10089,6 +10145,13 @@ msgid ""
 "The remote \"%s\" already exists.\n"
 "Do you want to overwrite it?"
 msgstr "远端“%s”已经存在。\n您要覆盖它吗？"
+
+#. Resource IDs: (1573)
+msgid ""
+"The remote branch has not changed.\n"
+"\n"
+"Open the rebase dialog anyway?"
+msgstr ""
 
 #. Resource IDs: (1267)
 msgid "The repository was successfully created."

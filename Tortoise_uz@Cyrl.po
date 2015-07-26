@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-18 23:09+0000\n"
+"PO-Revision-Date: 2015-07-26 00:31+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
-"Language-Team: Uzbek (Cyrillic) (http://www.transifex.com/p/tortoisegit/language/uz@Cyrl/)\n"
+"Language-Team: Uzbek (Cyrillic) (http://www.transifex.com/projects/p/tortoisegit/language/uz@Cyrl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -882,7 +882,7 @@ msgstr ""
 msgid "&Menu contents:"
 msgstr ""
 
-#. Resource IDs: (1735)
+#. Resource IDs: (1580, 1735)
 msgid "&Merge"
 msgstr ""
 
@@ -1040,6 +1040,10 @@ msgstr ""
 
 #. Resource IDs: (1136)
 msgid "&ReCommit"
+msgstr ""
+
+#. Resource IDs: (1581)
+msgid "&Rebase"
 msgstr ""
 
 #. Resource IDs: (1246)
@@ -3664,6 +3668,10 @@ msgstr ""
 msgid "Default application menu. Appears when no documents are open."
 msgstr ""
 
+#. Resource IDs: (65535)
+msgid "Default limitation of log messages:"
+msgstr ""
+
 #. Resource IDs: (1064)
 msgid "Default to UTF-8 encoding"
 msgstr ""
@@ -6168,6 +6176,26 @@ msgstr ""
 msgid "Language:"
 msgstr ""
 
+#. Resource IDs: (1574)
+#, c-format
+msgid "Last %s commit(s)"
+msgstr ""
+
+#. Resource IDs: (1571)
+#, c-format
+msgid "Last %s month(s)"
+msgstr ""
+
+#. Resource IDs: (1570)
+#, c-format
+msgid "Last %s week(s)"
+msgstr ""
+
+#. Resource IDs: (1572)
+#, c-format
+msgid "Last %s year(s)"
+msgstr ""
+
 #. Resource IDs: (1350)
 msgid "Last Author"
 msgstr ""
@@ -6186,6 +6214,10 @@ msgstr ""
 
 #. Resource IDs: (1616)
 msgid "Last known &good:"
+msgstr ""
+
+#. Resource IDs: (1578)
+msgid "Last selected date"
 msgstr ""
 
 #. Resource IDs: (187)
@@ -6884,6 +6916,10 @@ msgstr ""
 #. Resource IDs: (4362)
 #, c-format
 msgid "No image encoder found for %s."
+msgstr ""
+
+#. Resource IDs: (1577)
+msgid "No limitation"
 msgstr ""
 
 #. Resource IDs: (1375)
@@ -9842,6 +9878,12 @@ msgid ""
 "Do you want to save now or discard changes?"
 msgstr ""
 
+#. Resource IDs: (1575)
+msgid ""
+"The \"number of\" value for those \"Last N\" options.\n"
+"Should be > 0"
+msgstr ""
+
 #. Resource IDs: (1115)
 #, c-format
 msgid ""
@@ -9877,6 +9919,13 @@ msgid ""
 "Do you want to stash the changes?"
 msgstr ""
 
+#. Resource IDs: (1576)
+msgid ""
+"The default limitation of log messages when you open Log Message dialog.\n"
+"Note: For showing all commits in Log Message dialog,\n"
+"you can right click on \"FROM\" date control, then click \"No limitation\" item."
+msgstr ""
+
 #. Resource IDs: (1080)
 #, c-format
 msgid ""
@@ -9888,6 +9937,13 @@ msgstr ""
 msgid ""
 "The entered source ref is ambiguous.\n"
 "You have to make it unique (e.g. by adding \"refs/heads/\" as a prefix for branches or \"refs/tags/\" for tags)!"
+msgstr ""
+
+#. Resource IDs: (1579)
+msgid ""
+"The fetched branch fast-forwards upon the current branch.\n"
+"\n"
+"Merge or open the rebase dialog anyway?"
 msgstr ""
 
 #. Resource IDs: (1020)
@@ -10076,6 +10132,13 @@ msgstr ""
 msgid ""
 "The remote \"%s\" already exists.\n"
 "Do you want to overwrite it?"
+msgstr ""
+
+#. Resource IDs: (1573)
+msgid ""
+"The remote branch has not changed.\n"
+"\n"
+"Open the rebase dialog anyway?"
 msgstr ""
 
 #. Resource IDs: (1267)

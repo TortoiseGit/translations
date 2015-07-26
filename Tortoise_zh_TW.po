@@ -17,9 +17,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-20 08:53+0000\n"
-"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/p/tortoisegit/language/zh_TW/)\n"
+"PO-Revision-Date: 2015-07-26 00:31+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -889,7 +889,7 @@ msgstr "選單動畫效果(&M)："
 msgid "&Menu contents:"
 msgstr "選單內容(&M)："
 
-#. Resource IDs: (1735)
+#. Resource IDs: (1580, 1735)
 msgid "&Merge"
 msgstr "合併 (&M)"
 
@@ -1048,6 +1048,10 @@ msgstr "推送所有分支(&P)"
 #. Resource IDs: (1136)
 msgid "&ReCommit"
 msgstr "重新提交(&R)"
+
+#. Resource IDs: (1581)
+msgid "&Rebase"
+msgstr ""
 
 #. Resource IDs: (1246)
 msgid "&Recent messages"
@@ -3671,6 +3675,10 @@ msgstr "預設選單"
 msgid "Default application menu. Appears when no documents are open."
 msgstr "預設程式選單. 沒開啟文件時使用."
 
+#. Resource IDs: (65535)
+msgid "Default limitation of log messages:"
+msgstr ""
+
 #. Resource IDs: (1064)
 msgid "Default to UTF-8 encoding"
 msgstr "預設使用 UTF-8 編碼"
@@ -6175,6 +6183,26 @@ msgstr "列8"
 msgid "Language:"
 msgstr "語系："
 
+#. Resource IDs: (1574)
+#, c-format
+msgid "Last %s commit(s)"
+msgstr ""
+
+#. Resource IDs: (1571)
+#, c-format
+msgid "Last %s month(s)"
+msgstr ""
+
+#. Resource IDs: (1570)
+#, c-format
+msgid "Last %s week(s)"
+msgstr ""
+
+#. Resource IDs: (1572)
+#, c-format
+msgid "Last %s year(s)"
+msgstr ""
+
 #. Resource IDs: (1350)
 msgid "Last Author"
 msgstr "上一個作者"
@@ -6194,6 +6222,10 @@ msgstr "上次修改："
 #. Resource IDs: (1616)
 msgid "Last known &good:"
 msgstr "最後已知良好版本(&G)："
+
+#. Resource IDs: (1578)
+msgid "Last selected date"
+msgstr ""
 
 #. Resource IDs: (187)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -6892,6 +6924,10 @@ msgstr "沒有圖可顯示"
 #, c-format
 msgid "No image encoder found for %s."
 msgstr "找不到 %s 的圖型編碼程式。"
+
+#. Resource IDs: (1577)
+msgid "No limitation"
+msgstr ""
 
 #. Resource IDs: (1375)
 msgid "No more revisions found."
@@ -9849,6 +9885,12 @@ msgid ""
 "Do you want to save now or discard changes?"
 msgstr "遠端組態已改變\n要「儲存」或「放棄變更」？"
 
+#. Resource IDs: (1575)
+msgid ""
+"The \"number of\" value for those \"Last N\" options.\n"
+"Should be > 0"
+msgstr ""
+
 #. Resource IDs: (1115)
 #, c-format
 msgid ""
@@ -9884,6 +9926,13 @@ msgid ""
 "Do you want to stash the changes?"
 msgstr "目前工作目錄有改動，\n你想藏起(stash)改動嗎？"
 
+#. Resource IDs: (1576)
+msgid ""
+"The default limitation of log messages when you open Log Message dialog.\n"
+"Note: For showing all commits in Log Message dialog,\n"
+"you can right click on \"FROM\" date control, then click \"No limitation\" item."
+msgstr ""
+
 #. Resource IDs: (1080)
 #, c-format
 msgid ""
@@ -9896,6 +9945,13 @@ msgid ""
 "The entered source ref is ambiguous.\n"
 "You have to make it unique (e.g. by adding \"refs/heads/\" as a prefix for branches or \"refs/tags/\" for tags)!"
 msgstr "輸入的參照是模稜兩可的，\n你應輸入獨一無二的參照（如：在分支名稱前加上「refs/heads/」或在標籤名稱前加上「refs/tags/」）！"
+
+#. Resource IDs: (1579)
+msgid ""
+"The fetched branch fast-forwards upon the current branch.\n"
+"\n"
+"Merge or open the rebase dialog anyway?"
+msgstr ""
 
 #. Resource IDs: (1020)
 #, c-format
@@ -10084,6 +10140,13 @@ msgid ""
 "The remote \"%s\" already exists.\n"
 "Do you want to overwrite it?"
 msgstr "遠端「%s」已經存在\n要覆寫嗎？"
+
+#. Resource IDs: (1573)
+msgid ""
+"The remote branch has not changed.\n"
+"\n"
+"Open the rebase dialog anyway?"
+msgstr ""
 
 #. Resource IDs: (1267)
 msgid "The repository was successfully created."
