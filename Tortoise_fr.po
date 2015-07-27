@@ -24,8 +24,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-26 16:21+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2015-07-27 08:54+0000\n"
+"Last-Translator: bauland <nicolas.bauland@laposte.net>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -336,7 +336,7 @@ msgstr "&3 manière de fusionner"
 
 #. Resource IDs: (1154)
 msgid "&Abort"
-msgstr ""
+msgstr "&Annuler"
 
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
@@ -548,7 +548,7 @@ msgstr "$Compresser le graphique"
 
 #. Resource IDs: (1159)
 msgid "&Continue"
-msgstr ""
+msgstr "&Continuer"
 
 #. Resource IDs: (1367, 1471, 8000, 57634)
 msgid "&Copy"
@@ -628,7 +628,7 @@ msgstr "Ne plus &demander"
 
 #. Resource IDs: (1153)
 msgid "&Don't show this message again"
-msgstr ""
+msgstr "Ne plus afficher ce message"
 
 #. Resource IDs: (1384)
 msgid "&Down"
@@ -748,7 +748,7 @@ msgstr "&Aller à\tCtrl+G"
 
 #. Resource IDs: (1454)
 msgid "&Gray Unrelated Changed Paths"
-msgstr ""
+msgstr "&Griser les chemins modifiés non versionés"
 
 #. Resource IDs: (65535)
 msgid "&Green:"
@@ -958,7 +958,7 @@ msgstr "&Page Suivante"
 
 #. Resource IDs: (109, 1162)
 msgid "&No"
-msgstr ""
+msgstr "&Non"
 
 #. Resource IDs: (16632)
 msgid "&No double-click event"
@@ -986,7 +986,7 @@ msgstr "&Une Page"
 
 #. Resource IDs: (1828)
 msgid "&Onto"
-msgstr ""
+msgstr "Dans"
 
 #. Resource IDs: (1602, 20014, 32773)
 msgid "&Open"
@@ -1058,7 +1058,7 @@ msgstr "&ReLivrer"
 
 #. Resource IDs: (1581)
 msgid "&Rebase"
-msgstr ""
+msgstr "&Rebase"
 
 #. Resource IDs: (1246)
 msgid "&Recent messages"
@@ -1154,7 +1154,7 @@ msgstr "&Restaurer l'ancien état"
 
 #. Resource IDs: (1155)
 msgid "&Retry"
-msgstr ""
+msgstr "&Réessayer"
 
 #. Resource IDs: (20022)
 msgid "&Revert change by this commit"
@@ -1314,7 +1314,7 @@ msgstr "&Malle:"
 
 #. Resource IDs: (1158)
 msgid "&Try Again"
-msgstr ""
+msgstr "Réessayer"
 
 #. Resource IDs: (61506)
 msgid "&Two Page"
@@ -1386,7 +1386,7 @@ msgstr "Dans le fichier"
 
 #. Resource IDs: (108, 1161)
 msgid "&Yes"
-msgstr ""
+msgstr "Oui"
 
 #. Resource IDs: (1657)
 msgid "&ignore space change"
@@ -1773,7 +1773,7 @@ msgstr "Ajouter une \"&signature\""
 
 #. Resource IDs: (1556)
 msgid "Add another commit?"
-msgstr ""
+msgstr "Ajouter une autre livraison ?"
 
 #. Resource IDs: (1750)
 msgid "Add extension specific diff program"
@@ -1923,7 +1923,7 @@ msgstr "Autoriser l'utilisation d'URL Gravatar personnalisée"
 msgid ""
 "Allows to create an empty commit which only has a commit message and no "
 "files (cf. git commit --allow-empty)."
-msgstr ""
+msgstr "Autoriser la création d'une livraison vide qui n'aurait qu'un message sans fichiers (cf. git commit --allow-empty)."
 
 #. Resource IDs: (1048)
 msgid "Already up to date."
@@ -3684,7 +3684,7 @@ msgstr "Menu application par défaut. Apparaît quand aucun document n'est ouver
 
 #. Resource IDs: (65535)
 msgid "Default limitation of log messages:"
-msgstr ""
+msgstr "Limites par défaut des messages du journal:"
 
 #. Resource IDs: (1064)
 msgid "Default to UTF-8 encoding"
@@ -4041,7 +4041,7 @@ msgstr "Voir les informations du programme, sa version et son copyright\nÀ prop
 
 #. Resource IDs: (1075)
 msgid "Display subject and body of commit messages"
-msgstr ""
+msgstr "Afficher le sujet et le corps des messages de livraison"
 
 #. Resource IDs: (1374)
 msgid "Do &not show me this warning again (if Continue is selected)"
@@ -4053,7 +4053,7 @@ msgstr "&Ne pas montrer à nouveau cet avertissement (si Ignorer est sélectionn
 
 #. Resource IDs: (1407)
 msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
-msgstr ""
+msgstr "Ne pas sélectionner automatiquement les fichiers \"manquants\" (effacés, mais non suivis)"
 
 #. Resource IDs: (1669)
 msgid "Do not autoselect submodules"
@@ -4106,7 +4106,7 @@ msgstr "Voulez-vous vraiment supprimer de manière permanante les %d référence
 #. Resource IDs: (1568)
 #, c-format
 msgid "Do you really want to remove \"%s\" from the index?"
-msgstr ""
+msgstr "Voulez-vous vraiment supprimer \"%s\" de l'index ?"
 
 #. Resource IDs: (1128)
 #, c-format
@@ -4118,12 +4118,12 @@ msgstr "Voulez-vous vraiment supprimer \"%s\" ?"
 msgid ""
 "Do you really want to remove the %d selected files/directories from the "
 "index?"
-msgstr ""
+msgstr "Voulez-vous vraiment supprimer les %d fichiers/dossiers sélectionnés de l'index ?"
 
 #. Resource IDs: (1566)
 #, c-format
 msgid "Do you really want to remove the %d selected files/directories?"
-msgstr ""
+msgstr "Voulez-vous vraiment supprimer les %d fichiers/dossiers sélectionnés ?"
 
 #. Resource IDs: (1089)
 msgid ""
@@ -4220,7 +4220,7 @@ msgstr "Ne pas sauver⏎\nRecharger les vues sans sauver les modifications"
 
 #. Resource IDs: (65535)
 msgid "Don't show the selected items: (press shift key to show them)"
-msgstr ""
+msgstr "Ne pas afficher les éléments sélectionnés: (appuyez sur la touche shift pour les afficher)"
 
 #. Resource IDs: (1272)
 msgid "Don't show this message again"
@@ -4268,7 +4268,7 @@ msgstr "Groupe factice pour locat TabCtr"
 
 #. Resource IDs: (1563)
 msgid "E&dit unselected"
-msgstr ""
+msgstr "Mo&difier les non sélectionnés"
 
 #. Resource IDs: (65535)
 msgid "E&xclude paths:"
@@ -4364,7 +4364,7 @@ msgstr "Éditer..."
 
 #. Resource IDs: (1827)
 msgid "Edit/Split commit"
-msgstr ""
+msgstr "Modifier/Découper la livraison"
 
 #. Resource IDs: (1770)
 msgid "Effective"
