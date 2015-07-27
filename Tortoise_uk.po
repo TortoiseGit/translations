@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-26 16:21+0000\n"
+"PO-Revision-Date: 2015-07-27 21:10+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -672,8 +672,8 @@ msgid "&Enable edit"
 msgstr "&Дозволити редагування"
 
 #. Resource IDs: (32771)
-msgid "&Exit"
-msgstr "&Вийти"
+msgid "&Exit\tCtrl+W"
+msgstr ""
 
 #. Resource IDs: (5152)
 msgid "&Export selection to..."
@@ -691,13 +691,13 @@ msgstr "&Файл"
 msgid "&Find"
 msgstr "&Знайти"
 
-#. Resource IDs: (57636)
+#. Resource IDs: (32787, 57636)
 msgid "&Find\tCtrl+F"
 msgstr "&Знайти\tCtrl+F"
 
 #. Resource IDs: (32778)
-msgid "&Fit images in window"
-msgstr "&Розтягнути зображення по вікну"
+msgid "&Fit images in window\tF"
+msgstr ""
 
 #. Resource IDs: (1050)
 msgid "&Fixed drives"
@@ -785,8 +785,8 @@ msgid "&Image"
 msgstr "&Зображення"
 
 #. Resource IDs: (32790)
-msgid "&Image info"
-msgstr "Інформація про &зображення"
+msgid "&Image info\tI"
+msgstr ""
 
 #. Resource IDs: (16505)
 msgid "&Image only"
@@ -981,7 +981,7 @@ msgstr "&Одна сторінка"
 msgid "&Onto"
 msgstr ""
 
-#. Resource IDs: (1602, 20014, 32773)
+#. Resource IDs: (1602, 20014)
 msgid "&Open"
 msgstr "&Відкрити"
 
@@ -989,11 +989,7 @@ msgstr "&Відкрити"
 msgid "&Open Git for Windows WebSite"
 msgstr "&відрити веб-сторінку Git для Windows"
 
-#. Resource IDs: (32774)
-msgid "&Open..."
-msgstr "&Відкрити..."
-
-#. Resource IDs: (57601)
+#. Resource IDs: (32773, 32774, 57601)
 msgid "&Open...\tCtrl+O"
 msgstr "&Відкрити...\tCtrl+O"
 
@@ -1006,8 +1002,8 @@ msgid "&Overlay Icon:"
 msgstr ""
 
 #. Resource IDs: (32772)
-msgid "&Overlay images"
-msgstr "Пе&рекривати зображення"
+msgid "&Overlay images\tO"
+msgstr ""
 
 #. Resource IDs: (1411, 5002, 65535)
 msgid "&Password:"
@@ -1029,9 +1025,13 @@ msgstr "&Порт:"
 msgid "&Print Preview"
 msgstr "Попередній перегляд &друку"
 
-#. Resource IDs: (32782, 58116)
+#. Resource IDs: (58116)
 msgid "&Print..."
 msgstr "&Друк..."
+
+#. Resource IDs: (32782)
+msgid "&Print...\tCtrl+P"
+msgstr ""
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1165,7 +1165,7 @@ msgstr "Клієнт &SSH"
 msgid "&Saturation:"
 msgstr ""
 
-#. Resource IDs: (1125, 16921, 32776)
+#. Resource IDs: (1125, 16921)
 msgid "&Save"
 msgstr "&Зберегти"
 
@@ -1180,6 +1180,10 @@ msgstr "&Зберегти граф як..."
 #. Resource IDs: (5151)
 msgid "&Save list of selected files to..."
 msgstr "&Зберегти список вибраних файлів до..."
+
+#. Resource IDs: (32776)
+msgid "&Save\tCtrl+S"
+msgstr ""
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -2071,7 +2075,7 @@ msgid "Are you sure you want to save to \"%s\"?"
 msgstr ""
 
 #. Resource IDs: (32793)
-msgid "Arrange &vertical"
+msgid "Arrange &vertical\tV"
 msgstr ""
 
 #. Resource IDs: (4210)
@@ -5019,11 +5023,11 @@ msgid "First known &bad:"
 msgstr ""
 
 #. Resource IDs: (32818)
-msgid "Fit image &heights"
+msgid "Fit image &heights\tH"
 msgstr ""
 
 #. Resource IDs: (32817)
-msgid "Fit image &widths"
+msgid "Fit image &widths\tW"
 msgstr ""
 
 #. Resource IDs: (1315)
@@ -5574,23 +5578,23 @@ msgstr "ID"
 msgid "ID:220:V C +G"
 msgstr ""
 
-#. Accelerator Entry for Menu ID:32771; '&Exit'
+#. Accelerator Entry for Menu ID:32771; '&Exit\tCtrl+W'
 msgid "ID:32771:V C +W"
 msgstr ""
 
-#. Accelerator Entry for Menu ID:32772; '&Overlay images'
+#. Accelerator Entry for Menu ID:32772; '&Overlay images\tO'
 msgid "ID:32772:V   +O"
 msgstr "ID:32772:V   +O"
 
-#. Accelerator Entry for Menu ID:32773; '&Open'
+#. Accelerator Entry for Menu ID:32773; '&Open...\tCtrl+O'
 msgid "ID:32773:V C +O"
 msgstr "ID:32773:V C +O"
 
-#. Accelerator Entry for Menu ID:32773; 'Save &as...'
+#. Accelerator Entry for Menu ID:32773; 'Save &as...\tCtrl+Shift+S'
 msgid "ID:32773:V CS+S"
 msgstr ""
 
-#. Accelerator Entry for Menu ID:32774; '&Open...'
+#. Accelerator Entry for Menu ID:32774; '&Open...\tCtrl+O'
 msgid "ID:32774:V C +O"
 msgstr ""
 
@@ -5603,27 +5607,27 @@ msgstr "ID:32774:V C +T"
 msgid "ID:32775:V C +D"
 msgstr "ID:32775:V C +D"
 
-#. Accelerator Entry for Menu ID:32776; '&Save'
+#. Accelerator Entry for Menu ID:32776; '&Save\tCtrl+S'
 msgid "ID:32776:V C +S"
 msgstr ""
 
-#. Accelerator Entry for Menu ID:32778; '&Fit images in window'
+#. Accelerator Entry for Menu ID:32778; '&Fit images in window\tF'
 msgid "ID:32778:V   +F"
 msgstr "ID:32778:V   +F"
 
-#. Accelerator Entry for Menu ID:32779; 'Ori&ginal size'
+#. Accelerator Entry for Menu ID:32779; 'Ori&ginal size\tS'
 msgid "ID:32779:V   +S"
 msgstr "ID:32779:V   +S"
 
-#. Accelerator Entry for Menu ID:32782; '&Print...'
+#. Accelerator Entry for Menu ID:32782; '&Print...\tCtrl+P'
 msgid "ID:32782:V C +P"
 msgstr ""
 
-#. Accelerator Entry for Menu ID:32787; ''
+#. Accelerator Entry for Menu ID:32787; '&Find\tCtrl+F'
 msgid "ID:32787:V C +F"
 msgstr ""
 
-#. Accelerator Entry for Menu ID:32793; 'Arrange &vertical'
+#. Accelerator Entry for Menu ID:32793; 'Arrange &vertical\tV'
 msgid "ID:32793:V C +V"
 msgstr "ID:32793:V C +V"
 
@@ -5635,11 +5639,11 @@ msgstr "ID:32794:V C +R"
 msgid "ID:32811:V C +U"
 msgstr "ID:32811:V C +U"
 
-#. Accelerator Entry for Menu ID:32817; 'Fit image &widths'
+#. Accelerator Entry for Menu ID:32817; 'Fit image &widths\tW'
 msgid "ID:32817:V   +W"
 msgstr "ID:32817:V   +W"
 
-#. Accelerator Entry for Menu ID:32818; 'Fit image &heights'
+#. Accelerator Entry for Menu ID:32818; 'Fit image &heights\tH'
 msgid "ID:32818:V   +H"
 msgstr "ID:32818:V   +H"
 
@@ -7297,8 +7301,8 @@ msgid "Options"
 msgstr "Параметри"
 
 #. Resource IDs: (32779)
-msgid "Ori&ginal size"
-msgstr "&Первісний розмір"
+msgid "Ori&ginal size\tS"
+msgstr ""
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -8634,9 +8638,13 @@ msgstr ""
 msgid "Save"
 msgstr "Зберегти"
 
-#. Resource IDs: (1600, 32773, 57604)
+#. Resource IDs: (1600, 57604)
 msgid "Save &as..."
 msgstr "Зберегти &як..."
+
+#. Resource IDs: (32773)
+msgid "Save &as...\tCtrl+Shift+S"
+msgstr ""
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -11485,8 +11493,8 @@ msgid "Zip File"
 msgstr ""
 
 #. Resource IDs: (32783)
-msgid "Zoo&m out"
-msgstr "З&меншити"
+msgid "Zoo&m out\t-"
+msgstr ""
 
 #. Resource IDs: (17093)
 msgid "Zoom"
@@ -11518,8 +11526,8 @@ msgid ""
 msgstr "Зменшити\nЗменшити"
 
 #. Resource IDs: (32784)
-msgid "Zoom i&n"
-msgstr "З&більшити"
+msgid "Zoom i&n\t+"
+msgstr ""
 
 #. Resource IDs: (32772)
 msgid "Zoom in"
