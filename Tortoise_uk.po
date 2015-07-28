@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-27 21:10+0000\n"
+"PO-Revision-Date: 2015-07-28 00:19+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -7870,6 +7870,10 @@ msgstr "R&AM диски"
 msgid "R&eset"
 msgstr "Пе&реініціалізувати"
 
+#. Resource IDs: (1582)
+msgid "R&estore this file from index"
+msgstr ""
+
 #. Resource IDs: (20021)
 msgid "R&evert to this revision"
 msgstr "Пов&ернути до цієї модифікації"
@@ -10435,10 +10439,10 @@ msgstr ""
 #. Resource IDs: (1410)
 #, c-format
 msgid ""
-"TortoiseGit detected that the file \"%s\" does not exist, but is staged as \"Added\".\n"
+"TortoiseGit detected that the file \"%s\" does not exist, but is staged as \"Added\" or \"Modified\".\n"
 "The commit dialog cannot handle this.\n"
 "\n"
-"Do you want to remove it from the index?"
+"Do you want to restore or remove it from the index?"
 msgstr ""
 
 #. Resource IDs: (1560)

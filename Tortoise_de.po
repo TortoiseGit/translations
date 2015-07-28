@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-27 21:10+0000\n"
+"PO-Revision-Date: 2015-07-28 00:45+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -673,7 +673,7 @@ msgstr "B&earbeiten aktivieren"
 
 #. Resource IDs: (32771)
 msgid "&Exit\tCtrl+W"
-msgstr ""
+msgstr "&Beenden\tStrg+W"
 
 #. Resource IDs: (5152)
 msgid "&Export selection to..."
@@ -697,7 +697,7 @@ msgstr "&Suchen\tCtrl+F"
 
 #. Resource IDs: (32778)
 msgid "&Fit images in window\tF"
-msgstr ""
+msgstr "Bilder in &Fenster einpassen\tF"
 
 #. Resource IDs: (1050)
 msgid "&Fixed drives"
@@ -786,7 +786,7 @@ msgstr "&Bild"
 
 #. Resource IDs: (32790)
 msgid "&Image info\tI"
-msgstr ""
+msgstr "Bild&information\tI"
 
 #. Resource IDs: (16505)
 msgid "&Image only"
@@ -1003,7 +1003,7 @@ msgstr "&Overlay Icon:"
 
 #. Resource IDs: (32772)
 msgid "&Overlay images\tO"
-msgstr ""
+msgstr "Bilder &überlagern\tO"
 
 #. Resource IDs: (1411, 5002, 65535)
 msgid "&Password:"
@@ -1031,7 +1031,7 @@ msgstr "&Drucken..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Drucken...\tStrg+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1183,7 +1183,7 @@ msgstr "&Speichere Liste der gewählten Dateien in..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Speichern\tStrg+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -2076,7 +2076,7 @@ msgstr "Sind Sie sicher, dass Sie nach \"%s\" speichern möchten?"
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical\tV"
-msgstr ""
+msgstr "&Vertikal ausrichten\tV"
 
 #. Resource IDs: (4210)
 #, c-format
@@ -5024,11 +5024,11 @@ msgstr "Erste bekannte &schlechte Version:"
 
 #. Resource IDs: (32818)
 msgid "Fit image &heights\tH"
-msgstr ""
+msgstr "Bild&höhen anpassen\tH"
 
 #. Resource IDs: (32817)
 msgid "Fit image &widths\tW"
-msgstr ""
+msgstr "Bild&breiten anpassen\tW"
 
 #. Resource IDs: (1315)
 msgid "Floppy drives (A: B:)"
@@ -7302,7 +7302,7 @@ msgstr "Einstellungen"
 
 #. Resource IDs: (32779)
 msgid "Ori&ginal size\tS"
-msgstr ""
+msgstr "Ori&ginalgröße\tS"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -7869,6 +7869,10 @@ msgstr "&RAM disks"
 #. Resource IDs: (16623)
 msgid "R&eset"
 msgstr "Zurücks&etzen"
+
+#. Resource IDs: (1582)
+msgid "R&estore this file from index"
+msgstr "Diese Datei aus dem Index &wiederherstellen"
 
 #. Resource IDs: (20021)
 msgid "R&evert to this revision"
@@ -8644,7 +8648,7 @@ msgstr "Speichern &unter..."
 
 #. Resource IDs: (32773)
 msgid "Save &as...\tCtrl+Shift+S"
-msgstr ""
+msgstr "Speichern &unter...\tStrg+Shift+S"
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -10435,11 +10439,11 @@ msgstr "TortoiseGit %d.%d.%d.%d %s \n%s \n"
 #. Resource IDs: (1410)
 #, c-format
 msgid ""
-"TortoiseGit detected that the file \"%s\" does not exist, but is staged as \"Added\".\n"
+"TortoiseGit detected that the file \"%s\" does not exist, but is staged as \"Added\" or \"Modified\".\n"
 "The commit dialog cannot handle this.\n"
 "\n"
-"Do you want to remove it from the index?"
-msgstr "TortoiseGit hat entdeckt, dass die Datei \"%s\" nicht existiert, aber im Index als \"Hinzugefügt\" vorgemerkt ist.\nDer Eintragen-Dialog unterstützt dies nicht.\n\nMöchten Sie die Datei vom Index entfernen?"
+"Do you want to restore or remove it from the index?"
+msgstr "TortoiseGit hat entdeckt, dass die Datei \"%s\" nicht existiert, aber im Index als \"Hinzugefügt\" oder \"Verändert\" vorgemerkt ist.\nDer Eintragen-Dialog unterstützt dies nicht.\n\nMöchten Sie die Datei vom Index wiederherstellen oder entfernen?"
 
 #. Resource IDs: (1560)
 #, c-format
@@ -11494,7 +11498,7 @@ msgstr "Zip-Datei"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out\t-"
-msgstr ""
+msgstr "Ver&kleinern\t-"
 
 #. Resource IDs: (17093)
 msgid "Zoom"
@@ -11527,7 +11531,7 @@ msgstr "Verkleinern\nVerkleinern"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n\t+"
-msgstr ""
+msgstr "Ver&größern\t+"
 
 #. Resource IDs: (32772)
 msgid "Zoom in"
