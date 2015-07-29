@@ -11,6 +11,7 @@
 # Heri Zhang <zhang.heri@gmail.com>, 2011
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # omixen <omixen@gmail.com>, 2011
+# Sven Strickroth <sstrickroth@googlemail.com>, 2015
 # uring <uringinteristi@gmail.com>, 2011
 # Yauri <dev.yauri@gmail.com>, 2013
 msgid ""
@@ -18,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-28 00:19+0000\n"
+"PO-Revision-Date: 2015-07-29 12:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/tortoisegit/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +53,7 @@ msgstr "# Pengarang ditampilkan secara terpisah:"
 #. Resource IDs: (5702)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr ""
+msgstr "%.2f MiB berhasil dipindahkan"
 
 #. Resource IDs: (61878)
 #, c-format
@@ -157,7 +158,7 @@ msgstr "%1!d! menit yang lalu"
 #. Resource IDs: (1434)
 #, c-format
 msgid "%1!s!"
-msgstr ""
+msgstr "%1!s!"
 
 #. Resource IDs: (1432)
 #, c-format
@@ -201,7 +202,7 @@ msgstr "%I64d Bytes telah ditransfer"
 #. Resource IDs: (5701)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr ""
+msgstr "%I64d KiB ditransfer"
 
 #. Resource IDs: (1191)
 #, c-format
@@ -330,7 +331,7 @@ msgstr ""
 
 #. Resource IDs: (1154)
 msgid "&Abort"
-msgstr ""
+msgstr "&Batalkan"
 
 #. Resource IDs: (57664)
 msgid "&About TortoiseGitBlame..."
@@ -446,11 +447,11 @@ msgstr ""
 
 #. Resource IDs: (1512)
 msgid "&Branch"
-msgstr ""
+msgstr "Ca&bang"
 
 #. Resource IDs: (4566)
 msgid "&Branch:"
-msgstr ""
+msgstr "Ca&bang:"
 
 #. Resource IDs: (1382)
 msgid "&Browse Dir"
@@ -518,7 +519,7 @@ msgstr "&Perintah:"
 
 #. Resource IDs: (1514, 1625)
 msgid "&Commit"
-msgstr ""
+msgstr "&Komit"
 
 #. Resource IDs: (355)
 msgid "&Commit submodule..."
@@ -698,7 +699,7 @@ msgstr ""
 
 #. Resource IDs: (32778)
 msgid "&Fit images in window\tF"
-msgstr ""
+msgstr "&Fit gambar di jendela\tF"
 
 #. Resource IDs: (1050)
 msgid "&Fixed drives"
@@ -787,7 +788,7 @@ msgstr "&Gambar"
 
 #. Resource IDs: (32790)
 msgid "&Image info\tI"
-msgstr ""
+msgstr "&Informasi gambar\tI"
 
 #. Resource IDs: (16505)
 msgid "&Image only"
@@ -1004,7 +1005,7 @@ msgstr ""
 
 #. Resource IDs: (32772)
 msgid "&Overlay images\tO"
-msgstr ""
+msgstr "&Gambar lapisan\tO"
 
 #. Resource IDs: (1411, 5002, 65535)
 msgid "&Password:"
@@ -1486,7 +1487,7 @@ msgstr "<.....>"
 
 #. Resource IDs: (65535)
 msgid "<<"
-msgstr ""
+msgstr "<<"
 
 #. Resource IDs: (1201)
 msgid "<All Branches>"
@@ -2077,7 +2078,7 @@ msgstr ""
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical\tV"
-msgstr ""
+msgstr "&Atur vertikal\tV"
 
 #. Resource IDs: (4210)
 #, c-format
@@ -2180,7 +2181,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Auto Crlf:"
-msgstr ""
+msgstr "Auto Crlf:"
 
 #. Resource IDs: (16033)
 msgid "Auto Hide"
@@ -2192,7 +2193,7 @@ msgstr "Sembunyikan Otomatis Semua"
 
 #. Resource IDs: (1631)
 msgid "Auto&Crlf"
-msgstr ""
+msgstr "Auto&Crlf"
 
 #. Resource IDs: (3542)
 msgid "Auto-close if no conflicts"
@@ -2434,7 +2435,7 @@ msgstr "Bug-IDs"
 
 #. Resource IDs: (65535)
 msgid "BugTraq"
-msgstr ""
+msgstr "BugTraq"
 
 #. Resource IDs: (327)
 msgid "Bugtraq Regex Tester - TortoiseGit"
@@ -3318,7 +3319,7 @@ msgstr "Mengcopy..."
 
 #. Resource IDs: (1001)
 msgid "Copyright (C) 2009-2015 TortoiseGit"
-msgstr ""
+msgstr "Copyright (C) 2009-2015 TortoiseGit"
 
 #. Resource IDs: (20053)
 msgid "Corrections"
@@ -5336,7 +5337,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Git for Windows"
-msgstr ""
+msgstr "Git for Windows"
 
 #. Resource IDs: (1335)
 msgid "Git for Windows (https://msysgit.github.io/) not found."
@@ -5569,7 +5570,7 @@ msgstr "Sertaka&n path:"
 
 #. Resource IDs: (1580)
 msgid "IBugTraqProvider"
-msgstr ""
+msgstr "IBugTraqProvider"
 
 #. Resource IDs: (20007)
 msgid "ID"
@@ -6441,7 +6442,7 @@ msgstr "Lum"
 
 #. Resource IDs: (1427)
 msgid "MAPI"
-msgstr ""
+msgstr "MAPI"
 
 #. Resource IDs: (5066)
 msgid "Macintosh"
@@ -7166,11 +7167,11 @@ msgstr ""
 
 #. Resource IDs: (213, 10006)
 msgid "Office 2003"
-msgstr ""
+msgstr "Office 2003"
 
 #. Resource IDs: (10008, 65535)
 msgid "Office 2007"
-msgstr ""
+msgstr "Office 2007"
 
 #. Resource IDs: (10008, 65535)
 msgid "Office 2007 colors"
@@ -7178,7 +7179,7 @@ msgstr ""
 
 #. Resource IDs: (211, 10004)
 msgid "Office XP"
-msgstr ""
+msgstr "Office XP"
 
 #. Resource IDs: (1507)
 msgid "Old hash"
@@ -7303,7 +7304,7 @@ msgstr "Pilihan-pilihan"
 
 #. Resource IDs: (32779)
 msgid "Ori&ginal size\tS"
-msgstr ""
+msgstr "ukuran &original\tS"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -8555,11 +8556,11 @@ msgstr "SHA-1"
 
 #. Resource IDs: (65535)
 msgid "SHA-1:"
-msgstr ""
+msgstr "SHA-1:"
 
 #. Resource IDs: (65535)
 msgid "SHA-256:"
-msgstr ""
+msgstr "SHA-256:"
 
 #. Resource IDs: (1585)
 msgid "SMTP Server requires authentication"
@@ -8579,11 +8580,11 @@ msgstr "SSH"
 
 #. Resource IDs: (1541)
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #. Resource IDs: (331)
 msgid "SVN Commit Type"
@@ -9833,7 +9834,7 @@ msgstr "TORTOISEGITIDIFF"
 
 #. Resource IDs: (109)
 msgid "TORTOISEGITUDIFF"
-msgstr ""
+msgstr "TORTOISEGITUDIFF"
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10435,7 +10436,7 @@ msgstr "TortoiseGit %d.%d.%d, Build %d - %s, %s"
 msgid ""
 "TortoiseGit %d.%d.%d.%d %s \r\n"
 "%s \r\n"
-msgstr ""
+msgstr "TortoiseGit %d.%d.%d.%d %s \n%s \n"
 
 #. Resource IDs: (1410)
 #, c-format
@@ -10460,7 +10461,7 @@ msgstr ""
 
 #. Resource IDs: (1096)
 msgid "TortoiseGit&UDiff"
-msgstr ""
+msgstr "TortoiseGit&UDiff"
 
 #. Resource IDs: (3, 244, 1000, 57344)
 msgid "TortoiseGitBlame"
@@ -10538,7 +10539,7 @@ msgstr ""
 
 #. Resource IDs: (103, 357)
 msgid "TortoiseGitUDiff"
-msgstr ""
+msgstr "TortoiseGitUDiff"
 
 #. Resource IDs: (104)
 msgid ""
@@ -10634,15 +10635,15 @@ msgstr "URL:"
 
 #. Resource IDs: (5071)
 msgid "UTF-16 BE"
-msgstr ""
+msgstr "UTF-16 BE"
 
 #. Resource IDs: (5070)
 msgid "UTF-16 LE"
-msgstr ""
+msgstr "UTF-16 LE"
 
 #. Resource IDs: (5069)
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #. Resource IDs: (61840)
 msgid "Unable to load mail system support."
@@ -11146,11 +11147,11 @@ msgstr "Kunjungi website kami"
 
 #. Resource IDs: (214, 10007)
 msgid "Visual Studio 2005"
-msgstr ""
+msgstr "Visual Studio 2005"
 
 #. Resource IDs: (209, 10002)
 msgid "Visual Studio 2008"
-msgstr ""
+msgstr "Visual Studio 2008"
 
 #. Resource IDs: (65535)
 msgid ""
@@ -11276,15 +11277,15 @@ msgstr "Windows"
 
 #. Resource IDs: (208, 10003)
 msgid "Windows 2000"
-msgstr ""
+msgstr "Windows 2000"
 
 #. Resource IDs: (210, 10001)
 msgid "Windows 7"
-msgstr ""
+msgstr "Windows 7"
 
 #. Resource IDs: (212, 10005)
 msgid "Windows XP"
-msgstr ""
+msgstr "Windows XP"
 
 #. Resource IDs: (5020)
 msgid "Windows-1250"
@@ -11499,7 +11500,7 @@ msgstr "File Zip"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out\t-"
-msgstr ""
+msgstr "Zoo&m out\t-"
 
 #. Resource IDs: (17093)
 msgid "Zoom"
@@ -11532,7 +11533,7 @@ msgstr "Kecilkan\nKecilkan"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n\t+"
-msgstr ""
+msgstr "Bes&arkan\t+"
 
 #. Resource IDs: (32772)
 msgid "Zoom in"
@@ -11918,4 +11919,4 @@ msgstr "{BugTraq}"
 
 #. Resource IDs: (65535)
 msgid "|"
-msgstr ""
+msgstr "|"
