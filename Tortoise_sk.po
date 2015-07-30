@@ -5,13 +5,13 @@
 # 
 # Translators:
 # pavolmnich, 2014-2015
-# Sven Strickroth <sstrickroth@googlemail.com>, 2014
+# Sven Strickroth <sstrickroth@googlemail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-28 00:20+0000\n"
+"PO-Revision-Date: 2015-07-30 13:47+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/tortoisegit/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -194,7 +194,7 @@ msgstr "Prenesené dáta: %I64d B"
 #. Resource IDs: (5701)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr ""
+msgstr "Prenesené dáta: %I64d KiB"
 
 #. Resource IDs: (1191)
 #, c-format
@@ -780,7 +780,7 @@ msgstr "&Obrázok"
 
 #. Resource IDs: (32790)
 msgid "&Image info\tI"
-msgstr ""
+msgstr "&Informácie o obrázku\tI"
 
 #. Resource IDs: (16505)
 msgid "&Image only"
@@ -945,7 +945,7 @@ msgstr "&Ďalšia strana"
 
 #. Resource IDs: (109, 1162)
 msgid "&No"
-msgstr ""
+msgstr "&Nie"
 
 #. Resource IDs: (16632)
 msgid "&No double-click event"
@@ -997,7 +997,7 @@ msgstr ""
 
 #. Resource IDs: (32772)
 msgid "&Overlay images\tO"
-msgstr ""
+msgstr "Prekrývať &obrázky\tO"
 
 #. Resource IDs: (1411, 5002, 65535)
 msgid "&Password:"
@@ -1025,7 +1025,7 @@ msgstr "&Tlačiť..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Tlačiť...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1177,7 +1177,7 @@ msgstr "&Uložiť zoznam vybraných súborov do..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Uložiť\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -2070,7 +2070,7 @@ msgstr "Naozaj chcete uložiť do \"%s\"?"
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical\tV"
-msgstr ""
+msgstr "Usporiadať &vertikálne\tV"
 
 #. Resource IDs: (4210)
 #, c-format
@@ -2173,7 +2173,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Auto Crlf:"
-msgstr ""
+msgstr "Auto Crlf:"
 
 #. Resource IDs: (16033)
 msgid "Auto Hide"
@@ -2185,7 +2185,7 @@ msgstr "Automaticky skryť všetko"
 
 #. Resource IDs: (1631)
 msgid "Auto&Crlf"
-msgstr ""
+msgstr "Auto&Crlf"
 
 #. Resource IDs: (3542)
 msgid "Auto-close if no conflicts"
@@ -2471,7 +2471,7 @@ msgstr "CAP"
 
 #. Resource IDs: (65535)
 msgid "CC:"
-msgstr ""
+msgstr "CC:"
 
 #. Resource IDs: (1741)
 msgid "Calculate"
@@ -2492,7 +2492,7 @@ msgid ""
 "%s\n"
 "to\n"
 "%s"
-msgstr ""
+msgstr "Nemožno kpírovať \n%s\ndo\n%s"
 
 #. Resource IDs: (16010)
 msgid "Can't copy bitmap image into the clipboard!"
@@ -3311,7 +3311,7 @@ msgstr "Kopírovanie..."
 
 #. Resource IDs: (1001)
 msgid "Copyright (C) 2009-2015 TortoiseGit"
-msgstr ""
+msgstr "Copyright (C) 2009-2015 TortoiseGit"
 
 #. Resource IDs: (20053)
 msgid "Corrections"
@@ -5018,11 +5018,11 @@ msgstr ""
 
 #. Resource IDs: (32818)
 msgid "Fit image &heights\tH"
-msgstr ""
+msgstr "Zväčšiť obrázok na výšku okna\tH"
 
 #. Resource IDs: (32817)
 msgid "Fit image &widths\tW"
-msgstr ""
+msgstr "Zväčšiť obrázok na šírku okna\tW"
 
 #. Resource IDs: (1315)
 msgid "Floppy drives (A: B:)"
@@ -5158,7 +5158,7 @@ msgstr ""
 
 #. Resource IDs: (1461)
 msgid "G&ravatar"
-msgstr ""
+msgstr "G&ravatar"
 
 #. Resource IDs: (5061)
 msgid "GB2312 (Simplified)"
@@ -5309,7 +5309,7 @@ msgstr ""
 
 #. Resource IDs: (338)
 msgid "Git SVN DCommit"
-msgstr ""
+msgstr "Git SVN DCommit"
 
 #. Resource IDs: (336)
 msgid "Git SVN Rebase"
@@ -5329,7 +5329,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Git for Windows"
-msgstr ""
+msgstr "Git for Windows"
 
 #. Resource IDs: (1335)
 msgid "Git for Windows (https://msysgit.github.io/) not found."
@@ -7296,7 +7296,7 @@ msgstr "Voľby"
 
 #. Resource IDs: (32779)
 msgid "Ori&ginal size\tS"
-msgstr ""
+msgstr "Pôvodná &veľkosť\tS"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -8548,11 +8548,11 @@ msgstr "SHA-1"
 
 #. Resource IDs: (65535)
 msgid "SHA-1:"
-msgstr ""
+msgstr "SHA-1:"
 
 #. Resource IDs: (65535)
 msgid "SHA-256:"
-msgstr ""
+msgstr "SHA-256:"
 
 #. Resource IDs: (1585)
 msgid "SMTP Server requires authentication"
@@ -8572,11 +8572,11 @@ msgstr "SSH"
 
 #. Resource IDs: (1541)
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #. Resource IDs: (331)
 msgid "SVN Commit Type"
@@ -8584,7 +8584,7 @@ msgstr ""
 
 #. Resource IDs: (337)
 msgid "SVN DCommit..."
-msgstr ""
+msgstr "SVN DCommit..."
 
 #. Resource IDs: (206)
 msgid "SVN Fetch"
@@ -9065,7 +9065,7 @@ msgstr "Pamäť ikoniek šelu bola prebudované!"
 
 #. Resource IDs: (5062)
 msgid "Shift-JIS"
-msgstr ""
+msgstr "Shift-JIS"
 
 #. Resource IDs: (1105)
 msgid "Short &date/time format in log messages"
@@ -9826,7 +9826,7 @@ msgstr "TORTOISEGITIDIFF"
 
 #. Resource IDs: (109)
 msgid "TORTOISEGITUDIFF"
-msgstr ""
+msgstr "TORTOISEGITUDIFF"
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10428,7 +10428,7 @@ msgstr "TortoiseGit %d.%d.%d, Build %d - %s, %s"
 msgid ""
 "TortoiseGit %d.%d.%d.%d %s \r\n"
 "%s \r\n"
-msgstr ""
+msgstr "TortoiseGit %d.%d.%d.%d %s \n%s \n"
 
 #. Resource IDs: (1410)
 #, c-format
@@ -10520,7 +10520,7 @@ msgid ""
 "libsvn_diff %d.%d.%d, %s\r\n"
 "apr %d.%d.%d\r\n"
 "apr-util %d.%d.%d"
-msgstr ""
+msgstr "TortoiseGitMerge %d.%d.%d.%d - %s, %s\nlibsvn_diff %d.%d.%d, %s\napr %d.%d.%d\napr-util %d.%d.%d"
 
 #. Resource IDs: (2800)
 #, c-format
@@ -11753,7 +11753,7 @@ msgstr ""
 
 #. Resource IDs: (1494)
 msgid "master"
-msgstr ""
+msgstr "master"
 
 #. Resource IDs: (160, 65535)
 msgid "merged"

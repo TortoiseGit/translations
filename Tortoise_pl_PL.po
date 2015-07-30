@@ -7,6 +7,8 @@
 # Andrzej Kukuła <akukula@gmail.com>, 2013
 # Andrzej Kukuła <akukula@gmail.com>, 2013
 # Begina Felicysym <>, 2011
+# Jarosław Pękala <jaroslaw.pekala@gmail.com>, 2013
+# jotpeg <janekpg@gazeta.pl>, 2013
 # kkotowicz <kkotowicz@gmail.com>, 2011
 # kkotowicz <kkotowicz@gmail.com>, 2011
 # kkotowicz <kkotowicz@gmail.com>, 2011
@@ -24,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-28 00:20+0000\n"
+"PO-Revision-Date: 2015-07-30 14:18+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/tortoisegit/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -950,7 +952,7 @@ msgstr "&Nowy..."
 
 #. Resource IDs: (1014)
 msgid "&Next >"
-msgstr ""
+msgstr "&Następne >"
 
 #. Resource IDs: (58114)
 msgid "&Next Page"
@@ -1692,7 +1694,7 @@ msgstr "Przerwij"
 
 #. Resource IDs: (224)
 msgid "Abort &Merge"
-msgstr ""
+msgstr "&Anuluj scalanie"
 
 #. Resource IDs: (4592)
 msgid "Abort Merge"
@@ -1917,7 +1919,7 @@ msgstr "Wszystkie twoje zmiany zostaną utracone! Na pewno chcesz przywrócić p
 msgid ""
 "Allow Editing for this view\n"
 "Allow Edit"
-msgstr ""
+msgstr "Pozwól na edycję dla tego widoku\nPozwól na edycję"
 
 #. Resource IDs: (1438)
 msgid "Allow to use custom Gravatar URL"
@@ -2011,11 +2013,11 @@ msgstr ""
 
 #. Resource IDs: (4015)
 msgid "Append right block"
-msgstr ""
+msgstr "Dopisz prawy blok"
 
 #. Resource IDs: (4012)
 msgid "Append this block to left"
-msgstr ""
+msgstr "Dopisz ten blok do lewej strony"
 
 #. Resource IDs: (65535)
 msgid "Application Frame Menus: "
@@ -2240,7 +2242,7 @@ msgstr "Sprawdzaj raz na tydzień, czy są &nowe wersje"
 
 #. Resource IDs: (306)
 msgid "Autotext Tester"
-msgstr ""
+msgstr "Test autotekstu"
 
 #. Resource IDs: (1157)
 msgid "Average"
@@ -2361,7 +2363,7 @@ msgstr "Zarówno ścieżka do pliku poprawki jak i ścieżka docelowa muszą by�
 
 #. Resource IDs: (3006)
 msgid "Bottom View:"
-msgstr ""
+msgstr "Widok Dolny:"
 
 #. Resource IDs: (1007)
 msgid "Br&owse..."
@@ -2428,7 +2430,7 @@ msgstr "ID błędu"
 
 #. Resource IDs: (1578)
 msgid "Bug-ID e&xpression:"
-msgstr ""
+msgstr "&Wyrażenie Bug-ID:"
 
 #. Resource IDs: (1119)
 msgid "Bug-ID/Issue-Nr:"
@@ -2594,7 +2596,7 @@ msgstr "Kaskadowe menu kontekstowe"
 
 #. Resource IDs: (1857)
 msgid "Case-sensitive"
-msgstr ""
+msgstr "Bez uwzględnienia wielkości liter"
 
 #. Resource IDs: (65535)
 msgid "Cate&gories:"
@@ -2696,7 +2698,7 @@ msgstr "Zmień styl aplikacji"
 
 #. Resource IDs: (65535)
 msgid "Char position where to show a border line in commit text boxes:"
-msgstr ""
+msgstr "Ilość znaków przy których pokazać linię graniczną w oknie opisu zmian:"
 
 #. Resource IDs: (1376, 62178)
 msgid "Check"
@@ -3162,7 +3164,7 @@ msgstr "Typ konfiguracji:"
 
 #. Resource IDs: (102)
 msgid "Configure Filter Regexes"
-msgstr ""
+msgstr "Konfiguruj Wyrażenia Regularne Filtru"
 
 #. Resource IDs: (236)
 msgid "Configure Hook Scripts"
@@ -3225,7 +3227,7 @@ msgstr "Menu kontekstowe: "
 
 #. Resource IDs: (65535)
 msgid "Context lines for patches"
-msgstr ""
+msgstr "Linie kontekstu do poprawek"
 
 #. Resource IDs: (1069, 1564)
 msgid "Continue"
@@ -3324,7 +3326,7 @@ msgstr "Kopiowanie..."
 
 #. Resource IDs: (1001)
 msgid "Copyright (C) 2009-2015 TortoiseGit"
-msgstr ""
+msgstr "Copyright (C) 2009-2015 TortoiseGit"
 
 #. Resource IDs: (20053)
 msgid "Corrections"
@@ -3467,12 +3469,12 @@ msgstr "Nie można rozpocząć wątku!"
 
 #. Resource IDs: (1501)
 msgid "Coun&t"
-msgstr ""
+msgstr "Zlic&z"
 
 #. Resource IDs: (1502)
 #, c-format
 msgid "Count: %u matches."
-msgstr ""
+msgstr "Zliczono: %u dopasowań."
 
 #. Resource IDs: (1683)
 msgid "Create &Library"
@@ -3813,11 +3815,11 @@ msgstr "Usuwanie"
 
 #. Resource IDs: (1547)
 msgid "Deleting cached data"
-msgstr ""
+msgstr "Usuwanie buforowanych danych"
 
 #. Resource IDs: (1545)
 msgid "Deleting file"
-msgstr ""
+msgstr "Usuwanie pliku"
 
 #. Resource IDs: (1397)
 msgid "Deleting remote refs..."
@@ -3829,7 +3831,7 @@ msgstr ""
 
 #. Resource IDs: (1646)
 msgid "Depth"
-msgstr ""
+msgstr "Głębokość"
 
 #. Resource IDs: (65535)
 msgid "Describe"
@@ -3897,7 +3899,7 @@ msgstr ""
 
 #. Resource IDs: (1789)
 msgid "Diff Options"
-msgstr ""
+msgstr "Opcje Porównywania"
 
 #. Resource IDs: (344)
 msgid "Diff Two Commits"
@@ -3913,15 +3915,15 @@ msgstr "Przeglądarka różnic::Narzędzie scalania"
 
 #. Resource IDs: (65535)
 msgid "Diff added lines"
-msgstr ""
+msgstr "Porównaj dodane linie"
 
 #. Resource IDs: (65535)
 msgid "Diff command"
-msgstr ""
+msgstr "Polecenie porównania"
 
 #. Resource IDs: (65535)
 msgid "Diff comment"
-msgstr ""
+msgstr "Porównaj komentarze"
 
 #. Resource IDs: (65535)
 msgid "Diff file:"
@@ -3929,19 +3931,19 @@ msgstr "Plik różnicowy:"
 
 #. Resource IDs: (65535)
 msgid "Diff header"
-msgstr ""
+msgstr "Porównaj nagłówki"
 
 #. Resource IDs: (232)
 msgid "Diff later"
-msgstr ""
+msgstr "Porównaj później"
 
 #. Resource IDs: (65535)
 msgid "Diff position"
-msgstr ""
+msgstr "Porównaj pozycję"
 
 #. Resource IDs: (65535)
 msgid "Diff removed lines"
-msgstr ""
+msgstr "Porównaj usunięte linie"
 
 #. Resource IDs: (234)
 #, c-format
@@ -4402,11 +4404,11 @@ msgstr "Pusty"
 
 #. Resource IDs: (32976)
 msgid "Enable Edit"
-msgstr ""
+msgstr "Włącz edycję"
 
 #. Resource IDs: (1510)
 msgid "Enable EditorConfig"
-msgstr ""
+msgstr "Włącz KonfigEdytora"
 
 #. Resource IDs: (1766)
 msgid "Enable Gravatar"
@@ -4414,7 +4416,7 @@ msgstr ""
 
 #. Resource IDs: (1788)
 msgid "Enable drag context menu"
-msgstr ""
+msgstr "Włącz przeciągane menu kontekstowe"
 
 #. Resource IDs: (1388)
 msgid ""
@@ -4550,7 +4552,7 @@ msgstr "Proszę podać liczbę całkowitą."
 
 #. Resource IDs: (65535)
 msgid "Enter file content to test for below:"
-msgstr ""
+msgstr "Podaj poniżej zawartość pliku do przetestowania:"
 
 #. Resource IDs: (1065)
 msgid "Enter log &message:"
@@ -4563,7 +4565,7 @@ msgstr "Proszę wprowadzić nie więcej niż %1 znaków."
 
 #. Resource IDs: (65535)
 msgid "Enter the regex string below:"
-msgstr ""
+msgstr "Podaj poniżej wyrażenie regularne:"
 
 #. Resource IDs: (57633)
 msgid ""
@@ -4995,11 +4997,11 @@ msgstr ""
 #. Resource IDs: (1506)
 msgid ""
 "Find: First occurrence from the bottom found. Beginning of document reached."
-msgstr ""
+msgstr "Znajdź: Wyszukano pierwsze wystąpienie od końca. Natrafiono na początek dokumentu."
 
 #. Resource IDs: (1505)
 msgid "Find: First occurrence from the top found. End of document reached."
-msgstr ""
+msgstr "Znajdź: Wyszukano pierwsze wystąpienie od początku. Natrafiono na koniec dokumentu."
 
 #. Resource IDs: (65535)
 msgid "Fingerprints"
@@ -5092,7 +5094,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Foreground"
-msgstr ""
+msgstr "Pierwszy plan"
 
 #. Resource IDs: (312)
 msgid "Format Patch"
@@ -5119,7 +5121,7 @@ msgstr "Znaleziono pusty komunikat zatwierdzania. Wprowadź komunikat, albo zmia
 
 #. Resource IDs: (65535)
 msgid "Found auto words:"
-msgstr ""
+msgstr "Znaleziono słowa:"
 
 #. Resource IDs: (1385, 1522, 65535)
 msgid "From"
@@ -5224,15 +5226,15 @@ msgstr "Ogólne::Menu kontekstowe"
 
 #. Resource IDs: (196)
 msgid "General::Dialogs 1"
-msgstr ""
+msgstr "Ogólne::Okna dialogowe 1"
 
 #. Resource IDs: (197)
 msgid "General::Dialogs 2"
-msgstr ""
+msgstr "Ogólne::Okna dialogowe 2"
 
 #. Resource IDs: (4593)
 msgid "General::Dialogs 3"
-msgstr ""
+msgstr "Ogólne::Okna dialogowe 3"
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
@@ -5322,7 +5324,7 @@ msgstr ""
 
 #. Resource IDs: (338)
 msgid "Git SVN DCommit"
-msgstr ""
+msgstr "Git SVN DCommit"
 
 #. Resource IDs: (336)
 msgid "Git SVN Rebase"
@@ -5342,7 +5344,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "Git for Windows"
-msgstr ""
+msgstr "Git for Windows"
 
 #. Resource IDs: (1335)
 msgid "Git for Windows (https://msysgit.github.io/) not found."
@@ -5575,7 +5577,7 @@ msgstr "&Uwzględnij ścieżki:"
 
 #. Resource IDs: (1580)
 msgid "IBugTraqProvider"
-msgstr ""
+msgstr "IBugTraqProvider"
 
 #. Resource IDs: (20007)
 msgid "ID"
@@ -5895,7 +5897,7 @@ msgstr "Ignoruj %d elementy(-ów) wg &rozszerzenia"
 
 #. Resource IDs: (32896)
 msgid "Ignore Comments"
-msgstr ""
+msgstr "Ignoruj Komentarze"
 
 #. Resource IDs: (1692)
 msgid "Ignore File"
@@ -6144,7 +6146,7 @@ msgstr "Zachować lokalnie plik?"
 msgid ""
 "Keep resolving\n"
 "Jump to first unresolved conflict"
-msgstr ""
+msgstr "Rozwiązuj nadal\nIdź do pierwszego nierozwiązanego konfliktu"
 
 #. Resource IDs: (16136)
 msgid "Keyboard"
@@ -6196,7 +6198,7 @@ msgstr "WIERSZ 8"
 
 #. Resource IDs: (65535)
 msgid "Language:"
-msgstr ""
+msgstr "Język:"
 
 #. Resource IDs: (1574)
 #, c-format
@@ -6351,7 +6353,7 @@ msgstr "Wczytaj zmiany\nZmiany wykonane w TortoiseGitMerge zostaną utracone i z
 msgid ""
 "Load changes\n"
 "The views are updated with the new content."
-msgstr ""
+msgstr "Załaduj zmiany\nWidoki zostaną zaktualizowane o nowe treści."
 
 #. Resource IDs: (369, 1379)
 msgid "Loading..."
@@ -6493,7 +6495,7 @@ msgstr "Zaznacz jako rozwiązane.\nPlik zostanie oznaczony jako zmieniony."
 
 #. Resource IDs: (1549)
 msgid "Mark for comparison"
-msgstr ""
+msgstr "Zaznacz do porównania"
 
 #. Resource IDs: (4018)
 msgid "Mark this block"
@@ -6501,7 +6503,7 @@ msgstr ""
 
 #. Resource IDs: (103)
 msgid "Marked Blocks"
-msgstr ""
+msgstr "Zaznaczone Bloki"
 
 #. Resource IDs: (32808)
 msgid ""
@@ -6617,7 +6619,7 @@ msgstr "Tyl&ko wiadomość"
 
 #. Resource IDs: (1579)
 msgid "Message part &expression:"
-msgstr ""
+msgstr "&Wyrażenie częściowe wiadomości:"
 
 #. Resource IDs: (1742, 1853)
 msgid "Messages"
@@ -6637,7 +6639,7 @@ msgstr "Minimalizuj wstążkę"
 
 #. Resource IDs: (65535)
 msgid "Minimum number of chars for a commit message:"
-msgstr ""
+msgstr "Minimalna liczba znaków dla wiadomości przy zatwierdzaniu:"
 
 #. Resource IDs: (1023, 65535)
 msgid "Misc"
@@ -6818,7 +6820,7 @@ msgstr "Nowa nazwa dla %s"
 
 #. Resource IDs: (1469)
 msgid "New name must not be empty or the same as the original name!"
-msgstr ""
+msgstr "Nowa nazwa nie może być pusta lub identyczna z oryginalną!"
 
 #. Resource IDs: (1554)
 msgid "New name:"
@@ -6834,7 +6836,7 @@ msgstr ""
 
 #. Resource IDs: (1603)
 msgid "Newlines"
-msgstr ""
+msgstr "Znaki nowej linii"
 
 #. Resource IDs: (20308)
 msgid "Next"
@@ -7642,11 +7644,11 @@ msgstr "Przygotowywanie zatwierdzenia zmian..."
 
 #. Resource IDs: (4013)
 msgid "Prepend right block"
-msgstr ""
+msgstr "Poprzedź prawy blok"
 
 #. Resource IDs: (4010)
 msgid "Prepend this block to left"
-msgstr ""
+msgstr "Poprzedź tym blokiem lewą stronę"
 
 #. Resource IDs: (65535)
 msgid "Press &New Shortcut Key:"
@@ -7746,7 +7748,7 @@ msgstr "Stan zaawansowania"
 
 #. Resource IDs: (1444, 1772)
 msgid "Project"
-msgstr ""
+msgstr "Projekt"
 
 #. Resource IDs: (164)
 msgid "Property"
@@ -7762,11 +7764,11 @@ msgstr "Dostawca"
 
 #. Resource IDs: (1586)
 msgid "Provider para&meters:"
-msgstr ""
+msgstr "Para&metry dostawcy:"
 
 #. Resource IDs: (1581)
 msgid "Provider uuid win&32:"
-msgstr ""
+msgstr "Provider uuid win&32:"
 
 #. Resource IDs: (1583)
 msgid "Provider uuid x6&4:"
@@ -8045,15 +8047,15 @@ msgstr "Odświeżanie..."
 
 #. Resource IDs: (165, 500)
 msgid "Regex Filter"
-msgstr ""
+msgstr "Filtr z Wyrażeniem Regularnym"
 
 #. Resource IDs: (164)
 msgid "Regex Filters"
-msgstr ""
+msgstr "Filtry z Wyrażeniem Regularnym"
 
 #. Resource IDs: (65535)
 msgid "Regex:"
-msgstr ""
+msgstr "Wyrażenie Regularne:"
 
 #. Resource IDs: (1860)
 msgid ""
@@ -8171,7 +8173,7 @@ msgstr ""
 msgid ""
 "Remove all comments before doing the diff so changes inside comments don't "
 "show as different"
-msgstr ""
+msgstr "Usuń wszystkie komentarze przed wykonaniem porównania aby zmiany wewnątrz komentarzy nie były wyświetlane jako różnice"
 
 #. Resource IDs: (237)
 msgid "Remove from &ignore list"
@@ -8255,7 +8257,7 @@ msgstr "Powtarza ostatnią operację\nPowtórz"
 
 #. Resource IDs: (1512)
 msgid "Replace &All"
-msgstr ""
+msgstr "Zastąp &Wszystkie"
 
 #. Resource IDs: (57641)
 msgid ""
@@ -8265,16 +8267,16 @@ msgstr "Zamienia podany tekst na inny\nZamień"
 
 #. Resource IDs: (65535)
 msgid "Replace with:"
-msgstr ""
+msgstr "Zastąp przez:"
 
 #. Resource IDs: (65535)
 msgid "Replace:"
-msgstr ""
+msgstr "Zastąp:"
 
 #. Resource IDs: (1507)
 #, c-format
 msgid "Replaced %d matches"
-msgstr ""
+msgstr "Zastąpiono %d dopasowań"
 
 #. Resource IDs: (1173)
 msgid "Replacing"
@@ -8561,11 +8563,11 @@ msgstr "SHA-1"
 
 #. Resource IDs: (65535)
 msgid "SHA-1:"
-msgstr ""
+msgstr "SHA-1:"
 
 #. Resource IDs: (65535)
 msgid "SHA-256:"
-msgstr ""
+msgstr "SHA-256:"
 
 #. Resource IDs: (1585)
 msgid "SMTP Server requires authentication"
@@ -8585,11 +8587,11 @@ msgstr "SSH"
 
 #. Resource IDs: (1541)
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #. Resource IDs: (331)
 msgid "SVN Commit Type"
@@ -8597,7 +8599,7 @@ msgstr ""
 
 #. Resource IDs: (337)
 msgid "SVN DCommit..."
-msgstr ""
+msgstr "SVN DCommit..."
 
 #. Resource IDs: (206)
 msgid "SVN Fetch"
@@ -8643,7 +8645,7 @@ msgstr ""
 
 #. Resource IDs: (1612)
 msgid "Sample text:"
-msgstr ""
+msgstr "Przykładowy tekst:"
 
 #. Resource IDs: (57603)
 msgid "Save"
@@ -8709,19 +8711,19 @@ msgstr "Zapisz wszystko\nZostaną zapisane oba pliki"
 msgid ""
 "Save and exclude\n"
 "Your changes are saved and the original content is used"
-msgstr ""
+msgstr "Zapisz i wyklucz\nTwoje zmiany zostaną zapisane a użyta będzie oryginalna zawartość"
 
 #. Resource IDs: (107)
 msgid ""
 "Save and ignore marked blocks\n"
 "Only your manual edits are saved, marked blocks are left as they are"
-msgstr ""
+msgstr "Zapisz i zignoruj zaznaczone bloki\nZapisane będą tylko twoje ręczne zmiany, zaznaczone bloki będą pozostawione bez zmian"
 
 #. Resource IDs: (105)
 msgid ""
 "Save and include\n"
 "Your changes are saved and the marked blocks are included"
-msgstr ""
+msgstr "Zapisz i dołącz\nTwoje zmiany zostaną zapisane a zaznaczone bloki będą dołączone"
 
 #. Resource IDs: (5050, 57604)
 msgid "Save as"
@@ -8817,7 +8819,7 @@ msgstr "Zapisywanie notki nie powiodło się."
 
 #. Resource IDs: (1522)
 msgid "Scan"
-msgstr ""
+msgstr "Skanuj"
 
 #. Resource IDs: (1014, 1064, 1636)
 msgid "Scintilla"
@@ -8841,7 +8843,7 @@ msgstr "Szukaj w &opisach zmian..."
 
 #. Resource IDs: (1074)
 msgid "Search &up"
-msgstr ""
+msgstr "Sz&ukaj powyżej"
 
 #. Resource IDs: (65535)
 msgid "Search for:"
@@ -8858,7 +8860,7 @@ msgstr "Przeszukiwanie %1 zakończone niepowodzeniem"
 
 #. Resource IDs: (114)
 msgid "Select"
-msgstr ""
+msgstr "Zaznacz"
 
 #. Resource IDs: (20040)
 msgid "Select &All"
@@ -8959,7 +8961,7 @@ msgstr "Zaznacza cały dokument\nZaznacz wszystko"
 msgid ""
 "Select the language this project is using. This settings affects the spell "
 "checker used for commit messages."
-msgstr ""
+msgstr "Wybierz język dla tego projektu. To ustawienie skutkuje wykorzystaniem narzędzia sprawdzenia pisowni dla wiadomości zatwierdzania."
 
 #. Resource IDs: (1559)
 msgid "Select tracked branch"
@@ -9476,7 +9478,7 @@ msgstr "Przesuń"
 
 #. Resource IDs: (1098)
 msgid "Smart tab char"
-msgstr ""
+msgstr "Inteligentny znak tabulacji"
 
 #. Resource IDs: (1414)
 msgid "Soft"
@@ -9568,7 +9570,7 @@ msgstr "Start trybu bisekcji..."
 
 #. Resource IDs: (1542)
 msgid "Start registry editor"
-msgstr ""
+msgstr "Uruchom edytor rejestru"
 
 #. Resource IDs: (217)
 msgid "Starts a git server running git protocol"
@@ -9649,7 +9651,7 @@ msgstr "Zakończenie trybu bisekcji"
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
 "Hold down the Ctrl key to remove the last saved path."
-msgstr ""
+msgstr "Zapisuje ścieżkę do pliku by jej użyć do porównania podczas kolejnych prawoklików. Trzymaj wciśnięty klawisz Ctrl by usunąć ostatnio zapisaną ścieżkę."
 
 #. Resource IDs: (65535)
 msgid "Strategy"
@@ -9797,7 +9799,7 @@ msgstr "Przełącz kopię roboczą na inną gałąź/etykietę"
 
 #. Resource IDs: (5190)
 msgid "Switches the comparison left<->right"
-msgstr ""
+msgstr "Przełącza porównanie Lewy<->Prawy"
 
 #. Resource IDs: (1733)
 msgid "Symbolize ref names"
@@ -9839,7 +9841,7 @@ msgstr "TORTOISEGITIDIFF"
 
 #. Resource IDs: (109)
 msgid "TORTOISEGITUDIFF"
-msgstr ""
+msgstr "TORTOISEGITUDIFF"
 
 #. Resource IDs: (1513)
 msgid "Ta&gs:"
@@ -10159,7 +10161,7 @@ msgstr ""
 msgid ""
 "The regular expression is invalid!\n"
 "Please enter a valid regular expression."
-msgstr ""
+msgstr "Wyrażenie regularne jest niepoprawne!\nProszę podaj poprawne wyrażenie regularne."
 
 #. Resource IDs: (1123)
 #, c-format
@@ -10215,7 +10217,7 @@ msgstr "Folder docelowy\n%s\nnie jest pusty!\nCzy na pewno chcesz zainicjować r
 msgid ""
 "The text is identical, but the files do not match!\r\n"
 "The following differences were found:"
-msgstr ""
+msgstr "Treść jest taka sama, jednak pliki różnią się!\nZnaleziono następujące różnice:"
 
 #. Resource IDs: (3115)
 msgid ""
@@ -10261,7 +10263,7 @@ msgstr "Obecnie zainstalowane jest %d uchwytów nakładek oprócz używanych prz
 msgid ""
 "There are more editable views.\n"
 "What view do you want to save?"
-msgstr ""
+msgstr "Jest więcej widoków do zapisu.\nKtóry widok należy zapisać?"
 
 #. Resource IDs: (1009)
 msgid "There are no issue-tracker providers available."
@@ -10533,7 +10535,7 @@ msgid ""
 "libsvn_diff %d.%d.%d, %s\r\n"
 "apr %d.%d.%d\r\n"
 "apr-util %d.%d.%d"
-msgstr ""
+msgstr "TortoiseGitMerge %d.%d.%d.%d - %s, %s\r\nlibsvn_diff %d.%d.%d, %s\r\napr %d.%d.%d\r\napr-util %d.%d.%d"
 
 #. Resource IDs: (2800)
 #, c-format
@@ -10544,7 +10546,7 @@ msgstr "TortoiseGitMerge nie może przetworzyć pliku poprawki. Nazwa pliku \"%s
 
 #. Resource IDs: (103, 357)
 msgid "TortoiseGitUDiff"
-msgstr ""
+msgstr "TortoiseGitUDiff"
 
 #. Resource IDs: (104)
 msgid ""
@@ -10600,7 +10602,7 @@ msgstr "&Kolor przezroczysty..."
 
 #. Resource IDs: (8005)
 msgid "Trim right"
-msgstr ""
+msgstr "Przytnij z prawej"
 
 #. Resource IDs: (4003)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
@@ -10782,7 +10784,7 @@ msgstr "Do góry"
 
 #. Resource IDs: (1710)
 msgid "Update"
-msgstr ""
+msgstr "Uaktualnij"
 
 #. Resource IDs: (9697)
 msgid "Update Ref"
@@ -10924,11 +10926,11 @@ msgstr "Użyj wyrażenia regularnego"
 
 #. Resource IDs: (4014)
 msgid "Use right block"
-msgstr ""
+msgstr "Użyj prawego bloku"
 
 #. Resource IDs: (1091)
 msgid "Use spaces"
-msgstr ""
+msgstr "Użyj spacji"
 
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
@@ -11014,7 +11016,7 @@ msgstr "Użyj tego w &całym pliku"
 
 #. Resource IDs: (4011)
 msgid "Use this block on left"
-msgstr ""
+msgstr "Użyj tego bloku z lewej strony"
 
 #. Resource IDs: (4007)
 msgid "Use whole other &file"
@@ -11071,7 +11073,7 @@ msgid ""
 "/saverequiredonconflicts\n"
 "/oneway <forces the one-way view>\n"
 "/line:<line number to jump to>"
-msgstr ""
+msgstr "Poprawnymi opcjami linii poleceń są:\n/base:<ścieżka do pliku bazowego>\n/basename:<nazwa do wyświetlenia w tytule widoku>\n/theirs:<ścieżka do ich pliku>\n/theirsname:<nazwa do wyświetlenia w tytule widoku>\n/mine:<ścieżka do mojego pliku>\n/minename:<nazwa do wyświetlenia w tytule widoku>\n/merged:<ścieżka do wynikowego pliku scalenia>\n/mergedname:<nazwa do wyświetlenia w tytule widoku>\n/diff:<ścieżka do zunifikowanego pliku różnic>\n/patchpath:<ścieżka do folderu>\n/saverequired\n/saverequiredonconflicts\n/oneway <wymusza widok jednodrożny>\n/line:<numer linii, do której przejść>"
 
 #. Resource IDs: (165, 5708)
 msgid "Value"
@@ -11266,7 +11268,7 @@ msgstr ""
 
 #. Resource IDs: (1601)
 msgid "Whitespace changes (tabs, spaces)"
-msgstr ""
+msgstr "Zmiany białych znaków (tabulatory, spacje)"
 
 #. Resource IDs: (65535)
 msgid "Whitespaces"
@@ -11408,7 +11410,7 @@ msgstr ""
 
 #. Resource IDs: (104)
 msgid "You have marked changed blocks. How should those blocks be saved?"
-msgstr ""
+msgstr "Zaznaczyłeś zmienione bloki. Jak powinny zostać zapisane te bloki?"
 
 #. Resource IDs: (254)
 msgid ""
@@ -11422,7 +11424,7 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr ""
+msgstr "Wybrano %d elementów do przejrzenia różnic.\nDla każdego z tych elementów zostanie uruchomiona przeglądarkaróżnic.\nCzy na pewno pokazać różnice dla tak wielu elementów na raz?"
 
 #. Resource IDs: (2703)
 msgid ""
@@ -11742,7 +11744,7 @@ msgstr "element trzymany lokalnie"
 
 #. Resource IDs: (65535)
 msgid "keep the file lists in English"
-msgstr ""
+msgstr "zachowaj listę plików po angielsku"
 
 #. Resource IDs: (1091)
 #, c-format
