@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-30 14:03+0000\n"
+"PO-Revision-Date: 2015-08-02 15:17+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -178,7 +178,7 @@ msgstr ""
 msgid ""
 "%1!s!\r\n"
 "Size %2!s!"
-msgstr "%1!s!↩\nDimensiune %2!s!"
+msgstr "%1!s!\r\nDimensiune %2!s!"
 
 #. Resource IDs: (61744)
 #, c-format
@@ -246,7 +246,7 @@ msgid ""
 "%i%% alpha\n"
 "click to toggle alpha\n"
 "double click to automatically toggle alpha"
-msgstr "%i%% alfa⏎ clic pentru a comuta alfa⏎ dublu clic pentru a comuta alfa automat"
+msgstr "%i%% alfa\nclic pentru a comuta alfa\ndublu clic pentru a comuta alfa automat"
 
 #. Resource IDs: (3602)
 #, c-format
@@ -310,7 +310,7 @@ msgstr "%s\n%s"
 msgid ""
 "%s\n"
 "Could not be cleanly patched."
-msgstr "%s⏎ Nu s-a putut petici curat"
+msgstr "%s\nNu s-a putut petici curat"
 
 #. Resource IDs: (2305)
 #, c-format
@@ -325,7 +325,7 @@ msgid ""
 "%s\n"
 "is a directory, not a file!\n"
 "TortoiseGitMerge can't diff directories."
-msgstr "%s⏎ este un dosar şi nu un fişier!⏎ TortoiseGitMerge nu poate compara directoare."
+msgstr "%s\neste un dosar şi nu un fişier!\nTortoiseGitMerge nu poate compara directoare."
 
 #. Resource IDs: (16923)
 msgid "&..."
@@ -705,7 +705,7 @@ msgstr "Caută»Ctrl+F"
 
 #. Resource IDs: (32778)
 msgid "&Fit images in window\tF"
-msgstr ""
+msgstr "Potriveşte imagini în &fereastră\tF"
 
 #. Resource IDs: (1050)
 msgid "&Fixed drives"
@@ -1039,7 +1039,7 @@ msgstr "&Tipăreşte..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Tipăreşte...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1191,7 +1191,7 @@ msgstr "&Salvează lista de fişiere selectate în..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Salvează\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -1526,7 +1526,7 @@ msgid ""
 "To use <b>TortoiseGit</b> please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all <b>TortoiseGit</b> commands.\n"
 "And <u>read the manual!</u>"
-msgstr "<b>TortoiseGit</b> este o extensie a shell-ului.⏎ Acest lucru înseamnă că este integrat in Windows Explorer.⏎ Pentru a folosi <b>TortoiseGit</b> deschideţi explorer-ul şi executaţi clic-dreapta pe directorul dorit ⏎ pentru a accesa meniul contextual unde veţi găsi toate comenzile <b>TortoiseGit</b>.⏎ Şi <u>citiţi manualul de utilizare!</u>"
+msgstr "<b>TortoiseGit</b> este o extensie a shell-ului.\nAcest lucru înseamnă că este integrat in Windows Explorer.\nPentru a folosi <b>TortoiseGit</b> deschideţi explorer-ul şi executaţi clic-dreapta pe directorul dorit\npentru a accesa meniul contextual unde veţi găsi toate comenzile <b>TortoiseGit</b>.\nŞi <u>citiţi manualul de utilizare!</u>"
 
 #. Resource IDs: (1333)
 msgid ""
@@ -1569,7 +1569,7 @@ msgid ""
 "<ct=0x0000FF>previous rebase directory rebase-apply still exists but mbox given</ct>\n"
 "\n"
 "Do you want to"
-msgstr "<ct=0x0000FF>dosarul reamplasare-aplică de la reamplasarea anterioară încă există dar s-a furnizat mbox</ct>⏎ ⏎ Doriţi să"
+msgstr "<ct=0x0000FF>dosarul reamplasare-aplică de la reamplasarea anterioară încă există dar s-a furnizat mbox</ct>\n\nDoriţi să"
 
 #. Resource IDs: (1346)
 msgid "<ct=0x0000ff>Stash Apply failed, there are conflicts</ct>"
@@ -1611,7 +1611,7 @@ msgstr "?"
 msgid ""
 "A branch with the same name as your entered tag name already exists (so the short ref is ambiguous).\n"
 "This can cause problems so you should avoid it."
-msgstr "Există deja o ramură cu acelaşi nume cu al etichetei introduse (aşa că referinţa prescurtată este ambiguă).⏎ Acest lucru poate cauza probleme aşa că ar trebui să îl evitaţi."
+msgstr "Există deja o ramură cu acelaşi nume cu al etichetei introduse (aşa că referinţa prescurtată este ambiguă).\nAcest lucru poate cauza probleme aşa că ar trebui să îl evitaţi."
 
 #. Resource IDs: (1352)
 msgid "A branch with this name already exists."
@@ -1655,7 +1655,7 @@ msgstr "O resursă necesară nu a fost disponibilă."
 msgid ""
 "A tag with the same name as your entered branch name already exists (so the short ref is ambiguous).\n"
 "This can cause problems so you should avoid it."
-msgstr "Există deja o etichetă cu acelaşi nume cu cel al ramurii introduse (aşa că referinţa prescurtată este ambiguă).⏎ Acest lucru poate cauza probleme aşa că ar trebui să îl evitaţi."
+msgstr "Există deja o etichetă cu acelaşi nume cu cel al ramurii introduse (aşa că referinţa prescurtată este ambiguă).\nAcest lucru poate cauza probleme aşa că ar trebui să îl evitaţi."
 
 #. Resource IDs: (1353)
 msgid "A tag with this name already exists."
@@ -1972,7 +1972,7 @@ msgid ""
 "You can specify the following parameters to the path:\r\n"
 "%base: the base file\r\n"
 "%mine: the modified file"
-msgstr "Un program extern folosit»⏎ la compararea diferitelor revizii ale fişierelor»⏎ »⏎ Puteţi specifica următorii parametri:»⏎ %base: fişierul de bază»⏎ %mine: fişierul modificat"
+msgstr "Un program extern folosit\r\nla compararea diferitelor revizii ale fişierelor\r\nPuteţi specifica următorii parametri:\r\n%base: fişierul de bază\r\n%mine: fişierul modificat"
 
 #. Resource IDs: (1250)
 #, c-format
@@ -1985,7 +1985,7 @@ msgid ""
 "%theirs: the file as it is in the repository\r\n"
 "%mine: your own file, with your changes\r\n"
 "%base: the original file without your changes"
-msgstr "Un program de îmbinare extern folosit»⏎ la rezolvarea conflictelor între fişiere»⏎ »⏎ Puteţi specifica următorii parametri:»⏎ %merged: fişierul conflictual, unde va fi salvat»⏎ %theirs: fişierul aşa cum este în depozit»⏎ %mine: fişierul dumneavoastră, având schimbarile dumneavoastră»⏎ %base: fişierul original fără schimbările dumneavoastră"
+msgstr "Un program de îmbinare extern folosit\r\nla rezolvarea conflictelor între fişiere»\r\n\r\nPuteţi specifica următorii parametri:\r\n%merged: fişierul conflictual, unde va fi salvat\r\n%theirs: fişierul aşa cum este în depozit\r\n%mine: fişierul dumneavoastră, având schimbarile dumneavoastră\r\n%base: fişierul original fără schimbările dumneavoastră"
 
 #. Resource IDs: (61862)
 #, c-format
@@ -2084,7 +2084,7 @@ msgstr "Sunteti sigur ca doriti sa salvati in \"%s\" ?"
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical\tV"
-msgstr ""
+msgstr "Aranjează &vertical\tV"
 
 #. Resource IDs: (4210)
 #, c-format
@@ -2179,7 +2179,7 @@ msgstr "Autori cu majuscule semnificative"
 msgid ""
 "Authors:\tFrank Li (lznuaa@gmail.com),\n"
 "\t\tSven Strickroth (email@cs-ware.de)"
-msgstr "Authori:»Frank Li (lznuaa@gmail.com),⏎ »»Sven Strickroth (email@cs-ware.de)"
+msgstr "Authori:\tFrank Li (lznuaa@gmail.com),\n\t\tSven Strickroth (email@cs-ware.de)"
 
 #. Resource IDs: (65535)
 msgid "Auto CrLf convert"
@@ -2381,7 +2381,7 @@ msgstr "Ramură"
 msgid ""
 "Branch %s behind %s\r\n"
 "%s will fastforward to %s"
-msgstr "Ramura %s este în urma %s»⏎ %s va avansa la %s"
+msgstr "Ramura %s este în urma %s\r\n%s va avansa la %s"
 
 #. Resource IDs: (1476)
 msgid "Branch (FF)"
@@ -2481,11 +2481,11 @@ msgstr "&Tăie"
 
 #. Resource IDs: (59137)
 msgid "CAP"
-msgstr "CAp"
+msgstr "CAP"
 
 #. Resource IDs: (65535)
 msgid "CC:"
-msgstr "CC:"
+msgstr "Copie:"
 
 #. Resource IDs: (1741)
 msgid "Calculate"
@@ -2506,7 +2506,7 @@ msgid ""
 "%s\n"
 "to\n"
 "%s"
-msgstr "Nu se poate copia ⏎ %s ⏎ în ⏎ %s"
+msgstr "Nu se poate copia\n%s\nîn\n%s"
 
 #. Resource IDs: (16010)
 msgid "Can't copy bitmap image into the clipboard!"
@@ -2568,7 +2568,7 @@ msgstr "Renunta\nRamai cu setarile curente"
 msgid ""
 "Cannot combine commits now.\r\n"
 "Make sure you are viewing the log of your current branch and no filters are applied."
-msgstr "Momentan nu se pot combina transmiterile.»⏎ Asiguraţi-vă că afişaţi jurnalul ramurii curente şi nu există filtre aplicate."
+msgstr "Momentan nu se pot combina transmiterile.\r\nAsiguraţi-vă că afişaţi jurnalul ramurii curente şi nu există filtre aplicate."
 
 #. Resource IDs: (1495)
 msgid ""
@@ -2621,19 +2621,19 @@ msgstr "Modifică jurnalul"
 msgid ""
 "Change the printer and printing options\n"
 "Print Setup"
-msgstr "Schimbă imprimanta şi opţiunile de imprimare⏎ Setări de imprimare"
+msgstr "Schimbă imprimanta şi opţiunile de imprimare\nSetări de imprimare"
 
 #. Resource IDs: (57605)
 msgid ""
 "Change the printing options\n"
 "Page Setup"
-msgstr "Schimbă opţiunile de imprimare⏎ Setare pagină"
+msgstr "Schimbă opţiunile de imprimare\nSetare pagină"
 
 #. Resource IDs: (10000)
 msgid ""
 "Change the style of the application\n"
 "Change Style"
-msgstr "Schimbă stilul aplicaţiei⏎ Schimbă stil"
+msgstr "Schimbă stilul aplicaţiei\nSchimbă stil"
 
 #. Resource IDs: (61185)
 msgid "Change the window position"
@@ -2891,7 +2891,7 @@ msgstr "Clic pe \"Avansat\" pentru a specifica programe alternative de îmbinare
 msgid ""
 "Click to see commands to move blocks of text\n"
 "Use text blocks"
-msgstr "Apăsaţi pentru a vedea comenzi pentru mutarea blocurilor de text⏎ Foloseşte blocuri de text "
+msgstr "Apăsaţi pentru a vedea comenzi pentru mutarea blocurilor de text\nFoloseşte blocuri de text "
 
 #. Resource IDs: (4100)
 msgid "Clipboard"
@@ -2939,13 +2939,13 @@ msgstr "Închide manual"
 msgid ""
 "Close print preview mode\n"
 "Cancel Preview"
-msgstr "Închide modul de previzualizare a imprimării⏎ Anulează previzualizarea"
+msgstr "Închide modul de previzualizare a imprimării\nAnulează previzualizarea"
 
 #. Resource IDs: (57602)
 msgid ""
 "Close the active document\n"
 "Close"
-msgstr "Închide documentul activ⏎ Închide"
+msgstr "Închide documentul activ\nÎnchide"
 
 #. Resource IDs: (61190)
 msgid "Close the active window and prompts to save the documents"
@@ -3161,7 +3161,7 @@ msgstr "Sursa configurare"
 msgid "Config type:"
 msgstr "Tip configurare:"
 
-#. Resource IDs: (102)
+#. Resource IDs: (102, 500)
 msgid "Configure Filter Regexes"
 msgstr "Configurare filtre expresii regulate"
 
@@ -3207,7 +3207,7 @@ msgstr "Fişiere de conflict"
 msgid "Conflict resolved"
 msgstr "Conflict rezolvat"
 
-#. Resource IDs: (4204, 65535)
+#. Resource IDs: (2708, 4204, 65535)
 msgid "Conflicted"
 msgstr "Cu conflicte"
 
@@ -3351,7 +3351,7 @@ msgid ""
 "Could not copy the files!\n"
 "\n"
 "%s"
-msgstr "Nu s-au putut copia fişierele!⏎ ⏎ %s"
+msgstr "Nu s-au putut copia fişierele!\n\n%s"
 
 #. Resource IDs: (61864)
 #, c-format
@@ -3416,7 +3416,7 @@ msgstr "Nu s-a putut obţine URL-ul fişierului!\n%s"
 msgid ""
 "Could not retrieve revision %s of the file %s.\n"
 "Patching is not possible!"
-msgstr "Nu s-a putut obţine revizia %s a fişierului %s.⏎Peticirea nu este posibilă!"
+msgstr "Nu s-a putut obţine revizia %s a fişierului %s.\nPeticirea nu este posibilă!"
 
 #. Resource IDs: (1015)
 msgid "Could not start TortoiseGitBlame"
@@ -3428,7 +3428,7 @@ msgid ""
 "Could not start diff viewer!\n"
 "\n"
 "%s"
-msgstr "Nu s-a putut porni vizualizatorul de diferenţiere!⏎ ⏎ %s"
+msgstr "Nu s-a putut porni vizualizatorul de diferenţiere!\n\n%s"
 
 #. Resource IDs: (1282)
 #, c-format
@@ -3436,7 +3436,7 @@ msgid ""
 "Could not start external diff program!\n"
 "\n"
 "%s"
-msgstr "Nu s-a putut porni programul extern de diferenţiere!⏎ ⏎ %s"
+msgstr "Nu s-a putut porni programul extern de diferenţiere!\n\n%s"
 
 #. Resource IDs: (1290)
 #, c-format
@@ -3444,7 +3444,7 @@ msgid ""
 "Could not start external merge program!\n"
 "\n"
 "%s"
-msgstr "Nu s-a putut porni programul extern de îmbinare!⏎ ⏎ %s"
+msgstr "Nu s-a putut porni programul extern de îmbinare!\n\n%s"
 
 #. Resource IDs: (61702)
 msgid "Could not start print job."
@@ -3456,7 +3456,7 @@ msgid ""
 "Could not start text viewer!\n"
 "\n"
 "%s"
-msgstr "Nu s-a putut porni vizualizatorul de text!⏎ ⏎ %s"
+msgstr "Nu s-a putut porni vizualizatorul de text!\n\n%s"
 
 #. Resource IDs: (9632)
 msgid "Could not start the Putty Agent (pageant)."
@@ -3523,7 +3523,7 @@ msgstr "Creează eticheta..."
 msgid ""
 "Create a new document\n"
 "New"
-msgstr "Creează un document nou⏎ Nou"
+msgstr "Creează un document nou\nNou"
 
 #. Resource IDs: (9651)
 msgid ""
@@ -3610,7 +3610,7 @@ msgid ""
 "Current branch %s is up to date\r\n"
 "\r\n"
 " If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr "Ramura curentă %s este la zi⏎ ⏎ Dacă doriţi să forţaţi reamplasarea chiar daca ramura curenta este un descendent al transmiterii în care reamplasaţi, bifaţi mai jos \"Forţează reamplasarea\"."
+msgstr "Ramura curentă %s este la zi\r\nDacă doriţi să forţaţi reamplasarea chiar daca ramura curenta este un descendent al transmiterii în care reamplasaţi, bifaţi mai jos \"Forţează reamplasarea\"."
 
 #. Resource IDs: (1113)
 msgid "Current version is:"
@@ -3990,7 +3990,7 @@ msgstr ""
 msgid ""
 "Disable this option if you have really big working trees and experience\r\n"
 "too much disk access when browsing the working tree."
-msgstr "Dezactivaţi această opţiune daca aveţi structuri de lucru cu adevărat mari şi experimentaţi»⏎ prea multă activitate pe disc atunci când răsfoiţi structura de lucru."
+msgstr "Dezactivaţi această opţiune daca aveţi structuri de lucru cu adevărat mari şi experimentaţi\r\nprea multă activitate pe disc atunci când răsfoiţi structura de lucru."
 
 #. Resource IDs: (1543)
 msgid "Disable update checks"
@@ -4018,7 +4018,7 @@ msgstr "Afişează &butoanele în aceasta ordine"
 msgid ""
 "Display full pages\n"
 "Print Preview"
-msgstr "Afişează paginile întregi⏎ Previzualizare imprimare"
+msgstr "Afişează paginile întregi\nPrevizualizare imprimare"
 
 #. Resource IDs: (57669)
 msgid ""
@@ -4142,7 +4142,7 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "and go back to this revision? These changes will be reverted by reverse-merging the revisions into your working tree."
-msgstr "Chiar doriţi să inversaţi toate schimbările din⏎ %s⏎ şi să reveniţi la această revizie? Aceste schimbări vor fi inversate prin combinarea inversată a reviziilor în structura de lucru."
+msgstr "Chiar doriţi să inversaţi toate schimbările din\n%s\nşi să reveniţi la această revizie? Aceste schimbări vor fi inversate prin combinarea inversată a reviziilor în structura de lucru."
 
 #. Resource IDs: (1211)
 #, c-format
@@ -4150,7 +4150,7 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "which were made in this revision? These changes will be reverted by reverse-merging the revision into your working tree."
-msgstr "Chiar doriţi să inversaţi toate schimbările din⏎ %s⏎ care au fost facute în această revizie? Aceste schimbări vor fi inversate prin combinarea inversată a reviziilor în structura de lucru."
+msgstr "Chiar doriţi să inversaţi toate schimbările din\n%s\ncare au fost facute în această revizie? Aceste schimbări vor fi inversate prin combinarea inversată a reviziilor în structura de lucru."
 
 #. Resource IDs: (1480)
 msgid ""
@@ -4172,7 +4172,7 @@ msgid ""
 "Do you want to mark the file\n"
 "%s\n"
 "as resolved?"
-msgstr "Doriţi să marcaţi fişierul⏎ %s⏎ ca fiind rezolvat?"
+msgstr "Doriţi să marcaţi fişierul\n%s\nca fiind rezolvat?"
 
 #. Resource IDs: (62182)
 msgid "Do you want to recover these auto-saved documents?"
@@ -4578,7 +4578,7 @@ msgid ""
 "Erase"
 msgstr "Şterge selecţia\nŞterge"
 
-#. Resource IDs: (1112, 1307)
+#. Resource IDs: (1112, 1307, 2706)
 msgid "Error"
 msgstr "Eroare"
 
@@ -4596,7 +4596,7 @@ msgstr ""
 msgid ""
 "Error while reading/writing the registry key %s\n"
 "%s"
-msgstr "Eroare la citirea/scrierea cheii de registru %s ⏎ %s"
+msgstr "Eroare la citirea/scrierea cheii de registru %s\n%s"
 
 #. Resource IDs: (1188)
 msgid "Everything updated."
@@ -4778,7 +4778,7 @@ msgstr "Nu s-a putut stabili/elimina lista de schimbări '%s'"
 msgid ""
 "Failed to start the issue tracker COM provider '%s'.\n"
 "%s"
-msgstr "Nu s-a putut porni furnizorul COM '%s' pentru monitorul de probleme. ⏎ %s "
+msgstr "Nu s-a putut porni furnizorul COM '%s' pentru monitorul de probleme.\n%s "
 
 #. Resource IDs: (1148)
 msgid "Failed waiting for pageant to finish loading key."
@@ -4948,7 +4948,7 @@ msgstr "Dimensiune fişier:\t\t\t%s (%s)\nLăţime:\t\t\t%ld pixel\nÎnălţime:
 msgid "Filename"
 msgstr "Nume de fişier"
 
-#. Resource IDs: (156, 1707)
+#. Resource IDs: (1707)
 msgid "Files"
 msgstr "Fişiere"
 
@@ -5085,7 +5085,7 @@ msgstr ""
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
-msgstr "Forţează reamplasarea chiar dacă ramura curenta este un descendent al transmiterii în care reamplasaţi. ⏎ În mod normal într-o asemenea situaţie comanda va ieşi cu mesajul \"Ramura curentă este la zi\"."
+msgstr "Forţează reamplasarea chiar dacă ramura curenta este un descendent al transmiterii în care reamplasaţi.\r\nÎn mod normal într-o asemenea situaţie comanda va ieşi cu mesajul \"Ramura curentă este la zi\"."
 
 #. Resource IDs: (1796)
 msgid "Force: May discard"
@@ -5410,7 +5410,7 @@ msgstr "Salt la diferenţa următoare\ndiferenţa următoare"
 msgid ""
 "Go to the next inline difference\n"
 "Next inline difference"
-msgstr "Salt la următoarea diferenţă inline⏎ Următoarea diferenţă inline"
+msgstr "Salt la următoarea diferenţă inline\nUrmătoarea diferenţă inline"
 
 #. Resource IDs: (32802)
 msgid ""
@@ -5428,7 +5428,7 @@ msgstr "Salt la diferenţa precedentă\ndiferenţa precedentă"
 msgid ""
 "Go to the previous inline difference\n"
 "Previous inline difference"
-msgstr "Salt la diferenţa inline anterioară⏎ Diferenţa inline anterioară"
+msgstr "Salt la diferenţa inline anterioară\nDiferenţa inline anterioară"
 
 #. Resource IDs: (32893)
 msgid "Goto Line"
@@ -5853,7 +5853,7 @@ msgstr "Dacă este bifat, a face dublu-clic pe o revizie din lista de jurnale o 
 msgid ""
 "If checked, the commit dialog will be started again automatically after an error,\r\n"
 "while preserving your last selection and log message."
-msgstr "Dacă este bifat, dialogul de transmitere va fi pornit din nou în mod automat după o eroare, ⏎ păstrând ultima selecţie şi mesajul de jurnal."
+msgstr "Dacă este bifat, dialogul de transmitere va fi pornit din nou în mod automat după o eroare,\r\npăstrând ultima selecţie şi mesajul de jurnal."
 
 #. Resource IDs: (3100)
 msgid ""
@@ -5864,7 +5864,7 @@ msgstr "Dacă este activat, TortoiseGit verifică odată pe săptămână daca e
 msgid ""
 "If enabled, working tree folders which are excluded from\n"
 "showing overlays still show the overlay for status 'normal'"
-msgstr "Dacă este activat, dosarele din structura de lucru care sunt excluse de la⏎ a afişa suprapuneri vor afişa totuşi suprapuneri pentru starea \"normal\""
+msgstr "Dacă este activat, dosarele din structura de lucru care sunt excluse de la\n a afişa suprapuneri vor afişa totuşi suprapuneri pentru starea \"normal\""
 
 #. Resource IDs: (3121)
 msgid ""
@@ -6111,7 +6111,7 @@ msgid ""
 "It is not possible to rename a file by changing the case of its name alone.\n"
 "For example, you can't make MyFile.txt become MYFILE.txt.\n"
 "Please consult the documentation for a way to work around this limitation."
-msgstr "Nu este posibil să redenumiţi un fişier doar prin modificarea majusculelor. ⏎ De exemplu, nu puteţi face ca MyFile.txt să devină MYFILE.txt. ⏎ Vă rugăm să consultaţi documentaţia pentru o modalitate de a depăşi această limitare."
+msgstr "Nu este posibil să redenumiţi un fişier doar prin modificarea majusculelor.\nDe exemplu, nu puteţi face ca MyFile.txt să devină MYFILE.txt.\nVă rugăm să consultaţi documentaţia pentru o modalitate de a depăşi această limitare."
 
 #. Resource IDs: (1074)
 msgid "J&ump to first conflict when loading"
@@ -6508,7 +6508,7 @@ msgstr "Blocuri marcate"
 msgid ""
 "Marks a file as resolved in Git\n"
 "Mark as resolved"
-msgstr "Marchează un fişier ca rezolvat în Git⏎ Marchează ca rezolvat"
+msgstr "Marchează un fişier ca rezolvat în Git\nMarchează ca rezolvat"
 
 #. Resource IDs: (201)
 msgid "Marks revision as bad"
@@ -6766,7 +6766,7 @@ msgstr "Navighează"
 msgid ""
 "Navigate to a specific line in the view\n"
 "Goto Line"
-msgstr "Mergi la o anume linie în vedere⏎ Salt la linie"
+msgstr "Mergi la o anume linie în vedere\nSalt la linie"
 
 #. Resource IDs: (17004)
 msgid "Navigation Pane Options"
@@ -6797,8 +6797,8 @@ msgid "New &name:"
 msgstr "&Nume nou:"
 
 #. Resource IDs: (309)
-msgid "New Branch\\Tag"
-msgstr "Ramură\\Etichetă nouă"
+msgid "New Branch/Tag"
+msgstr "Ramură/Etichetă nouă"
 
 #. Resource IDs: (16014)
 msgid "New Menu"
@@ -6884,7 +6884,7 @@ msgid ""
 "No command specified!\n"
 "\n"
 "TortoiseGitProc.exe is used by the Shell extension and should not be called directly!"
-msgstr "Nicio comandă specificată⏎⏎ TortoiseGitProc.exe este folosit de extensia Shell şi nu ar trebui apelat în mod direct!"
+msgstr "Nicio comandă specificată\n\nTortoiseGitProc.exe este folosit de extensia Shell şi nu ar trebui apelat în mod direct!"
 
 #. Resource IDs: (1284)
 msgid "No command value specified!"
@@ -7058,7 +7058,7 @@ msgstr "Notiţe"
 msgid ""
 "Nothing need rebase\r\n"
 "%s equal %s"
-msgstr "Reamplasarea nu este necesară»⏎ %s este la fel cu %s"
+msgstr "Reamplasarea nu este necesară\r\n%s este la fel cu %s"
 
 #. Resource IDs: (1058)
 msgid "Nothing to Rebase"
@@ -7249,7 +7249,7 @@ msgstr "Deschide"
 msgid ""
 "Open an existing document\n"
 "Open"
-msgstr "Deschide un document existent⏎ Deschide"
+msgstr "Deschide un document existent\nDeschide"
 
 #. Resource IDs: (1797)
 msgid "Open certificate"
@@ -7259,7 +7259,7 @@ msgstr "Deschide certificat"
 msgid ""
 "Open files for diff or to apply a patch\n"
 "Open files"
-msgstr "Deschide fişiere pentru diferenţiere sau pentru a aplica un petic⏎ Deschide fişiere"
+msgstr "Deschide fişiere pentru diferenţiere sau pentru a aplica un petic\nDeschide fişiere"
 
 #. Resource IDs: (1132, 6006)
 msgid "Open from clipboard"
@@ -7310,7 +7310,7 @@ msgstr "Opţiuni"
 
 #. Resource IDs: (32779)
 msgid "Ori&ginal size\tS"
-msgstr ""
+msgstr "Dimensiune ori&ginală\tS"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -7491,7 +7491,7 @@ msgstr "Se peticește"
 msgid "Patching file '%s'"
 msgstr "Se peticeşte fişierul \"%s\""
 
-#. Resource IDs: (1004, 1223, 3153, 3300)
+#. Resource IDs: (1004, 1223, 2704, 3153, 3300)
 msgid "Path"
 msgstr "Cale"
 
@@ -7709,13 +7709,13 @@ msgstr "Tipăreşte documentul\n&Tipăreşte"
 msgid ""
 "Print the active document using current options\n"
 "Quick Print"
-msgstr "Tipăreşte documentul curent folosind opţiunile curente⏎ Imprimare rapidă"
+msgstr "Tipăreşte documentul curent folosind opţiunile curente\nImprimare rapidă"
 
 #. Resource IDs: (57607)
 msgid ""
 "Print the active document\n"
 "Print"
-msgstr "Tipăreşte documentul activ⏎ Tipăreşte"
+msgstr "Tipăreşte documentul activ\nTipăreşte"
 
 #. Resource IDs: (61512)
 msgid "Print to File"
@@ -8006,7 +8006,7 @@ msgstr "Recursiv"
 msgid ""
 "Redo the previously undone action\n"
 "Redo"
-msgstr "Refă acţiunea anterior anulată⏎ Refă"
+msgstr "Refă acţiunea anterior anulată\nRefă"
 
 #. Resource IDs: (61186)
 msgid "Reduce the window to an icon"
@@ -8044,7 +8044,7 @@ msgstr "Reîmprospătează"
 msgid "Refreshing..."
 msgstr "Reîmprospătează..."
 
-#. Resource IDs: (165, 500)
+#. Resource IDs: (165, 500, 65535)
 msgid "Regex Filter"
 msgstr "Filtru expresii regulate"
 
@@ -8585,8 +8585,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #. Resource IDs: (1541)
-msgid "SSL"
-msgstr "SSL"
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
@@ -8656,7 +8656,7 @@ msgstr "Salvează &ca..."
 
 #. Resource IDs: (32773)
 msgid "Save &as...\tCtrl+Shift+S"
-msgstr ""
+msgstr "Salvează &ca...\tCtrl+Shift+S"
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -8759,13 +8759,13 @@ msgstr "Salvează revizia î&n..."
 msgid ""
 "Save the active document with a new name\n"
 "Save As"
-msgstr "Salvează documentul activ cu un nume nou⏎ Salvează ca"
+msgstr "Salvează documentul activ cu un nume nou\nSalvează ca"
 
 #. Resource IDs: (57603)
 msgid ""
 "Save the active document\n"
 "Save"
-msgstr "Salvează documentul activ⏎ Salvează"
+msgstr "Salvează documentul activ\nSalvează"
 
 #. Resource IDs: (57603, 57604)
 msgid ""
@@ -9159,7 +9159,7 @@ msgstr "Afişează diferenţiere între linii pe cuvinte\nDiferenţiere între l
 msgid ""
 "Show Inline-Diff\n"
 "Inline diff"
-msgstr "Afişează diferenţe inline⏎ Diferenţe inline"
+msgstr "Afişează diferenţe inline\nDiferenţe inline"
 
 #. Resource IDs: (17029)
 msgid "Show More Buttons"
@@ -9310,7 +9310,7 @@ msgstr "Arată fişierele modificate în structura de lucru"
 msgid ""
 "Show next change of selected commit\n"
 "Show next"
-msgstr "Afişează următoarea schimbare a transmiterii selectate⏎ Afişează următoarea"
+msgstr "Afişează următoarea schimbare a transmiterii selectate\nAfişează următoarea"
 
 #. Resource IDs: (32814)
 msgid "Show oldest node at top"
@@ -9332,7 +9332,7 @@ msgstr "Afişează sau ascunde bara de localizator\nComută bara de localizator"
 msgid ""
 "Show or hide the status bar\n"
 "Toggle Status Bar"
-msgstr "Afişează sau ascunde bara de stare⏎ Comută bara de stare"
+msgstr "Afişează sau ascunde bara de stare\nComută bara de stare"
 
 #. Resource IDs: (59393)
 msgid ""
@@ -9354,7 +9354,7 @@ msgstr "Arată numărul original de linii"
 msgid ""
 "Show previous change of selected commit\n"
 "Show previous"
-msgstr "Afişează schimbarea anterioară a transmiterii selectate⏎ Afişează anterior"
+msgstr "Afişează schimbarea anterioară a transmiterii selectate\nAfişează anterior"
 
 #. Resource IDs: (20030)
 msgid "Show revision properties"
@@ -9368,7 +9368,7 @@ msgstr "Afişează &comenzile rapide în mesajele de ajutor."
 msgid ""
 "Show special characters for whitespaces and newlines\n"
 "Show Whitespaces"
-msgstr "Afişează caracterele speciale pentru spaţii coale şi linii noi⏎ Arată spaţii goale"
+msgstr "Afişează caracterele speciale pentru spaţii coale şi linii noi\nArată spaţii goale"
 
 #. Resource IDs: (1314)
 msgid "Show status of subrepositories in parent folders"
@@ -9400,7 +9400,7 @@ msgstr ""
 msgid ""
 "Showing %ld revision(s), from revision %s to revision %s - %ld revision(s) "
 "selected, %ld file(s) selected\r\n"
-msgstr "Se afişează %ld revizie(-ii), de la revizia %s la revizia %s - %ld revizie(-ii) selectate, %ld fișier(e) selectate»⏎\n"
+msgstr "Se afişează %ld revizie(-ii), de la revizia %s la revizia %s - %ld revizie(-ii) selectate, %ld fișier(e) selectate\r\n\n"
 
 #. Resource IDs: (368)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9491,13 +9491,13 @@ msgstr "Fin: Lasă structura de lucru şi indexul neatinse"
 msgid ""
 "Some file(s) have been changed outside TortoiseGitMerge.\n"
 "Do you want to load the changes?"
-msgstr "Unele dintre fişier(e) au fost modificate în afara programului TortoiseGitMerge.⏎ Doriţi să încărcaţi schimbările?"
+msgstr "Unele dintre fişier(e) au fost modificate în afara programului TortoiseGitMerge.\nDoriţi să încărcaţi schimbările?"
 
 #. Resource IDs: (5014)
 msgid ""
 "Some file(s) have been changed outside TortoiseGitMerge.\n"
 "Would you like to reload and lose your changes?"
-msgstr "Unele dintre fişier(e) au fost modificate în afara programului TortoiseGitMerge.⏎ Doriţi să reîncărcaţi şi să renunţaţi la schimbările dumneavoastră?"
+msgstr "Unele dintre fişier(e) au fost modificate în afara programului TortoiseGitMerge.\nDoriţi să reîncărcaţi şi să renunţaţi la schimbările dumneavoastră?"
 
 #. Resource IDs: (1126)
 msgid "Sort by commit count"
@@ -9911,7 +9911,7 @@ msgstr "Thai"
 msgid ""
 "The Remote Config was changed.\n"
 "Do you want to save now or discard changes?"
-msgstr "Configurarea destinaţie a fost schimbată.⏎ Doriţi să salvaţi acum sau renunţaţi la modificări?"
+msgstr "Configurarea destinaţie a fost schimbată.\nDoriţi să salvaţi acum sau renunţaţi la modificări?"
 
 #. Resource IDs: (1575)
 msgid ""
@@ -9925,7 +9925,7 @@ msgid ""
 "The branch \"%s\" is a <i>remote</i> branch.\n"
 "\n"
 "Do you really want to <ct=0x0000FF>delete</ct> it?"
-msgstr "Ramura  \"%s\" este o ramură <i>destinaţie</i>.⏎ ⏎ Chiar doriţi să o<ct=0x0000FF>ştergeţi</ct>?"
+msgstr "Ramura  \"%s\" este o ramură <i>destinaţie</i>.\n\nChiar doriţi să o<ct=0x0000FF>ştergeţi</ct>?"
 
 #. Resource IDs: (1007)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -9940,19 +9940,19 @@ msgstr "Mesajul de transmitere trebuie sa nu fie nul."
 msgid ""
 "The credential helper URL \"%s\" already exists.\n"
 "Do you want to overwrite it?"
-msgstr "URL-ul pentru asistentul de credentiale \"%s\" există deja.⏎ Doriţi să îl suprascrieţi?"
+msgstr "URL-ul pentru asistentul de credentiale \"%s\" există deja.\nDoriţi să îl suprascrieţi?"
 
 #. Resource IDs: (1420)
 msgid ""
 "The credential helper was changed.\n"
 "Do you want to save now or discard changes?"
-msgstr "Asistentul de credenţiale a fost schimbat.⏎ Doriţi să salvaţi acum sau renunţaţi la modificări?"
+msgstr "Asistentul de credenţiale a fost schimbat.\nDoriţi să salvaţi acum sau renunţaţi la modificări?"
 
 #. Resource IDs: (9641)
 msgid ""
 "The current working tree is not clean.\n"
 "Do you want to stash the changes?"
-msgstr "Structura de lucru curentă nu este curată.⏎ Doriţi să tăinuiţi schimbările?"
+msgstr "Structura de lucru curentă nu este curată.\nDoriţi să tăinuiţi schimbările?"
 
 #. Resource IDs: (1576)
 msgid ""
@@ -9972,7 +9972,7 @@ msgstr "Motorul de diferenţiere s-a oprit din cauza unei erori:\n%s"
 msgid ""
 "The entered source ref is ambiguous.\n"
 "You have to make it unique (e.g. by adding \"refs/heads/\" as a prefix for branches or \"refs/tags/\" for tags)!"
-msgstr "Referinţa sursă introdusă este ambiguă.⏎ Trebuie să o faceţi unică (e.g. adăugând \"refs/heads/\" ca prefix pentru ramuri sau \"refs/tags/\" pentru etichete)!"
+msgstr "Referinţa sursă introdusă este ambiguă.\nTrebuie să o faceţi unică (e.g. adăugând \"refs/heads/\" ca prefix pentru ramuri sau \"refs/tags/\" pentru etichete)!"
 
 #. Resource IDs: (1579)
 msgid ""
@@ -9996,7 +9996,7 @@ msgstr "Fişierul %s nu s-a găsit în fişierul petic!"
 msgid ""
 "The file \"%s\" does not exist in your working tree.\n"
 "Do you want to select another file to diff?"
-msgstr "Fişierul \"%s\" nu există în structura de lucru.⏎ Doriţi să selectaţi alt fişier pentru diferenţiere?"
+msgstr "Fişierul \"%s\" nu există în structura de lucru.\nDoriţi să selectaţi alt fişier pentru diferenţiere?"
 
 #. Resource IDs: (5012)
 #, c-format
@@ -10029,7 +10029,7 @@ msgid ""
 "The file\n"
 "%s\n"
 "is not a valid text file!"
-msgstr "Fişierul⏎ %s⏎ nu este un fişier text valid!"
+msgstr "Fişierul\n%s\nnu este un fişier text valid!"
 
 #. Resource IDs: (2318)
 #, c-format
@@ -10087,13 +10087,13 @@ msgstr "Ramura locala \"%s\" nu avansează la ramura destinaţie \"%s\"."
 msgid ""
 "The local branch name and the remote branch name are empty.\n"
 "Continue?"
-msgstr "Numele ramurii locale şi numele ramurii destinaţie sunt goale.⏎ Continuaţi?"
+msgstr "Numele ramurii locale şi numele ramurii destinaţie sunt goale.\nContinuaţi?"
 
 #. Resource IDs: (1022)
 msgid ""
 "The local branch/tag name is empty. This results in a remote removal.\r\n"
 "Continue?"
-msgstr "Numele ramurii/etichetei locale este nul. Aceasta va cauza ştergerea destinaţiei.»⏎ Continuaţi?"
+msgstr "Numele ramurii/etichetei locale este nul. Aceasta va cauza ştergerea destinaţiei.\r\nContinuaţi?"
 
 #. Resource IDs: (3160)
 msgid ""
@@ -10116,7 +10116,7 @@ msgstr "Parametrii '/path' and '/pathfile' nu pot fi specificate în acelaşi tm
 msgid ""
 "The patch does not apply cleanly to %s and no version information is given.\n"
 "Patching is not possible!"
-msgstr "Peticul nu s-a aplicat curat pe %s şi nu s-a furnizat nicio informaţie despre versiune⏎ Nu se poate petici!"
+msgstr "Peticul nu s-a aplicat curat pe %s şi nu s-a furnizat nicio informaţie despre versiune\nNu se poate petici!"
 
 #. Resource IDs: (1022)
 #, c-format
@@ -10126,7 +10126,7 @@ msgid ""
 "and the patchline\n"
 "%s\n"
 "do not match!"
-msgstr "Peticul pare învechit! Linia⏎ %s⏎ din fişier nu se potriveşte cu linia⏎ %s⏎ din petic!"
+msgstr "Peticul pare învechit! Linia\n%s\ndin fişier nu se potriveşte cu linia\n%s\ndin petic!"
 
 #. Resource IDs: (1407)
 msgid ""
@@ -10137,7 +10137,7 @@ msgid ""
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n"
 "\n"
 "Do you want to proceed anyway?"
-msgstr "Se pare că URL-ul sau calea introdusă nu este validă în Windows!⏎Puteţi să continuaţi, dar s-ar putea să întâmpinaţi erori ulterior.⏎ ⏎O cale validă în Windows nu poate conţine '<<>|\"?*:' sau unul dintre următoarele nume de dispozitiv:⏎com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$⏎⏎Sigur doriţi să continuaţi?"
+msgstr "Se pare că URL-ul sau calea introdusă nu este validă în Windows!\nPuteţi să continuaţi, dar s-ar putea să întâmpinaţi erori ulterior.\n\nO cale validă în Windows nu poate conţine '<<>|\"?*:' sau unul dintre următoarele nume de dispozitiv:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n\nSigur doriţi să continuaţi?"
 
 #. Resource IDs: (5008)
 #, c-format
@@ -10148,7 +10148,7 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%s\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr "Nu se potriveşte calea⏎ %s⏎ cu căile din fişierul petic.⏎ Dar TortoiseMerge a găsit calea⏎ %s⏎ care se potriveşte mai bine. Doriţi să folosiţi calea sugerată?"
+msgstr "Nu se potriveşte calea\n%s\ncu căile din fişierul petic.\nDar TortoiseMerge a găsit calea\n%s\ncare se potriveşte mai bine. Doriţi să folosiţi calea sugerată?"
 
 #. Resource IDs: (1440)
 msgid ""
@@ -10167,7 +10167,7 @@ msgstr "Expresia regulata este invalida!\nVa rugam introduceti o expresie regula
 msgid ""
 "The remote \"%s\" already exists.\n"
 "Do you want to overwrite it?"
-msgstr "Destinaţia \"%s\" există deja.⏎ Doriţi să o suprascrieţi?"
+msgstr "Destinaţia \"%s\" există deja.\nDoriţi să o suprascrieţi?"
 
 #. Resource IDs: (1573)
 msgid ""
@@ -10192,7 +10192,7 @@ msgid ""
 "The submodule \"%s\" is dirty.\n"
 "Merely committing the superproject cannot track or save such changes to the submodule.\n"
 "Commit the submodule now or ignore dirty changes?"
-msgstr "Submodulul \"%s\" este murdar.⏎ Doar prin transmiterea superproiectului nu se pot urmări sau salva asemenea schimbări asupra submodulului.⏎ Transmit submodulul acum sau ignorăm schimbările murdare?"
+msgstr "Submodulul \"%s\" este murdar.\nDoar prin transmiterea superproiectului nu se pot urmări sau salva asemenea schimbări asupra submodulului.\nTransmit submodulul acum sau ignorăm schimbările murdare?"
 
 #. Resource IDs: (1483)
 #, c-format
@@ -10210,7 +10210,7 @@ msgid ""
 "%s\n"
 "is not empty!\n"
 "Are you sure you want to initialize a git repository inside that folder?"
-msgstr "Dosarul ţintă ⏎ %s⏎ nu este gol!⏎ Sunteţi sigur că doriţi să iniţializaţi un depozit git în acel dosar?"
+msgstr "Dosarul ţintă \n%sß\nnu este gol!\nSunteţi sigur că doriţi să iniţializaţi un depozit git în acel dosar?"
 
 #. Resource IDs: (1600)
 msgid ""
@@ -10249,7 +10249,7 @@ msgstr "A lor"
 msgid ""
 "There are changes or unversioned items inside one or more submodule.\n"
 "Those files are not listed for commit. You need to commit those files in submodule"
-msgstr "Există schimbări sau elemente fără versiune în unul sau mai multe submodule.⏎ Aceste fişiere nu sunt afişate pentru transmitere. Va trebui sa transmiteţi aceste fişiere ca parte a unui submodul"
+msgstr "Există schimbări sau elemente fără versiune în unul sau mai multe submodule.\nAceste fişiere nu sunt afişate pentru transmitere. Va trebui sa transmiteţi aceste fişiere ca parte a unui submodul"
 
 #. Resource IDs: (3162)
 #, c-format
@@ -10314,7 +10314,7 @@ msgid ""
 "This is not a valid path!\n"
 "A valid path must not contain '<<>|\"?*:' or one of the following device names:\n"
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
-msgstr "Aceasta nu este o cale validă!⏎O cale validă nu poate conţine '<<>|\"?*:' sau unul din următoarele nume de dispozitiv:⏎com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
+msgstr "Aceasta nu este o cale validă!\nO cale validă nu poate conţine '<<>|\"?*:' sau unul din următoarele nume de dispozitiv:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
 
 #. Resource IDs: (1557)
 msgid ""
@@ -10458,7 +10458,7 @@ msgstr ""
 msgid ""
 "TortoiseGit has detected similar filenames. Do you want the files:%s\n"
 "to be renamed too?"
-msgstr "TortoiseGit a detectat nume de fişiere similare. Doriţi ca fişierele:%s⏎sa fie şi ele redenumite?"
+msgstr "TortoiseGit a detectat nume de fişiere similare. Doriţi ca fişierele:%s\nsa fie şi ele redenumite?"
 
 #. Resource IDs: (3163)
 #, c-format
@@ -10516,7 +10516,7 @@ msgid ""
 "/overlay\t\tto enable overlay mode\n"
 "/fit\t\tto fit the images sizes\n"
 "/showinfo\t\tto show the image info boxes"
-msgstr "TortoiseGitIDiff: Vizualizatorul de diferenţiere de imagini pentru TortoiseGit⏎⏎Parametrii disponibili la linia de comandă sunt:⏎ /left:\"calea imaginii din stânga\"⏎ /lefttitle:\"titlul afişat pentru imaginea din stânga\"⏎ /right:\"calea imaginii din dreapta\"⏎ /righttitle:\"titlul afişat pentru imaginea din dreapta\"⏎ /overlay»»pentru a activa modul de suprapunere⏎ /fit»»pentru a potrivi dimensiunile imaginilor⏎ /showinfo»»pentru a afişa căsuţe cu informaţia imaginilor"
+msgstr "TortoiseGitIDiff: Vizualizatorul de diferenţiere de imagini pentru TortoiseGit\n\nParametrii disponibili la linia de comandă sunt:\n/left:\"calea imaginii din stânga\"\n/lefttitle:\"titlul afişat pentru imaginea din stânga\"\n/right:\"calea imaginii din dreapta\"\n/righttitle:\"titlul afişat pentru imaginea din dreapta\"\n/overlay»»pentru a activa modul de suprapunere\n/fit»»pentru a potrivi dimensiunile imaginilor\n/showinfo»»pentru a afişa căsuţe cu informaţia imaginilor"
 
 #. Resource IDs: (100, 130, 156, 1271, 32897, 57344)
 msgid "TortoiseGitMerge"
@@ -10674,7 +10674,7 @@ msgid ""
 "This can happen if the file has been renamed.\n"
 "Please start the log dialog on this specific file alone and then revert the changes\n"
 "from the top pane in the log dialog."
-msgstr "Nu s-a putut reconstrui calea structurii de lucru!⏎ Acest lucru se poate întâmpla dacă fişierul a fost redenumit.⏎ Vă rog porniţi dialogul de jurnal doar pentru acest fişier şi apoi inversaţi schimbările⏎ din cel mai de sus panou al dialogului de jurnal."
+msgstr "Nu s-a putut reconstrui calea structurii de lucru!\nAcest lucru se poate întâmpla dacă fişierul a fost redenumit.\nVă rog porniţi dialogul de jurnal doar pentru acest fişier şi apoi inversaţi schimbările\ndin cel mai de sus panou al dialogului de jurnal."
 
 #. Resource IDs: (61837)
 msgid "Unable to write read-only property."
@@ -10710,13 +10710,13 @@ msgstr "Anulează adaugarea..."
 msgid ""
 "Undo the last action\n"
 "Undo"
-msgstr "Anulează ultima acţiune⏎ Anulează"
+msgstr "Anulează ultima acţiune\nAnulează"
 
 #. Resource IDs: (57643)
 msgid ""
 "Undo the last modifications\n"
 "Undo"
-msgstr "Anulează ultimele modificări⏎ Anulează"
+msgstr "Anulează ultimele modificări\nAnulează"
 
 #. Resource IDs: (61728)
 msgid "Unexpected file format."
@@ -11045,7 +11045,7 @@ msgstr "Anulat de către utilizator"
 msgid ""
 "User name and email must be set before commit.\r\n"
 " Do you want to set these now?"
-msgstr "Numele utilizatorului şi adresa de email trebuie configurate înainte de transmitere.»⏎ Doriţi să le configuraţi acum?"
+msgstr "Numele utilizatorului şi adresa de email trebuie configurate înainte de transmitere.\r\nDoriţi să le configuraţi acum?"
 
 #. Resource IDs: (1650)
 msgid "User&name:"
@@ -11196,7 +11196,7 @@ msgid ""
 "Warning: \"%s\" will be permanently deleted. It can <ct=0x0000FF><b>NOT</b></ct> be recovered!\r\n"
 "\r\n"
 "Do you really want to continue?"
-msgstr "Avertisment: \"%s\" va fi şters definitiv. <ct=0x0000FF><b>NU</b></ct> va putea fi recuperat!»⏎ »⏎ Chiar doriţi să continuaţi?"
+msgstr "Avertisment: \"%s\" va fi şters definitiv. <ct=0x0000FF><b>NU</b></ct> va putea fi recuperat!\r\n\r\nChiar doriţi să continuaţi?"
 
 #. Resource IDs: (1132)
 msgid "Web"
@@ -11269,7 +11269,7 @@ msgstr "Când lucrează în modul demon, toate datele din acest depozit sunt exp
 msgid "Whitespace changes (tabs, spaces)"
 msgstr "Schimbări de spații (tab-uri, spații)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (156, 65535)
 msgid "Whitespaces"
 msgstr "Spaţii goale"
 
@@ -11357,7 +11357,7 @@ msgstr "Taie liniile lungi"
 msgid ""
 "Wrap long lines at the right border of the view\n"
 "Wrap long lines"
-msgstr "Taie liniile lungi la marginea din dreapta a vederii⏎ Taie liniile lungi"
+msgstr "Taie liniile lungi la marginea din dreapta a vederii\nTaie liniile lungi"
 
 #. Resource IDs: (2306)
 msgid "Yes to all"
@@ -11405,7 +11405,7 @@ msgstr ""
 msgid ""
 "You have checked \"include untracked\".\n"
 "This includes a \"git clean -fd\" call, so ignored files/directories are removed w/o using recycle bin."
-msgstr "Aveţi bifată opţiunea \"include neurmărite\".⏎ Aceasta include un apel \"git clean -fd\", astfel că fişierele/dosarele ignorate sunt şterse fără a fi folosit coşul de gunoi."
+msgstr "Aveţi bifată opţiunea \"include neurmărite\".\nAceasta include un apel \"git clean -fd\", astfel că fişierele/dosarele ignorate sunt şterse fără a fi folosit coşul de gunoi."
 
 #. Resource IDs: (104)
 msgid "You have marked changed blocks. How should those blocks be saved?"
@@ -11423,7 +11423,7 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr "Aţi selectat %d obiecte pentru care se doreşte diferenţierea.⏎ Pentru fiecare dintre aceste obiecte se va porni o instanţă nouă de vizualizator de diferenţe.⏎ Sunteţi sigur că doriţi să vedeţi diferenţierele pentru atât de multe obiecte în acelaşi timp?"
+msgstr "Aţi selectat %d obiecte pentru care se doreşte diferenţierea.\nPentru fiecare dintre aceste obiecte se va porni o instanţă nouă de vizualizator de diferenţe.\nSunteţi sigur că doriţi să vedeţi diferenţierele pentru atât de multe obiecte în acelaşi timp?"
 
 #. Resource IDs: (2703)
 msgid ""
@@ -11439,7 +11439,7 @@ msgstr "Nu aţi intrpdus linia \"Semnat-de\" proprie!"
 msgid ""
 "You marked some files as \"Restore after commit\".\n"
 "Do you want to restore them now? You might lose all changes to this file after marking it."
-msgstr "Aţi marcat unele fişiere cu \"restaurează după transmitere\".⏎ Doriţi să le restauraţi acum? E posibil să pierdeţi toate schimbările asupra acestui fişier după marcare."
+msgstr "Aţi marcat unele fişiere cu \"restaurează după transmitere\".\nDoriţi să le restauraţi acum? E posibil să pierdeţi toate schimbările asupra acestui fişier după marcare."
 
 #. Resource IDs: (16024)
 #, c-format
@@ -11462,7 +11462,7 @@ msgstr "Trebuie să selectaţi un nume de fişier pentru fişierul zip!"
 msgid ""
 "You selected a folder.\r\n"
 "Exports are only possible to a (zip) file."
-msgstr "Aţi selectat un dosar.»⏎ Exporturile sunt posibile doar spre un fişier (zip)."
+msgstr "Aţi selectat un dosar.\r\nExporturile sunt posibile doar spre un fişier (zip)."
 
 #. Resource IDs: (1219)
 msgid ""
@@ -11483,7 +11483,7 @@ msgstr "Ar trebui să selectaţi o imagine!"
 msgid ""
 "You've changed the icon set from <i>%s</i> to <i>%s</i>.\n"
 "That change won't take effect until you restart your computer or logoff and logon again!"
-msgstr "Aţi schimbat setul de iconiţe de la <i>%s</i> la <i>%s</i>.⏎Această schimbare nu va avea efect până nu veţi reporni calculatorul sau închideţi şi redeschideţi sesiunea!"
+msgstr "Aţi schimbat setul de iconiţe de la <i>%s</i> la <i>%s</i>.\nAceastă schimbare nu va avea efect până nu veţi reporni calculatorul sau închideţi şi redeschideţi sesiunea!"
 
 #. Resource IDs: (2706)
 msgid ""
@@ -11506,7 +11506,7 @@ msgstr "Fişier Zip"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out\t-"
-msgstr ""
+msgstr "&Micşorează\t-"
 
 #. Resource IDs: (17093)
 msgid "Zoom"
@@ -11539,7 +11539,7 @@ msgstr "Micşorează\nMicşorează"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n\t+"
-msgstr ""
+msgstr "Măr&eşte\t+"
 
 #. Resource IDs: (32772)
 msgid "Zoom in"
@@ -11597,7 +11597,7 @@ msgstr "\"%s\" nu este depozit git"
 msgid ""
 "\"git am\" is still in apply mode.\n"
 "Do you want to abort?"
-msgstr "\"git am\" este încă în modul aplicare.⏎ Doriţi să întrerupeţi?"
+msgstr "\"git am\" este încă în modul aplicare.\nDoriţi să întrerupeţi?"
 
 #. Resource IDs: (65535)
 msgid "_POPUP_"
@@ -11681,7 +11681,7 @@ msgstr "are conflicte"
 msgid ""
 "copied from\r\n"
 "%s - revision %ld"
-msgstr "copiat din»⏎ %s - revizia %ld"
+msgstr "copiat din\r\n%s - revizia %ld"
 
 #. Resource IDs: (9667)
 msgid "day"

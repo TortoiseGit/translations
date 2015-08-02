@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-30 14:35+0000\n"
+"PO-Revision-Date: 2015-08-02 15:17+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -711,7 +711,7 @@ msgstr "&Bul\tCtrl+F"
 
 #. Resource IDs: (32778)
 msgid "&Fit images in window\tF"
-msgstr ""
+msgstr "&Görüntüyü pecere boyutuna ayarla\tF"
 
 #. Resource IDs: (1050)
 msgid "&Fixed drives"
@@ -800,7 +800,7 @@ msgstr "&Görüntü"
 
 #. Resource IDs: (32790)
 msgid "&Image info\tI"
-msgstr ""
+msgstr "&Görüntü bilgisi\tI"
 
 #. Resource IDs: (16505)
 msgid "&Image only"
@@ -1017,7 +1017,7 @@ msgstr ""
 
 #. Resource IDs: (32772)
 msgid "&Overlay images\tO"
-msgstr ""
+msgstr "&Kaplama simgeleri\tO"
 
 #. Resource IDs: (1411, 5002, 65535)
 msgid "&Password:"
@@ -1045,7 +1045,7 @@ msgstr "&Yazdır..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Yazdır...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1197,7 +1197,7 @@ msgstr "Seçili dosyaları içeren listeyi &kaydet..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Kaydet\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -2090,7 +2090,7 @@ msgstr ""
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical\tV"
-msgstr ""
+msgstr "&Dikey yerleştirme\tV"
 
 #. Resource IDs: (4210)
 #, c-format
@@ -3167,7 +3167,7 @@ msgstr ""
 msgid "Config type:"
 msgstr ""
 
-#. Resource IDs: (102)
+#. Resource IDs: (102, 500)
 msgid "Configure Filter Regexes"
 msgstr ""
 
@@ -3213,7 +3213,7 @@ msgstr "Çakışan Dosyalar"
 msgid "Conflict resolved"
 msgstr "Çakışma düzeltildi"
 
-#. Resource IDs: (4204, 65535)
+#. Resource IDs: (2708, 4204, 65535)
 msgid "Conflicted"
 msgstr "Çakıştı"
 
@@ -4584,7 +4584,7 @@ msgid ""
 "Erase"
 msgstr "Seçileni Sil\nSil"
 
-#. Resource IDs: (1112, 1307)
+#. Resource IDs: (1112, 1307, 2706)
 msgid "Error"
 msgstr "Hata"
 
@@ -4954,7 +4954,7 @@ msgstr "Dosya Boyutu:\t\t\t%s (%s)\nGenişlik:\t\t\t%ld piksel\nYükseklik:\t\t\
 msgid "Filename"
 msgstr "Dosya Adı"
 
-#. Resource IDs: (156, 1707)
+#. Resource IDs: (1707)
 msgid "Files"
 msgstr "Dosyalar"
 
@@ -6283,7 +6283,7 @@ msgstr "Çizgi grafiği"
 msgid ""
 "Line Tool\n"
 "Line"
-msgstr "Satır aracı ⏎ Satır"
+msgstr "Satır aracı\nSatır"
 
 #. Resource IDs: (32853)
 msgid "Line diff bar"
@@ -6803,8 +6803,8 @@ msgid "New &name:"
 msgstr "Yeni &isim:"
 
 #. Resource IDs: (309)
-msgid "New Branch\\Tag"
-msgstr "Yeni Dal\\Etiket"
+msgid "New Branch/Tag"
+msgstr "Yeni Dal/Etiket"
 
 #. Resource IDs: (16014)
 msgid "New Menu"
@@ -7316,7 +7316,7 @@ msgstr "Seçenekler"
 
 #. Resource IDs: (32779)
 msgid "Ori&ginal size\tS"
-msgstr ""
+msgstr "Ori&jinal boyutu\tS"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -7497,7 +7497,7 @@ msgstr "Yamalanıyor"
 msgid "Patching file '%s'"
 msgstr ""
 
-#. Resource IDs: (1004, 1223, 3153, 3300)
+#. Resource IDs: (1004, 1223, 2704, 3153, 3300)
 msgid "Path"
 msgstr "Dizin"
 
@@ -8050,7 +8050,7 @@ msgstr "Yenile"
 msgid "Refreshing..."
 msgstr "Güncelleniyor"
 
-#. Resource IDs: (165, 500)
+#. Resource IDs: (165, 500, 65535)
 msgid "Regex Filter"
 msgstr ""
 
@@ -8591,8 +8591,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #. Resource IDs: (1541)
-msgid "SSL"
-msgstr "SSL"
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
@@ -8662,7 +8662,7 @@ msgstr "Farklı &kaydet..."
 
 #. Resource IDs: (32773)
 msgid "Save &as...\tCtrl+Shift+S"
-msgstr ""
+msgstr "Farklı &kaydet...\tCtrl+Shift+S"
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -11275,7 +11275,7 @@ msgstr ""
 msgid "Whitespace changes (tabs, spaces)"
 msgstr ""
 
-#. Resource IDs: (65535)
+#. Resource IDs: (156, 65535)
 msgid "Whitespaces"
 msgstr "Boşluk karakterleri"
 
@@ -11512,7 +11512,7 @@ msgstr "Zip dosyası"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out\t-"
-msgstr ""
+msgstr "&Küçült\t-"
 
 #. Resource IDs: (17093)
 msgid "Zoom"
@@ -11545,7 +11545,7 @@ msgstr "Küçült\nKüçült"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n\t+"
-msgstr ""
+msgstr "Büyüt& \t+"
 
 #. Resource IDs: (32772)
 msgid "Zoom in"

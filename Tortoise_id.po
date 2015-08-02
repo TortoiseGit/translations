@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-30 14:25+0000\n"
+"PO-Revision-Date: 2015-08-02 15:17+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/tortoisegit/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -298,7 +298,7 @@ msgstr "%s\\Ekspor dari %s"
 msgid ""
 "%s\n"
 "%s"
-msgstr "%s⏎\n%s"
+msgstr "%s\n%s"
 
 #. Resource IDs: (6005)
 #, c-format
@@ -1034,7 +1034,7 @@ msgstr "&Print..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Print...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1186,7 +1186,7 @@ msgstr "&Simpan list file terpilih ke..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Simpan\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -2079,7 +2079,7 @@ msgstr ""
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical\tV"
-msgstr "&Atur vertikal\tV"
+msgstr "Atur &vertikal\tV"
 
 #. Resource IDs: (4210)
 #, c-format
@@ -3156,7 +3156,7 @@ msgstr ""
 msgid "Config type:"
 msgstr ""
 
-#. Resource IDs: (102)
+#. Resource IDs: (102, 500)
 msgid "Configure Filter Regexes"
 msgstr ""
 
@@ -3202,7 +3202,7 @@ msgstr ""
 msgid "Conflict resolved"
 msgstr "Konflik terselesaikan"
 
-#. Resource IDs: (4204, 65535)
+#. Resource IDs: (2708, 4204, 65535)
 msgid "Conflicted"
 msgstr "Konflik"
 
@@ -4573,7 +4573,7 @@ msgid ""
 "Erase"
 msgstr "Hapus pilihan\nHapus"
 
-#. Resource IDs: (1112, 1307)
+#. Resource IDs: (1112, 1307, 2706)
 msgid "Error"
 msgstr "Salah"
 
@@ -4715,7 +4715,7 @@ msgstr ""
 msgid ""
 "Failed to connect.\n"
 "Link may be broken."
-msgstr "Koneksi gagal.⏎\nKemungkinan link rusak."
+msgstr "Koneksi gagal.\nKemungkinan link rusak."
 
 #. Resource IDs: (61835)
 msgid "Failed to convert ActiveX object."
@@ -4943,7 +4943,7 @@ msgstr "Ukuran berkas:\t\t\t%s (%s)\nLebar:\t\t\t%ld piksel\nPanjang:\t\t\t%ld p
 msgid "Filename"
 msgstr "Nama file"
 
-#. Resource IDs: (156, 1707)
+#. Resource IDs: (1707)
 msgid "Files"
 msgstr "Berkas-berkas"
 
@@ -5228,7 +5228,7 @@ msgstr "Umum::Dialog 2"
 
 #. Resource IDs: (4593)
 msgid "General::Dialogs 3"
-msgstr ""
+msgstr "Umum::Dialog 3"
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
@@ -6792,8 +6792,8 @@ msgid "New &name:"
 msgstr "&Nama baru:"
 
 #. Resource IDs: (309)
-msgid "New Branch\\Tag"
-msgstr "Nama Cabang\\Tag"
+msgid "New Branch/Tag"
+msgstr "Nama Cabang/Tag"
 
 #. Resource IDs: (16014)
 msgid "New Menu"
@@ -7486,7 +7486,7 @@ msgstr "Menambal"
 msgid "Patching file '%s'"
 msgstr ""
 
-#. Resource IDs: (1004, 1223, 3153, 3300)
+#. Resource IDs: (1004, 1223, 2704, 3153, 3300)
 msgid "Path"
 msgstr "Path"
 
@@ -8039,7 +8039,7 @@ msgstr "Segarkan"
 msgid "Refreshing..."
 msgstr ""
 
-#. Resource IDs: (165, 500)
+#. Resource IDs: (165, 500, 65535)
 msgid "Regex Filter"
 msgstr ""
 
@@ -8580,8 +8580,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #. Resource IDs: (1541)
-msgid "SSL"
-msgstr "SSL"
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
@@ -8651,7 +8651,7 @@ msgstr "Simpan seb&agai"
 
 #. Resource IDs: (32773)
 msgid "Save &as...\tCtrl+Shift+S"
-msgstr ""
+msgstr "Simpan seb&agai...\tCtrl+Shift+S"
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -11264,7 +11264,7 @@ msgstr ""
 msgid "Whitespace changes (tabs, spaces)"
 msgstr ""
 
-#. Resource IDs: (65535)
+#. Resource IDs: (156, 65535)
 msgid "Whitespaces"
 msgstr "Spasi putih"
 
@@ -11676,7 +11676,7 @@ msgstr "konflik"
 msgid ""
 "copied from\r\n"
 "%s - revision %ld"
-msgstr "Salin dari↩\n%s - revisi %ld "
+msgstr "Salin dari\r\n%s - revisi %ld "
 
 #. Resource IDs: (9667)
 msgid "day"

@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-30 14:24+0000\n"
+"PO-Revision-Date: 2015-08-02 15:15+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -554,7 +554,7 @@ msgstr "Gomb képének &másolása"
 
 #. Resource IDs: (57634)
 msgid "&Copy\tCtrl+C"
-msgstr "&Másolás⇥Ctrl+C"
+msgstr "&Másolás\tCtrl+C"
 
 #. Resource IDs: (1662)
 msgid "&Custom"
@@ -694,7 +694,7 @@ msgstr "&Keresés"
 
 #. Resource IDs: (32787, 57636)
 msgid "&Find\tCtrl+F"
-msgstr "&Keresés⇥Ctrl+F"
+msgstr "&Keresés\tCtrl+F"
 
 #. Resource IDs: (32778)
 msgid "&Fit images in window\tF"
@@ -738,7 +738,7 @@ msgstr ""
 
 #. Resource IDs: (220)
 msgid "&Go to\tCtrl+G"
-msgstr "&Ugrás⇥Ctrl+G"
+msgstr "&Ugrás\tCtrl+G"
 
 #. Resource IDs: (1454)
 msgid "&Gray Unrelated Changed Paths"
@@ -992,7 +992,7 @@ msgstr ""
 
 #. Resource IDs: (32773, 32774, 57601)
 msgid "&Open...\tCtrl+O"
-msgstr "&Megnyitás...⇥Ctrl+O"
+msgstr "&Megnyitás...\tCtrl+O"
 
 #. Resource IDs: (1382)
 msgid "&Options"
@@ -1004,7 +1004,7 @@ msgstr ""
 
 #. Resource IDs: (32772)
 msgid "&Overlay images\tO"
-msgstr ""
+msgstr "&Átfedés engedélyezése\tO"
 
 #. Resource IDs: (1411, 5002, 65535)
 msgid "&Password:"
@@ -1032,7 +1032,7 @@ msgstr "&Nyomtatás..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Nyomtatás...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1184,7 +1184,7 @@ msgstr "Kiválasztott fájlok listájának &mentése..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Mentés\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -1519,7 +1519,7 @@ msgid ""
 "To use <b>TortoiseGit</b> please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all <b>TortoiseGit</b> commands.\n"
 "And <u>read the manual!</u>"
-msgstr "A <b>TortoiseGit</b> egy héj kiegészítés.⏎\nEz azt jelenti, hogy a Windows explorer-be épül be.⏎\nA <b>TortoiseGit</b> használatához a <b>TortoiseGit</b> parancsokat az explorerben a mappákon jobb egérgombbal kattintva elérhető menüben találhatja meg.⏎\n<u>Olvass el a kézikönyvet!</u>"
+msgstr "A <b>TortoiseGit</b> egy héj kiegészítés.\nEz azt jelenti, hogy a Windows explorer-be épül be.\nA <b>TortoiseGit</b> használatához a <b>TortoiseGit</b> parancsokat az explorerben a mappákon jobb egérgombbal kattintva elérhető menüben találhatja meg.\n<u>Olvass el a kézikönyvet!</u>"
 
 #. Resource IDs: (1333)
 msgid ""
@@ -3154,7 +3154,7 @@ msgstr "Forrás beállítása"
 msgid "Config type:"
 msgstr ""
 
-#. Resource IDs: (102)
+#. Resource IDs: (102, 500)
 msgid "Configure Filter Regexes"
 msgstr ""
 
@@ -3200,7 +3200,7 @@ msgstr "Konfliktus fájlok"
 msgid "Conflict resolved"
 msgstr "Konfliktus feloldva"
 
-#. Resource IDs: (4204, 65535)
+#. Resource IDs: (2708, 4204, 65535)
 msgid "Conflicted"
 msgstr "Konfliktusos"
 
@@ -4571,7 +4571,7 @@ msgid ""
 "Erase"
 msgstr "Kiválasztottat töröl\nTöröl"
 
-#. Resource IDs: (1112, 1307)
+#. Resource IDs: (1112, 1307, 2706)
 msgid "Error"
 msgstr "Hiba"
 
@@ -4941,7 +4941,7 @@ msgstr "Fájlméret:\t\t%s (%s)\nSzélesség:\t\t%ld pixel\nMagasság:\t\t%ld pi
 msgid "Filename"
 msgstr "Fájlnév"
 
-#. Resource IDs: (156, 1707)
+#. Resource IDs: (1707)
 msgid "Files"
 msgstr "Fájlok"
 
@@ -5808,7 +5808,7 @@ msgstr "Ikonok::Stílusok"
 
 #. Resource IDs: (338)
 msgid "Icon Overlays::Overlay Handlers"
-msgstr "Ikon rátétek::Rátét kezelők"
+msgstr "Ikonok::Rátét kezelők"
 
 #. Resource IDs: (1465)
 msgid ""
@@ -6790,8 +6790,8 @@ msgid "New &name:"
 msgstr "Új &név:"
 
 #. Resource IDs: (309)
-msgid "New Branch\\Tag"
-msgstr "Új ág\\címke"
+msgid "New Branch/Tag"
+msgstr "Új ág/címke"
 
 #. Resource IDs: (16014)
 msgid "New Menu"
@@ -7303,7 +7303,7 @@ msgstr "Lehetőségek"
 
 #. Resource IDs: (32779)
 msgid "Ori&ginal size\tS"
-msgstr ""
+msgstr "&Eredeti méret\tS"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -7484,7 +7484,7 @@ msgstr "Patch alkalmazása..."
 msgid "Patching file '%s'"
 msgstr ""
 
-#. Resource IDs: (1004, 1223, 3153, 3300)
+#. Resource IDs: (1004, 1223, 2704, 3153, 3300)
 msgid "Path"
 msgstr "Útvonal"
 
@@ -8037,7 +8037,7 @@ msgstr "Frissítés"
 msgid "Refreshing..."
 msgstr "Frissítés folyamatban..."
 
-#. Resource IDs: (165, 500)
+#. Resource IDs: (165, 500, 65535)
 msgid "Regex Filter"
 msgstr ""
 
@@ -8578,8 +8578,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #. Resource IDs: (1541)
-msgid "SSL"
-msgstr "SSL"
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
@@ -8649,7 +8649,7 @@ msgstr "Mentés m&ásként..."
 
 #. Resource IDs: (32773)
 msgid "Save &as...\tCtrl+Shift+S"
-msgstr ""
+msgstr "Mentés m&ásként...\tCtrl+Shift+S"
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -11262,7 +11262,7 @@ msgstr ""
 msgid "Whitespace changes (tabs, spaces)"
 msgstr ""
 
-#. Resource IDs: (65535)
+#. Resource IDs: (156, 65535)
 msgid "Whitespaces"
 msgstr "Láthatatlan karakterek"
 
@@ -11499,7 +11499,7 @@ msgstr "Zip fájl"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out\t-"
-msgstr ""
+msgstr "&Kicsinyítés\t-"
 
 #. Resource IDs: (17093)
 msgid "Zoom"
@@ -11532,7 +11532,7 @@ msgstr "Kicsinyítés\nKicsinyítés"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n\t+"
-msgstr ""
+msgstr "&Nagyítás\t+"
 
 #. Resource IDs: (32772)
 msgid "Zoom in"

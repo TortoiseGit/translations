@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-30 13:24+0000\n"
+"PO-Revision-Date: 2015-08-02 15:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -672,7 +672,7 @@ msgstr "&Habilitar edição"
 
 #. Resource IDs: (32771)
 msgid "&Exit\tCtrl+W"
-msgstr ""
+msgstr "&Saída\tCtrl+W"
 
 #. Resource IDs: (5152)
 msgid "&Export selection to..."
@@ -1030,7 +1030,7 @@ msgstr "&Imprimir..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Imprimir...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1182,7 +1182,7 @@ msgstr "&Salvar lista de arquivos selecionadas para..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Salvar\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -3152,7 +3152,7 @@ msgstr "Fonte da config"
 msgid "Config type:"
 msgstr "Tipo de configuração:"
 
-#. Resource IDs: (102)
+#. Resource IDs: (102, 500)
 msgid "Configure Filter Regexes"
 msgstr "Configurar Expressões de Filtro"
 
@@ -3198,7 +3198,7 @@ msgstr "Conflitar Arquivos"
 msgid "Conflict resolved"
 msgstr "Conflito resolvido"
 
-#. Resource IDs: (4204, 65535)
+#. Resource IDs: (2708, 4204, 65535)
 msgid "Conflicted"
 msgstr "Conflitante"
 
@@ -4569,7 +4569,7 @@ msgid ""
 "Erase"
 msgstr "Apagar a seleção\nApagar"
 
-#. Resource IDs: (1112, 1307)
+#. Resource IDs: (1112, 1307, 2706)
 msgid "Error"
 msgstr "Erro"
 
@@ -4939,7 +4939,7 @@ msgstr "Tamanho do arquivo:\t\t\t%s (%s)\nLargura:\t\t\t%ld pixel\nAltura:\t\t\t
 msgid "Filename"
 msgstr "Nome do arquivo"
 
-#. Resource IDs: (156, 1707)
+#. Resource IDs: (1707)
 msgid "Files"
 msgstr "Arquivos"
 
@@ -6788,8 +6788,8 @@ msgid "New &name:"
 msgstr "Novo &nome:"
 
 #. Resource IDs: (309)
-msgid "New Branch\\Tag"
-msgstr "Novo Ramo\\Etiqueta"
+msgid "New Branch/Tag"
+msgstr "Novo Ramo/Etiqueta"
 
 #. Resource IDs: (16014)
 msgid "New Menu"
@@ -7482,7 +7482,7 @@ msgstr "Corrigindo"
 msgid "Patching file '%s'"
 msgstr "Corrigindo arquivo '%s'"
 
-#. Resource IDs: (1004, 1223, 3153, 3300)
+#. Resource IDs: (1004, 1223, 2704, 3153, 3300)
 msgid "Path"
 msgstr "Caminho"
 
@@ -8035,7 +8035,7 @@ msgstr "Atualizar"
 msgid "Refreshing..."
 msgstr "Atualizando..."
 
-#. Resource IDs: (165, 500)
+#. Resource IDs: (165, 500, 65535)
 msgid "Regex Filter"
 msgstr "Filtro de Expressões Regulares"
 
@@ -8576,8 +8576,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #. Resource IDs: (1541)
-msgid "SSL"
-msgstr "SSL"
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
@@ -8647,7 +8647,7 @@ msgstr "Salvar &como..."
 
 #. Resource IDs: (32773)
 msgid "Save &as...\tCtrl+Shift+S"
-msgstr ""
+msgstr "Salvar &como...\tCtrl+Shift+S"
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -10201,7 +10201,7 @@ msgid ""
 "%s\n"
 "is not empty!\n"
 "Are you sure you want to initialize a git repository inside that folder?"
-msgstr "A pasta destino ⏎ %s⏎ não está vazia!⏎ Você tem certeza de que você quer inicializar um repositório git dentro desta pasta?"
+msgstr "A pasta destino\n%s\nnão está vazia!\nVocê tem certeza de que você quer inicializar um repositório git dentro desta pasta?"
 
 #. Resource IDs: (1600)
 msgid ""
@@ -11260,7 +11260,7 @@ msgstr "Enquanto executar o daemon, todos os dados deste repositório serão exp
 msgid "Whitespace changes (tabs, spaces)"
 msgstr "Mudanças de espaço em branco (tabulações, espaços)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (156, 65535)
 msgid "Whitespaces"
 msgstr "Espaços em branco"
 
@@ -11530,7 +11530,7 @@ msgstr "Menos zoom\nMenos zoom"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n\t+"
-msgstr ""
+msgstr "Ma&is zoom\t+"
 
 #. Resource IDs: (32772)
 msgid "Zoom in"

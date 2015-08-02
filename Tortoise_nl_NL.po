@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-28 00:20+0000\n"
+"PO-Revision-Date: 2015-08-02 15:15+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/tortoisegit/language/nl_NL/)\n"
 "MIME-Version: 1.0\n"
@@ -562,7 +562,7 @@ msgstr "&Beeld van kopiëerknop"
 
 #. Resource IDs: (57634)
 msgid "&Copy\tCtrl+C"
-msgstr "&Kopiëren⇥Ctrl+C"
+msgstr "&Kopiëren\tCtrl+C"
 
 #. Resource IDs: (1662)
 msgid "&Custom"
@@ -702,11 +702,11 @@ msgstr "&Zoeken"
 
 #. Resource IDs: (32787, 57636)
 msgid "&Find\tCtrl+F"
-msgstr "&Zoeken⇥Ctrl+F"
+msgstr "&Zoeken\tCtrl+F"
 
 #. Resource IDs: (32778)
 msgid "&Fit images in window\tF"
-msgstr ""
+msgstr "&Pas afbeeldingen in venster\tF"
 
 #. Resource IDs: (1050)
 msgid "&Fixed drives"
@@ -746,7 +746,7 @@ msgstr ""
 
 #. Resource IDs: (220)
 msgid "&Go to\tCtrl+G"
-msgstr "&Ga naar⇥Ctrl+G"
+msgstr "&Ga naar\tCtrl+G"
 
 #. Resource IDs: (1454)
 msgid "&Gray Unrelated Changed Paths"
@@ -795,7 +795,7 @@ msgstr "&Afbeelding"
 
 #. Resource IDs: (32790)
 msgid "&Image info\tI"
-msgstr ""
+msgstr "&Afbeeldingsinformatie\tI"
 
 #. Resource IDs: (16505)
 msgid "&Image only"
@@ -1000,7 +1000,7 @@ msgstr "Git voor Windows Website &Openen"
 
 #. Resource IDs: (32773, 32774, 57601)
 msgid "&Open...\tCtrl+O"
-msgstr "&Openen...⇥Ctrl+O"
+msgstr "&Openen...\tCtrl+O"
 
 #. Resource IDs: (1382)
 msgid "&Options"
@@ -1012,7 +1012,7 @@ msgstr ""
 
 #. Resource IDs: (32772)
 msgid "&Overlay images\tO"
-msgstr ""
+msgstr "Afbeeldingen &overlappen\tO"
 
 #. Resource IDs: (1411, 5002, 65535)
 msgid "&Password:"
@@ -1040,7 +1040,7 @@ msgstr "&Afdrukken..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Afdrukken...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1192,7 +1192,7 @@ msgstr "&Sla lijst van geselecteerde bestanden op in..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Opslaan\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -2085,7 +2085,7 @@ msgstr "Weet u zeker dat u wilt opslaan naar \"%s\"?"
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical\tV"
-msgstr ""
+msgstr "&Boven elkaar plaatsen\tV"
 
 #. Resource IDs: (4210)
 #, c-format
@@ -3162,7 +3162,7 @@ msgstr "Configuratiebron"
 msgid "Config type:"
 msgstr "Configuratietype:"
 
-#. Resource IDs: (102)
+#. Resource IDs: (102, 500)
 msgid "Configure Filter Regexes"
 msgstr ""
 
@@ -3208,7 +3208,7 @@ msgstr "Conflictbestanden"
 msgid "Conflict resolved"
 msgstr "Conflict opgelost"
 
-#. Resource IDs: (4204, 65535)
+#. Resource IDs: (2708, 4204, 65535)
 msgid "Conflicted"
 msgstr "In conflict"
 
@@ -4579,7 +4579,7 @@ msgid ""
 "Erase"
 msgstr "Wis selectie\nWissen"
 
-#. Resource IDs: (1112, 1307)
+#. Resource IDs: (1112, 1307, 2706)
 msgid "Error"
 msgstr "Fout"
 
@@ -4949,7 +4949,7 @@ msgstr "Bestandsgrootte:\t\t%s (%s)\nBreedte:\t\t\t%ld pixels\nHoogte:\t\t\t%ld 
 msgid "Filename"
 msgstr "Bestandsnaam"
 
-#. Resource IDs: (156, 1707)
+#. Resource IDs: (1707)
 msgid "Files"
 msgstr "Bestanden"
 
@@ -5033,7 +5033,7 @@ msgstr "Eerste &bekende foutief:"
 
 #. Resource IDs: (32818)
 msgid "Fit image &heights\tH"
-msgstr ""
+msgstr "Afbeelding passend in &hoogte maken\tH"
 
 #. Resource IDs: (32817)
 msgid "Fit image &widths\tW"
@@ -6798,8 +6798,8 @@ msgid "New &name:"
 msgstr "&Nieuwe naam:"
 
 #. Resource IDs: (309)
-msgid "New Branch\\Tag"
-msgstr "Nieuwe Branch\\Label"
+msgid "New Branch/Tag"
+msgstr "Nieuwe Branch/Label"
 
 #. Resource IDs: (16014)
 msgid "New Menu"
@@ -7311,7 +7311,7 @@ msgstr "Opties"
 
 #. Resource IDs: (32779)
 msgid "Ori&ginal size\tS"
-msgstr ""
+msgstr "&Origineel formaat\tS"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -7492,7 +7492,7 @@ msgstr "Patchen"
 msgid "Patching file '%s'"
 msgstr "Bezig met patchen van bestand '%s'"
 
-#. Resource IDs: (1004, 1223, 3153, 3300)
+#. Resource IDs: (1004, 1223, 2704, 3153, 3300)
 msgid "Path"
 msgstr "Pad"
 
@@ -8045,7 +8045,7 @@ msgstr "Vernieuwen"
 msgid "Refreshing..."
 msgstr "Bezig met vernieuwen..."
 
-#. Resource IDs: (165, 500)
+#. Resource IDs: (165, 500, 65535)
 msgid "Regex Filter"
 msgstr ""
 
@@ -8586,8 +8586,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #. Resource IDs: (1541)
-msgid "SSL"
-msgstr "SSL"
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
@@ -8657,7 +8657,7 @@ msgstr "Opslaan &als..."
 
 #. Resource IDs: (32773)
 msgid "Save &as...\tCtrl+Shift+S"
-msgstr ""
+msgstr "Opslaan &als...\tCtrl+Shift+S"
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -11270,7 +11270,7 @@ msgstr "Zolang de server draait is alle data van dit archief openbaar zonder aut
 msgid "Whitespace changes (tabs, spaces)"
 msgstr "Wijzigingen in witruimte (tabs, spaties)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (156, 65535)
 msgid "Whitespaces"
 msgstr "Spaties en lege regels"
 
@@ -11507,7 +11507,7 @@ msgstr "Zip-bestand"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out\t-"
-msgstr ""
+msgstr "&Uitzoomen\t-"
 
 #. Resource IDs: (17093)
 msgid "Zoom"
@@ -11540,7 +11540,7 @@ msgstr "Uitzoomen\nUitzoomen"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n\t+"
-msgstr ""
+msgstr "&Inzoomen\t+"
 
 #. Resource IDs: (32772)
 msgid "Zoom in"

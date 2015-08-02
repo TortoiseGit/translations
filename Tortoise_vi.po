@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-30 14:38+0000\n"
+"PO-Revision-Date: 2015-08-02 15:18+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/tortoisegit/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -551,7 +551,7 @@ msgstr "&Sao chép ảnh của nút bấm"
 
 #. Resource IDs: (57634)
 msgid "&Copy\tCtrl+C"
-msgstr "&Sao chép Ctrl + C"
+msgstr "&Sao chép\tCtrl+C"
 
 #. Resource IDs: (1662)
 msgid "&Custom"
@@ -691,11 +691,11 @@ msgstr "&Tìm"
 
 #. Resource IDs: (32787, 57636)
 msgid "&Find\tCtrl+F"
-msgstr "&Tìm kiếm Ctrl + F"
+msgstr "&Tìm kiếm\tCtrl+F"
 
 #. Resource IDs: (32778)
 msgid "&Fit images in window\tF"
-msgstr ""
+msgstr "&Làm vừa các hình ảnh trong cửa sổ\tF"
 
 #. Resource IDs: (1050)
 msgid "&Fixed drives"
@@ -784,7 +784,7 @@ msgstr "&Ảnh"
 
 #. Resource IDs: (32790)
 msgid "&Image info\tI"
-msgstr ""
+msgstr "&Thông tin về hình ảnh \tI"
 
 #. Resource IDs: (16505)
 msgid "&Image only"
@@ -1001,7 +1001,7 @@ msgstr ""
 
 #. Resource IDs: (32772)
 msgid "&Overlay images\tO"
-msgstr ""
+msgstr "&Ảnh nạp chồng\tO"
 
 #. Resource IDs: (1411, 5002, 65535)
 msgid "&Password:"
@@ -1029,7 +1029,7 @@ msgstr "&In..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&In...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1181,7 +1181,7 @@ msgstr "&Lưu danh sách của các tập tin được chọn đến..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Lưu\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -2074,7 +2074,7 @@ msgstr ""
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical\tV"
-msgstr ""
+msgstr "Sắp xếp theo chiều &dọc\tV"
 
 #. Resource IDs: (4210)
 #, c-format
@@ -3151,7 +3151,7 @@ msgstr ""
 msgid "Config type:"
 msgstr ""
 
-#. Resource IDs: (102)
+#. Resource IDs: (102, 500)
 msgid "Configure Filter Regexes"
 msgstr ""
 
@@ -3197,7 +3197,7 @@ msgstr ""
 msgid "Conflict resolved"
 msgstr "Mâu thuẫn được giải quyết"
 
-#. Resource IDs: (4204, 65535)
+#. Resource IDs: (2708, 4204, 65535)
 msgid "Conflicted"
 msgstr "Mâu thuẫn"
 
@@ -4568,7 +4568,7 @@ msgid ""
 "Erase"
 msgstr "Xóa lựa chọn\nXóa"
 
-#. Resource IDs: (1112, 1307)
+#. Resource IDs: (1112, 1307, 2706)
 msgid "Error"
 msgstr "Lỗi"
 
@@ -4938,7 +4938,7 @@ msgstr "Kích thước tập tin:<span class=\"whitespace other\" title=\"Tab\">
 msgid "Filename"
 msgstr "Tên tập tin"
 
-#. Resource IDs: (156, 1707)
+#. Resource IDs: (1707)
 msgid "Files"
 msgstr "Các tập tin"
 
@@ -5223,7 +5223,7 @@ msgstr "Tổng quát::Hộp thoại 2"
 
 #. Resource IDs: (4593)
 msgid "General::Dialogs 3"
-msgstr "General::Dialogs 3"
+msgstr "Tổng quát::Hộp thoại 3"
 
 #. Resource IDs: (4573)
 msgid "General::Set Extend Menu Item"
@@ -6787,8 +6787,8 @@ msgid "New &name:"
 msgstr "&Tên mới"
 
 #. Resource IDs: (309)
-msgid "New Branch\\Tag"
-msgstr "Nhánh mới\\Thẻ đánh dấu"
+msgid "New Branch/Tag"
+msgstr "Nhánh mới/Thẻ đánh dấu"
 
 #. Resource IDs: (16014)
 msgid "New Menu"
@@ -7300,7 +7300,7 @@ msgstr "Các tùy chọn"
 
 #. Resource IDs: (32779)
 msgid "Ori&ginal size\tS"
-msgstr ""
+msgstr "Kích thước &nguyên thủy\tS"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -7481,7 +7481,7 @@ msgstr "Đang vá"
 msgid "Patching file '%s'"
 msgstr ""
 
-#. Resource IDs: (1004, 1223, 3153, 3300)
+#. Resource IDs: (1004, 1223, 2704, 3153, 3300)
 msgid "Path"
 msgstr "Đường dẫn"
 
@@ -8034,7 +8034,7 @@ msgstr "Làm mới"
 msgid "Refreshing..."
 msgstr ""
 
-#. Resource IDs: (165, 500)
+#. Resource IDs: (165, 500, 65535)
 msgid "Regex Filter"
 msgstr ""
 
@@ -8575,8 +8575,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #. Resource IDs: (1541)
-msgid "SSL"
-msgstr "SSL"
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
@@ -8646,7 +8646,7 @@ msgstr "Lưu như &là..."
 
 #. Resource IDs: (32773)
 msgid "Save &as...\tCtrl+Shift+S"
-msgstr ""
+msgstr "Lưu như &là...\tCtrl+Shift+S"
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -11259,7 +11259,7 @@ msgstr ""
 msgid "Whitespace changes (tabs, spaces)"
 msgstr ""
 
-#. Resource IDs: (65535)
+#. Resource IDs: (156, 65535)
 msgid "Whitespaces"
 msgstr "Khoảng trắng"
 
@@ -11496,7 +11496,7 @@ msgstr "Tập tin nén dạng zip"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out\t-"
-msgstr ""
+msgstr "&Thu nhỏ\t-"
 
 #. Resource IDs: (17093)
 msgid "Zoom"
@@ -11529,7 +11529,7 @@ msgstr "Thu Nhỏ\nThu Nhỏ"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n\t+"
-msgstr ""
+msgstr "Phóng &to\t+"
 
 #. Resource IDs: (32772)
 msgid "Zoom in"

@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-30 14:17+0000\n"
+"PO-Revision-Date: 2015-08-02 15:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/projects/p/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -716,7 +716,7 @@ msgstr "찾기\tCtrl+F"
 
 #. Resource IDs: (32778)
 msgid "&Fit images in window\tF"
-msgstr ""
+msgstr "윈도우에 이미지 맞춤(&F)\tF"
 
 #. Resource IDs: (1050)
 msgid "&Fixed drives"
@@ -805,7 +805,7 @@ msgstr "이미지(&I)"
 
 #. Resource IDs: (32790)
 msgid "&Image info\tI"
-msgstr ""
+msgstr "이미지 정보(&I)\tI"
 
 #. Resource IDs: (16505)
 msgid "&Image only"
@@ -1022,7 +1022,7 @@ msgstr "오버레이 아이콘(&O)"
 
 #. Resource IDs: (32772)
 msgid "&Overlay images\tO"
-msgstr ""
+msgstr "오버레이 이미지들(&O)\tO"
 
 #. Resource IDs: (1411, 5002, 65535)
 msgid "&Password:"
@@ -1050,7 +1050,7 @@ msgstr "인쇄(&P)..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "인쇄(&P)...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1202,7 +1202,7 @@ msgstr "선택된 파일 리스트를 저장(&S)..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "저장(&S)\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -2095,7 +2095,7 @@ msgstr "정말 \"%s\"에 저장하겠습니까?"
 
 #. Resource IDs: (32793)
 msgid "Arrange &vertical\tV"
-msgstr ""
+msgstr "수직 정렬(&V)\tV"
 
 #. Resource IDs: (4210)
 #, c-format
@@ -2492,11 +2492,11 @@ msgstr "잘라내기(&U)"
 
 #. Resource IDs: (59137)
 msgid "CAP"
-msgstr "CAp"
+msgstr "CAP"
 
 #. Resource IDs: (65535)
 msgid "CC:"
-msgstr "CC:"
+msgstr "참조(CC):"
 
 #. Resource IDs: (1741)
 msgid "Calculate"
@@ -3172,7 +3172,7 @@ msgstr "설정 저장 위치"
 msgid "Config type:"
 msgstr "설정 종류:"
 
-#. Resource IDs: (102)
+#. Resource IDs: (102, 500)
 msgid "Configure Filter Regexes"
 msgstr "필터 정규 표현식 구성"
 
@@ -3218,7 +3218,7 @@ msgstr "충돌 파일"
 msgid "Conflict resolved"
 msgstr "충돌 상황 해결됨"
 
-#. Resource IDs: (4204, 65535)
+#. Resource IDs: (2708, 4204, 65535)
 msgid "Conflicted"
 msgstr "충돌"
 
@@ -4589,7 +4589,7 @@ msgid ""
 "Erase"
 msgstr "선택한 것 지우기\n지우기"
 
-#. Resource IDs: (1112, 1307)
+#. Resource IDs: (1112, 1307, 2706)
 msgid "Error"
 msgstr "오류"
 
@@ -4959,7 +4959,7 @@ msgstr "파일 크기:\t\t%s (%s)\n가로:\t\t%ld pixel\n세로:\t\t%ld pixel\n�
 msgid "Filename"
 msgstr "파일 이름"
 
-#. Resource IDs: (156, 1707)
+#. Resource IDs: (1707)
 msgid "Files"
 msgstr "파일"
 
@@ -6463,7 +6463,7 @@ msgstr "MAPI"
 
 #. Resource IDs: (5066)
 msgid "Macintosh"
-msgstr "Macintosh"
+msgstr "맥"
 
 #. Resource IDs: (1582)
 msgid "Mail"
@@ -6808,8 +6808,8 @@ msgid "New &name:"
 msgstr "새 이름(&N):"
 
 #. Resource IDs: (309)
-msgid "New Branch\\Tag"
-msgstr "새 브랜치\\꼬리표"
+msgid "New Branch/Tag"
+msgstr "새 브랜치/꼬리표"
 
 #. Resource IDs: (16014)
 msgid "New Menu"
@@ -7184,11 +7184,11 @@ msgstr "OLE 초기화를 못 했습니다. OLE 라이브러리의 버전을 확�
 
 #. Resource IDs: (213, 10006)
 msgid "Office 2003"
-msgstr "Office 2003"
+msgstr "오피스 2003"
 
 #. Resource IDs: (10008, 65535)
 msgid "Office 2007"
-msgstr "Office 2007"
+msgstr "오피스 2007"
 
 #. Resource IDs: (10008, 65535)
 msgid "Office 2007 colors"
@@ -7196,7 +7196,7 @@ msgstr "오피스 2007 색상"
 
 #. Resource IDs: (211, 10004)
 msgid "Office XP"
-msgstr "Office XP"
+msgstr "오피스 XP"
 
 #. Resource IDs: (1507)
 msgid "Old hash"
@@ -7321,7 +7321,7 @@ msgstr "옵션"
 
 #. Resource IDs: (32779)
 msgid "Ori&ginal size\tS"
-msgstr ""
+msgstr "원본 크기(&G)\tS"
 
 #. Resource IDs: (1531)
 msgid "Origin Name"
@@ -7502,7 +7502,7 @@ msgstr "패치 중"
 msgid "Patching file '%s'"
 msgstr "Patching file '%s'"
 
-#. Resource IDs: (1004, 1223, 3153, 3300)
+#. Resource IDs: (1004, 1223, 2704, 3153, 3300)
 msgid "Path"
 msgstr "경로"
 
@@ -8055,7 +8055,7 @@ msgstr "새로고침"
 msgid "Refreshing..."
 msgstr "Refreshing..."
 
-#. Resource IDs: (165, 500)
+#. Resource IDs: (165, 500, 65535)
 msgid "Regex Filter"
 msgstr "정규식 필터"
 
@@ -8596,8 +8596,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #. Resource IDs: (1541)
-msgid "SSL"
-msgstr "SSL"
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
@@ -8667,7 +8667,7 @@ msgstr "다른 이름으로 저장(&A)..."
 
 #. Resource IDs: (32773)
 msgid "Save &as...\tCtrl+Shift+S"
-msgstr ""
+msgstr "다른 이름으로 저장(&A)...\tCtrl+Shift+S"
 
 #. Resource IDs: (61441)
 msgid "Save As"
@@ -11280,7 +11280,7 @@ msgstr "저장소를 공개하면 인증이나 암호화없이 아무나 저장�
 msgid "Whitespace changes (tabs, spaces)"
 msgstr ""
 
-#. Resource IDs: (65535)
+#. Resource IDs: (156, 65535)
 msgid "Whitespaces"
 msgstr "공백문자"
 
@@ -11290,7 +11290,7 @@ msgstr "윈도우 위치"
 
 #. Resource IDs: (16927)
 msgid "Windows"
-msgstr "Windows"
+msgstr "윈도우"
 
 #. Resource IDs: (208, 10003)
 msgid "Windows 2000"
@@ -11517,7 +11517,7 @@ msgstr "파일 압축"
 
 #. Resource IDs: (32783)
 msgid "Zoo&m out\t-"
-msgstr ""
+msgstr "축소(&M)\t-"
 
 #. Resource IDs: (17093)
 msgid "Zoom"
@@ -11550,7 +11550,7 @@ msgstr "작게 보기\n작게 보기"
 
 #. Resource IDs: (32784)
 msgid "Zoom i&n\t+"
-msgstr ""
+msgstr "확대(&N)\t+"
 
 #. Resource IDs: (32772)
 msgid "Zoom in"

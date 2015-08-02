@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-07-30 14:15+0000\n"
+"PO-Revision-Date: 2015-08-02 15:16+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -680,7 +680,7 @@ msgstr "&Tillåt redigering"
 
 #. Resource IDs: (32771)
 msgid "&Exit\tCtrl+W"
-msgstr ""
+msgstr "&Avsluta\tCtrl+W"
 
 #. Resource IDs: (5152)
 msgid "&Export selection to..."
@@ -1038,7 +1038,7 @@ msgstr "&Skriv ut..."
 
 #. Resource IDs: (32782)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Skriv ut...\tCtrl+P"
 
 #. Resource IDs: (9677)
 msgid "&Proceed"
@@ -1190,7 +1190,7 @@ msgstr "&Spara listan av valda filer som..."
 
 #. Resource IDs: (32776)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Spara\tCtrl+S"
 
 #. Resource IDs: (1336)
 msgid "&Set Git path"
@@ -3160,7 +3160,7 @@ msgstr "Konfigurationskälla"
 msgid "Config type:"
 msgstr "Konfigurationstyp:"
 
-#. Resource IDs: (102)
+#. Resource IDs: (102, 500)
 msgid "Configure Filter Regexes"
 msgstr "Konfigurera filteruttryck (Regexp)"
 
@@ -3206,7 +3206,7 @@ msgstr "Konfliktande filer"
 msgid "Conflict resolved"
 msgstr "Konflikt löst"
 
-#. Resource IDs: (4204, 65535)
+#. Resource IDs: (2708, 4204, 65535)
 msgid "Conflicted"
 msgstr "I konflikt"
 
@@ -4577,7 +4577,7 @@ msgid ""
 "Erase"
 msgstr "Radera markeringen\nRadera"
 
-#. Resource IDs: (1112, 1307)
+#. Resource IDs: (1112, 1307, 2706)
 msgid "Error"
 msgstr "Fel"
 
@@ -4947,7 +4947,7 @@ msgstr "Filstorlek:\t\t%s (%s)\nBredd:\t\t\t%ld pixlar\nHöjd:\t\t\t%ld pixlar\n
 msgid "Filename"
 msgstr "Filnamn"
 
-#. Resource IDs: (156, 1707)
+#. Resource IDs: (1707)
 msgid "Files"
 msgstr "Filer"
 
@@ -6796,8 +6796,8 @@ msgid "New &name:"
 msgstr "Nytt &namn:"
 
 #. Resource IDs: (309)
-msgid "New Branch\\Tag"
-msgstr "Ny gren\\nytt märke"
+msgid "New Branch/Tag"
+msgstr "Ny gren/nytt märke"
 
 #. Resource IDs: (16014)
 msgid "New Menu"
@@ -7490,7 +7490,7 @@ msgstr "Patchar"
 msgid "Patching file '%s'"
 msgstr "Patchar fil '%s'"
 
-#. Resource IDs: (1004, 1223, 3153, 3300)
+#. Resource IDs: (1004, 1223, 2704, 3153, 3300)
 msgid "Path"
 msgstr "Sökväg"
 
@@ -8043,7 +8043,7 @@ msgstr "Uppdatera"
 msgid "Refreshing..."
 msgstr "Uppdaterar..."
 
-#. Resource IDs: (165, 500)
+#. Resource IDs: (165, 500, 65535)
 msgid "Regex Filter"
 msgstr "Regex Filter"
 
@@ -8584,8 +8584,8 @@ msgid "SSH"
 msgstr "SSH"
 
 #. Resource IDs: (1541)
-msgid "SSL"
-msgstr "SSL"
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
 
 #. Resource IDs: (1540)
 msgid "STARTTLS"
@@ -11268,7 +11268,7 @@ msgstr ""
 msgid "Whitespace changes (tabs, spaces)"
 msgstr "Tomrumsändringar (tabbar, mellanslag)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (156, 65535)
 msgid "Whitespaces"
 msgstr "Tomrum"
 
