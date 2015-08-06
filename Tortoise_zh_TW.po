@@ -17,9 +17,9 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-08-02 16:59+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/tortoisegit/language/zh_TW/)\n"
+"PO-Revision-Date: 2015-08-06 08:49+0000\n"
+"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -810,7 +810,7 @@ msgstr "安裝(&I)"
 
 #. Resource IDs: (1016)
 msgid "&Jump to first difference when loading"
-msgstr "載入時跳至第一個差異處(&J)"
+msgstr "載入時跳至第一個「差異」處(&J)"
 
 #. Resource IDs: (1483)
 msgid "&Keep CR"
@@ -1782,7 +1782,7 @@ msgstr "根據副檔名加入合併程式"
 
 #. Resource IDs: (1065)
 msgid "Add new files automatically to Git"
-msgstr "自動加入新檔案至 Git"
+msgstr "存檔後，自動 git add 該檔案。"
 
 #. Resource IDs: (194)
 msgid "Add to &ignore list"
@@ -2004,11 +2004,11 @@ msgstr "含附註的標籤"
 
 #. Resource IDs: (4015)
 msgid "Append right block"
-msgstr "附加右方區塊"
+msgstr "附加右區塊內容"
 
 #. Resource IDs: (4012)
 msgid "Append this block to left"
-msgstr "附加這個區塊至左方"
+msgstr "左區塊「附加」此區塊內容"
 
 #. Resource IDs: (65535)
 msgid "Application Frame Menus: "
@@ -2335,7 +2335,7 @@ msgstr "混合半透明"
 
 #. Resource IDs: (156)
 msgid "Blocks"
-msgstr ""
+msgstr "區塊操作"
 
 #. Resource IDs: (215, 10009)
 msgid "Blue Style"
@@ -3299,7 +3299,7 @@ msgstr "複製選取區域至剪貼簿(&P)"
 msgid ""
 "Copy the selection and put it on the Clipboard\n"
 "Copy"
-msgstr "將選擇的區塊複製至剪貼簿\n複製"
+msgstr "複製選取項目並放到剪貼簿\n複製"
 
 #. Resource IDs: (20031)
 msgid "Copy to clipboard"
@@ -3649,7 +3649,7 @@ msgstr "自訂..."
 msgid ""
 "Cut the selection and put it on the Clipboard\n"
 "Cut"
-msgstr "剪下選擇的區塊並放到剪貼簿\n剪下"
+msgstr "剪下選取項目並放到剪貼簿\n剪下"
 
 #. Resource IDs: (65535)
 msgid "Cyrillic"
@@ -3894,7 +3894,7 @@ msgstr "視窗"
 
 #. Resource IDs: (156)
 msgid "Diff"
-msgstr ""
+msgstr "比較差異"
 
 #. Resource IDs: (1789)
 msgid "Diff Options"
@@ -5388,51 +5388,51 @@ msgstr "全域"
 
 #. Resource IDs: (155)
 msgid "Go To Line"
-msgstr "前往行數"
+msgstr "前往行"
 
 #. Resource IDs: (221)
 msgid "Go to line"
-msgstr "前往行數"
+msgstr "前往行"
 
 #. Resource IDs: (32804)
 msgid ""
 "Go to the next conflict\n"
 "Next conflict"
-msgstr "跳至下一個衝突處\n下一衝突"
+msgstr "跳至下一個衝突處\n下一個衝突"
 
 #. Resource IDs: (32779)
 msgid ""
 "Go to the next difference\n"
 "Next difference"
-msgstr "跳至下一個差異處\n下一差異"
+msgstr "跳至下一個差異處\n下一個差異"
 
 #. Resource IDs: (32875)
 msgid ""
 "Go to the next inline difference\n"
 "Next inline difference"
-msgstr "跳至下一個行內差異處\n下一行內差異"
+msgstr "跳至下一個行內差異處\n下一個行內差異"
 
 #. Resource IDs: (32802)
 msgid ""
 "Go to the previous conflict\n"
 "Previous conflict"
-msgstr "跳至前一個衝突處\n前一衝突"
+msgstr "跳至上一個衝突處\n上一個衝突"
 
 #. Resource IDs: (32780)
 msgid ""
 "Go to the previous difference\n"
 "Previous difference"
-msgstr "跳至前一個差異處\n前一差異"
+msgstr "跳至上一個差異處\n上一個差異"
 
 #. Resource IDs: (32876)
 msgid ""
 "Go to the previous inline difference\n"
 "Previous inline difference"
-msgstr "跳至上一個行內差異處\n上一行內差異"
+msgstr "跳至上一個行內差異處\n上一個行內差異"
 
 #. Resource IDs: (32893)
 msgid "Goto Line"
-msgstr "前往行數"
+msgstr "前往行"
 
 #. Resource IDs: (20000)
 msgid "Graph"
@@ -5912,7 +5912,7 @@ msgstr "忽略所有空格"
 
 #. Resource IDs: (32873)
 msgid "Ignore all whitespace changes"
-msgstr "無視所有空白字元變更"
+msgstr "忽略所有空白字元變更"
 
 #. Resource IDs: (1492)
 msgid "Ignore blank lines"
@@ -5920,7 +5920,7 @@ msgstr "忽略空白行"
 
 #. Resource IDs: (1067)
 msgid "Ignore case cha&nges"
-msgstr "無視大小寫變更(&N)"
+msgstr "忽略大小寫變更(&N)"
 
 #. Resource IDs: (5032)
 msgid ""
@@ -5938,7 +5938,7 @@ msgstr "遞迴地忽略項目"
 
 #. Resource IDs: (1018)
 msgid "Ignore line &endings (recommended)"
-msgstr "(建議)忽略換行CRLF符號(&E)"
+msgstr "忽略換行符號(&E)（建議）"
 
 #. Resource IDs: (1489)
 msgid "Ignore space at EOL"
@@ -5972,7 +5972,7 @@ msgstr "忽略的檔案"
 msgid ""
 "Ignores all whitespace changes when diffing\n"
 "Ignore all whitespace changes"
-msgstr "忽略所有空白字元的變更\n忽略所有空白字元的變更"
+msgstr "比較差異時，忽略所有空白字元的變更。\n忽略所有空白字元變更"
 
 #. Resource IDs: (32872)
 msgid ""
@@ -6070,7 +6070,7 @@ msgstr "行內差異"
 
 #. Resource IDs: (32825)
 msgid "Inline diff word-wise"
-msgstr "行內逐字比較差異"
+msgstr "逐字差異"
 
 #. Resource IDs: (65535)
 msgid "Inline differences"
@@ -6115,7 +6115,7 @@ msgstr "重新命名時無法只修改檔名大小寫。\n例如：不能把 MyF
 
 #. Resource IDs: (1074)
 msgid "J&ump to first conflict when loading"
-msgstr "載入時跳至第一個差異處(&J)"
+msgstr "載入時跳至第一個「衝突」處(&U)"
 
 #. Resource IDs: (65535)
 msgid "Japanese"
@@ -6494,7 +6494,7 @@ msgstr "標記為比較基準"
 
 #. Resource IDs: (4018)
 msgid "Mark this block"
-msgstr "標記這個區塊"
+msgstr "標記此區塊"
 
 #. Resource IDs: (103)
 msgid "Marked Blocks"
@@ -6762,7 +6762,7 @@ msgstr "導覽"
 msgid ""
 "Navigate to a specific line in the view\n"
 "Goto Line"
-msgstr "在檢視中前往指定行\n前往行"
+msgstr "前往目前窗格中的指定行\n前往行"
 
 #. Resource IDs: (17004)
 msgid "Navigation Pane Options"
@@ -6849,11 +6849,11 @@ msgstr "下一個衝突"
 
 #. Resource IDs: (32779)
 msgid "Next difference"
-msgstr "下一筆差異"
+msgstr "下一個差異"
 
 #. Resource IDs: (32875)
 msgid "Next inline difference"
-msgstr "下一筆行內差異"
+msgstr "下一個行內差異"
 
 #. Resource IDs: (1481)
 msgid "No &Fast Forward"
@@ -7623,7 +7623,7 @@ msgstr "推送後掛鉤"
 
 #. Resource IDs: (58115)
 msgid "Pre&v Page"
-msgstr "前一頁(&V)"
+msgstr "上一頁(&V)"
 
 #. Resource IDs: (9101)
 msgid "Pre-Commit Hook"
@@ -7639,11 +7639,11 @@ msgstr "提交準備中．．．"
 
 #. Resource IDs: (4013)
 msgid "Prepend right block"
-msgstr "使用右方區塊在前面加上"
+msgstr "插入右區塊內容"
 
 #. Resource IDs: (4010)
 msgid "Prepend this block to left"
-msgstr "使用這個區塊在左方前面加上"
+msgstr "左區塊「插入」此區塊內容"
 
 #. Resource IDs: (65535)
 msgid "Press &New Shortcut Key:"
@@ -7681,15 +7681,15 @@ msgstr "前一版本"
 
 #. Resource IDs: (32802)
 msgid "Previous conflict"
-msgstr "前一個衝突"
+msgstr "上一個衝突"
 
 #. Resource IDs: (32780)
 msgid "Previous difference"
-msgstr "前一筆差異"
+msgstr "上一個差異"
 
 #. Resource IDs: (32876)
 msgid "Previous inline difference"
-msgstr "前一筆行內差異"
+msgstr "上一個行內差異"
 
 #. Resource IDs: (16990, 17092)
 msgid "Print"
@@ -8000,13 +8000,13 @@ msgstr "遞迴"
 
 #. Resource IDs: (57644)
 msgid "Redo"
-msgstr ""
+msgstr "取消復原"
 
 #. Resource IDs: (57644)
 msgid ""
 "Redo the previously undone action\n"
 "Redo"
-msgstr "重做上次還原的動作\n重做"
+msgstr "取消上次復原的動作\n取消復原"
 
 #. Resource IDs: (61186)
 msgid "Reduce the window to an icon"
@@ -8092,7 +8092,7 @@ msgstr "重新載入"
 msgid ""
 "Reloads the opened files and reverts all changes.\n"
 "Reload"
-msgstr "重新載入所有已開啟的檔案並且還原所有變更.\n重新載入"
+msgstr "重新載入所有已開啟的檔案並且還原所有變更。\n重新載入"
 
 #. Resource IDs: (1660)
 msgid "Remember selection (\"svn.rmdir\" option)"
@@ -8345,11 +8345,11 @@ msgstr "解決子模組衝突"
 
 #. Resource IDs: (4501)
 msgid "Resolve conflict using 'mine'"
-msgstr "使用本地端解決衝突"
+msgstr "使用「我的」解決衝突"
 
 #. Resource IDs: (4500)
 msgid "Resolve conflict using 'theirs'"
-msgstr "使用遠端解決衝突"
+msgstr "使用「對方的」解決衝突"
 
 #. Resource IDs: (1168, 3332)
 msgid "Resolved"
@@ -9153,7 +9153,7 @@ msgstr "顯示 HEAD 版本節點"
 msgid ""
 "Show Inline-Diff word by word\n"
 "Inline diff word-wise"
-msgstr "逐字顯示行內差異\n行內逐字差異"
+msgstr "顯示行內逐字差異\n逐字差異"
 
 #. Resource IDs: (32889)
 msgid ""
@@ -9368,7 +9368,7 @@ msgstr "在畫面提示中顯示快捷鍵(&K)"
 msgid ""
 "Show special characters for whitespaces and newlines\n"
 "Show Whitespaces"
-msgstr "以特殊字元顯示空白字元及換行字元\n顯示空白字元"
+msgstr "以特殊符號顯示空白字元及換行字元\n顯示空白字元"
 
 #. Resource IDs: (1314)
 msgid "Show status of subrepositories in parent folders"
@@ -9525,7 +9525,7 @@ msgstr "斷行"
 msgid ""
 "Split the active window into panes\n"
 "Split"
-msgstr "將目前視窗分割區塊\n分割"
+msgstr "將使用中視窗切割成窗格\n分割視窗"
 
 #. Resource IDs: (20111)
 msgid "Squash"
@@ -9605,7 +9605,7 @@ msgstr "藏起操作執行中．．．"
 
 #. Resource IDs: (2705)
 msgid "State"
-msgstr ""
+msgstr "狀態"
 
 #. Resource IDs: (1487, 4572, 4573, 16514)
 msgid "Static"
@@ -9621,7 +9621,7 @@ msgstr "狀態"
 
 #. Resource IDs: (59393)
 msgid "Status Bar"
-msgstr ""
+msgstr "狀態列"
 
 #. Resource IDs: (17087)
 msgid "Status Bar Configuration"
@@ -9752,27 +9752,27 @@ msgstr "切換至"
 msgid ""
 "Switch back to the previous window pane\n"
 "Previous Pane"
-msgstr "切換回前一個視窗區塊\n前一區塊"
+msgstr "切換至上一個窗格\n上一個窗格"
 
 #. Resource IDs: (32775)
 msgid "Switch between single and double pane view"
-msgstr "在單區塊與雙區塊檢視模式間切換"
+msgstr "「單／雙」窗格"
 
 #. Resource IDs: (32775)
 msgid ""
 "Switch between single and double pane view\n"
 "Switch between single and double pane view"
-msgstr "在單區塊與雙區塊檢視模式間切換\n切換「單／雙」區塊模式"
+msgstr "切換「單／雙」窗格檢視模式\n「單／雙」窗格"
 
 #. Resource IDs: (32811)
 msgid "Switch left and right view"
-msgstr "左右切換"
+msgstr "左右對調"
 
 #. Resource IDs: (32811)
 msgid ""
 "Switch the contents of the left and right view\n"
 "Switch left and right view"
-msgstr "切換顯示在左半與右半的內容\n切換左右顯示"
+msgstr "對調左右窗格的內容\n左右對調"
 
 #. Resource IDs: (61188)
 msgid "Switch to the next document window"
@@ -9782,11 +9782,11 @@ msgstr "切換至下一個文件視窗"
 msgid ""
 "Switch to the next window pane\n"
 "Next Pane"
-msgstr "切換至下一個視窗區塊\n下一區塊"
+msgstr "切換至下一個窗格\n下一個窗格"
 
 #. Resource IDs: (61189)
 msgid "Switch to the previous document window"
-msgstr "切換至前一個文件視窗"
+msgstr "切換至上一個文件視窗"
 
 #. Resource IDs: (304)
 msgid "Switch/Checkout"
@@ -9806,7 +9806,7 @@ msgstr "「切換／取出」工作目錄至其他「分支／標記」"
 
 #. Resource IDs: (5190)
 msgid "Switches the comparison left<->right"
-msgstr "左右切換比對視窗"
+msgstr "左右比對視窗對調"
 
 #. Resource IDs: (1733)
 msgid "Symbolize ref names"
@@ -9937,7 +9937,7 @@ msgstr "分支「%s」是一個<i>遠端</i>分支\n\n確定要<ct=0x0000FF>刪�
 
 #. Resource IDs: (1007)
 msgid "The chunk size did not match the number of added/removed lines!"
-msgstr "區塊（chunk）大小與「已加入／已移除」的行數不符！"
+msgstr "區塊(chunk)大小與「已加入／已移除」的行數不符！"
 
 #. Resource IDs: (1064)
 msgid "The commit message must not be empty."
@@ -9974,7 +9974,7 @@ msgstr "開啟日誌訊息視窗時，限制提交的顯示量，亦即部分提
 msgid ""
 "The diffing engine aborted because of an error:\n"
 "%s"
-msgstr "比較差異引擎中止了，由於錯誤：\n「%s」"
+msgstr "比較差異引擎中止了，由於錯誤：\n%s"
 
 #. Resource IDs: (1351)
 msgid ""
@@ -10718,13 +10718,13 @@ msgstr "取消加入..."
 msgid ""
 "Undo the last action\n"
 "Undo"
-msgstr "還原上次動作\n還原"
+msgstr "復原上次的動作\n復原"
 
 #. Resource IDs: (57643)
 msgid ""
 "Undo the last modifications\n"
 "Undo"
-msgstr "還原上次動作\n還原"
+msgstr "復原上次的修改\n復原"
 
 #. Resource IDs: (61728)
 msgid "Unexpected file format."
@@ -10758,7 +10758,7 @@ msgstr "不明層數"
 
 #. Resource IDs: (4019)
 msgid "Unmark this block"
-msgstr "取消標記這個區塊"
+msgstr "取消標記此區塊"
 
 #. Resource IDs: (5033)
 msgid "Unresolved conflicts!"
@@ -10819,27 +10819,27 @@ msgstr "使用預設影像(&D)："
 
 #. Resource IDs: (1024)
 msgid "Use &one-pane view as default for 2-file diff"
-msgstr "預設使用單區檢視雙檔案差異(&O)"
+msgstr "預設使用「單窗格」檢視二個檔案之間的差異(&O)"
 
 #. Resource IDs: (4006)
 msgid "Use &other text block"
-msgstr "使用其它區塊(&O)"
+msgstr "右區塊使用對方的區塊內容(&O)"
 
 #. Resource IDs: (32820)
 msgid "Use 'mine' text block"
-msgstr "套用本地的文字區塊"
+msgstr "使用「我的」"
 
 #. Resource IDs: (32822)
 msgid "Use 'mine' text block then 'theirs'"
-msgstr "先套用本地再套用遠端的文字區塊"
+msgstr "我的＋對方的"
 
 #. Resource IDs: (32819)
 msgid "Use 'theirs' text block"
-msgstr "套用遠端的文字區塊"
+msgstr "使用「對方的」"
 
 #. Resource IDs: (32821)
 msgid "Use 'theirs' text block then 'mine'"
-msgstr "先套用遠端再套用本地的文字區塊"
+msgstr "對方的＋我的"
 
 #. Resource IDs: (1761)
 msgid "Use HTTP path component"
@@ -10873,35 +10873,35 @@ msgstr "用另一名稱或用「覆寫已存在的分支」選項。"
 msgid ""
 "Use all content from the left view\n"
 "Use left file"
-msgstr "使用左方視窗的全部內容\n使用左方檔案"
+msgstr "使用左窗格中全部的檔案內容\n使用左檔案"
 
 #. Resource IDs: (32857)
 msgid "Use block from left before right"
-msgstr "先使用左方區塊再使用右方"
+msgstr "左區塊＋右區塊"
 
 #. Resource IDs: (32857)
 msgid ""
 "Use block from left view before block from right view\n"
 "Use block from left before right"
-msgstr "先使用左方視窗的文字區塊再使用右方視窗的文字區塊\n先使用左方區塊再使用右方"
+msgstr "先使用「左」窗格的文字區塊，再使用「右」窗格的文字區塊。\n左區塊＋右區塊"
 
 #. Resource IDs: (32859)
 msgid "Use block from right before left"
-msgstr "先使用右方區塊再使用左方"
+msgstr "右區塊＋左區塊"
 
 #. Resource IDs: (32859)
 msgid ""
 "Use block from right view before block from left view\n"
 "Use block from right before left"
-msgstr "先使用右方視窗的文字區塊再使用左方視窗的文字區塊\n先使用右方區塊再使用左方"
+msgstr "先使用「右」窗格的文字區塊，再使用「左」窗格的文字區塊。\n右區塊＋左區塊"
 
 #. Resource IDs: (4008)
 msgid "Use both text blocks (this one first)"
-msgstr "使用兩個文字區域(先使用本區塊)"
+msgstr "右區塊使用雙方的文字區塊（先使用本區塊）"
 
 #. Resource IDs: (4009)
 msgid "Use both text blocks (this one last)"
-msgstr "使用兩個文字區塊(最後使用本區塊)"
+msgstr "右區塊使用雙方的文字區塊（後使用本區塊）"
 
 #. Resource IDs: (1538)
 msgid "Use configured server"
@@ -10909,11 +10909,11 @@ msgstr "使用已組態伺服器"
 
 #. Resource IDs: (32855)
 msgid "Use left block"
-msgstr "使用左方區塊"
+msgstr "使用左區塊"
 
 #. Resource IDs: (32856)
 msgid "Use left file"
-msgstr "使用左方檔案"
+msgstr "使用左檔案"
 
 #. Resource IDs: (1762)
 msgid "Use local branch color for current branch"
@@ -10929,11 +10929,11 @@ msgstr "使用正規表示式"
 
 #. Resource IDs: (4014)
 msgid "Use right block"
-msgstr "使用右方區塊"
+msgstr "改用右區塊內容"
 
 #. Resource IDs: (1091)
 msgid "Use spaces"
-msgstr "使用空白字元"
+msgstr "使用空白字元取代 Tab"
 
 #. Resource IDs: (1426)
 msgid "Use system locale for date/time"
@@ -10941,57 +10941,57 @@ msgstr "使用系統語系表示「日期／時間」"
 
 #. Resource IDs: (4002)
 msgid "Use text block from '&mine'"
-msgstr "使用本地(&mime)的文字區塊"
+msgstr "使用「我的」文字區塊(&M)"
 
 #. Resource IDs: (4001)
 msgid "Use text block from '&theirs'"
-msgstr "使用遠端(&theirs)的文字區塊"
+msgstr "使用「對方的」文字區塊(&T)"
 
 #. Resource IDs: (4004)
 msgid "Use text block from 'm&ine' before 'theirs'"
-msgstr "優先使用本地(m&ine)的而非遠端的文字區塊"
+msgstr "我的＋對方的(&I)"
 
 #. Resource IDs: (32822)
 msgid ""
 "Use text block from 'mine' before 'theirs'\n"
 "Use 'mine' text block then 'theirs'"
-msgstr "先套用本地再套用遠端的文字區塊\n先本地後遠端"
+msgstr "先使用「我的」文字區塊，再使用「對方的」文字區塊。\n我的＋對方的"
 
 #. Resource IDs: (32820)
 msgid ""
 "Use text block from 'mine'\n"
 "Use 'mine' text block"
-msgstr "套用本地的文字區塊\n套用本地文字區塊"
+msgstr "使用「我的」文字區塊\n使用「我的」"
 
 #. Resource IDs: (4003)
 msgid "Use text block from 't&heirs' before 'mine'"
-msgstr "優先使用遠端(t&heirs)的而非本地的文字區塊"
+msgstr "對方的＋我的(&H)"
 
 #. Resource IDs: (32821)
 msgid ""
 "Use text block from 'theirs' before 'mine'\n"
 "Use 'theirs' text block then 'mine'"
-msgstr "先套用遠端再套用本地的文字區塊\n先遠端後本地"
+msgstr "先使用「對方的」文字區塊，再使用「我的」文字區塊。\n對方的＋我的"
 
 #. Resource IDs: (32819)
 msgid ""
 "Use text block from 'theirs'\n"
 "Use 'theirs' text block"
-msgstr "使用遠端的文字區塊\n使用遠端文字區塊"
+msgstr "使用「對方的」文字區塊\n使用「對方的」"
 
 #. Resource IDs: (32855)
 msgid ""
 "Use text block from the left view\n"
 "Use left block"
-msgstr "使用左方視窗的文字區塊\n使用左方區塊"
+msgstr "使用左窗格中的文字區塊\n使用左區塊"
 
 #. Resource IDs: (4000)
 msgid "Use th&is text block"
-msgstr "使用此文字區塊(&I)"
+msgstr "右區塊「改用」此文字區塊(&I)"
 
 #. Resource IDs: (1555)
 msgid "Use the current time by setting the author date to the commit date."
-msgstr "修改作者時間為提交時間(目前時間)"
+msgstr "修改作者時間為提交時間（目前時間）"
 
 #. Resource IDs: (5017)
 #, c-format
@@ -11019,7 +11019,7 @@ msgstr "使用整個檔案(&W)"
 
 #. Resource IDs: (4011)
 msgid "Use this block on left"
-msgstr "使用左方區塊"
+msgstr "左區塊「改用」此區塊內容"
 
 #. Resource IDs: (4007)
 msgid "Use whole other &file"
@@ -11133,7 +11133,7 @@ msgstr "檢視 .tgitconfig"
 
 #. Resource IDs: (32898)
 msgid "View Bars"
-msgstr ""
+msgstr "顯示「列」"
 
 #. Resource IDs: (328, 9633)
 msgid "View Patch"
@@ -11359,13 +11359,13 @@ msgstr "工作目錄改動"
 
 #. Resource IDs: (32881)
 msgid "Wrap long lines"
-msgstr "自動折行"
+msgstr "自動斷行"
 
 #. Resource IDs: (32881)
 msgid ""
 "Wrap long lines at the right border of the view\n"
 "Wrap long lines"
-msgstr "在檢視的右邊界換行\n長的行換行"
+msgstr "在窗格的右邊界自動換行\n自動斷行"
 
 #. Resource IDs: (2306)
 msgid "Yes to all"
@@ -11840,7 +11840,7 @@ msgstr "於 %1"
 
 #. Resource IDs: (2707)
 msgid "patched"
-msgstr ""
+msgstr "已補綴"
 
 #. Resource IDs: (61888)
 msgid "pixels"
