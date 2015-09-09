@@ -30,8 +30,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-09-01 10:23+0000\n"
-"Last-Translator: Dimitriy Ryazantcev <DJm00n@mail.ru>\n"
+"PO-Revision-Date: 2015-09-09 21:56+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -464,15 +464,11 @@ msgstr "&Ветвь"
 msgid "&Branch:"
 msgstr "&Ветвь:"
 
-#. Resource IDs: (1382)
-msgid "&Browse Dir"
-msgstr "&Обзор папки"
-
 #. Resource IDs: (20013)
 msgid "&Browse repository"
 msgstr "Обзор хранилища"
 
-#. Resource IDs: (1001, 1009)
+#. Resource IDs: (1001, 1009, 1131, 1382)
 msgid "&Browse..."
 msgstr "&Обзор..."
 
@@ -2413,8 +2409,8 @@ msgid "Branch:"
 msgstr "Ветвь:"
 
 #. Resource IDs: (1383)
-msgid "Bro&wse"
-msgstr "Просмотреть"
+msgid "Bro&wse..."
+msgstr ""
 
 #. Resource IDs: (333)
 msgid "Browse References"
@@ -3987,10 +3983,6 @@ msgstr "Сравнивает файл в рабочей копии с его ж�
 msgid "Diffs two any commits"
 msgstr "Сравнивает две различные фиксации"
 
-#. Resource IDs: (1131)
-msgid "Dir..."
-msgstr "Папка..."
-
 #. Resource IDs: (65535)
 msgid "Directory:"
 msgstr "Папка:"
@@ -4806,8 +4798,8 @@ msgid "Fast Forward"
 msgstr "Перемотка"
 
 #. Resource IDs: (1484)
-msgid "Fast Forward o&nly"
-msgstr "Только перемотка"
+msgid "Fast Forward O&nly"
+msgstr ""
 
 #. Resource IDs: (1066)
 #, c-format
@@ -5644,9 +5636,18 @@ msgstr "ID:32779:V   +S"
 msgid "ID:32782:V C +P"
 msgstr "ID:32782:V C +P"
 
+#. Accelerator Entry for Menu ID:32787; ''
 #. Accelerator Entry for Menu ID:32787; '&Find\tCtrl+F'
 msgid "ID:32787:V C +F"
 msgstr "ID:32787:V C +F"
+
+#. Accelerator Entry for Menu ID:32789; ''
+msgid "ID:32789:VA  +N"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32790; ''
+msgid "ID:32790:VA  +P"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical\tV'
 msgid "ID:32793:V C +V"
@@ -11218,10 +11219,6 @@ msgid ""
 "\r\n"
 "Do you really want to continue?"
 msgstr "Предупреждение: \"%s\" будет удалён навсегда. Его будет <ct=0x0000FF><b>НЕВОЗМОЖНО</b></ct> восстановить!!!\n\nЖелаете продолжить?"
-
-#. Resource IDs: (1132)
-msgid "Web"
-msgstr "Web"
 
 #. Resource IDs: (65535)
 msgid "Western European"

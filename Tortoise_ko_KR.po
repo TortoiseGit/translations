@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-08-20 00:02+0000\n"
+"PO-Revision-Date: 2015-09-09 21:56+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/lznuaa/tortoisegit/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -470,15 +470,11 @@ msgstr "브랜치(&B)"
 msgid "&Branch:"
 msgstr "브랜치(&B):"
 
-#. Resource IDs: (1382)
-msgid "&Browse Dir"
-msgstr "&Browse Dir"
-
 #. Resource IDs: (20013)
 msgid "&Browse repository"
 msgstr "저장소 보기(&B)"
 
-#. Resource IDs: (1001, 1009)
+#. Resource IDs: (1001, 1009, 1131, 1382)
 msgid "&Browse..."
 msgstr "참조(&B)..."
 
@@ -2419,8 +2415,8 @@ msgid "Branch:"
 msgstr "브랜치:"
 
 #. Resource IDs: (1383)
-msgid "Bro&wse"
-msgstr "찾아보기(&W)"
+msgid "Bro&wse..."
+msgstr ""
 
 #. Resource IDs: (333)
 msgid "Browse References"
@@ -3993,10 +3989,6 @@ msgstr "Diffs the working tree file with the one before the last commit"
 msgid "Diffs two any commits"
 msgstr "Diffs two any commits"
 
-#. Resource IDs: (1131)
-msgid "Dir..."
-msgstr "폴더..."
-
 #. Resource IDs: (65535)
 msgid "Directory:"
 msgstr "경로:"
@@ -4812,8 +4804,8 @@ msgid "Fast Forward"
 msgstr "Fast Forward"
 
 #. Resource IDs: (1484)
-msgid "Fast Forward o&nly"
-msgstr "Fast Forward o&nly"
+msgid "Fast Forward O&nly"
+msgstr ""
 
 #. Resource IDs: (1066)
 #, c-format
@@ -5650,8 +5642,17 @@ msgstr "ID:32779:V   +S"
 msgid "ID:32782:V C +P"
 msgstr ""
 
+#. Accelerator Entry for Menu ID:32787; ''
 #. Accelerator Entry for Menu ID:32787; '&Find\tCtrl+F'
 msgid "ID:32787:V C +F"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32789; ''
+msgid "ID:32789:VA  +N"
+msgstr ""
+
+#. Accelerator Entry for Menu ID:32790; ''
+msgid "ID:32790:VA  +P"
 msgstr ""
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical\tV'
@@ -11224,10 +11225,6 @@ msgid ""
 "\r\n"
 "Do you really want to continue?"
 msgstr "경고: \"%s\"를 완전히 삭제합니다. 복구할 수 <ct=0x0000FF><b>없게</b></ct> 됩니다.\r\n\r\nDo you really want to continue?"
-
-#. Resource IDs: (1132)
-msgid "Web"
-msgstr "웹"
 
 #. Resource IDs: (65535)
 msgid "Western European"

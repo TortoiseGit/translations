@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-08-20 00:19+0000\n"
+"PO-Revision-Date: 2015-09-09 21:57+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -451,15 +451,11 @@ msgstr "&Zweig"
 msgid "&Branch:"
 msgstr "&Zweig:"
 
-#. Resource IDs: (1382)
-msgid "&Browse Dir"
-msgstr "&Suche Verzeichnis"
-
 #. Resource IDs: (20013)
 msgid "&Browse repository"
 msgstr "Projektarchiv durchsuchen"
 
-#. Resource IDs: (1001, 1009)
+#. Resource IDs: (1001, 1009, 1131, 1382)
 msgid "&Browse..."
 msgstr "&Suchen..."
 
@@ -2400,8 +2396,8 @@ msgid "Branch:"
 msgstr "Zweig:"
 
 #. Resource IDs: (1383)
-msgid "Bro&wse"
-msgstr "Suchen..."
+msgid "Bro&wse..."
+msgstr "&Suchen..."
 
 #. Resource IDs: (333)
 msgid "Browse References"
@@ -3974,10 +3970,6 @@ msgstr "Vergleicht die Datei des Arbeitsbaums mit der Version vor der letzter Ei
 msgid "Diffs two any commits"
 msgstr "Zwei EIntragungen vergleichen"
 
-#. Resource IDs: (1131)
-msgid "Dir..."
-msgstr "Verz..."
-
 #. Resource IDs: (65535)
 msgid "Directory:"
 msgstr "Verzeichnis:"
@@ -4793,7 +4785,7 @@ msgid "Fast Forward"
 msgstr "Fast Forward"
 
 #. Resource IDs: (1484)
-msgid "Fast Forward o&nly"
+msgid "Fast Forward O&nly"
 msgstr "&nur Fast-Forward"
 
 #. Resource IDs: (1066)
@@ -5631,9 +5623,18 @@ msgstr "ID:32779:V   +O"
 msgid "ID:32782:V C +P"
 msgstr "ID:32782:V C +P"
 
+#. Accelerator Entry for Menu ID:32787; ''
 #. Accelerator Entry for Menu ID:32787; '&Find\tCtrl+F'
 msgid "ID:32787:V C +F"
 msgstr "ID:32787:V C +F"
+
+#. Accelerator Entry for Menu ID:32789; ''
+msgid "ID:32789:VA  +N"
+msgstr "ID:32789:VA  +N"
+
+#. Accelerator Entry for Menu ID:32790; ''
+msgid "ID:32790:VA  +P"
+msgstr "ID:32790:VA  +P"
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical\tV'
 msgid "ID:32793:V C +V"
@@ -11205,10 +11206,6 @@ msgid ""
 "\r\n"
 "Do you really want to continue?"
 msgstr "Warnung: \"%s\" wird permanent gelöscht. Dies kann <ct=0x0000FF><b>NICHT</b></ct> rückgängig gemacht werden!\n\nMöchten Sie wirklich fortfahren?"
-
-#. Resource IDs: (1132)
-msgid "Web"
-msgstr "Web"
 
 #. Resource IDs: (65535)
 msgid "Western European"
