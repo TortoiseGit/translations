@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-09-28 01:09+0000\n"
+"PO-Revision-Date: 2015-09-28 13:06+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/lznuaa/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -1601,11 +1601,11 @@ msgstr "<ct=0x0000FF>¡¡¡No se pudo aplicar el acopio (stash)!!!</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILED)
 msgid "<ct=0x0000FF>Stash POP failed!!!</ct>"
-msgstr "<ct=0x0000FF>¡METER resguardo fallido!</ct>"
+msgstr "<ct=0x0000FF>¡¡¡No se pudo TRASPONER el acopio (stash pop)!!!</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "<ct=0x0000FF>Stash failed!!!</ct>"
-msgstr "<ct=0x0000FF>¡Resguardo fallido!</ct>"
+msgstr "<ct=0x0000FF>¡¡¡No se pudo acopiar (stash)!!!</ct>"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_REBASEDIRFOUND)
 msgid ""
@@ -1616,23 +1616,23 @@ msgstr "<ct=0x0000FF>el anterior directorio de reasentamiento que aplicó reasen
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILEDCONFLICTS)
 msgid "<ct=0x0000ff>Stash Apply failed, there are conflicts</ct>"
-msgstr "<ct=0x0000FF>Fallo al aplicar resguardo, hay conflictos</ct>"
+msgstr "<ct=0x0000FF>No se pudo aplicar el acopio (stash apply), hay conflictos</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILEDCONFLICTS)
 msgid "<ct=0x0000ff>Stash POP failed, there are conflicts</ct>"
-msgstr "<ct=0x0000FF>METER resguardo fallido, hay conflictos</ct>"
+msgstr "<ct=0x0000FF>No se pudo TRASPONER el acopio (stash pop), hay conflictos</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYSUCCESS)
 msgid "<ct=0xff0000>Stash Apply successful</ct>"
-msgstr "<ct=0xff0000>Resguardo aplicado correctamente</ct>"
+msgstr "<ct=0xff0000>Acopio aplicado (stash apply) con éxito</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHPOPSUCCESS)
 msgid "<ct=0xff0000>Stash POP successful</ct>"
-msgstr "<ct=0xff0000>METER resguardo exitoso</ct>"
+msgstr "<ct=0xff0000>Acopio TRASLADADO (stash pop) con éxito</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "<ct=0xff0000>Stash Success</ct>"
-msgstr "<ct=0xff0000>Resguardo exitoso</ct>"
+msgstr "<ct=0xff0000>Acopiado con éxito</ct>"
 
 #. Resource IDs: (16603)
 msgid "<descr>"
@@ -4321,7 +4321,7 @@ msgstr "¿Quieres ver los cambios?"
 
 #. Resource IDs: (IDS_DCOMMIT_STASH_POP)
 msgid "Do you want to stash pop now?"
-msgstr "¿Quieres resguardar ahora?"
+msgstr "¿Quiere trasponer el acopio (stash pop) ahora?"
 
 #. Resource IDs: (65535)
 msgid "Document :"
@@ -9892,31 +9892,31 @@ msgstr "Inicia un servidor git ejecutando el protocolo git"
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1384, Dialog IDD_STASH:
 #. Control id 4575, Dialog IDD_SYNC: Control id 1384)
 msgid "Stash"
-msgstr "Resguardar"
+msgstr "Acopiar (stash)"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1673)
 msgid "Stash &Message"
-msgstr "&Mensaje de Resguardo"
+msgstr "&Mensaje del acopio (stash)"
 
 #. Resource IDs: (IDS_MENUSTASHAPPLY)
 msgid "Stash Apply"
-msgstr "Aplicar Resguardo"
+msgstr "Aplicar acopio (stash apply)"
 
 #. Resource IDs: (IDS_MENUSTASHLIST)
 msgid "Stash List"
-msgstr "Lista de Resguardos"
+msgstr "Listar acopios (stash list)"
 
 #. Resource IDs: (IDS_MENUSTASHPOP)
 msgid "Stash Pop"
-msgstr "Meter Resguardo"
+msgstr "Trasponer acopio (stash pop)"
 
 #. Resource IDs: (IDS_MENUSTASHSAVE)
 msgid "Stash Save"
-msgstr "Guardar Resguardo"
+msgstr "Guardar acopio (stash save)"
 
 #. Resource IDs: (IDS_PROC_STASHRUNNING)
 msgid "Stash operation running..."
-msgstr "Operación de reguardo en marcha..."
+msgstr "Operación de acopio en curso..."
 
 #. Resource IDs: (IDS_STATE)
 msgid "State"
@@ -10289,7 +10289,7 @@ msgstr "El ayudante de credencial fue cambiado.\n¿Quiere guardar ahora o descar
 msgid ""
 "The current working tree is not clean.\n"
 "Do you want to stash the changes?"
-msgstr "El árbol de trabajo actual no está limpio.\n¿Quieres guardar los cambios?"
+msgstr "El árbol de trabajo actual no está limpio.\n¿Quiere acopiar (stash) los cambios?"
 
 #. Resource IDs: (IDS_DEFAULT_SCALE_TT)
 msgid ""
