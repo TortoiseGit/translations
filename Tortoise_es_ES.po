@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-09-27 17:25+0000\n"
+"PO-Revision-Date: 2015-09-28 01:09+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/lznuaa/tortoisegit/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -499,7 +499,7 @@ msgstr "&Limpia"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1686)
 msgid "&Clear stash"
-msgstr "&Limpiar Resguardos"
+msgstr "&Limpiar acopio (stash)"
 
 #. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1, Dialog
 #. IDD_GITPROGRESS: Control id 1)
@@ -1255,7 +1255,7 @@ msgstr "&Iniciar Grupo"
 
 #. Resource IDs: (IDS_STASHBUTTON)
 msgid "&Stash"
-msgstr "&Guardar"
+msgstr "&Acopiar (stash)"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Menu)
 msgid "&Status Bar"
@@ -1593,11 +1593,11 @@ msgstr "<ct=0x0000FF>HEAD (cabecera) actual desacoplada</ct>, sobre la que usted
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL %d</b> stash?</ct>"
-msgstr ""
+msgstr "<ct=0x0000FF>¿De verdad quiere borrar el acopio (stash) <b>%d POR COMPLETO</b>?</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "<ct=0x0000FF>Stash Apply failed!!!</ct>"
-msgstr "<ct=0x0000FF>¡Fallo al aplicar el resguardo!</ct>"
+msgstr "<ct=0x0000FF>¡¡¡No se pudo aplicar el acopio (stash)!!!</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILED)
 msgid "<ct=0x0000FF>Stash POP failed!!!</ct>"
@@ -4143,7 +4143,7 @@ msgstr "Muestra los &botones en este orden"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1910)
 msgid "Display branch revision number"
-msgstr ""
+msgstr "Mostrar número de revisión del ramal"
 
 #. Resource IDs: (57609)
 msgid ""
@@ -9499,7 +9499,7 @@ msgid ""
 "Show branch revision number (git rev-list --count --first-parent) in log "
 "dialog and after a push to a remote branch; this is not guaranteed to be "
 "unique, please see help"
-msgstr ""
+msgstr "Muestra el número de revisión del ramal (git rev-list --count --first-parent) en un cuadro de diálogo de registro (log) y después de un impulsado (push) a un ramal remoto; este no está garantizado que sea único, por favor, vea la ayuda"
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is on"
