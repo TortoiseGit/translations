@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-09-27 19:30+0000\n"
+"PO-Revision-Date: 2015-10-05 20:24+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -3254,7 +3254,7 @@ msgstr "与上一版本比较差异"
 msgid ""
 "Compares all whitespaces when diffing\n"
 "Compare whitespaces"
-msgstr "进行差异比较时比较空白字符\n比较空白字符"
+msgstr "差异比较时比较空白字符的变化\n比较空白字符"
 
 #. Resource IDs: (IDS_MENUDESCDIFF)
 msgid ""
@@ -6153,7 +6153,7 @@ msgstr "忽略空白字符变化"
 
 #. Resource IDs: (32786)
 msgid "Ignore whitespace when comparing the parents version and the child's "
-msgstr "比较父与其子版本时忽略空白"
+msgstr "比较父与其子版本时忽略空白字符"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 1432,
 #. IDS_PATHACTIONS_IGNORED)
@@ -6168,13 +6168,13 @@ msgstr "忽略的文件"
 msgid ""
 "Ignores all whitespace changes when diffing\n"
 "Ignore all whitespace changes"
-msgstr "在比较时忽略全部空格变更\n忽略全部空格变更"
+msgstr "在比较时忽略所有空白字符的变化\n忽略所有空白字符变化"
 
 #. Resource IDs: (32872)
 msgid ""
 "Ignores changes in whitespaces when diffing\n"
 "Ignore whitespace changes"
-msgstr "在比较时忽略空格改动\n忽略空格改动"
+msgstr "在比较时忽略空白字符变动\n忽略空白变动"
 
 #. Resource IDs: (16916 - Menu)
 msgid "Image &and Text"
@@ -9687,7 +9687,7 @@ msgstr "在屏幕提示中显示快捷键(&K)"
 msgid ""
 "Show special characters for whitespaces and newlines\n"
 "Show Whitespaces"
-msgstr "空白和换行显示为特殊字符\n显示空白"
+msgstr "空白字符和换行显示为特殊字符\n显示空白字符"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1314)
 msgid "Show status of subrepositories in parent folders"
@@ -11633,7 +11633,7 @@ msgstr "当运行后台服务进程时，该版本库的所有数据都会暴露
 
 #. Resource IDs: (IDS_TEXTIDENTICAL_WHITESPACE)
 msgid "Whitespace changes (tabs, spaces)"
-msgstr "空白符的变化（制表符、空格）"
+msgstr "空白字符的变化（制表符、空格）"
 
 #. Resource IDs: (156 - Ribbon element, Dialog IDD_SETCOLORPAGE: Control id
 #. 65535)

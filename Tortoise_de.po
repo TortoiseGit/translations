@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-09-27 16:22+0000\n"
+"PO-Revision-Date: 2015-10-05 16:08+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1595,7 +1595,7 @@ msgstr "<ct=0x0000FF>Der aktuelle HEAD ist losgelöst</ct>, Sie arbeiten gerade 
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL %d</b> stash?</ct>"
-msgstr ""
+msgstr "<ct=0x0000FF>Möchten Sie wirklich den <b>gesamten</b> Stash mit %d Einträgen löschen?</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "<ct=0x0000FF>Stash Apply failed!!!</ct>"
@@ -2463,7 +2463,7 @@ msgstr "Zweig Name"
 
 #. Resource IDs: (IDS_REV_COUNTER)
 msgid "Branch RevNo"
-msgstr ""
+msgstr "Zweig RevNr"
 
 #. Resource IDs: (IDS_B_T_INVALID)
 msgid "Branch/Tag name is invalid."
@@ -4145,7 +4145,7 @@ msgstr "Zeige Schaltflächen in &dieser Reihenfolge"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1910)
 msgid "Display branch revision number"
-msgstr ""
+msgstr "Zweig-Revisionsnummer anzeigen"
 
 #. Resource IDs: (57609)
 msgid ""
@@ -9501,7 +9501,7 @@ msgid ""
 "Show branch revision number (git rev-list --count --first-parent) in log "
 "dialog and after a push to a remote branch; this is not guaranteed to be "
 "unique, please see help"
-msgstr ""
+msgstr "Zeigt die Zweig-Revisionsnummer (git rev-list --count --first-parent) im Log-Dialog und nach dem Versenden zu einem entfernten Zweig an; diese Nummer ist nicht immer eindeutig, bitte konsultieren Sie die Hilfe"
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is on"
