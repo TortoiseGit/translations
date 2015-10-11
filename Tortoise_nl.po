@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-09-27 16:21+0000\n"
+"PO-Revision-Date: 2015-10-11 21:44+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -4585,6 +4585,13 @@ msgstr ""
 msgid "Encoding"
 msgstr "Codering"
 
+#. Resource IDs: (IDS_ENCODING_COMBO_TOOLTIP)
+msgid ""
+"Encoding\n"
+"Convert to the specified encoding\n"
+"Hold down the Ctrl key to reload the file with the specified encoding."
+msgstr ""
+
 #. Resource IDs: (61866)
 #, c-format
 msgid "Encountered a hardware I/O error while accessing %1."
@@ -7686,15 +7693,15 @@ msgstr ""
 msgid "Paste &last commit message"
 msgstr ""
 
-#. Resource IDs: (IDS_COMMITDLG_POPUP_LOGHISTORY)
-msgid "Paste &recent message..."
-msgstr ""
-
 #. Resource IDs: (16908)
 msgid ""
 "Paste Tool\n"
 "Paste"
 msgstr "Plakgereedschap\nPlakken"
+
+#. Resource IDs: (IDS_COMMITDLG_POPUP_LOGHISTORY)
+msgid "Paste r&ecent message..."
+msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCCLIPPASTE)
 msgid ""
@@ -12142,6 +12149,18 @@ msgid ""
 "%s = %ld\n"
 "%s = %ld\n"
 "%s = %ld"
+msgstr ""
+
+#. Resource IDs: (IDS_SYSTEM_GCM)
+msgid "manager - all Windows users"
+msgstr ""
+
+#. Resource IDs: (IDS_GLOBAL_GCM)
+msgid "manager - current Windows user"
+msgstr ""
+
+#. Resource IDs: (IDS_LOCAL_GCM)
+msgid "manager - this repository only"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1494)
