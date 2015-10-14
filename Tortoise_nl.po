@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-10-11 21:44+0000\n"
+"PO-Revision-Date: 2015-10-14 19:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -11956,6 +11956,13 @@ msgstr ""
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
+msgstr ""
+
+#. Resource IDs: (IDS_GITEXEERROR_NOMESSAGE)
+#, c-format
+msgid ""
+"\"%s\" exited with an error, however, without generating any output such as "
+"an error message."
 msgstr ""
 
 #. Resource IDs: (IDS_PROC_REFINVALID)

@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-10-11 21:44+0000\n"
+"PO-Revision-Date: 2015-10-14 19:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -11957,6 +11957,13 @@ msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
 msgstr "「%s」包含一個 git 子模組，但很可能在複製後不能運作。\n你要刪除「.git」及加入所有檔案至上層版本庫，還是保留它而忽略可能發生的問題？"
+
+#. Resource IDs: (IDS_GITEXEERROR_NOMESSAGE)
+#, c-format
+msgid ""
+"\"%s\" exited with an error, however, without generating any output such as "
+"an error message."
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_REFINVALID)
 #, c-format
