@@ -13,15 +13,15 @@
 # Tetsuhiko Koto, 2014-2015
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2012-2013
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2013
-# YANO Tetsu <tetuyano+transi@gmail.com>, 2013-2014
+# YANO Tetsu <tetuyano+transi@gmail.com>, 2013-2015
 # Yoshiharu Hirose <yh1224@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-10-14 19:41+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2015-11-03 02:52+0000\n"
+"Last-Translator: YANO Tetsu <tetuyano+transi@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1598,7 +1598,7 @@ msgstr "<ct=0x0000FF>現在の HEAD は切り離されました</ct>, ブラン�
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL %d</b> stash?</ct>"
-msgstr ""
+msgstr "<ct=0x0000FF>本当に<b>すべて %d の</b>スタッシュを削除しても宜しいですか？</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "<ct=0x0000FF>Stash Apply failed!!!</ct>"
@@ -2466,7 +2466,7 @@ msgstr "ブランチ名"
 
 #. Resource IDs: (IDS_REV_COUNTER)
 msgid "Branch RevNo"
-msgstr ""
+msgstr "ブランチリビジョンNo"
 
 #. Resource IDs: (IDS_B_T_INVALID)
 msgid "Branch/Tag name is invalid."
@@ -2482,7 +2482,7 @@ msgstr "ブランチ:"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1383)
 msgid "Bro&wse..."
-msgstr ""
+msgstr "ブラウズ(&W)..."
 
 #. Resource IDs: (IDS_MENUREFBROWSE)
 msgid "Browse References"
@@ -4148,7 +4148,7 @@ msgstr "この順序でボタンを表示(&B)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1910)
 msgid "Display branch revision number"
-msgstr ""
+msgstr "ブランチリビジョン番号を表示"
 
 #. Resource IDs: (57609)
 msgid ""
@@ -4593,7 +4593,7 @@ msgid ""
 "Encoding\n"
 "Convert to the specified encoding\n"
 "Hold down the Ctrl key to reload the file with the specified encoding."
-msgstr ""
+msgstr "エンコード\n指定のエンコードに変換\n指定のエンコードでファイルを再読込するため、Ctrlキーを押下します。"
 
 #. Resource IDs: (61866)
 #, c-format
@@ -4946,7 +4946,7 @@ msgstr "ファストフォワード"
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1484, Dialog IDD_PULLFETCH:
 #. Control id 1484)
 msgid "Fast Forward O&nly"
-msgstr ""
+msgstr "ファーストフォワードのみ(&N)"
 
 #. Resource IDs: (IDS_PROC_REBASE_FFTO)
 #, c-format
@@ -5508,7 +5508,7 @@ msgstr "Git for Windows"
 
 #. Resource IDs: (IDS_PROC_NOMSYSGIT)
 msgid "Git for Windows (https://git-for-windows.github.io/) not found."
-msgstr ""
+msgstr "Git for Windows (https://git-for-windows.github.io/) が見つかりませんでした。"
 
 #. Resource IDs: (IDS_PROC_REPOCREATEERR)
 msgid "Git reported an error while creating a repository!\n"
@@ -5825,11 +5825,11 @@ msgstr "ID:32787:V C +F"
 
 #. Accelerator Entry for Menu ID:32789; ''
 msgid "ID:32789:VA  +N"
-msgstr ""
+msgstr "ID:32789:VA  +N"
 
 #. Accelerator Entry for Menu ID:32790; ''
 msgid "ID:32790:VA  +P"
-msgstr ""
+msgstr "ID:32790:VA  +P"
 
 #. Accelerator Entry for Menu ID:32793; 'Arrange &vertical\tV'
 msgid "ID:32793:V C +V"
@@ -7704,7 +7704,7 @@ msgstr "貼り付けツール\n貼り付け"
 
 #. Resource IDs: (IDS_COMMITDLG_POPUP_LOGHISTORY)
 msgid "Paste r&ecent message..."
-msgstr ""
+msgstr "最近のメッセージを貼り付け(&E)..."
 
 #. Resource IDs: (IDS_MENUDESCCLIPPASTE)
 msgid ""
@@ -9511,7 +9511,7 @@ msgid ""
 "Show branch revision number (git rev-list --count --first-parent) in log "
 "dialog and after a push to a remote branch; this is not guaranteed to be "
 "unique, please see help"
-msgstr ""
+msgstr "ダイアログ上でブランチのリビジョン番号を表示 (git rev-list --count --first-parent) して、リモートブランチにプッシュします。これは一意であることが保証されているわけではありません。ヘルプを参照してください。"
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is on"
@@ -9932,7 +9932,7 @@ msgstr "スタッシュ処理中です..."
 
 #. Resource IDs: (IDS_STATE)
 msgid "State"
-msgstr ""
+msgstr "状態"
 
 #. Resource IDs: (16514, Dialog IDD_GITPROGRESS: Control id 1487, Dialog
 #. IDD_RESOLVE_CONFLICT: Control id 4572, Dialog IDD_RESOLVE_CONFLICT: Control
@@ -9951,7 +9951,7 @@ msgstr "状態"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Ribbon name)
 msgid "Status Bar"
-msgstr ""
+msgstr "ステータスバー"
 
 #. Resource IDs: (17087)
 msgid "Status Bar Configuration"
@@ -11497,7 +11497,7 @@ msgstr " .tgitconfigを表示"
 
 #. Resource IDs: (ID_VIEW_BARS - Ribbon name)
 msgid "View Bars"
-msgstr ""
+msgstr "バー表示"
 
 #. Resource IDs: (Dialog IDD_PATCH_VIEW: Control id 328, IDS_MENU_VIEWPATCH)
 msgid "View Patch"
@@ -11777,7 +11777,7 @@ msgid ""
 "You have an old version of Git for Windows (https://git-for-windows.github.io/) installed which contains security issues.\n"
 "\n"
 "You should consider an upgrade to 1.9.5+."
-msgstr ""
+msgstr "セキュリティ上の問題のある、古いバージョンの Git for Windows (https://git-for-windows.github.io/) がインストールされています。\n\n1.9.5 以降にアップグレードすることを推奨します。"
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""
@@ -11966,7 +11966,7 @@ msgstr "\"%s\" は、gitのサブモジュールを含んでいます。コピ�
 msgid ""
 "\"%s\" exited with an error, however, without generating any output such as "
 "an error message."
-msgstr ""
+msgstr "エラーメッセージ等の出力なく、エラーにより \"%s\" が終了しました。"
 
 #. Resource IDs: (IDS_PROC_REFINVALID)
 #, c-format
@@ -12163,15 +12163,15 @@ msgstr "行数: %d増 %d減、ファイル: %s = %ld\n%s = %ld\n%s = %ld\n%s = %
 
 #. Resource IDs: (IDS_SYSTEM_GCM)
 msgid "manager - all Windows users"
-msgstr ""
+msgstr "manager - 全てのWindows利用者"
 
 #. Resource IDs: (IDS_GLOBAL_GCM)
 msgid "manager - current Windows user"
-msgstr ""
+msgstr "manager - 現在のWindowsユーザー"
 
 #. Resource IDs: (IDS_LOCAL_GCM)
 msgid "manager - this repository only"
-msgstr ""
+msgstr "manager - このレポジトリのみ"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1494)
 msgid "master"
@@ -12241,7 +12241,7 @@ msgstr "on %1"
 
 #. Resource IDs: (IDS_STATE_PATCHED)
 msgid "patched"
-msgstr ""
+msgstr "パッチ適用済"
 
 #. Resource IDs: (61888)
 msgid "pixels"
