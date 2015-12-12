@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-10-15 07:22+0000\n"
-"Last-Translator: Zbyněk Schwarz <zbynek.schwarz@gmail.com>\n"
+"PO-Revision-Date: 2015-12-12 19:31+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/lznuaa/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,14 +160,14 @@ msgstr "%1!s!"
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
 msgid ""
-"%1!s!\r\n"
+"%1!s!\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
 msgstr "%1!s!\nZobrazeno %2!d! souborů, %3!d! podmodulů a %4!d! složek, %5!d! položek celkem"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOFILE)
 #, c-format
 msgid ""
-"%1!s!\r\n"
+"%1!s!\n"
 "Size %2!s!"
 msgstr "%1!s!\nVelikost %2!s!"
 
@@ -1673,21 +1673,21 @@ msgstr "Je dostupná novější verze. Prosím stáhněte si nejnovější verzi
 
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
-"A newline separated list of paths for which icon overlays are shown.\r\n"
+"A newline separated list of paths for which icon overlays are shown.\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
 msgstr "Seznam cest, oddělených novým řádkem, v kterých jsou zobrazeny překryvy ikon.\nPokud na konci cesty přidáte znak '*', pak jsou také zahrnuty všechny soubory a podadresáře v této cestě."
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
-"A newline separated list of paths for which no context menu is shown.\r\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
+"A newline separated list of paths for which no context menu is shown.\n"
+"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow the context menu on all paths."
 msgstr "Seznam cest, oddělených novým řádkem, v kterých není zobrazena kontextová nabídka.\nPokud na konci cesty přidáte znak '*', pak jsou také vynechány všechny soubory a podadresáře v této cestě.\nPrázdný seznam umožňuje zobrazovat nabídku ve všech cestách."
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
-"A newline separated list of paths for which no icon overlays are shown.\r\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
+"A newline separated list of paths for which no icon overlays are shown.\n"
+"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
 msgstr "Seznam cest, oddělených novým řádkem, v kterých nejsou překryvy ikon zobrazeny.\nPokud na konci cesty přidáte znak '*', pak jsou také vynechány všechny soubory a podadresáře v této cestě.\nPrázdný seznam umožňuje zobrazovat překryvy ve všech cestách."
 
@@ -1707,7 +1707,7 @@ msgstr "Značka s takovýmto názvem již existuje."
 
 #. Resource IDs: (IDS_SETTINGS_DIFFVIEWER_TT)
 msgid ""
-"A viewer program for GNU diff files (patch files).\r\n"
+"A viewer program for GNU diff files (patch files).\n"
 "If you don't have one use NotePad."
 msgstr "Program pro zobrazení souborů GNU diff (záplatové soubory).\nPokud ho nemáte, použijte Poznámkový blok."
 
@@ -2016,24 +2016,24 @@ msgstr "Alternativní editor. Bylo by dobré, kdyby podporoval konce řádku sty
 #. Resource IDs: (IDS_SETTINGS_EXTDIFF_TT)
 #, c-format
 msgid ""
-"An external diff program used\r\n"
-"for comparing different revisions of files\r\n"
-"\r\n"
-"You can specify the following parameters to the path:\r\n"
-"%base: the base file\r\n"
+"An external diff program used\n"
+"for comparing different revisions of files\n"
+"\n"
+"You can specify the following parameters to the path:\n"
+"%base: the base file\n"
 "%mine: the modified file"
 msgstr "Externí program pro porovnání použitý k\nporovnání různých revizí souborů.\n\nK cestě můžete zadat následující parametry:\n%base: základní soubor\n%mine: změněný soubor"
 
 #. Resource IDs: (IDS_SETTINGS_EXTMERGE_TT)
 #, c-format
 msgid ""
-"An external merge program used\r\n"
-"to resolve conflicted files.\r\n"
-"\r\n"
-"You can specify the following parameters to the path:\r\n"
-"%merged: the conflicted file, where to save\r\n"
-"%theirs: the file as it is in the repository\r\n"
-"%mine: your own file, with your changes\r\n"
+"An external merge program used\n"
+"to resolve conflicted files.\n"
+"\n"
+"You can specify the following parameters to the path:\n"
+"%merged: the conflicted file, where to save\n"
+"%theirs: the file as it is in the repository\n"
+"%mine: your own file, with your changes\n"
 "%base: the original file without your changes"
 msgstr "Externí program sloučení použitý\npro vyřešení konfliktů v souborech.\n\nV cestě můžete zadat následující parametry:\n%merged: konfliktní soubor, kde uložit\n%theirs: soubor tak jak je v úložišti\n%mine: váš vlastní soubor, s vašimi změnami\n%base: původní soubor bez vašich změn"
 
@@ -2276,7 +2276,7 @@ msgstr "Automaticky zavřít, pokud nejsou sloučení, přidání nebo smazání
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCOMPLETION_TT)
 msgid ""
-"Auto-complete suggests words (usually class or member names)\r\n"
+"Auto-complete suggests words (usually class or member names)\n"
 "from the files that you have changed as you type a log message."
 msgstr "Automatické dokončování navrhuje, při psaní zprávy protokolu, slova\n(většinou názvy tříd či členů) ze souborů, které jste změnili."
 
@@ -2448,7 +2448,7 @@ msgstr "Větev"
 #. Resource IDs: (IDS_REBASE_FASTFORWARD_FMT)
 #, c-format
 msgid ""
-"Branch %s behind %s\r\n"
+"Branch %s behind %s\n"
 "%s will fastforward to %s"
 msgstr "Větev %s je za %s\n%s bude rychle posunuta vpřed na %s"
 
@@ -2670,7 +2670,7 @@ msgstr "Zrušit\nZůstat u současných nastavení"
 
 #. Resource IDs: (IDS_PROC_CANNOTCOMBINE)
 msgid ""
-"Cannot combine commits now.\r\n"
+"Cannot combine commits now.\n"
 "Make sure you are viewing the log of your current branch and no filters are applied."
 msgstr "Nyní nelze odevzdání spojit.\nUjistěte se, že máte zobrazen protokol své současné větve a že nepoužíváte žádné filtry."
 
@@ -2933,7 +2933,8 @@ msgstr "Vyčištění úspěšně zpracovalo následující cesty:\n%s"
 #. IDD_SETTINGSSAVEDDATA: Control id 1275, Dialog IDD_SETTINGSSAVEDDATA:
 #. Control id 1276, Dialog IDD_SETTINGSSAVEDDATA: Control id 1279, Dialog
 #. IDD_SETTINGSSAVEDDATA: Control id 1281, Dialog IDD_SETTINGSSAVEDDATA:
-#. Control id 1427, Dialog IDD_SETTINGSSAVEDDATA: Control id 1726)
+#. Control id 1427, Dialog IDD_SETTINGSSAVEDDATA: Control id 1726, Dialog
+#. IDD_SETTINGSSAVEDDATA: Control id 1727)
 msgid "Clear"
 msgstr "Vyčistit"
 
@@ -2966,7 +2967,7 @@ msgstr "Uložené protokoly vyčištěny z %ld úložišť"
 
 #. Resource IDs: (IDS_SETTINGS_CLEARAUTH_TT)
 msgid ""
-"Clears the stored authentication.\r\n"
+"Clears the stored authentication.\n"
 "You will have to enter your username/password again for all repositories."
 msgstr "Vyčistí uložená ověření.\nBudete muset znovu zadat vaše uživatelské jméno/heslo pro všechny úložiště."
 
@@ -3730,9 +3731,9 @@ msgstr "Současná větev:"
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
 msgid ""
-"Current branch %s is up to date\r\n"
-"\r\n"
-" If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
+"Current branch %s is up to date\n"
+"\n"
+"If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
 msgstr "Současná větev %s je aktuální\n\nPokud chcete vynutit přeskládání, i když je současná větev potomkem odevzdání, na který přeskládáváte, pak níže zaškrtněte políčko \"Vynutit přeskládání\"."
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
@@ -4116,7 +4117,7 @@ msgstr "Zakázat zvuky"
 
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
-"Disable this option if you have really big working trees and experience\r\n"
+"Disable this option if you have really big working trees and experience\n"
 "too much disk access when browsing the working tree."
 msgstr "Tuto možnost zakažte, pokud máte opravdu velké pracovní stromy a pokud se stává,\nže máte příliš velké přístupy na disk při procházení pracovního stromu."
 
@@ -4216,8 +4217,8 @@ msgstr "Opravdu chcete smazat panel nástrojů '%s'?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
-"Do you really want to disable automatic update checks for TortoiseGit?\r\n"
-"\r\n"
+"Do you really want to disable automatic update checks for TortoiseGit?\n"
+"\n"
 "Automatic update checks can be re-enabled in TortoiseGit settings on the General page."
 msgstr "Opravdu chcete zakázat automatickou kontrolu aktualizací TortoiseGit?\n\nAutomatická kontrola aktualizací může být znovu povolena v nastavení TortoiseGit na stránce obecné."
 
@@ -5234,7 +5235,7 @@ msgstr "Vynutit odeslání do vybraného vzdáleného odkazu a potlačit ho bez 
 
 #. Resource IDs: (IDS_REBASE_FORCE_TT)
 msgid ""
-"Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
+"Force the rebase even if the current branch is a descendant of the commit you are rebasing onto.\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
 msgstr "Vynutit přeskládání i když je současná větev potomkem odevzdání na který přeskládáváte.\nNormálně by příkaz v takové situaci skončil se zprávou \"Současná větev je aktuální\"."
 
@@ -6044,7 +6045,7 @@ msgstr "Pokud zaškrtnuto, dvojitým kliknutím na revizi v seznamu protokolů j
 
 #. Resource IDs: (IDS_SETTINGS_COMMITREOPEN_TT)
 msgid ""
-"If checked, the commit dialog will be started again automatically after an error,\r\n"
+"If checked, the commit dialog will be started again automatically after an error,\n"
 "while preserving your last selection and log message."
 msgstr "Pokud zaškrtnuto bude dialogové okno odevzdání po chybě automaticky spuštěno\nzachovávajíc váš poslední výběr a zprávu protokolu."
 
@@ -6061,13 +6062,13 @@ msgstr "Pokud zapnuto, složky pracovního stromu, které jsou vyloučeny ze\nzo
 
 #. Resource IDs: (IDS_SETTINGS_UNVERSIONEDRECURSE_TT)
 msgid ""
-"If set, files inside unversioned folders can be shown in the status control.\r\n"
+"If set, files inside unversioned folders can be shown in the status control.\n"
 "The status control is used for example in the commit dialog."
-msgstr "Pokud nastaveno mohou být soubory uvnitř složek bez verzí  zobrazeny v kontrole stavu.\nKontrola stavu je používána například v dialogovém okně odevzdání."
+msgstr "Pokud nastaveno mohou být soubory uvnitř složek bez verzí zobrazeny v kontrole stavu.\nKontrola stavu je používána například v dialogovém okně odevzdání."
 
 #. Resource IDs: (IDS_SETTINGS_UNVERSIONEDASMODIFIED_TT)
 msgid ""
-"If set, then unversioned files will mark the status of the parent directory as modified\r\n"
+"If set, then unversioned files will mark the status of the parent directory as modified\n"
 "i.e. they get the modified overlay icon."
 msgstr "Pokud nastaveno, soubory bez verze budou označovat stav nadřazeného adresáře jako změněný\ntj. jejich překrývací ikona bude označovat změnu."
 
@@ -7275,7 +7276,7 @@ msgstr "Poznámky"
 #. Resource IDs: (IDS_REBASE_EQUAL_FMT)
 #, c-format
 msgid ""
-"Nothing need rebase\r\n"
+"Nothing need rebase\n"
 "%s equal %s"
 msgstr "Nic není potřeba přeskládat\n%s se rovná %s"
 
@@ -8329,20 +8330,20 @@ msgstr "Regulární výraz:"
 
 #. Resource IDs: (IDS_LOG_FILTER_REGEX_TT)
 msgid ""
-"Regular expressions filter:\r\n"
-".   : any character\r\n"
-"c+   : match character c one or more times\r\n"
-"c*   : match character c zero or more times\r\n"
-"^   : start of line\r\n"
-"$   : end of line\r\n"
-"(string){n} : match string n times\r\n"
-"(abcd)   : subexpression\r\n"
-"[aei0-9]   : match a,e,i and 0..9\r\n"
-"[^aei0-9] : anything but a,e,i and 0..9\r\n"
-"\r\n"
-"\\w   : matches a-z,A-Z,0-9 and _\r\n"
-"\\W   : any non-alphanumeric character\r\n"
-"\\d   : digits 0-9\r\n"
+"Regular expressions filter:\n"
+".   : any character\n"
+"c+   : match character c one or more times\n"
+"c*   : match character c zero or more times\n"
+"^   : start of line\n"
+"$   : end of line\n"
+"(string){n} : match string n times\n"
+"(abcd)   : subexpression\n"
+"[aei0-9]   : match a,e,i and 0..9\n"
+"[^aei0-9] : anything but a,e,i and 0..9\n"
+"\n"
+"\\w   : matches a-z,A-Z,0-9 and _\n"
+"\\W   : any non-alphanumeric character\n"
+"\\d   : digits 0-9\n"
 "\\s   : whitespaces"
 msgstr "Filtrování regulárním výrazem:\n.   : jakýkoli znak\nc+   : zahrnout znak c jednou nebo vícekrát\nc*   : zahrnout znak c nulakrát nebo vícekrát\n^   : začátek řádku\n$   : konec řádku\n(řetězec){n} : zahrnou řetězec n krát\n(abcd)   : podvýraz\n[aei0-9]   : zahrnout a,e,i a 0..9\n[^aei0-9] : všechno kromě a,e,i a 0..9\n\n\\w   : zahrnout a-z,A-Z,0-9 a _\n\\W   : všechny nealfanumerické znaky\n\\d   : číslice 0-9\n\\s   : mezery"
 
@@ -9719,8 +9720,8 @@ msgstr "Zobrazováno %1!d! odkaz(ů), vybráno %2!d! odkaz(ů)"
 #, c-format
 msgid ""
 "Showing %ld revision(s), from revision %s to revision %s - %ld revision(s) "
-"selected, %ld file(s) selected\r\n"
-msgstr "Zobrazeno %ld revizí, od revize %s do revize %s - zvoleno %ld revizí, zvoleno %ld souborů\n"
+"selected, %ld file(s) selected"
+msgstr "Zobrazeno %ld revizí, od revize %s do revize %s - zvoleno %ld revizí, zvoleno %ld souborů"
 
 #. Resource IDs: (IDS_MENUDESCREVISIONGRAPH)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9980,6 +9981,10 @@ msgstr "Ukládat stav do mezipaměti pouze pro jednu složku, žádné rekurzivn
 msgid "Stops bisect mode"
 msgstr "Zastaví režim půlení"
 
+#. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1833)
+msgid "Stored decisions"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUDESCDIFFLATER)
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
@@ -10050,7 +10055,7 @@ msgstr "Možnosti aktualizace podmodulů"
 #. Resource IDs: (IDS_REPOBROWSE_INFOEXT)
 #, c-format
 msgid ""
-"Submodule \"%1!s!\"\r\n"
+"Submodule \"%1!s!\"\n"
 "Revision %2!s!"
 msgstr "Podmodul \"%1!s!\"\nRevize %2!s!"
 
@@ -10436,7 +10441,7 @@ msgstr "Názvy místní i vzdálené větve jsou prázdné.\nChcete pokračovat?
 
 #. Resource IDs: (IDS_B_T_LOCALEMPTY)
 msgid ""
-"The local branch/tag name is empty. This results in a remote removal.\r\n"
+"The local branch/tag name is empty. This results in a remote removal.\n"
 "Continue?"
 msgstr "Název místní větve/značky je prázdný. To má za následek odstranění vzdálené.\nPokračovat?"
 
@@ -10559,14 +10564,14 @@ msgstr "Cílová složka\n%s\nnení prázdná!\nOpravdu chcete zavést úložiš
 
 #. Resource IDs: (IDS_TEXTIDENTICAL_MAIN)
 msgid ""
-"The text is identical, but the files do not match!\r\n"
+"The text is identical, but the files do not match!\n"
 "The following differences were found:"
 msgstr "Text je stejný, ale soubory se neshodují!\nByly nalezeny následující rozdíly:"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCOMPLETIONTIMEOUT_TT)
 msgid ""
-"The time in seconds after which the parsing of the selected files stops.\r\n"
-"A lower value will make the auto-completion list available sooner,\r\n"
+"The time in seconds after which the parsing of the selected files stops.\n"
+"A lower value will make the auto-completion list available sooner,\n"
 "but maybe not scan all files."
 msgstr "Doba ve vteřinách po které bude zpracování souborů zastaveno.\nS nižší hodnotou bude seznam automatického dokončení dostupný dříve,\nale nemusí prozkoumat všechny soubory."
 
@@ -10789,9 +10794,9 @@ msgstr "TortoiseGit %d.%d.%d, Sestavení %d - %s, %s"
 #. Resource IDs: (IDS_ABOUTVERSION)
 #, c-format
 msgid ""
-"TortoiseGit %d.%d.%d.%d %s \r\n"
-"%s \r\n"
-msgstr "TortoiseGit %d.%d.%d.%d %s \n%s \n"
+"TortoiseGit %d.%d.%d.%d %s\n"
+"%s\n"
+msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -11403,8 +11408,8 @@ msgstr "Zrušeno uživatelem"
 
 #. Resource IDs: (IDS_PROC_NOUSERDATA)
 msgid ""
-"User name and email must be set before commit.\r\n"
-" Do you want to set these now?"
+"User name and email must be set before commit.\n"
+"Do you want to set these now?"
 msgstr "Uživatelské jméno a email musí být před odevzdáním nastaveno.\nChcete je nastavit nyní?"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1650)
@@ -11532,8 +11537,8 @@ msgstr "Visual Studio 2008"
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
-"WARNING:\r\n"
-"Only change these settings if you are absolutely sure what you are doing!\r\n"
+"WARNING:\n"
+"Only change these settings if you are absolutely sure what you are doing!\n"
 "To set the values to their default, delete the value text."
 msgstr "VAROVÁNÍ:\nTyto nastavení měňte, pouze pokud opravdu víte, co děláte!\nAbyste hodnoty nastavili na výchozí, smažte hodnotu text."
 
@@ -11564,8 +11569,8 @@ msgstr "Varování!"
 #. Resource IDs: (IDS_PROC_DELETEREF)
 #, c-format
 msgid ""
-"Warning: \"%s\" will be permanently deleted. It can <ct=0x0000FF><b>NOT</b></ct> be recovered!\r\n"
-"\r\n"
+"Warning: \"%s\" will be permanently deleted. It can <ct=0x0000FF><b>NOT</b></ct> be recovered!\n"
+"\n"
 "Do you really want to continue?"
 msgstr "Varování: \"%s\" bude natrvalo odstraněna. Toto <ct=0x0000FF><b>NEMŮŽETE</b></ct> vrátit!\n\nOpravdu chcete pokračovat?"
 
@@ -11834,7 +11839,7 @@ msgstr "Pro soubor zip musíte zvolit název souboru!"
 
 #. Resource IDs: (IDS_PROCEXPORTERRFOLDER)
 msgid ""
-"You selected a folder.\r\n"
+"You selected a folder.\n"
 "Exports are only possible to a (zip) file."
 msgstr "Vybrali jste složku.\nExportování je pouze možné do souboru (zip)."
 
@@ -12061,7 +12066,7 @@ msgstr "v konfliktu"
 #. Resource IDs: (IDS_STATUSLIST_COPYFROM)
 #, c-format
 msgid ""
-"copied from\r\n"
+"copied from\n"
 "%s - revision %ld"
 msgstr "kopírováno z\n%s - revize %ld"
 
@@ -12274,7 +12279,7 @@ msgstr "přeskočit pracovní strom"
 #. Resource IDs: (IDS_STATUSLIST_SWITCHEDTO)
 #, c-format
 msgid ""
-"switched to\r\n"
+"switched to\n"
 "%s"
 msgstr "přechod na\n%s"
 

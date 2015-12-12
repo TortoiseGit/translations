@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-11-01 21:47+0000\n"
+"PO-Revision-Date: 2015-12-12 19:29+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -169,16 +169,16 @@ msgstr "%1!s!"
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
 msgid ""
-"%1!s!\r\n"
+"%1!s!\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr "%1!s!\r\nAffiche %2!d! fichiers, %3!d! sous-modules et %4!d! répertoires, %5!d! objets au total."
+msgstr "%1!s!\nAffiche %2!d! fichiers, %3!d! sous-modules et %4!d! répertoires, %5!d! objets au total."
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOFILE)
 #, c-format
 msgid ""
-"%1!s!\r\n"
+"%1!s!\n"
 "Size %2!s!"
-msgstr "%1!s!\r\nTaille %2!s!"
+msgstr "%1!s!\nTaille %2!s!"
 
 #. Resource IDs: (61744)
 #, c-format
@@ -1682,23 +1682,23 @@ msgstr "Une nouvelle version est disponible. Veuillez télécharger la version a
 
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
-"A newline separated list of paths for which icon overlays are shown.\r\n"
+"A newline separated list of paths for which icon overlays are shown.\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "Une liste de chemins séparés par saut de ligne pour lesquels le menu contextuel sera affiché.\r\nSi vous ajoutez un caractère '*' à la fin d'un chemin, alors tous les fichiers et les sous-répertoires sous ce chemin seront inclus aussi."
+msgstr "Une liste de chemins séparés par saut de ligne pour lesquels le menu contextuel sera affiché.\nSi vous ajoutez un caractère '*' à la fin d'un chemin, alors tous les fichiers et les sous-répertoires sous ce chemin seront inclus aussi."
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
-"A newline separated list of paths for which no context menu is shown.\r\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
+"A newline separated list of paths for which no context menu is shown.\n"
+"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow the context menu on all paths."
-msgstr "Une liste de chemins séparés par saut de ligne pour lesquels le menu contextuel ne sera pas affiché.\r\nSi vous ajoutez un caractère '*' à la fin d'un chemin, alors tous les fichiers et les sous-répertoires sous ce chemin seront exclus aussi.\r\nUne liste vide autorise le menu contextuel sur tous les chemins."
+msgstr "Une liste de chemins séparés par saut de ligne pour lesquels le menu contextuel ne sera pas affiché.\nSi vous ajoutez un caractère '*' à la fin d'un chemin, alors tous les fichiers et les sous-répertoires sous ce chemin seront exclus aussi.\nUne liste vide autorise le menu contextuel sur tous les chemins."
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
-"A newline separated list of paths for which no icon overlays are shown.\r\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
+"A newline separated list of paths for which no icon overlays are shown.\n"
+"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "Une liste de chemins séparés par saut de ligne pour lesquels le menu contextuel sera affiché.\r\nSi vous ajoutez un caractère '*' à la fin d'un chemin, alors tous les fichiers et les sous-répertoires sous ce chemin seront exclus aussi.\r\nUne liste vide autorise le menu contextuel sur tous les chemins."
+msgstr "Une liste de chemins séparés par saut de ligne pour lesquels le menu contextuel sera affiché.\nSi vous ajoutez un caractère '*' à la fin d'un chemin, alors tous les fichiers et les sous-répertoires sous ce chemin seront exclus aussi.\nUne liste vide autorise le menu contextuel sur tous les chemins."
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -1716,9 +1716,9 @@ msgstr "Un tag avec ce nom existe déjà."
 
 #. Resource IDs: (IDS_SETTINGS_DIFFVIEWER_TT)
 msgid ""
-"A viewer program for GNU diff files (patch files).\r\n"
+"A viewer program for GNU diff files (patch files).\n"
 "If you don't have one use NotePad."
-msgstr "Un programme de visualisation des fichiers des fichiers de différence GNU (ou fichier patch).\r\nSi vous en avez pas d'autre, utilisez le NotePad."
+msgstr "Un programme de visualisation des fichiers des fichiers de différence GNU (ou fichier patch).\nSi vous en avez pas d'autre, utilisez le NotePad."
 
 #. Resource IDs: (IDS_ABORTBUTTON)
 msgid "A&bort"
@@ -2025,24 +2025,24 @@ msgstr "Un éditeur alternatif. Qui devrait de préférence prendre en charge le
 #. Resource IDs: (IDS_SETTINGS_EXTDIFF_TT)
 #, c-format
 msgid ""
-"An external diff program used\r\n"
-"for comparing different revisions of files\r\n"
-"\r\n"
-"You can specify the following parameters to the path:\r\n"
-"%base: the base file\r\n"
+"An external diff program used\n"
+"for comparing different revisions of files\n"
+"\n"
+"You can specify the following parameters to the path:\n"
+"%base: the base file\n"
 "%mine: the modified file"
 msgstr "Un programme externe de comparaison est utilisé\npour comparer différentes versions de fichiers\n\nVous pouvez utiliser les paramètres suivant pour le chemin :\n%base : nom du fichier de base\n%mine : le fichier modifié"
 
 #. Resource IDs: (IDS_SETTINGS_EXTMERGE_TT)
 #, c-format
 msgid ""
-"An external merge program used\r\n"
-"to resolve conflicted files.\r\n"
-"\r\n"
-"You can specify the following parameters to the path:\r\n"
-"%merged: the conflicted file, where to save\r\n"
-"%theirs: the file as it is in the repository\r\n"
-"%mine: your own file, with your changes\r\n"
+"An external merge program used\n"
+"to resolve conflicted files.\n"
+"\n"
+"You can specify the following parameters to the path:\n"
+"%merged: the conflicted file, where to save\n"
+"%theirs: the file as it is in the repository\n"
+"%mine: your own file, with your changes\n"
 "%base: the original file without your changes"
 msgstr "Un programme de fusion externe est utilisé\npour résoudre les fichiers en conflit\n\nVous pouvez utiliser les paramètres suivant pour le chemin :\n%merged : où enregistrer le fichier en conflit\n%theirs : le fichier tel qu'il est dans le dépôt\n%mine : votre fichier, avec vos propres modifications\n%base : le fichier original sans vos modifications"
 
@@ -2285,9 +2285,9 @@ msgstr "Fermeture automatique s'il n'y a pas de fusions, ajouts ou suppressions"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCOMPLETION_TT)
 msgid ""
-"Auto-complete suggests words (usually class or member names)\r\n"
+"Auto-complete suggests words (usually class or member names)\n"
 "from the files that you have changed as you type a log message."
-msgstr "La complétion automatique suggère des mots (habituellement des classes ou des noms de membres)\r\ntirés des fichiers que vous avez changés lorsque vous tapez un commentaire."
+msgstr "La complétion automatique suggère des mots (habituellement des classes ou des noms de membres)\ntirés des fichiers que vous avez changés lorsque vous tapez un commentaire."
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1505)
 msgid "AutoLoad Putty &Key"
@@ -2457,7 +2457,7 @@ msgstr "Branche"
 #. Resource IDs: (IDS_REBASE_FASTFORWARD_FMT)
 #, c-format
 msgid ""
-"Branch %s behind %s\r\n"
+"Branch %s behind %s\n"
 "%s will fastforward to %s"
 msgstr "Branche %s en retard sur %s\n%s sera transférée rapidement vers %s"
 
@@ -2679,7 +2679,7 @@ msgstr "Annuler\nRester avec les réglages actuels"
 
 #. Resource IDs: (IDS_PROC_CANNOTCOMBINE)
 msgid ""
-"Cannot combine commits now.\r\n"
+"Cannot combine commits now.\n"
 "Make sure you are viewing the log of your current branch and no filters are applied."
 msgstr "Impossible de combiner les livraisons pour le moment.\nAssurez-vous que vous consultez le journal de votre branche courante et qu'aucun filtre n'est actif."
 
@@ -2942,7 +2942,8 @@ msgstr "Le nettoyage a été effectué avec succès dans les chemins suivants :\
 #. IDD_SETTINGSSAVEDDATA: Control id 1275, Dialog IDD_SETTINGSSAVEDDATA:
 #. Control id 1276, Dialog IDD_SETTINGSSAVEDDATA: Control id 1279, Dialog
 #. IDD_SETTINGSSAVEDDATA: Control id 1281, Dialog IDD_SETTINGSSAVEDDATA:
-#. Control id 1427, Dialog IDD_SETTINGSSAVEDDATA: Control id 1726)
+#. Control id 1427, Dialog IDD_SETTINGSSAVEDDATA: Control id 1726, Dialog
+#. IDD_SETTINGSSAVEDDATA: Control id 1727)
 msgid "Clear"
 msgstr "Nettoyer"
 
@@ -2975,9 +2976,9 @@ msgstr "Supprime les commentaires des répertoires %ld"
 
 #. Resource IDs: (IDS_SETTINGS_CLEARAUTH_TT)
 msgid ""
-"Clears the stored authentication.\r\n"
+"Clears the stored authentication.\n"
 "You will have to enter your username/password again for all repositories."
-msgstr "Supprime l'authentification stockée.\r\nVous devrez ressaisir vos nom/mot de passe pour tous les dépôts."
+msgstr "Supprime l'authentification stockée.\nVous devrez ressaisir vos nom/mot de passe pour tous les dépôts."
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_RESIZABLE_TT)
 #, c-format
@@ -3739,9 +3740,9 @@ msgstr "Branche courante :"
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
 msgid ""
-"Current branch %s is up to date\r\n"
-"\r\n"
-" If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
+"Current branch %s is up to date\n"
+"\n"
+"If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
 msgstr "La branche courante %s est à jour\n\nSi vous voulez forcer le rebase, même si la branche courante est un descendant de la livraison sur laquelle vous rebasez, veuillez cocher la case \"Forcer Rebase\" ci-dessous."
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
@@ -4125,7 +4126,7 @@ msgstr "Désactiver le son"
 
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
-"Disable this option if you have really big working trees and experience\r\n"
+"Disable this option if you have really big working trees and experience\n"
 "too much disk access when browsing the working tree."
 msgstr "Désactiver cette option si vous avez une énorme arborescence de travail et que vous constatez trop d'accès disque lorsque vous explorez l'arborescence de travail."
 
@@ -4225,8 +4226,8 @@ msgstr "Voulez-vous vraiment supprimer la barre d'outils '%s' ?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
-"Do you really want to disable automatic update checks for TortoiseGit?\r\n"
-"\r\n"
+"Do you really want to disable automatic update checks for TortoiseGit?\n"
+"\n"
 "Automatic update checks can be re-enabled in TortoiseGit settings on the General page."
 msgstr "Voulez-vous vraiment désactiver les recherches de mises à jour pour TortoiseGit?\n\nLes recherches de mises à jour peuvent être réactivées dans l'onglet général des paramètres de TortoiseGit."
 
@@ -5243,7 +5244,7 @@ msgstr "Forcer la commande \"pousser\" seulement si la référence distante poin
 
 #. Resource IDs: (IDS_REBASE_FORCE_TT)
 msgid ""
-"Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
+"Force the rebase even if the current branch is a descendant of the commit you are rebasing onto.\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
 msgstr "Forcer le rebase même si la branche courante est un descendant de la livraison sur laquelle vous rebasez.\nNormalement, la commande se terminera avec le message \"La branche courante est à jour\" dans une telle situation."
 
@@ -6053,7 +6054,7 @@ msgstr "Si coché, double-cliquer sur une révision dans le journal la compare a
 
 #. Resource IDs: (IDS_SETTINGS_COMMITREOPEN_TT)
 msgid ""
-"If checked, the commit dialog will be started again automatically after an error,\r\n"
+"If checked, the commit dialog will be started again automatically after an error,\n"
 "while preserving your last selection and log message."
 msgstr "Si cochée, la boîte de dialogue de livraison sera relancée automatiquement après une erreur,\ntout en préservant votre dernière sélection et le message de log."
 
@@ -6070,15 +6071,15 @@ msgstr "Si activé, les répertoires de l'arborescence de travail qui n'affichen
 
 #. Resource IDs: (IDS_SETTINGS_UNVERSIONEDRECURSE_TT)
 msgid ""
-"If set, files inside unversioned folders can be shown in the status control.\r\n"
+"If set, files inside unversioned folders can be shown in the status control.\n"
 "The status control is used for example in the commit dialog."
-msgstr "Si mis, les fichiers dans des répertoires non versionnés sont visibles dans le contrôle de statut.\r\nLe contrôle de statut est utilisé par exemple dans la fenêtre de livraison."
+msgstr "Si mis, les fichiers dans des répertoires non versionnés sont visibles dans le contrôle de statut.\nLe contrôle de statut est utilisé par exemple dans la fenêtre de livraison."
 
 #. Resource IDs: (IDS_SETTINGS_UNVERSIONEDASMODIFIED_TT)
 msgid ""
-"If set, then unversioned files will mark the status of the parent directory as modified\r\n"
+"If set, then unversioned files will mark the status of the parent directory as modified\n"
 "i.e. they get the modified overlay icon."
-msgstr "Si sélectionné, alors les fichiers non versionnés marqueront le statut du dossier parent comme modifié\r\nc'est-à-dire qu'il aura l'icône de recouvrement modifiée."
+msgstr "Si sélectionné, alors les fichiers non versionnés marqueront le statut du dossier parent comme modifié\nc'est-à-dire qu'il aura l'icône de recouvrement modifiée."
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
@@ -7284,7 +7285,7 @@ msgstr "Remarques"
 #. Resource IDs: (IDS_REBASE_EQUAL_FMT)
 #, c-format
 msgid ""
-"Nothing need rebase\r\n"
+"Nothing need rebase\n"
 "%s equal %s"
 msgstr "Pas besoin de rebase\n%s identique à %s"
 
@@ -8338,22 +8339,22 @@ msgstr "Expression régulière:"
 
 #. Resource IDs: (IDS_LOG_FILTER_REGEX_TT)
 msgid ""
-"Regular expressions filter:\r\n"
-".   : any character\r\n"
-"c+   : match character c one or more times\r\n"
-"c*   : match character c zero or more times\r\n"
-"^   : start of line\r\n"
-"$   : end of line\r\n"
-"(string){n} : match string n times\r\n"
-"(abcd)   : subexpression\r\n"
-"[aei0-9]   : match a,e,i and 0..9\r\n"
-"[^aei0-9] : anything but a,e,i and 0..9\r\n"
-"\r\n"
-"\\w   : matches a-z,A-Z,0-9 and _\r\n"
-"\\W   : any non-alphanumeric character\r\n"
-"\\d   : digits 0-9\r\n"
+"Regular expressions filter:\n"
+".   : any character\n"
+"c+   : match character c one or more times\n"
+"c*   : match character c zero or more times\n"
+"^   : start of line\n"
+"$   : end of line\n"
+"(string){n} : match string n times\n"
+"(abcd)   : subexpression\n"
+"[aei0-9]   : match a,e,i and 0..9\n"
+"[^aei0-9] : anything but a,e,i and 0..9\n"
+"\n"
+"\\w   : matches a-z,A-Z,0-9 and _\n"
+"\\W   : any non-alphanumeric character\n"
+"\\d   : digits 0-9\n"
 "\\s   : whitespaces"
-msgstr "Filtre d'expressions régulières:\r\n.   : n'importe quel caractère\r\nc+   : correspond au caractère c une ou plusieurs fois\r\nc*   : correspond au caractère c zéro ou plusieurs fois\r\n^   : début de la ligne\r\n$   : fin de la ligne\r\n(chaîne){n} : correspond à la chaîne n fois\r\n(abcd)   : sous-expression\r\n(abcd) : sous-expression\r\n[aei0-9]   : correspond à a,e,i et 0..9\r\n[^aei0-9] : n'importe quoi sauf a,e,i et 0..9\r\n\r\n\\w   : correspond à a-z,A-Z,0-9 et _\r\n\\W   : n'importe quel caractère non alpha-numérique\r\n\\d   : chiffre de 0 à 9\r\n\\s   : espace blanc"
+msgstr "Filtre d'expressions régulières:\n.   : n'importe quel caractère\nc+   : correspond au caractère c une ou plusieurs fois\nc*   : correspond au caractère c zéro ou plusieurs fois\n^   : début de la ligne\n$   : fin de la ligne\n(chaîne){n} : correspond à la chaîne n fois\n(abcd)   : sous-expression\n(abcd) : sous-expression\n[aei0-9]   : correspond à a,e,i et 0..9\n[^aei0-9] : n'importe quoi sauf a,e,i et 0..9\n\n\\w   : correspond à a-z,A-Z,0-9 et _\n\\W   : n'importe quel caractère non alpha-numérique\n\\d   : chiffre de 0 à 9\n\\s   : espace blanc"
 
 #. Resource IDs: (IDS_TITLE_REJECTEDHUNKS)
 #, c-format
@@ -9728,8 +9729,8 @@ msgstr "Affichage de %1!d! ref(s), %2!d! ref(s) sélectionnées"
 #, c-format
 msgid ""
 "Showing %ld revision(s), from revision %s to revision %s - %ld revision(s) "
-"selected, %ld file(s) selected\r\n"
-msgstr "Affichage de %ld révision(s), de la révision %s à la révision %s - %ld révision(s) sélectionnées, %ld fichier(s) sélectionnés\r\n"
+"selected, %ld file(s) selected"
+msgstr "Affichage de %ld révision(s), de la révision %s à la révision %s - %ld révision(s) sélectionnées, %ld fichier(s) sélectionnés"
 
 #. Resource IDs: (IDS_MENUDESCREVISIONGRAPH)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9989,6 +9990,10 @@ msgstr "Cache du statut pour un seul répertoire, pas de recouvrement récursif"
 msgid "Stops bisect mode"
 msgstr "Arrêter le mode bifurcation"
 
+#. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1833)
+msgid "Stored decisions"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUDESCDIFFLATER)
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
@@ -10059,9 +10064,9 @@ msgstr "Options de mise à jour du sous-module"
 #. Resource IDs: (IDS_REPOBROWSE_INFOEXT)
 #, c-format
 msgid ""
-"Submodule \"%1!s!\"\r\n"
+"Submodule \"%1!s!\"\n"
 "Revision %2!s!"
-msgstr "Sous-module \"%1!s!\"\r\nRévision %2!s!"
+msgstr "Sous-module \"%1!s!\"\nRévision %2!s!"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_ADD: Control id 1585)
 msgid "Submodule of Project: "
@@ -10445,7 +10450,7 @@ msgstr "Les noms des branches locales et distantes ne doivent pas être vide.\nP
 
 #. Resource IDs: (IDS_B_T_LOCALEMPTY)
 msgid ""
-"The local branch/tag name is empty. This results in a remote removal.\r\n"
+"The local branch/tag name is empty. This results in a remote removal.\n"
 "Continue?"
 msgstr "Le nom de la branche / étiquette locale est vide. Ceci implique la suppression de la copie distante.\nPoursuivre ?"
 
@@ -10568,16 +10573,16 @@ msgstr "Le dossier cible \n%s\nn'est pas vide!\nêtes-vous sûr de vouloir comme
 
 #. Resource IDs: (IDS_TEXTIDENTICAL_MAIN)
 msgid ""
-"The text is identical, but the files do not match!\r\n"
+"The text is identical, but the files do not match!\n"
 "The following differences were found:"
-msgstr "Le texte est identique, mais les fichiers ne correspondent pas!\r\nLes différences suivantes ont été trouvées:"
+msgstr "Le texte est identique, mais les fichiers ne correspondent pas!\nLes différences suivantes ont été trouvées:"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCOMPLETIONTIMEOUT_TT)
 msgid ""
-"The time in seconds after which the parsing of the selected files stops.\r\n"
-"A lower value will make the auto-completion list available sooner,\r\n"
+"The time in seconds after which the parsing of the selected files stops.\n"
+"A lower value will make the auto-completion list available sooner,\n"
 "but maybe not scan all files."
-msgstr "Le temps en secondes après lequel le filtrage des fichiers sélectionnés s'arrête.\r\nUne valeur plus basse rendra la liste d'autocomplétion disponible plus rapidement,\r\nmais ne parcourrera peut-être pas tous les fichiers."
+msgstr "Le temps en secondes après lequel le filtrage des fichiers sélectionnés s'arrête.\nUne valeur plus basse rendra la liste d'autocomplétion disponible plus rapidement,\nmais ne parcourrera peut-être pas tous les fichiers."
 
 #. Resource IDs: (IDS_ERR_NOCOMMONCOPYFROM)
 msgid ""
@@ -10798,9 +10803,9 @@ msgstr "TortoiseGit %d.%d.%d, Build %d - %s, %s"
 #. Resource IDs: (IDS_ABOUTVERSION)
 #, c-format
 msgid ""
-"TortoiseGit %d.%d.%d.%d %s \r\n"
-"%s \r\n"
-msgstr "TortoiseGit %d.%d.%d.%d %s \n%s \n"
+"TortoiseGit %d.%d.%d.%d %s\n"
+"%s\n"
+msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -11412,8 +11417,8 @@ msgstr "Annulé par l'utilisateur"
 
 #. Resource IDs: (IDS_PROC_NOUSERDATA)
 msgid ""
-"User name and email must be set before commit.\r\n"
-" Do you want to set these now?"
+"User name and email must be set before commit.\n"
+"Do you want to set these now?"
 msgstr "Le nom et l'email de l'utilisateur doivent être indiqué avant la livraison.\nVoulez-vous les renseigner ?"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1650)
@@ -11541,10 +11546,10 @@ msgstr "Visual Studio 2008"
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
-"WARNING:\r\n"
-"Only change these settings if you are absolutely sure what you are doing!\r\n"
+"WARNING:\n"
+"Only change these settings if you are absolutely sure what you are doing!\n"
 "To set the values to their default, delete the value text."
-msgstr "ATTENTION :\r\nNe changez ces paramètres qui si vous êtes absolument sûrs de ce que vous faites !Pour remettre les valeurs par défaut, supprimez le texte."
+msgstr "ATTENTION:\nNe changez ces paramètres qui si vous êtes absolument sûrs de ce que vous faites !Pour remettre les valeurs par défaut, supprimez le texte."
 
 #. Resource IDs: (IDS_SETTINGS_HOOKS_WAITCOL)
 msgid "Wait"
@@ -11573,8 +11578,8 @@ msgstr "Avertissement !"
 #. Resource IDs: (IDS_PROC_DELETEREF)
 #, c-format
 msgid ""
-"Warning: \"%s\" will be permanently deleted. It can <ct=0x0000FF><b>NOT</b></ct> be recovered!\r\n"
-"\r\n"
+"Warning: \"%s\" will be permanently deleted. It can <ct=0x0000FF><b>NOT</b></ct> be recovered!\n"
+"\n"
 "Do you really want to continue?"
 msgstr "Avertissement : \"%s\" sera supprimé de manière permanente. Il <ct=0x0000FF><b>ne pourra pas</b></ct> être restauré !\n\nVoulez-vous vraiment continuer ?"
 
@@ -11843,7 +11848,7 @@ msgstr "Vous devez sélecttionner un nom de fichier pour le fichier Zip !"
 
 #. Resource IDs: (IDS_PROCEXPORTERRFOLDER)
 msgid ""
-"You selected a folder.\r\n"
+"You selected a folder.\n"
 "Exports are only possible to a (zip) file."
 msgstr "Vous avez sélectionner un répertoire.\nL'Export est possible seulement vers un fichier (zip)."
 
@@ -12070,9 +12075,9 @@ msgstr "en conflit"
 #. Resource IDs: (IDS_STATUSLIST_COPYFROM)
 #, c-format
 msgid ""
-"copied from\r\n"
+"copied from\n"
 "%s - revision %ld"
-msgstr "copié depuis\r\n%s - à la révision %ld"
+msgstr "copié depuis\n%s - à la révision %ld"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXDAY)
 msgid "day"
@@ -12283,9 +12288,9 @@ msgstr "Eviter l'arborescence de travail"
 #. Resource IDs: (IDS_STATUSLIST_SWITCHEDTO)
 #, c-format
 msgid ""
-"switched to\r\n"
+"switched to\n"
 "%s"
-msgstr "allé sur\r\n%s"
+msgstr "allé sur\n%s"
 
 #. Resource IDs: (IDS_CARE_SUBMODULE_CHANGES)
 msgid "take care of submodule changes"

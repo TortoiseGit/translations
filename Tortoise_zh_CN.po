@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-10-15 00:46+0000\n"
-"Last-Translator: YF <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2015-12-12 19:34+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,14 +166,14 @@ msgstr "%1!s!"
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
 msgid ""
-"%1!s!\r\n"
+"%1!s!\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
 msgstr "%1!s!\n总计显示 %2!d! 个文件, %3!d! 个子模块和 %4!d! 个文件夹, %5!d! 个项目"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOFILE)
 #, c-format
 msgid ""
-"%1!s!\r\n"
+"%1!s!\n"
 "Size %2!s!"
 msgstr "%1!s!\n大小 %2!s!"
 
@@ -1679,21 +1679,21 @@ msgstr "有新版本可用。请下载最新版本！"
 
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
-"A newline separated list of paths for which icon overlays are shown.\r\n"
+"A newline separated list of paths for which icon overlays are shown.\n"
 "If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
 msgstr "以换行分隔的列表，包含要显示图标覆盖的目录。\n如果您在路径后面加上字符“*”，此路径下的所有文件及子目录也都会显示。"
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
-"A newline separated list of paths for which no context menu is shown.\r\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
+"A newline separated list of paths for which no context menu is shown.\n"
+"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow the context menu on all paths."
 msgstr "以换行分隔的列表，列出的目录不显示上下文菜单。\n如果您在路径后面加上字符“*”， 此路径下的所有文件及子目录也都不会显示。\n列表为空时表示所有路径都显示上下文菜单。"
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
-"A newline separated list of paths for which no icon overlays are shown.\r\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\r\n"
+"A newline separated list of paths for which no icon overlays are shown.\n"
+"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
 msgstr "以换行分隔的列表，列出的目录不显示图标覆盖。\n如果您在路径后面加上字符“*”， 此路径下的所有文件及子目录也都不会显示。\n列表为空时表示所有路径都显示图标覆盖。"
 
@@ -1713,7 +1713,7 @@ msgstr "此名称的标签已存在。"
 
 #. Resource IDs: (IDS_SETTINGS_DIFFVIEWER_TT)
 msgid ""
-"A viewer program for GNU diff files (patch files).\r\n"
+"A viewer program for GNU diff files (patch files).\n"
 "If you don't have one use NotePad."
 msgstr "用来查看 GNU 差异文件（即补丁文件）的查看器程序。\n如果您没有，也可以使用记事本程序。"
 
@@ -2022,26 +2022,26 @@ msgstr "一个替代编辑器，它最好能够支持 *nix 行尾符号。"
 #. Resource IDs: (IDS_SETTINGS_EXTDIFF_TT)
 #, c-format
 msgid ""
-"An external diff program used\r\n"
-"for comparing different revisions of files\r\n"
-"\r\n"
-"You can specify the following parameters to the path:\r\n"
-"%base: the base file\r\n"
+"An external diff program used\n"
+"for comparing different revisions of files\n"
+"\n"
+"You can specify the following parameters to the path:\n"
+"%base: the base file\n"
 "%mine: the modified file"
-msgstr "用来比较不同版本间文件差异的外部程序。\n\n您可以指定以下的参数至路径中: \n%base : 基础文件名称\n%mine : 修改过的文件。"
+msgstr "用来比较不同版本间文件差异的外部程序。\n\n您可以指定以下的参数至路径中:\n%base : 基础文件名称\n%mine : 修改过的文件。"
 
 #. Resource IDs: (IDS_SETTINGS_EXTMERGE_TT)
 #, c-format
 msgid ""
-"An external merge program used\r\n"
-"to resolve conflicted files.\r\n"
-"\r\n"
-"You can specify the following parameters to the path:\r\n"
-"%merged: the conflicted file, where to save\r\n"
-"%theirs: the file as it is in the repository\r\n"
-"%mine: your own file, with your changes\r\n"
+"An external merge program used\n"
+"to resolve conflicted files.\n"
+"\n"
+"You can specify the following parameters to the path:\n"
+"%merged: the conflicted file, where to save\n"
+"%theirs: the file as it is in the repository\n"
+"%mine: your own file, with your changes\n"
 "%base: the original file without your changes"
-msgstr "用来解决冲突文件的外部合并程序。\n\n您可以在程序路径中指定以下参数: \n%merged : 发生冲突的文件存放位置\n%theirs : 版本库中存放的文件\n%mine : 您现有的修改过的文件\n%base : 不包含您所做修改的原始文件"
+msgstr "用来解决冲突文件的外部合并程序。\n\n您可以在程序路径中指定以下参数:\n%merged : 发生冲突的文件存放位置\n%theirs : 版本库中存放的文件\n%mine : 您现有的修改过的文件\n%base : 不包含您所做修改的原始文件"
 
 #. Resource IDs: (61862)
 #, c-format
@@ -2282,7 +2282,7 @@ msgstr "如无合并、添加或删除操作，自动关闭"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCOMPLETION_TT)
 msgid ""
-"Auto-complete suggests words (usually class or member names)\r\n"
+"Auto-complete suggests words (usually class or member names)\n"
 "from the files that you have changed as you type a log message."
 msgstr "自动完成建议的字符（通常是类名或成员名）\n它来自于您已经更改的文件，作为您输入的日志信息。"
 
@@ -2454,7 +2454,7 @@ msgstr "分支"
 #. Resource IDs: (IDS_REBASE_FASTFORWARD_FMT)
 #, c-format
 msgid ""
-"Branch %s behind %s\r\n"
+"Branch %s behind %s\n"
 "%s will fastforward to %s"
 msgstr "分支 %s 落后于 %s\n%s 将快进到 %s"
 
@@ -2587,7 +2587,7 @@ msgid ""
 "%s\n"
 "to\n"
 "%s"
-msgstr "无法复制 \n%s\n到\n%s"
+msgstr "无法复制\n%s\n到\n%s"
 
 #. Resource IDs: (16010)
 msgid "Can't copy bitmap image into the clipboard!"
@@ -2676,7 +2676,7 @@ msgstr "取消\n保持当前设置"
 
 #. Resource IDs: (IDS_PROC_CANNOTCOMBINE)
 msgid ""
-"Cannot combine commits now.\r\n"
+"Cannot combine commits now.\n"
 "Make sure you are viewing the log of your current branch and no filters are applied."
 msgstr "现在不能结合提交。\n请确定您在查看您的当前分支的提交，并且没有应用过滤器。"
 
@@ -2926,20 +2926,21 @@ msgstr "正在清除。"
 msgid ""
 "Cleanup failed to process the following paths:\n"
 "%s"
-msgstr "清理以下路径失败: \n%s"
+msgstr "清理以下路径失败:\n%s"
 
 #. Resource IDs: (IDS_PROC_CLEANUPFINISHED)
 #, c-format
 msgid ""
 "Cleanup has successfully processed the following paths:\n"
 "%s"
-msgstr "清理以下路径成功: \n%s"
+msgstr "清理以下路径成功:\n%s"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1273, Dialog
 #. IDD_SETTINGSSAVEDDATA: Control id 1275, Dialog IDD_SETTINGSSAVEDDATA:
 #. Control id 1276, Dialog IDD_SETTINGSSAVEDDATA: Control id 1279, Dialog
 #. IDD_SETTINGSSAVEDDATA: Control id 1281, Dialog IDD_SETTINGSSAVEDDATA:
-#. Control id 1427, Dialog IDD_SETTINGSSAVEDDATA: Control id 1726)
+#. Control id 1427, Dialog IDD_SETTINGSSAVEDDATA: Control id 1726, Dialog
+#. IDD_SETTINGSSAVEDDATA: Control id 1727)
 msgid "Clear"
 msgstr "清除"
 
@@ -2972,7 +2973,7 @@ msgstr "已经清空 %ld 个版本库中缓存的日志"
 
 #. Resource IDs: (IDS_SETTINGS_CLEARAUTH_TT)
 msgid ""
-"Clears the stored authentication.\r\n"
+"Clears the stored authentication.\n"
 "You will have to enter your username/password again for all repositories."
 msgstr "清除已保存的身份认证。\n您将需要为所有版本库重新输入用户名和密码。"
 
@@ -3736,9 +3737,9 @@ msgstr "当前分支:"
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
 msgid ""
-"Current branch %s is up to date\r\n"
-"\r\n"
-" If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
+"Current branch %s is up to date\n"
+"\n"
+"If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
 msgstr "当前分支 %s 已经最新\n\n如果您想强制变基（即使当前分支已是您变基目标的后代），请选择下面“强制变基”选项。"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
@@ -4122,7 +4123,7 @@ msgstr "禁用音效"
 
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
-"Disable this option if you have really big working trees and experience\r\n"
+"Disable this option if you have really big working trees and experience\n"
 "too much disk access when browsing the working tree."
 msgstr "如果您的工作副本非常大并且感觉到卡顿，请禁用此选项。\n浏览本地副本时它会带来较多的磁盘访问。"
 
@@ -4222,8 +4223,8 @@ msgstr "您确定要删除工具栏“%s”吗？"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
-"Do you really want to disable automatic update checks for TortoiseGit?\r\n"
-"\r\n"
+"Do you really want to disable automatic update checks for TortoiseGit?\n"
+"\n"
 "Automatic update checks can be re-enabled in TortoiseGit settings on the General page."
 msgstr "您确定要停用 TortoiseGit 的自动检查更新吗？\n\n您可以在 TortoiseGit 设置的“常规”页面中重新启用自动检查更新。"
 
@@ -5240,9 +5241,9 @@ msgstr "强制推送到选定的远端引用并覆盖它，不进行任何安全
 
 #. Resource IDs: (IDS_REBASE_FORCE_TT)
 msgid ""
-"Force the rebase even if the current branch is a descendant of the commit you are rebasing onto. \r\n"
+"Force the rebase even if the current branch is a descendant of the commit you are rebasing onto.\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
-msgstr "即便当前分支是您想变基到的后裔节点也要强制变基。\n正常情况下该命令显示“当前分支已经最新”消息并退出。"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1796)
 msgid "Force: May discard"
@@ -6050,7 +6051,7 @@ msgstr "如果选中该项，可以在日志列表中的一个版本上双击，
 
 #. Resource IDs: (IDS_SETTINGS_COMMITREOPEN_TT)
 msgid ""
-"If checked, the commit dialog will be started again automatically after an error,\r\n"
+"If checked, the commit dialog will be started again automatically after an error,\n"
 "while preserving your last selection and log message."
 msgstr "如果选中该项，则如果在提交过程中发生错误，“提交”对话框将自动重新\n打开，并保留原有的选择内容和记录日志信息。"
 
@@ -6067,13 +6068,13 @@ msgstr "如果选中该项，已从覆盖显示排除的工作副本文件夹仍
 
 #. Resource IDs: (IDS_SETTINGS_UNVERSIONEDRECURSE_TT)
 msgid ""
-"If set, files inside unversioned folders can be shown in the status control.\r\n"
+"If set, files inside unversioned folders can be shown in the status control.\n"
 "The status control is used for example in the commit dialog."
 msgstr "如果选中该项，未受版本控制的文件夹中的文件将出现在状态控件中。\n状态控件用于像是“提交”对话框之类的地方。"
 
 #. Resource IDs: (IDS_SETTINGS_UNVERSIONEDASMODIFIED_TT)
 msgid ""
-"If set, then unversioned files will mark the status of the parent directory as modified\r\n"
+"If set, then unversioned files will mark the status of the parent directory as modified\n"
 "i.e. they get the modified overlay icon."
 msgstr "如果选中该项，包含未受版本控制的文件的文件夹将标记为已修改。\n例如，它们的图标将显示为已修改状态。"
 
@@ -7281,7 +7282,7 @@ msgstr "注释"
 #. Resource IDs: (IDS_REBASE_EQUAL_FMT)
 #, c-format
 msgid ""
-"Nothing need rebase\r\n"
+"Nothing need rebase\n"
 "%s equal %s"
 msgstr "不需要变基\n%s 等于 %s"
 
@@ -8335,22 +8336,22 @@ msgstr "正则："
 
 #. Resource IDs: (IDS_LOG_FILTER_REGEX_TT)
 msgid ""
-"Regular expressions filter:\r\n"
-".   : any character\r\n"
-"c+   : match character c one or more times\r\n"
-"c*   : match character c zero or more times\r\n"
-"^   : start of line\r\n"
-"$   : end of line\r\n"
-"(string){n} : match string n times\r\n"
-"(abcd)   : subexpression\r\n"
-"[aei0-9]   : match a,e,i and 0..9\r\n"
-"[^aei0-9] : anything but a,e,i and 0..9\r\n"
-"\r\n"
-"\\w   : matches a-z,A-Z,0-9 and _\r\n"
-"\\W   : any non-alphanumeric character\r\n"
-"\\d   : digits 0-9\r\n"
+"Regular expressions filter:\n"
+".   : any character\n"
+"c+   : match character c one or more times\n"
+"c*   : match character c zero or more times\n"
+"^   : start of line\n"
+"$   : end of line\n"
+"(string){n} : match string n times\n"
+"(abcd)   : subexpression\n"
+"[aei0-9]   : match a,e,i and 0..9\n"
+"[^aei0-9] : anything but a,e,i and 0..9\n"
+"\n"
+"\\w   : matches a-z,A-Z,0-9 and _\n"
+"\\W   : any non-alphanumeric character\n"
+"\\d   : digits 0-9\n"
 "\\s   : whitespaces"
-msgstr "正则表达式过滤器:\r\n.   : 任意字符\r\nc+  : 匹配字符 c 一次或多次\r\nc*  : 匹配字符 c 零次或多次\r\n^   : 行首\r\n$   : 行尾\r\n(string){n} : 匹配字符串 n 次\r\n(abcd)    : 子表达式\r\n[aei0-9]  : 匹配 a，e，i 和 0..9\r\n[^aei0-9] : 除了 a，e，i 和 0..9\r\n\r\n\\w   : 匹配 a-z,A-Z,0-9 和 _\r\n\\W   : 任意非字母与数字字符\r\n\\d   : 数字 0-9\r\n\\s   : 空白"
+msgstr "正则表达式过滤器:\n.   : 任意字符\nc+  : 匹配字符 c 一次或多次\nc*  : 匹配字符 c 零次或多次\n^   : 行首\n$   : 行尾\n(string){n} : 匹配字符串 n 次\n(abcd)    : 子表达式\n[aei0-9]  : 匹配 a，e，i 和 0..9\n[^aei0-9] : 除了 a，e，i 和 0..9\n\n\\w   : 匹配 a-z,A-Z,0-9 和 _\n\\W   : 任意非字母与数字字符\n\\d   : 数字 0-9\n\\s   : 空白"
 
 #. Resource IDs: (IDS_TITLE_REJECTEDHUNKS)
 #, c-format
@@ -8492,7 +8493,7 @@ msgid ""
 "Removed the file pattern(s)\n"
 "%s\n"
 "from the ignore list."
-msgstr "已将选定的文件类型\n%s \n从忽略列表删除。"
+msgstr "已将选定的文件类型\n%s\n从忽略列表删除。"
 
 #. Resource IDs: (IDS_MENUDESCUNIGNORE)
 msgid "Removes the file or filemask from the list of ignored items"
@@ -8644,7 +8645,7 @@ msgstr "解决"
 msgid ""
 "Resolved:\n"
 "%s"
-msgstr "解决: \n%s"
+msgstr "解决:\n%s"
 
 #. Resource IDs: (IDS_MENUDESCRESOLVE)
 msgid "Resolves conflicted files"
@@ -9725,8 +9726,8 @@ msgstr "正在显示 %1!d! 个引用，已选择 %2!d! 个引用"
 #, c-format
 msgid ""
 "Showing %ld revision(s), from revision %s to revision %s - %ld revision(s) "
-"selected, %ld file(s) selected\r\n"
-msgstr "正在显示 %ld 个修订版本，从 %s 到 %s - 已选择 %ld 个版本， 已选择 %ld 个文件\n"
+"selected, %ld file(s) selected"
+msgstr "正在显示 %ld 个修订版本，从 %s 到 %s - 已选择 %ld 个版本， 已选择 %ld 个文件"
 
 #. Resource IDs: (IDS_MENUDESCREVISIONGRAPH)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9986,6 +9987,10 @@ msgstr "状态缓存仅用于一个文件夹，并不递归覆盖"
 msgid "Stops bisect mode"
 msgstr "停止二分模式"
 
+#. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1833)
+msgid "Stored decisions"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUDESCDIFFLATER)
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
@@ -10056,7 +10061,7 @@ msgstr "子模块更新选项"
 #. Resource IDs: (IDS_REPOBROWSE_INFOEXT)
 #, c-format
 msgid ""
-"Submodule \"%1!s!\"\r\n"
+"Submodule \"%1!s!\"\n"
 "Revision %2!s!"
 msgstr "子模块 \"%1!s!\"\n修订版本 %2!s!"
 
@@ -10396,14 +10401,14 @@ msgid ""
 "%s\n"
 "does not exist.\n"
 "Would you like to create it first?"
-msgstr "文件夹 \n%s\n不存在。\n是否要先创建？"
+msgstr "文件夹\n%s\n不存在。\n是否要先创建？"
 
 #. Resource IDs: (IDS_ERR_HOOKFAILED)
 #, c-format
 msgid ""
 "The hook script returned an error:\n"
 "%s"
-msgstr "Hook 脚本返回了一个错误: \n%s"
+msgstr "Hook 脚本返回了一个错误:\n%s"
 
 #. Resource IDs: (IDS_INVALIDIMAGEINFO)
 msgid "The image can not be shown."
@@ -10442,7 +10447,7 @@ msgstr "本地和远端分支名称为空。继续吗？"
 
 #. Resource IDs: (IDS_B_T_LOCALEMPTY)
 msgid ""
-"The local branch/tag name is empty. This results in a remote removal.\r\n"
+"The local branch/tag name is empty. This results in a remote removal.\n"
 "Continue?"
 msgstr "本地分支/标签名称为空。这将导致一个远端分支/标签被删除。\n继续吗？"
 
@@ -10488,7 +10493,7 @@ msgid ""
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n"
 "\n"
 "Do you want to proceed anyway?"
-msgstr "输入的 PATH/URL 似乎在 Windows 上非法！\n您可以继续尝试，但可能会出现错误。\n\n正确的 Windows 路径不能包含 “<<>|\"?*:” 或以下设备名: \ncom1-com9，lpt1-lpt9，prn，aux，con，nul，clock$\n\n您想继续尝试吗？"
+msgstr "输入的 PATH/URL 似乎在 Windows 上非法！\n您可以继续尝试，但可能会出现错误。\n\n正确的 Windows 路径不能包含 “<<>|\"?*:” 或以下设备名:\ncom1-com9，lpt1-lpt9，prn，aux，con，nul，clock$\n\n您想继续尝试吗？"
 
 #. Resource IDs: (IDS_WARNBETTERPATCHPATHFOUND)
 #, c-format
@@ -10565,14 +10570,14 @@ msgstr "目标文件夹\n%s\n不是空的！\n您确定要在此文件夹里面�
 
 #. Resource IDs: (IDS_TEXTIDENTICAL_MAIN)
 msgid ""
-"The text is identical, but the files do not match!\r\n"
+"The text is identical, but the files do not match!\n"
 "The following differences were found:"
 msgstr "文本是相同的，但文件不匹配。\n发现下列差异："
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCOMPLETIONTIMEOUT_TT)
 msgid ""
-"The time in seconds after which the parsing of the selected files stops.\r\n"
-"A lower value will make the auto-completion list available sooner,\r\n"
+"The time in seconds after which the parsing of the selected files stops.\n"
+"A lower value will make the auto-completion list available sooner,\n"
 "but maybe not scan all files."
 msgstr "对选定文件进行分析的最长时间，单位为秒。\n如果设置过小，自动完成列表会很快显示出来，\n但是可能并没有扫描所有的文件。"
 
@@ -10666,7 +10671,7 @@ msgid ""
 "This is not a valid path!\n"
 "A valid path must not contain '<<>|\"?*:' or one of the following device names:\n"
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
-msgstr "这是一个无效路径！\n正确的路径不能包含“<<>|\"?*:”或以下设备名: \ncom1-com9，lpt1-lpt9，prn，aux，con，nul，clock$"
+msgstr "这是一个无效路径！\n正确的路径不能包含“<<>|\"?*:”或以下设备名:\ncom1-com9，lpt1-lpt9，prn，aux，con，nul，clock$"
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -10795,9 +10800,9 @@ msgstr "TortoiseGit %d.%d.%d，版本 %d - %s, %s"
 #. Resource IDs: (IDS_ABOUTVERSION)
 #, c-format
 msgid ""
-"TortoiseGit %d.%d.%d.%d %s \r\n"
-"%s \r\n"
-msgstr "TortoiseGit %d.%d.%d.%d %s \n%s \n"
+"TortoiseGit %d.%d.%d.%d %s\n"
+"%s\n"
+msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -10872,7 +10877,7 @@ msgid ""
 "/overlay\t\tto enable overlay mode\n"
 "/fit\t\tto fit the images sizes\n"
 "/showinfo\t\tto show the image info boxes"
-msgstr "TortoiseIDiff: TortoiseSVN 的图片差异查看器\n\n可用的命令行参数: \n/left: “左侧文件的路径”\n/lefttitle: “左侧窗口的标题”\n/right: “右侧文件的路径”\n/righttitle: “右侧窗口的标题”\n/overlay\t\t启用覆盖模式\n/fit\t\t适合图像尺寸\n/showinfo\t\t显示图像信息框"
+msgstr "TortoiseIDiff: TortoiseSVN 的图片差异查看器\n\n可用的命令行参数:\n/left: “左侧文件的路径”\n/lefttitle: “左侧窗口的标题”\n/right: “右侧文件的路径”\n/righttitle: “右侧窗口的标题”\n/overlay\t\t启用覆盖模式\n/fit\t\t适合图像尺寸\n/showinfo\t\t显示图像信息框"
 
 #. Resource IDs: (100, 156 - Ribbon element, 32897, 57344, Dialog IDD_OPENDLG:
 #. Control id 130, IDS_APPNAME)
@@ -10891,7 +10896,7 @@ msgid ""
 "libsvn_diff %d.%d.%d, %s\r\n"
 "apr %d.%d.%d\r\n"
 "apr-util %d.%d.%d"
-msgstr "TortoiseGitMerge %d.%d.%d.%d - %s, %s\nlibsvn_diff %d.%d.%d, %s\napr %d.%d.%d\napr-util %d.%d.%d"
+msgstr "TortoiseGitMerge %d.%d.%d.%d - %s, %s\r\nlibsvn_diff %d.%d.%d, %s\r\napr %d.%d.%d\r\napr-util %d.%d.%d"
 
 #. Resource IDs: (IDS_ERR_PATCH_FILENAMENOTUNIQUE)
 #, c-format
@@ -11409,8 +11414,8 @@ msgstr "用户操作已取消"
 
 #. Resource IDs: (IDS_PROC_NOUSERDATA)
 msgid ""
-"User name and email must be set before commit.\r\n"
-" Do you want to set these now?"
+"User name and email must be set before commit.\n"
+"Do you want to set these now?"
 msgstr "在提交前必须设置用户名和电子邮箱。\n是否现在设置？"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1650)
@@ -11538,8 +11543,8 @@ msgstr "Visual Studio 2008"
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
-"WARNING:\r\n"
-"Only change these settings if you are absolutely sure what you are doing!\r\n"
+"WARNING:\n"
+"Only change these settings if you are absolutely sure what you are doing!\n"
 "To set the values to their default, delete the value text."
 msgstr "警告：\n仅在您明确知道这些设置的意义时修改它们！\n要恢复值到默认设置，删除值内容即可。"
 
@@ -11570,8 +11575,8 @@ msgstr "警告！"
 #. Resource IDs: (IDS_PROC_DELETEREF)
 #, c-format
 msgid ""
-"Warning: \"%s\" will be permanently deleted. It can <ct=0x0000FF><b>NOT</b></ct> be recovered!\r\n"
-"\r\n"
+"Warning: \"%s\" will be permanently deleted. It can <ct=0x0000FF><b>NOT</b></ct> be recovered!\n"
+"\n"
 "Do you really want to continue?"
 msgstr "警告：“%s”将被永久删除。这个操作<ct=0x0000FF><b>不能</b></ct>被恢复！\n\n您确定要继续吗？"
 
@@ -11840,7 +11845,7 @@ msgstr "您必须为 zip 文件选择一个文件名！"
 
 #. Resource IDs: (IDS_PROCEXPORTERRFOLDER)
 msgid ""
-"You selected a folder.\r\n"
+"You selected a folder.\n"
 "Exports are only possible to a (zip) file."
 msgstr "您选择了一个文件夹。\n导出只能是一个(zip)文件。"
 
@@ -12067,9 +12072,9 @@ msgstr "冲突"
 #. Resource IDs: (IDS_STATUSLIST_COPYFROM)
 #, c-format
 msgid ""
-"copied from\r\n"
+"copied from\n"
 "%s - revision %ld"
-msgstr "复制自 \r\n%s - 版本 %ld"
+msgstr "复制自\n%s - 版本 %ld"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXDAY)
 msgid "day"
@@ -12280,9 +12285,9 @@ msgstr "跳过工作树"
 #. Resource IDs: (IDS_STATUSLIST_SWITCHEDTO)
 #, c-format
 msgid ""
-"switched to\r\n"
+"switched to\n"
 "%s"
-msgstr "切换到\r\n%s"
+msgstr "切换到\n%s"
 
 #. Resource IDs: (IDS_CARE_SUBMODULE_CHANGES)
 msgid "take care of submodule changes"
