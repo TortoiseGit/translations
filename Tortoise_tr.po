@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-13 18:14+0000\n"
+"PO-Revision-Date: 2015-12-14 22:41+0000\n"
 "Last-Translator: Ozancan Karataş <ozancankaratas96@outlook.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/lznuaa/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -318,14 +318,14 @@ msgstr "%s\n%s"
 msgid ""
 "%s\n"
 "Could not be cleanly patched."
-msgstr ""
+msgstr "%s\nTemiz şekilde yamalanamadı."
 
 #. Resource IDs: (IDS_PROC_REMOVEFORCE)
 #, c-format
 msgid ""
 "%s\n"
 "Do you want to remove it anyway?"
-msgstr ""
+msgstr "%s\nYine de kaldırmak istiyor musunuz?"
 
 #. Resource IDs: (IDS_ERR_FILE_NOTAFILE)
 #, c-format
@@ -333,7 +333,7 @@ msgid ""
 "%s\n"
 "is a directory, not a file!\n"
 "TortoiseGitMerge can't diff directories."
-msgstr ""
+msgstr "%s\nbir dizin, bir dosya değil!\nTortoiseGitMerge diff dizinleri olamaz."
 
 #. Resource IDs: (16923)
 msgid "&..."
@@ -345,61 +345,61 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
-msgstr ""
+msgstr "&Vazgeç"
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
-msgstr ""
+msgstr "TortoiseGitBlame &Hakkında..."
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitMerge..."
-msgstr ""
+msgstr "TortoiseGitMerge &Hakkında..."
 
 #. Resource IDs: (16920)
 msgid "&Activate"
-msgstr ""
+msgstr "&Etkinleştir"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1382)
 msgid "&Add"
-msgstr ""
+msgstr "&Ekle"
 
 #. Resource IDs: (17075)
 msgid "&Add >>"
-msgstr ""
+msgstr "&Ekle >>"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1505)
 msgid "&Add Filter"
-msgstr ""
+msgstr "&Süzgeç Ekle"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1382, Dialog
 #. IDD_SETTINREMOTE: Control id 1382)
 msgid "&Add New/Save"
-msgstr ""
+msgstr "&Yeni Ekle/Kaydet"
 
 #. Resource IDs: (IDS_PROC_COMMIT_ADDSIGNOFFBUTTON)
 msgid "&Add it"
-msgstr ""
+msgstr "&Bunu ekle"
 
 #. Resource IDs: (17018)
 msgid "&Add or Remove Buttons"
-msgstr ""
+msgstr "&Düğmeleri Ekle veya Kaldır"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1098, IDS_MENUADD)
 msgid "&Add..."
-msgstr ""
+msgstr "&Ekle..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1090, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1093)
 msgid "&Advanced..."
-msgstr ""
+msgstr "&Gelişmiş..."
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1701)
 msgid "&All"
-msgstr ""
+msgstr "&Tümü"
 
 #. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 3936)
 msgid "&All Branches"
-msgstr ""
+msgstr "&Tüm Dallar"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Application Look"
@@ -407,39 +407,39 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1613)
 msgid "&Apply Patch"
-msgstr ""
+msgstr "&Yamayı Uygula"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1013)
 msgid "&Apply unified diff"
-msgstr ""
+msgstr "&Birleştirilmiş diffi uygula"
 
 #. Resource IDs: (65535)
 msgid "&Arguments:"
-msgstr ""
+msgstr "&Değişkenler:"
 
 #. Resource IDs: (16645)
 msgid "&Assign"
-msgstr ""
+msgstr "&Ata"
 
 #. Resource IDs: (16633)
 msgid "&Associate double-click event with:"
-msgstr ""
+msgstr "&Çift tıklatma etkinliğiyle ilişkilendir:"
 
 #. Resource IDs: (17041)
 msgid "&Auto Hide"
-msgstr ""
+msgstr "&Otomatik Gizle"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 65535)
 msgid "&Autoclose Git.exe dialog:"
-msgstr ""
+msgstr "&Git.exe iletişim kutusunu otomatik kapat:"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1505)
 msgid "&Autoload Putty Key"
-msgstr ""
+msgstr "&Putty Anahtarını Otomatik Yükle"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1015)
 msgid "&Backup original file"
-msgstr ""
+msgstr "&Özgün dosyayı yedekle"
 
 #. Resource IDs: (IDS_MENUBLAME)
 msgid "&Blame"
@@ -455,65 +455,65 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "&Blue:"
-msgstr ""
+msgstr "&Mavi:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Border:"
-msgstr ""
+msgstr "&Kenar:"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1512, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1512)
 msgid "&Branch"
-msgstr ""
+msgstr "&Dal"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 4566)
 msgid "&Branch:"
-msgstr ""
+msgstr "&Dal:"
 
 #. Resource IDs: (IDS_LOG_BROWSEREPO)
 msgid "&Browse repository"
-msgstr ""
+msgstr "&Depoya gözat"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1382, Dialog IDD_OPENDLG:
 #. Control id 1001, Dialog IDD_OPENDLG: Control id 1009, IDS_PROC_CLONE_DIR)
 msgid "&Browse..."
-msgstr ""
+msgstr "&Gözat..."
 
 #. Resource IDs: (16913 - Menu)
 msgid "&Button Appearance..."
-msgstr ""
+msgstr "&Düğme Görünümü..."
 
 #. Resource IDs: (65535)
 msgid "&Button text:"
-msgstr ""
+msgstr "&Düğme metni:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1051)
 msgid "&CD-ROM"
-msgstr ""
+msgstr "&CD-ROM"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 2)
 msgid "&Cancel"
-msgstr ""
+msgstr "&Vazgeç"
 
 #. Resource IDs: (65535)
 msgid "&Categories:"
-msgstr ""
+msgstr "&Kategoriler:"
 
 #. Resource IDs: (65535)
 msgid "&Category:"
-msgstr ""
+msgstr "&Kategori:"
 
 #. Resource IDs: (65535)
 msgid "&Choose commands from:"
-msgstr ""
+msgstr "&Komutları şuradan seç:"
 
 #. Resource IDs: (IDS_MENUCLEANUP)
 msgid "&Clean up..."
-msgstr ""
+msgstr "&Temizle..."
 
 #. Resource IDs: (ID_EDIT_CLEAR - Menu)
 msgid "&Clear"
-msgstr ""
+msgstr "&Temizle"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1686)
 msgid "&Clear stash"
@@ -522,24 +522,24 @@ msgstr ""
 #. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1, Dialog
 #. IDD_GITPROGRESS: Control id 1)
 msgid "&Close"
-msgstr ""
+msgstr "&Kapat"
 
 #. Resource IDs: (16922)
 msgid "&Close Window(s)"
-msgstr ""
+msgstr "&Pencereleri Kapat"
 
 #. Resource IDs: (65535)
 msgid "&Command:"
-msgstr ""
+msgstr "&Komut:"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1514, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1514, Dialog IDD_SYNC: Control id 1625)
 msgid "&Commit"
-msgstr ""
+msgstr "&Sun"
 
 #. Resource IDs: (IDS_MENUCOMMITSUBMODULE)
 msgid "&Commit submodule..."
-msgstr ""
+msgstr "&Alt modülü sun..."
 
 #. Resource IDs: (IDS_PROC_COMMIT_NOADDSIGNOFFBUTTON)
 msgid "&Commit w/o"
@@ -547,11 +547,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUCOMMIT)
 msgid "&Commit..."
-msgstr ""
+msgstr "&Sun..."
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS)
 msgid "&Compare revisions"
-msgstr ""
+msgstr "&Karşılaştırmalı gözden geçirmeler"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
