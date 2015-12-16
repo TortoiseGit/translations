@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-15 22:20+0000\n"
+"PO-Revision-Date: 2015-12-16 03:13+0000\n"
 "Last-Translator: Ozancan Karataş <ozancankaratas96@outlook.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/lznuaa/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -254,7 +254,7 @@ msgid ""
 "%i%% alpha\n"
 "click to toggle alpha\n"
 "double click to automatically toggle alpha"
-msgstr ""
+msgstr "%i%% alpha\nalphaya geçmek için tıklatın\nalphaya otomatik olarak geçmek için çift tıklatın"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
@@ -264,7 +264,7 @@ msgstr "%ld dakika ve %ld saniye"
 #. Resource IDs: (IDS_DIMENSIONSANDFRAMES)
 #, c-format
 msgid "%ld of %ld"
-msgstr ""
+msgstr "%ld / %ld"
 
 #. Resource IDs: (IDS_PROGRS_PATHATREV)
 #, c-format
@@ -274,12 +274,12 @@ msgstr "%s - gözden geçirme: %d"
 #. Resource IDs: (62186)
 #, c-format
 msgid "%s [Recovered]"
-msgstr ""
+msgstr "%s [Kurtarıldı]"
 
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
-msgstr ""
+msgstr "%s içinde %s"
 
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
@@ -341,7 +341,7 @@ msgstr "&..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1656)
 msgid "&3 way merge"
-msgstr ""
+msgstr "&3 adımda birleştirme"
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
@@ -403,7 +403,7 @@ msgstr "&Tüm Dallar"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Application Look"
-msgstr ""
+msgstr "&Uygulamaya Bakın"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1613)
 msgid "&Apply Patch"
@@ -882,15 +882,15 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
-msgstr ""
+msgstr "&Bağlantı görüntüsünün konumları"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1172)
 msgid "&List View"
-msgstr ""
+msgstr "&Liste Görünümü"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1616)
 msgid "&Local Branch:"
-msgstr ""
+msgstr "&Yerel Dal:"
 
 #. Resource IDs: (IDS_VIEW_SHOWLOCALBRANCHLABELS)
 msgid "&Local branches"
@@ -1135,11 +1135,11 @@ msgstr ""
 #. Control id 1100, Dialog IDD_SETTINREMOTE: Control id 1385,
 #. IDS_REMOVEBUTTON)
 msgid "&Remove"
-msgstr ""
+msgstr "&Kaldır"
 
 #. Resource IDs: (IDS_REMOVE_FROM_INDEX)
 msgid "&Remove this file from index"
-msgstr ""
+msgstr "&Bu dosyayı dizinden kaldır"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1511)
 msgid "&Replace"
@@ -1147,7 +1147,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUREPOBROWSE)
 msgid "&Repo-browser"
-msgstr ""
+msgstr "&Depo tarayıcısı"
 
 #. Resource IDs: (16613, 16624)
 msgid "&Reset"
@@ -1710,7 +1710,7 @@ msgstr ""
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
-msgstr ""
+msgstr "Gereken bir kaynak kullanılabilir değil."
 
 #. Resource IDs: (IDS_B_SAMETAGNAMEEXISTS)
 msgid ""
@@ -1720,25 +1720,25 @@ msgstr ""
 
 #. Resource IDs: (IDS_T_EXISTS)
 msgid "A tag with this name already exists."
-msgstr ""
+msgstr "Bu ad ile bir etiket zaten var."
 
 #. Resource IDs: (IDS_SETTINGS_DIFFVIEWER_TT)
 msgid ""
 "A viewer program for GNU diff files (patch files).\n"
 "If you don't have one use NotePad."
-msgstr ""
+msgstr "GNU diff dosyaları (yama dosyaları) için bir yazılım.\nHerhangi birine sahip değilseniz NotePad'i kullanın."
 
 #. Resource IDs: (IDS_ABORTBUTTON)
 msgid "A&bort"
-msgstr ""
+msgstr "&Vazgeç"
 
 #. Resource IDs: (IDS_MENUABOUT)
 msgid "A&bout"
-msgstr ""
+msgstr "&Hakkında"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1)
 msgid "A&pply"
-msgstr ""
+msgstr "&Uygula"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1128)
 msgid "Abbreviate renamings"
@@ -1751,39 +1751,39 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_GITPROGRESS: Control id 2, Dialog IDD_REBASE:
 #. Control id 1565, Dialog IDD_RESOLVE_CONFLICT: Control id 2)
 msgid "Abort"
-msgstr ""
+msgstr "Vazgeç"
 
 #. Resource IDs: (IDS_MENUMERGEABORT)
 msgid "Abort &Merge"
-msgstr ""
+msgstr "Birleştirmeden &Vazgeç"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 4592)
 msgid "Abort Merge"
-msgstr ""
+msgstr "Birleştirmeden Vazgeç"
 
 #. Resource IDs: (IDS_MENUDESCMERGEABORT)
 msgid "Aborts a running merge."
-msgstr ""
+msgstr "Çalışan bir birleştirmeden vazgeçilir."
 
 #. Resource IDs: (ID_APP_ABOUT - Ribbon name)
 msgid "About"
-msgstr ""
+msgstr "Hakkında"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 129)
 msgid "About TortoiseGit"
-msgstr ""
+msgstr "TortoiseGit Hakkında"
 
 #. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 100)
 msgid "About TortoiseGitBlame"
-msgstr ""
+msgstr "TortoiseGitBlame Hakkında"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 136)
 msgid "About TortoiseGitMerge"
-msgstr ""
+msgstr "TortoiseGitMerge Hakkında"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 1)
 msgid "Accept certificate"
-msgstr ""
+msgstr "Sertifikaları onayla"
 
 #. Resource IDs: (61861)
 #, c-format
@@ -1792,35 +1792,35 @@ msgstr ""
 
 #. Resource IDs: (IDS_ACTION, IDS_FILEDIFF_ACTION, IDS_PROGRS_ACTION)
 msgid "Action"
-msgstr ""
+msgstr "Eylem"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 65535)
 msgid "Action log"
-msgstr ""
+msgstr "Eylem günlüğü"
 
 #. Resource IDs: (IDS_LOG_ACTIONS)
 msgid "Actions"
-msgstr ""
+msgstr "Eylemler"
 
 #. Resource IDs: (61203)
 msgid "Activate Task List"
-msgstr ""
+msgstr "Görev Listesini Etkinleştir"
 
 #. Resource IDs: (17043)
 msgid "Active Files"
-msgstr ""
+msgstr "Etkin Dosyalar"
 
 #. Resource IDs: (61838)
 #, c-format
 msgid ""
 "ActiveX objects cannot be saved while exiting Windows!\n"
 "Discard all changes to %1?"
-msgstr ""
+msgstr "ActiveX nesneleri Windows kapatılırken kaydedilemez!\n%1 için olan tüm değişiklikler yoksayılsın mı?"
 
 #. Resource IDs: (Dialog IDD_ADD: Control id 155, IDS_PROGRS_CMD_ADD,
 #. IDS_PROGRS_TITLE_ADD, IDS_STATUSLIST_CONTEXT_ADD)
 msgid "Add"
-msgstr ""
+msgstr "Ekle"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1482)
 msgid "Add &Signed-off-by"
@@ -1829,11 +1829,11 @@ msgstr ""
 #. Resource IDs: (IDS_SCIEDIT_ADDWORD)
 #, c-format
 msgid "Add '%s' to dictionary"
-msgstr ""
+msgstr "'%s' öğesini sözlüğe ekle"
 
 #. Resource IDs: (Dialog IDD_ADD_REMOTE: Control id 323)
 msgid "Add Remote"
-msgstr ""
+msgstr "Uzağa Ekle"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1482)
 msgid "Add \"&Signed-off-by\""
@@ -1923,19 +1923,19 @@ msgstr ""
 
 #. Resource IDs: (IDS_ALL)
 msgid "All"
-msgstr ""
+msgstr "Tümü"
 
 #. Resource IDs: (16110)
 msgid "All Commands"
-msgstr ""
+msgstr "Tüm Komutlar"
 
 #. Resource IDs: (61442)
 msgid "All Files (*.*)"
-msgstr ""
+msgstr "Tüm Dosyalar (*.*)"
 
 #. Resource IDs: (IDS_COMMONFILEFILTER)
 msgid "All Files (*.*)|*.*||"
-msgstr ""
+msgstr "Tüm Dosyalar (*.*)|*.*||"
 
 #. Resource IDs: (IDS_ALLPARENTS)
 msgid "All Parents"
@@ -1943,7 +1943,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_LOCAL_BRANCHES)
 msgid "All local branches"
-msgstr ""
+msgstr "Tüm yerel dallar"
 
 #. Resource IDs: (IDS_ALLREFS)
 msgid "All refs"
@@ -2162,44 +2162,44 @@ msgstr ""
 
 #. Resource IDs: (16528)
 msgid "Assigned to:"
-msgstr ""
+msgstr "Atanan:"
 
 #. Resource IDs: (IDS_MENUASSUMEVALID)
 msgid "Assume Unchanged"
-msgstr ""
+msgstr "Değiştirilmemiş Varsay"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11027,
 #. IDS_PATHACTIONS_ASSUMEUNCHANGED)
 msgid "Assume valid/unchanged"
-msgstr ""
+msgstr "Geçerli/Değiştirilmemiş varsay"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 1550)
 msgid "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
-msgstr ""
+msgstr "Geçerli/Değiştirilmemiş varsay (TortoiseSVN içinde \"kilit gereklidir\")"
 
 #. Resource IDs:
 #. (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES_AT_FILE_CREATION
 #. - Menu)
 msgid "At file &creation"
-msgstr ""
+msgstr "Dosya &oluşturma"
 
 #. Resource IDs:
 #. (IDS_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES_AT_FILE_CREATION)
 msgid "At file creation"
-msgstr ""
+msgstr "Dosya oluşturma"
 
 #. Resource IDs: (IDS_PROGRS_ATREV)
 #, c-format
 msgid "At revision: %d"
-msgstr ""
+msgstr "Gözden geçirme: %d"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_RENAMEONLYBRANCHES)
 msgid "At the moment, you can only rename branches."
-msgstr ""
+msgstr "Şu anda, yalnızca dalları yeniden adlandırabilirsiniz."
 
 #. Resource IDs: (61473)
 msgid "Attempted an unsupported operation."
-msgstr ""
+msgstr "Desteklenmeyen bir işlem yapılmaya çalışılıyor."
 
 #. Resource IDs: (61870, 61875)
 #, c-format
@@ -2385,18 +2385,18 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
 msgid "Bisect start"
-msgstr ""
+msgstr "İkiye bölmeyi başlat"
 
 #. Resource IDs: (61584)
 msgid ""
 "Bitmap\n"
 "a bitmap"
-msgstr ""
+msgstr "Eşlem\nbir eşlem"
 
 #. Resource IDs: (10010, ID_VIEW_APPLOOK_OFF_2007_BLACK - Menu,
 #. ID_VIEW_APPLOOK_OFF_2007_BLACK - Ribbon name)
 msgid "Black Style"
-msgstr ""
+msgstr "Siyah Stil"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535,
 #. IDS_LOG_POPUP_BLAME)
@@ -2659,13 +2659,13 @@ msgstr ""
 msgid ""
 "Cancel\n"
 "Don't switch the views"
-msgstr ""
+msgstr "Vazgeç\nGörünümlere geçme"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK4)
 msgid ""
 "Cancel\n"
 "Keep the empty file."
-msgstr ""
+msgstr "Vazgeç\nBoş dosyayı tut."
 
 #. Resource IDs: (IDS_ERR_MAINFRAME_FILEHASCONFLICTS_TASK4)
 msgid ""
@@ -2683,7 +2683,7 @@ msgstr ""
 msgid ""
 "Cancel\n"
 "Stay with current settings"
-msgstr ""
+msgstr "Vazgeç\nGeçerli ayarlarda kal"
 
 #. Resource IDs: (IDS_PROC_CANNOTCOMBINE)
 msgid ""
@@ -2695,7 +2695,7 @@ msgstr ""
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr ""
+msgstr "Geçerli dal güncelleştirilmeye zorlanamaz. İsterseniz sıfırlama komutunu kullanın."
 
 #. Resource IDs: (IDS_CANNOTBLAMENOGIT)
 #, c-format
@@ -2704,23 +2704,23 @@ msgstr ""
 
 #. Resource IDs: (IDS_ERR_DIFF_NEWLINES)
 msgid "Cannot show diff because of inconsistent newlines in the file."
-msgstr ""
+msgstr "Diff görüntülenemez çünkü dosyadaki yeni satırlar tutarsız."
 
 #. Resource IDs: (16926)
 msgid "Casca&de"
-msgstr ""
+msgstr "&Basamakla"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid "Cascaded context menu"
-msgstr ""
+msgstr "İçerik menüsü basamaklandı"
 
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
-msgstr ""
+msgstr "Büyük küçük harf duyarlı"
 
 #. Resource IDs: (65535)
 msgid "Cate&gories:"
-msgstr ""
+msgstr "&Kategoriler:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Celtic"
@@ -2728,49 +2728,49 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Central European"
-msgstr ""
+msgstr "Orta Avrupa"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Certificate verification failed!"
-msgstr ""
+msgstr "Sertifika doğrulaması başarısız!"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1697)
 msgid "Change log"
-msgstr ""
+msgstr "Sürüm notları"
 
 #. Resource IDs: (57606)
 msgid ""
 "Change the printer and printing options\n"
 "Print Setup"
-msgstr ""
+msgstr "Yazıcı ve yazdırma ayarları değiştirilsin mi\nYazdırma Ayarları"
 
 #. Resource IDs: (57605)
 msgid ""
 "Change the printing options\n"
 "Page Setup"
-msgstr ""
+msgstr "Yazdırma ayarları değiştirilsin mi\nSayfa Ayarları"
 
 #. Resource IDs: (10000)
 msgid ""
 "Change the style of the application\n"
 "Change Style"
-msgstr ""
+msgstr "Uygulamanın stili değiştirilsin mi\nStili Değiştir"
 
 #. Resource IDs: (61185)
 msgid "Change the window position"
-msgstr ""
+msgstr "Pencere konumunu değiştir"
 
 #. Resource IDs: (61184)
 msgid "Change the window size"
-msgstr ""
+msgstr "Pencere boyutunu değiştir"
 
 #. Resource IDs: (IDS_CHANGETYPE)
 msgid "Change type"
-msgstr ""
+msgstr "Türü değiştir"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 199)
 msgid "Changed Files"
-msgstr ""
+msgstr "Değiştirilen Dosyalar"
 
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTROROOT)
 #, c-format
@@ -2894,11 +2894,11 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Chinese"
-msgstr ""
+msgstr "Çince"
 
 #. Resource IDs: (IDS_CHOOSE_REPOSITORY)
 msgid "Choose Repository"
-msgstr ""
+msgstr "Depoyu Seç"
 
 #. Resource IDs: (IDS_LOG_CHRONOLOGICALREVERSEDORDER)
 msgid "Chronological reversed (git default)"
@@ -2906,38 +2906,38 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 4572)
 msgid "Clean"
-msgstr ""
+msgstr "Temizle"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1630)
 msgid "Clean Type"
-msgstr ""
+msgstr "Temizleme Türü"
 
 #. Resource IDs: (IDS_CLEAN_NO_RECYCLEBIN)
 msgid "Clean permanently"
-msgstr ""
+msgstr "Kalıcı temizlik"
 
 #. Resource IDs: (IDS_CLEAN_TO_RECYCLEBIN)
 msgid "Clean to recycle bin"
-msgstr ""
+msgstr "Geri dönüşüm kutusunu temizle"
 
 #. Resource IDs: (IDS_PROC_SYNC_CLEANUPSTALEBRANCHES)
 msgid "Clean up stale remote branches"
-msgstr ""
+msgstr "Eski uzak dalları temizle"
 
 #. Resource IDs: (IDS_PROC_CLEANUP)
 msgid "Cleaning up"
-msgstr ""
+msgstr "Temizleniyor"
 
 #. Resource IDs: (IDS_PROC_CLEANUP_INFO1)
 msgid "Cleaning up."
-msgstr ""
+msgstr "Temizleniyor."
 
 #. Resource IDs: (IDS_PROC_CLEANUPFINISHED_FAILED)
 #, c-format
 msgid ""
 "Cleanup failed to process the following paths:\n"
 "%s"
-msgstr ""
+msgstr "Temizleme işlemi şu yollar nedeniyle başarısız oldu:\n%s"
 
 #. Resource IDs: (IDS_PROC_CLEANUPFINISHED)
 #, c-format
@@ -2953,13 +2953,13 @@ msgstr ""
 #. Control id 1427, Dialog IDD_SETTINGSSAVEDDATA: Control id 1726, Dialog
 #. IDD_SETTINGSSAVEDDATA: Control id 1727)
 msgid "Clear"
-msgstr ""
+msgstr "Temizle"
 
 #. Resource IDs: (16909)
 msgid ""
 "Clear Tool\n"
 "Clear"
-msgstr ""
+msgstr "Aracı Temizle\nTemizle"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_URLHIST_TT)
 #, c-format
