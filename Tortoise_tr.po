@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-25 00:22+0000\n"
+"PO-Revision-Date: 2015-12-26 19:39+0000\n"
 "Last-Translator: Ozancan Karataş <ozancankaratas96@outlook.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/lznuaa/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -299,7 +299,7 @@ msgstr "%s: Çalışma Ağacı"
 #. Resource IDs: (IDS_PROC_EXPORTFOLDERNAME2)
 #, c-format
 msgid "%s\\Export (%d) of %s"
-msgstr "%s\\Dışa aktar %s (%d)"
+msgstr "%s\\Dışa aktar (%d) / %s"
 
 #. Resource IDs: (IDS_PROC_EXPORTFOLDERNAME)
 #, c-format
@@ -11959,11 +11959,11 @@ msgstr ""
 
 #. Resource IDs: (17114)
 msgid "[Default]"
-msgstr ""
+msgstr "varsayılan"
 
 #. Resource IDs: (16009)
 msgid "[Unassigned]"
-msgstr ""
+msgstr "(tanımlanmamış)"
 
 #. Resource IDs: (IDS_PROC_COPY_REPOSITORY)
 #, c-format
@@ -11989,18 +11989,18 @@ msgstr ""
 #. Resource IDs: (IDS_PROC_REFINVALID)
 #, c-format
 msgid "\"%s\" is invalid."
-msgstr ""
+msgstr "\"%s\" geçersiz"
 
 #. Resource IDs: (IDS_ERR_NOT_REPOSITORY)
 #, c-format
 msgid "\"%s\" is not git repository"
-msgstr ""
+msgstr "\"%s\" git kaynağı değil"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_GITAMACTIVE)
 msgid ""
 "\"git am\" is still in apply mode.\n"
 "Do you want to abort?"
-msgstr ""
+msgstr "\"git am\" hala uygulama kipinde.\nVazgeçmek istiyor musunuz?"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "_POPUP_"
@@ -12012,36 +12012,36 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSADDED)
 msgid "added"
-msgstr ""
+msgstr "eklendi"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "added files"
-msgstr ""
+msgstr "eklenmiş dosyalar"
 
 #. Resource IDs: (61446)
 msgid "an unnamed file"
-msgstr ""
+msgstr "bir isimsiz dosya"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1085)
 msgid "and support the developers"
-msgstr ""
+msgstr "ve geliştiricileri destekleyin"
 
 #. Resource IDs: (IDS_SETTINGS_READONLYNAME)
 msgid "assume-valid"
-msgstr ""
+msgstr "doğru varsayım"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORX)
 msgid "author"
-msgstr ""
+msgstr "yazar"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORMOREX)
 #, c-format
 msgid "author (>= 0.5%)"
-msgstr ""
+msgstr "yazar (>= 0.5%)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "based on TortoiseSVN (http://www.tortoisesvn.net/)"
-msgstr ""
+msgstr "TortoiseSVN tabanlı (http://www.tortoisesvn.net/)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535)
 msgid "bugtraq.append"
@@ -12074,26 +12074,26 @@ msgstr "bugtraq.warningifnoissue"
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORY,
 #. IDS_STATGRAPH_COMMITSBYDATEY)
 msgid "commits"
-msgstr ""
+msgstr "sunulanlar"
 
 #. Resource IDs: (IDS_STATUSCONFLICTED)
 msgid "conflicted"
-msgstr ""
+msgstr "çelişkili"
 
 #. Resource IDs: (IDS_STATUSLIST_COPYFROM)
 #, c-format
 msgid ""
 "copied from\n"
 "%s - revision %ld"
-msgstr ""
+msgstr "%s\nüzerinden kopyalandı - gözden geçirme %ld"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXDAY)
 msgid "day"
-msgstr ""
+msgstr "gün"
 
 #. Resource IDs: (IDS_STATUSDELETED)
 msgid "deleted"
-msgstr ""
+msgstr "silindi"
 
 #. Resource IDs: (IDS_PIPETITLE)
 msgid "diff from pipe"
@@ -12101,11 +12101,11 @@ msgstr ""
 
 #. Resource IDs: (58116)
 msgid "dummy"
-msgstr ""
+msgstr "taklit"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1580)
 msgid "eMail settings"
-msgstr ""
+msgstr "e-posta ayarları"
 
 #. Resource IDs: (IDS_PROC_EXPORT_4)
 #, c-format
@@ -12118,24 +12118,24 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSEXTERNAL)
 msgid "external"
-msgstr ""
+msgstr "dış"
 
 #. Resource IDs: (IDS_PROC_PROGRESS_GITUNCLEANEXIT)
 #, c-format
 msgid "git did not exit cleanly (exit code %d)"
-msgstr ""
+msgstr "git'ten temiz şekilde çıkılamadı (çıkış kodu %d)"
 
 #. Resource IDs: (IDS_STATUSIGNORED)
 msgid "ignored"
-msgstr ""
+msgstr "yok sayıldı"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1130)
 msgid "include &untracked"
-msgstr ""
+msgstr "&izlenmeyenleri de kat"
 
 #. Resource IDs: (IDS_STATUSINCOMPLETE)
 msgid "incomplete"
-msgstr ""
+msgstr "tamamlanmamış"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1780, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 1781, Dialog IDD_SETTINGIT_CONFIG: Control
@@ -12166,7 +12166,7 @@ msgid ""
 "%s = %ld\n"
 "%s = %ld\n"
 "%s = %ld"
-msgstr ""
+msgstr "satır: %d(+) %d(-) dosyalar: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld"
 
 #. Resource IDs: (IDS_STATUSLIST_STATUSLINE2)
 #, c-format
@@ -12177,19 +12177,19 @@ msgid ""
 "%s = %ld\n"
 "%s = %ld\n"
 "%s = %ld"
-msgstr ""
+msgstr "satır: %d(+) %d(-) dosyalar: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s = %ld"
 
 #. Resource IDs: (IDS_SYSTEM_GCM)
 msgid "manager - all Windows users"
-msgstr ""
+msgstr "manager - tüm Windows kullanıcıları"
 
 #. Resource IDs: (IDS_GLOBAL_GCM)
 msgid "manager - current Windows user"
-msgstr ""
+msgstr "manager - geçerli Windows kullanıcısı"
 
 #. Resource IDs: (IDS_LOCAL_GCM)
 msgid "manager - this repository only"
-msgstr ""
+msgstr "manager - yalnızca bu depo"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1494)
 msgid "master"
@@ -12198,11 +12198,11 @@ msgstr "master"
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535,
 #. IDS_STATUSMERGED)
 msgid "merged"
-msgstr ""
+msgstr "birleştirildi"
 
 #. Resource IDs: (IDS_STATUSABSENT)
 msgid "missing"
-msgstr ""
+msgstr "eksik"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "missing/deleted/replaced"
@@ -12210,27 +12210,27 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSMODIFIED)
 msgid "modified"
-msgstr ""
+msgstr "değiştirildi"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "modified/copied"
-msgstr ""
+msgstr "değiştirildi/kopyalandı"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXMONTH)
 msgid "month"
-msgstr ""
+msgstr "ay"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1681)
 msgid "new branch"
-msgstr ""
+msgstr "yeni dal"
 
 #. Resource IDs: (IDS_NO)
 msgid "no"
-msgstr ""
+msgstr "hayır"
 
 #. Resource IDs: (IDS_MENUDESCDEFAULT)
 msgid "no description for this command is available"
-msgstr ""
+msgstr "bu komut için açıklama yok"
 
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
@@ -12238,32 +12238,32 @@ msgstr ""
 
 #. Resource IDs: (IDS_ENCRYPT_NONE)
 msgid "none"
-msgstr ""
+msgstr "hiçbiri"
 
 #. Resource IDs: (IDS_STATUSNORMAL)
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 #. Resource IDs: (IDS_NOTFOUND)
 msgid "not found"
-msgstr ""
+msgstr "bulunamadı"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
-msgstr ""
+msgstr "engellendi"
 
 #. Resource IDs: (61504)
 #, c-format
 msgid "on %1"
-msgstr ""
+msgstr "%1 üzerinde"
 
 #. Resource IDs: (IDS_STATE_PATCHED)
 msgid "patched"
-msgstr ""
+msgstr "yamalandı"
 
 #. Resource IDs: (61888)
 msgid "pixels"
-msgstr ""
+msgstr "pikseller"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "possible or real conflict/obstructed"
@@ -12275,19 +12275,19 @@ msgstr "prn"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXQUARTER)
 msgid "quarter of year"
-msgstr ""
+msgstr "çeyrek yıl"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "renamed"
-msgstr ""
+msgstr "yeniden adlandırıldı"
 
 #. Resource IDs: (IDS_STATUSREPLACED)
 msgid "replaced"
-msgstr ""
+msgstr "değiştirildi"
 
 #. Resource IDs: (IDS_PATCH_SEARCHPATHLINE1)
 msgid "scanning path:"
-msgstr ""
+msgstr "taranan yol:"
 
 #. Resource IDs: (IDS_SETTINGS_LOCKEDNAME)
 msgid "skip-worktree"
@@ -12298,57 +12298,57 @@ msgstr ""
 msgid ""
 "switched to\n"
 "%s"
-msgstr ""
+msgstr "geçilen\n%s"
 
 #. Resource IDs: (IDS_CARE_SUBMODULE_CHANGES)
 msgid "take care of submodule changes"
-msgstr ""
+msgstr "alt modül değişikliklerini dikkate al"
 
 #. Resource IDs: (61513)
 #, c-format
 msgid "to %1"
-msgstr ""
+msgstr "%1 üzerine"
 
 #. Resource IDs: (IDS_PROC_CPYMVPROG2, IDS_SVNPROGRESS_EXPORTINGTO)
 #, c-format
 msgid "to %s"
-msgstr ""
+msgstr "%s üzerine"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"
-msgstr ""
+msgstr "&bilinmeyen değişiklikler"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXWEEK)
 msgid "week"
-msgstr ""
+msgstr "hafta"
 
 #. Resource IDs: (IDS_SYSTEM_WINCRED)
 msgid "wincred - all Windows users"
-msgstr ""
+msgstr "wincred - tüm Windows kullanıcıları"
 
 #. Resource IDs: (IDS_GLOBAL_WINCRED)
 msgid "wincred - current Windows user"
-msgstr ""
+msgstr "wincred - geçerli Windows kullanıcısı"
 
 #. Resource IDs: (IDS_LOCAL_WINCRED)
 msgid "wincred - this repository only"
-msgstr ""
+msgstr "wincred - yalnızca bu depo"
 
 #. Resource IDs: (IDS_GLOBAL_WINSTORE)
 msgid "winstore - current Windows user"
-msgstr ""
+msgstr "winstore - geçerli Windows kullanıcısı"
 
 #. Resource IDs: (IDS_LOCAL_WINSTORE)
 msgid "winstore - this repository only"
-msgstr ""
+msgstr "winstore - yalnızca bu depo"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXYEAR)
 msgid "year"
-msgstr ""
+msgstr "yıl"
 
 #. Resource IDs: (IDS_YES)
 msgid "yes"
-msgstr ""
+msgstr "evet"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1382)
 msgid "{BugTraq}"
