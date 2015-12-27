@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-12 18:14+0000\n"
+"PO-Revision-Date: 2015-12-27 16:08+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/lznuaa/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -495,8 +495,7 @@ msgstr "&Clear"
 msgid "&Clear stash"
 msgstr "&Clear stash"
 
-#. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1, Dialog
-#. IDD_GITPROGRESS: Control id 1)
+#. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1)
 msgid "&Close"
 msgstr "&Close"
 
@@ -1048,6 +1047,10 @@ msgstr "&Proceed"
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
 msgstr "&Pull"
+
+#. Resource IDs: (IDS_MENUPULL)
+msgid "&Pull..."
+msgstr "&Pull..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -3020,7 +3023,7 @@ msgid "Clone..."
 msgstr "Clone..."
 
 #. Resource IDs: (16032, 16105, 17023, 2, Dialog IDD_DELETEREMOTETAG: Control
-#. id 2, Dialog IDD_SYNC: Control id 1)
+#. id 2, Dialog IDD_GITPROGRESS: Control id 1, Dialog IDD_SYNC: Control id 1)
 msgid "Close"
 msgstr "Close"
 
@@ -3590,9 +3593,17 @@ msgstr "Coun&t"
 msgid "Count: %u matches."
 msgstr "Count: %u matches."
 
+#. Resource IDs: (IDS_MENUBRANCH)
+msgid "Create &Branch..."
+msgstr "Create &Branch..."
+
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
 msgstr "Create &Library"
+
+#. Resource IDs: (IDS_MENUTAG)
+msgid "Create &Tag..."
+msgstr "Create &Tag..."
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -3605,10 +3616,6 @@ msgstr "Create Branch"
 #. Resource IDs: (IDS_CREATE_BRANCH_AT_THIS)
 msgid "Create Branch at this version..."
 msgstr "Create Branch at this version..."
-
-#. Resource IDs: (IDS_MENUBRANCH)
-msgid "Create Branch..."
-msgstr "Create Branch..."
 
 #. Resource IDs: (Dialog IDD_CREATECHANGELIST: Control id 243)
 msgid "Create Changelist"
@@ -3629,10 +3636,6 @@ msgstr "Create Tag"
 #. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
 msgid "Create Tag at this version..."
 msgstr "Create Tag at this version..."
-
-#. Resource IDs: (IDS_MENUTAG)
-msgid "Create Tag..."
-msgstr "Create Tag..."
 
 #. Resource IDs: (57600)
 msgid ""
@@ -4835,6 +4838,10 @@ msgstr "External"
 msgid "External Program:"
 msgstr "External Program:"
 
+#. Resource IDs: (IDS_MENUFETCH)
+msgid "F&etch..."
+msgstr "F&etch..."
+
 #. Resource IDs: (17113)
 msgid "Fade"
 msgstr "Fade"
@@ -4947,13 +4954,17 @@ msgstr "Fast forward to %s"
 msgid "Fetc&h"
 msgstr "Fetc&h"
 
-#. Resource IDs: (IDS_MENUDESCFETCH, IDS_PROGRS_TITLE_FETCH)
+#. Resource IDs: (IDS_PROGRS_TITLE_FETCH)
 msgid "Fetch"
 msgstr "Fetch"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHREBASE)
 msgid "Fetch && Re&base"
 msgstr "Fetch && Re&base"
+
+#. Resource IDs: (IDS_MENUDESCFETCH)
+msgid "Fetch commits from a remote repository."
+msgstr "Fetch commits from a remote repository."
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -4963,10 +4974,6 @@ msgstr "Fetch from SVN repository"
 #, c-format
 msgid "Fetch from \"%s\""
 msgstr "Fetch from \"%s\""
-
-#. Resource IDs: (IDS_MENUFETCH)
-msgid "Fetch..."
-msgstr "Fetch..."
 
 #. Resource IDs: (IDS_LOG_FETCHINGSTATUS)
 msgid "Fetching Status..."
@@ -8046,18 +8053,17 @@ msgstr "Prune"
 msgid "Prune (All remotes)"
 msgstr "Prune (All remotes)"
 
-#. Resource IDs: (Dialog IDD_SYNC: Control id 1611, IDS_MENUDESCPULL,
-#. IDS_PROGRS_TITLE_PULL)
+#. Resource IDs: (Dialog IDD_SYNC: Control id 1611, IDS_PROGRS_TITLE_PULL)
 msgid "Pull"
 msgstr "Pull"
+
+#. Resource IDs: (IDS_MENUDESCPULL)
+msgid "Pull (fetch and merge) commits from a remote branch."
+msgstr "Pull (fetch and merge) commits from a remote branch."
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
 msgid "Pull requires the selected local branch to be the current branch."
 msgstr "Pull requires the selected local branch to be the current branch."
-
-#. Resource IDs: (IDS_MENUPULL)
-msgid "Pull..."
-msgstr "Pull..."
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 302)
 msgid "Pull/Fetch"
@@ -8075,8 +8081,12 @@ msgstr "Pulled Log"
 msgid "Pus&h"
 msgstr "Pus&h"
 
+#. Resource IDs: (IDS_MENUPUSH)
+msgid "Pus&h..."
+msgstr "Pus&h..."
+
 #. Resource IDs: (Dialog IDD_PUSH: Control id 303, Dialog IDD_SYNC: Control id
-#. 1612, IDS_MENUDESCPUSH)
+#. 1612)
 msgid "Push"
 msgstr "Push"
 
@@ -8088,6 +8098,10 @@ msgstr "Push Default"
 msgid "Push URL:"
 msgstr "Push URL:"
 
+#. Resource IDs: (IDS_MENUDESCPUSH)
+msgid "Push commits to a remote repository."
+msgstr "Push commits to a remote repository."
+
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
 msgstr "Push notes"
@@ -8096,7 +8110,7 @@ msgstr "Push notes"
 msgid "Push ta&gs"
 msgstr "Push ta&gs"
 
-#. Resource IDs: (IDS_LOG_PUSH, IDS_MENUPUSH)
+#. Resource IDs: (IDS_LOG_PUSH)
 msgid "Push..."
 msgstr "Push..."
 

@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-12 19:31+0000\n"
+"PO-Revision-Date: 2015-12-27 16:08+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -506,8 +506,7 @@ msgstr "クリア(&C)"
 msgid "&Clear stash"
 msgstr "スタッシュをクリア(&C)"
 
-#. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1, Dialog
-#. IDD_GITPROGRESS: Control id 1)
+#. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1)
 msgid "&Close"
 msgstr "閉じる(&C)"
 
@@ -1059,6 +1058,10 @@ msgstr "続行(&P)"
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
 msgstr "プル(&P)"
+
+#. Resource IDs: (IDS_MENUPULL)
+msgid "&Pull..."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -3031,7 +3034,7 @@ msgid "Clone..."
 msgstr "クローン(複製)..."
 
 #. Resource IDs: (16032, 16105, 17023, 2, Dialog IDD_DELETEREMOTETAG: Control
-#. id 2, Dialog IDD_SYNC: Control id 1)
+#. id 2, Dialog IDD_GITPROGRESS: Control id 1, Dialog IDD_SYNC: Control id 1)
 msgid "Close"
 msgstr "閉じる"
 
@@ -3601,9 +3604,17 @@ msgstr "カウント(&T)"
 msgid "Count: %u matches."
 msgstr "カウント: %u個の一致。"
 
+#. Resource IDs: (IDS_MENUBRANCH)
+msgid "Create &Branch..."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
 msgstr "ライブラリを作成(&L)"
+
+#. Resource IDs: (IDS_MENUTAG)
+msgid "Create &Tag..."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -3616,10 +3627,6 @@ msgstr "ブランチを作成"
 #. Resource IDs: (IDS_CREATE_BRANCH_AT_THIS)
 msgid "Create Branch at this version..."
 msgstr "このバージョンでブランチを作成..."
-
-#. Resource IDs: (IDS_MENUBRANCH)
-msgid "Create Branch..."
-msgstr "ブランチを作成..."
 
 #. Resource IDs: (Dialog IDD_CREATECHANGELIST: Control id 243)
 msgid "Create Changelist"
@@ -3640,10 +3647,6 @@ msgstr "タグを作成"
 #. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
 msgid "Create Tag at this version..."
 msgstr "このバージョンでタグを作成..."
-
-#. Resource IDs: (IDS_MENUTAG)
-msgid "Create Tag..."
-msgstr "タグを作成..."
 
 #. Resource IDs: (57600)
 msgid ""
@@ -4846,6 +4849,10 @@ msgstr "外部"
 msgid "External Program:"
 msgstr "外部プログラム:"
 
+#. Resource IDs: (IDS_MENUFETCH)
+msgid "F&etch..."
+msgstr ""
+
 #. Resource IDs: (17113)
 msgid "Fade"
 msgstr "フェード"
@@ -4958,13 +4965,17 @@ msgstr "%s へファストフォワード"
 msgid "Fetc&h"
 msgstr "フェッチ(&H)"
 
-#. Resource IDs: (IDS_MENUDESCFETCH, IDS_PROGRS_TITLE_FETCH)
+#. Resource IDs: (IDS_PROGRS_TITLE_FETCH)
 msgid "Fetch"
 msgstr "フェッチ"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHREBASE)
 msgid "Fetch && Re&base"
 msgstr "フェッチ＆リベース(&B)"
+
+#. Resource IDs: (IDS_MENUDESCFETCH)
+msgid "Fetch commits from a remote repository."
+msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -4974,10 +4985,6 @@ msgstr "SVN リポジトリからのフェッチ"
 #, c-format
 msgid "Fetch from \"%s\""
 msgstr "\"%s\" からのフェッチ"
-
-#. Resource IDs: (IDS_MENUFETCH)
-msgid "Fetch..."
-msgstr "フェッチ(ローカルへ反映―要マージ)..."
 
 #. Resource IDs: (IDS_LOG_FETCHINGSTATUS)
 msgid "Fetching Status..."
@@ -8057,18 +8064,17 @@ msgstr "リモートに無いブランチを削除"
 msgid "Prune (All remotes)"
 msgstr "リモートに無いブランチを削除 (すべてのリモート)"
 
-#. Resource IDs: (Dialog IDD_SYNC: Control id 1611, IDS_MENUDESCPULL,
-#. IDS_PROGRS_TITLE_PULL)
+#. Resource IDs: (Dialog IDD_SYNC: Control id 1611, IDS_PROGRS_TITLE_PULL)
 msgid "Pull"
 msgstr "プル"
+
+#. Resource IDs: (IDS_MENUDESCPULL)
+msgid "Pull (fetch and merge) commits from a remote branch."
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
 msgid "Pull requires the selected local branch to be the current branch."
 msgstr "プルを行うには、選択したローカルブランチを現在のブランチにする必要があります。"
-
-#. Resource IDs: (IDS_MENUPULL)
-msgid "Pull..."
-msgstr "プル(ローカルへ反映)..."
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 302)
 msgid "Pull/Fetch"
@@ -8086,8 +8092,12 @@ msgstr "プルしたログ"
 msgid "Pus&h"
 msgstr "プッシュ(&H)"
 
+#. Resource IDs: (IDS_MENUPUSH)
+msgid "Pus&h..."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_PUSH: Control id 303, Dialog IDD_SYNC: Control id
-#. 1612, IDS_MENUDESCPUSH)
+#. 1612)
 msgid "Push"
 msgstr "プッシュ"
 
@@ -8099,6 +8109,10 @@ msgstr "デフォルトのプッシュ先"
 msgid "Push URL:"
 msgstr "プッシュ URL:"
 
+#. Resource IDs: (IDS_MENUDESCPUSH)
+msgid "Push commits to a remote repository."
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
 msgstr "ノートをプッシュ"
@@ -8107,7 +8121,7 @@ msgstr "ノートをプッシュ"
 msgid "Push ta&gs"
 msgstr "タグをプッシュ(&G)"
 
-#. Resource IDs: (IDS_LOG_PUSH, IDS_MENUPUSH)
+#. Resource IDs: (IDS_LOG_PUSH)
 msgid "Push..."
 msgstr "プッシュ(リモートへ反映)..."
 

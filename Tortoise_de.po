@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-12 19:30+0000\n"
+"PO-Revision-Date: 2015-12-27 16:09+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -503,8 +503,7 @@ msgstr "&Löschen"
 msgid "&Clear stash"
 msgstr "&Leere Stash"
 
-#. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1, Dialog
-#. IDD_GITPROGRESS: Control id 1)
+#. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1)
 msgid "&Close"
 msgstr "&Schließen"
 
@@ -1056,6 +1055,10 @@ msgstr "&Fortfahren"
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
 msgstr "&Anfordern"
+
+#. Resource IDs: (IDS_MENUPULL)
+msgid "&Pull..."
+msgstr "&Anfordern..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -3028,7 +3031,7 @@ msgid "Clone..."
 msgstr "Klonen..."
 
 #. Resource IDs: (16032, 16105, 17023, 2, Dialog IDD_DELETEREMOTETAG: Control
-#. id 2, Dialog IDD_SYNC: Control id 1)
+#. id 2, Dialog IDD_GITPROGRESS: Control id 1, Dialog IDD_SYNC: Control id 1)
 msgid "Close"
 msgstr "Schließen"
 
@@ -3598,9 +3601,17 @@ msgstr "&Zählen"
 msgid "Count: %u matches."
 msgstr "Anzahl: %u Treffer."
 
+#. Resource IDs: (IDS_MENUBRANCH)
+msgid "Create &Branch..."
+msgstr "Erzeuge &Zweig..."
+
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
 msgstr "&Bibliothek erstellen"
+
+#. Resource IDs: (IDS_MENUTAG)
+msgid "Create &Tag..."
+msgstr "&Markierung erstellen..."
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -3613,10 +3624,6 @@ msgstr "Erzeuge Zweig"
 #. Resource IDs: (IDS_CREATE_BRANCH_AT_THIS)
 msgid "Create Branch at this version..."
 msgstr "Neuen Zweig dieser Revision erstellen"
-
-#. Resource IDs: (IDS_MENUBRANCH)
-msgid "Create Branch..."
-msgstr "Erzeuge Zweig..."
 
 #. Resource IDs: (Dialog IDD_CREATECHANGELIST: Control id 243)
 msgid "Create Changelist"
@@ -3637,10 +3644,6 @@ msgstr "Erzeuge Markierung"
 #. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
 msgid "Create Tag at this version..."
 msgstr "Markierung dieser Revision erstellen..."
-
-#. Resource IDs: (IDS_MENUTAG)
-msgid "Create Tag..."
-msgstr "Markierung erstellen..."
 
 #. Resource IDs: (57600)
 msgid ""
@@ -4843,6 +4846,10 @@ msgstr "Extern"
 msgid "External Program:"
 msgstr "Anwendung:"
 
+#. Resource IDs: (IDS_MENUFETCH)
+msgid "F&etch..."
+msgstr ""
+
 #. Resource IDs: (17113)
 msgid "Fade"
 msgstr "Ausblenden"
@@ -4955,13 +4962,17 @@ msgstr "Fast forward zu %s"
 msgid "Fetc&h"
 msgstr "&Aktualisieren"
 
-#. Resource IDs: (IDS_MENUDESCFETCH, IDS_PROGRS_TITLE_FETCH)
+#. Resource IDs: (IDS_PROGRS_TITLE_FETCH)
 msgid "Fetch"
 msgstr "Aktualisieren"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHREBASE)
 msgid "Fetch && Re&base"
 msgstr "Aktualisieren && neu Auf&bauen"
+
+#. Resource IDs: (IDS_MENUDESCFETCH)
+msgid "Fetch commits from a remote repository."
+msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -4971,10 +4982,6 @@ msgstr "Aus SVN Projektarchiv holen"
 #, c-format
 msgid "Fetch from \"%s\""
 msgstr "Aktualisieren von \"%s\""
-
-#. Resource IDs: (IDS_MENUFETCH)
-msgid "Fetch..."
-msgstr "Aktualisieren..."
 
 #. Resource IDs: (IDS_LOG_FETCHINGSTATUS)
 msgid "Fetching Status..."
@@ -8054,18 +8061,17 @@ msgstr "Zweige aufräumen"
 msgid "Prune (All remotes)"
 msgstr "Zweige aufräumen (alle entfernten Repositories)"
 
-#. Resource IDs: (Dialog IDD_SYNC: Control id 1611, IDS_MENUDESCPULL,
-#. IDS_PROGRS_TITLE_PULL)
+#. Resource IDs: (Dialog IDD_SYNC: Control id 1611, IDS_PROGRS_TITLE_PULL)
 msgid "Pull"
 msgstr "Anfordern"
+
+#. Resource IDs: (IDS_MENUDESCPULL)
+msgid "Pull (fetch and merge) commits from a remote branch."
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
 msgid "Pull requires the selected local branch to be the current branch."
 msgstr "Eine Anforderung erfordert, dass der ausgewählte lokale Zweig der aktuelle Zeig ist."
-
-#. Resource IDs: (IDS_MENUPULL)
-msgid "Pull..."
-msgstr "Anfordern..."
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 302)
 msgid "Pull/Fetch"
@@ -8083,8 +8089,12 @@ msgstr "Anforderungslog"
 msgid "Pus&h"
 msgstr "&Versenden"
 
+#. Resource IDs: (IDS_MENUPUSH)
+msgid "Pus&h..."
+msgstr "&Versenden..."
+
 #. Resource IDs: (Dialog IDD_PUSH: Control id 303, Dialog IDD_SYNC: Control id
-#. 1612, IDS_MENUDESCPUSH)
+#. 1612)
 msgid "Push"
 msgstr "Versenden"
 
@@ -8096,6 +8106,10 @@ msgstr "Push Default"
 msgid "Push URL:"
 msgstr "Versand URL:"
 
+#. Resource IDs: (IDS_MENUDESCPUSH)
+msgid "Push commits to a remote repository."
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
 msgstr "Anmerkungen versenden"
@@ -8104,7 +8118,7 @@ msgstr "Anmerkungen versenden"
 msgid "Push ta&gs"
 msgstr "Versende &Markierungen"
 
-#. Resource IDs: (IDS_LOG_PUSH, IDS_MENUPUSH)
+#. Resource IDs: (IDS_LOG_PUSH)
 msgid "Push..."
 msgstr "Versenden..."
 
