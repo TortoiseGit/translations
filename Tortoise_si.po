@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-27 16:08+0000\n"
+"PO-Revision-Date: 2015-12-28 15:57+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Sinhala (http://www.transifex.com/lznuaa/tortoisegit/language/si/)\n"
 "MIME-Version: 1.0\n"
@@ -10680,6 +10680,13 @@ msgid ""
 "commits."
 msgstr ""
 
+#. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
+msgid ""
+"This preserves merge commits, however, it has known bugs as re-ordering "
+"commits is not working properly (same limitation as for vanilla git rebase),"
+" see help."
+msgstr ""
+
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
@@ -12257,6 +12264,10 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "possible or real conflict/obstructed"
+msgstr ""
+
+#. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
+msgid "preserve merges"
 msgstr ""
 
 #. Resource IDs: (61509)

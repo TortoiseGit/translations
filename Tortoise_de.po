@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-27 16:09+0000\n"
+"PO-Revision-Date: 2015-12-28 15:59+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -8108,7 +8108,7 @@ msgstr "Versand URL:"
 
 #. Resource IDs: (IDS_MENUDESCPUSH)
 msgid "Push commits to a remote repository."
-msgstr ""
+msgstr "Versendet Ihre Änderungen an ein entferntes Projektarchiv ein."
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
@@ -9998,7 +9998,7 @@ msgstr "Stoppt den bisect Modus"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1833)
 msgid "Stored decisions"
-msgstr ""
+msgstr "Gespeicherte Entscheidungen"
 
 #. Resource IDs: (IDS_MENUDESCDIFFLATER)
 msgid ""
@@ -10687,6 +10687,13 @@ msgid ""
 "This operation cannot be started while the log dialog is still loading "
 "commits."
 msgstr "Diese Operation kann nicht gestartet werden solange der Aktionslog noch Eintragungen lädt."
+
+#. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
+msgid ""
+"This preserves merge commits, however, it has known bugs as re-ordering "
+"commits is not working properly (same limitation as for vanilla git rebase),"
+" see help."
+msgstr ""
 
 #. Resource IDs: (61710)
 #, c-format
@@ -12266,6 +12273,10 @@ msgstr "Pixel"
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "possible or real conflict/obstructed"
 msgstr "möglicher oder echten Konflikt"
+
+#. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
+msgid "preserve merges"
+msgstr "Zusammenführungen beibehalten"
 
 #. Resource IDs: (61509)
 msgid "prn"

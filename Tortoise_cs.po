@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-27 16:08+0000\n"
+"PO-Revision-Date: 2015-12-28 15:57+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/lznuaa/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -1057,7 +1057,7 @@ msgstr "&Stáhnout"
 
 #. Resource IDs: (IDS_MENUPULL)
 msgid "&Pull..."
-msgstr ""
+msgstr "&Stáhnout..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -3602,7 +3602,7 @@ msgstr "Počet: %u shod."
 
 #. Resource IDs: (IDS_MENUBRANCH)
 msgid "Create &Branch..."
-msgstr ""
+msgstr "&Vytvořit větev..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
@@ -3610,7 +3610,7 @@ msgstr "Vytvořit &knihovnu"
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
-msgstr ""
+msgstr "Vytvořit &značku..."
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -4847,7 +4847,7 @@ msgstr "Externí program:"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
-msgstr ""
+msgstr "&Získat..."
 
 #. Resource IDs: (17113)
 msgid "Fade"
@@ -4971,7 +4971,7 @@ msgstr "&Přinést a přeskládat"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr ""
+msgstr "Získat odevzdání ze vzdáleného úložiště."
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -8066,7 +8066,7 @@ msgstr "Odeslat"
 
 #. Resource IDs: (IDS_MENUDESCPULL)
 msgid "Pull (fetch and merge) commits from a remote branch."
-msgstr ""
+msgstr "Stáhnout (získat a sloučit) odevzdání ze vzdáleného úložiště."
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
 msgid "Pull requires the selected local branch to be the current branch."
@@ -8090,7 +8090,7 @@ msgstr "O&deslat"
 
 #. Resource IDs: (IDS_MENUPUSH)
 msgid "Pus&h..."
-msgstr ""
+msgstr "O&deslat..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 303, Dialog IDD_SYNC: Control id
 #. 1612)
@@ -8107,7 +8107,7 @@ msgstr "URL odeslání:"
 
 #. Resource IDs: (IDS_MENUDESCPUSH)
 msgid "Push commits to a remote repository."
-msgstr ""
+msgstr "Odevzdat vaše změny do vzdáleného úložiště."
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
@@ -10687,6 +10687,13 @@ msgid ""
 "commits."
 msgstr "Tuto operaci nelze spustit, dokud dialogové okno záznamů nenačte odevzdání."
 
+#. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
+msgid ""
+"This preserves merge commits, however, it has known bugs as re-ordering "
+"commits is not working properly (same limitation as for vanilla git rebase),"
+" see help."
+msgstr ""
+
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
@@ -12265,6 +12272,10 @@ msgstr "pixelů"
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "possible or real conflict/obstructed"
 msgstr "možný nebo skutečný konflikt/zablokováno"
+
+#. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
+msgid "preserve merges"
+msgstr ""
 
 #. Resource IDs: (61509)
 msgid "prn"
