@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-28 22:44+0000\n"
+"PO-Revision-Date: 2015-12-29 04:54+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -1575,7 +1575,7 @@ msgstr "<b>TortoiseGit</b> es una extensión del shell.\nEsto significa que se i
 msgid ""
 "<b>Warning:</b> It has not been checked if these branches have been fully "
 "merged into HEAD."
-msgstr "<b>Advertencia:</b> No se ha comprobado si estos ramales se han combinado complemente en HEAD (cabeza)."
+msgstr "<b>Advertencia:</b> No se ha comprobado si estos ramales se han combinado (merge) complemente en HEAD (cabeza)."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "<b>Warning:</b> This action will remove the branches on the remote."
@@ -1738,15 +1738,15 @@ msgstr "Abortar"
 
 #. Resource IDs: (IDS_MENUMERGEABORT)
 msgid "Abort &Merge"
-msgstr "Abortar &\"Merge\""
+msgstr "Abortar &combinación (merge)"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 4592)
 msgid "Abort Merge"
-msgstr "Abortar \"Merge\""
+msgstr "Abortar combinación (merge)"
 
 #. Resource IDs: (IDS_MENUDESCMERGEABORT)
 msgid "Aborts a running merge."
-msgstr "Aborta un \"Merge\" en marcha."
+msgstr "Aborta una combinación (merge) en marcha."
 
 #. Resource IDs: (ID_APP_ABOUT - Ribbon name)
 msgid "About"
@@ -1832,7 +1832,7 @@ msgstr "Añadir programa específico para extensiones diff"
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_MERGE_TOOL)
 msgid "Add extension specific merge program"
-msgstr "Añadir progama específico para extensiones merge"
+msgstr "Añadir programa merge específico de extensión"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1065)
 msgid "Add new files automatically to Git"
@@ -1853,7 +1853,7 @@ msgstr "Añadir..."
 
 #. Resource IDs: (Dialog IDD_TOOLASSOC: Control id 171)
 msgid "Add/Edit Extension Specific Diff/Merge Program"
-msgstr "Añadir/Editar Programa específico de extensiones Diff/Merge"
+msgstr "Añadir/Editar programa Diff/Merge específico de extensión"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1705, Dialog
 #. IDD_SETCOLORPAGE: Control id 65535, Dialog IDD_SETTINGSOVERLAYHANDLERS:
@@ -1902,7 +1902,7 @@ msgstr "Configuraciones avanzadas Dif."
 
 #. Resource IDs: (IDS_DLGTITLE_ADV_MERGE)
 msgid "Advanced merge settings"
-msgstr "Ajustes avanzados para combinar"
+msgstr "Ajustes avanzados de combinación (merge)"
 
 #. Resource IDs: (IDS_ALL)
 msgid "All"
@@ -2035,7 +2035,7 @@ msgid ""
 "%theirs: the file as it is in the repository\n"
 "%mine: your own file, with your changes\n"
 "%base: the original file without your changes"
-msgstr "Utilizar un progama Merge externo\npara resolver conflictos de archivos.\n\nPuedes especificar los siguientes parámetros para la ruta:\n%merged: donde se guarda, el archivo en conflicto\n%theirs: el archivo como está en el repositorio\n%mine: tu archvo, con tus cambios\n%base: el archivo original sin tus cambios"
+msgstr "Un progarma merge externo usado\npara resolver ficheros en conflicto.\n\nPuede especificar los siguientes parámetros para la ruta:\n%merged: el fichero en conflicto, dónde guardarlo\n%theirs: el fichero como está en el repositorio\n%mine: su propio fichero, con sus cambios\n%base: el fichero original sin sus cambios"
 
 #. Resource IDs: (61862)
 #, c-format
@@ -2272,7 +2272,7 @@ msgstr "Auto-cerrar si no hay opciones adicionales disponibles."
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOMERGES)
 msgid "Auto-close if no merges, adds or deletes"
-msgstr "Auto-cerrar si no hay que combinar, añadidos ó eliminados"
+msgstr "Auto-cerrar si ninguna combinación, añade o borra"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCOMPLETION_TT)
 msgid ""
@@ -2636,7 +2636,7 @@ msgstr "Cancelar"
 msgid ""
 "Cancel\n"
 "Don't quit TortoiseGitMerge"
-msgstr "Cancelar\nNo dejar TortoiseGitMerge"
+msgstr "Cancelar\nNo salir de TortoiseGitMerge"
 
 #. Resource IDs: (IDS_ASKFORSAVE_TASK8)
 msgid ""
@@ -2994,7 +2994,7 @@ msgstr "Pulsa  en \"Avanzado\" para especificar programas alternativos de dif.  
 msgid ""
 "Click on \"Advanced\" to specify alternate merge programs based on file "
 "extension"
-msgstr "Pulsa  en \"Avanzado\" para especificar programas alternativos de merge  basados en extensión de archivo"
+msgstr "Pulse en \"Avanzada\" para especificar programas de combinación (merge) alternativos basados en la extensión del fichero"
 
 #. Resource IDs: (32914)
 msgid ""
@@ -3566,7 +3566,7 @@ msgid ""
 "Could not start external merge program!\n"
 "\n"
 "%s"
-msgstr "¡No se pudo iniciar programa externo para combidar!\n\n%s"
+msgstr "¡No se pudo iniciar el programa de combinación (merge) externo!\n\n%s"
 
 #. Resource IDs: (61702)
 msgid "Could not start print job."
@@ -3916,7 +3916,7 @@ msgstr "Eliminado"
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
 msgid "Deleted merge conflict"
-msgstr "Elimiado conflicto al combiar"
+msgstr "Conflicto de combinación (merge) eliminado"
 
 #. Resource IDs: (IDS_MENUDESCDELETEIGNORE)
 msgid ""
@@ -4042,7 +4042,7 @@ msgstr "Visor Dif."
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 193)
 msgid "Diff Viewer::Merge Tool"
-msgstr "Visor Dif.::Herramienta de combinación"
+msgstr "Visor Diff::Herramienta de combinación (merge)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff added lines"
@@ -4476,7 +4476,7 @@ msgstr "Editar programa de extensiones específicas dif"
 
 #. Resource IDs: (IDS_DLGTITLE_EDIT_MERGE_TOOL)
 msgid "Edit extension specific merge program"
-msgstr "Editar programa de extensiones específicas merge"
+msgstr "Editar programa de combinación (merge) específico de extensión"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1382)
 msgid "Edit gl&obal .gitconfig"
@@ -4898,7 +4898,7 @@ msgstr "No se pudo conseguir el archivo base."
 
 #. Resource IDs: (IDS_STATUSLIST_FAILEDGETMERGEFILE)
 msgid "Failed to get merge file."
-msgstr "No se pudo conseguir el archivo combinado."
+msgstr "No se pudo obtener archivo combinado."
 
 #. Resource IDs: (61703)
 msgid "Failed to launch help."
@@ -5403,7 +5403,7 @@ msgstr "General::Ajustar elementos del menú extendido "
 
 #. Resource IDs: (IDS_LOG_POPUP_GETMERGELOGS)
 msgid "Get merge logs"
-msgstr "Obtener Reg. de combinar"
+msgstr "Obtener logs de combinación"
 
 #. Resource IDs: (IDS_PROGRESSGETFILE)
 #, c-format
@@ -6236,7 +6236,7 @@ msgstr "En Consignas"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr "Para abortar un merge (fundido) en marcha, es necesario un reset (a HEAD)."
+msgstr "Para abortar una combinación (merge) en marcha es necesario un restablecimiento (a HEAD)."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -6449,7 +6449,7 @@ msgstr "Última fecha seleccionada"
 
 #. Resource IDs: (IDS_MENUDESCCONFLICT)
 msgid "Launches the external diff/merge program to solve the conflicts"
-msgstr "Lanzar un programa externo de dif./merge para resolver los conflictos"
+msgstr "Lanza el programa de diff/merge externo para para resolver los conflictos"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1137)
 msgid "Least active author:"
@@ -6552,7 +6552,7 @@ msgstr "&Clave Putty"
 msgid ""
 "Load changes\n"
 "Changes made in TortoiseGitMerge are lost and replaced with the new content."
-msgstr "Cargar cambios\nLos cambios realizados en TortoiseGitMerge se pedieron y fueron reemplazados con los nuevos contenidos."
+msgstr "Cargar cambios\nLos cambios realizados en TortoiseGitMerge se perdieron y fueron reemplazados con los nuevos contenidos."
 
 #. Resource IDs: (IDS_WARNMODIFIEDOUTSIDE_TASK4)
 msgid ""
@@ -6760,15 +6760,15 @@ msgstr "Menús &sombreados"
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1526, Dialog IDD_MERGE:
 #. Control id 313, IDS_PROGRS_TITLE_MERGE)
 msgid "Merge"
-msgstr "Combinar"
+msgstr "Combinar (merge)"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1635)
 msgid "Merge &Message"
-msgstr "&Mensaje de Combinar"
+msgstr "&Mensaje de combinació (merge)"
 
 #. Resource IDs: (IDS_PROC_LOG_MERGEPOINT)
 msgid "Merge Point"
-msgstr "Combianr Punto"
+msgstr "Punto de combinación (merge)"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_MERGEREINTEGRATE)
 msgid "Merge Reintegrate"
