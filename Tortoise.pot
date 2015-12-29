@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-28 15:57+0000\n"
+"PO-Revision-Date: 2015-12-29 18:45+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/lznuaa/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -651,6 +651,10 @@ msgstr "&Edit conflicts"
 msgid "&Edit..."
 msgstr "&Edit..."
 
+#. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
+msgid "&Edit/Split commit"
+msgstr "&Edit/Split commit"
+
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
 msgstr "&Email Patch"
@@ -1027,6 +1031,10 @@ msgstr "&Pick ALL"
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1414)
 msgid "&Port:"
 msgstr "&Port:"
+
+#. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
+msgid "&Preserve merges"
+msgstr "&Preserve merges"
 
 #. Resource IDs: (17091)
 msgid "&Print Preview"
@@ -1408,6 +1416,10 @@ msgstr "&Within file"
 #. Resource IDs: (IDS_MSGBOX_YES)
 msgid "&Yes"
 msgstr "&Yes"
+
+#. Resource IDs: (Dialog IDD_REBASE: Control id 1682)
+msgid "&add \"cherry picked from\""
+msgstr "&add \"cherry picked from\""
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
@@ -4498,10 +4510,6 @@ msgstr "Edit s&ystemwide gitconfig"
 #. IDD_SETTINGSHOOKS: Control id 1331)
 msgid "Edit..."
 msgstr "Edit..."
-
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
-msgid "Edit/Split commit"
-msgstr "Edit/Split commit"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1770, Dialog
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 1770, Dialog IDD_SETTINGSDIALOGS3:
@@ -10956,6 +10964,10 @@ msgstr "Track"
 msgid "Tracked Remote Branch:"
 msgstr "Tracked Remote Branch:"
 
+#. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
+msgid "Tracked Remote URL:"
+msgstr "Tracked Remote URL:"
+
 #. Resource IDs: (IDS_TRACKEDBRANCH)
 msgid "Tracked branch"
 msgstr "Tracked branch"
@@ -12003,10 +12015,6 @@ msgstr "\"git am\" is still in apply mode.\nDo you want to abort?"
 msgid "_POPUP_"
 msgstr "_POPUP_"
 
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1682)
-msgid "add \"cherry picked from\""
-msgstr "add \"cherry picked from\""
-
 #. Resource IDs: (IDS_STATUSADDED)
 msgid "added"
 msgstr "added"
@@ -12265,10 +12273,6 @@ msgstr "pixels"
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "possible or real conflict/obstructed"
 msgstr "possible or real conflict/obstructed"
-
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
-msgid "preserve merges"
-msgstr "preserve merges"
 
 #. Resource IDs: (61509)
 msgid "prn"
