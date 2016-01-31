@@ -10,7 +10,7 @@
 # Takumi Shotoku <sinsoku.listy@gmail.com>, 2012
 # Tetsuhiko Koto, 2014
 # Tetsuhiko Koto, 2012-2014
-# Tetsuhiko Koto, 2014-2015
+# Tetsuhiko Koto, 2014-2016
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2012-2013
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2013
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2013-2015
@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-29 18:45+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-01-31 10:59+0000\n"
+"Last-Translator: Tetsuhiko Koto\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -664,7 +664,7 @@ msgstr "編集(&E)..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
-msgstr ""
+msgstr "コミットを編集/分割する(&E)"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
@@ -1045,7 +1045,7 @@ msgstr "ポート(&P):"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
 msgid "&Preserve merges"
-msgstr ""
+msgstr "マージを保つ(&P)"
 
 #. Resource IDs: (17091)
 msgid "&Print Preview"
@@ -1069,7 +1069,7 @@ msgstr "プル(&P)"
 
 #. Resource IDs: (IDS_MENUPULL)
 msgid "&Pull..."
-msgstr ""
+msgstr "プル(&P)..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -1430,7 +1430,7 @@ msgstr "はい(&Y)"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1682)
 msgid "&add \"cherry picked from\""
-msgstr ""
+msgstr "\"cherry picked from\" を追加(&A)"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
@@ -2481,7 +2481,7 @@ msgstr "ブランチ名"
 
 #. Resource IDs: (IDS_REV_COUNTER)
 msgid "Branch RevNo"
-msgstr "ブランチリビジョンNo"
+msgstr "ブランチリビジョン番号"
 
 #. Resource IDs: (IDS_B_T_INVALID)
 msgid "Branch/Tag name is invalid."
@@ -2497,7 +2497,7 @@ msgstr "ブランチ:"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1383)
 msgid "Bro&wse..."
-msgstr "ブラウズ(&W)..."
+msgstr "参照(&W)..."
 
 #. Resource IDs: (IDS_MENUREFBROWSE)
 msgid "Browse References"
@@ -3618,7 +3618,7 @@ msgstr "カウント: %u個の一致。"
 
 #. Resource IDs: (IDS_MENUBRANCH)
 msgid "Create &Branch..."
-msgstr ""
+msgstr "ブランチを作成(&B)..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
@@ -3626,7 +3626,7 @@ msgstr "ライブラリを作成(&L)"
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
-msgstr ""
+msgstr "タグを作成(&T)..."
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -4605,7 +4605,7 @@ msgid ""
 "Encoding\n"
 "Convert to the specified encoding\n"
 "Hold down the Ctrl key to reload the file with the specified encoding."
-msgstr "エンコード\n指定のエンコードに変換\n指定のエンコードでファイルを再読込するため、Ctrlキーを押下します。"
+msgstr "エンコーディング\n特定のエンコーディングに変換\n特定のエンコーディングでファイルを再読込するには、Ctrlキーを押し続けてください。"
 
 #. Resource IDs: (61866)
 #, c-format
@@ -4859,7 +4859,7 @@ msgstr "外部プログラム:"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
-msgstr ""
+msgstr "フェッチ(&E)..."
 
 #. Resource IDs: (17113)
 msgid "Fade"
@@ -4962,7 +4962,7 @@ msgstr "ファストフォワード"
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1484, Dialog IDD_PULLFETCH:
 #. Control id 1484)
 msgid "Fast Forward O&nly"
-msgstr "ファーストフォワードのみ(&N)"
+msgstr "ファストフォワードのみ(&N)"
 
 #. Resource IDs: (IDS_PROC_REBASE_FFTO)
 #, c-format
@@ -4983,7 +4983,7 @@ msgstr "フェッチ＆リベース(&B)"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr ""
+msgstr "リモートリポジトリからコミットを取り寄せる"
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -6811,7 +6811,7 @@ msgstr "マージしたファイル"
 
 #. Resource IDs: (IDS_MENUDESCMERGE)
 msgid "Merges another branch"
-msgstr "異なるブランチへマージ"
+msgstr "他のブランチをマージする"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1073)
 msgid "Merging"
@@ -8078,7 +8078,7 @@ msgstr "プル"
 
 #. Resource IDs: (IDS_MENUDESCPULL)
 msgid "Pull (fetch and merge) commits from a remote branch."
-msgstr ""
+msgstr "リモートリポジトリからコミットを取り寄せてマージする"
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
 msgid "Pull requires the selected local branch to be the current branch."
@@ -8102,7 +8102,7 @@ msgstr "プッシュ(&H)"
 
 #. Resource IDs: (IDS_MENUPUSH)
 msgid "Pus&h..."
-msgstr ""
+msgstr "プッシュ(&H)..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 303, Dialog IDD_SYNC: Control id
 #. 1612)
@@ -8119,7 +8119,7 @@ msgstr "プッシュ URL:"
 
 #. Resource IDs: (IDS_MENUDESCPUSH)
 msgid "Push commits to a remote repository."
-msgstr ""
+msgstr "コミットをリモートリポジトリへプッシュする"
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
@@ -9534,7 +9534,7 @@ msgid ""
 "Show branch revision number (git rev-list --count --first-parent) in log "
 "dialog and after a push to a remote branch; this is not guaranteed to be "
 "unique, please see help"
-msgstr "ダイアログ上でブランチのリビジョン番号を表示 (git rev-list --count --first-parent) して、リモートブランチにプッシュします。これは一意であることが保証されているわけではありません。ヘルプを参照してください。"
+msgstr "ブランチリビジョン番号 (git rev-list --count --first-parent) をログダイアログと、リモートブランチにプッシュの後で、表示します。これは一意であることが保証されているわけではありません。ヘルプを参照してください。"
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is on"
@@ -10977,7 +10977,7 @@ msgstr "追跡中のリモートブランチ:"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Tracked Remote URL:"
-msgstr ""
+msgstr "追跡しているリモートのURL"
 
 #. Resource IDs: (IDS_TRACKEDBRANCH)
 msgid "Tracked branch"
@@ -11535,7 +11535,7 @@ msgstr " .tgitconfigを表示"
 
 #. Resource IDs: (ID_VIEW_BARS - Ribbon name)
 msgid "View Bars"
-msgstr "バー表示"
+msgstr "バーを表示"
 
 #. Resource IDs: (Dialog IDD_PATCH_VIEW: Control id 328, IDS_MENU_VIEWPATCH)
 msgid "View Patch"
@@ -12004,7 +12004,7 @@ msgstr "\"%s\" は、gitのサブモジュールを含んでいます。コピ�
 msgid ""
 "\"%s\" exited with an error, however, without generating any output such as "
 "an error message."
-msgstr "エラーメッセージ等の出力なく、エラーにより \"%s\" が終了しました。"
+msgstr "\"%s\" がエラーで終了しましたが、エラーメッセージといった出力はありませんでした。"
 
 #. Resource IDs: (IDS_PROC_REFINVALID)
 #, c-format
@@ -12197,7 +12197,7 @@ msgstr "行数: %d増 %d減、ファイル: %s = %ld\n%s = %ld\n%s = %ld\n%s = %
 
 #. Resource IDs: (IDS_SYSTEM_GCM)
 msgid "manager - all Windows users"
-msgstr "manager - 全てのWindows利用者"
+msgstr "manager - 全てのWindowsユーザー"
 
 #. Resource IDs: (IDS_GLOBAL_GCM)
 msgid "manager - current Windows user"
@@ -12246,7 +12246,7 @@ msgstr "いいえ"
 
 #. Resource IDs: (IDS_MENUDESCDEFAULT)
 msgid "no description for this command is available"
-msgstr "このコマンドへのすべての記述は無効です"
+msgstr "このコマンドの説明は提供されません"
 
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
@@ -12340,11 +12340,11 @@ msgstr "週"
 
 #. Resource IDs: (IDS_SYSTEM_WINCRED)
 msgid "wincred - all Windows users"
-msgstr "wincred - すべてのWindows利用者"
+msgstr "wincred - すべてのWindowsユーザー"
 
 #. Resource IDs: (IDS_GLOBAL_WINCRED)
 msgid "wincred - current Windows user"
-msgstr "wincred - 現在のWindows利用者"
+msgstr "wincred - 現在のWindowsユーザー"
 
 #. Resource IDs: (IDS_LOCAL_WINCRED)
 msgid "wincred - this repository only"
