@@ -12,15 +12,15 @@
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # mkrawiecki <michal.krawiecki@erlkoenig.pl>, 2011
 # Pablos <pawel.patyk@pabloart.pl>, 2012
-# Sebastian Kaczorowski <gq9lbk@gmail.com>, 2015
+# Sebastian Kaczorowski <gq9lbk@gmail.com>, 2015-2016
 # taksun <taksun@o2.pl>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2015-12-29 18:45+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-02-13 00:01+0000\n"
+"Last-Translator: Sebastian Kaczorowski <gq9lbk@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/lznuaa/tortoisegit/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,7 +53,7 @@ msgstr "Liczba autorów do pokazania osobno: #"
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALMBTRANSFERRED)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr "%.2f MiB przesłanych"
+msgstr "%.2f MB przesłanych"
 
 #. Resource IDs: (61878)
 #, c-format
@@ -683,7 +683,7 @@ msgstr "&Włącz edytowanie"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
-msgstr ""
+msgstr "&Wyjście Ctrl+W"
 
 #. Resource IDs: (IDS_FILEDIFF_POPEXPORT)
 msgid "&Export selection to..."
@@ -1437,7 +1437,7 @@ msgstr "&Ignoruj zmiany białych znaków"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "&known changes"
-msgstr ""
+msgstr "&znane zmiany"
 
 #. Resource IDs: (IDS_TORTOISEGITDEFAULT)
 msgid "(TortoiseGit default)"
@@ -2365,7 +2365,7 @@ msgstr "Podstawowe informacje"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "Between files:"
-msgstr ""
+msgstr "Pomiędzy plikami:"
 
 #. Resource IDs: (5060 - Menu)
 msgid "Big5 (Traditional)"
@@ -3807,7 +3807,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDAEMON)
 msgid "Daemon"
-msgstr ""
+msgstr "Demon"
 
 #. Resource IDs: (IDS_LOG_DATE, IDS_STATUSLIST_COLDATE)
 msgid "Date"
@@ -3863,11 +3863,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
-msgstr ""
+msgstr "Usuń ref..."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEALLTAGS)
 msgid "Delete all tags"
-msgstr ""
+msgstr "Usuń wszystkie tagi"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE)
 #, c-format
@@ -7623,7 +7623,7 @@ msgstr "Nadpisz, jeśli gałąź istnieje"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_OVERWRITE)
 msgid "Overwrite"
-msgstr ""
+msgstr "Nadpisz"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1521)
 msgid "Overwrite working tree changes (force)"
@@ -9973,7 +9973,7 @@ msgstr "Stan"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Ribbon name)
 msgid "Status Bar"
-msgstr ""
+msgstr "Pasek stanu"
 
 #. Resource IDs: (17087)
 msgid "Status Bar Configuration"
@@ -11299,7 +11299,7 @@ msgstr "Użyj obu bloków tekstu (ten jako ostatni)"
 
 #. Resource IDs: (IDS_SMTP_CONFIGURED)
 msgid "Use configured server"
-msgstr ""
+msgstr "Użyj skonfigurowanego serwera"
 
 #. Resource IDs: (ID_EDIT_USELEFTBLOCK - Menu, ID_EDIT_USELEFTBLOCK - Ribbon
 #. name)
@@ -12253,7 +12253,7 @@ msgstr "poza kontrolą wersji"
 
 #. Resource IDs: (IDS_ENCRYPT_NONE)
 msgid "none"
-msgstr ""
+msgstr "brak"
 
 #. Resource IDs: (IDS_STATUSNORMAL)
 msgid "normal"
