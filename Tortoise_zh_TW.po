@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-15 01:08+0000\n"
+"PO-Revision-Date: 2016-02-15 08:33+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1564,7 +1564,7 @@ msgstr "<由 Git 自動產生>"
 
 #. Resource IDs: (IDS_PROC_LOG_BASIC_REFS)
 msgid "<Basic Refs>"
-msgstr ""
+msgstr "<基本參照>"
 
 #. Resource IDs: (IDS_PROC_LOG_LOCAL_BRANCHES)
 msgid "<Local Branches>"
@@ -1942,11 +1942,11 @@ msgstr "所有檔案 (*.*)|*.*||"
 
 #. Resource IDs: (IDS_ALLPARENTS)
 msgid "All Parents"
-msgstr "所有父版本"
+msgstr "所有親代"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_BASIC_REFS)
 msgid "All basic refs"
-msgstr ""
+msgstr "所有基本參照"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_LOCAL_BRANCHES)
 msgid "All local branches"
@@ -4108,7 +4108,7 @@ msgstr "比較至「%s」"
 #. Resource IDs: (IDS_STATUSLIST_GROUP_DIFFWITHPARENT)
 #, c-format
 msgid "Diff with parent %d"
-msgstr "與父版本 %d 比較"
+msgstr "與親代 %d 比較"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -5195,11 +5195,11 @@ msgstr "完成！"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FIRSTPARENT)
 msgid "First Parent"
-msgstr "第一個父節點"
+msgstr "第一個親代"
 
 #. Resource IDs: (IDS_LOG_SHOW_FIRST_PARENT)
 msgid "First Parent Only"
-msgstr "只限第一個父節點"
+msgstr "只限第一個親代"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1617)
 msgid "First known &bad:"
@@ -7674,20 +7674,20 @@ msgstr "參數："
 #. Resource IDs: (IDS_BLAME_POPUP_PARENT, IDS_PARENT)
 #, c-format
 msgid "Parent %d"
-msgstr "父節點 %d"
+msgstr "親代 %d"
 
 #. Resource IDs: (IDS_PROC_NOPARENT)
 #, c-format
 msgid "Parent %d does not exist"
-msgstr "父節點 %d 不存在"
+msgstr "親代 %d 不存在"
 
 #. Resource IDs: (IDS_PROC_LOG_PARENT1)
 msgid "Parent 1"
-msgstr "父版本1"
+msgstr "親代 1"
 
 #. Resource IDs: (IDS_PROC_LOG_PARENT2)
 msgid "Parent 2"
-msgstr "父版本2"
+msgstr "親代 2"
 
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
@@ -10325,7 +10325,7 @@ msgid ""
 "While merging conflicts can occur which need to be resolved manually (i.e., integrate your changes into a file which was also modified on another branch).\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "你正在完成一個特殊的提交，名為「合併提交」，因此，它包含你的變更以及合併來源分支的變更。\n\n你「不」應該取消勾選某些檔案，除非你知道你正在做什麼。\n\n合併時可能會發生需要手動解決的衝突；這意謂著，你的變更和合併來源分支都修改了相同檔案中的相關部分。\n\n請參考「說明文件」取得更多資訊。"
 
 #. Resource IDs: (IDS_GITCREDENTIAL_OVERWRITEHELPER)
 #, c-format
@@ -10681,7 +10681,7 @@ msgid ""
 "There is nothing to add.\n"
 "All the files and folders are either under version control,\n"
 "have been ignored or the global ignore configuration setting."
-msgstr ""
+msgstr "没有可加入的項目。\n所有檔案要不是已經進行了版本控制、\n不然就是被忽略或者被全域忽略設定設為忽略。"
 
 #. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
 msgid "Thesaurus"
@@ -12009,7 +12009,7 @@ msgid ""
 "is a merge commit.\n"
 "\n"
 "Which parent do you want to pick?"
-msgstr ""
+msgstr "\"%s\" - \"%s\"\n是一個合併提交。\n\n你想要使用哪一個親代？"
 
 #. Resource IDs: (IDS_PROC_COPY_REPOSITORY)
 #, c-format
