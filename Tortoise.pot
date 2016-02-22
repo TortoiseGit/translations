@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-14 16:33+0000\n"
+"PO-Revision-Date: 2016-02-22 18:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/lznuaa/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -976,8 +976,7 @@ msgstr "&None"
 msgid "&Notepad2"
 msgstr "&Notepad2"
 
-#. Resource IDs: (1, Dialog IDD_COMMITDLG: Control id 1, Dialog
-#. IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
+#. Resource IDs: (1, Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
 msgstr "&OK"
 
@@ -1064,7 +1063,7 @@ msgstr "&Pull..."
 msgid "&Push all branches"
 msgstr "&Push all branches"
 
-#. Resource IDs: (IDS_PROC_COMMIT_RECOMMIT)
+#. Resource IDs: (IDS_COMMIT_RECOMMIT, IDS_PROC_COMMIT_RECOMMIT)
 msgid "&ReCommit"
 msgstr "&ReCommit"
 
@@ -2558,6 +2557,10 @@ msgstr "C&heck now"
 msgid "C&ommands:"
 msgstr "C&ommands:"
 
+#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
+msgid "C&ommit"
+msgstr "C&ommit"
+
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
 msgstr "C&reate branch/tag from revision"
@@ -3154,6 +3157,10 @@ msgstr "Commit %s is NOT visible right now."
 #, c-format
 msgid "Commit %s not found in \"%s\". Update submodule now?"
 msgstr "Commit %s not found in \"%s\". Update submodule now?"
+
+#. Resource IDs: (IDS_COMMIT_COMMITPUSH)
+msgid "Commit && &Push"
+msgstr "Commit && &Push"
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
@@ -7112,6 +7119,10 @@ msgstr "No Co&mmit"
 #. Resource IDs: (IDS_PROC_NOHEAD)
 msgid "No HEAD found"
 msgstr "No HEAD found"
+
+#. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
+msgid "No a/ and b/ prefixes"
+msgstr "No a/ and b/ prefixes"
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""

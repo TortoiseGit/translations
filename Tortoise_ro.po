@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-14 16:33+0000\n"
+"PO-Revision-Date: 2016-02-22 18:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/lznuaa/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -992,8 +992,7 @@ msgstr "&Nimic"
 msgid "&Notepad2"
 msgstr "&Notepad2"
 
-#. Resource IDs: (1, Dialog IDD_COMMITDLG: Control id 1, Dialog
-#. IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
+#. Resource IDs: (1, Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
 msgstr "&OK"
 
@@ -1080,7 +1079,7 @@ msgstr ""
 msgid "&Push all branches"
 msgstr "Îm&pinge toate ramurile"
 
-#. Resource IDs: (IDS_PROC_COMMIT_RECOMMIT)
+#. Resource IDs: (IDS_COMMIT_RECOMMIT, IDS_PROC_COMMIT_RECOMMIT)
 msgid "&ReCommit"
 msgstr "&ReTransmite"
 
@@ -2574,6 +2573,10 @@ msgstr "&Verifică acum"
 msgid "C&ommands:"
 msgstr "&Comenzi:"
 
+#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
+msgid "C&ommit"
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
 msgstr "C&rează ramură/etichetă din revizie"
@@ -3170,6 +3173,10 @@ msgstr "Transmiterea %s NU este vizibila acum."
 #, c-format
 msgid "Commit %s not found in \"%s\". Update submodule now?"
 msgstr "Transmiterea %s nu a fost gasita in %s. Actualizare submodul acum? "
+
+#. Resource IDs: (IDS_COMMIT_COMMITPUSH)
+msgid "Commit && &Push"
+msgstr ""
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
@@ -7128,6 +7135,10 @@ msgstr "Fara Trans&miteri"
 #. Resource IDs: (IDS_PROC_NOHEAD)
 msgid "No HEAD found"
 msgstr "Nu s-a găsit niciun HEAD"
+
+#. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
+msgid "No a/ and b/ prefixes"
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""

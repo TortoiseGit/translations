@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-14 16:33+0000\n"
+"PO-Revision-Date: 2016-02-22 18:46+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -984,8 +984,7 @@ msgstr "&Keine"
 msgid "&Notepad2"
 msgstr "&Notepad2"
 
-#. Resource IDs: (1, Dialog IDD_COMMITDLG: Control id 1, Dialog
-#. IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
+#. Resource IDs: (1, Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
 msgstr "&OK"
 
@@ -1072,7 +1071,7 @@ msgstr "&Anfordern..."
 msgid "&Push all branches"
 msgstr "Alle Zweige &versenden"
 
-#. Resource IDs: (IDS_PROC_COMMIT_RECOMMIT)
+#. Resource IDs: (IDS_COMMIT_RECOMMIT, IDS_PROC_COMMIT_RECOMMIT)
 msgid "&ReCommit"
 msgstr "E&rneut eintragen"
 
@@ -1564,7 +1563,7 @@ msgstr "<Wird von Git generiert>"
 
 #. Resource IDs: (IDS_PROC_LOG_BASIC_REFS)
 msgid "<Basic Refs>"
-msgstr ""
+msgstr "<Einfache Refs>"
 
 #. Resource IDs: (IDS_PROC_LOG_LOCAL_BRANCHES)
 msgid "<Local Branches>"
@@ -1946,7 +1945,7 @@ msgstr "Alle Eltern"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_BASIC_REFS)
 msgid "All basic refs"
-msgstr ""
+msgstr "Alle einfachen Referenzen"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_LOCAL_BRANCHES)
 msgid "All local branches"
@@ -2566,6 +2565,10 @@ msgstr "&Jetzt prüfen"
 msgid "C&ommands:"
 msgstr "B&efehle:"
 
+#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
+msgid "C&ommit"
+msgstr "&Eintragen"
+
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
 msgstr "E&rstelle Zweig/Marke von Revision"
@@ -3163,6 +3166,10 @@ msgstr "Eintragung %s ist im Moment NICHT sichtbar,"
 msgid "Commit %s not found in \"%s\". Update submodule now?"
 msgstr "Eintragung %s in \"%s\" nicht gefunden. Submodul jetzt aktualisieren?"
 
+#. Resource IDs: (IDS_COMMIT_COMMITPUSH)
+msgid "Commit && &Push"
+msgstr "Eintragen && &Versenden"
+
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
 msgstr "Eintragedatum"
@@ -3471,7 +3478,7 @@ msgstr "Kopiere..."
 
 #. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 1001)
 msgid "Copyright (C) 2009-2016 TortoiseGit"
-msgstr ""
+msgstr "Copyright (C) 2009-2016 TortoiseGit"
 
 #. Resource IDs: (IDS_SPELLEDIT_CORRECTIONS)
 msgid "Corrections"
@@ -4864,7 +4871,7 @@ msgstr "Anwendung:"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
-msgstr ""
+msgstr "&Aktualisieren"
 
 #. Resource IDs: (17113)
 msgid "Fade"
@@ -4988,7 +4995,7 @@ msgstr "Aktualisieren && neu Auf&bauen"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr ""
+msgstr "Aktualisiere Eintragungen von einem entfernten Projektarchiv"
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -7121,6 +7128,10 @@ msgstr "Nicht Eintragen"
 msgid "No HEAD found"
 msgstr "Kein HEAD gefunden"
 
+#. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
+msgid "No a/ and b/ prefixes"
+msgstr "Keine a/ und b/ Präfixe"
+
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""
 "No command specified!\n"
@@ -8083,7 +8094,7 @@ msgstr "Anfordern"
 
 #. Resource IDs: (IDS_MENUDESCPULL)
 msgid "Pull (fetch and merge) commits from a remote branch."
-msgstr ""
+msgstr "Aktualisiere Eintragungen (Anfordern und Zusammenführen) von einem entfernten Projektarchiv"
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
 msgid "Pull requires the selected local branch to be the current branch."
@@ -10681,7 +10692,7 @@ msgid ""
 "There is nothing to add.\n"
 "All the files and folders are either under version control,\n"
 "have been ignored or the global ignore configuration setting."
-msgstr ""
+msgstr "Es gibt nichts hinzuzufügen.\nAlle Dateien und Ordner befinden sich entweder bereits unter Versionskontrolle oder sie werden ignoriert."
 
 #. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
 msgid "Thesaurus"
@@ -10721,7 +10732,7 @@ msgid ""
 "This preserves merge commits, however, it has known bugs as re-ordering "
 "commits is not working properly (same limitation as for vanilla git rebase),"
 " see help."
-msgstr ""
+msgstr "Dies erhält Zusammenführungseintragungen, jedoch sind hier mögliche Probleme bekannt: So ist z. B. das Umordnen von Eintragungen nicht immer möglich (gleiche EInschränkung wie bei git), siehe Hilfe."
 
 #. Resource IDs: (61710)
 #, c-format
@@ -12009,7 +12020,7 @@ msgid ""
 "is a merge commit.\n"
 "\n"
 "Which parent do you want to pick?"
-msgstr ""
+msgstr "\"%s\" - \"%s\"\nist eine Zusammenführungseintragung.\n\nWelchen Elter möchten Sie auswählen?"
 
 #. Resource IDs: (IDS_PROC_COPY_REPOSITORY)
 #, c-format

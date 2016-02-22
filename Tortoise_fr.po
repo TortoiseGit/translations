@@ -27,8 +27,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-19 20:17+0000\n"
-"Last-Translator: Stéphane Aulery <saulery@legtux.org>\n"
+"PO-Revision-Date: 2016-02-22 18:39+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -994,8 +994,7 @@ msgstr "&Aucun"
 msgid "&Notepad2"
 msgstr "&Notepad2"
 
-#. Resource IDs: (1, Dialog IDD_COMMITDLG: Control id 1, Dialog
-#. IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
+#. Resource IDs: (1, Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
 msgstr "&OK"
 
@@ -1082,7 +1081,7 @@ msgstr ""
 msgid "&Push all branches"
 msgstr "&Pousser toutes les branches"
 
-#. Resource IDs: (IDS_PROC_COMMIT_RECOMMIT)
+#. Resource IDs: (IDS_COMMIT_RECOMMIT, IDS_PROC_COMMIT_RECOMMIT)
 msgid "&ReCommit"
 msgstr "&ReLivrer"
 
@@ -2576,6 +2575,10 @@ msgstr "&Vérifier maintenant"
 msgid "C&ommands:"
 msgstr "C&ommandes:"
 
+#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
+msgid "C&ommit"
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
 msgstr "C&réer une branche/étiquette depuis une révision"
@@ -3172,6 +3175,10 @@ msgstr "La livraison %s N'EST PAS encore visible."
 #, c-format
 msgid "Commit %s not found in \"%s\". Update submodule now?"
 msgstr "Livraison %s non trouvée dans \"%s\". Mettre à jour le sous-module maintenant ?"
+
+#. Resource IDs: (IDS_COMMIT_COMMITPUSH)
+msgid "Commit && &Push"
+msgstr ""
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
@@ -7130,6 +7137,10 @@ msgstr "Pas de livraisons"
 #. Resource IDs: (IDS_PROC_NOHEAD)
 msgid "No HEAD found"
 msgstr "Pas de HEAD trouver"
+
+#. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
+msgid "No a/ and b/ prefixes"
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""

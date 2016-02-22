@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-14 16:33+0000\n"
+"PO-Revision-Date: 2016-02-22 18:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -988,8 +988,7 @@ msgstr "없음(&N)"
 msgid "&Notepad2"
 msgstr "&Notepad2"
 
-#. Resource IDs: (1, Dialog IDD_COMMITDLG: Control id 1, Dialog
-#. IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
+#. Resource IDs: (1, Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
 msgstr "확인(&O)"
 
@@ -1076,7 +1075,7 @@ msgstr ""
 msgid "&Push all branches"
 msgstr "모든 브랜치 푸시(&P)"
 
-#. Resource IDs: (IDS_PROC_COMMIT_RECOMMIT)
+#. Resource IDs: (IDS_COMMIT_RECOMMIT, IDS_PROC_COMMIT_RECOMMIT)
 msgid "&ReCommit"
 msgstr "한번 더(&R)"
 
@@ -2570,6 +2569,10 @@ msgstr "지금 확인(&H)"
 msgid "C&ommands:"
 msgstr "명령(&O):"
 
+#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
+msgid "C&ommit"
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
 msgstr "리비전으로부터 꼬리표/브랜치 생성(&R)"
@@ -3166,6 +3169,10 @@ msgstr "커밋 %s을(를) 지금 볼 수 있습니다."
 #, c-format
 msgid "Commit %s not found in \"%s\". Update submodule now?"
 msgstr "커밋 %s은(는) \"%s\"에서 찾을 수 없습니다.  지금 하위 모듈을 갱신하시겠습니까?"
+
+#. Resource IDs: (IDS_COMMIT_COMMITPUSH)
+msgid "Commit && &Push"
+msgstr ""
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
@@ -7124,6 +7131,10 @@ msgstr "No Co&mmit"
 #. Resource IDs: (IDS_PROC_NOHEAD)
 msgid "No HEAD found"
 msgstr "No HEAD found"
+
+#. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
+msgid "No a/ and b/ prefixes"
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""
