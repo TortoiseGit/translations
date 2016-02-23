@@ -11,23 +11,23 @@
 # gregseth <greg.seth@gmail.com>, 2013
 # gregseth <greg.seth@gmail.com>, 2013
 # lkppo, 2012
-# bauland <nicolas.bauland@laposte.net>, 2014-2015
+# bauland <nicolas.bauland@laposte.net>, 2014-2016
 # peter griffin <softy@yopmail.com>, 2013
 # Fred <pinky__007@hotmail.com>, 2013
 # Fred <pinky__007@hotmail.com>, 2013
-# Raphaël MICHEL <raphael.michel@tymsoft.fr>, 2015
+# Raphaël MICHEL <raphael.michel@tymsoft.fr>, 2015-2016
 # peter griffin <softy@yopmail.com>, 2013
 # lkppo, 2012
 # Stéphane Aulery <saulery@legtux.org>, 2016
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2014
 # ykatchou <ykatchou@gmail.com>, 2012-2013
-# Yohann Berger <yohann.berger@gmail.com>, 2015
+# Yohann Berger <inactive+yberger@transifex.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-22 18:39+0000\n"
+"PO-Revision-Date: 2016-02-23 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -61,7 +61,7 @@ msgstr "# auteurs affichés individuellement :"
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALMBTRANSFERRED)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr "%.2f MiB transféré"
+msgstr "%.2f Mio transféré"
 
 #. Resource IDs: (61878)
 #, c-format
@@ -210,7 +210,7 @@ msgstr "%I64d octets transférés"
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALTRANSFERRED)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr "%I64d KiB transféré"
+msgstr "%I64d Kio transféré"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
@@ -671,7 +671,7 @@ msgstr "&Editer..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
-msgstr ""
+msgstr "Modifi&er/Découper la livraison"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
@@ -1051,7 +1051,7 @@ msgstr "&Port :"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
 msgid "&Preserve merges"
-msgstr ""
+msgstr "&Conserver les fusions"
 
 #. Resource IDs: (17091)
 msgid "&Print Preview"
@@ -1075,7 +1075,7 @@ msgstr "&Tirer"
 
 #. Resource IDs: (IDS_MENUPULL)
 msgid "&Pull..."
-msgstr ""
+msgstr "Tirer..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -1623,7 +1623,7 @@ msgstr "<ct=0x0000FF>HEAD actuelle détachée</ct>, vous travaillez sur (aucune 
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "<ct=0x0000FF>Do you really want to delete <b>ALL %d</b> stash?</ct>"
-msgstr ""
+msgstr "<ct=0x0000FF>Voulez-vous vraiment supprimer <b>TOUS les %d</b>la réserve ?</ct>"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "<ct=0x0000FF>Stash Apply failed!!!</ct>"
@@ -2437,7 +2437,7 @@ msgstr "Fusionner la transparence"
 
 #. Resource IDs: (156 - Ribbon element)
 msgid "Blocks"
-msgstr ""
+msgstr "Blocs"
 
 #. Resource IDs: (10009, ID_VIEW_APPLOOK_OFF_2007_BLUE - Menu,
 #. ID_VIEW_APPLOOK_OFF_2007_BLUE - Ribbon name)
@@ -2577,7 +2577,7 @@ msgstr "C&ommandes:"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
 msgid "C&ommit"
-msgstr ""
+msgstr "Livrer"
 
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
@@ -3178,7 +3178,7 @@ msgstr "Livraison %s non trouvée dans \"%s\". Mettre à jour le sous-module mai
 
 #. Resource IDs: (IDS_COMMIT_COMMITPUSH)
 msgid "Commit && &Push"
-msgstr ""
+msgstr "Livrer && Tirer"
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
@@ -3640,7 +3640,7 @@ msgstr "Nombre: %u correspondances."
 
 #. Resource IDs: (IDS_MENUBRANCH)
 msgid "Create &Branch..."
-msgstr ""
+msgstr "Créer une &branche..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
@@ -3648,7 +3648,7 @@ msgstr "Créer une bibliothèque"
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
-msgstr ""
+msgstr "Créer une é&tiquette..."
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -4433,6 +4433,10 @@ msgstr "Dessinez le tag/la branche sur le côté droit"
 msgid "Drive Types"
 msgstr "Types de disque"
 
+#. Resource IDs: (IDS_DROPONESTASH)
+msgid "Drop one stash"
+msgstr "Supprimer une réserve"
+
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
 msgstr "Simulation"
@@ -4627,7 +4631,7 @@ msgid ""
 "Encoding\n"
 "Convert to the specified encoding\n"
 "Hold down the Ctrl key to reload the file with the specified encoding."
-msgstr ""
+msgstr "Encodage\nConvertir vers l'encodage spécifié\nMaintenez la touche Ctrl enfoncée pour recharger le fichier en utilisant l'encodage spécifié."
 
 #. Resource IDs: (61866)
 #, c-format
@@ -4881,7 +4885,7 @@ msgstr "Programme externe :"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
-msgstr ""
+msgstr "Tir&er..."
 
 #. Resource IDs: (17113)
 msgid "Fade"
@@ -5005,7 +5009,7 @@ msgstr "Extraire && Re&base"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr ""
+msgstr "Tirer les livraisons depuis le dépôt distant."
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -5254,6 +5258,14 @@ msgstr "Pour l'Aide, appuyer sur F1. Défilement horizontal avec Ctrl-Molette"
 #. Resource IDs: (IDS_LOG_STOPONCOPY_HINT)
 msgid "For complete history deselect 'Stop on copy/rename'"
 msgstr "Pour l'historique complet, désélectionnez 'Arrêt à la copie/renommage'"
+
+#. Resource IDs: (IDS_PULL_SETTRACKEDBRANCH)
+#, c-format
+msgid ""
+"For the current branch \"%s\" no tracked branch is configured.\n"
+"Do you want to set the selected branch \"%s\" as tracked branch?\n"
+"This will automatically select it for push and pull in the future."
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -8128,7 +8140,7 @@ msgstr "&Pousser"
 
 #. Resource IDs: (IDS_MENUPUSH)
 msgid "Pus&h..."
-msgstr ""
+msgstr "Pousser..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 303, Dialog IDD_SYNC: Control id
 #. 1612)
@@ -8145,7 +8157,7 @@ msgstr "URL pour pousser:"
 
 #. Resource IDs: (IDS_MENUDESCPUSH)
 msgid "Push commits to a remote repository."
-msgstr ""
+msgstr "Livrer vos livraisons dans le dépôt distant"
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
@@ -9981,7 +9993,7 @@ msgstr "Opération de sauvegarde en cours..."
 
 #. Resource IDs: (IDS_STATE)
 msgid "State"
-msgstr ""
+msgstr "État"
 
 #. Resource IDs: (16514, Dialog IDD_GITPROGRESS: Control id 1487, Dialog
 #. IDD_RESOLVE_CONFLICT: Control id 4572, Dialog IDD_RESOLVE_CONFLICT: Control
@@ -10702,7 +10714,7 @@ msgid ""
 "There is nothing to add.\n"
 "All the files and folders are either under version control,\n"
 "have been ignored or the global ignore configuration setting."
-msgstr ""
+msgstr "Il n'y a rien à ajouter.\nTous les fichiers et dossiers sont soit sous un contrôle de version,\nsont ignorés ou le réglage de configuration est sur une ignorance globale. "
 
 #. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
 msgid "Thesaurus"
@@ -10876,7 +10888,7 @@ msgid ""
 "The commit dialog cannot handle this.\n"
 "\n"
 "Do you want to restore or remove it from the index?"
-msgstr ""
+msgstr "TortoiseGit a détecté que le fichier \"%s\" n'existe pas, mais est marqué comme \"Ajouté\" ou \"Modifié\".\nLa fenêtre de livraison ne peut gérer cela.\n\nVoulez-vous le restaurer ou l'enlever de l'index?"
 
 #. Resource IDs: (IDS_PROC_MULTIRENAME)
 #, c-format
@@ -10983,7 +10995,7 @@ msgid ""
 "/title:\"title to show for the viewer\"\n"
 "/?  - this help dialog\n"
 "/p  - read diff input from console pipe"
-msgstr ""
+msgstr "TortoiseGitUDiff: l'afficheur de différence unifié pour TortoiseGit\n\nLes paramètres de ligne de commande disponible sont:\n/pacthfile:\"chemin du fichier\"\n/title:\"titre à afficher dans l'afficheur \"\n/? - Cette boîte de dialogue d'aide\n/p - lire le fichier depuis le tube de la console"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1739)
 msgid "Total changed lines including added/deleted files:"
@@ -11015,7 +11027,7 @@ msgstr "Branche distante suivie :"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Tracked Remote URL:"
-msgstr ""
+msgstr "URL distante suivie :"
 
 #. Resource IDs: (IDS_TRACKEDBRANCH)
 msgid "Tracked branch"
@@ -11193,7 +11205,7 @@ msgstr "Conflits non résolus!"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DROPTRACKEDBRANCH)
 msgid "Unset tracked branch"
-msgstr ""
+msgstr "Désélectionner la branche suivie"
 
 #. Resource IDs: (61443)
 msgid "Untitled"
@@ -11821,6 +11833,10 @@ msgstr "Oui pour tous"
 msgid "You already have the latest version installed."
 msgstr "Vous avez déjà la dernière version installée."
 
+#. Resource IDs: (IDS_PROC_PULL_EMPTYBRANCH)
+msgid "You asked to pull, but did not specify a remote branch."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid ""
 "You can disable specific Overlay handlers here.\n"
@@ -11853,7 +11869,7 @@ msgid ""
 "You have an old version of Git for Windows (https://git-for-windows.github.io/) installed which contains security issues.\n"
 "\n"
 "You should consider an upgrade to 1.9.5+."
-msgstr ""
+msgstr "Vous avez une ancienne version de Git pour Windows installée(https://git-for-windows.github.io/) qui présente des failles de sécurité.\n\nVous devriez envisager une mise à jour vers 1.9.5+."
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""

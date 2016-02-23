@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-22 18:39+0000\n"
+"PO-Revision-Date: 2016-02-23 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -4427,6 +4427,10 @@ msgstr "꼬리표/브랜치 라벨을 오른쪽에 그리기"
 msgid "Drive Types"
 msgstr "드라이브 종류"
 
+#. Resource IDs: (IDS_DROPONESTASH)
+msgid "Drop one stash"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
 msgstr "모의실험하기"
@@ -5248,6 +5252,14 @@ msgstr "도움말은 F1을 누르시고, 좌우 스크롤은 Ctrl을 누른 상�
 #. Resource IDs: (IDS_LOG_STOPONCOPY_HINT)
 msgid "For complete history deselect 'Stop on copy/rename'"
 msgstr "모든 로그를 보려면 '복사/이름변경 시점에서 중지'을 끄면 됩니다"
+
+#. Resource IDs: (IDS_PULL_SETTRACKEDBRANCH)
+#, c-format
+msgid ""
+"For the current branch \"%s\" no tracked branch is configured.\n"
+"Do you want to set the selected branch \"%s\" as tracked branch?\n"
+"This will automatically select it for push and pull in the future."
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -11814,6 +11826,10 @@ msgstr "모두 예"
 #. Resource IDs: (IDS_CHECKNEWER_YOURUPTODATE)
 msgid "You already have the latest version installed."
 msgstr "이미 최신버전입니다."
+
+#. Resource IDs: (IDS_PROC_PULL_EMPTYBRANCH)
+msgid "You asked to pull, but did not specify a remote branch."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid ""

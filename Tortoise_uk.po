@@ -7,7 +7,8 @@
 # Alexander Stulnikov <alarstyle@gmail.com>, 2015
 # Віктор Лелейко <victor.leleyko@gmail.com>, 2013
 # Dmytro Kutianskyi <dmytro.kutyansky@gmail.com>, 2015
-# ktretyak <ktretyakgm@gmail.com>, 2013
+# ktretyak <ktretyak.in.ua@gmail.com>, 2016
+# ktretyak <ktretyak.in.ua@gmail.com>, 2013
 # Max Lyashuk <m_lyashuk@ukr.net>, 2013
 # Max Lyashuk <m_lyashuk@ukr.net>, 2013
 # Max Lyashuk <m_lyashuk@ukr.net>, 2013
@@ -20,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-22 18:39+0000\n"
+"PO-Revision-Date: 2016-02-23 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/lznuaa/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +60,7 @@ msgstr "%.2f МіБ переслано"
 #. Resource IDs: (61878)
 #, c-format
 msgid "%1 contained an unexpected object."
-msgstr "%1 містив неочікуваний об'єкт."
+msgstr "%1 містить неочікуваний об'єкт."
 
 #. Resource IDs: (61859)
 #, c-format
@@ -4426,6 +4427,10 @@ msgstr ""
 msgid "Drive Types"
 msgstr "Типи дисків"
 
+#. Resource IDs: (IDS_DROPONESTASH)
+msgid "Drop one stash"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
 msgstr ""
@@ -5247,6 +5252,14 @@ msgstr "Щоб отримати Довідку, натисніть F1. Гори�
 #. Resource IDs: (IDS_LOG_STOPONCOPY_HINT)
 msgid "For complete history deselect 'Stop on copy/rename'"
 msgstr "Для повної історії зніміть виділення зі 'Спинитися при копіюванні/перейменуванні'"
+
+#. Resource IDs: (IDS_PULL_SETTRACKEDBRANCH)
+#, c-format
+msgid ""
+"For the current branch \"%s\" no tracked branch is configured.\n"
+"Do you want to set the selected branch \"%s\" as tracked branch?\n"
+"This will automatically select it for push and pull in the future."
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -11813,6 +11826,10 @@ msgstr ""
 #. Resource IDs: (IDS_CHECKNEWER_YOURUPTODATE)
 msgid "You already have the latest version installed."
 msgstr "У вас уже встановлено найновішу версію."
+
+#. Resource IDs: (IDS_PROC_PULL_EMPTYBRANCH)
+msgid "You asked to pull, but did not specify a remote branch."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid ""

@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-22 18:39+0000\n"
+"PO-Revision-Date: 2016-02-23 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -674,7 +674,7 @@ msgstr "&Исправить..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
-msgstr ""
+msgstr "&Редактировать/разделить фиксацию"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
@@ -1054,7 +1054,7 @@ msgstr "&Порт:"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
 msgid "&Preserve merges"
-msgstr ""
+msgstr "&Сохранить слияния"
 
 #. Resource IDs: (17091)
 msgid "&Print Preview"
@@ -1576,7 +1576,7 @@ msgstr "<Автоматически создано в Git>"
 
 #. Resource IDs: (IDS_PROC_LOG_BASIC_REFS)
 msgid "<Basic Refs>"
-msgstr ""
+msgstr "<Основные Ссылки>"
 
 #. Resource IDs: (IDS_PROC_LOG_LOCAL_BRANCHES)
 msgid "<Local Branches>"
@@ -1958,7 +1958,7 @@ msgstr "Все предки"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_BASIC_REFS)
 msgid "All basic refs"
-msgstr ""
+msgstr "Все основные ссылки"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_LOCAL_BRANCHES)
 msgid "All local branches"
@@ -2498,7 +2498,7 @@ msgstr "Имя ветви"
 
 #. Resource IDs: (IDS_REV_COUNTER)
 msgid "Branch RevNo"
-msgstr ""
+msgstr "&Номер ревизии ветви"
 
 #. Resource IDs: (IDS_B_T_INVALID)
 msgid "Branch/Tag name is invalid."
@@ -2580,7 +2580,7 @@ msgstr "Ко&манды:"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
 msgid "C&ommit"
-msgstr ""
+msgstr "Фиксир&овать"
 
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
@@ -3181,7 +3181,7 @@ msgstr "Фиксация %s не найдена в \"%s\". Обновить по
 
 #. Resource IDs: (IDS_COMMIT_COMMITPUSH)
 msgid "Commit && &Push"
-msgstr ""
+msgstr "Фиксировать && &Отправить"
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
@@ -3491,7 +3491,7 @@ msgstr "Копирование..."
 
 #. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 1001)
 msgid "Copyright (C) 2009-2016 TortoiseGit"
-msgstr ""
+msgstr "Авторские права (C) 2009-2016 TortoiseGit"
 
 #. Resource IDs: (IDS_SPELLEDIT_CORRECTIONS)
 msgid "Corrections"
@@ -4062,7 +4062,7 @@ msgstr "Независимый от устройства растр\nнезав�
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1277)
 msgid "Dialog sizes and positions"
-msgstr "Размеры и расположение окон"
+msgstr "Размеры и расположение диалогов"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "Dialogs"
@@ -4189,7 +4189,7 @@ msgstr "Показывать &кнопки в этом порядке"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1910)
 msgid "Display branch revision number"
-msgstr ""
+msgstr "Отображать номер ревизии ветви"
 
 #. Resource IDs: (57609)
 msgid ""
@@ -4436,6 +4436,10 @@ msgstr "Выводить подписи веток/меток справа"
 msgid "Drive Types"
 msgstr "Типы накопителей"
 
+#. Resource IDs: (IDS_DROPONESTASH)
+msgid "Drop one stash"
+msgstr "Опустить одну копилку"
+
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
 msgstr "Пробный запуск"
@@ -4630,7 +4634,7 @@ msgid ""
 "Encoding\n"
 "Convert to the specified encoding\n"
 "Hold down the Ctrl key to reload the file with the specified encoding."
-msgstr ""
+msgstr "Кодировка\nПреобразовать в указанную кодировку\nНажмите клавишу Ctrl для перезагрузки файла с указанной кодировкой."
 
 #. Resource IDs: (61866)
 #, c-format
@@ -4884,7 +4888,7 @@ msgstr "Внешняя программа:"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
-msgstr ""
+msgstr "Извл&ечь"
 
 #. Resource IDs: (17113)
 msgid "Fade"
@@ -5008,7 +5012,7 @@ msgstr "Извлечь && Пере&базировать"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr ""
+msgstr "Извлечь фиксации из внешнего хранилища"
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -5258,6 +5262,14 @@ msgstr "Для справки нажмите F1. Для горизонтальн
 msgid "For complete history deselect 'Stop on copy/rename'"
 msgstr "Для получения полного списка разотметьте 'Остановиться на копировании/переименовании'"
 
+#. Resource IDs: (IDS_PULL_SETTRACKEDBRANCH)
+#, c-format
+msgid ""
+"For the current branch \"%s\" no tracked branch is configured.\n"
+"Do you want to set the selected branch \"%s\" as tracked branch?\n"
+"This will automatically select it for push and pull in the future."
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
 "Force creation of branch/tag - even if one with same name already exists."
@@ -5369,7 +5381,7 @@ msgstr "Полностью рекурсивно"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 65535)
 msgid "Further options for the commit dialog are on Dialogs 3 page."
-msgstr "Остальные опции перенесены на страницу Диалоги 3"
+msgstr "Остальные опции диалога фиксации перенесены на страницу Диалоги 3"
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -6644,7 +6656,7 @@ msgstr "Журнал"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "Log Branch Line"
-msgstr "Лини ветвей в журнале"
+msgstr "Линия ветви в журнале"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
 msgid "Log Graphic"
@@ -6676,7 +6688,7 @@ msgstr "Полученные кэшированные сообщения жур�
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1760)
 msgid "Login:"
-msgstr "Login:"
+msgstr "Логин:"
 
 #. Resource IDs: (IDS_REPOSTATUS_WCINFO)
 #, c-format
@@ -7143,7 +7155,7 @@ msgstr "ГОЛОВНАЯ ветвь не найдена"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
 msgid "No a/ and b/ prefixes"
-msgstr ""
+msgstr "Без a/ и b/ префиксов"
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""
@@ -7749,7 +7761,7 @@ msgstr "Инструмент вставки\nВставка"
 
 #. Resource IDs: (IDS_COMMITDLG_POPUP_LOGHISTORY)
 msgid "Paste r&ecent message..."
-msgstr ""
+msgstr "Вставить н&едавнее сообщение..."
 
 #. Resource IDs: (IDS_MENUDESCCLIPPASTE)
 msgid ""
@@ -8107,7 +8119,7 @@ msgstr "Получить"
 
 #. Resource IDs: (IDS_MENUDESCPULL)
 msgid "Pull (fetch and merge) commits from a remote branch."
-msgstr ""
+msgstr "Получить (извлечь и слить) фиксации из ветви внешнего хранилища."
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
 msgid "Pull requires the selected local branch to be the current branch."
@@ -8131,7 +8143,7 @@ msgstr "Отп&равить"
 
 #. Resource IDs: (IDS_MENUPUSH)
 msgid "Pus&h..."
-msgstr ""
+msgstr "Отп&равить..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 303, Dialog IDD_SYNC: Control id
 #. 1612)
@@ -8148,7 +8160,7 @@ msgstr "Отправить по URL:"
 
 #. Resource IDs: (IDS_MENUDESCPUSH)
 msgid "Push commits to a remote repository."
-msgstr ""
+msgstr "Отправить фиксации во внешнее хранилище."
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
@@ -8213,7 +8225,7 @@ msgstr "ПЕРЕБАЗИРОВАТЬ"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1769)
 msgid "Randomize Sync Dialog startup position"
-msgstr "Случайное положение окна синхронизации"
+msgstr "Случайное начальное положение диалогового окна синхронизации"
 
 #. Resource IDs: (IDS_SYNCDIALOGRANDOMPOS_TT)
 msgid ""
@@ -8723,7 +8735,7 @@ msgstr "Восстановить после фиксации"
 
 #. Resource IDs: (61202)
 msgid "Restore the window to normal size"
-msgstr "Восстановить окно до нормальных размеров"
+msgstr "Восстановить окно до нормального размера"
 
 #. Resource IDs: (IDS_SVNACTION_RESTORE)
 msgid "Restored"
@@ -9563,7 +9575,7 @@ msgid ""
 "Show branch revision number (git rev-list --count --first-parent) in log "
 "dialog and after a push to a remote branch; this is not guaranteed to be "
 "unique, please see help"
-msgstr ""
+msgstr "Показывать номер ревизии ветви (git rev-list --count --first-parent) в журнале и после отправки в ветвь внешнего хранилища; не гарантируется что номер будет уникальным, пожалуйста смотрите справку."
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is on"
@@ -10038,7 +10050,7 @@ msgstr "Завершить бинарный поиск"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1833)
 msgid "Stored decisions"
-msgstr ""
+msgstr "Сохранённые решения"
 
 #. Resource IDs: (IDS_MENUDESCDIFFLATER)
 msgid ""
@@ -10349,7 +10361,7 @@ msgid ""
 "While merging conflicts can occur which need to be resolved manually (i.e., integrate your changes into a file which was also modified on another branch).\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "Подготавливаемая вами фиксация - специальная. Она является фиксацией слияния и, поэтому, содержит как ваши изменения, так и изменения сливаемой ветви.\n\nВы должны НЕ отбрасывать файлы если вы не знаете что делаете.\n\nДо тех пор пока конфликты слияния могут возникать, которые потребуют ручного разрешения (т.е., интегрирования ваших изменений в файл который также был изменён в другой ветви).\n\nСмотрите справку для расширенной информации."
 
 #. Resource IDs: (IDS_GITCREDENTIAL_OVERWRITEHELPER)
 #, c-format
@@ -10705,7 +10717,7 @@ msgid ""
 "There is nothing to add.\n"
 "All the files and folders are either under version control,\n"
 "have been ignored or the global ignore configuration setting."
-msgstr ""
+msgstr "Не найдено ничего, что можно добавить. Все файлы и папки либо уже под управлением версиями, либо проигнорированы, либо игнорируются в соответствии с глобальной настройкой игнорирования файлов."
 
 #. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
 msgid "Thesaurus"
@@ -10745,7 +10757,7 @@ msgid ""
 "This preserves merge commits, however, it has known bugs as re-ordering "
 "commits is not working properly (same limitation as for vanilla git rebase),"
 " see help."
-msgstr ""
+msgstr "Это сохраняет фиксации слияния, однако, известны баги т.к. перестановка фиксаций не работает корректно (ограничения аналогичны чистому git rebase), см. справку."
 
 #. Resource IDs: (61710)
 #, c-format
@@ -11576,7 +11588,7 @@ msgstr "Просмотреть .tgitconfig"
 
 #. Resource IDs: (ID_VIEW_BARS - Ribbon name)
 msgid "View Bars"
-msgstr ""
+msgstr "Отображать Полосы"
 
 #. Resource IDs: (Dialog IDD_PATCH_VIEW: Control id 328, IDS_MENU_VIEWPATCH)
 msgid "View Patch"
@@ -11824,6 +11836,10 @@ msgstr "Да для всех"
 msgid "You already have the latest version installed."
 msgstr "У вас уже установлена самая последняя версия."
 
+#. Resource IDs: (IDS_PROC_PULL_EMPTYBRANCH)
+msgid "You asked to pull, but did not specify a remote branch."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid ""
 "You can disable specific Overlay handlers here.\n"
@@ -12033,7 +12049,7 @@ msgid ""
 "is a merge commit.\n"
 "\n"
 "Which parent do you want to pick?"
-msgstr ""
+msgstr "\"%s\" - \"%s\"\nявляется фиксацией слияния.\n\nКакого предка вы хотите выбрать?"
 
 #. Resource IDs: (IDS_PROC_COPY_REPOSITORY)
 #, c-format
@@ -12054,7 +12070,7 @@ msgstr "\"%s\" содержит git Подмодуль. Скорее всего 
 msgid ""
 "\"%s\" exited with an error, however, without generating any output such as "
 "an error message."
-msgstr ""
+msgstr "Процесс \"%s\" завершился с ошибкой; однако, он не вывел ни одного сообщения об ошибке."
 
 #. Resource IDs: (IDS_PROC_REFINVALID)
 #, c-format
