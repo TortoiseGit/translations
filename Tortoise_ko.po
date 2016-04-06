@@ -13,7 +13,7 @@
 # omniavinco <omniavinco@gmail.com>, 2012
 # pCsOrI <pcsori@gmail.com>, 2014
 # Sangjun Jung <spamcoffee+transifex@gmail.com>, 2011
-# TaeDong Kim <fly1004@gmail.com>, 2011,2013
+# TaeDong Kim <fly1004@gmail.com>, 2011,2013,2016
 # yang <hebory@gmail.com>, 2013
 # yun.daniel <youn.daniel@gmail.com>, 2013
 msgid ""
@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-02-23 21:07+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-04-06 09:25+0000\n"
+"Last-Translator: TaeDong Kim <fly1004@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2021,7 +2021,7 @@ msgstr "Always push to the selected remote branch for this local branch"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1805)
 msgid "Always show long format"
-msgstr ""
+msgstr "항상 긴 형식으로 보여주기"
 
 #. Resource IDs: (IDS_SETTINGS_USESYSTEMLOCALEFORDATES_TT)
 msgid "Always use the system locale settings to show times and dates"
@@ -4081,15 +4081,15 @@ msgstr "수정사항(Diff) 뷰어::병합 도구"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff added lines"
-msgstr ""
+msgstr "Diff 추가된 라인들"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff command"
-msgstr ""
+msgstr "Diff 명령"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff comment"
-msgstr ""
+msgstr "Diff 주석"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 65535)
 msgid "Diff file:"
@@ -4097,7 +4097,7 @@ msgstr "비교 파일:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff header"
-msgstr ""
+msgstr "Diff 헤더"
 
 #. Resource IDs: (IDS_MENUDIFFLATER)
 msgid "Diff later"
@@ -4105,11 +4105,11 @@ msgstr "나중에 비교"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff position"
-msgstr ""
+msgstr "Diff 위치"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff removed lines"
-msgstr ""
+msgstr "Diff 삭제된 라인들"
 
 #. Resource IDs: (IDS_MENUDIFFNOW)
 #, c-format
@@ -4214,7 +4214,7 @@ msgstr "프로그램 정보 표시, 버전 번호, 저작권\n프로그램 정�
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1075)
 msgid "Display subject and body of commit messages"
-msgstr ""
+msgstr "커밋 메시지의 제목과 내용 보여주기"
 
 #. Resource IDs: (IDS_PROC_NOTSHOWAGAINCONTINUE)
 msgid "Do &not show me this warning again (if Continue is selected)"
@@ -4393,7 +4393,7 @@ msgstr "Don't save\nReload the views without saving the modifications"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
 msgid "Don't show the selected items: (press shift key to show them)"
-msgstr ""
+msgstr "선택된 아이템들을 보여주지 않습니다.:(보기 위해서는 시프트 키를 누르세요)"
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOW)
 msgid "Don't show this message again"
@@ -5292,7 +5292,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
-msgstr ""
+msgstr "전경"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 312)
 msgid "Format Patch"
@@ -6449,22 +6449,22 @@ msgstr "언어:"
 #. Resource IDs: (IDS_LAST_N_COMMITS)
 #, c-format
 msgid "Last %s commit(s)"
-msgstr ""
+msgstr "마지막 %s 커밋(들)"
 
 #. Resource IDs: (IDS_LAST_N_MONTHS)
 #, c-format
 msgid "Last %s month(s)"
-msgstr ""
+msgstr "마지막 %s 달(들)"
 
 #. Resource IDs: (IDS_LAST_N_WEEKS)
 #, c-format
 msgid "Last %s week(s)"
-msgstr ""
+msgstr "마지막 %s 주(들)"
 
 #. Resource IDs: (IDS_LAST_N_YEARS)
 #, c-format
 msgid "Last %s year(s)"
-msgstr ""
+msgstr "마지막 %s 년(들)"
 
 #. Resource IDs: (IDS_LASTAUTHOR)
 msgid "Last Author"
@@ -6488,7 +6488,7 @@ msgstr "검색 시작 버전(&G):"
 
 #. Resource IDs: (IDS_LAST_SEL_DATE)
 msgid "Last selected date"
-msgstr ""
+msgstr "마지막 선택된 날짜"
 
 #. Resource IDs: (IDS_MENUDESCCONFLICT)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -7216,7 +7216,7 @@ msgstr "%s의 이미지 인코더를 발견할 수 없습니다."
 
 #. Resource IDs: (IDS_NO_LIMIT)
 msgid "No limitation"
-msgstr ""
+msgstr "제한 없음"
 
 #. Resource IDs: (IDS_PROC_LOG_JUMPNOTFOUND)
 msgid "No more revisions found."
@@ -7310,7 +7310,7 @@ msgstr "자동으로 저장된 문서를 복구하는 것을 선택했다면, �
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Note: These settings also apply to the Patch Viewer dialog."
-msgstr ""
+msgstr "참고: 이 설정들은 패치 보기 다이얼로그에도 적용됩니다."
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
