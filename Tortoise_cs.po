@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-04-22 15:48+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-04-23 04:55+0000\n"
+"Last-Translator: Zbyněk Schwarz <zbynek.schwarz@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/lznuaa/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2076,7 +2076,7 @@ msgstr "Opravdu chcete označit konfliktní soubory jako vyřešené?"
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "Opravdu chcete vrátit %d položek? Ztratíte VŠECHNY změny od poslední aktualizace!"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
@@ -3690,7 +3690,7 @@ msgstr "Současná větev:"
 msgid ""
 "Current HEAD is detached, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr ""
+msgstr "Současné čelo odděleno, nyní pracujete na (žádná větev).\nChcete ji nyní vytvořit?"
 
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
@@ -4172,12 +4172,12 @@ msgstr "Nepoužívat Koš"
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "Do you really want to delete ALL %d stash?"
-msgstr ""
+msgstr "Opravdu chcete smazat VŠECH %d úschov?"
 
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
 msgid "Do you really want to delete \"%s\"?"
-msgstr ""
+msgstr "Opravdu chcete smazat \"%s\"?"
 
 #. Resource IDs: (16109)
 #, c-format
@@ -4208,7 +4208,7 @@ msgstr "Opravdu chcete přesunout tento soubor nebo složku?"
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
-msgstr ""
+msgstr "Opravdu chcete natrvalo smazat %d zvolených odkazů? NELZE je znovu obnovit!"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -4937,7 +4937,7 @@ msgstr "&Přinést a přeskládat"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
-msgstr ""
+msgstr "Získat všechny odkazy"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
@@ -6294,7 +6294,7 @@ msgstr "Vydavatel:"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGNOMERGECHECK)
 msgid ""
 "It has not been checked if these branches have been fully merged into HEAD."
-msgstr ""
+msgstr "Nebyla provedena kontrola úplného sloučení těchto větví do čela."
 
 #. Resource IDs: (IDS_PROC_CASERENAME)
 msgid ""
@@ -9914,15 +9914,15 @@ msgstr "Použití úschovy"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "Stash Apply failed!"
-msgstr ""
+msgstr "Použití úschovy selhalo!"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILEDCONFLICTS)
 msgid "Stash Apply failed, there are conflicts"
-msgstr ""
+msgstr "Použití úschovy selhalo, vyskytly se konflikty"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYSUCCESS)
 msgid "Stash Apply successful"
-msgstr ""
+msgstr "Použití úschovy bylo úspěšné"
 
 #. Resource IDs: (IDS_MENUSTASHLIST)
 msgid "Stash List"
@@ -9930,15 +9930,15 @@ msgstr "Seznam úschov"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILED)
 msgid "Stash POP failed!"
-msgstr ""
+msgstr "Výběr z úschovy selhal!"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILEDCONFLICTS)
 msgid "Stash POP failed, there are conflicts"
-msgstr ""
+msgstr "Vyjmutí z úschovy selhalo, vyskytly se konflikty"
 
 #. Resource IDs: (IDS_PROC_STASHPOPSUCCESS)
 msgid "Stash POP successful"
-msgstr ""
+msgstr "Vyjmutí z úschovy bylo úspěšné"
 
 #. Resource IDs: (IDS_MENUSTASHPOP)
 msgid "Stash Pop"
@@ -9950,11 +9950,11 @@ msgstr "Uložení do úschovy"
 
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
-msgstr ""
+msgstr "Uložení do úschovy bylo úspěšné"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
-msgstr ""
+msgstr "Uložení do úschovy selhalo"
 
 #. Resource IDs: (IDS_PROC_STASHRUNNING)
 msgid "Stash operation running..."
@@ -10308,7 +10308,7 @@ msgid ""
 "The branch \"%s\" is a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr ""
+msgstr "Větev \"%s\" je vzdálená větev.\n\nOpravdu ji chcete smazat?"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -10697,11 +10697,11 @@ msgstr "Tyto jsou uloženy později než právě otevřené dokumenty a obsahuj�
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
-msgstr ""
+msgstr "Tato činnost odstraní větve ve vzdálené."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGUNMERGED)
 msgid "This branch is not fully merged into HEAD."
-msgstr ""
+msgstr "Tato větev není plně sloučena do čela."
 
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
@@ -10881,7 +10881,7 @@ msgid ""
 "To use TortoiseGit please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
-msgstr ""
+msgstr "TortoiseGit je rozšíření shellu.\nTo znamená, že je začleněn do průzkumníka Windows.\nAbyste TortoiseGit použili, stačí otevřít průzkumníka a kliknout\npravým tlačítkem na jakoukoli složku, kterou chcete,\nabyste zobrazili kontextovou nabídku, kde najdete všechny příkazy TortoiseGit.\nA přečtěte si manuál!"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11931,7 +11931,7 @@ msgstr "Měli byste vybrat obrázek!"
 msgid ""
 "You've changed the icon set from \"%s\" to \"%s\".\n"
 "That change won't take effect until you restart your computer or logoff and logon again!"
-msgstr ""
+msgstr "Změnili jste sadu ikon z \"%s\" na \"%s\".\nTato změna se neprojeví, dokud svůj počítač nerestartujete, nebo se můžete odhlásit a znovu přihlásit!"
 
 #. Resource IDs: (IDS_COMMITDLG_HISTORYHINT_TT)
 msgid ""
@@ -12063,7 +12063,7 @@ msgid ""
 "\"%s\" will be permanently deleted. It can NOT be recovered!\n"
 "\n"
 "Do you really want to continue?"
-msgstr ""
+msgstr "\"%s\" bude natrvalo odstraněna. Toto NEMŮŽETE vrátit!\n\nOpravdu chcete pokračovat?"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_GITAMACTIVE)
 msgid ""
@@ -12339,7 +12339,7 @@ msgid ""
 "previous rebase directory rebase-apply still exists but mbox given.\n"
 "\n"
 "Do you want to"
-msgstr ""
+msgstr "předchozí adresář přeskládání rebase-apply stále existuje, ale byl zadán mbox\n\nChcete"
 
 #. Resource IDs: (61509)
 msgid "prn"
