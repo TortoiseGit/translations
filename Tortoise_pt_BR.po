@@ -8,8 +8,9 @@
 # Everton Leite <etcholeite@gmail.com>, 2016
 # lengli <allengli@yahoo.com.br>, 2014
 # Rafael Neri <rafepel@gmail.com>, 2014
-# Ricardo Souza <srrcdmk@gmail.com>, 2012
-# Ricardo Souza <srrcdmk@gmail.com>, 2012-2015
+# Ricardo Souza (RCDMK) <srrcdmk@gmail.com>, 2012
+# Ricardo Souza (RCDMK) <srrcdmk@gmail.com>, 2016
+# Ricardo Souza (RCDMK) <srrcdmk@gmail.com>, 2012-2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2015
 # Victor Westmann <victor.westmann@gmail.com>, 2012,2015
 msgid ""
@@ -17,8 +18,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-04-22 15:48+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-04-26 01:20+0000\n"
+"Last-Translator: Ricardo Souza (RCDMK) <srrcdmk@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/lznuaa/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1563,7 +1564,7 @@ msgstr "<Auto Gerado pelo Git>"
 
 #. Resource IDs: (IDS_PROC_LOG_BASIC_REFS)
 msgid "<Basic Refs>"
-msgstr ""
+msgstr "<Refs Básicas>"
 
 #. Resource IDs: (IDS_PROC_LOG_LOCAL_BRANCHES)
 msgid "<Local Branches>"
@@ -1872,7 +1873,7 @@ msgstr "Todos os Pais"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_BASIC_REFS)
 msgid "All basic refs"
-msgstr ""
+msgstr "Todas as referências básicas"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_LOCAL_BRANCHES)
 msgid "All local branches"
@@ -2077,7 +2078,7 @@ msgstr "Você tem certeza que deseja marcar o(s) arquivo(s) em conflito como res
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "Tem certeza de que deseja reverter %d item(ns)? Você irá perder TODAS as mudanças desde a última atualização!"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
@@ -2495,7 +2496,7 @@ msgstr "C&omandos:"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
 msgid "C&ommit"
-msgstr ""
+msgstr "&Submeter"
 
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
@@ -3096,7 +3097,7 @@ msgstr "Submissão %s não encontrada em \"%s\". Atualizar submódulo agora?"
 
 #. Resource IDs: (IDS_COMMIT_COMMITPUSH)
 msgid "Commit && &Push"
-msgstr ""
+msgstr "Submeter && Em&purrar"
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
@@ -3406,7 +3407,7 @@ msgstr "Copiando..."
 
 #. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 1001)
 msgid "Copyright (C) 2009-2016 TortoiseGit"
-msgstr ""
+msgstr "Copyright (C) 2009-2016 TortoiseGit"
 
 #. Resource IDs: (IDS_SPELLEDIT_CORRECTIONS)
 msgid "Corrections"
@@ -3691,7 +3692,7 @@ msgstr "Remificação Atual:"
 msgid ""
 "Current HEAD is detached, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr ""
+msgstr "A HEAD atual está destacada, você está trabalhando em (sem ramo).\nVocê deseja criar um ramo agora?"
 
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
@@ -4173,12 +4174,12 @@ msgstr "Não utilizar a lixeira"
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "Do you really want to delete ALL %d stash?"
-msgstr ""
+msgstr "Você realmente deseja excluir TODAS %d reservas?"
 
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
 msgid "Do you really want to delete \"%s\"?"
-msgstr ""
+msgstr "Você realmente deseja excluir \"%s\"?"
 
 #. Resource IDs: (16109)
 #, c-format
@@ -4209,7 +4210,7 @@ msgstr "Você realmente deseja mover esse arquivo ou pasta?"
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
-msgstr ""
+msgstr "Você realmente deseja excluir permanentemente as %d referências selecionadas? Isto NÃO pode ser recuperado!"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -4364,7 +4365,7 @@ msgstr "Tipos de dispositivos"
 
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop one stash"
-msgstr ""
+msgstr "Remover uma reserva"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
@@ -4938,7 +4939,7 @@ msgstr "Obter && Re&organizar"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
-msgstr ""
+msgstr "Obter todas referências"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
@@ -5198,7 +5199,7 @@ msgid ""
 "For the current branch \"%s\" no tracked branch is configured.\n"
 "Do you want to set the selected branch \"%s\" as tracked branch?\n"
 "This will automatically select it for push and pull in the future."
-msgstr ""
+msgstr "Para o ramo atual \"%s\" não há ramo rastreado configurado.\nVocê quer definir o ramo selecionado \"%s\" como o ramo rastreado?\nIsto irá selecioná-lo automaticamente para empurrar e puxar no futuro."
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -6295,7 +6296,7 @@ msgstr "Problema:"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGNOMERGECHECK)
 msgid ""
 "It has not been checked if these branches have been fully merged into HEAD."
-msgstr ""
+msgstr "Não foi verificado se estes ramos foram mesclados no HEAD."
 
 #. Resource IDs: (IDS_PROC_CASERENAME)
 msgid ""
@@ -7090,7 +7091,7 @@ msgstr "HEAD não encontrado"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
 msgid "No a/ and b/ prefixes"
-msgstr ""
+msgstr "Sem prefixos a/ e b/"
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""
@@ -9915,15 +9916,15 @@ msgstr "Aplicar Reserva"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "Stash Apply failed!"
-msgstr ""
+msgstr "Aplicar Reserva falhou!"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILEDCONFLICTS)
 msgid "Stash Apply failed, there are conflicts"
-msgstr ""
+msgstr "Aplicar Reserva falhou, existem conflitos"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYSUCCESS)
 msgid "Stash Apply successful"
-msgstr ""
+msgstr "Aplicar Reserva com sucesso"
 
 #. Resource IDs: (IDS_MENUSTASHLIST)
 msgid "Stash List"
@@ -9931,15 +9932,15 @@ msgstr "Lista de Reserva"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILED)
 msgid "Stash POP failed!"
-msgstr ""
+msgstr "Estourar Reserva falhou!"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILEDCONFLICTS)
 msgid "Stash POP failed, there are conflicts"
-msgstr ""
+msgstr "Estourar Reserva falhou, existem conflitos"
 
 #. Resource IDs: (IDS_PROC_STASHPOPSUCCESS)
 msgid "Stash POP successful"
-msgstr ""
+msgstr "Estourar Reserva com sucesso"
 
 #. Resource IDs: (IDS_MENUSTASHPOP)
 msgid "Stash Pop"
@@ -9951,11 +9952,11 @@ msgstr "Salvar Reserva"
 
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
-msgstr ""
+msgstr "Reservar com sucesso"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
-msgstr ""
+msgstr "Reservar falhou"
 
 #. Resource IDs: (IDS_PROC_STASHRUNNING)
 msgid "Stash operation running..."
@@ -10309,7 +10310,7 @@ msgid ""
 "The branch \"%s\" is a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr ""
+msgstr "O ramo \"%s\" é um ramo remoto.\n\nVocê realmente deseja excluí-lo?"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -10328,7 +10329,7 @@ msgid ""
 "While merging conflicts can occur which need to be resolved manually (i.e., integrate your changes into a file which was also modified on another branch).\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "A submissão que você está compondo é uma submissão especial. É um submissão de merclagem e, portanto contém suas mudanças, assim como as mudanças do ramo mesclado.\n\nVocê NÃO deve desmarcar arquivos a menos que você saiba o que está fazendo.\n\nConflitos de mesclagem que possam ocorrer precisam ser resolvidos manualmente (por ex.: integrar suas mudanças em um arquivo que também foi modificado em outro ramo).\n\nConsulte a ajuda para mais informações."
 
 #. Resource IDs: (IDS_GITCREDENTIAL_OVERWRITEHELPER)
 #, c-format
@@ -10684,7 +10685,7 @@ msgid ""
 "There is nothing to add.\n"
 "All the files and folders are either under version control,\n"
 "have been ignored or the global ignore configuration setting."
-msgstr ""
+msgstr "Não há o que adicionar.\nTodos os arquivos e pastas já estão sob controle de versão,\nforam ignorados pela propriedade ignore ou pela configuração ignore global."
 
 #. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
 msgid "Thesaurus"
@@ -10698,11 +10699,11 @@ msgstr "Existem versões mais recentes dos documentos abertos e contém mudança
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
-msgstr ""
+msgstr "Esta ação irá remover os ramos no remoto."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGUNMERGED)
 msgid "This branch is not fully merged into HEAD."
-msgstr ""
+msgstr "Este ramo não está completamente mesclado em HEAD."
 
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
@@ -10882,7 +10883,7 @@ msgid ""
 "To use TortoiseGit please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
-msgstr ""
+msgstr "TortoiseGit é uma extensão da shell.\nIsto significa que é integrado no no Windows exlporer.\nPara usar o TortoiseGit, por favor, abra o explorador e clique com o botão direito em\nqualquer pasta que quiser para abrir o menu de contexto onde você irá encontrar\ntodos os comandos do TortoiseGit. E leia o manual!"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11814,7 +11815,7 @@ msgstr "Você já possui a versão mais atual instalada."
 
 #. Resource IDs: (IDS_PROC_PULL_EMPTYBRANCH)
 msgid "You asked to pull, but did not specify a remote branch."
-msgstr ""
+msgstr "Você pediu para puxar, mas não especificou um ramo remoto."
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid ""
@@ -11932,7 +11933,7 @@ msgstr "Você deveria ter selecionado uma imagem!"
 msgid ""
 "You've changed the icon set from \"%s\" to \"%s\".\n"
 "That change won't take effect until you restart your computer or logoff and logon again!"
-msgstr ""
+msgstr "Você mudou o conjunto de ícones de \"%s\" para \"%s\".\nEsta mudança não terá efeito até você reiniciar seu computador ou sair e entrar novamente!"
 
 #. Resource IDs: (IDS_COMMITDLG_HISTORYHINT_TT)
 msgid ""
@@ -12025,7 +12026,7 @@ msgid ""
 "is a merge commit.\n"
 "\n"
 "Which parent do you want to pick?"
-msgstr ""
+msgstr "\"%s\" - \"%s\"\né uma submissão de mesclagem.\n\nQue pai você deseja pegar?"
 
 #. Resource IDs: (IDS_PROC_COPY_REPOSITORY)
 #, c-format
@@ -12064,7 +12065,7 @@ msgid ""
 "\"%s\" will be permanently deleted. It can NOT be recovered!\n"
 "\n"
 "Do you really want to continue?"
-msgstr ""
+msgstr "\"%s\" será excluído permanentemente. Ele NÃO pode ser recuperado!\n\nVocê realmente deseja continuar?"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_GITAMACTIVE)
 msgid ""
@@ -12340,7 +12341,7 @@ msgid ""
 "previous rebase directory rebase-apply still exists but mbox given.\n"
 "\n"
 "Do you want to"
-msgstr ""
+msgstr "o diretório rebase-apply de uma reorganização anterior ainda existe, mas foi dado um mbox.\n\nVocê deseja"
 
 #. Resource IDs: (61509)
 msgid "prn"
