@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-04-22 15:48+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-04-27 03:39+0000\n"
+"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -501,7 +501,7 @@ msgstr "清除(&C)"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1686)
 msgid "&Clear stash"
-msgstr "清除藏起(&C)"
+msgstr "清除收藏(&C)"
 
 #. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1)
 msgid "&Close"
@@ -1267,7 +1267,7 @@ msgstr "啟動群組(&S)"
 
 #. Resource IDs: (IDS_STASHBUTTON)
 msgid "&Stash"
-msgstr "藏起(&S)"
+msgstr "收藏(&S)"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Menu)
 msgid "&Status Bar"
@@ -2077,7 +2077,7 @@ msgstr "確定要把衝突的檔案(們)標記為已解決嗎？"
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "確定要復原 %d 項目嗎？從上一版本之後的「所有」變更都會消失！"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
@@ -3691,7 +3691,7 @@ msgstr "目前分支："
 msgid ""
 "Current HEAD is detached, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr ""
+msgstr "HEAD 目前是脫離的，你在「沒有分支」上工作。\\n現在要建立分支嗎？"
 
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
@@ -4173,12 +4173,12 @@ msgstr "不使用資源回收筒"
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "Do you really want to delete ALL %d stash?"
-msgstr ""
+msgstr "確定要刪除「所有」 %d 個收藏（stash）？"
 
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
 msgid "Do you really want to delete \"%s\"?"
-msgstr ""
+msgstr "確定要刪除「%s」？"
 
 #. Resource IDs: (16109)
 #, c-format
@@ -4209,7 +4209,7 @@ msgstr "確定要移動這個檔案或資料夾嗎？"
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
-msgstr ""
+msgstr "確定要永久刪除這 %d 個所選的參照？這是「無法」還原的！"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -4293,7 +4293,7 @@ msgstr "要檢視變更嗎？"
 
 #. Resource IDs: (IDS_DCOMMIT_STASH_POP)
 msgid "Do you want to stash pop now?"
-msgstr "你現在想取出藏起嗎？"
+msgstr "你現在想取出收藏（stash）嗎？"
 
 #. Resource IDs: (65535)
 msgid "Document :"
@@ -4364,7 +4364,7 @@ msgstr "磁碟機類型"
 
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop one stash"
-msgstr "丟棄最後一個藏起"
+msgstr "丟棄最後一個收藏（stash）"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
@@ -4938,7 +4938,7 @@ msgstr "獲取及變基(&B)"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
-msgstr ""
+msgstr "獲取所有參照"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
@@ -6295,7 +6295,7 @@ msgstr "發送者："
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGNOMERGECHECK)
 msgid ""
 "It has not been checked if these branches have been fully merged into HEAD."
-msgstr ""
+msgstr "這些分支尚未被檢查是否已完全合併到 HEAD。"
 
 #. Resource IDs: (IDS_PROC_CASERENAME)
 msgid ""
@@ -9903,63 +9903,63 @@ msgstr "啟動 Git 服務採用 Git 協定"
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1384, Dialog IDD_STASH:
 #. Control id 4575, Dialog IDD_SYNC: Control id 1384)
 msgid "Stash"
-msgstr "藏起(stash)"
+msgstr "收藏"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1673)
 msgid "Stash &Message"
-msgstr "藏起訊息(&M)"
+msgstr "訊息(&M)"
 
 #. Resource IDs: (IDS_MENUSTASHAPPLY)
 msgid "Stash Apply"
-msgstr "套用藏起"
+msgstr "套用收藏"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "Stash Apply failed!"
-msgstr ""
+msgstr "收藏（stash）套用失敗！"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILEDCONFLICTS)
 msgid "Stash Apply failed, there are conflicts"
-msgstr ""
+msgstr "收藏（stash）套用失敗，因為有衝突"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYSUCCESS)
 msgid "Stash Apply successful"
-msgstr ""
+msgstr "收藏（stash）套用成功"
 
 #. Resource IDs: (IDS_MENUSTASHLIST)
 msgid "Stash List"
-msgstr "藏起列表"
+msgstr "收藏列表"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILED)
 msgid "Stash POP failed!"
-msgstr ""
+msgstr "收藏（stash）取出失敗！"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILEDCONFLICTS)
 msgid "Stash POP failed, there are conflicts"
-msgstr ""
+msgstr "收藏（stash）取出失敗，因為有衝突"
 
 #. Resource IDs: (IDS_PROC_STASHPOPSUCCESS)
 msgid "Stash POP successful"
-msgstr ""
+msgstr "收藏（stash）取出成功"
 
 #. Resource IDs: (IDS_MENUSTASHPOP)
 msgid "Stash Pop"
-msgstr "彈出藏起"
+msgstr "取出收藏"
 
 #. Resource IDs: (IDS_MENUSTASHSAVE)
 msgid "Stash Save"
-msgstr "保存藏起"
+msgstr "收藏"
 
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
-msgstr ""
+msgstr "完成收藏（stash）"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
-msgstr ""
+msgstr "收藏（stash）失敗！"
 
 #. Resource IDs: (IDS_PROC_STASHRUNNING)
 msgid "Stash operation running..."
-msgstr "藏起操作執行中．．．"
+msgstr "收藏操作執行中．．．"
 
 #. Resource IDs: (IDS_STATE)
 msgid "State"
@@ -10309,7 +10309,7 @@ msgid ""
 "The branch \"%s\" is a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr ""
+msgstr "分支「%s」是一個遠端分支\n\n確定要刪除？"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -10347,7 +10347,7 @@ msgstr "憑證組態已改變\n要「儲存」或「放棄變更」？"
 msgid ""
 "The current working tree is not clean.\n"
 "Do you want to stash the changes?"
-msgstr "目前工作目錄有改動，\n你想藏起(stash)改動嗎？"
+msgstr "目前工作目錄有改動，\n你想收藏起（stash）這些修改嗎？"
 
 #. Resource IDs: (IDS_DEFAULT_SCALE_TT)
 msgid ""
@@ -10698,11 +10698,11 @@ msgstr "這些是比目前版本還要更新的儲存檔，並含有程式關閉
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
-msgstr ""
+msgstr "這會移除遠端的分支。"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGUNMERGED)
 msgid "This branch is not fully merged into HEAD."
-msgstr ""
+msgstr "該分支未完全合併到 HEAD。"
 
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
@@ -10882,7 +10882,7 @@ msgid ""
 "To use TortoiseGit please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
-msgstr ""
+msgstr "TortoiseGit 是 shell 延伸程式，\n也就是說它整合到 Windows 檔案總管。\n要使用 TortoiseGit 請從檔案總管中右鍵點擊任何目錄\n以帶出快顯式選單，從那裡就可以找到所有 TortoiseGit 的指令；\n並請閱讀說明書！"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11932,7 +11932,7 @@ msgstr "請選擇一個影像!"
 msgid ""
 "You've changed the icon set from \"%s\" to \"%s\".\n"
 "That change won't take effect until you restart your computer or logoff and logon again!"
-msgstr ""
+msgstr "你已經將圖示組從「%s」變更為「%s」；\n在重新開機或者登出再登入之前，此變更並不會生效！"
 
 #. Resource IDs: (IDS_COMMITDLG_HISTORYHINT_TT)
 msgid ""
@@ -12064,7 +12064,7 @@ msgid ""
 "\"%s\" will be permanently deleted. It can NOT be recovered!\n"
 "\n"
 "Do you really want to continue?"
-msgstr ""
+msgstr "「%s」會被永久刪除而「無法還原」！\n\n你真的要繼續？"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_GITAMACTIVE)
 msgid ""
@@ -12340,7 +12340,7 @@ msgid ""
 "previous rebase directory rebase-apply still exists but mbox given.\n"
 "\n"
 "Do you want to"
-msgstr ""
+msgstr "殘留之前變基用的目錄「rebase-apply」，but mbox given。\n\n你是否想要？"
 
 #. Resource IDs: (61509)
 msgid "prn"
