@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Bas <duvel3@gmail.com>, 2013
+# Danny Beeckman <dannybeeckman@gmail.com>, 2016
 # Eric van Aert <ericvanaert@gmail.com>, 2012
 # Jean-Marc van Leerdam <j.m.van.leerdam@gmail.com>, 2011-2012
 # Jelle Raaijmakers <jelle@gmta.nl>, 2013
@@ -22,8 +23,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-04-22 15:48+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-06-09 21:59+0000\n"
+"Last-Translator: Danny Beeckman <dannybeeckman@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -752,7 +753,7 @@ msgstr "&Van:"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
-msgstr ""
+msgstr "&Git Stijl Commit (--rmdir)"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -1046,7 +1047,7 @@ msgstr "&Poort:"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
 msgid "&Preserve merges"
-msgstr ""
+msgstr "&Behoud merges"
 
 #. Resource IDs: (17091)
 msgid "&Print Preview"
@@ -1066,11 +1067,11 @@ msgstr "&Doorgaan"
 
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
-msgstr ""
+msgstr "&Pull"
 
 #. Resource IDs: (IDS_MENUPULL)
 msgid "&Pull..."
-msgstr ""
+msgstr "&Pull..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -1877,7 +1878,7 @@ msgstr "Alle Oorsprongen"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_BASIC_REFS)
 msgid "All basic refs"
-msgstr ""
+msgstr "Alle basis referenties"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_LOCAL_BRANCHES)
 msgid "All local branches"
@@ -8100,7 +8101,7 @@ msgstr "Push URL:"
 
 #. Resource IDs: (IDS_MENUDESCPUSH)
 msgid "Push commits to a remote repository."
-msgstr ""
+msgstr "Push commits naar de remote repository."
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
@@ -8454,7 +8455,7 @@ msgstr "Verwijder &niet-genegeerde ongevolgde bestanden (-f)"
 msgid ""
 "Remove all comments before doing the diff so changes inside comments don't "
 "show as different"
-msgstr ""
+msgstr "Verwijder alle commentaren alvorens de DIFF uit te voeren zodat de veranderingen niet getoond worden als verschillend."
 
 #. Resource IDs: (IDS_MENUUNIGNORE)
 msgid "Remove from &ignore list"
@@ -8558,7 +8559,7 @@ msgstr "Vervang:"
 #. Resource IDs: (IDS_FIND_REPLACED)
 #, c-format
 msgid "Replaced %d matches"
-msgstr ""
+msgstr "%d resultaten vervangen"
 
 #. Resource IDs: (IDS_SVNACTION_REPLACED)
 msgid "Replacing"
@@ -8782,12 +8783,12 @@ msgstr "Revisie:"
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_REWIND)
 msgid "Rewind"
-msgstr ""
+msgstr "Terugdraaien"
 
 #. Resource IDs: (IDS_REWINDN)
 #, c-format
 msgid "Rewind %d"
-msgstr ""
+msgstr "Draai %d terug"
 
 #. Resource IDs: (61590)
 msgid ""
@@ -8963,7 +8964,7 @@ msgstr "Opslaan als"
 msgid ""
 "Save Bottom File as\n"
 "You're asked where to save the bottom file"
-msgstr ""
+msgstr "Onderstaand bestand opslaan als \nU wordt gevraagd waar u het onderstaande bestand wil opslaan."
 
 #. Resource IDs: (IDS_SAVE)
 msgid "Save File"
@@ -9046,7 +9047,7 @@ msgstr "Wijzigingen opslaan."
 
 #. Resource IDs: (IDS_SAVEPATCH)
 msgid "Save patch file"
-msgstr ""
+msgstr "Sla bijgewerkt bestand op"
 
 #. Resource IDs: (IDS_LOG_POPUP_SAVE)
 msgid "Save revision &to..."
@@ -9267,7 +9268,7 @@ msgstr "Selecteer de taal voor dit project. Deze instellingen beïnvloeden de sp
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_SETTRACKEDBRANCH)
 msgid "Select tracked branch"
-msgstr ""
+msgstr "Selecteer de opgevolgde branch"
 
 #. Resource IDs: (IDS_SETTINGS_SELECTDIFFVIEWER)
 msgid "Select viewer for diff-files"
@@ -9293,7 +9294,7 @@ msgstr "Selecteer/deselecteer &alles"
 
 #. Resource IDs: (IDS_PROC_SELECTION_HISTORY)
 msgid "Selection History"
-msgstr ""
+msgstr "Selectie geschiedenis"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1)
 msgid "Send"
@@ -9500,7 +9501,7 @@ msgstr "Toon een overzicht van het hele diagram"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1074)
 msgid "Show asterisk log prefix"
-msgstr ""
+msgstr "Toon * log prefix"
 
 #. Resource IDs: (IDS_SETTINGS_ASTERISKLOGPREFIX_TT)
 msgid "Show asterisk log prefix in log dialog"
@@ -9515,7 +9516,7 @@ msgid ""
 "Show branch revision number (git rev-list --count --first-parent) in log "
 "dialog and after a push to a remote branch; this is not guaranteed to be "
 "unique, please see help"
-msgstr ""
+msgstr "Toon de branch revision nummer (git rev-list --count --first-parent) in het log dialoog venster en na de push naar een remote branch; dit is niet gegarandeerd uniek, gelieve de help te raadplegen"
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is on"
@@ -9539,11 +9540,11 @@ msgstr "Toon datum"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1804)
 msgid "Show describe in log"
-msgstr ""
+msgstr "Toon de beschrijving in de log"
 
 #. Resource IDs: (IDS_SETTINGS_SHOWDESCRIBE_TT)
 msgid "Show describe in log dialog"
-msgstr ""
+msgstr "Toon de beschrijving in de log dialoog"
 
 #. Resource IDs: (IDS_CHECKUPDATE_DESTFOLDER)
 msgid "Show destination folder"
@@ -9564,7 +9565,7 @@ msgstr "Toon uitgesloten mappen als 'normaal'"
 
 #. Resource IDs: (IDS_DIFFWITHMERGE)
 msgid "Show extra changes after merge"
-msgstr ""
+msgstr "Toon extra wijzigingen na de merge"
 
 #. Resource IDs: (16656)
 msgid "Show f&ull menus after a short delay"
@@ -9576,7 +9577,7 @@ msgstr "Toon bestandsnaam"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1782)
 msgid "Show git.exe execution timings and timestamp"
-msgstr ""
+msgstr "Toon git.exe uitvoerings timings en tijdstempel"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1264)
 msgid "Show i&gnored files"
@@ -9700,7 +9701,7 @@ msgstr "Toon tekens voor witregels, tabs en spaties\nToon witregels, tabs en spa
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1314)
 msgid "Show status of subrepositories in parent folders"
-msgstr ""
+msgstr "Toon de status van sub-repo's in bovenliggende mappen"
 
 #. Resource IDs: (IDS_SETTINGS_SYMBOLIZEREFNAMES_TT)
 msgid "Show symbols on ref labels to substitute part of the ref names"
@@ -11577,7 +11578,7 @@ msgstr "Bekijk .tgitconfig"
 
 #. Resource IDs: (ID_VIEW_BARS - Ribbon name)
 msgid "View Bars"
-msgstr ""
+msgstr "Bekijk Bars"
 
 #. Resource IDs: (Dialog IDD_PATCH_VIEW: Control id 328, IDS_MENU_VIEWPATCH)
 msgid "View Patch"
@@ -11653,7 +11654,7 @@ msgstr "West-Europeaans"
 msgid ""
 "When activated, hold down the SHIFT key when right-clicking to get the "
 "TortoiseGit menus added to the context menu"
-msgstr ""
+msgstr "Wanneer geactiveerd, de SHIFT toets vasthouden wanneer je rechts klikt om de TortoiseFit menus toe te voegen aan het context menu"
 
 #. Resource IDs: (IDS_AM_IGNORE_SPACE_TT)
 msgid ""
@@ -11665,19 +11666,19 @@ msgstr "Negeer wijzigingen in witruimte voor relevante regel bij het toepassen v
 msgid ""
 "When closing a progress dialog with a running git process, ask for "
 "confirmation before killing it"
-msgstr ""
+msgstr "Wanneer een vooruitgangsdialoog met een draaiende git process gesloten word vragen alvorens het te killen"
 
 #. Resource IDs: (IDS_SETTINGS_ENABLEDRAGCONTEXTMENU_TT)
 msgid ""
 "When enabled, TortoiseGit move context menu items will be available when "
 "dragging folders / files"
-msgstr ""
+msgstr "Wanneer geactiveerd, zullen TortoiseGit context menu move items zullen beschikbaar zijn wanneer je bestanden of mappen sleept"
 
 #. Resource IDs: (IDS_SORTTAGSREVERSED_TT)
 msgid ""
 "When enabled, larger version numbers come first. It is because latest "
 "versions are usually more useful."
-msgstr ""
+msgstr "Wanneer geactiveerd, zullen de hoogste versies eerst komen. Omdat de laatste versies meestal de meest nuttige zijn."
 
 #. Resource IDs: (IDS_SETTINGS_SELECTFILESONCOMMIT_TT)
 msgid ""
@@ -11696,7 +11697,7 @@ msgstr "Als de patch niet juist kon worden toegepast, val terug op een 3-wegs me
 msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
-msgstr ""
+msgstr "Wanneer je de URL invult zal de remote name automatisch ingevuld worden met \"origin\" als de remote name leeg blijft, zodat u dat niet moet doen."
 
 #. Resource IDs: (IDS_SETTINGS_DESCRIBESTRATEGY_TT)
 msgid "Whether to reference only annotated tags, all tags or all refs"
@@ -11819,7 +11820,7 @@ msgstr "De meest recente versie is reeds geïnstalleerd."
 
 #. Resource IDs: (IDS_PROC_PULL_EMPTYBRANCH)
 msgid "You asked to pull, but did not specify a remote branch."
-msgstr ""
+msgstr "U vroeg om een pull uit te voeren maar vergat een remote branch te specifieren."
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid ""
@@ -11853,7 +11854,7 @@ msgid ""
 "You have an old version of Git for Windows (https://git-for-windows.github.io/) installed which contains security issues.\n"
 "\n"
 "You should consider an upgrade to 1.9.5+."
-msgstr ""
+msgstr "U heeft een oude versie van Git voor Windows (https://git-for-windows.github.io/) geïnstalleerd die één of meerdere beveiligingsrisico 's \n\nU zou moeten overwegen om te upgraden naar 1.9.5+."
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""
@@ -12044,14 +12045,14 @@ msgstr ""
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
-msgstr ""
+msgstr "\"%s\" bevat een git submodule. Dit zal waarschijnlijk niet meer werken op de bestemming na de kopie\nWilt u de .git-entry verwijderen en alle bestanden in de top repository toevoegen of dit mogelijk probleem negeren en behouden?"
 
 #. Resource IDs: (IDS_GITEXEERROR_NOMESSAGE)
 #, c-format
 msgid ""
 "\"%s\" exited with an error, however, without generating any output such as "
 "an error message."
-msgstr ""
+msgstr "\"%s\" is gestopt met een foutmelding, zonder echter een output zoals een foutboodschap te genereren.."
 
 #. Resource IDs: (IDS_PROC_REFINVALID)
 #, c-format
@@ -12069,13 +12070,13 @@ msgid ""
 "\"%s\" will be permanently deleted. It can NOT be recovered!\n"
 "\n"
 "Do you really want to continue?"
-msgstr ""
+msgstr "\"%s\" zal definitief worden verwijderd. Het zal niet meer hersteld kunnen worden\n\nWilt u nog steeds doorgaan?"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_GITAMACTIVE)
 msgid ""
 "\"git am\" is still in apply mode.\n"
 "Do you want to abort?"
-msgstr ""
+msgstr "\"git am\" is nog steeds in apply mode.\nWil je de handeling afbreken?"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "_POPUP_"
@@ -12168,7 +12169,7 @@ msgstr "verwijderd"
 
 #. Resource IDs: (IDS_PIPETITLE)
 msgid "diff from pipe"
-msgstr ""
+msgstr "diff van de pipe"
 
 #. Resource IDs: (58116)
 msgid "dummy"
@@ -12252,15 +12253,15 @@ msgstr "regel: %d(+) %d(-) bestanden: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s
 
 #. Resource IDs: (IDS_SYSTEM_GCM)
 msgid "manager - all Windows users"
-msgstr ""
+msgstr "manager - alle Windows gebruikers"
 
 #. Resource IDs: (IDS_GLOBAL_GCM)
 msgid "manager - current Windows user"
-msgstr ""
+msgstr "manager - huidige Windows gebruiker"
 
 #. Resource IDs: (IDS_LOCAL_GCM)
 msgid "manager - this repository only"
-msgstr ""
+msgstr "manager - enkel huidige repository"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1494)
 msgid "master"
@@ -12330,7 +12331,7 @@ msgstr "op %1"
 
 #. Resource IDs: (IDS_STATE_PATCHED)
 msgid "patched"
-msgstr ""
+msgstr "gepatched"
 
 #. Resource IDs: (61888)
 msgid "pixels"
@@ -12380,7 +12381,7 @@ msgstr "gewisseld naar\n%s"
 
 #. Resource IDs: (IDS_CARE_SUBMODULE_CHANGES)
 msgid "take care of submodule changes"
-msgstr ""
+msgstr "Handel submodule veranderingen af"
 
 #. Resource IDs: (61513)
 #, c-format
