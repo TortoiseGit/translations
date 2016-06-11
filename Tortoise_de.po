@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-04-22 15:48+0000\n"
+"PO-Revision-Date: 2016-06-11 15:38+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2077,7 +2077,7 @@ msgstr "Sind Sie sicher, dass Sie den Konflikt aufgelöst haben?"
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "Sind Sie sicher dass Sie die Änderungen an %d Objekten rückgängig machen wollen?\nSie werden ALLE Änderungen seit der letzten Aktualisierung verlieren!"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
@@ -3691,7 +3691,7 @@ msgstr "Aktueller Zweig:"
 msgid ""
 "Current HEAD is detached, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr ""
+msgstr "Der aktuelle HEAD ist losgelöst, Sie arbeiten gerade auf keinem Zweig.\nMöchten Sie einen Zweig anlegen?"
 
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
@@ -4173,12 +4173,12 @@ msgstr "Benutze nicht den Papierkorb"
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "Do you really want to delete ALL %d stash?"
-msgstr ""
+msgstr "Möchten Sie wirklich den gesamten Stash mit %d Einträgen löschen?"
 
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
 msgid "Do you really want to delete \"%s\"?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie \"%s\" löschen möchten?"
 
 #. Resource IDs: (16109)
 #, c-format
@@ -4209,7 +4209,7 @@ msgstr "Wollen Sie dieses Objekt wirklich verschieben?"
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
-msgstr ""
+msgstr "Möchten Sie wirklich die %d ausgewählten Referencen permantent löschen? Dies kann NICHT rückgängig gemacht werden!"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -4938,7 +4938,7 @@ msgstr "Aktualisieren && neu Auf&bauen"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
-msgstr ""
+msgstr "Hole alle Referenzen"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
@@ -6295,7 +6295,7 @@ msgstr "Aussteller:"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGNOMERGECHECK)
 msgid ""
 "It has not been checked if these branches have been fully merged into HEAD."
-msgstr ""
+msgstr "Es wurde nicht überprüft, ob der Zweig bereits in den HEAD integriert wurde."
 
 #. Resource IDs: (IDS_PROC_CASERENAME)
 msgid ""
@@ -9915,15 +9915,15 @@ msgstr "Stash anwenden"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "Stash Apply failed!"
-msgstr ""
+msgstr "Stash anwenden fehlgeschlagen!"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILEDCONFLICTS)
 msgid "Stash Apply failed, there are conflicts"
-msgstr ""
+msgstr "Stash anwenden fehlgeschlagen, es gibt Konflikte."
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYSUCCESS)
 msgid "Stash Apply successful"
-msgstr ""
+msgstr "Stash anwenden erfolgreich."
 
 #. Resource IDs: (IDS_MENUSTASHLIST)
 msgid "Stash List"
@@ -9931,15 +9931,15 @@ msgstr "Stash anzeigen"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILED)
 msgid "Stash POP failed!"
-msgstr ""
+msgstr "Stash POP fehlgeschlagen!"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILEDCONFLICTS)
 msgid "Stash POP failed, there are conflicts"
-msgstr ""
+msgstr "Stash POP fehlgeschlagen, es gibt Konflikte."
 
 #. Resource IDs: (IDS_PROC_STASHPOPSUCCESS)
 msgid "Stash POP successful"
-msgstr ""
+msgstr "Stash POP erfolgreich."
 
 #. Resource IDs: (IDS_MENUSTASHPOP)
 msgid "Stash Pop"
@@ -9951,11 +9951,11 @@ msgstr "Stash speichern"
 
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
-msgstr ""
+msgstr "Stash war erfolgreich."
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
-msgstr ""
+msgstr "Stash konnte nicht durchgeführt werden!"
 
 #. Resource IDs: (IDS_PROC_STASHRUNNING)
 msgid "Stash operation running..."
@@ -10309,7 +10309,7 @@ msgid ""
 "The branch \"%s\" is a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr ""
+msgstr "Der Zweig \"%s\" ist ein entfernter> Zweig.\n\nMöchten Sie diesen wirklich löschen?"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -10698,11 +10698,11 @@ msgstr "Diese wurden nach den derzeit geöffneten Dokumenten gespeichert und ent
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
-msgstr ""
+msgstr "Diese Aktion wird Zweige im entfernte Archiv löschen."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGUNMERGED)
 msgid "This branch is not fully merged into HEAD."
-msgstr ""
+msgstr "Dieser Zweig wurde bisher nicht vollständig in HEAD integriert bzw. zusammengeführt."
 
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
@@ -10882,7 +10882,7 @@ msgid ""
 "To use TortoiseGit please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
-msgstr ""
+msgstr "TortoiseGit ist eine Shell Erweiterung.\nDas bedeutet, dass es in den Windows Explorer integriert ist. Um\nTortoiseGit zu verwenden, öffnen Sie den Explorer und machen\nSie einen Rechts-Klick, damit das Kontextmenü angezeigt wird.\nDort finden Sie sämtliche TortoiseGit Befehle.\nUnd lesen Sie das Handbuch!"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11932,7 +11932,7 @@ msgstr "Sie sollten ein Bild wählen!"
 msgid ""
 "You've changed the icon set from \"%s\" to \"%s\".\n"
 "That change won't take effect until you restart your computer or logoff and logon again!"
-msgstr ""
+msgstr "Sie haben den Symbolsatz von \"%s\" in \"%s\" geändert.\nDie Änderungen werden erst wirksam, nachdem Sie den Rechner neu gestartet oder sich ab- und wieder angemeldet haben!"
 
 #. Resource IDs: (IDS_COMMITDLG_HISTORYHINT_TT)
 msgid ""
@@ -12064,7 +12064,7 @@ msgid ""
 "\"%s\" will be permanently deleted. It can NOT be recovered!\n"
 "\n"
 "Do you really want to continue?"
-msgstr ""
+msgstr "\"%s\" wird permanent gelöscht. Dies kann NICHT rückgängig gemacht werden!\n\nMöchten Sie wirklich fortfahren?"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_GITAMACTIVE)
 msgid ""
@@ -12340,7 +12340,7 @@ msgid ""
 "previous rebase directory rebase-apply still exists but mbox given.\n"
 "\n"
 "Do you want to"
-msgstr ""
+msgstr "Das rebase-apply Verzeichnis existiert noch (ein Umsetzen bzw. Patch anwenden ist noch aktiv).\n\nWie möchten Sie verfahren?"
 
 #. Resource IDs: (61509)
 msgid "prn"
