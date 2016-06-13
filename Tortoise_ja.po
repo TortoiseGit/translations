@@ -5,7 +5,7 @@
 # 
 # Translators:
 #  Koto <>, 2012
-# Masahiro Fujimoto <fujimoto@internet.ne.jp>, 2015
+# Masahiro Fujimoto <mfujimot@gmail.com>, 2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013
 # Takumi Shotoku <sinsoku.listy@gmail.com>, 2012
 # Tetsuhiko Koto, 2014
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-04-22 15:48+0000\n"
+"PO-Revision-Date: 2016-06-13 20:33+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -792,6 +792,10 @@ msgstr "無視(&I)"
 #, c-format
 msgid "&Ignore %d items by name"
 msgstr "名前により %d 項目を無視する(&I)"
+
+#. Resource IDs: (IDS_MENUIGNOREMULTIPLE2)
+msgid "&Ignore multiple items by name"
+msgstr ""
 
 #. Resource IDs: (ID_VIEW_IGNORE_WHITESPACE - Menu)
 msgid "&Ignore whitespace"
@@ -3824,6 +3828,10 @@ msgstr "すべてのタグを削除"
 msgid "Delete and &ignore %d items by name"
 msgstr "名前で %d 個のアイテムを削除して無視(&I)"
 
+#. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE2)
+msgid "Delete and &ignore multiple items by name"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
 msgstr "削除して無視リストに追加(&I)"
@@ -3832,6 +3840,10 @@ msgstr "削除して無視リストに追加(&I)"
 #, c-format
 msgid "Delete and ignore %d items by &extension"
 msgstr "拡張子で %d 個のアイテムを削除して無視(&E) "
+
+#. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK2)
+msgid "Delete and ignore multiple items by &extension"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
@@ -6124,6 +6136,10 @@ msgstr "再帰的にアイテムを無視します"
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1018)
 msgid "Ignore line &endings (recommended)"
 msgstr "改行コードを無視する（推奨）(&E)"
+
+#. Resource IDs: (IDS_MENUIGNOREMULTIPLEMASK2)
+msgid "Ignore multiple items by &extension"
+msgstr ""
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORESPACEATEOL)
 msgid "Ignore space at EOL"

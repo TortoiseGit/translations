@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-06-11 21:20+0000\n"
+"PO-Revision-Date: 2016-06-13 21:51+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -791,6 +791,10 @@ msgstr "&Ignora"
 #, c-format
 msgid "&Ignore %d items by name"
 msgstr "&Ignora %d ítems per nom"
+
+#. Resource IDs: (IDS_MENUIGNOREMULTIPLE2)
+msgid "&Ignore multiple items by name"
+msgstr ""
 
 #. Resource IDs: (ID_VIEW_IGNORE_WHITESPACE - Menu)
 msgid "&Ignore whitespace"
@@ -3823,6 +3827,10 @@ msgstr "Elimina totes les etiquetes"
 msgid "Delete and &ignore %d items by name"
 msgstr "Esborra i &ignora %d els elements pel seu nom"
 
+#. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE2)
+msgid "Delete and &ignore multiple items by name"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
 msgstr "Eliminia i afegeix a la llista d'ignorats"
@@ -3831,6 +3839,10 @@ msgstr "Eliminia i afegeix a la llista d'ignorats"
 #, c-format
 msgid "Delete and ignore %d items by &extension"
 msgstr "Esborra i ignora %d items per &extensió"
+
+#. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK2)
+msgid "Delete and ignore multiple items by &extension"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
@@ -6124,6 +6136,10 @@ msgstr "Ignora element(s) recursivament"
 msgid "Ignore line &endings (recommended)"
 msgstr "Ignora &finals de línia (recomanat)"
 
+#. Resource IDs: (IDS_MENUIGNOREMULTIPLEMASK2)
+msgid "Ignore multiple items by &extension"
+msgstr ""
+
 #. Resource IDs: (IDS_DIFFOPTION_IGNORESPACEATEOL)
 msgid "Ignore space at EOL"
 msgstr ""
@@ -7647,7 +7663,7 @@ msgstr "Paràmetres:"
 #. Resource IDs: (IDS_BLAME_POPUP_PARENT, IDS_PARENT)
 #, c-format
 msgid "Parent %d"
-msgstr ""
+msgstr "Pare %d"
 
 #. Resource IDs: (IDS_PROC_NOPARENT)
 #, c-format
