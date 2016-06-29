@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-06-19 11:53+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-06-28 23:03+0000\n"
+"Last-Translator: Martin Šuráb <e.martyn@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/lznuaa/tortoisegit/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,67 +76,67 @@ msgstr "%1 nebol nájdený."
 #. Resource IDs: (IDS_DAY_AGO)
 #, c-format
 msgid "%1!d! Day ago"
-msgstr ""
+msgstr "Pred %1!d! dňom"
 
 #. Resource IDs: (IDS_DAYS_AGO)
 #, c-format
 msgid "%1!d! Days ago"
-msgstr ""
+msgstr "Pred %1!d! dňami"
 
 #. Resource IDs: (IDS_HOUR_AGO)
 #, c-format
 msgid "%1!d! Hour ago"
-msgstr ""
+msgstr "Pred %1!d! hodinou"
 
 #. Resource IDs: (IDS_HOURS_AGO)
 #, c-format
 msgid "%1!d! Hours ago"
-msgstr ""
+msgstr "Pred %1!d! hodinami"
 
 #. Resource IDs: (IDS_MINUTE_AGO)
 #, c-format
 msgid "%1!d! Minute ago"
-msgstr ""
+msgstr "Pred %1!d! minútou"
 
 #. Resource IDs: (IDS_MONTH_AGO)
 #, c-format
 msgid "%1!d! Month ago"
-msgstr ""
+msgstr "Pred %1!d! mesiacom"
 
 #. Resource IDs: (IDS_MONTHS_AGO)
 #, c-format
 msgid "%1!d! Months ago"
-msgstr ""
+msgstr "Pred %1!d! mesiacmi"
 
 #. Resource IDs: (IDS_SECOND_AGO)
 #, c-format
 msgid "%1!d! Second ago"
-msgstr ""
+msgstr "Pred %1!d! sekundou"
 
 #. Resource IDs: (IDS_SECONDS_AGO)
 #, c-format
 msgid "%1!d! Seconds ago"
-msgstr ""
+msgstr "Pred %1!d! sekundami"
 
 #. Resource IDs: (IDS_WEEK_AGO)
 #, c-format
 msgid "%1!d! Week ago"
-msgstr ""
+msgstr "Pred %1!d! týždňom"
 
 #. Resource IDs: (IDS_WEEKS_AGO)
 #, c-format
 msgid "%1!d! Weeks ago"
-msgstr ""
+msgstr "Pred %1!d! týždňami"
 
 #. Resource IDs: (IDS_YEAR_AGO)
 #, c-format
 msgid "%1!d! Year ago"
-msgstr ""
+msgstr "Pred %1!d! rokom"
 
 #. Resource IDs: (IDS_YEARS_AGO)
 #, c-format
 msgid "%1!d! Years ago"
-msgstr ""
+msgstr "Pred %1!d! rokmi"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -146,7 +146,7 @@ msgstr ""
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
 msgid "%1!d! minutes ago"
-msgstr ""
+msgstr "Pred %1!d! minútami"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFODIR)
 #, c-format
@@ -185,7 +185,7 @@ msgstr "%1\nTento súbor nemožno nájsť.\nSkontrolujte, či je zadaná správn
 #. Resource IDs: (IDS_CONFIG_GLOBAL_TT)
 #, c-format
 msgid "%HOME%/.gitconfig or %XDGHOME%/git/config"
-msgstr ""
+msgstr "%HOME%/.gitconfig alebo %XDGHOME%/git/config"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALBYTESTRANSFERRED)
 #, c-format
@@ -324,7 +324,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
-msgstr ""
+msgstr "&Zrušiť"
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
@@ -353,11 +353,11 @@ msgstr "&Pridať filter"
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1382, Dialog
 #. IDD_SETTINREMOTE: Control id 1382)
 msgid "&Add New/Save"
-msgstr ""
+msgstr "&Pridať nový/Uložiť"
 
 #. Resource IDs: (IDS_PROC_COMMIT_ADDSIGNOFFBUTTON)
 msgid "&Add it"
-msgstr ""
+msgstr "&Pridaj"
 
 #. Resource IDs: (17018)
 msgid "&Add or Remove Buttons"
@@ -575,15 +575,15 @@ msgstr "&Zrušiť filter"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
 msgid "&Delete remote && local"
-msgstr ""
+msgstr "&Odstrániť vzdialené && lokálne"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
-msgstr ""
+msgstr "&Zistiť presunuté alebo skopírované riadky"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "&Detect moved or copied lines:"
-msgstr ""
+msgstr "&Zistiť presunuté alebo skopírované riadky:"
 
 #. Resource IDs: (IDS_MENUDIFF)
 msgid "&Diff"
@@ -599,7 +599,7 @@ msgstr "&Adresár:"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_DISABLED - Menu)
 msgid "&Disabled"
-msgstr ""
+msgstr "&Zakázané"
 
 #. Resource IDs: (IDS_DISCARDBUTTON)
 msgid "&Discard"
@@ -1104,11 +1104,11 @@ msgstr "&Obnoviť"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20093)
 msgid "&Regular Expression"
-msgstr ""
+msgstr "&Regulárny výraz"
 
 #. Resource IDs: (IDS_REMINDMELATER)
 msgid "&Remind me later"
-msgstr ""
+msgstr "&Pripomenúť neskôr"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1617)
 msgid "&Remote Branch:"
@@ -1172,11 +1172,11 @@ msgstr "&Obnoviť"
 
 #. Resource IDs: (IDS_PROC_COMMIT_RESTOREFILES_RESTORE)
 msgid "&Restore old state"
-msgstr ""
+msgstr "&Obnoviť starý stav"
 
 #. Resource IDs: (IDS_MSGBOX_RETRY)
 msgid "&Retry"
-msgstr ""
+msgstr "&Znova"
 
 #. Resource IDs: (IDS_LOG_POPUP_REVERTREV)
 msgid "&Revert change by this commit"
@@ -1217,7 +1217,7 @@ msgstr "&Uložiť\tCtrl+S"
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
-msgstr ""
+msgstr "&Nastaviť cestu Gitu"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1486)
 msgid "&Set upstream/track remote branch"
@@ -1258,7 +1258,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1616)
 msgid "&Start"
-msgstr ""
+msgstr "&Začať"
 
 #. Resource IDs: (16917 - Menu)
 msgid "&Start Group"
@@ -1274,7 +1274,7 @@ msgstr "&Stavový riadok"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
-msgstr ""
+msgstr "&Prepnúť do novej vetvy"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1173)
 msgid "&Symbol View"
@@ -1323,7 +1323,7 @@ msgstr "Názov &lišty:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Toolbars and Docking Windows"
-msgstr ""
+msgstr "&Panely nástrojov a Dokovacie okná"
 
 #. Resource IDs: (65535)
 msgid "&Toolbars:"
@@ -1365,7 +1365,7 @@ msgstr "&Unifikované porovnanie"
 
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF_PARENT)
 msgid "&Unified diff with"
-msgstr ""
+msgstr "&Unifikované porovnanie s"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1061)
 msgid "&Unknown drives"
@@ -1540,7 +1540,7 @@ msgstr ".tgitconfig v koreňovom adresári repozitára"
 
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1020)
 msgid "< &Previous"
-msgstr ""
+msgstr "< &Predchádzajúce"
 
 #. Resource IDs: (16506)
 msgid "<.....>"
@@ -1604,7 +1604,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_B_EXISTS)
 msgid "A branch with this name already exists."
-msgstr ""
+msgstr "Vetva s týmto menom už existuje."
 
 #. Resource IDs: (1088)
 msgid ""
@@ -1648,7 +1648,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_T_EXISTS)
 msgid "A tag with this name already exists."
-msgstr ""
+msgstr "Značka s týmto menom už existuje."
 
 #. Resource IDs: (IDS_SETTINGS_DIFFVIEWER_TT)
 msgid ""
@@ -1674,7 +1674,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Abbreviated size"
-msgstr ""
+msgstr "Skrátená veľkosť"
 
 #. Resource IDs: (Dialog IDD_GITPROGRESS: Control id 2, Dialog IDD_REBASE:
 #. Control id 1565, Dialog IDD_RESOLVE_CONFLICT: Control id 2)
@@ -1943,7 +1943,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1805)
 msgid "Always show long format"
-msgstr ""
+msgstr "Vždy zobraziť dlhý formát"
 
 #. Resource IDs: (IDS_SETTINGS_USESYSTEMLOCALEFORDATES_TT)
 msgid "Always use the system locale settings to show times and dates"
@@ -1951,7 +1951,7 @@ msgstr "Vždy použiť systémové nastavenie pre zobrazenie času a dátumu"
 
 #. Resource IDs: (IDS_AMENDBUTTON)
 msgid "Amend"
-msgstr ""
+msgstr "Doplniť"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1555)
 msgid "Amend &Last Commit"
@@ -1960,7 +1960,7 @@ msgstr ""
 #. Resource IDs: (IDS_SETTINGS_ALTERNATIVEEDITOR_TT)
 msgid ""
 "An alternative editor. Which should preferably support *nix line endings."
-msgstr ""
+msgstr "Alternatívny editor. Pokiaľ možno podporujúci *nix-ové konce riadkov."
 
 #. Resource IDs: (IDS_SETTINGS_EXTDIFF_TT)
 #, c-format
@@ -2039,7 +2039,7 @@ msgstr "Použiť záplaty"
 
 #. Resource IDs: (IDS_MENUDESCIMPORTPATCH)
 msgid "Apply a series of patches from a mailbox"
-msgstr ""
+msgstr "Použiť sériu záplat zo schránky"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1072)
 msgid "Apply unified diff"
@@ -2150,7 +2150,7 @@ msgstr "Pri čítaní %1 bol pokus o čítanie."
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 65535)
 msgid "Attention: This command affects the whole working tree!"
-msgstr ""
+msgstr "Pozor: Tento príkaz ovplyvní celý pracovný strom"
 
 #. Resource IDs: (Dialog IDD_PROMPT: Control id 131, Dialog IDD_SIMPLEPROMPT:
 #. Control id 160)
@@ -2167,7 +2167,7 @@ msgstr "Autor"
 
 #. Resource IDs: (IDS_PROC_LOG_AUTHOREMAIL)
 msgid "Author Email"
-msgstr ""
+msgstr "Email autora"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
@@ -2289,7 +2289,7 @@ msgstr "Základný súbor:"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1005)
 msgid "Based on TortoiseIDiff of TortoiseSVN"
-msgstr ""
+msgstr "Na základe TortoiseIDiff z TortoiseSVN"
 
 #. Resource IDs: (IDS_PROPERTIES_BASICINFO)
 msgid "Basic Info"
@@ -2590,7 +2590,7 @@ msgstr "Zrušiť"
 msgid ""
 "Cancel\n"
 "Don't quit TortoiseGitMerge"
-msgstr ""
+msgstr "Zrušiť\nNeukončiť TortoiseGitMerge"
 
 #. Resource IDs: (IDS_ASKFORSAVE_TASK8)
 msgid ""
@@ -2673,19 +2673,19 @@ msgstr "Overenie certifikátu zlyhalo!"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1697)
 msgid "Change log"
-msgstr ""
+msgstr "História zmien"
 
 #. Resource IDs: (57606)
 msgid ""
 "Change the printer and printing options\n"
 "Print Setup"
-msgstr ""
+msgstr "Zmeniť tlačiareň a možnosti tlače\nNastavenie tlače"
 
 #. Resource IDs: (57605)
 msgid ""
 "Change the printing options\n"
 "Page Setup"
-msgstr ""
+msgstr "Zmeniť možnosti tlače\nNastavenie stránky"
 
 #. Resource IDs: (10000)
 msgid ""
@@ -2712,12 +2712,12 @@ msgstr "Zmenené súbory"
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTROROOT)
 #, c-format
 msgid "Changed files between %s and %s"
-msgstr ""
+msgstr "Zmenené súbory medzi %s a %s"
 
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTRO)
 #, c-format
 msgid "Changed files between %s, %s and %s, %s"
-msgstr ""
+msgstr "Zmenené súbory medzi %s, %s a %s, %s"
 
 #. Resource IDs: (IDS_CHECKUPDATE_SUMMARY)
 #, c-format
@@ -2726,19 +2726,19 @@ msgstr "Zmenené súbory: %d"
 
 #. Resource IDs: (IDS_STATGRAPH_LINES_BYDATE_W_Y)
 msgid "Changed lines including added/deleted files"
-msgstr ""
+msgstr "Zmenené riadky vrátane pridaných/zmazaných súborov"
 
 #. Resource IDs: (IDS_STATGRAPH_LINES_BYDATE_W)
 msgid "Changed lines including added/deleted files by date"
-msgstr ""
+msgstr "Zmenené riadky vrátane pridaných/zmazaných súborov podľa dátumu"
 
 #. Resource IDs: (IDS_STATGRAPH_LINES_BYDATE_WO_Y)
 msgid "Changed lines not including added/deleted files"
-msgstr ""
+msgstr "Zmenené riadky bez pridaných/zmazaných súborov"
 
 #. Resource IDs: (IDS_STATGRAPH_LINES_BYDATE_WO)
 msgid "Changed lines not including added/deleted files by date"
-msgstr ""
+msgstr "Zmenené riadky bez pridaných/zmazaných súborov podľa dátumu"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTMOVED)
 #, c-format
@@ -3099,11 +3099,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
-msgstr ""
+msgstr "Dátum odovzdania"
 
 #. Resource IDs: (IDS_LOG_COMMIT_EMAIL)
 msgid "Commit Email"
-msgstr ""
+msgstr "Email odovzdania"
 
 #. Resource IDs: (IDS_COMMIT_FINISH)
 msgid "Commit Finish"
@@ -3160,7 +3160,7 @@ msgstr "Odovzdať vaše zmeny do úložiska"
 
 #. Resource IDs: (IDS_PROC_LOG_COMMITTEREMAIL)
 msgid "Committer Email"
-msgstr ""
+msgstr "Email odovzdávajúceho"
 
 #. Resource IDs: (IDS_COMMITDLG_UNVERSIONEDFOLDERWARNING)
 msgid ""
@@ -3339,11 +3339,11 @@ msgstr "Kopírovať"
 #. Resource IDs: (IDS_PROGRS_CMD_COPY)
 #, c-format
 msgid "Copy %s to %s, Revision %s"
-msgstr ""
+msgstr "Kopírovať %s do %s, Revízia %s"
 
 #. Resource IDs: (IDS_BLAME_POPUP_COPYHASHTOCLIPBOARD, IDS_COPY_COMMIT_HASH)
 msgid "Copy SHA-1 to clipboard"
-msgstr ""
+msgstr "Kopírovať SHA-1 do schránky"
 
 #. Resource IDs: (16907)
 msgid ""
@@ -3361,11 +3361,11 @@ msgstr "Kopírovať a premenovať"
 
 #. Resource IDs: (IDS_LOG_POPUP_COPYTOCLIPBOARDMESSAGES)
 msgid "Copy log messages to clipboard"
-msgstr ""
+msgstr "Kopírovať správy denníku do schránky"
 
 #. Resource IDs: (IDS_BLAME_POPUP_COPYLOGTOCLIPBOARD)
 msgid "Copy log to clipboard"
-msgstr ""
+msgstr "Kopírovať denník do schránky"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPY)
 msgid "Copy paths to clipboard"
@@ -3444,7 +3444,7 @@ msgstr "Nemožno určiť posledne odovzdanú revíziu."
 
 #. Resource IDs: (IDS_ERR_NOTFOUND_SUPER_PRJECT)
 msgid "Could not find Super-project"
-msgstr ""
+msgstr "Nemožno nájsť Super-projekt"
 
 #. Resource IDs: (IDS_ERR_NOSTATUS)
 msgid "Could not get the status!"
@@ -3536,11 +3536,11 @@ msgid ""
 "Could not start text viewer!\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "Nemožno spustiť textový prehliadač!\n\n%s"
 
 #. Resource IDs: (IDS_ERR_PAGEANT)
 msgid "Could not start the Putty Agent (pageant)."
-msgstr ""
+msgstr "Nemožno spustiť Putty Agenta (pageant)"
 
 #. Resource IDs: (IDS_ERR_THREADSTARTFAILED)
 msgid "Could not start thread!"
@@ -3557,7 +3557,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUBRANCH)
 msgid "Create &Branch..."
-msgstr ""
+msgstr "Vytvoriť &vetvu"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
@@ -3847,24 +3847,24 @@ msgstr "Odstrániť vetvu/značku"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
-msgstr ""
+msgstr "Zmazať vzdialenú vetvu"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 4579)
 msgid "Delete remote tag - TortoiseGit"
-msgstr ""
+msgstr "Zmazať vzdialenú značku - TortoiseGit"
 
 #. Resource IDs: (IDS_DELETEREMOTETAGON)
 #, c-format
 msgid "Delete remote tags on \"%s\"..."
-msgstr ""
+msgstr "Zmazať vzdialené značky na \"%s\"..."
 
 #. Resource IDs: (IDS_DELETEREMOTETAG)
 msgid "Delete remote tags..."
-msgstr ""
+msgstr "Zmazať vzdialené značky..."
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_DELETESUBMODULE)
 msgid "Delete submodule"
-msgstr ""
+msgstr "Zmazať podmodul"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAG)
 msgid "Delete tag"
@@ -3872,7 +3872,7 @@ msgstr "Odstrániť značku"
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
-msgstr ""
+msgstr "Zmažte existujúcu vetvu alebo použite iné meno."
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
@@ -3917,7 +3917,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_DELFILE)
 msgid "Deleting file"
-msgstr ""
+msgstr "Vymazávanie súboru"
 
 #. Resource IDs: (IDS_DELETING_REMOTE_REFS)
 msgid "Deleting remote refs..."
@@ -3930,15 +3930,15 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1646, Dialog IDD_PULLFETCH:
 #. Control id 1646)
 msgid "Depth"
-msgstr ""
+msgstr "Hĺbka"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Describe"
-msgstr ""
+msgstr "Popísať"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Describe Strategy"
-msgstr ""
+msgstr "Popísať stratégiu"
 
 #. Resource IDs: (16031, IDS_DESCRIPTION)
 msgid "Description"
@@ -3980,7 +3980,7 @@ msgstr ""
 
 #. Resource IDs: (32790)
 msgid "Detect moved or copied lines within a file"
-msgstr ""
+msgstr "Zistiť presunuté alebo skopírované riadky v rámci súboru"
 
 #. Resource IDs: (61583)
 msgid ""
@@ -4095,11 +4095,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKSBUTTON)
 msgid "Disable update checks"
-msgstr ""
+msgstr "Zakázať kontroly aktualizácií"
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_DISABLED)
 msgid "Disabled"
-msgstr ""
+msgstr "Zakázané"
 
 #. Resource IDs: (61869)
 #, c-format
@@ -4117,13 +4117,13 @@ msgstr "Zobraziť &tačídla v tomto poradí"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1910)
 msgid "Display branch revision number"
-msgstr ""
+msgstr "Zobraziť číslo revízie vetvy"
 
 #. Resource IDs: (57609)
 msgid ""
 "Display full pages\n"
 "Print Preview"
-msgstr ""
+msgstr "Zobraziť celé stránky\nNáhľad tlače"
 
 #. Resource IDs: (57669)
 msgid ""
@@ -4175,7 +4175,7 @@ msgstr "Nezobrazovať kontextovú ponuku pre nasledovné cesty:"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1730)
 msgid "Do not use recycle bin"
-msgstr ""
+msgstr "Nepoužívať kôš"
 
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
