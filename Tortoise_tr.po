@@ -16,6 +16,7 @@
 # Göktuğ Öztürk <goktug.ozturk@teknomavi.com>, 2014
 # Huseyin <hyagli@hotmail.com>, 2013
 # ibrahim YENER <jdavide222@hotmail.com>, 2014
+# Ivan BARAYEV <ivanbarayev@hotmail.com>, 2016
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # Muhammet Kara <muhammetk@gmail.com>, 2014
 # Ozancan Karataş <ozancankaratas96@outlook.com>, 2015-2016
@@ -33,8 +34,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-07-08 21:47+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-07-25 20:04+0000\n"
+"Last-Translator: Ivan BARAYEV <ivanbarayev@hotmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/lznuaa/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -459,7 +460,7 @@ msgstr "&Mavi:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Border:"
-msgstr ""
+msgstr "&Kenarlık;"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1512, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1512)
@@ -481,7 +482,7 @@ msgstr "&Gözat..."
 
 #. Resource IDs: (16913 - Menu)
 msgid "&Button Appearance..."
-msgstr ""
+msgstr "&Buton Görünümü..."
 
 #. Resource IDs: (65535)
 msgid "&Button text:"
@@ -505,7 +506,7 @@ msgstr "&Kategori:"
 
 #. Resource IDs: (65535)
 msgid "&Choose commands from:"
-msgstr ""
+msgstr "&Şuradan komut seç:"
 
 #. Resource IDs: (IDS_MENUCLEANUP)
 msgid "&Clean up..."
@@ -517,7 +518,7 @@ msgstr "&Temizle"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1686)
 msgid "&Clear stash"
-msgstr ""
+msgstr "&Saklananları temizle"
 
 #. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1)
 msgid "&Close"
@@ -542,7 +543,7 @@ msgstr "Altmodülü &sun..."
 
 #. Resource IDs: (IDS_PROC_COMMIT_NOADDSIGNOFFBUTTON)
 msgid "&Commit w/o"
-msgstr ""
+msgstr "&Teslim et"
 
 #. Resource IDs: (IDS_MENUCOMMIT)
 msgid "&Commit..."
@@ -550,7 +551,7 @@ msgstr "&Sun..."
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS)
 msgid "&Compare revisions"
-msgstr ""
+msgstr "&Revizyonları karşılaştır"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
@@ -620,15 +621,15 @@ msgstr "&Dizin:"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_DISABLED - Menu)
 msgid "&Disabled"
-msgstr ""
+msgstr "&Devredışı"
 
 #. Resource IDs: (IDS_DISCARDBUTTON)
 msgid "&Discard"
-msgstr ""
+msgstr "&Çıkart"
 
 #. Resource IDs: (IDS_DO_SAME_FOR_REST)
 msgid "&Do the same for the rest"
-msgstr ""
+msgstr "&Geri kalanların tümü için anısını uygula"
 
 #. Resource IDs: (17040)
 msgid "&Docking"
@@ -636,36 +637,36 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
 msgid "&Don't ask me again"
-msgstr ""
+msgstr "&Bir daha sorma"
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
 msgid "&Don't show this message again"
-msgstr ""
+msgstr "&Bu mesajı tekrar gösterme"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
-msgstr ""
+msgstr "&Aşağı"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1710,
 #. IDS_PROC_DOWNLOAD)
 msgid "&Download"
-msgstr ""
+msgstr "&İndir"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Edit"
-msgstr ""
+msgstr "&Düzenle"
 
 #. Resource IDs: (IDS_PROC_EDITLOCALGITCONFIG)
 msgid "&Edit .git/config"
-msgstr ""
+msgstr "&.git/config dosyasını düzenle"
 
 #. Resource IDs: (IDS_PROC_REBASE_SELECTALL_EDIT)
 msgid "&Edit ALL"
-msgstr ""
+msgstr "&Tümünü düzenle"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1506)
 msgid "&Edit Filter"
-msgstr ""
+msgstr "&Düzenleme Filtresi"
 
 #. Resource IDs: (IDS_MENUCONFLICT)
 msgid "&Edit conflicts"
@@ -673,7 +674,7 @@ msgstr ""
 
 #. Resource IDs: (16510, Dialog IDD_SETTINGSPROGSADV: Control id 1099)
 msgid "&Edit..."
-msgstr ""
+msgstr "&Düzenle..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
@@ -681,19 +682,19 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
-msgstr ""
+msgstr "&EPosta Yaması"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Email:"
-msgstr ""
+msgstr "&EPosta"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1023)
 msgid "&Enable Proxy Server"
-msgstr ""
+msgstr "&Proxy sunucusunu etkinleştir"
 
 #. Resource IDs: (ID_EDIT_ENABLE - Menu)
 msgid "&Enable edit"
-msgstr ""
+msgstr "&Düzenlemeyi etkinleştir"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -706,19 +707,19 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1092, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1095)
 msgid "&External"
-msgstr ""
+msgstr "&Harici"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
-msgstr ""
+msgstr "&Dosya"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
-msgstr ""
+msgstr "&Bul"
 
 #. Resource IDs: (32787 - Menu, ID_EDIT_FIND - Menu)
 msgid "&Find\tCtrl+F"
-msgstr ""
+msgstr "&Bul\t Ctrl+F"
 
 #. Resource IDs: (ID_VIEW_FITIMAGESINWINDOW - Menu)
 msgid "&Fit images in window\tF"
@@ -726,7 +727,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1050)
 msgid "&Fixed drives"
-msgstr ""
+msgstr "&Sabit sürücüler"
 
 #. Resource IDs: (17039)
 msgid "&Floating"
@@ -751,7 +752,7 @@ msgstr ""
 #. IDD_SUBMODULE_ADD: Control id 1480, Dialog IDD_SUBMODULE_UPDATE: Control id
 #. 1480, Dialog IDD_SYNC: Control id 1521)
 msgid "&Force"
-msgstr ""
+msgstr "&Zorla"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1607)
 msgid "&Force Rebase"
@@ -775,7 +776,7 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "&Green:"
-msgstr ""
+msgstr "&Yeşil:"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1511)
 msgid "&HEAD"
@@ -783,7 +784,7 @@ msgstr "&HEAD"
 
 #. Resource IDs: (57670, 65535 - PopupMenu, IDS_MENUHELP)
 msgid "&Help"
-msgstr ""
+msgstr "&Yardım"
 
 #. Resource IDs: (ID_HELP - Menu, ID_HELP_FINDER - Menu)
 msgid "&Help Topics"
@@ -791,7 +792,7 @@ msgstr ""
 
 #. Resource IDs: (17042, 61457, ID_VIEW_OUTPUTWND - Menu)
 msgid "&Hide"
-msgstr ""
+msgstr "&Gizle"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -799,7 +800,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_IGNOREBUTTON, IDS_MSGBOX_IGNORE)
 msgid "&Ignore"
-msgstr ""
+msgstr "&Yoksay"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE)
 #, c-format
@@ -840,7 +841,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_INSTALL)
 msgid "&Install"
-msgstr ""
+msgstr "&Kur"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1016)
 msgid "&Jump to first difference when loading"
@@ -852,19 +853,19 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_COMMIT_RESTOREFILES_KEEP)
 msgid "&Keep current state"
-msgstr ""
+msgstr "&Mevcut durumu koru"
 
 #. Resource IDs: (IDS_VIEW_LABELS)
 msgid "&Labels"
-msgstr ""
+msgstr "&Etiketler"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Language:"
-msgstr ""
+msgstr "&Dil:"
 
 #. Resource IDs: (16653)
 msgid "&Large Icons"
-msgstr ""
+msgstr "&Büyük Simgeler"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1602)
 msgid "&Launch Rebase After Fetch"
@@ -876,16 +877,16 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Limit:"
-msgstr ""
+msgstr "&Limit:"
 
 #. Resource IDs: (Dialog IDD_GOTO: Control id 1078)
 msgid "&Line number"
-msgstr ""
+msgstr "&Satır numarası"
 
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
 msgid "&Line number (%d - %d)"
-msgstr ""
+msgstr "&Satır numarası (%d - %d)"
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
@@ -893,7 +894,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1172)
 msgid "&List View"
-msgstr ""
+msgstr "&Liste Görünümü"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1616)
 msgid "&Local Branch:"
@@ -905,7 +906,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1504)
 msgid "&Local:"
-msgstr ""
+msgstr "&Yerel:"
 
 #. Resource IDs: (65535)
 msgid "&Luminence:"
@@ -921,16 +922,16 @@ msgstr ""
 
 #. Resource IDs: (16921)
 msgid "&Menu contents:"
-msgstr ""
+msgstr "&Menü içeriği: "
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1735,
 #. IDS_MERGEBUTTON)
 msgid "&Merge"
-msgstr ""
+msgstr "&Birleştir"
 
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
-msgstr ""
+msgstr "&Birleştir..."
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1012)
 msgid "&Merging"
@@ -946,7 +947,7 @@ msgstr ""
 
 #. Resource IDs: (16925)
 msgid "&Minimize"
-msgstr ""
+msgstr "&Küçült"
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
@@ -954,11 +955,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1515)
 msgid "&Name"
-msgstr ""
+msgstr "&Ad"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Name:"
-msgstr ""
+msgstr "&Ad:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Navigate"
@@ -970,23 +971,23 @@ msgstr ""
 
 #. Resource IDs: (65535)
 msgid "&New "
-msgstr ""
+msgstr "&Yeni"
 
 #. Resource IDs: (16509, 16615)
 msgid "&New..."
-msgstr ""
+msgstr "&Yeni..."
 
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1014)
 msgid "&Next >"
-msgstr ""
+msgstr "&İleri >"
 
 #. Resource IDs: (58114)
 msgid "&Next Page"
-msgstr ""
+msgstr "&Sonraki Sayfa"
 
 #. Resource IDs: (IDS_MSGBOX_NO)
 msgid "&No"
-msgstr ""
+msgstr "&Hayır"
 
 #. Resource IDs: (16632)
 msgid "&No double-click event"
@@ -998,7 +999,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1702)
 msgid "&None"
-msgstr ""
+msgstr "&Yok"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1661)
 msgid "&Notepad2"
@@ -1018,7 +1019,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_OPEN, IDS_REPOBROWSE_OPEN)
 msgid "&Open"
-msgstr ""
+msgstr "&Aç"
 
 #. Resource IDs: (IDS_PROC_GOTOMSYSGITWEBSITE)
 msgid "&Open Git for Windows WebSite"
