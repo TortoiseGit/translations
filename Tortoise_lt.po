@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-07-08 21:47+0000\n"
+"PO-Revision-Date: 2016-08-02 05:27+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/lznuaa/tortoisegit/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -5259,6 +5259,13 @@ msgstr ""
 msgid "Forward %d"
 msgstr ""
 
+#. Resource IDs: (IDS_REBASELOCKFILEFOUND)
+msgid ""
+"Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
+"\n"
+"If you are not runnig a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
@@ -8478,6 +8485,10 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1629)
 msgid "Remove ignored files (-fX)"
+msgstr ""
+
+#. Resource IDs: (IDS_REMOVESTALEBUTTON)
+msgid "Remove stale lock file"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1626)
