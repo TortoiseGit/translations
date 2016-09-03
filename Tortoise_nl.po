@@ -6,6 +6,7 @@
 # Translators:
 # Bas <duvel3@gmail.com>, 2013
 # Danny Beeckman <dannybeeckman@gmail.com>, 2016
+# dragnadh <dragnadh@gmail.com>, 2016
 # Eric van Aert <ericvanaert@gmail.com>, 2012
 # Jean-Marc van Leerdam <j.m.van.leerdam@gmail.com>, 2011-2012
 # Jelle Raaijmakers <jelle@gmta.nl>, 2013
@@ -23,8 +24,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-08-20 01:22+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-09-03 15:00+0000\n"
+"Last-Translator: dragnadh <dragnadh@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1596,7 +1597,7 @@ msgstr "<Automatisch Gegenereerd door Git>"
 
 #. Resource IDs: (IDS_PROC_LOG_BASIC_REFS)
 msgid "<Basic Refs>"
-msgstr ""
+msgstr "<Basic Refs>"
 
 #. Resource IDs: (IDS_PROC_LOG_LOCAL_BRANCHES)
 msgid "<Local Branches>"
@@ -2057,7 +2058,7 @@ msgstr "Menu's van applicatievenster:"
 
 #. Resource IDs: (ID_FILE_APPLYPATCH - Menu)
 msgid "Apply &Patch..."
-msgstr ""
+msgstr "&Patch toepassen..."
 
 #. Resource IDs: (IDS_MENUIMPORTPATCH)
 msgid "Apply Patch Serial..."
@@ -2461,7 +2462,7 @@ msgstr "Branch:"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1383)
 msgid "Bro&wse..."
-msgstr ""
+msgstr "Bro&wse..."
 
 #. Resource IDs: (IDS_MENUREFBROWSE)
 msgid "Browse References"
@@ -2527,7 +2528,7 @@ msgstr "&Commando's:"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
 msgid "C&ommit"
-msgstr ""
+msgstr "C&ommit"
 
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
@@ -3597,7 +3598,7 @@ msgstr "Maak &bibliotheek"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1527)
 msgid "Create &New Branch"
-msgstr ""
+msgstr "&Nieuwe branch aanmaken"
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
@@ -3687,7 +3688,7 @@ msgstr "Maakt een unified diff bestand met al uw wijzigingen"
 
 #. Resource IDs: (IDS_PROC_CREATINGPULLREUQEST)
 msgid "Creating pull-request..."
-msgstr ""
+msgstr "Pull aanvraag aanmaken"
 
 #. Resource IDs: (IDS_GITCREDENTIAL_HELPEREMPTY)
 msgid "Credential helper must not be empty."
@@ -3858,7 +3859,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
-msgstr ""
+msgstr "Verwijderen en toevoegen aan &negeerlijst"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK)
 #, c-format
@@ -4212,7 +4213,7 @@ msgstr "Gebruik niet de prullenbak"
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "Do you really want to delete ALL %d stash?"
-msgstr ""
+msgstr "Bent u zeker dat u alle %d stash wilt verwijderen?"
 
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
@@ -4253,7 +4254,7 @@ msgstr ""
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
 msgid "Do you really want to remove \"%s\" from the index?"
-msgstr ""
+msgstr "Weet u zeker u  \"%s\" wilt verwijderen van de inhoud?"
 
 #. Resource IDs: (IDS_WARN_REMOVE)
 #, c-format
@@ -4951,17 +4952,17 @@ msgstr "Mislukt!"
 
 #. Resource IDs: (IDS_PROC_FASTFORWARD, IDS_SUBMODULEDIFF_FASTFORWARD)
 msgid "Fast Forward"
-msgstr ""
+msgstr "Snel vooruit"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1484, Dialog IDD_PULLFETCH:
 #. Control id 1484)
 msgid "Fast Forward O&nly"
-msgstr ""
+msgstr "A&lleen  snel vooruit"
 
 #. Resource IDs: (IDS_PROC_REBASE_FFTO)
 #, c-format
 msgid "Fast forward to %s"
-msgstr ""
+msgstr "Snel vooruit naar %s"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCH)
 msgid "Fetc&h"
@@ -6438,22 +6439,22 @@ msgstr "Taal:"
 #. Resource IDs: (IDS_LAST_N_COMMITS)
 #, c-format
 msgid "Last %s commit(s)"
-msgstr ""
+msgstr "Laatste %s vastlegging(en)"
 
 #. Resource IDs: (IDS_LAST_N_MONTHS)
 #, c-format
 msgid "Last %s month(s)"
-msgstr ""
+msgstr "Laatste %s maand(en)"
 
 #. Resource IDs: (IDS_LAST_N_WEEKS)
 #, c-format
 msgid "Last %s week(s)"
-msgstr ""
+msgstr "Laatste %s week(en)"
 
 #. Resource IDs: (IDS_LAST_N_YEARS)
 #, c-format
 msgid "Last %s year(s)"
-msgstr ""
+msgstr "Laatste %s jaar(en)"
 
 #. Resource IDs: (IDS_LASTAUTHOR)
 msgid "Last Author"
@@ -6477,7 +6478,7 @@ msgstr "Laatst bekende &correct:"
 
 #. Resource IDs: (IDS_LAST_SEL_DATE)
 msgid "Last selected date"
-msgstr ""
+msgstr "Laatst geselecteerde datum"
 
 #. Resource IDs: (IDS_MENUDESCCONFLICT)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -6491,7 +6492,7 @@ msgstr "Minst actieve auteur:"
 msgid ""
 "Leave as conflicted\n"
 "The conflict status of the file is kept"
-msgstr ""
+msgstr "Laat als strijdig\nDe conflictstatus van het bestand wordt gehouden"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_LEAVEONLYMARKEDBLOCKS)
 msgid "Leave only marked blocks"
@@ -6610,7 +6611,7 @@ msgstr "Lokale branch"
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
-msgstr ""
+msgstr "Lokale wijzigingen genegeerd (veronderstel geldig/ongewijzigd of sla werkboom gemarkeerde bestanden over )"
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -7108,7 +7109,7 @@ msgstr "Volgend inline-verschil"
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1481, Dialog IDD_PULLFETCH:
 #. Control id 1481)
 msgid "No &Fast Forward"
-msgstr ""
+msgstr "Niet &snel vooruit"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_NOMERGES)
 msgid "No &merges"
@@ -7116,7 +7117,7 @@ msgstr "Geen sa&menvoegingen"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1716)
 msgid "No Checkout"
-msgstr ""
+msgstr "Niet ophalen"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1482, Dialog IDD_PULLFETCH:
 #. Control id 1482)
@@ -7161,7 +7162,7 @@ msgstr "Geen fouten opgetreden."
 
 #. Resource IDs: (IDS_NOCHANGEAFTERMERGE)
 msgid "No extra changes after merge"
-msgstr ""
+msgstr "Geen extra wijzigingen na het samenvoegen"
 
 #. Resource IDs: (IDS_ERR_NOTHINGTOREVERT)
 msgid ""
@@ -7179,14 +7180,14 @@ msgstr ""
 msgid ""
 "No files were changed or added since\n"
 "the last commit."
-msgstr ""
+msgstr "Geen bestanden zijn gewijzigd of toegevoegd sinds\nde laatste commit"
 
 #. Resource IDs: (IDS_COMMITDLG_NOTHINGTOCOMMITUNVERSIONED)
 msgid ""
 "No files were changed or added since\n"
 "the last commit.\n"
 "Do you want to see the unversioned files?"
-msgstr ""
+msgstr "Geen bestanden zijn gewijzigd of toegevoegd sinds\nde laatste commit\nWilt u de bestanden zonder versiebeheer zien?"
 
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
@@ -7602,7 +7603,7 @@ msgstr "&Origineel formaat\tS"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1531)
 msgid "Origin Name"
-msgstr ""
+msgstr "Originele naam"
 
 #. Resource IDs: (17024)
 msgid "Other Task Panes"
@@ -7716,11 +7717,11 @@ msgstr "Plakken"
 
 #. Resource IDs: (IDS_COMMITDLG_POPUP_PASTEFILELIST)
 msgid "Paste &filename list"
-msgstr ""
+msgstr "Plak &Bestandsnamen lijst"
 
 #. Resource IDs: (IDS_COMMITDLG_POPUP_PASTELASTMESSAGE)
 msgid "Paste &last commit message"
-msgstr ""
+msgstr "Plak &laatste commit berichten"
 
 #. Resource IDs: (16908)
 msgid ""
@@ -7730,7 +7731,7 @@ msgstr "Plakgereedschap\nPlakken"
 
 #. Resource IDs: (IDS_COMMITDLG_POPUP_LOGHISTORY)
 msgid "Paste r&ecent message..."
-msgstr ""
+msgstr "Plak r&ecente berichten"
 
 #. Resource IDs: (IDS_MENUDESCCLIPPASTE)
 msgid ""
@@ -9392,7 +9393,7 @@ msgstr "Au&teur instellen"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1557)
 msgid "Set author &date"
-msgstr ""
+msgstr "Auteur &datum instellen"
 
 #. Resource IDs: (IDS_PUSHDLG_PUSHREMOTE_TT)
 msgid "Sets the remote as the \"pushremote\" for the selected local branch."
@@ -9423,7 +9424,7 @@ msgstr "Shell"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1271)
 msgid "Shell Extended"
-msgstr ""
+msgstr "Uitgebreide Shell"
 
 #. Resource IDs: (IDS_PROC_ICONCACHEREBUILT)
 msgid "Shell Icon Cache was rebuilt!"
@@ -9917,7 +9918,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REBASE_STARTCHERRYPICK)
 msgid "Start Cherry Pick"
-msgstr ""
+msgstr "Cherry Pick starten"
 
 #. Resource IDs: (IDS_HOOKTYPE_STARTCOMMIT)
 msgid "Start Commit Hook"
@@ -9954,15 +9955,15 @@ msgstr "Stash Toepassen"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "Stash Apply failed!"
-msgstr ""
+msgstr "Stash toepassen mislukt!"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILEDCONFLICTS)
 msgid "Stash Apply failed, there are conflicts"
-msgstr ""
+msgstr "Stash toepassen mislukt, er zijn conflicten"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYSUCCESS)
 msgid "Stash Apply successful"
-msgstr ""
+msgstr "Stash succesvol toegepast"
 
 #. Resource IDs: (IDS_MENUSTASHLIST)
 msgid "Stash List"
@@ -9970,15 +9971,15 @@ msgstr "Stashlijst"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILED)
 msgid "Stash POP failed!"
-msgstr ""
+msgstr "Stash POP mislukt!"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILEDCONFLICTS)
 msgid "Stash POP failed, there are conflicts"
-msgstr ""
+msgstr "Stash POP mislukt, er zijn conflicten"
 
 #. Resource IDs: (IDS_PROC_STASHPOPSUCCESS)
 msgid "Stash POP successful"
-msgstr ""
+msgstr "Stash POP geslaagd"
 
 #. Resource IDs: (IDS_MENUSTASHPOP)
 msgid "Stash Pop"
@@ -9990,11 +9991,11 @@ msgstr "Stash Opslaan"
 
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
-msgstr ""
+msgstr "Stash geslaagd"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
-msgstr ""
+msgstr "Stash mislukt!"
 
 #. Resource IDs: (IDS_PROC_STASHRUNNING)
 msgid "Stash operation running..."
@@ -10002,7 +10003,7 @@ msgstr "Bezig met stashwerkzaamheden..."
 
 #. Resource IDs: (IDS_STATE)
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #. Resource IDs: (16514, Dialog IDD_GITPROGRESS: Control id 1487, Dialog
 #. IDD_RESOLVE_CONFLICT: Control id 4572, Dialog IDD_RESOLVE_CONFLICT: Control
@@ -10021,7 +10022,7 @@ msgstr "Status"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Ribbon name)
 msgid "Status Bar"
-msgstr ""
+msgstr "Statusbalk"
 
 #. Resource IDs: (17087)
 msgid "Status Bar Configuration"
@@ -11102,7 +11103,7 @@ msgstr "URL"
 
 #. Resource IDs: (IDS_PROC_CLONE_URLDIREMPTY)
 msgid "URL and directory must not be empty."
-msgstr ""
+msgstr "URL en map mogen niet leeg zijn."
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1272)
 msgid "URL history"
@@ -11314,7 +11315,7 @@ msgstr "Gebruik 'hun' tekstblok en dan 'mijn' tekstblok"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
-msgstr ""
+msgstr ".Mailmap gebruiken"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
@@ -11322,7 +11323,7 @@ msgstr "Gebruik HTTP padcomponent"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1066)
 msgid "Use Ribbons"
-msgstr ""
+msgstr "Ribbons gebruiken"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1497)
 msgid "Use Thin &Pack (For slow network connections)"
@@ -11378,7 +11379,7 @@ msgstr "Gebruik beide tekstgedeeltes (deze laatst)"
 
 #. Resource IDs: (IDS_SMTP_CONFIGURED)
 msgid "Use configured server"
-msgstr ""
+msgstr "Geconfigureerde server gebruiken"
 
 #. Resource IDs: (ID_EDIT_USELEFTBLOCK - Menu, ID_EDIT_USELEFTBLOCK - Ribbon
 #. name)
@@ -11572,20 +11573,20 @@ msgstr "Version %d.%d.%d.%d"
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1644,
 #. IDS_PROC_FILEDIFF_VERSION1BASE)
 msgid "Version 1 (Base)"
-msgstr ""
+msgstr "Versie 1 (Basis)"
 
 #. Resource IDs: (IDS_PROC_FILEDIFF_VERSION1BASENEWER)
 msgid "Version 1 (Base, Newer commit time)"
-msgstr ""
+msgstr "Versie 1 (Basis, Recentere commit tijd)"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1645,
 #. IDS_PROC_FILEDIFF_VERSION2)
 msgid "Version 2"
-msgstr ""
+msgstr "Versie 2"
 
 #. Resource IDs: (IDS_PROC_FILEDIFF_VERSION2NEWER)
 msgid "Version 2 (Newer commit time)"
-msgstr ""
+msgstr "Versie 2 (Recentere commit tijd)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1075)
 msgid "Version Information"
