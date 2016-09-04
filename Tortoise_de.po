@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-08-20 01:22+0000\n"
+"PO-Revision-Date: 2016-09-04 13:42+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -772,7 +772,7 @@ msgstr "&HEAD"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1552, Dialog IDD_RESET:
 #. Control id 1552)
 msgid "&Hard: Reset working tree and index (discard all local changes)"
-msgstr ""
+msgstr "&Hart: Ändert Arbeitsbaum und Index (verwirft alle Änderungen)"
 
 #. Resource IDs: (57670, 65535 - PopupMenu, IDS_MENUHELP)
 msgid "&Help"
@@ -944,7 +944,7 @@ msgstr "&Minimieren"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
 msgid "&Mixed: Leave working tree untouched, reset index"
-msgstr ""
+msgstr "Ge&mischt: Lässt die Arbeitsbaum unverändert, versetzt nur den Index."
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
@@ -1040,7 +1040,7 @@ msgstr "Bilder &überlagern\tO"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1523)
 msgid "&Override branch if exists"
-msgstr ""
+msgstr "Überschreibe Z&weig, falls er existiert"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1411, Dialog
 #. IDD_SIMPLEPROMPT: Control id 65535, Dialog IDD_USER_PASSWD: Control id
@@ -1272,7 +1272,7 @@ msgstr "Ü&berspringen"
 
 #. Resource IDs: (Dialog IDD_RESET: Control id 1550)
 msgid "&Soft: Leave working tree and index untouched"
-msgstr ""
+msgstr "&Soft: Lasse Arbeitsbaum und Index unbehelligt"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1524, Dialog IDD_PULLFETCH:
 #. Control id 1524)
@@ -3591,7 +3591,7 @@ msgstr "&Bibliothek erstellen"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1527)
 msgid "Create &New Branch"
-msgstr ""
+msgstr "Erzeuge &neuen Zweig"
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
@@ -7632,7 +7632,7 @@ msgstr "Überschreiben"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1521)
 msgid "Overwrite working tree changes (&force)"
-msgstr ""
+msgstr "Überschreibe Arbetisbaum-Änderungen (&force)"
 
 #. Resource IDs: (ID_FILE_PAGESETUP - Menu)
 msgid "P&age setup..."
@@ -8335,7 +8335,7 @@ msgstr "RefLog"
 
 #. Resource IDs: (Dialog IDD_COMMITISONREFS: Control id 4596)
 msgid "References commit is on"
-msgstr ""
+msgstr "Zeige Referenzen auf denen diese Revision liegt"
 
 #. Resource IDs: (IDS_LOG_FILTER_REFNAME)
 msgid "Refname"
@@ -8871,7 +8871,7 @@ msgstr "Zeige Schnellzugriffsleiste &unterhalb des Bandes"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1383, Dialog IDD_RESET:
 #. Control id 1383)
 msgid "S&how modified files in working tree"
-msgstr ""
+msgstr "&Zeige geänderte Dateien im Arbeitsbaum"
 
 #. Resource IDs: (IDS_PROC_REBASE_UNSELECTED_SKIP)
 msgid "S&kip unselected"
@@ -10246,7 +10246,7 @@ msgstr "System Registry Einträge wurden gelöscht und die INI Datei (falls vorh
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1520)
 msgid "T&rack"
-msgstr ""
+msgstr "&Verfolgen"
 
 #. Resource IDs: (5065 - Menu)
 msgid "TIS-620"
@@ -10300,7 +10300,7 @@ msgstr "Markierungen:"
 
 #. Resource IDs: (IDS_ERR_MUSTBESAMEWT)
 msgid "Target and source must be in the same working tree!"
-msgstr ""
+msgstr "Quelle und Ziel müssen sich im gleichen Arbeitsbaum befinden!"
 
 #. Resource IDs: (IDS_PROC_TASKS)
 msgid "Tasks"
@@ -11308,7 +11308,7 @@ msgstr "Verwende 'deren' Textblock vor 'meinem'"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
-msgstr ""
+msgstr "Benutze .mailmap"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
@@ -11825,8 +11825,8 @@ msgid "Working Tree Path:"
 msgstr "Pfad des Arbeitsbaumes:"
 
 #. Resource IDs: (IDS_LOG_WORKINGDIRCHANGES)
-msgid "Working dir changes"
-msgstr "Arbeitsbaum-Änderungen"
+msgid "Working tree changes"
+msgstr "Arbeitsbaum Änderungen"
 
 #. Resource IDs: (ID_VIEW_WRAPLONGLINES - Menu, ID_VIEW_WRAPLONGLINES - Ribbon
 #. name)
