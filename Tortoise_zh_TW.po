@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-24 09:06+0000\n"
+"PO-Revision-Date: 2016-09-24 10:42+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -5289,7 +5289,7 @@ msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not runnig a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "找到了一個鎖定檔案，它被用來表示正在執行 TortoiseGit 變基（Rebase）操作，而這個檔會阻擋目前的操作。\n\n如果你並沒有正在執行 TortoiseGit 變基操作，你可以移除這個不適用的鎖定檔案，以便繼續往下操作。"
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
@@ -8335,7 +8335,7 @@ msgstr "參照日誌"
 
 #. Resource IDs: (Dialog IDD_COMMITISONREFS: Control id 4596)
 msgid "References commit is on"
-msgstr ""
+msgstr "提交位於哪些參照上"
 
 #. Resource IDs: (IDS_LOG_FILTER_REFNAME)
 msgid "Refname"
@@ -8501,7 +8501,7 @@ msgstr "移除已忽略檔案(-fX)"
 
 #. Resource IDs: (IDS_REMOVESTALEBUTTON)
 msgid "Remove stale lock file"
-msgstr ""
+msgstr "移除不適用的鎖定檔案"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1626)
 msgid "Remove untracked directories (-d)"
@@ -9252,7 +9252,7 @@ msgstr "選擇檔案"
 
 #. Resource IDs: (IDS_SETTINGS_BUGTRAQ_SELECTFOLDERPATH)
 msgid "Select folder to associate with this issue tracker"
-msgstr "請選擇要和此 bug 追踪程式關聯的資料匣"
+msgstr "請選擇要和此 bug 追蹤程式關聯的資料匣"
 
 #. Resource IDs: (IDS_PROC_EXPORT_1)
 msgid ""
@@ -10496,7 +10496,7 @@ msgstr "無法顯示圖片"
 msgid ""
 "The issue-tracker provider could not be created. Please check that it is "
 "installed correctly."
-msgstr "無法成功建立 bug 追踪提供者。請檢查是否有正確安裝。"
+msgstr "無法成功建立 bug 追蹤提供者。請檢查是否有正確安裝。"
 
 #. Resource IDs: (IDS_ERR_PROVIDER_VALIDATE_FAILED)
 msgid "The issue-tracker provider was unable to validate the parameter string"
@@ -11308,7 +11308,7 @@ msgstr "對方的 ＋ 我的"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
-msgstr ""
+msgstr "使用 .mailmap"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
