@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-04 13:40+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-09-28 10:54+0000\n"
+"Last-Translator: Martin Šuráb <e.martyn@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/lznuaa/tortoisegit/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -141,7 +141,7 @@ msgstr "Pred %1!d! rokmi"
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
 msgid "%1!d! items selected"
-msgstr ""
+msgstr "%1!d! vybraných položiek"
 
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
@@ -158,14 +158,14 @@ msgstr "%1!s!"
 msgid ""
 "%1!s!\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr ""
+msgstr "%1!s!\nZobrazujem %2!d! súborov, %3!d! podmodulov a %4!d! adresárov, %5!d! položiek celkom"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOFILE)
 #, c-format
 msgid ""
 "%1!s!\n"
 "Size %2!s!"
-msgstr ""
+msgstr "%1!s!\nVeľkosť %2!s!"
 
 #. Resource IDs: (61744)
 #, c-format
@@ -220,7 +220,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%d files selected, %d files total"
-msgstr ""
+msgstr "%d vybraných súborov, %d súborov celkom"
 
 #. Resource IDs: (IDS_STATGRAPH_AUTHORSLIDER_TT)
 #, c-format
@@ -238,7 +238,7 @@ msgstr "%i%% alfa\nklikom prepnite alfu\ndvojklik zmení alfu automaticky"
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%ld minute(s) and %ld second(s)"
-msgstr ""
+msgstr "%ld minút %ld sekúnd"
 
 #. Resource IDs: (IDS_DIMENSIONSANDFRAMES)
 #, c-format
@@ -263,7 +263,7 @@ msgstr "%s v %s"
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
 msgid "%s requires Git >= %s"
-msgstr ""
+msgstr "%s vyžaduje Git >= %s"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
@@ -410,11 +410,11 @@ msgstr "&Skryť automaticky"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 65535)
 msgid "&Autoclose Git.exe dialog:"
-msgstr ""
+msgstr "&Automaticky zavrieť Git.exe dialóg:"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1505)
 msgid "&Autoload Putty Key"
-msgstr ""
+msgstr "&Automaticky načítať Putty kľúč"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1015)
 msgid "&Backup original file"
@@ -516,11 +516,11 @@ msgstr "&Príkaz:"
 #. IDD_NEW_BRANCH_TAG: Control id 1514, Dialog IDD_RESET: Control id 1514,
 #. Dialog IDD_SYNC: Control id 1625)
 msgid "&Commit"
-msgstr ""
+msgstr "&Odovzdaj"
 
 #. Resource IDs: (IDS_MENUCOMMITSUBMODULE)
 msgid "&Commit submodule..."
-msgstr ""
+msgstr "&Odovzdaj podmodul..."
 
 #. Resource IDs: (IDS_PROC_COMMIT_NOADDSIGNOFFBUTTON)
 msgid "&Commit w/o"
@@ -733,7 +733,7 @@ msgstr "&Písmo:"
 #. IDD_SUBMODULE_ADD: Control id 1480, Dialog IDD_SUBMODULE_UPDATE: Control id
 #. 1480, Dialog IDD_SYNC: Control id 1521)
 msgid "&Force"
-msgstr ""
+msgstr "&Vynútiť"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1607)
 msgid "&Force Rebase"
@@ -1150,7 +1150,7 @@ msgstr "&Odstrániť"
 
 #. Resource IDs: (IDS_REMOVE_FROM_INDEX)
 msgid "&Remove this file from index"
-msgstr ""
+msgstr "&Odstrániť tento súbor z indexu"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1511)
 msgid "&Replace"
@@ -1693,7 +1693,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1128)
 msgid "Abbreviate renamings"
-msgstr ""
+msgstr "Skrátiť premenovania"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Abbreviated size"
@@ -1784,7 +1784,7 @@ msgstr "Pridať '%s' do slovníka"
 
 #. Resource IDs: (Dialog IDD_ADD_REMOTE: Control id 323)
 msgid "Add Remote"
-msgstr ""
+msgstr "Pridať vzdialený"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1482)
 msgid "Add \"&Signed-off-by\""
@@ -1944,7 +1944,7 @@ msgstr "Povoliť úpravy pre toto okno\nPovoliť úpravy"
 
 #. Resource IDs: (IDS_SETTINGS_GRAVATARURL_TT)
 msgid "Allow to use custom Gravatar URL"
-msgstr ""
+msgstr "Povoliť použitie vlastného Gravatar URL"
 
 #. Resource IDs: (IDS_COMMIT_MESSAGEONLY_TT)
 msgid ""
@@ -4396,7 +4396,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
-msgstr ""
+msgstr "Testovací beh"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1279)
 msgid "Dummy Button Form "
@@ -5303,29 +5303,29 @@ msgstr "Od:"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1604)
 msgid "From &SVN Repository"
-msgstr ""
+msgstr "Z repozitára &SVN"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES -
 #. Menu)
 msgid "From &existing files"
-msgstr ""
+msgstr "Z &existujúcich súborov"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_FROM_MODIFIED_FILES -
 #. Menu)
 msgid "From &modified files"
-msgstr ""
+msgstr "Z &upravených súborov"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1603)
 msgid "From SVN Repository"
-msgstr ""
+msgstr "Z repozitára SVN"
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES)
 msgid "From existing files"
-msgstr ""
+msgstr "Z existujúcich súborov"
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_FROM_MODIFIED_FILES)
 msgid "From modified files"
-msgstr ""
+msgstr "Z upravených súborov"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 65535, Dialog
 #. IDD_LOGMESSAGE: Control id 1200, Dialog IDD_REVGRAPHFILTER: Control id
@@ -7958,7 +7958,7 @@ msgstr "Predchádzajúca strana\nPredchádzajúca strana"
 
 #. Resource IDs: (IDS_PROC_PREVIOUSVERSION)
 msgid "Previous Version"
-msgstr ""
+msgstr "Predchádzajúca verzia"
 
 #. Resource IDs: (ID_NAVIGATE_PREVIOUSCONFLICT - Menu,
 #. ID_NAVIGATE_PREVIOUSCONFLICT - Ribbon name)
