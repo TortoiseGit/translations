@@ -17,6 +17,7 @@
 # Huseyin <hyagli@hotmail.com>, 2013
 # ibrahim YENER <jdavide222@hotmail.com>, 2014
 # Ivan BARAYEV <ivanbarayev@hotmail.com>, 2016
+# ks780 <ks780@mynet.com>, 2016
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # Muhammet Kara <muhammetk@gmail.com>, 2014
 # Ozancan Karataş <ozanc27@icloud.com>, 2015-2016
@@ -34,8 +35,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-10-01 19:09+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-10-17 09:38+0000\n"
+"Last-Translator: ks780 <ks780@mynet.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/lznuaa/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -452,7 +453,7 @@ msgstr "&Blame değişiklikleri"
 
 #. Resource IDs: (IDS_FILEDIFF_POPBLAME, IDS_LOG_POPUP_BLAMEREVS)
 msgid "&Blame revisions"
-msgstr ""
+msgstr "&Revizyon sorumluları"
 
 #. Resource IDs: (65535)
 msgid "&Blue:"
@@ -616,7 +617,7 @@ msgstr "&Diff"
 
 #. Resource IDs: (IDS_MENUPREVDIFF)
 msgid "&Diff with previous version"
-msgstr ""
+msgstr "&Bir önceki revizyon ile karşılaştır"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 65535)
 msgid "&Directory:"
@@ -636,7 +637,7 @@ msgstr "&Geri kalanların tümü için anısını uygula"
 
 #. Resource IDs: (17040)
 msgid "&Docking"
-msgstr ""
+msgstr "&Yerleştirme"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
 msgid "&Don't ask me again"
@@ -673,7 +674,7 @@ msgstr "&Düzenleme Filtresi"
 
 #. Resource IDs: (IDS_MENUCONFLICT)
 msgid "&Edit conflicts"
-msgstr ""
+msgstr "&Çakışmaları düzenle"
 
 #. Resource IDs: (16510, Dialog IDD_SETTINGSPROGSADV: Control id 1099)
 msgid "&Edit..."
@@ -705,7 +706,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FILEDIFF_POPEXPORT)
 msgid "&Export selection to..."
-msgstr ""
+msgstr "Seçimi buraya &dışa aktar..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1092, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1095)
@@ -726,7 +727,7 @@ msgstr "&Bul\t Ctrl+F"
 
 #. Resource IDs: (ID_VIEW_FITIMAGESINWINDOW - Menu)
 msgid "&Fit images in window\tF"
-msgstr ""
+msgstr "&Görselleri pencereye sığdır"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1050)
 msgid "&Fixed drives"
@@ -739,17 +740,17 @@ msgstr ""
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FOLLOWRENAMES, ID_VIEW_FOLLOWRENAMES -
 #. Menu)
 msgid "&Follow renames"
-msgstr ""
+msgstr "Ad değişiklerini takip et"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "&Font for log messages:"
-msgstr ""
+msgstr "&Günlük mesajları yazı tipi:"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535, Dialog
 #. IDD_SETTINGSTBLAME: Control id 65535, Dialog IDD_SETTINGSUDIFF: Control id
 #. 65535)
 msgid "&Font:"
-msgstr ""
+msgstr "&Yazı tipi:"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1521, Dialog
 #. IDD_SUBMODULE_ADD: Control id 1480, Dialog IDD_SUBMODULE_UPDATE: Control id
@@ -759,11 +760,11 @@ msgstr "&Zorla"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1607)
 msgid "&Force Rebase"
-msgstr ""
+msgstr "&Rebase yapmaya zorla"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1608)
 msgid "&From:"
-msgstr ""
+msgstr "&Buradan:"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -771,7 +772,7 @@ msgstr ""
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
-msgstr ""
+msgstr "&Git\tCtrl+G"
 
 #. Resource IDs: (IDS_SHOWFILES_GRAYPATHS)
 msgid "&Gray Unrelated Changed Paths"
@@ -1144,91 +1145,91 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20093)
 msgid "&Regular Expression"
-msgstr ""
+msgstr "Düzenli İfade"
 
 #. Resource IDs: (IDS_REMINDMELATER)
 msgid "&Remind me later"
-msgstr ""
+msgstr "&Daha sonra hatırlat"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1617)
 msgid "&Remote Branch:"
-msgstr ""
+msgstr "&Uzak Dal:"
 
 #. Resource IDs: (IDS_VIEW_SHOWREMOTEBRANCHLABELS)
 msgid "&Remote branches"
-msgstr ""
+msgstr "&Uzak Dallar:"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1490, Dialog IDD_PUSH:
 #. Control id 1503)
 msgid "&Remote:"
-msgstr ""
+msgstr "&Uzak"
 
 #. Resource IDs: (16646, Dialog IDD_APPLY_PATCH_LIST: Control id 1385, Dialog
 #. IDD_SETTINGSCREDENTIAL: Control id 1385, Dialog IDD_SETTINGSPROGSADV:
 #. Control id 1100, Dialog IDD_SETTINREMOTE: Control id 1385,
 #. IDS_REMOVEBUTTON)
 msgid "&Remove"
-msgstr ""
+msgstr "&Kaldır"
 
 #. Resource IDs: (IDS_REMOVE_FROM_INDEX)
 msgid "&Remove this file from index"
-msgstr ""
+msgstr "Bu dosyayı indeksten sil"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1511)
 msgid "&Replace"
-msgstr ""
+msgstr "&Değiştir"
 
 #. Resource IDs: (IDS_MENUREPOBROWSE)
 msgid "&Repo-browser"
-msgstr ""
+msgstr "&Depo tarayıcısı"
 
 #. Resource IDs: (16613, 16624)
 msgid "&Reset"
-msgstr ""
+msgstr "&Sıfırla"
 
 #. Resource IDs: (16300)
 msgid "&Reset Toolbar"
-msgstr ""
+msgstr "&Araç çubuğunu sıfırla"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1355)
 msgid "&Reset filter"
-msgstr ""
+msgstr "&Filtreyi sıfırla"
 
 #. Resource IDs: (16657)
 msgid "&Reset my usage data"
-msgstr ""
+msgstr "Kullanım verilerimi &sıfırla"
 
 #. Resource IDs: (16910 - Menu)
 msgid "&Reset to Default"
-msgstr ""
+msgstr "&Varsayılana geri dön"
 
 #. Resource IDs: (IDS_RESOLVEDBUTTON)
 msgid "&Resolved"
-msgstr ""
+msgstr "&Çözümlendi"
 
 #. Resource IDs: (IDS_RESTOREBUTTON)
 msgid "&Restore"
-msgstr ""
+msgstr "&Geridön"
 
 #. Resource IDs: (IDS_PROC_COMMIT_RESTOREFILES_RESTORE)
 msgid "&Restore old state"
-msgstr ""
+msgstr "&Eski duruma al"
 
 #. Resource IDs: (IDS_MSGBOX_RETRY)
 msgid "&Retry"
-msgstr ""
+msgstr "&Yeniden Dene"
 
 #. Resource IDs: (IDS_LOG_POPUP_REVERTREV)
 msgid "&Revert change by this commit"
-msgstr ""
+msgstr "&Bu teslimden kaynaklanan değişiklikleri geri al"
 
 #. Resource IDs: (IDS_LOG_POPUP_REVERTREVS)
 msgid "&Revert changes by these commits"
-msgstr ""
+msgstr "Bu teslimlerden kaynaklanan değişiklikleri geri al"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 65535)
 msgid "&SSH client:"
-msgstr ""
+msgstr "&SSH istemcisi:"
 
 #. Resource IDs: (65535)
 msgid "&Saturation:"
@@ -1236,12 +1237,12 @@ msgstr ""
 
 #. Resource IDs: (16921, IDS_SAVEBUTTON)
 msgid "&Save"
-msgstr ""
+msgstr "&Kaydet"
 
 #. Resource IDs: (Dialog IDD_PROMPT: Control id 1023, Dialog IDD_SIMPLEPROMPT:
 #. Control id 1023)
 msgid "&Save authentication"
-msgstr ""
+msgstr "&Kimliği Kaydet"
 
 #. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVESTATGRAPHAS - Menu)
 msgid "&Save graph as..."
@@ -1265,19 +1266,19 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUSETTINGS)
 msgid "&Settings"
-msgstr ""
+msgstr "&Ayarlar"
 
 #. Resource IDs: (ID_FILE_SETTINGS - Menu)
 msgid "&Settings..."
-msgstr ""
+msgstr "&Ayarlar..."
 
 #. Resource IDs: (65535)
 msgid "&Show Menus for:"
-msgstr ""
+msgstr "&Menüleri .... için göster:"
 
 #. Resource IDs: (16612)
 msgid "&Show text labels"
-msgstr ""
+msgstr "&Metin etiketlerini göster"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Signing key ID:"
@@ -11564,63 +11565,63 @@ msgid ""
 "/saverequiredonconflicts\n"
 "/oneway <forces the one-way view>\n"
 "/line:<line number to jump to>"
-msgstr ""
+msgstr "Geçerli komut satırı opsiyonları:\n/base:<path to base file>\n/basename:<name to show on the view title>\n/theirs:<path to their file>\n/theirsname:<name to show on the view title>\n/mine:<path to your file>\n/minename:<name to show on the view title>\n/merged:<path to resulting merged file>\n/mergedname:<name to show on the view title>\n/diff:<path to unified diff file>\n/patchpath:<path to folder>\n/saverequired\n/saverequiredonconflicts\n/oneway <forces the one-way view>\n/line:<line number to jump to>"
 
 #. Resource IDs: (IDS_PROPVALUE, IDS_SETTINGS_CONF_VALUECOL)
 msgid "Value"
-msgstr ""
+msgstr "Değer"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1004, Dialog IDD_ABOUT: Control
 #. id 1075, Dialog IDD_FORMAT_PATCH: Control id 1539)
 msgid "Version"
-msgstr ""
+msgstr "Sürüm"
 
 #. Resource IDs: (IDS_VERSION)
 #, c-format
 msgid "Version %d.%d.%d.%d"
-msgstr ""
+msgstr "Sürüm %d.%d.%d.%d"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1644,
 #. IDS_PROC_FILEDIFF_VERSION1BASE)
 msgid "Version 1 (Base)"
-msgstr ""
+msgstr "Sürüm 1 (Taban)"
 
 #. Resource IDs: (IDS_PROC_FILEDIFF_VERSION1BASENEWER)
 msgid "Version 1 (Base, Newer commit time)"
-msgstr ""
+msgstr "Sürüm 1 (Taban, Daha yeni teslim zamanı)"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1645,
 #. IDS_PROC_FILEDIFF_VERSION2)
 msgid "Version 2"
-msgstr ""
+msgstr "Sürüm 2"
 
 #. Resource IDs: (IDS_PROC_FILEDIFF_VERSION2NEWER)
 msgid "Version 2 (Newer commit time)"
-msgstr ""
+msgstr "Sürüm 2 (Taban, Daha yeni teslim zamanı)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1075)
 msgid "Version Information"
-msgstr ""
+msgstr "Sürüm Bilgisi"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1552)
 msgid "Version:"
-msgstr ""
+msgstr "Sürüm:"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1704, IDS_SVNACTION_EXISTS)
 msgid "Versioned"
-msgstr ""
+msgstr "Sürümlendi"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamca"
 
 #. Resource IDs: (156 - Ribbon element)
 msgid "View"
-msgstr ""
+msgstr "&Görünüm"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_VIEWTGITCONFIG)
 msgid "View .tgitconfig"
-msgstr ""
+msgstr ".tgitconfig dosyasını görüntüle"
 
 #. Resource IDs: (ID_VIEW_BARS - Ribbon name)
 msgid "View Bars"
@@ -11628,12 +11629,12 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PATCH_VIEW: Control id 328, IDS_MENU_VIEWPATCH)
 msgid "View Patch"
-msgstr ""
+msgstr "Yamayı göster"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1637,
 #. IDS_PROC_COMMIT_SHOWPATCH)
 msgid "View Patch>>"
-msgstr ""
+msgstr "Yamayı göster>>"
 
 #. Resource IDs: (IDS_LOG_POPUP_VIEWPATHREV)
 msgid "View revision for path in &webviewer"
@@ -11686,15 +11687,15 @@ msgstr ""
 
 #. Resource IDs: (IDS_WARN_WARNING)
 msgid "Warning"
-msgstr ""
+msgstr "Uyarı"
 
 #. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
 msgid "Warning!"
-msgstr ""
+msgstr "Uyarı!"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Western European"
-msgstr ""
+msgstr "Batı Avrupa"
 
 #. Resource IDs: (IDS_SETTINGS_HIDEMENUS_TT)
 msgid ""
