@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-04 13:40+0000\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/lznuaa/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -913,6 +913,10 @@ msgstr "&Menu contents:"
 msgid "&Merge"
 msgstr "&Merge"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr "&Merge unrelated history"
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "&Merge..."
@@ -1639,8 +1643,9 @@ msgstr "A newer version is available. Please download the current version!"
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "A newline separated list of paths for which icon overlays are shown.\nIf you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
+msgstr "A newline separated list of paths for which icon overlays are shown.\nIf you add an '?' char at the end of a path, then only this path will be included.\nIf you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1652,9 +1657,10 @@ msgstr "A newline separated list of paths for which no context menu is shown.\nI
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "A newline separated list of paths for which no icon overlays are shown.\nIf you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\nAn empty list will allow overlays on all paths."
+msgstr "A newline separated list of paths for which no icon overlays are shown.\nIf you add an '?' char at the end of a path, then only this path will be excluded.\nIf you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\nAn empty list will allow overlays on all paths."
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2282,7 +2288,8 @@ msgstr "B&rowse..."
 msgid "Back"
 msgstr "Back"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "Background"
 
@@ -2334,6 +2341,10 @@ msgstr "Bisect good"
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
 msgstr "Bisect reset"
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
+msgstr "Bisect skip"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -4387,6 +4398,10 @@ msgstr "Draw tag/branch labels on right side"
 msgid "Drive Types"
 msgstr "Drive Types"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr "Drives A: and B:"
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr "Drop &one stash"
@@ -5193,10 +5208,6 @@ msgstr "Fit image &heights\tH"
 msgid "Fit image &widths\tW"
 msgstr "Fit image &widths\tW"
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "Floppy drives (A: B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "Folder"
@@ -5255,7 +5266,8 @@ msgstr "Force the rebase even if the current branch is a descendant of the commi
 msgid "Force: May discard"
 msgstr "Force: May discard"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr "Foreground"
 
@@ -7911,6 +7923,10 @@ msgstr "Pre-Commit Hook"
 msgid "Pre-Push Hook"
 msgstr "Pre-Push Hook"
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr "Pre-rebase hook"
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr "Preparing commit..."
@@ -9807,6 +9823,10 @@ msgstr "Skip"
 #, c-format
 msgid "Skip Patch: %s"
 msgstr "Skip Patch: %s"
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
+msgstr "Skip current revision in bisecting process"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)

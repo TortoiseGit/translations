@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-27 08:15+0000\n"
-"Last-Translator: Jiří Engelthaler <engycz@gmail.com>\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/lznuaa/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -920,6 +920,10 @@ msgstr "&Obsahy nabídky:"
 msgid "&Merge"
 msgstr "&Sloučení"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "&Sloučit..."
@@ -1646,8 +1650,9 @@ msgstr "Je dostupná novější verze. Prosím stáhněte si nejnovější verzi
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "Seznam cest, oddělených novým řádkem, v kterých jsou zobrazeny překryvy ikon.\nPokud na konci cesty přidáte znak '*', pak jsou také zahrnuty všechny soubory a podadresáře v této cestě."
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1659,9 +1664,10 @@ msgstr "Seznam cest, oddělených novým řádkem, v kterých není zobrazena ko
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "Seznam cest, oddělených novým řádkem, v kterých nejsou překryvy ikon zobrazeny.\nPokud na konci cesty přidáte znak '*', pak jsou také vynechány všechny soubory a podadresáře v této cestě.\nPrázdný seznam umožňuje zobrazovat překryvy ve všech cestách."
+msgstr ""
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2289,7 +2295,8 @@ msgstr "&Procházet..."
 msgid "Back"
 msgstr "Zpět"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "Pozadí"
 
@@ -2341,6 +2348,10 @@ msgstr "Dobré půlení"
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
 msgstr "Reset půlení"
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -4394,6 +4405,10 @@ msgstr "Štítky značek/větví zobrazovat na pravé straně."
 msgid "Drive Types"
 msgstr "Typy jednotek"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr ""
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr "Smazat &jednu úschovu"
@@ -5200,10 +5215,6 @@ msgstr "Přizpůsobit &výšky obrázku\tH"
 msgid "Fit image &widths\tW"
 msgstr "Př&izpůsobit šířky obrázku\tW"
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "Disketové jednotky (A: B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "Složka"
@@ -5262,7 +5273,8 @@ msgstr "Vynutit přeskládání i když je současná větev potomkem odevzdán�
 msgid "Force: May discard"
 msgstr "Vynutit: Může dojít k zahození"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr "Pořpedí"
 
@@ -7918,6 +7930,10 @@ msgstr "Hák před odevzdáním"
 msgid "Pre-Push Hook"
 msgstr "Hák před odesláním"
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr "Připravování odevzdání..."
@@ -9814,6 +9830,10 @@ msgstr "Přeskočit"
 #, c-format
 msgid "Skip Patch: %s"
 msgstr "Přeskočit záplatu: %s"
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)

@@ -4,7 +4,7 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# ch cooli <ch3cooli@gmail.com>, 2014
+# 乙酸鋰 <ch3cooli@gmail.com>, 2014
 # lznuaa <lznuaa@gmail.com>, 2012
 # Freeman Ke <guang810828@gmail.com>, 2012
 # Gong Gong <gongong83@gmail.com>, 2013
@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-26 23:36+0000\n"
-"Last-Translator: Y.F Yang <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -926,6 +926,10 @@ msgstr "菜单内容(&M):"
 msgid "&Merge"
 msgstr "合并(&M)"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "合并(&M)..."
@@ -1652,8 +1656,9 @@ msgstr "有新版本可用。请下载最新版本！"
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "以换行分隔的列表，包含要显示图标覆盖的目录。\n如果您在路径后面加上字符“*”，此路径下的所有文件及子目录也都会显示。"
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1665,9 +1670,10 @@ msgstr "以换行分隔的列表，列出的目录不显示上下文菜单。\n�
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "以换行分隔的列表，列出的目录不显示图标覆盖。\n如果您在路径后面加上字符“*”， 此路径下的所有文件及子目录也都不会显示。\n列表为空时表示所有路径都显示图标覆盖。"
+msgstr ""
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2295,7 +2301,8 @@ msgstr "浏览(&B)..."
 msgid "Back"
 msgstr "后退"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "背景色"
 
@@ -2347,6 +2354,10 @@ msgstr "二分定位 - 正常"
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
 msgstr "二分定位 - 重置"
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -4400,6 +4411,10 @@ msgstr "在右侧绘制 tag/branch 标签"
 msgid "Drive Types"
 msgstr "磁盘驱动器类型"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr ""
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr "删除一个贮藏(&O)"
@@ -5206,10 +5221,6 @@ msgstr "适合图像高度(&H)\tH"
 msgid "Fit image &widths\tW"
 msgstr "适合图像宽度(&W)\tW"
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "软驱 (A: B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "文件夹"
@@ -5268,7 +5279,8 @@ msgstr "尽管当前分支是你想变基到的后裔节点，也要强制变基
 msgid "Force: May discard"
 msgstr "强制：可能/可以丢弃"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr "前景色"
 
@@ -7924,6 +7936,10 @@ msgstr "Pre-Commit Hook"
 msgid "Pre-Push Hook"
 msgstr "Pre-Push Hook"
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr "准备提交..."
@@ -9820,6 +9836,10 @@ msgstr "跳过"
 #, c-format
 msgid "Skip Patch: %s"
 msgstr "跳过补丁: %s"
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)

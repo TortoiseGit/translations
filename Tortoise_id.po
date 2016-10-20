@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-04 13:40+0000\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/lznuaa/tortoisegit/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -924,6 +924,10 @@ msgstr "&Isi menu:"
 msgid "&Merge"
 msgstr "&Gabung"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "&Gabung..."
@@ -1650,7 +1654,8 @@ msgstr ""
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
 msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
@@ -1663,7 +1668,8 @@ msgstr "Daftar path yang dipisahkan oleh baris baru di mana tiada konteks menu d
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
 msgstr ""
 
@@ -2293,7 +2299,8 @@ msgstr "B&rowse..."
 msgid "Back"
 msgstr "Kembali"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "Tampilan Belakang"
 
@@ -2344,6 +2351,10 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
+msgstr ""
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
@@ -4398,6 +4409,10 @@ msgstr ""
 msgid "Drive Types"
 msgstr "Tipe Pemacu"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr ""
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr ""
@@ -5204,10 +5219,6 @@ msgstr ""
 msgid "Fit image &widths\tW"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "Floppy drives (A: B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "Folder"
@@ -5266,7 +5277,8 @@ msgstr ""
 msgid "Force: May discard"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr ""
 
@@ -7922,6 +7934,10 @@ msgstr "Hook Pre-Komit"
 msgid "Pre-Push Hook"
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr ""
@@ -9817,6 +9833,10 @@ msgstr "Lewati"
 #. Resource IDs: (IDS_PROC_SKIPPATCH)
 #, c-format
 msgid "Skip Patch: %s"
+msgstr ""
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,

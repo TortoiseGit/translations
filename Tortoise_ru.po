@@ -31,8 +31,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-27 15:52+0000\n"
-"Last-Translator: Stanislav Kroter <krotersv@gmail.com>\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -935,6 +935,10 @@ msgstr "&Содержимое меню:"
 msgid "&Merge"
 msgstr "С&лияние"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "&Слить..."
@@ -1661,8 +1665,9 @@ msgstr "Новая версия доступна. Вы можете скачат
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "Список путей, по одному в строке, где будут показываться пометки на значках.\nЕсли вы добавите '*' в конец пути, будут также включены все дочерние файлы и подпапки."
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1674,9 +1679,10 @@ msgstr "Список папок, в которых не будет показы�
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "Список папок, в которых не будут показываться пометки на значках. По одной в строке.\nСимвол '*' в конец пути, исключает также все дочерние файлы и подпапки.\nПустой список разрешает пометки во всех папках."
+msgstr ""
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2304,7 +2310,8 @@ msgstr "О&бзор..."
 msgid "Back"
 msgstr "Назад"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "Фон"
 
@@ -2356,6 +2363,10 @@ msgstr "Исправный коммит"
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
 msgstr "Отменить бинарный поиск"
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -4409,6 +4420,10 @@ msgstr "Выводить подписи веток/меток справа"
 msgid "Drive Types"
 msgstr "Типы накопителей"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr ""
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr ""
@@ -5215,10 +5230,6 @@ msgstr "Подогнать &высоты изображений\tH"
 msgid "Fit image &widths\tW"
 msgstr "Подогнать &ширину изображений\tW"
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "Гибкие диски (A: B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "Папка"
@@ -5277,7 +5288,8 @@ msgstr "Принудительно переместить, даже если т�
 msgid "Force: May discard"
 msgstr "Принудительно: можно потерять изменения"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr "Передний план"
 
@@ -7933,6 +7945,10 @@ msgstr "Хук перед-фиксацией"
 msgid "Pre-Push Hook"
 msgstr "Хук перед отправкой"
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr "Подготовка фиксации..."
@@ -9829,6 +9845,10 @@ msgstr "Пропустить"
 #, c-format
 msgid "Skip Patch: %s"
 msgstr "Пропустить заплатку: %s"
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)

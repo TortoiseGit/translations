@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-04 13:40+0000\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -923,6 +923,10 @@ msgstr "Contingut del &Menú:"
 msgid "&Merge"
 msgstr "&Fusiona"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "&Fusiona..."
@@ -1649,8 +1653,9 @@ msgstr "Hi ha una nova versió disponible. Si us plau, descarregui la nova versi
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "Una llista de camins, separats en múltiples linies, on es mostraran els sobreposats de les icones.\nSi afegeixes un * al final del camí, tots els arxius i subdirectoris dins d'aquell camí estaran automàticament inclosos."
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1662,9 +1667,10 @@ msgstr "Una llista de paths per la qual no es mostra el menú.\nAfegint un carac
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "Una llista de paths per la qual no es mostraran els sobreposats de les icones.\nAfegint un caracter '*'  al final del path, tots els fitxers i subdirectoris dins d'aquest són també exclosos.\nUna llista buida mostrara els sobreposats de les icones en totes les carpetes."
+msgstr ""
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2292,7 +2298,8 @@ msgstr "E&xplora..."
 msgid "Back"
 msgstr "Enrere"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "Segon pla"
 
@@ -2344,6 +2351,10 @@ msgstr "Bisect bo"
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
 msgstr "Reinicialitza Bisect"
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -4397,6 +4408,10 @@ msgstr "Mostra noms de branca/etiqueta al costat dret"
 msgid "Drive Types"
 msgstr "Tipus d'Unitat"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr ""
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr ""
@@ -5203,10 +5218,6 @@ msgstr "Ajusta l'alçada de la imatge\tH"
 msgid "Fit image &widths\tW"
 msgstr "Ajusta l'amplada de la imatge\tW"
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "Disquets (A:, B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "Carpeta"
@@ -5265,7 +5276,8 @@ msgstr "Força el rebase fins i tot si la branca actual és descendent de l'entr
 msgid "Force: May discard"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr "Primer pla"
 
@@ -7921,6 +7933,10 @@ msgstr "Interconnexió Pre-Entrega"
 msgid "Pre-Push Hook"
 msgstr "Interconnexió Pre-empenta"
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr "Preparant entrega..."
@@ -9817,6 +9833,10 @@ msgstr "Omet"
 #, c-format
 msgid "Skip Patch: %s"
 msgstr "Omet pedaç: %s"
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)

@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-04 13:40+0000\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -928,6 +928,10 @@ msgstr "&Menu-inhoud:"
 msgid "&Merge"
 msgstr "&Samenvoegen"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "&Samenvoegen..."
@@ -1654,8 +1658,9 @@ msgstr "Een nieuwere versie is beschikbaar. Download s.v.p. de huidige versie!"
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "Een met regelovergangen gescheiden lijst paden waarvoor overlays getoond worden.\nAls u een '*' karakter aan het einde van het pad toevoegt, worden alle bestanden en submappen onder dat pad ook opgenomen."
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1667,9 +1672,10 @@ msgstr "Een met regelovergangen gescheiden lijst paden waarvoor geen contextmenu
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "Een met regelovergangen gescheiden lijst paden waarvoor geen overlays getoond worden.\nAls u een '*' karakter aan het einde van het pad toevoegt, worden alle bestanden en submappen onder dat pad ook opgenomen.\nEen lege lijst laat overlays op alle paden toe."
+msgstr ""
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2297,7 +2303,8 @@ msgstr "&Bladeren..."
 msgid "Back"
 msgstr "Terug"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "Achtergrond"
 
@@ -2349,6 +2356,10 @@ msgstr "Bisect goed"
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
 msgstr "Bisect herstellen"
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -4402,6 +4413,10 @@ msgstr "Teken tag/branch labels aan de rechterzijde"
 msgid "Drive Types"
 msgstr "Type station"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr ""
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr ""
@@ -5208,10 +5223,6 @@ msgstr "Afbeelding passend in &hoogte maken\tH"
 msgid "Fit image &widths\tW"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "Floppydrives (A: B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "Map"
@@ -5270,7 +5281,8 @@ msgstr ""
 msgid "Force: May discard"
 msgstr "Forceer: Overschrijf"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr "Voorgrond"
 
@@ -7926,6 +7938,10 @@ msgstr "Pre-Vastleggen hook:"
 msgid "Pre-Push Hook"
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr "Bezig met het voorbereiden van de vastlegging..."
@@ -9822,6 +9838,10 @@ msgstr "Overslaan"
 #, c-format
 msgid "Skip Patch: %s"
 msgstr "Patch Overslaan: %s"
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)

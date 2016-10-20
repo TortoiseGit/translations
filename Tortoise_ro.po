@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-04 13:40+0000\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/lznuaa/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -929,6 +929,10 @@ msgstr "Conţinutul &meniului:"
 msgid "&Merge"
 msgstr "Î&mbină"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "Î&mbină..."
@@ -1655,8 +1659,9 @@ msgstr "Este disponibilă o versiune mai nouă. Descărcaţi vă rog versiunea c
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "O listă de căi, separate de un caracter care semnifică linie nouă, pentru care sunt afişate suprapuneri de iconiţe.\nDacă adăugaţi un '*' la sfârşitul unei căi, toate fişierele şi sub-dosarele din acea cale sunt incluse de asemenea."
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1668,9 +1673,10 @@ msgstr "O listă de căi, separate de un caracter care semnifică linie nouă, p
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "O listă de căi, separate de un caracter care semnifică linie nouă, pentru care nu sunt afişate suprapuneri de iconiţe.\nDacă adăugaţi un '*' la sfârşitul unei căi, toate fişierele şi sub-dosarele din acea cale sunt excluse de asemenea. O listă goală va permite suprapuneri de iconiţe pentru toate căile."
+msgstr ""
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2298,7 +2304,8 @@ msgstr "&Răsfoieşte..."
 msgid "Back"
 msgstr "Înapoi"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "Fundal"
 
@@ -2350,6 +2357,10 @@ msgstr "Înjumătăţeşte corect"
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
 msgstr "Restabileşte înjumătăţirea"
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -4403,6 +4414,10 @@ msgstr "Deseneaza in partea dreapta etichete pentru  taguri/ramuri"
 msgid "Drive Types"
 msgstr "Tipuri de discuri"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr ""
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr ""
@@ -5209,10 +5224,6 @@ msgstr ""
 msgid "Fit image &widths\tW"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "Unităţi de dischete (A: B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "Dosar"
@@ -5271,7 +5282,8 @@ msgstr "Forţează reamplasarea chiar dacă ramura curenta este un descendent al
 msgid "Force: May discard"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr "Prim-plan"
 
@@ -7927,6 +7939,10 @@ msgstr "Interceptor pre-transmitere"
 msgid "Pre-Push Hook"
 msgstr "Interceptor pre-împingere"
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr "Se pregăteşte transmiterea..."
@@ -9823,6 +9839,10 @@ msgstr "Omite"
 #, c-format
 msgid "Skip Patch: %s"
 msgstr "Omite peticul: %s"
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)

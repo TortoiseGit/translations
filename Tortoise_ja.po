@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-04 13:40+0000\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -924,6 +924,10 @@ msgstr "メニューの内容(&M):"
 msgid "&Merge"
 msgstr "マージ(&M)"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "マージ(&M)..."
@@ -1650,8 +1654,9 @@ msgstr "新しいバージョンが利用可能です。最新バージョンを
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "アイコンオーバーレイを表示させるパスのリストを、改行で区切って入力してください。\nパスの末尾に「*」を追加すると、パス内のすべてのファイルやサブディレクトリも表示の対象になります。"
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1663,9 +1668,10 @@ msgstr "コンテキストメニューを表示させないパスのリストを
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "アイコンオーバーレイを表示させないパスのリストを、改行で区切って入力してください。\nパスの末尾に「*」を追加すると、パス内のすべてのファイルやサブディレクトリが表示の対象になりません。\n何も入力しないと、すべてのパス上でアイコンオーバーレイが表示されます。"
+msgstr ""
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2293,7 +2299,8 @@ msgstr "参照(&R)..."
 msgid "Back"
 msgstr "戻る"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "背景"
 
@@ -2345,6 +2352,10 @@ msgstr "二分探索: good"
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
 msgstr "二分探索リセット"
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -4398,6 +4409,10 @@ msgstr "タグ/ブランチ名を右側に表示"
 msgid "Drive Types"
 msgstr "ドライブの種類"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr ""
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr ""
@@ -5204,10 +5219,6 @@ msgstr "画像の高さを合わせる(&H)\tH"
 msgid "Fit image &widths\tW"
 msgstr "画像の幅を合わせる(&W)\tW"
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "フロッピードライブ (A: B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "フォルダー"
@@ -5266,7 +5277,8 @@ msgstr "現在のブランチが、接続しようとしているコミットの
 msgid "Force: May discard"
 msgstr "強制: 以下を失う可能性がある"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr "テキストの色"
 
@@ -7922,6 +7934,10 @@ msgstr "Commit前フック"
 msgid "Pre-Push Hook"
 msgstr "Push前フック"
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr "コミットの準備中..."
@@ -9818,6 +9834,10 @@ msgstr "スキップ"
 #, c-format
 msgid "Skip Patch: %s"
 msgstr "パッチをスキップ: %s"
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)

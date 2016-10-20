@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-09-04 13:40+0000\n"
+"PO-Revision-Date: 2016-10-20 01:14+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/lznuaa/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -927,6 +927,10 @@ msgstr "Вміст &меню"
 msgid "&Merge"
 msgstr "З&лити"
 
+#. Resource IDs: (IDS_MERGE_UNRELATED)
+msgid "&Merge unrelated history"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
 msgstr "З&лити..."
@@ -1653,8 +1657,9 @@ msgstr "Доступна нова версія. Будь ласка завант
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "Cписок шляхів для яких показуеться перекривання іконок\nЯкщо ви додасьте '*' у кіньці шляху, усі файли та теки у цьому шляху будить також додані"
+"If you add an '?' char at the end of a path, then only this path will be included.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1666,9 +1671,10 @@ msgstr "Список розділених новими рядками шляхі
 #. Resource IDs: (IDS_SETTINGS_EXCLUDELIST_TT)
 msgid ""
 "A newline separated list of paths for which no icon overlays are shown.\n"
-"If you add an '*' char at the end of a path, then all files and subdirs inside that path are excluded too.\n"
+"If you add an '?' char at the end of a path, then only this path will be excluded.\n"
+"If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr "Список шляхів для яких не відображаеться перекриття піктограм\nЯкщо ви додасьте  символ '*'  у кінці шляху, усі файли та теки у цьому шляху також будуть виключені.\nПустий список дозволяе перекриття всім шляхам."
+msgstr ""
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2296,7 +2302,8 @@ msgstr "Про&глянути"
 msgid "Back"
 msgstr "Назад"
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Background"
 msgstr "Тло"
 
@@ -2347,6 +2354,10 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
+msgstr ""
+
+#. Resource IDs: (IDS_MENUBISECTSKIP)
+msgid "Bisect skip"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
@@ -4401,6 +4412,10 @@ msgstr "Малювати імена тегів/гілок з правої сто
 msgid "Drive Types"
 msgstr "Типи дисків"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
+msgid "Drives A: and B:"
+msgstr ""
+
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
 msgstr ""
@@ -5207,10 +5222,6 @@ msgstr ""
 msgid "Fit image &widths\tW"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
-msgid "Floppy drives (A: B:)"
-msgstr "Приводи Дискет (A: B:)"
-
 #. Resource IDs: (16016)
 msgid "Folder"
 msgstr "Каталог"
@@ -5269,7 +5280,8 @@ msgstr ""
 msgid "Force: May discard"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
+#. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Foreground"
 msgstr ""
 
@@ -7925,6 +7937,10 @@ msgstr "Зачіпка перед фіксацією"
 msgid "Pre-Push Hook"
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
+msgid "Pre-rebase hook"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
 msgstr ""
@@ -9821,6 +9837,10 @@ msgstr "Пропустити"
 #, c-format
 msgid "Skip Patch: %s"
 msgstr "Пропустити шляхи: %s"
+
+#. Resource IDs: (IDS_MENUDESCBISECTSKIP)
+msgid "Skip current revision in bisecting process"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)
