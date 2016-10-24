@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-10-20 01:14+0000\n"
+"PO-Revision-Date: 2016-10-23 22:28+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -7867,8 +7867,10 @@ msgid "Please enter a hook script to execute."
 msgstr "請輸入要指定的掛鉤指令檔"
 
 #. Resource IDs: (IDS_ERR_NOHOOKPATHSPECIFIED)
-msgid "Please enter a path where to apply the hook script to."
-msgstr "請輸入要套用這個掛鉤指令檔的路徑"
+msgid ""
+"Please enter a path where to apply the hook script to. Use \"*\" for all "
+"paths."
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -8867,6 +8869,10 @@ msgstr "往下一行"
 #. Resource IDs: (17115)
 msgid "Row Up"
 msgstr "往上一行"
+
+#. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1335)
+msgid "Run when working tree path is under:"
+msgstr ""
 
 #. Resource IDs: (17045)
 msgid "S&elect..."
@@ -11839,8 +11845,7 @@ msgstr "在檔案之內"
 msgid "Working Tree"
 msgstr "工作目錄"
 
-#. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1472, Dialog
-#. IDD_SETTINGSHOOKCONFIG: Control id 1335)
+#. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1472)
 msgid "Working Tree Path:"
 msgstr "工作目錄路徑："
 
