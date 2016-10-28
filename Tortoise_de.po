@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-10-23 22:28+0000\n"
+"PO-Revision-Date: 2016-10-27 22:44+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -923,7 +923,7 @@ msgstr "&Zusammenführen"
 
 #. Resource IDs: (IDS_MERGE_UNRELATED)
 msgid "&Merge unrelated history"
-msgstr ""
+msgstr "Führe &zusammen, trotz unzusammenhängede Geschichte"
 
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
@@ -1653,7 +1653,7 @@ msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
 "If you add an '?' char at the end of a path, then only this path will be included.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
-msgstr ""
+msgstr "Eine durch Zeilenumbrüche getrennte Liste von Pfaden, für die überlagerte Symbole angezeigt werden.\nWenn Sie ein '?' Zeichen an einen Pfad anhängen, wird nur dieser Pfad eingeschlossen.\nWenn Sie ein '*' oder gar kein Zeichen an einen Pfad anhängen, werden alle Dateien und Ordner innerhalb des Pfades eingeschlossen."
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1668,7 +1668,7 @@ msgid ""
 "If you add an '?' char at the end of a path, then only this path will be excluded.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr ""
+msgstr "Eine durch Zeilenumbrüche getrennte Liste von Pfaden, für die keine überlagerten Symbole angezeigt werden.\nWenn Sie ein '?' Zeichen an einen Pfad anhängen, wird nur dieser Pfad ausgeschlossen.\nWenn Sie ein '*' oder gar kein Zeichen an einen Pfad anhängen, werden alle Dateien und Ordner innerhalb des Pfades ausgeschlossen.\nEine leere Liste lässt überlagerte Symbole für alle Pfade zu."
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -7870,7 +7870,7 @@ msgstr "Bitte wählen Sie das auszuführende Skript aus."
 msgid ""
 "Please enter a path where to apply the hook script to. Use \"*\" for all "
 "paths."
-msgstr ""
+msgstr "Bitte geben Sie einen Pfad an auf den das Skript angewendet wird. Benutzen Sie \"*\" für alle Pfade."
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -8872,7 +8872,7 @@ msgstr "Zeile hoch"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1335)
 msgid "Run when working tree path is under:"
-msgstr ""
+msgstr "Ausführen, wenn sich der Arbeitsbaum unter dem folgenden Pfad befindet:"
 
 #. Resource IDs: (17045)
 msgid "S&elect..."
