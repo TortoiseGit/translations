@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-10-23 22:28+0000\n"
+"PO-Revision-Date: 2016-11-21 09:58+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1107,10 +1107,6 @@ msgstr "コミットをやり直す(&R)"
 #. Resource IDs: (IDS_REBASEBUTTON)
 msgid "&Rebase"
 msgstr "リベース(&R)"
-
-#. Resource IDs: (Dialog IDD_INPUTLOGDLG: Control id 1246)
-msgid "&Recent messages"
-msgstr "最近のログメッセージ(&R)"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1694)
 msgid "&Recursive"
@@ -2605,25 +2601,25 @@ msgstr "クリップボードからビットマップ画像を貼り付けるこ
 #. IDD_GITSWITCH: Control id 2, Dialog IDD_GOTO: Control id 2, Dialog
 #. IDD_GOTODLG: Control id 2, Dialog IDD_HISTORYDLG: Control id 2, Dialog
 #. IDD_IGNORE: Control id 2, Dialog IDD_INPUTDLG: Control id 2, Dialog
-#. IDD_INPUTLOGDLG: Control id 2, Dialog IDD_LOGMESSAGE: Control id 2, Dialog
-#. IDD_LOGORDERING: Control id 2, Dialog IDD_MERGE: Control id 2, Dialog
-#. IDD_MERGEABORT: Control id 2, Dialog IDD_NEW_BRANCH_TAG: Control id 2,
-#. Dialog IDD_OPEN: Control id 2, Dialog IDD_OPENDLG: Control id 2, Dialog
-#. IDD_PROMPT: Control id 2, Dialog IDD_PULLFETCH: Control id 2, Dialog
-#. IDD_PUSH: Control id 2, Dialog IDD_REFLOG: Control id 2, Dialog
-#. IDD_REGEXFILTER: Control id 2, Dialog IDD_REGEXFILTERS: Control id 2,
-#. Dialog IDD_RENAME: Control id 2, Dialog IDD_REPOSITORY_BROWSER: Control id
-#. 2, Dialog IDD_REQUESTPULL: Control id 2, Dialog IDD_RESET: Control id 2,
-#. Dialog IDD_RESOLVE: Control id 2, Dialog IDD_REVERT: Control id 2, Dialog
-#. IDD_REVGRAPHFILTER: Control id 2, Dialog IDD_SENDMAIL: Control id 2, Dialog
-#. IDD_SETTINGSBUGTRAQADV: Control id 2, Dialog IDD_SETTINGSHOOKCONFIG:
-#. Control id 2, Dialog IDD_SETTINGSPROGSADV: Control id 2, Dialog
-#. IDD_SIMPLEPROMPT: Control id 2, Dialog IDD_STASH: Control id 2, Dialog
-#. IDD_SUBMODULE_ADD: Control id 2, Dialog IDD_SUBMODULE_UPDATE: Control id 2,
-#. Dialog IDD_SVNDCOMMITTYPE: Control id 2, Dialog IDD_SVNIGNORE: Control id
-#. 2, Dialog IDD_SVNPROGRESS: Control id 2, Dialog IDD_TOOLASSOC: Control id
-#. 2, Dialog IDD_URL: Control id 2, Dialog IDD_USER_PASSWD: Control id 2,
-#. IDS_MSGBOX_CANCEL, IDS_PROC_OVERWRITEEXPORT_CANCEL)
+#. IDD_LOGMESSAGE: Control id 2, Dialog IDD_LOGORDERING: Control id 2, Dialog
+#. IDD_MERGE: Control id 2, Dialog IDD_MERGEABORT: Control id 2, Dialog
+#. IDD_NEW_BRANCH_TAG: Control id 2, Dialog IDD_OPEN: Control id 2, Dialog
+#. IDD_OPENDLG: Control id 2, Dialog IDD_PROMPT: Control id 2, Dialog
+#. IDD_PULLFETCH: Control id 2, Dialog IDD_PUSH: Control id 2, Dialog
+#. IDD_REFLOG: Control id 2, Dialog IDD_REGEXFILTER: Control id 2, Dialog
+#. IDD_REGEXFILTERS: Control id 2, Dialog IDD_RENAME: Control id 2, Dialog
+#. IDD_REPOSITORY_BROWSER: Control id 2, Dialog IDD_REQUESTPULL: Control id 2,
+#. Dialog IDD_RESET: Control id 2, Dialog IDD_RESOLVE: Control id 2, Dialog
+#. IDD_REVERT: Control id 2, Dialog IDD_REVGRAPHFILTER: Control id 2, Dialog
+#. IDD_SENDMAIL: Control id 2, Dialog IDD_SETTINGSBUGTRAQADV: Control id 2,
+#. Dialog IDD_SETTINGSHOOKCONFIG: Control id 2, Dialog IDD_SETTINGSPROGSADV:
+#. Control id 2, Dialog IDD_SIMPLEPROMPT: Control id 2, Dialog IDD_STASH:
+#. Control id 2, Dialog IDD_SUBMODULE_ADD: Control id 2, Dialog
+#. IDD_SUBMODULE_UPDATE: Control id 2, Dialog IDD_SVNDCOMMITTYPE: Control id
+#. 2, Dialog IDD_SVNIGNORE: Control id 2, Dialog IDD_SVNPROGRESS: Control id
+#. 2, Dialog IDD_TOOLASSOC: Control id 2, Dialog IDD_URL: Control id 2, Dialog
+#. IDD_USER_PASSWD: Control id 2, IDS_MSGBOX_CANCEL,
+#. IDS_PROC_OVERWRITEEXPORT_CANCEL)
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -4657,10 +4653,6 @@ msgstr "改行コードの形式"
 #. Resource IDs: (61187)
 msgid "Enlarge the window to full size"
 msgstr "ウィンドウを最大化する"
-
-#. Resource IDs: (Dialog IDD_INPUTLOGDLG: Control id 241)
-msgid "Enter Log Message"
-msgstr "ログメッセージを入力"
 
 #. Resource IDs: (IDS_PROC_ENTERURL)
 msgid "Enter URL"
@@ -6857,8 +6849,7 @@ msgstr "マージを行うには、「元:」と「先:」に異なるリビジ�
 msgid "Merging revisions %s of %s into %s, %s%s"
 msgstr "リビジョン %s (%s の) を %s, %s%s へマージ"
 
-#. Resource IDs: (Dialog IDD_INPUTLOGDLG: Control id 1359, IDS_LOG_MESSAGE,
-#. IDS_MESSAGE)
+#. Resource IDs: (IDS_LOG_MESSAGE, IDS_MESSAGE)
 msgid "Message"
 msgstr "メッセージ"
 
@@ -7434,25 +7425,25 @@ msgstr "OEM-US"
 #. id 1, Dialog IDD_FORMAT_PATCH: Control id 1, Dialog IDD_GITSWITCH: Control
 #. id 1, Dialog IDD_GOTO: Control id 1, Dialog IDD_GOTODLG: Control id 1,
 #. Dialog IDD_HISTORYDLG: Control id 1, Dialog IDD_IGNORE: Control id 1,
-#. Dialog IDD_INPUTDLG: Control id 1, Dialog IDD_INPUTLOGDLG: Control id 1,
-#. Dialog IDD_LOGMESSAGE: Control id 1, Dialog IDD_LOGORDERING: Control id 1,
-#. Dialog IDD_MERGE: Control id 1, Dialog IDD_MERGEABORT: Control id 1, Dialog
-#. IDD_NEW_BRANCH_TAG: Control id 1, Dialog IDD_OPEN: Control id 1, Dialog
-#. IDD_OPENDLG: Control id 1, Dialog IDD_PROMPT: Control id 1, Dialog
-#. IDD_PULLFETCH: Control id 1, Dialog IDD_PUSH: Control id 1, Dialog
-#. IDD_REFLOG: Control id 1, Dialog IDD_REGEXFILTER: Control id 1, Dialog
-#. IDD_REGEXFILTERS: Control id 1, Dialog IDD_RENAME: Control id 1, Dialog
-#. IDD_REPOSITORY_BROWSER: Control id 1, Dialog IDD_REQUESTPULL: Control id 1,
-#. Dialog IDD_RESET: Control id 1, Dialog IDD_RESOLVE: Control id 1, Dialog
-#. IDD_RESOLVE_CONFLICT: Control id 4569, Dialog IDD_REVERT: Control id 1,
-#. Dialog IDD_SETTINGSBUGTRAQADV: Control id 1, Dialog IDD_SETTINGSHOOKCONFIG:
-#. Control id 1, Dialog IDD_SETTINGSPROGSADV: Control id 1, Dialog
-#. IDD_SIMPLEPROMPT: Control id 1, Dialog IDD_STASH: Control id 1, Dialog
-#. IDD_STATGRAPH: Control id 1, Dialog IDD_SUBMODULE_ADD: Control id 1, Dialog
-#. IDD_SUBMODULE_UPDATE: Control id 1, Dialog IDD_SVNDCOMMITTYPE: Control id
-#. 1, Dialog IDD_SVNIGNORE: Control id 1, Dialog IDD_SVNPROGRESS: Control id
-#. 1, Dialog IDD_TOOLASSOC: Control id 1, Dialog IDD_URL: Control id 1, Dialog
-#. IDD_USER_PASSWD: Control id 1, IDS_MSGBOX_OK)
+#. Dialog IDD_INPUTDLG: Control id 1, Dialog IDD_LOGMESSAGE: Control id 1,
+#. Dialog IDD_LOGORDERING: Control id 1, Dialog IDD_MERGE: Control id 1,
+#. Dialog IDD_MERGEABORT: Control id 1, Dialog IDD_NEW_BRANCH_TAG: Control id
+#. 1, Dialog IDD_OPEN: Control id 1, Dialog IDD_OPENDLG: Control id 1, Dialog
+#. IDD_PROMPT: Control id 1, Dialog IDD_PULLFETCH: Control id 1, Dialog
+#. IDD_PUSH: Control id 1, Dialog IDD_REFLOG: Control id 1, Dialog
+#. IDD_REGEXFILTER: Control id 1, Dialog IDD_REGEXFILTERS: Control id 1,
+#. Dialog IDD_RENAME: Control id 1, Dialog IDD_REPOSITORY_BROWSER: Control id
+#. 1, Dialog IDD_REQUESTPULL: Control id 1, Dialog IDD_RESET: Control id 1,
+#. Dialog IDD_RESOLVE: Control id 1, Dialog IDD_RESOLVE_CONFLICT: Control id
+#. 4569, Dialog IDD_REVERT: Control id 1, Dialog IDD_SETTINGSBUGTRAQADV:
+#. Control id 1, Dialog IDD_SETTINGSHOOKCONFIG: Control id 1, Dialog
+#. IDD_SETTINGSPROGSADV: Control id 1, Dialog IDD_SIMPLEPROMPT: Control id 1,
+#. Dialog IDD_STASH: Control id 1, Dialog IDD_STATGRAPH: Control id 1, Dialog
+#. IDD_SUBMODULE_ADD: Control id 1, Dialog IDD_SUBMODULE_UPDATE: Control id 1,
+#. Dialog IDD_SVNDCOMMITTYPE: Control id 1, Dialog IDD_SVNIGNORE: Control id
+#. 1, Dialog IDD_SVNPROGRESS: Control id 1, Dialog IDD_TOOLASSOC: Control id
+#. 1, Dialog IDD_URL: Control id 1, Dialog IDD_USER_PASSWD: Control id 1,
+#. IDS_MSGBOX_OK)
 msgid "OK"
 msgstr "OK"
 
@@ -7524,6 +7515,10 @@ msgstr "マージしたファイルのみ"
 msgid "Only file children"
 msgstr "子階層のファイルのみ"
 
+#. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
+msgid "Only merged (to HEAD)"
+msgstr ""
+
 #. Resource IDs: (IDS_COMMITDLG_ONLYNUMBERS)
 msgid ""
 "Only numbers (optionally separated by commas)\n"
@@ -7533,6 +7528,10 @@ msgstr "数値のみ（コンマで分割可能）が入力可能です。"
 #. Resource IDs: (IDS_git_DEPTH_EMPTY)
 msgid "Only this item"
 msgstr "この項目のみ"
+
+#. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
+msgid "Only unmerged (to HEAD)"
+msgstr ""
 
 #. Resource IDs: (61440, ID_FILE_OPEN - Menu, ID_FILE_OPEN - Ribbon name)
 msgid "Open"
@@ -7554,8 +7553,7 @@ msgid ""
 "Open files"
 msgstr "差分の表示やパッチの適用のためにファイルを開く\nファイルを開く"
 
-#. Resource IDs: (Dialog IDD_PATCH_FILE_OPEN_CUSTOM: Control id 1132,
-#. IDS_PATCH_COPYFROMCLIPBOARD)
+#. Resource IDs: (IDS_PATCH_COPYFROMCLIPBOARD)
 msgid "Open from clipboard"
 msgstr "クリップボードから開く"
 
@@ -9131,10 +9129,6 @@ msgid ""
 "Save file"
 msgstr "変更されたファイルを保存する\nファイルを保存"
 
-#. Resource IDs: (Dialog IDD_PATCH_FILE_OPEN_CUSTOM: Control id 1132)
-msgid "Save to clipboard"
-msgstr "クリップボードに保存"
-
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535, Dialog
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535, Dialog IDD_SETTINGSDIALOGS3:
 #. Control id 65535)
@@ -9182,9 +9176,8 @@ msgstr "スキャン"
 
 #. Resource IDs: (Dialog IDD_BUGTRAQREGEXTESTER: Control id 1014, Dialog
 #. IDD_CHECKFORUPDATES: Control id 1014, Dialog IDD_COMMITDLG: Control id
-#. 1014, Dialog IDD_INPUTDLG: Control id 1064, Dialog IDD_INPUTLOGDLG: Control
-#. id 1064, Dialog IDD_MERGE: Control id 1014, Dialog IDD_PATCH_VIEW: Control
-#. id 1636)
+#. 1014, Dialog IDD_INPUTDLG: Control id 1064, Dialog IDD_MERGE: Control id
+#. 1014, Dialog IDD_PATCH_VIEW: Control id 1636)
 msgid "Scintilla"
 msgstr "Scintilla"
 
@@ -12011,6 +12004,10 @@ msgstr "現在使用中のバージョン:"
 #, c-format
 msgid "Your version is: %d.%d.%d.%d"
 msgstr "現在使用中のバージョン: %d.%d.%d.%d"
+
+#. Resource IDs: (IDS_ARCHIVEFILEFILTER)
+msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1074)
 msgid "Zip File"
