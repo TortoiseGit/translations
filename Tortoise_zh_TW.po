@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-21 09:58+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-11-22 04:33+0000\n"
+"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -923,7 +923,7 @@ msgstr "合併 (&M)"
 
 #. Resource IDs: (IDS_MERGE_UNRELATED)
 msgid "&Merge unrelated history"
-msgstr ""
+msgstr "合併無共同祖先的分支(&M)"
 
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
@@ -1649,7 +1649,7 @@ msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
 "If you add an '?' char at the end of a path, then only this path will be included.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
-msgstr ""
+msgstr "用來限制顯示圖示覆蓋的目錄，以換行分隔每一條規則。\n如果你在路徑後面加入「?」字元，表示只有該路徑會被顯示；\n如果你在路徑後面加上「*」字元，那麼此路徑下的所有檔案及其子目錄也都會顯示。"
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
