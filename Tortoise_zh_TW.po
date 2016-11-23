@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-22 04:33+0000\n"
+"PO-Revision-Date: 2016-11-23 11:58+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1649,7 +1649,7 @@ msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
 "If you add an '?' char at the end of a path, then only this path will be included.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
-msgstr "用來限制顯示圖示覆蓋的目錄，以換行分隔每一條規則。\n如果你在路徑後面加入「?」字元，表示只有該路徑會被顯示；\n如果你在路徑後面加上「*」字元，那麼此路徑下的所有檔案及其子目錄也都會顯示。"
+msgstr "用來限制顯示圖示覆蓋的目錄，該列表一行一條規則。\n如果你在路徑後面加入「?」字元，表示只有該路徑會被顯示；\n如果你在路徑後面加上「*」字元，那麼此路徑下的所有檔案及其子目錄都會顯示。"
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1664,7 +1664,7 @@ msgid ""
 "If you add an '?' char at the end of a path, then only this path will be excluded.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr ""
+msgstr "用來限制「不」顯示圖示覆蓋的目錄，該列表一行一條規則。\n如果你在路徑後面加入「?」字元，表示只有該路徑會被排除；\n如果你在路徑後面加上「*」字元，那麼此路徑下的所有檔案及其子目錄都會被排除。"
 
 #. Resource IDs: (61474)
 msgid "A required resource was unavailable."
@@ -2348,7 +2348,7 @@ msgstr "二分法 - 重設"
 
 #. Resource IDs: (IDS_MENUBISECTSKIP)
 msgid "Bisect skip"
-msgstr ""
+msgstr "二分法 - 略過"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -4404,7 +4404,7 @@ msgstr "磁碟機類型"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
 msgid "Drives A: and B:"
-msgstr ""
+msgstr "磁碟機 A: 和 B:"
 
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
@@ -7514,7 +7514,7 @@ msgstr "僅包含檔案"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
-msgstr ""
+msgstr "只顯示已合併到 HEAD 的"
 
 #. Resource IDs: (IDS_COMMITDLG_ONLYNUMBERS)
 msgid ""
@@ -7528,7 +7528,7 @@ msgstr "僅此項目"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
-msgstr ""
+msgstr "只顯示未合併到 HEAD 的"
 
 #. Resource IDs: (61440, ID_FILE_OPEN - Menu, ID_FILE_OPEN - Ribbon name)
 msgid "Open"
