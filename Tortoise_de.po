@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-27 11:07+0000\n"
+"PO-Revision-Date: 2016-11-27 19:49+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -670,7 +670,8 @@ msgstr "Eintragung &bearbeiten/aufspalten"
 msgid "&Email Patch"
 msgstr "Patch mailen"
 
-#. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535, Dialog
+#. IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Email:"
 msgstr "&E-Mail:"
 
@@ -958,7 +959,8 @@ msgstr "&Verschobene Blöcke"
 msgid "&Name"
 msgstr "&Name"
 
-#. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535, Dialog
+#. IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Name:"
 msgstr "&Name:"
 
@@ -1518,20 +1520,20 @@ msgstr "------------------------------------------------------------------------
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1383, Dialog
 #. IDD_BISECTSTART: Control id 1672, Dialog IDD_CLONE: Control id 1384, Dialog
 #. IDD_EXPORT: Control id 1036, Dialog IDD_EXPORT: Control id 1382, Dialog
-#. IDD_EXPORT: Control id 1483, Dialog IDD_FORMAT_PATCH: Control id 1383,
-#. Dialog IDD_FORMAT_PATCH: Control id 1384, Dialog IDD_FORMAT_PATCH: Control
-#. id 1541, Dialog IDD_FORMAT_PATCH: Control id 1542, Dialog IDD_GITSWITCH:
-#. Control id 1382, Dialog IDD_GITSWITCH: Control id 1483, Dialog IDD_MERGE:
-#. Control id 1382, Dialog IDD_MERGE: Control id 1483, Dialog
-#. IDD_NEW_BRANCH_TAG: Control id 1382, Dialog IDD_NEW_BRANCH_TAG: Control id
-#. 1483, Dialog IDD_OPEN: Control id 1002, Dialog IDD_OPEN: Control id 1003,
-#. Dialog IDD_PULLFETCH: Control id 1483, Dialog IDD_PUSH: Control id 1484,
-#. Dialog IDD_REBASE: Control id 1483, Dialog IDD_REQUESTPULL: Control id
-#. 1382, Dialog IDD_RESET: Control id 1382, Dialog IDD_RESET: Control id 1483,
-#. Dialog IDD_SETTINGSBUGTRAQADV: Control id 1474, Dialog
-#. IDD_SETTINGSDIALOGS3: Control id 1778, Dialog IDD_SETTINGSHOOKCONFIG:
-#. Control id 1324, Dialog IDD_SETTINGSHOOKCONFIG: Control id 1333, Dialog
-#. IDD_SETTINGSMAIN: Control id 1551, Dialog
+#. IDD_EXPORT: Control id 1483, Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id
+#. 1551, Dialog IDD_FORMAT_PATCH: Control id 1383, Dialog IDD_FORMAT_PATCH:
+#. Control id 1384, Dialog IDD_FORMAT_PATCH: Control id 1541, Dialog
+#. IDD_FORMAT_PATCH: Control id 1542, Dialog IDD_GITSWITCH: Control id 1382,
+#. Dialog IDD_GITSWITCH: Control id 1483, Dialog IDD_MERGE: Control id 1382,
+#. Dialog IDD_MERGE: Control id 1483, Dialog IDD_NEW_BRANCH_TAG: Control id
+#. 1382, Dialog IDD_NEW_BRANCH_TAG: Control id 1483, Dialog IDD_OPEN: Control
+#. id 1002, Dialog IDD_OPEN: Control id 1003, Dialog IDD_PULLFETCH: Control id
+#. 1483, Dialog IDD_PUSH: Control id 1484, Dialog IDD_REBASE: Control id 1483,
+#. Dialog IDD_REQUESTPULL: Control id 1382, Dialog IDD_RESET: Control id 1382,
+#. Dialog IDD_RESET: Control id 1483, Dialog IDD_SETTINGSBUGTRAQADV: Control
+#. id 1474, Dialog IDD_SETTINGSDIALOGS3: Control id 1778, Dialog
+#. IDD_SETTINGSHOOKCONFIG: Control id 1324, Dialog IDD_SETTINGSHOOKCONFIG:
+#. Control id 1333, Dialog IDD_SETTINGSMAIN: Control id 1551, Dialog
 #. IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1664, Dialog
 #. IDD_SETTINGSPROGSDIFF: Control id 1021, Dialog IDD_SETTINGSPROGSDIFF:
 #. Control id 1089, Dialog IDD_SETTINGSPROGSMERGE: Control id 1022, Dialog
@@ -2517,8 +2519,9 @@ msgstr "Button1"
 msgid "Button3"
 msgstr "Button3"
 
-#. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1215, Dialog
-#. IDD_SETTINGSMAIN: Control id 1216)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
+#. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
+#. 1216)
 msgid "C&heck now"
 msgstr "&Jetzt prüfen"
 
@@ -4374,6 +4377,10 @@ msgstr "Zeige die gewählten Einträge nicht immer an (zum Anzeigen die Umschalt
 msgid "Don't show this message again"
 msgstr "Diese Meldung nicht wieder anzeigen"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
+msgid "Don't store these settings now."
+msgstr "Diese Werte jetzt nicht speichern."
+
 #. Resource IDs: (IDS_DONE)
 msgid "Done"
 msgstr "Fertig"
@@ -4840,10 +4847,6 @@ msgstr "Erweiterungsspezifische Programme"
 msgid "Extension:"
 msgstr "Erweiterung:"
 
-#. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 65535)
-msgid "Extern DLL Path:"
-msgstr "Externer DLL Pfad:"
-
 #. Resource IDs: (IDS_SVNACTION_EXTERNAL)
 msgid "External"
 msgstr "Extern"
@@ -4851,6 +4854,11 @@ msgstr "Extern"
 #. Resource IDs: (Dialog IDD_TOOLASSOC: Control id 65535)
 msgid "External Program:"
 msgstr "Anwendung:"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
+#. IDD_SETTINGSMAIN: Control id 65535)
+msgid "Extra PATH:"
+msgstr "Extra PATH:"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -5195,6 +5203,12 @@ msgstr "Erster Elternteil"
 #. Resource IDs: (IDS_LOG_SHOW_FIRST_PARENT)
 msgid "First Parent Only"
 msgstr "Nur erster Elternteil"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 4598, Dialog
+#. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
+#. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
+msgid "First Start Wizard - TortoiseGit"
+msgstr "Erststart Wizard - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1617)
 msgid "First known &bad:"
@@ -5542,6 +5556,12 @@ msgstr "Git für Windows (https://git-for-windows.github.io/) nicht gefunden."
 msgid "Git reported an error while creating a repository!\n"
 msgstr "Git hat einen Fehler beim Erstellen der Arbeitsbaum gemeldet!\n"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
+msgid ""
+"Git requires that you set up a user name and email address. Both are used as"
+" meta data for your commits (not for authentication)."
+msgstr ""
+
 #. Resource IDs: (32787)
 msgid "Git revision list contains the complete file history"
 msgstr "Git Revisionsliste zeigt vollständige Dateihistorie"
@@ -5559,7 +5579,8 @@ msgid ""
 "In order to change settings select a level, enter the values and select where to store to."
 msgstr "Git benutzt das Konzept einer hierarchischen Konfiguration.\nD.h. es gibt mehrere Level; Einstellungen in höhreren Leveln überschreiben Einstellungen niedrigerer Level.\nDer \"Effektiv\"-Tab zeigt die effektiven Werte für den aktuellen Anwendungsbereich (nur lesend).\nWählen Sie ein Level, um die Werte, die dort gespeichert sind, einzusehen.\nUm Einstellungen zu ändern, wählen Sein ein level aus, geben die Werte und entscheiden in welches Level die Werte gespeichert werden sollen."
 
-#. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 65535)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
+#. IDD_SETTINGSMAIN: Control id 65535)
 msgid "Git.exe Path:"
 msgstr "Git.exe Pfad:"
 
@@ -6103,6 +6124,14 @@ msgid ""
 "bare repo can only have changes 'pushed' to it. (By convention, a bare repo "
 "folder should have a name that ends with '.git')"
 msgstr "Wenn Sie in diesem Ordner arbeiten möchten, wählen Sie diese Option nicht aus. Typischerweise können in ein bare-Projektarchiv nur Eintragungen versandt werden. (Nach Konvention, sollte der Projektarchiv-Ordnername mit \".git\" enden)"
+
+#. Resource IDs: (IDS_EXTRAPATH_TT)
+#, c-format
+msgid ""
+"If your git installation needs an extra entry in the PATH environment "
+"variable, you can enter it here and it will get appended to %PATH% "
+"automatically when TortoiseGit starts."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 4577)
 msgid "Ignore"
@@ -7874,6 +7903,13 @@ msgid ""
 "Please enter a path where to apply the hook script to. Use \"*\" for all "
 "paths."
 msgstr "Bitte geben Sie einen Pfad an auf den das Skript angewendet wird. Benutzen Sie \"*\" für alle Pfade."
+
+#. Resource IDs: (IDS_FIRSTSTART_HINT3)
+msgid ""
+"Please see the manual for general hints. E.g. in most dialogs there are some"
+" shared shortcuts such as F5 for refresh and oftentimes there are powerfull "
+"context menus."
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -10759,6 +10795,13 @@ msgid ""
 "changes that were made before the application closed."
 msgstr "Diese wurden nach den derzeit geöffneten Dokumenten gespeichert und enthalten Änderungen, die vorgenommen wurden, bevor die Anwendung geschlossen wurde."
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
+msgid ""
+"These settings will be stored to your global git configuration "
+"(%HOME%/.gitconfig) and will be used for all your git repositories as a "
+"default."
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
 msgstr "Diese Aktion wird Zweige im entfernte Archiv löschen."
@@ -10787,6 +10830,15 @@ msgid ""
 "A valid path must not contain '<<>|\"?*:' or one of the following device names:\n"
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
 msgstr "Dies ist kein gültiger Pfad!\nEine gültige Pfadangabe unter Windows darf keine '<<>|\"*:' oder einen der folgenden Gerätenamen enthalten:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
+
+#. Resource IDs: (IDS_FIRSTSTART_HINT2)
+msgid ""
+"This is the First Start Wizard which will help you configuring the basic "
+"settings. TortoiseGit is highly configurable, so it is advisable that you "
+"have a look into its settings dialog. The settings dialog is reachable using"
+" the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
+"Settings."
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -10950,6 +11002,20 @@ msgid ""
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
 msgstr "TortoiseGit ist eine Shell Erweiterung.\nDas bedeutet, dass es in den Windows Explorer integriert ist. Um\nTortoiseGit zu verwenden, öffnen Sie den Explorer und machen\nSie einen Rechts-Klick, damit das Kontextmenü angezeigt wird.\nDort finden Sie sämtliche TortoiseGit Befehle.\nUnd lesen Sie das Handbuch!"
+
+#. Resource IDs: (IDS_FIRSTSTART_HINT1)
+msgid ""
+"TortoiseGit is designed as a Shell Extension. Therefore the main interaction"
+" with TortoiseGit will be using the context menu of the Windows shell such "
+"as the Windows Explorer."
+msgstr ""
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
+msgid ""
+"TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
+"automatically detect a working git.exe, but that doesn't work please specify"
+" the path!"
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11613,7 +11679,8 @@ msgstr "Version 2 (neuere Eintragung)"
 msgid "Version Information"
 msgstr "Versionsinformation"
 
-#. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1552)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1552, Dialog
+#. IDD_SETTINGSMAIN: Control id 1552)
 msgid "Version:"
 msgstr "Version:"
 
@@ -11702,6 +11769,13 @@ msgstr "Warnung"
 #. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
 msgid "Warning!"
 msgstr "Warnung!"
+
+#. Resource IDs: (IDS_FIRSTSTART_HINT4)
+msgid ""
+"We hope you enjoy the usage of TortoiseGit! In case of questions or "
+"problems, please consult our manual or go to "
+"https://tortoisegit.org/support/"
+msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Western European"
