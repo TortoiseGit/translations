@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-21 09:58+0000\n"
+"PO-Revision-Date: 2016-11-27 11:03+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/lznuaa/tortoisegit/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -2816,7 +2816,7 @@ msgstr ""
 #. Resource IDs: (IDS_SETTINGS_EXTMENULAYOUT_TT)
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
-"menu (SHIFT + left click)"
+"menu (SHIFT + right click)"
 msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
@@ -7504,6 +7504,11 @@ msgstr ""
 msgid "Only Merged Files"
 msgstr ""
 
+#. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1677,
+#. ID_VIEW_ONLYCONSIDERFIRSTPARENTS - Menu)
+msgid "Only consider first parents on blame"
+msgstr ""
+
 #. Resource IDs: (IDS_git_DEPTH_FILES)
 msgid "Only file children"
 msgstr "Vain tiedostot"
@@ -10760,6 +10765,10 @@ msgstr ""
 
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
+msgstr ""
+
+#. Resource IDs: (IDS_BLAME_ONLYFIRSTPARENT_TT)
+msgid "This handles merge commits as squashed commits."
 msgstr ""
 
 #. Resource IDs: (IDS_ERR_MUSTBEURL)

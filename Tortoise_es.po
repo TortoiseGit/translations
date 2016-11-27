@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-21 11:31+0000\n"
+"PO-Revision-Date: 2016-11-27 16:36+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -2816,8 +2816,8 @@ msgstr "Marca aquellas entradas del menú que deseas que aparezcan en el menú c
 #. Resource IDs: (IDS_SETTINGS_EXTMENULAYOUT_TT)
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
-"menu (SHIFT + left click)"
-msgstr "Comprobar las entradas del menú que deseas que aparezcan en el menú contextual estendido (SHIFT + click izq)"
+"menu (SHIFT + right click)"
+msgstr "Marque esas entradas de menú que quiere que aparezcan sólo en el menú contextual extendido (MAYÚS + clic secundario)"
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
@@ -7504,6 +7504,11 @@ msgstr "Sólo ramales locales"
 msgid "Only Merged Files"
 msgstr "Sólo archivos combinados"
 
+#. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1677,
+#. ID_VIEW_ONLYCONSIDERFIRSTPARENTS - Menu)
+msgid "Only consider first parents on blame"
+msgstr "Considere sólo a los primeros antecesores como culpables"
+
 #. Resource IDs: (IDS_git_DEPTH_FILES)
 msgid "Only file children"
 msgstr "Solo archivos descendientes"
@@ -10761,6 +10766,10 @@ msgstr "Este ramal no está completamente combinado (merge) dentro del HEAD (pun
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
 msgstr "Este campo es obligatorio y no puede estar vacío."
+
+#. Resource IDs: (IDS_BLAME_ONLYFIRSTPARENT_TT)
+msgid "This handles merge commits as squashed commits."
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_MUSTBEURL)
 msgid ""

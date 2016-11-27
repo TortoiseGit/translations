@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-21 09:58+0000\n"
+"PO-Revision-Date: 2016-11-27 11:03+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/lznuaa/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -2812,8 +2812,8 @@ msgstr "Check those menu entries you want to appear in the top context menu inst
 #. Resource IDs: (IDS_SETTINGS_EXTMENULAYOUT_TT)
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
-"menu (SHIFT + left click)"
-msgstr "Check those menu entries you want to appear only in the extended context menu (SHIFT + left click)"
+"menu (SHIFT + right click)"
+msgstr "Check those menu entries you want to appear only in the extended context menu (SHIFT + right click)"
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
@@ -7500,6 +7500,11 @@ msgstr "Only Local Branches"
 msgid "Only Merged Files"
 msgstr "Only Merged Files"
 
+#. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1677,
+#. ID_VIEW_ONLYCONSIDERFIRSTPARENTS - Menu)
+msgid "Only consider first parents on blame"
+msgstr "Only consider first parents on blame"
+
 #. Resource IDs: (IDS_git_DEPTH_FILES)
 msgid "Only file children"
 msgstr "Only file children"
@@ -10757,6 +10762,10 @@ msgstr "This branch is not fully merged into HEAD."
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
 msgstr "This field is required and must not be empty."
+
+#. Resource IDs: (IDS_BLAME_ONLYFIRSTPARENT_TT)
+msgid "This handles merge commits as squashed commits."
+msgstr "This handles merge commits as squashed commits."
 
 #. Resource IDs: (IDS_ERR_MUSTBEURL)
 msgid ""
