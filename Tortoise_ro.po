@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-28 15:27+0000\n"
+"PO-Revision-Date: 2016-11-28 18:35+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/lznuaa/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -380,7 +380,8 @@ msgstr "&Adaugă sau elimină butoane"
 msgid "&Add..."
 msgstr "&Adaugă..."
 
-#. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1090, Dialog
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1845,
+#. Dialog IDD_SETTINGSPROGSDIFF: Control id 1090, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1093)
 msgid "&Advanced..."
 msgstr "&Avansat..."
@@ -568,6 +569,11 @@ msgstr "&Copiază imaginea butonului"
 msgid "&Copy\tCtrl+C"
 msgstr "&Copiază\tCtrl+C"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid "&Credential helper:"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1662)
 msgid "&Custom"
 msgstr "&Personalizat"
@@ -637,7 +643,8 @@ msgstr "&Nu mă întreba din nou"
 msgid "&Don't show this message again"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
+#. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
 msgstr ""
 
@@ -765,6 +772,10 @@ msgstr "&Forţează reamplasarea"
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1608)
 msgid "&From:"
 msgstr "De la:"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
+msgid "&Generate PuTTY  key pair"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -2215,6 +2226,10 @@ msgstr "Autentificare"
 msgid "Authentication data"
 msgstr "Date de autentificare"
 
+#. Resource IDs: (IDS_FIRSTSTART_AUTHENTICATIONTITLE)
+msgid "Authentification and credential store"
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_AUTHOR, IDS_STATUSLIST_COLAUTHOR)
 msgid "Author"
 msgstr "Autor"
@@ -2540,6 +2555,13 @@ msgstr "Button1"
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1383)
 msgid "Button3"
 msgstr "Button3"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid ""
+"By default Git does not save/cache credentials. However, you can configure a"
+" credential helper (recommended) or manually use %HOME%/_netrc."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -5263,7 +5285,8 @@ msgstr "Primul părinte"
 msgid "First Parent Only"
 msgstr "Doar primul părinte"
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 4598, Dialog
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 4599,
+#. Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 4598, Dialog
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
@@ -5738,6 +5761,11 @@ msgstr "HEAD"
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "HEAD:"
 msgstr "HEAD:"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid "HTTP (URLs start with \"http://\" or \"https://\")"
+msgstr ""
 
 #. Resource IDs: (IDS_RESET_HARD)
 msgid "Hard"
@@ -9053,6 +9081,11 @@ msgstr "SMTP, direct la serverul destinatie"
 msgid "SSH"
 msgstr "SSH"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid "SSH (URLs look like \"git@example.com\")"
+msgstr ""
+
 #. Resource IDs: (IDS_ENCRYPT_SSL)
 msgid "SSL/TLS"
 msgstr "SSL/TLS"
@@ -10870,7 +10903,8 @@ msgid ""
 "changes that were made before the application closed."
 msgstr "Acestea au fost salvate mai recent decât documentele actual deschise și conțin schimbări făcute întainte de a fi închis aplicația."
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535, Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
@@ -11088,8 +11122,8 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
-"automatically detect a working git.exe, but if that doesn't work please "
-"specify the path manually!"
+"automatically detect a working git.exe, but if that doesn't work or you want"
+" to use a different one please specify the path manually!"
 msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
@@ -11176,6 +11210,15 @@ msgid ""
 "TortoiseGitMerge cannot process this patch file. The filename \"%s\" appears"
 " more than once."
 msgstr "TortoiseGitMerge nu poate procesa acest fişier petic. Numele de fişier \"%s\" apare de mai multe ori."
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid ""
+"TortoiseGitPlink is recommended as SSH client. If you don't have a key pair "
+"yet, you should generate one. Keep the private one in a save place and set "
+"up the public key on your hosting platform. For advanced tips & tricks see "
+"our manual or FAQ."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"

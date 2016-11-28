@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-28 15:27+0000\n"
+"PO-Revision-Date: 2016-11-28 18:35+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -378,7 +378,8 @@ msgstr "버튼 추가 및 제거(&A)"
 msgid "&Add..."
 msgstr "버전관리에 추가(&A)..."
 
-#. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1090, Dialog
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1845,
+#. Dialog IDD_SETTINGSPROGSDIFF: Control id 1090, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1093)
 msgid "&Advanced..."
 msgstr "고급 설정(&A)"
@@ -566,6 +567,11 @@ msgstr "버튼 이미지 복사하기(&C)"
 msgid "&Copy\tCtrl+C"
 msgstr "복사(&C)\tCtrl+C"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid "&Credential helper:"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1662)
 msgid "&Custom"
 msgstr "사용자 지정(&C)"
@@ -635,7 +641,8 @@ msgstr "다시 묻지 않음(&D)"
 msgid "&Don't show this message again"
 msgstr "이 메시지를 다시 표시하지 않음(&D)"
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
+#. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
 msgstr ""
 
@@ -763,6 +770,10 @@ msgstr "강제로 재배치(&F)"
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1608)
 msgid "&From:"
 msgstr "&From:"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
+msgid "&Generate PuTTY  key pair"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -2213,6 +2224,10 @@ msgstr "인증"
 msgid "Authentication data"
 msgstr "인증 정보"
 
+#. Resource IDs: (IDS_FIRSTSTART_AUTHENTICATIONTITLE)
+msgid "Authentification and credential store"
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_AUTHOR, IDS_STATUSLIST_COLAUTHOR)
 msgid "Author"
 msgstr "작성자"
@@ -2538,6 +2553,13 @@ msgstr "Button1"
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1383)
 msgid "Button3"
 msgstr "Button3"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid ""
+"By default Git does not save/cache credentials. However, you can configure a"
+" credential helper (recommended) or manually use %HOME%/_netrc."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -5261,7 +5283,8 @@ msgstr "First Parent"
 msgid "First Parent Only"
 msgstr "First Parent Only"
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 4598, Dialog
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 4599,
+#. Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 4598, Dialog
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
@@ -5736,6 +5759,11 @@ msgstr "HEAD"
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "HEAD:"
 msgstr "HEAD:"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid "HTTP (URLs start with \"http://\" or \"https://\")"
+msgstr ""
 
 #. Resource IDs: (IDS_RESET_HARD)
 msgid "Hard"
@@ -9051,6 +9079,11 @@ msgstr "SMTP, 목적지 서버로 직접"
 msgid "SSH"
 msgstr "SSH"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid "SSH (URLs look like \"git@example.com\")"
+msgstr ""
+
 #. Resource IDs: (IDS_ENCRYPT_SSL)
 msgid "SSL/TLS"
 msgstr "SSL/TLS"
@@ -10868,7 +10901,8 @@ msgid ""
 "changes that were made before the application closed."
 msgstr "이 문서는 최근에 열린 문서보다 더 최근에 저장되었습니다. 그리고 프로그램이 닫히기 전에 만들어진 변경사항을 포함하고 있습니다."
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535, Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
@@ -11086,8 +11120,8 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
-"automatically detect a working git.exe, but if that doesn't work please "
-"specify the path manually!"
+"automatically detect a working git.exe, but if that doesn't work or you want"
+" to use a different one please specify the path manually!"
 msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
@@ -11174,6 +11208,15 @@ msgid ""
 "TortoiseGitMerge cannot process this patch file. The filename \"%s\" appears"
 " more than once."
 msgstr "TortoiseGitMerge cannot process this patch file. The filename \"%s\" appears more than once."
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
+#. 65535)
+msgid ""
+"TortoiseGitPlink is recommended as SSH client. If you don't have a key pair "
+"yet, you should generate one. Keep the private one in a save place and set "
+"up the public key on your hosting platform. For advanced tips & tricks see "
+"our manual or FAQ."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
