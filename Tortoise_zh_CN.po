@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-27 19:47+0000\n"
+"PO-Revision-Date: 2016-11-28 15:27+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -634,6 +634,10 @@ msgstr "不再询问(&D)"
 msgid "&Don't show this message again"
 msgstr "不再显示此消息(&D)"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
+msgid "&Don't store these settings now."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
 msgstr "向下(&D)"
@@ -701,6 +705,11 @@ msgstr "导出选择项(&E)..."
 msgid "&External"
 msgstr "外部(&E)"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
+#. IDD_SETTINGSMAIN: Control id 65535)
+msgid "&Extra PATH:"
+msgstr ""
+
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
 msgstr "文件(&F)"
@@ -757,6 +766,11 @@ msgstr "从(&F):"
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
 msgstr "Git风格提交 (--rmdir)(&G)"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
+#. IDD_SETTINGSMAIN: Control id 65535)
+msgid "&Git.exe Path:"
+msgstr ""
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -2562,6 +2576,11 @@ msgstr "抄送:"
 msgid "Calculate"
 msgstr "计算"
 
+#. Resource IDs: (IDS_ERR_GITCALLFAILED)
+#, c-format
+msgid "Calling git.exe failed (exit code: %d). Please check the git.exe path."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1127)
 msgid "Can double-click in log list to compare with previous revision"
 msgstr "可以在日志列表中的一个版本上双击，与上一个版本比较"
@@ -2814,6 +2833,10 @@ msgstr "检查更新..."
 #. Resource IDs: (IDS_MENUSHOWCHANGED)
 msgid "Check for modi&fications"
 msgstr "检查已修改(&F)"
+
+#. Resource IDs: (IDS_SEEMANUALGITEXEPATH)
+msgid "Check out the help file for \"Git.exe Path\"."
+msgstr ""
 
 #. Resource IDs: (IDS_SVNERR_CHECKPATHORURL)
 msgid "Check the path and/or URL you've entered."
@@ -3297,6 +3320,10 @@ msgid ""
 "endings."
 msgstr "配置替代编辑器。建议使用一个能够处理 *nix 行尾符号的编辑器。"
 
+#. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
+msgid "Configure git.exe"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure the program used for comparing different revisions of files"
 msgstr "设置用来比较不同版本文件的程序。"
@@ -3304,6 +3331,10 @@ msgstr "设置用来比较不同版本文件的程序。"
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 65535)
 msgid "Configure the program used to resolve conflicted files."
 msgstr "设置用来解决冲突的程序。"
+
+#. Resource IDs: (IDS_FIRSTSTART_USERTITLE)
+msgid "Configure user information"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
@@ -3487,6 +3518,20 @@ msgstr "无法确定最后提交的版本！"
 msgid "Could not find Super-project"
 msgstr "不能找到父工程"
 
+#. Resource IDs: (IDS_ERR_GITNEEDHACKS)
+msgid ""
+"Could not find \"msysgit\" or \"windows\" in versionstring of git.exe.\n"
+"If you are using git of the cygwin or msys2 environment you need to enable special hacks.\n"
+"For more information see the help file for the keyword \"cygwin git\" or \"msys2 git\"."
+msgstr ""
+
+#. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
+#, c-format
+msgid ""
+"Could not get read version information from git.exe.\n"
+"Got: \"%s\""
+msgstr ""
+
 #. Resource IDs: (IDS_ERR_NOSTATUS)
 msgid "Could not get the status!"
 msgstr "无法获得状态！"
@@ -3566,6 +3611,13 @@ msgid ""
 "\n"
 "%s"
 msgstr "不能启动外部合并程序!\n\n%s"
+
+#. Resource IDs: (IDS_ERR_GITDLLMISSING)
+msgid ""
+"Could not start git.exe. A dynamic library (dll) is missing.\n"
+"You might need to specify an extra PATH.\n"
+"Check help file for \"Extra PATH\"."
+msgstr ""
 
 #. Resource IDs: (61702)
 msgid "Could not start print job."
@@ -4382,10 +4434,6 @@ msgstr "不显示选定项: (仅在按下 Shift 键时显示)"
 msgid "Don't show this message again"
 msgstr "不再显示此信息"
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
-msgid "Don't store these settings now."
-msgstr ""
-
 #. Resource IDs: (IDS_DONE)
 msgid "Done"
 msgstr "完成"
@@ -4593,6 +4641,14 @@ msgstr "使用日志缓存"
 #. Resource IDs: (IDS_SETTINGS_ENABLEGRAVATAR_TT)
 msgid "Enable showing Gravatar image in Log Dialog"
 msgstr "在日志对话框启用显示 Gravatar 头像"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1842)
+msgid "Enable special hack for Cygwin git"
+msgstr ""
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1843)
+msgid "Enable special hack for Msys2 git"
+msgstr ""
 
 #. Resource IDs: (ID_VIEW_ENABLELEXER - Menu)
 msgid "Enable syntax highlighting"
@@ -4859,11 +4915,6 @@ msgstr "外部"
 #. Resource IDs: (Dialog IDD_TOOLASSOC: Control id 65535)
 msgid "External Program:"
 msgstr "外部程序: "
-
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
-#. IDD_SETTINGSMAIN: Control id 65535)
-msgid "Extra PATH:"
-msgstr ""
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -5307,6 +5358,12 @@ msgstr "转发"
 msgid "Forward %d"
 msgstr "向前 %d"
 
+#. Resource IDs: (IDS_ERR_GITUNNEEDEDHACKS)
+msgid ""
+"Found \"msysgit\" or \"windows\" in versionstring of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
+"You can find more information in the help file for the keyword \"cygwin git\" or \"msys2 git\"."
+msgstr ""
+
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
@@ -5553,10 +5610,6 @@ msgstr "Git 目录没有设置 (见 \"常规\" 设置页面)。"
 msgid "Git for Windows"
 msgstr "Git for Windows"
 
-#. Resource IDs: (IDS_PROC_NOMSYSGIT)
-msgid "Git for Windows (https://git-for-windows.github.io/) not found."
-msgstr "未找到 Git for Windows (https://git-for-windows.github.io/)。"
-
 #. Resource IDs: (IDS_PROC_REPOCREATEERR)
 msgid "Git reported an error while creating a repository!\n"
 msgstr "在创建版本库时，Git 报告了一个错误！\n"
@@ -5583,11 +5636,6 @@ msgid ""
 "Select any level to see the values stored there.\n"
 "In order to change settings select a level, enter the values and select where to store to."
 msgstr "Git 采用分层次的配置结构。\n即配置有多个层次，高层次的设置会覆盖低层次的设置。\n“实际生效”选项卡显示了您在当前范围的有效值（只读状态）。\n选择任意层次可查看存储在那里的值。\n选择要更改设置的一个层次，然后输入或选择要存储的值。"
-
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
-#. IDD_SETTINGSMAIN: Control id 65535)
-msgid "Git.exe Path:"
-msgstr "Git.exe 路径:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 4591)
 msgid "Git::Credential"
@@ -5804,6 +5852,10 @@ msgstr "Hook 类型"
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1334)
 msgid "Hook Type:"
 msgstr "Hook 类型: "
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
+msgid "I don't use Git for Windows and need special workarounds"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "I&nclude paths:"
@@ -7219,6 +7271,13 @@ msgid ""
 "Do you want to see the unversioned files?"
 msgstr "在上次提交后没有添加或更改过文件。\n要显示未受版本控制的文件吗？"
 
+#. Resource IDs: (IDS_PROC_NOMSYSGIT)
+msgid ""
+"No git.exe found.\n"
+"\n"
+"TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
+msgstr ""
+
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
 msgstr "没有可使用的图表"
@@ -8294,6 +8353,10 @@ msgstr "恢复默认值(&S)"
 msgid "Re&vert..."
 msgstr "还原(&V)..."
 
+#. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1684)
+msgid "Re-run &First Start Wizard"
+msgstr ""
+
 #. Resource IDs: (IDS_FETCH_REACHABLE)
 msgid "Reachable"
 msgstr "可达 (Reachable)"
@@ -8331,6 +8394,10 @@ msgstr "最近文件"
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "Recently modified lines"
 msgstr "最近修改的行"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
+msgid "Recommended: Git for Windows"
+msgstr ""
 
 #. Resource IDs: (IDS_MERGE_RECORDONLY)
 msgid "Record Only"
@@ -11018,8 +11085,8 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
-"automatically detect a working git.exe, but that doesn't work please specify"
-" the path!"
+"automatically detect a working git.exe, but if that doesn't work please "
+"specify the path manually!"
 msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
@@ -11684,8 +11751,7 @@ msgstr "版本2(提交日期较新)"
 msgid "Version Information"
 msgstr "版本信息"
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1552, Dialog
-#. IDD_SETTINGSMAIN: Control id 1552)
+#. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1552)
 msgid "Version:"
 msgstr "版本:"
 
@@ -11780,6 +11846,10 @@ msgid ""
 "We hope you enjoy the usage of TortoiseGit! In case of questions or "
 "problems, please consult our manual or go to "
 "https://tortoisegit.org/support/"
+msgstr ""
+
+#. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
+msgid "Welcome to TortoiseGit!"
 msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
@@ -11985,11 +12055,12 @@ msgid "You cannot change the type of this ref with a rename."
 msgstr "您不能通过重命名更改此引用的类型。"
 
 #. Resource IDs: (IDS_PROC_OLDMSYSGIT)
+#, c-format
 msgid ""
-"You have an old version of Git for Windows (https://git-for-windows.github.io/) installed which contains security issues.\n"
+"You have an old unsupported version of Git installed.\n"
 "\n"
-"You should consider an upgrade to 1.9.5+."
-msgstr "您已安装的 Git for Windows (https://git-for-windows.github.io/) 是旧版本，包含有安全问题。\n\n您应该考虑升级到 1.9.5+。"
+"You should consider an upgrade to %s."
+msgstr ""
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""

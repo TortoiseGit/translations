@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-27 19:49+0000\n"
+"PO-Revision-Date: 2016-11-28 15:31+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -629,6 +629,10 @@ msgstr "&Nicht erneut nachfragen"
 msgid "&Don't show this message again"
 msgstr "&Diese Meldung nicht wieder anzeigen"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
+msgid "&Don't store these settings now."
+msgstr "&Diese Werte jetzt nicht speichern."
+
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
 msgstr "&Runter"
@@ -696,6 +700,11 @@ msgstr "&Exportiere Auswahl in..."
 msgid "&External"
 msgstr "&Extern"
 
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
+#. IDD_SETTINGSMAIN: Control id 65535)
+msgid "&Extra PATH:"
+msgstr "&Extra PATH:"
+
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
 msgstr "&Datei"
@@ -752,6 +761,11 @@ msgstr "Von:"
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
 msgstr "&Git ähnliches Eintragen (--rmdir)"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
+#. IDD_SETTINGSMAIN: Control id 65535)
+msgid "&Git.exe Path:"
+msgstr "&Git.exe Pfad:"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -2557,6 +2571,11 @@ msgstr "Kopie (CC):"
 msgid "Calculate"
 msgstr "Berechnen"
 
+#. Resource IDs: (IDS_ERR_GITCALLFAILED)
+#, c-format
+msgid "Calling git.exe failed (exit code: %d). Please check the git.exe path."
+msgstr "Der Aufruf von git.exe schlug fehl (Errorcode: %d). Bitte prüfen Sie den git.exe Pfad."
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1127)
 msgid "Can double-click in log list to compare with previous revision"
 msgstr "Doppelklick in Logliste, um mit vorheriger Revision zu vergleichen"
@@ -2809,6 +2828,10 @@ msgstr "Auf Aktualisierungen prüfen..."
 #. Resource IDs: (IDS_MENUSHOWCHANGED)
 msgid "Check for modi&fications"
 msgstr "&Prüfe auf Änderungen"
+
+#. Resource IDs: (IDS_SEEMANUALGITEXEPATH)
+msgid "Check out the help file for \"Git.exe Path\"."
+msgstr "Bitte konsultieren Sie die Hilfe für \"Git.exe Path\"."
 
 #. Resource IDs: (IDS_SVNERR_CHECKPATHORURL)
 msgid "Check the path and/or URL you've entered."
@@ -3292,6 +3315,10 @@ msgid ""
 "endings."
 msgstr "Alternativen Editor einrichten. Möglichst einer, der mit *nix-Zeilenenden klarkommt."
 
+#. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
+msgid "Configure git.exe"
+msgstr "Git.exe einrichten"
+
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure the program used for comparing different revisions of files"
 msgstr "Vergleichen verschiedener Dateirevisionen"
@@ -3299,6 +3326,10 @@ msgstr "Vergleichen verschiedener Dateirevisionen"
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 65535)
 msgid "Configure the program used to resolve conflicted files."
 msgstr "Auflösen von Konflikten"
+
+#. Resource IDs: (IDS_FIRSTSTART_USERTITLE)
+msgid "Configure user information"
+msgstr "Benutzerdaten einrichten"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
@@ -3482,6 +3513,20 @@ msgstr "Konnte die letzte eingetragene Revision nicht ermitteln!"
 msgid "Could not find Super-project"
 msgstr "Konnte übergeordnetes Projekt nicht finden"
 
+#. Resource IDs: (IDS_ERR_GITNEEDHACKS)
+msgid ""
+"Could not find \"msysgit\" or \"windows\" in versionstring of git.exe.\n"
+"If you are using git of the cygwin or msys2 environment you need to enable special hacks.\n"
+"For more information see the help file for the keyword \"cygwin git\" or \"msys2 git\"."
+msgstr "\"msysgit\" oder \"windows\" konnten nicht in der Versionsausgabe von git.exe gefunden werden.\nSollten Sie git aus der Cygwin- oder Msys2-Umgebung nutzen, sind spezielle Hacks notwendig.\nFür mehr Informationen konsultieren Sie bitte die Hilfe unter dem Stichwort \"cygwin git\" or \"msys2 git\"."
+
+#. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
+#, c-format
+msgid ""
+"Could not get read version information from git.exe.\n"
+"Got: \"%s\""
+msgstr "Konnte keine Versioninformationen von git.exe lesen.\nErhalten: \"%s\""
+
 #. Resource IDs: (IDS_ERR_NOSTATUS)
 msgid "Could not get the status!"
 msgstr "Konnte den Status nicht ermitteln!"
@@ -3561,6 +3606,13 @@ msgid ""
 "\n"
 "%s"
 msgstr "Konnte den externen Konflikteditor nicht starten!\n\n%s"
+
+#. Resource IDs: (IDS_ERR_GITDLLMISSING)
+msgid ""
+"Could not start git.exe. A dynamic library (dll) is missing.\n"
+"You might need to specify an extra PATH.\n"
+"Check help file for \"Extra PATH\"."
+msgstr "Git.exe konnte nicht gestartet werden. Eine dynamische Bibliothek (dll) fehlt.\nEs ist möglich, dass Sie einen extra Pfad angeben müssen.\nKonsoltieren Sie die Hilfe für \"Extra PATH\"."
 
 #. Resource IDs: (61702)
 msgid "Could not start print job."
@@ -4377,10 +4429,6 @@ msgstr "Zeige die gewählten Einträge nicht immer an (zum Anzeigen die Umschalt
 msgid "Don't show this message again"
 msgstr "Diese Meldung nicht wieder anzeigen"
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
-msgid "Don't store these settings now."
-msgstr "Diese Werte jetzt nicht speichern."
-
 #. Resource IDs: (IDS_DONE)
 msgid "Done"
 msgstr "Fertig"
@@ -4588,6 +4636,14 @@ msgstr "Meldungszwischenspeicher aktivieren"
 #. Resource IDs: (IDS_SETTINGS_ENABLEGRAVATAR_TT)
 msgid "Enable showing Gravatar image in Log Dialog"
 msgstr "Zeige Gravatar-Icons im Log Dialog"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1842)
+msgid "Enable special hack for Cygwin git"
+msgstr "Speziellen Hack für Cygwin git aktivieren"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1843)
+msgid "Enable special hack for Msys2 git"
+msgstr "Speziellen Hack für Msys2 git aktivieren"
 
 #. Resource IDs: (ID_VIEW_ENABLELEXER - Menu)
 msgid "Enable syntax highlighting"
@@ -4854,11 +4910,6 @@ msgstr "Extern"
 #. Resource IDs: (Dialog IDD_TOOLASSOC: Control id 65535)
 msgid "External Program:"
 msgstr "Anwendung:"
-
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
-#. IDD_SETTINGSMAIN: Control id 65535)
-msgid "Extra PATH:"
-msgstr "Extra PATH:"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -5208,7 +5259,7 @@ msgstr "Nur erster Elternteil"
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
-msgstr "Erststart Wizard - TortoiseGit"
+msgstr "Erststart-Assistent - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1617)
 msgid "First known &bad:"
@@ -5301,6 +5352,12 @@ msgstr "Forward"
 #, c-format
 msgid "Forward %d"
 msgstr "Forward %d"
+
+#. Resource IDs: (IDS_ERR_GITUNNEEDEDHACKS)
+msgid ""
+"Found \"msysgit\" or \"windows\" in versionstring of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
+"You can find more information in the help file for the keyword \"cygwin git\" or \"msys2 git\"."
+msgstr "\"msysgit\" oder \"windows\" wurden in der Versionsausgabe von git.exe gefunden, obwohl Sie git.exe Hacks aktiviert haben. Diese Hacks müssen bei der Nutzung von Git für Windows deaktiviert werden!\nFür mehr Informationen konsultieren Sie bitte die Hilfe unter dem Stichwort \"cygwin git\" or \"msys2 git\"."
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
@@ -5548,10 +5605,6 @@ msgstr "Sys Verzeichnis ist nicht gesetzt (siehe \"Allgemeines\" Einstellungssei
 msgid "Git for Windows"
 msgstr "Git für Windows"
 
-#. Resource IDs: (IDS_PROC_NOMSYSGIT)
-msgid "Git for Windows (https://git-for-windows.github.io/) not found."
-msgstr "Git für Windows (https://git-for-windows.github.io/) nicht gefunden."
-
 #. Resource IDs: (IDS_PROC_REPOCREATEERR)
 msgid "Git reported an error while creating a repository!\n"
 msgstr "Git hat einen Fehler beim Erstellen der Arbeitsbaum gemeldet!\n"
@@ -5560,7 +5613,7 @@ msgstr "Git hat einen Fehler beim Erstellen der Arbeitsbaum gemeldet!\n"
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
 " meta data for your commits (not for authentication)."
-msgstr ""
+msgstr "Git erfordert, dass Sie einen Namen und E-Mail-Adresse hinterlegen. Beide werden als Metadaten für Eintragungen verwendet (nicht zur Authentifikation)."
 
 #. Resource IDs: (32787)
 msgid "Git revision list contains the complete file history"
@@ -5578,11 +5631,6 @@ msgid ""
 "Select any level to see the values stored there.\n"
 "In order to change settings select a level, enter the values and select where to store to."
 msgstr "Git benutzt das Konzept einer hierarchischen Konfiguration.\nD.h. es gibt mehrere Level; Einstellungen in höhreren Leveln überschreiben Einstellungen niedrigerer Level.\nDer \"Effektiv\"-Tab zeigt die effektiven Werte für den aktuellen Anwendungsbereich (nur lesend).\nWählen Sie ein Level, um die Werte, die dort gespeichert sind, einzusehen.\nUm Einstellungen zu ändern, wählen Sein ein level aus, geben die Werte und entscheiden in welches Level die Werte gespeichert werden sollen."
-
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
-#. IDD_SETTINGSMAIN: Control id 65535)
-msgid "Git.exe Path:"
-msgstr "Git.exe Pfad:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 4591)
 msgid "Git::Credential"
@@ -5799,6 +5847,10 @@ msgstr "Aktionstyp"
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1334)
 msgid "Hook Type:"
 msgstr "Aktionstyp:"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
+msgid "I don't use Git for Windows and need special workarounds"
+msgstr "Ich benuzte nicht GIt für Windows und benötigt spezielle Workarounds"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "I&nclude paths:"
@@ -6131,7 +6183,7 @@ msgid ""
 "If your git installation needs an extra entry in the PATH environment "
 "variable, you can enter it here and it will get appended to %PATH% "
 "automatically when TortoiseGit starts."
-msgstr ""
+msgstr "Sollte Ihre Git-Installation einen zusätzlichen Eintrag in der PATH-Umgebungsvariable benötigen, so können Sie dies hier eingeben. Dieser Pfad wird dann automatisch von TortoiseGit an %PATH% angehangen."
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 4577)
 msgid "Ignore"
@@ -7214,6 +7266,13 @@ msgid ""
 "Do you want to see the unversioned files?"
 msgstr "Seit der letzten Eintragung wurden keine\nDateien/Ordner verändert oder hinzugefügt.\nMöchten Sie die unversionierten Objekte anzeigen lassen?"
 
+#. Resource IDs: (IDS_PROC_NOMSYSGIT)
+msgid ""
+"No git.exe found.\n"
+"\n"
+"TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
+msgstr "Keine git.exe gefunden.\n\nTortoiseGit benötigt eine git.exe (wird z.B. durch das Git für Windows-Paket bereitgestellt)."
+
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
 msgstr "Keine Grafik vorhanden"
@@ -7909,7 +7968,7 @@ msgid ""
 "Please see the manual for general hints. E.g. in most dialogs there are some"
 " shared shortcuts such as F5 for refresh and oftentimes there are powerfull "
 "context menus."
-msgstr ""
+msgstr "Bitte konsultieren Sie das Handbuch für allgemeine Hinweise. Beispielsweise gibt es in den meisten Dialogen einige geteilte Verknüpfungen wie F5 zum Aktualisieren und oft gibt es leistungsfähige Kontextmenüs."
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -8289,6 +8348,10 @@ msgstr "Auf &Standardwerte setzen"
 msgid "Re&vert..."
 msgstr "&Rückgängig..."
 
+#. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1684)
+msgid "Re-run &First Start Wizard"
+msgstr "%Erststart-Assistent erneut aufrufen"
+
 #. Resource IDs: (IDS_FETCH_REACHABLE)
 msgid "Reachable"
 msgstr "Erreichbare"
@@ -8326,6 +8389,10 @@ msgstr "Letzte Datei"
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "Recently modified lines"
 msgstr "Kürzlich geänderte Zeilen"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
+msgid "Recommended: Git for Windows"
+msgstr "Empfohlen: Git für Windows"
 
 #. Resource IDs: (IDS_MERGE_RECORDONLY)
 msgid "Record Only"
@@ -10800,7 +10867,7 @@ msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
 "default."
-msgstr ""
+msgstr "Diese Einstellungen werden in Ihrer globalen git-Konfiguration (% HOME%/.gitconfig) gespeichert und standardmäßig für alle git-Repositories verwendet."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
@@ -10838,7 +10905,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "Dies ist der Erststart-Assistent, der Ihnen bei der Konfiguration der Grundeinstellungen hilft. TortoiseGit ist in hohem Maße konfigurierbar, daher ist es ratsam, einen Blick in den Einstellungsdialog zu werfen. Der Einstellungsdialog kann über das Startmenü oder das Kontextmenü des Windows Explorers erreicht werden: TortoiseGit -> Einstellungen."
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -11008,14 +11075,14 @@ msgid ""
 "TortoiseGit is designed as a Shell Extension. Therefore the main interaction"
 " with TortoiseGit will be using the context menu of the Windows shell such "
 "as the Windows Explorer."
-msgstr ""
+msgstr "TortoiseGit ist als Shell-Erweiterung konzipiert. Daher wird die Hauptinteraktion mit TortoiseGit das Kontextmenü der Windows-Shell wie dem Windows Explorer nutzen."
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
-"automatically detect a working git.exe, but that doesn't work please specify"
-" the path!"
-msgstr ""
+"automatically detect a working git.exe, but if that doesn't work please "
+"specify the path manually!"
+msgstr "TortoiseGit benötigt eine git.exe. TortoiseGit versucht automatisch eine funktionierende git.exe  zu erkennen. Sollte dies nicht funktionieren, können Sie hier eine manuell einen Pfad angeben."
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11679,8 +11746,7 @@ msgstr "Version 2 (neuere Eintragung)"
 msgid "Version Information"
 msgstr "Versionsinformation"
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1552, Dialog
-#. IDD_SETTINGSMAIN: Control id 1552)
+#. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1552)
 msgid "Version:"
 msgstr "Version:"
 
@@ -11775,7 +11841,11 @@ msgid ""
 "We hope you enjoy the usage of TortoiseGit! In case of questions or "
 "problems, please consult our manual or go to "
 "https://tortoisegit.org/support/"
-msgstr ""
+msgstr "Wir wünschen Ihnen viel Spaß mit TortoiseGit! Bei Fragen oder Problemen konsultieren Sie bitte unser Handbuch oder gehen Sie zu https://tortoisegit.org/support/"
+
+#. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
+msgid "Welcome to TortoiseGit!"
+msgstr "Willkommen bei TortoiseGit!"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Western European"
@@ -11980,11 +12050,12 @@ msgid "You cannot change the type of this ref with a rename."
 msgstr "Sie können nicht den Ref-Typ mit einer Umbenennung verändern."
 
 #. Resource IDs: (IDS_PROC_OLDMSYSGIT)
+#, c-format
 msgid ""
-"You have an old version of Git for Windows (https://git-for-windows.github.io/) installed which contains security issues.\n"
+"You have an old unsupported version of Git installed.\n"
 "\n"
-"You should consider an upgrade to 1.9.5+."
-msgstr "Sie haben eine alte Version von Git für Windows (https://git-for-windows.github.io/) installiert, die Sicherheitslücken aufweist.\n\nSie sollten ein Upgrade auf 1.9.5+ in Erwägung ziehen."
+"You should consider an upgrade to %s."
+msgstr "Sie haben eine alte nicht mehr unterstützte Version von Git installiert.\n\nSie sollten ein Upgrade auf %s in Erwägung ziehen."
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""
