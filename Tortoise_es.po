@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-29 09:57+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-11-29 14:12+0000\n"
+"Last-Translator: strel\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2119,6 +2119,10 @@ msgstr "¿Está seguro de que quiere restablecer columnas?"
 #. Resource IDs: (IDS_PROC_REBASE_ABORT)
 msgid "Are you sure you want to abort the rebase process?"
 msgstr "¿Seguro que desea cancelar el proceso de reasentamiento (rebase)?"
+
+#. Resource IDs: (IDS_REALLYCANCEL)
+msgid "Are you sure you want to cancel?"
+msgstr "¿Está seguro de que quiere cancelar?"
 
 #. Resource IDs: (IDS_PROC_RESOLVE)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -5841,6 +5845,12 @@ msgstr "Mostrar/Ocultar la lista de archivos de parches\nOculta o muestra la lis
 #. Resource IDs: (IDS_HINT)
 msgid "Hint"
 msgstr "Consejo"
+
+#. Resource IDs: (IDS_HINTLASTMESSAGES)
+msgid ""
+"Hint: Recently used commit messages are available using the context menu of "
+"the text field."
+msgstr "Consejo: Los mensajes de consignación (commit) están disponibles usando el menú contextual del campo de texto."
 
 #. Resource IDs: (16519)
 msgid ""
@@ -11206,7 +11216,7 @@ msgid ""
 "up the public key on your hosting platform. Use the PuTTY authentication "
 "agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our manual and FAQ."
-msgstr ""
+msgstr "TortoiseGitPlink está recomendado como cliente SSH. Si aún no tiene un par de claves, debe generar uno. Mantenga la clave privada en un lugar seguro y configure la clave pública en su plataforma de alojamiento. Use el agente de autentificación de PuTTY para almacenar en caché la contraseña (se hace automáticamente si se configura una clave PuTTY para un remoto). Para consejos y trucos avanzados vea nuestro manual y preguntas frecuentes (FAQ)."
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -12443,7 +12453,7 @@ msgstr "git no se cerró limpiamente (código de salida %d)"
 
 #. Resource IDs: (IDS_GITEXEFILEFILTER)
 msgid "git.exe|git.exe||"
-msgstr ""
+msgstr "git.exe|git.exe||"
 
 #. Resource IDs: (IDS_STATUSIGNORED)
 msgid "ignored"
