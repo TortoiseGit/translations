@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-28 18:35+0000\n"
+"PO-Revision-Date: 2016-11-29 09:57+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/lznuaa/tortoisegit/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -11211,13 +11211,13 @@ msgid ""
 " more than once."
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
-#. 65535)
+#. Resource IDs: (IDS_FIRSTSTART_SSHHINT)
 msgid ""
 "TortoiseGitPlink is recommended as SSH client. If you don't have a key pair "
 "yet, you should generate one. Keep the private one in a save place and set "
-"up the public key on your hosting platform. For advanced tips & tricks see "
-"our manual or FAQ."
+"up the public key on your hosting platform. Use the PuTTY authentication "
+"agent for caching the password (done automatically if a PuTTY key is "
+"configured for a remote). For advanced tips & tricks see our manual and FAQ."
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
@@ -12452,6 +12452,10 @@ msgstr "esterno"
 #, c-format
 msgid "git did not exit cleanly (exit code %d)"
 msgstr "git non è stato chiuso in modo pulito (codice uscita %d)"
+
+#. Resource IDs: (IDS_GITEXEFILEFILTER)
+msgid "git.exe|git.exe||"
+msgstr ""
 
 #. Resource IDs: (IDS_STATUSIGNORED)
 msgid "ignored"
