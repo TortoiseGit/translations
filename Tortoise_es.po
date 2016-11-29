@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-28 22:39+0000\n"
+"PO-Revision-Date: 2016-11-29 02:43+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -560,7 +560,7 @@ msgstr "&Copiar\tCtrl+C"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "&Credential helper:"
-msgstr "Asistente de &credential:"
+msgstr "Asistente de &credenciales:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1662)
 msgid "&Custom"
@@ -4661,7 +4661,7 @@ msgstr "Habilitar truco especial para el git de Cygwin"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1843)
 msgid "Enable special hack for Msys2 git"
-msgstr "Habilitar truco especial para Msys2 git"
+msgstr "Habilitar truco especial para el git de Msys2"
 
 #. Resource IDs: (ID_VIEW_ENABLELEXER - Menu)
 msgid "Enable syntax highlighting"
@@ -5376,7 +5376,7 @@ msgstr "Reenviar %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in versionstring of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr "Se encontró \"msysgit\" o \"windows\" en versionstring (cadena de versión) de git.exe, sin embargo, tiene los trucos de git.exe habilitados. ¡Estos trucos se deben deshabilitar para una operatividad adecuada con Git para Windows!\nPuede encontrar más información en el fichero de ayuda para la palabras claves \"cygwin git\" o \"msys2 git\"."
+msgstr "Se encontró \"msysgit\" o \"windows\" en versionstring (cadena de versión) de git.exe, sin embargo, tiene los trucos de git.exe habilitados. ¡Estos trucos se deben deshabilitar para una operatividad adecuada con Git para Windows!\nPuede encontrar más información en el fichero de ayuda para la palabras clave \"cygwin git\" o \"msys2 git\"."
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
@@ -5632,7 +5632,7 @@ msgstr "¡Git devolvió de un error al crear un repositorio!\n"
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
 " meta data for your commits (not for authentication)."
-msgstr "Git requiere que establezca un nombre de usuario y una dirección de correo electrónico. Ambos se usan como metadatos para sus consignaciones [commits] (no para la autentificación)."
+msgstr "Git requiere que establezca un nombre de usuario y una dirección de correo electrónico. Ambos se usan como metadatos para sus consignaciones (commits, no para la autentificación)."
 
 #. Resource IDs: (32787)
 msgid "Git revision list contains the complete file history"
@@ -5874,7 +5874,7 @@ msgstr "Tipo de Enganchados:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
-msgstr "No uso Git para Windows y necesito apaños especiales"
+msgstr "No uso Git para Windows y necesito trucos especiales"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "I&nclude paths:"
@@ -9072,7 +9072,7 @@ msgstr "SSH"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "SSH (URLs look like \"git@example.com\")"
-msgstr ""
+msgstr "SSH (las URLs se parecen a \"git@example.com\")"
 
 #. Resource IDs: (IDS_ENCRYPT_SSL)
 msgid "SSL/TLS"
@@ -10897,7 +10897,7 @@ msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
 "default."
-msgstr "Estas ajustes se almacenarán en su configuración git global (%HOME%/.gitconfig) y se usarán para todos sus repositorios git como predeterminadas."
+msgstr "Estos ajustes se almacenarán en su configuración git global (%HOME%/.gitconfig) y se usarán para todos sus repositorios git como predeterminados."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
@@ -10913,7 +10913,7 @@ msgstr "Este campo es obligatorio y no puede estar vacío."
 
 #. Resource IDs: (IDS_BLAME_ONLYFIRSTPARENT_TT)
 msgid "This handles merge commits as squashed commits."
-msgstr "Esto trata las consignaciones (commints) de combinación (merge) como consignaciones compactadas (squashed)."
+msgstr "Esto trata las consignaciones (commits) de combinaciones (merge) como consignaciones compactadas (squash)."
 
 #. Resource IDs: (IDS_ERR_MUSTBEURL)
 msgid ""
@@ -11206,7 +11206,7 @@ msgid ""
 "yet, you should generate one. Keep the private one in a save place and set "
 "up the public key on your hosting platform. For advanced tips & tricks see "
 "our manual or FAQ."
-msgstr "TortoiseGitPlink está recomendado como cliente SSH. Si aún no tiene un par de claves, debe generar uno. Mantenga la clave privada en un lugar seguro y configure su clave pública en su plataforma de alojamiento. Para consejos y trucos avanzados vea nuestro manual o preguntas frecuentes (FAQ)."
+msgstr "TortoiseGitPlink está recomendado como cliente SSH. Si aún no tiene un par de claves, debe generar uno. Mantenga la clave privada en un lugar seguro y configure la clave pública en su plataforma de alojamiento. Para consejos y trucos avanzados vea nuestro manual o preguntas frecuentes (FAQ)."
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -12094,7 +12094,7 @@ msgid ""
 "You have an old unsupported version of Git installed.\n"
 "\n"
 "You should consider an upgrade to %s."
-msgstr ""
+msgstr "Tiene instalada una versión antigua de Git no soportada.\n\nDebe considerar una actualización a %s."
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""
