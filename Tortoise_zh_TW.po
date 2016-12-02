@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-12-01 15:50+0000\n"
+"PO-Revision-Date: 2016-12-02 03:58+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -767,7 +767,7 @@ msgstr "從(&F)："
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
-msgstr ""
+msgstr "產生 PuTTY 金鑰對(&G)"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -2296,11 +2296,11 @@ msgstr "在輸入日誌訊息時，自動從這次有修改的檔案內容中\n�
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1505)
 msgid "AutoLoad Putty &Key"
-msgstr "自動載入putty鑰(&K)"
+msgstr "自動載入 PuTTY 金鑰(&K)"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1619)
 msgid "Autoload Putty &Key"
-msgstr "自動載入putty鑰(&K)"
+msgstr "自動載入 PuTTY 金鑰(&K)"
 
 #. Resource IDs: (IDS_COLOURPICKER_DEFAULTTEXT)
 msgid "Automatic"
@@ -2873,7 +2873,7 @@ msgstr "勾選你希望出現在第一層選單的選單項目，而不是出現
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
 "menu (SHIFT + right click)"
-msgstr "選擇你想移到擴展右鍵選單的項目（按住 Shift 鍵 + 滑鼠右鍵）"
+msgstr "勾選你想移到「擴展」快顯功能表的項目（需按住 Shift 鍵 + 滑鼠右鍵才會顯示）"
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
@@ -3773,15 +3773,15 @@ msgstr "正在建立拉取要求．．．"
 
 #. Resource IDs: (IDS_GITCREDENTIAL_HELPEREMPTY)
 msgid "Credential helper must not be empty."
-msgstr "憑證助手不能為空"
+msgstr "憑證小幫手不能空白。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535)
 msgid "Credential helper:"
-msgstr "憑據助手："
+msgstr "憑證小幫手："
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 65535)
 msgid "Credentials"
-msgstr "憑據"
+msgstr "憑證"
 
 #. Resource IDs: (IDS_SCIEDIT_CUT)
 msgid "Cu&t"
@@ -4829,7 +4829,7 @@ msgstr "錯誤"
 
 #. Resource IDs: (IDS_PROC_ICONCACHENOTREBUILT)
 msgid "Error rebuilding Shell Icon Cache!"
-msgstr "建立圖示快取失敗！"
+msgstr "建立 Shell 圖示快取失敗！"
 
 #. Resource IDs: (IDS_ERR_SSL_VALIDATE)
 #, c-format
@@ -5384,7 +5384,7 @@ msgstr "向前 %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in versionstring of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "在 git 版本字串中找到「msysgit」或「windows」關鍵字，然而，你啟用了 git.exe hacks；這些 hacks 必需被關閉才能正常使用 Git for Windows 相關操作！\n你可以在說明文件中使用關鍵字「cygwin git」或「msys2 git」取得更多相關資訊。"
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
@@ -5508,7 +5508,7 @@ msgstr "一般::顏色3"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 195)
 msgid "General::Context Menu"
-msgstr "一般::快顯式選單"
+msgstr "一般::快顯功能表"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
@@ -5640,7 +5640,7 @@ msgstr "當建立版本庫時，Git 回報錯誤！\n"
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
 " meta data for your commits (not for authentication)."
-msgstr ""
+msgstr "Git 需要你設定「使用者名稱」和「電子郵件」，二者都是用來做為提交時的基本必要資訊（並非用來認證授權）。"
 
 #. Resource IDs: (32787)
 msgid "Git revision list contains the complete file history"
@@ -5661,7 +5661,7 @@ msgstr "Git 採用階層式組態的概念。\n意即有多層；高層設定會
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 4591)
 msgid "Git::Credential"
-msgstr "Git::憑據"
+msgstr "Git::憑證"
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 4570)
 msgid "Git::Remote"
@@ -5761,7 +5761,7 @@ msgstr "HEAD："
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "HTTP (URLs start with \"http://\" or \"https://\")"
-msgstr ""
+msgstr "HTTP（「http://」或「https://」開頭的 URL）"
 
 #. Resource IDs: (IDS_RESET_HARD)
 msgid "Hard"
@@ -5800,11 +5800,11 @@ msgstr "鍵盤說明"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535)
 msgid "Helper:"
-msgstr "助手："
+msgstr "小幫手："
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535)
 msgid "Helpers:"
-msgstr "助手："
+msgstr "小幫手："
 
 #. Resource IDs: (16974)
 msgid "Hex"
@@ -5854,13 +5854,13 @@ msgstr "提示"
 msgid ""
 "Hint: Recently used commit messages are available using the context menu of "
 "the text field."
-msgstr ""
+msgstr "提示：在文字輸入區域使用快顯功能表可以取回最近使用過的提交訊息。"
 
 #. Resource IDs: (16519)
 msgid ""
 "Hint: select the context menu, change the page to 'Commands' and drag the "
 "toolbar buttons into the menu window."
-msgstr "小提示：選擇快顯式選單，切換至「命令」頁面，再將工具列按鈕拖至選單視窗中。"
+msgstr "提示: 選取內容功能表，將頁面變更為「命令」，並且將工具列按鈕拖曳到功能表視窗中。"
 
 #. Resource IDs: (17022)
 msgid "Home"
@@ -5888,7 +5888,7 @@ msgstr "掛鉤類型："
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
-msgstr ""
+msgstr "我不使用 Git for Windows，我需要特定的應急方案："
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "I&nclude paths:"
@@ -6303,7 +6303,7 @@ msgstr "忽略變更"
 
 #. Resource IDs: (32786)
 msgid "Ignore whitespace when comparing the parents version and the child's "
-msgstr "比較父版本時忽略空白"
+msgstr "比較親代版本時忽略空白"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 1432,
 #. IDS_PATHACTIONS_IGNORED)
@@ -6695,7 +6695,7 @@ msgstr "載入影像"
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1505, Dialog IDD_SUBMODULE_ADD:
 #. Control id 1505)
 msgid "Load Putty &Key"
-msgstr "載入putty鑰(&key)"
+msgstr "載入 PuTTY 金鑰(&K)"
 
 #. Resource IDs: (IDS_WARNMODIFIEDOUTSIDE_TASK3)
 msgid ""
@@ -7252,7 +7252,7 @@ msgid ""
 "No command specified!\n"
 "\n"
 "TortoiseGitProc.exe is used by the Shell extension and should not be called directly!"
-msgstr "未指定命令！\n\nTortoiseGitProc.exe 用於 shell extension，請勿直接執行！"
+msgstr "未指定命令！\n\nTortoiseGitProc.exe 被 Shell extension 所執行，請勿直接執行！"
 
 #. Resource IDs: (IDS_ERR_NOCOMMANDVALUE)
 msgid "No command value specified!"
@@ -7309,7 +7309,7 @@ msgid ""
 "No git.exe found.\n"
 "\n"
 "TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
-msgstr ""
+msgstr "找不到 git.exe。\n\nTortoiseGit 需要藉由一個 git 執行檔來執行實際的 git 操作（例如：由 Git for Windows 所提供的 git 執行檔）。"
 
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
@@ -7637,7 +7637,7 @@ msgstr "只包含已合併的檔案"
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1677,
 #. ID_VIEW_ONLYCONSIDERFIRSTPARENTS - Menu)
 msgid "Only consider first parents on blame"
-msgstr ""
+msgstr "只譴責第一親代版本"
 
 #. Resource IDs: (IDS_git_DEPTH_FILES)
 msgid "Only file children"
@@ -8006,7 +8006,7 @@ msgid ""
 "Please see the manual for general hints. E.g. in most dialogs there are some"
 " shared shortcuts such as F5 for refresh and oftentimes there are powerfull "
 "context menus."
-msgstr ""
+msgstr "請查閱手冊以取得更多詳細的提示，例如：在大多數的視窗中，可以按 F5 來更新畫面，並且常常有許多強大的快顯功能表可用。"
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -8293,11 +8293,11 @@ msgstr "推送..."
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
-msgstr "Putty 金鑰："
+msgstr "PuTTY 金鑰："
 
 #. Resource IDs: (IDS_PUTTYKEYFILEFILTER)
 msgid "Putty Private Key (*.ppk)|*.ppk|All Files (*.*)|*.*||"
-msgstr "Putty 私有鑰 (*.ppk)|*.ppk|所有檔案 (*.*)|*.*||"
+msgstr "PuTTY 私鑰 (*.ppk)|*.ppk|所有檔案 (*.*)|*.*||"
 
 #. Resource IDs: (IDS_STATGRAPH_QUARTERLABEL)
 #, c-format
@@ -8388,7 +8388,7 @@ msgstr "復原(&V)..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1684)
 msgid "Re-run &First Start Wizard"
-msgstr ""
+msgstr "重啟「首次啟動精靈」(&F)"
 
 #. Resource IDs: (IDS_FETCH_REACHABLE)
 msgid "Reachable"
@@ -8430,7 +8430,7 @@ msgstr "最近修改過的行"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid "Recommended: Git for Windows"
-msgstr ""
+msgstr "建議：Git for Windows"
 
 #. Resource IDs: (IDS_MERGE_RECORDONLY)
 msgid "Record Only"
@@ -9086,7 +9086,7 @@ msgstr "SSH"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "SSH (URLs look like \"git@example.com\")"
-msgstr ""
+msgstr "SSH（URL 看起像「git@example.com」）"
 
 #. Resource IDs: (IDS_ENCRYPT_SSL)
 msgid "SSL/TLS"
@@ -9579,15 +9579,15 @@ msgstr "設定 - TortoiseGit"
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1270,
 #. IDS_STATUSLIST_CONTEXT_SHELL)
 msgid "Shell"
-msgstr "檔案總管"
+msgstr "Shell"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1271)
 msgid "Shell Extended"
-msgstr "檔案總管增強"
+msgstr "Shell 增強"
 
 #. Resource IDs: (IDS_PROC_ICONCACHEREBUILT)
 msgid "Shell Icon Cache was rebuilt!"
-msgstr "重新建立圖示快取！"
+msgstr "重建了 Shell 圖示快取！"
 
 #. Resource IDs: (5062 - Menu)
 msgid "Shift-JIS"
@@ -9641,7 +9641,7 @@ msgstr "顯示巢狀參照"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1088)
 msgid "Show &overlays and context menu only in explorer"
-msgstr "僅在檔案總管中顯示圖示覆蓋與快顯式選單(&O)"
+msgstr "僅在檔案總管中顯示圖示覆蓋與快顯功能表(&O)"
 
 #. Resource IDs: (17099)
 msgid "Show Above the Ribbon"
