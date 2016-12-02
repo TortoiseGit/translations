@@ -9,15 +9,17 @@
 # 乙酸鋰 <ch3cooli@gmail.com>, 2012-2015
 # Hydriz Scholz <hydriz@jorked.com>, 2013
 # Hydriz Scholz <hydriz@jorked.com>, 2013,2015
+# Hydriz Scholz <hydriz@jorked.com>, 2013,2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
 # Yue Lin Ho <yuelinho777@gmail.com>, 2014-2016
+# 乙酸鋰 <ch3cooli@gmail.com>, 2012
 # 乙酸鋰 <ch3cooli@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-12-02 03:58+0000\n"
+"PO-Revision-Date: 2016-12-02 07:07+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -6221,7 +6223,7 @@ msgid ""
 "If your git installation needs an extra entry in the PATH environment "
 "variable, you can enter it here and it will get appended to %PATH% "
 "automatically when TortoiseGit starts."
-msgstr ""
+msgstr "如果你安裝的 git 需要額外的 PATH 環境變數，你可以在這裡輸入它們；當 TortoiseGit 啟動時會把它們自動附加到 %PATH% 中。"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 4577)
 msgid "Ignore"
@@ -10544,13 +10546,13 @@ msgstr "你正在完成一個特殊的提交，名為「合併提交」，因此
 msgid ""
 "The credential helper URL \"%s\" already exists.\n"
 "Do you want to overwrite it?"
-msgstr "憑證助手「%s」已經存在\n要覆寫嗎？"
+msgstr "憑證小幫手的 URL「%s」已經存在。\n要覆寫嗎？"
 
 #. Resource IDs: (IDS_GITCREDENTIAL_SAVEHELPER)
 msgid ""
 "The credential helper was changed.\n"
 "Do you want to save now or discard changes?"
-msgstr "憑證組態已改變\n要「儲存」或「放棄變更」？"
+msgstr "已切換到不同的憑證小幫手。\n要「儲存」或「放棄變更」？"
 
 #. Resource IDs: (IDS_ERROR_NOCLEAN_STASH)
 msgid ""
@@ -10911,7 +10913,7 @@ msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
 "default."
-msgstr ""
+msgstr "這些設定將會被存到你的 git 全域組態中（%HOME%/.gitconfig），它們會成為你所有 git 版本庫的預設值。"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
@@ -10927,7 +10929,7 @@ msgstr "此欄必填，不得留空"
 
 #. Resource IDs: (IDS_BLAME_ONLYFIRSTPARENT_TT)
 msgid "This handles merge commits as squashed commits."
-msgstr ""
+msgstr "這會將原本譴責到非第一親代的提交，改成譴責它之後的合併提交。"
 
 #. Resource IDs: (IDS_ERR_MUSTBEURL)
 msgid ""
@@ -10949,7 +10951,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "這是「首次啟動精靈」，用來幫助你完成基本的設定值。其實 TortoiseGit 有相當多的組態能夠被設定，所以相當值得你進入設定畫面瞧個究竟；你可以使用「Windows 開始選單」或者「檔案總管快顯功能表：TortoiseGit -> Settings」來開啟設定畫面。"
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -11112,21 +11114,21 @@ msgid ""
 "To use TortoiseGit please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
-msgstr "TortoiseGit 是 shell 延伸程式，\n也就是說它整合到 Windows 檔案總管。\n要使用 TortoiseGit 請從檔案總管中右鍵點擊任何目錄，\n可以在快顯式選單中找到所有 TortoiseGit 的指令；\n並請閱讀說明書！"
+msgstr "TortoiseGit 是 Shell extension，\n也就是說它整合到 Windows 檔案總管。\n要使用 TortoiseGit 請從檔案總管中的任何目錄或檔案點擊右鍵，\n即可在快顯功能表中找到所有 TortoiseGit 的指令；\n並請閱讀說明書！"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT1)
 msgid ""
 "TortoiseGit is designed as a Shell Extension. Therefore the main interaction"
 " with TortoiseGit will be using the context menu of the Windows shell such "
 "as the Windows Explorer."
-msgstr ""
+msgstr "TortoiseGit 被設計為一支 Shell Extension，因此，主要用法是透過 Windows Shell（例如：檔案總管）的快顯功能表來使用 TortoiseGit。"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
 "automatically detect a working git.exe, but if that doesn't work or you want"
 " to use a different one please specify the path manually!"
-msgstr ""
+msgstr "TortoiseGit 需要藉由一個 git 執行檔來執行實際的 git 操作，TortoiseGit 會試著自動尋找可用的 git 執行檔，但是如果它無法正常工作的話，請試著手動指定它的正確路徑！"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11220,7 +11222,7 @@ msgid ""
 "up the public key on your hosting platform. Use the PuTTY authentication "
 "agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our manual and FAQ."
-msgstr ""
+msgstr "建議使用 TortoiseGitPlink 做為你的 SSH 客戶端程式。如果你還沒有「金鑰對(key pair)」，你應該產生一組，並將私鑰存放在安全的地方以備後用，然後在伺服端設定好你的公鑰；使用 PuTTY 認證代理程式（Pageant）幫你快取密碼（如果你已經為遠端設定好 PuTTY 金鑰，這就會自動完成）。請查閱我們的手冊和 FAQ 以取得更多進階的提示和技巧。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -11894,11 +11896,11 @@ msgid ""
 "We hope you enjoy the usage of TortoiseGit! In case of questions or "
 "problems, please consult our manual or go to "
 "https://tortoisegit.org/support/"
-msgstr ""
+msgstr "我們希望你可以享用 TortoiseGit！如果你有任何使用上的問題，請參考我們的手冊，或者瀏覽 https://tortoisegit.org/support/"
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
-msgstr ""
+msgstr "歡迎使用 TortoiseGit！"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Western European"
@@ -12079,7 +12081,7 @@ msgstr "你要求拉取，卻沒有指定遠端分支。"
 msgid ""
 "You can disable specific Overlay handlers here.\n"
 "Disabled handlers won't use up an overlay slot and give other shell extensions a chance to show their overlays."
-msgstr "你可以停用特定的圖示覆蓋。\n作業系統可顯示的圖示數量有限，停用圖示可讓其它擴展程式有機會顯示它們的圖示。"
+msgstr "你可以停用特定的圖示覆蓋。\n作業系統可顯示的圖示數量有限，停用圖示可讓其它 Shell extensions 有機會顯示它們的圖示。"
 
 #. Resource IDs: (16005)
 #, c-format
@@ -12108,7 +12110,7 @@ msgid ""
 "You have an old unsupported version of Git installed.\n"
 "\n"
 "You should consider an upgrade to %s."
-msgstr ""
+msgstr "你安裝了舊版的、不被支援的 Git。\n\n你應該考慮升級到 %s。"
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""
@@ -12453,11 +12455,11 @@ msgstr "外部"
 #. Resource IDs: (IDS_PROC_PROGRESS_GITUNCLEANEXIT)
 #, c-format
 msgid "git did not exit cleanly (exit code %d)"
-msgstr "Git 不正常結束（傳回 %d）"
+msgstr "Git 不正常結束（結束碼 %d）"
 
 #. Resource IDs: (IDS_GITEXEFILEFILTER)
 msgid "git.exe|git.exe||"
-msgstr ""
+msgstr "git.exe|git.exe||"
 
 #. Resource IDs: (IDS_STATUSIGNORED)
 msgid "ignored"
