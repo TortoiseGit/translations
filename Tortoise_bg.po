@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-11-29 11:38+0000\n"
+"PO-Revision-Date: 2016-12-04 20:22+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/lznuaa/tortoisegit/language/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -340,7 +340,8 @@ msgstr ""
 msgid "&Activate"
 msgstr "&Активиране"
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1382)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1382, Dialog
+#. IDD_REBASE: Control id 1382)
 msgid "&Add"
 msgstr "&Добавяне"
 
@@ -874,7 +875,8 @@ msgstr ""
 msgid "&Labels"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 65535)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535,
+#. Dialog IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Language:"
 msgstr "&Език:"
 
@@ -1423,7 +1425,7 @@ msgstr ""
 msgid "&Unknown drives"
 msgstr "&Непознати устройства"
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1383)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
 msgstr "&На горе"
 
@@ -2215,13 +2217,13 @@ msgstr ""
 msgid "Authentication"
 msgstr "Удостоверяване"
 
+#. Resource IDs: (IDS_FIRSTSTART_AUTHENTICATIONTITLE)
+msgid "Authentication and credential store"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1278)
 msgid "Authentication data"
 msgstr "Удостоверения"
-
-#. Resource IDs: (IDS_FIRSTSTART_AUTHENTICATIONTITLE)
-msgid "Authentification and credential store"
-msgstr ""
 
 #. Resource IDs: (IDS_LOG_AUTHOR, IDS_STATUSLIST_COLAUTHOR)
 msgid "Author"
@@ -3259,6 +3261,10 @@ msgstr ""
 #. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS)
 msgid "Compare &HEAD revisions"
 msgstr "Сравняване на &главните редакции"
+
+#. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
+msgid "Compare change sets"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -4456,13 +4462,17 @@ msgstr "Да не се показва повече това съобщение"
 msgid "Done"
 msgstr "Готово"
 
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1385)
+#. Resource IDs: (Dialog IDD_REBASE: Control id 1384)
 msgid "Down"
 msgstr "На долу"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1698)
 msgid "Download"
 msgstr "Свали"
+
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535)
+msgid "Download language packs:"
+msgstr ""
 
 #. Resource IDs: (16028)
 msgid "Drag to make this menu float"
@@ -5280,6 +5290,7 @@ msgstr "Само първите основи"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 4599,
 #. Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 4598, Dialog
+#. IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 4600, Dialog
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
@@ -6212,6 +6223,13 @@ msgid ""
 "folder should have a name that ends with '.git')"
 msgstr ""
 
+#. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT3)
+msgid ""
+"If you want to use a translated version of TortoiseGit and your language is "
+"missing, <a id=\"download\">download</a> and install a matching language "
+"pack now and hit \"Refresh\" before continuing."
+msgstr ""
+
 #. Resource IDs: (IDS_EXTRAPATH_TT)
 #, c-format
 msgid ""
@@ -6377,6 +6395,12 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
+msgstr ""
+
+#. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT2)
+msgid ""
+"In the following combobox you can find all installed language packs which "
+"can be used by this version of TortoiseGit."
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
@@ -8000,9 +8024,9 @@ msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT3)
 msgid ""
-"Please see the manual for general hints. E.g. in most dialogs there are some"
-" shared shortcuts such as F5 for refresh and oftentimes there are powerfull "
-"context menus."
+"Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
+"dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
+" search and oftentimes there are powerfull context menus."
 msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
@@ -8500,7 +8524,8 @@ msgstr ""
 msgid "Refname"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 1382, IDS_MENUREFRESH)
+#. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 1382,
+#. Dialog IDD_LOGMESSAGE: Control id 1382, IDS_MENUREFRESH)
 msgid "Refresh"
 msgstr "Опресняване"
 
@@ -11086,6 +11111,10 @@ msgid ""
 "%s\n"
 msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
+#. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
+msgid "TortoiseGit can be localized using language packs."
+msgstr ""
+
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
 msgid ""
@@ -11216,7 +11245,8 @@ msgid ""
 "yet, you should generate one. Keep the private one in a save place and set "
 "up the public key on your hosting platform. Use the PuTTY authentication "
 "agent for caching the password (done automatically if a PuTTY key is "
-"configured for a remote). For advanced tips & tricks see our manual and FAQ."
+"configured for a remote). For advanced tips & tricks see our <a "
+"id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
@@ -11458,7 +11488,7 @@ msgstr "Неконтролираните файлове бележат съдъ�
 msgid "Unversioning %s"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1384)
+#. Resource IDs: (Dialog IDD_REBASE: Control id 1386)
 msgid "Up"
 msgstr ""
 
@@ -11889,8 +11919,8 @@ msgstr "Внимание!"
 #. Resource IDs: (IDS_FIRSTSTART_HINT4)
 msgid ""
 "We hope you enjoy the usage of TortoiseGit! In case of questions or "
-"problems, please consult our manual or go to "
-"https://tortoisegit.org/support/"
+"problems, please consult our manual or go to <a "
+"id=\"support\">https://tortoisegit.org/support/</a>"
 msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
