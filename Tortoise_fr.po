@@ -16,6 +16,7 @@
 # peter griffin <softy@yopmail.com>, 2013
 # Fred <pinky__007@hotmail.com>, 2013
 # Fred <pinky__007@hotmail.com>, 2013
+# Poly Vertex <polyvertex@gmail.com>, 2016
 # Raphaël MICHEL <raphael.michel@tymsoft.fr>, 2015-2016
 # peter griffin <softy@yopmail.com>, 2013
 # lkppo, 2012
@@ -28,8 +29,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-12-04 20:22+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2016-12-10 16:57+0000\n"
+"Last-Translator: Poly Vertex <polyvertex@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +63,7 @@ msgstr "# auteurs affichés individuellement :"
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALMBTRANSFERRED)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr "%.2f Mio transféré"
+msgstr "%.2f Mio transférés"
 
 #. Resource IDs: (61878)
 #, c-format
@@ -779,7 +780,7 @@ msgstr "&De:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
-msgstr ""
+msgstr "&Générer une paire de clés PuTTY"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -788,7 +789,7 @@ msgstr "&Livraison de style Git (--rmdir)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Git.exe Path:"
-msgstr ""
+msgstr "Chemin &Git.exe :"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -839,7 +840,7 @@ msgstr "&Ignorer %d éléments par nom"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE2)
 msgid "&Ignore multiple items by name"
-msgstr ""
+msgstr "&Ignorer plusieurs éléments par nom"
 
 #. Resource IDs: (ID_VIEW_IGNORE_WHITESPACE - Menu)
 msgid "&Ignore whitespace"
@@ -2139,7 +2140,7 @@ msgstr "Êtes-vous sûr de vouloir interrompre le processus de rebase ?"
 
 #. Resource IDs: (IDS_REALLYCANCEL)
 msgid "Are you sure you want to cancel?"
-msgstr ""
+msgstr "Souhaitez-vous vraiment annuler ?"
 
 #. Resource IDs: (IDS_PROC_RESOLVE)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -3568,7 +3569,7 @@ msgstr ""
 msgid ""
 "Could not get read version information from git.exe.\n"
 "Got: \"%s\""
-msgstr ""
+msgstr "Version de git.exe non reconnue.\nValeur obtenue: \"%s\""
 
 #. Resource IDs: (IDS_ERR_NOSTATUS)
 msgid "Could not get the status!"
@@ -3953,7 +3954,7 @@ msgstr "Supprimer et &ignorer %d éléments par nom"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE2)
 msgid "Delete and &ignore multiple items by name"
-msgstr ""
+msgstr "Effacer et &ignorer plusieurs éléments par nom"
 
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
@@ -3966,7 +3967,7 @@ msgstr "Supprimer et ignorer %d éléments par &extension"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK2)
 msgid "Delete and ignore multiple items by &extension"
-msgstr ""
+msgstr "Effacer et ignorer plusieurs éléments par &extension"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
@@ -4486,7 +4487,7 @@ msgstr "Télécharger"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535)
 msgid "Download language packs:"
-msgstr ""
+msgstr "Télécharger des pack de traduction :"
 
 #. Resource IDs: (16028)
 msgid "Drag to make this menu float"
@@ -4506,7 +4507,7 @@ msgstr "Types de disque"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
 msgid "Drives A: and B:"
-msgstr ""
+msgstr "Lecteurs A: et B:"
 
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
@@ -12634,7 +12635,7 @@ msgstr "sur %1"
 
 #. Resource IDs: (IDS_STATE_PATCHED)
 msgid "patched"
-msgstr "Patché"
+msgstr "patché"
 
 #. Resource IDs: (61888)
 msgid "pixels"
