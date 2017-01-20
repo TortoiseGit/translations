@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-01-20 00:07+0000\n"
+"PO-Revision-Date: 2017-01-20 15:13+0000\n"
 "Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -2569,7 +2569,7 @@ msgstr "按钮 3"
 msgid ""
 "By default Git does not save/cache credentials. However, you can configure a"
 " credential helper (recommended) or manually use %HOME%/_netrc."
-msgstr ""
+msgstr "默认情况下 Git 不保存/缓存凭据。但您可以配置凭据助手（推荐）或手动使用 %HOME%/_netrc。"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -2612,7 +2612,7 @@ msgstr "计算"
 #. Resource IDs: (IDS_ERR_GITCALLFAILED)
 #, c-format
 msgid "Calling git.exe failed (exit code: %d). Please check the git.exe path."
-msgstr ""
+msgstr "调用 git.exe 失败（退出代码：%d）。请检查 git.exe 路径。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1127)
 msgid "Can double-click in log list to compare with previous revision"
@@ -2885,7 +2885,7 @@ msgstr "选中您希望直接出现在右键菜单而不是 TortoiseGit 子菜�
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
 "menu (SHIFT + right click)"
-msgstr ""
+msgstr "选择想转移到扩展右键菜单的项目（使用时需按 Shift + 右击）"
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
@@ -3560,14 +3560,14 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in versionstring of git.exe.\n"
 "If you are using git of the cygwin or msys2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "git.exe 的版本字符串中未找到 \"msysgit\" 或 \"windows\"。\n如果您在使用的为 cygwin 或 msys2 环境的 git，您需要启用特殊处理。\n更多信息见帮助文件中的 \"cygwin git\" 或 \"msys2 git\" 关键词。"
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
 msgid ""
 "Could not get read version information from git.exe.\n"
 "Got: \"%s\""
-msgstr ""
+msgstr "未能从 git.exe 读取版本信息。\n得到：\"%s\""
 
 #. Resource IDs: (IDS_ERR_NOSTATUS)
 msgid "Could not get the status!"
@@ -3654,7 +3654,7 @@ msgid ""
 "Could not start git.exe. A dynamic library (dll) is missing.\n"
 "You might need to specify an extra PATH.\n"
 "Check help file for \"Extra PATH\"."
-msgstr ""
+msgstr "未能启动 git.exe。缺少动态链接库（DLL）。\n您可能需指定额外路径。\n请在帮助文件中查阅 \"Extra PATH\"。"
 
 #. Resource IDs: (61702)
 msgid "Could not start print job."
@@ -5405,7 +5405,7 @@ msgstr "向前 %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in versionstring of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "在 git.exe 的版本字符串找到 \"msysgit\" or \"windows\"，但您已启用对 git.exe 的特殊处理。这些特殊处理必须禁用才能正确配合 Git for Windows 运作！\n您可以在帮助文件中查阅 \"cygwin git\" 或 \"msys2 git\" 了解更多信息。"
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
@@ -5661,7 +5661,7 @@ msgstr "在创建版本库时，Git 报告了一个错误！\n"
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
 " meta data for your commits (not for authentication)."
-msgstr ""
+msgstr "Git 需要您设置用户名称和邮件地址。两者用于您的提交的元数据（不用于身份验证）。"
 
 #. Resource IDs: (32787)
 msgid "Git revision list contains the complete file history"
@@ -6414,7 +6414,7 @@ msgstr "为了中止合并过程，需要进行一次重置操作。"
 msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
-msgstr ""
+msgstr "在下列组合框中，您可以找到此版本 TortoiseGit 可以使用的所有已安装的语言包。"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -7343,7 +7343,7 @@ msgid ""
 "No git.exe found.\n"
 "\n"
 "TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
-msgstr ""
+msgstr "未找到 git.exe。\n\nTortoiseGit 需要一个 git.exe 进行操作（Git for Windows 或其他软件包可提供它）。"
 
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
@@ -7671,7 +7671,7 @@ msgstr "仅合并文件"
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1677,
 #. ID_VIEW_ONLYCONSIDERFIRSTPARENTS - Menu)
 msgid "Only consider first parents on blame"
-msgstr ""
+msgstr "追溯时只考虑首个父节点"
 
 #. Resource IDs: (IDS_git_DEPTH_FILES)
 msgid "Only file children"
@@ -7679,7 +7679,7 @@ msgstr "仅文件子节点"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
-msgstr ""
+msgstr "仅已合并（至 HEAD）"
 
 #. Resource IDs: (IDS_COMMITDLG_ONLYNUMBERS)
 msgid ""
@@ -7693,7 +7693,7 @@ msgstr "仅此项"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
-msgstr ""
+msgstr "仅未合并（至 HEAD）"
 
 #. Resource IDs: (61440, ID_FILE_OPEN - Menu, ID_FILE_OPEN - Ribbon name)
 msgid "Open"
@@ -8040,7 +8040,7 @@ msgid ""
 "Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
 "dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
 " search and oftentimes there are powerfull context menus."
-msgstr ""
+msgstr "请查阅<a id=\"manual\">手册</a>了解一般提示。例如，在大多数对话框中有一些共通的快捷键，如 F5 刷新，CTRL+F 搜索，以及大多数都有强大的上下文（右键）菜单。"
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -10572,7 +10572,7 @@ msgid ""
 "When you merge changes, conflicts can arise that must be solved manually (i.e., you need to integrate your changes into a file which was also modified on another branch).\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "您正在完成的是一个特殊提交。它是一个合并提交，因此包含您的更改和已合并树的更改。\n\n您不应该取消选中任何文件，除非您明确知道这是在做什么。\n\n当您合并更改时，有可能出现必须手动解决的冲突（即您需要将您的更改整合到另一个分支上的已修改文件中。\n\n查阅帮助了解更多信息。"
 
 #. Resource IDs: (IDS_GITCREDENTIAL_OVERWRITEHELPER)
 #, c-format
@@ -10946,7 +10946,7 @@ msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
 "default."
-msgstr ""
+msgstr "这些设置将存储到您的全局 git 配置 (%HOME%/.gitconfig) 并作为默认设置应用到您的所有 git 仓库。"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
@@ -10980,7 +10980,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "这里是首次启动向导，我将帮助您完成基本配置。TortoiseGit 有很多可调的选项，因此建议您查看设置对话框。使用开始菜单或者 Windows 文件资源管理器的右键菜单可访问设置：\nTortoiseGit -> 设置。"
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -11122,7 +11122,7 @@ msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
 msgid "TortoiseGit can be localized using language packs."
-msgstr ""
+msgstr "TortoiseGit 可以使用语言包显示本地化的界面。"
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -11154,14 +11154,14 @@ msgid ""
 "TortoiseGit is designed as a Shell Extension. Therefore the main interaction"
 " with TortoiseGit will be using the context menu of the Windows shell such "
 "as the Windows Explorer."
-msgstr ""
+msgstr "TortoiseGit 的设计是一个 Shell 扩展。因此，与 TortoiseGit 的交互主要使用在 Windows 外壳（如文件资源管理器）中扩展的右键菜单进行。"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
 "automatically detect a working git.exe, but if that doesn't work or you want"
 " to use a different one please specify the path manually!"
-msgstr ""
+msgstr "TortoiseGit 需要 git.exe 完成其操作。TortoiseGit 会尝试自动检测可使用的 git.exe，但如果检测失败或者您有需要，请手动指定路径。"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11256,7 +11256,7 @@ msgid ""
 "agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr ""
+msgstr "TortoiseGitPlink 是推荐的 SSH 客户端。如果您还没有一个密钥对，您应该生成一个。请将私人密钥妥善保管，并在托管平台上设置公钥。使用 PuTTY 身份验证代理缓存密码（自动完成，如果 PuTTY 密钥已为一个远端配置）。有关高级提示和技巧，请参阅我们的<a id=\"manual\">手册</a>和<a id=\"sshfaq\">常见问题</a>。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -11930,7 +11930,7 @@ msgid ""
 "We hope you enjoy the usage of TortoiseGit! In case of questions or "
 "problems, please consult our manual or go to <a "
 "id=\"support\">https://tortoisegit.org/support/</a>"
-msgstr ""
+msgstr "我们希望您喜欢使用 TortoiseGit！如有疑问或遇到问题，请查阅手册或访问 <a id=\"support\">https://tortoisegit.org/support/</a>"
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
