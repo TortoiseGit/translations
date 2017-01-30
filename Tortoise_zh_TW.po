@@ -12,15 +12,15 @@
 # Hydriz Scholz <hydriz@jorked.com>, 2013,2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
 # Yue Lin Ho <yuelinho777@gmail.com>, 2014-2016
-# 乙酸鋰 <ch3cooli@gmail.com>, 2012
+# 乙酸鋰 <ch3cooli@gmail.com>, 2012,2017
 # 乙酸鋰 <ch3cooli@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-01-29 17:08+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-01-30 03:27+0000\n"
+"Last-Translator: 乙酸鋰 <ch3cooli@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -692,7 +692,7 @@ msgstr "電郵(&E)："
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1023, Dialog
 #. IDD_SETTINGSHOOKCONFIG: Control id 1023)
 msgid "&Enable"
-msgstr ""
+msgstr "啟用(&E)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1023)
 msgid "&Enable Proxy Server"
@@ -2229,7 +2229,7 @@ msgstr "認證"
 
 #. Resource IDs: (IDS_FIRSTSTART_AUTHENTICATIONTITLE)
 msgid "Authentication and credential store"
-msgstr ""
+msgstr "「使用者認證」(SSH) 及「憑證」(HTTPS) 設定"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1278)
 msgid "Authentication data"
@@ -3274,7 +3274,7 @@ msgstr "比較 &HEAD 版本"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
 msgid "Compare change sets"
-msgstr ""
+msgstr "比對變更集"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -4482,7 +4482,7 @@ msgstr "下載"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535)
 msgid "Download language packs:"
-msgstr ""
+msgstr "下載語言包："
 
 #. Resource IDs: (16028)
 msgid "Drag to make this menu float"
@@ -6238,7 +6238,7 @@ msgid ""
 "If you want to use a translated version of TortoiseGit and your language is "
 "missing, <a id=\"download\">download</a> and install a matching language "
 "pack now and hit \"Refresh\" before continuing."
-msgstr ""
+msgstr "如你想用翻譯版 TortoiseGit 但找不到該語言， <a id=\"download\">下載</a> 及安裝語言包及按 「重新整理」。"
 
 #. Resource IDs: (IDS_EXTRAPATH_TT)
 #, c-format
@@ -6411,7 +6411,7 @@ msgstr "為了中止合併程序，需要重設（至 HEAD）。"
 msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
-msgstr ""
+msgstr "在以下組合框你可找到所有已安裝及對應此版本的 TortoiseGit 語言包"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -8037,7 +8037,7 @@ msgid ""
 "Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
 "dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
 " search and oftentimes there are powerfull context menus."
-msgstr ""
+msgstr "請查閱<a id=\"manual\">手冊</a>以取得更多詳細的提示，例如：在大多數的視窗中，可以按 F5 來更新畫面，並且常常有許多強大的快顯功能表可用。"
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -10569,7 +10569,7 @@ msgid ""
 "When you merge changes, conflicts can arise that must be solved manually (i.e., you need to integrate your changes into a file which was also modified on another branch).\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "你正在完成一個特殊的提交，名為「合併提交」，因此，它包含你的變更以及合併來源分支的變更。 \n\n你「不」應該取消勾選某些檔案，除非你知道你正在做什麼。 \n\n合併時可能會發生需要手動解決的衝突；這意謂著，你的變更和合併來源分支都修改了相同檔案中的相關部分。 \n\n請參考「說明文件」取得更多資訊。"
 
 #. Resource IDs: (IDS_GITCREDENTIAL_OVERWRITEHELPER)
 #, c-format
@@ -11119,7 +11119,7 @@ msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
 msgid "TortoiseGit can be localized using language packs."
-msgstr ""
+msgstr "TortoiseGit 可以透過語言包進行本地化。"
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -11253,7 +11253,7 @@ msgid ""
 "agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr ""
+msgstr "建議使用 TortoiseGitPlink 做為你的 SSH 客戶端程式。如果你還沒有「金鑰對(key pair)」，你應該產生一組，並將私鑰存放在安全的地方以備後用，然後在伺服端設定好你的公鑰；使用 PuTTY 認證代理程式（Pageant）幫你快取密碼（如果你已經為遠端設定好 PuTTY 金鑰，這就會自動完成）。請查閱我們的<a id=\"manual\">手冊</a>和 <a id=\"sshfaq\">FAQ</a> 以取得更多進階的提示和技巧。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -11927,7 +11927,7 @@ msgid ""
 "We hope you enjoy the usage of TortoiseGit! In case of questions or "
 "problems, please consult our manual or go to <a "
 "id=\"support\">https://tortoisegit.org/support/</a>"
-msgstr ""
+msgstr "我們希望你可以享用 TortoiseGit！如果你有任何使用上的問題，請參考我們的手冊，或者瀏覽 <a id=\"support\">https://tortoisegit.org/support/</a>"
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
