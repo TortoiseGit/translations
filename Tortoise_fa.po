@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-01-31 16:11+0000\n"
+"PO-Revision-Date: 2017-01-31 18:08+0000\n"
 "Last-Translator: Milad Amirzadeh <miladamirzadeh@live.com>\n"
 "Language-Team: Persian (http://www.transifex.com/lznuaa/tortoisegit/language/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -144,7 +144,7 @@ msgstr "%1! d! سال قبل"
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
 msgid "%1!d! items selected"
-msgstr "%1! d! مورد انتخاب شده"
+msgstr "%1! d! مورد انتخاب شده است"
 
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
@@ -161,14 +161,14 @@ msgstr "%1!s!"
 msgid ""
 "%1!s!\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr ""
+msgstr "%1!s!\n%2!d! فایل، %3!d! زیرماژول و %4!d! پوشه، در مجموع %5!d! واحد نمایش داده شده است"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOFILE)
 #, c-format
 msgid ""
 "%1!s!\n"
 "Size %2!s!"
-msgstr ""
+msgstr "%1!s!\nحجم %2!s!"
 
 #. Resource IDs: (61744)
 #, c-format
@@ -188,7 +188,7 @@ msgstr "%1\nفایل مورد نظر یافت نشد.\nاطمینان حاصل �
 #. Resource IDs: (IDS_CONFIG_GLOBAL_TT)
 #, c-format
 msgid "%HOME%/.gitconfig or %XDGHOME%/git/config"
-msgstr ""
+msgstr "%HOME%/.gitconfig یا %XDGHOME%/git/config"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALBYTESTRANSFERRED)
 #, c-format
@@ -198,12 +198,12 @@ msgstr "بمیزان %I64d بایت انتقال یافت"
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALTRANSFERRED)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr "%I64d KiB انتقال یافت"
+msgstr "%I64d کیلوبایت انتقال یافت"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
-msgstr ""
+msgstr "%d کامیت جلوتر است \"%s\""
 
 #. Resource IDs: (IDS_FILESCHANGES)
 #, c-format
@@ -213,22 +213,22 @@ msgstr "%d فایل تغییر یافت"
 #. Resource IDs: (IDS_PROC_FILESREMOVED)
 #, c-format
 msgid "%d files removed."
-msgstr "%d فایل حذف شد"
+msgstr "%d فایل حذف شد."
 
 #. Resource IDs: (IDS_STATUSLIST_FILESREVERTED)
 #, c-format
 msgid "%d files reverted to %s."
-msgstr ""
+msgstr "%d فایل به %s بازگردانده شد."
 
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%d files selected, %d files total"
-msgstr "%d فایل انتخاب شده٬ %d فایل در مجموع"
+msgstr "%d فایل انتخاب شده٬ در مجموع %d فایل "
 
 #. Resource IDs: (IDS_STATGRAPH_AUTHORSLIDER_TT)
 #, c-format
 msgid "%d most active author(s) with at least %d commits each (%d %%)"
-msgstr ""
+msgstr "%d فعال ترین مولف(ین) با حداقل هر کدام %d کامیت (%d %%)"
 
 #. Resource IDs: (IDS_ALPHABUTTONTT)
 #, c-format
@@ -236,12 +236,12 @@ msgid ""
 "%i%% alpha\n"
 "click to toggle alpha\n"
 "double click to automatically toggle alpha"
-msgstr "%i%% alpha\nclick to toggle alpha\ndouble click to automatically toggle alpha"
+msgstr "%i%% آلفا\nبرای تغییر وضعیت حالت آلفا کلیک کنید \nبرای تغییر وضعیت خودکار حالت آلفا دوبار کلیک کنید"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%ld minute(s) and %ld second(s)"
-msgstr ""
+msgstr "%ld دقیقه و %ld ثانیه"
 
 #. Resource IDs: (IDS_DIMENSIONSANDFRAMES)
 #, c-format
@@ -266,17 +266,17 @@ msgstr "%s در %s"
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
 msgid "%s requires Git >= %s"
-msgstr ""
+msgstr "%s به Git نسخه %s یا بالاتر نیازمند است"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
 msgid "%s, at %s"
-msgstr "%s, به %s"
+msgstr "%s، در %s"
 
 #. Resource IDs: (IDS_DIFF_WCNAME)
 #, c-format
 msgid "%s: Working Tree"
-msgstr "%s: درختواره کار"
+msgstr "%s: درخت کار"
 
 #. Resource IDs: (IDS_PROC_EXPORTFOLDERNAME2)
 #, c-format
@@ -300,14 +300,14 @@ msgstr "%s\n%s"
 msgid ""
 "%s\n"
 "Could not be cleanly patched."
-msgstr ""
+msgstr "%s\nامکان اصلاح بدون نقص وجود ندارد."
 
 #. Resource IDs: (IDS_PROC_REMOVEFORCE)
 #, c-format
 msgid ""
 "%s\n"
 "Do you want to remove it anyway?"
-msgstr "%s\nدر هر صورت مایل به حذف آن هستید؟"
+msgstr "%s\nآیا از حذف این مطمئن می باشید؟"
 
 #. Resource IDs: (IDS_ERR_FILE_NOTAFILE)
 #, c-format
@@ -315,7 +315,7 @@ msgid ""
 "%s\n"
 "is a directory, not a file!\n"
 "TortoiseGitMerge can't diff directories."
-msgstr ""
+msgstr "%s\nیک پوشه می باشد و نه یک فایل!\nTortoiseGitMerge نمی تواند پوشه ها را با هم مقایسه کند."
 
 #. Resource IDs: (16923, Dialog IDD_RENAME: Control id 1483)
 msgid "&..."
@@ -323,19 +323,19 @@ msgstr "&..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1656)
 msgid "&3 way merge"
-msgstr ""
+msgstr "ادغام &3 طرفه"
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
-msgstr "&بی نتیجه"
+msgstr "لغو کردن"
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
-msgstr ""
+msgstr "لغو کردن TortoiseGitBlame..."
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitMerge..."
-msgstr ""
+msgstr "درباره TortoiseGitMerge..."
 
 #. Resource IDs: (16920)
 msgid "&Activate"
@@ -348,7 +348,7 @@ msgstr "&افزودن"
 
 #. Resource IDs: (17075)
 msgid "&Add >>"
-msgstr "&اضافه‌کردن >>"
+msgstr "&افزودن >>"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1505)
 msgid "&Add Filter"
@@ -361,15 +361,15 @@ msgstr "&افزودن جدید/ذخیره"
 
 #. Resource IDs: (IDS_PROC_COMMIT_ADDSIGNOFFBUTTON)
 msgid "&Add it"
-msgstr "&افزودن آن"
+msgstr "&افزودن این"
 
 #. Resource IDs: (17018)
 msgid "&Add or Remove Buttons"
-msgstr "اضافه کردن یا حذف &دگمه"
+msgstr "افزودن یا حذف &دکمه ها"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1098, IDS_MENUADD)
 msgid "&Add..."
-msgstr "&اضافه‌کردن..."
+msgstr "&افزودن..."
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1845,
 #. Dialog IDD_SETTINGSPROGSDIFF: Control id 1090, Dialog
@@ -387,11 +387,11 @@ msgstr "&تمامی انشعاب ها"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Application Look"
-msgstr ""
+msgstr "ظاهر برنامه"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1613)
 msgid "&Apply Patch"
-msgstr ""
+msgstr "اعمال اصلاحیه"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1013)
 msgid "&Apply unified diff"
@@ -407,7 +407,7 @@ msgstr "&تخصیص"
 
 #. Resource IDs: (16633)
 msgid "&Associate double-click event with:"
-msgstr "&تخصیص رویدادهای دوبار-کلیک با:"
+msgstr "&تخصیص رویداد دوبار-کلیک با:"
 
 #. Resource IDs: (17041)
 msgid "&Auto Hide"
@@ -415,11 +415,11 @@ msgstr "&پنهان‌سازی خودکار"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 65535)
 msgid "&Autoclose Git.exe dialog:"
-msgstr ""
+msgstr "بستن خودکار دیالوگ Git.exe"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1505)
 msgid "&Autoload Putty Key"
-msgstr ""
+msgstr "بارگذاری خودکار کلید Putty"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1015)
 msgid "&Backup original file"
