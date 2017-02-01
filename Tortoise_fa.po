@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-01-31 18:08+0000\n"
+"PO-Revision-Date: 2017-02-01 16:58+0000\n"
 "Last-Translator: Milad Amirzadeh <miladamirzadeh@live.com>\n"
 "Language-Team: Persian (http://www.transifex.com/lznuaa/tortoisegit/language/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -251,7 +251,7 @@ msgstr "%ld از %ld"
 #. Resource IDs: (IDS_PROGRS_PATHATREV)
 #, c-format
 msgid "%s - at revision: %d"
-msgstr "%s - در اصلاحیه: %d"
+msgstr "%s - در بازبینی: %d"
 
 #. Resource IDs: (62186)
 #, c-format
@@ -365,7 +365,7 @@ msgstr "&افزودن این"
 
 #. Resource IDs: (17018)
 msgid "&Add or Remove Buttons"
-msgstr "افزودن یا حذف &دکمه ها"
+msgstr "افزودن یا حذف &دگمه ها"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1098, IDS_MENUADD)
 msgid "&Add..."
@@ -427,15 +427,15 @@ msgstr "&پشتیبان‌گیری پروندهٔ اصلی"
 
 #. Resource IDs: (IDS_MENUBLAME)
 msgid "&Blame"
-msgstr ""
+msgstr "مسئول یابی"
 
 #. Resource IDs: (IDS_LOG_POPUP_BLAMEDIFF)
 msgid "&Blame changes"
-msgstr "&مقصریابی تغییرات"
+msgstr "&مسئول یابی تغییرات"
 
 #. Resource IDs: (IDS_FILEDIFF_POPBLAME, IDS_LOG_POPUP_BLAMEREVS)
 msgid "&Blame revisions"
-msgstr "&مقصریابی اصلاحیه‌ها"
+msgstr "&مسئول یابی بازبینی ها"
 
 #. Resource IDs: (65535)
 msgid "&Blue:"
@@ -457,16 +457,16 @@ msgstr "&انشعاب:"
 
 #. Resource IDs: (IDS_LOG_BROWSEREPO)
 msgid "&Browse repository"
-msgstr "&مرور مخزن"
+msgstr "&پیمایش انباره"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1382, Dialog IDD_OPENDLG:
 #. Control id 1001, Dialog IDD_OPENDLG: Control id 1009, IDS_PROC_CLONE_DIR)
 msgid "&Browse..."
-msgstr "&مرور..."
+msgstr "&پیمایش..."
 
 #. Resource IDs: (16913 - Menu)
 msgid "&Button Appearance..."
-msgstr "&نحوه نمایش دگمه..."
+msgstr "&ظاهر دگمه..."
 
 #. Resource IDs: (65535)
 msgid "&Button text:"
@@ -474,7 +474,7 @@ msgstr "&متن دگمه:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1051)
 msgid "&CD-ROM"
-msgstr "&CD-ROM"
+msgstr "&درایو سی دی"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 2)
 msgid "&Cancel"
@@ -482,11 +482,11 @@ msgstr "&انصراف"
 
 #. Resource IDs: (65535)
 msgid "&Categories:"
-msgstr "&رده‌ها:"
+msgstr "&دسته بندی ها:"
 
 #. Resource IDs: (65535)
 msgid "&Category:"
-msgstr "&رده:"
+msgstr "&دسته بندی:"
 
 #. Resource IDs: (65535)
 msgid "&Choose commands from:"
@@ -502,7 +502,7 @@ msgstr "&پاک کردن"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1686)
 msgid "&Clear stash"
-msgstr ""
+msgstr "&پاک کردن انباره موقت"
 
 #. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1)
 msgid "&Close"
@@ -521,11 +521,11 @@ msgstr "&دستور:"
 #. IDD_NEW_BRANCH_TAG: Control id 1514, Dialog IDD_RESET: Control id 1514,
 #. Dialog IDD_SYNC: Control id 1625)
 msgid "&Commit"
-msgstr ""
+msgstr "&کامیت"
 
 #. Resource IDs: (IDS_MENUCOMMITSUBMODULE)
 msgid "&Commit submodule..."
-msgstr ""
+msgstr "&کامیت زیرماژول"
 
 #. Resource IDs: (IDS_PROC_COMMIT_NOADDSIGNOFFBUTTON)
 msgid "&Commit w/o"
@@ -537,7 +537,7 @@ msgstr "&اعمال..."
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS)
 msgid "&Compare revisions"
-msgstr "&مقایسهٔ اصلاحیه‌ها"
+msgstr "&مقایسهٔ بازبینی ها"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
@@ -1437,7 +1437,7 @@ msgstr "&بالا"
 
 #. Resource IDs: (IDS_LOG_POPUP_UPDATE)
 msgid "&Update item to revision"
-msgstr "برو&زرسانی قلم به اصلاحیه"
+msgstr "برو&زرسانی مورد به بازبینی"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 4567)
 msgid "&Upstream:"
@@ -2189,7 +2189,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROGRS_ATREV)
 #, c-format
 msgid "At revision: %d"
-msgstr "در اصلاحیه: %d"
+msgstr "در بازبینی: %d"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_RENAMEONLYBRANCHES)
 msgid "At the moment, you can only rename branches."
@@ -2580,7 +2580,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
-msgstr "&ایجاد شاخه/تگ از اصلاحیه"
+msgstr "&ایجاد انشعاب/تگ از بازبینی"
 
 #. Resource IDs: (65535)
 msgid "C&urrent Keys:"
@@ -2609,7 +2609,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1127)
 msgid "Can double-click in log list to compare with previous revision"
-msgstr "می‌توانید برای مقایسه با اصلاحیه قبلی در لیست گزارش دوبار کلیک کنید"
+msgstr "می‌توانید برای مقایسه با بازبینی قبلی در لیست گزارش دوبار کلیک کنید"
 
 #. Resource IDs: (61824)
 msgid "Can not activate a static ActiveX object."
@@ -3266,7 +3266,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS)
 msgid "Compare &HEAD revisions"
-msgstr "مقایسه اصلاحیه‌های &HEAD"
+msgstr "مقایسه آخرین تغییرات &بازبینی ها"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
 msgid "Compare change sets"
@@ -3295,7 +3295,7 @@ msgstr "با نسخهٔ &پایه مقایسه کنید"
 
 #. Resource IDs: (IDS_BLAME_POPUP_COMPARE, IDS_LOG_POPUP_COMPAREWITHPREVIOUS)
 msgid "Compare with previous revision"
-msgstr "با اصلاحیهٔ قبلی مقایسه کنید"
+msgstr "مقایسه با بازبینی قبلی"
 
 #. Resource IDs: (32871)
 msgid ""
