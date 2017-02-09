@@ -9,20 +9,21 @@
 # Jarosław Pękala <jaroslaw.pekala@gmail.com>, 2013
 # jotpeg <janekpg@gazeta.pl>, 2013
 # kkotowicz <kkotowicz@gmail.com>, 2011
+# lukaszkoziara <koziara.lukasz@gmail.com>, 2017
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # mkrawiecki <michal.krawiecki@erlkoenig.pl>, 2011
 # Pablos <pawel.patyk@pabloart.pl>, 2012
 # Pablos <pawel.patyk@pabloart.pl>, 2016
 # Sebastian Kaczorowski <gq9lbk@gmail.com>, 2015-2016
-# Stanisław Kapusta <2stan2@gmail.com>, 2016
+# StasiekK <2stan2@gmail.com>, 2016
 # taksun <taksun@o2.pl>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-12-29 16:08+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-02-09 18:34+0000\n"
+"Last-Translator: lukaszkoziara <koziara.lukasz@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/lznuaa/tortoisegit/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -777,7 +778,7 @@ msgstr "&Od:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
-msgstr ""
+msgstr "&Generowanie pary kluczy PuTTY"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -786,7 +787,7 @@ msgstr "&Git Styl zatwierdzenia (--rmdir)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Git.exe Path:"
-msgstr ""
+msgstr "Ścieżka do &git.exe:"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -837,7 +838,7 @@ msgstr "&Pomiń %d elementów wg nazwy"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE2)
 msgid "&Ignore multiple items by name"
-msgstr ""
+msgstr "&Ignoruj wiele elementów po nazwie"
 
 #. Resource IDs: (ID_VIEW_IGNORE_WHITESPACE - Menu)
 msgid "&Ignore whitespace"
@@ -1129,7 +1130,7 @@ msgstr "&Pobierz"
 
 #. Resource IDs: (IDS_MENUPULL)
 msgid "&Pull..."
-msgstr ""
+msgstr "&Pobierz..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -1742,7 +1743,7 @@ msgstr "Skracaj zmiany nazw"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Abbreviated size"
-msgstr ""
+msgstr "Skrócony rozmiar"
 
 #. Resource IDs: (Dialog IDD_GITPROGRESS: Control id 2, Dialog IDD_REBASE:
 #. Control id 1565, Dialog IDD_RESOLVE_CONFLICT: Control id 2)
@@ -2908,15 +2909,15 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGS_TITLE_CHERRYPICK)
 msgid "Cherry Pick"
-msgstr ""
+msgstr "Selekcjonowanie"
 
 #. Resource IDs: (IDS_PROC_CHERRYPICKFAILED)
 msgid "Cherry Pick failed"
-msgstr ""
+msgstr "Nieudane selekcjonowanie"
 
 #. Resource IDs: (IDS_CHERRY_PICK_VERSIONS)
 msgid "Cherry Pick selected commits..."
-msgstr ""
+msgstr "Selekcjonowanie wybranych zmian..."
 
 #. Resource IDs: (IDS_CHERRY_PICK_VERSION)
 msgid "Cherry Pick this commit..."
@@ -3750,7 +3751,7 @@ msgstr "Utwórz plik poprawki"
 
 #. Resource IDs: (IDS_PROC_REQUESTPULL)
 msgid "Create pull &request"
-msgstr ""
+msgstr "Utwórz p&rośbę o połączenie"
 
 #. Resource IDs: (IDS_MENUCREATEREPOS)
 msgid "Create repositor&y here..."
@@ -3784,7 +3785,7 @@ msgstr "Tworzy plik różnicowy, zawierający wszystkie twoje zmiany"
 
 #. Resource IDs: (IDS_PROC_CREATINGPULLREUQEST)
 msgid "Creating pull-request..."
-msgstr ""
+msgstr "Tworzenie prośby o połączenie..."
 
 #. Resource IDs: (IDS_GITCREDENTIAL_HELPEREMPTY)
 msgid "Credential helper must not be empty."
@@ -3951,7 +3952,7 @@ msgstr "Usuń i pom&iń %d elementów wg nazwy"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE2)
 msgid "Delete and &ignore multiple items by name"
-msgstr ""
+msgstr "Usuń i &ignoruj wiele elementów po nazwie"
 
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
@@ -3964,7 +3965,7 @@ msgstr "Usuwa i ignoruje %d elementy(-ów) wg &rozszerzenia"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK2)
 msgid "Delete and ignore multiple items by &extension"
-msgstr ""
+msgstr "Usuń i ignoruj wiele elementów wg rozsz&erzenia"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
@@ -5004,7 +5005,7 @@ msgstr "Nie udało się utworzyć obiektu.  Upewnij się, że aplikacja jest zai
 
 #. Resource IDs: (IDS_ERR_PULLREUQESTFAILED)
 msgid "Failed to create pull-request."
-msgstr ""
+msgstr "Nie udało się utworzyć prośby o połączenie."
 
 #. Resource IDs: (IDS_STATUSLIST_FAILEDGETBASEFILE)
 msgid "Failed to get base file."
@@ -6283,7 +6284,7 @@ msgstr "Ignoruj wszystkie zmiany białych znaków"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORBLANKLINES)
 msgid "Ignore blank lines"
-msgstr ""
+msgstr "Ignoruj puste linie"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1067)
 msgid "Ignore case cha&nges"
@@ -6309,11 +6310,11 @@ msgstr "Pomiń znaki &końca linii (zalecane)"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLEMASK2)
 msgid "Ignore multiple items by &extension"
-msgstr ""
+msgstr "Ignoruj wiele elementów wg rozsz&erzenia"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORESPACEATEOL)
 msgid "Ignore space at EOL"
-msgstr ""
+msgstr "Ignoruj znak spacji na końcu linii"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORESPACECHANGE)
 msgid "Ignore space change"
@@ -9808,7 +9809,7 @@ msgstr "Pokaż &pełne menu po chwili"
 
 #. Resource IDs: (32802, ID_VIEW_SHOWFILENAME - Menu)
 msgid "Show file name"
-msgstr ""
+msgstr "Pokaż nazwę pliku"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1782)
 msgid "Show git.exe execution timings and timestamp"
@@ -9848,7 +9849,7 @@ msgstr "Pokaż log &przed zmianą nazwy/kopiowaniem"
 #. Resource IDs: (IDS_SHOWLOG_OF)
 #, c-format
 msgid "Show log of %s"
-msgstr ""
+msgstr "Pokaż logi dla %s"
 
 #. Resource IDs: (IDS_LOG_SUBMODULE)
 msgid "Show log of submodule"
@@ -9908,7 +9909,7 @@ msgstr "Pokazuje lub ukrywa pasek narzędzi\nPrzełącz pasek narzędzi"
 
 #. Resource IDs: (32803, ID_VIEW_SHOWORIGINALLINENUMBER - Menu)
 msgid "Show original line number"
-msgstr ""
+msgstr "Pokaż pierwotny numer linii"
 
 #. Resource IDs: (20309)
 msgid ""
@@ -10115,7 +10116,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REBASE_STARTCHERRYPICK)
 msgid "Start Cherry Pick"
-msgstr ""
+msgstr "Rozpocznij selekcjonowanie"
 
 #. Resource IDs: (IDS_HOOKTYPE_STARTCOMMIT)
 msgid "Start Commit Hook"
@@ -10422,7 +10423,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11031)
 msgid "Symlink"
-msgstr ""
+msgstr "Dowiązanie symboliczne"
 
 #. Resource IDs: (IDS_MENUDESCSYNC)
 msgid "Sync Remote Repositories, including pull, push, email patch and so on"
@@ -11345,7 +11346,7 @@ msgstr "URL"
 
 #. Resource IDs: (IDS_PROC_CLONE_URLDIREMPTY)
 msgid "URL and directory must not be empty."
-msgstr ""
+msgstr "Adres URL i folder nie mogą być puste."
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1272)
 msgid "URL history"
@@ -11468,7 +11469,7 @@ msgstr "Nieznana głębokość"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_UNMARKBLOCK)
 msgid "Unmark this block"
-msgstr ""
+msgstr "Odznacz ten fragment"
 
 #. Resource IDs: (IDS_ERR_MAINFRAME_FILEHASCONFLICTS_TASK2)
 msgid "Unresolved conflicts!"
@@ -11557,7 +11558,7 @@ msgstr "Użyj bloków tekstu z 'ich' przed 'mój'"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
-msgstr ""
+msgstr "Użyj pliku .mailmap"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
@@ -11852,7 +11853,7 @@ msgstr "Przeglądaj"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_VIEWTGITCONFIG)
 msgid "View .tgitconfig"
-msgstr ""
+msgstr "Zobacz plik .tgitconfig"
 
 #. Resource IDs: (ID_VIEW_BARS - Ribbon name)
 msgid "View Bars"
@@ -11933,7 +11934,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
-msgstr ""
+msgstr "Witaj w TortoiseGit!"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Western European"
@@ -12692,7 +12693,7 @@ msgstr "do %s"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"
-msgstr ""
+msgstr "&nieznane zmiany"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXWEEK)
 msgid "week"
