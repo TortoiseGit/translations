@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2015 the TortoiseGit team
+# Copyright (C) 2008-2017 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-01-31 08:10+0000\n"
+"PO-Revision-Date: 2017-02-27 17:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -2247,6 +2247,14 @@ msgstr "作者"
 msgid "Author Email"
 msgstr "作者邮件"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
+msgid "Author email addresses"
+msgstr ""
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
+msgid "Author names"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
 msgstr "作者:\t\t\t\tStefan Kueng"
@@ -2255,15 +2263,13 @@ msgstr "作者:\t\t\t\tStefan Kueng"
 msgid "Authors"
 msgstr "作者"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
+msgid "Authors (full)"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
 msgstr "作者区分大小写"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid ""
-"Authors:\tFrank Li (lznuaa@gmail.com),\n"
-"\t\tSven Strickroth (email@cs-ware.de)"
-msgstr "作者:\tFrank Li (lznuaa@gmail.com),\n\t\tSven Strickroth (email@cs-ware.de)"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto CrLf convert"
@@ -3469,10 +3475,6 @@ msgstr "复制所有信息到剪贴板"
 msgid "Copy and rename"
 msgstr "复制并更名"
 
-#. Resource IDs: (IDS_LOG_POPUP_COPYTOCLIPBOARDMESSAGES)
-msgid "Copy log messages to clipboard"
-msgstr "复制日志信息到剪贴板"
-
 #. Resource IDs: (IDS_BLAME_POPUP_COPYLOGTOCLIPBOARD)
 msgid "Copy log to clipboard"
 msgstr "复杂日志到剪贴板"
@@ -3512,10 +3514,6 @@ msgstr "正在复制 %s"
 #. Resource IDs: (IDS_PROC_COPYING)
 msgid "Copying..."
 msgstr "正在复制..."
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 1001)
-msgid "Copyright (C) 2009-2016 TortoiseGit"
-msgstr "版权所有 (C) 2009-2016 TortoiseGit"
 
 #. Resource IDs: (IDS_SPELLEDIT_CORRECTIONS)
 msgid "Corrections"
@@ -5466,6 +5464,14 @@ msgstr "起始: "
 msgid "Full Screen"
 msgstr "全屏"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
+msgid "Full commit data without changed paths"
+msgstr ""
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
+msgid "Full data"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
 msgstr "全文搜索"
@@ -7012,7 +7018,8 @@ msgstr "仅仅消息(&Y)"
 msgid "Message part &expression:"
 msgstr "信息部分表达式(&E):"
 
-#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES)
+#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES,
+#. IDS_LOG_POPUP_CLIPBOARD_MSGS)
 msgid "Messages"
 msgstr "信息"
 
@@ -7867,10 +7874,6 @@ msgstr "父节点2"
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
 msgstr "父节点"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid "Part of code come from TortoiseSVN Blame"
-msgstr "部分代码来自于 TortoiseSVN Blame"
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
@@ -9868,7 +9871,7 @@ msgstr "显示日志..."
 msgid "Show long format even if a tag is exactly on that commit"
 msgstr "即便一个标签已在提交中精确描述，仍然显示长格式"
 
-#. Resource IDs: (20308)
+#. Resource IDs: (25308)
 msgid ""
 "Show next change of selected commit\n"
 "Show next"
@@ -9912,7 +9915,7 @@ msgstr "显示或隐藏工具栏\n切换工具栏"
 msgid "Show original line number"
 msgstr "显示原始行号"
 
-#. Resource IDs: (20309)
+#. Resource IDs: (25309)
 msgid ""
 "Show previous change of selected commit\n"
 "Show previous"
@@ -9992,7 +9995,8 @@ msgstr "显示选定的文件/文件夹的日志"
 msgid "Si&gn"
 msgstr "签名(&G)"
 
-#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
+#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535, Dialog IDD_ABOUTBOX:
+#. Control id 65535)
 msgid "Significant contributions by: (see Git repository for a complete list)"
 msgstr "主要贡献者: (完整列表见 Git 版本库)"
 
@@ -10287,6 +10291,10 @@ msgstr "主题"
 #. Control id 65535)
 msgid "Subject:"
 msgstr "主题:"
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
+msgid "Subjects"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"

@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2015 the TortoiseGit team
+# Copyright (C) 2008-2017 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -11,7 +11,7 @@
 # kmshts, 2012
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # Mandy Cho <chohy@yahoo.com>, 2013
-# omniavinco <omniavinco@gmail.com>, 2012
+# Gyusun Yeom <omniavinco@gmail.com>, 2012
 # pCsOrI <pcsori@gmail.com>, 2014
 # Sangjun Jung <spamcoffee+transifex@gmail.com>, 2011
 # TaeDong Kim <fly1004@gmail.com>, 2011,2013,2016
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2016-12-29 16:08+0000\n"
+"PO-Revision-Date: 2017-02-27 17:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -2247,6 +2247,14 @@ msgstr "작성자"
 msgid "Author Email"
 msgstr "작성자 이메일"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
+msgid "Author email addresses"
+msgstr ""
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
+msgid "Author names"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
 msgstr "작성자:\t\t\t\tStefan Kueng"
@@ -2255,15 +2263,13 @@ msgstr "작성자:\t\t\t\tStefan Kueng"
 msgid "Authors"
 msgstr "작성자"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
+msgid "Authors (full)"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
 msgstr "작성자 대소문자 구별함"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid ""
-"Authors:\tFrank Li (lznuaa@gmail.com),\n"
-"\t\tSven Strickroth (email@cs-ware.de)"
-msgstr "Authors:\tFrank Li (lznuaa@gmail.com),\n\t\tSven Strickroth (email@cs-ware.de)"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto CrLf convert"
@@ -3469,10 +3475,6 @@ msgstr "모든 정보를 클립보드에 복사"
 msgid "Copy and rename"
 msgstr "복사하고 이름 변경"
 
-#. Resource IDs: (IDS_LOG_POPUP_COPYTOCLIPBOARDMESSAGES)
-msgid "Copy log messages to clipboard"
-msgstr "로그 메시지만 클립보드에 복사"
-
 #. Resource IDs: (IDS_BLAME_POPUP_COPYLOGTOCLIPBOARD)
 msgid "Copy log to clipboard"
 msgstr "Copy log to clipboard"
@@ -3512,10 +3514,6 @@ msgstr "Copying %s"
 #. Resource IDs: (IDS_PROC_COPYING)
 msgid "Copying..."
 msgstr "복사 중..."
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 1001)
-msgid "Copyright (C) 2009-2016 TortoiseGit"
-msgstr ""
 
 #. Resource IDs: (IDS_SPELLEDIT_CORRECTIONS)
 msgid "Corrections"
@@ -5466,6 +5464,14 @@ msgstr "시작:"
 msgid "Full Screen"
 msgstr "전체 화면"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
+msgid "Full commit data without changed paths"
+msgstr ""
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
+msgid "Full data"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
 msgstr "문자열 모두 검색"
@@ -7012,7 +7018,8 @@ msgstr "메시지만 커밋(&Y)"
 msgid "Message part &expression:"
 msgstr "메시지 파트 표현식(&E):"
 
-#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES)
+#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES,
+#. IDS_LOG_POPUP_CLIPBOARD_MSGS)
 msgid "Messages"
 msgstr "메시지"
 
@@ -7867,10 +7874,6 @@ msgstr "부모 2"
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
 msgstr "부모"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid "Part of code come from TortoiseSVN Blame"
-msgstr "Part of code come from TortoiseSVN Blame"
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
@@ -9868,7 +9871,7 @@ msgstr "로그 보기..."
 msgid "Show long format even if a tag is exactly on that commit"
 msgstr ""
 
-#. Resource IDs: (20308)
+#. Resource IDs: (25308)
 msgid ""
 "Show next change of selected commit\n"
 "Show next"
@@ -9912,7 +9915,7 @@ msgstr "툴바 보기/숨기기\n툴바 토글"
 msgid "Show original line number"
 msgstr "원래 줄 번호 표시"
 
-#. Resource IDs: (20309)
+#. Resource IDs: (25309)
 msgid ""
 "Show previous change of selected commit\n"
 "Show previous"
@@ -9992,7 +9995,8 @@ msgstr "Shows the log for the selected file/folder"
 msgid "Si&gn"
 msgstr "Si&gn"
 
-#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
+#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535, Dialog IDD_ABOUTBOX:
+#. Control id 65535)
 msgid "Significant contributions by: (see Git repository for a complete list)"
 msgstr ""
 
@@ -10287,6 +10291,10 @@ msgstr "제목"
 #. Control id 65535)
 msgid "Subject:"
 msgstr "제목:"
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
+msgid "Subjects"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"

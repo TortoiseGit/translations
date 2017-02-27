@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2015 the TortoiseGit team
+# Copyright (C) 2008-2017 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-01-29 17:08+0000\n"
+"PO-Revision-Date: 2017-02-27 17:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2241,6 +2241,14 @@ msgstr "Autor"
 msgid "Author Email"
 msgstr "Autor E-Mail"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
+msgid "Author email addresses"
+msgstr ""
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
+msgid "Author names"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
 msgstr "Autor:\t\t\t\tStefan Küng"
@@ -2249,15 +2257,13 @@ msgstr "Autor:\t\t\t\tStefan Küng"
 msgid "Authors"
 msgstr "Autoren"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
+msgid "Authors (full)"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
 msgstr "Groß-/Kleinschreibung bei Autoren beachten"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid ""
-"Authors:\tFrank Li (lznuaa@gmail.com),\n"
-"\t\tSven Strickroth (email@cs-ware.de)"
-msgstr "Authors:\tFrank Li (lznuaa@gmail.com),\n\t\tSven Strickroth (email@cs-ware.de)"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto CrLf convert"
@@ -3463,10 +3469,6 @@ msgstr "Kopiere alle Informationen in die Zwischenablage"
 msgid "Copy and rename"
 msgstr "Kopieren und umbenennen"
 
-#. Resource IDs: (IDS_LOG_POPUP_COPYTOCLIPBOARDMESSAGES)
-msgid "Copy log messages to clipboard"
-msgstr "Meldungen in Zwischenablage kopieren"
-
 #. Resource IDs: (IDS_BLAME_POPUP_COPYLOGTOCLIPBOARD)
 msgid "Copy log to clipboard"
 msgstr "Kopiere Meldung in Zwischenablage"
@@ -3506,10 +3508,6 @@ msgstr "Kopiere %s"
 #. Resource IDs: (IDS_PROC_COPYING)
 msgid "Copying..."
 msgstr "Kopiere..."
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 1001)
-msgid "Copyright (C) 2009-2016 TortoiseGit"
-msgstr "Copyright (C) 2009-2016 TortoiseGit"
 
 #. Resource IDs: (IDS_SPELLEDIT_CORRECTIONS)
 msgid "Corrections"
@@ -5460,6 +5458,14 @@ msgstr "Von:"
 msgid "Full Screen"
 msgstr "Vollbild"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
+msgid "Full commit data without changed paths"
+msgstr ""
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
+msgid "Full data"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
 msgstr "Volltextsuche"
@@ -7006,7 +7012,8 @@ msgstr "Nur \"Meldun&g\""
 msgid "Message part &expression:"
 msgstr "Nachrichtenteil &RegEx:"
 
-#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES)
+#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES,
+#. IDS_LOG_POPUP_CLIPBOARD_MSGS)
 msgid "Messages"
 msgstr "Meldungen"
 
@@ -7861,10 +7868,6 @@ msgstr "Elter 2"
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
 msgstr "Elternteil(e)"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid "Part of code come from TortoiseSVN Blame"
-msgstr "Teile des Quellcodes stammen von TortoiseSVN Blame"
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
@@ -9862,7 +9865,7 @@ msgstr "Zeige Log..."
 msgid "Show long format even if a tag is exactly on that commit"
 msgstr "Verwende das lange Log Format selbst wenn eine Markierung genau auf die Eintragung zeigt"
 
-#. Resource IDs: (20308)
+#. Resource IDs: (25308)
 msgid ""
 "Show next change of selected commit\n"
 "Show next"
@@ -9906,7 +9909,7 @@ msgstr "Verberge/Zeige die Werkzeugleiste\nVerbirgt oder zeigt die Werkzeugleist
 msgid "Show original line number"
 msgstr "Zeige original Zeilennummer"
 
-#. Resource IDs: (20309)
+#. Resource IDs: (25309)
 msgid ""
 "Show previous change of selected commit\n"
 "Show previous"
@@ -9986,7 +9989,8 @@ msgstr "Zeigt das Log der gewählten Datei/Ordner"
 msgid "Si&gn"
 msgstr "Si&gnieren"
 
-#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
+#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535, Dialog IDD_ABOUTBOX:
+#. Control id 65535)
 msgid "Significant contributions by: (see Git repository for a complete list)"
 msgstr "Signifikante Beiträge von: (betrachten Sie das Git Repository für eine vollständige Liste)"
 
@@ -10281,6 +10285,10 @@ msgstr "Betreff"
 #. Control id 65535)
 msgid "Subject:"
 msgstr "Betreff:"
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
+msgid "Subjects"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"

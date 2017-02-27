@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2015 the TortoiseGit team
+# Copyright (C) 2008-2017 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -7,6 +7,7 @@
 # Baptiste BARON, 2016
 # Baptiste BARON, 2016
 # bauland <nicolas.bauland@laposte.net>, 2014
+# Benoît Locher, 2017
 # deathart <deathart@hotmail.fr>, 2013-2014
 # Freddydelanuit Dec <fred.dec@free.fr>, 2012-2014
 # Fred <pinky__007@hotmail.com>, 2013-2014
@@ -31,8 +32,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-01-29 17:08+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-02-27 17:54+0000\n"
+"Last-Translator: Benoît Locher\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -653,7 +654,7 @@ msgstr "Ne plus afficher ce message"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr ""
+msgstr "&Ne pas sauver ces paramètres maintenant."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -704,7 +705,7 @@ msgstr "&Email :"
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1023, Dialog
 #. IDD_SETTINGSHOOKCONFIG: Control id 1023)
 msgid "&Enable"
-msgstr ""
+msgstr "&Activer"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1023)
 msgid "&Enable Proxy Server"
@@ -730,7 +731,7 @@ msgstr "&Externe"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Extra PATH:"
-msgstr ""
+msgstr "&Chemin supplémentaire (PATH):"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
@@ -2255,6 +2256,14 @@ msgstr "Auteur"
 msgid "Author Email"
 msgstr "E-mail de l'auteur"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
+msgid "Author email addresses"
+msgstr "Adresse email de l'auteur"
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
+msgid "Author names"
+msgstr "Noms de l'auteur"
+
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
 msgstr "Auteur:\t\t\t\tStefan Kueng"
@@ -2263,15 +2272,13 @@ msgstr "Auteur:\t\t\t\tStefan Kueng"
 msgid "Authors"
 msgstr "Auteurs"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
+msgid "Authors (full)"
+msgstr "Auteurs (en entier)"
+
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
 msgstr "Auteurs sensibles à la casse"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid ""
-"Authors:\tFrank Li (lznuaa@gmail.com),\n"
-"\t\tSven Strickroth (email@cs-ware.de)"
-msgstr "Auteurs :\tFrank Li (lznuaa@gmail.com),\n\t\tSven Strickroth (email@cs-ware.de)"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto CrLf convert"
@@ -2621,7 +2628,7 @@ msgstr "Calculer"
 #. Resource IDs: (IDS_ERR_GITCALLFAILED)
 #, c-format
 msgid "Calling git.exe failed (exit code: %d). Please check the git.exe path."
-msgstr ""
+msgstr "Échec de l'appel de git.exe (code de retour: %d). Vérifiez le chemin vers git.exe."
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1127)
 msgid "Can double-click in log list to compare with previous revision"
@@ -2878,7 +2885,7 @@ msgstr "Vérifier les modi&fications"
 
 #. Resource IDs: (IDS_SEEMANUALGITEXEPATH)
 msgid "Check out the help file for \"Git.exe Path\"."
-msgstr ""
+msgstr "Consultez le fichier d'aide sur le chemin de \"Git.exe\"."
 
 #. Resource IDs: (IDS_SVNERR_CHECKPATHORURL)
 msgid "Check the path and/or URL you've entered."
@@ -2894,7 +2901,7 @@ msgstr "Sélectionnez les entrées de menu que vous voulez faire apparaître dan
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
 "menu (SHIFT + right click)"
-msgstr ""
+msgstr "Cochez les menus que vous souhaitez voir apparaître seulement dans le menu contextuel (SHIFT + clic droit)"
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
@@ -3477,10 +3484,6 @@ msgstr "Copier toutes les informations dans le presse-papiers"
 msgid "Copy and rename"
 msgstr "Copier et renommer"
 
-#. Resource IDs: (IDS_LOG_POPUP_COPYTOCLIPBOARDMESSAGES)
-msgid "Copy log messages to clipboard"
-msgstr "Copier les messages des journaux dans le presse-papier"
-
 #. Resource IDs: (IDS_BLAME_POPUP_COPYLOGTOCLIPBOARD)
 msgid "Copy log to clipboard"
 msgstr "Copier le commentaire dans le presse-papiers"
@@ -3520,10 +3523,6 @@ msgstr "Copie de %s"
 #. Resource IDs: (IDS_PROC_COPYING)
 msgid "Copying..."
 msgstr "Copie..."
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 1001)
-msgid "Copyright (C) 2009-2016 TortoiseGit"
-msgstr "Copyright (C) 2009-2016 TortoiseGit"
 
 #. Resource IDs: (IDS_SPELLEDIT_CORRECTIONS)
 msgid "Corrections"
@@ -5474,6 +5473,14 @@ msgstr "Du :"
 msgid "Full Screen"
 msgstr "Plein Écran"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
+msgid "Full commit data without changed paths"
+msgstr ""
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
+msgid "Full data"
+msgstr "Données complètes"
+
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
 msgstr "Recherche plein texte"
@@ -7020,7 +7027,8 @@ msgstr "Seul&ement un message"
 msgid "Message part &expression:"
 msgstr "Expression régulière du message:"
 
-#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES)
+#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES,
+#. IDS_LOG_POPUP_CLIPBOARD_MSGS)
 msgid "Messages"
 msgstr "Commentaires"
 
@@ -7875,10 +7883,6 @@ msgstr "Parent 2"
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
 msgstr "parents(s)"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid "Part of code come from TortoiseSVN Blame"
-msgstr "Partie de code provenant d'annotations TortoiseSVN"
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
@@ -9876,7 +9880,7 @@ msgstr "Voir le journal..."
 msgid "Show long format even if a tag is exactly on that commit"
 msgstr "Afficher le format long même si un tag est présent spécifiquement sur cette livraison"
 
-#. Resource IDs: (20308)
+#. Resource IDs: (25308)
 msgid ""
 "Show next change of selected commit\n"
 "Show next"
@@ -9920,7 +9924,7 @@ msgstr "Voir ou cacher la barre d'outils\nBarre d'outils"
 msgid "Show original line number"
 msgstr "Afficher le numéro de ligne original"
 
-#. Resource IDs: (20309)
+#. Resource IDs: (25309)
 msgid ""
 "Show previous change of selected commit\n"
 "Show previous"
@@ -10000,7 +10004,8 @@ msgstr "Afficher le journal du fichier ou du répertoire sélectionné"
 msgid "Si&gn"
 msgstr "Si&gner"
 
-#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
+#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535, Dialog IDD_ABOUTBOX:
+#. Control id 65535)
 msgid "Significant contributions by: (see Git repository for a complete list)"
 msgstr "Contributions significatives de: (Voir le dépôt Git pour une liste complète)"
 
@@ -10295,6 +10300,10 @@ msgstr "Sujet"
 #. Control id 65535)
 msgid "Subject:"
 msgstr "Sujet :"
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
+msgid "Subjects"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"

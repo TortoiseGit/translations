@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2015 the TortoiseGit team
+# Copyright (C) 2008-2017 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -22,14 +22,14 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-02-09 18:34+0000\n"
-"Last-Translator: lukaszkoziara <koziara.lukasz@gmail.com>\n"
+"PO-Revision-Date: 2017-02-27 17:40+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/lznuaa/tortoisegit/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #. Resource IDs: (IDS_STATUSBAR_CONFLICTEDLINES)
 # msgid/msgstr fields for Accelerator keys
@@ -2246,6 +2246,14 @@ msgstr "Autor"
 msgid "Author Email"
 msgstr "E-mail autora"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
+msgid "Author email addresses"
+msgstr ""
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
+msgid "Author names"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
 msgstr "Autor:\t\t\t\tStefan Kueng"
@@ -2254,15 +2262,13 @@ msgstr "Autor:\t\t\t\tStefan Kueng"
 msgid "Authors"
 msgstr "Autorzy"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
+msgid "Authors (full)"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
 msgstr "Autorzy bez uwzględnienia wielkości liter"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid ""
-"Authors:\tFrank Li (lznuaa@gmail.com),\n"
-"\t\tSven Strickroth (email@cs-ware.de)"
-msgstr "Autorzy:\tFrank Li (lznuaa@gmail.com),\n\t\tSven Strickroth (email@cs-ware.de)"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto CrLf convert"
@@ -3468,10 +3474,6 @@ msgstr "Kopiuj wszystkie informacje do schowka"
 msgid "Copy and rename"
 msgstr "Kopiuj i zmień nazwę"
 
-#. Resource IDs: (IDS_LOG_POPUP_COPYTOCLIPBOARDMESSAGES)
-msgid "Copy log messages to clipboard"
-msgstr "Skopiuj wiadomości dziennika do schowka"
-
 #. Resource IDs: (IDS_BLAME_POPUP_COPYLOGTOCLIPBOARD)
 msgid "Copy log to clipboard"
 msgstr "Skopiuj log do schowka"
@@ -3511,10 +3513,6 @@ msgstr "Kopiowanie %s"
 #. Resource IDs: (IDS_PROC_COPYING)
 msgid "Copying..."
 msgstr "Kopiowanie..."
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 1001)
-msgid "Copyright (C) 2009-2016 TortoiseGit"
-msgstr "Copyright (C) 2009-2016 TortoiseGit"
 
 #. Resource IDs: (IDS_SPELLEDIT_CORRECTIONS)
 msgid "Corrections"
@@ -5465,6 +5463,14 @@ msgstr "Od:"
 msgid "Full Screen"
 msgstr "Pełny ekran"
 
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
+msgid "Full commit data without changed paths"
+msgstr ""
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
+msgid "Full data"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
 msgstr "Wyszukiwanie pełnotekstowe"
@@ -7011,7 +7017,8 @@ msgstr "Tyl&ko wiadomość"
 msgid "Message part &expression:"
 msgstr "&Wyrażenie częściowe wiadomości:"
 
-#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES)
+#. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES,
+#. IDS_LOG_POPUP_CLIPBOARD_MSGS)
 msgid "Messages"
 msgstr "Wiadomości"
 
@@ -7866,10 +7873,6 @@ msgstr "Rodzic 2"
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
 msgstr "Rodzic(e)"
-
-#. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 65535)
-msgid "Part of code come from TortoiseSVN Blame"
-msgstr "Część kodu pochodzi z TortoiseSVN Blame"
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
@@ -9867,7 +9870,7 @@ msgstr "Pokaż log..."
 msgid "Show long format even if a tag is exactly on that commit"
 msgstr ""
 
-#. Resource IDs: (20308)
+#. Resource IDs: (25308)
 msgid ""
 "Show next change of selected commit\n"
 "Show next"
@@ -9911,7 +9914,7 @@ msgstr "Pokazuje lub ukrywa pasek narzędzi\nPrzełącz pasek narzędzi"
 msgid "Show original line number"
 msgstr "Pokaż pierwotny numer linii"
 
-#. Resource IDs: (20309)
+#. Resource IDs: (25309)
 msgid ""
 "Show previous change of selected commit\n"
 "Show previous"
@@ -9991,7 +9994,8 @@ msgstr "Pokazuje log dla wybranego pliku/folderu"
 msgid "Si&gn"
 msgstr "Ozn&acz"
 
-#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
+#. Resource IDs: (Dialog IDD_ABOUT: Control id 65535, Dialog IDD_ABOUTBOX:
+#. Control id 65535)
 msgid "Significant contributions by: (see Git repository for a complete list)"
 msgstr ""
 
@@ -10286,6 +10290,10 @@ msgstr "Temat"
 #. Control id 65535)
 msgid "Subject:"
 msgstr "Temat:"
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
+msgid "Subjects"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"
