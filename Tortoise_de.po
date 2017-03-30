@@ -10,14 +10,14 @@
 # Lübbe  <luebbe.tortoisesvn@googlemail.com>, 2012
 # Lübbe Onken <l.onken@rac.de>, 2011-2012, 2013
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2012
-# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2016
+# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2017
 # Torsten Widmann <goover0976@googlemail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-02-27 17:40+0000\n"
+"PO-Revision-Date: 2017-03-30 07:09+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2243,11 +2243,11 @@ msgstr "Autor E-Mail"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
 msgid "Author email addresses"
-msgstr ""
+msgstr "Autoren-E-Mail-Adressen"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
 msgid "Author names"
-msgstr ""
+msgstr "Autorennamen"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
@@ -2259,7 +2259,7 @@ msgstr "Autoren"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
 msgid "Authors (full)"
-msgstr ""
+msgstr "Autoren (vollständig)"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
@@ -4210,6 +4210,10 @@ msgstr "Verzeichnis:"
 msgid "Disable sounds"
 msgstr "Sounds deaktivieren"
 
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1536)
+msgid "Disable status cache for elevated processes"
+msgstr "Statuscache für erhöhte Prozesse deaktivieren"
+
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
 "Disable this option if you have really big working trees and experience\n"
@@ -5460,11 +5464,11 @@ msgstr "Vollbild"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
 msgid "Full commit data without changed paths"
-msgstr ""
+msgstr "Vollständige Revisionsdaten ohne geänderte Pfade"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
 msgid "Full data"
-msgstr ""
+msgstr "Vollständige Daten"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
@@ -6550,6 +6554,10 @@ msgstr "Tasten"
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Korean"
 msgstr "Koreanisch"
+
+#. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
+msgid "LFS"
+msgstr "LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "LINE1"
@@ -10288,7 +10296,7 @@ msgstr "Betreff:"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
 msgid "Subjects"
-msgstr ""
+msgstr "Betreffe"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"
@@ -11563,6 +11571,10 @@ msgstr "Verwende 'deren' Textblock vor 'meinem'"
 msgid "Use .mailmap"
 msgstr "Benutze .mailmap"
 
+#. Resource IDs: (IDS_PROC_USELFS_TT)
+msgid "Use Git LFS"
+msgstr "Benutze Git LFS"
+
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
 msgstr "Beachte HTTP Pfadkomponente"
@@ -11782,6 +11794,10 @@ msgstr "User&name:"
 #. IDS_AUTH_USERNAME)
 msgid "Username:"
 msgstr "Benutzername:"
+
+#. Resource IDs: (IDS_SETTINGS_ONLYNONELEVATED_TT)
+msgid "Uses the status cache type 'none' for elevated processes"
+msgstr "Verwendet den Statuscachetyp 'none' für erhöhte Prozesse"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
