@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-04-17 15:04+0000\n"
+"PO-Revision-Date: 2017-04-17 19:51+0000\n"
 "Last-Translator: Ricardo Souza (RCDMK) <rcdmk@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/lznuaa/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -3654,7 +3654,7 @@ msgid ""
 "Could not start git.exe. A dynamic library (dll) is missing.\n"
 "You might need to specify an extra PATH.\n"
 "Check help file for \"Extra PATH\"."
-msgstr ""
+msgstr "Não foi possível iniciar git.exe. Uma biblioteca dinâmica (dll) está faltando.\nVocê pode precisar especificar um PATH extra.\nProcure por \"PATH Extra\" no arquivo de ajuda."
 
 #. Resource IDs: (61702)
 msgid "Could not start print job."
@@ -4219,7 +4219,7 @@ msgstr "Desabilitar sons"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1536)
 msgid "Disable status cache for elevated processes"
-msgstr ""
+msgstr "Desativar o cache de status para processos elevados"
 
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
@@ -4689,11 +4689,11 @@ msgstr "Habilitar exibição de imagens do Gravatar na Janela de Hitórico"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1842)
 msgid "Enable special hack for Cygwin git"
-msgstr ""
+msgstr "Ativar hack especial para Cygwin git"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1843)
 msgid "Enable special hack for Msys2 git"
-msgstr ""
+msgstr "Ativar hack especial para Msys2 git"
 
 #. Resource IDs: (ID_VIEW_ENABLELEXER - Menu)
 msgid "Enable syntax highlighting"
@@ -5311,7 +5311,7 @@ msgstr "Somente o Primeiro Pai"
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
-msgstr ""
+msgstr "Assistente de Primeira Execução - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1617)
 msgid "First known &bad:"
@@ -5409,7 +5409,7 @@ msgstr "Avançar %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in versionstring of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "Encontrada string de versão do git \"msysgit\" ou \"windows\", entretanto, você tem os hacks do git.exe ativos. Estes hacks devem ser desativados para funcionamento correto com o Git para Windows!\nVocê pode encontrar mais informações no arquivo de ajuda para as palavras-chave \"cygwin git\" ou \"msys2 git\"."
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
@@ -5471,11 +5471,11 @@ msgstr "Tela Cheia"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
 msgid "Full commit data without changed paths"
-msgstr ""
+msgstr "Dados da submissão completos sem caminhos alterados"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
 msgid "Full data"
-msgstr ""
+msgstr "Todos os dados"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
@@ -5673,7 +5673,7 @@ msgstr "Git reportou um erro ao criar repositório!\n"
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
 " meta data for your commits (not for authentication)."
-msgstr ""
+msgstr "Git requer que você configure um nome de usuário e e-mail. Os dois são usados como meta dados para suas submissões (não para autenticação)."
 
 #. Resource IDs: (32787)
 msgid "Git revision list contains the complete file history"
@@ -5794,7 +5794,7 @@ msgstr "HEAD:"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "HTTP (URLs start with \"http://\" or \"https://\")"
-msgstr ""
+msgstr "HTTP (URLs iniciam com \"http://\" ou \"https://\")"
 
 #. Resource IDs: (IDS_RESET_HARD)
 msgid "Hard"
@@ -5887,7 +5887,7 @@ msgstr "Dica"
 msgid ""
 "Hint: Recently used commit messages are available using the context menu of "
 "the text field."
-msgstr ""
+msgstr "Dica: Mensagens de submissão recentemente utilizadas estão disponíveis usando o menu de contexto do campo de texto."
 
 #. Resource IDs: (16519)
 msgid ""
@@ -5921,7 +5921,7 @@ msgstr "Tipo de Gancho:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
-msgstr ""
+msgstr "Eu não uso o Git para Windows e preciso de ajustes especiais"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "I&nclude paths:"
@@ -6253,7 +6253,7 @@ msgid ""
 "If you want to use a translated version of TortoiseGit and your language is "
 "missing, <a id=\"download\">download</a> and install a matching language "
 "pack now and hit \"Refresh\" before continuing."
-msgstr ""
+msgstr "Se você quer usar a versão traduzida do TortoiseGit e seu idioma está faltando, <a id=\"download\">baixe</a> e instale um pacote de idiomas compatível agora e clique em \"Atualizar\" antes de continuar."
 
 #. Resource IDs: (IDS_EXTRAPATH_TT)
 #, c-format
@@ -6261,7 +6261,7 @@ msgid ""
 "If your git installation needs an extra entry in the PATH environment "
 "variable, you can enter it here and it will get appended to %PATH% "
 "automatically when TortoiseGit starts."
-msgstr ""
+msgstr "Se sua instalação do git precisa de entradas extra na variável de ambiente PATH, você pode entrá-la aqui e ela será adicionada à %PATH% automaticamente quando o TortoiseGit iniciar."
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 4577)
 msgid "Ignore"
@@ -6426,7 +6426,7 @@ msgstr "Para cancelar o processo de mesclagem, uma restauração (para o HEAD) �
 msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
-msgstr ""
+msgstr "Na caixa de seleção seguinte você pode encontrar todas os pacotes de idiomas instalados que podem ser usados nesta versão do TortoiseGit."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -6564,7 +6564,7 @@ msgstr "Coreano"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
-msgstr ""
+msgstr "LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "LINE1"
@@ -7360,7 +7360,7 @@ msgid ""
 "No git.exe found.\n"
 "\n"
 "TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
-msgstr ""
+msgstr "Nenhum git.exe encontrado.\n\nTortoiseGit precisa de um git.exe para suas operações (como as fornecidas pelo pacote Git para Windows)."
 
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
@@ -7688,7 +7688,7 @@ msgstr "Apenas Arquivos Combinados"
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1677,
 #. ID_VIEW_ONLYCONSIDERFIRSTPARENTS - Menu)
 msgid "Only consider first parents on blame"
-msgstr ""
+msgstr "Considerar apenas primeiros pais ao culpar"
 
 #. Resource IDs: (IDS_git_DEPTH_FILES)
 msgid "Only file children"
@@ -8053,7 +8053,7 @@ msgid ""
 "Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
 "dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
 " search and oftentimes there are powerfull context menus."
-msgstr ""
+msgstr "Por favor, veja o <a id=\"manual\">manual</a> para dicas gerais. Ex.: na maioria dos diálogos existe alguns atalhos compartilhados, como F5 para atualizar ou CTRL+F para procurar e, algumas vezes, há menus de contexto poderosos."
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -8435,7 +8435,7 @@ msgstr "Re&verter..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1684)
 msgid "Re-run &First Start Wizard"
-msgstr ""
+msgstr "Re-executar Assistente de &Primeira Execução"
 
 #. Resource IDs: (IDS_FETCH_REACHABLE)
 msgid "Reachable"
@@ -9134,7 +9134,7 @@ msgstr "SSH"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "SSH (URLs look like \"git@example.com\")"
-msgstr ""
+msgstr "SSH (URLs se parecem com \"git@example.com\")"
 
 #. Resource IDs: (IDS_ENCRYPT_SSL)
 msgid "SSL/TLS"
@@ -10303,7 +10303,7 @@ msgstr "Assunto:"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
 msgid "Subjects"
-msgstr ""
+msgstr "Assuntos"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"
@@ -10590,7 +10590,7 @@ msgid ""
 "When you merge changes, conflicts can arise that must be solved manually (i.e., you need to integrate your changes into a file which was also modified on another branch).\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "A submissão que você está compondo é uma submissão especial. É uma submissão de mesclagem e, por isso, contém suas mudanças assim como as mudanças de um ramo mesclado.\n\nVocê NÃO deve desmarcar arquivos a menos que saiba o que está fazendo.\n\nQuando você mescla mudanças, conflitos pode aparecer e precisam ser resolvidos manualmente (ex.: você precisa integrar suas mudanças em um arquivo que foi modificado em outro ramo).\n\nVeja a ajuda para mais informações."
 
 #. Resource IDs: (IDS_GITCREDENTIAL_OVERWRITEHELPER)
 #, c-format
@@ -10964,7 +10964,7 @@ msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
 "default."
-msgstr ""
+msgstr "Estas configurações serão gravadas na sua configuração global do git (%HOME%/.gitconfig) e será usado para todos os seus repositórios git por padrão."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
@@ -10998,7 +10998,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "Este é o Assistente de Primeira Execução que irá ajudá-lo a definir as configurações básicas. TortoiseGit é altamente configurável, então é recomendável que você dê uma olhada na tela de configurações. Esta tela de configurações é acessível pelo menu iniciar ou pelo menu de contexto do Windows Explorer: TortoiseGit -> Configurações."
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -11140,7 +11140,7 @@ msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
 msgid "TortoiseGit can be localized using language packs."
-msgstr ""
+msgstr "TortoiseGit pode ser localizado usando pacotes de idiomas."
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -11172,14 +11172,14 @@ msgid ""
 "TortoiseGit is designed as a Shell Extension. Therefore the main interaction"
 " with TortoiseGit will be using the context menu of the Windows shell such "
 "as the Windows Explorer."
-msgstr ""
+msgstr "TortoiseGit é projetado como uma Extensão do Shell. Portanto a interação principal com o TortoiseGit será usando o menu de contexto do Windows, tais como no Windows Explorer."
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
 "automatically detect a working git.exe, but if that doesn't work or you want"
 " to use a different one please specify the path manually!"
-msgstr ""
+msgstr "TortoiseGit requer um git.exe para suas operações. TortoiseGit tenta detectar automaticamente um git.exe que funcione, mas se não funcionar para você ou você quiser utilizar uma diferente, por favor, especifique um caminho manualmente!"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11274,7 +11274,7 @@ msgid ""
 "agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr ""
+msgstr "TortoiseGitPlink é recomendado como um cliente SSH. Se você ainda não tem um par de chaves, você deveria gerar um. Mantenha a chave privada em um local seguro e configure a púclica na sua plataforma de hospedagem. Use o agente de autenticação PuTTY para armezenar a senha (feiro automaticamente se a chave do PuTTY estiver configurada para um remoto). Para dicas e truques avançados, veja nosso <a id=\"manual\">manual</a> e <a id=\"sshfaq\">FAQ</a>."
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -11580,7 +11580,7 @@ msgstr "Usar .mailmap"
 
 #. Resource IDs: (IDS_PROC_USELFS_TT)
 msgid "Use Git LFS"
-msgstr ""
+msgstr "Usar Git LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
@@ -11804,7 +11804,7 @@ msgstr "Usuário:"
 
 #. Resource IDs: (IDS_SETTINGS_ONLYNONELEVATED_TT)
 msgid "Uses the status cache type 'none' for elevated processes"
-msgstr ""
+msgstr "Usa o tipo de cache de status 'nenhum' para processos elevados"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -11956,7 +11956,7 @@ msgid ""
 "We hope you enjoy the usage of TortoiseGit! In case of questions or "
 "problems, please consult our manual or go to <a "
 "id=\"support\">https://tortoisegit.org/support/</a>"
-msgstr ""
+msgstr "Esperamos que aproveite o uso do TortoiseGit! Em caso de dúvidas ou problemas, por favor, consulte nosso manual ou vá para <a id=\"support\">https://tortoisegit.org/support/</a>"
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
@@ -12170,7 +12170,7 @@ msgid ""
 "You have an old unsupported version of Git installed.\n"
 "\n"
 "You should consider an upgrade to %s."
-msgstr ""
+msgstr "Você tem uma versão antiga e não suportada do Git instalada.\n\nVocê deveria considerar um upgrade para %s."
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""
