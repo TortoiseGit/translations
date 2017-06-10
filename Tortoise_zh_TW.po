@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-05-17 02:30+0000\n"
-"Last-Translator: 何岳林 <yuelinho777@gmail.com>\n"
+"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9657,7 +9657,8 @@ msgstr "顯示快捷鍵(&A)："
 msgid "Show &Reflog"
 msgstr "顯示參照日誌(&R)"
 
-#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1073)
+#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1073,
+#. IDS_PROC_LOG_SHOWUNVERSIONED)
 msgid "Show &Unversioned Files"
 msgstr "顯示未版本控制的檔案(&U)"
 
@@ -10503,6 +10504,10 @@ msgstr "標籤 (快進)"
 #. Resource IDs: (IDS_PROC_LOG_TAGINFO)
 msgid "Tag Info"
 msgstr "標籤資訊"
+
+#. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_TAGBRANCHES)
+msgid "Tag/branch names"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_COPY_SUCCESS)
 #, c-format
