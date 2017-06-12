@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-12 09:48+0000\n"
+"PO-Revision-Date: 2017-06-12 10:23+0000\n"
 "Last-Translator: Mathieu Lavigne <bludwarf@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -521,7 +521,7 @@ msgstr "&Nettoyer"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1686)
 msgid "&Clear stash"
-msgstr "&Vider la réserve"
+msgstr "&Vider la remise"
 
 #. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1)
 msgid "&Close"
@@ -1202,11 +1202,11 @@ msgstr "À &distance :"
 #. Control id 1100, Dialog IDD_SETTINREMOTE: Control id 1385,
 #. IDS_REMOVEBUTTON)
 msgid "&Remove"
-msgstr "&Effacer"
+msgstr "&Supprimer"
 
 #. Resource IDs: (IDS_REMOVE_FROM_INDEX)
 msgid "&Remove this file from index"
-msgstr "&Enlever ce fichier de l'index"
+msgstr "&Retirer ce fichier de l'index"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1511)
 msgid "&Replace"
@@ -1344,7 +1344,7 @@ msgstr "Groupe de &Départ"
 
 #. Resource IDs: (IDS_STASHBUTTON)
 msgid "&Stash"
-msgstr "&Sauvegarde"
+msgstr "&Remiser"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Menu)
 msgid "&Status Bar"
@@ -1512,7 +1512,7 @@ msgstr "&ignorer les changements d'espaces"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "&known changes"
-msgstr "C&hangements connus"
+msgstr "&Modifications connues"
 
 #. Resource IDs: (IDS_TORTOISEGITDEFAULT)
 msgid "(TortoiseGit default)"
@@ -1525,7 +1525,7 @@ msgstr "(de %s)"
 
 #. Resource IDs: (IDS_STATUSLIST_UNASSIGNED_CHANGESET)
 msgid "(no changelist)"
-msgstr "(pas de liste de changements)"
+msgstr "(pas de liste de modifications)"
 
 #. Resource IDs: (IDS_EMPTYLINETT)
 msgid "(no line number)"
@@ -3295,7 +3295,7 @@ msgstr "comparer les révisions &HEAD"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
 msgid "Compare change sets"
-msgstr ""
+msgstr "Comparer les modifications"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -4324,7 +4324,7 @@ msgstr "Ne pas utiliser la corbeille"
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "Do you really want to delete ALL %d stash?"
-msgstr ""
+msgstr "Voulez-vous réellement supprimer les %d élément(s) rémisé(s)"
 
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
@@ -4444,7 +4444,7 @@ msgstr "Voulez-vous voir les modifications?"
 
 #. Resource IDs: (IDS_DCOMMIT_STASH_POP)
 msgid "Do you want to stash pop now?"
-msgstr "Voulez-vous ouvrir la sauvegarde?"
+msgstr "Voulez-vous sortir la remise ?"
 
 #. Resource IDs: (65535)
 msgid "Document :"
@@ -8737,7 +8737,7 @@ msgstr "Supprimé"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTCLEAR)
 msgid "Removed from changelist"
-msgstr "Retiré de la liste des changements"
+msgstr "Retiré de la liste des modifications"
 
 #. Resource IDs: (IDS_PROC_UNIGNORESUCCESS)
 #, c-format
@@ -10174,35 +10174,35 @@ msgstr "Réserve"
 
 #. Resource IDs: (IDS_MENUSTASHAPPLY)
 msgid "Stash Apply"
-msgstr "Appliquer la réserve"
+msgstr "Appliquer la remise"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "Stash Apply failed!"
-msgstr "Restauration de la réserve échouée"
+msgstr "Application de la remise échouée"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILEDCONFLICTS)
 msgid "Stash Apply failed, there are conflicts"
-msgstr "Restauration de la réserve échouée, conflits rencontrés"
+msgstr "Application de la remise échouée, conflits rencontrés"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYSUCCESS)
 msgid "Stash Apply successful"
-msgstr "Restauration de la réserve réussie"
+msgstr "Application de la remise réussie"
 
 #. Resource IDs: (IDS_MENUSTASHLIST)
 msgid "Stash List"
-msgstr "Liste de la réserve"
+msgstr "Liste de la remise"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILED)
 msgid "Stash POP failed!"
-msgstr "Mise en réserve échouée !"
+msgstr "Sortie de remise échouée !"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILEDCONFLICTS)
 msgid "Stash POP failed, there are conflicts"
-msgstr "Mise en réserve échouée, conflits rencontrés"
+msgstr "Sortie de remise échouée, conflits rencontrés"
 
 #. Resource IDs: (IDS_PROC_STASHPOPSUCCESS)
 msgid "Stash POP successful"
-msgstr "Mise en réserve réussie"
+msgstr "Sortie de remise réussie"
 
 #. Resource IDs: (IDS_MENUSTASHPOP)
 msgid "Stash Pop"
@@ -10210,19 +10210,19 @@ msgstr "Sortir de la remise"
 
 #. Resource IDs: (IDS_MENUSTASHSAVE)
 msgid "Stash Save"
-msgstr "Enregistrer la réserve"
+msgstr "Remiser"
 
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
-msgstr "Réservation réussie"
+msgstr "Remisage réussi"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
-msgstr "Réservation échouée !"
+msgstr "Remisage échoué !"
 
 #. Resource IDs: (IDS_PROC_STASHRUNNING)
 msgid "Stash operation running..."
-msgstr "Opération de sauvegarde en cours..."
+msgstr "Opération sur la remise en cours..."
 
 #. Resource IDs: (IDS_STATE)
 msgid "State"
@@ -10624,7 +10624,7 @@ msgstr "Le \"credential helper\" a changé.\nVoulez-vous sauvegarder maintenant 
 msgid ""
 "The current working tree is not clean.\n"
 "Do you want to stash the changes?"
-msgstr "L'arborescence de travail n'est pas nette.\nVoulez-vous sauver les changements?"
+msgstr "L'arborescence de travail contient des modifications.\nVoulez-vous les remiser ?"
 
 #. Resource IDs: (IDS_DEFAULT_SCALE_TT)
 msgid ""
@@ -11164,7 +11164,7 @@ msgid ""
 "The commit dialog cannot handle this.\n"
 "\n"
 "Do you want to restore or remove it from the index?"
-msgstr "TortoiseGit a détecté que le fichier \"%s\" n'existe pas, mais est marqué comme \"Ajouté\" ou \"Modifié\".\nLa fenêtre de livraison ne peut gérer cela.\n\nVoulez-vous le restaurer ou l'enlever de l'index?"
+msgstr "TortoiseGit a détecté que le fichier \"%s\" n'existe pas, mais est marqué comme \"Ajouté\" ou \"Modifié\".\nLa fenêtre de livraison ne peut gérer cela.\n\nVoulez-vous le restaurer ou le retirer de l'index?"
 
 #. Resource IDs: (IDS_PROC_MULTIRENAME)
 #, c-format
