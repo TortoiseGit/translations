@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"PO-Revision-Date: 2017-06-19 20:44+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -206,6 +206,18 @@ msgstr "%I64d バイトを転送しました"
 msgid "%I64d KiB transferred"
 msgstr "%I64d KiB 転送しました"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [復元済]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -259,11 +271,6 @@ msgstr "%ld / %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - リビジョン: %d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [復元済]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -293,13 +300,6 @@ msgstr "%s のエクスポート(%d個) %s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s のエクスポート %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\n%s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1972,14 +1972,15 @@ msgstr "すべての変更が失われます。本当にキーボードの割り
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "すべての変更が失われます。本当にメニュー「%s」をリセットしてもよろしいですか？"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "すべての変更が失われます。本当にメニュー「%Ts」をリセットしてもよろしいですか？"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "すべての変更が失われます。本当にツールバー「%s」をリセットしてもよろしいですか？"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "すべての変更が失われます。本当にツールバー「%Ts」をリセットしてもよろしいですか？"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4320,8 +4321,8 @@ msgstr ""
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "本当にこのツールバー「%s」を削除してもよろしいですか？"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "本当にこのツールバー「%Ts」を削除してもよろしいですか？"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4889,8 +4890,8 @@ msgstr "終了"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "展開（%s）"
+msgid "Expand (%Ts)"
+msgstr "展開（%Ts）"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8331,10 +8332,6 @@ msgstr "ノートをプッシュ"
 msgid "Push ta&gs"
 msgstr "タグをプッシュ(&G)"
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr "プッシュ..."
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr "Putty 認証キー:"
@@ -11018,14 +11015,15 @@ msgstr "コミットのマージを保ちます。しかし、これには、並
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "このプログラムは不明な %s （ファイル %s）へリンクされています。 この計算機は %s とは互換性のないバージョンの可能性があります。"
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr "このプログラムは不明な %Ts （ファイル %Ts）へリンクされています。 この計算機は %Ts とは互換性のないバージョンの可能性があります。"
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "このプログラムはファイル %s を必要としますが、このシステム上で見つけることができませんでした。"
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "このプログラムはファイル %Ts を必要としますが、このシステム上で見つけることができませんでした。"
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."

@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"PO-Revision-Date: 2017-06-19 20:44+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/lznuaa/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -201,6 +201,18 @@ msgstr "Přeneseno %I64d Bajtů"
 msgid "%I64d KiB transferred"
 msgstr "Přeneseno %I64d KiB"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [Obnoveno]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -254,11 +266,6 @@ msgstr "%ld z %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - v revizi: %d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [Obnoveno]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -288,13 +295,6 @@ msgstr "%s\\Export (%d) z %s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s\\Export z %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\n%s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1967,14 +1967,15 @@ msgstr "Všechny vše změny budou ztraceny! Opravdu chcete resetovat přiřazen
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "Všechny vaše změny budou ztraceny! Opravdu chcete resetovat nabídku '%s'?"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "Všechny vaše změny budou ztraceny! Opravdu chcete resetovat nabídku '%Ts'?"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "Všechny vaše změny budou ztraceny! Opravdu chcete resetovat panel nástrojů '%s'?"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "Všechny vaše změny budou ztraceny! Opravdu chcete resetovat panel nástrojů '%Ts'?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4315,8 +4316,8 @@ msgstr "Opravdu chcete smazat \"%s\"?"
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "Opravdu chcete smazat panel nástrojů '%s'?"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "Opravdu chcete smazat panel nástrojů '%Ts'?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4884,8 +4885,8 @@ msgstr "Ukončit"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "Rozšířit (%s)"
+msgid "Expand (%Ts)"
+msgstr "Rozšířit (%Ts)"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8326,10 +8327,6 @@ msgstr "Poznámky odeslání"
 msgid "Push ta&gs"
 msgstr "Odeslat &značky"
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr "Odeslat..."
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr "Klíč Putty:"
@@ -11013,14 +11010,15 @@ msgstr "Toto zachová odevzdání sloučení, ale proces má chyby, jako nesprá
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "Tento program je propojen na chybějící export %s v souboru %s. Tento stroj může mít nekompatibilní verzi %s."
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr "Tento program je propojen na chybějící export %Ts v souboru %Ts. Tento stroj může mít nekompatibilní verzi %Ts."
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "Tento program vyžaduje soubor %s, který v tomto systému nebyl nalezen."
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "Tento program vyžaduje soubor %Ts, který v tomto systému nebyl nalezen."
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."

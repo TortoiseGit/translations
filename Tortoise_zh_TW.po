@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"PO-Revision-Date: 2017-06-19 20:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -205,6 +205,18 @@ msgstr "傳輸了 %I64d 位元組"
 msgid "%I64d KiB transferred"
 msgstr "傳輸了 %I64d KiB"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [已復原]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -258,11 +270,6 @@ msgstr "%ld / %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - 於版本：%d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [已復原]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -292,13 +299,6 @@ msgstr "%s\\匯出 (%d) 筆%s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s\\匯出 %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\n%s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1971,14 +1971,15 @@ msgstr "全部的變更都會消失！確定要重設鍵盤配置嗎？"
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "全部的變更都會消失！確定要重設選單「%s」嗎？"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "全部的變更都會消失！確定要重設選單「%Ts」嗎？"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "全部的變更都會消失！確定要重設工具列「%s」嗎？"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "全部的變更都會消失！確定要重設工具列「%Ts」嗎？"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4319,8 +4320,8 @@ msgstr "確定要刪除「%s」？"
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "確定要刪除工具列 '%s' 嗎？"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "確定要刪除工具列 '%Ts' 嗎？"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4888,8 +4889,8 @@ msgstr "離開"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "展開 (%s)"
+msgid "Expand (%Ts)"
+msgstr "展開 (%Ts)"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8330,10 +8331,6 @@ msgstr "推送備註"
 msgid "Push ta&gs"
 msgstr "推送標籤(&G)"
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr "推送..."
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr "PuTTY 金鑰："
@@ -11017,14 +11014,15 @@ msgstr "這會保留合併點的提交。然而，它在調整提交的順序上
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "找不到本程式連結的 %s (包含於 %s). 可能安裝了不相容版本的 %s."
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr "找不到本程式連結的 %s (包含於 %s). 可能安裝了不相容版本的 %Ts."
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "系統中找不到本程式需要的 %s."
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "系統中找不到本程式需要的 %Ts."
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."

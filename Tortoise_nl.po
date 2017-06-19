@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"PO-Revision-Date: 2017-06-19 20:39+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -209,6 +209,18 @@ msgstr "%I64d Bytes verstuurd"
 msgid "%I64d KiB transferred"
 msgstr "%I64d KiB verstuurd"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [Herstelt]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -262,11 +274,6 @@ msgstr "%ld van %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - huidige revisie: %d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [Herstelt]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -296,13 +303,6 @@ msgstr "%s\\Export (%d) van %s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s\\Export van %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\n%s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1975,14 +1975,15 @@ msgstr "Al uw wijzigingen gaan verloren! Wilt u echt alle toetscombinaties herst
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "Al uw wijzigingen gaan verloren! Wilt u echt menu '%s' herstellen?"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "Al uw wijzigingen gaan verloren! Wilt u echt menu '%Ts' herstellen?"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "Al uw wijzigingen gaan verloren! Wilt u echt werkbalk '%s' herstellen?"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "Al uw wijzigingen gaan verloren! Wilt u echt werkbalk '%Ts' herstellen?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4323,8 +4324,8 @@ msgstr "Bent u zeker dat u \"%s\" wilt verwijderen?"
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "Wilt u de werkbalk '%s' echt verwijderen?"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "Wilt u de werkbalk '%Ts' echt verwijderen?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4892,8 +4893,8 @@ msgstr "Afsluiten"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "Uitklappen (%s)"
+msgid "Expand (%Ts)"
+msgstr "Uitklappen (%Ts)"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8334,10 +8335,6 @@ msgstr "Push notities"
 msgid "Push ta&gs"
 msgstr "Push la&bels"
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr "Pushen..."
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr "Putty Sleutel:"
@@ -11021,14 +11018,15 @@ msgstr ""
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "Dit programma is gekoppeld aan de ontbrekende %s in bestand %s. Deze computer heeft mogelijk een incompatibele versie van %s."
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr "Dit programma is gekoppeld aan de ontbrekende %Ts in bestand %Ts. Deze computer heeft mogelijk een incompatibele versie van %Ts."
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "Voor dit programma is het bestand %s vereist, maar dat ontbreekt op deze computer."
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "Voor dit programma is het bestand %Ts vereist, maar dat ontbreekt op deze computer."
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."

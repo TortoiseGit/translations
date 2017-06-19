@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"PO-Revision-Date: 2017-06-19 20:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/lznuaa/tortoisegit/language/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -200,6 +200,18 @@ msgstr "%I64d байта прехвърлени"
 msgid "%I64d KiB transferred"
 msgstr "%I64d KiB трансферирани"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [Възстановени]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -253,11 +265,6 @@ msgstr "%ld от %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - редакция: %d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [Възстановени]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -287,13 +294,6 @@ msgstr "%s\\Експортиране (%d) от %s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s\\Експортиране от %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\n%s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1966,14 +1966,15 @@ msgstr "Ще загубите всичките си промени! Наисти
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "Ще загубите всичките си промени! Наистина ли желаете да нулирате менюто '%s'?"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "Ще загубите всичките си промени! Наистина ли желаете да нулирате менюто '%Ts'?"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "Ще загубите всичките си промени! Наистина ли желаете да нулирате лентата с инструменти '%s'?"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "Ще загубите всичките си промени! Наистина ли желаете да нулирате лентата с инструменти '%Ts'?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4314,8 +4315,8 @@ msgstr ""
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "Наистина ли желаете да изтриете лентата с инструменти '%s'?"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "Наистина ли желаете да изтриете лентата с инструменти '%Ts'?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4883,8 +4884,8 @@ msgstr "Изход"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "Разширяване (%s)"
+msgid "Expand (%Ts)"
+msgstr "Разширяване (%Ts)"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8325,10 +8326,6 @@ msgstr ""
 msgid "Push ta&gs"
 msgstr ""
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr ""
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr ""
@@ -11012,14 +11009,15 @@ msgstr ""
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "Тази програма е свързана с липсващ износ %s във файла %s. Тази система вероятно има несъвместима версия на %s."
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr "Тази програма е свързана с липсващ износ %Ts във файла %Ts. Тази система вероятно има несъвместима версия на %Ts."
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "Програмата изисква файлът %s, който не е открит в тази система."
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "Програмата изисква файлът %Ts, който не е открит в тази система."
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."

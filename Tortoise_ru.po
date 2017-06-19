@@ -19,6 +19,7 @@
 # KOLANICH, 2013
 # KOLANICH, 2013
 # KorneySan <korneysan@tut.by>, 2017
+# KorneySan <korneysan@tut.by>, 2017
 # Lübbe Onken <l.onken@rac.de>, 2011
 # Alexander Shchekaturov <shcham@gmail.com>, 2013
 # Stanislav Kroter <krotersv@gmail.com>, 2016
@@ -35,8 +36,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-10 07:13+0000\n"
-"Last-Translator: KorneySan <korneysan@tut.by>\n"
+"PO-Revision-Date: 2017-06-19 20:39+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -220,6 +221,18 @@ msgstr "%I64d Байт передано"
 msgid "%I64d KiB transferred"
 msgstr "%I64d КиБ передано"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [Восстановлено]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -273,11 +286,6 @@ msgstr "%ld из %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - до ревизии: %d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [Восстановлено]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -307,13 +315,6 @@ msgstr "%s\\Экспорт (%d) %s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s\\Экспорт %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\n%s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1986,14 +1987,15 @@ msgstr "Все ваши изменения будут потеряны! Вы д�
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "Все ваши изменения будут потеряны! Вы действительно желаете выполнить сброс меню '%s'?"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "Все ваши изменения будут потеряны! Вы действительно желаете выполнить сброс меню '%Ts'?"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "Все ваши изменения будут потеряны! Вы действительно желаете выполнить сброс панели инструментов '%s'?"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "Все ваши изменения будут потеряны! Вы действительно желаете выполнить сброс панели инструментов '%Ts'?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4334,8 +4336,8 @@ msgstr "Вы действительно хотите удалить \"%s\"?"
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "Вы действительно желаете удалить панель инструментов '%s'?"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "Вы действительно желаете удалить панель инструментов '%Ts'?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4903,8 +4905,8 @@ msgstr "Выход"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "Раскрыть (%s)"
+msgid "Expand (%Ts)"
+msgstr "Раскрыть (%Ts)"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8345,10 +8347,6 @@ msgstr "Отправить заметки"
 msgid "Push ta&gs"
 msgstr "Отправить мет&ки"
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr "Отправить..."
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr "Ключ PuTTy"
@@ -11032,14 +11030,15 @@ msgstr "Это сохраняет фиксации слияния, однако,
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "Эта программа связана с отсутствующим экспортом %s в файле %s. Возможно, эта машина имеет несовместимую версию %s."
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr "Эта программа связана с отсутствующим экспортом %Ts в файле %Ts. Возможно, эта машина имеет несовместимую версию %Ts."
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "Эта программа требует файл %s, не найденный в этой системе."
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "Эта программа требует файл %Ts, не найденный в этой системе."
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."

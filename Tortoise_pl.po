@@ -24,14 +24,14 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"PO-Revision-Date: 2017-06-19 20:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/lznuaa/tortoisegit/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #. Resource IDs: (IDS_STATUSBAR_CONFLICTEDLINES)
 # msgid/msgstr fields for Accelerator keys
@@ -209,6 +209,18 @@ msgstr "%I64d Bajtów przesłanych"
 msgid "%I64d KiB transferred"
 msgstr "%I64d KiB przesłanych"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [Odzyskano]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -262,11 +274,6 @@ msgstr "%ld z %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - w wersji: %d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [Odzyskano]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -296,13 +303,6 @@ msgstr "%s\\Eksport (%d) %s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s\\Eksport %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\\n %s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1975,14 +1975,15 @@ msgstr "Wszystkie twoje zmiany zostaną utracone! Na pewno chcesz przywrócić p
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "Wszystkie twoje zmiany zostaną utracone! Na pewno chcesz przywrócić menu '%s'?"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "Wszystkie twoje zmiany zostaną utracone! Na pewno chcesz przywrócić menu '%Ts'?"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "Wszystkie twoje zmiany zostaną utracone! Na pewno chcesz przywrócić pasek narzędzi '%s'?"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "Wszystkie twoje zmiany zostaną utracone! Na pewno chcesz przywrócić pasek narzędzi '%Ts'?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4323,8 +4324,8 @@ msgstr "Czy na pewno chcesz wykasować \"%s\"?"
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "Czy na pewno chcesz usunąć pasek narzędzi '%s'?"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "Czy na pewno chcesz usunąć pasek narzędzi '%Ts'?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4892,8 +4893,8 @@ msgstr "Wyjdź"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "Rozwiń (%s)"
+msgid "Expand (%Ts)"
+msgstr "Rozwiń (%Ts)"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8334,10 +8335,6 @@ msgstr ""
 msgid "Push ta&gs"
 msgstr ""
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr ""
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr "Klucz Putty:"
@@ -11021,14 +11018,15 @@ msgstr ""
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "Program jest połączony z brakującym eksportem %s w pliku %s. Ten komputer może mieć niekompatybilną wersję %s."
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr "Program jest połączony z brakującym eksportem %Ts w pliku %Ts. Ten komputer może mieć niekompatybilną wersję %Ts."
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "Ten program wymaga pliku %s, który nie został znaleziony w systemie."
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "Ten program wymaga pliku %Ts, który nie został znaleziony w systemie."
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."

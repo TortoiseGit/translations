@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"PO-Revision-Date: 2017-06-19 20:45+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/lznuaa/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -210,6 +210,18 @@ msgstr "%I64d Байт переслано"
 msgid "%I64d KiB transferred"
 msgstr "%I64d КіБ переслано"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [Відновлено]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -263,11 +275,6 @@ msgstr "%ld з %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - на ревізії: %d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [Відновлено]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -297,13 +304,6 @@ msgstr "%s\\Експортовано (%d) з %s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s\\Експортовано з %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\n%s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1976,14 +1976,15 @@ msgstr "Усі зміни буде втрачено! Дійсно переіні
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "Усі зміни буде втрачено! Дійсно переініціалізувати меню '%s'?"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "Усі зміни буде втрачено! Дійсно переініціалізувати меню '%Ts'?"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "Усі зміни буде втрачено! Дійсно переініціалізувати рядок знарядь '%s'?"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "Усі зміни буде втрачено! Дійсно переініціалізувати рядок знарядь '%Ts'?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4324,8 +4325,8 @@ msgstr "Ви дійсно хочете видалити \"%s\"?"
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "Дійсно знищити стрічку знаряддь '%s'?"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "Дійсно знищити стрічку знаряддь '%Ts'?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4893,8 +4894,8 @@ msgstr "Вийти"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "Розгорнути (%s)"
+msgid "Expand (%Ts)"
+msgstr "Розгорнути (%Ts)"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8335,10 +8336,6 @@ msgstr ""
 msgid "Push ta&gs"
 msgstr ""
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr ""
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr "Ключ Putty"
@@ -11022,14 +11019,15 @@ msgstr ""
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "Ця програма пов'язана з відсутнім експортом %s у файлі %s. Ця машина може мати несумісну версію %s."
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr "Ця програма пов'язана з відсутнім експортом %Ts у файлі %Ts. Ця машина може мати несумісну версію %Ts."
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "Цій програмі потрібен файл %s, який у системі відсутній."
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "Цій програмі потрібен файл %Ts, який у системі відсутній."
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."

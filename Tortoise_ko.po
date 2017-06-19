@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"PO-Revision-Date: 2017-06-19 20:36+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -211,6 +211,18 @@ msgstr "%I64d바이트 전송함"
 msgid "%I64d KiB transferred"
 msgstr "%I64d Bytes 전송됨"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [충돌해결됨]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -264,11 +276,6 @@ msgstr "%ld / %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - 수정: %d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [충돌해결됨]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -298,13 +305,6 @@ msgstr "%s\\Export (%d) of %s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s\\Export of %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\n%s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1977,14 +1977,15 @@ msgstr "모든 변경사항을 잃을 것입니다! 정말로 키보드 할당�
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "모든 변경사항을 잃을 것입니다! 정말로 메뉴 '%s'를 리셋하시겠습니까?"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "모든 변경사항을 잃을 것입니다! 정말로 메뉴 '%Ts'를 리셋하시겠습니까?"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "모든 변경사항을 잃을 것입니다! 정말로 툴바 '%s'를 리셋하시겠습니까?"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "모든 변경사항을 잃을 것입니다! 정말로 툴바 '%Ts'를 리셋하시겠습니까?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4325,8 +4326,8 @@ msgstr ""
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "'%s' 툴바를 정말로 삭제하시겠습니까?"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "'%Ts' 툴바를 정말로 삭제하시겠습니까?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4894,8 +4895,8 @@ msgstr "종료"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "확장하기 (%s)"
+msgid "Expand (%Ts)"
+msgstr "확장하기 (%Ts)"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8336,10 +8337,6 @@ msgstr "Push notes"
 msgid "Push ta&gs"
 msgstr "꼬리표 푸시(&G)"
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr "푸시..."
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr "Putty 키:"
@@ -11023,14 +11020,15 @@ msgstr ""
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "This program is linked to the missing export %s in the file %s. This machine may have an incompatible version of %s."
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr ""
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "프로그램을 실행하는 데 필요한 파일을 못 찾았습니다: %s"
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "프로그램을 실행하는 데 필요한 파일을 못 찾았습니다: %Ts"
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-06-09 22:51+0000\n"
+"PO-Revision-Date: 2017-06-19 19:25+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/lznuaa/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -194,6 +194,18 @@ msgstr "%I64d Bytes transferred"
 msgid "%I64d KiB transferred"
 msgstr "%I64d KiB transferred"
 
+#. Resource IDs: (62186)
+#, c-format
+msgid "%Ts [Recovered]"
+msgstr "%Ts [Recovered]"
+
+#. Resource IDs: (61585, 61586)
+#, c-format
+msgid ""
+"%Ts\n"
+"%Ts"
+msgstr "%Ts\n%Ts"
+
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%d commits ahead \"%s\""
@@ -247,11 +259,6 @@ msgstr "%ld of %ld"
 msgid "%s - at revision: %d"
 msgstr "%s - at revision: %d"
 
-#. Resource IDs: (62186)
-#, c-format
-msgid "%s [Recovered]"
-msgstr "%s [Recovered]"
-
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%s in %s"
@@ -281,13 +288,6 @@ msgstr "%s\\Export (%d) of %s"
 #, c-format
 msgid "%s\\Export of %s"
 msgstr "%s\\Export of %s"
-
-#. Resource IDs: (61585, 61586)
-#, c-format
-msgid ""
-"%s\n"
-"%s"
-msgstr "%s\n%s"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -1960,14 +1960,15 @@ msgstr "All your changes will be lost! Do you really want to reset the keyboard 
 #. Resource IDs: (16113)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%s'?"
-msgstr "All your changes will be lost! Do you really want to reset the menu '%s'?"
+"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
+msgstr "All your changes will be lost! Do you really want to reset the menu '%Ts'?"
 
 #. Resource IDs: (16111)
 #, c-format
 msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar '%s'?"
-msgstr "All your changes will be lost! Do you really want to reset the toolbar '%s'?"
+"All your changes will be lost! Do you really want to reset the toolbar "
+"'%Ts'?"
+msgstr "All your changes will be lost! Do you really want to reset the toolbar '%Ts'?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -4308,8 +4309,8 @@ msgstr "Do you really want to delete \"%s\"?"
 
 #. Resource IDs: (16109)
 #, c-format
-msgid "Do you really want to delete the toolbar '%s'?"
-msgstr "Do you really want to delete the toolbar '%s'?"
+msgid "Do you really want to delete the toolbar '%Ts'?"
+msgstr "Do you really want to delete the toolbar '%Ts'?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4877,8 +4878,8 @@ msgstr "Exit"
 
 #. Resource IDs: (16025)
 #, c-format
-msgid "Expand (%s)"
-msgstr "Expand (%s)"
+msgid "Expand (%Ts)"
+msgstr "Expand (%Ts)"
 
 #. Resource IDs: (16012)
 msgid "Expand docked window"
@@ -8319,10 +8320,6 @@ msgstr "Push notes"
 msgid "Push ta&gs"
 msgstr "Push ta&gs"
 
-#. Resource IDs: (IDS_LOG_PUSH)
-msgid "Push..."
-msgstr "Push..."
-
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
 msgstr "Putty Key:"
@@ -11006,14 +11003,15 @@ msgstr "This preserves merge commits, however, it has known bugs as re-ordering 
 #. Resource IDs: (61710)
 #, c-format
 msgid ""
-"This program is linked to the missing export %s in the file %s. This machine"
-" may have an incompatible version of %s."
-msgstr "This program is linked to the missing export %s in the file %s. This machine may have an incompatible version of %s."
+"This program is linked to the missing export %Ts in the file %Ts. This "
+"machine may have an incompatible version of %Ts."
+msgstr "This program is linked to the missing export %Ts in the file %Ts. This machine may have an incompatible version of %Ts."
 
 #. Resource IDs: (61709)
 #, c-format
-msgid "This program requires the file %s, which was not found on this system."
-msgstr "This program requires the file %s, which was not found on this system."
+msgid ""
+"This program requires the file %Ts, which was not found on this system."
+msgstr "This program requires the file %Ts, which was not found on this system."
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."
