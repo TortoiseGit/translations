@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-02 08:40+0000\n"
+"PO-Revision-Date: 2017-07-02 12:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -59,27 +59,27 @@ msgstr "# 作者单独显示:"
 msgid "%.2f MiB transferred"
 msgstr "已传输 %.2f MiB"
 
-#. Resource IDs: (61878)
+#. Resource IDs: (AFX_IDP_ARCH_BADCLASS)
 #, c-format
 msgid "%1 contained an unexpected object."
 msgstr "%1 包含有未预期的对象。"
 
-#. Resource IDs: (61859)
+#. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
 msgid "%1 contains an incorrect path."
 msgstr "%1 包含有错误的路径。"
 
-#. Resource IDs: (61879)
+#. Resource IDs: (AFX_IDP_ARCH_BADSCHEMA)
 #, c-format
 msgid "%1 contains an incorrect schema."
 msgstr "%1 包含有错误的结构。"
 
-#. Resource IDs: (61877)
+#. Resource IDs: (AFX_IDP_ARCH_BADINDEX)
 #, c-format
 msgid "%1 has a bad format."
 msgstr "%1 存在格式错误。"
 
-#. Resource IDs: (61858)
+#. Resource IDs: (AFX_IDP_FILE_NOT_FOUND)
 #, c-format
 msgid "%1 was not found."
 msgstr "未找到 %1。"
@@ -159,11 +159,6 @@ msgstr "已选择 %1!d! 个项目"
 msgid "%1!d! minutes ago"
 msgstr "%1!d!分钟前"
 
-#. Resource IDs: (IDS_REPOBROWSE_INFODIR)
-#, c-format
-msgid "%1!s!"
-msgstr "%1!s!"
-
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
 msgid ""
@@ -178,14 +173,14 @@ msgid ""
 "Size %2!s!"
 msgstr "%1!s!\n大小 %2!s!"
 
-#. Resource IDs: (61744)
+#. Resource IDs: (AFX_IDP_SCRIPT_ERROR)
 #, c-format
 msgid ""
 "%1: %2\n"
 "Continue running script?"
 msgstr "%1: %2\n要继续执行脚本吗？"
 
-#. Resource IDs: (61729)
+#. Resource IDs: (AFX_IDP_FAILED_INVALID_PATH)
 #, c-format
 msgid ""
 "%1\n"
@@ -208,12 +203,12 @@ msgstr "已传输 %I64d 字节"
 msgid "%I64d KiB transferred"
 msgstr "已传输 %I64d KiB"
 
-#. Resource IDs: (62186)
+#. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERED)
 #, c-format
 msgid "%Ts [Recovered]"
 msgstr "%Ts [已恢复的]"
 
-#. Resource IDs: (61585, 61586)
+#. Resource IDs: (AFX_IDS_EMBED_FORMAT, AFX_IDS_LINKSOURCE_FORMAT)
 #, c-format
 msgid ""
 "%Ts\n"
@@ -293,16 +288,6 @@ msgstr "%s，传输速度 %s"
 msgid "%s: Working Tree"
 msgstr "%s: 工作副本"
 
-#. Resource IDs: (IDS_PROC_EXPORTFOLDERNAME2)
-#, c-format
-msgid "%s\\Export (%d) of %s"
-msgstr "%s\\导出 （%d 个） %s"
-
-#. Resource IDs: (IDS_PROC_EXPORTFOLDERNAME)
-#, c-format
-msgid "%s\\Export of %s"
-msgstr "%s\\导出 %s"
-
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
 msgid ""
@@ -325,7 +310,8 @@ msgid ""
 "TortoiseGitMerge can't diff directories."
 msgstr "%s\n是一个目录，而不是文件！\nTortoiseGitMerge 不能对目录进行差异比较。"
 
-#. Resource IDs: (16923, Dialog IDD_RENAME: Control id 1483)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 16923, Dialog
+#. IDD_RENAME: Control id 1483)
 msgid "&..."
 msgstr "&..."
 
@@ -345,7 +331,7 @@ msgstr "关于 TortoiseGitBlame(&A)..."
 msgid "&About TortoiseGitMerge..."
 msgstr "关于 TortoiseGitMerge(&A)..."
 
-#. Resource IDs: (16920)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16920)
 msgid "&Activate"
 msgstr "激活(&A)"
 
@@ -354,7 +340,7 @@ msgstr "激活(&A)"
 msgid "&Add"
 msgstr "添加(&A)"
 
-#. Resource IDs: (17075)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 17075)
 msgid "&Add >>"
 msgstr "添加(&A) >>"
 
@@ -371,7 +357,7 @@ msgstr "添加/保存(&A)"
 msgid "&Add it"
 msgstr "添加(&A)"
 
-#. Resource IDs: (17018)
+#. Resource IDs: (IDS_AFXBARRES_ADD_REMOVE_BTNS)
 msgid "&Add or Remove Buttons"
 msgstr "添加或移除按钮(&A)"
 
@@ -405,19 +391,20 @@ msgstr "应用补丁(&A)"
 msgid "&Apply unified diff"
 msgstr "应用标准差异文件(&A)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 65535)
 msgid "&Arguments:"
 msgstr "参数(&A):"
 
-#. Resource IDs: (16645)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16645, Dialog
+#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16645)
 msgid "&Assign"
 msgstr "分配(&A)"
 
-#. Resource IDs: (16633)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16633)
 msgid "&Associate double-click event with:"
 msgstr "关联双击事件与(&A):"
 
-#. Resource IDs: (17041)
+#. Resource IDs: (IDS_AFXBARRES_AUTOHIDE)
 msgid "&Auto Hide"
 msgstr "自动隐藏(&A)"
 
@@ -445,7 +432,7 @@ msgstr "追溯变更(&B)"
 msgid "&Blame revisions"
 msgstr "追溯版本(&B)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
 msgid "&Blue:"
 msgstr "蓝色(&B):"
 
@@ -472,11 +459,11 @@ msgstr "浏览版本库(&B)"
 msgid "&Browse..."
 msgstr "浏览(&B)..."
 
-#. Resource IDs: (16913 - Menu)
+#. Resource IDs: (ID_AFXBARRES_TOOLBAR_APPEARANCE - Menu)
 msgid "&Button Appearance..."
 msgstr "按钮外观(&B)..."
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 65535)
 msgid "&Button text:"
 msgstr "按钮文本(&B):"
 
@@ -488,15 +475,16 @@ msgstr "光驱(&C)"
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
 msgid "&Categories:"
 msgstr "分类(&C):"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 65535, Dialog
+#. IDD_AFXBARRES_PROPPAGE5: Control id 65535)
 msgid "&Category:"
 msgstr "分类(&C)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 65535)
 msgid "&Choose commands from:"
 msgstr "选择命令(&C):"
 
@@ -512,15 +500,16 @@ msgstr "清除(&C)"
 msgid "&Clear stash"
 msgstr "清除暂存区(&C)"
 
-#. Resource IDs: (58112, Dialog IDD_CHECKFORUPDATES: Control id 1)
+#. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58112, Dialog
+#. IDD_CHECKFORUPDATES: Control id 1)
 msgid "&Close"
 msgstr "关闭(&C)"
 
-#. Resource IDs: (16922)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16922)
 msgid "&Close Window(s)"
 msgstr "关闭窗口(&C)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 65535)
 msgid "&Command:"
 msgstr "命令(&C):"
 
@@ -560,7 +549,7 @@ msgstr "继续(&C)"
 msgid "&Copy"
 msgstr "复制(&C)"
 
-#. Resource IDs: (16911 - Menu)
+#. Resource IDs: (ID_AFXBARRES_COPY_IMAGE - Menu)
 msgid "&Copy Button Image"
 msgstr "复制按钮图片(&C)"
 
@@ -581,8 +570,9 @@ msgstr "自定义(&C)"
 msgid "&Default"
 msgstr "默认(&D)"
 
-#. Resource IDs: (16617, 16912 - Menu, Dialog IDD_DELETEREMOTETAG: Control id
-#. 1, IDS_DELETEBUTTON, IDS_MENUREMOVE)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16617, Dialog
+#. IDD_DELETEREMOTETAG: Control id 1, IDS_DELETEBUTTON, IDS_MENUREMOVE,
+#. ID_AFXBARRES_TOOLBAR_DELETE - Menu)
 msgid "&Delete"
 msgstr "删除(&D)"
 
@@ -630,7 +620,7 @@ msgstr "放弃(&D)"
 msgid "&Do the same for the rest"
 msgstr "剩下的做同样操作(&D)"
 
-#. Resource IDs: (17040)
+#. Resource IDs: (IDS_AFXBARRES_DOCKING)
 msgid "&Docking"
 msgstr "钉住(&D)"
 
@@ -676,7 +666,8 @@ msgstr "编辑过滤器(&E)"
 msgid "&Edit conflicts"
 msgstr "编辑冲突(&E)"
 
-#. Resource IDs: (16510, Dialog IDD_SETTINGSPROGSADV: Control id 1099)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16510, Dialog
+#. IDD_SETTINGSPROGSADV: Control id 1099)
 msgid "&Edit..."
 msgstr "编辑(&E)..."
 
@@ -744,7 +735,7 @@ msgstr "缩放图像以适应窗口(&F)\tF"
 msgid "&Fixed drives"
 msgstr "本地硬盘(&F)"
 
-#. Resource IDs: (17039)
+#. Resource IDs: (IDS_AFXBARRES_FLOATING)
 msgid "&Floating"
 msgstr "浮动(&F)"
 
@@ -798,7 +789,7 @@ msgstr "跳转(&G)\tCtrl+G"
 msgid "&Gray Unrelated Changed Paths"
 msgstr "灰化无关的修改路径(&G)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
 msgid "&Green:"
 msgstr "绿色(&G):"
 
@@ -812,7 +803,8 @@ msgstr "HEAD(&H)"
 msgid "&Hard: Reset working tree and index (discard all local changes)"
 msgstr "&Hard: 重置工作区和索引（丢弃所有本地变更）"
 
-#. Resource IDs: (57670, 65535 - PopupMenu, IDS_MENUHELP)
+#. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
+#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP)
 msgid "&Help"
 msgstr "帮助(&H)"
 
@@ -820,7 +812,7 @@ msgstr "帮助(&H)"
 msgid "&Help Topics"
 msgstr "帮助主题(&H)"
 
-#. Resource IDs: (17042, 61457, ID_VIEW_OUTPUTWND - Menu)
+#. Resource IDs: (AFX_IDS_HIDE, IDS_AFXBARRES_HIDE, ID_VIEW_OUTPUTWND - Menu)
 msgid "&Hide"
 msgstr "隐藏 (&H)"
 
@@ -845,7 +837,7 @@ msgstr "根据名称忽略多项(&I)"
 msgid "&Ignore whitespace"
 msgstr "忽略空白(&I)"
 
-#. Resource IDs: (16914 - Menu)
+#. Resource IDs: (ID_AFXBARRES_TOOLBAR_IMAGE - Menu)
 msgid "&Image"
 msgstr "图片(&I)"
 
@@ -853,7 +845,7 @@ msgstr "图片(&I)"
 msgid "&Image info\tI"
 msgstr "图片信息(&I)\tI"
 
-#. Resource IDs: (16505)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16505)
 msgid "&Image only"
 msgstr "仅图片(&I)"
 
@@ -861,7 +853,7 @@ msgstr "仅图片(&I)"
 msgid "&Import..."
 msgstr "导入(&I)..."
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 65535)
 msgid "&Initial directory:"
 msgstr "初始目录(&I):"
 
@@ -894,7 +886,7 @@ msgstr "块状标签(&L)"
 msgid "&Language:"
 msgstr "语言(&L)"
 
-#. Resource IDs: (16653)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16653)
 msgid "&Large Icons"
 msgstr "大图标(&L)"
 
@@ -939,7 +931,7 @@ msgstr "本地分支(&L)"
 msgid "&Local:"
 msgstr "本地(&L)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
 msgid "&Luminence:"
 msgstr "亮度(&L)"
 
@@ -947,11 +939,11 @@ msgstr "亮度(&L)"
 msgid "&Max line length for inline diffs"
 msgstr "内嵌差异比较的最大行长度(&M)"
 
-#. Resource IDs: (16543)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16543)
 msgid "&Menu animations:"
 msgstr "菜单动画(&M):"
 
-#. Resource IDs: (16921)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 16921)
 msgid "&Menu contents:"
 msgstr "菜单内容(&M):"
 
@@ -980,7 +972,7 @@ msgstr "日志信息(&M)"
 msgid "&Message:"
 msgstr "日志信息(&M):"
 
-#. Resource IDs: (16925)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16925)
 msgid "&Minimize"
 msgstr "最小化(&M)"
 
@@ -1010,11 +1002,12 @@ msgstr "导航(&N)"
 msgid "&Network drives"
 msgstr "网络磁盘(&N)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 65535)
 msgid "&New "
 msgstr "新建(&N)"
 
-#. Resource IDs: (16509, 16615)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16509, Dialog
+#. IDD_AFXBARRES_PROPPAGE2: Control id 16615)
 msgid "&New..."
 msgstr "新建(&N)..."
 
@@ -1022,7 +1015,7 @@ msgstr "新建(&N)..."
 msgid "&Next >"
 msgstr "下一个(&N) >"
 
-#. Resource IDs: (58114)
+#. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58114)
 msgid "&Next Page"
 msgstr "下页(&N)"
 
@@ -1030,7 +1023,7 @@ msgstr "下页(&N)"
 msgid "&No"
 msgstr "否(&N)"
 
-#. Resource IDs: (16632)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16632)
 msgid "&No double-click event"
 msgstr "无双击事件(&N)"
 
@@ -1046,11 +1039,12 @@ msgstr "无(&N)"
 msgid "&Notepad2"
 msgstr "Notepad2(&N)"
 
-#. Resource IDs: (1, Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 1, Dialog
+#. IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
 msgstr "确定(&O)"
 
-#. Resource IDs: (61505)
+#. Resource IDs: (AFX_IDS_ONEPAGE)
 msgid "&One Page"
 msgstr "单页(&O)"
 
@@ -1109,11 +1103,11 @@ msgstr "端口(&P): "
 msgid "&Preserve merges"
 msgstr "保留‘合并’(&P)"
 
-#. Resource IDs: (17091)
+#. Resource IDs: (IDS_AFXBARRES_PRINT_PREVIEW)
 msgid "&Print Preview"
 msgstr "打印预览(&P)"
 
-#. Resource IDs: (58116)
+#. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58116)
 msgid "&Print..."
 msgstr "打印(&P)..."
 
@@ -1149,7 +1143,7 @@ msgstr "变基(&R)"
 msgid "&Recursive"
 msgstr "递归(&R)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
 msgid "&Red:"
 msgstr "红色(&R):"
 
@@ -1186,10 +1180,12 @@ msgstr "远端分支(&R)"
 msgid "&Remote:"
 msgstr "远端(&R)"
 
-#. Resource IDs: (16646, Dialog IDD_APPLY_PATCH_LIST: Control id 1385, Dialog
-#. IDD_SETTINGSCREDENTIAL: Control id 1385, Dialog IDD_SETTINGSPROGSADV:
-#. Control id 1100, Dialog IDD_SETTINREMOTE: Control id 1385,
-#. IDS_REMOVEBUTTON)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16646, Dialog
+#. IDD_AFXBARRES_PROPPAGE8: Control id 16646, Dialog
+#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16646, Dialog
+#. IDD_APPLY_PATCH_LIST: Control id 1385, Dialog IDD_SETTINGSCREDENTIAL:
+#. Control id 1385, Dialog IDD_SETTINGSPROGSADV: Control id 1100, Dialog
+#. IDD_SETTINREMOTE: Control id 1385, IDS_REMOVEBUTTON)
 msgid "&Remove"
 msgstr "删除(&R)"
 
@@ -1205,11 +1201,13 @@ msgstr "替换(&R)"
 msgid "&Repo-browser"
 msgstr "版本库浏览器(&R)"
 
-#. Resource IDs: (16613, 16624)
+#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 16613,
+#. Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16613, Dialog
+#. IDD_AFXBARRES_PROPPAGE3: Control id 16624)
 msgid "&Reset"
 msgstr "重置(&R)"
 
-#. Resource IDs: (16300)
+#. Resource IDs: (IDS_AFXBARRES_RESET_TOOLBAR)
 msgid "&Reset Toolbar"
 msgstr "重置工具栏(&R)"
 
@@ -1217,11 +1215,11 @@ msgstr "重置工具栏(&R)"
 msgid "&Reset filter"
 msgstr "重置过滤器(&R)"
 
-#. Resource IDs: (16657)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16657)
 msgid "&Reset my usage data"
 msgstr "重置我的使用信息(&R)"
 
-#. Resource IDs: (16910 - Menu)
+#. Resource IDs: (ID_AFXBARRES_TOOLBAR_RESET - Menu)
 msgid "&Reset to Default"
 msgstr "恢复到默认值(&R)"
 
@@ -1253,11 +1251,12 @@ msgstr "还原这些版本的变更(&R)"
 msgid "&SSH client:"
 msgstr "SSH 客户端(&S): "
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
 msgid "&Saturation:"
 msgstr "饱和度(&S):"
 
-#. Resource IDs: (16921, IDS_SAVEBUTTON)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16921,
+#. IDS_SAVEBUTTON)
 msgid "&Save"
 msgstr "保存(&S)"
 
@@ -1298,11 +1297,11 @@ msgstr "设置(&S)"
 msgid "&Settings..."
 msgstr "设置(&S)..."
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 65535)
 msgid "&Show Menus for:"
 msgstr "显示菜单(&S):"
 
-#. Resource IDs: (16612)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16612)
 msgid "&Show text labels"
 msgstr "显示文本标签(&S)"
 
@@ -1331,7 +1330,7 @@ msgstr "并合全部(&S)"
 msgid "&Start"
 msgstr "开始(&S)"
 
-#. Resource IDs: (16917 - Menu)
+#. Resource IDs: (ID_AFXBARRES_TOOLBAR_START_GROUP - Menu)
 msgid "&Start Group"
 msgstr "启动组(&S)"
 
@@ -1355,7 +1354,7 @@ msgstr "符号视图(&S)"
 msgid "&Tab size:"
 msgstr "Tab 宽度(&T):"
 
-#. Resource IDs: (17088)
+#. Resource IDs: (IDS_AFXBARRES_TABBED)
 msgid "&Tabbed Document"
 msgstr "标签显示文档(&T)"
 
@@ -1373,11 +1372,11 @@ msgstr "标签(&T)"
 msgid "&Tags:"
 msgstr "标签(&T):"
 
-#. Resource IDs: (16915 - Menu)
+#. Resource IDs: (ID_AFXBARRES_TOOLBAR_TEXT - Menu)
 msgid "&Text"
 msgstr "文本(&T)"
 
-#. Resource IDs: (16506)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16506)
 msgid "&Text only"
 msgstr "仅文本(&T)"
 
@@ -1389,7 +1388,7 @@ msgstr "停止“自动完成”分析工作的超时时间(秒)(&T)"
 msgid "&Toolbar"
 msgstr "工具栏(&T)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_TOOLBAR_NAME: Control id 65535)
 msgid "&Toolbar Name:"
 msgstr "工具栏名称(&T):"
 
@@ -1397,7 +1396,7 @@ msgstr "工具栏名称(&T):"
 msgid "&Toolbars and Docking Windows"
 msgstr "工具栏和停靠窗口(&T)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 65535)
 msgid "&Toolbars:"
 msgstr "工具栏(&T):"
 
@@ -1418,7 +1417,7 @@ msgstr "主干(&T):"
 msgid "&Try Again"
 msgstr "再试一次(&T)"
 
-#. Resource IDs: (61506)
+#. Resource IDs: (AFX_IDS_TWOPAGE)
 msgid "&Two Page"
 msgstr "双页(&T)"
 
@@ -1469,7 +1468,7 @@ msgstr "用户名(&U): "
 msgid "&View"
 msgstr "查看(&V)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 65535)
 msgid "&View:"
 msgstr "查看(&V):"
 
@@ -1554,7 +1553,7 @@ msgstr "-全部-"
 msgid "--&all"
 msgstr "--all(&A)"
 
-#. Resource IDs: (16108)
+#. Resource IDs: (IDS_AFXBARRES_NO_CONTEXT)
 msgid ""
 "-------------------------------------------------------------------------------------------"
 msgstr "-------------------------------------------------------------------------------------------"
@@ -1586,7 +1585,8 @@ msgstr "------------------------------------------------------------------------
 msgid "..."
 msgstr "..."
 
-#. Resource IDs: (16527)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16527, Dialog
+#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16527)
 msgid "....."
 msgstr "....."
 
@@ -1614,7 +1614,7 @@ msgstr "版本库根目录中的 .tgitconfig"
 msgid "< &Previous"
 msgstr "< 上一个(&P)"
 
-#. Resource IDs: (16506)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16506)
 msgid "<.....>"
 msgstr "<.....>"
 
@@ -1644,15 +1644,16 @@ msgstr "<本地分支>"
 msgid "<No branch>"
 msgstr "<匿名分支>"
 
-#. Resource IDs: (17095)
+#. Resource IDs: (IDS_AFXBARRES_QAT_SEPARATOR)
 msgid "<Separator>"
 msgstr "<分隔符>"
 
-#. Resource IDs: (16104)
+#. Resource IDs: (IDS_AFXBARRES_UNTITLED_TOOLBAR)
 msgid "<Untitled>"
 msgstr "<未命名>"
 
-#. Resource IDs: (16603)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16603, Dialog
+#. IDD_AFXBARRES_PROPPAGE1: Control id 16603)
 msgid "<descr>"
 msgstr "<描述>"
 
@@ -1710,7 +1711,7 @@ msgid ""
 "An empty list will allow overlays on all paths."
 msgstr "以换行分隔的列表，指定不应显示图标覆盖的目录。\n如果在路径结尾加上字符“?”，那么只排除此路径。\n如果只有“*”或路径结尾无字符，那么此路径下的所有文件和子目录都被排除。\n空列表则允许所有路径显示图标覆盖。"
 
-#. Resource IDs: (61474)
+#. Resource IDs: (AFX_IDS_RESOURCE_EXCEPTION)
 msgid "A required resource was unavailable."
 msgstr "找不到需要的资源。"
 
@@ -1787,7 +1788,7 @@ msgstr "关于 TortoiseGitMerge"
 msgid "Accept certificate"
 msgstr "接受证书"
 
-#. Resource IDs: (61861)
+#. Resource IDs: (AFX_IDP_FILE_ACCESS_DENIED)
 #, c-format
 msgid "Access to %1 was denied."
 msgstr "存取 %1 被拒绝。"
@@ -1804,15 +1805,15 @@ msgstr "动作记录"
 msgid "Actions"
 msgstr "操作"
 
-#. Resource IDs: (61203)
+#. Resource IDs: (AFX_IDS_SCTASKLIST)
 msgid "Activate Task List"
 msgstr "当前任务列表"
 
-#. Resource IDs: (17043)
+#. Resource IDs: (IDS_AFXBARRES_OPENED_DOCS)
 msgid "Active Files"
 msgstr "活动文件"
 
-#. Resource IDs: (61838)
+#. Resource IDs: (AFX_IDP_ASK_TO_DISCARD)
 #, c-format
 msgid ""
 "ActiveX objects cannot be saved while exiting Windows!\n"
@@ -1861,7 +1862,7 @@ msgstr "自动添加新文件到 Git"
 msgid "Add to &ignore list"
 msgstr "添加到忽略列表(&I)"
 
-#. Resource IDs: (17083)
+#. Resource IDs: (IDS_AFXBARRES_ADD_TO_QAT)
 msgid "Add to Quick Access Toolbar"
 msgstr "添加到快速访问工具栏"
 
@@ -1927,11 +1928,11 @@ msgstr "高级合并设置"
 msgid "All"
 msgstr "全部"
 
-#. Resource IDs: (16110)
+#. Resource IDs: (IDS_AFXBARRES_ALL_COMMANDS)
 msgid "All Commands"
 msgstr "所有命令"
 
-#. Resource IDs: (61442)
+#. Resource IDs: (AFX_IDS_ALLFILTER)
 msgid "All Files (*.*)"
 msgstr "所有文件 (*.*)"
 
@@ -1963,25 +1964,25 @@ msgstr "所有标签"
 msgid "All tags only"
 msgstr "仅全部标签"
 
-#. Resource IDs: (16112)
+#. Resource IDs: (IDS_AFXBARRES_RESET_ALL_TOOLBARS)
 msgid ""
 "All your changes will be lost! Do you really want to reset all toolbars and "
 "menus?"
 msgstr "这将会丢弃您的全部更改！您确定要重置所有工具栏和菜单吗？"
 
-#. Resource IDs: (16115)
+#. Resource IDs: (IDS_AFXBARRES_RESET_KEYBOARD)
 msgid ""
 "All your changes will be lost! Do you really want to reset the keyboard "
 "assignments?"
 msgstr "这将会丢弃您的全部更改！您确定要重置键盘分配吗？"
 
-#. Resource IDs: (16113)
+#. Resource IDs: (IDS_AFXBARRES_RESET_MENU_FMT)
 #, c-format
 msgid ""
 "All your changes will be lost! Do you really want to reset the menu '%Ts'?"
 msgstr "这将会丢弃您的全部更改！您确定要重置菜单“%Ts”吗？"
 
-#. Resource IDs: (16111)
+#. Resource IDs: (IDS_AFXBARRES_RESET_TOOLBAR_FMT)
 #, c-format
 msgid ""
 "All your changes will be lost! Do you really want to reset the toolbar "
@@ -2061,16 +2062,16 @@ msgid ""
 "%base: the original file without your changes"
 msgstr "用来解决冲突文件的外部合并程序。\n\n您可以在程序路径中指定以下参数:\n%merged : 发生冲突的文件存放位置\n%theirs : 版本库中存放的文件\n%mine : 您现有的修改过的文件\n%base : 不包含您所做修改的原始文件"
 
-#. Resource IDs: (61862)
+#. Resource IDs: (AFX_IDP_FILE_INVALID_FILE)
 #, c-format
 msgid "An incorrect file handle was associated with %1."
 msgstr "%1 关联到了一个错误的文件句柄。"
 
-#. Resource IDs: (61476)
+#. Resource IDs: (AFX_IDS_USER_EXCEPTION)
 msgid "An unknown error has occurred."
 msgstr "发生未知错误。"
 
-#. Resource IDs: (61857, 61873)
+#. Resource IDs: (AFX_IDP_ARCH_GENERIC, AFX_IDP_FILE_GENERIC)
 #, c-format
 msgid "An unknown error occurred while accessing %1."
 msgstr "存取 %1 时发生未知错误。"
@@ -2092,7 +2093,7 @@ msgstr "添加右侧内容"
 msgid "Append this block to left"
 msgstr "追加这个块到左边"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 65535)
 msgid "Application Frame Menus: "
 msgstr "应用程序框架菜单:"
 
@@ -2171,7 +2172,8 @@ msgstr "垂直排列(&V)\tV"
 msgid "Assigned to changelist '%s'"
 msgstr "指派到修改列表“%s”"
 
-#. Resource IDs: (16528)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16528, Dialog
+#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16528)
 msgid "Assigned to:"
 msgstr "分配到:"
 
@@ -2208,21 +2210,21 @@ msgstr "于版本: %d"
 msgid "At the moment, you can only rename branches."
 msgstr "这时您只能重命名分支。"
 
-#. Resource IDs: (61473)
+#. Resource IDs: (AFX_IDS_NOT_SUPPORTED_EXCEPTION)
 msgid "Attempted an unsupported operation."
 msgstr "试图进行不支持的操作。"
 
-#. Resource IDs: (61870, 61875)
+#. Resource IDs: (AFX_IDP_ARCH_ENDOFFILE, AFX_IDP_FILE_EOF)
 #, c-format
 msgid "Attempted to access %1 past its end."
 msgstr "试图存取超过 %1 结尾的部分。"
 
-#. Resource IDs: (61876)
+#. Resource IDs: (AFX_IDP_ARCH_WRITEONLY)
 #, c-format
 msgid "Attempted to read from the writing %1."
 msgstr "试图读取写入中的 %1。"
 
-#. Resource IDs: (61874)
+#. Resource IDs: (AFX_IDP_ARCH_READONLY)
 #, c-format
 msgid "Attempted to write to the reading %1."
 msgstr "试图写入读取中的 %1。"
@@ -2284,11 +2286,11 @@ msgstr "自动CrLf换行符转换"
 msgid "Auto Crlf:"
 msgstr "自动CrLf转换:"
 
-#. Resource IDs: (16033)
+#. Resource IDs: (IDS_AFXBARRES_AUTOHIDEBAR)
 msgid "Auto Hide"
 msgstr "自动隐藏"
 
-#. Resource IDs: (16036)
+#. Resource IDs: (IDS_AFXBARRES_AUTOHIDE_ALL)
 msgid "Auto Hide All"
 msgstr "全部自动隐藏"
 
@@ -2414,7 +2416,7 @@ msgstr "二分跳过"
 msgid "Bisect start"
 msgstr "二分定位 - 开始"
 
-#. Resource IDs: (61584)
+#. Resource IDs: (AFX_IDS_BITMAP_FORMAT)
 msgid ""
 "Bitmap\n"
 "a bitmap"
@@ -2563,7 +2565,7 @@ msgstr "BugTraq"
 msgid "Bugtraq Regex Tester - TortoiseGit"
 msgstr "Bugtraq 正则表达式测试器 - TortoiseGit"
 
-#. Resource IDs: (16132)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16132)
 msgid "Button Appearance"
 msgstr "按钮外观"
 
@@ -2589,7 +2591,9 @@ msgstr "默认情况下 Git 不保存/缓存凭据。但您可以配置凭据助
 msgid "C&heck now"
 msgstr "立即检查(&H)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 65535, Dialog
+#. IDD_AFXBARRES_PROPPAGE8: Control id 65535, Dialog
+#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
 msgid "C&ommands:"
 msgstr "命令(&O):"
 
@@ -2601,7 +2605,8 @@ msgstr "提交(&O)"
 msgid "C&reate branch/tag from revision"
 msgstr "从版本创建分支/标签(&R)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 65535, Dialog
+#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
 msgid "C&urrent Keys:"
 msgstr "当前快捷键(&U):"
 
@@ -2630,7 +2635,7 @@ msgstr "调用 git.exe 失败（退出代码：%d）。请检查 git.exe 路径�
 msgid "Can double-click in log list to compare with previous revision"
 msgstr "可以在日志列表中的一个版本上双击，与上一个版本比较"
 
-#. Resource IDs: (61824)
+#. Resource IDs: (AFX_IDP_STATIC_OBJECT)
 msgid "Can not activate a static ActiveX object."
 msgstr "不能激活静态 ActiveX 对象。"
 
@@ -2651,7 +2656,7 @@ msgstr "不能复制位图图像到剪贴板！"
 msgid "Can't create a new image!"
 msgstr "不能创建新图像！"
 
-#. Resource IDs: (16007)
+#. Resource IDs: (IDS_AFXBARRES_NO_MENUBAR)
 msgid "Can't customize menus!"
 msgstr "不能自定义菜单！"
 
@@ -2659,15 +2664,20 @@ msgstr "不能自定义菜单！"
 msgid "Can't paste bitmap image from the clipboard!"
 msgstr "不能从剪贴板粘贴位图！"
 
-#. Resource IDs: (17101, 2, Dialog IDD_ADD: Control id 2, Dialog
-#. IDD_ADD_REMOTE: Control id 2, Dialog IDD_BISECTSTART: Control id 2, Dialog
-#. IDD_BROWSE_REFS: Control id 2, Dialog IDD_BUGTRAQREGEXTESTER: Control id 2,
-#. Dialog IDD_CERTCHECK: Control id 2, Dialog IDD_CLEAN: Control id 2, Dialog
-#. IDD_CLONE: Control id 2, Dialog IDD_COMMITDLG: Control id 2, Dialog
-#. IDD_CREATECHANGELIST: Control id 2, Dialog IDD_CREATEREPO: Control id 2,
-#. Dialog IDD_ENCODING: Control id 2, Dialog IDD_EXPORT: Control id 2, Dialog
-#. IDD_FIND: Control id 2, Dialog IDD_FORMAT_PATCH: Control id 2, Dialog
-#. IDD_GITSWITCH: Control id 2, Dialog IDD_GOTO: Control id 2, Dialog
+#. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 2, Dialog
+#. AFX_IDD_PRINTDLG: Control id 2, Dialog IDD_ADD: Control id 2, Dialog
+#. IDD_ADD_REMOTE: Control id 2, Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id
+#. 2, Dialog IDD_AFXBARRES_COLOR_DLG: Control id 2, Dialog
+#. IDD_AFXBARRES_IMAGE_EDITOR: Control id 2, Dialog
+#. IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 2, Dialog
+#. IDD_AFXBARRES_TOOLBAR_NAME: Control id 2, Dialog IDD_BISECTSTART: Control
+#. id 2, Dialog IDD_BROWSE_REFS: Control id 2, Dialog IDD_BUGTRAQREGEXTESTER:
+#. Control id 2, Dialog IDD_CERTCHECK: Control id 2, Dialog IDD_CLEAN: Control
+#. id 2, Dialog IDD_CLONE: Control id 2, Dialog IDD_COMMITDLG: Control id 2,
+#. Dialog IDD_CREATECHANGELIST: Control id 2, Dialog IDD_CREATEREPO: Control
+#. id 2, Dialog IDD_ENCODING: Control id 2, Dialog IDD_EXPORT: Control id 2,
+#. Dialog IDD_FIND: Control id 2, Dialog IDD_FORMAT_PATCH: Control id 2,
+#. Dialog IDD_GITSWITCH: Control id 2, Dialog IDD_GOTO: Control id 2, Dialog
 #. IDD_GOTODLG: Control id 2, Dialog IDD_HISTORYDLG: Control id 2, Dialog
 #. IDD_IGNORE: Control id 2, Dialog IDD_INPUTDLG: Control id 2, Dialog
 #. IDD_LOGMESSAGE: Control id 2, Dialog IDD_LOGORDERING: Control id 2, Dialog
@@ -2687,7 +2697,7 @@ msgstr "不能从剪贴板粘贴位图！"
 #. IDD_SUBMODULE_UPDATE: Control id 2, Dialog IDD_SVNDCOMMITTYPE: Control id
 #. 2, Dialog IDD_SVNIGNORE: Control id 2, Dialog IDD_SVNPROGRESS: Control id
 #. 2, Dialog IDD_TOOLASSOC: Control id 2, Dialog IDD_URL: Control id 2, Dialog
-#. IDD_USER_PASSWD: Control id 2, IDS_MSGBOX_CANCEL,
+#. IDD_USER_PASSWD: Control id 2, IDS_AFXBARRES_CANCEL, IDS_MSGBOX_CANCEL,
 #. IDS_PROC_OVERWRITEEXPORT_CANCEL)
 msgid "Cancel"
 msgstr "取消"
@@ -2749,7 +2759,7 @@ msgstr "不能显示追溯。“%s”没有被 git 管理。"
 msgid "Cannot show diff because of inconsistent newlines in the file."
 msgstr "由于文件中采用了不同的换行方式，不能显示其差异。"
 
-#. Resource IDs: (16926)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16926)
 msgid "Casca&de"
 msgstr "层叠(&D)"
 
@@ -2761,7 +2771,7 @@ msgstr "右键菜单"
 msgid "Case-sensitive"
 msgstr "区分大小写"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE1: Control id 65535)
 msgid "Cate&gories:"
 msgstr "分类(&G):"
 
@@ -2799,11 +2809,11 @@ msgid ""
 "Change Style"
 msgstr "更改应用程序的风格\n更改风格"
 
-#. Resource IDs: (61185)
+#. Resource IDs: (AFX_IDS_SCMOVE)
 msgid "Change the window position"
 msgstr "更改窗口位置"
 
-#. Resource IDs: (61184)
+#. Resource IDs: (AFX_IDS_SCSIZE)
 msgid "Change the window size"
 msgstr "更改窗口大小"
 
@@ -2863,7 +2873,7 @@ msgstr "更改应用程序的风格"
 msgid "Char position where to show a border line in commit text boxes:"
 msgstr "在提交文本框中要显示边框线的字符位置:"
 
-#. Resource IDs: (62178, IDS_RECURSE_SUBMODULES_CHECK)
+#. Resource IDs: (AFX_IDS_CHECKLISTBOX_CHECK, IDS_RECURSE_SUBMODULES_CHECK)
 msgid "Check"
 msgstr "检查"
 
@@ -3090,12 +3100,14 @@ msgstr "克隆成纯版本库"
 msgid "Clone..."
 msgstr "克隆..."
 
-#. Resource IDs: (16032, 16105, 17023, 2, Dialog IDD_DELETEREMOTETAG: Control
-#. id 2, Dialog IDD_GITPROGRESS: Control id 1, Dialog IDD_SYNC: Control id 1)
+#. Resource IDs: (17023, Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id
+#. 2, Dialog IDD_DELETEREMOTETAG: Control id 2, Dialog IDD_GITPROGRESS:
+#. Control id 1, Dialog IDD_SYNC: Control id 1, IDS_AFXBARRES_CLOSE,
+#. IDS_AFXBARRES_CLOSEBAR)
 msgid "Close"
 msgstr "关闭"
 
-#. Resource IDs: (17025)
+#. Resource IDs: (IDS_AFXBARRES_FULLSCREEN_CLOSE)
 msgid "Close Full Screen"
 msgstr "关闭全屏"
 
@@ -3109,7 +3121,7 @@ msgstr "关闭打印预览\n关闭(&C)"
 msgid "Close manually"
 msgstr "手动关闭"
 
-#. Resource IDs: (61445)
+#. Resource IDs: (AFX_IDS_PREVIEW_CLOSE)
 msgid ""
 "Close print preview mode\n"
 "Cancel Preview"
@@ -3121,7 +3133,7 @@ msgid ""
 "Close"
 msgstr "关闭当前文档\n关闭"
 
-#. Resource IDs: (61190)
+#. Resource IDs: (AFX_IDS_SCCLOSE)
 msgid "Close the active window and prompts to save the documents"
 msgstr "关闭当前窗口并提示保存文件"
 
@@ -3135,7 +3147,8 @@ msgid ""
 "Collapse"
 msgstr "折叠未变更的片段\n折叠"
 
-#. Resource IDs: (16662)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 16662, Dialog
+#. IDD_AFXBARRES_COLOR_DLG: Control id 16662)
 msgid "Color"
 msgstr "颜色"
 
@@ -3143,13 +3156,15 @@ msgstr "颜色"
 msgid "Color by age, &continuous"
 msgstr "依据年龄标记颜色，连续的(&C)"
 
-#. Resource IDs: (16961, Dialog IDD_SETCOLORPAGE: Control id 138, Dialog
-#. IDD_SETTINGSTBLAME: Control id 65535, Dialog IDD_SETTINGSUDIFF: Control id
-#. 65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_DLG: Control id 16961, Dialog
+#. IDD_SETCOLORPAGE: Control id 138, Dialog IDD_SETTINGSTBLAME: Control id
+#. 65535, Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Colors"
 msgstr "颜色"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535, Dialog
+#. IDD_AFXBARRES_COLOR_PAGE_ONE: Control id 65535, Dialog
+#. IDD_AFXBARRES_IMAGE_EDITOR: Control id 65535)
 msgid "Colors:"
 msgstr "颜色:"
 
@@ -3161,11 +3176,11 @@ msgstr "合并成一个邮件"
 msgid "Combine to one commit"
 msgstr "合并到一个提交"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE1: Control id 65535)
 msgid "Comman&ds:"
 msgstr "命令(&D):"
 
-#. Resource IDs: (16029, IDS_PROGRS_CMDINFO)
+#. Resource IDs: (IDS_AFXBARRES_COMMAND, IDS_PROGRS_CMDINFO)
 msgid "Command"
 msgstr "命令"
 
@@ -3177,11 +3192,11 @@ msgstr "命令行"
 msgid "Command Line To Execute:"
 msgstr "要执行的命令行: "
 
-#. Resource IDs: (61705)
+#. Resource IDs: (AFX_IDP_COMMAND_FAILURE)
 msgid "Command failed."
 msgstr "命令失败。"
 
-#. Resource IDs: (16104)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE1: Control id 16104)
 msgid "Commands"
 msgstr "命令"
 
@@ -3328,11 +3343,6 @@ msgid ""
 "you made"
 msgstr "比较此文件与上次提交的版本并列出您所做的更改"
 
-#. Resource IDs: (IDS_PROGRESS_COMPARE)
-#, c-format
-msgid "Comparing %s to %s"
-msgstr "比较 %s 和 %s"
-
 #. Resource IDs: (IDS_SVNACTION_COMPLETED)
 msgid "Completed"
 msgstr "完毕"
@@ -3420,7 +3430,7 @@ msgstr "冲突"
 msgid "Conflicts: %d"
 msgstr "冲突: %d"
 
-#. Resource IDs: (16520)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16520)
 msgid "Context Menus: "
 msgstr "右键菜单: "
 
@@ -3432,7 +3442,7 @@ msgstr "补丁的上下文行数"
 msgid "Continue"
 msgstr "继续"
 
-#. Resource IDs: (16013)
+#. Resource IDs: (IDS_AFXBARRES_CONTRACT_BAR)
 msgid "Contract docked window"
 msgstr "收缩钉住的窗口"
 
@@ -3452,15 +3462,10 @@ msgstr "复制(&Y)"
 msgid "Copied"
 msgstr "已复制"
 
-#. Resource IDs: (16991, IDS_PATHACTIONS_COPY, IDS_PROGRS_TITLE_COPY,
-#. ID_EDIT_COPY - Ribbon name)
+#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16991,
+#. IDS_PATHACTIONS_COPY, IDS_PROGRS_TITLE_COPY, ID_EDIT_COPY - Ribbon name)
 msgid "Copy"
 msgstr "复制"
-
-#. Resource IDs: (IDS_PROGRS_CMD_COPY)
-#, c-format
-msgid "Copy %s to %s, Revision %s"
-msgstr "复制 %s 到 %s，版本 %s"
 
 #. Resource IDs: (IDS_BLAME_POPUP_COPYHASHTOCLIPBOARD, IDS_COPY_COMMIT_HASH)
 msgid "Copy SHA-1 to clipboard"
@@ -3546,7 +3551,7 @@ msgid ""
 "%s"
 msgstr "不能复制文件！\n\n%s"
 
-#. Resource IDs: (61864)
+#. Resource IDs: (AFX_IDP_FILE_DIR_FULL)
 #, c-format
 msgid "Could not create %1 because the directory is full."
 msgstr "目录已满，无法创建 %1。"
@@ -3577,7 +3582,7 @@ msgstr "未能从 git.exe 读取版本信息。\n得到：\"%s\""
 msgid "Could not get the status!"
 msgstr "无法获得状态！"
 
-#. Resource IDs: (61860)
+#. Resource IDs: (AFX_IDP_FILE_TOO_MANY_OPEN)
 #, c-format
 msgid "Could not open %1 because there are too many open files."
 msgstr "由于已经打开过多的文件，无法打开 %1。"
@@ -3589,7 +3594,7 @@ msgid ""
 "%s"
 msgstr "无法打开文件\n%s"
 
-#. Resource IDs: (61863)
+#. Resource IDs: (AFX_IDP_FILE_REMOVE_CURRENT)
 #, c-format
 msgid "Could not remove %1 because it is the current directory."
 msgstr "%1 是当前目录，无法删除。"
@@ -3660,7 +3665,7 @@ msgid ""
 "Check help file for \"Extra PATH\"."
 msgstr "未能启动 git.exe。缺少动态链接库（DLL）。\n您可能需指定额外路径。\n请在帮助文件中查阅 \"Extra PATH\"。"
 
-#. Resource IDs: (61702)
+#. Resource IDs: (AFX_IDP_FAILED_TO_START_PRINT)
 msgid "Could not start print job."
 msgstr "无法启动打印任务。"
 
@@ -3807,7 +3812,7 @@ msgstr "凭证"
 msgid "Cu&t"
 msgstr "剪切(&T)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_DLG: Control id 65535)
 msgid "Current"
 msgstr "当前"
 
@@ -3843,27 +3848,28 @@ msgstr "当前版本是: "
 msgid "Current version is: %s"
 msgstr "当前版本是: %s"
 
-#. Resource IDs: (17079)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 17079)
 msgid "Cus&tomize..."
 msgstr "自定义(&T)..."
 
-#. Resource IDs: (16963)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 16963)
 msgid "Custom"
 msgstr "自定义"
 
-#. Resource IDs: (16103, 17074)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 17074,
+#. IDS_AFXBARRES_PROPSHT_CAPTION)
 msgid "Customize"
 msgstr "自定义"
 
-#. Resource IDs: (17076)
+#. Resource IDs: (Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 17076)
 msgid "Customize Keyboard"
 msgstr "自定义键盘"
 
-#. Resource IDs: (17096)
+#. Resource IDs: (IDS_AFXBARRES_CUSTOMIZE_QAT_TOOLTIP)
 msgid "Customize Quick Access Toolbar"
 msgstr "自定义快速访问工具栏"
 
-#. Resource IDs: (17085)
+#. Resource IDs: (IDS_AFXBARRES_CUSTOMIZE_QAT)
 msgid "Customize Quick Access Toolbar..."
 msgstr "自定义快速访问工具栏..."
 
@@ -3897,15 +3903,15 @@ msgstr "日期"
 msgid "Date Last Commit"
 msgstr "最后提交日期"
 
-#. Resource IDs: (16114, IDS_DEFAULT)
+#. Resource IDs: (IDS_AFXBARRES_DEFAULT_VIEW, IDS_DEFAULT)
 msgid "Default"
 msgstr "默认"
 
-#. Resource IDs: (16106)
+#. Resource IDs: (IDS_AFXBARRES_DEFUALT_MENU)
 msgid "Default Menu"
 msgstr "默认菜单"
 
-#. Resource IDs: (16107)
+#. Resource IDs: (IDS_AFXBARRES_DEFAULT_MENU_DESCR)
 msgid "Default application menu. Appears when no documents are open."
 msgstr "默认应用程序菜单。在没有打开文档的时候显示。"
 
@@ -3917,8 +3923,8 @@ msgstr "日志信息默认限量:"
 msgid "Default to UTF-8 encoding"
 msgstr "默认为UTF-8编码"
 
-#. Resource IDs: (16020, Dialog IDD_RESOLVE_CONFLICT: Control id 4571,
-#. IDS_DELETE_BRANCHTAG_SHORT)
+#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4571,
+#. IDS_AFXBARRES_DELETE, IDS_DELETE_BRANCHTAG_SHORT)
 msgid "Delete"
 msgstr "删除"
 
@@ -4074,11 +4080,14 @@ msgstr "描述"
 msgid "Describe Strategy"
 msgstr "描述策略"
 
-#. Resource IDs: (16031, IDS_DESCRIPTION)
+#. Resource IDs: (IDS_AFXBARRES_DESCRIPTION, IDS_DESCRIPTION)
 msgid "Description"
 msgstr "描述"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 65535, Dialog
+#. IDD_AFXBARRES_PROPPAGE1: Control id 65535, Dialog IDD_AFXBARRES_PROPPAGE5:
+#. Control id 65535, Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id
+#. 65535)
 msgid "Description:"
 msgstr "描述: "
 
@@ -4090,7 +4099,7 @@ msgstr "取消选定修改列表"
 msgid "Destination"
 msgstr "目标"
 
-#. Resource IDs: (61730)
+#. Resource IDs: (AFX_IDP_FAILED_DISK_FULL)
 msgid "Destination disk drive is full."
 msgstr "目标磁盘已满。"
 
@@ -4116,7 +4125,7 @@ msgstr "在同一个提交的修改文件中检测移动和复制的行"
 msgid "Detect moved or copied lines within a file"
 msgstr "检测文件内移动和复制的行"
 
-#. Resource IDs: (61583)
+#. Resource IDs: (AFX_IDS_DIB_FORMAT)
 msgid ""
 "Device Independent Bitmap\n"
 "a device independent bitmap"
@@ -4239,17 +4248,17 @@ msgstr "停用检查更新"
 msgid "Disabled"
 msgstr "已禁用"
 
-#. Resource IDs: (61869)
+#. Resource IDs: (AFX_IDP_FILE_DISKFULL)
 #, c-format
 msgid "Disk full while accessing %1."
 msgstr "存取 %1 时磁盘已满。"
 
-#. Resource IDs: (61745)
+#. Resource IDs: (AFX_IDP_SCRIPT_DISPATCH_EXCEPTION)
 #, c-format
 msgid "Dispatch exception: %1"
 msgstr "分派异常: %1"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 65535)
 msgid "Display &buttons in this order"
 msgstr "按照此顺序显示按钮(&B)"
 
@@ -4325,7 +4334,7 @@ msgstr "您确定要删除 %d 个贮藏吗？"
 msgid "Do you really want to delete \"%s\"?"
 msgstr "您真的要删除“%s”吗？"
 
-#. Resource IDs: (16109)
+#. Resource IDs: (IDS_AFXBARRES_DELETE_TOOLBAR_FMT)
 #, c-format
 msgid "Do you really want to delete the toolbar '%Ts'?"
 msgstr "您确定要删除工具栏“%Ts”吗？"
@@ -4355,6 +4364,10 @@ msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
 msgstr "您确定要永久删除 %d 个选择的引用吗？这个操作不能恢复！"
+
+#. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
+msgid "Do you really want to push all local branches?"
+msgstr ""
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -4422,7 +4435,7 @@ msgid ""
 "as resolved?"
 msgstr "您要标记文件\n%s\n为已解决吗？"
 
-#. Resource IDs: (62182)
+#. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_3)
 msgid "Do you want to recover these auto-saved documents?"
 msgstr "您要恢复这些自动保存的文档吗？"
 
@@ -4440,7 +4453,7 @@ msgstr "您要查看变更吗？"
 msgid "Do you want to stash pop now?"
 msgstr "您现在要弹出贮藏(Stash)吗？"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Document :"
 msgstr "文档:"
 
@@ -4453,7 +4466,7 @@ msgstr "因为未知分支\"%s\"，所以不知道推送内容"
 msgid "Don't know what will push because you enter URL"
 msgstr "因为您输入了 URL，所以不知道什么将被推送"
 
-#. Resource IDs: (62185)
+#. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_6)
 msgid ""
 "Don't recover the auto-saved documents\n"
 "Use the last explicitly saved versions of the documents"
@@ -4495,11 +4508,11 @@ msgstr "下载"
 msgid "Download language packs:"
 msgstr "下载语言包："
 
-#. Resource IDs: (16028)
+#. Resource IDs: (IDS_AFX_TEAR_OFF)
 msgid "Drag to make this menu float"
 msgstr "通过拖动使此菜单浮动"
 
-#. Resource IDs: (16513)
+#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 16513)
 msgid "Draw"
 msgstr "画图"
 
@@ -4581,7 +4594,7 @@ msgstr "编辑本地.git/config(&L)"
 msgid "Edit .tgitconfig"
 msgstr "编辑 .tgitconfig"
 
-#. Resource IDs: (16133)
+#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 16133)
 msgid "Edit Button Image"
 msgstr "编辑按钮图片"
 
@@ -4723,31 +4736,31 @@ msgid ""
 "Hold down the Ctrl key to reload the file with the specified encoding."
 msgstr "编码\n转换到特定编码\n按住 Ctrl 键使用指定编码重新加载该文件。"
 
-#. Resource IDs: (61866)
+#. Resource IDs: (AFX_IDP_FILE_HARD_IO)
 #, c-format
 msgid "Encountered a hardware I/O error while accessing %1."
 msgstr "存取 %1 时发生硬件 I/O 错误。"
 
-#. Resource IDs: (61868)
+#. Resource IDs: (AFX_IDP_FILE_LOCKING)
 #, c-format
 msgid "Encountered a locking violation while accessing %1."
 msgstr "存取 %1 时发生锁定错误。"
 
-#. Resource IDs: (61867)
+#. Resource IDs: (AFX_IDP_FILE_SHARING)
 #, c-format
 msgid "Encountered a sharing violation while accessing %1."
 msgstr "存取 %1 时发生共享错误。"
 
-#. Resource IDs: (61477)
+#. Resource IDs: (AFX_IDS_INVALID_ARG_EXCEPTION)
 msgid "Encountered an improper argument."
 msgstr "参数错误。"
 
-#. Resource IDs: (61733)
+#. Resource IDs: (AFX_IDP_FAILED_IO_ERROR_READ)
 #, c-format
 msgid "Encountered an unexpected error while reading %1."
 msgstr "读取 %1 时意外出错。"
 
-#. Resource IDs: (61734)
+#. Resource IDs: (AFX_IDP_FAILED_IO_ERROR_WRITE)
 #, c-format
 msgid "Encountered an unexpected error while writing %1."
 msgstr "写入 %1 时意外出错。"
@@ -4764,7 +4777,7 @@ msgstr "结束"
 msgid "End of Line Style"
 msgstr "行结束符风格"
 
-#. Resource IDs: (61187)
+#. Resource IDs: (AFX_IDS_SCMAXIMIZE)
 msgid "Enlarge the window to full size"
 msgstr "扩大窗口到全尺寸"
 
@@ -4772,19 +4785,19 @@ msgstr "扩大窗口到全尺寸"
 msgid "Enter URL"
 msgstr "输入 URL"
 
-#. Resource IDs: (61722)
+#. Resource IDs: (AFX_IDP_PARSE_GUID)
 msgid "Enter a GUID."
 msgstr "请输入一个 GUID。"
 
-#. Resource IDs: (61721)
+#. Resource IDs: (AFX_IDP_PARSE_CURRENCY)
 msgid "Enter a currency."
 msgstr "请输入货币。"
 
-#. Resource IDs: (61720)
+#. Resource IDs: (AFX_IDP_PARSE_DATETIME)
 msgid "Enter a date and/or time."
 msgstr "请输入日期和(或)时间。"
 
-#. Resource IDs: (61724)
+#. Resource IDs: (AFX_IDP_PARSE_DATE)
 msgid "Enter a date."
 msgstr "请输入日期。"
 
@@ -4792,33 +4805,33 @@ msgstr "请输入日期。"
 msgid "Enter a name for the changelist:"
 msgstr "请输入修改列表的名称: "
 
-#. Resource IDs: (61715)
+#. Resource IDs: (AFX_IDP_PARSE_REAL_RANGE)
 #, c-format
 msgid "Enter a number between %1 and %2."
 msgstr "请输入介于 %1 与 %2 之间的数字。"
 
-#. Resource IDs: (61713)
+#. Resource IDs: (AFX_IDP_PARSE_REAL)
 msgid "Enter a number."
 msgstr "请输入数字。"
 
-#. Resource IDs: (61719)
+#. Resource IDs: (AFX_IDP_PARSE_UINT)
 msgid "Enter a positive integer."
 msgstr "请输入正整数。"
 
-#. Resource IDs: (61723)
+#. Resource IDs: (AFX_IDP_PARSE_TIME)
 msgid "Enter a time."
 msgstr "请输入时间。"
 
-#. Resource IDs: (61714)
+#. Resource IDs: (AFX_IDP_PARSE_INT_RANGE)
 #, c-format
 msgid "Enter an integer between %1 and %2."
 msgstr "请输入介于 %1 与 %2 之间的整数。"
 
-#. Resource IDs: (61718)
+#. Resource IDs: (AFX_IDP_PARSE_BYTE)
 msgid "Enter an integer between 0 and 255."
 msgstr "请输入介于 0 到 255 之间的整数。"
 
-#. Resource IDs: (61712)
+#. Resource IDs: (AFX_IDP_PARSE_INT)
 msgid "Enter an integer."
 msgstr "请输入整数。"
 
@@ -4830,7 +4843,7 @@ msgstr "请在下面输入要测试的文件内容："
 msgid "Enter log &message:"
 msgstr "请输入日志信息(&M): "
 
-#. Resource IDs: (61716)
+#. Resource IDs: (AFX_IDP_PARSE_STRING_SIZE)
 #, c-format
 msgid "Enter no more than %1 characters."
 msgstr "请勿输入超过 %1 个字符。"
@@ -4875,7 +4888,7 @@ msgstr "读写注册表键值 %s 时发生错误\n%s"
 msgid "Everything updated."
 msgstr "已经最新"
 
-#. Resource IDs: (16023)
+#. Resource IDs: (IDS_AFXBARRES_CMD_FILTER)
 msgid ""
 "Executable (*.exe)|*.exe|Command (*.com)|*.com|Information "
 "(*.pdf)|*.pdf|Batch (*.bat)|*.bat|All Files (*.*)|*.*||"
@@ -4885,7 +4898,7 @@ msgstr "可执行 (*.exe)|*.exe|命令 (*.com)|*.com|信息 (*.pdf)|*.pdf|批处
 msgid "Executable (+x)"
 msgstr "可执行 (+x)"
 
-#. Resource IDs: (16018)
+#. Resource IDs: (IDS_AFXBARRES_EXISTING)
 msgid "Existing"
 msgstr "已存在"
 
@@ -4894,12 +4907,12 @@ msgstr "已存在"
 msgid "Exit"
 msgstr "退出"
 
-#. Resource IDs: (16025)
+#. Resource IDs: (IDS_AFXBARRES_EXPAND_FMT)
 #, c-format
 msgid "Expand (%Ts)"
 msgstr "展开 (%Ts)"
 
-#. Resource IDs: (16012)
+#. Resource IDs: (IDS_AFXBARRES_EXPAND_BAR)
 msgid "Expand docked window"
 msgstr "展开钉住的窗口"
 
@@ -4969,7 +4982,7 @@ msgstr "外部程序: "
 msgid "F&etch..."
 msgstr "获取(&E)..."
 
-#. Resource IDs: (17113)
+#. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_FADE)
 msgid "Fade"
 msgstr "渐变"
 
@@ -4991,21 +5004,21 @@ msgstr "检出文件“%s”失败"
 msgid "Failed to checkout file \"%s\" of revision %s to \"%s\"."
 msgstr "检出文件“%s”的版本 %s 到“%s”失败。"
 
-#. Resource IDs: (61825)
+#. Resource IDs: (AFX_IDP_FAILED_TO_CONNECT)
 msgid ""
 "Failed to connect.\n"
 "Link may be broken."
 msgstr "连接失败。\n链接可能中断了。"
 
-#. Resource IDs: (61835)
+#. Resource IDs: (AFX_IDP_FAILED_TO_CONVERT)
 msgid "Failed to convert ActiveX object."
 msgstr "转换 ActiveX 对象失败。"
 
-#. Resource IDs: (61700)
+#. Resource IDs: (AFX_IDP_FAILED_TO_CREATE_DOC)
 msgid "Failed to create empty document."
 msgstr "创建空文档失败。"
 
-#. Resource IDs: (61839)
+#. Resource IDs: (AFX_IDP_FAILED_TO_CREATE)
 msgid ""
 "Failed to create object.  Make sure the application is entered in the system"
 " registry."
@@ -5023,23 +5036,23 @@ msgstr "获得基础文件失败。"
 msgid "Failed to get merge file."
 msgstr "获得合并文件失败。"
 
-#. Resource IDs: (61703)
+#. Resource IDs: (AFX_IDP_FAILED_TO_LAUNCH_HELP)
 msgid "Failed to launch help."
 msgstr "启动帮助失败。"
 
-#. Resource IDs: (61830)
+#. Resource IDs: (AFX_IDP_FAILED_TO_LAUNCH)
 msgid "Failed to launch server application."
 msgstr "启动服务器应用程序失败。"
 
-#. Resource IDs: (61697)
+#. Resource IDs: (AFX_IDP_FAILED_TO_OPEN_DOC)
 msgid "Failed to open document."
 msgstr "打开文档失败。"
 
-#. Resource IDs: (61827)
+#. Resource IDs: (AFX_IDP_BAD_VERB)
 msgid "Failed to perform server operation."
 msgstr "执行服务器操作失败。"
 
-#. Resource IDs: (61698)
+#. Resource IDs: (AFX_IDP_FAILED_TO_SAVE_DOC)
 msgid "Failed to save document."
 msgstr "保存文档失败。"
 
@@ -5123,7 +5136,7 @@ msgstr "正在获取文件..."
 msgid "Fetching revision %s of file:"
 msgstr "正在获取文件的 %s 版本: "
 
-#. Resource IDs: (16015, IDS_CHSTAT_FILECOL, IDS_COMMITDLG_FILE,
+#. Resource IDs: (IDS_AFXBARRES_FILE, IDS_CHSTAT_FILECOL, IDS_COMMITDLG_FILE,
 #. IDS_FILEDIFF_FILE, IDS_LOG_FILE)
 msgid "File"
 msgstr "文件"
@@ -5329,7 +5342,7 @@ msgstr "适合图像高度(&H)\tH"
 msgid "Fit image &widths\tW"
 msgstr "适合图像宽度(&W)\tW"
 
-#. Resource IDs: (16016)
+#. Resource IDs: (IDS_AFXBARRES_FOLDER)
 msgid "Folder"
 msgstr "文件夹"
 
@@ -5342,7 +5355,7 @@ msgstr "跟随重命名"
 msgid "Font"
 msgstr "字体"
 
-#. Resource IDs: (57345)
+#. Resource IDs: (AFX_IDS_IDLEMESSAGE)
 msgid "For Help, press F1. Scroll horizontally with Ctrl-Scrollwheel"
 msgstr "按 F1 键寻求帮助；用 Ctrl+鼠标滚轮横向滚动"
 
@@ -5469,7 +5482,7 @@ msgstr "从已修改文件"
 msgid "From:"
 msgstr "起始: "
 
-#. Resource IDs: (17026)
+#. Resource IDs: (IDS_AFXBARRES_FULLSCREEN)
 msgid "Full Screen"
 msgstr "全屏"
 
@@ -5571,11 +5584,6 @@ msgstr "获取合并日志"
 #, c-format
 msgid "Getting file %s"
 msgstr "正在获取文件 %s"
-
-#. Resource IDs: (IDS_PROGRESSGETFILEREVISION)
-#, c-format
-msgid "Getting file %s, revision %s"
-msgstr "正在获取文件的 %s 版本 %s"
 
 #. Resource IDs: (IDS_PROGRESS_INFO)
 msgid "Getting information..."
@@ -5766,7 +5774,7 @@ msgstr "版本树"
 msgid "Graph type:"
 msgstr "图表类型:"
 
-#. Resource IDs: (16972)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_PAGE_ONE: Control id 16972)
 msgid "Gray"
 msgstr "灰色"
 
@@ -5782,7 +5790,7 @@ msgstr "分组修改列表"
 msgid "H&ide Unrelated Changed Paths"
 msgstr "隐藏不相关的文件(&I)"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
 msgid "H&ue:"
 msgstr "色彩(&U):"
 
@@ -5831,7 +5839,7 @@ msgstr "Hebrew"
 msgid "Help"
 msgstr "帮助"
 
-#. Resource IDs: (16982)
+#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16982)
 msgid "Help Keyboard"
 msgstr "键盘帮助"
 
@@ -5843,7 +5851,7 @@ msgstr "助手:"
 msgid "Helpers:"
 msgstr "助手："
 
-#. Resource IDs: (16974)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_PAGE_ONE: Control id 16974)
 msgid "Hex"
 msgstr "十六进制"
 
@@ -5855,7 +5863,7 @@ msgstr "对于未版本控制的路径隐藏菜单"
 msgid "Hide Patch<<"
 msgstr "隐藏补丁<<"
 
-#. Resource IDs: (16011)
+#. Resource IDs: (IDS_AFXBARRES_HIDE_BAR)
 msgid "Hide docked window"
 msgstr "隐藏钉住的窗口"
 
@@ -5893,7 +5901,7 @@ msgid ""
 "the text field."
 msgstr "提示：最近使用过的提交消息可通过文本框的右键菜单取得。"
 
-#. Resource IDs: (16519)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16519)
 msgid ""
 "Hint: select the context menu, change the page to 'Commands' and drag the "
 "toolbar buttons into the menu window."
@@ -6370,15 +6378,15 @@ msgid ""
 "Ignore whitespace changes"
 msgstr "在比较时忽略空白字符变动\n忽略空白变动"
 
-#. Resource IDs: (16916 - Menu)
+#. Resource IDs: (ID_AFXBARRES_TOOLBAR_IMAGE_AND_TEXT - Menu)
 msgid "Image &and Text"
 msgstr "图片与文本(&A)"
 
-#. Resource IDs: (16507)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16507)
 msgid "Image &and text"
 msgstr "图片与文本(&A)"
 
-#. Resource IDs: (16508)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16508)
 msgid "Images"
 msgstr "图片"
 
@@ -6448,7 +6456,7 @@ msgstr "在分支选择框中包含 FETCH_HEAD"
 msgid "Include only the following revision range:"
 msgstr "仅包括下列版本范围:"
 
-#. Resource IDs: (61696)
+#. Resource IDs: (AFX_IDP_INVALID_FILENAME)
 msgid "Incorrect filename."
 msgstr "错误的文件名。"
 
@@ -6484,15 +6492,15 @@ msgid ""
 "Paste"
 msgstr "插入剪贴板内容\n粘贴"
 
-#. Resource IDs: (61706)
+#. Resource IDs: (AFX_IDP_FAILED_MEMORY_ALLOC)
 msgid "Insufficient memory to perform operation."
 msgstr "内存不足，无法完成操作。"
 
-#. Resource IDs: (61704)
+#. Resource IDs: (AFX_IDP_INTERNAL_FAILURE)
 msgid "Internal application error."
 msgstr "内部程序错误。"
 
-#. Resource IDs: (61592)
+#. Resource IDs: (AFX_IDS_INVALID_CURRENCY)
 msgid "Invalid Currency."
 msgstr "非法货币。"
 
@@ -6550,15 +6558,15 @@ msgid ""
 "Jump to first unresolved conflict"
 msgstr "保持解决\n跳到首个冲突处"
 
-#. Resource IDs: (16136)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16136)
 msgid "Keyboard"
 msgstr "键盘"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 65535)
 msgid "Keyboard shortcuts:"
 msgstr "键盘快捷键:"
 
-#. Resource IDs: (16030)
+#. Resource IDs: (IDS_AFXBARRES_KEYS)
 msgid "Keys"
 msgstr "键"
 
@@ -6738,7 +6746,8 @@ msgid ""
 "\"long/path/for/file.txt (from long/path/to/file.txt)\"."
 msgstr "列出已更名的文件为 \"long/path/{to => for}/file.txt\"，而不是 \"long/path/for/file.txt (from long/path/to/file.txt)\""
 
-#. Resource IDs: (16631, 16992)
+#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16992, Dialog
+#. IDD_AFXBARRES_PROPPAGE4: Control id 16631)
 msgid "List1"
 msgstr "List1"
 
@@ -6841,19 +6850,7 @@ msgstr "日志信息(显示日志对话框)"
 msgid "Login:"
 msgstr "用户名:"
 
-#. Resource IDs: (IDS_REPOSTATUS_WCINFO)
-#, c-format
-msgid "Lowest shown revision: %ld - Highest shown revision: %ld"
-msgstr "最低显示版本: %ld - 最高显示版本: %ld"
-
-#. Resource IDs: (IDS_REPOSTATUS_HEADREV)
-#, c-format
-msgid ""
-"Lowest shown revision: %ld - Highest shown revision: %ld - HEAD revision: "
-"%ld"
-msgstr "最低显示版本 %ld - 最高显示版本: %ld - 最新版本: %ld"
-
-#. Resource IDs: (16973)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 16973)
 msgid "Lum"
 msgstr "亮度"
 
@@ -6873,7 +6870,7 @@ msgstr "Macintosh"
 msgid "Mail"
 msgstr "邮件"
 
-#. Resource IDs: (61841)
+#. Resource IDs: (AFX_IDP_INVALID_MAPI_DLL)
 msgid "Mail system DLL is invalid."
 msgstr "邮件系统 DLL 无效。"
 
@@ -6948,19 +6945,19 @@ msgstr "日志中保留的最大条目数量"
 msgid "Max. lines in action log"
 msgstr "动作记录最大行数"
 
-#. Resource IDs: (16655)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16655)
 msgid "Me&nus show recently used commands first"
 msgstr "菜单中首先显示最近使用过的命令(&N)"
 
-#. Resource IDs: (16134)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16134)
 msgid "Menu"
 msgstr "菜单"
 
-#. Resource IDs: (16006)
+#. Resource IDs: (IDS_AFXBARRES_MENU_BAR_TITLE)
 msgid "Menu Bar"
 msgstr "菜单栏"
 
-#. Resource IDs: (16626)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16626)
 msgid "Menu s&hadows"
 msgstr "菜单阴影(&H)"
 
@@ -7008,20 +7005,10 @@ msgstr "合并其他分支"
 msgid "Merging"
 msgstr "合并"
 
-#. Resource IDs: (IDS_PROGRS_CMD_MERGEURL)
-#, c-format
-msgid "Merging from %s, revision %s to %s, revision %s into %s, %s%s"
-msgstr "从 %s 合并，版本 %s 至 %s，版本 %s 到 %s，%s%s"
-
 #. Resource IDs: (IDS_ERR_MERGEIDENTICALREVISIONS)
 msgid ""
 "Merging requires different revisions or different URLs in 'From:' and 'To:'"
 msgstr "合并指定的不同版本差异或从“起始: ” URL 到“结束: ” URL 之间的差异"
-
-#. Resource IDs: (IDS_PROGRS_CMD_MERGEPEG)
-#, c-format
-msgid "Merging revisions %s of %s into %s, %s%s"
-msgstr "合并版本 %s 于 %s 到 %s，%s%s"
 
 #. Resource IDs: (IDS_LOG_MESSAGE, IDS_MESSAGE)
 msgid "Message"
@@ -7049,7 +7036,7 @@ msgstr "最小"
 msgid "Mine"
 msgstr "现有文件（mine）"
 
-#. Resource IDs: (17086)
+#. Resource IDs: (IDS_AFXBARRES_MINIMIZE_RIBBON)
 msgid "Minimize the Ribbon"
 msgstr "最小化功能区"
 
@@ -7067,7 +7054,7 @@ msgstr "其他"
 msgid "Missing"
 msgstr "缺失"
 
-#. Resource IDs: (62179, IDS_RESET_MIXED)
+#. Resource IDs: (AFX_IDS_CHECKLISTBOX_MIXED, IDS_RESET_MIXED)
 msgid "Mixed"
 msgstr "混合"
 
@@ -7075,9 +7062,10 @@ msgstr "混合"
 msgid "Modification date"
 msgstr "修改日期"
 
-#. Resource IDs: (17131, Dialog IDD_COMMITDLG: Control id 1706, Dialog
-#. IDD_SETCOLORPAGE: Control id 65535, IDS_PATHACTIONS_MODIFIED,
-#. IDS_SVNACTION_MODIFIED, IDS_SVN_SUMMARIZEMODIFIED)
+#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1706, Dialog
+#. IDD_SETCOLORPAGE: Control id 65535, IDS_AFX_SHELLLISTCTRL_MODIFIED,
+#. IDS_PATHACTIONS_MODIFIED, IDS_SVNACTION_MODIFIED,
+#. IDS_SVN_SUMMARIZEMODIFIED)
 msgid "Modified"
 msgstr "已修改"
 
@@ -7085,15 +7073,15 @@ msgstr "已修改"
 msgid "Modified Files"
 msgstr "修改的文件"
 
-#. Resource IDs: (17107)
+#. Resource IDs: (IDS_AFXBARRES_MORE)
 msgid "More"
 msgstr "更多"
 
-#. Resource IDs: (16026)
+#. Resource IDs: (IDS_AFXBARRES_MORE_BUTTONS)
 msgid "More Buttons"
 msgstr "更多按钮"
 
-#. Resource IDs: (17097)
+#. Resource IDs: (IDS_AFXBARRES_MORE_COMMANDS)
 msgid "More Commands..."
 msgstr "更多命令..."
 
@@ -7109,23 +7097,23 @@ msgstr "更多..."
 msgid "Most active author:"
 msgstr "最活跃作者: "
 
-#. Resource IDs: (16135)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16135)
 msgid "Mouse"
 msgstr "鼠标"
 
-#. Resource IDs: (17026)
+#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 17026)
 msgid "Move &Down"
 msgstr "下移(&D)"
 
-#. Resource IDs: (17025)
+#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 17025)
 msgid "Move &Up"
 msgstr "上移(&U)"
 
-#. Resource IDs: (16022)
+#. Resource IDs: (IDS_AFXBARRES_MOVEDN)
 msgid "Move Item Down"
 msgstr "下移项目"
 
-#. Resource IDs: (16021)
+#. Resource IDs: (IDS_AFXBARRES_MOVEUP)
 msgid "Move Item Up"
 msgstr "上移项目"
 
@@ -7167,7 +7155,7 @@ msgstr "我的文件:"
 msgid "NUM"
 msgstr "数字"
 
-#. Resource IDs: (17128)
+#. Resource IDs: (IDS_AFX_SHELLLISTCTRL_NAME)
 msgid "Name"
 msgstr "名称"
 
@@ -7186,11 +7174,11 @@ msgid ""
 "Goto Line"
 msgstr "在视图中跳到特定行\n跳到行"
 
-#. Resource IDs: (17004)
+#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 17004)
 msgid "Navigation Pane Options"
 msgstr "窗格选项导航"
 
-#. Resource IDs: (17031)
+#. Resource IDs: (IDS_AFXBARRES_NAV_PANE_OPTIONS)
 msgid "Navigation Pane Options..."
 msgstr "窗格选项导航..."
 
@@ -7206,7 +7194,9 @@ msgstr "网络"
 msgid "Network::Email"
 msgstr "网络::邮件"
 
-#. Resource IDs: (16017, 16027, 30721, 65535, IDS_NEW)
+#. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 30721, Dialog
+#. IDD_AFXBARRES_COLOR_DLG: Control id 65535, IDS_AFXBARRES_NEW,
+#. IDS_AFXBARRES_NEW_FILE, IDS_NEW)
 msgid "New"
 msgstr "新增"
 
@@ -7218,7 +7208,7 @@ msgstr "新名称(&N): "
 msgid "New Branch/Tag"
 msgstr "创建分支/标签"
 
-#. Resource IDs: (16014)
+#. Resource IDs: (IDS_AFXBARRES_NEW_MENU)
 msgid "New Menu"
 msgstr "新菜单"
 
@@ -7326,11 +7316,11 @@ msgid ""
 "No differences found! Submodule may not be updated. Update submodule now?"
 msgstr "没有发现差异！子模块可能还没有被更新。立即更新子模块？"
 
-#. Resource IDs: (61472)
+#. Resource IDs: (AFX_IDP_NO_ERROR_AVAILABLE)
 msgid "No error message is available."
 msgstr "没有错误信息。"
 
-#. Resource IDs: (61856, 61872)
+#. Resource IDs: (AFX_IDP_ARCH_NONE, AFX_IDP_FILE_NONE)
 msgid "No error occurred."
 msgstr "没有发生错误。"
 
@@ -7417,8 +7407,8 @@ msgstr "没有找到工作目录。"
 msgid "Node size"
 msgstr "节点大小"
 
-#. Resource IDs: (17110, Dialog IDD_SETTINGSOVERLAY: Control id 1272,
-#. IDS_NONE)
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1272,
+#. IDS_AFXBARRES_MENU_ANIMATION_NONE, IDS_NONE)
 msgid "None"
 msgstr "无"
 
@@ -7443,7 +7433,7 @@ msgstr "未受版本控制的文件"
 msgid "Not all files could be downloaded and verified."
 msgstr "不是所有文件已经下载和验证"
 
-#. Resource IDs: (61708)
+#. Resource IDs: (AFX_IDP_UNREG_FAILURE)
 msgid "Not all of the system registry entries (or INI file) were removed."
 msgstr "没有删除全部的注册表项（或 INI 文件）。"
 
@@ -7466,7 +7456,7 @@ msgstr "没有生成出补丁。"
 msgid "Note node"
 msgstr "注释节点"
 
-#. Resource IDs: (62183)
+#. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_4)
 msgid ""
 "Note that if you choose to recover the auto-saved documents, you must "
 "explicitly save them to overwrite the original documents.  If you choose to "
@@ -7597,35 +7587,39 @@ msgstr "OEM 869"
 msgid "OEM-US"
 msgstr "OEM-US"
 
-#. Resource IDs: (1, Dialog IDD_ABOUT: Control id 1, Dialog IDD_ABOUTBOX:
-#. Control id 1, Dialog IDD_ADD: Control id 1, Dialog IDD_ADD_REMOTE: Control
-#. id 1, Dialog IDD_BISECTSTART: Control id 1, Dialog IDD_BROWSE_REFS: Control
-#. id 1, Dialog IDD_BUGTRAQREGEXTESTER: Control id 1, Dialog IDD_CHANGEDFILES:
-#. Control id 1, Dialog IDD_CLEAN: Control id 1, Dialog IDD_CLONE: Control id
-#. 1, Dialog IDD_CREATECHANGELIST: Control id 1, Dialog IDD_CREATEREPO:
-#. Control id 1, Dialog IDD_ENCODING: Control id 1, Dialog IDD_EXPORT: Control
-#. id 1, Dialog IDD_FORMAT_PATCH: Control id 1, Dialog IDD_GITSWITCH: Control
-#. id 1, Dialog IDD_GOTO: Control id 1, Dialog IDD_GOTODLG: Control id 1,
-#. Dialog IDD_HISTORYDLG: Control id 1, Dialog IDD_IGNORE: Control id 1,
-#. Dialog IDD_INPUTDLG: Control id 1, Dialog IDD_LOGMESSAGE: Control id 1,
-#. Dialog IDD_LOGORDERING: Control id 1, Dialog IDD_MERGE: Control id 1,
-#. Dialog IDD_MERGEABORT: Control id 1, Dialog IDD_NEW_BRANCH_TAG: Control id
-#. 1, Dialog IDD_OPEN: Control id 1, Dialog IDD_OPENDLG: Control id 1, Dialog
-#. IDD_PROMPT: Control id 1, Dialog IDD_PULLFETCH: Control id 1, Dialog
-#. IDD_PUSH: Control id 1, Dialog IDD_REFLOG: Control id 1, Dialog
-#. IDD_REGEXFILTER: Control id 1, Dialog IDD_REGEXFILTERS: Control id 1,
-#. Dialog IDD_RENAME: Control id 1, Dialog IDD_REPOSITORY_BROWSER: Control id
-#. 1, Dialog IDD_REQUESTPULL: Control id 1, Dialog IDD_RESET: Control id 1,
-#. Dialog IDD_RESOLVE: Control id 1, Dialog IDD_RESOLVE_CONFLICT: Control id
-#. 4569, Dialog IDD_REVERT: Control id 1, Dialog IDD_SETTINGSBUGTRAQADV:
-#. Control id 1, Dialog IDD_SETTINGSHOOKCONFIG: Control id 1, Dialog
-#. IDD_SETTINGSPROGSADV: Control id 1, Dialog IDD_SIMPLEPROMPT: Control id 1,
-#. Dialog IDD_STASH: Control id 1, Dialog IDD_STATGRAPH: Control id 1, Dialog
-#. IDD_SUBMODULE_ADD: Control id 1, Dialog IDD_SUBMODULE_UPDATE: Control id 1,
-#. Dialog IDD_SVNDCOMMITTYPE: Control id 1, Dialog IDD_SVNIGNORE: Control id
-#. 1, Dialog IDD_SVNPROGRESS: Control id 1, Dialog IDD_TOOLASSOC: Control id
-#. 1, Dialog IDD_URL: Control id 1, Dialog IDD_USER_PASSWD: Control id 1,
-#. IDS_MSGBOX_OK)
+#. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 1, Dialog IDD_ABOUT:
+#. Control id 1, Dialog IDD_ABOUTBOX: Control id 1, Dialog IDD_ADD: Control id
+#. 1, Dialog IDD_ADD_REMOTE: Control id 1, Dialog IDD_AFXBARRES_BUTTON_PROPS:
+#. Control id 1, Dialog IDD_AFXBARRES_COLOR_DLG: Control id 1, Dialog
+#. IDD_AFXBARRES_IMAGE_EDITOR: Control id 1, Dialog
+#. IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 1, Dialog
+#. IDD_AFXBARRES_TOOLBAR_NAME: Control id 1, Dialog IDD_BISECTSTART: Control
+#. id 1, Dialog IDD_BROWSE_REFS: Control id 1, Dialog IDD_BUGTRAQREGEXTESTER:
+#. Control id 1, Dialog IDD_CHANGEDFILES: Control id 1, Dialog IDD_CLEAN:
+#. Control id 1, Dialog IDD_CLONE: Control id 1, Dialog IDD_CREATECHANGELIST:
+#. Control id 1, Dialog IDD_CREATEREPO: Control id 1, Dialog IDD_ENCODING:
+#. Control id 1, Dialog IDD_EXPORT: Control id 1, Dialog IDD_FORMAT_PATCH:
+#. Control id 1, Dialog IDD_GITSWITCH: Control id 1, Dialog IDD_GOTO: Control
+#. id 1, Dialog IDD_GOTODLG: Control id 1, Dialog IDD_HISTORYDLG: Control id
+#. 1, Dialog IDD_IGNORE: Control id 1, Dialog IDD_INPUTDLG: Control id 1,
+#. Dialog IDD_LOGMESSAGE: Control id 1, Dialog IDD_LOGORDERING: Control id 1,
+#. Dialog IDD_MERGE: Control id 1, Dialog IDD_MERGEABORT: Control id 1, Dialog
+#. IDD_NEW_BRANCH_TAG: Control id 1, Dialog IDD_OPEN: Control id 1, Dialog
+#. IDD_OPENDLG: Control id 1, Dialog IDD_PROMPT: Control id 1, Dialog
+#. IDD_PULLFETCH: Control id 1, Dialog IDD_PUSH: Control id 1, Dialog
+#. IDD_REFLOG: Control id 1, Dialog IDD_REGEXFILTER: Control id 1, Dialog
+#. IDD_REGEXFILTERS: Control id 1, Dialog IDD_RENAME: Control id 1, Dialog
+#. IDD_REPOSITORY_BROWSER: Control id 1, Dialog IDD_REQUESTPULL: Control id 1,
+#. Dialog IDD_RESET: Control id 1, Dialog IDD_RESOLVE: Control id 1, Dialog
+#. IDD_RESOLVE_CONFLICT: Control id 4569, Dialog IDD_REVERT: Control id 1,
+#. Dialog IDD_SETTINGSBUGTRAQADV: Control id 1, Dialog IDD_SETTINGSHOOKCONFIG:
+#. Control id 1, Dialog IDD_SETTINGSPROGSADV: Control id 1, Dialog
+#. IDD_SIMPLEPROMPT: Control id 1, Dialog IDD_STASH: Control id 1, Dialog
+#. IDD_STATGRAPH: Control id 1, Dialog IDD_SUBMODULE_ADD: Control id 1, Dialog
+#. IDD_SUBMODULE_UPDATE: Control id 1, Dialog IDD_SVNDCOMMITTYPE: Control id
+#. 1, Dialog IDD_SVNIGNORE: Control id 1, Dialog IDD_SVNPROGRESS: Control id
+#. 1, Dialog IDD_TOOLASSOC: Control id 1, Dialog IDD_URL: Control id 1, Dialog
+#. IDD_USER_PASSWD: Control id 1, IDS_MSGBOX_OK)
 msgid "OK"
 msgstr "确定"
 
@@ -7673,7 +7667,7 @@ msgstr "旧行"
 msgid "On demand"
 msgstr "按照需求"
 
-#. Resource IDs: (62180)
+#. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_1)
 msgid "One or more auto-saved documents were found."
 msgstr "发现了自动保存文档。"
 
@@ -7720,7 +7714,8 @@ msgstr "仅此项"
 msgid "Only unmerged (to HEAD)"
 msgstr "仅未合并（至 HEAD）"
 
-#. Resource IDs: (61440, ID_FILE_OPEN - Menu, ID_FILE_OPEN - Ribbon name)
+#. Resource IDs: (AFX_IDS_OPENFILE, ID_FILE_OPEN - Menu, ID_FILE_OPEN - Ribbon
+#. name)
 msgid "Open"
 msgstr "打开"
 
@@ -7784,9 +7779,9 @@ msgstr "打开库浏览器"
 msgid "Option"
 msgstr "选项"
 
-#. Resource IDs: (16137, Dialog IDD_NEW_BRANCH_TAG: Control id 1517, Dialog
-#. IDD_PULLFETCH: Control id 1517, Dialog IDD_PUSH: Control id 1502, Dialog
-#. IDD_STASH: Control id 1517)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16137, Dialog
+#. IDD_NEW_BRANCH_TAG: Control id 1517, Dialog IDD_PULLFETCH: Control id 1517,
+#. Dialog IDD_PUSH: Control id 1502, Dialog IDD_STASH: Control id 1517)
 msgid "Options"
 msgstr "选项"
 
@@ -7814,7 +7809,7 @@ msgstr "将推送的变更"
 msgid "Out Commits"
 msgstr "将推送的提交"
 
-#. Resource IDs: (61475)
+#. Resource IDs: (AFX_IDS_MEMORY_EXCEPTION)
 msgid "Out of memory."
 msgstr "内存不足。"
 
@@ -7822,7 +7817,7 @@ msgstr "内存不足。"
 msgid "Output Directory"
 msgstr "输出目录"
 
-#. Resource IDs: (61510)
+#. Resource IDs: (AFX_IDS_PRINTDEFAULT)
 msgid "Output.prn"
 msgstr "Output.prn"
 
@@ -7838,19 +7833,19 @@ msgstr "覆盖工作树变更 (强制)(&F)"
 msgid "P&age setup..."
 msgstr "页面设置(&A)..."
 
-#. Resource IDs: (61507)
+#. Resource IDs: (AFX_IDS_PRINTPAGENUM)
 #, c-format
 msgid "Page %u"
 msgstr "第 %u 页"
 
-#. Resource IDs: (61508)
+#. Resource IDs: (AFX_IDS_PREVIEWPAGEDESC)
 #, c-format
 msgid ""
 "Page %u\n"
 "Pages %u-%u\n"
 msgstr "第 %u 页\n页面范围 %u-%u\n"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Page :"
 msgstr "页:"
 
@@ -7998,7 +7993,7 @@ msgstr "作者比例"
 msgid "Percents"
 msgstr "比例"
 
-#. Resource IDs: (16538)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16538)
 msgid "Personalized Menus and Toolbars"
 msgstr "个人菜单和工具栏"
 
@@ -8019,13 +8014,13 @@ msgstr "摘取提交消息(&M)"
 msgid "Pick up %s"
 msgstr "摘取 %s"
 
-#. Resource IDs: (61582)
+#. Resource IDs: (AFX_IDS_METAFILE_FORMAT)
 msgid ""
 "Picture (Metafile)\n"
 "a picture"
 msgstr "图片 (元文件)\n一张图片"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 65535)
 msgid "Picture:"
 msgstr "图片:"
 
@@ -8096,7 +8091,7 @@ msgstr "请稍候..."
 msgid "Popup"
 msgstr "弹出"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Port :"
 msgstr "端口: "
 
@@ -8112,7 +8107,7 @@ msgstr "Post-Commit Hook"
 msgid "Post-Push Hook"
 msgstr "Post-Push Hook"
 
-#. Resource IDs: (58115)
+#. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58115)
 msgid "Pre&v Page"
 msgstr "上页(&V)"
 
@@ -8140,15 +8135,15 @@ msgstr "前置右边块"
 msgid "Prepend this block to left"
 msgstr "前置这个块到左边"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 65535)
 msgid "Press &New Shortcut Key:"
 msgstr "按下新的快捷键(&N):"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
 msgid "Press &new shortcut key:"
 msgstr "按下新的快捷键(&N):"
 
-#. Resource IDs: (17094)
+#. Resource IDs: (IDS_AFXBARRES_PREVIEW)
 msgid "Preview"
 msgstr "预览"
 
@@ -8156,7 +8151,7 @@ msgstr "预览"
 msgid "Preview patched file"
 msgstr "预览打过补丁的文件"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 65535)
 msgid "Preview: "
 msgstr "预览: "
 
@@ -8189,7 +8184,8 @@ msgstr "上一处差异"
 msgid "Previous inline difference"
 msgstr "上一内嵌差异"
 
-#. Resource IDs: (16990, 17092)
+#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16990,
+#. IDS_AFXBARRES_PRINT)
 msgid "Print"
 msgstr "打印"
 
@@ -8211,19 +8207,19 @@ msgid ""
 "Print"
 msgstr "打印当前文档\n打印"
 
-#. Resource IDs: (61512)
+#. Resource IDs: (AFX_IDS_PRINTCAPTION)
 msgid "Print to File"
 msgstr "打印到文件"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Printer :"
 msgstr "打印机:"
 
-#. Resource IDs: (61511)
+#. Resource IDs: (AFX_IDS_PRINTFILTER)
 msgid "Printer Files (*.prn)|*.prn|All Files (*.*)|*.*||"
 msgstr "打印机文件 (*.prn)|*.prn|所有文件 (*.*)|*.*||"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Printing"
 msgstr "打印"
 
@@ -8350,11 +8346,6 @@ msgstr "Putty 密钥:"
 msgid "Putty Private Key (*.ppk)|*.ppk|All Files (*.*)|*.*||"
 msgstr "Putty 私钥 (*.ppk)|*.ppk|所有文件 (*.*)|*.*||"
 
-#. Resource IDs: (IDS_STATGRAPH_QUARTERLABEL)
-#, c-format
-msgid "Q%d/%.2d"
-msgstr "Q%d/%.2d"
-
 #. Resource IDs: (57665)
 msgid ""
 "Quit the application; prompts to save documents\n"
@@ -8375,7 +8366,7 @@ msgstr "引号包裹路径"
 msgid "R&AM drives"
 msgstr "内存虚拟磁盘(&A)"
 
-#. Resource IDs: (16623)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16623)
 msgid "R&eset"
 msgstr "重置(&E)"
 
@@ -8421,11 +8412,12 @@ msgstr "可移动磁盘(&M)"
 msgid "Re&name..."
 msgstr "更名(&N)..."
 
-#. Resource IDs: (16613)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 16613)
 msgid "Re&set"
 msgstr "重置(&S)"
 
-#. Resource IDs: (16647)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16647, Dialog
+#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16647)
 msgid "Re&set All"
 msgstr "全部重置(&S)"
 
@@ -8467,7 +8459,7 @@ msgstr "变基(rebase)..."
 msgid "Rebasing... (%d/%d)"
 msgstr "变基中... (%d/%d)"
 
-#. Resource IDs: (16019)
+#. Resource IDs: (IDS_AFXBARRES_RECENT)
 msgid "Recent"
 msgstr "最近的"
 
@@ -8487,7 +8479,7 @@ msgstr "推荐：Git for Windows"
 msgid "Record Only"
 msgstr "仅记录"
 
-#. Resource IDs: (62184)
+#. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_5)
 msgid ""
 "Recover the auto-saved documents\n"
 "Open the auto-saved versions instead of the explicitly saved versions"
@@ -8521,7 +8513,7 @@ msgid ""
 "Redo"
 msgstr "重做上次撤销的动作\n重做"
 
-#. Resource IDs: (61186)
+#. Resource IDs: (AFX_IDS_SCMINIMIZE)
 msgid "Reduce the window to an icon"
 msgstr "缩小窗口为图标"
 
@@ -8701,7 +8693,7 @@ msgstr "比较差异前移除所有注释，以便不显示注释的变更"
 msgid "Remove from &ignore list"
 msgstr "从忽略列表删除(&I)"
 
-#. Resource IDs: (17084)
+#. Resource IDs: (IDS_AFXBARRES_REMOVE_FROM_QAT)
 msgid "Remove from Quick Access Toolbar"
 msgstr "从快速访问工具栏移除"
 
@@ -8745,7 +8737,7 @@ msgstr "已将选定的文件类型\n%s\n从忽略列表删除。"
 msgid "Removes the file or filemask from the list of ignored items"
 msgstr "将选定的文件或文件匹配列表从忽略列表删除"
 
-#. Resource IDs: (16616)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16616)
 msgid "Rena&me..."
 msgstr "更名(&M)..."
 
@@ -8838,7 +8830,7 @@ msgstr "解决冲突(&O)..."
 msgid "Reset"
 msgstr "重置"
 
-#. Resource IDs: (16614)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16614)
 msgid "Reset &All"
 msgstr "全部重置(&A)"
 
@@ -8918,7 +8910,7 @@ msgstr "恢复默认值"
 msgid "Restore after commit"
 msgstr "提交后恢复"
 
-#. Resource IDs: (61202)
+#. Resource IDs: (AFX_IDS_SCRESTORE)
 msgid "Restore the window to normal size"
 msgstr "还原窗口至一般大小"
 
@@ -9034,7 +9026,7 @@ msgstr "回转"
 msgid "Rewind %d"
 msgstr "回退 %d"
 
-#. Resource IDs: (61590)
+#. Resource IDs: (AFX_IDS_RTF_FORMAT)
 msgid ""
 "Rich Text (RTF)\n"
 "text with font and paragraph formatting"
@@ -9048,21 +9040,21 @@ msgstr "右侧视图:"
 msgid "Right image"
 msgstr "右侧图片"
 
-#. Resource IDs: (17108)
+#. Resource IDs: (IDS_AFXBARRES_GALLERY_ROW1_FMT)
 #, c-format
 msgid "Row %d of %d"
 msgstr "行 %d / %d"
 
-#. Resource IDs: (17109)
+#. Resource IDs: (IDS_AFXBARRES_GALLERY_ROW2_FMT)
 #, c-format
 msgid "Row %d-%d of %d"
 msgstr "行 %d-%d / %d"
 
-#. Resource IDs: (17116)
+#. Resource IDs: (IDS_AFXBARRES_GALLERY_ROW_DOWN)
 msgid "Row Down"
 msgstr "行向下"
 
-#. Resource IDs: (17115)
+#. Resource IDs: (IDS_AFXBARRES_GALLERY_ROW_UP)
 msgid "Row Up"
 msgstr "行向上"
 
@@ -9070,19 +9062,19 @@ msgstr "行向上"
 msgid "Run when working tree path is under:"
 msgstr "运行，当工作树路径位于："
 
-#. Resource IDs: (17045)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_DLG: Control id 17045)
 msgid "S&elect..."
 msgstr "选择(&E)..."
 
-#. Resource IDs: (17027)
+#. Resource IDs: (IDS_AFXBARRES_SHOWONEROW)
 msgid "S&how Buttons on One Row"
 msgstr "在一行上显示按钮(&H)"
 
-#. Resource IDs: (17028)
+#. Resource IDs: (IDS_AFXBARRES_SHOWTWOROWS)
 msgid "S&how Buttons on Two Rows"
 msgstr "在两行上显示按钮(&H)"
 
-#. Resource IDs: (17078)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 17078)
 msgid "S&how Quick Access Toolbar below the Ribbon"
 msgstr "在功能区下方显示快速访问工具栏(&H)"
 
@@ -9214,7 +9206,7 @@ msgstr "另存为(&A)..."
 msgid "Save &as...\tCtrl+Shift+S"
 msgstr "另存为(&A)...\tCTrl+Shift+S"
 
-#. Resource IDs: (61441)
+#. Resource IDs: (AFX_IDS_SAVEFILE)
 msgid "Save As"
 msgstr "另存为"
 
@@ -9294,7 +9286,7 @@ msgid ""
 "You're asked where to save the file"
 msgstr "保存文件\n您将被询问在何处保存底部文件"
 
-#. Resource IDs: (61699)
+#. Resource IDs: (AFX_IDP_ASK_TO_SAVE)
 #, c-format
 msgid "Save changes to %1?"
 msgstr "是否保存 %1 的变更？"
@@ -9409,7 +9401,7 @@ msgstr "查找内容:"
 msgid "Searching for better path to apply patch..."
 msgstr "正在搜索更好的路径来应用补丁..."
 
-#. Resource IDs: (61865)
+#. Resource IDs: (AFX_IDP_FILE_BAD_SEEK)
 #, c-format
 msgid "Seek failed on %1"
 msgstr "查找错误: %1"
@@ -9422,15 +9414,15 @@ msgstr "选择"
 msgid "Select &All"
 msgstr "全选(&A)"
 
-#. Resource IDs: (16529)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16529)
 msgid "Select &User-defined Image: "
 msgstr "选择用户定义的图片(&U): "
 
-#. Resource IDs: (16508)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16508)
 msgid "Select &context menu:"
 msgstr "选择右键菜单(&C):"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 65535)
 msgid "Select &window:"
 msgstr "选择窗口(&W)"
 
@@ -9448,11 +9440,11 @@ msgstr "选择文件..."
 msgid "Select SSH client"
 msgstr "选择 SSH 用户端程序"
 
-#. Resource IDs: (61717)
+#. Resource IDs: (AFX_IDP_PARSE_RADIO_BUTTON)
 msgid "Select a button."
 msgstr "请选择一个按钮。"
 
-#. Resource IDs: (57346)
+#. Resource IDs: (AFX_IDS_HELPMODEMESSAGE)
 msgid "Select an object on which to get Help"
 msgstr "请选择一个要获取帮助的对象"
 
@@ -9562,7 +9554,7 @@ msgstr "发送邮件"
 msgid "Send Mail after create"
 msgstr "创建后发送邮件"
 
-#. Resource IDs: (61842)
+#. Resource IDs: (AFX_IDP_FAILED_MAPI_SEND)
 msgid "Send Mail failed to send message."
 msgstr "发送邮件功能发送失败。"
 
@@ -9594,7 +9586,8 @@ msgstr "发送中..."
 msgid "Server &address:"
 msgstr "服务器地址(&A): "
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 65535, Dialog
+#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
 msgid "Set Accelerator &for:"
 msgstr "设置加速键(&F):"
 
@@ -9657,7 +9650,7 @@ msgstr "缩短属性列表"
 msgid "Show"
 msgstr "显示"
 
-#. Resource IDs: (16996)
+#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16996)
 msgid "Show &Accelerator for:"
 msgstr "显示加速键(&F):"
 
@@ -9696,11 +9689,11 @@ msgstr "选择嵌套引用(&N)"
 msgid "Show &overlays and context menu only in explorer"
 msgstr "仅在资源管理器中显示图标覆盖和右键菜单(&O)"
 
-#. Resource IDs: (17099)
+#. Resource IDs: (IDS_AFXBARRES_PLACE_ABOVE_RIBBON)
 msgid "Show Above the Ribbon"
 msgstr "在功能区上方显示"
 
-#. Resource IDs: (17098)
+#. Resource IDs: (IDS_AFXBARRES_PLACE_BELOW_RIBBON)
 msgid "Show Below the Ribbon"
 msgstr "在功能区下方显示"
 
@@ -9708,7 +9701,7 @@ msgstr "在功能区下方显示"
 msgid "Show Environment Variables"
 msgstr "显示环境变量"
 
-#. Resource IDs: (17030)
+#. Resource IDs: (IDS_AFXBARRES_SHOW_FEWER_BUTTONS)
 msgid "Show Fewer Buttons"
 msgstr "显示更少的按钮"
 
@@ -9728,19 +9721,19 @@ msgid ""
 "Inline diff"
 msgstr "显示内嵌差异\n内嵌差异"
 
-#. Resource IDs: (17029)
+#. Resource IDs: (IDS_AFXBARRES_SHOW_MORE_BUTTONS)
 msgid "Show More Buttons"
 msgstr "显示更多的按钮"
 
-#. Resource IDs: (17082)
+#. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_ABOVE_RIBBON)
 msgid "Show Quick Access Toolbar Above the Ribbon"
 msgstr "在功能区上方显示快速访问工具栏"
 
-#. Resource IDs: (17081)
+#. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_BELOW_RIBBON)
 msgid "Show Quick Access Toolbar Below the Ribbon"
 msgstr "在功能区下方显示快速访问工具栏"
 
-#. Resource IDs: (16651)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16651)
 msgid "Show Screen&Tips on toolbars"
 msgstr "在工具栏上显示工具提示(&T)"
 
@@ -9821,7 +9814,7 @@ msgstr "对排除的文件夹正常显示"
 msgid "Show extra changes after merge"
 msgstr "显示合并后的额外变更"
 
-#. Resource IDs: (16656)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16656)
 msgid "Show f&ull menus after a short delay"
 msgstr "在短暂延时后显示全部菜单(&U)"
 
@@ -9939,7 +9932,7 @@ msgstr "显示选定提交的上一个变更\n显示上一个"
 msgid "Show revision properties"
 msgstr "显示版本属性"
 
-#. Resource IDs: (16652)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16652)
 msgid "Show shortcut &keys in ScreenTips"
 msgstr "在屏幕提示中显示快捷键(&K)"
 
@@ -10023,7 +10016,8 @@ msgstr "银色风格"
 msgid "Since"
 msgstr "从"
 
-#. Resource IDs: (17129, IDS_LOG_SIZE, IDS_STATUSLIST_COLSIZE)
+#. Resource IDs: (IDS_AFX_SHELLLISTCTRL_SIZE, IDS_LOG_SIZE,
+#. IDS_STATUSLIST_COLSIZE)
 msgid "Size"
 msgstr "大小"
 
@@ -10057,7 +10051,7 @@ msgstr "跳过"
 msgid "Skipped missing target"
 msgstr "跳过缺失的目标项"
 
-#. Resource IDs: (17112)
+#. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_SLIDE)
 msgid "Slide"
 msgstr "滑动"
 
@@ -10095,7 +10089,12 @@ msgid ""
 "dialog."
 msgstr "设定在最近日志对话框中显示的条目数量。"
 
-#. Resource IDs: (16976, 16977, 16978, 16979, 16980, 16981)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 16976, Dialog
+#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16977, Dialog
+#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16978, Dialog
+#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16979, Dialog
+#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16980, Dialog
+#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16981)
 msgid "Spin1"
 msgstr "旋转一"
 
@@ -10125,7 +10124,8 @@ msgstr "叠加柱状图"
 msgid "Stacked Line Graph"
 msgstr "叠加折线图"
 
-#. Resource IDs: (16962, IDS_TOOLBAR_STANDARD)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_PAGE_ONE: Control id 16962,
+#. IDS_TOOLBAR_STANDARD)
 msgid "Standard"
 msgstr "标准"
 
@@ -10222,9 +10222,11 @@ msgstr "贮藏操作进行中..."
 msgid "State"
 msgstr "状态"
 
-#. Resource IDs: (16514, Dialog IDD_GITPROGRESS: Control id 1487, Dialog
-#. IDD_RESOLVE_CONFLICT: Control id 4572, Dialog IDD_RESOLVE_CONFLICT: Control
-#. id 4573)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16514, Dialog
+#. IDD_AFXBARRES_PROPPAGE5: Control id 16514, Dialog
+#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16514, Dialog
+#. IDD_GITPROGRESS: Control id 1487, Dialog IDD_RESOLVE_CONFLICT: Control id
+#. 4572, Dialog IDD_RESOLVE_CONFLICT: Control id 4573)
 msgid "Static"
 msgstr "静态"
 
@@ -10241,7 +10243,7 @@ msgstr "状态"
 msgid "Status Bar"
 msgstr "状态栏"
 
-#. Resource IDs: (17087)
+#. Resource IDs: (IDS_AFXBARRES_STATBAR_CUSTOMIZE)
 msgid "Status Bar Configuration"
 msgstr "状态栏配置"
 
@@ -10371,11 +10373,6 @@ msgstr "成功"
 msgid "Switch"
 msgstr "切换"
 
-#. Resource IDs: (IDS_PROGRS_CMD_SWITCH)
-#, c-format
-msgid "Switch %s to %s, Revision %s"
-msgstr "切换 %s 到 %s，版本 %s"
-
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1522)
 msgid "Switch To"
 msgstr "切换到"
@@ -10406,7 +10403,7 @@ msgid ""
 "Switch left and right view"
 msgstr "交换左右内容\n左右交换"
 
-#. Resource IDs: (61188)
+#. Resource IDs: (AFX_IDS_SCNEXTWINDOW)
 msgid "Switch to the next document window"
 msgstr "切换至下个文件窗口"
 
@@ -10416,7 +10413,7 @@ msgid ""
 "Next Pane"
 msgstr "切换至下个窗口区块\n下个区块"
 
-#. Resource IDs: (61189)
+#. Resource IDs: (AFX_IDS_SCPREVWINDOW)
 msgid "Switch to the previous document window"
 msgstr "切换至上一个文件窗口"
 
@@ -10466,7 +10463,7 @@ msgstr "系统"
 msgid "System in offline mode. Check Internet Explorer."
 msgstr "系统处于离线模式。检查 Internet Explorer。"
 
-#. Resource IDs: (61707)
+#. Resource IDs: (AFX_IDP_UNREG_DONE)
 msgid ""
 "System registry entries have been removed and the INI file (if any) was "
 "deleted."
@@ -10492,7 +10489,7 @@ msgstr "TORTOISEGITUDIFF"
 msgid "Ta&gs:"
 msgstr "标签(&G):"
 
-#. Resource IDs: (16970)
+#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_DLG: Control id 16970)
 msgid "Tab Placeholder"
 msgstr "制表占位符"
 
@@ -10538,7 +10535,7 @@ msgstr "目标和源必须在同一工作树！"
 msgid "Tasks"
 msgstr "任务"
 
-#. Resource IDs: (17019)
+#. Resource IDs: (IDS_AFXBARRES_TASKPANE)
 msgid "Tasks Pane"
 msgstr "任务窗格"
 
@@ -10677,7 +10674,7 @@ msgstr "文件\n%s\n是空的。 是否删除？"
 msgid "The file is too big"
 msgstr "文件过大"
 
-#. Resource IDs: (61701)
+#. Resource IDs: (AFX_IDP_FILE_TOO_LARGE)
 msgid "The file is too large to open."
 msgstr "文件过大，无法打开。"
 
@@ -10961,7 +10958,7 @@ msgstr "没有待添加的内容。\n所有文件和文件夹已在在版本库�
 msgid "Thesaurus"
 msgstr "知识库"
 
-#. Resource IDs: (62181)
+#. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_2)
 msgid ""
 "These are more recently saved than the currently open documents and contain "
 "changes that were made before the application closed."
@@ -11022,14 +11019,14 @@ msgid ""
 " see help."
 msgstr "这保留‘合并’提交，但它有已知问题，重新排序提交不能正常工作（同 vanilla git rebase 的限制），详见帮助。"
 
-#. Resource IDs: (61710)
+#. Resource IDs: (AFX_IDP_DLL_BAD_VERSION)
 #, c-format
 msgid ""
 "This program is linked to the missing export %Ts in the file %Ts. This "
 "machine may have an incompatible version of %Ts."
 msgstr "找不到本程序链接的 %s (包含于 %s)，可能 %Ts 的已安装版本不兼容。"
 
-#. Resource IDs: (61709)
+#. Resource IDs: (AFX_IDP_DLL_LOAD_FAILED)
 #, c-format
 msgid ""
 "This program requires the file %Ts, which was not found on this system."
@@ -11049,7 +11046,7 @@ msgstr "远端名称和其他名称冲突\n请使用其他名称"
 msgid "This task requires a clean working tree."
 msgstr "这个操作要求一个干净的工作区"
 
-#. Resource IDs: (16244)
+#. Resource IDs: (IDS_AFXBARRES_RESET_USAGE_WARNING)
 msgid ""
 "This will delete the record of commands you've used in this application and "
 "restore the default set of visible commands to the menus and toolbars. It "
@@ -11060,11 +11057,11 @@ msgstr "这将删除您在应用程序中使用的命令记录，恢复到默认
 msgid "Three way diff"
 msgstr "三路比较"
 
-#. Resource IDs: (16928)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16928)
 msgid "Tile &Vertically"
 msgstr "垂直堆叠(&V)"
 
-#. Resource IDs: (16924)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16924)
 msgid "Tile Hori&zontally"
 msgstr "水平堆叠(&Z)"
 
@@ -11103,15 +11100,15 @@ msgstr "切换单/双页显示\n切换单/双页显示"
 msgid "Toggle filters"
 msgstr "切换过滤器"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 65535)
 msgid "Toolbar"
 msgstr "工具栏"
 
-#. Resource IDs: (16130)
+#. Resource IDs: (Dialog IDD_AFXBARRES_TOOLBAR_NAME: Control id 16130)
 msgid "Toolbar Name"
 msgstr "工具栏名称"
 
-#. Resource IDs: (17017)
+#. Resource IDs: (IDS_AFXBARRES_TOOLBAR_OPTIONS)
 msgid "Toolbar Options"
 msgstr "工具栏操作"
 
@@ -11119,15 +11116,15 @@ msgstr "工具栏操作"
 msgid "Toolbar internal error. Please contact your application vendor."
 msgstr "工具栏内部错误。请联系您的应用程序销售商。"
 
-#. Resource IDs: (16105)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16105)
 msgid "Toolbars"
 msgstr "工具栏"
 
-#. Resource IDs: (16928)
+#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 16928)
 msgid "Tools"
 msgstr "工具"
 
-#. Resource IDs: (65535)
+#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 65535)
 msgid "Tools:"
 msgstr "工具:"
 
@@ -11200,8 +11197,8 @@ msgstr "TortoiseGit 将不会显示下列图标覆盖：%s"
 msgid "TortoiseGit&UDiff"
 msgstr "TortoiseGit&UDiff"
 
-#. Resource IDs: (57344, Dialog IDD_ABOUTBOX: Control id 1000, Dialog
-#. IDD_SETTINGSTBLAME: Control id 244, IDS_APPNAME)
+#. Resource IDs: (AFX_IDS_APP_TITLE, Dialog IDD_ABOUTBOX: Control id 1000,
+#. Dialog IDD_SETTINGSTBLAME: Control id 244, IDS_APPNAME)
 msgid "TortoiseGitBlame"
 msgstr "TortoiseGitBlame"
 
@@ -11250,8 +11247,8 @@ msgid ""
 "/showinfo\t\tto show the image info boxes"
 msgstr "TortoiseIDiff: TortoiseSVN 的图片差异查看器\n\n可用的命令行参数:\n/left: “左侧文件的路径”\n/lefttitle: “左侧窗口的标题”\n/right: “右侧文件的路径”\n/righttitle: “右侧窗口的标题”\n/overlay\t\t启用覆盖模式\n/fit\t\t适合图像尺寸\n/showinfo\t\t显示图像信息框"
 
-#. Resource IDs: (100, 156 - Ribbon element, 32897, 57344, Dialog IDD_OPENDLG:
-#. Control id 130, IDS_APPNAME)
+#. Resource IDs: (100, 156 - Ribbon element, 32897, AFX_IDS_APP_TITLE, Dialog
+#. IDD_OPENDLG: Control id 130, IDS_APPNAME)
 msgid "TortoiseGitMerge"
 msgstr "TortoiseGitMerge"
 
@@ -11358,7 +11355,8 @@ msgstr "Turkish"
 msgid "Tweak TortoiseGit"
 msgstr "调整 TortoiseGit 设置"
 
-#. Resource IDs: (17130, Dialog IDD_SVNIGNORE: Control id 1642)
+#. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1642,
+#. IDS_AFX_SHELLLISTCTRL_TYPE)
 msgid "Type"
 msgstr "类型"
 
@@ -11398,20 +11396,20 @@ msgstr "UTF-16 LE"
 msgid "UTF-8"
 msgstr "UTF-8"
 
-#. Resource IDs: (61840)
+#. Resource IDs: (AFX_IDP_FAILED_MAPI_LOAD)
 msgid "Unable to load mail system support."
 msgstr "无法加载邮件系统功能。"
 
-#. Resource IDs: (61826)
+#. Resource IDs: (AFX_IDP_SERVER_BUSY)
 msgid "Unable to process command, server busy."
 msgstr "不能处理命令，服务器忙。"
 
-#. Resource IDs: (61731)
+#. Resource IDs: (AFX_IDP_FAILED_ACCESS_READ)
 #, c-format
 msgid "Unable to read from %1, it is opened by someone else."
 msgstr "无法读取 %1，该文件已经被其他人打开。"
 
-#. Resource IDs: (61836)
+#. Resource IDs: (AFX_IDP_GET_NOT_SUPPORTED)
 msgid "Unable to read write-only property."
 msgstr "无法读取只写属性。"
 
@@ -11423,16 +11421,16 @@ msgid ""
 "from the top pane in the log dialog."
 msgstr "无法重构工作副本路径！\n文件被更名后可能发生这种情况。\n请在该文件上打开“日志”对话框并从对话框上部的\n面板中还原更名操作。"
 
-#. Resource IDs: (61837)
+#. Resource IDs: (AFX_IDP_SET_NOT_SUPPORTED)
 msgid "Unable to write read-only property."
 msgstr "无法写入只读属性。"
 
-#. Resource IDs: (61732)
+#. Resource IDs: (AFX_IDP_FAILED_ACCESS_WRITE)
 #, c-format
 msgid "Unable to write to %1, it is read-only or opened by someone else."
 msgstr "无法写入 %1，它可能是只读或者已被其他人打开。"
 
-#. Resource IDs: (62177)
+#. Resource IDs: (AFX_IDS_CHECKLISTBOX_UNCHECK)
 msgid "Uncheck"
 msgstr "取消选中"
 
@@ -11440,12 +11438,12 @@ msgstr "取消选中"
 msgid "Undo"
 msgstr "撤销"
 
-#. Resource IDs: (17102)
+#. Resource IDs: (IDS_AFXBARRES_UNDO_FMT)
 #, c-format
 msgid "Undo %d Actions"
 msgstr "撤销 %d 个操作"
 
-#. Resource IDs: (17103)
+#. Resource IDs: (IDS_AFXBARRES_UNDO_ONE)
 msgid "Undo 1 Action"
 msgstr "撤销 1 个操作"
 
@@ -11465,7 +11463,7 @@ msgid ""
 "Undo"
 msgstr "撤销最后的修改\n撤销"
 
-#. Resource IDs: (61728)
+#. Resource IDs: (AFX_IDP_FAILED_INVALID_FORMAT)
 msgid "Unexpected file format."
 msgstr "预期外的文件格式。"
 
@@ -11473,11 +11471,11 @@ msgstr "预期外的文件格式。"
 msgid "Unflag as skip-worktree and assume-unchanged"
 msgstr "取消 skip-worktree 和 assume-unchanged 标记"
 
-#. Resource IDs: (17111)
+#. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_UNFOLD)
 msgid "Unfold"
 msgstr "展开"
 
-#. Resource IDs: (61591)
+#. Resource IDs: (AFX_IDS_TEXT_FORMAT)
 msgid ""
 "Unformatted Text\n"
 "text without any formatting"
@@ -11507,7 +11505,7 @@ msgstr "未解决的冲突！"
 msgid "Unset tracked branch"
 msgstr "取消跟踪分支"
 
-#. Resource IDs: (61443)
+#. Resource IDs: (AFX_IDS_UNTITLED)
 msgid "Untitled"
 msgstr "未命名"
 
@@ -11545,7 +11543,7 @@ msgstr "更新子模块"
 msgid "Updated"
 msgstr "更新"
 
-#. Resource IDs: (61581)
+#. Resource IDs: (AFX_IDS_UPDATING_ITEMS)
 msgid "Updating ActiveX objects"
 msgstr "更新 ActiveX 对象"
 
@@ -11553,7 +11551,7 @@ msgstr "更新 ActiveX 对象"
 msgid "Updating index"
 msgstr "更新索引"
 
-#. Resource IDs: (16530)
+#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16530)
 msgid "Use &Default Image: "
 msgstr "使用默认图片(&D): "
 
@@ -12052,11 +12050,11 @@ msgstr "空白字符的变化（制表符、空格）"
 msgid "Whitespaces"
 msgstr "空白字符"
 
-#. Resource IDs: (17038)
+#. Resource IDs: (IDS_AFXBARRES_MENU)
 msgid "Window Position"
 msgstr "窗口位置"
 
-#. Resource IDs: (16927)
+#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16927)
 msgid "Windows"
 msgstr "窗口"
 
@@ -12161,12 +12159,12 @@ msgid ""
 "Disabled handlers won't use up an overlay slot and give other shell extensions a chance to show their overlays."
 msgstr "您可以在这里禁用特定的图标覆盖处理器。\n已禁用的图标覆盖将不会使用覆盖槽，以便允许其他的外壳扩展设置它们的图标覆盖。"
 
-#. Resource IDs: (16005)
+#. Resource IDs: (IDS_AFXBARRES_WRONG_IMAGE_SIZE)
 #, c-format
 msgid "You can paste bitmap with the size (%d x %d) only!"
 msgstr "您只能粘贴尺寸为 %d x %d 的位图！"
 
-#. Resource IDs: (16243)
+#. Resource IDs: (IDS_AFXBARRES_TOO_MANY_TOOLBARS_FMT)
 #, c-format
 msgid "You can't create more than %d user-defined toolbars!"
 msgstr "您不能创建多于 %d 个自定义工具栏！"
@@ -12230,7 +12228,7 @@ msgid ""
 "Do you want to restore them now? You might lose all changes to this file after marking it."
 msgstr "您标记了一些文件为“提交后恢复”。\n您想要现在就恢复吗？这可能丢失这些文件在标记后的所有变更。"
 
-#. Resource IDs: (16024)
+#. Resource IDs: (IDS_AFXBARRES_TOO_MANY_TOOLS_FMT)
 #, c-format
 msgid "You may define up to %d tools."
 msgstr "您可以定义最多 %d 个工具。"
@@ -12301,15 +12299,15 @@ msgstr "Zip 文件"
 msgid "Zoo&m out\t-"
 msgstr "缩小(&M)\t-"
 
-#. Resource IDs: (17093)
+#. Resource IDs: (IDS_AFXBARRES_ZOOM)
 msgid "Zoom"
 msgstr "窗口"
 
-#. Resource IDs: (58117)
+#. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58117)
 msgid "Zoom &In"
 msgstr "放大(&I)"
 
-#. Resource IDs: (58118)
+#. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58118)
 msgid "Zoom &Out"
 msgstr "缩小(&O)"
 
@@ -12354,7 +12352,7 @@ msgstr "缩放以适应高度"
 msgid "Zoom to fit in width"
 msgstr "缩放以适应宽度"
 
-#. Resource IDs: (17114)
+#. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_DEFAULT)
 msgid "[Default]"
 msgstr "[默认]"
 
@@ -12428,7 +12426,7 @@ msgstr "添加"
 msgid "added files"
 msgstr "添加文件"
 
-#. Resource IDs: (61446)
+#. Resource IDs: (AFX_IDS_UNNAMED_FILE)
 msgid "an unnamed file"
 msgstr "未命名文件"
 
@@ -12514,7 +12512,7 @@ msgstr "已删除"
 msgid "diff from pipe"
 msgstr "差异来自管道输入"
 
-#. Resource IDs: (58116)
+#. Resource IDs: (Dialog IDD_AFXBAR_RES_PRINT_PREVIEW: Control id 58116)
 msgid "dummy"
 msgstr "虚拟"
 
@@ -12679,7 +12677,7 @@ msgstr "没有找到"
 msgid "obstructed"
 msgstr "有障碍"
 
-#. Resource IDs: (61504)
+#. Resource IDs: (AFX_IDS_PRINTONPORT)
 #, c-format
 msgid "on %1"
 msgstr "在 %1"
@@ -12688,7 +12686,7 @@ msgstr "在 %1"
 msgid "patched"
 msgstr "已补丁"
 
-#. Resource IDs: (61888)
+#. Resource IDs: (AFX_IDS_OCC_SCALEUNITS_PIXELS)
 msgid "pixels"
 msgstr "像素"
 
@@ -12703,7 +12701,7 @@ msgid ""
 "Do you want to"
 msgstr "先前的变基目录仍然存在 rebase-apply，但是 mbox 也提供了一份\n\n您是否想要"
 
-#. Resource IDs: (61509)
+#. Resource IDs: (AFX_IDS_PRINTDEFAULTEXT)
 msgid "prn"
 msgstr "prn"
 
@@ -12742,7 +12740,7 @@ msgstr "切换到\n%s"
 msgid "take care of submodule changes"
 msgstr "关心子模块的变更"
 
-#. Resource IDs: (61513)
+#. Resource IDs: (AFX_IDS_PRINTTOFILE)
 #, c-format
 msgid "to %1"
 msgstr "至 %1"
