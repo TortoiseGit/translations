@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-02 12:07+0000\n"
+"PO-Revision-Date: 2017-07-02 17:21+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -5492,10 +5492,6 @@ msgstr "Vollständige Daten"
 msgid "Full text search"
 msgstr "Volltextsuche"
 
-#. Resource IDs: (IDS_git_DEPTH_INFINITE)
-msgid "Fully recursive"
-msgstr "Vollständig rekursiv"
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 65535)
 msgid "Further options for the commit dialog are on Dialogs 3 page."
 msgstr "Für weitere Optionen für den Eintragungsdialog siehe \"Dialoge 3\" Seite."
@@ -6383,10 +6379,6 @@ msgstr "Bild &und Text"
 #. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16508)
 msgid "Images"
 msgstr "Bilder"
-
-#. Resource IDs: (IDS_git_DEPTH_IMMEDIATE)
-msgid "Immediate children, including folders"
-msgstr "Direkte Unterobjekte, einschließlich Ordnern"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_IMPORT)
 msgid "Import"
@@ -7686,10 +7678,6 @@ msgstr "nur zusammengeführte Dateien"
 msgid "Only consider first parents on blame"
 msgstr "Betrachte nur den ersten Elter beim Annotieren"
 
-#. Resource IDs: (IDS_git_DEPTH_FILES)
-msgid "Only file children"
-msgstr "Nur Dateiobjekte"
-
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
 msgstr "Nur zusammengeführte (zu HEAD)"
@@ -7699,10 +7687,6 @@ msgid ""
 "Only numbers (optionally separated by commas)\n"
 "are allowed!"
 msgstr "Nur Zahlen (ggf. durch Kommata separiert)\nsind zugelassen!"
-
-#. Resource IDs: (IDS_git_DEPTH_EMPTY)
-msgid "Only this item"
-msgstr "Nur dieses Objekt"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -11483,10 +11467,6 @@ msgstr "Standard-&Diff der HEAD Revisionen"
 msgid "Unknown"
 msgstr "Unbekannt"
 
-#. Resource IDs: (IDS_git_DEPTH_UNKNOWN)
-msgid "Unknown depth"
-msgstr "Unbekannte Tiefe"
-
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_UNMARKBLOCK)
 msgid "Unmark this block"
 msgstr "Markierung des Blocks aufheben"
@@ -12111,8 +12091,7 @@ msgstr "Innerhalb einer Datei:"
 msgid "Within file"
 msgstr "Innerhalb der Datei"
 
-#. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 158,
-#. IDS_git_DEPTH_WORKING)
+#. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 158, IDS_WORKING_TREE)
 msgid "Working Tree"
 msgstr "Arbeitsbaum"
 
