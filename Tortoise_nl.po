@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-02 17:21+0000\n"
+"PO-Revision-Date: 2017-07-05 18:26+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -159,6 +159,11 @@ msgstr "%1!d! items geselecteerd"
 #, c-format
 msgid "%1!d! minutes ago"
 msgstr "%1!d! minuten geleden"
+
+#. Resource IDs: (IDS_CONFLICT_INFOTEXT)
+#, c-format
+msgid "%1!s! (%2!s!)"
+msgstr ""
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -4015,6 +4020,10 @@ msgstr "Verwijder tag"
 msgid "Delete the existing branch or use a different name."
 msgstr "Verwijder de bestaande branch of gebruik een andere naam."
 
+#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
+msgid "Delete/modify merge conflict"
+msgstr ""
+
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
 "Delete\n"
@@ -4026,10 +4035,6 @@ msgstr "Verwijder\nHet bestand is verwijderd."
 #. IDS_PATHACTIONS_DELETE, IDS_SVNACTION_DELETE, IDS_SVN_SUMMARIZEDELETED)
 msgid "Deleted"
 msgstr "Verwijderd"
-
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
-msgid "Deleted merge conflict"
-msgstr "Verwijderd samenvoegingsconflict"
 
 #. Resource IDs: (IDS_MENUDESCDELETEIGNORE)
 msgid ""
@@ -6789,10 +6794,6 @@ msgstr "Lokale wijzigingen genegeerd (veronderstel geldig/ongewijzigd of sla wer
 msgid "Local status"
 msgstr "Locale status"
 
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 65535)
-msgid "Local:"
-msgstr "Lokaal:"
-
 #. Resource IDs: (IDS_EXPORTFILE_TT)
 msgid ""
 "Location where the contents of the\n"
@@ -7868,6 +7869,11 @@ msgstr "Oorsprong 1"
 msgid "Parent 2"
 msgstr "Oorsprong 2"
 
+#. Resource IDs: (IDS_CONFLICT_REVERT)
+#, c-format
+msgid "Parent of %2!s!"
+msgstr ""
+
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
 msgstr "Oorsprong(en)"
@@ -8636,8 +8642,7 @@ msgid "Remote status"
 msgstr "Status in archief"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535, Dialog
-#. IDD_RESOLVE_CONFLICT: Control id 65535, Dialog IDD_SETTINREMOTE: Control id
-#. 65535)
+#. IDD_SETTINREMOTE: Control id 65535)
 msgid "Remote:"
 msgstr "Extern Archief:"
 
@@ -8849,6 +8854,11 @@ msgstr "Oplossen"
 
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 4595)
 msgid "Resolve Submodule Conflict"
+msgstr ""
+
+#. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
+#, c-format
+msgid "Resolve conflict using \"%s\""
 msgstr ""
 
 #. Resource IDs: (IDS_SVNPROGRESS_MENUUSEMINE)
@@ -11653,6 +11663,16 @@ msgstr "Gebruik linker blok"
 msgid "Use left file"
 msgstr "Gebruik het linker bestand"
 
+#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
+#. name)
+msgid "Use left text block"
+msgstr ""
+
+#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
+#. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
+msgid "Use left text block then right"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
 msgstr "Gebruik lokale branch kleur voor huidige branch"
@@ -11669,6 +11689,15 @@ msgstr "Gebruik reguliere expressie"
 msgid "Use right block"
 msgstr "Gebruik rechterblok"
 
+#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
+msgid "Use right text block"
+msgstr ""
+
+#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
+#. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
+msgid "Use right text block then left"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
 msgstr "Gebruik spaties"
@@ -11676,6 +11705,46 @@ msgstr "Gebruik spaties"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1426)
 msgid "Use system locale for date/time"
 msgstr "Gebruik systeem landinstellingen voor datum/tijd"
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
+msgid "Use text block from &left"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
+msgid "Use text block from &right"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
+msgid "Use text block from l&eft before right"
+msgstr ""
+
+#. Resource IDs: (32821)
+msgid ""
+"Use text block from left before right file\n"
+"Use left file text block then right"
+msgstr ""
+
+#. Resource IDs: (32819)
+msgid ""
+"Use text block from left file\n"
+"Use left file text block"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
+msgid "Use text block from r&ight before left"
+msgstr ""
+
+#. Resource IDs: (32822)
+msgid ""
+"Use text block from right file before left\n"
+"Use right file text block then left"
+msgstr ""
+
+#. Resource IDs: (32820)
+msgid ""
+"Use text block from right file\n"
+"Use right file text block"
+msgstr ""
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from '&mine'"
@@ -12637,6 +12706,10 @@ msgstr "nee"
 msgid "no description for this command is available"
 msgstr "voor dit commando is geen beschrijving beschikbaar"
 
+#. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
+msgid "no submodule"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
 msgstr "zonder versiebeheer"
@@ -12652,6 +12725,10 @@ msgstr "gewoon"
 #. Resource IDs: (IDS_NOTFOUND)
 msgid "not found"
 msgstr "niet gevonden"
+
+#. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
+msgid "not initialized"
+msgstr ""
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
@@ -12729,6 +12806,10 @@ msgstr "naar %1"
 #, c-format
 msgid "to %s"
 msgstr "naar %s"
+
+#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
+msgid "to-be-merged"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"

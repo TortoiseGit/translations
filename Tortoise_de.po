@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-02 17:21+0000\n"
+"PO-Revision-Date: 2017-07-05 18:26+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -152,6 +152,11 @@ msgstr "%1!d! Elemente ausgewählt"
 #, c-format
 msgid "%1!d! minutes ago"
 msgstr "vor %1!d! Minuten"
+
+#. Resource IDs: (IDS_CONFLICT_INFOTEXT)
+#, c-format
+msgid "%1!s! (%2!s!)"
+msgstr ""
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -4008,6 +4013,10 @@ msgstr "Lösche Markierung"
 msgid "Delete the existing branch or use a different name."
 msgstr "Löschen Sie den existierenden Zweig oder benutzen Sie einen anderen Namen."
 
+#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
+msgid "Delete/modify merge conflict"
+msgstr ""
+
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
 "Delete\n"
@@ -4019,10 +4028,6 @@ msgstr "Löschen\nDie Datei wird entfernt."
 #. IDS_PATHACTIONS_DELETE, IDS_SVNACTION_DELETE, IDS_SVN_SUMMARIZEDELETED)
 msgid "Deleted"
 msgstr "Gelöscht"
-
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
-msgid "Deleted merge conflict"
-msgstr "Lösch-Konflikt"
 
 #. Resource IDs: (IDS_MENUDESCDELETEIGNORE)
 msgid ""
@@ -6782,10 +6787,6 @@ msgstr "Lokale Änderungen ignorieren (\"skip-worktree\" und \"assume-unchanged\
 msgid "Local status"
 msgstr "Lokaler Status"
 
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 65535)
-msgid "Local:"
-msgstr "Lokal:"
-
 #. Resource IDs: (IDS_EXPORTFILE_TT)
 msgid ""
 "Location where the contents of the\n"
@@ -7861,6 +7862,11 @@ msgstr "Elter 1"
 msgid "Parent 2"
 msgstr "Elter 2"
 
+#. Resource IDs: (IDS_CONFLICT_REVERT)
+#, c-format
+msgid "Parent of %2!s!"
+msgstr ""
+
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
 msgstr "Elternteil(e)"
@@ -8629,8 +8635,7 @@ msgid "Remote status"
 msgstr "Status Projektarchiv"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535, Dialog
-#. IDD_RESOLVE_CONFLICT: Control id 65535, Dialog IDD_SETTINREMOTE: Control id
-#. 65535)
+#. IDD_SETTINREMOTE: Control id 65535)
 msgid "Remote:"
 msgstr "Archiv:"
 
@@ -8843,6 +8848,11 @@ msgstr "Konflikt gelöst"
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 4595)
 msgid "Resolve Submodule Conflict"
 msgstr "Behebe Submodul Konflikt"
+
+#. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
+#, c-format
+msgid "Resolve conflict using \"%s\""
+msgstr ""
 
 #. Resource IDs: (IDS_SVNPROGRESS_MENUUSEMINE)
 msgid "Resolve conflict using 'mine'"
@@ -11646,6 +11656,16 @@ msgstr "Verwende linken Block"
 msgid "Use left file"
 msgstr "Verwende linke Datei"
 
+#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
+#. name)
+msgid "Use left text block"
+msgstr ""
+
+#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
+#. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
+msgid "Use left text block then right"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
 msgstr "Benutze die \"Lokale Zweig\"-Farbe für den aktiven Zweig"
@@ -11662,6 +11682,15 @@ msgstr "Verwende reguläre Ausdrücke"
 msgid "Use right block"
 msgstr "Verwende den rechten Block"
 
+#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
+msgid "Use right text block"
+msgstr ""
+
+#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
+#. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
+msgid "Use right text block then left"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
 msgstr "Leerzeichen verwenden"
@@ -11669,6 +11698,46 @@ msgstr "Leerzeichen verwenden"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1426)
 msgid "Use system locale for date/time"
 msgstr "Systemvorgabe für Datum/Zeit verwenden"
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
+msgid "Use text block from &left"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
+msgid "Use text block from &right"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
+msgid "Use text block from l&eft before right"
+msgstr ""
+
+#. Resource IDs: (32821)
+msgid ""
+"Use text block from left before right file\n"
+"Use left file text block then right"
+msgstr ""
+
+#. Resource IDs: (32819)
+msgid ""
+"Use text block from left file\n"
+"Use left file text block"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
+msgid "Use text block from r&ight before left"
+msgstr ""
+
+#. Resource IDs: (32822)
+msgid ""
+"Use text block from right file before left\n"
+"Use right file text block then left"
+msgstr ""
+
+#. Resource IDs: (32820)
+msgid ""
+"Use text block from right file\n"
+"Use right file text block"
+msgstr ""
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from '&mine'"
@@ -12630,6 +12699,10 @@ msgstr "nein"
 msgid "no description for this command is available"
 msgstr "Für diesen Befehl ist keine Bechreibung verfügbar"
 
+#. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
+msgid "no submodule"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
 msgstr "Nicht versioniert"
@@ -12645,6 +12718,10 @@ msgstr "Normal"
 #. Resource IDs: (IDS_NOTFOUND)
 msgid "not found"
 msgstr "nicht gefunden"
+
+#. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
+msgid "not initialized"
+msgstr ""
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
@@ -12722,6 +12799,10 @@ msgstr "nach %1"
 #, c-format
 msgid "to %s"
 msgstr "nach %s"
+
+#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
+msgid "to-be-merged"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"

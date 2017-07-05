@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-02 17:21+0000\n"
+"PO-Revision-Date: 2017-07-05 18:26+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/lznuaa/tortoisegit/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -144,6 +144,11 @@ msgstr ""
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
 msgid "%1!d! minutes ago"
+msgstr ""
+
+#. Resource IDs: (IDS_CONFLICT_INFOTEXT)
+#, c-format
+msgid "%1!s! (%2!s!)"
 msgstr ""
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
@@ -4001,6 +4006,10 @@ msgstr ""
 msgid "Delete the existing branch or use a different name."
 msgstr ""
 
+#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
+msgid "Delete/modify merge conflict"
+msgstr ""
+
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
 "Delete\n"
@@ -4012,10 +4021,6 @@ msgstr ""
 #. IDS_PATHACTIONS_DELETE, IDS_SVNACTION_DELETE, IDS_SVN_SUMMARIZEDELETED)
 msgid "Deleted"
 msgstr "Διαγράφηκε"
-
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
-msgid "Deleted merge conflict"
-msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCDELETEIGNORE)
 msgid ""
@@ -6775,10 +6780,6 @@ msgstr ""
 msgid "Local status"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 65535)
-msgid "Local:"
-msgstr ""
-
 #. Resource IDs: (IDS_EXPORTFILE_TT)
 msgid ""
 "Location where the contents of the\n"
@@ -7854,6 +7855,11 @@ msgstr ""
 msgid "Parent 2"
 msgstr ""
 
+#. Resource IDs: (IDS_CONFLICT_REVERT)
+#, c-format
+msgid "Parent of %2!s!"
+msgstr ""
+
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
 msgstr ""
@@ -8622,8 +8628,7 @@ msgid "Remote status"
 msgstr "Κατάσταση απομακρυσμένου"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535, Dialog
-#. IDD_RESOLVE_CONFLICT: Control id 65535, Dialog IDD_SETTINREMOTE: Control id
-#. 65535)
+#. IDD_SETTINREMOTE: Control id 65535)
 msgid "Remote:"
 msgstr ""
 
@@ -8835,6 +8840,11 @@ msgstr "Επίλυση"
 
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 4595)
 msgid "Resolve Submodule Conflict"
+msgstr ""
+
+#. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
+#, c-format
+msgid "Resolve conflict using \"%s\""
 msgstr ""
 
 #. Resource IDs: (IDS_SVNPROGRESS_MENUUSEMINE)
@@ -11639,6 +11649,16 @@ msgstr ""
 msgid "Use left file"
 msgstr "Χρήση αριστερού αρχείου"
 
+#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
+#. name)
+msgid "Use left text block"
+msgstr ""
+
+#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
+#. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
+msgid "Use left text block then right"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
 msgstr ""
@@ -11655,6 +11675,15 @@ msgstr "Χρήση κοινών εκφράσεων"
 msgid "Use right block"
 msgstr ""
 
+#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
+msgid "Use right text block"
+msgstr ""
+
+#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
+#. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
+msgid "Use right text block then left"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
 msgstr ""
@@ -11662,6 +11691,46 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1426)
 msgid "Use system locale for date/time"
 msgstr "Χρήση τοπικών ρυθμίσεων για ημερομηνία και ώρα"
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
+msgid "Use text block from &left"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
+msgid "Use text block from &right"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
+msgid "Use text block from l&eft before right"
+msgstr ""
+
+#. Resource IDs: (32821)
+msgid ""
+"Use text block from left before right file\n"
+"Use left file text block then right"
+msgstr ""
+
+#. Resource IDs: (32819)
+msgid ""
+"Use text block from left file\n"
+"Use left file text block"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
+msgid "Use text block from r&ight before left"
+msgstr ""
+
+#. Resource IDs: (32822)
+msgid ""
+"Use text block from right file before left\n"
+"Use right file text block then left"
+msgstr ""
+
+#. Resource IDs: (32820)
+msgid ""
+"Use text block from right file\n"
+"Use right file text block"
+msgstr ""
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from '&mine'"
@@ -12623,6 +12692,10 @@ msgstr "όχι"
 msgid "no description for this command is available"
 msgstr "δεν υπάρχει περιγραφή για αυτή την εντολή"
 
+#. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
+msgid "no submodule"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
 msgstr "χωρίς έκδοση"
@@ -12637,6 +12710,10 @@ msgstr "κανονικό"
 
 #. Resource IDs: (IDS_NOTFOUND)
 msgid "not found"
+msgstr ""
+
+#. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
+msgid "not initialized"
 msgstr ""
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
@@ -12714,6 +12791,10 @@ msgstr "σε %1"
 #. Resource IDs: (IDS_PROC_CPYMVPROG2, IDS_SVNPROGRESS_EXPORTINGTO)
 #, c-format
 msgid "to %s"
+msgstr ""
+
+#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
+msgid "to-be-merged"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)

@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-02 17:21+0000\n"
+"PO-Revision-Date: 2017-07-05 18:26+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -158,6 +158,11 @@ msgstr "已选择 %1!d! 个项目"
 #, c-format
 msgid "%1!d! minutes ago"
 msgstr "%1!d!分钟前"
+
+#. Resource IDs: (IDS_CONFLICT_INFOTEXT)
+#, c-format
+msgid "%1!s! (%2!s!)"
+msgstr ""
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -4014,6 +4019,10 @@ msgstr "删除标签"
 msgid "Delete the existing branch or use a different name."
 msgstr "删除现存的分支，或者使用其他名称。"
 
+#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
+msgid "Delete/modify merge conflict"
+msgstr ""
+
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
 "Delete\n"
@@ -4025,10 +4034,6 @@ msgstr "删除\n文件被删除"
 #. IDS_PATHACTIONS_DELETE, IDS_SVNACTION_DELETE, IDS_SVN_SUMMARIZEDELETED)
 msgid "Deleted"
 msgstr "已删除"
-
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
-msgid "Deleted merge conflict"
-msgstr "已删除合并冲突"
 
 #. Resource IDs: (IDS_MENUDESCDELETEIGNORE)
 msgid ""
@@ -6788,10 +6793,6 @@ msgstr "已忽略的本地变更（设置了 valid/unchanged 或者 skip worktre
 msgid "Local status"
 msgstr "本地状态"
 
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 65535)
-msgid "Local:"
-msgstr "本地："
-
 #. Resource IDs: (IDS_EXPORTFILE_TT)
 msgid ""
 "Location where the contents of the\n"
@@ -7867,6 +7868,11 @@ msgstr "父节点1"
 msgid "Parent 2"
 msgstr "父节点2"
 
+#. Resource IDs: (IDS_CONFLICT_REVERT)
+#, c-format
+msgid "Parent of %2!s!"
+msgstr ""
+
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
 msgstr "父节点"
@@ -8635,8 +8641,7 @@ msgid "Remote status"
 msgstr "远端状态"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535, Dialog
-#. IDD_RESOLVE_CONFLICT: Control id 65535, Dialog IDD_SETTINREMOTE: Control id
-#. 65535)
+#. IDD_SETTINREMOTE: Control id 65535)
 msgid "Remote:"
 msgstr "远端:"
 
@@ -8849,6 +8854,11 @@ msgstr "解决"
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 4595)
 msgid "Resolve Submodule Conflict"
 msgstr "解决子模块冲突"
+
+#. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
+#, c-format
+msgid "Resolve conflict using \"%s\""
+msgstr ""
 
 #. Resource IDs: (IDS_SVNPROGRESS_MENUUSEMINE)
 msgid "Resolve conflict using 'mine'"
@@ -11652,6 +11662,16 @@ msgstr "使用左边文件块"
 msgid "Use left file"
 msgstr "使用左边的文件"
 
+#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
+#. name)
+msgid "Use left text block"
+msgstr ""
+
+#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
+#. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
+msgid "Use left text block then right"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
 msgstr "当前分支颜色使用本地分支颜色"
@@ -11668,6 +11688,15 @@ msgstr "使用正则表达式"
 msgid "Use right block"
 msgstr "使用右侧内容"
 
+#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
+msgid "Use right text block"
+msgstr ""
+
+#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
+#. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
+msgid "Use right text block then left"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
 msgstr "使用空格"
@@ -11675,6 +11704,46 @@ msgstr "使用空格"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1426)
 msgid "Use system locale for date/time"
 msgstr "对日期/时间使用系统区域"
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
+msgid "Use text block from &left"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
+msgid "Use text block from &right"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
+msgid "Use text block from l&eft before right"
+msgstr ""
+
+#. Resource IDs: (32821)
+msgid ""
+"Use text block from left before right file\n"
+"Use left file text block then right"
+msgstr ""
+
+#. Resource IDs: (32819)
+msgid ""
+"Use text block from left file\n"
+"Use left file text block"
+msgstr ""
+
+#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
+msgid "Use text block from r&ight before left"
+msgstr ""
+
+#. Resource IDs: (32822)
+msgid ""
+"Use text block from right file before left\n"
+"Use right file text block then left"
+msgstr ""
+
+#. Resource IDs: (32820)
+msgid ""
+"Use text block from right file\n"
+"Use right file text block"
+msgstr ""
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from '&mine'"
@@ -12636,6 +12705,10 @@ msgstr "否"
 msgid "no description for this command is available"
 msgstr "此命令尚无描述"
 
+#. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
+msgid "no submodule"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
 msgstr "未受版本控制"
@@ -12651,6 +12724,10 @@ msgstr "常规"
 #. Resource IDs: (IDS_NOTFOUND)
 msgid "not found"
 msgstr "没有找到"
+
+#. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
+msgid "not initialized"
+msgstr ""
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
@@ -12728,6 +12805,10 @@ msgstr "至 %1"
 #, c-format
 msgid "to %s"
 msgstr "至 %s"
+
+#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
+msgid "to-be-merged"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"
