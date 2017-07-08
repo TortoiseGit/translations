@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-07 22:09+0000\n"
+"PO-Revision-Date: 2017-07-08 16:00+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -156,7 +156,7 @@ msgstr "vor %1!d! Minuten"
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
 msgid "%1!s! (%2!s!)"
-msgstr ""
+msgstr "%1!s! (%2!s!)"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -3311,7 +3311,7 @@ msgstr "Ausgewählte Referenzen vergleichen"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
 msgid "Compare tags"
-msgstr ""
+msgstr "Vergleiche Markierungen"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
@@ -3990,7 +3990,7 @@ msgstr "Lösche Zweig/Markierung"
 
 #. Resource IDs: (IDS_DELETE_LOCALTAG)
 msgid "Delete local tag"
-msgstr ""
+msgstr "Lösche lokale Markierung"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
@@ -4019,7 +4019,7 @@ msgstr "Lösche Markierung"
 
 #. Resource IDs: (IDS_DELETE_REMOTETAG)
 msgid "Delete tag on remote"
-msgstr ""
+msgstr "Lösche Markierung im entfernten Repository"
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4027,7 +4027,7 @@ msgstr "Löschen Sie den existierenden Zweig oder benutzen Sie einen anderen Nam
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
 msgid "Delete/modify merge conflict"
-msgstr ""
+msgstr "Lösch-Konflikt"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
@@ -4214,7 +4214,7 @@ msgstr "Vergleich mit Elternteil %d"
 
 #. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
 msgid "Differ"
-msgstr ""
+msgstr "unterschiedlich"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -4382,7 +4382,7 @@ msgstr "Möchten Sie wirklich die %d ausgewählten Referencen permantent lösche
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie alle lokalen Zweige versenden möchten?"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -6795,7 +6795,7 @@ msgstr "Lokaler Zweig"
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
 msgid "Local SHA1"
-msgstr ""
+msgstr "Lokale SHA1"
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
@@ -6805,7 +6805,7 @@ msgstr "Lokale Änderungen ignorieren (\"skip-worktree\" und \"assume-unchanged\
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
-msgstr ""
+msgstr "Lokale Nachricht"
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -7705,7 +7705,7 @@ msgstr "Betrachte nur den ersten Elter beim Annotieren"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
-msgstr ""
+msgstr "nur lokal"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
@@ -7719,7 +7719,7 @@ msgstr "Nur Zahlen (ggf. durch Kommata separiert)\nsind zugelassen!"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
 msgid "Only remote"
-msgstr ""
+msgstr "nur entfernt"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -7897,7 +7897,7 @@ msgstr "Elter 2"
 #. Resource IDs: (IDS_CONFLICT_REVERT)
 #, c-format
 msgid "Parent of %2!s!"
-msgstr ""
+msgstr "Elter von %2!s!"
 
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
@@ -8652,7 +8652,7 @@ msgstr "Entfernter Zweig"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
 msgid "Remote SHA1"
-msgstr ""
+msgstr "Entfernter SHA1"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
@@ -8664,7 +8664,7 @@ msgstr "Archiv aktualisieren"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
 msgid "Remote message"
-msgstr ""
+msgstr "Entfernte Nachricht"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -8892,7 +8892,7 @@ msgstr "Behebe Submodul Konflikt"
 #. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
 #, c-format
 msgid "Resolve conflict using \"%s\""
-msgstr ""
+msgstr "Löse Konflikt mit \"%s\""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
@@ -9688,7 +9688,8 @@ msgstr "Zeige &nicht versionierte Dateien"
 msgid "Show &Whole Project"
 msgstr "Zeige &gesamtes Projekt"
 
-#. Resource IDs: (IDS_LOG_POPUP_DIFF)
+#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 1133, Dialog
+#. IDD_RESOLVE_CONFLICT: Control id 1134, IDS_LOG_POPUP_DIFF)
 msgid "Show &changes"
 msgstr "Änderungen &zeigen"
 
@@ -11672,12 +11673,12 @@ msgstr "Verwende linke Datei"
 #. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
 #. name)
 msgid "Use left text block"
-msgstr ""
+msgstr "Verwende linken Textblock"
 
 #. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
 #. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
 msgid "Use left text block then right"
-msgstr ""
+msgstr "Verwende linken Block vor rechtem"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
@@ -12551,6 +12552,10 @@ msgstr "%s\nnach %s\nexportiert"
 #. Resource IDs: (IDS_STATUSEXTERNAL)
 msgid "external"
 msgstr "extern"
+
+#. Resource IDs: (IDS_CONFLICT_NOTASUBMODULE)
+msgid "file, not a submodule"
+msgstr ""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
