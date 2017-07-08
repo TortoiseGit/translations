@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-05 18:26+0000\n"
+"PO-Revision-Date: 2017-07-07 22:09+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/lznuaa/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -3317,6 +3317,10 @@ msgstr ""
 msgid "Compare selected refs"
 msgstr "Compară referinţele selectate"
 
+#. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
+msgid "Compare tags"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
 msgstr "Compară două fişiere"
@@ -3992,6 +3996,10 @@ msgstr "Şterge ramură"
 msgid "Delete branch/tag"
 msgstr "Şterge ramură/etichetă"
 
+#. Resource IDs: (IDS_DELETE_LOCALTAG)
+msgid "Delete local tag"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
 msgstr "Şterge ramură destinaţie"
@@ -4016,6 +4024,10 @@ msgstr "Şterge submodul"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAG)
 msgid "Delete tag"
 msgstr "Şterge etichetă"
+
+#. Resource IDs: (IDS_DELETE_REMOTETAG)
+msgid "Delete tag on remote"
+msgstr ""
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4207,6 +4219,10 @@ msgstr "Diferentiere cu \"%s\""
 #, c-format
 msgid "Diff with parent %d"
 msgstr "Diferenţiază cu părintele %d"
+
+#. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
+msgid "Differ"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -6785,10 +6801,18 @@ msgstr "Local"
 msgid "Local Branch"
 msgstr "Ramură locală"
 
+#. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
+msgid "Local SHA1"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
+msgstr ""
+
+#. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
+msgid "Local message"
 msgstr ""
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
@@ -7687,6 +7711,10 @@ msgstr "Doar fişiere îmbinate"
 msgid "Only consider first parents on blame"
 msgstr ""
 
+#. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
+msgid "Only local"
+msgstr ""
+
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
 msgstr ""
@@ -7696,6 +7724,10 @@ msgid ""
 "Only numbers (optionally separated by commas)\n"
 "are allowed!"
 msgstr "Numai numere (separate opţional cu virgulă)\nsunt permise!"
+
+#. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
+msgid "Only remote"
+msgstr ""
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -8626,6 +8658,10 @@ msgstr "Ramura de &urmarire la distanta"
 msgid "Remote Branch"
 msgstr "Ramură destinaţie"
 
+#. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
+msgid "Remote SHA1"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
 msgstr "URL-ul destinaţie trebuie să nu fie nul."
@@ -8633,6 +8669,10 @@ msgstr "URL-ul destinaţie trebuie să nu fie nul."
 #. Resource IDs: (IDS_PROC_SYNC_REMOTEUPDATE)
 msgid "Remote Update"
 msgstr "Actualizare destinaţie"
+
+#. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
+msgid "Remote message"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -8861,14 +8901,6 @@ msgstr "Rezolva Conflictul dintre Submodule"
 #, c-format
 msgid "Resolve conflict using \"%s\""
 msgstr ""
-
-#. Resource IDs: (IDS_SVNPROGRESS_MENUUSEMINE)
-msgid "Resolve conflict using 'mine'"
-msgstr "Rezolvă conflictul folosind 'propriu'"
-
-#. Resource IDs: (IDS_SVNPROGRESS_MENUUSETHEIRS)
-msgid "Resolve conflict using 'theirs'"
-msgstr "Rezolvă conflictele folosind 'ale lor'"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
@@ -9164,7 +9196,7 @@ msgstr "Sa&feCrLf:"
 msgid "Safe Crlf:"
 msgstr "Safe Crlf:"
 
-#. Resource IDs: (IDS_SAME)
+#. Resource IDs: (IDS_SAME, IDS_TAGCOMPARE_SAME)
 msgid "Same"
 msgstr "Simultan"
 
@@ -11555,25 +11587,6 @@ msgstr "F&oloseşte un singur panou când se diferenţiază între două fişier
 msgid "Use &other text block"
 msgstr "Foloseşte &alt bloc de text"
 
-#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
-msgid "Use 'mine' text block"
-msgstr "Foloseşte blocul de text \"propriu\""
-
-#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
-#. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
-msgid "Use 'mine' text block then 'theirs'"
-msgstr "Foloseşte întâi blocul \"propriu\" de text şi apoi \"al lor\""
-
-#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
-#. name)
-msgid "Use 'theirs' text block"
-msgstr "Foloseşte blocul de text \"al lor\""
-
-#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
-#. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
-msgid "Use 'theirs' text block then 'mine'"
-msgstr "Foloseşte întâi blocul de text \"al lor\" şi apoi \"propriu\""
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
 msgstr ""
@@ -11746,46 +11759,6 @@ msgid ""
 "Use text block from right file\n"
 "Use right file text block"
 msgstr ""
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
-msgid "Use text block from '&mine'"
-msgstr "Foloseşte blocul de text din 'al &meu'"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
-msgid "Use text block from '&theirs'"
-msgstr "Foloseşte blocul de text din 'al &lor'"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
-msgid "Use text block from 'm&ine' before 'theirs'"
-msgstr "Foloseşte blocul de text din 'al &meu' înainte de 'al lor'"
-
-#. Resource IDs: (32822)
-msgid ""
-"Use text block from 'mine' before 'theirs'\n"
-"Use 'mine' text block then 'theirs'"
-msgstr "Foloseşte blocul de text din 'propriu' înainte de 'al lor'\nFoloseşte blocul 'propriu' de text şi apoi foloseşte-l pe 'al lor'"
-
-#. Resource IDs: (32820)
-msgid ""
-"Use text block from 'mine'\n"
-"Use 'mine' text block"
-msgstr "Foloseşte blocul de text din 'propriu'\nFoloseşte blocul 'propriu' de text"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
-msgid "Use text block from 't&heirs' before 'mine'"
-msgstr "Foloseşte blocul de text din 'al &lor' înainte de 'al meu'"
-
-#. Resource IDs: (32821)
-msgid ""
-"Use text block from 'theirs' before 'mine'\n"
-"Use 'theirs' text block then 'mine'"
-msgstr "Foloseşte blocul de text din 'al lor' înainte de 'propriu'\nFoloseşte blocul 'lor' de text şi apoi foloseşte-l pe 'propriu'"
-
-#. Resource IDs: (32819)
-msgid ""
-"Use text block from 'theirs'\n"
-"Use 'theirs' text block"
-msgstr "Foloseşte blocul de text din 'al lor'\nFoloseşte blocul 'lor' de text"
 
 #. Resource IDs: (32855)
 msgid ""
@@ -12529,6 +12502,10 @@ msgstr "bugtraq.url"
 msgid "bugtraq.warningifnoissue"
 msgstr "bugtraq.warningifnoissue"
 
+#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
+msgid "changes to-be-integrated"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
 msgid "column '%ls'"
@@ -12807,10 +12784,6 @@ msgstr "în %1"
 #, c-format
 msgid "to %s"
 msgstr "în %s"
-
-#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
-msgid "to-be-merged"
-msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"

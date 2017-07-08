@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-05 18:26+0000\n"
+"PO-Revision-Date: 2017-07-07 22:09+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -3326,6 +3326,10 @@ msgstr "Comparer les modifications"
 msgid "Compare selected refs"
 msgstr "Comparer les références sélectionnées"
 
+#. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
+msgid "Compare tags"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
 msgstr "Comparer deux fichiers"
@@ -4001,6 +4005,10 @@ msgstr "Supprimer la branche"
 msgid "Delete branch/tag"
 msgstr "Supprimer la branche / étiquette"
 
+#. Resource IDs: (IDS_DELETE_LOCALTAG)
+msgid "Delete local tag"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
 msgstr "Supprimer la branche distante"
@@ -4025,6 +4033,10 @@ msgstr "Supprimer le sous module"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAG)
 msgid "Delete tag"
 msgstr "Supprimer l'étiquette"
+
+#. Resource IDs: (IDS_DELETE_REMOTETAG)
+msgid "Delete tag on remote"
+msgstr ""
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4216,6 +4228,10 @@ msgstr "Diff avec \"%s\""
 #, c-format
 msgid "Diff with parent %d"
 msgstr "Comparer avec le parent %d"
+
+#. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
+msgid "Differ"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -6794,11 +6810,19 @@ msgstr "Local"
 msgid "Local Branch"
 msgstr "Branche locale"
 
+#. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
+msgid "Local SHA1"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
 msgstr "Changements locaux ignorés (fichiers de l'arbre de travail supposés marqués comme validés/inchangés ou ignorés)"
+
+#. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
+msgid "Local message"
+msgstr ""
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -7696,6 +7720,10 @@ msgstr "Fichiers fusionnés seulement"
 msgid "Only consider first parents on blame"
 msgstr ""
 
+#. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
+msgid "Only local"
+msgstr ""
+
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
 msgstr ""
@@ -7705,6 +7733,10 @@ msgid ""
 "Only numbers (optionally separated by commas)\n"
 "are allowed!"
 msgstr "Seuls les nombres (optionnellement séparés par des virgules)\nsont acceptés!"
+
+#. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
+msgid "Only remote"
+msgstr ""
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -8635,6 +8667,10 @@ msgstr "Branche de &pistage distante"
 msgid "Remote Branch"
 msgstr "Branche distante"
 
+#. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
+msgid "Remote SHA1"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
 msgstr "L'URL distante ne doit pas être vide."
@@ -8642,6 +8678,10 @@ msgstr "L'URL distante ne doit pas être vide."
 #. Resource IDs: (IDS_PROC_SYNC_REMOTEUPDATE)
 msgid "Remote Update"
 msgstr "Mise à jour distante"
+
+#. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
+msgid "Remote message"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -8870,14 +8910,6 @@ msgstr "Résoudre le conflit de sous-module"
 #, c-format
 msgid "Resolve conflict using \"%s\""
 msgstr ""
-
-#. Resource IDs: (IDS_SVNPROGRESS_MENUUSEMINE)
-msgid "Resolve conflict using 'mine'"
-msgstr "Résoudre le conflit en utilisant 'le mien'"
-
-#. Resource IDs: (IDS_SVNPROGRESS_MENUUSETHEIRS)
-msgid "Resolve conflict using 'theirs'"
-msgstr "Résoudre le conflit en utilisant 'le leur'"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
@@ -9173,7 +9205,7 @@ msgstr "&Correction Crlf :"
 msgid "Safe Crlf:"
 msgstr "Correction Crlf :"
 
-#. Resource IDs: (IDS_SAME)
+#. Resource IDs: (IDS_SAME, IDS_TAGCOMPARE_SAME)
 msgid "Same"
 msgstr "Le même"
 
@@ -11564,25 +11596,6 @@ msgstr "Utiliser la vue panneau unique par défaut p&our les diff de 2 fichiers"
 msgid "Use &other text block"
 msgstr "Utiliser l'autre bl&oc de texte"
 
-#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
-msgid "Use 'mine' text block"
-msgstr "Utiliser le bloc de texte 'le mien'"
-
-#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
-#. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
-msgid "Use 'mine' text block then 'theirs'"
-msgstr "Utiliser le bloc de texte 'le mien' puis 'le leur'"
-
-#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
-#. name)
-msgid "Use 'theirs' text block"
-msgstr "Utiliser le bloc de texte 'le leur'"
-
-#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
-#. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
-msgid "Use 'theirs' text block then 'mine'"
-msgstr "Utiliser le bloc de texte 'le leur' puis 'le mien'"
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
 msgstr "Utiliser .mailmap"
@@ -11755,46 +11768,6 @@ msgid ""
 "Use text block from right file\n"
 "Use right file text block"
 msgstr ""
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
-msgid "Use text block from '&mine'"
-msgstr "Utiliser le bloc de texte depuis 'le &mien'"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
-msgid "Use text block from '&theirs'"
-msgstr "Utiliser le bloc de texte depuis 'le &leur'"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
-msgid "Use text block from 'm&ine' before 'theirs'"
-msgstr "Utiliser le bloc de texte du 'm&ien' avant 'le leur'"
-
-#. Resource IDs: (32822)
-msgid ""
-"Use text block from 'mine' before 'theirs'\n"
-"Use 'mine' text block then 'theirs'"
-msgstr "Utiliser le bloc de texte du 'mien' avant 'le leur'\nUtiliser 'mon' bloc de texte puis 'le leur'"
-
-#. Resource IDs: (32820)
-msgid ""
-"Use text block from 'mine'\n"
-"Use 'mine' text block"
-msgstr "Utiliser le bloc de texte depuis 'le mien'\nUtiliser 'mon' bloc de texte"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
-msgid "Use text block from 't&heirs' before 'mine'"
-msgstr "Utiliser '&leur' bloc de texte avant 'le mien'"
-
-#. Resource IDs: (32821)
-msgid ""
-"Use text block from 'theirs' before 'mine'\n"
-"Use 'theirs' text block then 'mine'"
-msgstr "Utiliser 'leur' bloc de texte avant le 'mien'\nUtiliser 'leur' bloc de texte puis le 'mien'"
-
-#. Resource IDs: (32819)
-msgid ""
-"Use text block from 'theirs'\n"
-"Use 'theirs' text block"
-msgstr "Utiliser 'leur' bloc de texte\nUtiliser 'leur' bloc de texte"
 
 #. Resource IDs: (32855)
 msgid ""
@@ -12538,6 +12511,10 @@ msgstr "bugtraq.url"
 msgid "bugtraq.warningifnoissue"
 msgstr "bugtraq.warningifnoissue"
 
+#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
+msgid "changes to-be-integrated"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
 msgid "column '%ls'"
@@ -12816,10 +12793,6 @@ msgstr "vers %1"
 #, c-format
 msgid "to %s"
 msgstr "vers %s"
-
-#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
-msgid "to-be-merged"
-msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"

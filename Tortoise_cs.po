@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-05 18:26+0000\n"
+"PO-Revision-Date: 2017-07-07 22:09+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/lznuaa/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -3308,6 +3308,10 @@ msgstr ""
 msgid "Compare selected refs"
 msgstr "Porovnat zvolené odkazy"
 
+#. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
+msgid "Compare tags"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
 msgstr "Porovnat dva soubory"
@@ -3983,6 +3987,10 @@ msgstr "Smazat větev"
 msgid "Delete branch/tag"
 msgstr "Smazat větev/značku"
 
+#. Resource IDs: (IDS_DELETE_LOCALTAG)
+msgid "Delete local tag"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
 msgstr "Smazat vzdálenou větev"
@@ -4007,6 +4015,10 @@ msgstr "Smazat podmodul"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAG)
 msgid "Delete tag"
 msgstr "Smazat značku"
+
+#. Resource IDs: (IDS_DELETE_REMOTETAG)
+msgid "Delete tag on remote"
+msgstr ""
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4198,6 +4210,10 @@ msgstr "Porovnat s \"%s\""
 #, c-format
 msgid "Diff with parent %d"
 msgstr "Porovnat s rodičem %d"
+
+#. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
+msgid "Differ"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -6776,11 +6792,19 @@ msgstr "Místní"
 msgid "Local Branch"
 msgstr "Místní větev"
 
+#. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
+msgid "Local SHA1"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
 msgstr "Místní změny ignorovány (soubory označeny jako \"považovat za platné/nezměněné\" nebo \"přeskočit pracovní strom\")"
+
+#. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
+msgid "Local message"
+msgstr ""
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -7678,6 +7702,10 @@ msgstr "Pouze sloučené soubory"
 msgid "Only consider first parents on blame"
 msgstr ""
 
+#. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
+msgid "Only local"
+msgstr ""
+
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
 msgstr ""
@@ -7687,6 +7715,10 @@ msgid ""
 "Only numbers (optionally separated by commas)\n"
 "are allowed!"
 msgstr "Jsou povolena pouze čísla!\n(můžou být oddělena čárkami)"
+
+#. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
+msgid "Only remote"
+msgstr ""
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -8617,6 +8649,10 @@ msgstr "Vzdálená větev &sledování"
 msgid "Remote Branch"
 msgstr "Vzdálená větev"
 
+#. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
+msgid "Remote SHA1"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
 msgstr "Vzdálená URL nesmí být prázdná."
@@ -8624,6 +8660,10 @@ msgstr "Vzdálená URL nesmí být prázdná."
 #. Resource IDs: (IDS_PROC_SYNC_REMOTEUPDATE)
 msgid "Remote Update"
 msgstr "Vzdálená aktualizace"
+
+#. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
+msgid "Remote message"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -8852,14 +8892,6 @@ msgstr "Vyřešit konflikt podmodulu"
 #, c-format
 msgid "Resolve conflict using \"%s\""
 msgstr ""
-
-#. Resource IDs: (IDS_SVNPROGRESS_MENUUSEMINE)
-msgid "Resolve conflict using 'mine'"
-msgstr "Vyřešit konflikt pomocí 'můj'"
-
-#. Resource IDs: (IDS_SVNPROGRESS_MENUUSETHEIRS)
-msgid "Resolve conflict using 'theirs'"
-msgstr "Vyřešit konflikt pomocí 'jejich'"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
@@ -9155,7 +9187,7 @@ msgstr "&BezpCrlf:"
 msgid "Safe Crlf:"
 msgstr "Bezpečné Crlf:"
 
-#. Resource IDs: (IDS_SAME)
+#. Resource IDs: (IDS_SAME, IDS_TAGCOMPARE_SAME)
 msgid "Same"
 msgstr "Stejné"
 
@@ -11546,25 +11578,6 @@ msgstr "Použít &jednopanelové zobrazení k porovnání 2 souborů"
 msgid "Use &other text block"
 msgstr "Použít &druhý textový blok"
 
-#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
-msgid "Use 'mine' text block"
-msgstr "Použít textový blok 'můj'"
-
-#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
-#. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
-msgid "Use 'mine' text block then 'theirs'"
-msgstr "Použít textový blok 'můj' pak 'jejich'"
-
-#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
-#. name)
-msgid "Use 'theirs' text block"
-msgstr "Použít textový blok 'jejich'"
-
-#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
-#. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
-msgid "Use 'theirs' text block then 'mine'"
-msgstr "Použít textový blok 'jejich' pak 'můj'"
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
 msgstr "Použít .mailmap"
@@ -11737,46 +11750,6 @@ msgid ""
 "Use text block from right file\n"
 "Use right file text block"
 msgstr ""
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
-msgid "Use text block from '&mine'"
-msgstr "Použít textový blok z '&mého'"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
-msgid "Use text block from '&theirs'"
-msgstr "Použít textový blok z '&jejich'"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
-msgid "Use text block from 'm&ine' before 'theirs'"
-msgstr "Použít textový blok z 'mé&ho' před 'jejich'"
-
-#. Resource IDs: (32822)
-msgid ""
-"Use text block from 'mine' before 'theirs'\n"
-"Use 'mine' text block then 'theirs'"
-msgstr "Použít textový blok z 'mého' před 'jejich'\nPoužít 'můj' textový blok před 'jejich'"
-
-#. Resource IDs: (32820)
-msgid ""
-"Use text block from 'mine'\n"
-"Use 'mine' text block"
-msgstr "Použít textový blok z 'mého'\nPoužít 'můj' textový blok"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
-msgid "Use text block from 't&heirs' before 'mine'"
-msgstr "Použít textový blok z 'jejic&h' před 'mým'"
-
-#. Resource IDs: (32821)
-msgid ""
-"Use text block from 'theirs' before 'mine'\n"
-"Use 'theirs' text block then 'mine'"
-msgstr "Použít textový blok z 'jejich' před mým'\nPoužít 'jejich' textový blok před 'mým'"
-
-#. Resource IDs: (32819)
-msgid ""
-"Use text block from 'theirs'\n"
-"Use 'theirs' text block"
-msgstr "Použít textový blok z 'jejich'\nPoužít 'jejich' textový blok"
 
 #. Resource IDs: (32855)
 msgid ""
@@ -12520,6 +12493,10 @@ msgstr "bugtraq.url"
 msgid "bugtraq.warningifnoissue"
 msgstr "bugtraq.warningifnoissue"
 
+#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
+msgid "changes to-be-integrated"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
 msgid "column '%ls'"
@@ -12798,10 +12775,6 @@ msgstr "do %1"
 #, c-format
 msgid "to %s"
 msgstr "do %s"
-
-#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
-msgid "to-be-merged"
-msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"

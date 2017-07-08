@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-05 18:26+0000\n"
+"PO-Revision-Date: 2017-07-07 22:09+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -3311,6 +3311,10 @@ msgstr ""
 msgid "Compare selected refs"
 msgstr "Compara els refs seleccionats"
 
+#. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
+msgid "Compare tags"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
 msgstr "Compara dos arxius"
@@ -3986,6 +3990,10 @@ msgstr "Elimina branca"
 msgid "Delete branch/tag"
 msgstr "Elimina branca/etiqueta"
 
+#. Resource IDs: (IDS_DELETE_LOCALTAG)
+msgid "Delete local tag"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
 msgstr "Elimina branca remota"
@@ -4010,6 +4018,10 @@ msgstr "Elimina sub-mòdul"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAG)
 msgid "Delete tag"
 msgstr "Elimina etiqueta"
+
+#. Resource IDs: (IDS_DELETE_REMOTETAG)
+msgid "Delete tag on remote"
+msgstr ""
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4201,6 +4213,10 @@ msgstr ""
 #, c-format
 msgid "Diff with parent %d"
 msgstr "Diff amb el pare %d"
+
+#. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
+msgid "Differ"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -6779,10 +6795,18 @@ msgstr "Local"
 msgid "Local Branch"
 msgstr "Branca local"
 
+#. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
+msgid "Local SHA1"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
+msgstr ""
+
+#. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
+msgid "Local message"
 msgstr ""
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
@@ -7681,6 +7705,10 @@ msgstr "Només arxius fusionats"
 msgid "Only consider first parents on blame"
 msgstr ""
 
+#. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
+msgid "Only local"
+msgstr ""
+
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
 msgstr ""
@@ -7690,6 +7718,10 @@ msgid ""
 "Only numbers (optionally separated by commas)\n"
 "are allowed!"
 msgstr "Només es permeten números!\n(opcionalment separats per comes)"
+
+#. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
+msgid "Only remote"
+msgstr ""
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -8620,6 +8652,10 @@ msgstr "Branca que segueix una branca remota"
 msgid "Remote Branch"
 msgstr "Branca remota"
 
+#. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
+msgid "Remote SHA1"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
 msgstr "La URL remota no pot estar buida"
@@ -8627,6 +8663,10 @@ msgstr "La URL remota no pot estar buida"
 #. Resource IDs: (IDS_PROC_SYNC_REMOTEUPDATE)
 msgid "Remote Update"
 msgstr "Actualització remota"
+
+#. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
+msgid "Remote message"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -8855,14 +8895,6 @@ msgstr ""
 #, c-format
 msgid "Resolve conflict using \"%s\""
 msgstr ""
-
-#. Resource IDs: (IDS_SVNPROGRESS_MENUUSEMINE)
-msgid "Resolve conflict using 'mine'"
-msgstr "Resoldre conflicte utilitzant 'el meu'"
-
-#. Resource IDs: (IDS_SVNPROGRESS_MENUUSETHEIRS)
-msgid "Resolve conflict using 'theirs'"
-msgstr "Resoldre conflicte usant  'el seu'"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
@@ -9158,7 +9190,7 @@ msgstr "Sa&feCrLf:"
 msgid "Safe Crlf:"
 msgstr "Safe Crlf:"
 
-#. Resource IDs: (IDS_SAME)
+#. Resource IDs: (IDS_SAME, IDS_TAGCOMPARE_SAME)
 msgid "Same"
 msgstr ""
 
@@ -11549,25 +11581,6 @@ msgstr "Utilitza per defecte la visualització &un-panell  per trobar diferènci
 msgid "Use &other text block"
 msgstr "Utilitza un altre &bloc de text"
 
-#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
-msgid "Use 'mine' text block"
-msgstr "Utilitza el bloc de text \"meu\""
-
-#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
-#. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
-msgid "Use 'mine' text block then 'theirs'"
-msgstr "Utilitza el bloc de text \"meu\", i després el \"d'ells\""
-
-#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
-#. name)
-msgid "Use 'theirs' text block"
-msgstr "Utilitza el bloc de text \"d'ells\""
-
-#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
-#. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
-msgid "Use 'theirs' text block then 'mine'"
-msgstr "Utilitza el bloc de text \"d'ells\", i després el \"meu\""
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
 msgstr ""
@@ -11740,46 +11753,6 @@ msgid ""
 "Use text block from right file\n"
 "Use right file text block"
 msgstr ""
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
-msgid "Use text block from '&mine'"
-msgstr "Utilitza bloc de text de '&el meu'"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
-msgid "Use text block from '&theirs'"
-msgstr "Utilitza bloc de text de '&el seu'"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
-msgid "Use text block from 'm&ine' before 'theirs'"
-msgstr "Utilitza bloc de text de 'el m&eu' abans de 'el seu'"
-
-#. Resource IDs: (32822)
-msgid ""
-"Use text block from 'mine' before 'theirs'\n"
-"Use 'mine' text block then 'theirs'"
-msgstr "Utilitza bloc de text 'el meu' abans de 'el seu'\nUtilitza bloc de text 'el meu' llavors 'el seu'"
-
-#. Resource IDs: (32820)
-msgid ""
-"Use text block from 'mine'\n"
-"Use 'mine' text block"
-msgstr "Utilitza bloc de text del 'el meu'\nUtilitza bloc de text 'el meu'"
-
-#. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
-msgid "Use text block from 't&heirs' before 'mine'"
-msgstr "Utilitza bloc de text de 'el &seu' abans de 'el meu'"
-
-#. Resource IDs: (32821)
-msgid ""
-"Use text block from 'theirs' before 'mine'\n"
-"Use 'theirs' text block then 'mine'"
-msgstr "Utilitza bloc de text 'el seu' abans que 'el meu'\nBloc de text 'el seu' llavors 'el meu'"
-
-#. Resource IDs: (32819)
-msgid ""
-"Use text block from 'theirs'\n"
-"Use 'theirs' text block"
-msgstr "Utilitza bloc de text de 'el seu'\nUtilitza bloc de text 'el seu'"
 
 #. Resource IDs: (32855)
 msgid ""
@@ -12523,6 +12496,10 @@ msgstr "bugtraq.url"
 msgid "bugtraq.warningifnoissue"
 msgstr "bugtraq.warningifnoissue"
 
+#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
+msgid "changes to-be-integrated"
+msgstr ""
+
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
 msgid "column '%ls'"
@@ -12801,10 +12778,6 @@ msgstr "a %1"
 #, c-format
 msgid "to %s"
 msgstr "a %s"
-
-#. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
-msgid "to-be-merged"
-msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"
