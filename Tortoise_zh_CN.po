@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-08 15:57+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-07-09 15:09+0000\n"
+"Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -162,7 +162,7 @@ msgstr "%1!d!分钟前"
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
 msgid "%1!s! (%2!s!)"
-msgstr ""
+msgstr "%1!s! (%2!s!)"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -211,7 +211,7 @@ msgstr "已传输 %I64d KiB"
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERED)
 #, c-format
 msgid "%Ts [Recovered]"
-msgstr "%Ts [已恢复的]"
+msgstr "%Ts [已恢复]"
 
 #. Resource IDs: (AFX_IDS_EMBED_FORMAT, AFX_IDS_LINKSOURCE_FORMAT)
 #, c-format
@@ -640,7 +640,7 @@ msgstr "不再显示此消息(&D)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr "现在不要存储这些设置(&D)"
+msgstr "现在不存储这些设置(&D)"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -806,7 +806,7 @@ msgstr "HEAD(&H)"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1552, Dialog IDD_RESET:
 #. Control id 1552)
 msgid "&Hard: Reset working tree and index (discard all local changes)"
-msgstr "&Hard: 重置工作区和索引（丢弃所有本地变更）"
+msgstr "硬重置(&H)：重置工作区和索引（丢弃所有本地变更）"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
 #. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP)
@@ -984,7 +984,7 @@ msgstr "最小化(&M)"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
 msgid "&Mixed: Leave working tree untouched, reset index"
-msgstr "&Mixed: 保持工作区不变，重置索引文件"
+msgstr "混合(&M)：保持工作区不变，重置索引文件"
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
@@ -1284,7 +1284,7 @@ msgstr "保存(&S)\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "搜索(&S)..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -1320,7 +1320,7 @@ msgstr "跳过(&S)"
 
 #. Resource IDs: (Dialog IDD_RESET: Control id 1550)
 msgid "&Soft: Leave working tree and index untouched"
-msgstr "&Soft: 不更改工作区和索引"
+msgstr "软重置(&S)：不更改工作区和索引"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1524, Dialog IDD_PULLFETCH:
 #. Control id 1524)
@@ -1501,7 +1501,7 @@ msgstr "是(&Y)"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1682)
 msgid "&add \"cherry picked from\""
-msgstr "添加“摘取从\"(&A)"
+msgstr "添加“摘取从”(&A)"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
@@ -2261,11 +2261,11 @@ msgstr "作者邮件"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
 msgid "Author email addresses"
-msgstr ""
+msgstr "作者邮件地址"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
 msgid "Author names"
-msgstr ""
+msgstr "作者名称"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
@@ -2277,7 +2277,7 @@ msgstr "作者"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
 msgid "Authors (full)"
-msgstr ""
+msgstr "作者全名"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
@@ -3317,7 +3317,7 @@ msgstr "比较选定的引用"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
 msgid "Compare tags"
-msgstr ""
+msgstr "比较标签"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
@@ -3848,6 +3848,12 @@ msgid ""
 "If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
 msgstr "当前分支 %s 已经最新\n\n如果您想强制变基（即使当前分支已是您变基目标的后代），请选择下面“强制变基”选项。"
 
+#. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
+msgid ""
+"Current branch is up to date or newer than the fetched branch. Open rebase "
+"anyway?"
+msgstr "当前分支等同或新于已获取分支。依旧进行“变基”？"
+
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
 msgstr "当前版本是: "
@@ -3996,7 +4002,7 @@ msgstr "删除分支/标签"
 
 #. Resource IDs: (IDS_DELETE_LOCALTAG)
 msgid "Delete local tag"
-msgstr ""
+msgstr "删除本地标签"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
@@ -4025,7 +4031,7 @@ msgstr "删除标签"
 
 #. Resource IDs: (IDS_DELETE_REMOTETAG)
 msgid "Delete tag on remote"
-msgstr ""
+msgstr "删除远端标签"
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4033,7 +4039,7 @@ msgstr "删除现存的分支，或者使用其他名称。"
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
 msgid "Delete/modify merge conflict"
-msgstr ""
+msgstr "删除/修改合并冲突"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
@@ -4220,7 +4226,7 @@ msgstr "与第%d个父节点比较差异"
 
 #. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
 msgid "Differ"
-msgstr ""
+msgstr "不同"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -4253,7 +4259,7 @@ msgstr "禁用音效"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1536)
 msgid "Disable status cache for elevated processes"
-msgstr ""
+msgstr "禁用高权限进程的状态缓存"
 
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
@@ -4388,7 +4394,7 @@ msgstr "您确定要永久删除 %d 个选择的引用吗？这个操作不能�
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
-msgstr ""
+msgstr "确定推送所有本地分支？"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -5509,11 +5515,11 @@ msgstr "全屏"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
 msgid "Full commit data without changed paths"
-msgstr ""
+msgstr "完整提交数据，无已更改路径"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
 msgid "Full data"
-msgstr ""
+msgstr "完整数据"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
@@ -6270,6 +6276,11 @@ msgid ""
 "i.e. they get the modified overlay icon."
 msgstr "如果选中该项，包含未受版本控制的文件的文件夹将标记为已修改。\n例如，它们的图标将显示为已修改状态。"
 
+#. Resource IDs: (IDS_SETTINGS_GITCONFIG_INHERIT_TT)
+msgid ""
+"If this is enabled, no value is stored or overwritten at this config level."
+msgstr "如果此项被启用，此配置级别不会存储或覆盖任何值。"
+
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
 "If you plan to work inside this folder, leave this unchecked. Typically a "
@@ -6589,7 +6600,7 @@ msgstr "韩语"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
-msgstr ""
+msgstr "LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "LINE1"
@@ -6801,7 +6812,7 @@ msgstr "本地分支"
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
 msgid "Local SHA1"
-msgstr ""
+msgstr "本地 SHA1"
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
@@ -6811,7 +6822,7 @@ msgstr "已忽略的本地变更（设置了 valid/unchanged 或者 skip worktre
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
-msgstr ""
+msgstr "本地消息"
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -6873,7 +6884,7 @@ msgstr "亮度"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1550)
 msgid "M&erge: Resets the index and try to reconstruct the pre-merge state"
-msgstr ""
+msgstr "合并(&E)：重置索引并尝试重建合并前的状态"
 
 #. Resource IDs: (IDS_SMTP_MAPI)
 msgid "MAPI"
@@ -7711,7 +7722,7 @@ msgstr "追溯时只考虑首个父节点"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
-msgstr ""
+msgstr "仅本地"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
@@ -7725,7 +7736,7 @@ msgstr "仅可以输入数字（可以用逗号分隔）！"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
 msgid "Only remote"
-msgstr ""
+msgstr "仅远端"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -7903,7 +7914,7 @@ msgstr "父节点2"
 #. Resource IDs: (IDS_CONFLICT_REVERT)
 #, c-format
 msgid "Parent of %2!s!"
-msgstr ""
+msgstr "%2!s! 的父节点"
 
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
@@ -8658,7 +8669,7 @@ msgstr "远端分支"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
 msgid "Remote SHA1"
-msgstr ""
+msgstr "远端 SHA1"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
@@ -8670,7 +8681,7 @@ msgstr "更新远端"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
 msgid "Remote message"
-msgstr ""
+msgstr "远端消息"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -8898,7 +8909,7 @@ msgstr "解决子模块冲突"
 #. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
 #, c-format
 msgid "Resolve conflict using \"%s\""
-msgstr ""
+msgstr "使用“%s”解决冲突"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
@@ -10337,7 +10348,7 @@ msgstr "主题:"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
 msgid "Subjects"
-msgstr ""
+msgstr "主题"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"
@@ -10539,7 +10550,7 @@ msgstr "标签信息"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_TAGBRANCHES)
 msgid "Tag/branch names"
-msgstr ""
+msgstr "标签/分支名称"
 
 #. Resource IDs: (IDS_PROC_COPY_SUCCESS)
 #, c-format
@@ -11038,6 +11049,11 @@ msgid ""
 "This operation cannot be started while the log dialog is still loading "
 "commits."
 msgstr "在日志对话框仍在载入提交时，此操作不能进行。"
+
+#. Resource IDs: (IDS_GITCONFIG_SETTING)
+#, c-format
+msgid "This option represents \"%s\" git config setting."
+msgstr "此选项代表“%s” git config 设置。"
 
 #. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
 msgid ""
@@ -11592,7 +11608,7 @@ msgstr "使用 .mailmap"
 
 #. Resource IDs: (IDS_PROC_USELFS_TT)
 msgid "Use Git LFS"
-msgstr ""
+msgstr "使用 Git LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
@@ -11656,11 +11672,11 @@ msgstr "使用两个文本块（这个块最后）"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1128)
 msgid "Use commit dates"
-msgstr ""
+msgstr "使用提交日期"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1127)
 msgid "Use committer names"
-msgstr ""
+msgstr "使用提交者名称"
 
 #. Resource IDs: (IDS_SMTP_CONFIGURED)
 msgid "Use configured server"
@@ -11679,12 +11695,12 @@ msgstr "使用左边的文件"
 #. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
 #. name)
 msgid "Use left text block"
-msgstr ""
+msgstr "使用左侧文本块"
 
 #. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
 #. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
 msgid "Use left text block then right"
-msgstr ""
+msgstr "优先使用左侧文本块"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
@@ -11704,12 +11720,12 @@ msgstr "使用右侧内容"
 
 #. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
 msgid "Use right text block"
-msgstr ""
+msgstr "使用右侧文本块"
 
 #. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
 #. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
 msgid "Use right text block then left"
-msgstr ""
+msgstr "优先使用右侧文本块"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
@@ -11721,43 +11737,43 @@ msgstr "对日期/时间使用系统区域"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
 msgid "Use text block from &left"
-msgstr ""
+msgstr "使用左侧文本块(&L)"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from &right"
-msgstr ""
+msgstr "使用右侧文本块(&R)"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
 msgid "Use text block from l&eft before right"
-msgstr ""
+msgstr "优先使用左侧文本块(&E)"
 
 #. Resource IDs: (32821)
 msgid ""
 "Use text block from left before right file\n"
 "Use left file text block then right"
-msgstr ""
+msgstr "优先使用左侧文本块\n优先使用左侧文本块"
 
 #. Resource IDs: (32819)
 msgid ""
 "Use text block from left file\n"
 "Use left file text block"
-msgstr ""
+msgstr "使用左侧文本块\n使用左侧文本块"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
 msgid "Use text block from r&ight before left"
-msgstr ""
+msgstr "优先使用右侧文本块(&I)"
 
 #. Resource IDs: (32822)
 msgid ""
 "Use text block from right file before left\n"
 "Use right file text block then left"
-msgstr ""
+msgstr "优先使用右侧文本块\n优先使用右侧文本块"
 
 #. Resource IDs: (32820)
 msgid ""
 "Use text block from right file\n"
 "Use right file text block"
-msgstr ""
+msgstr "使用右侧文本块\n使用右侧文本块"
 
 #. Resource IDs: (32855)
 msgid ""
@@ -11843,7 +11859,7 @@ msgstr "用户名称: "
 
 #. Resource IDs: (IDS_SETTINGS_ONLYNONELEVATED_TT)
 msgid "Uses the status cache type 'none' for elevated processes"
-msgstr ""
+msgstr "为高权限进程使用 'none' 状态缓存类型"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -12471,7 +12487,7 @@ msgstr "作者 (>= 0.5%)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "based on TortoiseSVN (https://tortoisesvn.net/)"
-msgstr ""
+msgstr "基于 TortoiseSVN (https://tortoisesvn.net/)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535)
 msgid "bugtraq.append"
@@ -12503,12 +12519,12 @@ msgstr "bugtraq.warningifnoissue"
 
 #. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
 msgid "changes to-be-integrated"
-msgstr ""
+msgstr "要整合的更改"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
 msgid "column '%ls'"
-msgstr ""
+msgstr "列 '%ls'"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORY,
 #. IDS_STATGRAPH_COMMITSBYDATEY)
@@ -12561,15 +12577,15 @@ msgstr "外部"
 
 #. Resource IDs: (IDS_CONFLICT_NOTASUBMODULE)
 msgid "file, not a submodule"
-msgstr ""
+msgstr "文件，非子模块"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
-msgstr ""
+msgstr "文件/文件夹名称"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
-msgstr ""
+msgstr "完整路径"
 
 #. Resource IDs: (IDS_PROC_PROGRESS_GITUNCLEANEXIT)
 #, c-format
@@ -12689,7 +12705,7 @@ msgstr "此命令尚无描述"
 
 #. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
 msgid "no submodule"
-msgstr ""
+msgstr "无子模块"
 
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
@@ -12709,7 +12725,7 @@ msgstr "没有找到"
 
 #. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
 msgid "not initialized"
-msgstr ""
+msgstr "未初始化"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
@@ -12749,7 +12765,7 @@ msgstr "季度"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYRELPATHS)
 msgid "relative paths"
-msgstr ""
+msgstr "相对路径"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "renamed"

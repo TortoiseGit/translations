@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-08 15:57+0000\n"
+"PO-Revision-Date: 2017-07-09 12:25+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Nepali (http://www.transifex.com/lznuaa/tortoisegit/language/ne/)\n"
 "MIME-Version: 1.0\n"
@@ -3836,6 +3836,12 @@ msgid ""
 "If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
 msgstr ""
 
+#. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
+msgid ""
+"Current branch is up to date or newer than the fetched branch. Open rebase "
+"anyway?"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
 msgstr ""
@@ -6256,6 +6262,11 @@ msgstr ""
 msgid ""
 "If set, then unversioned files will mark the status of the parent directory as modified\n"
 "i.e. they get the modified overlay icon."
+msgstr ""
+
+#. Resource IDs: (IDS_SETTINGS_GITCONFIG_INHERIT_TT)
+msgid ""
+"If this is enabled, no value is stored or overwritten at this config level."
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
@@ -11025,6 +11036,11 @@ msgstr ""
 msgid ""
 "This operation cannot be started while the log dialog is still loading "
 "commits."
+msgstr ""
+
+#. Resource IDs: (IDS_GITCONFIG_SETTING)
+#, c-format
+msgid "This option represents \"%s\" git config setting."
 msgstr ""
 
 #. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)

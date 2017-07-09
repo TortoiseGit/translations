@@ -9,7 +9,7 @@
 # bodyguard 1 <q20162018@gmail.com>, 2016
 # Dmytro Kutianskyi <dmytro.kutyansky@gmail.com>, 2015
 # intrueder <intrueder@gmail.com>, 2015
-# Ivan Yakushchenko <kosistivan@gmail.com>, 2016
+# Ivan Yakushchenko <kosistivan@gmail.com>, 2016-2017
 # ktretyak <ktretyak.in.ua@gmail.com>, 2016
 # ktretyak <ktretyak.in.ua@gmail.com>, 2013
 # ktretyak <ktretyak.in.ua@gmail.com>, 2013,2016
@@ -25,8 +25,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-08 15:57+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-07-09 14:38+0000\n"
+"Last-Translator: Ivan Yakushchenko <kosistivan@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/lznuaa/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1286,7 +1286,7 @@ msgstr "&Зберегти\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "&Пошук..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -1953,7 +1953,7 @@ msgstr "Усі батьки"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_BASIC_REFS)
 msgid "All basic refs"
-msgstr ""
+msgstr "Всі основні посилання"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_LOCAL_BRANCHES)
 msgid "All local branches"
@@ -1961,7 +1961,7 @@ msgstr "Усі локальні гілки"
 
 #. Resource IDs: (IDS_ALLREFS)
 msgid "All refs"
-msgstr ""
+msgstr "Всі посилання"
 
 #. Resource IDs: (IDS_ALLTAGS)
 msgid "All tags"
@@ -2279,7 +2279,7 @@ msgstr "Автори"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
 msgid "Authors (full)"
-msgstr ""
+msgstr "Автори (повністю)"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
@@ -2315,7 +2315,7 @@ msgstr "Автоматично закривати за відсутності п
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOPTIONS)
 msgid "Auto-close if no further options are available"
-msgstr ""
+msgstr "Автоматично закривати, якщо інші опції недоступні"
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOMERGES)
 msgid "Auto-close if no merges, adds or deletes"
@@ -2792,7 +2792,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Certificate verification failed!"
-msgstr ""
+msgstr "Верифікація сертифікату зазнала невдачі!"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1697)
 msgid "Change log"
@@ -3848,6 +3848,12 @@ msgid ""
 "Current branch %s is up to date\n"
 "\n"
 "If you want to force the rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
+msgstr ""
+
+#. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
+msgid ""
+"Current branch is up to date or newer than the fetched branch. Open rebase "
+"anyway?"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
@@ -6271,6 +6277,11 @@ msgid ""
 "If set, then unversioned files will mark the status of the parent directory as modified\n"
 "i.e. they get the modified overlay icon."
 msgstr "Якщо встановлено, неверсійні файли позначатимуть стан батьківського каталогу як змінений,\nнаприклад, там буде піктограма перекриття 'модифіковано'."
+
+#. Resource IDs: (IDS_SETTINGS_GITCONFIG_INHERIT_TT)
+msgid ""
+"If this is enabled, no value is stored or overwritten at this config level."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
@@ -9325,7 +9336,7 @@ msgstr "Зберігти зміни."
 
 #. Resource IDs: (IDS_SAVEPATCH)
 msgid "Save patch file"
-msgstr ""
+msgstr "Зберегти файл патчу"
 
 #. Resource IDs: (IDS_LOG_POPUP_SAVE)
 msgid "Save revision &to..."
@@ -9893,11 +9904,11 @@ msgstr "Показати лог %s"
 
 #. Resource IDs: (IDS_LOG_SUBMODULE)
 msgid "Show log of submodule"
-msgstr ""
+msgstr "Показати лог підмодулю"
 
 #. Resource IDs: (IDS_MENULOGSUBMODULE)
 msgid "Show log of this folder"
-msgstr ""
+msgstr "Показати лог цієї теки"
 
 #. Resource IDs: (IDS_LOG_POPUP_LOG)
 msgid "Show log..."
@@ -10039,7 +10050,7 @@ msgstr ""
 #. Resource IDs: (10011, ID_VIEW_APPLOOK_OFF_2007_SILVER - Menu,
 #. ID_VIEW_APPLOOK_OFF_2007_SILVER - Ribbon name)
 msgid "Silver Style"
-msgstr ""
+msgstr "Срібний стиль"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1532)
 msgid "Since"
@@ -10082,7 +10093,7 @@ msgstr "Пропущено відсутню ціль"
 
 #. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_SLIDE)
 msgid "Slide"
-msgstr ""
+msgstr "Слайд"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1098)
 msgid "Smart tab char"
@@ -10090,7 +10101,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_RESET_SOFT)
 msgid "Soft"
-msgstr ""
+msgstr "М'який"
 
 #. Resource IDs: (IDS_WARNMODIFIEDOUTSIDE)
 msgid ""
@@ -10315,7 +10326,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 65535)
 msgid "Strategy"
-msgstr ""
+msgstr "Стратегія"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1406)
 msgid "Strip lines starting with \"#\" in commit message"
@@ -10339,7 +10350,7 @@ msgstr "Тема:"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
 msgid "Subjects"
-msgstr ""
+msgstr "Теми"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"
@@ -10592,7 +10603,7 @@ msgstr ""
 msgid ""
 "The Remote Config was changed.\n"
 "Do you want to save now or discard changes?"
-msgstr ""
+msgstr "Віддалена конфігурація була змінена.\nВи хочете зберегти зараз, чи відмінити зміни?"
 
 #. Resource IDs: (IDS_DEFAULT_NUMBER_OF_TT)
 msgid ""
@@ -11039,6 +11050,11 @@ msgstr ""
 msgid ""
 "This operation cannot be started while the log dialog is still loading "
 "commits."
+msgstr ""
+
+#. Resource IDs: (IDS_GITCONFIG_SETTING)
+#, c-format
+msgid "This option represents \"%s\" git config setting."
 msgstr ""
 
 #. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
