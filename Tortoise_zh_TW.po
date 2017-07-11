@@ -11,17 +11,17 @@
 # Hydriz Scholz <hydriz@jorked.com>, 2013,2015
 # Hydriz Scholz <hydriz@jorked.com>, 2013,2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
-# 何岳林 <yuelinho777@gmail.com>, 2014-2016
+# Yue Lin Ho <yuelinho777@gmail.com>, 2014-2017
 # 乙酸鋰 <ch3cooli@gmail.com>, 2012,2017
-# 何岳林 <yuelinho777@gmail.com>, 2017
+# Yue Lin Ho <yuelinho777@gmail.com>, 2017
 # 乙酸鋰 <ch3cooli@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-09 12:25+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-07-11 03:19+0000\n"
+"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -159,7 +159,7 @@ msgstr "%1!d!分鐘前"
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
 msgid "%1!s! (%2!s!)"
-msgstr ""
+msgstr "%1!s!（%2!s!）"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -1281,7 +1281,7 @@ msgstr "儲存(&S)\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "搜尋(&S)..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -1970,26 +1970,26 @@ msgstr "只包括全部標籤"
 msgid ""
 "All your changes will be lost! Do you really want to reset all toolbars and "
 "menus?"
-msgstr "全部的變更都會消失！確定要重設所有工具列和選單嗎？"
+msgstr "您的所有變更都將會遺失! 您確定要重設所有工具列和功能表嗎?"
 
 #. Resource IDs: (IDS_AFXBARRES_RESET_KEYBOARD)
 msgid ""
 "All your changes will be lost! Do you really want to reset the keyboard "
 "assignments?"
-msgstr "全部的變更都會消失！確定要重設鍵盤配置嗎？"
+msgstr "您的所有變更都將會遺失! 您確定要重設鍵盤指派嗎?"
 
 #. Resource IDs: (IDS_AFXBARRES_RESET_MENU_FMT)
 #, c-format
 msgid ""
 "All your changes will be lost! Do you really want to reset the menu '%Ts'?"
-msgstr "全部的變更都會消失！確定要重設選單「%Ts」嗎？"
+msgstr "您的所有變更都將會遺失! 您確定要重設功能表 '%Ts' 嗎?"
 
 #. Resource IDs: (IDS_AFXBARRES_RESET_TOOLBAR_FMT)
 #, c-format
 msgid ""
 "All your changes will be lost! Do you really want to reset the toolbar "
 "'%Ts'?"
-msgstr "全部的變更都會消失！確定要重設工具列「%Ts」嗎？"
+msgstr "您的所有變更都將會遺失! 您確定要重設工具列 '%Ts' 嗎?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -3314,7 +3314,7 @@ msgstr "比對已選的參照"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
 msgid "Compare tags"
-msgstr ""
+msgstr "比較標籤"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
@@ -3849,7 +3849,7 @@ msgstr "目前分支「%s」已經是最新\n\n如果你想強制變基，請選
 msgid ""
 "Current branch is up to date or newer than the fetched branch. Open rebase "
 "anyway?"
-msgstr ""
+msgstr "目前分支已經是最新的，甚至比獲取（fetch）的結果還新。\n仍然要開啟「變基」視窗？"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
@@ -3999,7 +3999,7 @@ msgstr "刪除「分支／標籤」"
 
 #. Resource IDs: (IDS_DELETE_LOCALTAG)
 msgid "Delete local tag"
-msgstr ""
+msgstr "刪除本地端的標籤"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
@@ -4028,7 +4028,7 @@ msgstr "刪除標籤"
 
 #. Resource IDs: (IDS_DELETE_REMOTETAG)
 msgid "Delete tag on remote"
-msgstr ""
+msgstr "刪除遠端上的標籤"
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4036,7 +4036,7 @@ msgstr "刪除現有分支或用另一名稱"
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
 msgid "Delete/modify merge conflict"
-msgstr ""
+msgstr "「刪除／修改」合併衝突"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
@@ -4223,7 +4223,7 @@ msgstr "與親代 %d 比較"
 
 #. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
 msgid "Differ"
-msgstr ""
+msgstr "不一致"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -4361,7 +4361,7 @@ msgstr "確定要刪除「%s」？"
 #. Resource IDs: (IDS_AFXBARRES_DELETE_TOOLBAR_FMT)
 #, c-format
 msgid "Do you really want to delete the toolbar '%Ts'?"
-msgstr "確定要刪除工具列 '%Ts' 嗎？"
+msgstr "您確定要刪除工具列 '%Ts' 嗎?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4391,7 +4391,7 @@ msgstr "確定要永久刪除這 %d 個所選的參照？這是「無法」還�
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
-msgstr ""
+msgstr "你真的想要一次推送「全部的」分支？"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -6276,7 +6276,7 @@ msgstr "設定此選項時，含有無版本控制的檔案會使上層的資料
 #. Resource IDs: (IDS_SETTINGS_GITCONFIG_INHERIT_TT)
 msgid ""
 "If this is enabled, no value is stored or overwritten at this config level."
-msgstr ""
+msgstr "如果勾選這個，在這個等級下的組態值將不會被「儲存／覆寫」。而是直接延用較低優先權等級的組態值。"
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
@@ -6809,7 +6809,7 @@ msgstr "本地分支"
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
 msgid "Local SHA1"
-msgstr ""
+msgstr "本地提交 SHA-1"
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
@@ -6819,7 +6819,7 @@ msgstr "忽略本地變更（含 assumed valid/unchanged 或 skip worktree 旗�
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
-msgstr ""
+msgstr "本地日誌訊息"
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -6881,7 +6881,7 @@ msgstr "Lum"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1550)
 msgid "M&erge: Resets the index and try to reconstruct the pre-merge state"
-msgstr ""
+msgstr "M&erge：重設「索引」，並試圖重建合併前的狀態。"
 
 #. Resource IDs: (IDS_SMTP_MAPI)
 msgid "MAPI"
@@ -7719,7 +7719,7 @@ msgstr "只譴責第一親代版本"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
-msgstr ""
+msgstr "只在本地端"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
@@ -7733,7 +7733,7 @@ msgstr "只允許輸入數字！\n（可以用逗號分隔）"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
 msgid "Only remote"
-msgstr ""
+msgstr "只在遠端"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -7911,7 +7911,7 @@ msgstr "親代 2"
 #. Resource IDs: (IDS_CONFLICT_REVERT)
 #, c-format
 msgid "Parent of %2!s!"
-msgstr ""
+msgstr "%2!s!的親代"
 
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
@@ -8666,7 +8666,7 @@ msgstr "遠端分支"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
 msgid "Remote SHA1"
-msgstr ""
+msgstr "遠端提交 SHA-1"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
@@ -8678,7 +8678,7 @@ msgstr "遠端更新"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
 msgid "Remote message"
-msgstr ""
+msgstr "遠端日誌訊息"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -8906,7 +8906,7 @@ msgstr "解決子模組衝突"
 #. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
 #, c-format
 msgid "Resolve conflict using \"%s\""
-msgstr ""
+msgstr "使用「%s」解決衝突"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
@@ -10547,7 +10547,7 @@ msgstr "標籤資訊"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_TAGBRANCHES)
 msgid "Tag/branch names"
-msgstr ""
+msgstr "「標籤／分支」名稱"
 
 #. Resource IDs: (IDS_PROC_COPY_SUCCESS)
 #, c-format
@@ -11050,7 +11050,7 @@ msgstr "在日誌視窗仍在載入提交時，不能開始這動作。"
 #. Resource IDs: (IDS_GITCONFIG_SETTING)
 #, c-format
 msgid "This option represents \"%s\" git config setting."
-msgstr ""
+msgstr "該選項所表示的是「%s」組態設定值。"
 
 #. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
 msgid ""
@@ -11064,13 +11064,13 @@ msgstr "這會保留合併點的提交。然而，它在調整提交的順序上
 msgid ""
 "This program is linked to the missing export %Ts in the file %Ts. This "
 "machine may have an incompatible version of %Ts."
-msgstr "找不到本程式連結的 %s (包含於 %s). 可能安裝了不相容版本的 %Ts."
+msgstr "這個程式連結到遺失的匯出項目 %Ts (在檔案 %Ts)。這個電腦的 %Ts 版本可能不相容。"
 
 #. Resource IDs: (AFX_IDP_DLL_LOAD_FAILED)
 #, c-format
 msgid ""
 "This program requires the file %Ts, which was not found on this system."
-msgstr "系統中找不到本程式需要的 %Ts."
+msgstr "這個程式需要檔案 %Ts，但在此系統上找不到。"
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."
@@ -11669,11 +11669,11 @@ msgstr "右區塊使用雙方的文字區塊（後使用本區塊）"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1128)
 msgid "Use commit dates"
-msgstr ""
+msgstr "使用提交日期"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1127)
 msgid "Use committer names"
-msgstr ""
+msgstr "使用提交者名稱"
 
 #. Resource IDs: (IDS_SMTP_CONFIGURED)
 msgid "Use configured server"
@@ -11692,12 +11692,12 @@ msgstr "使用左檔案"
 #. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
 #. name)
 msgid "Use left text block"
-msgstr ""
+msgstr "使用「左邊」的文字區塊"
 
 #. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
 #. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
 msgid "Use left text block then right"
-msgstr ""
+msgstr "使用 「左邊＋右邊」的文字區塊"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
@@ -11717,12 +11717,12 @@ msgstr "改用右區塊內容"
 
 #. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
 msgid "Use right text block"
-msgstr ""
+msgstr "使用「右邊」的文字區塊"
 
 #. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
 #. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
 msgid "Use right text block then left"
-msgstr ""
+msgstr "使用 「右邊＋左邊」的文字區塊"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
@@ -11734,43 +11734,43 @@ msgstr "使用系統語系表示「日期／時間」"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
 msgid "Use text block from &left"
-msgstr ""
+msgstr "使用「左邊」的文字區塊(&L)"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from &right"
-msgstr ""
+msgstr "使用「右邊」的文字區塊(&R)"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
 msgid "Use text block from l&eft before right"
-msgstr ""
+msgstr "使用 「左邊＋右邊」的文字區塊(&E)"
 
 #. Resource IDs: (32821)
 msgid ""
 "Use text block from left before right file\n"
 "Use left file text block then right"
-msgstr ""
+msgstr "先使用 「左邊」的文字區塊，再使用「右邊」的文字區塊。\n 左＋右"
 
 #. Resource IDs: (32819)
 msgid ""
 "Use text block from left file\n"
 "Use left file text block"
-msgstr ""
+msgstr "使用「左邊」的文字區塊。\n使用「左邊」"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
 msgid "Use text block from r&ight before left"
-msgstr ""
+msgstr "使用 「右邊＋左邊」的文字區塊(%I)"
 
 #. Resource IDs: (32822)
 msgid ""
 "Use text block from right file before left\n"
 "Use right file text block then left"
-msgstr ""
+msgstr "先使用 「右邊」的文字區塊，再使用「右邊」的文字區塊。 \n右＋左"
 
 #. Resource IDs: (32820)
 msgid ""
 "Use text block from right file\n"
 "Use right file text block"
-msgstr ""
+msgstr "使用「右邊」的文字區塊。\n使用「右邊」"
 
 #. Resource IDs: (32855)
 msgid ""
@@ -12516,12 +12516,12 @@ msgstr "bugtraq.warningifnoissue"
 
 #. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
 msgid "changes to-be-integrated"
-msgstr ""
+msgstr "待整合的修改內容"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
 msgid "column '%ls'"
-msgstr ""
+msgstr "欄位「%ls」"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORY,
 #. IDS_STATGRAPH_COMMITSBYDATEY)
@@ -12574,15 +12574,15 @@ msgstr "外部"
 
 #. Resource IDs: (IDS_CONFLICT_NOTASUBMODULE)
 msgid "file, not a submodule"
-msgstr ""
+msgstr "檔案（非子模組）"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
-msgstr ""
+msgstr "「檔案／資料夾」名稱"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
-msgstr ""
+msgstr "完整路徑"
 
 #. Resource IDs: (IDS_PROC_PROGRESS_GITUNCLEANEXIT)
 #, c-format
@@ -12702,7 +12702,7 @@ msgstr "此指令尚無說明"
 
 #. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
 msgid "no submodule"
-msgstr ""
+msgstr "沒有子模組"
 
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
@@ -12722,7 +12722,7 @@ msgstr "找不到"
 
 #. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
 msgid "not initialized"
-msgstr ""
+msgstr "子模組尚未初始化"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
@@ -12762,7 +12762,7 @@ msgstr "季"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYRELPATHS)
 msgid "relative paths"
-msgstr ""
+msgstr "相對路徑"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "renamed"
