@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-11 01:49+0000\n"
+"PO-Revision-Date: 2017-07-11 13:52+0000\n"
 "Last-Translator: Stanislav Kroter <krotersv@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -6314,7 +6314,7 @@ msgid ""
 "If your git installation needs an extra entry in the PATH environment "
 "variable, you can enter it here and it will get appended to %PATH% "
 "automatically when TortoiseGit starts."
-msgstr ""
+msgstr "Если вашей установке git нужен дополнительный ввод данных в переменную окружения PATH, то вы можете выполнить его здесь и он будет добавлен в конец %PATH% автоматически при запуске TortoiseGit."
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 4577)
 msgid "Ignore"
@@ -7399,7 +7399,7 @@ msgid ""
 "No git.exe found.\n"
 "\n"
 "TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
-msgstr ""
+msgstr "Не найден git.exe.\n\nTortoiseGit требует git.exe для своих действий (например таких, какие предоставляются пакетом Git для Windows)."
 
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
@@ -7731,7 +7731,7 @@ msgstr "Только слитые файлы"
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1677,
 #. ID_VIEW_ONLYCONSIDERFIRSTPARENTS - Menu)
 msgid "Only consider first parents on blame"
-msgstr ""
+msgstr "Рассматривается только первый предок для определения авторства."
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
@@ -8102,7 +8102,7 @@ msgid ""
 "Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
 "dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
 " search and oftentimes there are powerfull context menus."
-msgstr ""
+msgstr "Пожалуйста, смотрите <a id=\"manual\">руководство</a> для общих подсказок. Например, в большинстве диалогов есть некоторые распространённые сочетания клавиш, такие как F5 для обновления или CTRL+F для поиска, и зачастую есть мощные контекстные меню."
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -8922,7 +8922,7 @@ msgstr "Уладить конфликт подмодуля"
 #. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
 #, c-format
 msgid "Resolve conflict using \"%s\""
-msgstr ""
+msgstr "Уладить конфликт используя \"%s\""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
@@ -9180,7 +9180,7 @@ msgstr "SSH"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "SSH (URLs look like \"git@example.com\")"
-msgstr ""
+msgstr "SSH (адреса URL выглядят как \"git@example.com\")"
 
 #. Resource IDs: (IDS_ENCRYPT_SSL)
 msgid "SSL/TLS"
@@ -10647,7 +10647,7 @@ msgid ""
 "When you merge changes, conflicts can arise that must be solved manually (i.e., you need to integrate your changes into a file which was also modified on another branch).\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "Коммит, который вы формируете, является особым коммитом. Это коммит слияния и, таким образом, содержит как ваши изменения, так и изменения сливаемой ветки.\n\nВам НЕ следует снимать флажки у файлов, если вы не знаете что делаете.\n\nКогда вы сливаете изменения, то могут возникнуть конфликты, которые должны быть улажены вручную (например, вам нужно встроить  ваши изменения  в файл, который был также изменён в другой ветке).\n\nБольше информации смотрите в справке."
 
 #. Resource IDs: (IDS_GITCREDENTIAL_OVERWRITEHELPER)
 #, c-format
