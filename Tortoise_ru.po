@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-14 19:07+0000\n"
+"PO-Revision-Date: 2017-07-16 13:15+0000\n"
 "Last-Translator: Stanislav Kroter <krotersv@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -3591,7 +3591,7 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in versionstring of git.exe.\n"
 "If you are using git of the cygwin or msys2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "Не получилось найти \"msysgit\" или \"windows\" в строке версий git.exe.\nЕсли вы используете git окружения cygwin или msys2, то вам нужно задействовать специальные временные программные решения.\nБолее подробную информацию смотрите в справке по ключевому слову \"cygwin git\" или \"msys2 git\"."
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -8676,7 +8676,8 @@ msgstr "Внешний &URL:"
 msgid "Remote &tracking branch"
 msgstr "Внешняя &отслеживаемая ветвь"
 
-#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535,
+#. IDS_PROC_REMOTEBRANCH)
 msgid "Remote Branch"
 msgstr "Внешняя Ветвь"
 
@@ -9110,7 +9111,7 @@ msgstr "Строка вверх"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1335)
 msgid "Run when working tree path is under:"
-msgstr ""
+msgstr "Запустить, когда рабочая копия находится по пути:"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_DLG: Control id 17045)
 msgid "S&elect..."
@@ -11070,7 +11071,7 @@ msgstr "Эта операция не может быть начата пока �
 #. Resource IDs: (IDS_GITCONFIG_SETTING)
 #, c-format
 msgid "This option represents \"%s\" git config setting."
-msgstr ""
+msgstr "Эта опция представляет настройку конфигурации git \"%s\"."
 
 #. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
 msgid ""

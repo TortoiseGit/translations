@@ -4,6 +4,7 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
+# hirose y <yh1224@gmail.com>, 2017
 # Joseph Ting <josephting90@gmail.com>, 2017
 #  Koto <>, 2012
 # 藤本理弘 <mfujimot@gmail.com>, 2015
@@ -15,15 +16,15 @@
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2012-2013
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2013
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2013-2015
-# Yoshiharu Hirose <yh1224@gmail.com>, 2012
+# hirose y <yh1224@gmail.com>, 2012
 # 藤本理弘 <mfujimot@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-12 16:40+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-07-16 13:51+0000\n"
+"Last-Translator: hirose y <yh1224@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,12 +112,12 @@ msgstr "%1!d! 分前"
 #. Resource IDs: (IDS_MONTH_AGO)
 #, c-format
 msgid "%1!d! Month ago"
-msgstr "%1!d! 月前"
+msgstr "%1!d! ヶ月前"
 
 #. Resource IDs: (IDS_MONTHS_AGO)
 #, c-format
 msgid "%1!d! Months ago"
-msgstr "%1!d! 月前"
+msgstr "%1!d! ヶ月前"
 
 #. Resource IDs: (IDS_SECOND_AGO)
 #, c-format
@@ -1283,7 +1284,7 @@ msgstr "保存(&S)\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "検索(&S)..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -4001,7 +4002,7 @@ msgstr "ブランチ/タグを削除"
 
 #. Resource IDs: (IDS_DELETE_LOCALTAG)
 msgid "Delete local tag"
-msgstr ""
+msgstr "ローカルタグを削除"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
@@ -4030,7 +4031,7 @@ msgstr "タグを削除"
 
 #. Resource IDs: (IDS_DELETE_REMOTETAG)
 msgid "Delete tag on remote"
-msgstr ""
+msgstr "リモートのタグを削除"
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -8662,7 +8663,8 @@ msgstr "リモート URL(&U):"
 msgid "Remote &tracking branch"
 msgstr "リモート追跡ブランチ(&T)"
 
-#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535,
+#. IDS_PROC_REMOTEBRANCH)
 msgid "Remote Branch"
 msgstr "リモートブランチ"
 
