@@ -4,7 +4,7 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# hirose y <yh1224@gmail.com>, 2017
+# hirose y <yh1224@gmail.com>, 2012,2017
 # Joseph Ting <josephting90@gmail.com>, 2017
 #  Koto <>, 2012
 # 藤本理弘 <mfujimot@gmail.com>, 2015
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-16 13:51+0000\n"
+"PO-Revision-Date: 2017-07-16 16:27+0000\n"
 "Last-Translator: hirose y <yh1224@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1699,7 +1699,7 @@ msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
 "If you add an '?' char at the end of a path, then only this path will be included.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
-msgstr ""
+msgstr "アイコンオーバーレイを表示させるパスのリストを改行で区切って入力してください。\nパスの末尾に「?」を追加すると、そのパスのみが対象となります。\nパスの末尾に「*」を追加するか何もつけなかった場合、そのパス配下のすべてのファイルやサブディレクトリも対象となります。"
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1714,7 +1714,7 @@ msgid ""
 "If you add an '?' char at the end of a path, then only this path will be excluded.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr ""
+msgstr "アイコンオーバーレイを表示させないパスのリストを改行で区切って入力してください。\nパスの末尾に「?」を追加すると、そのパスのみが対象となります。\nパスの末尾に「*」を追加するか何もつけなかった場合、そのパス配下のすべてのファイルやサブディレクトリも対象となります。\n何も入力しないと、すべてのパス上でアイコンオーバーレイが表示されます。"
 
 #. Resource IDs: (AFX_IDS_RESOURCE_EXCEPTION)
 msgid "A required resource was unavailable."
@@ -7722,7 +7722,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
-msgstr ""
+msgstr "ローカルのみ"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
@@ -7736,7 +7736,7 @@ msgstr "数値のみ（コンマで分割可能）が入力可能です。"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
 msgid "Only remote"
-msgstr ""
+msgstr "リモートのみ"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"

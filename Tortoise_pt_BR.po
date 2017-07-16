@@ -10,6 +10,7 @@
 # lengli <allengli@yahoo.com.br>, 2014
 # MDK3 <hanaure@gmail.com>, 2016
 # MDK3 <hanaure@gmail.com>, 2016
+# MDK3 <hanaure@gmail.com>, 2016
 # Rafael H L Moretti <rafael.moretti@gmail.com>, 2016
 # Rafael Neri <rafepel@gmail.com>, 2014
 # Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012
@@ -27,8 +28,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-12 16:40+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-07-16 16:29+0000\n"
+"Last-Translator: Ricardo Souza (RCDMK) <rcdmk@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/lznuaa/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,7 +167,7 @@ msgstr "%1!d! minuto atrás"
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
 msgid "%1!s! (%2!s!)"
-msgstr ""
+msgstr "%1!s! (%2!s!)"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -1288,7 +1289,7 @@ msgstr "&Salvar\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "&Pesquisar..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -3321,7 +3322,7 @@ msgstr "Comparar referências selecionadas"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
 msgid "Compare tags"
-msgstr ""
+msgstr "Comparar etiquetas"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
@@ -3856,7 +3857,7 @@ msgstr "O ramo atual %s já está atualizado\n\nSe você quer forçar a reorgani
 msgid ""
 "Current branch is up to date or newer than the fetched branch. Open rebase "
 "anyway?"
-msgstr ""
+msgstr "O ramo atual está atualizado ou mais novo que o ramo remoto. Abrir a reorganização mesmo assim?"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
@@ -4006,7 +4007,7 @@ msgstr "Excluir ramo/etiqueta"
 
 #. Resource IDs: (IDS_DELETE_LOCALTAG)
 msgid "Delete local tag"
-msgstr ""
+msgstr "Excluir etiqueta local"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
@@ -4035,7 +4036,7 @@ msgstr "Apagar etiqueta"
 
 #. Resource IDs: (IDS_DELETE_REMOTETAG)
 msgid "Delete tag on remote"
-msgstr ""
+msgstr "Excluir etiqueta no remoto"
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4043,7 +4044,7 @@ msgstr "Exclua o ramo existente ou use um nome direfente."
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
 msgid "Delete/modify merge conflict"
-msgstr ""
+msgstr "Excluir/modificar conflito de mesclagem"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
@@ -4230,7 +4231,7 @@ msgstr "Comparar com o pai %d"
 
 #. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
 msgid "Differ"
-msgstr ""
+msgstr "Diferenciar"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -4398,7 +4399,7 @@ msgstr "Você realmente deseja excluir permanentemente as %d referências seleci
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
-msgstr ""
+msgstr "Você realmente quer empurrar todos os ramos locais?"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -6283,7 +6284,7 @@ msgstr "Se marcado, arquivos não versionados irão marcar o status do diretóri
 #. Resource IDs: (IDS_SETTINGS_GITCONFIG_INHERIT_TT)
 msgid ""
 "If this is enabled, no value is stored or overwritten at this config level."
-msgstr ""
+msgstr "Se isto estiver ativado, nenhum valor é gravado ou sobrescrito neste nível de configuração."
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
@@ -6816,7 +6817,7 @@ msgstr "Ramo Local"
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
 msgid "Local SHA1"
-msgstr ""
+msgstr "SHA1 local"
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
@@ -6826,7 +6827,7 @@ msgstr "Mudanças locais ignoradas (arquivos marcados como assumido como válido
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
-msgstr ""
+msgstr "Mensagem local"
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -6888,7 +6889,7 @@ msgstr "Lum"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1550)
 msgid "M&erge: Resets the index and try to reconstruct the pre-merge state"
-msgstr ""
+msgstr "M&esclar: Restaura o índice e trenta reconstruir o estado antes da mesclagem"
 
 #. Resource IDs: (IDS_SMTP_MAPI)
 msgid "MAPI"
@@ -7726,7 +7727,7 @@ msgstr "Considerar apenas primeiros pais ao culpar"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
-msgstr ""
+msgstr "Apenas local"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
@@ -7740,7 +7741,7 @@ msgstr "Apenas números (opcionalmente separados por\nvígulas) são permitidos!
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
 msgid "Only remote"
-msgstr ""
+msgstr "Apenas remoto"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -7918,7 +7919,7 @@ msgstr "Parent 2"
 #. Resource IDs: (IDS_CONFLICT_REVERT)
 #, c-format
 msgid "Parent of %2!s!"
-msgstr ""
+msgstr "Pai de %2!s!"
 
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
@@ -8667,13 +8668,14 @@ msgstr "&URL Remota:"
 msgid "Remote &tracking branch"
 msgstr "Ramo remoto &rastreado"
 
-#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535,
+#. IDS_PROC_REMOTEBRANCH)
 msgid "Remote Branch"
 msgstr "Ramo Remoto"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
 msgid "Remote SHA1"
-msgstr ""
+msgstr "SHA1 remoto"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
@@ -8685,7 +8687,7 @@ msgstr "Atualizar Remoto"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
 msgid "Remote message"
-msgstr ""
+msgstr "Mensagem remota"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -8913,7 +8915,7 @@ msgstr "Resolver Conflito de Submódulo"
 #. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
 #, c-format
 msgid "Resolve conflict using \"%s\""
-msgstr ""
+msgstr "Resolver conflito usando \"%s\""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
@@ -9846,7 +9848,7 @@ msgstr "Exibir diferenças"
 
 #. Resource IDs: (IDS_HEADER_DIFFLEFTTOBASE, IDS_HEADER_DIFFRIGHTTOBASE)
 msgid "Show diff separately"
-msgstr ""
+msgstr "Exibir diferenças separadamente"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1556)
 msgid "Show diff to last commit"
@@ -10558,7 +10560,7 @@ msgstr "Informações da Etiqueta"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_TAGBRANCHES)
 msgid "Tag/branch names"
-msgstr ""
+msgstr "Nomes de etiqueta/ramo"
 
 #. Resource IDs: (IDS_PROC_COPY_SUCCESS)
 #, c-format
@@ -11061,7 +11063,7 @@ msgstr "Esta operação não pode ser iniciada enquanto a caixa de diálogo Regi
 #. Resource IDs: (IDS_GITCONFIG_SETTING)
 #, c-format
 msgid "This option represents \"%s\" git config setting."
-msgstr ""
+msgstr "Esta opção representa \"%s\" na configuração do git."
 
 #. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
 msgid ""
@@ -11680,11 +11682,11 @@ msgstr "Use ambos blocos de texto (este aqui último)"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1128)
 msgid "Use commit dates"
-msgstr ""
+msgstr "Usar datas de submissões"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1127)
 msgid "Use committer names"
-msgstr ""
+msgstr "Usar nomes de submetedores"
 
 #. Resource IDs: (IDS_SMTP_CONFIGURED)
 msgid "Use configured server"
@@ -11703,12 +11705,12 @@ msgstr "Usar arquivo da esquerda"
 #. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
 #. name)
 msgid "Use left text block"
-msgstr ""
+msgstr "Usar bloco de texto da esquerda"
 
 #. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
 #. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
 msgid "Use left text block then right"
-msgstr ""
+msgstr "Usar bloco de texto da esquerda e então da direita"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
@@ -11728,12 +11730,12 @@ msgstr "Usar bloco direito"
 
 #. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
 msgid "Use right text block"
-msgstr ""
+msgstr "Usar bloco de texto da direita"
 
 #. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
 #. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
 msgid "Use right text block then left"
-msgstr ""
+msgstr "Usar bloco de texto da direita e então da esquerda"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
@@ -11745,43 +11747,43 @@ msgstr "Usar local do sistema para data/hora"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
 msgid "Use text block from &left"
-msgstr ""
+msgstr "Usar bloco de texto da &esquerda"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from &right"
-msgstr ""
+msgstr "Usar bloco de texto da &direita"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
 msgid "Use text block from l&eft before right"
-msgstr ""
+msgstr "Usar bloco de texto da e&squerda antes da direita"
 
 #. Resource IDs: (32821)
 msgid ""
 "Use text block from left before right file\n"
 "Use left file text block then right"
-msgstr ""
+msgstr "Usar bloco de texto da esquerda antes do arquivo da direita\nUsar bloco de texto do arquivo da esquerda e então da direita"
 
 #. Resource IDs: (32819)
 msgid ""
 "Use text block from left file\n"
 "Use left file text block"
-msgstr ""
+msgstr "Usar bloco de texto do arquivo da esquerda\nUsar bloco de texto do arquivo da esquerda"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
 msgid "Use text block from r&ight before left"
-msgstr ""
+msgstr "Usar bloco de texto da d&ireita antes da esquerda"
 
 #. Resource IDs: (32822)
 msgid ""
 "Use text block from right file before left\n"
 "Use right file text block then left"
-msgstr ""
+msgstr "Usar bloco de texto do arquivo da direita antes da esquerda\nUsar bloco de texto da direita e então da esquerda"
 
 #. Resource IDs: (32820)
 msgid ""
 "Use text block from right file\n"
 "Use right file text block"
-msgstr ""
+msgstr "Usar bloco de texto do arquivo da direita\nUsar bloco de texto do arquivo da direita"
 
 #. Resource IDs: (32855)
 msgid ""
@@ -12495,7 +12497,7 @@ msgstr "autor (>= 0,5%)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "based on TortoiseSVN (https://tortoisesvn.net/)"
-msgstr ""
+msgstr "baseado no TortoiseSVN (https://tortoisesvn.net/)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535)
 msgid "bugtraq.append"
@@ -12527,12 +12529,12 @@ msgstr "bugtraq.warningifnoissue"
 
 #. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
 msgid "changes to-be-integrated"
-msgstr ""
+msgstr "mudanças à serem integradas"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
 msgid "column '%ls'"
-msgstr ""
+msgstr "coluna '%ls'"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORY,
 #. IDS_STATGRAPH_COMMITSBYDATEY)
@@ -12585,15 +12587,15 @@ msgstr "externo"
 
 #. Resource IDs: (IDS_CONFLICT_NOTASUBMODULE)
 msgid "file, not a submodule"
-msgstr ""
+msgstr "arquivo, não um submódulo"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
-msgstr ""
+msgstr "nomes de arquivos/pastas"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
-msgstr ""
+msgstr "caminhos completos"
 
 #. Resource IDs: (IDS_PROC_PROGRESS_GITUNCLEANEXIT)
 #, c-format
@@ -12713,7 +12715,7 @@ msgstr "não existe descrição para esse comando"
 
 #. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
 msgid "no submodule"
-msgstr ""
+msgstr "sem submódulos"
 
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
@@ -12733,7 +12735,7 @@ msgstr "não encontrado"
 
 #. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
 msgid "not initialized"
-msgstr ""
+msgstr "não inicializado"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
@@ -12773,7 +12775,7 @@ msgstr "trimestre"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYRELPATHS)
 msgid "relative paths"
-msgstr ""
+msgstr "caminhos relativos"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "renamed"
