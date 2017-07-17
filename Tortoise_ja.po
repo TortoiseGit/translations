@@ -12,7 +12,7 @@
 # Takumi Shotoku <sinsoku.listy@gmail.com>, 2012
 # Tetsuhiko Koto, 2014
 # Tetsuhiko Koto, 2012-2014
-# Tetsuhiko Koto, 2014-2016
+# Tetsuhiko Koto, 2014-2017
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2012-2013
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2013
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2013-2015
@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-16 16:27+0000\n"
-"Last-Translator: hirose y <yh1224@gmail.com>\n"
+"PO-Revision-Date: 2017-07-17 02:08+0000\n"
+"Last-Translator: Tetsuhiko Koto\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -162,7 +162,7 @@ msgstr "%1!d! 分前"
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
 msgid "%1!s! (%2!s!)"
-msgstr ""
+msgstr "%1!s! (%2!s!)"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -565,7 +565,7 @@ msgstr "コピー(&C)\tCtrl+C"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "&Credential helper:"
-msgstr "&資格情報ヘルパー:"
+msgstr "資格情報ヘルパー(&C):"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1662)
 msgid "&Custom"
@@ -640,7 +640,7 @@ msgstr "このメッセージを再び表示しない(&D)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr "&設定を今保存しない。"
+msgstr "今はこの設定を保存しない(&D)"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -692,7 +692,7 @@ msgstr "メール(&E):"
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1023, Dialog
 #. IDD_SETTINGSHOOKCONFIG: Control id 1023)
 msgid "&Enable"
-msgstr "&有効化"
+msgstr "有効(&E)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1023)
 msgid "&Enable Proxy Server"
@@ -718,7 +718,7 @@ msgstr "外部(&E)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Extra PATH:"
-msgstr ""
+msgstr "追加のPATH(&E)"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
@@ -775,7 +775,7 @@ msgstr "&From:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
-msgstr "&PuTTYで公開鍵・秘密鍵を作成する"
+msgstr "PuTTYで公開鍵・秘密鍵を作成する(&G)"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -806,7 +806,7 @@ msgstr "&HEAD"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1552, Dialog IDD_RESET:
 #. Control id 1552)
 msgid "&Hard: Reset working tree and index (discard all local changes)"
-msgstr ""
+msgstr "Hard: 作業ツリーとインデックスをリセット（コミットしていない変更をすべて破棄）(&H)"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
 #. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP)
@@ -836,7 +836,7 @@ msgstr "名前により %d 項目を無視する(&I)"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE2)
 msgid "&Ignore multiple items by name"
-msgstr "&名前で複数アイテムを無視する"
+msgstr "名前で複数アイテムを無視する(&I)"
 
 #. Resource IDs: (ID_VIEW_IGNORE_WHITESPACE - Menu)
 msgid "&Ignore whitespace"
@@ -959,7 +959,7 @@ msgstr "マージ(&M)"
 
 #. Resource IDs: (IDS_MERGE_UNRELATED)
 msgid "&Merge unrelated history"
-msgstr "&無関係履歴をマージする"
+msgstr "無関係な履歴をマージする(&M)"
 
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
@@ -984,7 +984,7 @@ msgstr "最小化(&M)"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
 msgid "&Mixed: Leave working tree untouched, reset index"
-msgstr ""
+msgstr "Mixed: 作業ツリーは現状を維持し、インデックスはリセット(&M)"
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
@@ -1083,7 +1083,7 @@ msgstr "オーバーレイイメージ(&O)\tO"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1523)
 msgid "&Override branch if exists"
-msgstr "&既存ブランチがあれば上書きする"
+msgstr "既存ブランチがあれば上書きする(&O)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1411, Dialog
 #. IDD_SIMPLEPROMPT: Control id 65535, Dialog IDD_USER_PASSWD: Control id
@@ -1320,7 +1320,7 @@ msgstr "スキップ(&S)"
 
 #. Resource IDs: (Dialog IDD_RESET: Control id 1550)
 msgid "&Soft: Leave working tree and index untouched"
-msgstr ""
+msgstr "Soft: 作業ツリーとインデックスは現状を維持(&S)"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1524, Dialog IDD_PULLFETCH:
 #. Control id 1524)
@@ -2161,7 +2161,7 @@ msgstr "本当に、ファイルの競合を解決済としてもよろしいで
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "本当に%d個の項目をの変更を取り消してもよろしいですか？ 最後の更新以降のすべての変更が失われます。"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
@@ -2906,13 +2906,13 @@ msgstr "入力したパス、もしくは URL をチェックしてください�
 msgid ""
 "Check those menu entries you want to appear in the top context menu instead "
 "of the TortoiseGit submenu"
-msgstr "TortoiseGit のサブメニューではなく、コンテキストメニューに直接表示したいメニュー項目にチェックしてください。"
+msgstr "TortoiseGit サブメニューではなく、コンテキストメニューに直接表示したいメニュー項目にチェックしてください。"
 
 #. Resource IDs: (IDS_SETTINGS_EXTMENULAYOUT_TT)
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
 "menu (SHIFT + right click)"
-msgstr ""
+msgstr "拡張コンテキストメニュー(Shift + 右クリック) だけに表示したいメニュー項目にチェックしてください。"
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
@@ -3585,7 +3585,7 @@ msgstr ""
 msgid ""
 "Could not get read version information from git.exe.\n"
 "Got: \"%s\""
-msgstr "git.exeからバージョン情報を得られません。出力: \"%s\""
+msgstr "git.exeの出力からバージョン情報を得られません。出力: \"%s\""
 
 #. Resource IDs: (IDS_ERR_NOSTATUS)
 msgid "Could not get the status!"
@@ -3713,7 +3713,7 @@ msgstr "ライブラリを作成(&L)"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1527)
 msgid "Create &New Branch"
-msgstr "&新しいブランチを作成"
+msgstr "新しいブランチを作成(&N)"
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
@@ -3977,7 +3977,7 @@ msgstr "名前で %d 個のアイテムを削除して無視(&I)"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE2)
 msgid "Delete and &ignore multiple items by name"
-msgstr ""
+msgstr "複数を削除し、名前で無視(&I)"
 
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
@@ -3990,7 +3990,7 @@ msgstr "拡張子で %d 個のアイテムを削除して無視(&E) "
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK2)
 msgid "Delete and ignore multiple items by &extension"
-msgstr ""
+msgstr "複数を削除し、拡張子で無視(&E)"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
@@ -4354,12 +4354,12 @@ msgstr "ごみ箱は使用しない"
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "Do you really want to delete ALL %d stash?"
-msgstr ""
+msgstr "本当に %d のスタッシュすべてを削除しても宜しいですか？"
 
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
 msgid "Do you really want to delete \"%s\"?"
-msgstr ""
+msgstr "本当に \"%s\" を削除してもよろしいですか？"
 
 #. Resource IDs: (IDS_AFXBARRES_DELETE_TOOLBAR_FMT)
 #, c-format
@@ -4390,7 +4390,7 @@ msgstr "本当にこのファイルもしくはフォルダーを移動させて
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
-msgstr ""
+msgstr "本当に選択した %d refs を完全に削除していいですか？ 取り消す事はできません！"
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
@@ -4533,7 +4533,7 @@ msgstr "ダウンロード"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535)
 msgid "Download language packs:"
-msgstr ""
+msgstr "言語パックをダウンロード:"
 
 #. Resource IDs: (IDS_AFX_TEAR_OFF)
 msgid "Drag to make this menu float"
@@ -5131,7 +5131,7 @@ msgstr "フェッチ＆リベース(&B)"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
-msgstr ""
+msgstr "すべてのRefをフェッチ"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
@@ -5355,7 +5355,7 @@ msgstr "1つ目の親だけ"
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
-msgstr ""
+msgstr "初回設定ウィザード - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1617)
 msgid "First known &bad:"
@@ -6293,7 +6293,7 @@ msgid ""
 "If you want to use a translated version of TortoiseGit and your language is "
 "missing, <a id=\"download\">download</a> and install a matching language "
 "pack now and hit \"Refresh\" before continuing."
-msgstr ""
+msgstr "もし、翻訳された TortoiseGit を使用したいのに、あなたの言語が見つからない場合、言語パックを <a id=\"download\">ダウンロード</a> してインストールし、「更新」ボタンを押してください。"
 
 #. Resource IDs: (IDS_EXTRAPATH_TT)
 #, c-format
@@ -6462,7 +6462,7 @@ msgstr "マージ操作を中止するには、(HEADへの)リセットが必要
 msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
-msgstr ""
+msgstr "下のコンボボックスに、インストール済みで、このバージョンのTortoiseGit で使用できる、すべての言語パックがリストアップされます。"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -8082,7 +8082,7 @@ msgstr "実行するフックスクリプトを入力してください。"
 msgid ""
 "Please enter a path where to apply the hook script to. Use \"*\" for all "
 "paths."
-msgstr ""
+msgstr "フックスクリプトを適用するパスを入力してください。「*」ですべてのパスに適用します。"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT3)
 msgid ""
@@ -8464,7 +8464,7 @@ msgstr "変更の取り消し(&V)..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1684)
 msgid "Re-run &First Start Wizard"
-msgstr ""
+msgstr "初回設定ウィザードを再実施(&F)"
 
 #. Resource IDs: (IDS_FETCH_REACHABLE)
 msgid "Reachable"
@@ -8582,7 +8582,7 @@ msgstr "Ref名"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 1382,
 #. Dialog IDD_LOGMESSAGE: Control id 1382, IDS_MENUREFRESH)
 msgid "Refresh"
-msgstr "最新に更新"
+msgstr "更新"
 
 #. Resource IDs: (IDS_PROC_SYNC_REFRESHING)
 msgid "Refreshing..."
@@ -10620,7 +10620,7 @@ msgid ""
 "The branch \"%s\" is a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr ""
+msgstr "\"%s\" はリモートブランチです。\n\n本当に削除しますか？"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -11195,7 +11195,7 @@ msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
 msgid "TortoiseGit can be localized using language packs."
-msgstr ""
+msgstr "TortoiseGitは、言語パックを使用してローカライズできます。"
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -12020,7 +12020,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
-msgstr ""
+msgstr "TortoiseGit へようこそ！"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Western European"
@@ -12449,7 +12449,7 @@ msgid ""
 "\"%s\" will be permanently deleted. It can NOT be recovered!\n"
 "\n"
 "Do you really want to continue?"
-msgstr ""
+msgstr "\"%s\" は完全に削除されます。削除後は取り消す事はできません！\n\n本当に続行しますか？"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_GITAMACTIVE)
 msgid ""
@@ -12545,7 +12545,7 @@ msgstr "競合"
 msgid ""
 "copied from\n"
 "%s - revision %ld"
-msgstr "コピー元\n%s - リビジョン %ld!ld!"
+msgstr "コピー元\n%s - リビジョン %ld"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXDAY)
 msgid "day"
