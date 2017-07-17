@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-17 02:08+0000\n"
+"PO-Revision-Date: 2017-07-17 12:05+0000\n"
 "Last-Translator: Tetsuhiko Koto\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -775,7 +775,7 @@ msgstr "&From:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
-msgstr "PuTTYで公開鍵・秘密鍵を作成する(&G)"
+msgstr "PuTTY 鍵ペアを作成する(&G)"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -2410,11 +2410,11 @@ msgstr "二分探索: good"
 
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
-msgstr "二分探索リセット"
+msgstr "二分探索: リセット"
 
 #. Resource IDs: (IDS_MENUBISECTSKIP)
 msgid "Bisect skip"
-msgstr ""
+msgstr "二分探索: スキップ"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -2588,7 +2588,7 @@ msgstr "ボタン３"
 msgid ""
 "By default Git does not save/cache credentials. However, you can configure a"
 " credential helper (recommended) or manually use %HOME%/_netrc."
-msgstr ""
+msgstr "デフォルトではGitは資格情報を保存/キャッシュしません。ただし、資格情報ヘルパーを設定するか（推奨）、手動で %HOME%/_netrc を使用することもできます。"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -2634,7 +2634,7 @@ msgstr "計算"
 #. Resource IDs: (IDS_ERR_GITCALLFAILED)
 #, c-format
 msgid "Calling git.exe failed (exit code: %d). Please check the git.exe path."
-msgstr ""
+msgstr "git.exeの呼び出しに失敗しました (終了コード: %d)。git.exeのパスを確認してください。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1127)
 msgid "Can double-click in log list to compare with previous revision"
@@ -3578,7 +3578,7 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in versionstring of git.exe.\n"
 "If you are using git of the cygwin or msys2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "git.exe のバージョン文字列に \"msysgit\" または \"windows\" が見つかりませんでした。\ncygwinまたはmsys2環境のgitを使用している場合は、特別なハックを有効にする必要があります。\n詳細については、ヘルプファイルをキーワード \"cygwin git\" または \"msys2 git\" で参照してください。"
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -3672,7 +3672,7 @@ msgid ""
 "Could not start git.exe. A dynamic library (dll) is missing.\n"
 "You might need to specify an extra PATH.\n"
 "Check help file for \"Extra PATH\"."
-msgstr ""
+msgstr "git.exeを起動できませんでした。ダイナミックライブラリ（dll）が見つかりません。\n追加の PATH を指定する必要があるかもしれません。\nヘルプファイルの \"Extra PATH\" を確認してください。"
 
 #. Resource IDs: (AFX_IDP_FAILED_TO_START_PRINT)
 msgid "Could not start print job."
@@ -3838,7 +3838,7 @@ msgstr "現在のブランチ:"
 msgid ""
 "Current HEAD is detached, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr ""
+msgstr "現在の HEAD は切り離されており (Detached)、つまりブランチ無し (no branch) で作業しています。\nブランチを今作成しますか？"
 
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
@@ -4394,7 +4394,7 @@ msgstr "本当に選択した %d refs を完全に削除していいですか？
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
-msgstr ""
+msgstr "本当にすべてのローカルブランチをプッシュしますか?"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -4553,7 +4553,7 @@ msgstr "ドライブの種類"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
 msgid "Drives A: and B:"
-msgstr ""
+msgstr "ドライブ A: と B:"
 
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
@@ -4733,11 +4733,11 @@ msgstr "ログダイアログでGravatar画像の表示を有効にする"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1842)
 msgid "Enable special hack for Cygwin git"
-msgstr ""
+msgstr "Cygwin git の特別なハックを有効にする"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1843)
 msgid "Enable special hack for Msys2 git"
-msgstr ""
+msgstr "Msys2 git の特別なハックを有効にする"
 
 #. Resource IDs: (ID_VIEW_ENABLELEXER - Menu)
 msgid "Enable syntax highlighting"
@@ -5355,7 +5355,7 @@ msgstr "1つ目の親だけ"
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
-msgstr "初回設定ウィザード - TortoiseGit"
+msgstr "初期設定ウィザード - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1617)
 msgid "First known &bad:"
@@ -5453,14 +5453,14 @@ msgstr "前進 %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in versionstring of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "git.exe のバージョン文字列に \"msysgit\" または \"windows\" が見つかったにもかかわらず、特別なハックが有効になっています。これらのハックは Git for Windows を利用する場合無効にする必要があります。\n詳細については、ヘルプファイルをキーワード \"cygwin git\" または \"msys2 git\" で参照してください。"
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not runnig a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "TortoiseGit のリベース処理が実行中であることを示すロックファイルが見つかりました。これはこの操作をブロックします。\n\nあなたが現在 TortoiseGit のリベース処理を実行していない場合、古いロックファイルを削除して、続行することができます。"
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
@@ -5708,7 +5708,7 @@ msgstr "リポジトリを作成する際にエラーが発生しました！\n"
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
 " meta data for your commits (not for authentication)."
-msgstr ""
+msgstr "Gitでは、ユーザー名と電子メールアドレスを設定する必要があります。どちらも、あなたがコミットするときにメタデータとして使用されます（認証にではなく）。"
 
 #. Resource IDs: (32787)
 msgid "Git revision list contains the complete file history"
@@ -5922,7 +5922,7 @@ msgstr "ヒント"
 msgid ""
 "Hint: Recently used commit messages are available using the context menu of "
 "the text field."
-msgstr ""
+msgstr "ヒント：最近使用したコミットメッセージは、テキストフィールドのコンテキストメニューから利用できます。"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16519)
 msgid ""
@@ -5956,7 +5956,7 @@ msgstr "フックの種類:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
-msgstr ""
+msgstr "私はGit for Windowsを使用せず、特別な回避策が必要です"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "I&nclude paths:"
@@ -6293,7 +6293,7 @@ msgid ""
 "If you want to use a translated version of TortoiseGit and your language is "
 "missing, <a id=\"download\">download</a> and install a matching language "
 "pack now and hit \"Refresh\" before continuing."
-msgstr "もし、翻訳された TortoiseGit を使用したいのに、あなたの言語が見つからない場合、言語パックを <a id=\"download\">ダウンロード</a> してインストールし、「更新」ボタンを押してください。"
+msgstr "もし、翻訳された TortoiseGit を使用したいのに言語が見つからない場合、言語パックを <a id=\"download\">ダウンロード</a>してインストールし、「更新」ボタンを押してください。"
 
 #. Resource IDs: (IDS_EXTRAPATH_TT)
 #, c-format
@@ -6301,7 +6301,7 @@ msgid ""
 "If your git installation needs an extra entry in the PATH environment "
 "variable, you can enter it here and it will get appended to %PATH% "
 "automatically when TortoiseGit starts."
-msgstr ""
+msgstr "もし、使用する git が、PATH環境変数に追加のエントリを要求する場合、ここに入力することができます。TortoiseGit が git を呼び出すときに自動的に %PATH% に追加されます。"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 4577)
 msgid "Ignore"
@@ -6362,7 +6362,7 @@ msgstr "改行コードを無視する（推奨）(&E)"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLEMASK2)
 msgid "Ignore multiple items by &extension"
-msgstr ""
+msgstr "複数を拡張子で無視(&E)"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORESPACEATEOL)
 msgid "Ignore space at EOL"
@@ -6462,7 +6462,7 @@ msgstr "マージ操作を中止するには、(HEADへの)リセットが必要
 msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
-msgstr "下のコンボボックスに、インストール済みで、このバージョンのTortoiseGit で使用できる、すべての言語パックがリストアップされます。"
+msgstr "下のコンボボックスに、インストール済みで、このバージョンの TortoiseGit で使用できる、すべての言語パックがリストアップされます。"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -6600,7 +6600,7 @@ msgstr "朝鮮語"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
-msgstr ""
+msgstr "LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "LINE1"
@@ -7386,7 +7386,7 @@ msgid ""
 "No git.exe found.\n"
 "\n"
 "TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
-msgstr ""
+msgstr "git.exe が見つかりませんでした。\n\nTortoiseGit はその動作に git.exe を必要とします（例えば、Git for Windows パッケージによって提供されるものなど）。"
 
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
@@ -8089,7 +8089,7 @@ msgid ""
 "Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
 "dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
 " search and oftentimes there are powerfull context menus."
-msgstr ""
+msgstr "一般的なヒントについては、<a id=\"manual\">マニュアル</a>を参照してください。例えば、ほとんどのダイアログでは、リフレッシュのための F5 や検索のための CTRL+F など、いくつかの共通のショートカットや、パワフルなコンテキストメニューがあります。"
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -8464,7 +8464,7 @@ msgstr "変更の取り消し(&V)..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1684)
 msgid "Re-run &First Start Wizard"
-msgstr "初回設定ウィザードを再実施(&F)"
+msgstr "初期設定ウィザードを再実施(&F)"
 
 #. Resource IDs: (IDS_FETCH_REACHABLE)
 msgid "Reachable"
@@ -8506,7 +8506,7 @@ msgstr "最近変更された行"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid "Recommended: Git for Windows"
-msgstr ""
+msgstr "推奨: Git for Windows"
 
 #. Resource IDs: (IDS_MERGE_RECORDONLY)
 msgid "Record Only"
@@ -11013,7 +11013,7 @@ msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
 "default."
-msgstr ""
+msgstr "これらの設定は、グローバルの git設定 (%HOME%/.gitconfig) に保存され、あなたのすべてのgitリポジトリのデフォルトとして使用されます。"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
@@ -11047,7 +11047,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "このダイアログは、あなたが基本的な設定を行うのを助ける、初期設定ウィザードです。 TortoiseGit は様々に設定できるので、設定ダイアログを見ることをお勧めします。設定ダイアログには、スタートメニューまたはWindowsエクスプローラのコンテキストメニュー（TortoiseGit → Settings）からアクセスできます。"
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -11195,7 +11195,7 @@ msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
 msgid "TortoiseGit can be localized using language packs."
-msgstr "TortoiseGitは、言語パックを使用してローカライズできます。"
+msgstr "TortoiseGit は言語パックを使用してローカライズできます。"
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -11220,21 +11220,21 @@ msgid ""
 "To use TortoiseGit please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
-msgstr ""
+msgstr "TortoiseGit はシェル拡張です。\nつまり、Windows エクスプローラに統合されています。\nTortoiseGit を使用するには、エクスプローラを開き、好きなフォルダを右クリックしてコンテキストメニューを開くと、TortoiseGitのすべてのコマンドが表示されます。\nそして、マニュアルを参照してください。"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT1)
 msgid ""
 "TortoiseGit is designed as a Shell Extension. Therefore the main interaction"
 " with TortoiseGit will be using the context menu of the Windows shell such "
 "as the Windows Explorer."
-msgstr ""
+msgstr "TortoiseGit はシェルエクステンションとして設計されています。したがって、TortoiseGit との主なやりとりは、Windowsエクスプローラなどの Windowsシェルのコンテキストメニューを使用します。"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
 "automatically detect a working git.exe, but if that doesn't work or you want"
 " to use a different one please specify the path manually!"
-msgstr ""
+msgstr "TortoiseGit はその動作に git.exe が必要です。TortoiseGit は動作する git.exe を自動的に検出しようとしますが、うまくいかない場合や別のものを使用したい場合は、手動でパスを指定してください。"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11329,7 +11329,7 @@ msgid ""
 "agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr ""
+msgstr "TortoiseGitPlink は推奨される SSHクライアントです。鍵ペアがまだない場合は、鍵ペアを生成する必要があります。秘密鍵は保管し、公開鍵をホスティングプラットフォームに設定します。 PuTTY認証エージェントを使用してパスワードをキャッシュします（PuTTYキーがリモート用に構成されている場合は自動的に実行されます）。高度なヒントについては、<a id=\"manual\">マニュアル</a>と <a id=\"sshfaq\">FAQ</a> を参照してください。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -11609,11 +11609,11 @@ msgstr "他のテキストブロックを使用(&O)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
-msgstr ""
+msgstr ".mailmap を使用"
 
 #. Resource IDs: (IDS_PROC_USELFS_TT)
 msgid "Use Git LFS"
-msgstr ""
+msgstr "Git LFS を使用"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
@@ -11681,7 +11681,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1127)
 msgid "Use committer names"
-msgstr ""
+msgstr "コミッターの名前を使用"
 
 #. Resource IDs: (IDS_SMTP_CONFIGURED)
 msgid "Use configured server"
@@ -11695,17 +11695,17 @@ msgstr "左ブロック を使用"
 #. Resource IDs: (ID_EDIT_USELEFTFILE - Menu, ID_EDIT_USELEFTFILE - Ribbon
 #. name)
 msgid "Use left file"
-msgstr "左側のファイルを使用"
+msgstr "左の ファイル を使用"
 
 #. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
 #. name)
 msgid "Use left text block"
-msgstr ""
+msgstr "左の テキスト ブロック を使用"
 
 #. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
 #. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
 msgid "Use left text block then right"
-msgstr ""
+msgstr "左→右の順で テキスト ブロック を使用"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
@@ -11721,16 +11721,16 @@ msgstr "正規表現を使用する"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USERIGHT)
 msgid "Use right block"
-msgstr "右側のブロックを使用"
+msgstr "右ブロック を使用"
 
 #. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
 msgid "Use right text block"
-msgstr ""
+msgstr "右の テキスト ブロック を使用"
 
 #. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
 #. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
 msgid "Use right text block then left"
-msgstr ""
+msgstr "右→左の順で テキスト ブロック を使用"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
@@ -11742,15 +11742,15 @@ msgstr "日付/時刻にシステムロケールを使用する"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
 msgid "Use text block from &left"
-msgstr ""
+msgstr "左の テキスト ブロック を使用(&L)"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from &right"
-msgstr ""
+msgstr "右の テキスト ブロック を使用(&R)"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
 msgid "Use text block from l&eft before right"
-msgstr ""
+msgstr "左→右の順で テキスト ブロック を使用"
 
 #. Resource IDs: (32821)
 msgid ""
@@ -11766,7 +11766,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
 msgid "Use text block from r&ight before left"
-msgstr ""
+msgstr "右→左の順で テキスト ブロック を使用"
 
 #. Resource IDs: (32822)
 msgid ""
@@ -11788,7 +11788,7 @@ msgstr "左ビューのテキストブロックを使用する\n左側のブロ�
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHISBLOCK)
 msgid "Use th&is text block"
-msgstr "このテキストブロックを使用(&I)"
+msgstr "この テキスト ブロック を使用(&I)"
 
 #. Resource IDs: (IDS_COMMIT_AS_COMMIT_DATE_TT)
 msgid "Use the current time by setting the author date to the commit date."
@@ -11902,20 +11902,20 @@ msgstr "バージョン %d.%d.%d.%d"
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1644,
 #. IDS_PROC_FILEDIFF_VERSION1BASE)
 msgid "Version 1 (Base)"
-msgstr ""
+msgstr "バージョン1 (ベース)"
 
 #. Resource IDs: (IDS_PROC_FILEDIFF_VERSION1BASENEWER)
 msgid "Version 1 (Base, Newer commit time)"
-msgstr ""
+msgstr "バージョン1 (ベース, コミット日時がより新しい)"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1645,
 #. IDS_PROC_FILEDIFF_VERSION2)
 msgid "Version 2"
-msgstr ""
+msgstr "バージョン2"
 
 #. Resource IDs: (IDS_PROC_FILEDIFF_VERSION2NEWER)
 msgid "Version 2 (Newer commit time)"
-msgstr ""
+msgstr "バージョン2 (コミット日時がより新しい)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1075)
 msgid "Version Information"
@@ -12016,7 +12016,7 @@ msgid ""
 "We hope you enjoy the usage of TortoiseGit! In case of questions or "
 "problems, please consult our manual or go to <a "
 "id=\"support\">https://tortoisegit.org/support/</a>"
-msgstr ""
+msgstr "TortoiseGit をお楽しみください！ 質問や問題が発生した場合は、マニュアルを参照するか、 <a id=\"support\">https://tortoisegit.org/support/</a> にアクセスしてください。"
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
@@ -12229,7 +12229,7 @@ msgid ""
 "You have an old unsupported version of Git installed.\n"
 "\n"
 "You should consider an upgrade to %s."
-msgstr ""
+msgstr "サポートされていないバージョンの Git がインストールされています。\n\n%s へのアップグレードを検討してください。"
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""
@@ -12313,7 +12313,7 @@ msgstr "画像を選択してください。"
 msgid ""
 "You've changed the icon set from \"%s\" to \"%s\".\n"
 "That change won't take effect until you restart your computer or logoff and logon again!"
-msgstr ""
+msgstr "アイコンセットを  \"%s\" から \"%s\" へ変更しました。\nこの変更は、コンピュータを再起動するか、ログオフして再度ログオンするまで有効になりません。"
 
 #. Resource IDs: (IDS_COMMITDLG_HISTORYHINT_TT)
 msgid ""
@@ -12332,7 +12332,7 @@ msgstr "現在使用中のバージョン: %d.%d.%d.%d"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
 msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
-msgstr ""
+msgstr "ZIPアーカイブ (*.zip)|*.zip|すべてのファイル (*.*)|*.*||"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1074)
 msgid "Zip File"
@@ -12492,7 +12492,7 @@ msgstr "作者 (0.5%以上)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "based on TortoiseSVN (https://tortoisesvn.net/)"
-msgstr ""
+msgstr "TortoiseSVN (https://tortoisesvn.net/) を基に製作されました。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535)
 msgid "bugtraq.append"
@@ -12599,7 +12599,7 @@ msgstr "gitは正常に終了しませんでした (終了コード %d)"
 
 #. Resource IDs: (IDS_GITEXEFILEFILTER)
 msgid "git.exe|git.exe||"
-msgstr ""
+msgstr "git.exe|git.exe||"
 
 #. Resource IDs: (IDS_STATUSIGNORED)
 msgid "ignored"
@@ -12758,7 +12758,7 @@ msgid ""
 "previous rebase directory rebase-apply still exists but mbox given.\n"
 "\n"
 "Do you want to"
-msgstr ""
+msgstr "mboxが与えられましたが、前のリベースディレクトリにrebase-applyファイルが残っています。\n\nどうしますか？"
 
 #. Resource IDs: (AFX_IDS_PRINTDEFAULTEXT)
 msgid "prn"
