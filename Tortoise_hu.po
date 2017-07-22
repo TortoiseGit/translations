@@ -6,20 +6,21 @@
 # Translators:
 # Baquatelle <abel@abel.hu>, 2012
 # Árpád Krejczinger <krejczinger.arpad@gmail.com>, 2017
+# Balázs Meskó <meskobalazs@gmail.com>, 2016
 # Baquatelle <abel@abel.hu>, 2012
 # Gábor Prótár <protar.gabor@gmail.com>, 2013
 # Gábor Prótár <protar.gabor@gmail.com>, 2013-2014
 # Hgrg <hgrg.wp@gmail.com>, 2013
 # Hgrg <hgrg.wp@gmail.com>, 2013,2017
 # Péter Handbauer <loserock@gmail.com>, 2014-2016
-# Petrovics Sándor <egeramasrol@gmail.com>, 2014
+# Petrovics Sándor <egeramasrol@gmail.com>, 2014,2016
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-22 12:25+0000\n"
+"PO-Revision-Date: 2017-07-22 13:04+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/lznuaa/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -252,7 +253,7 @@ msgid ""
 "%i%% alpha\n"
 "click to toggle alpha\n"
 "double click to automatically toggle alpha"
-msgstr ""
+msgstr "%i%% alfa\nkattints az alfa bekapcsolásához\nkattints duplán az alfa automatikus bekapcsolásához"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
@@ -374,7 +375,7 @@ msgstr "&Speciális..."
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1701)
 msgid "&All"
-msgstr ""
+msgstr "Össz&es"
 
 #. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 3936)
 msgid "&All Branches"
@@ -439,7 +440,7 @@ msgstr "&Kék"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Border:"
-msgstr ""
+msgstr "&Keret:"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1512, Dialog IDD_GITSWITCH:
 #. Control id 1512, Dialog IDD_MERGE: Control id 1512, Dialog
@@ -661,7 +662,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1506)
 msgid "&Edit Filter"
-msgstr ""
+msgstr "&Szűrő szerkesztése"
 
 #. Resource IDs: (IDS_MENUCONFLICT)
 msgid "&Edit conflicts"
@@ -905,12 +906,12 @@ msgstr "&Limit:"
 
 #. Resource IDs: (Dialog IDD_GOTO: Control id 1078)
 msgid "&Line number"
-msgstr ""
+msgstr "&Sorszám"
 
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
 msgid "&Line number (%d - %d)"
-msgstr ""
+msgstr "&Sorszám (%d - %d)"
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
@@ -2447,7 +2448,7 @@ msgstr "Minden sornak kiírja a legutóbbi módosítóját"
 
 #. Resource IDs: (ID_VIEW_BLENDALPHA - Menu)
 msgid "Blend alpha"
-msgstr ""
+msgstr "Alfa keverése"
 
 #. Resource IDs: (156 - Ribbon element)
 msgid "Blocks"
@@ -4549,7 +4550,7 @@ msgstr "Meghajtók"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
 msgid "Drives A: and B:"
-msgstr ""
+msgstr "A: és B: meghajtók"
 
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
@@ -5816,7 +5817,7 @@ msgstr "&Szín"
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1353, Dialog IDD_DIFFFILES:
 #. Control id 1354, Dialog IDD_REPOSITORY_BROWSER: Control id 1684)
 msgid "HEAD"
-msgstr "FŐ"
+msgstr "HEAD"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "HEAD:"
@@ -11308,7 +11309,7 @@ msgid ""
 "libsvn_diff %d.%d.%d, %s\r\n"
 "apr %d.%d.%d\r\n"
 "apr-util %d.%d.%d"
-msgstr "TortoiseGitMerge %d.%d.%d.%d - %s, %s\nlibsvn_diff %d.%d.%d, %s\napr %d.%d.%d\napr-util %d.%d.%d"
+msgstr "TortoiseGitMerge %d.%d.%d.%d - %s, %s\r\nlibsvn_diff %d.%d.%d, %s\r\napr %d.%d.%d\r\napr-util %d.%d.%d"
 
 #. Resource IDs: (IDS_ERR_PATCH_FILENAMENOTUNIQUE)
 #, c-format

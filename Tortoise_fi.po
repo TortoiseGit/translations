@@ -8,12 +8,13 @@
 # Lübbe  <luebbe.tortoisesvn@googlemail.com>, 2012
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # Sven Strickroth <sstrickroth@googlemail.com>, 2015
+# Tommi Niinimäki <xbluevirux@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-22 12:25+0000\n"
+"PO-Revision-Date: 2017-07-22 13:04+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/lznuaa/tortoisegit/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -201,7 +202,7 @@ msgstr ""
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERED)
 #, c-format
 msgid "%Ts [Recovered]"
-msgstr ""
+msgstr "%Ts [Palautettu]"
 
 #. Resource IDs: (AFX_IDS_EMBED_FORMAT, AFX_IDS_LINKSOURCE_FORMAT)
 #, c-format
@@ -826,7 +827,7 @@ msgstr "&Ohita %d kohdetta nimen perusteella"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE2)
 msgid "&Ignore multiple items by name"
-msgstr ""
+msgstr "&Ohita useita kohteita nimen perusteella"
 
 #. Resource IDs: (ID_VIEW_IGNORE_WHITESPACE - Menu)
 msgid "&Ignore whitespace"
@@ -1975,14 +1976,14 @@ msgstr "Kaikki muutoksesi katoavat! Haluatko todella palauttaa näppäinsidonnat
 #, c-format
 msgid ""
 "All your changes will be lost! Do you really want to reset the menu '%Ts'?"
-msgstr ""
+msgstr "Kaikki muutoksesi katoavat! Haluatko todella palauttaa valikon '%Ts' alkutilaan?"
 
 #. Resource IDs: (IDS_AFXBARRES_RESET_TOOLBAR_FMT)
 #, c-format
 msgid ""
 "All your changes will be lost! Do you really want to reset the toolbar "
 "'%Ts'?"
-msgstr ""
+msgstr "Kaikki muutoksesi katoavat! Haluatko todella palauttaa valintapalkin '%Ts' alkutilaan?"
 
 #. Resource IDs: (32976)
 msgid ""
@@ -3967,7 +3968,7 @@ msgstr "Poista ja &ohita %d kohdetta nimen perusteella"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE2)
 msgid "Delete and &ignore multiple items by name"
-msgstr ""
+msgstr "Poista ja &ohita useita kohteita nimen perusteella"
 
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
@@ -3980,7 +3981,7 @@ msgstr "Poista ja ohita %d kohdetta &päätteen perusteella"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK2)
 msgid "Delete and ignore multiple items by &extension"
-msgstr ""
+msgstr "Poista ja ohita useita kohteita &laajennusosan perusteella"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
@@ -4249,7 +4250,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1536)
 msgid "Disable status cache for elevated processes"
-msgstr ""
+msgstr "Estä välimuisti korotetuille prosesseille"
 
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
@@ -4354,7 +4355,7 @@ msgstr ""
 #. Resource IDs: (IDS_AFXBARRES_DELETE_TOOLBAR_FMT)
 #, c-format
 msgid "Do you really want to delete the toolbar '%Ts'?"
-msgstr ""
+msgstr "Haluatko todella poistaa valintapalkin '%Ts'?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4543,7 +4544,7 @@ msgstr "Asematyypit"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1315)
 msgid "Drives A: and B:"
-msgstr ""
+msgstr "Asemat A: ja B:"
 
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
@@ -4751,7 +4752,7 @@ msgid ""
 "Encoding\n"
 "Convert to the specified encoding\n"
 "Hold down the Ctrl key to reload the file with the specified encoding."
-msgstr ""
+msgstr "Koodaus\nMuunna annettuun koodaukseen\nPidä Ctrl-näppäin painettuna avataksesi tiedoston uudestaan annetulla koodauksella."
 
 #. Resource IDs: (AFX_IDP_FILE_HARD_IO)
 #, c-format
@@ -4927,7 +4928,7 @@ msgstr "Lopeta"
 #. Resource IDs: (IDS_AFXBARRES_EXPAND_FMT)
 #, c-format
 msgid "Expand (%Ts)"
-msgstr ""
+msgstr "Laajenna (%Ts)"
 
 #. Resource IDs: (IDS_AFXBARRES_EXPAND_BAR)
 msgid "Expand docked window"
@@ -5509,7 +5510,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
 msgid "Full data"
-msgstr ""
+msgstr "Kaikki tiedot"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
@@ -6352,7 +6353,7 @@ msgstr "Älä välitä &rivinvaihdoista (suositus)"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLEMASK2)
 msgid "Ignore multiple items by &extension"
-msgstr ""
+msgstr "Ohita useita kohteita &laajennusosan perusteella"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORESPACEATEOL)
 msgid "Ignore space at EOL"
@@ -10274,7 +10275,7 @@ msgstr "Tila"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Ribbon name)
 msgid "Status Bar"
-msgstr ""
+msgstr "Tilapalkki"
 
 #. Resource IDs: (IDS_AFXBARRES_STATBAR_CUSTOMIZE)
 msgid "Status Bar Configuration"
@@ -11062,13 +11063,13 @@ msgstr ""
 msgid ""
 "This program is linked to the missing export %Ts in the file %Ts. This "
 "machine may have an incompatible version of %Ts."
-msgstr ""
+msgstr "Tämä ohjelma on linkitetty puuttuvaan symboliin %Ts tiedostossa %Ts. Tässä tietokoneessa saattaa olla epäyhteensopiva %Ts-versio."
 
 #. Resource IDs: (AFX_IDP_DLL_LOAD_FAILED)
 #, c-format
 msgid ""
 "This program requires the file %Ts, which was not found on this system."
-msgstr ""
+msgstr "Tämä ohjelma tarvitsee tiedostoa %Ts, jota ei löytynyt järjestelmästä."
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."
@@ -11181,7 +11182,7 @@ msgstr "TortoiseGit %d.%d.%d, Build %d - %s, %s"
 msgid ""
 "TortoiseGit %d.%d.%d.%d %s\n"
 "%s\n"
-msgstr ""
+msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
 msgid "TortoiseGit can be localized using language packs."
@@ -11854,7 +11855,7 @@ msgstr "Käyttäjätunnus:"
 
 #. Resource IDs: (IDS_SETTINGS_ONLYNONELEVATED_TT)
 msgid "Uses the status cache type 'none' for elevated processes"
-msgstr ""
+msgstr "Käytä vålimuistityyppiä 'none' korotetuille prosesseille"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -11933,7 +11934,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_BARS - Ribbon name)
 msgid "View Bars"
-msgstr ""
+msgstr "Näytä palkit"
 
 #. Resource IDs: (Dialog IDD_PATCH_VIEW: Control id 328, IDS_MENU_VIEWPATCH)
 msgid "View Patch"
@@ -12519,7 +12520,7 @@ msgstr ""
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
 msgid "column '%ls'"
-msgstr ""
+msgstr "sarake  '%ls'"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORY,
 #. IDS_STATGRAPH_COMMITSBYDATEY)
@@ -12576,11 +12577,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
-msgstr ""
+msgstr "tiedostot/kansionimet"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
-msgstr ""
+msgstr "kaikki polut"
 
 #. Resource IDs: (IDS_PROC_PROGRESS_GITUNCLEANEXIT)
 #, c-format
@@ -12760,7 +12761,7 @@ msgstr "neljännesvuosi"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYRELPATHS)
 msgid "relative paths"
-msgstr ""
+msgstr "suhteelliset polut"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "renamed"
