@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-13 02:36+0000\n"
+"PO-Revision-Date: 2017-07-24 03:07+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -8660,7 +8660,8 @@ msgstr "遠端 &URL："
 msgid "Remote &tracking branch"
 msgstr "遠端追蹤分支 (&T)"
 
-#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535,
+#. IDS_PROC_REMOTEBRANCH)
 msgid "Remote Branch"
 msgstr "遠端分支"
 
@@ -11696,12 +11697,12 @@ msgstr "使用左檔案"
 #. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
 #. name)
 msgid "Use left text block"
-msgstr "使用「左邊」的文字區塊"
+msgstr "使用「左邊」"
 
 #. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
 #. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
 msgid "Use left text block then right"
-msgstr "使用 「左邊＋右邊」的文字區塊"
+msgstr "左＋右"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
@@ -11721,12 +11722,12 @@ msgstr "改用右區塊內容"
 
 #. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
 msgid "Use right text block"
-msgstr "使用「右邊」的文字區塊"
+msgstr "使用「右邊」"
 
 #. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
 #. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
 msgid "Use right text block then left"
-msgstr "使用 「右邊＋左邊」的文字區塊"
+msgstr "右＋左"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
@@ -11746,13 +11747,13 @@ msgstr "使用「右邊」的文字區塊(&R)"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
 msgid "Use text block from l&eft before right"
-msgstr "使用 「左邊＋右邊」的文字區塊(&E)"
+msgstr "使用「左邊＋右邊」的文字區塊(&E)"
 
 #. Resource IDs: (32821)
 msgid ""
 "Use text block from left before right file\n"
 "Use left file text block then right"
-msgstr "先使用 「左邊」的文字區塊，再使用「右邊」的文字區塊。\n 左＋右"
+msgstr "先使用「左邊」的文字區塊，再使用「右邊」的文字區塊。\n 左＋右"
 
 #. Resource IDs: (32819)
 msgid ""
@@ -11762,13 +11763,13 @@ msgstr "使用「左邊」的文字區塊。\n使用「左邊」"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
 msgid "Use text block from r&ight before left"
-msgstr "使用 「右邊＋左邊」的文字區塊(%I)"
+msgstr "使用「右邊＋左邊」的文字區塊(&I)"
 
 #. Resource IDs: (32822)
 msgid ""
 "Use text block from right file before left\n"
 "Use right file text block then left"
-msgstr "先使用 「右邊」的文字區塊，再使用「右邊」的文字區塊。 \n右＋左"
+msgstr "先使用「右邊」的文字區塊，再使用「右邊」的文字區塊。 \n右＋左"
 
 #. Resource IDs: (32820)
 msgid ""
@@ -11784,7 +11785,7 @@ msgstr "使用左窗格中的文字區塊\n使用左區塊"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHISBLOCK)
 msgid "Use th&is text block"
-msgstr "右區塊「改用」此文字區塊(&I)"
+msgstr "使用此文字區塊(&I)"
 
 #. Resource IDs: (IDS_COMMIT_AS_COMMIT_DATE_TT)
 msgid "Use the current time by setting the author date to the commit date."
