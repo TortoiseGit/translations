@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-23 22:07+0000\n"
+"PO-Revision-Date: 2017-07-24 17:44+0000\n"
 "Last-Translator: Savvas Etairidis <falital@hotmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/lznuaa/tortoisegit/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -244,7 +244,7 @@ msgid ""
 "%i%% alpha\n"
 "click to toggle alpha\n"
 "double click to automatically toggle alpha"
-msgstr ""
+msgstr "%i%% άλφα\nκλικ  για να  μεταβάλλεται άλφα\nδιπλό κλικ για να μεταβάλλεται αυτόματα το άλφα"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
@@ -318,7 +318,7 @@ msgstr "&Ματαίωση "
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
-msgstr "&Για το TortoiseGitBlame..."
+msgstr "&Για το TortoiseGitBlame.."
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitMerge..."
@@ -419,11 +419,11 @@ msgstr "&Απόδοση υπαιτιότητας"
 
 #. Resource IDs: (IDS_LOG_POPUP_BLAMEDIFF)
 msgid "&Blame changes"
-msgstr "&Αλλαγές στην υπαιτιότητα"
+msgstr "&Απόδοση υπαιτιότητας αλλαγών "
 
 #. Resource IDs: (IDS_FILEDIFF_POPBLAME, IDS_LOG_POPUP_BLAMEREVS)
 msgid "&Blame revisions"
-msgstr "&Απόδοση υπαιτιότητας της έκδοσης"
+msgstr "&Απόδοση υπαιτιότητας των αναθεωρήσεων "
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
 msgid "&Blue:"
@@ -1014,7 +1014,7 @@ msgstr "&Επόμενη Σελίδα"
 
 #. Resource IDs: (IDS_MSGBOX_NO)
 msgid "&No"
-msgstr ""
+msgstr "&Οχι"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16632)
 msgid "&No double-click event"
@@ -1445,7 +1445,7 @@ msgstr "&Αναβάθμισε το αντικείμενο στην αναθεώ�
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 4567)
 msgid "&Upstream:"
-msgstr ""
+msgstr "&Πάνω Ρεύμα:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1184)
 msgid "&Use auto-completion of file paths and keywords"
@@ -1467,12 +1467,12 @@ msgstr "&Εμφάνιση"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
-msgstr ""
+msgstr "&Προειδοποίησε όταν λυπεί υπογραφή στην προσθήκη"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1203, Dialog
 #. IDD_SUBMODULE_UPDATE: Control id 1203)
 msgid "&Whole Project"
-msgstr ""
+msgstr "&Ολόκληρο το Έργω "
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1066, Dialog IDD_FIND: Control
 #. id 20085)
@@ -1481,32 +1481,32 @@ msgstr "&Ολόκληρη λέξη"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_WITHIN_FILE - Menu)
 msgid "&Within file"
-msgstr ""
+msgstr "&Μέσα στο Αρχείο"
 
 #. Resource IDs: (IDS_MSGBOX_YES)
 msgid "&Yes"
-msgstr ""
+msgstr "&Ναι "
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1682)
 msgid "&add \"cherry picked from\""
-msgstr ""
+msgstr "&προσθήκη \"επιλεκτικά επιλεγμένου από\""
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
-msgstr ""
+msgstr "&Παράβλεψη αλλαγών σε κενά διαστήματα"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "&known changes"
-msgstr ""
+msgstr "&Γνωστές αλλαγές "
 
 #. Resource IDs: (IDS_TORTOISEGITDEFAULT)
 msgid "(TortoiseGit default)"
-msgstr ""
+msgstr "(TortoiseGit Προκαθορισμένο)"
 
 #. Resource IDs: (IDS_STATUSLIST_FROM)
 #, c-format
 msgid "(from %s)"
-msgstr ""
+msgstr "(Από %s)"
 
 #. Resource IDs: (IDS_STATUSLIST_UNASSIGNED_CHANGESET)
 msgid "(no changelist)"
@@ -1540,11 +1540,11 @@ msgstr "- %d"
 
 #. Resource IDs: (IDS_PROC_PUSHFETCH_ALLREMOTES)
 msgid "- all -"
-msgstr ""
+msgstr "- όλα -"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1131)
 msgid "--&all"
-msgstr ""
+msgstr "--&όλα "
 
 #. Resource IDs: (IDS_AFXBARRES_NO_CONTEXT)
 msgid ""
@@ -1585,7 +1585,7 @@ msgstr "....."
 
 #. Resource IDs: (IDS_CONFIG_LOCAL_TT)
 msgid ".git/config in the repository root"
-msgstr ""
+msgstr ".git/config στην ριζά της αποθήκης "
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1691)
 msgid ".git/info/exclude"
@@ -1593,19 +1593,19 @@ msgstr ".git/info/exclude"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1690)
 msgid ".gitignore in the containing directories of the items"
-msgstr ""
+msgstr ".gitignore στους υποκαταλόγους τον αντικείμενων "
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1689)
 msgid ".gitignore in the repository root"
-msgstr ""
+msgstr ".gitignore στην ριζά της αποθήκης "
 
 #. Resource IDs: (IDS_CONFIG_PROJECT_TT)
 msgid ".tgitconfig in the repository root"
-msgstr ""
+msgstr ".tgitconfig στην ριζά της αποθήκης "
 
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1020)
 msgid "< &Previous"
-msgstr ""
+msgstr "< &Προηγούμενο "
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16506)
 msgid "<.....>"
@@ -1771,7 +1771,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 100)
 msgid "About TortoiseGitBlame"
-msgstr ""
+msgstr "Για το TortoiseGitBlame"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 136)
 msgid "About TortoiseGitMerge"
@@ -2197,7 +2197,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROGRS_ATREV)
 #, c-format
 msgid "At revision: %d"
-msgstr "Τρέχων αριθμός έκδοσης:  %d"
+msgstr "Τρέχων αριθμός αναθεώρησης:  %d"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_RENAMEONLYBRANCHES)
 msgid "At the moment, you can only rename branches."
@@ -2427,11 +2427,11 @@ msgstr "Απόδοση υπαιτιότητας"
 
 #. Resource IDs: (IDS_BLAMEERROR)
 msgid "Blame error"
-msgstr ""
+msgstr "Απόδοση υπαιτιότητας Λαθους"
 
 #. Resource IDs: (IDS_BLAME_POPUP_BLAME, IDS_LOG_POPUP_BLAMEPREVIOUS)
 msgid "Blame previous revision"
-msgstr ""
+msgstr "&Απόδοση υπαιτιότητας σε προηγούμενη αναθεώρηση"
 
 #. Resource IDs: (IDS_MENUDESCBLAME)
 msgid "Blames each line of a file on an author"
@@ -2746,7 +2746,7 @@ msgstr ""
 #. Resource IDs: (IDS_CANNOTBLAMENOGIT)
 #, c-format
 msgid "Cannot show blame. \"%s\" is not under version control by git."
-msgstr ""
+msgstr "Δεν μπορεί να εμφανιστεί υπαιτιότητα. \"%s\" δεν είναι ανήκει στην διαχείριση αναθεωρήσεων του git."
 
 #. Resource IDs: (IDS_ERR_DIFF_NEWLINES)
 msgid "Cannot show diff because of inconsistent newlines in the file."
@@ -3629,7 +3629,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ERR_TGITBLAME)
 msgid "Could not start TortoiseGitBlame"
-msgstr ""
+msgstr "Δεν μπόρεσε να γίνει εκκινήσει του TortoiseGitBlame"
 
 #. Resource IDs: (IDS_ERR_DIFFVIEWSTART)
 #, c-format
@@ -7706,7 +7706,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1677,
 #. ID_VIEW_ONLYCONSIDERFIRSTPARENTS - Menu)
 msgid "Only consider first parents on blame"
-msgstr ""
+msgstr "Χρήση μόνο τον πρώτον γονέων για απόδοση υπαιτιότητας"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
@@ -11243,12 +11243,12 @@ msgstr "TortoiseGitBlame"
 msgid ""
 "TortoiseGitBlame was already initialized for the repository \"%s\". Cannot "
 "switch to another repository (\"%s\") at runtime."
-msgstr ""
+msgstr "TortoiseGitBlame έχει ήδη αρχικοποιηθεί για την αποθήκη \"%s\". Δεν γίνετε να αλλάξετε αποθήκη  (\"%s\") κατά την διάρκεια εκτέλεσης."
 
 #. Resource IDs: (IDS_VERSION)
 #, c-format
 msgid "TortoiseGitBlame, Version %d.%d.%d.%d"
-msgstr ""
+msgstr "TortoiseGitBlame, Έκδοση%d.%d.%d.%d"
 
 #. Resource IDs: (1)
 msgid ""
