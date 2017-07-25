@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-22 13:02+0000\n"
+"PO-Revision-Date: 2017-07-25 08:51+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/lznuaa/tortoisegit/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -529,7 +529,8 @@ msgstr "&Đệ trình w/o"
 msgid "&Commit..."
 msgstr "&Khẳng định..."
 
-#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS)
+#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS,
+#. ID_VIEW_COMPAREREVISIONS - Menu)
 msgid "&Compare revisions"
 msgstr "&So sánh các bản chỉnh sửa"
 
@@ -694,6 +695,10 @@ msgstr "&Cho phép Máy Chủ Proxy"
 msgid "&Enable edit"
 msgstr "&Cho phép chỉnh sửa"
 
+#. Resource IDs: (ID_MENUEXIT - Menu)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
 msgstr ""
@@ -715,6 +720,10 @@ msgstr ""
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
 msgstr "&Tập tin"
+
+#. Resource IDs: (ID_VIEW_FILTER - Menu)
+msgid "&Filter"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -769,6 +778,10 @@ msgstr ""
 msgid "&Generate PuTTY  key pair"
 msgstr ""
 
+#. Resource IDs: (65535 - PopupMenu)
+msgid "&Git"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
 msgstr "&Mẫu đệ trình Git (--rmdir)"
@@ -801,7 +814,8 @@ msgid "&Hard: Reset working tree and index (discard all local changes)"
 msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
-#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP)
+#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP,
+#. ID_MENUHELP - Menu)
 msgid "&Help"
 msgstr "&Giúp đỡ"
 
@@ -1262,7 +1276,8 @@ msgstr "&Lưu"
 msgid "&Save authentication"
 msgstr "&Lưu lại thông tin xác thực"
 
-#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVESTATGRAPHAS - Menu)
+#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVEGRAPHAS - Menu,
+#. ID_FILE_SAVESTATGRAPHAS - Menu)
 msgid "&Save graph as..."
 msgstr "&Lưu biểu đồ như..."
 
@@ -1427,7 +1442,7 @@ msgstr "&URL:"
 msgid "&Undo"
 msgstr "&Khôi phục"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS, ID_VIEW_UNIFIEDDIFF - Menu)
 msgid "&Unified diff"
 msgstr "&So sánh thống nhất"
 
@@ -3295,7 +3310,8 @@ msgstr "Cam kết một thư mục chưa được tạo phiên bản sẽ không
 msgid "Common Name:"
 msgstr ""
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
+#. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "So sánh các bản chỉnh sửa &CHÍNH"
 
@@ -5353,12 +5369,24 @@ msgstr ""
 msgid "First known &bad:"
 msgstr ""
 
+#. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
+msgid "Fit graph"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
+msgid "Fit height"
+msgstr ""
+
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
 msgstr ""
 
 #. Resource IDs: (ID_VIEW_FITIMAGEWIDTHS - Menu)
 msgid "Fit image &widths\tW"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
+msgid "Fit width"
 msgstr ""
 
 #. Resource IDs: (IDS_AFXBARRES_FOLDER)
@@ -9756,6 +9784,10 @@ msgstr "Hiện Khác biệt-trong dòng\nKhác biệt trong dòng"
 msgid "Show More Buttons"
 msgstr "Hiển thị nhiều Nút Bấm hơn"
 
+#. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
+msgid "Show Ove&rview"
+msgstr ""
+
 #. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_ABOVE_RIBBON)
 msgid "Show Quick Access Toolbar Above the Ribbon"
 msgstr "Hiển thị Thanh Công Cụ Truy Cập Nhanh phía trên Ribbon"
@@ -11521,7 +11553,8 @@ msgid ""
 "text without any formatting"
 msgstr "Văn bản không được định dạng\nvăn bản không có định dạng nào"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS,
+#. ID_VIEW_UNIFIEDDIFFOFHEADREVISIONS - Menu)
 msgid "Unified &diff of HEAD revisions"
 msgstr "&Khác biệt thống nhất của các bản chỉnh sửa HEAD"
 
@@ -12346,6 +12379,14 @@ msgstr "Phóng &to"
 msgid "Zoom &Out"
 msgstr "Thu &Nhỏ"
 
+#. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
+msgid "Zoom &in\tCtrl-+"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
+msgid "Zoom &out\tCtrl--"
+msgstr ""
+
 #. Resource IDs: (32803)
 #, c-format
 msgid "Zoom 100%"
@@ -12374,6 +12415,10 @@ msgstr "Phóng to"
 #. Resource IDs: (32773)
 msgid "Zoom out"
 msgstr "Thu nhỏ"
+
+#. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
+msgid "Zoom to &100%"
+msgstr ""
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

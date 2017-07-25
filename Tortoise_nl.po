@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-22 13:02+0000\n"
+"PO-Revision-Date: 2017-07-25 08:51+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -538,7 +538,8 @@ msgstr "&Commit zonder"
 msgid "&Commit..."
 msgstr "&Vastleggen..."
 
-#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS)
+#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS,
+#. ID_VIEW_COMPAREREVISIONS - Menu)
 msgid "&Compare revisions"
 msgstr "Ver&gelijk revisies"
 
@@ -703,6 +704,10 @@ msgstr "Activ&eer Proxy Server"
 msgid "&Enable edit"
 msgstr "B&ewerken inschakelen"
 
+#. Resource IDs: (ID_MENUEXIT - Menu)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
 msgstr "&Afsluit&en\tCtrl+W"
@@ -724,6 +729,10 @@ msgstr ""
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
 msgstr "&Bestand"
+
+#. Resource IDs: (ID_VIEW_FILTER - Menu)
+msgid "&Filter"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -778,6 +787,10 @@ msgstr "&Van:"
 msgid "&Generate PuTTY  key pair"
 msgstr ""
 
+#. Resource IDs: (65535 - PopupMenu)
+msgid "&Git"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
 msgstr "&Git Stijl Commit (--rmdir)"
@@ -810,7 +823,8 @@ msgid "&Hard: Reset working tree and index (discard all local changes)"
 msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
-#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP)
+#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP,
+#. ID_MENUHELP - Menu)
 msgid "&Help"
 msgstr "&Help"
 
@@ -1271,7 +1285,8 @@ msgstr "&Opslaan"
 msgid "&Save authentication"
 msgstr "Authenticatie &opslaan"
 
-#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVESTATGRAPHAS - Menu)
+#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVEGRAPHAS - Menu,
+#. ID_FILE_SAVESTATGRAPHAS - Menu)
 msgid "&Save graph as..."
 msgstr "&Schema opslaan als..."
 
@@ -1436,7 +1451,7 @@ msgstr "&URL:"
 msgid "&Undo"
 msgstr "&Ongedaan maken"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS, ID_VIEW_UNIFIEDDIFF - Menu)
 msgid "&Unified diff"
 msgstr "&Unified diff"
 
@@ -3304,7 +3319,8 @@ msgstr "Vastleggen van een map zonder versiebeheer voegt de bestanden in de map 
 msgid "Common Name:"
 msgstr "Common Name:"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
+#. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "Vergelijk &HEAD revisies"
 
@@ -5362,12 +5378,24 @@ msgstr ""
 msgid "First known &bad:"
 msgstr "Eerste &bekende foutief:"
 
+#. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
+msgid "Fit graph"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
+msgid "Fit height"
+msgstr ""
+
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
 msgstr "Afbeelding passend in &hoogte maken\tH"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEWIDTHS - Menu)
 msgid "Fit image &widths\tW"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
+msgid "Fit width"
 msgstr ""
 
 #. Resource IDs: (IDS_AFXBARRES_FOLDER)
@@ -9765,6 +9793,10 @@ msgstr "Toon inline-verschil\nInline-verschil"
 msgid "Show More Buttons"
 msgstr "Toon meer knoppen"
 
+#. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
+msgid "Show Ove&rview"
+msgstr ""
+
 #. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_ABOVE_RIBBON)
 msgid "Show Quick Access Toolbar Above the Ribbon"
 msgstr "Toon snelle toegang-balk boven het lint"
@@ -11530,7 +11562,8 @@ msgid ""
 "text without any formatting"
 msgstr "Ongeformatteerde tekst\ntekst zonder enige opmaak"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS,
+#. ID_VIEW_UNIFIEDDIFFOFHEADREVISIONS - Menu)
 msgid "Unified &diff of HEAD revisions"
 msgstr "Unified &diff van HEAD revisies"
 
@@ -12355,6 +12388,14 @@ msgstr "&Inzoomen"
 msgid "Zoom &Out"
 msgstr "&Uitzoomen"
 
+#. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
+msgid "Zoom &in\tCtrl-+"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
+msgid "Zoom &out\tCtrl--"
+msgstr ""
+
 #. Resource IDs: (32803)
 #, c-format
 msgid "Zoom 100%"
@@ -12383,6 +12424,10 @@ msgstr "Inzoomen"
 #. Resource IDs: (32773)
 msgid "Zoom out"
 msgstr "Uitzoomen"
+
+#. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
+msgid "Zoom to &100%"
+msgstr ""
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

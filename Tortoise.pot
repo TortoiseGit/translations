@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-12 16:40+0000\n"
+"PO-Revision-Date: 2017-07-25 08:51+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/lznuaa/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -523,7 +523,8 @@ msgstr "&Commit w/o"
 msgid "&Commit..."
 msgstr "&Commit..."
 
-#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS)
+#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS,
+#. ID_VIEW_COMPAREREVISIONS - Menu)
 msgid "&Compare revisions"
 msgstr "&Compare revisions"
 
@@ -688,6 +689,10 @@ msgstr "&Enable Proxy Server"
 msgid "&Enable edit"
 msgstr "&Enable edit"
 
+#. Resource IDs: (ID_MENUEXIT - Menu)
+msgid "&Exit"
+msgstr "&Exit"
+
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
 msgstr "&Exit\tCtrl+W"
@@ -709,6 +714,10 @@ msgstr "&Extra PATH:"
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
 msgstr "&File"
+
+#. Resource IDs: (ID_VIEW_FILTER - Menu)
+msgid "&Filter"
+msgstr "&Filter"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -763,6 +772,10 @@ msgstr "&From:"
 msgid "&Generate PuTTY  key pair"
 msgstr "&Generate PuTTY  key pair"
 
+#. Resource IDs: (65535 - PopupMenu)
+msgid "&Git"
+msgstr "&Git"
+
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
 msgstr "&Git Style Commit (--rmdir)"
@@ -795,7 +808,8 @@ msgid "&Hard: Reset working tree and index (discard all local changes)"
 msgstr "&Hard: Reset working tree and index (discard all local changes)"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
-#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP)
+#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP,
+#. ID_MENUHELP - Menu)
 msgid "&Help"
 msgstr "&Help"
 
@@ -1256,7 +1270,8 @@ msgstr "&Save"
 msgid "&Save authentication"
 msgstr "&Save authentication"
 
-#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVESTATGRAPHAS - Menu)
+#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVEGRAPHAS - Menu,
+#. ID_FILE_SAVESTATGRAPHAS - Menu)
 msgid "&Save graph as..."
 msgstr "&Save graph as..."
 
@@ -1421,7 +1436,7 @@ msgstr "&URL:"
 msgid "&Undo"
 msgstr "&Undo"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS, ID_VIEW_UNIFIEDDIFF - Menu)
 msgid "&Unified diff"
 msgstr "&Unified diff"
 
@@ -3289,7 +3304,8 @@ msgstr "Committing an unversioned folder will not recursively add its child item
 msgid "Common Name:"
 msgstr "Common Name:"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
+#. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "Compare &HEAD revisions"
 
@@ -5347,6 +5363,14 @@ msgstr "First Start Wizard - TortoiseGit"
 msgid "First known &bad:"
 msgstr "First known &bad:"
 
+#. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
+msgid "Fit graph"
+msgstr "Fit graph"
+
+#. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
+msgid "Fit height"
+msgstr "Fit height"
+
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
 msgstr "Fit image &heights\tH"
@@ -5354,6 +5378,10 @@ msgstr "Fit image &heights\tH"
 #. Resource IDs: (ID_VIEW_FITIMAGEWIDTHS - Menu)
 msgid "Fit image &widths\tW"
 msgstr "Fit image &widths\tW"
+
+#. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
+msgid "Fit width"
+msgstr "Fit width"
 
 #. Resource IDs: (IDS_AFXBARRES_FOLDER)
 msgid "Folder"
@@ -8649,7 +8677,8 @@ msgstr "Remote &URL:"
 msgid "Remote &tracking branch"
 msgstr "Remote &tracking branch"
 
-#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535,
+#. IDS_PROC_REMOTEBRANCH)
 msgid "Remote Branch"
 msgstr "Remote Branch"
 
@@ -9748,6 +9777,10 @@ msgstr "Show Inline-Diff\nInline diff"
 #. Resource IDs: (IDS_AFXBARRES_SHOW_MORE_BUTTONS)
 msgid "Show More Buttons"
 msgstr "Show More Buttons"
+
+#. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
+msgid "Show Ove&rview"
+msgstr "Show Ove&rview"
 
 #. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_ABOVE_RIBBON)
 msgid "Show Quick Access Toolbar Above the Ribbon"
@@ -11514,7 +11547,8 @@ msgid ""
 "text without any formatting"
 msgstr "Unformatted Text\ntext without any formatting"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS,
+#. ID_VIEW_UNIFIEDDIFFOFHEADREVISIONS - Menu)
 msgid "Unified &diff of HEAD revisions"
 msgstr "Unified &diff of HEAD revisions"
 
@@ -12339,6 +12373,14 @@ msgstr "Zoom &In"
 msgid "Zoom &Out"
 msgstr "Zoom &Out"
 
+#. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
+msgid "Zoom &in\tCtrl-+"
+msgstr "Zoom &in\tCtrl-+"
+
+#. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
+msgid "Zoom &out\tCtrl--"
+msgstr "Zoom &out\tCtrl--"
+
 #. Resource IDs: (32803)
 #, c-format
 msgid "Zoom 100%"
@@ -12367,6 +12409,10 @@ msgstr "Zoom in"
 #. Resource IDs: (32773)
 msgid "Zoom out"
 msgstr "Zoom out"
+
+#. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
+msgid "Zoom to &100%"
+msgstr "Zoom to &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

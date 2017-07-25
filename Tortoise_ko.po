@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-22 13:01+0000\n"
+"PO-Revision-Date: 2017-07-25 08:51+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -543,7 +543,8 @@ msgstr "&Commit w/o"
 msgid "&Commit..."
 msgstr "커밋(&C)..."
 
-#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS)
+#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS,
+#. ID_VIEW_COMPAREREVISIONS - Menu)
 msgid "&Compare revisions"
 msgstr "리비전 비교(&C)"
 
@@ -708,6 +709,10 @@ msgstr "프록시 서버 활성화(&E)"
 msgid "&Enable edit"
 msgstr "&Enable edit"
 
+#. Resource IDs: (ID_MENUEXIT - Menu)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
 msgstr "종료(&E)\tCtrl+W"
@@ -729,6 +734,10 @@ msgstr ""
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
 msgstr "파일(&F)"
+
+#. Resource IDs: (ID_VIEW_FILTER - Menu)
+msgid "&Filter"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -783,6 +792,10 @@ msgstr "&From:"
 msgid "&Generate PuTTY  key pair"
 msgstr ""
 
+#. Resource IDs: (65535 - PopupMenu)
+msgid "&Git"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
 msgstr "&Git Style Commit (--rmdir)"
@@ -815,7 +828,8 @@ msgid "&Hard: Reset working tree and index (discard all local changes)"
 msgstr "세게: 작업 공간과 관리 영역 전부 되돌리기 (모든 변경사항을 되돌림)(&H)"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
-#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP)
+#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP,
+#. ID_MENUHELP - Menu)
 msgid "&Help"
 msgstr "도움말(&H)"
 
@@ -1276,7 +1290,8 @@ msgstr "저장(&S)"
 msgid "&Save authentication"
 msgstr "인증 정보 저장(&S)"
 
-#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVESTATGRAPHAS - Menu)
+#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVEGRAPHAS - Menu,
+#. ID_FILE_SAVESTATGRAPHAS - Menu)
 msgid "&Save graph as..."
 msgstr "그래프를 다른 이름으로 저장(&S)..."
 
@@ -1441,7 +1456,7 @@ msgstr "URL(&U):"
 msgid "&Undo"
 msgstr "실행 취소(&U)"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS, ID_VIEW_UNIFIEDDIFF - Menu)
 msgid "&Unified diff"
 msgstr "Unified Diff 보기(&U)"
 
@@ -3309,7 +3324,8 @@ msgstr "폴더를 추가할 때 그 하위 내용은 자동으로 추가되지 �
 msgid "Common Name:"
 msgstr ""
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
+#. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "&HEAD 리비전 비교"
 
@@ -5367,12 +5383,24 @@ msgstr ""
 msgid "First known &bad:"
 msgstr "검색 끝 버전(&B):"
 
+#. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
+msgid "Fit graph"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
+msgid "Fit height"
+msgstr ""
+
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
 msgstr ""
 
 #. Resource IDs: (ID_VIEW_FITIMAGEWIDTHS - Menu)
 msgid "Fit image &widths\tW"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
+msgid "Fit width"
 msgstr ""
 
 #. Resource IDs: (IDS_AFXBARRES_FOLDER)
@@ -9770,6 +9798,10 @@ msgstr "Inline-Diff 보이기\nInline diff"
 msgid "Show More Buttons"
 msgstr "더 많은 버튼 보여주기"
 
+#. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
+msgid "Show Ove&rview"
+msgstr ""
+
 #. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_ABOVE_RIBBON)
 msgid "Show Quick Access Toolbar Above the Ribbon"
 msgstr "리본 위에 빠른 접근 툴바 보여주기"
@@ -11535,7 +11567,8 @@ msgid ""
 "text without any formatting"
 msgstr "포매팅되지 않은 텍스트\n포매팅 정보가 없는 텍스트"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS,
+#. ID_VIEW_UNIFIEDDIFFOFHEADREVISIONS - Menu)
 msgid "Unified &diff of HEAD revisions"
 msgstr "HEAD 리비전에 대한 Unified diff 보기 (&D)"
 
@@ -12360,6 +12393,14 @@ msgstr "확대(&I)"
 msgid "Zoom &Out"
 msgstr "축소(&O)"
 
+#. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
+msgid "Zoom &in\tCtrl-+"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
+msgid "Zoom &out\tCtrl--"
+msgstr ""
+
 #. Resource IDs: (32803)
 #, c-format
 msgid "Zoom 100%"
@@ -12388,6 +12429,10 @@ msgstr "확대"
 #. Resource IDs: (32773)
 msgid "Zoom out"
 msgstr "축소"
+
+#. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
+msgid "Zoom to &100%"
+msgstr ""
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

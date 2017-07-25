@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-22 13:03+0000\n"
+"PO-Revision-Date: 2017-07-25 08:51+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/lznuaa/tortoisegit/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -539,7 +539,8 @@ msgstr "&Zatwierdź "
 msgid "&Commit..."
 msgstr "&Zatwierdź zmiany..."
 
-#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS)
+#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS,
+#. ID_VIEW_COMPAREREVISIONS - Menu)
 msgid "&Compare revisions"
 msgstr "&Porównaj wersje"
 
@@ -704,6 +705,10 @@ msgstr "&Użyj serwera proxy"
 msgid "&Enable edit"
 msgstr "&Włącz edytowanie"
 
+#. Resource IDs: (ID_MENUEXIT - Menu)
+msgid "&Exit"
+msgstr ""
+
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
 msgstr "&Wyjście Ctrl+W"
@@ -725,6 +730,10 @@ msgstr ""
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
 msgstr "&Plik"
+
+#. Resource IDs: (ID_VIEW_FILTER - Menu)
+msgid "&Filter"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -779,6 +788,10 @@ msgstr "&Od:"
 msgid "&Generate PuTTY  key pair"
 msgstr "&Generowanie pary kluczy PuTTY"
 
+#. Resource IDs: (65535 - PopupMenu)
+msgid "&Git"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
 msgstr "&Git Styl zatwierdzenia (--rmdir)"
@@ -811,7 +824,8 @@ msgid "&Hard: Reset working tree and index (discard all local changes)"
 msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
-#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP)
+#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP,
+#. ID_MENUHELP - Menu)
 msgid "&Help"
 msgstr "&Pomoc"
 
@@ -1272,7 +1286,8 @@ msgstr "&Zapisz"
 msgid "&Save authentication"
 msgstr "&Zapisz parametry uwierzytelnienia"
 
-#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVESTATGRAPHAS - Menu)
+#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVEGRAPHAS - Menu,
+#. ID_FILE_SAVESTATGRAPHAS - Menu)
 msgid "&Save graph as..."
 msgstr "&Zapisz wykres jako..."
 
@@ -1437,7 +1452,7 @@ msgstr "&URL:"
 msgid "&Undo"
 msgstr "&Cofnij"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS, ID_VIEW_UNIFIEDDIFF - Menu)
 msgid "&Unified diff"
 msgstr "&Plik różnicowy"
 
@@ -3305,7 +3320,8 @@ msgstr "Zatwierdzenie folderu, który nie jest poddany kontroli wersji nie doda 
 msgid "Common Name:"
 msgstr ""
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
+#. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "Porównaj wersje &główne (HEAD)"
 
@@ -5363,12 +5379,24 @@ msgstr ""
 msgid "First known &bad:"
 msgstr ""
 
+#. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
+msgid "Fit graph"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
+msgid "Fit height"
+msgstr ""
+
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
 msgstr ""
 
 #. Resource IDs: (ID_VIEW_FITIMAGEWIDTHS - Menu)
 msgid "Fit image &widths\tW"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
+msgid "Fit width"
 msgstr ""
 
 #. Resource IDs: (IDS_AFXBARRES_FOLDER)
@@ -9766,6 +9794,10 @@ msgstr "Pokaż różnice w linii\nRóżnice w linii"
 msgid "Show More Buttons"
 msgstr "Pokaż więcej przycisków"
 
+#. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
+msgid "Show Ove&rview"
+msgstr ""
+
 #. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_ABOVE_RIBBON)
 msgid "Show Quick Access Toolbar Above the Ribbon"
 msgstr "Pokaż pasek szybkiego dostępu nad wstążką"
@@ -11531,7 +11563,8 @@ msgid ""
 "text without any formatting"
 msgstr "Niesformatowany tekst\ntekst bez formatowania"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS,
+#. ID_VIEW_UNIFIEDDIFFOFHEADREVISIONS - Menu)
 msgid "Unified &diff of HEAD revisions"
 msgstr "Plik różnicowy &głównych (HEAD) wersji"
 
@@ -12356,6 +12389,14 @@ msgstr "Pow&iększ"
 msgid "Zoom &Out"
 msgstr "P&omniejsz"
 
+#. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
+msgid "Zoom &in\tCtrl-+"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
+msgid "Zoom &out\tCtrl--"
+msgstr ""
+
 #. Resource IDs: (32803)
 #, c-format
 msgid "Zoom 100%"
@@ -12384,6 +12425,10 @@ msgstr "Powiększ"
 #. Resource IDs: (32773)
 msgid "Zoom out"
 msgstr "Pomniejsz"
+
+#. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
+msgid "Zoom to &100%"
+msgstr ""
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

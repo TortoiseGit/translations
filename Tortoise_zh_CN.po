@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-18 20:38+0000\n"
-"Last-Translator: YF <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2017-07-25 08:51+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -537,7 +537,8 @@ msgstr "提交(&C)"
 msgid "&Commit..."
 msgstr "提交(&C)..."
 
-#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS)
+#. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS,
+#. ID_VIEW_COMPAREREVISIONS - Menu)
 msgid "&Compare revisions"
 msgstr "比较版本差异(&C)"
 
@@ -702,6 +703,10 @@ msgstr "使用代理服务器(&E)"
 msgid "&Enable edit"
 msgstr "启用编辑(&E)"
 
+#. Resource IDs: (ID_MENUEXIT - Menu)
+msgid "&Exit"
+msgstr "退出(&E)"
+
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
 msgstr "退出(&E)\tCtrl+W"
@@ -723,6 +728,10 @@ msgstr "额外路径(&E):"
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
 msgstr "文件(&F)"
+
+#. Resource IDs: (ID_VIEW_FILTER - Menu)
+msgid "&Filter"
+msgstr "过滤器(&F)"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -777,6 +786,10 @@ msgstr "从(&F):"
 msgid "&Generate PuTTY  key pair"
 msgstr "生成 PuTTY 密钥对(&G)"
 
+#. Resource IDs: (65535 - PopupMenu)
+msgid "&Git"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
 msgstr "Git风格提交 (--rmdir)(&G)"
@@ -809,7 +822,8 @@ msgid "&Hard: Reset working tree and index (discard all local changes)"
 msgstr "硬重置(&H)：重置工作区和索引（丢弃所有本地变更）"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
-#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP)
+#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP,
+#. ID_MENUHELP - Menu)
 msgid "&Help"
 msgstr "帮助(&H)"
 
@@ -1270,7 +1284,8 @@ msgstr "保存(&S)"
 msgid "&Save authentication"
 msgstr "保存认证(&S)"
 
-#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVESTATGRAPHAS - Menu)
+#. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVEGRAPHAS - Menu,
+#. ID_FILE_SAVESTATGRAPHAS - Menu)
 msgid "&Save graph as..."
 msgstr "图片另存为(&S)..."
 
@@ -1435,7 +1450,7 @@ msgstr "&URL:"
 msgid "&Undo"
 msgstr "撤销(&U)"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS, ID_VIEW_UNIFIEDDIFF - Menu)
 msgid "&Unified diff"
 msgstr "标准差异(&U)"
 
@@ -3303,7 +3318,8 @@ msgstr "提交未版本控制的文件夹不会递归添加它的子项目！\n�
 msgid "Common Name:"
 msgstr "通用名称："
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
+#. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "比较HEAD版本(&H)"
 
@@ -5361,6 +5377,14 @@ msgstr "首次启动向导 - TortoiseGit"
 msgid "First known &bad:"
 msgstr "第一个问题版本(&B):"
 
+#. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
+msgid "Fit graph"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
+msgid "Fit height"
+msgstr ""
+
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
 msgstr "适合图像高度(&H)\tH"
@@ -5368,6 +5392,10 @@ msgstr "适合图像高度(&H)\tH"
 #. Resource IDs: (ID_VIEW_FITIMAGEWIDTHS - Menu)
 msgid "Fit image &widths\tW"
 msgstr "适合图像宽度(&W)\tW"
+
+#. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
+msgid "Fit width"
+msgstr ""
 
 #. Resource IDs: (IDS_AFXBARRES_FOLDER)
 msgid "Folder"
@@ -9764,6 +9792,10 @@ msgstr "显示内嵌差异\n内嵌差异"
 msgid "Show More Buttons"
 msgstr "显示更多的按钮"
 
+#. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
+msgid "Show Ove&rview"
+msgstr "显示预览(&R)"
+
 #. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_ABOVE_RIBBON)
 msgid "Show Quick Access Toolbar Above the Ribbon"
 msgstr "在功能区上方显示快速访问工具栏"
@@ -11529,7 +11561,8 @@ msgid ""
 "text without any formatting"
 msgstr "未格式化的文本\n没有任何格式的文本"
 
-#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS)
+#. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS,
+#. ID_VIEW_UNIFIEDDIFFOFHEADREVISIONS - Menu)
 msgid "Unified &diff of HEAD revisions"
 msgstr "与HEAD版本的标准差异(&D)"
 
@@ -12354,6 +12387,14 @@ msgstr "放大(&I)"
 msgid "Zoom &Out"
 msgstr "缩小(&O)"
 
+#. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
+msgid "Zoom &in\tCtrl-+"
+msgstr "放大(&I）\tCtrl-+"
+
+#. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
+msgid "Zoom &out\tCtrl--"
+msgstr "缩小(&O)\tCtrl--"
+
 #. Resource IDs: (32803)
 #, c-format
 msgid "Zoom 100%"
@@ -12382,6 +12423,10 @@ msgstr "放大"
 #. Resource IDs: (32773)
 msgid "Zoom out"
 msgstr "缩小"
+
+#. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
+msgid "Zoom to &100%"
+msgstr ""
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"
