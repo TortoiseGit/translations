@@ -59,7 +59,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-26 19:28+0000\n"
+"PO-Revision-Date: 2017-07-27 07:27+0000\n"
 "Last-Translator: Jonathan GRIFFON <kugan49@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +93,7 @@ msgstr "# auteurs affichés individuellement :"
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALMBTRANSFERRED)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr "%.2f Mio transférés"
+msgstr "%.2f Mo transférés"
 
 #. Resource IDs: (AFX_IDP_ARCH_BADCLASS)
 #, c-format
@@ -2212,7 +2212,7 @@ msgstr "Êtes-vous sûr de vouloir marquer le(s) fichier(s) en conflit comme ré
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir faire revenir à l'ancienne version %d élément(s) ? Vous allez perdre TOUTES vos modifications depuis la dernière mise à jour !"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
@@ -3369,7 +3369,7 @@ msgstr "Comparer les références sélectionnées"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
 msgid "Compare tags"
-msgstr ""
+msgstr "Comparer les étiquettes"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
@@ -6357,7 +6357,7 @@ msgid ""
 "If you want to use a translated version of TortoiseGit and your language is "
 "missing, <a id=\"download\">download</a> and install a matching language "
 "pack now and hit \"Refresh\" before continuing."
-msgstr ""
+msgstr "Si vous voulez utiliser une version traduite de TortoiseGit et que vous ne trouvez pas votre langue, <a id=\"download\">téléchargez</a> et installez le pack de langage désiré puis appuyez sur \"Rafraîchir\" avant de continuer."
 
 #. Resource IDs: (IDS_EXTRAPATH_TT)
 #, c-format
@@ -6365,7 +6365,7 @@ msgid ""
 "If your git installation needs an extra entry in the PATH environment "
 "variable, you can enter it here and it will get appended to %PATH% "
 "automatically when TortoiseGit starts."
-msgstr ""
+msgstr "Si votre installation de git nécessite un ajout dans la variable d'environnement PATH, vous pouvez la mettre ici et elle sera automatiquement ajouotée au démarrage de TortoiseGit."
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 4577)
 msgid "Ignore"
@@ -6526,7 +6526,7 @@ msgstr "Afin d’abandonner une opération de fusion, une remise a zéro (vers H
 msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
-msgstr ""
+msgstr "Dans la liste de choix suivante vous trouverez tout les packs de langages installés qui peuvent être utilisés avec cette version de TortoiseGit."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -6664,7 +6664,7 @@ msgstr "Coréen"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
-msgstr ""
+msgstr "LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "LINE1"
@@ -6876,7 +6876,7 @@ msgstr "Branche locale"
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
 msgid "Local SHA1"
-msgstr ""
+msgstr "SHA1 local"
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
@@ -6886,7 +6886,7 @@ msgstr "Changements locaux ignorés (fichiers de l'arbre de travail supposés ma
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
-msgstr ""
+msgstr "Message local"
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -7786,7 +7786,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
-msgstr ""
+msgstr "Seulement local"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
@@ -7800,7 +7800,7 @@ msgstr "Seuls les nombres (optionnellement séparés par des virgules)\nsont acc
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
 msgid "Only remote"
-msgstr ""
+msgstr "Seulement distant"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -7978,7 +7978,7 @@ msgstr "Parent 2"
 #. Resource IDs: (IDS_CONFLICT_REVERT)
 #, c-format
 msgid "Parent of %2!s!"
-msgstr ""
+msgstr "Parent de %2!s!"
 
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
@@ -8528,7 +8528,7 @@ msgstr "Re&venir en arrière..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1684)
 msgid "Re-run &First Start Wizard"
-msgstr ""
+msgstr "Relancer l'assistant de premier démarrage"
 
 #. Resource IDs: (IDS_FETCH_REACHABLE)
 msgid "Reachable"
@@ -8570,7 +8570,7 @@ msgstr "Lignes récemment modifiées"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid "Recommended: Git for Windows"
-msgstr ""
+msgstr "Recommandé : Git pour Windows"
 
 #. Resource IDs: (IDS_MERGE_RECORDONLY)
 msgid "Record Only"
@@ -8734,7 +8734,7 @@ msgstr "Branche distante"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
 msgid "Remote SHA1"
-msgstr ""
+msgstr "SHA1 distant"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
@@ -8746,7 +8746,7 @@ msgstr "Mise à jour distante"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
 msgid "Remote message"
-msgstr ""
+msgstr "Message distant"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -9911,7 +9911,7 @@ msgstr "Afficher les différences"
 
 #. Resource IDs: (IDS_HEADER_DIFFLEFTTOBASE, IDS_HEADER_DIFFRIGHTTOBASE)
 msgid "Show diff separately"
-msgstr ""
+msgstr "Afficher les différences séparément"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1556)
 msgid "Show diff to last commit"
@@ -10582,7 +10582,7 @@ msgstr "Les entrées dans le registre système a été effacé et le fichier INI
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1520)
 msgid "T&rack"
-msgstr ""
+msgstr "Suiv&re"
 
 #. Resource IDs: (5065 - Menu)
 msgid "TIS-620"
@@ -11081,7 +11081,7 @@ msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
 "default."
-msgstr ""
+msgstr "Ces réglages vont être enregistrés dans votre configuration git globale (%HOME%/.gitconfig) et seront utilisés par défaut dans tout vos dépôts git."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
@@ -11115,7 +11115,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "C'est l'assistant de premier démarrage qui va vous aidez à configurer les réglages de base. TortoiseGit est hautement configurable, il est donc intéressant de regarder les fenêtres de réglages. Vous pouvez les ouvrir en utilisant le menu démarrer ou par le menu contextuel de l'explorateur windows : TortoiseGit -> Configuration."
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -11133,7 +11133,7 @@ msgid ""
 "This preserves merge commits, however, it has known bugs as re-ordering "
 "commits is not working properly (same limitation as for vanilla git rebase),"
 " see help."
-msgstr ""
+msgstr "Conserve les fusions de livraison, de plus, il y a des anomalie connues lorsque le réordonnancement de livraison n'est pas fait correctement (même limitation que pour vanilla git rebase), consultez l'aide."
 
 #. Resource IDs: (AFX_IDP_DLL_BAD_VERSION)
 #, c-format
@@ -11288,14 +11288,14 @@ msgid ""
 "To use TortoiseGit please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
-msgstr ""
+msgstr "TortoiseGit est une extension d'explorateur.\nCela signifie qu'il est intégré dans l'explorateur Windows.\nPour utiliser TortoiseGit merci 'ouvrir l'explorateur et de faire un clic droit sur le dossier désiré\nafin d'ouvrir le menu contextuel où vous trouverez toutes les commandes de TortoiseGit.\nEt lisez le manuel !"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT1)
 msgid ""
 "TortoiseGit is designed as a Shell Extension. Therefore the main interaction"
 " with TortoiseGit will be using the context menu of the Windows shell such "
 "as the Windows Explorer."
-msgstr ""
+msgstr "TortoiseGit fonctionne comme une extension d'explorateur. Donc pour utiliser TortoiseGit il faut passer par le menu contextuel de l'explorateur Windows."
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
@@ -11585,7 +11585,7 @@ msgstr "Format de fichier non attendu."
 
 #. Resource IDs: (IDS_STATUSLIST_UNSETIGNORELOCALCHANGES)
 msgid "Unflag as skip-worktree and assume-unchanged"
-msgstr ""
+msgstr "marquer comme à ne pas afficher dans l'arborescence de travail"
 
 #. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_UNFOLD)
 msgid "Unfold"
@@ -11769,12 +11769,12 @@ msgstr "Utiliser le fichier gauche"
 #. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
 #. name)
 msgid "Use left text block"
-msgstr ""
+msgstr "Utiliser le bloc de gauche"
 
 #. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
 #. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
 msgid "Use left text block then right"
-msgstr ""
+msgstr "Utiliser le bloc de texte de gauche puis celui de droite"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
@@ -11794,12 +11794,12 @@ msgstr "Utiliser le bloc de droite"
 
 #. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
 msgid "Use right text block"
-msgstr ""
+msgstr "Utiliser le bloc de droite"
 
 #. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
 #. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
 msgid "Use right text block then left"
-msgstr ""
+msgstr "Utiliser le bloc de texte de droite puis celui de gauche"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
@@ -11811,43 +11811,43 @@ msgstr "Utiliser les réglages internationaux du système pour la date/l'heure"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
 msgid "Use text block from &left"
-msgstr ""
+msgstr "Utiliser le bloc de texte de gauche"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from &right"
-msgstr ""
+msgstr "Utiliser le bloc de texte de d&roite"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
 msgid "Use text block from l&eft before right"
-msgstr ""
+msgstr "Utiliser le bloc de gauch&e avant celui de droite"
 
 #. Resource IDs: (32821)
 msgid ""
 "Use text block from left before right file\n"
 "Use left file text block then right"
-msgstr ""
+msgstr "Utiliser le bloc de la vue gauche avant celui de la vue droite\nUtiliser le bloc de gauche avant celui de droite"
 
 #. Resource IDs: (32819)
 msgid ""
 "Use text block from left file\n"
 "Use left file text block"
-msgstr ""
+msgstr "Utiliser le bloc de texte de la vue de gauche\nUtiliser le bloc gauche"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
 msgid "Use text block from r&ight before left"
-msgstr ""
+msgstr "Utiliser le bloc de dro&ite avant celui de gauche"
 
 #. Resource IDs: (32822)
 msgid ""
 "Use text block from right file before left\n"
 "Use right file text block then left"
-msgstr ""
+msgstr "Utiliser le bloc de la vue droite avant celui de la vue gauche\nUtiliser le bloc de droite avant celui de gauche"
 
 #. Resource IDs: (32820)
 msgid ""
 "Use text block from right file\n"
 "Use right file text block"
-msgstr ""
+msgstr "Utiliser le bloc de texte de la vue droite\nUtiliser le bloc de droite"
 
 #. Resource IDs: (32855)
 msgid ""
@@ -12298,7 +12298,7 @@ msgid ""
 "You have an old unsupported version of Git installed.\n"
 "\n"
 "You should consider an upgrade to %s."
-msgstr ""
+msgstr "Vous avez une ancienne version de Git d'installé.\n\nVous devriez considérer une mise à jour vers %s."
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""
@@ -12382,7 +12382,7 @@ msgstr "Vous devriez sélectionner une image!"
 msgid ""
 "You've changed the icon set from \"%s\" to \"%s\".\n"
 "That change won't take effect until you restart your computer or logoff and logon again!"
-msgstr ""
+msgstr "Vous avez changé le jeu d'icônes \"%s\" par \"%s\".\nCe changement ne prendra effet qu'après le redémarrage de votre ordinateur ou l'ouverture d'une nouvelle session !"
 
 #. Resource IDs: (IDS_COMMITDLG_HISTORYHINT_TT)
 msgid ""
@@ -12425,11 +12425,11 @@ msgstr "Réduire le Gr&ossissement"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "Agrand&ir le Grossissement\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "Réduire le Gr&ossissement\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -12462,7 +12462,7 @@ msgstr "Réduire"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Zoom &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"
@@ -12605,7 +12605,7 @@ msgstr "bugtraq.warningifnoissue"
 
 #. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
 msgid "changes to-be-integrated"
-msgstr ""
+msgstr "changements à intégrer"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
