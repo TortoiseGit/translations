@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-29 17:16+0000\n"
+"PO-Revision-Date: 2017-07-30 15:03+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -592,11 +592,11 @@ msgstr "&Esborra remot && local"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
-msgstr ""
+msgstr "&Detecta línies copiades o desplaçades"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "&Detect moved or copied lines:"
-msgstr ""
+msgstr "&Detecta línies copiades o desplaçades:"
 
 #. Resource IDs: (IDS_MENUDIFF)
 msgid "&Diff"
@@ -637,7 +637,7 @@ msgstr "&No mostrar més aquest missatge "
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr ""
+msgstr "&No desis ara aquesta configuració."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -701,11 +701,11 @@ msgstr "&Activa l'edició"
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "&Surt"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
-msgstr ""
+msgstr "&Surt\tCtrl+W"
 
 #. Resource IDs: (IDS_FILEDIFF_POPEXPORT)
 msgid "&Export selection to..."
@@ -727,7 +727,7 @@ msgstr "&Fitxer"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Filtre"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -784,7 +784,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Git"
-msgstr ""
+msgstr "&Git"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -793,7 +793,7 @@ msgstr "Entrega de tipus git (--rmdir)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Git.exe Path:"
-msgstr ""
+msgstr "Camí &git.exe:"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -1140,7 +1140,7 @@ msgstr "&Estira"
 
 #. Resource IDs: (IDS_MENUPULL)
 msgid "&Pull..."
-msgstr ""
+msgstr "&Estira..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -1152,7 +1152,7 @@ msgstr "&ReEntrega"
 
 #. Resource IDs: (IDS_REBASEBUTTON)
 msgid "&Rebase"
-msgstr ""
+msgstr "&Rebase"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1694)
 msgid "&Recursive"
@@ -1188,7 +1188,7 @@ msgstr "Branca remota"
 
 #. Resource IDs: (IDS_VIEW_SHOWREMOTEBRANCHLABELS)
 msgid "&Remote branches"
-msgstr ""
+msgstr "&Branques remotes"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1490, Dialog IDD_PUSH:
 #. Control id 1503)
@@ -1860,7 +1860,7 @@ msgstr "Afegeix \"Signat per\""
 
 #. Resource IDs: (IDS_REBASE_ADDANOTHERCOMMIT)
 msgid "Add another commit?"
-msgstr ""
+msgstr "Voleu afegir una altra entrega?"
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
@@ -3226,7 +3226,7 @@ msgstr "Entrega"
 #. Resource IDs: (IDS_LOG_NOT_VISIBLE)
 #, c-format
 msgid "Commit %s is NOT visible right now."
-msgstr ""
+msgstr "L'entrega %s NO es pot veure ara mateix."
 
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
@@ -4043,7 +4043,7 @@ msgstr "Elimina etiqueta"
 
 #. Resource IDs: (IDS_DELETE_REMOTETAG)
 msgid "Delete tag on remote"
-msgstr ""
+msgstr "Elimina etiqueta a remot"
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4150,7 +4150,7 @@ msgstr "Detecta línies copiades i desplaçades dels fitxers existents a qualsev
 msgid ""
 "Detect moved and copied lines from existing files at the commit where the "
 "destination file has been created"
-msgstr ""
+msgstr "Detecta línies copiades i desplaçades dels fitxers existents a l'entrega on s'ha creat el fitxer de destinació"
 
 #. Resource IDs: (32791)
 msgid "Detect moved and copied lines from files modified in the same commit"
@@ -5147,7 +5147,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr ""
+msgstr "Recupera entregues des d'un repositori remot."
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -5718,7 +5718,7 @@ msgstr "Git clone - TortoiseGit"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_NOMSYSGIT)
 msgid "Git directory not set (see \"General\" settings page)."
-msgstr ""
+msgstr "No s'ha especificat el directori Git (vés a la pàgina de configuració \"General\")."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 65535)
 msgid "Git for Windows"
@@ -7390,7 +7390,7 @@ msgstr "No s'han modificat carpetes o arxius. No hi ha res que TortoiseGit pugui
 msgid ""
 "No files to show with the current setting.\n"
 "Check one or more settings below to see unversioned, ignored and/or unmodified files."
-msgstr ""
+msgstr "No hi ha fitxers per mostrar amb la configuració actual.\nActiveu una o més opcions de sota per veure fitxers sense versionar, ignorats i/o sense modificar."
 
 #. Resource IDs: (IDS_COMMITDLG_NOTHINGTOCOMMIT)
 msgid ""
@@ -7565,7 +7565,7 @@ msgstr "Nombre d'autors"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "Number of characters required for moved or copied line detection:"
-msgstr ""
+msgstr "Nombre de caràcters requerits en la detecció de línies copiades o desplaçades:"
 
 #. Resource IDs: (IDS_SETTINGS_DESCRIBEABBREVIATEDSIZE_TT)
 msgid "Number of characters to show in the abbreviated hash part"
@@ -7760,7 +7760,7 @@ msgstr "Només es permeten números!\n(opcionalment separats per comes)"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
 msgid "Only remote"
-msgstr ""
+msgstr "Només remot"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -8344,7 +8344,7 @@ msgstr "Estira"
 
 #. Resource IDs: (IDS_MENUDESCPULL)
 msgid "Pull (fetch and merge) commits from a remote branch."
-msgstr ""
+msgstr "Estira (recupera i fusiona) entregues des d'una branca remota."
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
 msgid "Pull requires the selected local branch to be the current branch."
@@ -8694,7 +8694,7 @@ msgstr "Branca remota"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
 msgid "Remote SHA1"
-msgstr ""
+msgstr "SHA1 remot"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_URLEMPTY)
 msgid "Remote URL must not be empty."
@@ -8706,7 +8706,7 @@ msgstr "Actualització remota"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEMESSAGE)
 msgid "Remote message"
-msgstr ""
+msgstr "Missatge remot"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_REMOTEEMPTY)
 msgid "Remote name must not be empty."
@@ -8823,7 +8823,7 @@ msgstr "Canvia el nom - TortoiseGit"
 #. Resource IDs: (IDS_RENAME_INFO)
 #, c-format
 msgid "Rename \"%s\":"
-msgstr ""
+msgstr "Canvia el nom de \"%s\":"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_RENAME)
 msgid "Rename/move"
@@ -9216,7 +9216,7 @@ msgstr "Recupera de SVN"
 
 #. Resource IDs: (IDS_MENUSVNREBASE)
 msgid "SVN Rebase"
-msgstr ""
+msgstr "Rebase del SVN"
 
 #. Resource IDs: (IDS_LOG_SVNREV)
 msgid "SVN Rev"
@@ -9891,7 +9891,7 @@ msgstr "Mostra menús &sencers després d'un temps curt"
 
 #. Resource IDs: (32802, ID_VIEW_SHOWFILENAME - Menu)
 msgid "Show file name"
-msgstr ""
+msgstr "Mostra el nom del fitxer"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1782)
 msgid "Show git.exe execution timings and timestamp"
@@ -11041,7 +11041,7 @@ msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
 "default."
-msgstr ""
+msgstr "Aquesta configuració es desarà a la configuració global git (%HOME%/.gitconfig) i s'utilitzarà per defecte a tots els vostres repositoris git."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
