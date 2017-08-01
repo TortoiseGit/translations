@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-30 15:03+0000\n"
+"PO-Revision-Date: 2017-07-31 18:49+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -675,7 +675,7 @@ msgstr "&Editar..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
-msgstr ""
+msgstr "&Edita/Divideix entrega"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
@@ -719,7 +719,7 @@ msgstr "&Extern"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Extra PATH:"
-msgstr ""
+msgstr "&Camí extra:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
@@ -1176,11 +1176,11 @@ msgstr "&Refresca"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20093)
 msgid "&Regular Expression"
-msgstr ""
+msgstr "&Expressió regular"
 
 #. Resource IDs: (IDS_REMINDMELATER)
 msgid "&Remind me later"
-msgstr ""
+msgstr "&Recorda-m'ho després"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1617)
 msgid "&Remote Branch:"
@@ -1252,7 +1252,7 @@ msgstr "&Restaura l'estat antic"
 
 #. Resource IDs: (IDS_MSGBOX_RETRY)
 msgid "&Retry"
-msgstr ""
+msgstr "&Torna-ho a provar"
 
 #. Resource IDs: (IDS_LOG_POPUP_REVERTREV)
 msgid "&Revert change by this commit"
@@ -1295,11 +1295,11 @@ msgstr "&Desa\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "&Cerca..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
-msgstr ""
+msgstr "&Estableix el camí Git"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1486)
 msgid "&Set upstream/track remote branch"
@@ -1431,7 +1431,7 @@ msgstr "&Trunk:"
 
 #. Resource IDs: (IDS_MSGBOX_TRYAGAIN)
 msgid "&Try Again"
-msgstr ""
+msgstr "&Prova un altre cop"
 
 #. Resource IDs: (AFX_IDS_TWOPAGE)
 msgid "&Two Page"
@@ -1508,11 +1508,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_YES)
 msgid "&Yes"
-msgstr ""
+msgstr "&Sí"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1682)
 msgid "&add \"cherry picked from\""
-msgstr ""
+msgstr "&afegeix \"escollit des de\""
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
@@ -1520,7 +1520,7 @@ msgstr "Ignora canvis d'espais en blanc"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "&known changes"
-msgstr ""
+msgstr "&canvis coneguts"
 
 #. Resource IDs: (IDS_TORTOISEGITDEFAULT)
 msgid "(TortoiseGit default)"
@@ -1608,7 +1608,7 @@ msgstr "....."
 
 #. Resource IDs: (IDS_CONFIG_LOCAL_TT)
 msgid ".git/config in the repository root"
-msgstr ""
+msgstr ".git/config a l'arrel del dipòsit"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1691)
 msgid ".git/info/exclude"
@@ -1624,7 +1624,7 @@ msgstr ".gitignore a l'arrel del dipòsit"
 
 #. Resource IDs: (IDS_CONFIG_PROJECT_TT)
 msgid ".tgitconfig in the repository root"
-msgstr ""
+msgstr ".tgitconfig a l'arrel del dipòsit"
 
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1020)
 msgid "< &Previous"
@@ -2645,7 +2645,7 @@ msgstr "Calcula"
 #. Resource IDs: (IDS_ERR_GITCALLFAILED)
 #, c-format
 msgid "Calling git.exe failed (exit code: %d). Please check the git.exe path."
-msgstr ""
+msgstr "Ha fallat la crida a git.exe (codi de sortida: %d). Verifiqueu el camí git.exe."
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1127)
 msgid "Can double-click in log list to compare with previous revision"
@@ -2907,7 +2907,7 @@ msgstr "Troba Modi&ficacions"
 
 #. Resource IDs: (IDS_SEEMANUALGITEXEPATH)
 msgid "Check out the help file for \"Git.exe Path\"."
-msgstr ""
+msgstr "Cerqueu \"Git.exe Path\" al fitxer d'ajuda."
 
 #. Resource IDs: (IDS_SVNERR_CHECKPATHORURL)
 msgid "Check the path and/or URL you've entered."
@@ -3235,7 +3235,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_COMMIT_COMMITPUSH)
 msgid "Commit && &Push"
-msgstr ""
+msgstr "Entrega && &Empeny"
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
@@ -3684,7 +3684,7 @@ msgid ""
 "Could not start git.exe. A dynamic library (dll) is missing.\n"
 "You might need to specify an extra PATH.\n"
 "Check help file for \"Extra PATH\"."
-msgstr ""
+msgstr "No s'ha pogut arrencar git.exe. Manca una llibreria dinàmica (dll).\nPotser caldria definir un camí extra.\nCerqueu \"Extra PATH\" al fitxer d'ajuda."
 
 #. Resource IDs: (AFX_IDP_FAILED_TO_START_PRINT)
 msgid "Could not start print job."
@@ -4406,7 +4406,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
-msgstr ""
+msgstr "Voleu empènyer totes les branques locals?"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
@@ -5539,7 +5539,7 @@ msgstr "Pantalla Completa"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
 msgid "Full commit data without changed paths"
-msgstr ""
+msgstr "Entrega completa de dades sense camins modificats"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULL)
 msgid "Full data"
@@ -5678,7 +5678,7 @@ msgstr "Git Init"
 
 #. Resource IDs: (IDS_MSYSGIT_PATH_TT)
 msgid "Git Install Path"
-msgstr ""
+msgstr "Camí d'instal·lació del Git"
 
 #. Resource IDs: (IDS_GIT_LOG_TAB)
 msgid "Git Log"
@@ -6325,7 +6325,7 @@ msgid ""
 "If your git installation needs an extra entry in the PATH environment "
 "variable, you can enter it here and it will get appended to %PATH% "
 "automatically when TortoiseGit starts."
-msgstr ""
+msgstr "Si la instal·lació del Git demana una entrada extra a la variable d'entorn PATH, introduïu-la aquí i s'afegirà automàticament a %PATH% quan arrenqui el TortoiseGit."
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 4577)
 msgid "Ignore"
@@ -8377,11 +8377,11 @@ msgstr "Empeny"
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 1786)
 msgid "Push Default"
-msgstr ""
+msgstr "Empeny per defecte"
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Push URL:"
-msgstr ""
+msgstr "Empeny l'URL:"
 
 #. Resource IDs: (IDS_MENUDESCPUSH)
 msgid "Push commits to a remote repository."
@@ -8417,7 +8417,7 @@ msgstr "Tanca\nTanca TortoiseGitMerge sense desar les modificacions"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1633)
 msgid "QuotePath"
-msgstr ""
+msgstr "QuotePath"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1073)
 msgid "R&AM drives"
@@ -12706,7 +12706,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOCAL_GCM)
 msgid "manager - this repository only"
-msgstr ""
+msgstr "manager - només aquest dipòsit"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1494)
 msgid "master"
