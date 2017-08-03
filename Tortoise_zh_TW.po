@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-07-25 08:51+0000\n"
+"PO-Revision-Date: 2017-08-03 08:54+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -348,7 +348,7 @@ msgstr "加入(&A) >>"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1505)
 msgid "&Add Filter"
-msgstr "新增過濾器(&A)"
+msgstr "新增篩選器(&A)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1382, Dialog
 #. IDD_SETTINREMOTE: Control id 1382)
@@ -585,7 +585,7 @@ msgstr "刪除並保留檔案(&D)"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1507)
 msgid "&Delete Filter"
-msgstr "刪除過濾器(&D)"
+msgstr "刪除篩選器(&D)"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
 msgid "&Delete remote && local"
@@ -663,7 +663,7 @@ msgstr "編輯全部(&E)"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1506)
 msgid "&Edit Filter"
-msgstr "編輯過濾器(&E)"
+msgstr "編輯篩選器(&E)"
 
 #. Resource IDs: (IDS_MENUCONFLICT)
 msgid "&Edit conflicts"
@@ -728,7 +728,7 @@ msgstr "檔案(&F)"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "篩選器(&F)"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -785,7 +785,7 @@ msgstr "產生 PuTTY 金鑰對(&G)"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Git"
-msgstr ""
+msgstr "&Git"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -1229,7 +1229,7 @@ msgstr "重設工具列(&R)"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1355)
 msgid "&Reset filter"
-msgstr "重設過濾器 (&R)"
+msgstr "重設篩選器(&R)"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16657)
 msgid "&Reset my usage data"
@@ -2580,7 +2580,7 @@ msgstr "BugTraq"
 
 #. Resource IDs: (Dialog IDD_BUGTRAQREGEXTESTER: Control id 327)
 msgid "Bugtraq Regex Tester - TortoiseGit"
-msgstr "Bugtraq 正規表示式測試器 - TortoiseGit"
+msgstr "Bugtraq Regex 測試器 - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16132)
 msgid "Button Appearance"
@@ -2759,7 +2759,7 @@ msgstr "取消\n保留目前的設定"
 msgid ""
 "Cannot combine commits now.\n"
 "Make sure you are viewing the log of your current branch and no filters are applied."
-msgstr "現在無法合併這些提交\n請確定在日誌中只有檢視目前分支並且沒有套用過濾器，同時確認這些提交是連續的。"
+msgstr "現在無法合併這些提交\n請確定在日誌中只有檢視目前分支並且沒有使用篩選器，同時確認這些提交是連續的。"
 
 #. Resource IDs: (IDS_B_CANNOTFORCECURRENT)
 msgid ""
@@ -3385,7 +3385,7 @@ msgstr "組態類型："
 
 #. Resource IDs: (IDS_CONFIGUREREGEXES, ID_REGEXFILTER - Menu)
 msgid "Configure Filter Regexes"
-msgstr "設定過濾器正規表示式 "
+msgstr "設定篩選器 Regex"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 236)
 msgid "Configure Hook Scripts"
@@ -4890,7 +4890,7 @@ msgstr "請勿輸入超過 %1 個字。"
 
 #. Resource IDs: (Dialog IDD_AUTOTEXTTESTDLG: Control id 65535)
 msgid "Enter the regex string below:"
-msgstr "輸入 regex 指令："
+msgstr "在下面輸入 regex 字串:"
 
 #. Resource IDs: (57633)
 msgid ""
@@ -5294,20 +5294,20 @@ msgstr "填滿工具\n填滿"
 
 #. Resource IDs: (IDS_LOG_FILTER_BY)
 msgid "Filter by"
-msgstr "過濾由"
+msgstr "目前篩選:"
 
 #. Resource IDs: (IDS_FILEDIFF_FILTERCUE)
 msgid "Filter paths"
-msgstr "過濾路徑"
+msgstr "篩選路徑"
 
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 1479)
 msgid "Filter:"
-msgstr "過濾器："
+msgstr "篩選器:"
 
 #. Resource IDs: (Dialog IDD_COMMITISONREFS: Control id 1834, Dialog IDD_FIND:
 #. Control id 20090)
 msgid "Filter: "
-msgstr "過濾器："
+msgstr "篩選器:"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 139, Dialog IDD_FIND: Control id
 #. 20100, ID_EDIT_FIND - Menu, ID_EDIT_FIND - Ribbon name)
@@ -5376,11 +5376,11 @@ msgstr "首個已知壞的版本(&B)："
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "符合整張圖"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "符合高度"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -5392,7 +5392,7 @@ msgstr "符合影像寬度(&W)\tW"
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "符合寬度"
 
 #. Resource IDs: (IDS_AFXBARRES_FOLDER)
 msgid "Folder"
@@ -8113,8 +8113,8 @@ msgstr "請輸入要套用這個掛鉤指令檔的路徑。可以使用「*」�
 msgid ""
 "Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
 "dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
-" search and oftentimes there are powerfull context menus."
-msgstr "請查閱<a id=\"manual\">手冊</a>以取得更多詳細的提示，例如：在大多數的視窗中，可以按 F5 來更新畫面，並且常常有許多強大的快顯功能表可用。"
+" search and oftentimes there are powerful context menus."
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -8616,15 +8616,15 @@ msgstr "重新整理中．．．"
 #. Resource IDs: (500, 65535 - PopupMenu, Dialog IDD_REGEXFILTER: Control id
 #. 165, ID_REGEXFILTER - Ribbon name)
 msgid "Regex Filter"
-msgstr "正規表示式 過濾器"
+msgstr "Regex 篩選器"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 164)
 msgid "Regex Filters"
-msgstr "正規表示式過濾器"
+msgstr "Regex 篩選器列表"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTER: Control id 65535)
 msgid "Regex:"
-msgstr "正規表示式："
+msgstr "Regex:"
 
 #. Resource IDs: (IDS_LOG_FILTER_REGEX_TT)
 msgid ""
@@ -8643,7 +8643,7 @@ msgid ""
 "\\W   : any non-alphanumeric character\n"
 "\\d   : digits 0-9\n"
 "\\s   : whitespaces"
-msgstr "正規表示式過濾器：\n.：任意字元\nc+：匹配一個以上的字元 c\nc*：匹配零個以上的字元 c\n^：一行的開頭\n$：一行的結尾\n(string){n}：匹配重複n次的字串\n(abcd)：群組\n[aei0-9]：匹配a, e, i, 及 0到9\n[^aei0-9]：匹配除了a, e, i, 和 0到9 之外的字\n<hr=100%>\n\\w：匹配 a到z, A到Z, 0到9, 以及 _\n\\W：匹配任何非英文, 數字的字元\n\\d：數字 0到9\n\\s：空白字元"
+msgstr "正規表示式篩選器：\n「.」：任意字元\n「c+」：匹配一個以上的字元 c\n「c*」：匹配零個以上的字元 c\n「^」：一行的開頭\n「$」：一行的結尾\n「(string){n}」：匹配字串 n 次\n「(abcd)」：子表示式，小括號用來定義操作符的範圍和優先度\n「[aei0-9]」：匹配 a、e、i 以及 0 到 9\n「[^aei0-9]」：匹配 a、e、i 以及 0 到 9 之外的字\n\n「\\w」：匹配 a 到 z、A 到 Z、0 到 9 以及 _\n「\\W」：匹配任何非英文、數字字元\n「\\d」：數字 0 到 9\n「\\s」：空白字元"
 
 #. Resource IDs: (IDS_TITLE_REJECTEDHUNKS)
 #, c-format
@@ -9061,7 +9061,7 @@ msgstr "版本圖"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 4584)
 msgid "Revision Graph Filter"
-msgstr "版本圖過濾器"
+msgstr "版本圖篩選器"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "Revision graph"
@@ -9791,7 +9791,7 @@ msgstr "顯示更多按鈕"
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "顯示概觀(&R)"
 
 #. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_ABOVE_RIBBON)
 msgid "Show Quick Access Toolbar Above the Ribbon"
@@ -11071,12 +11071,12 @@ msgstr "路徑錯誤！\n正確的路徑不可以包含「<<>|\"?*:」或是下�
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT2)
 msgid ""
-"This is the First Start Wizard which will help you configuring the basic "
+"This is the First Start Wizard which will help you configure the basic "
 "settings. TortoiseGit is highly configurable, so it is advisable that you "
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr "這是「首次啟動精靈」，用來幫助你完成基本的設定值。其實 TortoiseGit 有相當多的組態能夠被設定，所以相當值得你進入設定畫面瞧個究竟；你可以使用「Windows 開始選單」或者「檔案總管快顯功能表：TortoiseGit -> Settings」來開啟設定畫面。"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -11175,7 +11175,7 @@ msgstr "切換「單／雙」頁顯示\n切換「單／雙」頁顯示"
 
 #. Resource IDs: (IDS_LOG_FILTER_TOGGLE)
 msgid "Toggle filters"
-msgstr "反選取過濾器"
+msgstr "反向選取篩選器"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 65535)
 msgid "Toolbar"
@@ -11352,13 +11352,13 @@ msgstr "TortoiseGitMerge 無法處理這個補綴檔，檔名「%s」出現多�
 
 #. Resource IDs: (IDS_FIRSTSTART_SSHHINT)
 msgid ""
-"TortoiseGitPlink is recommended as SSH client. If you don't have a key pair "
-"yet, you should generate one. Keep the private one in a save place and set "
-"up the public key on your hosting platform. Use the PuTTY authentication "
-"agent for caching the password (done automatically if a PuTTY key is "
+"TortoiseGitPlink is the recommended as SSH client. If you don't have a key "
+"pair yet, you should generate one. Keep the private one in a safe place and "
+"set up the public key on your hosting platform. Use the PuTTY authentication"
+" agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr "建議使用 TortoiseGitPlink 做為你的 SSH 客戶端程式。如果你還沒有「金鑰對(key pair)」，你應該產生一組，並將私鑰存放在安全的地方以備後用，然後在伺服端設定好你的公鑰；使用 PuTTY 認證代理程式（Pageant）幫你快取密碼（如果你已經為遠端設定好 PuTTY 金鑰，這就會自動完成）。請查閱我們的<a id=\"manual\">手冊</a>和 <a id=\"sshfaq\">FAQ</a> 以取得更多進階的提示和技巧。"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -12043,10 +12043,10 @@ msgstr "警告！"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT4)
 msgid ""
-"We hope you enjoy the usage of TortoiseGit! In case of questions or "
-"problems, please consult our manual or go to <a "
+"We hope you enjoy using TortoiseGit! In case of questions or problems, "
+"please consult our manual or go to <a "
 "id=\"support\">https://tortoisegit.org/support/</a>"
-msgstr "我們希望你可以享用 TortoiseGit！如果你有任何使用上的問題，請參考我們的手冊，或者瀏覽 <a id=\"support\">https://tortoisegit.org/support/</a>"
+msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
@@ -12386,11 +12386,11 @@ msgstr "縮小(&O)"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "放大(&I)\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "縮小(&O)\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -12423,7 +12423,7 @@ msgstr "縮小"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "縮放到 100% (&1)"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"
