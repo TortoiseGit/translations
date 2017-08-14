@@ -4,6 +4,7 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
+# Eugenijus Januškevičius <eugenijus.januskevicius@vgtu.lt>, 2017
 # Evaldas Granickas <inactive+JVL60@transifex.com>, 2011
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2013
 # Paulius <pauliusdavyd@yahoo.com>, 2013
@@ -14,8 +15,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-08-03 08:54+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-08-14 14:54+0000\n"
+"Last-Translator: Eugenijus Januškevičius <eugenijus.januskevicius@vgtu.lt>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/lznuaa/tortoisegit/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +49,7 @@ msgstr "# autoriai:"
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALMBTRANSFERRED)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr "%.2f MiB perduota"
+msgstr "perduota %.2f MiB "
 
 #. Resource IDs: (AFX_IDP_ARCH_BADCLASS)
 #, c-format
@@ -78,12 +79,12 @@ msgstr "%1 nebuvo rastas."
 #. Resource IDs: (IDS_DAY_AGO)
 #, c-format
 msgid "%1!d! Day ago"
-msgstr ""
+msgstr "prieš %1!d! dieną"
 
 #. Resource IDs: (IDS_DAYS_AGO)
 #, c-format
 msgid "%1!d! Days ago"
-msgstr ""
+msgstr "prieš %1!d! dienas"
 
 #. Resource IDs: (IDS_HOUR_AGO)
 #, c-format
@@ -93,62 +94,62 @@ msgstr "Prieš %1!d! valandą"
 #. Resource IDs: (IDS_HOURS_AGO)
 #, c-format
 msgid "%1!d! Hours ago"
-msgstr ""
+msgstr "prieš %1!d! valandas"
 
 #. Resource IDs: (IDS_MINUTE_AGO)
 #, c-format
 msgid "%1!d! Minute ago"
-msgstr ""
+msgstr "prieš %1!d! minutę"
 
 #. Resource IDs: (IDS_MONTH_AGO)
 #, c-format
 msgid "%1!d! Month ago"
-msgstr ""
+msgstr "prieš %1!d! mėnesį"
 
 #. Resource IDs: (IDS_MONTHS_AGO)
 #, c-format
 msgid "%1!d! Months ago"
-msgstr ""
+msgstr "prieš %1!d! mėnesius"
 
 #. Resource IDs: (IDS_SECOND_AGO)
 #, c-format
 msgid "%1!d! Second ago"
-msgstr ""
+msgstr "prieš %1!d! sekundę"
 
 #. Resource IDs: (IDS_SECONDS_AGO)
 #, c-format
 msgid "%1!d! Seconds ago"
-msgstr ""
+msgstr "prieš %1!d! sekundes"
 
 #. Resource IDs: (IDS_WEEK_AGO)
 #, c-format
 msgid "%1!d! Week ago"
-msgstr ""
+msgstr "prieš %1!d! savaitę"
 
 #. Resource IDs: (IDS_WEEKS_AGO)
 #, c-format
 msgid "%1!d! Weeks ago"
-msgstr ""
+msgstr "prieš %1!d! savaites"
 
 #. Resource IDs: (IDS_YEAR_AGO)
 #, c-format
 msgid "%1!d! Year ago"
-msgstr ""
+msgstr "prieš %1!d! metus"
 
 #. Resource IDs: (IDS_YEARS_AGO)
 #, c-format
 msgid "%1!d! Years ago"
-msgstr ""
+msgstr "prieš %1!d! metų"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
 msgid "%1!d! items selected"
-msgstr ""
+msgstr "parinkti %1!d! objektai"
 
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
 msgid "%1!d! minutes ago"
-msgstr ""
+msgstr "prieš %1!d! minutes"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -192,12 +193,12 @@ msgstr ""
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALBYTESTRANSFERRED)
 #, c-format
 msgid "%I64d Bytes transferred"
-msgstr "%I64d Baitų persiusta"
+msgstr "persiųsta %I64d Baitų"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALTRANSFERRED)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr ""
+msgstr "persiųsta %I64d KiB"
 
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERED)
 #, c-format
@@ -317,7 +318,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
-msgstr ""
+msgstr "Nutr&aukti"
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
@@ -779,7 +780,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Git"
-msgstr ""
+msgstr "Git"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -788,7 +789,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Git.exe Path:"
-msgstr ""
+msgstr "Kelias iki 'git.exe'"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -832,7 +833,7 @@ msgstr "&Piktogramų rinkynis:"
 
 #. Resource IDs: (IDS_IGNOREBUTTON, IDS_MSGBOX_IGNORE)
 msgid "&Ignore"
-msgstr ""
+msgstr "&Ignoruoti"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE)
 #, c-format
@@ -873,7 +874,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_INSTALL)
 msgid "&Install"
-msgstr ""
+msgstr "&Instaliuoti"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1016)
 msgid "&Jump to first difference when loading"
@@ -889,7 +890,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_VIEW_LABELS)
 msgid "&Labels"
-msgstr ""
+msgstr "Žymos"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535,
 #. Dialog IDD_SETTINGSMAIN: Control id 65535)
@@ -914,7 +915,7 @@ msgstr "&Riboti:"
 
 #. Resource IDs: (Dialog IDD_GOTO: Control id 1078)
 msgid "&Line number"
-msgstr ""
+msgstr "Eilutės numeris"
 
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
@@ -939,7 +940,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1504)
 msgid "&Local:"
-msgstr ""
+msgstr "Lokaliai:"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
 msgid "&Luminence:"
@@ -997,12 +998,12 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1515)
 msgid "&Name"
-msgstr ""
+msgstr "Pavadinimas"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Name:"
-msgstr ""
+msgstr "Pavadinimas:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Navigate"
@@ -1031,7 +1032,7 @@ msgstr "&Sekantis puslapis"
 
 #. Resource IDs: (IDS_MSGBOX_NO)
 msgid "&No"
-msgstr ""
+msgstr "&Ne"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16632)
 msgid "&No double-click event"
@@ -1043,7 +1044,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1702)
 msgid "&None"
-msgstr ""
+msgstr "Joks"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1661)
 msgid "&Notepad2"
@@ -1131,11 +1132,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
-msgstr ""
+msgstr "&Parsisiųsti"
 
 #. Resource IDs: (IDS_MENUPULL)
 msgid "&Pull..."
-msgstr ""
+msgstr "&Parsisiųsti..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -1188,7 +1189,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1490, Dialog IDD_PUSH:
 #. Control id 1503)
 msgid "&Remote:"
-msgstr ""
+msgstr "Nutolus:"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16646, Dialog
 #. IDD_AFXBARRES_PROPPAGE8: Control id 16646, Dialog
@@ -1205,7 +1206,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1511)
 msgid "&Replace"
-msgstr ""
+msgstr "Pakeisti"
 
 #. Resource IDs: (IDS_MENUREPOBROWSE)
 msgid "&Repo-browser"
@@ -1239,7 +1240,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_RESTOREBUTTON)
 msgid "&Restore"
-msgstr ""
+msgstr "Atstatyti"
 
 #. Resource IDs: (IDS_PROC_COMMIT_RESTOREFILES_RESTORE)
 msgid "&Restore old state"
@@ -1247,7 +1248,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_RETRY)
 msgid "&Retry"
-msgstr ""
+msgstr "Bandyti vėl"
 
 #. Resource IDs: (IDS_LOG_POPUP_REVERTREV)
 msgid "&Revert change by this commit"
@@ -1286,11 +1287,11 @@ msgstr "&Išsaugoti pasirinktų rinkmenų sąrašą į..."
 
 #. Resource IDs: (ID_FILE_SAVE - Menu)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "Iš&saugoti\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "Paieška..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -1322,7 +1323,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SKIPBUTTON)
 msgid "&Skip"
-msgstr ""
+msgstr "Praleisti"
 
 #. Resource IDs: (Dialog IDD_RESET: Control id 1550)
 msgid "&Soft: Leave working tree and index untouched"
@@ -1339,7 +1340,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1616)
 msgid "&Start"
-msgstr ""
+msgstr "Pradėti"
 
 #. Resource IDs: (ID_AFXBARRES_TOOLBAR_START_GROUP - Menu)
 msgid "&Start Group"
@@ -1373,7 +1374,7 @@ msgstr "&Dokumentas su kortelėmis"
 #. Control id 1513, Dialog IDD_MERGE: Control id 1513, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1513, Dialog IDD_RESET: Control id 1513)
 msgid "&Tag"
-msgstr ""
+msgstr "Raktažodis"
 
 #. Resource IDs: (IDS_VIEW_SHOWTAGLABELS)
 msgid "&Tags"
@@ -1381,7 +1382,7 @@ msgstr "&Raktažodžiai"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535)
 msgid "&Tags:"
-msgstr ""
+msgstr "Raktažodžiai:"
 
 #. Resource IDs: (ID_AFXBARRES_TOOLBAR_TEXT - Menu)
 msgid "&Text"
@@ -1503,7 +1504,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_YES)
 msgid "&Yes"
-msgstr ""
+msgstr "Taip"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1682)
 msgid "&add \"cherry picked from\""
@@ -1558,7 +1559,7 @@ msgstr "- %d"
 
 #. Resource IDs: (IDS_PROC_PUSHFETCH_ALLREMOTES)
 msgid "- all -"
-msgstr ""
+msgstr "- visi -"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1131)
 msgid "--&all"
@@ -1637,23 +1638,23 @@ msgstr "<<"
 
 #. Resource IDs: (IDS_PROC_LOG_ALLBRANCHES)
 msgid "<All Branches>"
-msgstr ""
+msgstr "<All Branches>"
 
 #. Resource IDs: (IDS_PROC_AUTOGENERATEDBYGIT)
 msgid "<Auto Generated by Git>"
-msgstr ""
+msgstr "<Auto Generated by Git>"
 
 #. Resource IDs: (IDS_PROC_LOG_BASIC_REFS)
 msgid "<Basic Refs>"
-msgstr ""
+msgstr "<Basic Refs>"
 
 #. Resource IDs: (IDS_PROC_LOG_LOCAL_BRANCHES)
 msgid "<Local Branches>"
-msgstr ""
+msgstr "<Local Branches>"
 
 #. Resource IDs: (IDS_PROC_LOG_NOBRANCH)
 msgid "<No branch>"
-msgstr ""
+msgstr "<No branch>"
 
 #. Resource IDs: (IDS_AFXBARRES_QAT_SEPARATOR)
 msgid "<Separator>"
@@ -1674,7 +1675,7 @@ msgstr "<naujas pakeitimų sąrašas>"
 
 #. Resource IDs: (ID_VIEW_TOOLBAR - Menu)
 msgid "<placeholder>"
-msgstr ""
+msgstr "<placeholder>"
 
 #. Resource IDs: (ID_ABOUT - Menu)
 msgid "?"
@@ -1744,7 +1745,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ABORTBUTTON)
 msgid "A&bort"
-msgstr ""
+msgstr "Nutraukti"
 
 #. Resource IDs: (IDS_MENUABOUT)
 msgid "A&bout"
@@ -1752,7 +1753,7 @@ msgstr "A&pie"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1)
 msgid "A&pply"
-msgstr ""
+msgstr "Pritaikyti"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1128)
 msgid "Abbreviate renamings"
@@ -1769,15 +1770,15 @@ msgstr "Abortuoti"
 
 #. Resource IDs: (IDS_MENUMERGEABORT)
 msgid "Abort &Merge"
-msgstr ""
+msgstr "Nutraukti apjungimą"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 4592)
 msgid "Abort Merge"
-msgstr ""
+msgstr "Nutraukti apjungimą"
 
 #. Resource IDs: (IDS_MENUDESCMERGEABORT)
 msgid "Aborts a running merge."
-msgstr ""
+msgstr "Nutraukia vykstantį apjungimą."
 
 #. Resource IDs: (ID_APP_ABOUT - Ribbon name)
 msgid "About"
@@ -1797,7 +1798,7 @@ msgstr "Apie TortoiseGitMerge"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 1)
 msgid "Accept certificate"
-msgstr ""
+msgstr "Priimti sertifikatą"
 
 #. Resource IDs: (AFX_IDP_FILE_ACCESS_DENIED)
 #, c-format
@@ -1969,11 +1970,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_ALLTAGS)
 msgid "All tags"
-msgstr ""
+msgstr "Visi raktažodžiai"
 
 #. Resource IDs: (IDS_FETCH_TAGS_ONLY)
 msgid "All tags only"
-msgstr ""
+msgstr "Tik visus raktažodžius"
 
 #. Resource IDs: (IDS_AFXBARRES_RESET_ALL_TOOLBARS)
 msgid ""
@@ -2018,7 +2019,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_UPTODATE)
 msgid "Already up to date."
-msgstr ""
+msgstr "Jau atnaujinta."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1482)
 msgid "Always push to the selected remote archive for this local branch"
@@ -2139,7 +2140,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Arabic"
-msgstr ""
+msgstr "Arabic"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1492, Dialog IDD_PUSH:
 #. Control id 1495)
@@ -2371,7 +2372,7 @@ msgstr "Fonas"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Baltic"
-msgstr ""
+msgstr "Baltų"
 
 #. Resource IDs: (IDS_STATGRAPH_BARBUTTON_TT)
 msgid "Bar Graph"
@@ -2461,7 +2462,7 @@ msgstr ""
 
 #. Resource IDs: (156 - Ribbon element)
 msgid "Blocks"
-msgstr ""
+msgstr "Blokai"
 
 #. Resource IDs: (10009, ID_VIEW_APPLOOK_OFF_2007_BLUE - Menu,
 #. ID_VIEW_APPLOOK_OFF_2007_BLUE - Ribbon name)
@@ -2493,13 +2494,13 @@ msgstr "Na&ršyti..."
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1510)
 msgid "Branc&h:"
-msgstr ""
+msgstr "Sukurti atšaką:"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1527, Dialog IDD_LOGMESSAGE:
 #. Control id 1579, Dialog IDD_SUBMODULE_ADD: Control id 1586,
 #. IDS_PROC_BRANCH)
 msgid "Branch"
-msgstr ""
+msgstr "Sukurti atšaką"
 
 #. Resource IDs: (IDS_REBASE_FASTFORWARD_FMT)
 #, c-format
@@ -2514,7 +2515,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_BRANCHNAME)
 msgid "Branch Name"
-msgstr ""
+msgstr "Atšakos pavadinimas"
 
 #. Resource IDs: (IDS_REV_COUNTER)
 msgid "Branch RevNo"
@@ -2530,7 +2531,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1518)
 msgid "Branch:"
-msgstr ""
+msgstr "Šaka:"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1383)
 msgid "Bro&wse..."
@@ -2788,11 +2789,11 @@ msgstr "Kate&gorijos:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Celtic"
-msgstr ""
+msgstr "Keltų"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Central European"
-msgstr ""
+msgstr "Centrinės Europos"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Certificate verification failed!"
@@ -2800,7 +2801,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1697)
 msgid "Change log"
-msgstr ""
+msgstr "Pakeitimų sąrašas"
 
 #. Resource IDs: (57606)
 msgid ""
@@ -2830,7 +2831,7 @@ msgstr "Keisti lango dydį"
 
 #. Resource IDs: (IDS_CHANGETYPE)
 msgid "Change type"
-msgstr ""
+msgstr "Pakeisti tipą"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 199)
 msgid "Changed Files"
@@ -2962,7 +2963,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Chinese"
-msgstr ""
+msgstr "Chinese"
 
 #. Resource IDs: (IDS_CHOOSE_REPOSITORY)
 msgid "Choose Repository"
@@ -3093,23 +3094,23 @@ msgstr "Mainų sritis"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_CLONE, IDS_PROG_CLONE)
 msgid "Clone"
-msgstr ""
+msgstr "Klonuoti"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1572)
 msgid "Clone Existing Repository"
-msgstr ""
+msgstr "Klonuoti repozitoriją"
 
 #. Resource IDs: (IDS_MENUDESCCLONE)
 msgid "Clone a repository"
-msgstr ""
+msgstr "Klonuoti repozitoriją"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1653)
 msgid "Clone into Bare Repo"
-msgstr ""
+msgstr "Klonuoti į tuščią repozitoriją"
 
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
-msgstr ""
+msgstr "Klonuoti ..."
 
 #. Resource IDs: (17023, Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id
 #. 2, Dialog IDD_DELETEREMOTETAG: Control id 2, Dialog IDD_GITPROGRESS:
@@ -3150,7 +3151,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_COLLAPSED - Menu, ID_VIEW_COLLAPSED - Ribbon name)
 msgid "Collapse"
-msgstr ""
+msgstr "Sutraukti"
 
 #. Resource IDs: (32870)
 msgid ""
@@ -3216,7 +3217,7 @@ msgstr ""
 #. 1083, Dialog IDD_SETTINGSDIALOGS3: Control id 65535, IDS_COMMITBUTTON,
 #. IDS_PROGRS_CMD_COMMIT, IDS_PROGRS_TITLE_COMMIT)
 msgid "Commit"
-msgstr ""
+msgstr "Patvirtinti"
 
 #. Resource IDs: (IDS_LOG_NOT_VISIBLE)
 #, c-format
@@ -3234,7 +3235,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
-msgstr ""
+msgstr "Patvirtinimo data"
 
 #. Resource IDs: (IDS_LOG_COMMIT_EMAIL)
 msgid "Commit Email"
@@ -3270,15 +3271,15 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_COMMIT, IDS_STATUSLIST_CONTEXT_COMMIT)
 msgid "Commit..."
-msgstr ""
+msgstr "Patvirtinti ..."
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHOR)
 msgid "Commits by author"
-msgstr ""
+msgstr "Patvirtinimai pagal autorių"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATE)
 msgid "Commits by date"
-msgstr ""
+msgstr "Patvirtinimai pagal datą"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYUNIT)
 #, c-format
@@ -3439,12 +3440,12 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_CONFLICTS)
 msgid "Conflicts"
-msgstr ""
+msgstr "Konfliktai"
 
 #. Resource IDs: (IDS_STATUSBAR_CONFLICTS)
 #, c-format
 msgid "Conflicts: %d"
-msgstr ""
+msgstr "Konfliktai: %d"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16520)
 msgid "Context Menus: "
@@ -3535,7 +3536,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROC_COPYINGPROG)
 #, c-format
 msgid "Copying %s"
-msgstr ""
+msgstr "Kopijuoju %s"
 
 #. Resource IDs: (IDS_PROC_COPYING)
 msgid "Copying..."
@@ -3608,7 +3609,7 @@ msgstr ""
 msgid ""
 "Could not open the file\n"
 "%s"
-msgstr ""
+msgstr "Negaliu atverti failo\n%s"
 
 #. Resource IDs: (AFX_IDP_FILE_REMOVE_CURRENT)
 #, c-format
@@ -3784,7 +3785,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_CREATED)
 msgid "Created"
-msgstr ""
+msgstr "Sukurta"
 
 #. Resource IDs: (IDS_MENUDESCCOPY)
 msgid "Creates a branch or tag"
@@ -3835,11 +3836,11 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 1784, Dialog
 #. IDD_SETTINGSCOLORS_2: Control id 65535)
 msgid "Current Branch"
-msgstr ""
+msgstr "Dabartinė šaka"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Current Branch:"
-msgstr ""
+msgstr "Dabartinė šaka:"
 
 #. Resource IDs: (IDS_PROC_COMMIT_DETACHEDWARNING)
 msgid ""
@@ -3907,7 +3908,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Cyrillic"
-msgstr ""
+msgstr "Slavų"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 1624)
 msgid "DCommit Type"
@@ -4167,7 +4168,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "Dialogs"
-msgstr ""
+msgstr "Dialogai"
 
 #. Resource IDs: (156 - Ribbon element)
 msgid "Diff"
@@ -4203,7 +4204,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 65535)
 msgid "Diff file:"
-msgstr ""
+msgstr "Skirtumų (Diff) failas:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff header"
@@ -4237,7 +4238,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
-msgstr ""
+msgstr "Skirtumai tarp"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1022)
 msgid "Diffing"
@@ -4258,7 +4259,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 65535, Dialog
 #. IDD_OPENDLG: Control id 65535)
 msgid "Directory:"
-msgstr ""
+msgstr "Katalogas:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1796)
 msgid "Disable sounds"
@@ -4280,7 +4281,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_DISABLED)
 msgid "Disabled"
-msgstr ""
+msgstr "Išjungta"
 
 #. Resource IDs: (AFX_IDP_FILE_DISKFULL)
 #, c-format
@@ -4356,7 +4357,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1730)
 msgid "Do not use recycle bin"
-msgstr ""
+msgstr "Nenaudoti šiukšliadėžės"
 
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
@@ -4366,7 +4367,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
 msgid "Do you really want to delete \"%s\"?"
-msgstr ""
+msgstr "Ar tikrai ištrinti \"%s\"?"
 
 #. Resource IDs: (IDS_AFXBARRES_DELETE_TOOLBAR_FMT)
 #, c-format
@@ -4489,7 +4490,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Document :"
-msgstr ""
+msgstr "Dokumentas:"
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSH_UNKNOWNBRANCH)
 #, c-format
@@ -4528,19 +4529,19 @@ msgstr ""
 
 #. Resource IDs: (IDS_DONE)
 msgid "Done"
-msgstr ""
+msgstr "Baigta"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1384)
 msgid "Down"
-msgstr ""
+msgstr "Žemyn"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1698)
 msgid "Download"
-msgstr ""
+msgstr "Parsisiųsti"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535)
 msgid "Download language packs:"
-msgstr ""
+msgstr "Parsisiųsti kalbų paketus:"
 
 #. Resource IDs: (IDS_AFX_TEAR_OFF)
 msgid "Drag to make this menu float"
@@ -4548,7 +4549,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 16513)
 msgid "Draw"
-msgstr ""
+msgstr "Piešti"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1073)
 msgid "Draw tag/branch labels on right side"
@@ -4568,7 +4569,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
-msgstr ""
+msgstr "Tik patikrinti"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1279)
 msgid "Dummy Button Form "
@@ -4609,7 +4610,7 @@ msgstr "EUC-KR"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Eastern European"
-msgstr ""
+msgstr "Rytų Europos"
 
 #. Resource IDs: (156 - Ribbon element, IDS_EDIT_MENU, IDS_PATHACTIONS_EDIT,
 #. IDS_REBASE_EDIT)
@@ -4622,11 +4623,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1383)
 msgid "Edit &local .git/config"
-msgstr ""
+msgstr "Redaguoti &lokalų .git/config"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1755)
 msgid "Edit .tgitconfig"
-msgstr ""
+msgstr "Redaguoti .tgitconfig"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 16133)
 msgid "Edit Button Image"
@@ -4634,15 +4635,15 @@ msgstr ""
 
 #. Resource IDs: (IDS_EDIT_NOTES, IDS_PROGS_TITLE_EDITNOTES)
 msgid "Edit Notes"
-msgstr ""
+msgstr "Redaguoti pastabas"
 
 #. Resource IDs: (IDS_LOG_POPUP_EDITAUTHOR)
 msgid "Edit author"
-msgstr ""
+msgstr "Redaguoti autorių"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_EDITDESCRIPTION)
 msgid "Edit description"
-msgstr ""
+msgstr "Redaguoti aprašymą"
 
 #. Resource IDs: (IDS_DLGTITLE_EDIT_DIFF_TOOL)
 msgid "Edit extension specific diff program"
@@ -4711,7 +4712,7 @@ msgstr "Tusčia"
 
 #. Resource IDs: (ID_EDIT_ENABLE - Ribbon name)
 msgid "Enable Edit"
-msgstr ""
+msgstr "Įjungti redagavimą"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1510)
 msgid "Enable EditorConfig"
@@ -4719,7 +4720,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1766)
 msgid "Enable Gravatar"
-msgstr ""
+msgstr "Įjungti Gravatar"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 1788)
 msgid "Enable drag context menu"
@@ -4756,12 +4757,12 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Encode"
-msgstr ""
+msgstr "Užkoduoti"
 
 #. Resource IDs: (Dialog IDD_ENCODING: Control id 300, Dialog IDD_ENCODING:
 #. Control id 301, IDS_TEXTIDENTICAL_ENCODING)
 msgid "Encoding"
-msgstr ""
+msgstr "Koduotė"
 
 #. Resource IDs: (IDS_ENCODING_COMBO_TOOLTIP)
 msgid ""
@@ -10352,7 +10353,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 65535)
 msgid "Strategy"
-msgstr ""
+msgstr "Strategija"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1406)
 msgid "Strip lines starting with \"#\" in commit message"
@@ -10360,7 +10361,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu, IDC_STYLEBUTTON - Ribbon name)
 msgid "Style"
-msgstr ""
+msgstr "Stilius"
 
 #. Resource IDs: (IDS_LOG_FILTER_SUBJECT, IDS_SUBJECT)
 msgid "Subject"
@@ -10437,7 +10438,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_TITLE_SWITCH)
 msgid "Switch"
-msgstr ""
+msgstr "Perjungti"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1522)
 msgid "Switch To"
@@ -10517,13 +10518,13 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUSYNC)
 msgid "Sync..."
-msgstr ""
+msgstr "Sinchronizuoti ..."
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1774, Dialog
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 1774, Dialog IDD_SETTINGSDIALOGS3:
 #. Control id 1774, IDS_SETTINGS_SYSTEM)
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 #. Resource IDs: (IDS_OFFLINEMODE)
 msgid "System in offline mode. Check Internet Explorer."
@@ -10570,7 +10571,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_TAG_FF)
 msgid "Tag (FF)"
-msgstr ""
+msgstr "Raktažodis (FF)"
 
 #. Resource IDs: (IDS_PROC_LOG_TAGINFO)
 msgid "Tag Info"
@@ -10587,11 +10588,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1485)
 msgid "Tags"
-msgstr ""
+msgstr "Raktažodžiai"
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Tags:"
-msgstr ""
+msgstr "Raktažodžiai:"
 
 #. Resource IDs: (IDS_ERR_MUSTBESAMEWT)
 msgid "Target and source must be in the same working tree!"
@@ -10599,11 +10600,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_TASKS)
 msgid "Tasks"
-msgstr ""
+msgstr "Užduotys"
 
 #. Resource IDs: (IDS_AFXBARRES_TASKPANE)
 msgid "Tasks Pane"
-msgstr ""
+msgstr "Užduočių panelė"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 65535)
 msgid "Temp files (including Gravatar images)"
@@ -10611,11 +10612,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 1787)
 msgid "Test"
-msgstr ""
+msgstr "Patikrink"
 
 #. Resource IDs: (IDS_PROGRS_DRYRUN)
 msgid "Test Only"
-msgstr ""
+msgstr "Tik patikrinti"
 
 #. Resource IDs: (IDS_TEXTFILEFILTER)
 msgid "Text Files (*.txt)|*.txt|All Files (*.*)|*.*||"
@@ -10623,7 +10624,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Thai"
-msgstr ""
+msgstr "Thai"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_SAVEREMOTE)
 msgid ""
@@ -10883,7 +10884,7 @@ msgstr ""
 msgid ""
 "The process is still running.\n"
 "Are you sure to abort?"
-msgstr ""
+msgstr "Procesas vis dar vyksta.\nAr tikrai nutraukti?"
 
 #. Resource IDs: (IDS_ERR_INVALIDREGEX)
 msgid ""
@@ -10907,7 +10908,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REPOCREATEFINISHED)
 msgid "The repository was successfully created."
-msgstr ""
+msgstr "Repozitorija sėkmingai sukurta."
 
 #. Resource IDs: (IDS_PROGRS_REVERTMARKERS)
 msgid ""
@@ -11011,7 +11012,7 @@ msgstr ""
 msgid ""
 "There are unsaved modifications!\n"
 "Do you want to save your changes?"
-msgstr ""
+msgstr "Yra neišsaugotų pakeitimų\nAr juos išsaugoti?"
 
 #. Resource IDs: (IDS_ERR_NOTHINGTOADD)
 msgid ""
@@ -11022,7 +11023,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
 msgid "Thesaurus"
-msgstr ""
+msgstr "Thesaurus"
 
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_2)
 msgid ""
@@ -11048,13 +11049,13 @@ msgstr ""
 
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
-msgstr ""
+msgstr "Laukas privalomas ir negali likti tuščias."
 
 #. Resource IDs: (IDS_ERR_MUSTBEURL)
 msgid ""
 "This is not a valid URL.\n"
 "Please enter an URL here."
-msgstr ""
+msgstr "Įvestas neteisingas URL.\nĮveskite URL."
 
 #. Resource IDs: (IDS_ERR_NOVALIDPATH)
 msgid ""
@@ -11081,7 +11082,7 @@ msgstr ""
 #. Resource IDs: (IDS_GITCONFIG_SETTING)
 #, c-format
 msgid "This option represents \"%s\" git config setting."
-msgstr ""
+msgstr "Ši savybė atitinka \"%s\" git konfigūracijos nustatymuose."
 
 #. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
 msgid ""
@@ -11105,7 +11106,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ERR_PROPNOTONFILE)
 msgid "This property is only allowed on folders, not files."
-msgstr ""
+msgstr "Ši savybė taikoma katalogams, o ne failams."
 
 #. Resource IDs: (IDS_B_T_REMOTE_NAME_COLLIDE)
 msgid ""
@@ -11169,19 +11170,19 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_FILTER_TOGGLE)
 msgid "Toggle filters"
-msgstr ""
+msgstr "Perjungti filtrus"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 65535)
 msgid "Toolbar"
-msgstr ""
+msgstr "Įrankių juosta"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_TOOLBAR_NAME: Control id 16130)
 msgid "Toolbar Name"
-msgstr ""
+msgstr "Įrankių juostos pavadinimas"
 
 #. Resource IDs: (IDS_AFXBARRES_TOOLBAR_OPTIONS)
 msgid "Toolbar Options"
-msgstr ""
+msgstr "Įrankių juostos nuostatos"
 
 #. Resource IDs: (16008)
 msgid "Toolbar internal error. Please contact your application vendor."
@@ -11193,11 +11194,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 16928)
 msgid "Tools"
-msgstr ""
+msgstr "Įrankiai"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 65535)
 msgid "Tools:"
-msgstr ""
+msgstr "Įrankiai:"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 4594, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535, IDS_APPNAME)
@@ -11218,7 +11219,7 @@ msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
 msgid "TortoiseGit can be localized using language packs."
-msgstr ""
+msgstr "TortoiseGit galima lokalizuoti kalbų paketais"
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -11387,7 +11388,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1520)
 msgid "Trac&k"
-msgstr ""
+msgstr "Se&kti"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11023)
 msgid "Tracked Remote Branch:"
@@ -11420,7 +11421,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Turkish"
-msgstr ""
+msgstr "Turkish"
 
 #. Resource IDs: (IDS_MENUDESCSETTINGS)
 msgid "Tweak TortoiseGit"
@@ -11429,31 +11430,31 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1642,
 #. IDS_AFX_SHELLLISTCTRL_TYPE)
 msgid "Type"
-msgstr ""
+msgstr "Tipas"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1720, Dialog
 #. IDD_RESOLVESUBMODULECONFLICT: Control id 1720, Dialog
 #. IDD_RESOLVESUBMODULECONFLICT: Control id 1722)
 msgid "Type:"
-msgstr ""
+msgstr "Tipas:"
 
 #. Resource IDs: (Dialog IDD_URL: Control id 164, IDS_STATUSLIST_COLURL)
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. Resource IDs: (IDS_PROC_CLONE_URLDIREMPTY)
 msgid "URL and directory must not be empty."
-msgstr ""
+msgstr "Reikia įvesti URL ir katalogą."
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1272)
 msgid "URL history"
-msgstr ""
+msgstr "URL istorija"
 
 #. Resource IDs: (Dialog IDD_ADD_REMOTE: Control id 65535, Dialog
 #. IDD_SETTINGSCREDENTIAL: Control id 65535, Dialog IDD_SETTINREMOTE: Control
 #. id 65535)
 msgid "URL:"
-msgstr ""
+msgstr "URL:"
 
 #. Resource IDs: (5071 - Menu)
 msgid "UTF-16 BE"
@@ -11507,7 +11508,7 @@ msgstr "Nepažymėti"
 
 #. Resource IDs: (ID_EDIT_UNDO - Ribbon name)
 msgid "Undo"
-msgstr ""
+msgstr "Oj ..."
 
 #. Resource IDs: (IDS_AFXBARRES_UNDO_FMT)
 #, c-format
@@ -11559,7 +11560,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PATHACTIONS_UNKNOWN, IDS_SUBMODULEDIFF_UNKNOWN)
 msgid "Unknown"
-msgstr ""
+msgstr "Nežinoma"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_UNMARKBLOCK)
 msgid "Unmark this block"
@@ -11593,7 +11594,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1386)
 msgid "Up"
-msgstr ""
+msgstr "Viršun"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1710)
 msgid "Update"
@@ -11609,7 +11610,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SVNACTION_UPDATE)
 msgid "Updated"
-msgstr ""
+msgstr "Atnaujinta"
 
 #. Resource IDs: (AFX_IDS_UPDATING_ITEMS)
 msgid "Updating ActiveX objects"
@@ -11637,7 +11638,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_USELFS_TT)
 msgid "Use Git LFS"
-msgstr ""
+msgstr "Naudoti Git LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
@@ -11955,7 +11956,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamese"
 
 #. Resource IDs: (156 - Ribbon element)
 msgid "View"
@@ -12013,7 +12014,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_HOOKS_WAITCOL)
 msgid "Wait"
-msgstr ""
+msgstr "Laukti"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1327)
 msgid "Wait for the script to finish"
@@ -12029,11 +12030,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_WARN_WARNING)
 msgid "Warning"
-msgstr ""
+msgstr "Įspėjimas"
 
 #. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
 msgid "Warning!"
-msgstr ""
+msgstr "Įspėjimas!"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT4)
 msgid ""
@@ -12360,7 +12361,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1074)
 msgid "Zip File"
-msgstr ""
+msgstr "ZIP failas"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoo&m out\t-"
@@ -12409,15 +12410,15 @@ msgstr ""
 
 #. Resource IDs: (32772)
 msgid "Zoom in"
-msgstr ""
+msgstr "Padidinti"
 
 #. Resource IDs: (32773)
 msgid "Zoom out"
-msgstr ""
+msgstr "Sumažinti"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Tikras dydis"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"
@@ -12601,7 +12602,7 @@ msgstr "dummy"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1580)
 msgid "eMail settings"
-msgstr ""
+msgstr "El. pašto nuostatos"
 
 #. Resource IDs: (IDS_PROC_EXPORT_4)
 #, c-format
@@ -12635,11 +12636,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_GITEXEFILEFILTER)
 msgid "git.exe|git.exe||"
-msgstr ""
+msgstr "git.exe|git.exe||"
 
 #. Resource IDs: (IDS_STATUSIGNORED)
 msgid "ignored"
-msgstr ""
+msgstr "ignoruota"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1130)
 msgid "include &untracked"
@@ -12647,7 +12648,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSINCOMPLETE)
 msgid "incomplete"
-msgstr ""
+msgstr "nebaigta"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1780, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 1781, Dialog IDD_SETTINGIT_CONFIG: Control
@@ -12762,7 +12763,7 @@ msgstr "normalus"
 
 #. Resource IDs: (IDS_NOTFOUND)
 msgid "not found"
-msgstr ""
+msgstr "nerasta"
 
 #. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
 msgid "not initialized"
@@ -12810,7 +12811,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "renamed"
-msgstr ""
+msgstr "pervadinta"
 
 #. Resource IDs: (IDS_STATUSREPLACED)
 msgid "replaced"
@@ -12829,7 +12830,7 @@ msgstr ""
 msgid ""
 "switched to\n"
 "%s"
-msgstr ""
+msgstr "perjungta į\n%s"
 
 #. Resource IDs: (IDS_CARE_SUBMODULE_CHANGES)
 msgid "take care of submodule changes"
@@ -12847,7 +12848,7 @@ msgstr "į %s"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"
-msgstr ""
+msgstr "&nežinomi pakeitimai"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXWEEK)
 msgid "week"
@@ -12855,23 +12856,23 @@ msgstr "savaitė"
 
 #. Resource IDs: (IDS_SYSTEM_WINCRED)
 msgid "wincred - all Windows users"
-msgstr ""
+msgstr "wincred - visi Windows naudotojai"
 
 #. Resource IDs: (IDS_GLOBAL_WINCRED)
 msgid "wincred - current Windows user"
-msgstr ""
+msgstr "wincred - tik šiam Windows naudotojui"
 
 #. Resource IDs: (IDS_LOCAL_WINCRED)
 msgid "wincred - this repository only"
-msgstr ""
+msgstr "wincred - tik šiai repozitorijai"
 
 #. Resource IDs: (IDS_GLOBAL_WINSTORE)
 msgid "winstore - current Windows user"
-msgstr ""
+msgstr "winstore - tik šiam Windows naudotojui"
 
 #. Resource IDs: (IDS_LOCAL_WINSTORE)
 msgid "winstore - this repository only"
-msgstr ""
+msgstr "winstore - tik šiai repozitorijai"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXYEAR)
 msgid "year"
