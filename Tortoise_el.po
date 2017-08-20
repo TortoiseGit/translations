@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-08-20 13:48+0000\n"
+"PO-Revision-Date: 2017-08-20 22:00+0000\n"
 "Last-Translator: Savvas Etairidis <falital@hotmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/lznuaa/tortoisegit/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -2068,7 +2068,7 @@ msgid ""
 "%theirs: the file as it is in the repository\n"
 "%mine: your own file, with your changes\n"
 "%base: the original file without your changes"
-msgstr ""
+msgstr "Ένα εξωτερικό πρόγραμμα συγχώνευσης χρησιμοποιείτε\nξεκαθάρισα διενέξεων στα αρχεία.\n\nΜπορείτε να χρησιμοποιείστε της ακόλουθες παραμέτρους για το μονοπάτι:\n %merged: το αρχείο με την διένεξη,  και που θα αποθηκευτεί\n%theirs: το αρχείο όπως είναι στο αποθετήριο\n%mine: το δικό σας αρχείο, με της αλλαγές σας\n%base: το αρχικό αρχείο δίχως αλλαγές"
 
 #. Resource IDs: (AFX_IDP_FILE_INVALID_FILE)
 #, c-format
@@ -2091,15 +2091,15 @@ msgstr "Βρέθηκε ένας άγνωστος τύπος γραμμής στ�
 
 #. Resource IDs: (IDS_ANNOTATEDTAGS)
 msgid "Annotated tags"
-msgstr ""
+msgstr "Ονοματισμένοι σταθερή κλάδοι"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_APPENDRIGHT)
 msgid "Append right block"
-msgstr ""
+msgstr "Προσάρτηση δεξιού μπλοκ"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_APPENDTHIS)
 msgid "Append this block to left"
-msgstr ""
+msgstr "Προσάρτηση αυτού του μπλοκ στα αριστερά"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 65535)
 msgid "Application Frame Menus: "
@@ -2107,11 +2107,11 @@ msgstr "Μενού πλαισίων εφαρμογής: "
 
 #. Resource IDs: (ID_FILE_APPLYPATCH - Menu)
 msgid "Apply &Patch..."
-msgstr ""
+msgstr "Εφαρμογή &Μπαλώματος "
 
 #. Resource IDs: (IDS_MENUIMPORTPATCH)
 msgid "Apply Patch Serial..."
-msgstr ""
+msgstr "Εφαρμογή Σειριακού Μπαλώματος..."
 
 #. Resource IDs: (IDS_MENU_APPLY, IDS_OPENDIFFFILETITLE)
 msgid "Apply Patch..."
@@ -2119,11 +2119,11 @@ msgstr "Εφαρμογή διόρθωσης..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 311)
 msgid "Apply Patches"
-msgstr ""
+msgstr "Εφαρμογή Μπαλώματος "
 
 #. Resource IDs: (IDS_MENUDESCIMPORTPATCH)
 msgid "Apply a series of patches from a mailbox"
-msgstr ""
+msgstr "Εφαρμογή μιας σειράς από μπαλώματα προερχόμενα από το ηλεκτρονικό ταχυδρομικό κουτί"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1072)
 msgid "Apply unified diff"
@@ -2132,20 +2132,20 @@ msgstr "Εφαρμογή ενοποιημένης διαφοράς"
 #. Resource IDs: (10012, ID_VIEW_APPLOOK_OFF_2007_AQUA - Menu,
 #. ID_VIEW_APPLOOK_OFF_2007_AQUA - Ribbon name)
 msgid "Aqua Style"
-msgstr ""
+msgstr "Στυλ Aqua "
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Arabic"
-msgstr ""
+msgstr "Αραβικά "
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1492, Dialog IDD_PUSH:
 #. Control id 1495)
 msgid "Arbitrary &URL:"
-msgstr ""
+msgstr "Μη υποχρεωτικό &URL:"
 
 #. Resource IDs: (IDS_CONFIRMRESETCOLUMNORDER)
 msgid "Are you sure to reset columns?"
-msgstr ""
+msgstr "Είστε σίγουροι πως θέλετε να επαναφέρετε της στήλες;"
 
 #. Resource IDs: (IDS_PROC_REBASE_ABORT)
 msgid "Are you sure you want to abort the rebase process?"
@@ -2153,7 +2153,7 @@ msgstr "Είστε σίγουροι πως θέλετε να ακυρώσετε 
 
 #. Resource IDs: (IDS_REALLYCANCEL)
 msgid "Are you sure you want to cancel?"
-msgstr ""
+msgstr "Είστε σίγουροι πως θέλετε να ακυρώσετε; "
 
 #. Resource IDs: (IDS_PROC_RESOLVE)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -2164,21 +2164,21 @@ msgstr "Είσαστε βέβαιοι ότι θέλετε να σημαδεύσ�
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "Είσαστε σίγουροι ότι θέλετε να αντιστρέψετε %d αντικείμενα; Θα χάσετε ΌΛΕΣ τις αλλαγές μετά από την τελευταία ενημέρωση!"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
 msgid "Are you sure you want to save to \"%s\"?"
-msgstr ""
+msgstr "Είστε σίγουροι πως θέλετε να αποθηκεύσετε στο \"%s\"?"
 
 #. Resource IDs: (ID_VIEW_ARRANGEVERTICAL - Menu)
 msgid "Arrange &vertical\tV"
-msgstr ""
+msgstr "Στοιχίσετε  &κατακόρυφα\tV"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTSET)
 #, c-format
 msgid "Assigned to changelist '%s'"
-msgstr ""
+msgstr "Ανάθεση στη λίστα αλλαγών '%s'"
 
 #. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16528, Dialog
 #. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16528)
@@ -2187,27 +2187,27 @@ msgstr "Αναθέτω σε:"
 
 #. Resource IDs: (IDS_MENUASSUMEVALID)
 msgid "Assume Unchanged"
-msgstr ""
+msgstr "Υπέθεσε αμετάβλητο"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11027,
 #. IDS_PATHACTIONS_ASSUMEUNCHANGED)
 msgid "Assume valid/unchanged"
-msgstr ""
+msgstr "Υπέθεσε έγκυρο/αμετάβλητο"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 1550)
 msgid "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
-msgstr ""
+msgstr "Υπέθεσε έγκυρο/αμετάβλητο (\"Χρειάζεται κλειδαριά\" στο TortoiseSVN)"
 
 #. Resource IDs:
 #. (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES_AT_FILE_CREATION
 #. - Menu)
 msgid "At file &creation"
-msgstr ""
+msgstr "Προσθήκη &Δημιουργίας Αρχείου "
 
 #. Resource IDs:
 #. (IDS_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES_AT_FILE_CREATION)
 msgid "At file creation"
-msgstr ""
+msgstr "Προσθήκη Δημιουργίας Αρχείου"
 
 #. Resource IDs: (IDS_PROGRS_ATREV)
 #, c-format
@@ -2216,7 +2216,7 @@ msgstr "Τρέχων αριθμός αναθεώρησης:  %d"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_RENAMEONLYBRANCHES)
 msgid "At the moment, you can only rename branches."
-msgstr ""
+msgstr "Προς το παρόν μπορείτε μόνο να μετονομάσετε κλάδους."
 
 #. Resource IDs: (AFX_IDS_NOT_SUPPORTED_EXCEPTION)
 msgid "Attempted an unsupported operation."
@@ -2239,7 +2239,7 @@ msgstr "Προσπάθεια εγγραφής στο %1 ενώ διαβαζότ�
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 65535)
 msgid "Attention: This command affects the whole working tree!"
-msgstr ""
+msgstr "Προσοχή: Αυτή η εντολή επηρεάζει όλο το δεντρό εργασίας!"
 
 #. Resource IDs: (Dialog IDD_PROMPT: Control id 131, Dialog IDD_SIMPLEPROMPT:
 #. Control id 160)
@@ -2248,7 +2248,7 @@ msgstr "Πιστοποίηση"
 
 #. Resource IDs: (IDS_FIRSTSTART_AUTHENTICATIONTITLE)
 msgid "Authentication and credential store"
-msgstr ""
+msgstr "Ταυτοποίηση και τράπεζα πιστοποιητικών"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1278)
 msgid "Authentication data"
@@ -2260,15 +2260,15 @@ msgstr "Συγγραφέας"
 
 #. Resource IDs: (IDS_PROC_LOG_AUTHOREMAIL)
 msgid "Author Email"
-msgstr ""
+msgstr "Ηλεκτρονική διεύθυνση συγγραφέα"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
 msgid "Author email addresses"
-msgstr ""
+msgstr "Ηλεκτρονικές διεύθυνσης συγγραφέα"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
 msgid "Author names"
-msgstr ""
+msgstr "Ονόματα συγγραφέων"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
@@ -2280,7 +2280,7 @@ msgstr "Συγγραφείς"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
 msgid "Authors (full)"
-msgstr ""
+msgstr "Συγγραφείς (πλήρες)"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
@@ -2288,7 +2288,7 @@ msgstr "Συγγραφείς (γραφή ευαίσθητη σε πεζά/κεφ
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto CrLf convert"
-msgstr ""
+msgstr "Αυτόματη μετατροπή CrLf "
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Auto Crlf:"
@@ -2316,7 +2316,7 @@ msgstr "Αυτόματο κλείσημο εάν δεν υπάρχουν λάθ�
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOPTIONS)
 msgid "Auto-close if no further options are available"
-msgstr ""
+msgstr "Αυτόματο κλείσιμο εάν δεν είναι άλλες επιλογές διαθέσιμες"
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOMERGES)
 msgid "Auto-close if no merges, adds or deletes"
@@ -2326,7 +2326,7 @@ msgstr "Αυτόματο κλείσημο εάν δεν υπάρχουν συν�
 msgid ""
 "Auto-complete suggests words (usually class or member names)\n"
 "from the files that you have changed as you type a log message."
-msgstr ""
+msgstr "Η αυτόματη ολοκλήρωση προτείνει λέξης (συνήθως από κλάσεις η ονόματα μελών)\nαπό τα αρχεία που έχετε αλλάξει καθώς γράφετε το μήνυμα καταγραφής."
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1505)
 msgid "AutoLoad Putty &Key"
