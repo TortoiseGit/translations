@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-10-20 21:44+0000\n"
-"Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
+"PO-Revision-Date: 2017-11-14 08:59+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -311,8 +311,7 @@ msgid ""
 "TortoiseGitMerge can't diff directories."
 msgstr "%s\nés un director, no un arxiu!\nTortoiseGitMerge no pot fer diffs de directoris."
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 16923, Dialog
-#. IDD_RENAME: Control id 1483)
+#. Resource IDs: (Dialog IDD_RENAME: Control id 1483)
 msgid "&..."
 msgstr "&..."
 
@@ -332,18 +331,10 @@ msgstr "&Quant al TortoiseGitBlame..."
 msgid "&About TortoiseGitMerge..."
 msgstr "&Quant al TortoiseGitMerge..."
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16920)
-msgid "&Activate"
-msgstr "&Activa"
-
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1382, Dialog
 #. IDD_REBASE: Control id 1382)
 msgid "&Add"
 msgstr "&Afegeix"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 17075)
-msgid "&Add >>"
-msgstr "&Afegeix >>"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1505)
 msgid "&Add Filter"
@@ -357,10 +348,6 @@ msgstr "Afegeix Nou/Desa"
 #. Resource IDs: (IDS_PROC_COMMIT_ADDSIGNOFFBUTTON)
 msgid "&Add it"
 msgstr "&Afegir-lo"
-
-#. Resource IDs: (IDS_AFXBARRES_ADD_REMOVE_BTNS)
-msgid "&Add or Remove Buttons"
-msgstr "&Afegeix o Treu Botons"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1098, IDS_MENUADD)
 msgid "&Add..."
@@ -380,10 +367,6 @@ msgstr "&Tot"
 msgid "&All Branches"
 msgstr "&Totes les branques"
 
-#. Resource IDs: (65535 - PopupMenu)
-msgid "&Application Look"
-msgstr "Aparença de l'aplicació"
-
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1613)
 msgid "&Apply Patch"
 msgstr "Aplica pedaços"
@@ -391,23 +374,6 @@ msgstr "Aplica pedaços"
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1013)
 msgid "&Apply unified diff"
 msgstr "&Aplicar comparació unificada"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 65535)
-msgid "&Arguments:"
-msgstr "&Arguments:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16645, Dialog
-#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16645)
-msgid "&Assign"
-msgstr "&Assigna"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16633)
-msgid "&Associate double-click event with:"
-msgstr "&Associa event doble clic amb:"
-
-#. Resource IDs: (IDS_AFXBARRES_AUTOHIDE)
-msgid "&Auto Hide"
-msgstr "&Auto Amaga"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 65535)
 msgid "&Autoclose Git.exe dialog:"
@@ -433,10 +399,6 @@ msgstr "&Estableix Autoria dels canvis"
 msgid "&Blame revisions"
 msgstr "&Mostra autoria de les revisions"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
-msgid "&Blue:"
-msgstr "&Blau:"
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Border:"
 msgstr "&Contorn:"
@@ -460,14 +422,6 @@ msgstr "&Explora el diposit"
 msgid "&Browse..."
 msgstr "&Navega..."
 
-#. Resource IDs: (ID_AFXBARRES_TOOLBAR_APPEARANCE - Menu)
-msgid "&Button Appearance..."
-msgstr "&Aparença Botó..."
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 65535)
-msgid "&Button text:"
-msgstr "text &Botó:"
-
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1051)
 msgid "&CD-ROM"
 msgstr "&CD-ROM"
@@ -475,19 +429,6 @@ msgstr "&CD-ROM"
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 2)
 msgid "&Cancel"
 msgstr "&Cancel·la"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
-msgid "&Categories:"
-msgstr "&Categories:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 65535, Dialog
-#. IDD_AFXBARRES_PROPPAGE5: Control id 65535)
-msgid "&Category:"
-msgstr "&Categoria:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 65535)
-msgid "&Choose commands from:"
-msgstr "&Escull comandes de:"
 
 #. Resource IDs: (IDS_MENUCLEANUP)
 msgid "&Clean up..."
@@ -505,14 +446,6 @@ msgstr "&Neteja el Stash"
 #. IDD_CHECKFORUPDATES: Control id 1)
 msgid "&Close"
 msgstr "&Tanca"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16922)
-msgid "&Close Window(s)"
-msgstr "&Tanca Finestra(es)"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 65535)
-msgid "&Command:"
-msgstr "&Comanda:"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1514, Dialog IDD_GITSWITCH:
 #. Control id 1514, Dialog IDD_MERGE: Control id 1514, Dialog
@@ -551,10 +484,6 @@ msgstr "&Continua"
 msgid "&Copy"
 msgstr "&Copia"
 
-#. Resource IDs: (ID_AFXBARRES_COPY_IMAGE - Menu)
-msgid "&Copy Button Image"
-msgstr "&Copia Imatge del Botó"
-
 #. Resource IDs: (ID_EDIT_COPY - Menu)
 msgid "&Copy\tCtrl+C"
 msgstr "&Copia\tCtrl+C"
@@ -572,9 +501,8 @@ msgstr "&Personalitzat"
 msgid "&Default"
 msgstr "&Per defecte"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16617, Dialog
-#. IDD_DELETEREMOTETAG: Control id 1, IDS_DELETEBUTTON, IDS_MENUREMOVE,
-#. ID_AFXBARRES_TOOLBAR_DELETE - Menu)
+#. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 1, IDS_DELETEBUTTON,
+#. IDS_MENUREMOVE)
 msgid "&Delete"
 msgstr "&Suprimeix"
 
@@ -622,10 +550,6 @@ msgstr "&Descarta"
 msgid "&Do the same for the rest"
 msgstr "Fes el mateix per la resta"
 
-#. Resource IDs: (IDS_AFXBARRES_DOCKING)
-msgid "&Docking"
-msgstr "&Acoblament"
-
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
 msgid "&Don't ask me again"
 msgstr "&No m'ho preguntis més"
@@ -668,8 +592,7 @@ msgstr "&Editar Filtre"
 msgid "&Edit conflicts"
 msgstr "&Edita conflictes"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16510, Dialog
-#. IDD_SETTINGSPROGSADV: Control id 1099)
+#. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1099)
 msgid "&Edit..."
 msgstr "&Editar..."
 
@@ -745,10 +668,6 @@ msgstr "Ajusta les imatges a la mida de la finestra\tF"
 msgid "&Fixed drives"
 msgstr "&Discs fixes"
 
-#. Resource IDs: (IDS_AFXBARRES_FLOATING)
-msgid "&Floating"
-msgstr "&Flotant"
-
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FOLLOWRENAMES, ID_VIEW_FOLLOWRENAMES -
 #. Menu)
 msgid "&Follow renames"
@@ -803,10 +722,6 @@ msgstr "&Anar a\tCtrl+G"
 msgid "&Gray Unrelated Changed Paths"
 msgstr "&Griseja rutes modificades no relacionades"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
-msgid "&Green:"
-msgstr "&Verd:"
-
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1511, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1511)
 msgid "&HEAD"
@@ -818,8 +733,7 @@ msgid "&Hard: Reset working tree and index (discard all local changes)"
 msgstr "&Dur: Reinicialitza el directory de treball i l'índex (descarta tots els canvis locals)"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
-#. 57670, Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 57670, IDS_MENUHELP,
-#. ID_MENUHELP - Menu)
+#. 57670, IDS_MENUHELP, ID_MENUHELP - Menu)
 msgid "&Help"
 msgstr "&Ajuda"
 
@@ -827,9 +741,13 @@ msgstr "&Ajuda"
 msgid "&Help Topics"
 msgstr "&Temes de l'Ajuda"
 
-#. Resource IDs: (AFX_IDS_HIDE, IDS_AFXBARRES_HIDE, ID_VIEW_OUTPUTWND - Menu)
+#. Resource IDs: (AFX_IDS_HIDE, ID_VIEW_OUTPUTWND - Menu)
 msgid "&Hide"
 msgstr "&Amaga"
+
+#. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
+msgid "&Hide/Show the patch file list"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -852,25 +770,13 @@ msgstr "&Ignora múltiples elements per nom"
 msgid "&Ignore whitespace"
 msgstr "&Ignora espais en blanc"
 
-#. Resource IDs: (ID_AFXBARRES_TOOLBAR_IMAGE - Menu)
-msgid "&Image"
-msgstr "&Imatge"
-
 #. Resource IDs: (ID_VIEW_IMAGEINFO - Menu)
 msgid "&Image info\tI"
 msgstr "Informació de la imatge\tI"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16505)
-msgid "&Image only"
-msgstr "Només &Imatge"
-
 #. Resource IDs: (IDS_MENUIMPORT)
 msgid "&Import..."
 msgstr "&Importa..."
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 65535)
-msgid "&Initial directory:"
-msgstr "Directori &Inicial:"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1693)
 msgid "&Initialize submodules (--init)"
@@ -900,10 +806,6 @@ msgstr "&Etiquetes"
 #. Dialog IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Language:"
 msgstr "&Llenguatge:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16653)
-msgid "&Large Icons"
-msgstr "Icones &Grans"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1602)
 msgid "&Launch Rebase After Fetch"
@@ -946,21 +848,9 @@ msgstr "&Branques locals"
 msgid "&Local:"
 msgstr "&Local"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
-msgid "&Luminence:"
-msgstr "&Luminància"
-
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "&Max line length for inline diffs"
 msgstr "&Nombre de línies màximes per diffs en-linia"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16543)
-msgid "&Menu animations:"
-msgstr "&Menú d'animacions:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 16921)
-msgid "&Menu contents:"
-msgstr "Contingut del &Menú:"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1526, Dialog
 #. IDD_SUBMODULE_UPDATE: Control id 1735, IDS_MERGEBUTTON)
@@ -986,10 +876,6 @@ msgstr "&Missatge"
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1241)
 msgid "&Message:"
 msgstr "&Missatge"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16925)
-msgid "&Minimize"
-msgstr "&Minimitza"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
@@ -1021,11 +907,6 @@ msgstr "&Unitats de xarxa"
 msgid "&New "
 msgstr "&Nou"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16509, Dialog
-#. IDD_AFXBARRES_PROPPAGE2: Control id 16615)
-msgid "&New..."
-msgstr "&Nou..."
-
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1014)
 msgid "&Next >"
 msgstr "&Següent >"
@@ -1037,10 +918,6 @@ msgstr "Pàgina &Següent"
 #. Resource IDs: (IDS_MSGBOX_NO)
 msgid "&No"
 msgstr "&No"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16632)
-msgid "&No double-click event"
-msgstr "&Event sense doble clic"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1734)
 msgid "&No fetch"
@@ -1054,8 +931,7 @@ msgstr "&Cap"
 msgid "&Notepad2"
 msgstr "&Notepad2"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 1, Dialog
-#. IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
+#. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
 msgstr "&D'acord"
 
@@ -1067,7 +943,8 @@ msgstr "&Una Pàgina"
 msgid "&Onto"
 msgstr "&Cap a"
 
-#. Resource IDs: (IDS_LOG_POPUP_OPEN, IDS_REPOBROWSE_OPEN)
+#. Resource IDs: (IDS_LOG_POPUP_OPEN, IDS_REPOBROWSE_OPEN,
+#. cmdOpen_LabelTitle_RESID)
 msgid "&Open"
 msgstr "&Obre"
 
@@ -1118,10 +995,6 @@ msgstr "&Port:"
 msgid "&Preserve merges"
 msgstr "&Preserva fusions"
 
-#. Resource IDs: (IDS_AFXBARRES_PRINT_PREVIEW)
-msgid "&Print Preview"
-msgstr "&Exemple d'Impressió"
-
 #. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58116)
 msgid "&Print..."
 msgstr "&Imprimeix..."
@@ -1158,10 +1031,6 @@ msgstr "&Rebase"
 msgid "&Recursive"
 msgstr "&Recursiu"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
-msgid "&Red:"
-msgstr "&Vermell:"
-
 #. Resource IDs: (IDS_SCIEDIT_REDO)
 msgid "&Redo"
 msgstr "&Refer"
@@ -1195,12 +1064,10 @@ msgstr "&Branques remotes"
 msgid "&Remote:"
 msgstr "Remot:"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16646, Dialog
-#. IDD_AFXBARRES_PROPPAGE8: Control id 16646, Dialog
-#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16646, Dialog
-#. IDD_APPLY_PATCH_LIST: Control id 1385, Dialog IDD_SETTINGSCREDENTIAL:
-#. Control id 1385, Dialog IDD_SETTINGSPROGSADV: Control id 1100, Dialog
-#. IDD_SETTINREMOTE: Control id 1385, IDS_REMOVEBUTTON)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1385, Dialog
+#. IDD_SETTINGSCREDENTIAL: Control id 1385, Dialog IDD_SETTINGSPROGSADV:
+#. Control id 1100, Dialog IDD_SETTINREMOTE: Control id 1385,
+#. IDS_REMOVEBUTTON)
 msgid "&Remove"
 msgstr "&Treu"
 
@@ -1216,27 +1083,9 @@ msgstr "&Substitueix"
 msgid "&Repo-browser"
 msgstr "&Navegador de dipòsits"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 16613,
-#. Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16613, Dialog
-#. IDD_AFXBARRES_PROPPAGE3: Control id 16624)
-msgid "&Reset"
-msgstr "&Reinicia"
-
-#. Resource IDs: (IDS_AFXBARRES_RESET_TOOLBAR)
-msgid "&Reset Toolbar"
-msgstr "&Reinicia Barra d'Eines"
-
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1355)
 msgid "&Reset filter"
 msgstr "&Reinicialitza filtre"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16657)
-msgid "&Reset my usage data"
-msgstr "&Reinicia les meves dades d'us"
-
-#. Resource IDs: (ID_AFXBARRES_TOOLBAR_RESET - Menu)
-msgid "&Reset to Default"
-msgstr "&Reinicia a Valors per Defecte"
 
 #. Resource IDs: (IDS_RESOLVEDBUTTON)
 msgid "&Resolved"
@@ -1266,12 +1115,7 @@ msgstr "Restitueix els canvis fets per aquestes entregues"
 msgid "&SSH client:"
 msgstr "&Client SSH:"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
-msgid "&Saturation:"
-msgstr "&Saturació:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16921,
-#. IDS_SAVEBUTTON)
+#. Resource IDs: (IDS_SAVEBUTTON, cmdSave_LabelTitle_RESID)
 msgid "&Save"
 msgstr "&Desa"
 
@@ -1313,14 +1157,6 @@ msgstr "&Configuració"
 msgid "&Settings..."
 msgstr "&Configuració..."
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 65535)
-msgid "&Show Menus for:"
-msgstr "&Mostra Menús per:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16612)
-msgid "&Show text labels"
-msgstr "&Mostra etiquetes de text"
-
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Signing key ID:"
 msgstr "Clau de signatura:"
@@ -1346,10 +1182,6 @@ msgstr "&Esclafa tots"
 msgid "&Start"
 msgstr "&Inicia"
 
-#. Resource IDs: (ID_AFXBARRES_TOOLBAR_START_GROUP - Menu)
-msgid "&Start Group"
-msgstr "&Inicia Grup"
-
 #. Resource IDs: (IDS_STASHBUTTON)
 msgid "&Stash"
 msgstr "Stash"
@@ -1370,10 +1202,6 @@ msgstr "&Visualització Símbols"
 msgid "&Tab size:"
 msgstr "&Longitud del tabulador:"
 
-#. Resource IDs: (IDS_AFXBARRES_TABBED)
-msgid "&Tabbed Document"
-msgstr "&Document Tabulat"
-
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1513, Dialog IDD_GITSWITCH:
 #. Control id 1513, Dialog IDD_MERGE: Control id 1513, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1513, Dialog IDD_RESET: Control id 1513)
@@ -1388,14 +1216,6 @@ msgstr "&Etiquetes"
 msgid "&Tags:"
 msgstr "&Etiquetes"
 
-#. Resource IDs: (ID_AFXBARRES_TOOLBAR_TEXT - Menu)
-msgid "&Text"
-msgstr "&Text"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16506)
-msgid "&Text only"
-msgstr "&Només Text"
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1222)
 msgid "&Timeout in seconds to stop the auto-completion parsing"
 msgstr "&Temps d'espera en segons per aturar l'anàlisi de compleció automàtica"
@@ -1404,17 +1224,9 @@ msgstr "&Temps d'espera en segons per aturar l'anàlisi de compleció automàtic
 msgid "&Toolbar"
 msgstr "&Barra d'Eines"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_TOOLBAR_NAME: Control id 65535)
-msgid "&Toolbar Name:"
-msgstr "Nom de &Barra d'Eines:"
-
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Toolbars and Docking Windows"
 msgstr "&Barra d'eines i acoblament de finestra"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 65535)
-msgid "&Toolbars:"
-msgstr "&Barres d'Eines:"
 
 #. Resource IDs: (IDS_MENUSUBMENU)
 msgid "&TortoiseGit"
@@ -1483,10 +1295,6 @@ msgstr "&Nom d'Usuari:"
 #. Resource IDs: (65535 - PopupMenu, Dialog IDD_LOGMESSAGE: Control id 1777)
 msgid "&View"
 msgstr "&Vista"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 65535)
-msgid "&View:"
-msgstr "&Vista:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
@@ -1569,11 +1377,6 @@ msgstr "- tot -"
 msgid "--&all"
 msgstr "--&all"
 
-#. Resource IDs: (IDS_AFXBARRES_NO_CONTEXT)
-msgid ""
-"-------------------------------------------------------------------------------------------"
-msgstr "-------------------------------------------------------------------------------------------"
-
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1383, Dialog
 #. IDD_BISECTSTART: Control id 1672, Dialog IDD_CLONE: Control id 1384, Dialog
 #. IDD_EXPORT: Control id 1036, Dialog IDD_EXPORT: Control id 1382, Dialog
@@ -1601,11 +1404,6 @@ msgstr "------------------------------------------------------------------------
 msgid "..."
 msgstr "..."
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16527, Dialog
-#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16527)
-msgid "....."
-msgstr "....."
-
 #. Resource IDs: (IDS_CONFIG_LOCAL_TT)
 msgid ".git/config in the repository root"
 msgstr ".git/config a l'arrel del dipòsit"
@@ -1629,10 +1427,6 @@ msgstr ".tgitconfig a l'arrel del dipòsit"
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1020)
 msgid "< &Previous"
 msgstr "< &Anterior"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16506)
-msgid "<.....>"
-msgstr "<.....>"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535, Dialog
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535, Dialog IDD_SETTINGSDIALOGS3:
@@ -1659,19 +1453,6 @@ msgstr "<Local Branches>"
 #. Resource IDs: (IDS_PROC_LOG_NOBRANCH)
 msgid "<No branch>"
 msgstr "<Cap branca>"
-
-#. Resource IDs: (IDS_AFXBARRES_QAT_SEPARATOR)
-msgid "<Separator>"
-msgstr "<Separator>"
-
-#. Resource IDs: (IDS_AFXBARRES_UNTITLED_TOOLBAR)
-msgid "<Untitled>"
-msgstr "<Sense títol>"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16603, Dialog
-#. IDD_AFXBARRES_PROPPAGE1: Control id 16603)
-msgid "<descr>"
-msgstr "<descr>"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_CREATECS)
 msgid "<new changelist>"
@@ -1784,9 +1565,9 @@ msgstr "Interromp Fusió"
 msgid "Aborts a running merge."
 msgstr "Interromp una fusió en curs"
 
-#. Resource IDs: (ID_APP_ABOUT - Ribbon name)
-msgid "About"
-msgstr "Quant a"
+#. Resource IDs: (cmdAbout_LabelTitle_RESID)
+msgid "Abou&t TortoiseGitMerge"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 129)
 msgid "About TortoiseGit"
@@ -1824,10 +1605,6 @@ msgstr "Accions"
 #. Resource IDs: (AFX_IDS_SCTASKLIST)
 msgid "Activate Task List"
 msgstr "Activa Llista de Tasques"
-
-#. Resource IDs: (IDS_AFXBARRES_OPENED_DOCS)
-msgid "Active Files"
-msgstr "Fitxers Actius"
 
 #. Resource IDs: (AFX_IDP_ASK_TO_DISCARD)
 #, c-format
@@ -1878,10 +1655,6 @@ msgstr "Afegeix els arxius nous a Git, automàticament"
 msgid "Add to &ignore list"
 msgstr "Afegeix a la llista d'&ignorats"
 
-#. Resource IDs: (IDS_AFXBARRES_ADD_TO_QAT)
-msgid "Add to Quick Access Toolbar"
-msgstr "Afegeix a la barra de Ràpid Accés"
-
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ: Control id 1279, Dialog
 #. IDD_SETTINGSHOOKS: Control id 1279, IDS_STATUSLIST_CONTEXT_ADD_RECURSIVE)
 msgid "Add..."
@@ -1918,7 +1691,7 @@ msgstr "Posa arxiu(s) sota el control de Git"
 msgid "Adds the selected file(s) or the filemask to the 'ignore' list"
 msgstr "Afegeix fitxer(s) seleccionat(s) o màscara de fitxers a la llista d'ignorats"
 
-#. Resource IDs: (32782)
+#. Resource IDs: (cmdSettings)
 msgid ""
 "Adjust the settings\n"
 "Settings"
@@ -1943,10 +1716,6 @@ msgstr "Configuració avançada de fusió"
 #. Resource IDs: (IDS_ALL)
 msgid "All"
 msgstr "Tot"
-
-#. Resource IDs: (IDS_AFXBARRES_ALL_COMMANDS)
-msgid "All Commands"
-msgstr "Totes les ordres"
 
 #. Resource IDs: (AFX_IDS_ALLFILTER)
 msgid "All Files (*.*)"
@@ -1980,32 +1749,7 @@ msgstr "Totes les etiquetes"
 msgid "All tags only"
 msgstr "Només totes les etiquetes"
 
-#. Resource IDs: (IDS_AFXBARRES_RESET_ALL_TOOLBARS)
-msgid ""
-"All your changes will be lost! Do you really want to reset all toolbars and "
-"menus?"
-msgstr "Tots els canvis es perdran! Realment voleu reiniciar totes les barres i menús?"
-
-#. Resource IDs: (IDS_AFXBARRES_RESET_KEYBOARD)
-msgid ""
-"All your changes will be lost! Do you really want to reset the keyboard "
-"assignments?"
-msgstr "Tots els canvis es perdran! Realment voleu reiniciar totes les assignacions de teclat?"
-
-#. Resource IDs: (IDS_AFXBARRES_RESET_MENU_FMT)
-#, c-format
-msgid ""
-"All your changes will be lost! Do you really want to reset the menu '%Ts'?"
-msgstr "Tots els canvis es perdran! Realment voleu reiniciar el menú '%Ts'?"
-
-#. Resource IDs: (IDS_AFXBARRES_RESET_TOOLBAR_FMT)
-#, c-format
-msgid ""
-"All your changes will be lost! Do you really want to reset the toolbar "
-"'%Ts'?"
-msgstr "Tots els canvis es perdran! Realment voleu reiniciar la barra d'eines '%Ts'?"
-
-#. Resource IDs: (32976)
+#. Resource IDs: (cmdEditEnabled)
 msgid ""
 "Allow Editing for this view\n"
 "Allow Edit"
@@ -2109,10 +1853,6 @@ msgstr "Afegeix el bloc de la dreta, al final"
 msgid "Append this block to left"
 msgstr "Afegeix aquest bloc a l'esquerra, al final"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 65535)
-msgid "Application Frame Menus: "
-msgstr "Menús d'Estructura de l'Aplicació: "
-
 #. Resource IDs: (ID_FILE_APPLYPATCH - Menu)
 msgid "Apply &Patch..."
 msgstr ""
@@ -2136,11 +1876,6 @@ msgstr "Aplica conjunt de pedaços des d'una bústia de correu"
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1072)
 msgid "Apply unified diff"
 msgstr "Aplicar Comparació unificada"
-
-#. Resource IDs: (10012, ID_VIEW_APPLOOK_OFF_2007_AQUA - Menu,
-#. ID_VIEW_APPLOOK_OFF_2007_AQUA - Ribbon name)
-msgid "Aqua Style"
-msgstr "Estil aqua"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Arabic"
@@ -2187,11 +1922,6 @@ msgstr "Organitza &verticalment\tV"
 #, c-format
 msgid "Assigned to changelist '%s'"
 msgstr "Assignat a la llista de canvis '%s'"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16528, Dialog
-#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16528)
-msgid "Assigned to:"
-msgstr "Assignat a:"
 
 #. Resource IDs: (IDS_MENUASSUMEVALID)
 msgid "Assume Unchanged"
@@ -2302,14 +2032,6 @@ msgstr "Auto convertir CrLf"
 msgid "Auto Crlf:"
 msgstr "Auto Crlf:"
 
-#. Resource IDs: (IDS_AFXBARRES_AUTOHIDEBAR)
-msgid "Auto Hide"
-msgstr "Auto Amaga"
-
-#. Resource IDs: (IDS_AFXBARRES_AUTOHIDE_ALL)
-msgid "Auto Hide All"
-msgstr "Auto Amaga Tot"
-
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1631)
 msgid "Auto&Crlf"
 msgstr "Auto&Crlf"
@@ -2364,10 +2086,6 @@ msgstr "Mitjana"
 #. Control id 1011)
 msgid "B&rowse..."
 msgstr "E&xplora..."
-
-#. Resource IDs: (17020)
-msgid "Back"
-msgstr "Enrere"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535, Dialog
 #. IDD_SETTINGSUDIFF: Control id 65535)
@@ -2438,11 +2156,6 @@ msgid ""
 "a bitmap"
 msgstr "Bitmap\nun mapa de bits"
 
-#. Resource IDs: (10010, ID_VIEW_APPLOOK_OFF_2007_BLACK - Menu,
-#. ID_VIEW_APPLOOK_OFF_2007_BLACK - Ribbon name)
-msgid "Black Style"
-msgstr "Estil negre"
-
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535,
 #. IDS_LOG_POPUP_BLAME)
 msgid "Blame"
@@ -2464,14 +2177,9 @@ msgstr "Mostra l'autor de cada línia d'un arxiu"
 msgid "Blend alpha"
 msgstr "Barreja alpha"
 
-#. Resource IDs: (156 - Ribbon element)
+#. Resource IDs: (cmdGroupBlocks_LabelTitle_RESID)
 msgid "Blocks"
 msgstr "Blocs"
-
-#. Resource IDs: (10009, ID_VIEW_APPLOOK_OFF_2007_BLUE - Menu,
-#. ID_VIEW_APPLOOK_OFF_2007_BLUE - Ribbon name)
-msgid "Blue Style"
-msgstr "Estil blau"
 
 #. Resource IDs: (IDS_BODY)
 msgid "Body"
@@ -2581,10 +2289,6 @@ msgstr "BugTraq"
 msgid "Bugtraq Regex Tester - TortoiseGit"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16132)
-msgid "Button Appearance"
-msgstr "Aparença del Botó"
-
 #. Resource IDs: (Dialog IDD_GITPROGRESS: Control id 1382, Dialog IDD_REBASE:
 #. Control id 1559)
 msgid "Button1"
@@ -2601,17 +2305,15 @@ msgid ""
 " credential helper (recommended) or manually use %HOME%/_netrc."
 msgstr "Per defecte, el Git no desa les credencials. Tanmateix, podeu configurar un auxiliar de credencials (recomanat) o utilitzar manualment %HOME%/_netrc."
 
+#. Resource IDs: (cmdCopy_Keytip_RESID)
+msgid "C"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
 #. 1216)
 msgid "C&heck now"
 msgstr "C&omprova ara"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 65535, Dialog
-#. IDD_AFXBARRES_PROPPAGE8: Control id 65535, Dialog
-#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
-msgid "C&ommands:"
-msgstr "&Ordres:"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1, IDS_COMMIT_COMMIT)
 msgid "C&ommit"
@@ -2620,11 +2322,6 @@ msgstr ""
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
 msgstr "C&rea branca/etiqueta des de la revisió"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 65535, Dialog
-#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
-msgid "C&urrent Keys:"
-msgstr "Tecles A&ctuals:"
 
 #. Resource IDs: (IDS_EDIT_CUT)
 msgid "C&ut"
@@ -2664,36 +2361,16 @@ msgid ""
 "%s"
 msgstr "No es pot copiar\n%s\na\n%s"
 
-#. Resource IDs: (16010)
-msgid "Can't copy bitmap image into the clipboard!"
-msgstr "No es pot copiar imatge de mapa de bits al porta-retalls!"
-
-#. Resource IDs: (16003)
-msgid "Can't create a new image!"
-msgstr "No es pot crear una nova imatge!"
-
-#. Resource IDs: (IDS_AFXBARRES_NO_MENUBAR)
-msgid "Can't customize menus!"
-msgstr "No es poden personalitzar menús!"
-
-#. Resource IDs: (16004)
-msgid "Can't paste bitmap image from the clipboard!"
-msgstr "No es pot enganxar una imatge de mapa de bits des del porta-retalls!"
-
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 2, Dialog
 #. AFX_IDD_PRINTDLG: Control id 2, Dialog IDD_ADD: Control id 2, Dialog
-#. IDD_ADD_REMOTE: Control id 2, Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id
-#. 2, Dialog IDD_AFXBARRES_COLOR_DLG: Control id 2, Dialog
-#. IDD_AFXBARRES_IMAGE_EDITOR: Control id 2, Dialog
-#. IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 2, Dialog
-#. IDD_AFXBARRES_TOOLBAR_NAME: Control id 2, Dialog IDD_BISECTSTART: Control
-#. id 2, Dialog IDD_BROWSE_REFS: Control id 2, Dialog IDD_BUGTRAQREGEXTESTER:
-#. Control id 2, Dialog IDD_CERTCHECK: Control id 2, Dialog IDD_CLEAN: Control
-#. id 2, Dialog IDD_CLONE: Control id 2, Dialog IDD_COMMITDLG: Control id 2,
-#. Dialog IDD_CREATECHANGELIST: Control id 2, Dialog IDD_CREATEREPO: Control
-#. id 2, Dialog IDD_ENCODING: Control id 2, Dialog IDD_EXPORT: Control id 2,
-#. Dialog IDD_FIND: Control id 2, Dialog IDD_FORMAT_PATCH: Control id 2,
-#. Dialog IDD_GITSWITCH: Control id 2, Dialog IDD_GOTO: Control id 2, Dialog
+#. IDD_ADD_REMOTE: Control id 2, Dialog IDD_BISECTSTART: Control id 2, Dialog
+#. IDD_BROWSE_REFS: Control id 2, Dialog IDD_BUGTRAQREGEXTESTER: Control id 2,
+#. Dialog IDD_CERTCHECK: Control id 2, Dialog IDD_CLEAN: Control id 2, Dialog
+#. IDD_CLONE: Control id 2, Dialog IDD_COMMITDLG: Control id 2, Dialog
+#. IDD_CREATECHANGELIST: Control id 2, Dialog IDD_CREATEREPO: Control id 2,
+#. Dialog IDD_ENCODING: Control id 2, Dialog IDD_EXPORT: Control id 2, Dialog
+#. IDD_FIND: Control id 2, Dialog IDD_FORMAT_PATCH: Control id 2, Dialog
+#. IDD_GITSWITCH: Control id 2, Dialog IDD_GOTO: Control id 2, Dialog
 #. IDD_GOTODLG: Control id 2, Dialog IDD_HISTORYDLG: Control id 2, Dialog
 #. IDD_IGNORE: Control id 2, Dialog IDD_INPUTDLG: Control id 2, Dialog
 #. IDD_LOGMESSAGE: Control id 2, Dialog IDD_LOGORDERING: Control id 2, Dialog
@@ -2713,7 +2390,7 @@ msgstr "No es pot enganxar una imatge de mapa de bits des del porta-retalls!"
 #. IDD_SUBMODULE_UPDATE: Control id 2, Dialog IDD_SVNDCOMMITTYPE: Control id
 #. 2, Dialog IDD_SVNIGNORE: Control id 2, Dialog IDD_SVNPROGRESS: Control id
 #. 2, Dialog IDD_TOOLASSOC: Control id 2, Dialog IDD_URL: Control id 2, Dialog
-#. IDD_USER_PASSWD: Control id 2, IDS_AFXBARRES_CANCEL, IDS_MSGBOX_CANCEL,
+#. IDD_USER_PASSWD: Control id 2, IDS_MSGBOX_CANCEL,
 #. IDS_PROC_OVERWRITEEXPORT_CANCEL)
 msgid "Cancel"
 msgstr "Cancel·la"
@@ -2775,10 +2452,6 @@ msgstr "No es pot mostrar l'autoria \"%s\" no està sota el control de versions 
 msgid "Cannot show diff because of inconsistent newlines in the file."
 msgstr "No es poden mostrar diferències degut a noves línies inconsistents al fitxer."
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16926)
-msgid "Casca&de"
-msgstr "En cascada"
-
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid "Cascaded context menu"
 msgstr "Menú de contexte en cascada"
@@ -2786,10 +2459,6 @@ msgstr "Menú de contexte en cascada"
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
 msgstr "Considera Majúsc./minúsc."
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE1: Control id 65535)
-msgid "Cate&gories:"
-msgstr "Cate&gories:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Celtic"
@@ -2818,12 +2487,6 @@ msgid ""
 "Change the printing options\n"
 "Page Setup"
 msgstr "Canvia les opcions d'impressió\nConfiguració de la pàgina"
-
-#. Resource IDs: (10000)
-msgid ""
-"Change the style of the application\n"
-"Change Style"
-msgstr "Canvia l'estil d'una aplicació.\nCanvia l'estil"
 
 #. Resource IDs: (AFX_IDS_SCMOVE)
 msgid "Change the window position"
@@ -2880,10 +2543,6 @@ msgstr "Llista de canvis  %s moguda"
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1242)
 msgid "Changes made (double-click on file for diff):"
 msgstr "Canvis fets (Fer doble click sobre el fitxer per veure diferències):"
-
-#. Resource IDs: (32956)
-msgid "Changes the style of the application"
-msgstr "Canvia l'estil de l'aplicació"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "Char position where to show a border line in commit text boxes:"
@@ -3028,12 +2687,6 @@ msgstr "Neteja ha processat satisfactòriament les següents carpetes:\n%s"
 msgid "Clear"
 msgstr "Esborra"
 
-#. Resource IDs: (16909)
-msgid ""
-"Clear Tool\n"
-"Clear"
-msgstr "Neteja Eina\nNeteja"
-
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_URLHIST_TT)
 #, c-format
 msgid "Clears %ld URLs stored for %ld working trees"
@@ -3086,7 +2739,7 @@ msgid ""
 "extension"
 msgstr "Feu clic a \"Avançat\" per especificar programes de fusió de fitxers alternatius segons l'extensió dels fitxers"
 
-#. Resource IDs: (32914)
+#. Resource IDs: (cmdUseBlocks)
 msgid ""
 "Click to see commands to move blocks of text\n"
 "Use text blocks"
@@ -3116,22 +2769,10 @@ msgstr "Clona en un nou dipòsit cru"
 msgid "Clone..."
 msgstr "Clona..."
 
-#. Resource IDs: (17023, Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id
-#. 2, Dialog IDD_DELETEREMOTETAG: Control id 2, Dialog IDD_GITPROGRESS:
-#. Control id 1, Dialog IDD_SYNC: Control id 1, IDS_AFXBARRES_CLOSE,
-#. IDS_AFXBARRES_CLOSEBAR)
+#. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 2, Dialog
+#. IDD_GITPROGRESS: Control id 1, Dialog IDD_SYNC: Control id 1)
 msgid "Close"
 msgstr "Tanca"
-
-#. Resource IDs: (IDS_AFXBARRES_FULLSCREEN_CLOSE)
-msgid "Close Full Screen"
-msgstr "Tanca Pantalla Sencera "
-
-#. Resource IDs: (58112)
-msgid ""
-"Close Print Preview\n"
-"&Close"
-msgstr "Tanca Visualització Prèvia d'Impressió\n&Tanca"
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_MANUAL)
 msgid "Close manually"
@@ -3153,36 +2794,25 @@ msgstr "Tanca el document actiu\nTanca"
 msgid "Close the active window and prompts to save the documents"
 msgstr "Tanca la finestra activa i pregunta si es volen gravar els documents"
 
-#. Resource IDs: (ID_VIEW_COLLAPSED - Menu, ID_VIEW_COLLAPSED - Ribbon name)
+#. Resource IDs: (ID_VIEW_COLLAPSED - Menu, cmdViewCollapsed_LabelTitle_RESID)
 msgid "Collapse"
 msgstr "Contrau"
 
-#. Resource IDs: (32870)
+#. Resource IDs: (cmdViewCollapsed)
 msgid ""
 "Collapse unchanged sections\n"
 "Collapse"
 msgstr "Reduir seccions sense canvis\nReduir"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 16662, Dialog
-#. IDD_AFXBARRES_COLOR_DLG: Control id 16662)
-msgid "Color"
-msgstr "Color"
-
 #. Resource IDs: (ID_VIEW_COLORBYAGE - Menu)
 msgid "Color by age, &continuous"
 msgstr "Marca segons l'edat, &continu"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_DLG: Control id 16961, Dialog
-#. IDD_SETCOLORPAGE: Control id 138, Dialog IDD_SETTINGSTBLAME: Control id
-#. 65535, Dialog IDD_SETTINGSUDIFF: Control id 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 138, Dialog
+#. IDD_SETTINGSTBLAME: Control id 65535, Dialog IDD_SETTINGSUDIFF: Control id
+#. 65535)
 msgid "Colors"
 msgstr "Colors"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535, Dialog
-#. IDD_AFXBARRES_COLOR_PAGE_ONE: Control id 65535, Dialog
-#. IDD_AFXBARRES_IMAGE_EDITOR: Control id 65535)
-msgid "Colors:"
-msgstr "Colors:"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1481)
 msgid "Combine One Mail"
@@ -3192,11 +2822,7 @@ msgstr "Combina un correu"
 msgid "Combine to one commit"
 msgstr "Combina en una sola entrega"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE1: Control id 65535)
-msgid "Comman&ds:"
-msgstr "Coman&des:"
-
-#. Resource IDs: (IDS_AFXBARRES_COMMAND, IDS_PROGRS_CMDINFO)
+#. Resource IDs: (IDS_PROGRS_CMDINFO)
 msgid "Command"
 msgstr "Comanda"
 
@@ -3211,10 +2837,6 @@ msgstr "Comanda a Executar:"
 #. Resource IDs: (AFX_IDP_COMMAND_FAILURE)
 msgid "Command failed."
 msgstr "La comanda ha fallat."
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE1: Control id 16104)
-msgid "Commands"
-msgstr "Comandes"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1383, Dialog
 #. IDD_COMMITDLG: Control id 135, Dialog IDD_SETTINGSDIALOGS2: Control id
@@ -3336,7 +2958,7 @@ msgid "Compare two files"
 msgstr "Compara dos arxius"
 
 #. Resource IDs: (ID_VIEW_COMPAREWHITESPACES - Menu,
-#. ID_VIEW_COMPAREWHITESPACES - Ribbon name)
+#. cmdCompareWhitespaces_LabelTitle_RESID)
 msgid "Compare whitespaces"
 msgstr "Compara espais en blanc"
 
@@ -3352,7 +2974,7 @@ msgstr "Compara amb b&ase"
 msgid "Compare with previous revision"
 msgstr "&Compara amb revisió prèvia"
 
-#. Resource IDs: (32871)
+#. Resource IDs: (cmdCompareWhitespaces)
 msgid ""
 "Compares all whitespaces when diffing\n"
 "Compare whitespaces"
@@ -3381,6 +3003,10 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535)
 msgid "Config type:"
 msgstr "Tipus de configuració:"
+
+#. Resource IDs: (cmdRegexFilterConfig2_LabelTitle_RESID)
+msgid "Configure Filter Regex"
+msgstr ""
 
 #. Resource IDs: (IDS_CONFIGUREREGEXES, ID_REGEXFILTER - Menu)
 msgid "Configure Filter Regexes"
@@ -3451,10 +3077,6 @@ msgstr "Conflictes"
 msgid "Conflicts: %d"
 msgstr "Conflictes: %d"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16520)
-msgid "Context Menus: "
-msgstr "Menús contextual:"
-
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "Context lines for patches"
 msgstr "Línies de context per a pedaços"
@@ -3462,10 +3084,6 @@ msgstr "Línies de context per a pedaços"
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1564, IDS_CONTINUEBUTTON)
 msgid "Continue"
 msgstr "Continua"
-
-#. Resource IDs: (IDS_AFXBARRES_CONTRACT_BAR)
-msgid "Contract docked window"
-msgstr "Contrau finestra acoblada"
 
 #. Resource IDs: (IDS_EDIT_SPACE2TAB)
 msgid "Convert spaces to tabs"
@@ -3483,20 +3101,14 @@ msgstr "Co&pia"
 msgid "Copied"
 msgstr "Copiat(s)"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16991,
-#. IDS_PATHACTIONS_COPY, IDS_PROGRS_TITLE_COPY, ID_EDIT_COPY - Ribbon name)
+#. Resource IDs: (IDS_PATHACTIONS_COPY, IDS_PROGRS_TITLE_COPY,
+#. cmdCopy_LabelTitle_RESID)
 msgid "Copy"
 msgstr "Copia"
 
 #. Resource IDs: (IDS_BLAME_POPUP_COPYHASHTOCLIPBOARD, IDS_COPY_COMMIT_HASH)
 msgid "Copy SHA-1 to clipboard"
 msgstr "Copia SHA-1 al porta-retalls"
-
-#. Resource IDs: (16907)
-msgid ""
-"Copy Tool\n"
-"Copy"
-msgstr "Eina de Còpia\nCòpia"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYEXT)
 msgid "Copy all information to clipboard"
@@ -3522,7 +3134,7 @@ msgstr "Copia els noms de les refs"
 msgid "Copy selection to cli&pboard"
 msgstr "Copia al porta-&retalls"
 
-#. Resource IDs: (57634)
+#. Resource IDs: (57634, cmdCopy)
 msgid ""
 "Copy the selection and put it on the Clipboard\n"
 "Copy"
@@ -3731,6 +3343,10 @@ msgstr "Crea una &nova branca..."
 msgid "Create &Tag..."
 msgstr "Crea una e&tiqueta..."
 
+#. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
+msgid "Create &patch file"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
 msgstr "Crea arxiu .gitignore"
@@ -3774,8 +3390,7 @@ msgid ""
 "history, and would want to send in fixes as patches."
 msgstr "Crea un dipòsit lleuger amb una història truncada a un nombre específic de revisions. Un dipòsit lleuger té certes limitacions (no pot ésser clonat, ni fer operacions push/pull), però és adequat si només us interessa veure la historia recent d'un projecte amb molts canvis, i voleu enviar correccions com a pedaços"
 
-#. Resource IDs: (ID_EDIT_CREATEUNIFIEDDIFFFILE - Menu,
-#. ID_EDIT_CREATEUNIFIEDDIFFFILE - Ribbon name)
+#. Resource IDs: (ID_EDIT_CREATEUNIFIEDDIFFFILE - Menu)
 msgid "Create patch file"
 msgstr "Crea arxiu pedaç"
 
@@ -3799,7 +3414,7 @@ msgstr "Crea una branca o etiqueta"
 msgid "Creates a library folder with special settings for Git working trees"
 msgstr "Crea una carpeta biblioteca amb configuracions especials per als directoris de treball de Git."
 
-#. Resource IDs: (32828)
+#. Resource IDs: (cmdCreateUnifiedDiff)
 msgid ""
 "Creates a patch file from the differences of the two files\n"
 "Create patch file"
@@ -3832,10 +3447,6 @@ msgstr "Credencials"
 #. Resource IDs: (IDS_SCIEDIT_CUT)
 msgid "Cu&t"
 msgstr "Re&talla"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_DLG: Control id 65535)
-msgid "Current"
-msgstr "Actual"
 
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 1784, Dialog
 #. IDD_SETTINGSCOLORS_2: Control id 65535)
@@ -3875,31 +3486,6 @@ msgstr "La versió actual és:"
 msgid "Current version is: %s"
 msgstr "La versió actual és: %s"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 17079)
-msgid "Cus&tomize..."
-msgstr "&Personalitza..."
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 16963)
-msgid "Custom"
-msgstr "Personalitzat"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 17074,
-#. IDS_AFXBARRES_PROPSHT_CAPTION)
-msgid "Customize"
-msgstr "Personalitza"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 17076)
-msgid "Customize Keyboard"
-msgstr "Personalitza Teclat"
-
-#. Resource IDs: (IDS_AFXBARRES_CUSTOMIZE_QAT_TOOLTIP)
-msgid "Customize Quick Access Toolbar"
-msgstr "Personalitza Barra de Ràpid Accès"
-
-#. Resource IDs: (IDS_AFXBARRES_CUSTOMIZE_QAT)
-msgid "Customize Quick Access Toolbar..."
-msgstr "Personalitza Barra de Ràpid Accès..."
-
 #. Resource IDs: (IDS_TOOLBAR_CUSTOMIZE)
 msgid "Customize..."
 msgstr "Personalitza..."
@@ -3930,17 +3516,9 @@ msgstr "Data"
 msgid "Date Last Commit"
 msgstr "Fixa la data de l'última entrega"
 
-#. Resource IDs: (IDS_AFXBARRES_DEFAULT_VIEW, IDS_DEFAULT)
+#. Resource IDs: (IDS_DEFAULT)
 msgid "Default"
 msgstr "Per defecte"
-
-#. Resource IDs: (IDS_AFXBARRES_DEFUALT_MENU)
-msgid "Default Menu"
-msgstr "Menú Per defecte"
-
-#. Resource IDs: (IDS_AFXBARRES_DEFAULT_MENU_DESCR)
-msgid "Default application menu. Appears when no documents are open."
-msgstr "Mení d'aplicació per defecte. Apareix quan no hi han documents oberts."
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Default limitation of log messages:"
@@ -3951,7 +3529,7 @@ msgid "Default to UTF-8 encoding"
 msgstr "Escull per defecte codificació UTF-8"
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4571,
-#. IDS_AFXBARRES_DELETE, IDS_DELETE_BRANCHTAG_SHORT)
+#. IDS_DELETE_BRANCHTAG_SHORT)
 msgid "Delete"
 msgstr "Elimina"
 
@@ -4115,16 +3693,9 @@ msgstr "Describe"
 msgid "Describe Strategy"
 msgstr "Estratègia del describe"
 
-#. Resource IDs: (IDS_AFXBARRES_DESCRIPTION, IDS_DESCRIPTION)
+#. Resource IDs: (IDS_DESCRIPTION)
 msgid "Description"
 msgstr "Descripció"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 65535, Dialog
-#. IDD_AFXBARRES_PROPPAGE1: Control id 65535, Dialog IDD_AFXBARRES_PROPPAGE5:
-#. Control id 65535, Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id
-#. 65535)
-msgid "Description:"
-msgstr "Descripció:"
 
 #. Resource IDs: (IDS_STATUSLIST_UNCHECKGROUP)
 msgid "Deselect changelist"
@@ -4174,7 +3745,7 @@ msgstr "Mides i posicions dels formularis"
 msgid "Dialogs"
 msgstr "Diàlegs"
 
-#. Resource IDs: (156 - Ribbon element)
+#. Resource IDs: (cmdGroupDiff_LabelTitle_RESID)
 msgid "Diff"
 msgstr "Diff"
 
@@ -4297,10 +3868,6 @@ msgstr "Disc ple mentre s'accedeix a %1."
 msgid "Dispatch exception: %1"
 msgstr "Reporta Excepció: %1"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 65535)
-msgid "Display &buttons in this order"
-msgstr "Mostra &botons en aquest ordre"
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1910)
 msgid "Display branch revision number"
 msgstr "Mostra el número de revisió de la branca"
@@ -4317,7 +3884,7 @@ msgid ""
 "Help"
 msgstr "Mostra ajuda per botons, menús i finestres seleccionats\nAjuda"
 
-#. Resource IDs: (57670)
+#. Resource IDs: (57670, cmdHelp)
 msgid ""
 "Display help for current task or command\n"
 "Help"
@@ -4329,7 +3896,7 @@ msgid ""
 "Help"
 msgstr "Mostra instruccions sobre com utilitzar l'ajuda\nAjuda"
 
-#. Resource IDs: (57664)
+#. Resource IDs: (57664, cmdAbout)
 msgid ""
 "Display program information, version number and copyright\n"
 "About"
@@ -4372,11 +3939,6 @@ msgstr ""
 #, c-format
 msgid "Do you really want to delete \"%s\"?"
 msgstr "Voleu suprimir \"%s\"?"
-
-#. Resource IDs: (IDS_AFXBARRES_DELETE_TOOLBAR_FMT)
-#, c-format
-msgid "Do you really want to delete the toolbar '%Ts'?"
-msgstr "Realment voleu esborrar la barra d'eines '%Ts'?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4547,14 +4109,6 @@ msgstr "Descarrega"
 msgid "Download language packs:"
 msgstr ""
 
-#. Resource IDs: (IDS_AFX_TEAR_OFF)
-msgid "Drag to make this menu float"
-msgstr "Arrossega per fer flotar aquest menú"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 16513)
-msgid "Draw"
-msgstr "Dibuixa"
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1073)
 msgid "Draw tag/branch labels on right side"
 msgstr "Mostra noms de branca/etiqueta al costat dret"
@@ -4584,6 +4138,10 @@ msgstr "Dummy Button Form "
 msgid "Dumy Group For locat TabCtr"
 msgstr "Dumy Group For locat TabCtr"
 
+#. Resource IDs: (cmdEditEnabled_Keytip_RESID, cmdTabEdit_Keytip_RESID)
+msgid "E"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_REBASE_UNSELECTED_EDIT)
 msgid "E&dit unselected"
 msgstr ""
@@ -4592,7 +4150,7 @@ msgstr ""
 msgid "E&xclude paths:"
 msgstr "&No incloguis aquests paths:"
 
-#. Resource IDs: (105 - Menu, ID_APP_EXIT - Menu)
+#. Resource IDs: (105 - Menu, ID_APP_EXIT - Menu, cmdExit_LabelTitle_RESID)
 msgid "E&xit"
 msgstr "S&urt"
 
@@ -4616,8 +4174,8 @@ msgstr "EUC-KR"
 msgid "Eastern European"
 msgstr "Eastern European"
 
-#. Resource IDs: (156 - Ribbon element, IDS_EDIT_MENU, IDS_PATHACTIONS_EDIT,
-#. IDS_REBASE_EDIT)
+#. Resource IDs: (IDS_EDIT_MENU, IDS_PATHACTIONS_EDIT, IDS_REBASE_EDIT,
+#. cmdGroupEdit_LabelTitle_RESID, cmdTabEdit_LabelTitle_RESID)
 msgid "Edit"
 msgstr "Edita"
 
@@ -4632,10 +4190,6 @@ msgstr "Edita gitconfig local"
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1755)
 msgid "Edit .tgitconfig"
 msgstr "Edita .tgitconfig"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 16133)
-msgid "Edit Button Image"
-msgstr "Edita Imatge del Botó"
 
 #. Resource IDs: (IDS_EDIT_NOTES, IDS_PROGS_TITLE_EDITNOTES)
 msgid "Edit Notes"
@@ -4692,12 +4246,6 @@ msgstr ""
 msgid "Either the name or IP of the proxy server"
 msgstr "Nom o IP del servidor intermediari"
 
-#. Resource IDs: (16906)
-msgid ""
-"Ellipse Tools\n"
-"Ellipse"
-msgstr "Eines d'Elipse\nElipse"
-
 #. Resource IDs: (IDS_LOG_EMAIL)
 msgid "Email"
 msgstr "&Email:"
@@ -4714,7 +4262,7 @@ msgstr "Correus electrònics"
 msgid "Empty"
 msgstr "Buit"
 
-#. Resource IDs: (ID_EDIT_ENABLE - Ribbon name)
+#. Resource IDs: (cmdEditEnabled_LabelTitle_RESID)
 msgid "Enable Edit"
 msgstr "Activa l'edició"
 
@@ -4927,33 +4475,13 @@ msgstr "Error intentant llegir/escriure la clau de registre %s\n%s"
 msgid "Everything updated."
 msgstr "Tot ha estat actualitzat"
 
-#. Resource IDs: (IDS_AFXBARRES_CMD_FILTER)
-msgid ""
-"Executable (*.exe)|*.exe|Command (*.com)|*.com|Information "
-"(*.pdf)|*.pdf|Batch (*.bat)|*.bat|All Files (*.*)|*.*||"
-msgstr "Executable (*.exe)|*.exe|Comanda (*.com)|*.com|Informació (*.pdf)|*.pdf|Batch (*.bat)|*.bat|Tots els Fitxers (*.*)|*.*||"
-
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11028)
 msgid "Executable (+x)"
 msgstr "Executable (+x)"
 
-#. Resource IDs: (IDS_AFXBARRES_EXISTING)
-msgid "Existing"
-msgstr "Existent"
-
-#. Resource IDs: (Dialog IDD_AUTOTEXTTESTDLG: Control id 2, ID_APP_EXIT -
-#. Ribbon name)
+#. Resource IDs: (Dialog IDD_AUTOTEXTTESTDLG: Control id 2)
 msgid "Exit"
 msgstr "Surt"
-
-#. Resource IDs: (IDS_AFXBARRES_EXPAND_FMT)
-#, c-format
-msgid "Expand (%Ts)"
-msgstr "Expandeix (%Ts)"
-
-#. Resource IDs: (IDS_AFXBARRES_EXPAND_BAR)
-msgid "Expand docked window"
-msgstr "Expandeix finestra encastada"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_EXPLORE)
 msgid "Explore to"
@@ -5017,13 +4545,13 @@ msgstr "Extern"
 msgid "External Program:"
 msgstr "Programa extern:"
 
+#. Resource IDs: (cmdFind_Keytip_RESID)
+msgid "F"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
 msgstr ""
-
-#. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_FADE)
-msgid "Fade"
-msgstr "Esvaïment"
 
 #. Resource IDs: (IDS_FAIL)
 msgid "Fail"
@@ -5175,8 +4703,8 @@ msgstr "Recuperant fitxer..."
 msgid "Fetching revision %s of file:"
 msgstr "Recuperant revisió %s de fitxer:"
 
-#. Resource IDs: (IDS_AFXBARRES_FILE, IDS_CHSTAT_FILECOL, IDS_COMMITDLG_FILE,
-#. IDS_FILEDIFF_FILE, IDS_LOG_FILE)
+#. Resource IDs: (IDS_CHSTAT_FILECOL, IDS_COMMITDLG_FILE, IDS_FILEDIFF_FILE,
+#. IDS_LOG_FILE)
 msgid "File"
 msgstr "Fitxer"
 
@@ -5285,12 +4813,6 @@ msgstr "Nom del fitxer"
 msgid "Files"
 msgstr "Fitxers"
 
-#. Resource IDs: (16901)
-msgid ""
-"Fill Tool\n"
-"Fill"
-msgstr "Eina d'Omplir\nOmple"
-
 #. Resource IDs: (IDS_LOG_FILTER_BY)
 msgid "Filter by"
 msgstr "Filtra per"
@@ -5308,12 +4830,16 @@ msgstr "Filtre:"
 msgid "Filter: "
 msgstr "Filtra:"
 
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
+msgid "Filtered"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIND: Control id 139, Dialog IDD_FIND: Control id
-#. 20100, ID_EDIT_FIND - Menu, ID_EDIT_FIND - Ribbon name)
+#. 20100, ID_EDIT_FIND - Menu, cmdFind_LabelTitle_RESID)
 msgid "Find"
 msgstr "Troba"
 
-#. Resource IDs: (57636)
+#. Resource IDs: (57636, cmdFind)
 msgid ""
 "Find the specified text\n"
 "Find"
@@ -5393,10 +4919,6 @@ msgstr "Ajusta l'amplada de la imatge\tW"
 msgid "Fit width"
 msgstr ""
 
-#. Resource IDs: (IDS_AFXBARRES_FOLDER)
-msgid "Folder"
-msgstr "Carpeta"
-
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
 msgstr "Segueix canvis de noms"
@@ -5464,10 +4986,6 @@ msgstr "Formata pedaç"
 msgid "Format Patch..."
 msgstr "Formata pedaç..."
 
-#. Resource IDs: (17021)
-msgid "Forward"
-msgstr "Endavant"
-
 #. Resource IDs: (IDS_FORWARDN)
 #, c-format
 msgid "Forward %d"
@@ -5533,10 +5051,6 @@ msgstr "Des dels fitxers modificats"
 msgid "From:"
 msgstr "De:"
 
-#. Resource IDs: (IDS_AFXBARRES_FULLSCREEN)
-msgid "Full Screen"
-msgstr "Pantalla Completa"
-
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
 msgid "Full commit data without changed paths"
 msgstr "Entrega completa de dades sense camins modificats"
@@ -5552,6 +5066,10 @@ msgstr "Cerca text complet"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 65535)
 msgid "Further options for the commit dialog are on Dialogs 3 page."
 msgstr "Més opcions pel diàleg d'entrega a la pàgina 3 dels Diàlegs."
+
+#. Resource IDs: (cmdGotoLine_Keytip_RESID)
+msgid "G"
+msgstr ""
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -5773,43 +5291,43 @@ msgstr "Vés a la línia"
 msgid "Go to line"
 msgstr "Vés a la línia"
 
-#. Resource IDs: (32804)
+#. Resource IDs: (cmdNavigateNextConflict)
 msgid ""
 "Go to the next conflict\n"
 "Next conflict"
 msgstr "Vés a el proper conflicte\nProper conflicte"
 
-#. Resource IDs: (32779)
+#. Resource IDs: (cmdNavigateNextDifference)
 msgid ""
 "Go to the next difference\n"
 "Next difference"
 msgstr "Vés a la propera diferència\nPropera diferència"
 
-#. Resource IDs: (32875)
+#. Resource IDs: (cmdNavigateNextInlineDiff)
 msgid ""
 "Go to the next inline difference\n"
 "Next inline difference"
 msgstr "Vés a la propera diferència en-línia\nPropera diferència en-línia"
 
-#. Resource IDs: (32802)
+#. Resource IDs: (cmdNavigatePreviousConflict)
 msgid ""
 "Go to the previous conflict\n"
 "Previous conflict"
 msgstr "Vés al conflicte previ\nConflicte previ"
 
-#. Resource IDs: (32780)
+#. Resource IDs: (cmdNavigatePreviousDifference)
 msgid ""
 "Go to the previous difference\n"
 "Previous difference"
 msgstr "Vés a la diferència prèvia\nDiferència prèvia"
 
-#. Resource IDs: (32876)
+#. Resource IDs: (cmdNavigatePreviousInlineDiff)
 msgid ""
 "Go to the previous inline difference\n"
 "Previous inline difference"
 msgstr "Vés a l'anterior diferència en-línia\nAnterior diferència en-línia"
 
-#. Resource IDs: (ID_EDIT_GOTOLINE - Menu, ID_EDIT_GOTOLINE - Ribbon name)
+#. Resource IDs: (ID_EDIT_GOTOLINE - Menu, cmdGotoLine_LabelTitle_RESID)
 msgid "Goto Line"
 msgstr "Vés a la línia"
 
@@ -5820,10 +5338,6 @@ msgstr "Grafic"
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1134)
 msgid "Graph type:"
 msgstr "Tipus de gràfic:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_PAGE_ONE: Control id 16972)
-msgid "Gray"
-msgstr "Gris"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Greek"
@@ -5836,10 +5350,6 @@ msgstr "Agrupa llistes de canvis"
 #. Resource IDs: (IDS_SHOWFILES_HIDEPATHS)
 msgid "H&ide Unrelated Changed Paths"
 msgstr "Oculta rutes no relacionades"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 65535)
-msgid "H&ue:"
-msgstr "T&o:"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1353, Dialog IDD_DIFFFILES:
 #. Control id 1354, Dialog IDD_REPOSITORY_BROWSER: Control id 1684)
@@ -5882,13 +5392,9 @@ msgstr "Hebrew"
 #. IDD_SETTINGSHOOKCONFIG: Control id 9, Dialog IDD_STASH: Control id 9,
 #. Dialog IDD_SUBMODULE_ADD: Control id 9, Dialog IDD_SUBMODULE_UPDATE:
 #. Control id 9, Dialog IDD_SVNDCOMMITTYPE: Control id 9, Dialog IDD_SYNC:
-#. Control id 9, IDS_MSGBOX_HELP, ID_HELP - Ribbon name)
+#. Control id 9, IDS_MSGBOX_HELP)
 msgid "Help"
 msgstr "Ajuda"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16982)
-msgid "Help Keyboard"
-msgstr "Tecla d'Ajuda"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535)
 msgid "Helper:"
@@ -5898,10 +5404,6 @@ msgstr "Auxiliar:"
 msgid "Helpers:"
 msgstr "Auxiliars:"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_PAGE_ONE: Control id 16974)
-msgid "Hex"
-msgstr "Hex"
-
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 1660)
 msgid "Hide Menus for unversioned paths"
 msgstr "Oculta menús per rutes no versionades"
@@ -5909,10 +5411,6 @@ msgstr "Oculta menús per rutes no versionades"
 #. Resource IDs: (IDS_PROC_COMMIT_HIDEPATCH)
 msgid "Hide Patch<<"
 msgstr "Amaga pedaç<<"
-
-#. Resource IDs: (IDS_AFXBARRES_HIDE_BAR)
-msgid "Hide docked window"
-msgstr "Amaga finestra encastada"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1326)
 msgid "Hide the script while running"
@@ -5927,12 +5425,11 @@ msgstr ""
 msgid "Hide unchanged refs in Ref Compare List"
 msgstr "Amaga els refs no modificats a la Ref Compare List"
 
-#. Resource IDs: (ID_VIEW_SHOWFILELIST - Menu, ID_VIEW_SHOWFILELIST - Ribbon
-#. name)
+#. Resource IDs: (ID_VIEW_SHOWFILELIST - Menu)
 msgid "Hide/Show the patch file list"
 msgstr "Mostra/oculta la llista de pedaços"
 
-#. Resource IDs: (32817)
+#. Resource IDs: (cmdShowFileList)
 msgid ""
 "Hide/Show the patch file list\n"
 "Hides or shows the patch file list"
@@ -5947,16 +5444,6 @@ msgid ""
 "Hint: Recently used commit messages are available using the context menu of "
 "the text field."
 msgstr ""
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16519)
-msgid ""
-"Hint: select the context menu, change the page to 'Commands' and drag the "
-"toolbar buttons into the menu window."
-msgstr "Ajuda: seleccioneu el menú, canvieu la pàgina a 'Comandes' i arrossegueu els botons de la barra d'eines cap a la finestra del menú."
-
-#. Resource IDs: (17022)
-msgid "Home"
-msgstr "Inici"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKS: Control id 103)
 msgid "Hook Scripts"
@@ -6336,8 +5823,8 @@ msgstr "Ignora"
 msgid "Ignore %d items by &extension"
 msgstr "Ignora %d items per &extensió"
 
-#. Resource IDs: (ID_VIEW_IGNORECOMMENTS - Menu, ID_VIEW_IGNORECOMMENTS -
-#. Ribbon name)
+#. Resource IDs: (ID_VIEW_IGNORECOMMENTS - Menu,
+#. cmdViewIgnoreComments_LabelTitle_RESID)
 msgid "Ignore Comments"
 msgstr "Ignora Comentaris"
 
@@ -6354,7 +5841,7 @@ msgid "Ignore all space"
 msgstr "Ignora tots els espais"
 
 #. Resource IDs: (ID_VIEW_IGNOREALLWHITESPACECHANGES - Menu,
-#. ID_VIEW_IGNOREALLWHITESPACECHANGES - Ribbon name)
+#. cmdIgnoreAllWhitespaceChanges_LabelTitle_RESID)
 msgid "Ignore all whitespace changes"
 msgstr "Ignora tots els canvis d'espais en blanc"
 
@@ -6401,7 +5888,7 @@ msgid "Ignore whitespace"
 msgstr "Ignora espais en blanc"
 
 #. Resource IDs: (ID_VIEW_IGNOREWHITESPACECHANGES - Menu,
-#. ID_VIEW_IGNOREWHITESPACECHANGES - Ribbon name)
+#. cmdIgnoreWhitespaceChanges_LabelTitle_RESID)
 msgid "Ignore whitespace changes"
 msgstr "Ignora canvis d'espais en blanc"
 
@@ -6418,29 +5905,17 @@ msgstr "Ignorat"
 msgid "Ignored Files"
 msgstr "Arxius ignorats"
 
-#. Resource IDs: (32873)
+#. Resource IDs: (cmdIgnoreAllWhitespaceChanges)
 msgid ""
 "Ignores all whitespace changes when diffing\n"
 "Ignore all whitespace changes"
 msgstr "Ignora tots els canvis d'espai en blanc quan cerca diferències\nIgnora tots els canvis d'espai en blanc"
 
-#. Resource IDs: (32872)
+#. Resource IDs: (cmdIgnoreWhitespaceChanges)
 msgid ""
 "Ignores changes in whitespaces when diffing\n"
 "Ignore whitespace changes"
 msgstr "Ignora els canvis d'espai en blanc quan cerca diferències\nIgnora  els canvis d'espai en blanc"
-
-#. Resource IDs: (ID_AFXBARRES_TOOLBAR_IMAGE_AND_TEXT - Menu)
-msgid "Image &and Text"
-msgstr "Imatge &i Text"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16507)
-msgid "Image &and text"
-msgstr "Imatge &i text"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16508)
-msgid "Images"
-msgstr "Imatges"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_IMPORT)
 msgid "Import"
@@ -6517,12 +5992,13 @@ msgstr "Importació Inicial"
 msgid "Initialized empty Git repository in %s."
 msgstr "Inicialitza un nou dipòsit git a la carpeta %s"
 
-#. Resource IDs: (ID_VIEW_INLINEDIFF - Menu, ID_VIEW_INLINEDIFF - Ribbon name)
+#. Resource IDs: (ID_VIEW_INLINEDIFF - Menu,
+#. cmdViewInlineDiff_LabelTitle_RESID)
 msgid "Inline diff"
 msgstr "Diff en-linia"
 
-#. Resource IDs: (ID_VIEW_INLINEDIFFWORD - Menu, ID_VIEW_INLINEDIFFWORD -
-#. Ribbon name)
+#. Resource IDs: (ID_VIEW_INLINEDIFFWORD - Menu,
+#. cmdViewInlineDiffWord_LabelTitle_RESID)
 msgid "Inline diff word-wise"
 msgstr "Diff en-linia per paraules"
 
@@ -6534,7 +6010,7 @@ msgstr "Diferències en-línia"
 msgid "Input"
 msgstr "Entrada"
 
-#. Resource IDs: (57637)
+#. Resource IDs: (57637, cmdPaste)
 msgid ""
 "Insert Clipboard contents\n"
 "Paste"
@@ -6606,21 +6082,13 @@ msgid ""
 "Jump to first unresolved conflict"
 msgstr "Continua resolent\nSalta al primer conflicte no resolt."
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16136)
-msgid "Keyboard"
-msgstr "Teclat"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 65535)
-msgid "Keyboard shortcuts:"
-msgstr "Acceleradors de teclat:"
-
-#. Resource IDs: (IDS_AFXBARRES_KEYS)
-msgid "Keys"
-msgstr "Tecles"
-
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Korean"
 msgstr "Korean"
+
+#. Resource IDs: (cmdViewWrapLines_Keytip_RESID)
+msgid "L"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
@@ -6736,14 +6204,8 @@ msgstr "Imatge esquerra"
 msgid "Line Graph"
 msgstr "Gràfic de línies"
 
-#. Resource IDs: (16904)
-msgid ""
-"Line Tool\n"
-"Line"
-msgstr "Eina de Línea\nLínea"
-
-#. Resource IDs: (ID_VIEW_LINEDIFFBAR - Menu, ID_VIEW_LINEDIFFBAR - Ribbon
-#. name)
+#. Resource IDs: (ID_VIEW_LINEDIFFBAR - Menu,
+#. cmdViewLineDiffBar_LabelTitle_RESID)
 msgid "Line diff bar"
 msgstr "Barra diff de línia"
 
@@ -6793,11 +6255,6 @@ msgid ""
 "List a renamed file as \"long/path/{to => for}/file.txt\" instead of "
 "\"long/path/for/file.txt (from long/path/to/file.txt)\"."
 msgstr "Mostra un arxiu reanomenat com \"ruta/llarga/{antiga => nova}/arxiu.txt\" enlloc de \"ruta/llarga/novaa/arxiu.txt (des de ruta/llarga/antiga/arxiu.txt)\"."
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16992, Dialog
-#. IDD_AFXBARRES_PROPPAGE4: Control id 16631)
-msgid "List1"
-msgstr "List1"
 
 #. Resource IDs: (Dialog IDD_OPEN: Control id 130)
 msgid "Load Images"
@@ -6858,9 +6315,13 @@ msgid ""
 "selected revision of the repository will be saved to."
 msgstr "Ruta on es desaran els continguts de la revisió del dipòsit seleccionada."
 
-#. Resource IDs: (ID_VIEW_LOCATORBAR - Menu, ID_VIEW_LOCATORBAR - Ribbon name)
+#. Resource IDs: (ID_VIEW_LOCATORBAR - Menu)
 msgid "Locator Bar"
 msgstr "Barra Localització"
+
+#. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
+msgid "Locator bar"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6902,10 +6363,6 @@ msgstr "Missatges de registre (Mostra diàleg de registre)"
 msgid "Login:"
 msgstr "Inici de sessió:"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 16973)
-msgid "Lum"
-msgstr "Lum"
-
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1550)
 msgid "M&erge: Resets the index and try to reconstruct the pre-merge state"
 msgstr ""
@@ -6944,7 +6401,7 @@ msgid "Manage Remotes"
 msgstr "Administra remots"
 
 #. Resource IDs: (IDS_SVNPROGRESS_MENUMARKASRESOLVED, ID_EDIT_MARKASRESOLVED -
-#. Menu, ID_EDIT_MARKASRESOLVED - Ribbon name)
+#. Menu, cmdMarkResolved_LabelTitle_RESID)
 msgid "Mark as resolved"
 msgstr "Marca com a resolt"
 
@@ -6966,7 +6423,7 @@ msgstr ""
 msgid "Marked Blocks"
 msgstr "Blocs marcats"
 
-#. Resource IDs: (32808)
+#. Resource IDs: (cmdMarkResolved)
 msgid ""
 "Marks a file as resolved in Git\n"
 "Mark as resolved"
@@ -6996,22 +6453,6 @@ msgstr "Max. número d'elements per a conservar en l'històric de missatges de r
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 65535)
 msgid "Max. lines in action log"
 msgstr "Max. nombre de línies al registre d'accions"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16655)
-msgid "Me&nus show recently used commands first"
-msgstr "Els Me&nús mostren primer les comandes més recents"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16134)
-msgid "Menu"
-msgstr "Menú"
-
-#. Resource IDs: (IDS_AFXBARRES_MENU_BAR_TITLE)
-msgid "Menu Bar"
-msgstr "Barra de Menú"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16626)
-msgid "Menu s&hadows"
-msgstr "&Ombres de Menú"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 313, IDS_PROGRS_TITLE_MERGE)
 msgid "Merge"
@@ -7088,10 +6529,6 @@ msgstr "Mín"
 msgid "Mine"
 msgstr "Meu"
 
-#. Resource IDs: (IDS_AFXBARRES_MINIMIZE_RIBBON)
-msgid "Minimize the Ribbon"
-msgstr "Minimitza la Cinta"
-
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "Minimum number of chars for a commit message:"
 msgstr "Nombre mínim de caràcters per un missatge d'entrega:"
@@ -7115,27 +6552,14 @@ msgid "Modification date"
 msgstr "Data de modificació"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1706, Dialog
-#. IDD_SETCOLORPAGE: Control id 65535, IDS_AFX_SHELLLISTCTRL_MODIFIED,
-#. IDS_PATHACTIONS_MODIFIED, IDS_SVNACTION_MODIFIED,
-#. IDS_SVN_SUMMARIZEMODIFIED)
+#. IDD_SETCOLORPAGE: Control id 65535, IDS_PATHACTIONS_MODIFIED,
+#. IDS_SVNACTION_MODIFIED, IDS_SVN_SUMMARIZEMODIFIED)
 msgid "Modified"
 msgstr "Modificat"
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_MODIFIEDFILES)
 msgid "Modified Files"
 msgstr "Arxius modificats"
-
-#. Resource IDs: (IDS_AFXBARRES_MORE)
-msgid "More"
-msgstr "Més"
-
-#. Resource IDs: (IDS_AFXBARRES_MORE_BUTTONS)
-msgid "More Buttons"
-msgstr "Més Botons"
-
-#. Resource IDs: (IDS_AFXBARRES_MORE_COMMANDS)
-msgid "More Commands..."
-msgstr "Més  Comandes..."
 
 #. Resource IDs: (IDS_COLOURPICKER_CUSTOMTEXT)
 msgid "More colors..."
@@ -7148,26 +6572,6 @@ msgstr "Més"
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1136)
 msgid "Most active author:"
 msgstr "Autor més actiu:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16135)
-msgid "Mouse"
-msgstr "Ratolí"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 17026)
-msgid "Move &Down"
-msgstr "Mou &Avall"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 17025)
-msgid "Move &Up"
-msgstr "Mou &Amunt"
-
-#. Resource IDs: (IDS_AFXBARRES_MOVEDN)
-msgid "Move Item Down"
-msgstr "Mou Element Avall"
-
-#. Resource IDs: (IDS_AFXBARRES_MOVEUP)
-msgid "Move Item Up"
-msgstr "Mou Element Amunt"
 
 #. Resource IDs: (IDS_PROC_MOVERENAME)
 msgid "Move and rename"
@@ -7203,36 +6607,36 @@ msgstr "Movent..."
 msgid "My file:"
 msgstr "El meu fitxer:"
 
+#. Resource IDs: (cmdNavigateNextConflict_Keytip_RESID)
+msgid "NC"
+msgstr ""
+
+#. Resource IDs: (cmdNavigateNextDifference_Keytip_RESID)
+msgid "ND"
+msgstr ""
+
+#. Resource IDs: (cmdNavigateNextInlineDiff_Keytip_RESID)
+msgid "NI"
+msgstr ""
+
 #. Resource IDs: (59138)
 msgid "NUM"
 msgstr "NUM"
-
-#. Resource IDs: (IDS_AFX_SHELLLISTCTRL_NAME)
-msgid "Name"
-msgstr "Nom"
 
 #. Resource IDs: (Dialog IDD_ADD_REMOTE: Control id 65535, Dialog
 #. IDD_REGEXFILTER: Control id 65535)
 msgid "Name:"
 msgstr "Nom:"
 
-#. Resource IDs: (156 - Ribbon element)
+#. Resource IDs: (cmdGroupNavigate_LabelTitle_RESID)
 msgid "Navigate"
 msgstr "Navega"
 
-#. Resource IDs: (32893)
+#. Resource IDs: (cmdGotoLine)
 msgid ""
 "Navigate to a specific line in the view\n"
 "Goto Line"
 msgstr "Navega a una línia específica de la vista\nVés a la línia"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 17004)
-msgid "Navigation Pane Options"
-msgstr "Opcions de Navegació"
-
-#. Resource IDs: (IDS_AFXBARRES_NAV_PANE_OPTIONS)
-msgid "Navigation Pane Options..."
-msgstr "Opcions de Navegació..."
 
 #. Resource IDs: (IDS_STATUSLIST_NESTED)
 msgid "Nested"
@@ -7246,9 +6650,7 @@ msgstr "Xarxa"
 msgid "Network::Email"
 msgstr "Xarxa::Correu electrònic"
 
-#. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 30721, Dialog
-#. IDD_AFXBARRES_COLOR_DLG: Control id 65535, IDS_AFXBARRES_NEW,
-#. IDS_AFXBARRES_NEW_FILE, IDS_NEW)
+#. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 30721, IDS_NEW)
 msgid "New"
 msgstr "Nou"
 
@@ -7259,10 +6661,6 @@ msgstr "Nou &nom:"
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 309)
 msgid "New Branch/Tag"
 msgstr "Nova branca/etiqueta"
-
-#. Resource IDs: (IDS_AFXBARRES_NEW_MENU)
-msgid "New Menu"
-msgstr "Nou Menú"
 
 #. Resource IDs: (IDS_NEWHASH)
 msgid "New hash"
@@ -7301,24 +6699,18 @@ msgstr "Salts de línia"
 msgid "Next"
 msgstr "Següent"
 
-#. Resource IDs: (58114)
-msgid ""
-"Next Page\n"
-"Next Page"
-msgstr "Pàgina Següent\nPàgina Següent"
-
-#. Resource IDs: (ID_NAVIGATE_NEXTCONFLICT - Menu, ID_NAVIGATE_NEXTCONFLICT -
-#. Ribbon name)
+#. Resource IDs: (ID_NAVIGATE_NEXTCONFLICT - Menu,
+#. cmdNavigateNextConflict_LabelTitle_RESID)
 msgid "Next conflict"
 msgstr "Següent conflicte"
 
 #. Resource IDs: (ID_NAVIGATE_NEXTDIFFERENCE - Menu,
-#. ID_NAVIGATE_NEXTDIFFERENCE - Ribbon name)
+#. cmdNavigateNextDifference_LabelTitle_RESID)
 msgid "Next difference"
 msgstr "Següent diferència"
 
 #. Resource IDs: (ID_NAVIGATE_NEXTINLINEDIFF - Menu,
-#. ID_NAVIGATE_NEXTINLINEDIFF - Ribbon name)
+#. cmdNavigateNextInlineDiff_LabelTitle_RESID)
 msgid "Next inline difference"
 msgstr "Següent diferència en-linia"
 
@@ -7405,6 +6797,10 @@ msgid ""
 "Do you want to see the unversioned files?"
 msgstr ""
 
+#. Resource IDs: (33002)
+msgid "No filter"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_NOMSYSGIT)
 msgid ""
 "No git.exe found.\n"
@@ -7459,8 +6855,7 @@ msgstr "No s'ha trobat el directori de treball."
 msgid "Node size"
 msgstr "Mida del node"
 
-#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1272,
-#. IDS_AFXBARRES_MENU_ANIMATION_NONE, IDS_NONE)
+#. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1272, IDS_NONE)
 msgid "None"
 msgstr "Cap"
 
@@ -7641,12 +7036,8 @@ msgstr "OEM-US"
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 1, Dialog IDD_ABOUT:
 #. Control id 1, Dialog IDD_ABOUTBOX: Control id 1, Dialog IDD_ADD: Control id
-#. 1, Dialog IDD_ADD_REMOTE: Control id 1, Dialog IDD_AFXBARRES_BUTTON_PROPS:
-#. Control id 1, Dialog IDD_AFXBARRES_COLOR_DLG: Control id 1, Dialog
-#. IDD_AFXBARRES_IMAGE_EDITOR: Control id 1, Dialog
-#. IDD_AFXBARRES_OUTLOOKBAR_OPTIONS: Control id 1, Dialog
-#. IDD_AFXBARRES_TOOLBAR_NAME: Control id 1, Dialog IDD_BISECTSTART: Control
-#. id 1, Dialog IDD_BROWSE_REFS: Control id 1, Dialog IDD_BUGTRAQREGEXTESTER:
+#. 1, Dialog IDD_ADD_REMOTE: Control id 1, Dialog IDD_BISECTSTART: Control id
+#. 1, Dialog IDD_BROWSE_REFS: Control id 1, Dialog IDD_BUGTRAQREGEXTESTER:
 #. Control id 1, Dialog IDD_CHANGEDFILES: Control id 1, Dialog IDD_CLEAN:
 #. Control id 1, Dialog IDD_CLONE: Control id 1, Dialog IDD_CREATECHANGELIST:
 #. Control id 1, Dialog IDD_CREATEREPO: Control id 1, Dialog IDD_ENCODING:
@@ -7680,24 +7071,6 @@ msgid ""
 "OLE initialization failed.  Make sure that the OLE libraries are the correct"
 " version."
 msgstr "Ha fracassat la inicialització OLE. Assegureu-vos que les biblioteques OLE tenen la versió correcta."
-
-#. Resource IDs: (10006, ID_VIEW_APPLOOK_OFF_2003 - Menu,
-#. ID_VIEW_APPLOOK_OFF_2003 - Ribbon name)
-msgid "Office 2003"
-msgstr "Office 2003"
-
-#. Resource IDs: (65535 - PopupMenu, ID_OFFICE2007 - Ribbon name)
-msgid "Office 2007"
-msgstr "Office 2007"
-
-#. Resource IDs: (10008, 65535 - PopupMenu)
-msgid "Office 2007 colors"
-msgstr "Office 2007, colors"
-
-#. Resource IDs: (10004, ID_VIEW_APPLOOK_OFF_XP - Menu, ID_VIEW_APPLOOK_OFF_XP
-#. - Ribbon name)
-msgid "Office XP"
-msgstr "Office XP"
 
 #. Resource IDs: (IDS_OLDHASH)
 msgid "Old hash"
@@ -7766,8 +7139,7 @@ msgstr "Només remot"
 msgid "Only unmerged (to HEAD)"
 msgstr ""
 
-#. Resource IDs: (AFX_IDS_OPENFILE, ID_FILE_OPEN - Menu, ID_FILE_OPEN - Ribbon
-#. name)
+#. Resource IDs: (AFX_IDS_OPENFILE, ID_FILE_OPEN - Menu)
 msgid "Open"
 msgstr "Obre"
 
@@ -7781,7 +7153,7 @@ msgstr "Obre un document existent\nObre"
 msgid "Open certificate"
 msgstr "Obre el certificat"
 
-#. Resource IDs: (57601)
+#. Resource IDs: (cmdOpen)
 msgid ""
 "Open files for diff or to apply a patch\n"
 "Open files"
@@ -7831,9 +7203,9 @@ msgstr "Navega Dipòsit"
 msgid "Option"
 msgstr "Opció"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16137, Dialog
-#. IDD_NEW_BRANCH_TAG: Control id 1517, Dialog IDD_PULLFETCH: Control id 1517,
-#. Dialog IDD_PUSH: Control id 1502, Dialog IDD_STASH: Control id 1517)
+#. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1517, Dialog
+#. IDD_PULLFETCH: Control id 1517, Dialog IDD_PUSH: Control id 1502, Dialog
+#. IDD_STASH: Control id 1517)
 msgid "Options"
 msgstr "Opcions"
 
@@ -7844,10 +7216,6 @@ msgstr "Mida ori&ginal\tS"
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1531)
 msgid "Origin Name"
 msgstr "Nom de l'origen"
-
-#. Resource IDs: (17024)
-msgid "Other Task Panes"
-msgstr "Altres sub-finestres de Tasques"
 
 #. Resource IDs: (IDS_STATGRAPH_OTHERGROUP)
 msgid "Others"
@@ -7883,6 +7251,18 @@ msgstr ""
 
 #. Resource IDs: (ID_FILE_PAGESETUP - Menu)
 msgid "P&age setup..."
+msgstr ""
+
+#. Resource IDs: (cmdNavigatePreviousConflict_Keytip_RESID)
+msgid "PC"
+msgstr ""
+
+#. Resource IDs: (cmdNavigatePreviousDifference_Keytip_RESID)
+msgid "PD"
+msgstr ""
+
+#. Resource IDs: (cmdNavigatePreviousInlineDiff_Keytip_RESID)
+msgid "PI"
 msgstr ""
 
 #. Resource IDs: (AFX_IDS_PRINTPAGENUM)
@@ -7952,7 +7332,7 @@ msgstr "Contrasenya:"
 msgid "Password:"
 msgstr "Contrasenya:"
 
-#. Resource IDs: (ID_EDIT_PASTE - Ribbon name)
+#. Resource IDs: (cmdPaste_LabelTitle_RESID)
 msgid "Paste"
 msgstr "Enganxa"
 
@@ -7963,12 +7343,6 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_POPUP_PASTELASTMESSAGE)
 msgid "Paste &last commit message"
 msgstr ""
-
-#. Resource IDs: (16908)
-msgid ""
-"Paste Tool\n"
-"Paste"
-msgstr "Eina d'Enganxar\nEnganxa"
 
 #. Resource IDs: (IDS_COMMITDLG_POPUP_LOGHISTORY)
 msgid "Paste r&ecent message..."
@@ -8036,12 +7410,6 @@ msgstr "Ruta:"
 msgid "Paths"
 msgstr "Camins"
 
-#. Resource IDs: (16902)
-msgid ""
-"Pencil Tool\n"
-"Pencil"
-msgstr "Eina de Llapis\nLlapis"
-
 #. Resource IDs: (IDS_STATGRAPH_PERCENTAGE_OF_AUTHORSHIP)
 msgid "Percent of authorship"
 msgstr "Percentatge d'autoria"
@@ -8049,10 +7417,6 @@ msgstr "Percentatge d'autoria"
 #. Resource IDs: (IDS_STATGRAPH_PERCENTAGE_OF_AUTHORSHIPY)
 msgid "Percents"
 msgstr "Percentatges"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16538)
-msgid "Personalized Menus and Toolbars"
-msgstr "Menús i Barres d'Eines Personalitzats"
 
 #. Resource IDs: (IDS_PATHACTIONS_PICK, IDS_REBASE_PICK)
 msgid "Pick"
@@ -8076,10 +7440,6 @@ msgid ""
 "Picture (Metafile)\n"
 "a picture"
 msgstr "Dibuix (Metafile)\nun dibuix"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 65535)
-msgid "Picture:"
-msgstr "Dibuix:"
 
 #. Resource IDs: (IDS_PICTUREFILEFILTER)
 msgid ""
@@ -8192,65 +7552,32 @@ msgstr "Afegeix el bloc dret a l'inici"
 msgid "Prepend this block to left"
 msgstr "Afegeix aquest bloc a l'esquerra, a l'inici"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 65535)
-msgid "Press &New Shortcut Key:"
-msgstr "Premeu nova tecla ràpida:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
-msgid "Press &new shortcut key:"
-msgstr "Premeu nova tecla ràpida:"
-
-#. Resource IDs: (IDS_AFXBARRES_PREVIEW)
-msgid "Preview"
-msgstr "Visualització Prèvia"
-
 #. Resource IDs: (IDS_PATCH_PREVIEW)
 msgid "Preview patched file"
 msgstr "Previsualitza fitxer apedaçat"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 65535)
-msgid "Preview: "
-msgstr "Visualització Prèvia:"
-
 #. Resource IDs: (ID_VIEW_PREV - Menu)
 msgid "Previous"
 msgstr "Anterior"
-
-#. Resource IDs: (58115)
-msgid ""
-"Previous Page\n"
-"Previous Page"
-msgstr "Pàgina Anterior\nPàgina Anterior"
 
 #. Resource IDs: (IDS_PROC_PREVIOUSVERSION)
 msgid "Previous Version"
 msgstr "Versió anterior."
 
 #. Resource IDs: (ID_NAVIGATE_PREVIOUSCONFLICT - Menu,
-#. ID_NAVIGATE_PREVIOUSCONFLICT - Ribbon name)
+#. cmdNavigatePreviousConflict_LabelTitle_RESID)
 msgid "Previous conflict"
 msgstr "Conflicte anterior"
 
 #. Resource IDs: (ID_NAVIGATE_PREVIOUSDIFFERENCE - Menu,
-#. ID_NAVIGATE_PREVIOUSDIFFERENCE - Ribbon name)
+#. cmdNavigatePreviousDifference_LabelTitle_RESID)
 msgid "Previous difference"
 msgstr "Diferència anterior"
 
 #. Resource IDs: (ID_NAVIGATE_PREVINLINEDIFF - Menu,
-#. ID_NAVIGATE_PREVINLINEDIFF - Ribbon name)
+#. cmdNavigatePreviousInlineDiff_LabelTitle_RESID)
 msgid "Previous inline difference"
 msgstr "Diferència en-línia anterior"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16990,
-#. IDS_AFXBARRES_PRINT)
-msgid "Print"
-msgstr "Imprimeix"
-
-#. Resource IDs: (58116)
-msgid ""
-"Print Document\n"
-"&Print"
-msgstr "Imprimeix Document\n&Imprimeix"
 
 #. Resource IDs: (57608)
 msgid ""
@@ -8403,7 +7730,7 @@ msgstr "Clau putty"
 msgid "Putty Private Key (*.ppk)|*.ppk|All Files (*.*)|*.*||"
 msgstr "Clau Privada Putty (*.ppk)|*.ppk|Tots els arxius (*.*)|*.*||"
 
-#. Resource IDs: (57665)
+#. Resource IDs: (57665, cmdExit)
 msgid ""
 "Quit the application; prompts to save documents\n"
 "Exit"
@@ -8419,13 +7746,13 @@ msgstr "Tanca\nTanca TortoiseGitMerge sense desar les modificacions"
 msgid "QuotePath"
 msgstr "QuotePath"
 
+#. Resource IDs: (cmdReload_Keytip_RESID)
+msgid "R"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1073)
 msgid "R&AM drives"
 msgstr "Unitats R&AM"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16623)
-msgid "R&eset"
-msgstr "Reinicialitza"
 
 #. Resource IDs: (IDS_RESTORE_FROM_INDEX)
 msgid "R&estore this file from index"
@@ -8469,15 +7796,6 @@ msgstr "Unitats ex&traibles"
 msgid "Re&name..."
 msgstr "A&nomena..."
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 16613)
-msgid "Re&set"
-msgstr "Re&seteja"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 16647, Dialog
-#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16647)
-msgid "Re&set All"
-msgstr "Re&seteja Tot"
-
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1382)
 msgid "Re&store defaults"
 msgstr "Re&staura valor per defecte"
@@ -8516,10 +7834,6 @@ msgstr "Rebase..."
 msgid "Rebasing... (%d/%d)"
 msgstr "Rebasing... (%d/%d)"
 
-#. Resource IDs: (IDS_AFXBARRES_RECENT)
-msgid "Recent"
-msgstr "Recent"
-
 #. Resource IDs: (ID_FILE_MRU_FILE1 - Menu)
 msgid "Recent File"
 msgstr "Arxius recents"
@@ -8546,12 +7860,6 @@ msgstr "Recupera els documents auto-desats.\nObre les versions auto-desades enll
 msgid "Recover to the status before rebase"
 msgstr "Recupera l'estat d'abans del Rebase"
 
-#. Resource IDs: (16905)
-msgid ""
-"Rectangle Tool\n"
-"Rectangle"
-msgstr "Eina de Rectangle\nRectangle"
-
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1487)
 msgid "Recurse submodule"
 msgstr "Sub-mòdul recursiu"
@@ -8560,11 +7868,11 @@ msgstr "Sub-mòdul recursiu"
 msgid "Recursive"
 msgstr "Recursiu"
 
-#. Resource IDs: (ID_EDIT_REDO - Ribbon name)
+#. Resource IDs: (cmdRedo_LabelTitle_RESID)
 msgid "Redo"
 msgstr "Torna a fer"
 
-#. Resource IDs: (57644)
+#. Resource IDs: (57644, cmdRedo)
 msgid ""
 "Redo the previously undone action\n"
 "Redo"
@@ -8612,8 +7920,8 @@ msgstr "Refresca"
 msgid "Refreshing..."
 msgstr "Refrescant..."
 
-#. Resource IDs: (500, 65535 - PopupMenu, Dialog IDD_REGEXFILTER: Control id
-#. 165, ID_REGEXFILTER - Ribbon name)
+#. Resource IDs: (65535 - PopupMenu, Dialog IDD_REGEXFILTER: Control id 165,
+#. cmdRegexFilterConfig1, cmdRegexFilterConfig1_LabelTitle_RESID)
 msgid "Regex Filter"
 msgstr "Filtre regex"
 
@@ -8653,11 +7961,11 @@ msgstr "Trossos de pedaç rebutjats per '%s'"
 msgid "Relative Times in log"
 msgstr "Temps relatius en el registre"
 
-#. Resource IDs: (ID_FILE_RELOAD - Menu, ID_FILE_RELOAD - Ribbon name)
+#. Resource IDs: (ID_FILE_RELOAD - Menu, cmdReload_LabelTitle_RESID)
 msgid "Reload"
 msgstr "Recarrega"
 
-#. Resource IDs: (32794)
+#. Resource IDs: (cmdReload)
 msgid ""
 "Reloads the opened files and reverts all changes.\n"
 "Reload"
@@ -8748,7 +8056,7 @@ msgstr "Branca remota"
 msgid "Remove &non-ignored untracked files (-f)"
 msgstr "Treu els arxius no rastrejats que no estan ignorats (-f)"
 
-#. Resource IDs: (32896)
+#. Resource IDs: (cmdViewIgnoreComments)
 msgid ""
 "Remove all comments before doing the diff so changes inside comments don't "
 "show as different"
@@ -8757,10 +8065,6 @@ msgstr "Suprimeix tots els comentaris abans de fer el diff de manera que els can
 #. Resource IDs: (IDS_MENUUNIGNORE)
 msgid "Remove from &ignore list"
 msgstr "Treu de la llista d'&ignorats"
-
-#. Resource IDs: (IDS_AFXBARRES_REMOVE_FROM_QAT)
-msgid "Remove from Quick Access Toolbar"
-msgstr "Treu de la Barra d'Eines d'Accés Ràpid"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_REMOVEFROMCS)
 msgid "Remove from changelist"
@@ -8772,6 +8076,10 @@ msgstr "Elimina arxius ignorats (-fX)"
 
 #. Resource IDs: (IDS_REMOVESTALEBUTTON)
 msgid "Remove stale lock file"
+msgstr ""
+
+#. Resource IDs: (Dialog IDD_CLEAN: Control id 1631)
+msgid "Remove unmanaged directories with .git folder (-f)"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1626)
@@ -8801,10 +8109,6 @@ msgstr "-Esborrat(s) Patró(ns) de fitxer \n%s\nde la llista d'ignorats."
 #. Resource IDs: (IDS_MENUDESCUNIGNORE)
 msgid "Removes the file or filemask from the list of ignored items"
 msgstr "Treu el fitxer o màscara de fitxer de la llista d'elements ignorats"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16616)
-msgid "Rena&me..."
-msgstr "C&anvia el Nom..."
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 1753,
 #. IDS_PATHACTIONS_RENAME, IDS_PROC_BROWSEREFS_RENAME)
@@ -8894,10 +8198,6 @@ msgstr "Res&ol..."
 #. Control id 317, IDS_PROC_RESET, IDS_PROGRS_TITLE_RESET)
 msgid "Reset"
 msgstr "&Reinicialitza"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16614)
-msgid "Reset &All"
-msgstr "Reinicialitza &Tot"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1554, Dialog IDD_RESET:
 #. Control id 1554)
@@ -9102,43 +8402,13 @@ msgstr "Visualització dreta:"
 msgid "Right image"
 msgstr "Imatge dreta"
 
-#. Resource IDs: (IDS_AFXBARRES_GALLERY_ROW1_FMT)
-#, c-format
-msgid "Row %d of %d"
-msgstr "Fila %d de %d"
-
-#. Resource IDs: (IDS_AFXBARRES_GALLERY_ROW2_FMT)
-#, c-format
-msgid "Row %d-%d of %d"
-msgstr "Fila %d-%d of %d"
-
-#. Resource IDs: (IDS_AFXBARRES_GALLERY_ROW_DOWN)
-msgid "Row Down"
-msgstr "Fila avall"
-
-#. Resource IDs: (IDS_AFXBARRES_GALLERY_ROW_UP)
-msgid "Row Up"
-msgstr "Fila amunt"
-
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1335)
 msgid "Run when working tree path is under:"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_DLG: Control id 17045)
-msgid "S&elect..."
-msgstr "Selecciona..."
-
-#. Resource IDs: (IDS_AFXBARRES_SHOWONEROW)
-msgid "S&how Buttons on One Row"
-msgstr "M&ostra Botons en una Filera"
-
-#. Resource IDs: (IDS_AFXBARRES_SHOWTWOROWS)
-msgid "S&how Buttons on Two Rows"
-msgstr "M&ostra Botons en Dues Fileres"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE8: Control id 17078)
-msgid "S&how Quick Access Toolbar below the Ribbon"
-msgstr "M&ostra Barra d'Eines de Ràpid Accès a sota de la Cinta"
+#. Resource IDs: (cmdSave_Keytip_RESID)
+msgid "S"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1383, Dialog IDD_RESET:
 #. Control id 1383)
@@ -9256,9 +8526,13 @@ msgstr ""
 msgid "Sample text:"
 msgstr "Text de mostra:"
 
-#. Resource IDs: (ID_FILE_SAVE - Menu, ID_FILE_SAVE - Ribbon name)
+#. Resource IDs: (ID_FILE_SAVE - Menu)
 msgid "Save"
 msgstr "Desa"
+
+#. Resource IDs: (cmdSaveAs_LabelTitle_RESID)
+msgid "Save &as"
+msgstr ""
 
 #. Resource IDs: (IDS_REPOBROWSE_SAVEAS, ID_FILE_SAVE_AS - Menu)
 msgid "Save &as..."
@@ -9334,7 +8608,7 @@ msgid ""
 "Your changes are saved and the marked blocks are included"
 msgstr "Desa i inclou\nEls vostres canvis es desen i s'inclouen els blocs marcats"
 
-#. Resource IDs: (IDS_ASKFORSAVEAS, ID_FILE_SAVE_AS - Ribbon name)
+#. Resource IDs: (IDS_ASKFORSAVEAS)
 msgid "Save as"
 msgstr "Anomena i Desa"
 
@@ -9377,7 +8651,7 @@ msgid ""
 "Save"
 msgstr "Desa el document actiu\nDesa"
 
-#. Resource IDs: (57603, 57604)
+#. Resource IDs: (cmdSave, cmdSaveAs)
 msgid ""
 "Save the modified file\n"
 "Save file"
@@ -9435,14 +8709,6 @@ msgstr "Escaneja"
 msgid "Scintilla"
 msgstr "Scintilla"
 
-#. Resource IDs: (16034)
-msgid "Scroll Left"
-msgstr "Mou cap a l'Esquerra"
-
-#. Resource IDs: (16035)
-msgid "Scroll Right"
-msgstr "Mou cap a la Dreta"
-
 #. Resource IDs: (ID_FILE_SETTINGS - Menu)
 msgid "Se&ttings..."
 msgstr ""
@@ -9475,24 +8741,6 @@ msgstr "Selecciona"
 #. Resource IDs: (IDS_SCIEDIT_SELECTALL)
 msgid "Select &All"
 msgstr "Selecciona &Tot"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16529)
-msgid "Select &User-defined Image: "
-msgstr "Selecciona Imatge definida pel &Usuari: "
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE3: Control id 16508)
-msgid "Select &context menu:"
-msgstr "Selecciona Menú de &contexte:"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 65535)
-msgid "Select &window:"
-msgstr "Selecciona &finestra"
-
-#. Resource IDs: (16903)
-msgid ""
-"Select Color Tool\n"
-"Select Color"
-msgstr "Selecciona Eina de Color\nSelecciona Color"
 
 #. Resource IDs: (IDS_SELECTFILE)
 msgid "Select File..."
@@ -9648,11 +8896,6 @@ msgstr "Enviant..."
 msgid "Server &address:"
 msgstr "&Adreça del Servidor: "
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE5: Control id 65535, Dialog
-#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 65535)
-msgid "Set Accelerator &for:"
-msgstr "Estableix Accelerador &per:"
-
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1558)
 msgid "Set au&thor"
 msgstr "Estableix &autor"
@@ -9675,7 +8918,7 @@ msgid "Setting properties..."
 msgstr "Establint propietats..."
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 1017, IDS_SETTINGSTITLE,
-#. ID_VIEW_OPTIONS - Menu, ID_VIEW_OPTIONS - Ribbon name)
+#. ID_VIEW_OPTIONS - Menu, cmdSettings_LabelTitle_RESID)
 msgid "Settings"
 msgstr "Configuració"
 
@@ -9711,10 +8954,6 @@ msgstr "Escurça llista de propietats"
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1382)
 msgid "Show"
 msgstr "Mostra"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_KEYMAP: Control id 16996)
-msgid "Show &Accelerator for:"
-msgstr "Mostra &Accelerador per:"
 
 #. Resource IDs: (IDS_MENUREFLOG)
 msgid "Show &Reflog"
@@ -9752,60 +8991,32 @@ msgstr "Mostra els refs a&niuats"
 msgid "Show &overlays and context menu only in explorer"
 msgstr "Mostra &sobreposiscions i menú només a l'explorador"
 
-#. Resource IDs: (IDS_AFXBARRES_PLACE_ABOVE_RIBBON)
-msgid "Show Above the Ribbon"
-msgstr "Mostra Amunt de la Cinta"
-
-#. Resource IDs: (IDS_AFXBARRES_PLACE_BELOW_RIBBON)
-msgid "Show Below the Ribbon"
-msgstr "Mostra Avall de la Cinta"
-
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1382)
 msgid "Show Environment Variables"
 msgstr "Mostra variables d'entorn"
-
-#. Resource IDs: (IDS_AFXBARRES_SHOW_FEWER_BUTTONS)
-msgid "Show Fewer Buttons"
-msgstr "Mostra Menys Botons"
 
 #. Resource IDs: (32815)
 msgid "Show HEAD revision nodes"
 msgstr "Mostra nodes revisió HEAD"
 
-#. Resource IDs: (32825)
+#. Resource IDs: (cmdViewInlineDiffWord)
 msgid ""
 "Show Inline-Diff word by word\n"
 "Inline diff word-wise"
 msgstr "Mostra Diff en-línia paraula per paraula\nDiff en-línia per paraula"
 
-#. Resource IDs: (32889)
+#. Resource IDs: (cmdViewInlineDiff)
 msgid ""
 "Show Inline-Diff\n"
 "Inline diff"
 msgstr "Mostra Diff en-línea\nDiff en-línea"
 
-#. Resource IDs: (IDS_AFXBARRES_SHOW_MORE_BUTTONS)
-msgid "Show More Buttons"
-msgstr "Mostra Més Botons"
-
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
 msgstr ""
 
-#. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_ABOVE_RIBBON)
-msgid "Show Quick Access Toolbar Above the Ribbon"
-msgstr "Mostra Barra d'Eines de Ràpid Accés Amunt de la Cinta"
-
-#. Resource IDs: (IDS_AFXBARRES_PLACE_QAT_BELOW_RIBBON)
-msgid "Show Quick Access Toolbar Below the Ribbon"
-msgstr "Mostra Barra d'Eines de Ràpid Accés sota la Cinta"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16651)
-msgid "Show Screen&Tips on toolbars"
-msgstr "Mostra Ajude sDe&Pantalla a les barres d'eina"
-
-#. Resource IDs: (ID_VIEW_WHITESPACES - Menu, ID_VIEW_WHITESPACES - Ribbon
-#. name)
+#. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
+#. cmdShowWhitespaces_LabelTitle_RESID)
 msgid "Show Whitespaces"
 msgstr "Mostra espais en blanc"
 
@@ -9885,10 +9096,6 @@ msgstr "Mostra els directoris exclosos com si fossin normals"
 msgid "Show extra changes after merge"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16656)
-msgid "Show f&ull menus after a short delay"
-msgstr "Mostra menús &sencers després d'un temps curt"
-
 #. Resource IDs: (32802, ID_VIEW_SHOWFILENAME - Menu)
 msgid "Show file name"
 msgstr "Mostra el nom del fitxer"
@@ -9959,13 +9166,13 @@ msgstr "Mostra el següent canvi de les entregues seleccionades\nMostra el segü
 msgid "Show oldest node at top"
 msgstr "Mostra node més vell a dalt"
 
-#. Resource IDs: (32853)
+#. Resource IDs: (cmdViewLineDiffBar)
 msgid ""
 "Show or hide the line diff bar\n"
 "Toggle LineDiffBar"
 msgstr "Mostra o amaga barra de diferències de Línea\nMostra o Amaga BarDifLin"
 
-#. Resource IDs: (32854)
+#. Resource IDs: (cmdViewLocatorBar)
 msgid ""
 "Show or hide the locator bar\n"
 "Toggle LocatorBar"
@@ -9977,7 +9184,7 @@ msgid ""
 "Toggle Status Bar"
 msgstr "Mostra o amaga la barra d'estat\nCanvia la barra d'estat"
 
-#. Resource IDs: (59393)
+#. Resource IDs: (cmdViewStatusBar)
 msgid ""
 "Show or hide the status bar\n"
 "Toggle StatusBar"
@@ -10003,11 +9210,7 @@ msgstr "Mostra el següent anterior de les entregues seleccionades\nMostra l'ant
 msgid "Show revision properties"
 msgstr "Mostra propietats de la revisió"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 16652)
-msgid "Show shortcut &keys in ScreenTips"
-msgstr "Mostra acceleradors de &teclat a les Ajudes de Pantalla"
-
-#. Resource IDs: (32774)
+#. Resource IDs: (cmdShowWhitespaces)
 msgid ""
 "Show special characters for whitespaces and newlines\n"
 "Show Whitespaces"
@@ -10078,17 +9281,11 @@ msgstr "&Signa"
 msgid "Significant contributions by: (see Git repository for a complete list)"
 msgstr ""
 
-#. Resource IDs: (10011, ID_VIEW_APPLOOK_OFF_2007_SILVER - Menu,
-#. ID_VIEW_APPLOOK_OFF_2007_SILVER - Ribbon name)
-msgid "Silver Style"
-msgstr "Estil platejat"
-
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1532)
 msgid "Since"
 msgstr "Des de"
 
-#. Resource IDs: (IDS_AFX_SHELLLISTCTRL_SIZE, IDS_LOG_SIZE,
-#. IDS_STATUSLIST_COLSIZE)
+#. Resource IDs: (IDS_LOG_SIZE, IDS_STATUSLIST_COLSIZE)
 msgid "Size"
 msgstr "Mida"
 
@@ -10121,10 +9318,6 @@ msgstr "Ignorat"
 #. Resource IDs: (IDS_SVNACTION_SKIPMISSING)
 msgid "Skipped missing target"
 msgstr "Objectiu no trobat ignorat"
-
-#. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_SLIDE)
-msgid "Slide"
-msgstr "Desplaça"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1098)
 msgid "Smart tab char"
@@ -10160,15 +9353,6 @@ msgid ""
 "dialog."
 msgstr "Especifica quants elements es volen mantenir en el diàleg de missatges més recents."
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLORPAGE_TWO: Control id 16976, Dialog
-#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16977, Dialog
-#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16978, Dialog
-#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16979, Dialog
-#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16980, Dialog
-#. IDD_AFXBARRES_COLORPAGE_TWO: Control id 16981)
-msgid "Spin1"
-msgstr "Spin1"
-
 #. Resource IDs: (IDS_SCIEDIT_SPLITLINES)
 msgid "Split lines"
 msgstr "Parteix línies"
@@ -10195,8 +9379,7 @@ msgstr "Gràfic de barres apilades"
 msgid "Stacked Line Graph"
 msgstr "Gràfic de línies apilades"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_PAGE_ONE: Control id 16962,
-#. IDS_TOOLBAR_STANDARD)
+#. Resource IDs: (IDS_TOOLBAR_STANDARD)
 msgid "Standard"
 msgstr "Estàndard"
 
@@ -10293,11 +9476,9 @@ msgstr "L'operació del Stash s'està executant..."
 msgid "State"
 msgstr "Estat"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE4: Control id 16514, Dialog
-#. IDD_AFXBARRES_PROPPAGE5: Control id 16514, Dialog
-#. IDD_AFXBARRES_RIBBON_KEYBOARD_DLG: Control id 16514, Dialog
-#. IDD_GITPROGRESS: Control id 1487, Dialog IDD_RESOLVE_CONFLICT: Control id
-#. 4572, Dialog IDD_RESOLVE_CONFLICT: Control id 4573)
+#. Resource IDs: (Dialog IDD_GITPROGRESS: Control id 1487, Dialog
+#. IDD_RESOLVE_CONFLICT: Control id 4572, Dialog IDD_RESOLVE_CONFLICT: Control
+#. id 4573)
 msgid "Static"
 msgstr "Estàtic"
 
@@ -10310,13 +9491,9 @@ msgstr "Estadístiques"
 msgid "Status"
 msgstr "Estat"
 
-#. Resource IDs: (ID_VIEW_STATUS_BAR - Ribbon name)
+#. Resource IDs: (cmdViewStatusBar_LabelTitle_RESID)
 msgid "Status Bar"
 msgstr "Barra d'estat"
-
-#. Resource IDs: (IDS_AFXBARRES_STATBAR_CUSTOMIZE)
-msgid "Status Bar Configuration"
-msgstr "Configuració Barra d'Estat"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "Status and action colors"
@@ -10362,10 +9539,6 @@ msgstr "Estratègia"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1406)
 msgid "Strip lines starting with \"#\" in commit message"
 msgstr ""
-
-#. Resource IDs: (65535 - PopupMenu, IDC_STYLEBUTTON - Ribbon name)
-msgid "Style"
-msgstr "Estil"
 
 #. Resource IDs: (IDS_LOG_FILTER_SUBJECT, IDS_SUBJECT)
 msgid "Subject"
@@ -10454,21 +9627,23 @@ msgid ""
 "Previous Pane"
 msgstr "Torna al panell previ\nPanell Previ"
 
-#. Resource IDs: (ID_VIEW_ONEWAYDIFF - Menu, ID_VIEW_ONEWAYDIFF - Ribbon name)
+#. Resource IDs: (ID_VIEW_ONEWAYDIFF - Menu,
+#. cmdViewOneWayDiff_LabelTitle_RESID)
 msgid "Switch between single and double pane view"
 msgstr "Canvia entre visualització de panell doble i de panell simple"
 
-#. Resource IDs: (32775)
+#. Resource IDs: (cmdViewOneWayDiff)
 msgid ""
 "Switch between single and double pane view\n"
 "Switch between single and double pane view"
 msgstr "Canvia entre visualització de panell doble i de panell simple\nCanvia entre visualització de panell doble i de panell simple"
 
-#. Resource IDs: (ID_VIEW_SWITCHLEFT - Menu, ID_VIEW_SWITCHLEFT - Ribbon name)
+#. Resource IDs: (ID_VIEW_SWITCHLEFT - Menu,
+#. cmdViewSwitchLeft_LabelTitle_RESID)
 msgid "Switch left and right view"
 msgstr "Intercanvia la vista esquerra amb la dreta"
 
-#. Resource IDs: (32811)
+#. Resource IDs: (cmdViewSwitchLeft)
 msgid ""
 "Switch the contents of the left and right view\n"
 "Switch left and right view"
@@ -10560,10 +9735,6 @@ msgstr "TORTOISEGITUDIFF"
 msgid "Ta&gs:"
 msgstr "&Etiquetes:"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_COLOR_DLG: Control id 16970)
-msgid "Tab Placeholder"
-msgstr "Posicions Tabulador"
-
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, Dialog
 #. IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Tab size:"
@@ -10605,10 +9776,6 @@ msgstr "La destinació i l'origen han d'estar al mateix directori de treball."
 #. Resource IDs: (IDS_PROC_TASKS)
 msgid "Tasks"
 msgstr "Tasques"
-
-#. Resource IDs: (IDS_AFXBARRES_TASKPANE)
-msgid "Tasks Pane"
-msgstr "Zona de Tasques"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 65535)
 msgid "Temp files (including Gravatar images)"
@@ -11122,24 +10289,9 @@ msgstr ""
 msgid "This task requires a clean working tree."
 msgstr "Aquesta operació necessita que el directori de treball estigui net."
 
-#. Resource IDs: (IDS_AFXBARRES_RESET_USAGE_WARNING)
-msgid ""
-"This will delete the record of commands you've used in this application and "
-"restore the default set of visible commands to the menus and toolbars. It "
-"will not undo any explicit customizations. Are you sure you want to do this?"
-msgstr "Això esborrarà el registre de les comandes que heu utilitzat en aquesta aplicació i restaurarà el conjunt per defecte de comandes visibles als menús i barres d'eines. No desfarà cap personalització explícita. Esteu segur que voleu fer això?"
-
 #. Resource IDs: (IDS_TREE_DIFF)
 msgid "Three way diff"
 msgstr "Diff a tres bandes"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16928)
-msgid "Tile &Vertically"
-msgstr "Disposa  &Verticalment"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16924)
-msgid "Tile Hori&zontally"
-msgstr "Mosaic horitzontal"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1676)
 msgid "To"
@@ -11166,43 +10318,9 @@ msgstr ""
 msgid "To:"
 msgstr "A:"
 
-#. Resource IDs: (58113)
-msgid ""
-"Toggle One/Two Pages display\n"
-"Toggle One/Two Pages display"
-msgstr "Commuta Una/Dues Pàgines\nCommuta Una/Dues Pàgines"
-
 #. Resource IDs: (IDS_LOG_FILTER_TOGGLE)
 msgid "Toggle filters"
 msgstr ""
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE6: Control id 65535)
-msgid "Toolbar"
-msgstr "Barra d'Eines"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_TOOLBAR_NAME: Control id 16130)
-msgid "Toolbar Name"
-msgstr "Nom Barra d'Eines"
-
-#. Resource IDs: (IDS_AFXBARRES_TOOLBAR_OPTIONS)
-msgid "Toolbar Options"
-msgstr "Opcions Barra d'Eines"
-
-#. Resource IDs: (16008)
-msgid "Toolbar internal error. Please contact your application vendor."
-msgstr "Error intern de la Barra d'eines. Si us plau contacteu amb el venedor de la vostra aplicació."
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE2: Control id 16105)
-msgid "Toolbars"
-msgstr "Barres d'Eines"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_PROPPAGE7: Control id 16928)
-msgid "Tools"
-msgstr "Eines"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_IMAGE_EDITOR: Control id 65535)
-msgid "Tools:"
-msgstr "Eines:"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 4594, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535, IDS_APPNAME)
@@ -11323,8 +10441,8 @@ msgid ""
 "/showinfo\t\tto show the image info boxes"
 msgstr "TortoiseGitIDiff: el visualitzador de diffs d'imatges de TortoiseGit\n\nLes comandes disponibles son:\n/left:\"ruta a la imatge de l'esquerra\"\n/lefttitle:\"títol per a la imatge de l'esquerra\"\n/right:\"ruta a la imatge de la dreta\"\n/righttitle:\"títol per a la imatge de la dreta\"\n/overlay\t\tactiva les sobre-posicions\n/fit\t\tajusta les mides de les imatges\n/showinfo\t\tmostra informació sobre les imatges"
 
-#. Resource IDs: (100, 156 - Ribbon element, 32897, AFX_IDS_APP_TITLE, Dialog
-#. IDD_OPENDLG: Control id 130, IDS_APPNAME)
+#. Resource IDs: (100, 32897, AFX_IDS_APP_TITLE, Dialog IDD_OPENDLG: Control
+#. id 130, IDS_APPNAME)
 msgid "TortoiseGitMerge"
 msgstr "TortoiseGitMerge"
 
@@ -11431,8 +10549,7 @@ msgstr "Turkish"
 msgid "Tweak TortoiseGit"
 msgstr "Personalitza TortoiseGit"
 
-#. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1642,
-#. IDS_AFX_SHELLLISTCTRL_TYPE)
+#. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1642)
 msgid "Type"
 msgstr "Tipus"
 
@@ -11510,18 +10627,9 @@ msgstr "No es possible escriure a %1, es de només lectura o és oberta per alg�
 msgid "Uncheck"
 msgstr "Desactiva"
 
-#. Resource IDs: (ID_EDIT_UNDO - Ribbon name)
+#. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
 msgstr "Desfés"
-
-#. Resource IDs: (IDS_AFXBARRES_UNDO_FMT)
-#, c-format
-msgid "Undo %d Actions"
-msgstr "Desfés %d Accions"
-
-#. Resource IDs: (IDS_AFXBARRES_UNDO_ONE)
-msgid "Undo 1 Action"
-msgstr "Desfés 1 Acció"
 
 #. Resource IDs: (IDS_MENUUNDOADD)
 msgid "Undo Add..."
@@ -11533,7 +10641,7 @@ msgid ""
 "Undo"
 msgstr "Desfés la última acció\nDesfés"
 
-#. Resource IDs: (57643)
+#. Resource IDs: (cmdUndo)
 msgid ""
 "Undo the last modifications\n"
 "Undo"
@@ -11546,10 +10654,6 @@ msgstr "Format de fitxer no esperat"
 #. Resource IDs: (IDS_STATUSLIST_UNSETIGNORELOCALCHANGES)
 msgid "Unflag as skip-worktree and assume-unchanged"
 msgstr ""
-
-#. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_UNFOLD)
-msgid "Unfold"
-msgstr "Desplega"
 
 #. Resource IDs: (AFX_IDS_TEXT_FORMAT)
 msgid ""
@@ -11624,10 +10728,6 @@ msgstr "Actualitzant objectes ActiveX"
 msgid "Updating index"
 msgstr "Actualitzant index"
 
-#. Resource IDs: (Dialog IDD_AFXBARRES_BUTTON_PROPS: Control id 16530)
-msgid "Use &Default Image: "
-msgstr "Utilitza Imatge per &Defecte:"
-
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1024)
 msgid "Use &one-pane view as default for 2-file diff"
 msgstr "Utilitza per defecte la visualització &un-panell  per trobar diferències de 2 fitxers"
@@ -11635,6 +10735,22 @@ msgstr "Utilitza per defecte la visualització &un-panell  per trobar diferènci
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEOTHERBLOCK)
 msgid "Use &other text block"
 msgstr "Utilitza un altre &bloc de text"
+
+#. Resource IDs: (cmdUseMineBlock_LabelTitle_RESID)
+msgid "Use 'mine' text block"
+msgstr "Utilitza el bloc de text \"meu\""
+
+#. Resource IDs: (cmdUseMineThenTheirsBlock_LabelTitle_RESID)
+msgid "Use 'mine' text block then 'theirs'"
+msgstr "Utilitza el bloc de text \"meu\", i després el \"d'ells\""
+
+#. Resource IDs: (cmdUseTheirsBlock_LabelTitle_RESID)
+msgid "Use 'theirs' text block"
+msgstr "Utilitza el bloc de text \"d'ells\""
+
+#. Resource IDs: (cmdUseTheirsThenMineBlock_LabelTitle_RESID)
+msgid "Use 'theirs' text block then 'mine'"
+msgstr "Utilitza el bloc de text \"d'ells\", i després el \"meu\""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
@@ -11668,29 +10784,29 @@ msgstr "Faci servir un altre nom o activi la opció \"Força\" per tal de sobre-
 msgid "Use a different name or use the \"Override branch\" option."
 msgstr "Faci servir un nom diferent, o activi la opció \"sobreescriu la branca\"."
 
-#. Resource IDs: (32856)
+#. Resource IDs: (cmdUseLeftFile)
 msgid ""
 "Use all content from the left view\n"
 "Use left file"
 msgstr "Utilitza tot el contingut de la vista esquerra\nUtilitza fitxer esquerra"
 
 #. Resource IDs: (ID_EDIT_USEBLOCKFROMLEFTBEFORERIGHT - Menu,
-#. ID_EDIT_USEBLOCKFROMLEFTBEFORERIGHT - Ribbon name)
+#. cmdUseBlockFromLeftBeforeRight_LabelTitle_RESID)
 msgid "Use block from left before right"
 msgstr "Utilitza bloc esquerra abans que dreta"
 
-#. Resource IDs: (32857)
+#. Resource IDs: (cmdUseBlockFromLeftBeforeRight)
 msgid ""
 "Use block from left view before block from right view\n"
 "Use block from left before right"
 msgstr "Utilitza bloc de la vista esquerra abans que bloc de la vista dreta\nUtilitza bloc de l'esquerra abans de la dreta"
 
 #. Resource IDs: (ID_EDIT_USEBLOCKFROMRIGHTBEFORELEFT - Menu,
-#. ID_EDIT_USEBLOCKFROMRIGHTBEFORELEFT - Ribbon name)
+#. cmdUseBlockFromRightBeforeLeft_LabelTitle_RESID)
 msgid "Use block from right before left"
 msgstr "Utilitza bloc dreta abans que esquerra"
 
-#. Resource IDs: (32859)
+#. Resource IDs: (cmdUseBlockFromRightBeforeLeft)
 msgid ""
 "Use block from right view before block from left view\n"
 "Use block from right before left"
@@ -11716,23 +10832,20 @@ msgstr ""
 msgid "Use configured server"
 msgstr ""
 
-#. Resource IDs: (ID_EDIT_USELEFTBLOCK - Menu, ID_EDIT_USELEFTBLOCK - Ribbon
-#. name)
+#. Resource IDs: (ID_EDIT_USELEFTBLOCK - Menu,
+#. cmdUseLeftBlock_LabelTitle_RESID)
 msgid "Use left block"
 msgstr "Utilitza el bloc de l'esquerra"
 
-#. Resource IDs: (ID_EDIT_USELEFTFILE - Menu, ID_EDIT_USELEFTFILE - Ribbon
-#. name)
+#. Resource IDs: (ID_EDIT_USELEFTFILE - Menu, cmdUseLeftFile_LabelTitle_RESID)
 msgid "Use left file"
 msgstr "Utilitza fitxer esquerra"
 
-#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu, ID_EDIT_USETHEIRBLOCK - Ribbon
-#. name)
+#. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu)
 msgid "Use left text block"
 msgstr ""
 
-#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu,
-#. ID_EDIT_USETHEIRTHENMYBLOCK - Ribbon name)
+#. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu)
 msgid "Use left text block then right"
 msgstr ""
 
@@ -11752,12 +10865,11 @@ msgstr "Utilitzar expressió regular "
 msgid "Use right block"
 msgstr "Utilitza el bloc de la dreta"
 
-#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu, ID_EDIT_USEMYBLOCK - Ribbon name)
+#. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu)
 msgid "Use right text block"
 msgstr ""
 
-#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu,
-#. ID_EDIT_USEMINETHENTHEIRBLOCK - Ribbon name)
+#. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu)
 msgid "Use right text block then left"
 msgstr ""
 
@@ -11781,13 +10893,13 @@ msgstr ""
 msgid "Use text block from l&eft before right"
 msgstr ""
 
-#. Resource IDs: (32821)
+#. Resource IDs: (cmdUseTheirsThenMineBlock)
 msgid ""
 "Use text block from left before right file\n"
 "Use left file text block then right"
 msgstr ""
 
-#. Resource IDs: (32819)
+#. Resource IDs: (cmdUseTheirsBlock)
 msgid ""
 "Use text block from left file\n"
 "Use left file text block"
@@ -11797,19 +10909,19 @@ msgstr ""
 msgid "Use text block from r&ight before left"
 msgstr ""
 
-#. Resource IDs: (32822)
+#. Resource IDs: (cmdUseMineThenTheirsBlock)
 msgid ""
 "Use text block from right file before left\n"
 "Use right file text block then left"
 msgstr ""
 
-#. Resource IDs: (32820)
+#. Resource IDs: (cmdUseMineBlock)
 msgid ""
 "Use text block from right file\n"
 "Use right file text block"
 msgstr ""
 
-#. Resource IDs: (32855)
+#. Resource IDs: (cmdUseLeftBlock)
 msgid ""
 "Use text block from the left view\n"
 "Use left block"
@@ -11895,6 +11007,10 @@ msgstr "Nom d'usuari"
 msgid "Uses the status cache type 'none' for elevated processes"
 msgstr "Utilitza el tipus 'cap' de memòria cau d'estat per als processos elevats"
 
+#. Resource IDs: (cmdPaste_Keytip_RESID)
+msgid "V"
+msgstr ""
+
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
 "Valid command line options are:\n"
@@ -11962,7 +11078,7 @@ msgstr "Versionat"
 msgid "Vietnamese"
 msgstr "Vietnamese"
 
-#. Resource IDs: (156 - Ribbon element)
+#. Resource IDs: (cmdGroupView_LabelTitle_RESID)
 msgid "View"
 msgstr "Visualiització"
 
@@ -11970,7 +11086,7 @@ msgstr "Visualiització"
 msgid "View .tgitconfig"
 msgstr "Mostra .tgitconfig"
 
-#. Resource IDs: (ID_VIEW_BARS - Ribbon name)
+#. Resource IDs: (cmdViewBars_LabelTitle_RESID)
 msgid "View Bars"
 msgstr "Visualitza les barres"
 
@@ -11999,15 +11115,9 @@ msgstr "Obre gitconfig per tot el sistema"
 msgid "Visit our website"
 msgstr "Visiteu el nostre lloc web"
 
-#. Resource IDs: (10007, ID_VIEW_APPLOOK_VS_2005 - Menu,
-#. ID_VIEW_APPLOOK_VS_2005 - Ribbon name)
-msgid "Visual Studio 2005"
-msgstr "Visual Studio 2005"
-
-#. Resource IDs: (10002, ID_VIEW_APPLOOK_VS_2008 - Menu,
-#. ID_VIEW_APPLOOK_VS_2008 - Ribbon name)
-msgid "Visual Studio 2008"
-msgstr "Visual Studio 2008"
+#. Resource IDs: (cmdShowWhitespaces_Keytip_RESID)
+msgid "W"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
@@ -12118,33 +11228,10 @@ msgstr "Mentre s'executa el dimoni, totes les dades d'aquest dipòsit queden exp
 msgid "Whitespace changes (tabs, spaces)"
 msgstr "Canvis d'espai en blanc (tabuladors, espais)"
 
-#. Resource IDs: (156 - Ribbon element, Dialog IDD_SETCOLORPAGE: Control id
-#. 65535)
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535,
+#. cmdGroupWhitespaces_LabelTitle_RESID)
 msgid "Whitespaces"
 msgstr "Espais en Blanc"
-
-#. Resource IDs: (IDS_AFXBARRES_MENU)
-msgid "Window Position"
-msgstr "Posició de la finestra"
-
-#. Resource IDs: (Dialog IDD_AFXBARRES_WINDOWS_DLG: Control id 16927)
-msgid "Windows"
-msgstr "Windows"
-
-#. Resource IDs: (10003, ID_VIEW_APPLOOK_WIN_2000 - Menu,
-#. ID_VIEW_APPLOOK_WIN_2000 - Ribbon name)
-msgid "Windows 2000"
-msgstr "Windows 2000"
-
-#. Resource IDs: (10001, ID_VIEW_APPLOOK_WIN7 - Menu, ID_VIEW_APPLOOK_WIN7 -
-#. Ribbon name)
-msgid "Windows 7"
-msgstr "Windows 7"
-
-#. Resource IDs: (10005, ID_VIEW_APPLOOK_WIN_XP - Menu, ID_VIEW_APPLOOK_WIN_XP
-#. - Ribbon name)
-msgid "Windows XP"
-msgstr "Windows XP"
 
 #. Resource IDs: (5020 - Menu)
 msgid "Windows-1250"
@@ -12202,16 +11289,23 @@ msgstr "Ruta del directori de treball:"
 msgid "Working tree changes"
 msgstr ""
 
-#. Resource IDs: (ID_VIEW_WRAPLONGLINES - Menu, ID_VIEW_WRAPLONGLINES - Ribbon
-#. name)
+#. Resource IDs: (cmdViewWrapLines_LabelTitle_RESID)
+msgid "Wrap Lines"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_WRAPLONGLINES - Menu)
 msgid "Wrap long lines"
 msgstr "Ajusta les línies llargues"
 
-#. Resource IDs: (32881)
+#. Resource IDs: (cmdViewWrapLines)
 msgid ""
 "Wrap long lines at the right border of the view\n"
 "Wrap long lines"
 msgstr "Ajusta les línies llargues a la part dreta de la vista\nAjusta les línies llargues"
+
+#. Resource IDs: (cmdRedo_Keytip_RESID)
+msgid "Y"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_YESTOALL)
 msgid "Yes to all"
@@ -12230,16 +11324,6 @@ msgid ""
 "You can disable specific Overlay handlers here.\n"
 "Disabled handlers won't use up an overlay slot and give other shell extensions a chance to show their overlays."
 msgstr "Pot desactivar la sobreposició d'icones aquí.\nSi es desactiven, no s'usaran recursos de superposició, i altres extensions de Shell podran mostrar la seva pròpia superposició "
-
-#. Resource IDs: (IDS_AFXBARRES_WRONG_IMAGE_SIZE)
-#, c-format
-msgid "You can paste bitmap with the size (%d x %d) only!"
-msgstr "Només podeu enganxar bitmaps de tamany (%d x %d) !"
-
-#. Resource IDs: (IDS_AFXBARRES_TOO_MANY_TOOLBARS_FMT)
-#, c-format
-msgid "You can't create more than %d user-defined toolbars!"
-msgstr "No podeu crear més de %d barres d'eines definides pel usuari!"
 
 #. Resource IDs: (IDS_FILEPROPONFOLDER)
 msgid ""
@@ -12300,11 +11384,6 @@ msgid ""
 "Do you want to restore them now? You might lose all changes to this file after marking it."
 msgstr "Heu marcat alguns arxius com \"restaura després de l'entrega\".\nVoleu restaurar-los ara? Podeu perdre tots els canvis fets a aquest arxiu després de marcar-lo."
 
-#. Resource IDs: (IDS_AFXBARRES_TOO_MANY_TOOLS_FMT)
-#, c-format
-msgid "You may define up to %d tools."
-msgstr "Podeu definir fins a %d eines."
-
 #. Resource IDs: (IDS_COMMITDLG_NOMESSAGE)
 msgid "You must enter a log message for the commit"
 msgstr "Heu d'introduir un missatge per aquesta entrega"
@@ -12329,14 +11408,6 @@ msgid ""
 "The file will be added to version control when you commit."
 msgstr "Heu seleccionat un fitxer sense versionar.\nEl fitxer serà afegit al control de versions quan feu una entrega."
 
-#. Resource IDs: (16002)
-msgid "You should enter a text!"
-msgstr "Heu d'introduir un text!"
-
-#. Resource IDs: (16001)
-msgid "You should select an image!"
-msgstr "Heu de seleccionar una imatge!"
-
 #. Resource IDs: (IDS_SETTINGS_ICONSETCHANGED)
 #, c-format
 msgid ""
@@ -12359,6 +11430,10 @@ msgstr "La versió és:"
 msgid "Your version is: %d.%d.%d.%d"
 msgstr "La teva versió és: %d.%d.%d.%d"
 
+#. Resource IDs: (cmdUndo_Keytip_RESID)
+msgid "Z"
+msgstr ""
+
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
 msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
 msgstr ""
@@ -12370,10 +11445,6 @@ msgstr "Arxiu ZIP"
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoo&m out\t-"
 msgstr "Allunya\t-"
-
-#. Resource IDs: (IDS_AFXBARRES_ZOOM)
-msgid "Zoom"
-msgstr "Zoom"
 
 #. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58117)
 msgid "Zoom &In"
@@ -12395,18 +11466,6 @@ msgstr ""
 #, c-format
 msgid "Zoom 100%"
 msgstr "Zoom 100%"
-
-#. Resource IDs: (58117)
-msgid ""
-"Zoom In\n"
-"Zoom In"
-msgstr "Ampliar\nAmpliar"
-
-#. Resource IDs: (58118)
-msgid ""
-"Zoom Out\n"
-"Zoom Out"
-msgstr "Reduir\nReduir"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom i&n\t+"
@@ -12435,14 +11494,6 @@ msgstr "Zoom per ajustar en alçada"
 #. Resource IDs: (32810)
 msgid "Zoom to fit in width"
 msgstr "Zoom per ajustar en amplada"
-
-#. Resource IDs: (IDS_AFXBARRES_MENU_ANIMATION_DEFAULT)
-msgid "[Default]"
-msgstr "[Predeterminat]"
-
-#. Resource IDs: (16009)
-msgid "[Unassigned]"
-msgstr "[Sense assignar]"
 
 #. Resource IDs: (IDS_CHERRYPICK_MERGECOMMIT)
 #, c-format
@@ -12497,10 +11548,6 @@ msgid ""
 "\"git am\" is still in apply mode.\n"
 "Do you want to abort?"
 msgstr "\"git am\" encara està en mode aplicar.\nVoleu interrompre-ho?"
-
-#. Resource IDs: (65535 - PopupMenu)
-msgid "_POPUP_"
-msgstr "_POPUP_"
 
 #. Resource IDs: (IDS_STATUSADDED)
 msgid "added"
@@ -12599,10 +11646,6 @@ msgstr "suprimit"
 #. Resource IDs: (IDS_PIPETITLE)
 msgid "diff from pipe"
 msgstr ""
-
-#. Resource IDs: (Dialog IDD_AFXBAR_RES_PRINT_PREVIEW: Control id 58116)
-msgid "dummy"
-msgstr "dummy"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1580)
 msgid "eMail settings"
@@ -12771,6 +11814,10 @@ msgstr "no trobat"
 
 #. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
 msgid "not initialized"
+msgstr ""
+
+#. Resource IDs: (cmdOpen_Keytip_RESID)
+msgid "o1"
 msgstr ""
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
