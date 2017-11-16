@@ -19,6 +19,7 @@
 # Max Lyashuk <m_lyashuk@ukr.net>, 2013
 # intrueder <intrueder@gmail.com>, 2015
 # Victor Yarema <victor.yarema@gmail.com>, 2015
+# Vitaliy Grabchuk <vitaliygrabchuk@gmail.com>, 2017
 # Vitaliy Katerusha <vitali_kat@hotmail.com>, 2011
 # Віктор Лелейко <victor.leleyko@gmail.com>, 2013
 msgid ""
@@ -26,8 +27,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-11-14 08:59+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2017-11-16 10:58+0000\n"
+"Last-Translator: Vitaliy Grabchuk <vitaliygrabchuk@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/lznuaa/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -657,7 +658,7 @@ msgstr "&Файл"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "Фільтр"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -719,7 +720,7 @@ msgstr "&Внесок у Стилі Git (--rmdir)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Git.exe Path:"
-msgstr ""
+msgstr "Шлях до &Git.exe:"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -1574,7 +1575,7 @@ msgstr "Припиняє поточне злиття."
 
 #. Resource IDs: (cmdAbout_LabelTitle_RESID)
 msgid "Abou&t TortoiseGitMerge"
-msgstr ""
+msgstr "Про &TortoiseGitMerge"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 129)
 msgid "About TortoiseGit"
@@ -1770,7 +1771,7 @@ msgstr "Дозволити використовувати користуваць
 msgid ""
 "Allows to create an empty commit which only has a commit message and no "
 "files (cf. git commit --allow-empty)."
-msgstr ""
+msgstr "Дозволяє створювати порожній внесок що містить лише повідомлення без файлів (cf. git commit --allow-empty)."
 
 #. Resource IDs: (IDS_UPTODATE)
 msgid "Already up to date."
@@ -1794,16 +1795,16 @@ msgstr "Завжди використовувати локальні налаш�
 
 #. Resource IDs: (IDS_AMENDBUTTON)
 msgid "Amend"
-msgstr ""
+msgstr "Змінити"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1555)
 msgid "Amend &Last Commit"
-msgstr ""
+msgstr "Змінити останній Внесок"
 
 #. Resource IDs: (IDS_SETTINGS_ALTERNATIVEEDITOR_TT)
 msgid ""
 "An alternative editor. Which should preferably support *nix line endings."
-msgstr "Інший редактор. Він повивен підтримувати закінчення строки як у *nix."
+msgstr "Інший редактор. Він повинен підтримувати закінчення рядків як у *nix."
 
 #. Resource IDs: (IDS_SETTINGS_EXTDIFF_TT)
 #, c-format
@@ -1866,7 +1867,7 @@ msgstr "Застосувати &патч..."
 
 #. Resource IDs: (IDS_MENUIMPORTPATCH)
 msgid "Apply Patch Serial..."
-msgstr ""
+msgstr "Застосувати послідовність патчів..."
 
 #. Resource IDs: (IDS_MENU_APPLY, IDS_OPENDIFFFILETITLE)
 msgid "Apply Patch..."
@@ -2009,11 +2010,11 @@ msgstr "Email автора"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
 msgid "Author email addresses"
-msgstr ""
+msgstr "Адреси ел.пошти автора"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
 msgid "Author names"
-msgstr ""
+msgstr "Ім'я автора"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\t\tStefan Kueng"
@@ -2477,7 +2478,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Certificate verification failed!"
-msgstr "Верифікація сертифікату зазнала невдачі!"
+msgstr "Не вдалось перевірити сертифікат!"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1697)
 msgid "Change log"
@@ -2649,7 +2650,7 @@ msgstr "Очистити"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1630)
 msgid "Clean Type"
-msgstr ""
+msgstr "Дія"
 
 #. Resource IDs: (IDS_CLEAN_NO_RECYCLEBIN)
 msgid "Clean permanently"
@@ -3035,7 +3036,7 @@ msgstr "налаштування зовнышнього редактору. Пе
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
-msgstr ""
+msgstr "Налаштувати git.exe"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure the program used for comparing different revisions of files"
@@ -3216,7 +3217,7 @@ msgstr ""
 msgid ""
 "Could not get read version information from git.exe.\n"
 "Got: \"%s\""
-msgstr ""
+msgstr "Не можу отримати версію git.exe.\nОтримано: \"%s\""
 
 #. Resource IDs: (IDS_ERR_NOSTATUS)
 msgid "Could not get the status!"
@@ -3344,7 +3345,7 @@ msgstr "Створити бібліотеку"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1527)
 msgid "Create &New Branch"
-msgstr ""
+msgstr "Створити &Нову Гілку"
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
@@ -3352,7 +3353,7 @@ msgstr "Створити &Тег"
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
-msgstr ""
+msgstr "Створити патч"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -3543,17 +3544,17 @@ msgstr "Видалити"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCHES)
 #, c-format
 msgid "Delete %d branches"
-msgstr ""
+msgstr "Видалити %d гілки"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCHES)
 #, c-format
 msgid "Delete %d remote branches"
-msgstr ""
+msgstr "Видалити %d віддалені гілки"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAGS)
 #, c-format
 msgid "Delete %d tags"
-msgstr ""
+msgstr "Видалити %d теги"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
 msgid "Delete &local"
@@ -3599,7 +3600,7 @@ msgstr "Видалити гілку/тег"
 
 #. Resource IDs: (IDS_DELETE_LOCALTAG)
 msgid "Delete local tag"
-msgstr ""
+msgstr "Видалити локальний тег"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
@@ -3607,20 +3608,20 @@ msgstr "Знищити віддалену гілку"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 4579)
 msgid "Delete remote tag - TortoiseGit"
-msgstr ""
+msgstr "Видалити віддалений тег - TortoiseGit"
 
 #. Resource IDs: (IDS_DELETEREMOTETAGON)
 #, c-format
 msgid "Delete remote tags on \"%s\"..."
-msgstr ""
+msgstr "Видалити віддалені теги у \"%s\"..."
 
 #. Resource IDs: (IDS_DELETEREMOTETAG)
 msgid "Delete remote tags..."
-msgstr ""
+msgstr "Видалити віддалені теги..."
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_DELETESUBMODULE)
 msgid "Delete submodule"
-msgstr ""
+msgstr "Видалити субмодуль"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAG)
 msgid "Delete tag"
@@ -3632,7 +3633,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
-msgstr ""
+msgstr "Видаліть вже існуючу гілку або використайте інше ім'я."
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
 msgid "Delete/modify merge conflict"
@@ -3762,7 +3763,7 @@ msgstr "Параметри Diff"
 
 #. Resource IDs: (IDS_MENUDIFFTWO)
 msgid "Diff Two Commits"
-msgstr ""
+msgstr "Порівняти Два Внески"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 192)
 msgid "Diff Viewer"
@@ -3794,7 +3795,7 @@ msgstr "Diff  "
 
 #. Resource IDs: (IDS_MENUDIFFLATER)
 msgid "Diff later"
-msgstr ""
+msgstr "Порівняти з (перший крок)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff position"
@@ -3807,7 +3808,7 @@ msgstr "Diff виделені строки"
 #. Resource IDs: (IDS_MENUDIFFNOW)
 #, c-format
 msgid "Diff with \"%s\""
-msgstr ""
+msgstr "Порівняти з \"%s\""
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_DIFFWITHPARENT)
 #, c-format
@@ -3816,7 +3817,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
 msgid "Differ"
-msgstr ""
+msgstr "Порівнювач"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -4271,7 +4272,7 @@ msgstr "Порожньо"
 
 #. Resource IDs: (cmdEditEnabled_LabelTitle_RESID)
 msgid "Enable Edit"
-msgstr ""
+msgstr "Дозволити редагування"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1510)
 msgid "Enable EditorConfig"
@@ -4300,11 +4301,11 @@ msgstr "Дозволити показувати картинки Gravatar  у д
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1842)
 msgid "Enable special hack for Cygwin git"
-msgstr ""
+msgstr "Використовувати магію для Cygwin git"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1843)
 msgid "Enable special hack for Msys2 git"
-msgstr ""
+msgstr "Використовувати магію для Msys2 git"
 
 #. Resource IDs: (ID_VIEW_ENABLELEXER - Menu)
 msgid "Enable syntax highlighting"
@@ -4562,7 +4563,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FAIL)
 msgid "Fail"
-msgstr ""
+msgstr "Невдача"
 
 #. Resource IDs: (IDS_SVNACTION_FAILEDREVERT)
 msgid "Failed revert"
@@ -4928,7 +4929,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
-msgstr ""
+msgstr "Відслідковувати перейменування"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, Dialog
 #. IDD_SETTINGSUDIFF: Control id 65535)
@@ -4987,11 +4988,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 312)
 msgid "Format Patch"
-msgstr ""
+msgstr "Створити Патч"
 
 #. Resource IDs: (IDS_CREATE_PATCH)
 msgid "Format Patch..."
-msgstr ""
+msgstr "Створити Патч..."
 
 #. Resource IDs: (IDS_FORWARDN)
 #, c-format
@@ -5251,7 +5252,7 @@ msgstr "Git for Windows"
 
 #. Resource IDs: (IDS_PROC_REPOCREATEERR)
 msgid "Git reported an error while creating a repository!\n"
-msgstr ""
+msgstr "Помилка під час створення сховища!\n"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
@@ -5370,7 +5371,7 @@ msgstr "HEAD:"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "HTTP (URLs start with \"http://\" or \"https://\")"
-msgstr ""
+msgstr "HTTP (URL починаються з \"http://\" або \"https://\")"
 
 #. Resource IDs: (IDS_RESET_HARD)
 msgid "Hard"
@@ -6261,7 +6262,7 @@ msgstr "Список тем довідки\nТеми довідки"
 msgid ""
 "List a renamed file as \"long/path/{to => for}/file.txt\" instead of "
 "\"long/path/for/file.txt (from long/path/to/file.txt)\"."
-msgstr "Список перейменованних файлів як  \"довге/шлях/{з => у}/файл.txt\" (\"long/path/{to => for}/file.txt\") замість  \"довге/шлях/з/файл.txt (довге/шлях/у/файл.txt)\" (\"long/path/for/file.txt (from long/path/to/file.txt)\")."
+msgstr "Показувати перейменовані файли як  \"повний/шлях/{у => з}/файл.txt\" замість  \"повний/шлях/у/файл.txt (з повний/шлях/з/файл.txt)\"."
 
 #. Resource IDs: (Dialog IDD_OPEN: Control id 130)
 msgid "Load Images"
@@ -6813,7 +6814,7 @@ msgid ""
 "No git.exe found.\n"
 "\n"
 "TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
-msgstr ""
+msgstr "git.exe не знайдено.\n\ngit.exe необхідний для правильного функціонування TortoiseGit (ви можете встановити Git for Windows щоб отримати git.exe)."
 
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
@@ -6942,7 +6943,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_NOTHINGTOREBASE)
 msgid "Nothing to Rebase"
-msgstr ""
+msgstr "Нічого Перебазовувати"
 
 #. Resource IDs: (IDS_ERROR_NOTHING_COMMIT)
 msgid "Nothing to commit"
