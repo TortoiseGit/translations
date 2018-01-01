@@ -9,7 +9,7 @@
 # el_libre como el chaval <el.libre@gmail.com>, 2011
 # Haommin <tfs.msimangu@gmail.com>, 2014
 # Joan Monguillot <jmonguillot@gmail.com>, 2013
-# Joan Monguillot <jmonguillot@gmail.com>, 2013,2016-2017
+# Joan Monguillot <jmonguillot@gmail.com>, 2013,2016-2018
 # el_libre como el chaval <el.libre@gmail.com>, 2011
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2013
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013,2015
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2017-12-30 17:26+0000\n"
+"PO-Revision-Date: 2018-01-01 20:47+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -2287,7 +2287,7 @@ msgstr "BugTraq"
 
 #. Resource IDs: (Dialog IDD_BUGTRAQREGEXTESTER: Control id 327)
 msgid "Bugtraq Regex Tester - TortoiseGit"
-msgstr ""
+msgstr "Bugtraq Regex Tester - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_GITPROGRESS: Control id 1382, Dialog IDD_REBASE:
 #. Control id 1559)
@@ -2441,7 +2441,7 @@ msgstr "No es poden combinar entregues ara\nAsseguri's que esta veient el regist
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr ""
+msgstr "No es pot forçar l'actualització de la branca actual. Per fer-ho, useu l'ordre de reinicialització."
 
 #. Resource IDs: (IDS_CANNOTBLAMENOGIT)
 #, c-format
@@ -2582,7 +2582,7 @@ msgstr "Marca les entrades que vols que es mostrin al menú principal enlloc de 
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
 "menu (SHIFT + right click)"
-msgstr ""
+msgstr "Marqueu les entrades de menú que voleu que apareguin només al menú contextual estès (Maj + clic dret)."
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
@@ -2602,7 +2602,7 @@ msgstr "Extreu"
 
 #. Resource IDs: (IDS_SWITCH_WITH_MERGE)
 msgid "Checkout with merge"
-msgstr ""
+msgstr "Extreu amb fusió"
 
 #. Resource IDs: (IDS_PROGS_TITLE_CHERRYPICK)
 msgid "Cherry Pick"
@@ -2853,7 +2853,7 @@ msgstr "L'entrega %s NO es pot veure ara mateix."
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
 msgid "Commit %s not found in \"%s\". Update submodule now?"
-msgstr ""
+msgstr "No s'ha trobat l'entrega %s a \"%s\". Actualitzar ara el sub-mòdul?"
 
 #. Resource IDs: (IDS_COMMIT_COMMITPUSH)
 msgid "Commit && &Push"
@@ -2943,7 +2943,7 @@ msgstr "Compara revisions &HEAD"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
 msgid "Compare change sets"
-msgstr ""
+msgstr "Compara conjunts de canvis"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -2998,7 +2998,7 @@ msgstr "Config"
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535, Dialog IDD_SETTINGSDIALOGS3:
 #. Control id 65535)
 msgid "Config source"
-msgstr ""
+msgstr "Configura l'origen"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535)
 msgid "Config type:"
@@ -3006,7 +3006,7 @@ msgstr "Tipus de configuració:"
 
 #. Resource IDs: (cmdRegexFilterConfig2_LabelTitle_RESID)
 msgid "Configure Filter Regex"
-msgstr ""
+msgstr "Configurar filtre regex"
 
 #. Resource IDs: (IDS_CONFIGUREREGEXES, ID_REGEXFILTER - Menu)
 msgid "Configure Filter Regexes"
@@ -3174,7 +3174,7 @@ msgstr "No s'ha pogut comprovar si hi ha una versió més nova!"
 #. Resource IDs: (IDS_CHECKNEWER_NETERROR_FORMAT)
 #, c-format
 msgid "Could not check for a newer version! %s (Error code: 0x%08X)"
-msgstr ""
+msgstr "No s'ha pogut comprovar si hi ha una nova versió. %s (Codi d'error: 0x%08X)"
 
 #. Resource IDs: (IDS_ERR_COPYFILES)
 #, c-format
@@ -3345,7 +3345,7 @@ msgstr "Crea una e&tiqueta..."
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
-msgstr ""
+msgstr "Crea arxiu &pedaç"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -3800,7 +3800,7 @@ msgstr "Línies suprimides del comparador"
 #. Resource IDs: (IDS_MENUDIFFNOW)
 #, c-format
 msgid "Diff with \"%s\""
-msgstr ""
+msgstr "Diff amb \"%s\""
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_DIFFWITHPARENT)
 #, c-format
@@ -3809,7 +3809,7 @@ msgstr "Diff amb el pare %d"
 
 #. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
 msgid "Differ"
-msgstr ""
+msgstr "Difereix"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -4140,7 +4140,7 @@ msgstr "Dumy Group For locat TabCtr"
 
 #. Resource IDs: (cmdEditEnabled_Keytip_RESID, cmdTabEdit_Keytip_RESID)
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #. Resource IDs: (IDS_PROC_REBASE_UNSELECTED_EDIT)
 msgid "E&dit unselected"
@@ -4240,7 +4240,7 @@ msgstr "Edita..."
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 1770, Dialog IDD_SETTINGSDIALOGS3:
 #. Control id 1770)
 msgid "Effective"
-msgstr ""
+msgstr "Efectiu"
 
 #. Resource IDs: (IDS_SETTINGS_PROXYSERVER_TT)
 msgid "Either the name or IP of the proxy server"
@@ -4547,7 +4547,7 @@ msgstr "Programa extern:"
 
 #. Resource IDs: (cmdFind_Keytip_RESID)
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -8229,7 +8229,7 @@ msgstr "Resol"
 
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 4595)
 msgid "Resolve Submodule Conflict"
-msgstr ""
+msgstr "Resol el conflicte del sub-mòdul"
 
 #. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
 #, c-format
@@ -9562,7 +9562,7 @@ msgstr "Sub-mòdul"
 
 #. Resource IDs: (IDS_MENUUPDATEEXT)
 msgid "Submodule &Update..."
-msgstr ""
+msgstr "Act&ualització del sub-mòdul..."
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_ADD: Control id 1589)
 msgid "Submodule Add"
@@ -9570,7 +9570,7 @@ msgstr "Afegeix al sub-mòdul"
 
 #. Resource IDs: (IDS_MENUSUBADD)
 msgid "Submodule Add..."
-msgstr ""
+msgstr "Afegeix al sub-mòdul..."
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 4576)
 msgid "Submodule Diff"
@@ -9602,7 +9602,7 @@ msgstr "Sub-mòdul \"%1!s!\"\nRevisió %2!s!"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_ADD: Control id 1585)
 msgid "Submodule of Project: "
-msgstr ""
+msgstr "Sub-mòdul del projecte:"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1708, Dialog IDD_COMMITDLG:
 #. Control id 1708)
@@ -11666,7 +11666,7 @@ msgstr "extern"
 
 #. Resource IDs: (IDS_CONFLICT_NOTASUBMODULE)
 msgid "file, not a submodule"
-msgstr ""
+msgstr "fitxer, no un sub-mòdul"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
@@ -11794,7 +11794,7 @@ msgstr "no hi ha descripció disponible per aquesta comanda"
 
 #. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
 msgid "no submodule"
-msgstr ""
+msgstr "no sub-mòdul"
 
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
