@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-01 20:47+0000\n"
+"PO-Revision-Date: 2018-01-04 10:59+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -3202,7 +3202,7 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in versionstring of git.exe.\n"
 "If you are using git of the cygwin or msys2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "No s'ha trobat \"msysgit\" o \"windows\" a la cadena de versió de git.exe.\nSi useu el git del Cygwin o de l'entorn msys2 cal activar uns hacks especials.\nVegeu més informació al fitxer d'ajuda amb la clau \"cygwin git\" o \"msys2 git\"."
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -4293,15 +4293,15 @@ msgstr "Permet mostrar imatges de Gravatar a la finestra de registre"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1842)
 msgid "Enable special hack for Cygwin git"
-msgstr ""
+msgstr "Activar hack especial per al git del Cygwin"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1843)
 msgid "Enable special hack for Msys2 git"
-msgstr ""
+msgstr "Activar hack especial per al git del msys2"
 
 #. Resource IDs: (ID_VIEW_ENABLELEXER - Menu)
 msgid "Enable syntax highlighting"
-msgstr ""
+msgstr "Activar el ressaltat sintàctic"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid "Enabled Overlay Handlers"
@@ -4852,7 +4852,7 @@ msgstr "Troba:"
 #. Resource IDs: (IDS_FIND_NOTFOUND)
 #, c-format
 msgid "Find: Can't find the text \"%s\""
-msgstr ""
+msgstr "Troba: No s'ha pogut trobar el text \"%s\""
 
 #. Resource IDs: (IDS_FIND_TOPREACHED)
 msgid ""
@@ -4901,11 +4901,11 @@ msgstr "Primer dolent connegut:"
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Ajusta el gràfic"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Ajusta l'alçada"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4917,7 +4917,7 @@ msgstr "Ajusta l'amplada de la imatge\tW"
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Ajusta l'amplada"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -4995,7 +4995,7 @@ msgstr ""
 msgid ""
 "Found \"msysgit\" or \"windows\" in versionstring of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "S'ha trobat \"msysgit\" o \"windows\" a la cadena de versió de git.exe, però els hacks del git.exe estan activats. Cal desactivar aquests hacks per a un funcionament correcte del Git del Windows.\nVegeu més informació al fitxer d'ajuda amb la clau \"cygwin git\" o \"msys2 git\"."
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
@@ -5026,12 +5026,12 @@ msgstr "Des d'un dipòsit SVN"
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES -
 #. Menu)
 msgid "From &existing files"
-msgstr ""
+msgstr "Des dels fitxers &existents"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_FROM_MODIFIED_FILES -
 #. Menu)
 msgid "From &modified files"
-msgstr ""
+msgstr "Des dels fitxers &modificats"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1603)
 msgid "From SVN Repository"
@@ -5069,7 +5069,7 @@ msgstr "Més opcions pel diàleg d'entrega a la pàgina 3 dels Diàlegs."
 
 #. Resource IDs: (cmdGotoLine_Keytip_RESID)
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -5254,11 +5254,11 @@ msgstr "El Git requereix que establiu un nom d'usuari i una direcció de correu 
 
 #. Resource IDs: (32787)
 msgid "Git revision list contains the complete file history"
-msgstr ""
+msgstr "La llista de revisions del Git conté la història completa del fitxer"
 
 #. Resource IDs: (32782)
 msgid "Git revision list follows file renames"
-msgstr ""
+msgstr "La llista de revisions del Git segueix els canvis de nom del fitxer"
 
 #. Resource IDs: (IDS_HIERARCHICALCONFIG)
 msgid ""
@@ -5363,7 +5363,7 @@ msgstr "HEAD:"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "HTTP (URLs start with \"http://\" or \"https://\")"
-msgstr ""
+msgstr "HTTP (els URL comencen amb \"http://\" o \"https://\")"
 
 #. Resource IDs: (IDS_RESET_HARD)
 msgid "Hard"
@@ -5738,7 +5738,7 @@ msgstr "Icons/Design/Code:\t\tLuebbe Onken"
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_IDENTICAL)
 msgid "Identical"
-msgstr ""
+msgstr "Idèntic"
 
 #. Resource IDs: (IDS_SETTINGS_ONLYEXPLORER_TT)
 msgid ""
@@ -5790,7 +5790,7 @@ msgstr "Si està seleccionat, els fitxers sense versionar marcaran l'estat del d
 #. Resource IDs: (IDS_SETTINGS_GITCONFIG_INHERIT_TT)
 msgid ""
 "If this is enabled, no value is stored or overwritten at this config level."
-msgstr ""
+msgstr "Si està activat, no es desa o sobreescriu cap valor en aquest nivell de configuració."
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
@@ -5961,7 +5961,7 @@ msgstr "Per tal d'interrompre una fusió en curs és necessari reinicialitzar (r
 msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
-msgstr ""
+msgstr "En el següent quadre combinat trobareu tots els paquets d'idioma instal·lats que pot utilitzar aquesta versió del TortoiseGit."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -6066,7 +6066,7 @@ msgstr "KOI8-U"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_KEEP)
 msgid "Keep"
-msgstr ""
+msgstr "Manté"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1126)
 msgid "Keep changelists"
@@ -6088,11 +6088,11 @@ msgstr "Korean"
 
 #. Resource IDs: (cmdViewWrapLines_Keytip_RESID)
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
-msgstr ""
+msgstr "LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "LINE1"
@@ -6293,7 +6293,7 @@ msgstr "Branca local"
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALHASH)
 msgid "Local SHA1"
-msgstr ""
+msgstr "SHA1 local"
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNORELOCALCHANGES)
 msgid ""
@@ -6303,7 +6303,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
-msgstr ""
+msgstr "Missatge local"
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -6321,7 +6321,7 @@ msgstr "Barra Localització"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Barra de localització"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6417,7 +6417,7 @@ msgstr "Marca per a comparar"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_MARKBLOCK)
 msgid "Mark this block"
-msgstr ""
+msgstr "Marca aquest bloc"
 
 #. Resource IDs: (IDS_ASKFORSAVE_MARKEDBLOCKS)
 msgid "Marked Blocks"
@@ -6541,7 +6541,7 @@ msgstr "Miscel·lània"
 
 #. Resource IDs: (IDS_PATHACTIONS_MISSING)
 msgid "Missing"
-msgstr ""
+msgstr "Manca"
 
 #. Resource IDs: (AFX_IDS_CHECKLISTBOX_MIXED, IDS_RESET_MIXED)
 msgid "Mixed"
@@ -6609,15 +6609,15 @@ msgstr "El meu fitxer:"
 
 #. Resource IDs: (cmdNavigateNextConflict_Keytip_RESID)
 msgid "NC"
-msgstr ""
+msgstr "NC"
 
 #. Resource IDs: (cmdNavigateNextDifference_Keytip_RESID)
 msgid "ND"
-msgstr ""
+msgstr "ND"
 
 #. Resource IDs: (cmdNavigateNextInlineDiff_Keytip_RESID)
 msgid "NI"
-msgstr ""
+msgstr "NI"
 
 #. Resource IDs: (59138)
 msgid "NUM"
@@ -6799,14 +6799,14 @@ msgstr "No s'han modificat o afegit fitxers des de\nl'última entrega.\nVoleu ve
 
 #. Resource IDs: (33002)
 msgid "No filter"
-msgstr ""
+msgstr "Sense filtre"
 
 #. Resource IDs: (IDS_PROC_NOMSYSGIT)
 msgid ""
 "No git.exe found.\n"
 "\n"
 "TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
-msgstr ""
+msgstr "No s'ha trobat cap git.exe.\n\nEl TortoiseGit necessita un git.exe per a les seves operacions (p. ex. el que proporciona el paquet del Git per Windows)."
 
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
@@ -6819,7 +6819,7 @@ msgstr "No s'ha trobat codificador d'imatge per %s."
 
 #. Resource IDs: (IDS_NO_LIMIT)
 msgid "No limitation"
-msgstr ""
+msgstr "Sense límit"
 
 #. Resource IDs: (IDS_PROC_LOG_JUMPNOTFOUND)
 msgid "No more revisions found."
@@ -7078,7 +7078,7 @@ msgstr "Hash antic"
 
 #. Resource IDs: (IDS_OLDMESSAGE)
 msgid "Old message"
-msgstr ""
+msgstr "Missatge antic"
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_OLDERTIME)
 msgid "Older commit time"
@@ -7106,7 +7106,7 @@ msgstr "Només branca actual"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1543)
 msgid "Only Local Branches"
-msgstr ""
+msgstr "Només branques locals"
 
 #. Resource IDs: (IDS_ONLYMERGEDFILES)
 msgid "Only Merged Files"
@@ -7119,7 +7119,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
-msgstr ""
+msgstr "Només local"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYMERGED)
 msgid "Only merged (to HEAD)"
@@ -7243,7 +7243,7 @@ msgstr "Sortida.prn"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_OVERWRITE)
 msgid "Overwrite"
-msgstr ""
+msgstr "Sobreescriu"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1521)
 msgid "Overwrite working tree changes (&force)"
@@ -7255,15 +7255,15 @@ msgstr ""
 
 #. Resource IDs: (cmdNavigatePreviousConflict_Keytip_RESID)
 msgid "PC"
-msgstr ""
+msgstr "PC"
 
 #. Resource IDs: (cmdNavigatePreviousDifference_Keytip_RESID)
 msgid "PD"
-msgstr ""
+msgstr "PD"
 
 #. Resource IDs: (cmdNavigatePreviousInlineDiff_Keytip_RESID)
 msgid "PI"
-msgstr ""
+msgstr "PI"
 
 #. Resource IDs: (AFX_IDS_PRINTPAGENUM)
 #, c-format
@@ -7318,7 +7318,7 @@ msgstr "Pare 2"
 #. Resource IDs: (IDS_CONFLICT_REVERT)
 #, c-format
 msgid "Parent of %2!s!"
-msgstr ""
+msgstr "Pare de %2!s!"
 
 #. Resource IDs: (IDS_PARENTS)
 msgid "Parent(s)"
@@ -11187,13 +11187,13 @@ msgstr ""
 msgid ""
 "When enabled, TortoiseGit move context menu items will be available when "
 "dragging folders / files"
-msgstr ""
+msgstr "Si està activat, els elements de desplaçament del menú contextual estaran disponibles quan s'arrosseguin carpetes / fitxers"
 
 #. Resource IDs: (IDS_SORTTAGSREVERSED_TT)
 msgid ""
 "When enabled, larger version numbers come first. It is because latest "
 "versions are usually more useful."
-msgstr ""
+msgstr "Si està activat, apareixen primer els números de versió més grans. Això és perquè les darreres versions acostumen a ser les més útils."
 
 #. Resource IDs: (IDS_SETTINGS_SELECTFILESONCOMMIT_TT)
 msgid ""
