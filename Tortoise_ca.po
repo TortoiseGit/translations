@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-04 10:59+0000\n"
+"PO-Revision-Date: 2018-01-04 11:35+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -3209,7 +3209,7 @@ msgstr "No s'ha trobat \"msysgit\" o \"windows\" a la cadena de versió de git.
 msgid ""
 "Could not get read version information from git.exe.\n"
 "Got: \"%s\""
-msgstr ""
+msgstr "No s'ha pogut obtenir la informació de la versió de lectura del git.exe.\nS'ha obtingut: \"%s\""
 
 #. Resource IDs: (IDS_ERR_NOSTATUS)
 msgid "Could not get the status!"
@@ -3461,7 +3461,7 @@ msgstr "Branca actual"
 msgid ""
 "Current HEAD is detached, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr ""
+msgstr "El HEAD actual està desvinculat, esteu treballant en (cap branca).\nVoleu crear una branca ara?"
 
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
@@ -3475,7 +3475,7 @@ msgstr "La branca actual %s està al dia.\n\nSi vol forçar un Rebase fins i tot
 msgid ""
 "Current branch is up to date or newer than the fetched branch. Open rebase "
 "anyway?"
-msgstr ""
+msgstr "La branca actual està al dia o és més recent que la branca recuperada. Voleu obrir rebase de totes maneres?"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
@@ -3629,7 +3629,7 @@ msgstr "Elimina la branca actual o fes servir un altre nom."
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
 msgid "Delete/modify merge conflict"
-msgstr ""
+msgstr "Conflicte de fusió de supressió/modificació"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
@@ -4667,7 +4667,7 @@ msgstr "Recupera"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHREBASE)
 msgid "Fetch && Re&base"
-msgstr ""
+msgstr "Recupera && Re&base"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
@@ -5973,7 +5973,7 @@ msgstr "Inclou arxius ignorats"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1797)
 msgid "Include FETCH_HEAD in branch selection boxes"
-msgstr ""
+msgstr "Inclou FETCH_HEAD a les caselles de selecció de branques"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 65535)
 msgid "Include only the following revision range:"
