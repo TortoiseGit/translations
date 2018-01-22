@@ -8,15 +8,15 @@
 # Jose Luis Tirado <joseluis.tirado@gmail.com>, 2015-2016
 # Roberto Gómez, 2017
 # Roberto Gómez, 2017
-# strel, 2015-2017
+# strel, 2015-2018
 # TempEmail.net <abanibi@tempemail.net>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-21 21:11+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-01-22 17:38+0000\n"
+"Last-Translator: strel\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1037,7 +1037,7 @@ msgstr "&Ref:"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1382)
 msgid "&Refresh"
-msgstr "&Refresca"
+msgstr "&Refrescar"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20093)
 msgid "&Regular Expression"
@@ -1727,7 +1727,7 @@ msgstr "Todos los Antecesores"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_BASIC_REFS)
 msgid "All basic refs"
-msgstr "Todas las referencias básicas"
+msgstr "Todas las referencias (ref) básicas"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_LOCAL_BRANCHES)
 msgid "All local branches"
@@ -1735,7 +1735,7 @@ msgstr "Todos los ramales locales"
 
 #. Resource IDs: (IDS_ALLREFS)
 msgid "All refs"
-msgstr "Todas las referencias (refs)"
+msgstr "Todas las referencias (ref)"
 
 #. Resource IDs: (IDS_ALLTAGS)
 msgid "All tags"
@@ -2943,7 +2943,7 @@ msgstr "Comparar baterías de cambios "
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
-msgstr "Comparar Ref. seleccionadas"
+msgstr "Comparar referencias (ref) seleccionadas"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
 msgid "Compare tags"
@@ -3124,7 +3124,7 @@ msgstr "Copiar rutas al portapapeles"
 
 #. Resource IDs: (IDS_COPY_REF_NAMES)
 msgid "Copy ref names"
-msgstr "Copiar nombres de Ref"
+msgstr "Copiar nombres de referencia (ref)"
 
 #. Resource IDs: (IDS_FILEDIFF_POPCLIPBOARD)
 msgid "Copy selection to cli&pboard"
@@ -3550,7 +3550,7 @@ msgstr "Suprimir &local"
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
-msgstr "Surprimir Ref..."
+msgstr "Eliminar referencia (ref)..."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEALLTAGS)
 msgid "Delete all tags"
@@ -3670,7 +3670,7 @@ msgstr "Borrando fichero"
 
 #. Resource IDs: (IDS_DELETING_REMOTE_REFS)
 msgid "Deleting remote refs..."
-msgstr "Borrando referencias remotas..."
+msgstr "Borrando referencias (ref) remotas..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 65535)
 msgid "Delivery:"
@@ -3960,7 +3960,7 @@ msgstr "¿Estás seguro que quieres mover este archivo o carpeta?"
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
-msgstr "¿Está seguro de querer borrar permanentemente las %d referencias (refs) seleccionadas? ¡NO podrá recuperarlas!"
+msgstr "¿Está seguro de querer borrar permanentemente las %d referencias (ref) seleccionadas? ¡NO podrá recuperarlas!"
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
@@ -4667,7 +4667,7 @@ msgstr "Descargar (fetch) y rea&sentar (rebase)"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
-msgstr "Descargar todas las referencias (refs)"
+msgstr "Descargar todas las referencias (ref)"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
@@ -5419,7 +5419,7 @@ msgstr "Ocultar inalterados"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1781,
 #. IDS_REFCOMPAREHIDEUNCHANGED_TT)
 msgid "Hide unchanged refs in Ref Compare List"
-msgstr "Oculta las referencias inalteradas en la Lista de Comparación de Referencias"
+msgstr "Oculta las referencias (ref) inalteradas en la Lista de Comparación de Referencias"
 
 #. Resource IDs: (ID_VIEW_SHOWFILELIST - Menu)
 msgid "Hide/Show the patch file list"
@@ -7197,7 +7197,7 @@ msgstr "Abrir ayudas\nTemas de ayuda"
 
 #. Resource IDs: (IDS_MENUDESCREFBROWSE)
 msgid "Opens the Reference Browser dialog."
-msgstr "Abre el diálogo del navegador de referencia."
+msgstr "Abre el diálogo del Explorador de Referencias.."
 
 #. Resource IDs: (IDS_MENUDESCREPOBROWSE)
 msgid "Opens the repository browser"
@@ -7901,7 +7901,7 @@ msgstr "Ref. (Haz clic en él y luego ve)"
 
 #. Resource IDs: (IDS_REFLIST)
 msgid "Ref List"
-msgstr "Lista de referencia"
+msgstr "Lista de referencias (ref)"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1354, Dialog
 #. IDD_REVGRAPHFILTER: Control id 1729, IDS_REFBROWSE)
@@ -7923,11 +7923,11 @@ msgstr "NombrRef"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 1382,
 #. Dialog IDD_LOGMESSAGE: Control id 1382, IDS_MENUREFRESH)
 msgid "Refresh"
-msgstr "Actualizar"
+msgstr "Refrescar"
 
 #. Resource IDs: (IDS_PROC_SYNC_REFRESHING)
 msgid "Refreshing..."
-msgstr "Actualizando..."
+msgstr "Refrescando..."
 
 #. Resource IDs: (65535 - PopupMenu, Dialog IDD_REGEXFILTER: Control id 165,
 #. cmdRegexFilterConfig1, cmdRegexFilterConfig1_LabelTitle_RESID)
@@ -8966,7 +8966,7 @@ msgstr "Mostrar"
 
 #. Resource IDs: (IDS_MENUREFLOG)
 msgid "Show &Reflog"
-msgstr "Mostrar &Reflujo"
+msgstr "Mostrar &registro de referencias (ref)"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1073,
 #. IDS_PROC_LOG_SHOWUNVERSIONED)
@@ -8994,7 +8994,7 @@ msgstr "Mostrar &Reg..."
 
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 1830)
 msgid "Show &nested refs"
-msgstr "Mostrar referencias (refs) &anidadas"
+msgstr "Mostrar referencias (ref) &anidadas"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1088)
 msgid "Show &overlays and context menu only in explorer"
@@ -9271,7 +9271,7 @@ msgstr "Muestra información sobre TortoiseGit"
 
 #. Resource IDs: (IDS_MENUDESCREFLOG)
 msgid "Shows reference log"
-msgstr "Muestra reg. de referencias"
+msgstr "Muestra el registro (log) de referencias"
 
 #. Resource IDs: (IDS_SETTINGS_SHOWACTIONLOG_TT)
 msgid "Shows the action log file in the default text editor"
@@ -9694,7 +9694,7 @@ msgstr "Intercambia la comparación izquierda<->derecha"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1733)
 msgid "Symbolize ref names"
-msgstr "Simboliza nombres ref"
+msgstr "Simbolizar nombres de referencia (ref) "
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11031)
 msgid "Symlink"
