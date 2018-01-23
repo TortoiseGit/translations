@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-22 17:38+0000\n"
+"PO-Revision-Date: 2018-01-23 19:05+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -1466,7 +1466,7 @@ msgstr "¿?"
 msgid ""
 "A branch with the same name as your entered tag name already exists (so the short ref is ambiguous).\n"
 "This can cause problems so you should avoid it."
-msgstr "Ya existe un ramal con el mismo nombre de la etiqueta que ha introducido (así que la referencia corta es ambigua).\nEsto puede causar problemas, así que debe evitarlos."
+msgstr "Ya existe un ramal (branch) con el mismo nombre para la etiqueta (tag) que ha introducido (por tanto la referencia corta es ambigua).\nEsto puede causar problemas, así que debe evitarlo."
 
 #. Resource IDs: (IDS_B_EXISTS)
 msgid "A branch with this name already exists."
@@ -1512,7 +1512,7 @@ msgstr "Un recurso requerido no estaba disponible."
 msgid ""
 "A tag with the same name as your entered branch name already exists (so the short ref is ambiguous).\n"
 "This can cause problems so you should avoid it."
-msgstr "Ya existe una etiqueta con el mismo nombre que el de ramal que ha indroducido (así que la referencia corta es ambigua).\nEsto puede causar problemas, así que debe evitarlos."
+msgstr "Ya existe una etiqueta (tag) con el mismo nombre para el ramal (branch) que ha indroducido (por tanto la referencia corta es ambigua).\nEsto puede causar problemas, así que debe evitarlo."
 
 #. Resource IDs: (IDS_T_EXISTS)
 msgid "A tag with this name already exists."
@@ -1727,7 +1727,7 @@ msgstr "Todos los Antecesores"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_BASIC_REFS)
 msgid "All basic refs"
-msgstr "Todas las referencias (ref) básicas"
+msgstr "Todas las refs básicas"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_LOCAL_BRANCHES)
 msgid "All local branches"
@@ -1735,7 +1735,7 @@ msgstr "Todos los ramales locales"
 
 #. Resource IDs: (IDS_ALLREFS)
 msgid "All refs"
-msgstr "Todas las referencias (ref)"
+msgstr "Todas las refs"
 
 #. Resource IDs: (IDS_ALLTAGS)
 msgid "All tags"
@@ -1792,7 +1792,7 @@ msgstr "Modificar &última Consigna"
 #. Resource IDs: (IDS_SETTINGS_ALTERNATIVEEDITOR_TT)
 msgid ""
 "An alternative editor. Which should preferably support *nix line endings."
-msgstr "Un editor alternativo que preferiblemente soporte archivos *nix"
+msgstr "Un editor alternativo, que preferiblemente debe soportar finales de línea *nix"
 
 #. Resource IDs: (IDS_SETTINGS_EXTDIFF_TT)
 #, c-format
@@ -2943,7 +2943,7 @@ msgstr "Comparar baterías de cambios "
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
-msgstr "Comparar referencias (ref) seleccionadas"
+msgstr "Comparar refs seleccionadas"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
 msgid "Compare tags"
@@ -3020,7 +3020,7 @@ msgstr "Configurar la integración del Seguimiento de problemas"
 msgid ""
 "Configure alternative editor. Preferably one which can handle *nix line "
 "endings."
-msgstr "Configurar un editor alternativo que preferiblemente soporte archivos *nix"
+msgstr "Configure un editor alternativo, que preferiblemente pueda manejar finales de línea *nix"
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
@@ -3124,7 +3124,7 @@ msgstr "Copiar rutas al portapapeles"
 
 #. Resource IDs: (IDS_COPY_REF_NAMES)
 msgid "Copy ref names"
-msgstr "Copiar nombres de referencia (ref)"
+msgstr "Copiar nombres de ref"
 
 #. Resource IDs: (IDS_FILEDIFF_POPCLIPBOARD)
 msgid "Copy selection to cli&pboard"
@@ -3550,7 +3550,7 @@ msgstr "Suprimir &local"
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
-msgstr "Eliminar referencia (ref)..."
+msgstr "Eliminar ref..."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEALLTAGS)
 msgid "Delete all tags"
@@ -3670,7 +3670,7 @@ msgstr "Borrando fichero"
 
 #. Resource IDs: (IDS_DELETING_REMOTE_REFS)
 msgid "Deleting remote refs..."
-msgstr "Borrando referencias (ref) remotas..."
+msgstr "Borrando refs remotas..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 65535)
 msgid "Delivery:"
@@ -4040,7 +4040,7 @@ msgstr "¿Quieres recuperar estos documentos auto-salvados?"
 msgid ""
 "Do you want to reload the documents to reflect the settings changes?\n"
 "Note: you will lose all changes you've made!"
-msgstr "¿Quieres volver a recargar los documentos para reflejar los cambios de configuración?\nNota: ¡se perderán todos los cambios que has hecho!"
+msgstr "¿Quiere volver a recargar los documentos para que reflejen los cambios de configuración?\nNota: ¡Se perderán todos los cambios que ha hecho!"
 
 #. Resource IDs: (IDS_SEECHANGES)
 msgid "Do you want to see changes?"
@@ -4667,7 +4667,7 @@ msgstr "Descargar (fetch) y rea&sentar (rebase)"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
-msgstr "Descargar todas las referencias (ref)"
+msgstr "Descargar todas las refs"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
@@ -4950,14 +4950,14 @@ msgid ""
 "Force push only if the remote reference points to the same commit as the remote tracking branch.\n"
 "This can cause the remote repository to lose commits; use it with care.\n"
 "This option corresponds to the --force-with-lease git option."
-msgstr "Forzar impulsión (push) sólo si la referencia remota apunta hacia la misma consignación (commit) que el ramal de rastreado remoto.\nEsto puede causar que el repositorio remoto pierda consignaciones; úselo con cuidado.\nEsta opción corresponde a la opción --force-with-lease de git."
+msgstr "Fuerza el impulsado (push) sólo si la referencia (ref) remota apunta hacia la misma consignación (commit) que el ramal (branch) de seguimiento remoto.\nEsto puede causar que el repositorio remoto pierda consignaciones; úselo con cuidado.\nEsta opción corresponde a la opción --force-with-lease de git."
 
 #. Resource IDs: (IDS_FORCE_TT)
 msgid ""
 "Force push to the selected remote reference and override it without any safety checks.\n"
 "This can cause the remote repository to lose unseen commits; use it with care.\n"
 "This option corresponds to the --force git option."
-msgstr "Forzar impulsión (push) hacia la referencia remota seleccionada y sustituirla sin ninguna comprobación de seguridad.\nEsto puede causar que el repositorio remoto pierda consignaciones (commit) no vistas; úselo con cuidado.\nEsta opción correspone a la opción --force de git."
+msgstr "Fuerza el impulsado (push) hacia la referencia (ref) remota seleccionada y la reemplaza sin ninguna comprobación de seguridad.\nEsto puede causar que el repositorio remoto pierda consignaciones (commit) no vistas; úselo con cuidado.\nEsta opción correspone a la opción --force de git."
 
 #. Resource IDs: (IDS_REBASE_FORCE_TT)
 msgid ""
@@ -5419,7 +5419,7 @@ msgstr "Ocultar inalterados"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1781,
 #. IDS_REFCOMPAREHIDEUNCHANGED_TT)
 msgid "Hide unchanged refs in Ref Compare List"
-msgstr "Oculta las referencias (ref) inalteradas en la Lista de Comparación de Referencias"
+msgstr "Oculta las referencias inalteradas en la Lista de Comparación de Refs"
 
 #. Resource IDs: (ID_VIEW_SHOWFILELIST - Menu)
 msgid "Hide/Show the patch file list"
@@ -7197,7 +7197,7 @@ msgstr "Abrir ayudas\nTemas de ayuda"
 
 #. Resource IDs: (IDS_MENUDESCREFBROWSE)
 msgid "Opens the Reference Browser dialog."
-msgstr "Abre el diálogo del Explorador de Referencias.."
+msgstr "Abre el diálogo del Explorador de Referencias."
 
 #. Resource IDs: (IDS_MENUDESCREPOBROWSE)
 msgid "Opens the repository browser"
@@ -11358,7 +11358,7 @@ msgstr "¡No se pueden ajustar propiedades en carpetas, sólo en archivos!\nSi q
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_NOCHANGEOFTYPE)
 msgid "You cannot change the type of this ref with a rename."
-msgstr "No puedes cambiar el tipo de esta ref. renombrándola."
+msgstr "No puede cambiar el tipo de esta referencia (ref) renombrándola."
 
 #. Resource IDs: (IDS_PROC_OLDMSYSGIT)
 #, c-format
