@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-23 19:05+0000\n"
+"PO-Revision-Date: 2018-01-24 10:33+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -726,7 +726,7 @@ msgstr "&HEAD"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1552, Dialog IDD_RESET:
 #. Control id 1552)
 msgid "&Hard: Reset working tree and index (discard all local changes)"
-msgstr "&Duro: Reinicializa el árbol de trabajo y el índice (descarta todos los cambios locales)"
+msgstr "&Duro (hard): Restablece el árbol de trabajo y el índice (descarta todos los cambios locales)"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
 #. 57670, IDS_MENUHELP, ID_MENUHELP - Menu)
@@ -876,7 +876,7 @@ msgstr "&Mensaje:"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
 msgid "&Mixed: Leave working tree untouched, reset index"
-msgstr "&Mixto: Deja inalterado el árbol de trabajo, reinicializa el índice"
+msgstr "&Mixto (mixed): Deja intacto el árbol de trabajo, restablece el índice"
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
@@ -1081,7 +1081,7 @@ msgstr "&Explorador-Repos"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1355)
 msgid "&Reset filter"
-msgstr "&Reinicia filtro"
+msgstr "&Restablecer filtro"
 
 #. Resource IDs: (IDS_RESOLVEDBUTTON)
 msgid "&Resolved"
@@ -2437,7 +2437,7 @@ msgstr "Ahora no se pueden combinar consignaciones.\nAsegúrese de que está vie
 msgid ""
 "Cannot force updating current branch. Use reset command if you want to do "
 "so."
-msgstr "No se pudo forzar la actualización del ramal actual. Use el comando reset (restablecer) si quiere hacerlo así."
+msgstr "No se puede forzar la actualización del ramal (branch) actual. Use el comando reset (restablecer) si quiere hacerlo así."
 
 #. Resource IDs: (IDS_CANNOTBLAMENOGIT)
 #, c-format
@@ -3235,15 +3235,15 @@ msgstr "¡No se pudo eliminar %s de la lista de ignorados"
 
 #. Resource IDs: (IDS_PROC_COMBINE_ERRORSTEP1)
 msgid "Could not reset to first commit (first step). Aborting..."
-msgstr "No se ha podido reiniciar a la primera consigna (primer paso). Abortando..."
+msgstr "No se pudo hacer un restablecimiento (reset) hasta la primera consignación (primer paso). Abortando..."
 
 #. Resource IDs: (IDS_PROC_COMBINE_ERRORSTEP2)
 msgid "Could not reset to last commit (second step). Aborting..."
-msgstr "No se ha podido reiniciar a la úlrima consigna (segundo paso). Abortando..."
+msgstr "No se pudo hacer un restablecimiento (reset) hasta la úlrima consignación (segundo paso). Abortando..."
 
 #. Resource IDs: (IDS_PROC_COMBINE_ERRORRESETHEAD)
 msgid "Could not reset to original HEAD."
-msgstr "No se ha podido restablecer hasta el HEAD (ultima consignación) original."
+msgstr "No se pudo efectuar un restablecimiento (reset) hasta el HEAD (ultima consignación) original."
 
 #. Resource IDs: (IDS_ERR_NOURLOFFILE)
 #, c-format
@@ -5951,7 +5951,7 @@ msgstr "En Consignas"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
 msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr "Para abortar una combinación (merge) en curso es necesario restablecer (a HEAD ~última consignación)."
+msgstr "Para abortar una combinación (merge) en curso es necesario un restablecimiento (reset, hasta HEAD (última consignación))."
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT2)
 msgid ""
@@ -6051,7 +6051,7 @@ msgid ""
 "Do you want to ignore this warning and keep these lines or abort committing in order to edit the commit message?\n"
 "\n"
 "You can automatically remove these lines by enabling \"Strip lines starting with \"#\" in commit messages\" in TortoiseGit settings."
-msgstr ""
+msgstr "Parece que hay una indicación de conflicto (una línea como \"# Conflicts:\") en su mensaje de consignación (commit). Esta indicación es añadida automáticamente por Git para usuarios de cli y no hay necesidad de conservarla.\n\n¿Quiere ignorar esta advertencia y consevar estas líneas, o abortar el consignado para editar el mensaje de consignación?\n\nPuede eliminar automáticamente estas líneas habilitando \"Despojar de líneas que comiencen con \"#\" el mensaje de consignación (commit)\" en la configuración de TortoiseGit."
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1074)
 msgid "J&ump to first conflict when loading"
@@ -6370,7 +6370,7 @@ msgstr "Identificarse:"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1550)
 msgid "M&erge: Resets the index and try to reconstruct the pre-merge state"
-msgstr "C&ombinar (merge): Reinicializa el índice y trata de reconstruir el estado pre-combinación"
+msgstr "C&ombinar (merge): Restablece el índice y trata de reconstruir el estado pre-combinación"
 
 #. Resource IDs: (IDS_SMTP_MAPI)
 msgid "MAPI"
@@ -7224,7 +7224,7 @@ msgstr "Nombre del origin (repositorio original)"
 
 #. Resource IDs: (IDS_VIEW_SHOWROTHERLABELS)
 msgid "Other refs"
-msgstr ""
+msgstr "Otras refs"
 
 #. Resource IDs: (IDS_STATGRAPH_OTHERGROUP)
 msgid "Others"
@@ -8206,17 +8206,17 @@ msgstr "Res&olver..."
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1561, Dialog IDD_RESET:
 #. Control id 317, IDS_PROC_RESET, IDS_PROGRS_TITLE_RESET)
 msgid "Reset"
-msgstr "Reinicia"
+msgstr "Restablecer (reset)"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1554, Dialog IDD_RESET:
 #. Control id 1554)
 msgid "Reset Type"
-msgstr "Tipo de Reinicio"
+msgstr "Tipo de restablecimiento"
 
 #. Resource IDs: (IDS_RESET_TO_THIS_FORMAT)
 #, c-format
 msgid "Reset \"%s\" to this..."
-msgstr "Reinicia \"%s\" a este..."
+msgstr "Restablecer \"%s\" a este..."
 
 #. Resource IDs: (Dialog IDD_RESET: Control id 1522)
 msgid "Reset active branch"
@@ -8224,7 +8224,7 @@ msgstr "Restablecer ramal activo"
 
 #. Resource IDs: (IDS_STATUSLIST_RESETCOLUMNORDER)
 msgid "Reset columns"
-msgstr "Reiniciar columnas"
+msgstr "Restablecer columnas"
 
 #. Resource IDs: (IDS_PROC_RESETBRANCH)
 #, c-format
@@ -9547,7 +9547,7 @@ msgstr "Estrategia"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1406)
 msgid "Strip lines starting with \"#\" in commit message"
-msgstr "Despojar de líneas que comiencen con \"#\" al mensaje de consignación (commit)"
+msgstr "Despojar de líneas que comiencen con \"#\" el mensaje de consignación (commit)"
 
 #. Resource IDs: (IDS_LOG_FILTER_SUBJECT, IDS_SUBJECT)
 msgid "Subject"
@@ -10681,7 +10681,7 @@ msgstr "Desconocido"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "Unknown ref-types"
-msgstr ""
+msgstr "Tipos de ref desconocidos"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_UNMARKBLOCK)
 msgid "Unmark this block"
@@ -11240,7 +11240,7 @@ msgid ""
 "If you want to abort the merge, do a hard reset on HEAD or select abort merge on the context menu.\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "Al combinar (merge), es decir, al integrar cambios de otro ramal (branch) remoto en su ramal local, apareció un conflicto en al menos un fichero. Lo que significa que necesita resolver esto manualmente (es decir, necesita integrar sus cambios en un fichero que también haya sido modificado en otro ramal).\n\nTras resolver todos los ficheros, necesita realizar una consignación (commit) para completar la combinación.\n\nSi quiere abortar la combinación, realice un restablecimiento duro (hard reset) sobre HEAD (última consignación) o seleccione abortar la combinación en el menú contextual.\n\nVea la ayuda para más información."
 
 #. Resource IDs: (IDS_DAEMON_SECURITY_WARN)
 msgid ""
