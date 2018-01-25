@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-24 11:39+0000\n"
+"PO-Revision-Date: 2018-01-25 15:57+0000\n"
 "Last-Translator: strel\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -1476,7 +1476,7 @@ msgstr "Ya existe un ramal con el mismo nombre."
 msgid ""
 "A merge process is active, so this commit will be a merge commit. In order "
 "to abort a merge, you have to perform a reset or forced checkout."
-msgstr "Un proceso de \"merge\" está activo, por lo que esta consigna será una consign de \"merge\". Para cancelar un \"merge\", tienes que hacer un reinicio o comprobación forzada."
+msgstr "Un proceso de combinación (merge) está activo, por lo que esta consignación (commit) será una consignación de combinación. Para abortar una combinación, tiene que efectuar un restablecimiento (reset) o una adquisición (checkout) forzada."
 
 #. Resource IDs: (IDS_CHECKNEWER_NEWERVERSIONAVAILABLE)
 msgid "A newer version is available. Please download the current version!"
@@ -2594,11 +2594,11 @@ msgstr "Comprobar:"
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
-msgstr "Comprobación"
+msgstr "Adquirir (checkout)"
 
 #. Resource IDs: (IDS_SWITCH_WITH_MERGE)
 msgid "Checkout with merge"
-msgstr "Comprobar con merge"
+msgstr "Adquirir con combinación"
 
 #. Resource IDs: (IDS_PROGS_TITLE_CHERRYPICK)
 msgid "Cherry Pick"
@@ -4560,12 +4560,12 @@ msgstr "Restitución fallida"
 #. Resource IDs: (IDS_CHECKOUTFAILED)
 #, c-format
 msgid "Failed to checkout file \"%s\""
-msgstr "No se pudo comprobar el archivo \"%s\""
+msgstr "No se pudo adquirir (checkout) el fichero \"%s\""
 
 #. Resource IDs: (IDS_STATUSLIST_CHECKOUTFILEFAILED)
 #, c-format
 msgid "Failed to checkout file \"%s\" of revision %s to \"%s\"."
-msgstr "No se pudo comprobar el archivo \"%s\" de la revisión %s a la \"%s\"."
+msgstr "No se pudo adquirir (checkout) el fichero \"%s\" de la revisión %s hacia \"%s\"."
 
 #. Resource IDs: (AFX_IDP_FAILED_TO_CONNECT)
 msgid ""
@@ -6730,7 +6730,7 @@ msgstr "Sin &combinaciones"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1716)
 msgid "No Checkout"
-msgstr "No Comprobar"
+msgstr "Sin adquisición (checkout)"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1482, Dialog IDD_PULLFETCH:
 #. Control id 1482)
@@ -8438,7 +8438,7 @@ msgstr "E&stadísticas"
 
 #. Resource IDs: (IDS_MENUSWITCH)
 msgid "S&witch/Checkout..."
-msgstr "Conmutar/Comprobar..."
+msgstr "Alternar/Adquirir (checkout)..."
 
 #. Resource IDs: (IDS_HASH, IDS_LOG_FILTER_REVS, IDS_LOG_HASH)
 msgid "SHA-1"
@@ -9674,19 +9674,19 @@ msgstr "Conmutar a la ventana del documento anterior"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 304)
 msgid "Switch/Checkout"
-msgstr "Conmutar/Comprobar"
+msgstr "Alternar/Adquirir (checkout)"
 
 #. Resource IDs: (IDS_SWITCH_BRANCH)
 msgid "Switch/Checkout to"
-msgstr "Conmutar/Comprobar a"
+msgstr "Alternar/Adquirir (checkout) hacia"
 
 #. Resource IDs: (IDS_SWITCH_TO_THIS)
 msgid "Switch/Checkout to this..."
-msgstr "Conmutar/Comprobar a este..."
+msgstr "Alternar/Adquirir hacia este..."
 
 #. Resource IDs: (IDS_MENUDESCSWITCH)
 msgid "Switch/Checkout working tree to another branch/tag"
-msgstr "Cambiar/Comprobar árbol de trabajo a otro ramal/etiqueta"
+msgstr "Alternar/Adquirir (checkout) árbol de trabajo hacia otro ramal/etiqueta"
 
 #. Resource IDs: (IDS_FILEDIFF_SWITCHLEFTRIGHT_TT)
 msgid "Switches the comparison left<->right"
