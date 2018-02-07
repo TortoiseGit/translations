@@ -10,10 +10,11 @@
 # Antonio <akirarulez@yahoo.it>, 2013
 # Cecilia Saltori <csaltori@gmail.com>, 2011
 # Emilio Bologna <>, 2012
+# Giulio Franco <blunotte.gf@gmail.com>, 2018
 # Giuseppe Bogetti <orangesocks@bgsoft.it>, 2016
 # Lübbe  <luebbe.tortoisesvn@googlemail.com>, 2012
 # Lübbe Onken <l.onken@rac.de>, 2011
-# Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
+# Lübbe Onken <luebbe.opensource@gmail.com>, 2011
 # Michele Locati <mlocati@gmail.com>, 2012
 # Nathan McCoy, 2013
 # Nicolò Altamura <inactive+nicoalta01@transifex.com>, 2015
@@ -28,8 +29,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-21 21:11+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-02-07 10:47+0000\n"
+"Last-Translator: Giulio Franco <blunotte.gf@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/lznuaa/tortoisegit/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -402,11 +403,11 @@ msgstr "&Biasimare"
 
 #. Resource IDs: (IDS_LOG_POPUP_BLAMEDIFF)
 msgid "&Blame changes"
-msgstr "&Suggerisci modifiche"
+msgstr "&Biasima le modifiche"
 
 #. Resource IDs: (IDS_FILEDIFF_POPBLAME, IDS_LOG_POPUP_BLAMEREVS)
 msgid "&Blame revisions"
-msgstr "&Suggerisci revisioni"
+msgstr "&Biasima le revisioni"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Border:"
@@ -570,7 +571,7 @@ msgstr "&Non visualizzare più questo messaggio"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr ""
+msgstr "&Non salvare queste impostazioni."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -621,7 +622,7 @@ msgstr "&Email:"
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1023, Dialog
 #. IDD_SETTINGSHOOKCONFIG: Control id 1023)
 msgid "&Enable"
-msgstr ""
+msgstr "&Abilita"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1023)
 msgid "&Enable Proxy Server"
@@ -633,7 +634,7 @@ msgstr "&Abilita modifica"
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "&Esci"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -708,11 +709,11 @@ msgstr "&Da"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
-msgstr ""
+msgstr "&Genera una coppia di chiavi PuTTY"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Git"
-msgstr ""
+msgstr "&Git"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -721,7 +722,7 @@ msgstr "&Commit di Stile Git (--rmdir)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Git.exe Path:"
-msgstr ""
+msgstr "&Percorso di Git.exe:"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -756,7 +757,7 @@ msgstr "&Nascondi"
 
 #. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
 msgid "&Hide/Show the patch file list"
-msgstr ""
+msgstr "&Nascondi/Mostra la lista dei file di patch"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -868,7 +869,7 @@ msgstr "&Unisci"
 
 #. Resource IDs: (IDS_MERGE_UNRELATED)
 msgid "&Merge unrelated history"
-msgstr ""
+msgstr "&Unisci storie indipendenti"
 
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
@@ -930,7 +931,7 @@ msgstr "&No"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1734)
 msgid "&No fetch"
-msgstr "&No Fetch"
+msgstr "&Non recuperare"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1702)
 msgid "&None"
@@ -1500,7 +1501,7 @@ msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
 "If you add an '?' char at the end of a path, then only this path will be included.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
-msgstr ""
+msgstr "Una lista di percorsi, uno per riga, per cui vengono visualizzate le icone overlay.\nSe aggiungi il carattere '?' alla fine di un percorso, solo tale percorso sarà incluso.\nSe non lo fai, o se aggiungi il carattere '*' alla fine di un percorso, saranno inclusi anche tutti i file e le sottocartelle in quel percorso."
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1515,7 +1516,7 @@ msgid ""
 "If you add an '?' char at the end of a path, then only this path will be excluded.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr ""
+msgstr "Una lista di percorsi, uno per riga, per cui non vengono visualizzate le icone overlay.\nSe aggiungi il carattere '?' alla fine di un percorso, solo tale percorso sarà escluso.\nSe non lo fai, o se aggiungi il carattere '*' alla fine di un percorso, saranno esclusi anche tutti i file e le sottocartelle in quel percorso.\nUna lista vuota permetterà gli overlay in tutti i percorsi."
 
 #. Resource IDs: (AFX_IDS_RESOURCE_EXCEPTION)
 msgid "A required resource was unavailable."
@@ -1576,7 +1577,7 @@ msgstr "Interrompe un'unione in corso."
 
 #. Resource IDs: (cmdAbout_LabelTitle_RESID)
 msgid "Abou&t TortoiseGitMerge"
-msgstr ""
+msgstr "Info su &TortoiseGitMerge"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 129)
 msgid "About TortoiseGit"
@@ -1584,7 +1585,7 @@ msgstr "Informazioni su TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 100)
 msgid "About TortoiseGitBlame"
-msgstr "Info su TortoiseGitBlame"
+msgstr "Informazioni su TortoiseGitBlame"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 136)
 msgid "About TortoiseGitMerge"
@@ -1816,7 +1817,7 @@ msgid ""
 "You can specify the following parameters to the path:\n"
 "%base: the base file\n"
 "%mine: the modified file"
-msgstr ""
+msgstr "Un programma esterno, utilizzato\nper confrontare differenti revisioni dei file.\n\nPuoi specificare i seguenti parametri per il percorso:\n%base: il file di base\n%mine: il file modificato"
 
 #. Resource IDs: (IDS_SETTINGS_EXTMERGE_TT)
 #, c-format
@@ -1829,7 +1830,7 @@ msgid ""
 "%theirs: the file as it is in the repository\n"
 "%mine: your own file, with your changes\n"
 "%base: the original file without your changes"
-msgstr ""
+msgstr "Un programma esterno per unire file, utilizzato\nper risolvere i file in conflitto.\n\nPuoi specificare i seguenti parametri per il percorso:\n%merged: il file in conflitto, da salvare\n%theirs: il file che si trova nel repository\n%mine: il tuo file, con le tue modifiche\n%base: il file originale, senza le tue modifiche"
 
 #. Resource IDs: (AFX_IDP_FILE_INVALID_FILE)
 #, c-format
@@ -1864,7 +1865,7 @@ msgstr "Accoda questo blocco a sinistra"
 
 #. Resource IDs: (ID_FILE_APPLYPATCH - Menu)
 msgid "Apply &Patch..."
-msgstr ""
+msgstr "Applica &Patch..."
 
 #. Resource IDs: (IDS_MENUIMPORTPATCH)
 msgid "Apply Patch Serial..."
@@ -1880,7 +1881,7 @@ msgstr "Applica patch"
 
 #. Resource IDs: (IDS_MENUDESCIMPORTPATCH)
 msgid "Apply a series of patches from a mailbox"
-msgstr ""
+msgstr "Applica una serie di patch da una casella di posta"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1072)
 msgid "Apply unified diff"
@@ -1901,11 +1902,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REBASE_ABORT)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr ""
+msgstr "Interrompere il processo di rebase?"
 
 #. Resource IDs: (IDS_REALLYCANCEL)
 msgid "Are you sure you want to cancel?"
-msgstr ""
+msgstr "Vuoi davvero annullare?"
 
 #. Resource IDs: (IDS_PROC_RESOLVE)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -1916,7 +1917,7 @@ msgstr "Marcare il/i file in conflitto come risolti?"
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "Vuoi davvero ripristinare %d elemento/i? Perderai TUTTE le modifiche a partire dall'ultimo aggiornamento!"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
@@ -1934,16 +1935,16 @@ msgstr "Assegnato all'elenco modifiche '%s'"
 
 #. Resource IDs: (IDS_MENUASSUMEVALID)
 msgid "Assume Unchanged"
-msgstr ""
+msgstr "Assumi come non modificato"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11027,
 #. IDS_PATHACTIONS_ASSUMEUNCHANGED)
 msgid "Assume valid/unchanged"
-msgstr ""
+msgstr "Assumi come valido/non modificato"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 1550)
 msgid "Assume valid/unchanged (\"Needs-lock\" in TortoiseSVN)"
-msgstr ""
+msgstr "Assumi come valido/non modificato (\"Richiede-lock\" in TortoiseSVN)"
 
 #. Resource IDs:
 #. (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES_AT_FILE_CREATION
@@ -2176,7 +2177,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_BLAME_POPUP_BLAME, IDS_LOG_POPUP_BLAMEPREVIOUS)
 msgid "Blame previous revision"
-msgstr ""
+msgstr "Biasima la revisione precedente"
 
 #. Resource IDs: (IDS_MENUDESCBLAME)
 msgid "Blames each line of a file on an author"
@@ -2563,7 +2564,7 @@ msgstr "Controllo aggiornamenti"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 174)
 msgid "Check For Updates - TortoiseGit"
-msgstr ""
+msgstr "Controllo aggiornamenti - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1031)
 msgid "Check For Updates..."
@@ -2862,7 +2863,7 @@ msgstr ""
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
 msgid "Commit %s not found in \"%s\". Update submodule now?"
-msgstr ""
+msgstr "Commit %s non trovato in \"%s\". Aggiornare il submodule ora?"
 
 #. Resource IDs: (IDS_COMMIT_COMMITPUSH)
 msgid "Commit && &Push"
@@ -3861,7 +3862,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKSBUTTON)
 msgid "Disable update checks"
-msgstr ""
+msgstr "Disattiva il controllo degli aggiornamenti."
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_DISABLED)
 msgid "Disabled"
@@ -3954,11 +3955,11 @@ msgid ""
 "Do you really want to disable automatic update checks for TortoiseGit?\n"
 "\n"
 "Automatic update checks can be re-enabled in TortoiseGit settings on the General page."
-msgstr ""
+msgstr "Vuoi davvero disattivare il controllo automatico per gli aggiornamenti di TortoiseGit?\n\nIl controllo automatico per gli aggiornamenti può essere riattivato nelle impostazioni di TortoiseGit, dalla pagina Generale."
 
 #. Resource IDs: (IDS_PROC_MARK_ASSUMEVALID)
 msgid "Do you really want to mark the selected file(s) as assume-valid?"
-msgstr ""
+msgstr "Marcare i(l) file selezionato/i come assumi-valido?"
 
 #. Resource IDs: (IDS_PROC_MARK_SKIPWORKTREE)
 msgid "Do you really want to mark the selected file(s) as skip-worktree?"
@@ -4676,7 +4677,7 @@ msgstr "Recuperare"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHREBASE)
 msgid "Fetch && Re&base"
-msgstr ""
+msgstr "Recupera ed esegui Re&base"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
@@ -4684,24 +4685,24 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr ""
+msgstr "Recupera commit da un repository remoto"
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
-msgstr ""
+msgstr "Recupera da un repository SVN"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_FETCHFROM)
 #, c-format
 msgid "Fetch from \"%s\""
-msgstr ""
+msgstr "Recupera da \"%s\""
 
 #. Resource IDs: (IDS_LOG_FETCHINGSTATUS)
 msgid "Fetching Status..."
-msgstr ""
+msgstr "Recupero dello stato..."
 
 #. Resource IDs: (IDS_PROC_LOG_FETCHINGFILES)
 msgid "Fetching changed files..."
-msgstr ""
+msgstr "Recupero dei file modificati..."
 
 #. Resource IDs: (IDS_GETVERSIONOFFILETITLE)
 msgid "Fetching file..."
@@ -5782,7 +5783,7 @@ msgstr "Se selezionato TortoiseGit controlla, una volta alla settimana, la dispo
 msgid ""
 "If enabled, working tree folders which are excluded from\n"
 "showing overlays still show the overlay for status 'normal'"
-msgstr ""
+msgstr "Se abilitato, le cartelle dell'albero di lavoro che sono escluse dalla visualizzazione\ndegli overlay mostreranno comunque l'overlay per lo stato 'normale'"
 
 #. Resource IDs: (IDS_SETTINGS_UNVERSIONEDRECURSE_TT)
 msgid ""
@@ -6317,7 +6318,7 @@ msgstr ""
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
-msgstr ""
+msgstr "Modifiche locali ignorate (file assunti come validi/non modificati, o marcati come skip-worktree)"
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
@@ -8504,7 +8505,7 @@ msgstr "SVN DCommit..."
 
 #. Resource IDs: (IDS_MENUSVNFETCH)
 msgid "SVN Fetch"
-msgstr ""
+msgstr "Recupera da SVN"
 
 #. Resource IDs: (IDS_MENUSVNREBASE)
 msgid "SVN Rebase"
@@ -11604,7 +11605,7 @@ msgstr "e supporta gli sviluppatori"
 
 #. Resource IDs: (IDS_SETTINGS_READONLYNAME)
 msgid "assume-valid"
-msgstr ""
+msgstr "assumi-valido"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORX)
 msgid "author"

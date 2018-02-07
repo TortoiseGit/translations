@@ -16,15 +16,15 @@
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013,2017
 # weicong <weicong@live.cn>, 2013
 # YF <yfdyh000@gmail.com>, 2013,2016
-# YF <yfdyh000@gmail.com>, 2013-2017
+# YF <yfdyh000@gmail.com>, 2013-2018
 # 乙酸鋰 <ch3cooli@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-21 21:11+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-02-07 10:40+0000\n"
+"Last-Translator: YF <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -707,7 +707,7 @@ msgstr "生成 PuTTY 密钥对(&G)"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Git"
-msgstr ""
+msgstr "&Git"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -751,7 +751,7 @@ msgstr "隐藏 (&H)"
 
 #. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
 msgid "&Hide/Show the patch file list"
-msgstr ""
+msgstr "隐藏/显示补丁文件列表(&H)"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -1571,7 +1571,7 @@ msgstr "中止进行中的合并。"
 
 #. Resource IDs: (cmdAbout_LabelTitle_RESID)
 msgid "Abou&t TortoiseGitMerge"
-msgstr ""
+msgstr "关于 &TortoiseGitMerge"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 129)
 msgid "About TortoiseGit"
@@ -2311,7 +2311,7 @@ msgstr "默认情况下 Git 不保存/缓存凭据。但您可以配置凭据助
 
 #. Resource IDs: (cmdCopy_Keytip_RESID)
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -3010,7 +3010,7 @@ msgstr "配置类型:"
 
 #. Resource IDs: (cmdRegexFilterConfig2_LabelTitle_RESID)
 msgid "Configure Filter Regex"
-msgstr ""
+msgstr "配置正则筛选器"
 
 #. Resource IDs: (IDS_CONFIGUREREGEXES, ID_REGEXFILTER - Menu)
 msgid "Configure Filter Regexes"
@@ -3349,7 +3349,7 @@ msgstr "创建标签(&T)..."
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
-msgstr ""
+msgstr "创建补丁文件(&P)"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -4144,7 +4144,7 @@ msgstr "Dumy Group For locat TabCtr"
 
 #. Resource IDs: (cmdEditEnabled_Keytip_RESID, cmdTabEdit_Keytip_RESID)
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #. Resource IDs: (IDS_PROC_REBASE_UNSELECTED_EDIT)
 msgid "E&dit unselected"
@@ -4551,7 +4551,7 @@ msgstr "外部程序: "
 
 #. Resource IDs: (cmdFind_Keytip_RESID)
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -4836,7 +4836,7 @@ msgstr "过滤器"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Filtered"
-msgstr ""
+msgstr "已过滤"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 139, Dialog IDD_FIND: Control id
 #. 20100, ID_EDIT_FIND - Menu, cmdFind_LabelTitle_RESID)
@@ -4905,11 +4905,11 @@ msgstr "第一个问题版本(&B):"
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "适合图表"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "适合高度"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4921,7 +4921,7 @@ msgstr "适合图像宽度(&W)\tW"
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "适合宽度"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -5073,7 +5073,7 @@ msgstr "在“对话框组三”页面有更多有关“提交”对话框的选
 
 #. Resource IDs: (cmdGotoLine_Keytip_RESID)
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -6059,7 +6059,7 @@ msgid ""
 "Do you want to ignore this warning and keep these lines or abort committing in order to edit the commit message?\n"
 "\n"
 "You can automatically remove these lines by enabling \"Strip lines starting with \"#\" in commit messages\" in TortoiseGit settings."
-msgstr ""
+msgstr "看上去您的提交信息中有一个冲突提示（一行如 \"# Conflicts:\"）。此提示由 Git 为 cli 用户自动添加，不需要保留它。\n\n您是否要忽略本警告并保留这些行，或者中止提交以编辑提交信息？\n\n您可以在 TortoiseGit 设置中启用“剥离提交信息中以 # 开头的行”来自动移除这些行。"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1074)
 msgid "J&ump to first conflict when loading"
@@ -6101,7 +6101,7 @@ msgstr "韩语"
 
 #. Resource IDs: (cmdViewWrapLines_Keytip_RESID)
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
@@ -6334,7 +6334,7 @@ msgstr "定位工具栏"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "位置栏"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6622,15 +6622,15 @@ msgstr "我的文件:"
 
 #. Resource IDs: (cmdNavigateNextConflict_Keytip_RESID)
 msgid "NC"
-msgstr ""
+msgstr "NC"
 
 #. Resource IDs: (cmdNavigateNextDifference_Keytip_RESID)
 msgid "ND"
-msgstr ""
+msgstr "ND"
 
 #. Resource IDs: (cmdNavigateNextInlineDiff_Keytip_RESID)
 msgid "NI"
-msgstr ""
+msgstr "NI"
 
 #. Resource IDs: (59138)
 msgid "NUM"
@@ -6812,7 +6812,7 @@ msgstr "在上次提交后没有添加或更改过文件。\n要显示未受版�
 
 #. Resource IDs: (33002)
 msgid "No filter"
-msgstr ""
+msgstr "无过滤"
 
 #. Resource IDs: (IDS_PROC_NOMSYSGIT)
 msgid ""
@@ -7232,7 +7232,7 @@ msgstr "原名称"
 
 #. Resource IDs: (IDS_VIEW_SHOWROTHERLABELS)
 msgid "Other refs"
-msgstr ""
+msgstr "其他引用"
 
 #. Resource IDs: (IDS_STATGRAPH_OTHERGROUP)
 msgid "Others"
@@ -7272,15 +7272,15 @@ msgstr "页面设置(&A)..."
 
 #. Resource IDs: (cmdNavigatePreviousConflict_Keytip_RESID)
 msgid "PC"
-msgstr ""
+msgstr "PC"
 
 #. Resource IDs: (cmdNavigatePreviousDifference_Keytip_RESID)
 msgid "PD"
-msgstr ""
+msgstr "PD"
 
 #. Resource IDs: (cmdNavigatePreviousInlineDiff_Keytip_RESID)
 msgid "PI"
-msgstr ""
+msgstr "PI"
 
 #. Resource IDs: (AFX_IDS_PRINTPAGENUM)
 #, c-format
@@ -7490,7 +7490,7 @@ msgid ""
 "Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
 "dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
 " search and oftentimes there are powerful context menus."
-msgstr ""
+msgstr "请阅读<a id=\"manual\">手册</a>了解一般性提示。例如，大多数对话框中有一些普遍的快捷方式，如 F5 代表刷新，CTRL+F 调用搜索/查找，以及很多地方有强大的上下文菜单（右键菜单）。"
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -7765,7 +7765,7 @@ msgstr "引号包裹路径"
 
 #. Resource IDs: (cmdReload_Keytip_RESID)
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1073)
 msgid "R&AM drives"
@@ -8097,7 +8097,7 @@ msgstr "移除陈旧的锁文件"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1631)
 msgid "Remove unmanaged directories with .git folder (-f)"
-msgstr ""
+msgstr "移除 .git 文件夹未管理的目录 (-f)"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1626)
 msgid "Remove untracked directories (-d)"
@@ -8425,7 +8425,7 @@ msgstr "运行，当工作树路径位于："
 
 #. Resource IDs: (cmdSave_Keytip_RESID)
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1383, Dialog IDD_RESET:
 #. Control id 1383)
@@ -8549,7 +8549,7 @@ msgstr "保存"
 
 #. Resource IDs: (cmdSaveAs_LabelTitle_RESID)
 msgid "Save &as"
-msgstr ""
+msgstr "另存为(&A)"
 
 #. Resource IDs: (IDS_REPOBROWSE_SAVEAS, ID_FILE_SAVE_AS - Menu)
 msgid "Save &as..."
@@ -9555,7 +9555,7 @@ msgstr "策略"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1406)
 msgid "Strip lines starting with \"#\" in commit message"
-msgstr "条带化以 \"#\" 开头的提交信息"
+msgstr "剥离提交信息中以 # 开头的行"
 
 #. Resource IDs: (IDS_LOG_FILTER_SUBJECT, IDS_SUBJECT)
 msgid "Subject"
@@ -10259,7 +10259,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "这里是首次启动向导，我将帮助您配置基本设置。TortoiseGit 高度可配置，因此推荐您查看了解其配置对话框。使用开始菜单或者 Windows 文件资源管理器中的右键菜单 -> TortoiseGit -> 设置 即可访问设置对话框。"
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -10492,7 +10492,7 @@ msgid ""
 " agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr ""
+msgstr "TortoiseGitPlink 是推荐的 SSH 客户端。如果您还没有一个密钥对，那么应该生成一个。请确保信息安全私密，并将公钥设置在您的托管平台上。为缓存密码使用 PuTTY 身份验证代理（如果已为一个远端配置了 PuTTY 密钥则会自动完成）。有关高级提示和技巧，请阅读我们的<a id=\"manual\">手册</a> 和<a id=\"sshfaq\">常见问题</a>。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -10689,7 +10689,7 @@ msgstr "未知"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "Unknown ref-types"
-msgstr ""
+msgstr "未知 ref-types"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_UNMARKBLOCK)
 msgid "Unmark this block"
@@ -11030,7 +11030,7 @@ msgstr "为高权限进程使用 'none' 状态缓存类型"
 
 #. Resource IDs: (cmdPaste_Keytip_RESID)
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -11138,7 +11138,7 @@ msgstr "浏览我们的网站"
 
 #. Resource IDs: (cmdShowWhitespaces_Keytip_RESID)
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
@@ -11176,7 +11176,7 @@ msgid ""
 "We hope you enjoy using TortoiseGit! In case of questions or problems, "
 "please consult our manual or go to <a "
 "id=\"support\">https://tortoisegit.org/support/</a>"
-msgstr ""
+msgstr "我们希望您喜欢用 TortoiseGit！。如有疑问或问题，请查阅我们的手册，或造访 <a id=\"support\">https://tortoisegit.org/support/</a>"
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
@@ -11248,7 +11248,7 @@ msgid ""
 "If you want to abort the merge, do a hard reset on HEAD or select abort merge on the context menu.\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "在合并（即另一个远端分支的变更集整合到本地的分支）时有至少一个文件发生了冲突。您需要手动解决此问题，即将您的修改整合在另一个分支的修改上。\n\n在解决所有文件后，您需要进行一次提交以完成合并。\n\n如果您想中止合并，在 HEAD 上进行一次硬重置，或在右键菜单中选择中止合并。\n\n更多信息请参阅帮助。"
 
 #. Resource IDs: (IDS_DAEMON_SECURITY_WARN)
 msgid ""
@@ -11323,7 +11323,7 @@ msgstr "工作树变更"
 
 #. Resource IDs: (cmdViewWrapLines_LabelTitle_RESID)
 msgid "Wrap Lines"
-msgstr ""
+msgstr "自动换行"
 
 #. Resource IDs: (ID_VIEW_WRAPLONGLINES - Menu)
 msgid "Wrap long lines"
@@ -11337,7 +11337,7 @@ msgstr "在右边视图边界换行\n换行"
 
 #. Resource IDs: (cmdRedo_Keytip_RESID)
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #. Resource IDs: (IDS_PROC_YESTOALL)
 msgid "Yes to all"
@@ -11464,7 +11464,7 @@ msgstr "您的版本是: %d.%d.%d.%d"
 
 #. Resource IDs: (cmdUndo_Keytip_RESID)
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
 msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
@@ -11513,7 +11513,7 @@ msgstr "缩小"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "缩放为 &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"
@@ -11850,7 +11850,7 @@ msgstr "未初始化"
 
 #. Resource IDs: (cmdOpen_Keytip_RESID)
 msgid "o1"
-msgstr ""
+msgstr "o1"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
