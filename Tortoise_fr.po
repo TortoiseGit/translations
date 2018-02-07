@@ -49,7 +49,7 @@
 # ShevAbam, 2015
 # peter griffin <softy@yopmail.com>, 2013
 # lkppo, 2012
-# Stéphane Aulery <saulery@legtux.org>, 2016-2017
+# Stéphane Aulery <saulery@legtux.org>, 2016-2018
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2014
 # ykatchou <ykatchou@gmail.com>, 2012-2013
 # Yohann Berger <inactive+yberger@transifex.com>, 2015
@@ -59,8 +59,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-07 13:48+0000\n"
-"Last-Translator: Mathieu Lavigne <bludwarf@gmail.com>\n"
+"PO-Revision-Date: 2018-02-07 20:07+0000\n"
+"Last-Translator: Stéphane Aulery <saulery@legtux.org>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -787,7 +787,7 @@ msgstr "&Cacher"
 
 #. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
 msgid "&Hide/Show the patch file list"
-msgstr ""
+msgstr "&Afficher / masquer la liste des patchs"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -3385,7 +3385,7 @@ msgstr "Créer une é&tiquette..."
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
-msgstr ""
+msgstr "Créer un &patch"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -4333,11 +4333,11 @@ msgstr "Activer l'affichage des images Gravatar dans la fenêtre du journal"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1842)
 msgid "Enable special hack for Cygwin git"
-msgstr ""
+msgstr "Activer le hack pour Cygwin Git"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1843)
 msgid "Enable special hack for Msys2 git"
-msgstr ""
+msgstr "Activer le hack pour Msys2 Git"
 
 #. Resource IDs: (ID_VIEW_ENABLELEXER - Menu)
 msgid "Enable syntax highlighting"
@@ -4587,7 +4587,7 @@ msgstr "Programme externe :"
 
 #. Resource IDs: (cmdFind_Keytip_RESID)
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -4933,7 +4933,7 @@ msgstr "Premier parent d'abord"
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
-msgstr ""
+msgstr "Didacticiel - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1617)
 msgid "First known &bad:"
@@ -5109,7 +5109,7 @@ msgstr "D'autres options pour la fenêtre de livraison sont sur la page de Dialo
 
 #. Resource IDs: (cmdGotoLine_Keytip_RESID)
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -6137,7 +6137,7 @@ msgstr "Coréen"
 
 #. Resource IDs: (cmdViewWrapLines_Keytip_RESID)
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
@@ -6658,15 +6658,15 @@ msgstr "Mon fichier :"
 
 #. Resource IDs: (cmdNavigateNextConflict_Keytip_RESID)
 msgid "NC"
-msgstr ""
+msgstr "NC"
 
 #. Resource IDs: (cmdNavigateNextDifference_Keytip_RESID)
 msgid "ND"
-msgstr ""
+msgstr "ND"
 
 #. Resource IDs: (cmdNavigateNextInlineDiff_Keytip_RESID)
 msgid "NI"
-msgstr ""
+msgstr "NI"
 
 #. Resource IDs: (59138)
 msgid "NUM"
@@ -7308,15 +7308,15 @@ msgstr "Paramétrage de la p&age"
 
 #. Resource IDs: (cmdNavigatePreviousConflict_Keytip_RESID)
 msgid "PC"
-msgstr ""
+msgstr "PC"
 
 #. Resource IDs: (cmdNavigatePreviousDifference_Keytip_RESID)
 msgid "PD"
-msgstr ""
+msgstr "PD"
 
 #. Resource IDs: (cmdNavigatePreviousInlineDiff_Keytip_RESID)
 msgid "PI"
-msgstr ""
+msgstr "PI"
 
 #. Resource IDs: (AFX_IDS_PRINTPAGENUM)
 #, c-format
@@ -7801,7 +7801,7 @@ msgstr "Chemin du patch"
 
 #. Resource IDs: (cmdReload_Keytip_RESID)
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1073)
 msgid "R&AM drives"
@@ -8461,7 +8461,7 @@ msgstr "Lancer lorsque le répertoire de travail est sous :"
 
 #. Resource IDs: (cmdSave_Keytip_RESID)
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1383, Dialog IDD_RESET:
 #. Control id 1383)
@@ -8585,7 +8585,7 @@ msgstr "Sauvegarder"
 
 #. Resource IDs: (cmdSaveAs_LabelTitle_RESID)
 msgid "Save &as"
-msgstr ""
+msgstr "Enregistrer &sous"
 
 #. Resource IDs: (IDS_REPOBROWSE_SAVEAS, ID_FILE_SAVE_AS - Menu)
 msgid "Save &as..."
@@ -9422,7 +9422,7 @@ msgstr "Écraser"
 
 #. Resource IDs: (IDS_REBASE_SQUASH)
 msgid "Squash (with commit below)"
-msgstr ""
+msgstr "Squash (avec le commit ci-dessous)"
 
 #. Resource IDs: (IDS_STATGRAPH_BARSTACKEDBUTTON_TT)
 msgid "Stacked Bar Graph"
@@ -9807,7 +9807,7 @@ msgstr "Information sur l'étiquette"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_TAGBRANCHES)
 msgid "Tag/branch names"
-msgstr ""
+msgstr "Noms de tag / branche"
 
 #. Resource IDs: (IDS_PROC_COPY_SUCCESS)
 #, c-format
@@ -11066,7 +11066,7 @@ msgstr ""
 
 #. Resource IDs: (cmdPaste_Keytip_RESID)
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -11174,7 +11174,7 @@ msgstr "Visitez notre site Web"
 
 #. Resource IDs: (cmdShowWhitespaces_Keytip_RESID)
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
@@ -11373,7 +11373,7 @@ msgstr "Retour automatique à la ligne au bord de la fenêtre\nRetour automatiqu
 
 #. Resource IDs: (cmdRedo_Keytip_RESID)
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #. Resource IDs: (IDS_PROC_YESTOALL)
 msgid "Yes to all"
@@ -11500,7 +11500,7 @@ msgstr "Votre version est : %d.%d.%d.%d"
 
 #. Resource IDs: (cmdUndo_Keytip_RESID)
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
 msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
@@ -11886,7 +11886,7 @@ msgstr "non initialisé"
 
 #. Resource IDs: (cmdOpen_Keytip_RESID)
 msgid "o1"
-msgstr ""
+msgstr "o1"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
