@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-01 22:17+0000\n"
+"PO-Revision-Date: 2018-02-09 20:16+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -3916,7 +3916,7 @@ msgstr "No em mostris més aquest avís (si prems Ignora)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1407)
 msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
-msgstr ""
+msgstr "No auto-seleccionar fitxers \"perduts\" (suprimits, però sense marcar)"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1669)
 msgid "Do not autoselect submodules"
@@ -4018,7 +4018,7 @@ msgstr "Realment vol restituir tots els canvis fets a\n%s\nque es van fer en aqu
 msgid ""
 "Do you really want to unflag the selected file(s) as skip-worktree or "
 "assume-unchanged?"
-msgstr ""
+msgstr "Voleu desmarcar el(s) fitxer(s) seleccionat(s) com ometre-arbre de treball o assumir-no modificat?"
 
 #. Resource IDs: (IDS_SETTINGS_FETCH_ADDEDREMOTE)
 msgid "Do you want to fetch remote branches from the newly added remote?"
@@ -4942,7 +4942,7 @@ msgid ""
 "For the current branch \"%s\" no tracked branch is configured.\n"
 "Do you want to set the selected branch \"%s\" as tracked branch?\n"
 "This will automatically select it for push and pull in the future."
-msgstr ""
+msgstr "No s'ha configurat cap branca rastrejada per a la branca actual \"%s\".\nVoleu activar la branca seleccionada \"%s\" com a branca rastrejada?\nAixò farà que d'ara endavant es seleccioni automàticament per a empènyer i estirar."
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -5090,7 +5090,7 @@ msgstr "GDI+ no ha pogut crear un objecte bitmap.  Probablement no hi ha prou me
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_SIGN_TT)
 msgid "GPG signs the tag, see manual for details"
-msgstr ""
+msgstr "El GPG signa l'etiqueta, vegeu el manual per als detalls"
 
 #. Resource IDs: (IDS_SVNPROGRESS_EXPORTINGWAIT)
 msgid "Gathering information. Please wait..."
@@ -6308,7 +6308,7 @@ msgstr "SHA1 local"
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
-msgstr ""
+msgstr "Canvis locals ignorats (fitxers marcats com assumir vàlid/no modificat o ometre-arbre de treball)"
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
@@ -9123,7 +9123,7 @@ msgstr "Mostra arxius ignorats"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1265)
 msgid "Show ignore local changes flagged files"
-msgstr ""
+msgstr "Mostra ignora canvis locals fitxers marcats"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_LABELEDCOMMITS)
 msgid "Show la&beled commits only"
@@ -9292,7 +9292,7 @@ msgstr "&Signa"
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535, Dialog IDD_ABOUTBOX:
 #. Control id 65535)
 msgid "Significant contributions by: (see Git repository for a complete list)"
-msgstr ""
+msgstr "Han contribuït de forma significativa: (vegeu el dipòsit del Git per una llista completa)"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1532)
 msgid "Since"
@@ -10379,14 +10379,14 @@ msgid ""
 "To use TortoiseGit please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
-msgstr ""
+msgstr "El TortoiseGit és una extensió de shell.\nSignifica que està integrat dins l'explorador del Windows.\nPer utilitzar el TortoiseGit obriu l'explorador i feu clic amb la dreta sobre qualsevol carpeta\nper accedir al menú contextual on trobareu totes les ordres del TortoiseGit.\nI llegiu el manual!"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT1)
 msgid ""
 "TortoiseGit is designed as a Shell Extension. Therefore the main interaction"
 " with TortoiseGit will be using the context menu of the Windows shell such "
 "as the Windows Explorer."
-msgstr ""
+msgstr "El TortoiseGit s'ha dissenyat com a extensió de shell. La interacció principal amb el TortoiseGit és amb el menú contextual d'una shell del Windows, com ara l'Explorador del Windows."
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
@@ -10666,7 +10666,7 @@ msgstr "Format de fitxer no esperat"
 
 #. Resource IDs: (IDS_STATUSLIST_UNSETIGNORELOCALCHANGES)
 msgid "Unflag as skip-worktree and assume-unchanged"
-msgstr ""
+msgstr "Desmarca com ometre-arbre de treball i assumir-no modificat"
 
 #. Resource IDs: (AFX_IDS_TEXT_FORMAT)
 msgid ""
@@ -10697,7 +10697,7 @@ msgstr "Conflictes sense resoldre!"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DROPTRACKEDBRANCH)
 msgid "Unset tracked branch"
-msgstr ""
+msgstr "Desactiva la branca rastrejada"
 
 #. Resource IDs: (AFX_IDS_UNTITLED)
 msgid "Untitled"
@@ -11345,7 +11345,7 @@ msgstr "Ja heu provat la darrera versió instal·lada"
 
 #. Resource IDs: (IDS_PROC_PULL_EMPTYBRANCH)
 msgid "You asked to pull, but did not specify a remote branch."
-msgstr ""
+msgstr "Heu demanat estirar, però sense especificar cap branca remota."
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid ""
