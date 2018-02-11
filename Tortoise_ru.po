@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-11 10:55+0000\n"
+"PO-Revision-Date: 2018-02-11 11:55+0000\n"
 "Last-Translator: Stanislav Kroter <krotersv@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -6825,7 +6825,7 @@ msgstr "Ни один файл не был изменен или добавле�
 
 #. Resource IDs: (33002)
 msgid "No filter"
-msgstr ""
+msgstr "Нет фильтра"
 
 #. Resource IDs: (IDS_PROC_NOMSYSGIT)
 msgid ""
@@ -7245,7 +7245,7 @@ msgstr "Имя Origin"
 
 #. Resource IDs: (IDS_VIEW_SHOWROTHERLABELS)
 msgid "Other refs"
-msgstr ""
+msgstr "Другие ссылки"
 
 #. Resource IDs: (IDS_STATGRAPH_OTHERGROUP)
 msgid "Others"
@@ -10505,7 +10505,7 @@ msgid ""
 " agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr ""
+msgstr "TortoiseGitPlink рекомендован в качестве клиента SSH. Если у вас ещё не пары ключей, то вам нужно сгенерировать её. Сохраните приватный ключ в безопасном месте и установите публичный ключ на вашу целевую платформу. Используйте агент идентификации PuTTY для кэширования пароля (делается автоматически, если ключ PuTTY настраивается для удалённого сервера). Для продвинутых подсказок  и трюков смотрите наше <a id=\"manual\">руководство</a> и <a id=\"sshfaq\">ЧаВО</a>."
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -10702,7 +10702,7 @@ msgstr "Неизвестно"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "Unknown ref-types"
-msgstr ""
+msgstr "Неизвестные типы ссылок"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_UNMARKBLOCK)
 msgid "Unmark this block"
@@ -11043,7 +11043,7 @@ msgstr "Использует тип статуса кэша 'none' для выс
 
 #. Resource IDs: (cmdPaste_Keytip_RESID)
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -11151,7 +11151,7 @@ msgstr "Посетить наш вебсайт"
 
 #. Resource IDs: (cmdShowWhitespaces_Keytip_RESID)
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
@@ -11189,7 +11189,7 @@ msgid ""
 "We hope you enjoy using TortoiseGit! In case of questions or problems, "
 "please consult our manual or go to <a "
 "id=\"support\">https://tortoisegit.org/support/</a>"
-msgstr ""
+msgstr "Мы надеемся, что вам понравится использовать TortoiseGit! В случае вопросов или проблем, пожалуйста, обратитесь к нашему руководству или перейдите на <a id=\"support\">https://tortoisegit.org/support/</a>"
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
@@ -11261,7 +11261,7 @@ msgid ""
 "If you want to abort the merge, do a hard reset on HEAD or select abort merge on the context menu.\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "Во время слияния, то есть интегрирования изменений другой (удалённой) ветки в вашу локальную ветвь, происходит конфликт  по крайней мере в одном файле. Это означает, что вам нужно разрешить  его вручную (то есть, вам нужно интегрировать ваши изменения в файл, который был также изменён в другой ветке).\n\nПосле разрешения всех файлов вам нужно выполнить фиксацию для того, чтобы завершить слияние.\n\nЕсли вы хотите отменить слияние, сделайте жёсткий сброс в головной ревизии HEAD либо выберите отмену слияния в контекстном меню.\n\nСмотрите справку для дальнейшей информации."
 
 #. Resource IDs: (IDS_DAEMON_SECURITY_WARN)
 msgid ""
@@ -11336,7 +11336,7 @@ msgstr "Изменения в рабочей копии"
 
 #. Resource IDs: (cmdViewWrapLines_LabelTitle_RESID)
 msgid "Wrap Lines"
-msgstr ""
+msgstr "Сворачивать строки"
 
 #. Resource IDs: (ID_VIEW_WRAPLONGLINES - Menu)
 msgid "Wrap long lines"
@@ -11350,7 +11350,7 @@ msgstr "Переносить длинные строки по правой ви�
 
 #. Resource IDs: (cmdRedo_Keytip_RESID)
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #. Resource IDs: (IDS_PROC_YESTOALL)
 msgid "Yes to all"
@@ -11477,7 +11477,7 @@ msgstr "Ваша версия: %d.%d.%d.%d"
 
 #. Resource IDs: (cmdUndo_Keytip_RESID)
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
 msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
@@ -11501,11 +11501,11 @@ msgstr "У&меньшить"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "Увелич&итьn\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "Умень&шить\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11526,7 +11526,7 @@ msgstr "Уменьшить"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Отмасштабировать до &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"
