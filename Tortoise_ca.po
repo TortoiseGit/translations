@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-11 17:20+0000\n"
+"PO-Revision-Date: 2018-02-12 20:04+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -4954,14 +4954,14 @@ msgid ""
 "Force push only if the remote reference points to the same commit as the remote tracking branch.\n"
 "This can cause the remote repository to lose commits; use it with care.\n"
 "This option corresponds to the --force-with-lease git option."
-msgstr ""
+msgstr "Forceu empènyer només si la referència remota apunta a la mateixa entrega que la branca rastrejada remota.\nAixò pot fer perdre entregues en el dipòsit remot; aneu amb compte.\nAquesta opció correspon a l'opció --force-with-lease del git."
 
 #. Resource IDs: (IDS_FORCE_TT)
 msgid ""
 "Force push to the selected remote reference and override it without any safety checks.\n"
 "This can cause the remote repository to lose unseen commits; use it with care.\n"
 "This option corresponds to the --force git option."
-msgstr ""
+msgstr "Forceu empènyer a la referència remota seleccionada i sobreescriviu sense comprovacions de seguretat.\nAixò pot fer perdre entregues no visualitzades en el dipòsit remot; aneu amb compte.\nAquesta opció correspon a l'opció --force del git."
 
 #. Resource IDs: (IDS_REBASE_FORCE_TT)
 msgid ""
@@ -5804,7 +5804,7 @@ msgid ""
 "If you want to use a translated version of TortoiseGit and your language is "
 "missing, <a id=\"download\">download</a> and install a matching language "
 "pack now and hit \"Refresh\" before continuing."
-msgstr ""
+msgstr "Si desitgeu utilitzar una versió traduïda del TortoiseGit però no trobeu el vostre idioma, <a id=\"download\">descarregueu </a> i instal·leu un paquet d'idioma equivalent i premeu \"Refresca\" abans de seguir."
 
 #. Resource IDs: (IDS_EXTRAPATH_TT)
 #, c-format
@@ -10203,7 +10203,7 @@ msgid ""
 "There is nothing to add.\n"
 "All the files and folders are either under version control,\n"
 "have been ignored or the global ignore configuration setting."
-msgstr ""
+msgstr "No hi ha res per afegir.\nTots els fitxers i carpetes estan sota control de versions, \no bé són ignorats, o bé la configuració és ignorar globalment."
 
 #. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
 msgid "Thesaurus"
@@ -10229,7 +10229,7 @@ msgstr "Aquesta acció suprimirà les branques al remot."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGUNMERGED)
 msgid "This branch is not fully merged into HEAD."
-msgstr ""
+msgstr "Aquesta branca no està completament fusionada amb HEAD."
 
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
@@ -10266,7 +10266,7 @@ msgstr "No es pot iniciar aquesta operació mentre el diàleg de registre está 
 #. Resource IDs: (IDS_GITCONFIG_SETTING)
 #, c-format
 msgid "This option represents \"%s\" git config setting."
-msgstr ""
+msgstr "Aquesta opció representa la configuració \"%s\" del git."
 
 #. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
 msgid ""
@@ -10296,7 +10296,7 @@ msgstr "Aquesta propietat només s'accepta en carpetes, no en fitxers."
 msgid ""
 "This remote name collides with fetch refspec of other remotes\n"
 "Please use another name"
-msgstr ""
+msgstr "Aquest nom remot col·lideix amb l'especificació recuperada d'altres remots\nFeu servir un altre nom"
 
 #. Resource IDs: (IDS_PROC_NOCLEAN)
 msgid "This task requires a clean working tree."
@@ -10578,7 +10578,7 @@ msgstr "URL"
 
 #. Resource IDs: (IDS_PROC_CLONE_URLDIREMPTY)
 msgid "URL and directory must not be empty."
-msgstr ""
+msgstr "L'URL i el directori no han d'estar buits."
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1272)
 msgid "URL history"
@@ -10685,7 +10685,7 @@ msgstr "Desconegut"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "Unknown ref-types"
-msgstr ""
+msgstr "Tipus ref desconeguts"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_UNMARKBLOCK)
 msgid "Unmark this block"
@@ -10920,7 +10920,7 @@ msgstr "Utilitza el bloc de text de l'esquerra abans que el fitxer de la dreta\n
 msgid ""
 "Use text block from left file\n"
 "Use left file text block"
-msgstr ""
+msgstr "Utilitza el bloc de text del fitxer de l'esquerra\nUtilitza el bloc de text del fitxer de l'esquerra"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
 msgid "Use text block from r&ight before left"
@@ -10971,7 +10971,7 @@ msgstr "Utilitza el pedaç original\nAplica el pedaç a\n%s"
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 1825, Dialog
 #. IDD_RESOLVESUBMODULECONFLICT: Control id 1826)
 msgid "Use this"
-msgstr ""
+msgstr "Utilitza aquest"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHISFILE)
 msgid "Use this &whole file"
