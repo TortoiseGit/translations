@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-12 20:04+0000\n"
+"PO-Revision-Date: 2018-02-14 22:43+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -1836,7 +1836,7 @@ msgstr "S'ha produït un error desconegut."
 msgid "An unknown error occurred while accessing %1."
 msgstr "S'ha produït un error desconegut mentre s'accedia a %1."
 
-#. Resource IDs: (IDS_ERR_PATCH_UNKOWNLINETYPE)
+#. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "Un tipus de línia desconegut s´ha trobat a la línia %d !"
@@ -5646,6 +5646,7 @@ msgid "ID:57643:V C +Z"
 msgstr "ID:57643:V C +Z"
 
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
+#. Accelerator Entry for Menu ID:57665; 'E&xit'
 msgid "ID:57665:V C +Q"
 msgstr "ID:57665:V C +Q"
 
@@ -6055,7 +6056,7 @@ msgid ""
 "Do you want to ignore this warning and keep these lines or abort committing in order to edit the commit message?\n"
 "\n"
 "You can automatically remove these lines by enabling \"Strip lines starting with \"#\" in commit messages\" in TortoiseGit settings."
-msgstr ""
+msgstr "Sembla que hi ha un consell de conflicte (una línia semblant a \"# Conflictes:\") en el vostre missatge d'entrega. Git ha afegit aquest consell automàticament i no cal mantenir-lo.\n\nVoleu ignorar aquest avís i mantenir aquestes línies o interrompre l'entrega per tal d'editar el missatge d'entrega?\n\nPodeu suprimir automàticament aquestes línies si activeu \"Treure línies començant amb \"#\" en els missatges d'entrega\" a la configuració del TortoiseGit."
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1074)
 msgid "J&ump to first conflict when loading"
@@ -7105,7 +7106,7 @@ msgstr "Sota petició"
 msgid "One or more auto-saved documents were found."
 msgstr "No s'han pogut trobar un o més documents auto-desats."
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED)
 msgid "One or more files are in a conflicted state."
 msgstr "Un o més fitxers són en estat de conflicte."
 
@@ -10393,7 +10394,7 @@ msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
 "automatically detect a working git.exe, but if that doesn't work or you want"
 " to use a different one please specify the path manually!"
-msgstr ""
+msgstr "El TortoiseGit necessita un git.exe per a les seves operacions. El TortoiseGit intenta detectar automàticament un git.exe, però si això no funciona o voleu utilitzar-ne un de diferent, indiqueu el camí manualment."
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
@@ -11157,13 +11158,13 @@ msgstr "Esperant una entrada"
 
 #. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 1776)
 msgid "Walk Be&haviour"
-msgstr ""
+msgstr "Comportament al revisar"
 
 #. Resource IDs: (IDS_WARN_WARNING)
 msgid "Warning"
 msgstr "Atenció"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "Atenció!"
 
@@ -11172,7 +11173,7 @@ msgid ""
 "We hope you enjoy using TortoiseGit! In case of questions or problems, "
 "please consult our manual or go to <a "
 "id=\"support\">https://tortoisegit.org/support/</a>"
-msgstr ""
+msgstr "Esperem que gaudiu utilitzant el TortoiseGit! Si teniu preguntes o problemes, podeu consultar el nostre manual o anar a <a id=\"support\">https://tortoisegit.org/support/</a>"
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
@@ -11370,7 +11371,7 @@ msgid ""
 "You have an old unsupported version of Git installed.\n"
 "\n"
 "You should consider an upgrade to %s."
-msgstr ""
+msgstr "La versió del Git que teniu instal·lada és antiga i sense suport.\n\nHeu de considerar una actualització a %s."
 
 #. Resource IDs: (IDS_STASHSAVE_INCLUDEUNTRACKED)
 msgid ""
@@ -11569,7 +11570,7 @@ msgid ""
 "\"%s\" will be permanently deleted. It can NOT be recovered!\n"
 "\n"
 "Do you really want to continue?"
-msgstr ""
+msgstr "S'eliminarà \"%s\" de forma permanent. No es podrà recuperar!\n\nRealment voleu continuar?"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_GITAMACTIVE)
 msgid ""
@@ -11608,7 +11609,7 @@ msgstr "autor (>= 0.5%)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "based on TortoiseSVN (https://tortoisesvn.net/)"
-msgstr ""
+msgstr "basat en TortoiseSVN (https://tortoisesvn.net/)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535)
 msgid "bugtraq.append"
@@ -11640,7 +11641,7 @@ msgstr "bugtraq.warningifnoissue"
 
 #. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
 msgid "changes to-be-integrated"
-msgstr ""
+msgstr "canvis per-ser-integrats"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
