@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-17 16:28+0000\n"
+"PO-Revision-Date: 2018-02-17 20:11+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -4893,7 +4893,7 @@ msgstr "Només el primer pare"
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
-msgstr "Auxiliar del primer inici - TortoiseGit"
+msgstr "Assistent inicial - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1617)
 msgid "First known &bad:"
@@ -7820,7 +7820,7 @@ msgstr "Re&stitueix..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1684)
 msgid "Re-run &First Start Wizard"
-msgstr "Torna a executar l'auxiliar del &primer inici"
+msgstr "Torna a executar l'assistent inicial"
 
 #. Resource IDs: (IDS_FETCH_REACHABLE)
 msgid "Reachable"
@@ -10256,7 +10256,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "Aquest assistent inicial us ajudarà a definir la configuració bàsica. El TortoiseGit és altament configurable, per tant recomanem que feu una ullada al diàleg de configuració. S'hi arriba utilitzant el menú d'inici del menú contextual de l'explorador de Windows: TortoiseGit -> Configuració."
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -10274,7 +10274,7 @@ msgid ""
 "This preserves merge commits, however, it has known bugs as re-ordering "
 "commits is not working properly (same limitation as for vanilla git rebase),"
 " see help."
-msgstr ""
+msgstr "Això preserva les entregues fusionades, tot i que té errors coneguts com ara el funcionament incorrecte de la reordenació de les entregues (la mateixa limitació que el rebase git vanilla), vegeu l'ajuda."
 
 #. Resource IDs: (AFX_IDP_DLL_BAD_VERSION)
 #, c-format
@@ -10489,7 +10489,7 @@ msgid ""
 " agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr ""
+msgstr "Recomanem TortoiseGitPlink com a client SSH client. Si encara no disposeu d'una parella de claus, genereu-ne una. Manteniu la clau privada en un lloc segur i disposeu la clau pública a la vostra plataforma d'allotjament. Utilitzeu l'agent d'autenticació del PuTTY per desar la contrasenya a memòria cau (això és automàtic si es configura una clau PuTTY per a remot). Vegeu el nostre <a id=\"manual\">manual</a> i <a id=\"sshfaq\">FAQ</a> per consells avançats i trucs."
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -11245,7 +11245,7 @@ msgid ""
 "If you want to abort the merge, do a hard reset on HEAD or select abort merge on the context menu.\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "Durant la fusió, això és integrant els canvis d'una altra branca (remota) a la branca local, s'ha produït un conflicte en almenys un fitxer. Ho haureu de resoldre manualment (cal que integreu els vostres canvis en un fitxer que també s'ha modificat en una altra branca).\n\nDesprés de resoldre tots els fitxers cal fer una entrega per tal de completar la fusió.\n\nSi voleu avortar la fusió, reinicieu sobre el HEAD o seleccioneu avorta fusió en el menú contextual.\n\nVegeu més informació a l'ajuda."
 
 #. Resource IDs: (IDS_DAEMON_SECURITY_WARN)
 msgid ""
@@ -11538,21 +11538,21 @@ msgstr "\"%s\" - \"%s\"\nés una entrega fusionada.\n\nQuin pare voleu escollir?
 msgid ""
 "\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
-msgstr ""
+msgstr "\"%s\" conté un dipòsit git. D'entrada, no funcionarà bé com a submòdul.\nVoleu suprimir el .git-entry i afegir tots els fitxers al dipòsit principal o mantenir-lo com un dipòsit separat en un subdirectori?"
 
 #. Resource IDs: (IDS_PROC_COPY_SUBMODULE)
 #, c-format
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
-msgstr ""
+msgstr "\"%s\" conté un submòdul git. Probablement ja no funcionarà més a la destinació després de copiar.\nVoleu suprimir el .git-entry i afegir tots els fitxers al dipòsit principal o ignorar aquesta possible incidència i mantenir-lo?"
 
 #. Resource IDs: (IDS_GITEXEERROR_NOMESSAGE)
 #, c-format
 msgid ""
 "\"%s\" exited with an error, however, without generating any output such as "
 "an error message."
-msgstr ""
+msgstr "\"%s\" ha finalitzat amb error, però sense generar cap sortida com ara un missatge d'error."
 
 #. Resource IDs: (IDS_PROC_REFINVALID)
 #, c-format
@@ -11875,7 +11875,7 @@ msgid ""
 "previous rebase directory rebase-apply still exists but mbox given.\n"
 "\n"
 "Do you want to"
-msgstr ""
+msgstr "encara existeix el directori previ de rebase rebase-apply però s'ha donat mbox.\n\nVoleu"
 
 #. Resource IDs: (AFX_IDS_PRINTDEFAULTEXT)
 msgid "prn"
