@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-14 23:03+0000\n"
+"PO-Revision-Date: 2018-02-17 16:28+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -8534,7 +8534,7 @@ msgid ""
 "Fixed issue #123\n"
 "Resolves issue #88.\n"
 "Closes issue #99.\n"
-msgstr ""
+msgstr "Mostreja el missatge de log per provar el bugtraq: cadenes regex.\n\nProvant esments d'incidències dins un text: Esmenta una sola incidència #55. Esmenta incidències #77, #78, i #79. Esmenta més incidències #123, #124 and #125 i més d'altres separades: Incidència #45, incidència #46 i incidència #47.\n\n\nActualitza incidència #101\nRepara incidència #202\nIncidència #123 reparada\nResol incidència #88.\nTanca incidència #99.\n"
 
 #. Resource IDs: (Dialog IDD_BUGTRAQREGEXTESTER: Control id 1612)
 msgid "Sample text:"
@@ -9055,7 +9055,7 @@ msgid ""
 "Show branch revision number (git rev-list --count --first-parent) in log "
 "dialog and after a push to a remote branch; this is not guaranteed to be "
 "unique, please see help"
-msgstr ""
+msgstr "Mostra el número de revisió de la branca (git rev-list --count --first-parent) en el diàleg de log i després d'empènyer a una branca remota; no es garanteix que sigui únic, vegeu l'ajuda"
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is on"
@@ -9848,7 +9848,7 @@ msgid ""
 "When you merge changes, conflicts can arise that must be solved manually (i.e., you need to integrate your changes into a file which was also modified on another branch).\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "L'entrega que esteu preparant és especial. És una entrega fusionada, així doncs conté els vostres canvis i els canvis d'una branca fusionada.\n\nNo desmarqueu fitxers llevat que tingueu clar el que feu.\n\nQuan fusioneu canvis poden sorgir conflictes que s'han de resoldre manualment (p. ex. heu d'integrar els vostres canvis a un fitxer que també s'ha modificat en una altra branca).\n\nVegeu més informació a l'ajuda."
 
 #. Resource IDs: (IDS_GITCREDENTIAL_OVERWRITEHELPER)
 #, c-format
@@ -10324,7 +10324,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr ""
+msgstr "Per tal de suprimir arxius temporals, assegureu que no s'estigui executant cap altre aplicació TortoiseGit.\n\nSi voleu suprimir del tot les imatges Gravatar,\ntambé heu de suprimir els fitxers internet temporals de l'Internet Explorer."
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 65535, Dialog
 #. IDD_LOGMESSAGE: Control id 1201, Dialog IDD_REVGRAPHFILTER: Control id
@@ -11199,7 +11199,7 @@ msgstr "Quan s'apliqui un pedaç, ignora els canvis en els espais en blanc, si f
 msgid ""
 "When closing a progress dialog with a running git process, ask for "
 "confirmation before killing it"
-msgstr ""
+msgstr "Quan es tanqui un diàleg de progrés amb un procés git executant-se, demaneu confirmació abans de matar-lo"
 
 #. Resource IDs: (IDS_SETTINGS_ENABLEDRAGCONTEXTMENU_TT)
 msgid ""
@@ -11230,11 +11230,11 @@ msgstr "Quan el pedaç no s'aplica fàcilment, intenta fer una fusió a 3 bandes
 msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
-msgstr ""
+msgstr "Quan escriviu l'URL, el nom remot s'omplirà automàticament amb \"origen\" si el nom remot està buit, així no heu de fer-ho."
 
 #. Resource IDs: (IDS_SETTINGS_DESCRIBESTRATEGY_TT)
 msgid "Whether to reference only annotated tags, all tags or all refs"
-msgstr ""
+msgstr "Si fer referència només a etiquetes anotades, a totes les etiquetes o a tots els refs"
 
 #. Resource IDs: (IDS_NEED_TO_RESOLVE_CONFLICTS_HINT)
 msgid ""
@@ -11442,7 +11442,7 @@ msgstr "Heu seleccionat un fitxer sense versionar.\nEl fitxer serà afegit al co
 msgid ""
 "You've changed the icon set from \"%s\" to \"%s\".\n"
 "That change won't take effect until you restart your computer or logoff and logon again!"
-msgstr ""
+msgstr "Heu canviat el conjunt d'icones de \"%s\" a \"%s\".\nAquest canvi no serà efectiu fins que reinicieu l'ordinador o tanqueu sessió i torneu a entrar."
 
 #. Resource IDs: (IDS_COMMITDLG_HISTORYHINT_TT)
 msgid ""
@@ -11674,7 +11674,7 @@ msgstr "suprimit"
 
 #. Resource IDs: (IDS_PIPETITLE)
 msgid "diff from pipe"
-msgstr ""
+msgstr "diferències del canal"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1580)
 msgid "eMail settings"
