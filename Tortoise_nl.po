@@ -6,12 +6,12 @@
 # Translators:
 # Bas <duvel3@gmail.com>, 2013
 # Danny Beeckman <dannybeeckman@gmail.com>, 2016
-# dragnadh <dragnadh@gmail.com>, 2016-2017
+# dragnadh <dragnadh@gmail.com>, 2016-2018
 # Eric van Aert <ericvanaert@gmail.com>, 2012
 # Jean-Marc van Leerdam <j.m.van.leerdam@gmail.com>, 2011-2012
 # Jelle Raaijmakers <jelle@gmta.nl>, 2013
 # Lübbe  <luebbe.tortoisesvn@googlemail.com>, 2012
-# Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011-2012
+# luebbe <luebbe.opensource@gmail.com>, 2011-2012
 # Maarten Hilferink <mhilferink@objectvision.nl>, 2011
 # Paul <paul@piak.nl>, 2011
 # Richard van Laak <rvanlaak@gmail.com>, 2012
@@ -24,8 +24,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-21 21:11+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-02-23 19:57+0000\n"
+"Last-Translator: dragnadh <dragnadh@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1841,7 +1841,7 @@ msgstr "Er is een onbekende fout opgetreden."
 msgid "An unknown error occurred while accessing %1."
 msgstr "Een onbekende fout bij het benaderen van %1."
 
-#. Resource IDs: (IDS_ERR_PATCH_UNKOWNLINETYPE)
+#. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "Een onbekend soort regel aangetroffen op regel %d !"
@@ -5651,6 +5651,7 @@ msgid "ID:57643:V C +Z"
 msgstr "ID:57643:V C +Z"
 
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
+#. Accelerator Entry for Menu ID:57665; 'E&xit'
 msgid "ID:57665:V C +Q"
 msgstr "ID:57665:V C +Q"
 
@@ -7110,7 +7111,7 @@ msgstr "Op aanvraag"
 msgid "One or more auto-saved documents were found."
 msgstr "Eén of meer automatisch opgeslagen documenten zijn gevonden."
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED)
 msgid "One or more files are in a conflicted state."
 msgstr "Een of meerdere bestanden bevinden zich in een conflict status."
 
@@ -10359,7 +10360,7 @@ msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
 msgid "TortoiseGit can be localized using language packs."
-msgstr ""
+msgstr "TortoiseGit kan worden gelokaliseerd met behulp van taalpakketten."
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -10536,11 +10537,11 @@ msgstr "Gevolgde Externe Branch:"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Tracked Remote URL:"
-msgstr ""
+msgstr "Bijgehouden externe URL:"
 
 #. Resource IDs: (IDS_TRACKEDBRANCH)
 msgid "Tracked branch"
-msgstr ""
+msgstr "Bijgehouden branch"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_SPEED)
 #, c-format
@@ -11031,7 +11032,7 @@ msgstr ""
 
 #. Resource IDs: (cmdPaste_Keytip_RESID)
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -11139,7 +11140,7 @@ msgstr "Bezoek onze website"
 
 #. Resource IDs: (cmdShowWhitespaces_Keytip_RESID)
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
@@ -11168,7 +11169,7 @@ msgstr ""
 msgid "Warning"
 msgstr "Waarschuwing"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "Waarschuwing!"
 
@@ -11181,7 +11182,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
-msgstr ""
+msgstr "Welkom bij TortoiseGit!"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Western European"
@@ -11338,7 +11339,7 @@ msgstr "Laat lange regels afbreken aan het einde van het venster\nTerugloop bij 
 
 #. Resource IDs: (cmdRedo_Keytip_RESID)
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #. Resource IDs: (IDS_PROC_YESTOALL)
 msgid "Yes to all"
@@ -11465,7 +11466,7 @@ msgstr "Uw versie is: %d.%d.%d.%d"
 
 #. Resource IDs: (cmdUndo_Keytip_RESID)
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
 msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
@@ -11613,7 +11614,7 @@ msgstr "auteur (>= 0.5%)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "based on TortoiseSVN (https://tortoisesvn.net/)"
-msgstr ""
+msgstr "Gebaseerd op TortoiseSVN (https://tortoisesvn.net/)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535)
 msgid "bugtraq.append"
@@ -11699,7 +11700,7 @@ msgstr "extern"
 
 #. Resource IDs: (IDS_CONFLICT_NOTASUBMODULE)
 msgid "file, not a submodule"
-msgstr ""
+msgstr "bestand, niet een submodule"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
@@ -11827,7 +11828,7 @@ msgstr "voor dit commando is geen beschrijving beschikbaar"
 
 #. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
 msgid "no submodule"
-msgstr ""
+msgstr "Geen submodule"
 
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
@@ -11851,7 +11852,7 @@ msgstr "niet geïnitialiseerd"
 
 #. Resource IDs: (cmdOpen_Keytip_RESID)
 msgid "o1"
-msgstr ""
+msgstr "o1"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
@@ -11872,7 +11873,7 @@ msgstr "pixels"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "possible or real conflict/obstructed"
-msgstr ""
+msgstr "mogelijk of echt conflict/belemmerd"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_REBASEDIRFOUND)
 msgid ""
