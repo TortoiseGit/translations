@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-11 11:55+0000\n"
+"PO-Revision-Date: 2018-03-04 16:23+0000\n"
 "Last-Translator: Stanislav Kroter <krotersv@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -1853,7 +1853,7 @@ msgstr "Произошла неизвестная ошибка."
 msgid "An unknown error occurred while accessing %1."
 msgstr "Произошла неизвестная ошибка при обращении к %1."
 
-#. Resource IDs: (IDS_ERR_PATCH_UNKOWNLINETYPE)
+#. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "Неизвестный тип строки в строке номер %d !"
@@ -5663,6 +5663,7 @@ msgid "ID:57643:V C +Z"
 msgstr "ID:57643:V C +Z"
 
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
+#. Accelerator Entry for Menu ID:57665; 'E&xit'
 msgid "ID:57665:V C +Q"
 msgstr "ID:57665:V C +Q"
 
@@ -6347,7 +6348,7 @@ msgstr "Полоса локатора"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Полоса местоположения"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6635,15 +6636,15 @@ msgstr "Мой файл:"
 
 #. Resource IDs: (cmdNavigateNextConflict_Keytip_RESID)
 msgid "NC"
-msgstr ""
+msgstr "NC"
 
 #. Resource IDs: (cmdNavigateNextDifference_Keytip_RESID)
 msgid "ND"
-msgstr ""
+msgstr "ND"
 
 #. Resource IDs: (cmdNavigateNextInlineDiff_Keytip_RESID)
 msgid "NI"
-msgstr ""
+msgstr "NI"
 
 #. Resource IDs: (59138)
 msgid "NUM"
@@ -7122,7 +7123,7 @@ msgstr "По требованию"
 msgid "One or more auto-saved documents were found."
 msgstr "Найден один или несколько авто-сохранённых документов."
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED)
 msgid "One or more files are in a conflicted state."
 msgstr "Один или более файлов имеют конфликты."
 
@@ -7285,15 +7286,15 @@ msgstr "Настройка страницы..."
 
 #. Resource IDs: (cmdNavigatePreviousConflict_Keytip_RESID)
 msgid "PC"
-msgstr ""
+msgstr "PC"
 
 #. Resource IDs: (cmdNavigatePreviousDifference_Keytip_RESID)
 msgid "PD"
-msgstr ""
+msgstr "PD"
 
 #. Resource IDs: (cmdNavigatePreviousInlineDiff_Keytip_RESID)
 msgid "PI"
-msgstr ""
+msgstr "PI"
 
 #. Resource IDs: (AFX_IDS_PRINTPAGENUM)
 #, c-format
@@ -7503,7 +7504,7 @@ msgid ""
 "Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
 "dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
 " search and oftentimes there are powerful context menus."
-msgstr ""
+msgstr "Пожалуйста, смотрите <a id=\"manual\">руководство</a> для общих подсказок. Например, в большинстве диалогов есть некоторые распространённые сочетания клавиш, такие как F5 для обновления или CTRL+F для поиска, и зачастую есть мощные контекстные меню."
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -11180,7 +11181,7 @@ msgstr "Поведение"
 msgid "Warning"
 msgstr "Предупреждение"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "Предупреждение!"
 
@@ -11863,7 +11864,7 @@ msgstr "не инициализировано"
 
 #. Resource IDs: (cmdOpen_Keytip_RESID)
 msgid "o1"
-msgstr ""
+msgstr "o1"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
