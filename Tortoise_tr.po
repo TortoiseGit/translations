@@ -12,6 +12,7 @@
 # Ekrem KAYA <webmaster@e-piksel.com>, 2012-2013
 # Emre Can OZTAS <mynameisemre@hotmail.com.tr>, 2015
 # Emre Can OZTAS <mynameisemre@hotmail.com.tr>, 2015
+# Enes Unal <aenesunal@gmail.com>, 2018
 # Ekrem KAYA <webmaster@e-piksel.com>, 2012
 # Ertan Tike <ertant@rdgnet.org>, 2013
 # Ertan Tike <ertant@rdgnet.org>, 2013
@@ -21,7 +22,7 @@
 # Ivan BARAYEV <ivanbarayev@hotmail.com>, 2016
 # ks780 <ks780@mynet.com>, 2016
 # ks780 <ks780@mynet.com>, 2016
-# Lübbe Onken <luebbe.opensource@gmail.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
 # Mehmet Keçeci <mk@mehmetkececi.com>, 2016
 # Muhammed Yasin Erdoğan <obsessio@gmail.com>, 2015
@@ -41,8 +42,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-17 12:38+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-05-17 16:00+0000\n"
+"Last-Translator: Enes Unal <aenesunal@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/lznuaa/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,12 +71,12 @@ msgstr "! %d"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1262)
 msgid "# authors shown individually:"
-msgstr "# yazarın ayrı ayrı görünümü:"
+msgstr "# yazarların ayrı ayrı görünümü:"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALMBTRANSFERRED)
 #, c-format
 msgid "%.2f MiB transferred"
-msgstr "%.2f MB aktarıldı"
+msgstr "%.2f MiB aktarıldı"
 
 #. Resource IDs: (AFX_IDP_ARCH_BADCLASS)
 #, c-format
@@ -85,7 +86,7 @@ msgstr "%1 beklenmeyen bir nesne içeriyor."
 #. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
 msgid "%1 contains an incorrect path."
-msgstr "%1 yanlış bir yol içeriyor."
+msgstr "%1 yanlış bir dosya konumu içeriyor."
 
 #. Resource IDs: (AFX_IDP_ARCH_BADSCHEMA)
 #, c-format
@@ -209,7 +210,7 @@ msgid ""
 "%1\n"
 "Cannot find this file.\n"
 "Verify that the correct path and file name are given."
-msgstr "%1\nBu dosya bulunamadı.\nDoğru yol ve dosya adının verildiğini doğrulayın."
+msgstr "%1\nBu dosya bulunamadı.\nDoğru yol ve dosya adını verdiğinizden emin olun."
 
 #. Resource IDs: (IDS_CONFIG_GLOBAL_TT)
 #, c-format
@@ -219,12 +220,12 @@ msgstr "%HOME%/.gitconfig ya da %XDGHOME%/git/config"
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALBYTESTRANSFERRED)
 #, c-format
 msgid "%I64d Bytes transferred"
-msgstr "%I64d bayt aktarıldı"
+msgstr "%I64d b aktarıldı"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALTRANSFERRED)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr "%I64d KB aktarıldı"
+msgstr "%I64d KiB aktarıldı"
 
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERED)
 #, c-format
@@ -339,7 +340,7 @@ msgstr "&..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1656)
 msgid "&3 way merge"
-msgstr ""
+msgstr "&3 görünümlü birleştirme"
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
@@ -495,7 +496,7 @@ msgstr "&Revizyonları karşılaştır"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
-msgstr ""
+msgstr "&Sıkıştırılmış Görünüm"
 
 #. Resource IDs: (IDS_MSGBOX_CONTINUE)
 msgid "&Continue"
@@ -513,7 +514,7 @@ msgstr "&Kopyala\tCtrl+C"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "&Credential helper:"
-msgstr ""
+msgstr "&Kimlik yöneticisi:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1662)
 msgid "&Custom"
@@ -538,7 +539,7 @@ msgstr "Süzgeci &Sil"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
 msgid "&Delete remote && local"
-msgstr ""
+msgstr "Uzaktaki ve Yereli &Sil"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -583,7 +584,7 @@ msgstr "&Bu mesajı tekrar gösterme"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr ""
+msgstr "Bu ayarları şimdilik &Saklama."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -620,7 +621,7 @@ msgstr "&Düzenle..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
-msgstr ""
+msgstr "Commit'i &Düzenle/Ayır"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
@@ -634,7 +635,7 @@ msgstr "&EPosta"
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1023, Dialog
 #. IDD_SETTINGSHOOKCONFIG: Control id 1023)
 msgid "&Enable"
-msgstr ""
+msgstr "&Etkinleştir"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1023)
 msgid "&Enable Proxy Server"
@@ -646,11 +647,11 @@ msgstr "&Düzenlemeyi etkinleştir"
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "&Çık"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
-msgstr ""
+msgstr "&Çık -> Ctrl+W"
 
 #. Resource IDs: (IDS_FILEDIFF_POPEXPORT)
 msgid "&Export selection to..."
@@ -664,7 +665,7 @@ msgstr "&Harici"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Extra PATH:"
-msgstr ""
+msgstr "&Ekstra PATH:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
@@ -672,7 +673,7 @@ msgstr "&Dosya"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Filtre"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -721,20 +722,20 @@ msgstr "&Buradan:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
-msgstr ""
+msgstr "&PuTTY anahtar ikilisi oluştur"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Git"
-msgstr ""
+msgstr "&Git"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
-msgstr ""
+msgstr "&Git stili commit (--rmdir)"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Git.exe Path:"
-msgstr ""
+msgstr "&Git.exe konumu:"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
@@ -742,7 +743,7 @@ msgstr "&Git\tCtrl+G"
 
 #. Resource IDs: (IDS_SHOWFILES_GRAYPATHS)
 msgid "&Gray Unrelated Changed Paths"
-msgstr ""
+msgstr "&Alakasız değişiklik yapılan konumları griye boya"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1511, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1511)
