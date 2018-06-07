@@ -27,14 +27,14 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-21 21:11+0000\n"
+"PO-Revision-Date: 2018-06-07 14:50+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/lznuaa/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #. Resource IDs: (IDS_STATUSBAR_CONFLICTEDLINES)
 # msgid/msgstr fields for Accelerator keys
@@ -1844,7 +1844,7 @@ msgstr "Трапилася невідома помилка."
 msgid "An unknown error occurred while accessing %1."
 msgstr "Під час доступу до %1 трапилася невідома помилка."
 
-#. Resource IDs: (IDS_ERR_PATCH_UNKOWNLINETYPE)
+#. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "У рядку %d виявлено невідомий тип рядка!"
@@ -2460,10 +2460,6 @@ msgstr ""
 msgid "Cannot show diff because of inconsistent newlines in the file."
 msgstr "Не вдається показати відмінності через неузгоджені нові рядки у файлі."
 
-#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
-msgid "Cascaded context menu"
-msgstr "Каскадні контекстні меню"
-
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
 msgstr "Чутливі до регістра"
@@ -2603,6 +2599,12 @@ msgstr "Позначте щоб використовувати менш докл
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1700)
 msgid "Check:"
 msgstr "Перевірити:"
+
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid ""
+"Checked items will be hidden in the context menu by default and will only be"
+" visible if the shift key is pressed while opening the context menu."
+msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -4093,10 +4095,6 @@ msgid ""
 "Reload the views without saving the modifications"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
-msgid "Don't show the selected items: (press shift key to show them)"
-msgstr "Не показувати обрані пункти: (нажміть клавішу shift щоб показати)"
-
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOW)
 msgid "Don't show this message again"
 msgstr "Не показувати це повідомлення знову"
@@ -5133,6 +5131,10 @@ msgstr "Загальне::Кольори 3"
 msgid "General::Context Menu"
 msgstr "Загальне::Контекстне меню"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
+msgid "General::Context Menu 2"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
 msgstr "Загальне::Діалоги 1"
@@ -5144,10 +5146,6 @@ msgstr "Загальне::Діалоги 2"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "General::Dialogs 3"
 msgstr "Загальне::Діалоги 3"
-
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
-msgid "General::Set Extend Menu Item"
-msgstr "Загальне::Установки додаткових пунктів меню"
 
 #. Resource IDs: (IDS_LOG_POPUP_GETMERGELOGS)
 msgid "Get merge logs"
@@ -5424,6 +5422,10 @@ msgstr ""
 msgid "Hide the script while running"
 msgstr "Ховати скрипт поки він виконується"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid "Hide the selected items in the context menu:"
+msgstr ""
+
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
 msgstr ""
@@ -5653,6 +5655,7 @@ msgstr "ID:57637:V C +V"
 msgid "ID:57643:V C +Z"
 msgstr "ID:57643:V C +Z"
 
+#. Accelerator Entry for Menu ID:57665; 'E&xit'
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
 msgid "ID:57665:V C +Q"
 msgstr "ID:57665:V C +Q"
@@ -7113,7 +7116,7 @@ msgstr "За вимогою"
 msgid "One or more auto-saved documents were found."
 msgstr "Знайден один або більше  авто-сохраненних документів"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED)
 msgid "One or more files are in a conflicted state."
 msgstr "Деяка кількість файлів у конфліктному стані."
 
@@ -9245,6 +9248,10 @@ msgstr "Показувати статус підсховищ у батьківс
 msgid "Show symbols on ref labels to substitute part of the ref names"
 msgstr ""
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid "Show the selected items on the first level of the context menu:"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
 msgstr "Показувати не&модіфіковані файли."
@@ -9477,12 +9484,12 @@ msgstr ""
 msgid "Stash Pop"
 msgstr ""
 
-#. Resource IDs: (IDS_MENUSTASHSAVE)
-msgid "Stash Save"
-msgstr ""
-
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
+msgstr ""
+
+#. Resource IDs: (IDS_MENUSTASHSAVE)
+msgid "Stash changes"
 msgstr ""
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
@@ -10648,6 +10655,12 @@ msgstr "Нездатен писати у %1, він лише-для-читанн
 msgid "Uncheck"
 msgstr "Зняти позначку"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid ""
+"Unchecked items will appear in the TortoiseGit submenu, checked items "
+"directly in the main context menu."
+msgstr ""
+
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
 msgstr "Відмінити"
@@ -11171,7 +11184,7 @@ msgstr ""
 msgid "Warning"
 msgstr "Попередження"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "Увага!"
 

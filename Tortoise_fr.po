@@ -34,8 +34,8 @@
 # Linus Fredrich Levisse <linukcs@live.fr>, 2011
 # lkppo, 2012
 # Lübbe Onken <l.onken@rac.de>, 2011
-# Lübbe Onken <luebbe.opensource@gmail.com>, 2011
-# Lübbe Onken <luebbe.opensource@gmail.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
 # Lucas Mascaro <mascaro.lucas@yahoo.fr>, 2015
 # Mathieu Lavigne <bludwarf@gmail.com>, 2017-2018
 # Mickael Patron <mickael_patron@hotmail.com>, 2012
@@ -60,7 +60,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-17 12:40+0000\n"
+"PO-Revision-Date: 2018-06-07 14:50+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -2493,10 +2493,6 @@ msgstr "Impossible d'afficher l'annotation. \"%s\" n'est pas versionné par git.
 msgid "Cannot show diff because of inconsistent newlines in the file."
 msgstr "Il n'est pas possible de monter la diff en raison de retours à la ligne incompatibles dans ce fichier"
 
-#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
-msgid "Cascaded context menu"
-msgstr "Menu contextuel en cascade"
-
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
 msgstr "Sensible à la casse"
@@ -2636,6 +2632,12 @@ msgstr "Sélectionnez pour utiliser un format de date et heure moins détaillé 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1700)
 msgid "Check:"
 msgstr "Vérifier : "
+
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid ""
+"Checked items will be hidden in the context menu by default and will only be"
+" visible if the shift key is pressed while opening the context menu."
+msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -4126,10 +4128,6 @@ msgid ""
 "Reload the views without saving the modifications"
 msgstr "Ne pas sauver\nRecharger les vues sans sauver les modifications"
 
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
-msgid "Don't show the selected items: (press shift key to show them)"
-msgstr "Ne pas afficher les éléments sélectionnés: (appuyez sur la touche shift pour les afficher)"
-
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOW)
 msgid "Don't show this message again"
 msgstr "Ne plus afficher ce message"
@@ -5166,6 +5164,10 @@ msgstr "Général::Couleurs 3"
 msgid "General::Context Menu"
 msgstr "Général::Menu Contextuel"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
+msgid "General::Context Menu 2"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
 msgstr "Général::Boîtes de dialogue 1"
@@ -5177,10 +5179,6 @@ msgstr "Général::Boîtes de dialogue 2"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "General::Dialogs 3"
 msgstr "Général::Boîtes de dialogue 3"
-
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
-msgid "General::Set Extend Menu Item"
-msgstr "Général::Sélectionner un élément de menu contextuel étendu"
 
 #. Resource IDs: (IDS_LOG_POPUP_GETMERGELOGS)
 msgid "Get merge logs"
@@ -5456,6 +5454,10 @@ msgstr "Cacher le patch<<"
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1326)
 msgid "Hide the script while running"
 msgstr "Masquer le script pendant l'exécution"
+
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid "Hide the selected items in the context menu:"
+msgstr ""
 
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
@@ -9279,6 +9281,10 @@ msgstr "Montrer le statuts des sous répertoire dans les dossiers parents"
 msgid "Show symbols on ref labels to substitute part of the ref names"
 msgstr "Afficher les symboles sur les étiquettes des ref afin de remplacer une partie des noms de référence"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid "Show the selected items on the first level of the context menu:"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
 msgstr "Voir les fichiers non &modifiés"
@@ -9511,13 +9517,13 @@ msgstr "Sortie de remise réussie"
 msgid "Stash Pop"
 msgstr "Sortir de la remise"
 
-#. Resource IDs: (IDS_MENUSTASHSAVE)
-msgid "Stash Save"
-msgstr "Remiser"
-
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
 msgstr "Remisage réussi"
+
+#. Resource IDs: (IDS_MENUSTASHSAVE)
+msgid "Stash changes"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
@@ -10681,6 +10687,12 @@ msgstr "Impossible d'écrire dans %1, il est en lecture seule ou ouvert par quel
 #. Resource IDs: (AFX_IDS_CHECKLISTBOX_UNCHECK)
 msgid "Uncheck"
 msgstr "Annuler sélection"
+
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid ""
+"Unchecked items will appear in the TortoiseGit submenu, checked items "
+"directly in the main context menu."
+msgstr ""
 
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"

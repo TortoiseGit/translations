@@ -11,8 +11,8 @@
 # eugen.cocalea <eugen.cocalea@gmail.com>, 2013
 # eugen.cocalea <eugen.cocalea@gmail.com>, 2013
 # Ioan-Paul Pirau <ioanpaulpirau@gmail.com>, 2013
-# Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
-# Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
 # spencea <pencea.simona@gmail.com>, 2014
 # Radu Murzea <radu.murzea@gmail.com>, 2013
 # Radu Murzea <radu.murzea@gmail.com>, 2013
@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-21 21:11+0000\n"
+"PO-Revision-Date: 2018-06-07 14:50+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/lznuaa/tortoisegit/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -1844,7 +1844,7 @@ msgstr "A avut loc o eroare necunoscută."
 msgid "An unknown error occurred while accessing %1."
 msgstr "A avut loc o eroare necunoscută în timpul accesării %1."
 
-#. Resource IDs: (IDS_ERR_PATCH_UNKOWNLINETYPE)
+#. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "Un tip de linie necunoscut s-a găsit în linia %d !"
@@ -2460,10 +2460,6 @@ msgstr "Nu se poate afişa învinovăţirea. \"%s\" nu este sub controlul versiu
 msgid "Cannot show diff because of inconsistent newlines in the file."
 msgstr "Nu se poate afişa diferenţierea deoarece caracterele de linie nouă sunt neconsecvente."
 
-#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
-msgid "Cascaded context menu"
-msgstr "Meniu contextual în cascadă"
-
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
 msgstr "Majuscule semnificative"
@@ -2603,6 +2599,12 @@ msgstr "Bifaţi pentru a folosi un format mai puţin detaliat pentru data şi or
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1700)
 msgid "Check:"
 msgstr "Bifează:"
+
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid ""
+"Checked items will be hidden in the context menu by default and will only be"
+" visible if the shift key is pressed while opening the context menu."
+msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -4093,10 +4095,6 @@ msgid ""
 "Reload the views without saving the modifications"
 msgstr "Nu salva\nReincarca vederile fara a salva modificarile"
 
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
-msgid "Don't show the selected items: (press shift key to show them)"
-msgstr "Nu arăta elementele selectate: (apasă tasta Shift pentru a le vedea)"
-
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOW)
 msgid "Don't show this message again"
 msgstr "Nu mai afişa mesajul acesta"
@@ -5133,6 +5131,10 @@ msgstr "General::Culori 3"
 msgid "General::Context Menu"
 msgstr "General::Meniu contextual"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
+msgid "General::Context Menu 2"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
 msgstr "General::Dialoguri 1"
@@ -5144,10 +5146,6 @@ msgstr "General::Dialoguri 2"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "General::Dialogs 3"
 msgstr "General::Dialoguri 3"
-
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
-msgid "General::Set Extend Menu Item"
-msgstr "General::Setează element în meniul extins"
 
 #. Resource IDs: (IDS_LOG_POPUP_GETMERGELOGS)
 msgid "Get merge logs"
@@ -5424,6 +5422,10 @@ msgstr "Ascunde petic<<"
 msgid "Hide the script while running"
 msgstr "Ascunde scriptul în timpul rulării"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid "Hide the selected items in the context menu:"
+msgstr ""
+
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
 msgstr ""
@@ -5653,6 +5655,7 @@ msgstr "ID:57637:V C +V"
 msgid "ID:57643:V C +Z"
 msgstr "ID:57643:V C +Z"
 
+#. Accelerator Entry for Menu ID:57665; 'E&xit'
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
 msgid "ID:57665:V C +Q"
 msgstr "ID:57665:V C +Q"
@@ -7113,7 +7116,7 @@ msgstr "La cerere"
 msgid "One or more auto-saved documents were found."
 msgstr "S-au găsit unul sau mai multe documente salvate automat."
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED)
 msgid "One or more files are in a conflicted state."
 msgstr "Unu sau mai multe fişiere sunt în stare de conflict."
 
@@ -9245,6 +9248,10 @@ msgstr ""
 msgid "Show symbols on ref labels to substitute part of the ref names"
 msgstr "Afişează simbolurile în etichetele referinţă pentru a substitui o parte din numele de referinţă"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid "Show the selected items on the first level of the context menu:"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
 msgstr "Afişează fişiere ne&modificate"
@@ -9477,12 +9484,12 @@ msgstr ""
 msgid "Stash Pop"
 msgstr "Scoate din tainiţă"
 
-#. Resource IDs: (IDS_MENUSTASHSAVE)
-msgid "Stash Save"
-msgstr "Salvează tăinuire"
-
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
+msgstr ""
+
+#. Resource IDs: (IDS_MENUSTASHSAVE)
+msgid "Stash changes"
 msgstr ""
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
@@ -10648,6 +10655,12 @@ msgstr "Nu s-a putut scrie la %1, este marcat pentru numai-citire sau este desch
 msgid "Uncheck"
 msgstr "Debifează"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid ""
+"Unchecked items will appear in the TortoiseGit submenu, checked items "
+"directly in the main context menu."
+msgstr ""
+
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
 msgstr "Anulează"
@@ -11171,7 +11184,7 @@ msgstr ""
 msgid "Warning"
 msgstr "Atenţie"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "Atenţie!"
 

@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-14 03:45+0000\n"
-"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
+"PO-Revision-Date: 2018-06-07 14:50+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1838,7 +1838,7 @@ msgstr "發生不明錯誤."
 msgid "An unknown error occurred while accessing %1."
 msgstr "存取 %1 時發生不明錯誤."
 
-#. Resource IDs: (IDS_ERR_PATCH_UNKOWNLINETYPE)
+#. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "在第 %d 行發現不明型態資料！"
@@ -2454,10 +2454,6 @@ msgstr "無法顯示譴責，「%s」尚未被 git 版本控制。"
 msgid "Cannot show diff because of inconsistent newlines in the file."
 msgstr "無法比較差異，因為檔案中的換行字元不一致。"
 
-#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
-msgid "Cascaded context menu"
-msgstr "階層式快顯功能表"
-
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
 msgstr "區分大小寫"
@@ -2597,6 +2593,12 @@ msgstr "勾選後可在日誌中使用較簡短的日期及時間"
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1700)
 msgid "Check:"
 msgstr "勾選："
+
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid ""
+"Checked items will be hidden in the context menu by default and will only be"
+" visible if the shift key is pressed while opening the context menu."
+msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -4087,10 +4089,6 @@ msgid ""
 "Reload the views without saving the modifications"
 msgstr "不儲存\n不儲存變更直接重新載入顯示"
 
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
-msgid "Don't show the selected items: (press shift key to show them)"
-msgstr "不顯示以下選取的項目：（加按 Shift 鍵可重新顯示它們）"
-
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOW)
 msgid "Don't show this message again"
 msgstr "不再顯示此訊息"
@@ -5127,6 +5125,10 @@ msgstr "一般::顏色3"
 msgid "General::Context Menu"
 msgstr "一般::快顯功能表"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
+msgid "General::Context Menu 2"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
 msgstr "一般::對話視窗1"
@@ -5138,10 +5140,6 @@ msgstr "一般::對話視窗2"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "General::Dialogs 3"
 msgstr "一般::對話視窗3"
-
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
-msgid "General::Set Extend Menu Item"
-msgstr "一般::擴展選單項目"
 
 #. Resource IDs: (IDS_LOG_POPUP_GETMERGELOGS)
 msgid "Get merge logs"
@@ -5418,6 +5416,10 @@ msgstr "隱藏補綴<<"
 msgid "Hide the script while running"
 msgstr "隱藏執行中的指令檔"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid "Hide the selected items in the context menu:"
+msgstr ""
+
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
 msgstr "隱藏沒有變更的"
@@ -5647,6 +5649,7 @@ msgstr "ID:57637:V C +V"
 msgid "ID:57643:V C +Z"
 msgstr "ID:57643:V C +Z"
 
+#. Accelerator Entry for Menu ID:57665; 'E&xit'
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
 msgid "ID:57665:V C +Q"
 msgstr "ID:57665:V C +Q"
@@ -7107,7 +7110,7 @@ msgstr "有需要時"
 msgid "One or more auto-saved documents were found."
 msgstr "找到自動儲存的文件"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED)
 msgid "One or more files are in a conflicted state."
 msgstr "尚有一個以上的檔案處於衝突狀態。"
 
@@ -9239,6 +9242,10 @@ msgstr "在上層資料夾顯示子版本庫的狀態"
 msgid "Show symbols on ref labels to substitute part of the ref names"
 msgstr "用特定符號簡化參照的前半部名稱"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid "Show the selected items on the first level of the context menu:"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
 msgstr "顯示未修改的檔案(&M)"
@@ -9471,13 +9478,13 @@ msgstr "收藏（stash）取出成功"
 msgid "Stash Pop"
 msgstr "取出收藏"
 
-#. Resource IDs: (IDS_MENUSTASHSAVE)
-msgid "Stash Save"
-msgstr "收藏"
-
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
 msgstr "完成收藏（stash）"
+
+#. Resource IDs: (IDS_MENUSTASHSAVE)
+msgid "Stash changes"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
@@ -10642,6 +10649,12 @@ msgstr "無法寫入 %1, 它可能被設為唯讀或另有人開啟."
 msgid "Uncheck"
 msgstr "取消勾選"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid ""
+"Unchecked items will appear in the TortoiseGit submenu, checked items "
+"directly in the main context menu."
+msgstr ""
+
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
 msgstr "復原"
@@ -11165,7 +11178,7 @@ msgstr "遍歷行為(&H)"
 msgid "Warning"
 msgstr "警告"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "警告！"
 

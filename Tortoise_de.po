@@ -9,7 +9,7 @@
 # djungbeck, 2013
 # Lübbe  <luebbe.tortoisesvn@googlemail.com>, 2012
 # Lübbe Onken <l.onken@rac.de>, 2011-2012, 2013
-# Lübbe Onken <luebbe.opensource@gmail.com>, 2012
+# luebbe <luebbe.opensource@gmail.com>, 2012
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2018
 # Thilo Berger <thilob.tb34@gmail.com>, 2017
 # Torsten Widmann <goover0976@googlemail.com>, 2012
@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-07 09:16+0000\n"
+"PO-Revision-Date: 2018-06-07 14:54+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1835,7 +1835,7 @@ msgstr "Es ist ein unbekannter Fehler aufgetreten"
 msgid "An unknown error occurred while accessing %1."
 msgstr "Ein unbekannter Fehler ist beim Zugriff auf %1 aufgetreten."
 
-#. Resource IDs: (IDS_ERR_PATCH_UNKOWNLINETYPE)
+#. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "Ein unbekannter Zeilentyp wurde in Zeile %d gefunden!"
@@ -2451,10 +2451,6 @@ msgstr "Annotation kann nicht angezeigt werden. \"%s\" ist nicht unter der Versi
 msgid "Cannot show diff because of inconsistent newlines in the file."
 msgstr "Kann die Unterschiede aufgrund inkonsistenter Zeilenumbrüche in der Datei nicht anzeigen."
 
-#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
-msgid "Cascaded context menu"
-msgstr "TortoiseGit Kontextmenü"
-
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
 msgstr "Groß- und Kleinschreibung beachten"
@@ -2594,6 +2590,12 @@ msgstr "Mit dieser Option wird ein kürzeres Datum-/Zeitformat in den Logmeldung
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1700)
 msgid "Check:"
 msgstr "Wählen:"
+
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid ""
+"Checked items will be hidden in the context menu by default and will only be"
+" visible if the shift key is pressed while opening the context menu."
+msgstr "Ausgewählte Elemente werden im Kontextmenü standardmäßig ausgeblended und werden erst angezeigt, wenn die Shift-Taste beim Öffnen des Kontextmenüs gedrückt wird."
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -4084,10 +4086,6 @@ msgid ""
 "Reload the views without saving the modifications"
 msgstr "Nicht speichern\nDie Ansichten neu laden, ohne die Änderungen zu speichern."
 
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
-msgid "Don't show the selected items: (press shift key to show them)"
-msgstr "Zeige die gewählten Einträge nicht immer an (zum Anzeigen die Umschalttaste drücken)"
-
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOW)
 msgid "Don't show this message again"
 msgstr "Diese Meldung nicht wieder anzeigen"
@@ -5124,6 +5122,10 @@ msgstr "Allgemein::Farben 3"
 msgid "General::Context Menu"
 msgstr "Allgemein::Kontextmenü"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
+msgid "General::Context Menu 2"
+msgstr "Allgemein::Kontextmenü 2"
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
 msgstr "Allgemein::Dialoge 1"
@@ -5135,10 +5137,6 @@ msgstr "Allgemein::Dialoge 2"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "General::Dialogs 3"
 msgstr "Allgemein::Dialoge 3"
-
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
-msgid "General::Set Extend Menu Item"
-msgstr "Allgemein::Erweitertes Kontextmenü"
 
 #. Resource IDs: (IDS_LOG_POPUP_GETMERGELOGS)
 msgid "Get merge logs"
@@ -5415,6 +5413,10 @@ msgstr "Patch verstecken<<"
 msgid "Hide the script while running"
 msgstr "Skript beim Ablauf verbergen"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid "Hide the selected items in the context menu:"
+msgstr "Verstecke die markierten Einträge im Kontextmenü:"
+
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
 msgstr "Unveränderte ausblenden"
@@ -5644,6 +5646,7 @@ msgstr "ID:57637:V C +V"
 msgid "ID:57643:V C +Z"
 msgstr "ID:57643:V C +Z"
 
+#. Accelerator Entry for Menu ID:57665; 'E&xit'
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
 msgid "ID:57665:V C +Q"
 msgstr "ID:57665:V C +Q"
@@ -7104,7 +7107,7 @@ msgstr "bei Bedarf"
 msgid "One or more auto-saved documents were found."
 msgstr "Eines oder mehrere automatisch gespeicherte Dokumente wurden gefunden."
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED)
 msgid "One or more files are in a conflicted state."
 msgstr "Eine oder mehrere Dateien befinden sich in einem Konfliktzustand."
 
@@ -9236,6 +9239,10 @@ msgstr "Zeige Status von Subrepositories in Eltern-Verzeichnissen"
 msgid "Show symbols on ref labels to substitute part of the ref names"
 msgstr "Ersetzt Teile des Refnamens durch Symbole"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid "Show the selected items on the first level of the context menu:"
+msgstr "Zeige die markierten Einträge auf der ersten Ebene des Kontextmenüs."
+
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
 msgstr "Zeige un&modifizierte Dateien"
@@ -9468,13 +9475,13 @@ msgstr "Stash POP erfolgreich."
 msgid "Stash Pop"
 msgstr "Stash Pop"
 
-#. Resource IDs: (IDS_MENUSTASHSAVE)
-msgid "Stash Save"
-msgstr "Stash speichern"
-
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
 msgstr "Stash war erfolgreich."
+
+#. Resource IDs: (IDS_MENUSTASHSAVE)
+msgid "Stash changes"
+msgstr "Stash speichern"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
@@ -10639,6 +10646,12 @@ msgstr "Konnte auf %1 nicht schreiben, es ist entweder schreibgeschützt oder vo
 msgid "Uncheck"
 msgstr "Abwählen"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid ""
+"Unchecked items will appear in the TortoiseGit submenu, checked items "
+"directly in the main context menu."
+msgstr "Nicht ausgewählte Elemente erscheinen im TortoiseGit Untermenü, ausgewählte Elemente erscheinen direkt im Hauptkontextmenü."
+
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
 msgstr "Rückgängig"
@@ -11162,7 +11175,7 @@ msgstr "&Traversierungsart"
 msgid "Warning"
 msgstr "Warnung"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "Warnung!"
 

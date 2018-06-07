@@ -4,7 +4,7 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011,2013
+# luebbe <luebbe.opensource@gmail.com>, 2011,2013
 # Martin Šuráb <e.martyn@gmail.com>, 2016
 # pavolmnich, 2014-2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2014-2015
@@ -13,14 +13,14 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-21 21:11+0000\n"
+"PO-Revision-Date: 2018-06-07 14:50+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/lznuaa/tortoisegit/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #. Resource IDs: (IDS_STATUSBAR_CONFLICTEDLINES)
 # msgid/msgstr fields for Accelerator keys
@@ -1830,7 +1830,7 @@ msgstr "Nastala neznáma chyba."
 msgid "An unknown error occurred while accessing %1."
 msgstr "Počas prístupu k %1 nastala neznáma chyba."
 
-#. Resource IDs: (IDS_ERR_PATCH_UNKOWNLINETYPE)
+#. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "Bol nájdený neznámy typ riadku %d !"
@@ -2446,10 +2446,6 @@ msgstr ""
 msgid "Cannot show diff because of inconsistent newlines in the file."
 msgstr "Nemožno zobraziť porovnanie, pretože sú nekonzistentné ukončenia riadkov v súbore."
 
-#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
-msgid "Cascaded context menu"
-msgstr "Kaskádová kontextová ponuka"
-
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
 msgstr "Rozlišovať veľkosť písmen"
@@ -2589,6 +2585,12 @@ msgstr "Zaškrtnite ak chcete menej výpisov dátumu a času v správach denník
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1700)
 msgid "Check:"
 msgstr "Skontrolovať:"
+
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid ""
+"Checked items will be hidden in the context menu by default and will only be"
+" visible if the shift key is pressed while opening the context menu."
+msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -4079,10 +4081,6 @@ msgid ""
 "Reload the views without saving the modifications"
 msgstr "Neukladať\nObnoví zobrazenia bez uloženia zmien"
 
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
-msgid "Don't show the selected items: (press shift key to show them)"
-msgstr ""
-
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOW)
 msgid "Don't show this message again"
 msgstr "Túto správu už viac nezobrazovať"
@@ -5119,6 +5117,10 @@ msgstr "Všeobecné::Farby 3"
 msgid "General::Context Menu"
 msgstr "Všeobecné::Kontextová ponuka"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
+msgid "General::Context Menu 2"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
 msgstr "Všeobecné::Dialógy I"
@@ -5130,10 +5132,6 @@ msgstr "Všeobecné::Dialógy II"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "General::Dialogs 3"
 msgstr "General::Dialógy 3"
-
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
-msgid "General::Set Extend Menu Item"
-msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_GETMERGELOGS)
 msgid "Get merge logs"
@@ -5410,6 +5408,10 @@ msgstr ""
 msgid "Hide the script while running"
 msgstr "Skryť skript počas behu"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid "Hide the selected items in the context menu:"
+msgstr ""
+
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
 msgstr "Skryť nezmenené"
@@ -5639,6 +5641,7 @@ msgstr "ID:57637:V C +V"
 msgid "ID:57643:V C +Z"
 msgstr "ID:57643:V C +Z"
 
+#. Accelerator Entry for Menu ID:57665; 'E&xit'
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
 msgid "ID:57665:V C +Q"
 msgstr "ID:57665:V C +Q"
@@ -7099,7 +7102,7 @@ msgstr ""
 msgid "One or more auto-saved documents were found."
 msgstr "Bol nájdených jeden alebo viac automaticky uložených dokumentov."
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED)
 msgid "One or more files are in a conflicted state."
 msgstr "Jeden alebo viac súborov v stave konfliktu."
 
@@ -9231,6 +9234,10 @@ msgstr ""
 msgid "Show symbols on ref labels to substitute part of the ref names"
 msgstr ""
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid "Show the selected items on the first level of the context menu:"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
 msgstr ""
@@ -9463,12 +9470,12 @@ msgstr ""
 msgid "Stash Pop"
 msgstr "Vybrať posledné z odložených"
 
-#. Resource IDs: (IDS_MENUSTASHSAVE)
-msgid "Stash Save"
-msgstr "Uložiť odložené"
-
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
+msgstr ""
+
+#. Resource IDs: (IDS_MENUSTASHSAVE)
+msgid "Stash changes"
 msgstr ""
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
@@ -10634,6 +10641,12 @@ msgstr "Nemožno zapísať do %1, je len na čítanie, alebo otvorený niekym in
 msgid "Uncheck"
 msgstr "Odznačiť"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid ""
+"Unchecked items will appear in the TortoiseGit submenu, checked items "
+"directly in the main context menu."
+msgstr ""
+
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
 msgstr "Vrátiť"
@@ -11157,7 +11170,7 @@ msgstr ""
 msgid "Warning"
 msgstr "Varovanie"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "Varovanie!"
 

@@ -40,7 +40,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-01-21 21:11+0000\n"
+"PO-Revision-Date: 2018-06-07 14:50+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1857,7 +1857,7 @@ msgstr "何らかのエラーが発生しました。"
 msgid "An unknown error occurred while accessing %1."
 msgstr "%1 にアクセス中に何らかのエラーが発生しました。"
 
-#. Resource IDs: (IDS_ERR_PATCH_UNKOWNLINETYPE)
+#. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d !"
 msgstr "想定外の種類の行が、%d行目で見つかりました。"
@@ -2473,10 +2473,6 @@ msgstr "履歴を追跡(Blame)出来ません。 \"%s\" は Git による管理�
 msgid "Cannot show diff because of inconsistent newlines in the file."
 msgstr "ファイルの改行コードに一貫性がないため、差分を表示できません。"
 
-#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
-msgid "Cascaded context menu"
-msgstr "コンテキストメニューに表示する項目"
-
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
 msgstr "大文字/小文字を区別"
@@ -2616,6 +2612,12 @@ msgstr "有効にすると、ログメッセージで短い日付/時刻形式�
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1700)
 msgid "Check:"
 msgstr "チェック:"
+
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid ""
+"Checked items will be hidden in the context menu by default and will only be"
+" visible if the shift key is pressed while opening the context menu."
+msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -4106,10 +4108,6 @@ msgid ""
 "Reload the views without saving the modifications"
 msgstr "保存しない\n変更点を保存しないでビューを再読込"
 
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
-msgid "Don't show the selected items: (press shift key to show them)"
-msgstr "選択したアイテムは表示しません (Shiftキーを押していると表示します)"
-
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOW)
 msgid "Don't show this message again"
 msgstr "このメッセージを再び表示しない"
@@ -5146,6 +5144,10 @@ msgstr "全般::色３"
 msgid "General::Context Menu"
 msgstr "全般::コンテキストメニュー"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
+msgid "General::Context Menu 2"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
 msgstr "全般::ダイアログ1"
@@ -5157,10 +5159,6 @@ msgstr "全般::ダイアログ2"
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "General::Dialogs 3"
 msgstr "全般::ダイアログ3"
-
-#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
-msgid "General::Set Extend Menu Item"
-msgstr "全般::拡張メニュー"
 
 #. Resource IDs: (IDS_LOG_POPUP_GETMERGELOGS)
 msgid "Get merge logs"
@@ -5437,6 +5435,10 @@ msgstr "パッチを隠す<<"
 msgid "Hide the script while running"
 msgstr "実行時はスクリプトを非表示にする"
 
+#. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
+msgid "Hide the selected items in the context menu:"
+msgstr ""
+
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
 msgstr "変更のないものを隠す"
@@ -5666,6 +5668,7 @@ msgstr "ID:57637:V C +V"
 msgid "ID:57643:V C +Z"
 msgstr "ID:57643:V C +Z"
 
+#. Accelerator Entry for Menu ID:57665; 'E&xit'
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
 msgid "ID:57665:V C +Q"
 msgstr "ID:57665:V C +Q"
@@ -7126,7 +7129,7 @@ msgstr "オンデマンド"
 msgid "One or more auto-saved documents were found."
 msgstr "一つ以上の自動保存されたドキュメントが見つかりました。"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED)
 msgid "One or more files are in a conflicted state."
 msgstr "競合しているファイルがあります。"
 
@@ -9258,6 +9261,10 @@ msgstr "サブリポジトリの状態を親に反映"
 msgid "Show symbols on ref labels to substitute part of the ref names"
 msgstr "refラベルで、ref名の一部を記号で表示する"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid "Show the selected items on the first level of the context menu:"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
 msgstr "変更されていないファイルを表示(&M)"
@@ -9490,13 +9497,13 @@ msgstr "スタッシュ復元成功"
 msgid "Stash Pop"
 msgstr "隠した変更を戻す"
 
-#. Resource IDs: (IDS_MENUSTASHSAVE)
-msgid "Stash Save"
-msgstr "スタッシュへ変更を隠す"
-
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
 msgstr "スタッシュ成功"
+
+#. Resource IDs: (IDS_MENUSTASHSAVE)
+msgid "Stash changes"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
@@ -10661,6 +10668,12 @@ msgstr "%1 に書き込めません。読み取り専用か、他の誰かが開
 msgid "Uncheck"
 msgstr "未チェック"
 
+#. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
+msgid ""
+"Unchecked items will appear in the TortoiseGit submenu, checked items "
+"directly in the main context menu."
+msgstr ""
+
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
 msgstr "元に戻す"
@@ -11184,7 +11197,7 @@ msgstr "ツリーの探索(&H)"
 msgid "Warning"
 msgstr "警告"
 
-#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURED_WARNING)
+#. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "警告"
 
