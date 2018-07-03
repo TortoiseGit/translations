@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-28 07:28+0000\n"
+"PO-Revision-Date: 2018-07-03 15:29+0000\n"
 "Last-Translator: Andrius Burokas\n"
 "Language-Team: Lithuanian (http://www.transifex.com/lznuaa/tortoisegit/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -1403,7 +1403,7 @@ msgstr "..."
 
 #. Resource IDs: (IDS_CONFIG_LOCAL_TT)
 msgid ".git/config in the repository root"
-msgstr ""
+msgstr ".git/config talpyklos šakniniame kataloge"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1691)
 msgid ".git/info/exclude"
@@ -1415,11 +1415,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1689)
 msgid ".gitignore in the repository root"
-msgstr ""
+msgstr ".gitignore talpyklos šakniniame kataloge"
 
 #. Resource IDs: (IDS_CONFIG_PROJECT_TT)
 msgid ".tgitconfig in the repository root"
-msgstr ""
+msgstr ".tgitconfig talpyklos šakniniame kataloge"
 
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1020)
 msgid "< &Previous"
@@ -1817,7 +1817,7 @@ msgid ""
 "%theirs: the file as it is in the repository\n"
 "%mine: your own file, with your changes\n"
 "%base: the original file without your changes"
-msgstr ""
+msgstr "Išorinė sujungimo programa naudojama\nkonfliktų sprendimams failuose.\n\nProgramos paleidimo metu galite naudoti šiuos parametrus:\n%merged: kuriamas konfliktų failas\n%theirs: failas talpykloje\n%mine: failas su jūsų pakeitimais\n%base: originalus failas be pakeitimų"
 
 #. Resource IDs: (AFX_IDP_FILE_INVALID_FILE)
 #, c-format
@@ -2191,7 +2191,7 @@ msgstr "/logmsg ir /logmsgfile buvo nurodyti!\nGali būti nurodytas tik vienas i
 #. Resource IDs: (IDS_ERR_PATCHPATHS)
 msgid ""
 "Both the path to the patch file and the target path must be absolute paths!"
-msgstr ""
+msgstr "Katalogų keliai nurodantys pataisos failą ir paskirtį turi būti absoliutūs!"
 
 #. Resource IDs: (IDS_STATUSBAR_BOTTOMVIEW)
 msgid "Bottom View:"
@@ -2629,7 +2629,7 @@ msgstr "Chinese"
 
 #. Resource IDs: (IDS_CHOOSE_REPOSITORY)
 msgid "Choose Repository"
-msgstr ""
+msgstr "Rinktis talpyklą"
 
 #. Resource IDs: (IDS_LOG_CHRONOLOGICALREVERSEDORDER)
 msgid "Chronological reversed (git default)"
@@ -2754,11 +2754,11 @@ msgstr "Klonuoti"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1572)
 msgid "Clone Existing Repository"
-msgstr "Klonuoti repozitoriją"
+msgstr "Klonuoti talpyklą"
 
 #. Resource IDs: (IDS_MENUDESCCLONE)
 msgid "Clone a repository"
-msgstr "Klonuoti repozitoriją"
+msgstr "Klonuoti talpyklą"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1653)
 msgid "Clone into Bare Repo"
@@ -2917,7 +2917,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCCOMMIT)
 msgid "Commits your changes to the repository"
-msgstr ""
+msgstr "Patvirtina pakeitimus talpykloje"
 
 #. Resource IDs: (IDS_PROC_LOG_COMMITTEREMAIL)
 msgid "Committer Email"
@@ -3340,7 +3340,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
-msgstr ""
+msgstr "Sukurti žymę"
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
@@ -3387,7 +3387,7 @@ msgid ""
 "clone or fetch from it, nor push from nor into it), but is adequate if you "
 "are only interested in the recent history of a large project with a long "
 "history, and would want to send in fixes as patches."
-msgstr ""
+msgstr "Kurti paviršutinišką kloną, kuriame pakeitimų istorija sutrumpinta iki nurodyto įrašų skaičiaus. Paviršutiniška talpykla turi keletą trūkumų (ji negali būti klonuojama ar modifikuojama: gaunami, patvirtinami ar išsaugomi pakeitimai), bet ji tinka paskutinių pakeitimų peržiūrai ilgoje didelio projekto istorijoje, taip pat gali pagelbėti sukurti pataisų failą su jūsų pakeitimais"
 
 #. Resource IDs: (ID_EDIT_CREATEUNIFIEDDIFFFILE - Menu)
 msgid "Create patch file"
@@ -3421,7 +3421,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCCREATEREPOS)
 msgid "Creates a repository database at the current location"
-msgstr ""
+msgstr "Sukuria talpyklos duomenų bazę šioje vietoje"
 
 #. Resource IDs: (IDS_MENUDESCCREATEPATCH)
 msgid "Creates a unified diff file with all changes you made"
@@ -4670,11 +4670,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr ""
+msgstr "Gauti patvirtinimus iš nutolusios talpyklos"
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
-msgstr ""
+msgstr "Gauti iš SVN talpyklos"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_FETCHFROM)
 #, c-format
@@ -5016,7 +5016,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1604)
 msgid "From &SVN Repository"
-msgstr ""
+msgstr "Iš &SVN talpyklos"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES -
 #. Menu)
@@ -5030,7 +5030,7 @@ msgstr "Iš pakeistų failų"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1603)
 msgid "From SVN Repository"
-msgstr ""
+msgstr "Iš SVN talpyklos"
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES)
 msgid "From existing files"
@@ -5239,7 +5239,7 @@ msgstr "Git for Windows"
 
 #. Resource IDs: (IDS_PROC_REPOCREATEERR)
 msgid "Git reported an error while creating a repository!\n"
-msgstr ""
+msgstr "Talpyklos kūrimo metu gauta Git klaida!\n"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
@@ -5990,7 +5990,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROC_REPOCREATED)
 #, c-format
 msgid "Initialized empty Git repository in %s."
-msgstr ""
+msgstr "Sukurta tuščia Git talpykla kataloge %s."
 
 #. Resource IDs: (ID_VIEW_INLINEDIFF - Menu,
 #. cmdViewInlineDiff_LabelTitle_RESID)
@@ -8185,15 +8185,15 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1618)
 msgid "Repository &URL"
-msgstr ""
+msgstr "Talpyklos &URL"
 
 #. Resource IDs: (Dialog IDD_REPOSITORY_BROWSER: Control id 153)
 msgid "Repository Browser"
-msgstr ""
+msgstr "Talpyklos peržiūra"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_ADD: Control id 65535)
 msgid "Repository:"
-msgstr ""
+msgstr "Talpykla:"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 334)
 msgid "Request pull"
@@ -8815,7 +8815,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_MERGETO)
 msgid "Select merge target"
-msgstr ""
+msgstr "Rinktis sujungimo paskirtį"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCLOSE_TT)
 msgid ""
@@ -9334,7 +9334,7 @@ msgstr "Praleista"
 
 #. Resource IDs: (IDS_SVNACTION_SKIPMISSING)
 msgid "Skipped missing target"
-msgstr ""
+msgstr "Trūkstama paskirtis praleista"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1098)
 msgid "Smart tab char"
@@ -9788,7 +9788,7 @@ msgstr "Raktažodžiai:"
 
 #. Resource IDs: (IDS_ERR_MUSTBESAMEWT)
 msgid "Target and source must be in the same working tree!"
-msgstr ""
+msgstr "Paskirtis ir šaltinis turi būti tame pačiame darbiniame katalogų medyje"
 
 #. Resource IDs: (IDS_PROC_TASKS)
 msgid "Tasks"
@@ -10096,7 +10096,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REPOCREATEFINISHED)
 msgid "The repository was successfully created."
-msgstr "Repozitorija sėkmingai sukurta."
+msgstr "Talpykla sėkmingai sukurta."
 
 #. Resource IDs: (IDS_PROGRS_REVERTMARKERS)
 msgid ""
@@ -10119,7 +10119,7 @@ msgid ""
 "%s\n"
 "is a special folder and is not supposed to be a repository root!\n"
 "Are you sure you want to initialize a git repository inside that folder?"
-msgstr ""
+msgstr "Paskirties katalogas \n%s\nyra specialus ir neturėtų būti talpyklos šakniniu katalogu!\nAr iš tikro norite tęsti talpyklos kūrimą šiame kataloge?"
 
 #. Resource IDs: (IDS_WARN_GITINIT_FOLDERNOTEMPTY)
 #, c-format
@@ -10128,7 +10128,7 @@ msgid ""
 "%s\n"
 "is not empty!\n"
 "Are you sure you want to initialize a git repository inside that folder?"
-msgstr ""
+msgstr "Paskirties katalogas \n%s\nyra ne tuščias!\nAr iš tikro norite tęsti talpyklos kūrimą šiame kataloge?"
 
 #. Resource IDs: (IDS_TEXTIDENTICAL_MAIN)
 msgid ""
@@ -10147,7 +10147,7 @@ msgstr ""
 msgid ""
 "The two selected URL's are not created from the same root.\n"
 "It's not possible to show the log messages between them!"
-msgstr ""
+msgstr "Pasirinkti abu URL adresai tarpusavyje nesusiję.\nNeįmanoma parodyti žurnalo įrašų!"
 
 #. Resource IDs: (IDS_PROC_REBASE_CONTINUE_NOTCLEAN)
 msgid ""
@@ -11571,7 +11571,7 @@ msgstr ""
 #. Resource IDs: (IDS_ERR_NOT_REPOSITORY)
 #, c-format
 msgid "\"%s\" is not git repository"
-msgstr ""
+msgstr "\"%s\" nėra git talpykla"
 
 #. Resource IDs: (IDS_PROC_DELETEREF)
 #, c-format
@@ -11787,7 +11787,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOCAL_GCM)
 msgid "manager - this repository only"
-msgstr ""
+msgstr "manager - tik šiai talpyklai"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1494)
 msgid "master"
@@ -11953,7 +11953,7 @@ msgstr "wincred - tik šiam Windows naudotojui"
 
 #. Resource IDs: (IDS_LOCAL_WINCRED)
 msgid "wincred - this repository only"
-msgstr "wincred - tik šiai repozitorijai"
+msgstr "wincred - tik šiai talpyklai"
 
 #. Resource IDs: (IDS_GLOBAL_WINSTORE)
 msgid "winstore - current Windows user"
@@ -11961,7 +11961,7 @@ msgstr "winstore - tik šiam Windows naudotojui"
 
 #. Resource IDs: (IDS_LOCAL_WINSTORE)
 msgid "winstore - this repository only"
-msgstr "winstore - tik šiai repozitorijai"
+msgstr "winstore - tik šiai talpyklai"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXYEAR)
 msgid "year"
