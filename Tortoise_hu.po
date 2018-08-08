@@ -12,6 +12,7 @@
 # Gábor Prótár <protar.gabor@gmail.com>, 2013-2014
 # Hgrg <hgrg.wp@gmail.com>, 2013
 # Hgrg <hgrg.wp@gmail.com>, 2013,2017
+# Máté Széles <szelessm@gmail.com>, 2018
 # Péter Handbauer <loserock@gmail.com>, 2014-2016
 # Petrovics Sándor <egeramasrol@gmail.com>, 2014,2016
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
@@ -20,7 +21,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-07-26 08:43+0000\n"
+"PO-Revision-Date: 2018-08-08 20:32+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/lznuaa/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -7132,6 +7133,10 @@ msgstr ""
 msgid "Only consider first parents on blame"
 msgstr ""
 
+#. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1808)
+msgid "Only follow first parent"
+msgstr ""
+
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
 msgstr ""
@@ -11077,7 +11082,7 @@ msgstr "Verzió %d.%d.%d.%d"
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1644,
 #. IDS_PROC_FILEDIFF_VERSION1BASE)
 msgid "Version 1 (Base)"
-msgstr ""
+msgstr "1. Verzió (Alap)"
 
 #. Resource IDs: (IDS_PROC_FILEDIFF_VERSION1BASENEWER)
 msgid "Version 1 (Base, Newer commit time)"
@@ -11312,11 +11317,11 @@ msgstr "Windows-1258"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "Within a file:"
-msgstr ""
+msgstr "Egy fájlon belül:"
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_WITHIN_FILE)
 msgid "Within file"
-msgstr ""
+msgstr "Fájlon belül:"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 158, IDS_WORKING_TREE)
 msgid "Working Tree"
@@ -11435,7 +11440,7 @@ msgstr "A beállítások érvénybe léptetéséhez újra kell indítani a szám
 
 #. Resource IDs: (IDS_PROC_NOZIPFILE)
 msgid "You must select a filename for the zip-file!"
-msgstr ""
+msgstr "Fájlnevet kell választania a zip-fájlnak!"
 
 #. Resource IDs: (IDS_PROCEXPORTERRFOLDER)
 msgid ""
@@ -11515,7 +11520,7 @@ msgstr "Kicsinyítés"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Nagyítás &100% -ig"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"
@@ -11610,7 +11615,7 @@ msgstr "fejlesztő"
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORMOREX)
 #, c-format
 msgid "author (>= 0.5%)"
-msgstr ""
+msgstr "szerző (>= 0.5%)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "based on TortoiseSVN (https://tortoisesvn.net/)"
@@ -11699,7 +11704,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
-msgstr ""
+msgstr "teljes útvonalak"
 
 #. Resource IDs: (IDS_PROC_PROGRESS_GITUNCLEANEXIT)
 #, c-format
@@ -11799,7 +11804,7 @@ msgstr "módosítva"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "modified/copied"
-msgstr ""
+msgstr "módosítva/másolva"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXMONTH)
 msgid "month"
@@ -11827,7 +11832,7 @@ msgstr "nem verziókezelt"
 
 #. Resource IDs: (IDS_ENCRYPT_NONE)
 msgid "none"
-msgstr ""
+msgstr "egyik sem"
 
 #. Resource IDs: (IDS_STATUSNORMAL)
 msgid "normal"
@@ -11839,7 +11844,7 @@ msgstr "nincs találat"
 
 #. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
 msgid "not initialized"
-msgstr ""
+msgstr "nincs inicializálva"
 
 #. Resource IDs: (cmdOpen_Keytip_RESID)
 msgid "o1"
@@ -11883,7 +11888,7 @@ msgstr "negyedév"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYRELPATHS)
 msgid "relative paths"
-msgstr ""
+msgstr "relatív útvonal"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "renamed"
