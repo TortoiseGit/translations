@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:58+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/lznuaa/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -166,7 +166,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "Вибрано %1!d! файлів, усього %2!d! файлів"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -182,12 +182,12 @@ msgstr "%1!d! хвилин тому"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! найактивніших авторів, кожен принаймі з %2!d! фіксуваннями (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! хвилин(и) і %2!ld! секунд(и)"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -2713,7 +2713,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Очищує %1!ld! пар ім'я/пароль, %2!ld! сертифікатів ssl і %3!ld! імен користувачів"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -4909,11 +4909,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Умістити граф"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Умістити ввись"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4925,7 +4925,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Умістити вшир"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -9043,7 +9043,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "Показати &огляд"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -9664,7 +9664,7 @@ msgstr "Повернутися на панель попереднього вік
 #. Resource IDs: (ID_VIEW_ONEWAYDIFF - Menu,
 #. cmdViewOneWayDiff_LabelTitle_RESID)
 msgid "Switch between single and double pane view"
-msgstr ""
+msgstr "Переключитися між одно та двопанельним поданням"
 
 #. Resource IDs: (cmdViewOneWayDiff)
 msgid ""
@@ -11501,11 +11501,11 @@ msgstr "З&меншити"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "З&більшити\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "З&більшити\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11526,7 +11526,7 @@ msgstr "Зменшити"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Масштабувати до &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

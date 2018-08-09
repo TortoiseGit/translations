@@ -7,6 +7,7 @@
 # Dimitar Tsonev <dimitar.tsonev@gmail.com>, 2015
 # Kosio Stefanov <kosio7@gmail.com>, 2017
 # luebbe <luebbe.opensource@gmail.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
 # petkovmt <petkovmt@gmail.com>, 2011
 # Stefan Ilivanov <ilivanov@gmail.com>, 2012
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
@@ -15,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:56+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/lznuaa/tortoisegit/language/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -154,7 +155,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "%1!d! файла маркирани, %2!d! файла общо"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -170,12 +171,12 @@ msgstr "Преди %1!d! минути"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! най-активни автори с най-малко %2!d! поверявания всеки (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! минута(-и) и %2!ld! секунда(-и)"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -621,7 +622,7 @@ msgstr "&Включи редактиране"
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "&Изход"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -647,7 +648,7 @@ msgstr "&Файл"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Филтър"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -2701,7 +2702,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Изчиства %1!ld! двойки потребителско име/парола, %2!ld! SSL сертификата и %3!ld! потребителски имена."
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -4897,11 +4898,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Напасване на диаграмата"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Оптимален мащаб по височина"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4913,7 +4914,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Оптимален мащаб по ширина"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -6331,7 +6332,7 @@ msgstr "Локатор"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Локатор"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -9031,7 +9032,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "&Преглед"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -11489,11 +11490,11 @@ msgstr "&Смаляване"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "&Увеличаване\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "С&маляване\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11514,7 +11515,7 @@ msgstr "Смаляване"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Мащаб: &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

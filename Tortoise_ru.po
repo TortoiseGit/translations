@@ -10,10 +10,12 @@
 # Arioch <the_Arioch@nm.ru>, 2012-2013
 # Arkady Shapkin <arkadiy_s@inbox.ru>, 2011
 # Arkady Shapkin <arkadiy_s@inbox.ru>, 2011
-# Arkady Shapkin <arkadiy_s@inbox.ru>, 2011
+# Arkady Shapkin <arkadiy_s@inbox.ru>, 2011,2014
 # KOLANICH, 2013-2015
-# _deniska <denis_levin@mail.ru>, 2011
+# _deniska <denis_levin@mail.ru>, 2011,2013
 # Dimitriy Ryazantcev <DJm00n@mail.ru>, 2015-2016
+# Dmitriy Mamonov <sassy.but.classic@gmail.com>, 2013
+# Dmitry Morozov <222291182i@gmail.com>, 2016
 # Дмитрий Сытьков <sytkov@gmail.com>, 2011
 # Герман Борисов <borisov.german@gmail.com>, 2012-2013
 # KOLANICH, 2013
@@ -21,23 +23,31 @@
 # KorneySan <korneysan@tut.by>, 2017
 # KorneySan <korneysan@tut.by>, 2017
 # Lübbe Onken <l.onken@rac.de>, 2011
+# maks l <kix@land.ru>, 2017
+# Maxim Gutsul <maximgutsul@gmail.com>, 2017
+# Nikolay Falileev <kelvinkolyan@mail.ru>, 2017
+# rlagutin <inactive+drbeep@transifex.com>, 2014
 # Alexander Shchekaturov <shcham@gmail.com>, 2013
 # Stanislav Kroter <krotersv@gmail.com>, 2016-2018
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013
 # Дмитрий Сытьков <sytkov@gmail.com>, 2011
 # Arioch <the_Arioch@nm.ru>, 2013
 # Arioch <the_Arioch@nm.ru>, 2012
+# Vladimir.Serykh <Vladimir.Serykh@extenza-studio.ru>, 2015
 # Антон Бауткин <bautkin@gmail.com>, 2018
 # Виталий Переславцев <pstracker@mail.ru>, 2013
 # Вячеслав Третьяков <tret2003@gmail.com>, 2012-2013
 # Герман Борисов <borisov.german@gmail.com>, 2017
+# Дмитрий Ошкало <dmitry.oshkalo@gmail.com>, 2015
 # Дмитрий Сытьков <sytkov@gmail.com>, 2011,2014
+# Сергей Аксёнов <aksenov007bond@gmail.com>, 2016
+# Ярослав Акулов, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:55+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -2723,7 +2733,7 @@ msgstr "Стирает %1!ld! сообщений в журнале, сохран
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Очищает %1!ld! пар имя пользователя/пароль, %2!ld! ssl-сертификатов и %3!ld! имён пользователей"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -2870,7 +2880,7 @@ msgstr "Фиксация"
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
 msgid "Commit %1!s! not found in \"%2!s!\". Update submodule now?"
-msgstr ""
+msgstr "Фиксация %1!s! не найдена в \"%2!s!\". Обновить подмодуль сейчас?"
 
 #. Resource IDs: (IDS_LOG_NOT_VISIBLE)
 #, c-format
@@ -3196,7 +3206,7 @@ msgstr "Не могу произвести проверку на наличие 
 #. Resource IDs: (IDS_CHECKNEWER_NETERROR_FORMAT)
 #, c-format
 msgid "Could not check for a newer version! %1!s! (Error code: 0x%2!08X!)"
-msgstr ""
+msgstr "Не удалось проверить более новую версию! %1!s! (Код ошибки: 0x%2!08X!)"
 
 #. Resource IDs: (IDS_ERR_COPYFILES)
 #, c-format
@@ -3283,7 +3293,7 @@ msgstr "Не могу получить URL файла!\n%s"
 msgid ""
 "Could not retrieve revision %1!s! of the file %2!s!.\n"
 "Patching is not possible!"
-msgstr ""
+msgstr "Не удалось получить ревизию %1!s! файла %2!s!.\nНаложение заплатки не возможно!"
 
 #. Resource IDs: (IDS_ERR_TGITBLAME)
 msgid "Could not start TortoiseGitBlame"
@@ -3491,7 +3501,7 @@ msgid ""
 "Current branch \"%s\" is up to date\n"
 "\n"
 "If you want to force a rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "Текущая ветка \"%s\" обновлена\n\nЕсли вы желаете принудительно перебазировать даже если текущая ветка является потомком той фиксации, в которую вы пытаетесь перебазировать, пожалуйста, поставьте ниже флажок \"Принудительно перебазировать\"."
 
 #. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
 msgid ""
@@ -4487,7 +4497,7 @@ msgstr "Ошибка проверки сертификата сервера дл
 msgid ""
 "Error while reading/writing the registry key %1!s!\n"
 "%2!s!"
-msgstr ""
+msgstr "Ошибка во время чтения/записи ключа реестра %1!s!\n%2!s!"
 
 #. Resource IDs: (IDS_PROC_EVERYTHINGUPDATED)
 msgid "Everything updated."
@@ -4582,7 +4592,7 @@ msgstr "Не удалось откатить"
 #. Resource IDs: (IDS_STATUSLIST_CHECKOUTFILEFAILED)
 #, c-format
 msgid "Failed to checkout file \"%1!s!\" of revision %2!s! to \"%3!s!\"."
-msgstr ""
+msgstr "Не удалось извлечь файл \"%1!s!\" ревизии %2!s! в \"%3!s!\"."
 
 #. Resource IDs: (IDS_CHECKOUTFAILED)
 #, c-format
@@ -5947,7 +5957,7 @@ msgstr "Импорт"
 #. Resource IDs: (IDS_PROGRS_CMD_IMPORT)
 #, c-format
 msgid "Import %1!s! to %2!s!%3!s!"
-msgstr ""
+msgstr "Импортировать %1!s! в %2!s!%3!s!"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 329,
 #. IDS_MENUSVNIGNORE_DESC)
@@ -6862,7 +6872,7 @@ msgstr "Фиксаций более не найдено."
 msgid ""
 "No need to rebase\n"
 "\"%1!s!\" equals \"%2!s!\""
-msgstr ""
+msgstr "Не нужно перебазировать\n\"%1!s!\" равно \"%2!s!\""
 
 #. Resource IDs: (IDS_PROC_NOPREVIOUSVERSION)
 msgid "No previous version."
@@ -7872,7 +7882,7 @@ msgstr "Перебазировать..."
 #. Resource IDs: (IDS_PROC_REBASING_PROGRESS)
 #, c-format
 msgid "Rebasing... (%1!d!/%2!d!)"
-msgstr ""
+msgstr "Перебазирование... (%1!d!/%2!d!)"
 
 #. Resource IDs: (ID_FILE_MRU_FILE1 - Menu)
 msgid "Recent File"
@@ -8732,7 +8742,7 @@ msgstr "Сохранённые данные"
 #. Resource IDs: (IDS_PROC_SAVECONFIGFAILED)
 #, c-format
 msgid "Saving config failed (key: \"%1!s!\", value: \"%2!s!\")."
-msgstr ""
+msgstr "Не удалось сохранить настройки (ключ: \"%1!s!\", значение: \"%2!s!\")."
 
 #. Resource IDs: (IDS_PROC_FAILEDSAVINGNOTES)
 msgid "Saving notes failed."
@@ -10016,7 +10026,7 @@ msgstr ""
 #. Resource IDs: (IDS_GOTO_OUTOFRANGE)
 #, c-format
 msgid "The line number must be in between %1!d! and %2!d!"
-msgstr ""
+msgstr "Номер строки должен быть между %1!d! и %2!d!"
 
 #. Resource IDs: (IDS_PROC_SYNC_NOFASTFORWARD)
 #, c-format
@@ -10068,7 +10078,7 @@ msgid ""
 "and the patchline\n"
 "%2!s!\n"
 "do not match!"
-msgstr ""
+msgstr "Заплатка кажется устарела! Строка файла\n%1!s!\nи строка заплатки\n%2!s!\nне совпадают!"
 
 #. Resource IDs: (IDS_WARN_NOVALIDPATH)
 msgid ""
@@ -10090,7 +10100,7 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%2!s!\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr ""
+msgstr "Путь\n%1!s!\nкажется не совпадает с путём в файле-заплатке.\nНо TortoiseGitMerge обнаружил, что путь\n%2!s!\nсовпадает лучше. Вы хотите использовать предложенный путь вместо исходного?"
 
 #. Resource IDs: (IDS_PROC_CONFIRMKILLPROCESS)
 msgid ""

@@ -5,6 +5,8 @@
 # 
 # Translators:
 # Jiří Engelthaler <engycz@gmail.com>, 2015-2016
+# Jiri Sedlak <jiri_sedlak@users.sourceforge.net>, 2017
+# Lübbe  <luebbe.tortoisesvn@gmail.com>, 2011
 # luebbe <luebbe.opensource@gmail.com>, 2011
 # luebbe <luebbe.opensource@gmail.com>, 2011
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013
@@ -16,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:55+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/lznuaa/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -155,7 +157,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "Souborů vybraných: %1!d!, souborů celkem: %2!d!"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -171,12 +173,12 @@ msgstr "Před %1!d! minutami"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! nejaktivnějších autorů každý s nejméně %2!d! odevzdáními (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! minut(a/y) a %2!ld! vteřin(a/y)"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -648,7 +650,7 @@ msgstr "&Soubor"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Filtr"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -745,7 +747,7 @@ msgstr "&Skrýt"
 
 #. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
 msgid "&Hide/Show the patch file list"
-msgstr ""
+msgstr "&Skrýt/Zobrazit seznam záplatových souborů"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -2702,7 +2704,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Smazat %1!ld! uživatelská jména/hesla, %2!ld! ssl certifikáty a %3!ld! uživatelů"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -4898,11 +4900,11 @@ msgstr "&První známá špatná:"
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Přizpůsobit graf"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Zvětšit na výšku"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4914,7 +4916,7 @@ msgstr "Př&izpůsobit šířky obrázku\tW"
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Zvětšit na šířku"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -6332,7 +6334,7 @@ msgstr "Lišta umístění"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Lišta umístění"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -9032,7 +9034,7 @@ msgstr "Zobrazit Rozdíl v řádku\nRozdíl v řádku"
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "Zobrazit &Přehled"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -11490,11 +11492,11 @@ msgstr "&Oddálit"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "Přiblíž&it\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "&Oddálit\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11515,7 +11517,7 @@ msgstr "Oddálení"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Přiblížit na &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

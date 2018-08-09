@@ -7,6 +7,7 @@
 # ‌‌‌ ‌‌‌‌, 2012
 # ehsan alimohammadi <alimohamadi.eh@gmail.com>, 2016
 # Emad Farrokhi <emadfh@gmail.com>, 2015
+# Emad Farrokhi <emadfh@gmail.com>, 2015
 # Hossein Montazeri <hm.webmaster@gmail.com>, 2012
 # Milad Amirzadeh <miladamirzadeh@live.com>, 2017
 # Mohammad Zare <mohammad.zr90@gmail.com>, 2013
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:57+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/lznuaa/tortoisegit/language/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -155,7 +156,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "تعداد %1!d! فایل از مجموع %2!d! انتخاب شده‌اند"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -171,12 +172,12 @@ msgstr "%1! d! دقیقه قبل"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! فعال‌ترین نویسندگان باحداقل %2!d! اعمال برای هر نفر (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! دقیقه و %2!ld! ثانیه"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -622,7 +623,7 @@ msgstr "فعال سازی ویرایش"
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "&خروج"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -648,7 +649,7 @@ msgstr "&پرونده"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&پالایه"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -2702,7 +2703,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "پاکسازی %1!ld! نام کاربری/رمز ورود, %2!ld! مجوزهای ssl و %3!ld! نامهای کاربری"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -4898,11 +4899,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "جایگیری در نمودار"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "جایگیری در ارتفاع"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4914,7 +4915,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "جایگیری در عرض"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -6332,7 +6333,7 @@ msgstr "میله جایگزین"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "نوار Locator"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -9032,7 +9033,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "نمایش &بررسی عمومی"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -11490,11 +11491,11 @@ msgstr "&کوچکنمائی"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "&بزرگنمائی\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "&کوچکنمائی\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11515,7 +11516,7 @@ msgstr "کوچکنمائی"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "بزرگنمایی به &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

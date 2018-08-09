@@ -11,7 +11,9 @@
 # Endra Granasamsa <endra.granasamsa@gmail.com>, 2011,2013
 # Heri Zhang <zhang.heri@gmail.com>, 2011
 # luebbe <luebbe.opensource@gmail.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
 # omixen <omixen@gmail.com>, 2011
+# Radhitya Wawan Yunarko <radhitwaw@gmail.com>, 2017
 # Sven Strickroth <sstrickroth@googlemail.com>, 2015
 # uring <uringinteristi@gmail.com>, 2011
 # Yauri, 2013
@@ -21,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:55+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/lznuaa/tortoisegit/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -160,7 +162,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "%1!d! berkas dipilih, total %2!d! berkas"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -176,12 +178,12 @@ msgstr "%1!d! menit yang lalu"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! pengarang teraktif dengan paling sedikit %2!d! komit (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! menit dan %2!ld! detik"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -627,7 +629,7 @@ msgstr ""
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "&Keluar"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -653,7 +655,7 @@ msgstr "&File"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Saring"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -2707,7 +2709,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Membersihkan %1!ld! pasangan nama pengguna/kata sandi, %2!ld! sertifikat ssl dan %3!ld! nama pengguna"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -4903,11 +4905,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Pas gambar"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Pas tinggi"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4919,7 +4921,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Pas lebar"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -6337,7 +6339,7 @@ msgstr "Bilah Lokator"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Bilah penunjuk"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -9037,7 +9039,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "Tunjukkan &Kilasan"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -11495,11 +11497,11 @@ msgstr "&Kecilkan"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "&Besarkan\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "&Kecilkan\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11520,7 +11522,7 @@ msgstr "Kecilkan"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Besarkan ke &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

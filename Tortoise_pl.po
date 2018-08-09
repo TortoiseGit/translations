@@ -11,6 +11,7 @@
 # kkotowicz <kkotowicz@gmail.com>, 2011
 # lukaszkoziara <koziara.lukasz@gmail.com>, 2017
 # luebbe <luebbe.opensource@gmail.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
 # lukaszkoziara <koziara.lukasz@gmail.com>, 2017
 # Michał Lipok <michal@lipok.pl>, 2015
 # mkrawiecki <michal.krawiecki@erlkoenig.pl>, 2011
@@ -25,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:56+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/lznuaa/tortoisegit/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -164,7 +165,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "%1!d! plików zaznaczonych, %2!d! plików ogółem"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -180,12 +181,12 @@ msgstr "%1!d! minut temu"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! najbardziej aktywnych autorów z przynajmniej %2!d! zapisami zmian (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! minut(y) i %2!ld! sekund(y)"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -631,7 +632,7 @@ msgstr "&Włącz edytowanie"
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "Za&kończ"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -657,7 +658,7 @@ msgstr "&Plik"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Filtr"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -754,7 +755,7 @@ msgstr "&Ukryj"
 
 #. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
 msgid "&Hide/Show the patch file list"
-msgstr ""
+msgstr "&Ukryj/Pokaż listę plików poprawki"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -2711,7 +2712,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Czyści %1!ld! par nazwa użytkownika/hasło, %2!ld! certyfikatów ssl i %3!ld! nazw użytkownika"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -3016,7 +3017,7 @@ msgstr "Typ konfiguracji:"
 
 #. Resource IDs: (cmdRegexFilterConfig2_LabelTitle_RESID)
 msgid "Configure Filter Regex"
-msgstr ""
+msgstr "Konfiguruj Wyrażenie Regularne Filtru"
 
 #. Resource IDs: (IDS_CONFIGUREREGEXES, ID_REGEXFILTER - Menu)
 msgid "Configure Filter Regexes"
@@ -3355,7 +3356,7 @@ msgstr ""
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
-msgstr ""
+msgstr "Utwórz plik &poprawki"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -4838,7 +4839,7 @@ msgstr "Filtr:"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Filtered"
-msgstr ""
+msgstr "Filtrowane"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 139, Dialog IDD_FIND: Control id
 #. 20100, ID_EDIT_FIND - Menu, cmdFind_LabelTitle_RESID)
@@ -4907,11 +4908,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Zmieść wykres"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Dopasuj wysokość"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4923,7 +4924,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Dopasuj szerokość"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -6341,7 +6342,7 @@ msgstr "Pasek lolalizacji"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Pasek lokalizacji"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6819,7 +6820,7 @@ msgstr ""
 
 #. Resource IDs: (33002)
 msgid "No filter"
-msgstr ""
+msgstr "Bez filtrowania"
 
 #. Resource IDs: (IDS_PROC_NOMSYSGIT)
 msgid ""
@@ -8560,7 +8561,7 @@ msgstr "Zapisz"
 
 #. Resource IDs: (cmdSaveAs_LabelTitle_RESID)
 msgid "Save &as"
-msgstr ""
+msgstr "Zapisz j&ako"
 
 #. Resource IDs: (IDS_REPOBROWSE_SAVEAS, ID_FILE_SAVE_AS - Menu)
 msgid "Save &as..."
@@ -9041,7 +9042,7 @@ msgstr "Pokaż różnice w linii\nRóżnice w linii"
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "Pokaż p&rzegląd"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -9110,7 +9111,7 @@ msgstr "Pokaż różnice"
 
 #. Resource IDs: (IDS_HEADER_DIFFLEFTTOBASE, IDS_HEADER_DIFFRIGHTTOBASE)
 msgid "Show diff separately"
-msgstr ""
+msgstr "Pokaż porównanie oddzielnie"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1556)
 msgid "Show diff to last commit"
@@ -11341,7 +11342,7 @@ msgstr ""
 
 #. Resource IDs: (cmdViewWrapLines_LabelTitle_RESID)
 msgid "Wrap Lines"
-msgstr ""
+msgstr "Zawijaj Linie"
 
 #. Resource IDs: (ID_VIEW_WRAPLONGLINES - Menu)
 msgid "Wrap long lines"
@@ -11499,11 +11500,11 @@ msgstr "P&omniejsz"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "Po&większ\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "Po&mniejsz\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11524,7 +11525,7 @@ msgstr "Pomniejsz"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Powiększ do &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

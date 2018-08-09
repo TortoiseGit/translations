@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:57+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Occitan (post 1500) (http://www.transifex.com/lznuaa/tortoisegit/language/oc/)\n"
 "MIME-Version: 1.0\n"
@@ -150,7 +150,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "%1!d! fichièrs seleccionats, %2!d! fichièrs al total"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -166,12 +166,12 @@ msgstr "%1!d! minutas"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "Los %1!d! autors los mai actius amb al mens %2!d! liurasons cadun (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! minuta(s) e %2!ld! segonda(s)"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -617,7 +617,7 @@ msgstr "&Activar l'edicion"
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "&Quitar"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -643,7 +643,7 @@ msgstr "&Fichièr"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Filtrar"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -2697,7 +2697,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Escafa %1!ld! paras nom d'utilizaire/senhal, %2!ld! certificats SSL e %3!ld! noms d'utilizaire"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -4893,11 +4893,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Adaptar lo grafic"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Meteissa nautor"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4909,7 +4909,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Meteissa largor"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -6327,7 +6327,7 @@ msgstr "Barra de localizacion"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Barra de localizacion"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -9027,7 +9027,7 @@ msgstr "Veire las diferéncias en linha\nDiferéncias en linha"
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "Afichar la &vue generala"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -10763,19 +10763,19 @@ msgstr "Utilizar l'autre bl&òt de tèxte"
 
 #. Resource IDs: (cmdUseMineBlock_LabelTitle_RESID)
 msgid "Use 'mine' text block"
-msgstr ""
+msgstr "Utilizatz 'mon' blòt de tèxte"
 
 #. Resource IDs: (cmdUseMineThenTheirsBlock_LabelTitle_RESID)
 msgid "Use 'mine' text block then 'theirs'"
-msgstr ""
+msgstr "Utilizatz 'mon' blòt de tèxte puèi lo 'lor'"
 
 #. Resource IDs: (cmdUseTheirsBlock_LabelTitle_RESID)
 msgid "Use 'theirs' text block"
-msgstr ""
+msgstr "Utilizatz 'lor' blòt de tèxte"
 
 #. Resource IDs: (cmdUseTheirsThenMineBlock_LabelTitle_RESID)
 msgid "Use 'theirs' text block then 'mine'"
-msgstr ""
+msgstr "Utilizatz 'lor' blòt de tèxte puèi lo 'mien'"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
@@ -11485,11 +11485,11 @@ msgstr "Reduire lo Gr&ossissement"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "Agrand&ir\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "&Reduire\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11510,7 +11510,7 @@ msgstr "Reduire"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Grossir a &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

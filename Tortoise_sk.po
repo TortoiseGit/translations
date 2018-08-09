@@ -5,6 +5,7 @@
 # 
 # Translators:
 # luebbe <luebbe.opensource@gmail.com>, 2011,2013
+# luebbe <luebbe.opensource@gmail.com>, 2011,2013
 # Martin Šuráb <e.martyn@gmail.com>, 2016
 # pavolmnich, 2014-2015
 # Sven Strickroth <sstrickroth@googlemail.com>, 2014-2015
@@ -13,7 +14,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:58+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/lznuaa/tortoisegit/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -152,7 +153,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "Vybraných %1!d! súborov, celkom %2!d! súborov"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -168,12 +169,12 @@ msgstr "Pred %1!d! minútami"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! najaktívnejších autorov s aspoň %2!d! odovzdaní každý (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! min %2!ld! s"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -619,7 +620,7 @@ msgstr "&Povoliť úpravy"
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "U&končiť"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -645,7 +646,7 @@ msgstr "&Súbor"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Filter"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -2699,7 +2700,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Vymaže užívateľské mená a heslá(%1!ld!), SSL certifikáty (%2!ld!) a užívateľské mená (%3!ld!)"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -4895,11 +4896,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Zväčšiť na graf"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Zväčšiť na výšku"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4911,7 +4912,7 @@ msgstr "Zväčšiť obrázok na šírku okna\tW"
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Zväčšiť na šírku"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -6329,7 +6330,7 @@ msgstr "Navigačná lišta"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Rámček polohy"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -9029,7 +9030,7 @@ msgstr "Zobraziť riadkové rozdiely\nRiadkové rozdiely"
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "Zobraziť &prehľad"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -11487,11 +11488,11 @@ msgstr "&Vzdialiť"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "Pri&blížiť\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "Vz&dialiť\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11512,7 +11513,7 @@ msgstr "Vzdialiť"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Zväčšiť na &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

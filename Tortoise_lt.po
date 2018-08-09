@@ -5,8 +5,10 @@
 # 
 # Translators:
 # Andrius Burokas, 2018
+# Andrius Burokas, 2018
 # Eugenijus Januškevičius <eugenijus.januskevicius@vgtu.lt>, 2017
 # Evaldas Granickas <inactive+JVL60@transifex.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2013
 # luebbe <luebbe.opensource@gmail.com>, 2013
 # Paulius <pauliusdavyd@yahoo.com>, 2013
 # Rytis Slatkevičius <rytis.s@gmail.com>, 2012,2015
@@ -16,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:56+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/lznuaa/tortoisegit/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -155,7 +157,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "%1!d! failų parinkta, %2!d! failų iš viso"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -171,12 +173,12 @@ msgstr "prieš %1!d! minutes"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! aktyviausi autoriai su ne mažiau kaip %2!d! prisidėjimų po (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! minutės(-ių) and %2!ld! sekundės(-ių)"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -622,7 +624,7 @@ msgstr ""
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "&Išeiti"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -648,7 +650,7 @@ msgstr "&Failas"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Filtras"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -1639,11 +1641,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
-msgstr ""
+msgstr "Pridėti šio išplėtimo palyginimo programą"
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_MERGE_TOOL)
 msgid "Add extension specific merge program"
-msgstr ""
+msgstr "Pridėti šio išplėtimo sujungimo programą"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1065)
 msgid "Add new files automatically to Git"
@@ -1660,7 +1662,7 @@ msgstr "Pridėti..."
 
 #. Resource IDs: (Dialog IDD_TOOLASSOC: Control id 171)
 msgid "Add/Edit Extension Specific Diff/Merge Program"
-msgstr ""
+msgstr "Pridėti/Keisti šio išplėtimo palyginimo/sujungimo programą"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1705, Dialog
 #. IDD_SETCOLORPAGE: Control id 65535, Dialog IDD_SETTINGSOVERLAYHANDLERS:
@@ -1709,7 +1711,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DLGTITLE_ADV_MERGE)
 msgid "Advanced merge settings"
-msgstr ""
+msgstr "Išsamūs sujungimo nustatymai"
 
 #. Resource IDs: (IDS_ALL)
 msgid "All"
@@ -2403,7 +2405,7 @@ msgstr ""
 msgid ""
 "Cancel\n"
 "Don't switch the views"
-msgstr ""
+msgstr "Atšaukti\nNekeisti rodinių"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK4)
 msgid ""
@@ -2584,7 +2586,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_SHORTDATEFORMAT_TT)
 msgid "Check to use a less verbose date and time format in log messages"
-msgstr ""
+msgstr "Naudoti sutrumpintą datos ir laiko formatą žurnalo pranešimuose"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1700)
 msgid "Check:"
@@ -2707,7 +2709,7 @@ msgstr ""
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
 msgid "Clears cached logs from %ld repositories"
-msgstr ""
+msgstr "Pašalina žurnalus podėlyje iš %ld talpyklų(-os)"
 
 #. Resource IDs: (IDS_SETTINGS_CLEARAUTH_TT)
 msgid ""
@@ -3667,7 +3669,7 @@ msgstr "Panaikinta"
 
 #. Resource IDs: (IDS_SETTINGS_DELCACHE)
 msgid "Deleting cached data"
-msgstr ""
+msgstr "Šalinami duomenys podėlyje"
 
 #. Resource IDs: (IDS_SETTINGS_DELFILE)
 msgid "Deleting file"
@@ -3843,7 +3845,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1536)
 msgid "Disable status cache for elevated processes"
-msgstr ""
+msgstr "Aukštesniems procesams nenaudoti būsenos podėlio"
 
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
@@ -4202,11 +4204,11 @@ msgstr "Redaguoti aprašymą"
 
 #. Resource IDs: (IDS_DLGTITLE_EDIT_DIFF_TOOL)
 msgid "Edit extension specific diff program"
-msgstr ""
+msgstr "Keisti šio išplėtimo palyginimo programą"
 
 #. Resource IDs: (IDS_DLGTITLE_EDIT_MERGE_TOOL)
 msgid "Edit extension specific merge program"
-msgstr ""
+msgstr "Keisti šio išplėtimo sujungimo programą"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1382)
 msgid "Edit gl&obal .gitconfig"
@@ -4454,7 +4456,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_ICONCACHENOTREBUILT)
 msgid "Error rebuilding Shell Icon Cache!"
-msgstr ""
+msgstr "Klaida perkuriant piktogramų podėlį"
 
 #. Resource IDs: (IDS_ERR_SSL_VALIDATE)
 #, c-format
@@ -4524,7 +4526,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FILEDIFF_EXT, IDS_PROGS_EXTCOL, IDS_STATUSLIST_COLEXT)
 msgid "Extension"
-msgstr ""
+msgstr "Plėtinys"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1722)
 msgid "Extension specific programs"
@@ -6348,11 +6350,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_HISTORYDLG: Control id 211)
 msgid "Log History"
-msgstr ""
+msgstr "Žurnalo istorija"
 
 #. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 130)
 msgid "Log Messages"
-msgstr ""
+msgstr "Žurnalo pranešimai"
 
 #. Resource IDs: (Dialog IDD_LOGORDERING: Control id 345)
 msgid "Log commit ordering"
@@ -6360,7 +6362,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Log messages"
-msgstr ""
+msgstr "Žurnalo pranešimai"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1274)
 msgid "Log messages (Input dialog)"
@@ -6859,7 +6861,7 @@ msgstr ""
 msgid ""
 "No status cache. Only versioned folders get an overlay, files don't get an "
 "overlay"
-msgstr ""
+msgstr "Nėra būsenos podėlio. Tik versijuojami aplankai gauna žymes, failai nežymimi."
 
 #. Resource IDs: (IDS_SPELLEDIT_NOTHESAURUS)
 msgid "No thesaurus suggestions"
@@ -8956,7 +8958,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_ICONCACHEREBUILT)
 msgid "Shell Icon Cache was rebuilt!"
-msgstr ""
+msgstr "Aplinkos piktogramų podėlis sėkmingai perkurtas!"
 
 #. Resource IDs: (5062 - Menu)
 msgid "Shift-JIS"
@@ -9524,7 +9526,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "Status cache"
-msgstr ""
+msgstr "Būsenos podėlis"
 
 #. Resource IDs: (IDS_SETTINGS_CACHESHELLEXT_TT)
 msgid ""
@@ -9539,7 +9541,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_CACHESHELL_TT)
 msgid "Status cache only for one folder, no recursive overlays"
-msgstr ""
+msgstr "Busenos podėlis tik vienam aplankui, nepalaikomos rekursyvios žymės"
 
 #. Resource IDs: (IDS_MENUDESCBISECTRESET)
 msgid "Stops bisect mode"
@@ -9648,43 +9650,43 @@ msgstr ""
 msgid ""
 "Switch back to the previous window pane\n"
 "Previous Pane"
-msgstr ""
+msgstr "Grįžti į ankstesnį lango polangį\nAnkstesnis polangis"
 
 #. Resource IDs: (ID_VIEW_ONEWAYDIFF - Menu,
 #. cmdViewOneWayDiff_LabelTitle_RESID)
 msgid "Switch between single and double pane view"
-msgstr ""
+msgstr "Keisti tarp vieno ir dviejų polangių rodinio"
 
 #. Resource IDs: (cmdViewOneWayDiff)
 msgid ""
 "Switch between single and double pane view\n"
 "Switch between single and double pane view"
-msgstr ""
+msgstr "Keisti tarp vieno ir dviejų polangių rodinio\nKeisti tarp vieno ir dviejų polangių rodinio"
 
 #. Resource IDs: (ID_VIEW_SWITCHLEFT - Menu,
 #. cmdViewSwitchLeft_LabelTitle_RESID)
 msgid "Switch left and right view"
-msgstr ""
+msgstr "Sukeisti rodinius kairėje ir dešinėje"
 
 #. Resource IDs: (cmdViewSwitchLeft)
 msgid ""
 "Switch the contents of the left and right view\n"
 "Switch left and right view"
-msgstr ""
+msgstr "Sukeisti turinį kairiajame ir dešiniajame rodiniuose\nSukeisti rodinius kairėje ir dešinėje"
 
 #. Resource IDs: (AFX_IDS_SCNEXTWINDOW)
 msgid "Switch to the next document window"
-msgstr ""
+msgstr "Pakeisti į kitą dokumento langą"
 
 #. Resource IDs: (57680)
 msgid ""
 "Switch to the next window pane\n"
 "Next Pane"
-msgstr ""
+msgstr "Keisti į kitą lango polangį\nKitas polangis"
 
 #. Resource IDs: (AFX_IDS_SCPREVWINDOW)
 msgid "Switch to the previous document window"
-msgstr ""
+msgstr "Pakeisti į ankstesnį dokumento langą"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 304)
 msgid "Switch/Checkout"
@@ -9704,7 +9706,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FILEDIFF_SWITCHLEFTRIGHT_TT)
 msgid "Switches the comparison left<->right"
-msgstr ""
+msgstr "Sukeičia palyginimą kairė<->dešinė"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1733)
 msgid "Symbolize ref names"
@@ -11035,7 +11037,7 @@ msgstr "Vartotojo vardas:"
 
 #. Resource IDs: (IDS_SETTINGS_ONLYNONELEVATED_TT)
 msgid "Uses the status cache type 'none' for elevated processes"
-msgstr ""
+msgstr "Aukštesniems procesams naudoti būsenos podėlio tipą 'nieko'."
 
 #. Resource IDs: (cmdPaste_Keytip_RESID)
 msgid "V"

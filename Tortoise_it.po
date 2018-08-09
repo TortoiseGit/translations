@@ -11,10 +11,12 @@
 # Antonio <akirarulez@yahoo.it>, 2013
 # Cecilia Saltori <csaltori@gmail.com>, 2011
 # Emilio Bologna <>, 2012
+# Fabio Turrin, 2018
 # Giulio Franco <blunotte.gf@gmail.com>, 2018
 # Giuseppe Bogetti <orangesocks@bgsoft.it>, 2016
 # Lübbe  <luebbe.tortoisesvn@googlemail.com>, 2012
 # Lübbe Onken <l.onken@rac.de>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
 # luebbe <luebbe.opensource@gmail.com>, 2011
 # Michele Locati <mlocati@gmail.com>, 2012
 # Nathan McCoy, 2013
@@ -22,7 +24,9 @@
 # Paolo Crocetti <crocettipaolo@gmail.com>, 2017
 # Roberto Casazza <roberto.casazza@alice.it>, 2011
 # Rossano Praderi <rossano.praderi@yahoo.com>, 2015
+# Rossano Praderi <rossano.praderi@yahoo.com>, 2015
 # Silvia, 2013
+# Simone Mazzotti <simaz96@yandex.com>, 2016
 # Simone Mazzotti <simaz96@yandex.com>, 2016
 # Sven Strickroth <sstrickroth@googlemail.com>, 2016
 msgid ""
@@ -30,7 +34,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:55+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/lznuaa/tortoisegit/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -169,7 +173,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "%1!d! file selezionati, %2!d! file totali"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -185,12 +189,12 @@ msgstr "%1!d! minuti fa"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! autore(i) più attivo con almeno %2!d! invii ogni (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! minuti(o) and %2!ld! secondi(o)"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -662,7 +666,7 @@ msgstr "&File"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
-msgstr ""
+msgstr "&Filtra"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1)
 msgid "&Find"
@@ -2319,7 +2323,7 @@ msgstr ""
 
 #. Resource IDs: (cmdCopy_Keytip_RESID)
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -2716,7 +2720,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Elimina %1!ld! coppie di nomi utenti e password, %2!ld! certificati ssl e %3!ld! nomi utenti"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -3021,7 +3025,7 @@ msgstr ""
 
 #. Resource IDs: (cmdRegexFilterConfig2_LabelTitle_RESID)
 msgid "Configure Filter Regex"
-msgstr ""
+msgstr "Configura il filtro per Regex"
 
 #. Resource IDs: (IDS_CONFIGUREREGEXES, ID_REGEXFILTER - Menu)
 msgid "Configure Filter Regexes"
@@ -3360,7 +3364,7 @@ msgstr ""
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
-msgstr ""
+msgstr "Crea file &patch"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -3582,7 +3586,7 @@ msgstr "Elimina e &ignora %d elementi per nome"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE2)
 msgid "Delete and &ignore multiple items by name"
-msgstr ""
+msgstr "Elimina e &ignora elementi per nome"
 
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
@@ -3595,7 +3599,7 @@ msgstr "Elimina e ignora %d elementi per &estensione"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK2)
 msgid "Delete and ignore multiple items by &extension"
-msgstr ""
+msgstr "Elimina e ignora elementi per &estensione"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
@@ -3857,7 +3861,7 @@ msgstr "Disabilita suoni"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1536)
 msgid "Disable status cache for elevated processes"
-msgstr ""
+msgstr "Disabilita la cache di stato per processi elevati"
 
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
@@ -4151,7 +4155,7 @@ msgstr ""
 
 #. Resource IDs: (cmdEditEnabled_Keytip_RESID, cmdTabEdit_Keytip_RESID)
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #. Resource IDs: (IDS_PROC_REBASE_UNSELECTED_EDIT)
 msgid "E&dit unselected"
@@ -4279,7 +4283,7 @@ msgstr "Abilita modifica"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1510)
 msgid "Enable EditorConfig"
-msgstr ""
+msgstr "Abilita EditorConfig"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1766)
 msgid "Enable Gravatar"
@@ -4332,7 +4336,7 @@ msgid ""
 "Encoding\n"
 "Convert to the specified encoding\n"
 "Hold down the Ctrl key to reload the file with the specified encoding."
-msgstr ""
+msgstr "Codifica\nConverti alla codifica specificata\nTieni premuto il tasto Ctrl per ricaricare il file con la codifica specificata."
 
 #. Resource IDs: (AFX_IDP_FILE_HARD_IO)
 #, c-format
@@ -4558,7 +4562,7 @@ msgstr "Programma esterno:"
 
 #. Resource IDs: (cmdFind_Keytip_RESID)
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -4843,7 +4847,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Filtered"
-msgstr ""
+msgstr "Filtrato"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 139, Dialog IDD_FIND: Control id
 #. 20100, ID_EDIT_FIND - Menu, cmdFind_LabelTitle_RESID)
@@ -4912,11 +4916,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Adatta il grafico"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Adatta altezza"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4928,7 +4932,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Adatta larghezza"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -5080,7 +5084,7 @@ msgstr ""
 
 #. Resource IDs: (cmdGotoLine_Keytip_RESID)
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -5889,7 +5893,7 @@ msgstr "Ignora i caratt&eri di fine riga (raccomandato)"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLEMASK2)
 msgid "Ignore multiple items by &extension"
-msgstr ""
+msgstr "Ignora elementi per &estensione"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORESPACEATEOL)
 msgid "Ignore space at EOL"
@@ -6113,7 +6117,7 @@ msgstr "Coreano"
 
 #. Resource IDs: (cmdViewWrapLines_Keytip_RESID)
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
@@ -6346,7 +6350,7 @@ msgstr "Locator Bar"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Barra posizione"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6824,7 +6828,7 @@ msgstr ""
 
 #. Resource IDs: (33002)
 msgid "No filter"
-msgstr ""
+msgstr "Nessun filtro"
 
 #. Resource IDs: (IDS_PROC_NOMSYSGIT)
 msgid ""
@@ -7781,7 +7785,7 @@ msgstr ""
 
 #. Resource IDs: (cmdReload_Keytip_RESID)
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1073)
 msgid "R&AM drives"
@@ -7956,11 +7960,11 @@ msgstr ""
 #. Resource IDs: (65535 - PopupMenu, Dialog IDD_REGEXFILTER: Control id 165,
 #. cmdRegexFilterConfig1, cmdRegexFilterConfig1_LabelTitle_RESID)
 msgid "Regex Filter"
-msgstr ""
+msgstr "Filtro Regex"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 164)
 msgid "Regex Filters"
-msgstr ""
+msgstr "Filtri Regex"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTER: Control id 65535)
 msgid "Regex:"
@@ -8197,7 +8201,7 @@ msgstr "Sostituisci:"
 #. Resource IDs: (IDS_FIND_REPLACED)
 #, c-format
 msgid "Replaced %d matches"
-msgstr ""
+msgstr "Sostituite %d occorrenze"
 
 #. Resource IDs: (IDS_SVNACTION_REPLACED)
 msgid "Replacing"
@@ -8441,7 +8445,7 @@ msgstr ""
 
 #. Resource IDs: (cmdSave_Keytip_RESID)
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1383, Dialog IDD_RESET:
 #. Control id 1383)
@@ -8565,7 +8569,7 @@ msgstr "Salva"
 
 #. Resource IDs: (cmdSaveAs_LabelTitle_RESID)
 msgid "Save &as"
-msgstr ""
+msgstr "Salva &come"
 
 #. Resource IDs: (IDS_REPOBROWSE_SAVEAS, ID_FILE_SAVE_AS - Menu)
 msgid "Save &as..."
@@ -8583,7 +8587,7 @@ msgstr "Salva come"
 msgid ""
 "Save Bottom File as\n"
 "You're asked where to save the bottom file"
-msgstr ""
+msgstr "Salva file in basso come\nTi verrà chiesto dove salvare il file in basso"
 
 #. Resource IDs: (IDS_SAVE)
 msgid "Save File"
@@ -8627,19 +8631,19 @@ msgstr "Salva tutto\nEntrambi i fie verranno salvati"
 msgid ""
 "Save and exclude\n"
 "Your changes are saved and the original content is used"
-msgstr ""
+msgstr "Salva ed escludi\nLe modifiche vengono salvate e viene utilizzato il contenuto originale"
 
 #. Resource IDs: (IDS_MARKEDBLCOKSSAVEIGNORE)
 msgid ""
 "Save and ignore marked blocks\n"
 "Only your manual edits are saved, marked blocks are left as they are"
-msgstr ""
+msgstr "Salva e ignora i blocchi selezionati\nSolo le tue modifiche manuali vengono salvate, i blocchi contrassegnati sono lasciati come sono"
 
 #. Resource IDs: (IDS_MARKEDBLOCKSSAVEINCLUDE)
 msgid ""
 "Save and include\n"
 "Your changes are saved and the marked blocks are included"
-msgstr ""
+msgstr "Salva e includi\nLe modifiche vengono salvate e i blocchi selezionati sono inclusi"
 
 #. Resource IDs: (IDS_ASKFORSAVEAS)
 msgid "Save as"
@@ -8752,7 +8756,7 @@ msgstr "Cerca nei &commenti..."
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1074)
 msgid "Search &up"
-msgstr ""
+msgstr "Cerca s&u"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 65535)
 msgid "Search for:"
@@ -9046,7 +9050,7 @@ msgstr "Visualizza differenze in linea\nDifferenze in linea"
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "Most&ra vista d'insieme"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -9115,7 +9119,7 @@ msgstr "Mostra cambiamenti"
 
 #. Resource IDs: (IDS_HEADER_DIFFLEFTTOBASE, IDS_HEADER_DIFFRIGHTTOBASE)
 msgid "Show diff separately"
-msgstr ""
+msgstr "Mostra le differenze separatamente"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1556)
 msgid "Show diff to last commit"
@@ -9567,7 +9571,7 @@ msgstr ""
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
 "Hold down the Ctrl key to remove the last saved path."
-msgstr ""
+msgstr "Memorizza il percorso del file da utilizzare per un diff in un successivo clic destro. Tenere premuto il tasto Ctrl per rimuovere l'ultimo percorso salvato."
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 65535)
 msgid "Strategy"
@@ -10569,7 +10573,7 @@ msgstr "Colore &trasparente..."
 
 #. Resource IDs: (IDS_EDIT_TRIM)
 msgid "Trim right"
-msgstr ""
+msgstr "Ritaglia a destra"
 
 #. Resource IDs: (IDS_SVNERR_CLEANUPORFRESHCHECKOUT)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
@@ -11053,7 +11057,7 @@ msgstr ""
 
 #. Resource IDs: (cmdPaste_Keytip_RESID)
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -11072,7 +11076,7 @@ msgid ""
 "/saverequiredonconflicts\n"
 "/oneway <forces the one-way view>\n"
 "/line:<line number to jump to>"
-msgstr ""
+msgstr "Le opzioni valide della linea di comando sono:\n/base: <path to base file>\n/basename: <name to show on the view title>\n/theirs: <path to their file>\n/theirsname: <name to show on the view title>\n/mine: <path to your file>\n/minename: <name to show on the view title>\n/merged: <path to resulting merged file>\n/mergedname: <name to show on the view title>\n/diff: <path to unified diff file>\n/patchpath: <path to folder>\n/saverequired\n/saverequiredonconflicts\n/oneway <forces the one-way view>\n/line: <line number to jump to>"
 
 #. Resource IDs: (IDS_PROPVALUE, IDS_SETTINGS_CONF_VALUECOL)
 msgid "Value"
@@ -11161,7 +11165,7 @@ msgstr "Visita il nostro sito"
 
 #. Resource IDs: (cmdShowWhitespaces_Keytip_RESID)
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
@@ -11346,7 +11350,7 @@ msgstr ""
 
 #. Resource IDs: (cmdViewWrapLines_LabelTitle_RESID)
 msgid "Wrap Lines"
-msgstr ""
+msgstr "A capo automatico"
 
 #. Resource IDs: (ID_VIEW_WRAPLONGLINES - Menu)
 msgid "Wrap long lines"
@@ -11360,7 +11364,7 @@ msgstr "A capo bordo destr della vista per linee linghe\nA capo automatico"
 
 #. Resource IDs: (cmdRedo_Keytip_RESID)
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #. Resource IDs: (IDS_PROC_YESTOALL)
 msgid "Yes to all"
@@ -11480,7 +11484,7 @@ msgstr "Versione installata: %d.%d.%d.%d"
 
 #. Resource IDs: (cmdUndo_Keytip_RESID)
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
 msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
@@ -11504,11 +11508,11 @@ msgstr "Zoom &indietro"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "Zoom &avanti\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "Zoom &indietro\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11529,7 +11533,7 @@ msgstr "Zoom indietro"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Zoom al &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

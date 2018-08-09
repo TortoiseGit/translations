@@ -12,9 +12,11 @@
 # Jelle Raaijmakers <jelle@gmta.nl>, 2013
 # Lübbe  <luebbe.tortoisesvn@googlemail.com>, 2012
 # luebbe <luebbe.opensource@gmail.com>, 2011-2012
+# luebbe <luebbe.opensource@gmail.com>, 2011-2012
 # Maarten Hilferink <mhilferink@objectvision.nl>, 2011
 # Paul <paul@piak.nl>, 2011
 # Richard van Laak <rvanlaak@gmail.com>, 2012
+# Sander Boele <sander@addtest.nl>, 2018
 # Sander Boele <sboele@hotmail.com>, 2014
 # Sven Strickroth <sstrickroth@googlemail.com>, 2013
 # wieki <a.wiekens@gmail.com>, 2014
@@ -24,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:55+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -163,7 +165,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "%1!d! bestanden geselecteerd, %2!d! bestanden totaal"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -179,12 +181,12 @@ msgstr "%1!d! minuten geleden"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! meest actieve auteur(s) met elk minstens %2!d! vastleggingen (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! minuten en %2!ld! seconden"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -753,7 +755,7 @@ msgstr "&Verbergen"
 
 #. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
 msgid "&Hide/Show the patch file list"
-msgstr ""
+msgstr "&Verberg/Toon de patch bestanden"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -2313,7 +2315,7 @@ msgstr ""
 
 #. Resource IDs: (cmdCopy_Keytip_RESID)
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -2710,7 +2712,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "Wist %1!ld! gebruikersnaam/wachtwoord-paren, %2!ld! SSL certificaten en %3!ld! gebruikersnamen"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -3015,7 +3017,7 @@ msgstr "Configuratietype:"
 
 #. Resource IDs: (cmdRegexFilterConfig2_LabelTitle_RESID)
 msgid "Configure Filter Regex"
-msgstr ""
+msgstr "Filter Regexes Instellen"
 
 #. Resource IDs: (IDS_CONFIGUREREGEXES, ID_REGEXFILTER - Menu)
 msgid "Configure Filter Regexes"
@@ -3354,7 +3356,7 @@ msgstr "Creëer &Tag..."
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
-msgstr ""
+msgstr "Maak &patch-bestand"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
@@ -4145,7 +4147,7 @@ msgstr "Dumy Group For locat TabCtr"
 
 #. Resource IDs: (cmdEditEnabled_Keytip_RESID, cmdTabEdit_Keytip_RESID)
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #. Resource IDs: (IDS_PROC_REBASE_UNSELECTED_EDIT)
 msgid "E&dit unselected"
@@ -4552,7 +4554,7 @@ msgstr "Extern programma:"
 
 #. Resource IDs: (cmdFind_Keytip_RESID)
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -4837,7 +4839,7 @@ msgstr "Filteren:"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Filtered"
-msgstr ""
+msgstr "Gefilterd"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 139, Dialog IDD_FIND: Control id
 #. 20100, ID_EDIT_FIND - Menu, cmdFind_LabelTitle_RESID)
@@ -4906,11 +4908,11 @@ msgstr "Eerste &bekende foutief:"
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Schema passend"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Hoogte passend"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4922,7 +4924,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Breedte passend"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -5074,7 +5076,7 @@ msgstr ""
 
 #. Resource IDs: (cmdGotoLine_Keytip_RESID)
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -6107,7 +6109,7 @@ msgstr "Koreaans"
 
 #. Resource IDs: (cmdViewWrapLines_Keytip_RESID)
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
@@ -6340,7 +6342,7 @@ msgstr "Zoekbalk"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Zoekbalk"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6818,7 +6820,7 @@ msgstr "Geen bestanden zijn gewijzigd of toegevoegd sinds\nde laatste commit\nWi
 
 #. Resource IDs: (33002)
 msgid "No filter"
-msgstr ""
+msgstr "Geen filter"
 
 #. Resource IDs: (IDS_PROC_NOMSYSGIT)
 msgid ""
@@ -8559,7 +8561,7 @@ msgstr "Opslaan"
 
 #. Resource IDs: (cmdSaveAs_LabelTitle_RESID)
 msgid "Save &as"
-msgstr ""
+msgstr "Opslaan &als..."
 
 #. Resource IDs: (IDS_REPOBROWSE_SAVEAS, ID_FILE_SAVE_AS - Menu)
 msgid "Save &as..."
@@ -11498,11 +11500,11 @@ msgstr "&Uitzoomen"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "&Inzoomen\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "&Uitzoomen\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11523,7 +11525,7 @@ msgstr "Uitzoomen"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "Zoom &100%"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"

@@ -20,13 +20,16 @@
 # Huseyin <hyagli@hotmail.com>, 2013
 # ibrahim YENER <jdavide222@hotmail.com>, 2014
 # Ivan BARAYEV <ivanbarayev@hotmail.com>, 2016
+# Kaya Kucuk <kaya.kucuk@gmail.com>, 2018
 # ks780 <ks780@mynet.com>, 2016
 # ks780 <ks780@mynet.com>, 2016
 # luebbe <luebbe.opensource@gmail.com>, 2011
 # Lübbe TortoiseSVN <luebbe.tortoisesvn@gmail.com>, 2011
+# luebbe <luebbe.opensource@gmail.com>, 2011
 # Mehmet Keçeci <mk@mehmetkececi.com>, 2016
 # Muhammed Yasin Erdoğan <obsessio@gmail.com>, 2015
 # Muhammet Kara <muhammetk@gmail.com>, 2014
+# Murat DEMİRTAŞ <muratdemirtastr@gmail.com>, 2017
 # Ozancan Karataş <ozancankaratas96@outlook.com>, 2015-2016
 # Ozan Tunca <ozantunca90@gmail.com>, 2013
 # Ozan Tunca <ozantunca90@gmail.com>, 2013
@@ -42,7 +45,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-08 20:32+0000\n"
+"PO-Revision-Date: 2018-08-09 21:56+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/lznuaa/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -181,7 +184,7 @@ msgstr ""
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "Toplam %2!d! dosyadan, %1!d! dosya seçili"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -197,12 +200,12 @@ msgstr "%1!d! dakika önce"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr ""
+msgstr "%1!d! en aktif yazar, en az %2!d!  gönderim yapan, her (%3!d! %%) için "
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!ld! dakika ve %2!ld! saniye"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -2331,7 +2334,7 @@ msgstr ""
 
 #. Resource IDs: (cmdCopy_Keytip_RESID)
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -2728,7 +2731,7 @@ msgstr ""
 msgid ""
 "Clears %1!ld! username/password pairs, %2!ld! ssl certificates and %3!ld! "
 "usernames"
-msgstr ""
+msgstr "%1!ld! kullanıcı adı/şifresi çiftini, %2!ld! ssl sertifikasını ve %3!ld! kullanıcı adını siler"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
@@ -3033,7 +3036,7 @@ msgstr ""
 
 #. Resource IDs: (cmdRegexFilterConfig2_LabelTitle_RESID)
 msgid "Configure Filter Regex"
-msgstr ""
+msgstr "Regex Filtresini Ayarla"
 
 #. Resource IDs: (IDS_CONFIGUREREGEXES, ID_REGEXFILTER - Menu)
 msgid "Configure Filter Regexes"
@@ -4163,7 +4166,7 @@ msgstr ""
 
 #. Resource IDs: (cmdEditEnabled_Keytip_RESID, cmdTabEdit_Keytip_RESID)
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #. Resource IDs: (IDS_PROC_REBASE_UNSELECTED_EDIT)
 msgid "E&dit unselected"
@@ -4570,7 +4573,7 @@ msgstr "Harici Uygulama:"
 
 #. Resource IDs: (cmdFind_Keytip_RESID)
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -4855,7 +4858,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Filtered"
-msgstr ""
+msgstr "Filtrelenmiş"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 139, Dialog IDD_FIND: Control id
 #. 20100, ID_EDIT_FIND - Menu, cmdFind_LabelTitle_RESID)
@@ -4924,11 +4927,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMALL - Menu)
 msgid "Fit graph"
-msgstr ""
+msgstr "Diyagramı sığdır"
 
 #. Resource IDs: (ID_VIEW_ZOOMHEIGHT - Menu)
 msgid "Fit height"
-msgstr ""
+msgstr "Boyu sığdır"
 
 #. Resource IDs: (ID_VIEW_FITIMAGEHEIGHTS - Menu)
 msgid "Fit image &heights\tH"
@@ -4940,7 +4943,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_ZOOMWIDTH - Menu)
 msgid "Fit width"
-msgstr ""
+msgstr "Eni sığdır"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1675)
 msgid "Follow renames"
@@ -5092,7 +5095,7 @@ msgstr ""
 
 #. Resource IDs: (cmdGotoLine_Keytip_RESID)
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -6125,7 +6128,7 @@ msgstr ""
 
 #. Resource IDs: (cmdViewWrapLines_Keytip_RESID)
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
@@ -6258,7 +6261,7 @@ msgstr "Satır %ld satırından taşındı"
 #. Resource IDs: (IDS_MOVED_TO_TT)
 #, c-format
 msgid "Line moved to line %ld"
-msgstr ""
+msgstr "Satır %ld. satıra taşındı."
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "Line width"
@@ -6312,7 +6315,7 @@ msgstr ""
 msgid ""
 "Load changes\n"
 "The views are updated with the new content."
-msgstr ""
+msgstr "Değişiklikleri yükle\nGörünümler yeni içerikle birlikte güncellenir."
 
 #. Resource IDs: (IDS_LOADING, IDS_PROC_LOADING)
 msgid "Loading..."
@@ -6358,7 +6361,7 @@ msgstr "Konum Bulma Çubuğu"
 
 #. Resource IDs: (cmdViewLocatorBar_LabelTitle_RESID)
 msgid "Locator bar"
-msgstr ""
+msgstr "Adres çubuğu"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6458,7 +6461,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ASKFORSAVE_MARKEDBLOCKS)
 msgid "Marked Blocks"
-msgstr ""
+msgstr "İşaretli Bloklar"
 
 #. Resource IDs: (cmdMarkResolved)
 msgid ""
@@ -6646,15 +6649,15 @@ msgstr "Benim dosyam:"
 
 #. Resource IDs: (cmdNavigateNextConflict_Keytip_RESID)
 msgid "NC"
-msgstr ""
+msgstr "NC"
 
 #. Resource IDs: (cmdNavigateNextDifference_Keytip_RESID)
 msgid "ND"
-msgstr ""
+msgstr "ND"
 
 #. Resource IDs: (cmdNavigateNextInlineDiff_Keytip_RESID)
 msgid "NI"
-msgstr ""
+msgstr "NI"
 
 #. Resource IDs: (59138)
 msgid "NUM"
@@ -6673,7 +6676,7 @@ msgstr "Dolaş"
 msgid ""
 "Navigate to a specific line in the view\n"
 "Goto Line"
-msgstr ""
+msgstr "Görünümdeki belirli bir satıra git\nSatıra git"
 
 #. Resource IDs: (IDS_STATUSLIST_NESTED)
 msgid "Nested"
@@ -6714,7 +6717,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_WARN_RENAMEREQUIRED)
 msgid "New name must not be empty or the same as the original name!"
-msgstr ""
+msgstr "Yeni isim boş olmamalıdır ya da orijinal isimle aynı olmamalıdır."
 
 #. Resource IDs: (IDS_PROC_NEWNAMELABEL)
 msgid "New name:"
@@ -6836,7 +6839,7 @@ msgstr ""
 
 #. Resource IDs: (33002)
 msgid "No filter"
-msgstr ""
+msgstr "Filtre yok"
 
 #. Resource IDs: (IDS_PROC_NOMSYSGIT)
 msgid ""
@@ -7300,11 +7303,11 @@ msgstr ""
 
 #. Resource IDs: (cmdNavigatePreviousConflict_Keytip_RESID)
 msgid "PC"
-msgstr ""
+msgstr "PC"
 
 #. Resource IDs: (cmdNavigatePreviousDifference_Keytip_RESID)
 msgid "PD"
-msgstr ""
+msgstr "PD"
 
 #. Resource IDs: (cmdNavigatePreviousInlineDiff_Keytip_RESID)
 msgid "PI"
@@ -7793,7 +7796,7 @@ msgstr ""
 
 #. Resource IDs: (cmdReload_Keytip_RESID)
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1073)
 msgid "R&AM drives"
@@ -8453,7 +8456,7 @@ msgstr ""
 
 #. Resource IDs: (cmdSave_Keytip_RESID)
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1383, Dialog IDD_RESET:
 #. Control id 1383)
@@ -9058,7 +9061,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
-msgstr ""
+msgstr "Genel gö&rünüm"
 
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
@@ -10931,7 +10934,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
-msgstr ""
+msgstr "Boşluk kullan"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1426)
 msgid "Use system locale for date/time"
@@ -11065,7 +11068,7 @@ msgstr ""
 
 #. Resource IDs: (cmdPaste_Keytip_RESID)
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -11173,7 +11176,7 @@ msgstr "Web sitemizi ziyaret edin"
 
 #. Resource IDs: (cmdShowWhitespaces_Keytip_RESID)
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #. Resource IDs: (Dialog IDD_SETTINGS_CONFIG: Control id 65535)
 msgid ""
@@ -11372,7 +11375,7 @@ msgstr ""
 
 #. Resource IDs: (cmdRedo_Keytip_RESID)
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #. Resource IDs: (IDS_PROC_YESTOALL)
 msgid "Yes to all"
@@ -11492,7 +11495,7 @@ msgstr "Versiyonunuz: %d.%d.%d.%d"
 
 #. Resource IDs: (cmdUndo_Keytip_RESID)
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
 msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
@@ -11516,11 +11519,11 @@ msgstr "&Uzaklaş/Küçült"
 
 #. Resource IDs: (ID_VIEW_ZOOMIN - Menu)
 msgid "Zoom &in\tCtrl-+"
-msgstr ""
+msgstr "&Yaklaş/Büyüt\tCtrl-+"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoom &out\tCtrl--"
-msgstr ""
+msgstr "&Uzaklaş/Küçült\tCtrl--"
 
 #. Resource IDs: (32803)
 #, c-format
@@ -11541,7 +11544,7 @@ msgstr "Uzaklaş/Küçült"
 
 #. Resource IDs: (ID_VIEW_ZOOM100 - Menu)
 msgid "Zoom to &100%"
-msgstr ""
+msgstr "%&100 Tamamını göster"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"
@@ -11721,7 +11724,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
-msgstr ""
+msgstr "dosya/klasörismi"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
@@ -11869,7 +11872,7 @@ msgstr ""
 
 #. Resource IDs: (cmdOpen_Keytip_RESID)
 msgid "o1"
-msgstr ""
+msgstr "o1"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
