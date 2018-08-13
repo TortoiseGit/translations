@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-13 09:44+0000\n"
+"PO-Revision-Date: 2018-08-13 12:00+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -2699,7 +2699,7 @@ msgstr "Neteja %1!ld! URLs desades per %2!ld! directoris de treball"
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_LOGHIST_TT)
 #, c-format
 msgid "Clears %1!ld! log messages stored for %2!ld! working trees"
-msgstr ""
+msgstr "Neteja %1!ld! missatges de registre desats per %2!ld! directoris de treball"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_AUTH_TT)
 #, c-format
@@ -3266,7 +3266,7 @@ msgstr "No s'ha pogut obtenir la URL del fitxer!\n%s"
 msgid ""
 "Could not retrieve revision %1!s! of the file %2!s!.\n"
 "Patching is not possible!"
-msgstr ""
+msgstr "No s'ha pogut obtenir la revisió %1!s! de l'arxiu %2!s!.\nNo és possible aplicar el pedaç."
 
 #. Resource IDs: (IDS_ERR_TGITBLAME)
 msgid "Could not start TortoiseGitBlame"
@@ -4470,7 +4470,7 @@ msgstr "Hi ha un error validant el certificat del servidor per \"%s\":"
 msgid ""
 "Error while reading/writing the registry key %1!s!\n"
 "%2!s!"
-msgstr ""
+msgstr "Error intentant llegir/escriure la clau de registre %1!s!\n%2!s!"
 
 #. Resource IDs: (IDS_PROC_EVERYTHINGUPDATED)
 msgid "Everything updated."
@@ -4565,7 +4565,7 @@ msgstr "La restitució ha fallat"
 #. Resource IDs: (IDS_STATUSLIST_CHECKOUTFILEFAILED)
 #, c-format
 msgid "Failed to checkout file \"%1!s!\" of revision %2!s! to \"%3!s!\"."
-msgstr ""
+msgstr "No s'ha pogut extreure l'arxiu \"%1!s!\" de la revisió %2!s! a la \"%3!s!\"."
 
 #. Resource IDs: (IDS_CHECKOUTFAILED)
 #, c-format
@@ -4656,7 +4656,7 @@ msgstr "&Només avançament ràpid"
 #. Resource IDs: (IDS_PROC_REBASE_FFTO)
 #, c-format
 msgid "Fast forward to \"%s\""
-msgstr ""
+msgstr "Avançament ràpid a \"%s\""
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCH)
 msgid "Fetc&h"
@@ -5419,7 +5419,7 @@ msgstr "Amaga el script mentres s'està executant"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
 msgid "Hide the selected items in the context menu:"
-msgstr ""
+msgstr "Amaga els elements seleccionats en el menú contextual:"
 
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
@@ -6845,7 +6845,7 @@ msgstr "No s'han trobat més revisions."
 msgid ""
 "No need to rebase\n"
 "\"%1!s!\" equals \"%2!s!\""
-msgstr ""
+msgstr "No cal fer rebase\n\"%1!s!\" equival a \"%2!s!\""
 
 #. Resource IDs: (IDS_PROC_NOPREVIOUSVERSION)
 msgid "No previous version."
@@ -9249,7 +9249,7 @@ msgstr "Mostra símbols a les etiquetes de refs que substitueixin part dels noms
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid "Show the selected items on the first level of the context menu:"
-msgstr ""
+msgstr "Mostra els elements seleccionats en el primer nivell del menú contextual:"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
@@ -9489,7 +9489,7 @@ msgstr "Stash reeixit"
 
 #. Resource IDs: (IDS_MENUSTASHSAVE)
 msgid "Stash changes"
-msgstr ""
+msgstr "Canvis de l'Stash"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
@@ -9994,7 +9994,7 @@ msgstr "El proveïdor del seguidor d'incidències no ha pogut validar la cadena 
 #. Resource IDs: (IDS_ERR_PATCH_NOADDFILELINE)
 #, c-format
 msgid "The line indicating the new file was expected in line %d!"
-msgstr ""
+msgstr "La línia que indica el nou fitxer s'esperava a la línia %d."
 
 #. Resource IDs: (IDS_GOTO_OUTOFRANGE)
 #, c-format
@@ -10051,7 +10051,7 @@ msgid ""
 "and the patchline\n"
 "%2!s!\n"
 "do not match!"
-msgstr ""
+msgstr "El pedaç sembla antic. La línia de l'arxiu\n%1!s!\ni la línia del pedaç\n%2!s!\nno són equivalents."
 
 #. Resource IDs: (IDS_WARN_NOVALIDPATH)
 msgid ""
@@ -11540,7 +11540,7 @@ msgid ""
 "is a merge commit.\n"
 "\n"
 "Which parent do you want to pick?"
-msgstr ""
+msgstr "\"%1!s!\" - \"%2!s!\"\nés una entrega fusionada.\n\nQuin pare voleu escollir?"
 
 #. Resource IDs: (IDS_PROC_COPY_REPOSITORY)
 #, c-format
