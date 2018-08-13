@@ -16,6 +16,7 @@
 # Ekrem KAYA <webmaster@e-piksel.com>, 2012
 # Ertan Tike <ertant@rdgnet.org>, 2013
 # Ertan Tike <ertant@rdgnet.org>, 2013
+# Faruk MIZIKACI <farukmizikaci@gmail.com>, 2018
 # Göktuğ Öztürk <goktug.ozturk@teknomavi.com>, 2014
 # Huseyin <hyagli@hotmail.com>, 2013
 # ibrahim YENER <jdavide222@hotmail.com>, 2014
@@ -45,8 +46,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-09 21:56+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-08-13 06:06+0000\n"
+"Last-Translator: Faruk MIZIKACI <farukmizikaci@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/lznuaa/tortoisegit/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -479,7 +480,7 @@ msgstr "&Kapat"
 #. IDD_NEW_BRANCH_TAG: Control id 1514, Dialog IDD_RESET: Control id 1514,
 #. Dialog IDD_SYNC: Control id 1625)
 msgid "&Commit"
-msgstr "&Sun"
+msgstr "&Teslim et"
 
 #. Resource IDs: (IDS_MENUCOMMITSUBMODULE)
 msgid "&Commit submodule..."
@@ -491,7 +492,7 @@ msgstr "&Teslim et"
 
 #. Resource IDs: (IDS_MENUCOMMIT)
 msgid "&Commit..."
-msgstr "&Sun..."
+msgstr "&Teslim et..."
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARETWO, IDS_REVGRAPH_POPUP_COMPAREREVS,
 #. ID_VIEW_COMPAREREVISIONS - Menu)
@@ -625,7 +626,7 @@ msgstr "&Düzenle..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
-msgstr "Commit'i &Düzenle/Ayır"
+msgstr "Teslim'i &Düzenle/Ayır"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
@@ -865,11 +866,11 @@ msgstr "&Liste Görünümü"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1616)
 msgid "&Local Branch:"
-msgstr ""
+msgstr "&Yerel Dal:"
 
 #. Resource IDs: (IDS_VIEW_SHOWLOCALBRANCHLABELS)
 msgid "&Local branches"
-msgstr ""
+msgstr "&Yerel dallar"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1504)
 msgid "&Local:"
@@ -898,11 +899,11 @@ msgstr "&Birleştiriliyor"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1648)
 msgid "&Message"
-msgstr ""
+msgstr "&Mesaj"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1241)
 msgid "&Message:"
-msgstr ""
+msgstr "&Mesaj:"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
@@ -981,7 +982,7 @@ msgstr ""
 
 #. Resource IDs: (ID_FILE_OPEN - Menu)
 msgid "&Open...\tCtrl+O"
-msgstr ""
+msgstr "&Aç...\tCtrl+O"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1382)
 msgid "&Options"
@@ -1028,7 +1029,7 @@ msgstr "&Yazdır..."
 
 #. Resource IDs: (ID_FILE_PRINT - Menu)
 msgid "&Print...\tCtrl+P"
-msgstr ""
+msgstr "&Yazdır...\tCtrl+P"
 
 #. Resource IDs: (IDS_PROCEEDBUTTON)
 msgid "&Proceed"
@@ -1162,11 +1163,11 @@ msgstr "Seçili dosyaları içeren listeyi &kaydet..."
 
 #. Resource IDs: (ID_FILE_SAVE - Menu)
 msgid "&Save\tCtrl+S"
-msgstr ""
+msgstr "&Kaydet\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "&Arama..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -1190,7 +1191,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SKIPBUTTON)
 msgid "&Skip"
-msgstr ""
+msgstr "&Atla"
 
 #. Resource IDs: (Dialog IDD_RESET: Control id 1550)
 msgid "&Soft: Leave working tree and index untouched"
@@ -1207,11 +1208,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1616)
 msgid "&Start"
-msgstr ""
+msgstr "&Başla"
 
 #. Resource IDs: (IDS_STASHBUTTON)
 msgid "&Stash"
-msgstr ""
+msgstr "&Sakla"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Menu)
 msgid "&Status Bar"
@@ -1219,7 +1220,7 @@ msgstr "Dur&um çubuğu"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
-msgstr ""
+msgstr "&Yeni dala geçiş yap"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1173)
 msgid "&Symbol View"
@@ -1233,7 +1234,7 @@ msgstr "&Sekme boyutu:"
 #. Control id 1513, Dialog IDD_MERGE: Control id 1513, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1513, Dialog IDD_RESET: Control id 1513)
 msgid "&Tag"
-msgstr ""
+msgstr "&Etiket"
 
 #. Resource IDs: (IDS_VIEW_SHOWTAGLABELS)
 msgid "&Tags"
@@ -1241,7 +1242,7 @@ msgstr "&Etiketler"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535)
 msgid "&Tags:"
-msgstr ""
+msgstr "&Etiketler:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1222)
 msgid "&Timeout in seconds to stop the auto-completion parsing"
@@ -1270,7 +1271,7 @@ msgstr "&Trunk:"
 
 #. Resource IDs: (IDS_MSGBOX_TRYAGAIN)
 msgid "&Try Again"
-msgstr ""
+msgstr "&Tekrar Deneyin"
 
 #. Resource IDs: (AFX_IDS_TWOPAGE)
 msgid "&Two Page"
@@ -1299,7 +1300,7 @@ msgstr "&Bilinmeyen sürücüler"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
-msgstr ""
+msgstr "&Yukarı"
 
 #. Resource IDs: (IDS_LOG_POPUP_UPDATE)
 msgid "&Update item to revision"
@@ -1343,7 +1344,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_YES)
 msgid "&Yes"
-msgstr ""
+msgstr "&Evet"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1682)
 msgid "&add \"cherry picked from\""
@@ -1355,11 +1356,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "&known changes"
-msgstr ""
+msgstr "&bilinen değişiklikler"
 
 #. Resource IDs: (IDS_TORTOISEGITDEFAULT)
 msgid "(TortoiseGit default)"
-msgstr ""
+msgstr "(TortoiseGit varsayılanı)"
 
 #. Resource IDs: (IDS_STATUSLIST_FROM)
 #, c-format
@@ -1453,7 +1454,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1020)
 msgid "< &Previous"
-msgstr ""
+msgstr "< &Önceki"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535, Dialog
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535, Dialog IDD_SETTINGSDIALOGS3:
@@ -1501,17 +1502,17 @@ msgstr ""
 
 #. Resource IDs: (IDS_B_EXISTS)
 msgid "A branch with this name already exists."
-msgstr ""
+msgstr "Bu isimli dal mevcut."
 
 #. Resource IDs: (1088)
 msgid ""
 "A merge process is active, so this commit will be a merge commit. In order "
 "to abort a merge, you have to perform a reset or forced checkout."
-msgstr ""
+msgstr "Birleştirme işlemi aktiftir, bu nedenle bu teslim birleştirme işlemi olacaktır. Birleştirmeyi iptal etmek için sıfırlama veya zorla çıkış yapmanız gerekir."
 
 #. Resource IDs: (IDS_CHECKNEWER_NEWERVERSIONAVAILABLE)
 msgid "A newer version is available. Please download the current version!"
-msgstr ""
+msgstr "Yeni bir versiyon mevcut. Güncel versiyonu indirin!"
 
 #. Resource IDs: (IDS_SETTINGS_INCLUDELIST_TT)
 msgid ""
@@ -1547,7 +1548,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_T_EXISTS)
 msgid "A tag with this name already exists."
-msgstr ""
+msgstr "Bu isimli etiket mevcut."
 
 #. Resource IDs: (IDS_SETTINGS_DIFFVIEWER_TT)
 msgid ""
@@ -1582,11 +1583,11 @@ msgstr "İptal"
 
 #. Resource IDs: (IDS_MENUMERGEABORT)
 msgid "Abort &Merge"
-msgstr ""
+msgstr "Birleştirmeyi &İptal et"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 4592)
 msgid "Abort Merge"
-msgstr ""
+msgstr "Birleştirmeyi &İptal et"
 
 #. Resource IDs: (IDS_MENUDESCMERGEABORT)
 msgid "Aborts a running merge."
@@ -1610,7 +1611,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 1)
 msgid "Accept certificate"
-msgstr ""
+msgstr "Sertifikayı onayla"
 
 #. Resource IDs: (AFX_IDP_FILE_ACCESS_DENIED)
 #, c-format
@@ -1652,11 +1653,11 @@ msgstr ""
 #. Resource IDs: (IDS_SCIEDIT_ADDWORD)
 #, c-format
 msgid "Add '%s' to dictionary"
-msgstr ""
+msgstr "'%s' öğesini sözlüğe ekle"
 
 #. Resource IDs: (Dialog IDD_ADD_REMOTE: Control id 323)
 msgid "Add Remote"
-msgstr ""
+msgstr "Uzağa Ekle"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1482)
 msgid "Add \"&Signed-off-by\""
@@ -1664,7 +1665,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_REBASE_ADDANOTHERCOMMIT)
 msgid "Add another commit?"
-msgstr ""
+msgstr "Farklı teslim eklensin mi?"
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
@@ -1676,7 +1677,7 @@ msgstr "Belirli bir uzantı için birleştirme programı ekle"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1065)
 msgid "Add new files automatically to Git"
-msgstr ""
+msgstr "Git'te dosyaları otomatik olarak ekle"
 
 #. Resource IDs: (IDS_MENUIGNORE)
 msgid "Add to &ignore list"
@@ -1754,7 +1755,7 @@ msgstr "Tüm Dosyalar (*.*)|*.*||"
 
 #. Resource IDs: (IDS_ALLPARENTS)
 msgid "All Parents"
-msgstr ""
+msgstr "Tüm üst öğeler"
 
 #. Resource IDs: (IDS_PROC_LOG_SELECT_BASIC_REFS)
 msgid "All basic refs"
