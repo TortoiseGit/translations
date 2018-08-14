@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-13 12:00+0000\n"
+"PO-Revision-Date: 2018-08-14 11:06+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -2598,7 +2598,7 @@ msgstr "Selecciona:"
 msgid ""
 "Checked items will be hidden in the context menu by default and will only be"
 " visible if the shift key is pressed while opening the context menu."
-msgstr ""
+msgstr "Els elements seleccionats quedaran amagats per defecte en el menú contextual. Només es mostraran prement la tecla Majúscula quan s'obri el menú contextual."
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -3474,7 +3474,7 @@ msgid ""
 "Current branch \"%s\" is up to date\n"
 "\n"
 "If you want to force a rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "La branca actual \"%s\" està al dia.\n\nSi voleu forçar un Rebase fins i tot si la branca és descendent de l'entrega a on voleu fer el Rebase, heu d'activar l'opció de \"Força rebase\"."
 
 #. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
 msgid ""
@@ -4634,7 +4634,7 @@ msgstr "No ha pogut configurar/treure la llista de canvis '%s'"
 msgid ""
 "Failed to start the issue tracker COM provider '%1!s!'.\n"
 "%2!s!"
-msgstr ""
+msgstr "No s'ha pogut iniciar el proveïdor COM de seguiment d'incidències '%1!s!'.\n%2!s!"
 
 #. Resource IDs: (IDS_ERR_PAEGENTTIMEOUT)
 msgid "Failed waiting for pageant to finish loading key."
@@ -4943,7 +4943,7 @@ msgid ""
 "For the current branch \"%1!s!\" no tracked branch is configured.\n"
 "Do you want to set the selected branch \"%2!s!\" as tracked branch?\n"
 "This will automatically select it for push and pull in the future."
-msgstr ""
+msgstr "No s'ha configurat cap branca rastrejada per a la branca actual \"%1!s!\".\nVoleu activar la branca seleccionada \"%2!s!\" com a branca rastrejada?\nAixò farà que d'ara endavant es seleccioni automàticament per a empènyer i estirar."
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -8715,7 +8715,7 @@ msgstr "Dades desades"
 #. Resource IDs: (IDS_PROC_SAVECONFIGFAILED)
 #, c-format
 msgid "Saving config failed (key: \"%1!s!\", value: \"%2!s!\")."
-msgstr ""
+msgstr "No s'ha pogut desar la configuració (key: \"%1!s!\", value: \"%2!s!\")."
 
 #. Resource IDs: (IDS_PROC_FAILEDSAVINGNOTES)
 msgid "Saving notes failed."
@@ -9273,7 +9273,7 @@ msgstr "Mostrant %1!d! ref(s), %2!d! ref(s) seleccionats"
 msgid ""
 "Showing %1!ld! revision(s), from revision %2!s! to revision %3!s! - %4!ld! "
 "revision(s) selected, %5!ld! file(s) selected"
-msgstr ""
+msgstr "Mostrant %1!ld! revisió(ns), des de la %2!s! fins a la %3!s! - %4!ld! revisió(ns) seleccionada(es), %5!ld! arxiu(s) seleccionat(s)"
 
 #. Resource IDs: (IDS_MENUDESCREVISIONGRAPH)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -10006,7 +10006,7 @@ msgstr "El número de línia ha d'estar entre %1!d! i %2!d!"
 msgid ""
 "The local branch \"%1!s!\" does not fast-forward to the remote branch "
 "\"%2!s!\"."
-msgstr ""
+msgstr "La branca local \"%1!s!\" no fa un avançament ràpid fins a la branca remota \"%2!s!\"."
 
 #. Resource IDs: (IDS_B_T_BOTHEMPTY)
 msgid ""
@@ -10073,7 +10073,7 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%2!s!\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr ""
+msgstr "El camí\n%1!s!\nsembla que no encaixa amb els camins del fitxer pedaç.\nPerò TortoiseGitMerge ha trobat el camí\n%2!s!\nque encaixa millor. Voleu utilitzar el camí suggerit?"
 
 #. Resource IDs: (IDS_PROC_CONFIRMKILLPROCESS)
 msgid ""
@@ -10655,7 +10655,7 @@ msgstr "Desactiva"
 msgid ""
 "Unchecked items will appear in the TortoiseGit submenu, checked items "
 "directly in the main context menu."
-msgstr ""
+msgstr "Els elements no seleccionats es mostraran en el submenú del TortoiseGit, i els elements seleccionats es mostraran directament al menú contextual principal."
 
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
