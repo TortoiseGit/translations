@@ -28,8 +28,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-09 21:56+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-08-17 09:22+0000\n"
+"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -157,12 +157,12 @@ msgstr "%1!d!年前"
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%1!d! commits ahead \"%2!s!\""
-msgstr ""
+msgstr "本地分支領先遠端分支「%2!s!」%1!d! 個提交"
 
 #. Resource IDs: (IDS_STATUSLIST_FILESREVERTED)
 #, c-format
 msgid "%1!d! files reverted to %2!s!."
-msgstr ""
+msgstr "復原了 %1!d! 個檔案到 %2!s!。"
 
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
@@ -198,22 +198,22 @@ msgstr "%1!s!（%2!s!）"
 #. Resource IDs: (IDS_PROGRS_PATHATREV)
 #, c-format
 msgid "%1!s! - at revision: %2!d!"
-msgstr ""
+msgstr "%1!s! - 於版本：%2!d!"
 
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%1!s! in %2!s!"
-msgstr ""
+msgstr "%1!s! 於 %2!s!"
 
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
 msgid "%1!s! requires Git >= %2!s!"
-msgstr ""
+msgstr "%1!s! 需要 Git >= %2!s!"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
 msgid "%1!s!, at %2!s!"
-msgstr ""
+msgstr "%1!s!，於 %2!s!"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -836,7 +836,7 @@ msgstr "行號 (&L)"
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
 msgid "&Line number (%1!d! - %2!d!)"
-msgstr ""
+msgstr "行號(&L) (%1!d! - %2!d!)"
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
@@ -1849,7 +1849,7 @@ msgstr "存取 %1 時發生不明錯誤."
 #. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d!"
-msgstr ""
+msgstr "在第 %d 行發現不明型態資料！"
 
 #. Resource IDs: (IDS_ANNOTATEDTAGS)
 msgid "Annotated tags"
@@ -2241,7 +2241,7 @@ msgstr "分支 RevNo"
 msgid ""
 "Branch \"%1!s!\" behind \"%2!s!\"\n"
 "\"%3!s!\" will fastforward to \"%4!s!\""
-msgstr ""
+msgstr "分支「%1!s!」落後「%2!s!」\n「%3!s!」將快進到「%4!s!」"
 
 #. Resource IDs: (IDS_B_T_INVALID)
 msgid "Branch/Tag name is invalid."
@@ -2369,7 +2369,7 @@ msgid ""
 "%1!s!\n"
 "to\n"
 "%2!s!"
-msgstr ""
+msgstr "無法複製\n%1!s!\n到\n%2!s!"
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 2, Dialog
 #. AFX_IDD_PRINTDLG: Control id 2, Dialog IDD_ADD: Control id 2, Dialog
@@ -2513,12 +2513,12 @@ msgstr "已變動的檔案"
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTROROOT)
 #, c-format
 msgid "Changed files between %1!s! and %2!s!"
-msgstr ""
+msgstr "%1!s! 至 %2!s! 間變更的檔案"
 
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTRO)
 #, c-format
 msgid "Changed files between %1!s!, %2!s! and %3!s!, %4!s!"
-msgstr ""
+msgstr "%1!s!, %2!s! 至 %3!s!, %4!s! 間變更的檔案"
 
 #. Resource IDs: (IDS_CHECKUPDATE_SUMMARY)
 #, c-format
@@ -2606,7 +2606,7 @@ msgstr "勾選："
 msgid ""
 "Checked items will be hidden in the context menu by default and will only be"
 " visible if the shift key is pressed while opening the context menu."
-msgstr ""
+msgstr "預設會在快顯功能表中隱藏這些被勾選的項目，除非同時按下 Shift 鍵才會在快顯功能表中顯示這些項目。"
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -2702,12 +2702,12 @@ msgstr "清除"
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_URLHIST_TT)
 #, c-format
 msgid "Clears %1!ld! URLs stored for %2!ld! working trees"
-msgstr ""
+msgstr "從 %2!ld! 份工作目錄中清除 %1!ld! 組 URLs"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_LOGHIST_TT)
 #, c-format
 msgid "Clears %1!ld! log messages stored for %2!ld! working trees"
-msgstr ""
+msgstr "從 %2!ld! 份工作目錄中清除 %1!ld! 組日誌訊息"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_AUTH_TT)
 #, c-format
@@ -2861,7 +2861,7 @@ msgstr "提交"
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
 msgid "Commit %1!s! not found in \"%2!s!\". Update submodule now?"
-msgstr ""
+msgstr "在「%2!s!」中被找不到提交「%1!s! 」。立即更新子模組？"
 
 #. Resource IDs: (IDS_LOG_NOT_VISIBLE)
 #, c-format
@@ -3187,7 +3187,7 @@ msgstr "無法檢查新版！"
 #. Resource IDs: (IDS_CHECKNEWER_NETERROR_FORMAT)
 #, c-format
 msgid "Could not check for a newer version! %1!s! (Error code: 0x%2!08X!)"
-msgstr ""
+msgstr "無法檢查新版！%1!s!（錯誤碼：0x%2!08X!）"
 
 #. Resource IDs: (IDS_ERR_COPYFILES)
 #, c-format
@@ -3274,7 +3274,7 @@ msgstr "無法取得檔案的 URL！\n%s"
 msgid ""
 "Could not retrieve revision %1!s! of the file %2!s!.\n"
 "Patching is not possible!"
-msgstr ""
+msgstr "無法取得 %2!s! 檔案的 %1!s! 版本。\n無法進行補綴！"
 
 #. Resource IDs: (IDS_ERR_TGITBLAME)
 msgid "Could not start TortoiseGitBlame"
@@ -3482,7 +3482,7 @@ msgid ""
 "Current branch \"%s\" is up to date\n"
 "\n"
 "If you want to force a rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "目前分支「%s」已經是最新\n\n如果你想強制變基，請選擇下面「強制變基」選項。"
 
 #. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
 msgid ""
@@ -4478,7 +4478,7 @@ msgstr "「%s」憑證錯誤訊息："
 msgid ""
 "Error while reading/writing the registry key %1!s!\n"
 "%2!s!"
-msgstr ""
+msgstr "讀寫登錄機碼「%1!s!」時發生錯誤：\n%2!s!"
 
 #. Resource IDs: (IDS_PROC_EVERYTHINGUPDATED)
 msgid "Everything updated."
@@ -4573,7 +4573,7 @@ msgstr "復原失敗"
 #. Resource IDs: (IDS_STATUSLIST_CHECKOUTFILEFAILED)
 #, c-format
 msgid "Failed to checkout file \"%1!s!\" of revision %2!s! to \"%3!s!\"."
-msgstr ""
+msgstr "無法取出版本「%2!s!」中的檔案「%1!s!」到「%3!s!」"
 
 #. Resource IDs: (IDS_CHECKOUTFAILED)
 #, c-format
@@ -4642,7 +4642,7 @@ msgstr "無法「設定／移除」變更列表：「%s」"
 msgid ""
 "Failed to start the issue tracker COM provider '%1!s!'.\n"
 "%2!s!"
-msgstr ""
+msgstr "無法啟動問題追蹤系統的 COM 提供者「%1!s!」。\n%2!s!"
 
 #. Resource IDs: (IDS_ERR_PAEGENTTIMEOUT)
 msgid "Failed waiting for pageant to finish loading key."
@@ -4664,7 +4664,7 @@ msgstr "只限快進(&N)"
 #. Resource IDs: (IDS_PROC_REBASE_FFTO)
 #, c-format
 msgid "Fast forward to \"%s\""
-msgstr ""
+msgstr "快進到「%s」"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCH)
 msgid "Fetc&h"
@@ -4951,7 +4951,7 @@ msgid ""
 "For the current branch \"%1!s!\" no tracked branch is configured.\n"
 "Do you want to set the selected branch \"%2!s!\" as tracked branch?\n"
 "This will automatically select it for push and pull in the future."
-msgstr ""
+msgstr "目前分支「%1!s!」沒有設定追蹤分支。\n你想要將「%2!s!」設為追踨分支嗎？\n設定之後，會在「推送」和「拉取」時自動將它選取為目標分支。"
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -5136,7 +5136,7 @@ msgstr "一般::快顯功能表"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
 msgid "General::Context Menu 2"
-msgstr ""
+msgstr "一般::快顯功能表 2"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
@@ -5427,7 +5427,7 @@ msgstr "隱藏執行中的指令檔"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
 msgid "Hide the selected items in the context menu:"
-msgstr ""
+msgstr "在快顯功能表中隱藏這些被勾選的項目："
 
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
@@ -5938,7 +5938,7 @@ msgstr "匯入"
 #. Resource IDs: (IDS_PROGRS_CMD_IMPORT)
 #, c-format
 msgid "Import %1!s! to %2!s!%3!s!"
-msgstr ""
+msgstr "匯入 %1!s! 至 %2!s!%3!s!"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 329,
 #. IDS_MENUSVNIGNORE_DESC)
@@ -6853,7 +6853,7 @@ msgstr "找不到更多版本。"
 msgid ""
 "No need to rebase\n"
 "\"%1!s!\" equals \"%2!s!\""
-msgstr ""
+msgstr "不需要變基\n%1!s! 等於 %2!s!"
 
 #. Resource IDs: (IDS_PROC_NOPREVIOUSVERSION)
 msgid "No previous version."
@@ -7142,7 +7142,7 @@ msgstr "只譴責第一親代版本"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1808)
 msgid "Only follow first parent"
-msgstr ""
+msgstr "只跟隨第一親代"
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYLOCAL)
 msgid "Only local"
@@ -7863,7 +7863,7 @@ msgstr "變基(rebase)..."
 #. Resource IDs: (IDS_PROC_REBASING_PROGRESS)
 #, c-format
 msgid "Rebasing... (%1!d!/%2!d!)"
-msgstr ""
+msgstr "變基中... (%1!d!/%2!d!)"
 
 #. Resource IDs: (ID_FILE_MRU_FILE1 - Menu)
 msgid "Recent File"
@@ -8723,7 +8723,7 @@ msgstr "已存資料"
 #. Resource IDs: (IDS_PROC_SAVECONFIGFAILED)
 #, c-format
 msgid "Saving config failed (key: \"%1!s!\", value: \"%2!s!\")."
-msgstr ""
+msgstr "儲存組態失敗（key：「%1!s!」，value：「%2!s!」）"
 
 #. Resource IDs: (IDS_PROC_FAILEDSAVINGNOTES)
 msgid "Saving notes failed."
@@ -9257,7 +9257,7 @@ msgstr "用特定符號簡化參照的前半部名稱"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid "Show the selected items on the first level of the context menu:"
-msgstr ""
+msgstr "在第一階的快顯功能表中顯示以下被勾選的項目："
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
@@ -9281,7 +9281,7 @@ msgstr "顯示 %1!d! 個參照，%2!d! 個已選取"
 msgid ""
 "Showing %1!ld! revision(s), from revision %2!s! to revision %3!s! - %4!ld! "
 "revision(s) selected, %5!ld! file(s) selected"
-msgstr ""
+msgstr "顯示 %1!ld! 個版本，由版本 %2!s! 至版本 %3!s! － 選取了 %4!ld! 個版本，選取了 %5!ld! 個檔案"
 
 #. Resource IDs: (IDS_MENUDESCREVISIONGRAPH)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9497,7 +9497,7 @@ msgstr "完成收藏（stash）"
 
 #. Resource IDs: (IDS_MENUSTASHSAVE)
 msgid "Stash changes"
-msgstr ""
+msgstr "收藏變更"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
@@ -10002,19 +10002,19 @@ msgstr "bug 追蹤程式提供者無法檢驗參數的正確性"
 #. Resource IDs: (IDS_ERR_PATCH_NOADDFILELINE)
 #, c-format
 msgid "The line indicating the new file was expected in line %d!"
-msgstr ""
+msgstr "新檔案的標記「+++」應該位於第 %d 行！"
 
 #. Resource IDs: (IDS_GOTO_OUTOFRANGE)
 #, c-format
 msgid "The line number must be in between %1!d! and %2!d!"
-msgstr ""
+msgstr "行號必須在 %1!d! 至 %2!d! 之間"
 
 #. Resource IDs: (IDS_PROC_SYNC_NOFASTFORWARD)
 #, c-format
 msgid ""
 "The local branch \"%1!s!\" does not fast-forward to the remote branch "
 "\"%2!s!\"."
-msgstr ""
+msgstr "本地分支「%1!s!」無法快進到遠端分支「%2!s!」。"
 
 #. Resource IDs: (IDS_B_T_BOTHEMPTY)
 msgid ""
@@ -10059,7 +10059,7 @@ msgid ""
 "and the patchline\n"
 "%2!s!\n"
 "do not match!"
-msgstr ""
+msgstr "補綴檔似乎過時了！檔案中的這一行\n「%1!s!」\n與補綴檔中的這一行\n「%2!s!」\n並不符合！"
 
 #. Resource IDs: (IDS_WARN_NOVALIDPATH)
 msgid ""
@@ -10081,7 +10081,7 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%2!s!\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr ""
+msgstr "該路徑\n「%1!s!」\n與補綴檔中的路徑並不符合。\nTortoiseGitMerge 找到這個路徑\n「%2!s!」\n似乎更好。要改用這個建議的路徑嗎？"
 
 #. Resource IDs: (IDS_PROC_CONFIRMKILLPROCESS)
 msgid ""
@@ -10663,7 +10663,7 @@ msgstr "取消勾選"
 msgid ""
 "Unchecked items will appear in the TortoiseGit submenu, checked items "
 "directly in the main context menu."
-msgstr ""
+msgstr "未被勾選的項目會顯示在 TortoiseGit 次選單中，而勾選的項目會直接顯示在快顯功能表中。"
 
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
@@ -11548,7 +11548,7 @@ msgid ""
 "is a merge commit.\n"
 "\n"
 "Which parent do you want to pick?"
-msgstr ""
+msgstr "「%1!s!」 - 「%2!s!」\n是一個合併提交。\n\n你想要使用哪一個親代？"
 
 #. Resource IDs: (IDS_PROC_COPY_REPOSITORY)
 #, c-format
@@ -11679,7 +11679,7 @@ msgstr "衝突"
 msgid ""
 "copied from\n"
 "%1!s! - revision %2!ld!"
-msgstr ""
+msgstr "複製自\n%1!s! - 版本 %2!ld!"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXDAY)
 msgid "day"
