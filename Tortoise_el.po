@@ -4,7 +4,8 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Savvas Etairidis <falital@hotmail.com>, 2017
+# Falital <falital@hotmail.com>, 2018
+# Falital <falital@hotmail.com>, 2017
 # Stavros <b17a3925@opayq.com>, 2011,2014,2017
 # Vasiliki Karageorgou <karageorgou.vassiliki@gmail.com>, 2018
 msgid ""
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-17 14:58+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-08-17 21:59+0000\n"
+"Last-Translator: Falital <falital@hotmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/lznuaa/tortoisegit/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -141,12 +142,12 @@ msgstr "%1!d! χρονιά πριν"
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%1!d! commits ahead \"%2!s!\""
-msgstr ""
+msgstr "%1!d! commits μπροστά \"%2!s!\""
 
 #. Resource IDs: (IDS_STATUSLIST_FILESREVERTED)
 #, c-format
 msgid "%1!d! files reverted to %2!s!."
-msgstr ""
+msgstr "%1!d! αρχεία επαναφερθήκαν στο %2!s!."
 
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
@@ -182,22 +183,22 @@ msgstr "%1!s! (%2!s!)"
 #. Resource IDs: (IDS_PROGRS_PATHATREV)
 #, c-format
 msgid "%1!s! - at revision: %2!d!"
-msgstr ""
+msgstr "%1!s! - στην revision: %2!d!"
 
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%1!s! in %2!s!"
-msgstr ""
+msgstr "%1!s! από %2!s!"
 
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
 msgid "%1!s! requires Git >= %2!s!"
-msgstr ""
+msgstr "%1!s! απαιτεί Git >= %2!s!"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
 msgid "%1!s!, at %2!s!"
-msgstr ""
+msgstr "%1!s!, με %2!s!"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -741,7 +742,7 @@ msgstr "&Απόκρυψη"
 
 #. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
 msgid "&Hide/Show the patch file list"
-msgstr ""
+msgstr "&Δείξε/Κρύψε την λίστα με αρχεία του patch"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -820,7 +821,7 @@ msgstr "&Αριθμός γραμμής"
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
 msgid "&Line number (%1!d! - %2!d!)"
-msgstr ""
+msgstr "&Νούμερο γραμμής (%1!d! - %2!d!)"
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
@@ -1561,7 +1562,7 @@ msgstr "Ακύρωση τρέχουσας συγχώνευσης"
 
 #. Resource IDs: (cmdAbout_LabelTitle_RESID)
 msgid "Abou&t TortoiseGitMerge"
-msgstr ""
+msgstr "Περ&ί TortoiseGitMerge"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 129)
 msgid "About TortoiseGit"
@@ -1833,7 +1834,7 @@ msgstr "Συνέβηκε ένα αγνωστο λάθος καθώς γινότ�
 #. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d!"
-msgstr ""
+msgstr "Βρέθηκε ένας άγνωστος τύπος γραμμής στη γραμμή %d !"
 
 #. Resource IDs: (IDS_ANNOTATEDTAGS)
 msgid "Annotated tags"
@@ -2004,7 +2005,7 @@ msgstr "Ονόματα συγγραφέων"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\tStefan Kueng"
-msgstr ""
+msgstr "Δημιουργός:\t\t\t\tStefan Kueng"
 
 #. Resource IDs: (IDS_LOG_FILTER_AUTHORS)
 msgid "Authors"
@@ -2225,7 +2226,7 @@ msgstr "Κλάδος Αριθμός Αναθεώρησης"
 msgid ""
 "Branch \"%1!s!\" behind \"%2!s!\"\n"
 "\"%3!s!\" will fastforward to \"%4!s!\""
-msgstr ""
+msgstr "Κλάδος \"%1!s!\" πίσω από \"%2!s!\"\n \"%3!s!\" θα προωθηθεί γρήγορα στο \"%4!s!\""
 
 #. Resource IDs: (IDS_B_T_INVALID)
 msgid "Branch/Tag name is invalid."
@@ -2301,7 +2302,7 @@ msgstr "Προκαθορισμένα το Git δεν αποθηκεύει  δι
 
 #. Resource IDs: (cmdCopy_Keytip_RESID)
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -2353,7 +2354,7 @@ msgid ""
 "%1!s!\n"
 "to\n"
 "%2!s!"
-msgstr ""
+msgstr "Δεν γίνεται να αντιγραφεί το \n%1!s!\nπρος το\n%2!s!"
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 2, Dialog
 #. AFX_IDD_PRINTDLG: Control id 2, Dialog IDD_ADD: Control id 2, Dialog
@@ -2497,12 +2498,12 @@ msgstr "Αρχεία με μεταβολές"
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTROROOT)
 #, c-format
 msgid "Changed files between %1!s! and %2!s!"
-msgstr ""
+msgstr "Διαφορές ανάμεσα στα αρχεία %1!s! και %2!s!"
 
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTRO)
 #, c-format
 msgid "Changed files between %1!s!, %2!s! and %3!s!, %4!s!"
-msgstr ""
+msgstr "Διαφορές ανάμεσα στα αρχεία %1!s!, %2!s! και %3!s!, %4!s!"
 
 #. Resource IDs: (IDS_CHECKUPDATE_SUMMARY)
 #, c-format
@@ -2590,7 +2591,7 @@ msgstr "Έλεγχος:"
 msgid ""
 "Checked items will be hidden in the context menu by default and will only be"
 " visible if the shift key is pressed while opening the context menu."
-msgstr ""
+msgstr "Επιλεγμένα αντικείμενα θα παραμείνουν κρυμμένα στο μενού πλαισίου ως προκαθορισμένη ενεργεία και θα εμφανιστούν αν πατηθεί το πλήκτρο shift  ενώ το μενού πλαισίου είναι ανοιχτό"
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -2686,12 +2687,12 @@ msgstr "Εκκαθάριση"
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_URLHIST_TT)
 #, c-format
 msgid "Clears %1!ld! URLs stored for %2!ld! working trees"
-msgstr ""
+msgstr "Καθαρίζει %ld αποθηκευμένα URLs για %ld τρέχοντα δεντρά"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_LOGHIST_TT)
 #, c-format
 msgid "Clears %1!ld! log messages stored for %2!ld! working trees"
-msgstr ""
+msgstr "Καθαρίζει %ld αποθηκευμένα  μηνύματα ημερολογίου για %ld τρέχοντα δεντρά"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_AUTH_TT)
 #, c-format
@@ -2785,7 +2786,7 @@ msgstr "Κλείσιμο προεπισκόπησης εκτύπωσης\nΑκύ
 msgid ""
 "Close the active document\n"
 "Close"
-msgstr ""
+msgstr "Κλείσιμο του ενεργού έγγραφου\nΚλείσε"
 
 #. Resource IDs: (AFX_IDS_SCCLOSE)
 msgid "Close the active window and prompts to save the documents"
@@ -2793,17 +2794,17 @@ msgstr "Κλείνει το ενεργό παράθυρο και προτρέπ�
 
 #. Resource IDs: (ID_VIEW_COLLAPSED - Menu, cmdViewCollapsed_LabelTitle_RESID)
 msgid "Collapse"
-msgstr ""
+msgstr "Κατάρρευση"
 
 #. Resource IDs: (cmdViewCollapsed)
 msgid ""
 "Collapse unchanged sections\n"
 "Collapse"
-msgstr ""
+msgstr "Κατάρρευσε αμετάβλητα τμήματα\nΚατάρρευσε"
 
 #. Resource IDs: (ID_VIEW_COLORBYAGE - Menu)
 msgid "Color by age, &continuous"
-msgstr ""
+msgstr "Χρώμα κατά ηλικία, &συνεχής"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 138, Dialog
 #. IDD_SETTINGSTBLAME: Control id 65535, Dialog IDD_SETTINGSUDIFF: Control id
@@ -2813,11 +2814,11 @@ msgstr "Χρώματα"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1481)
 msgid "Combine One Mail"
-msgstr ""
+msgstr "Συνδύασε μια ηλεκτρονική διεύθυνση"
 
 #. Resource IDs: (IDS_COMBINE_TO_ONE)
 msgid "Combine to one commit"
-msgstr ""
+msgstr "Συνδύασε τα σε ενα commit "
 
 #. Resource IDs: (IDS_PROGRS_CMDINFO)
 msgid "Command"
@@ -2845,48 +2846,48 @@ msgstr "Δέσμευση"
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
 msgid "Commit %1!s! not found in \"%2!s!\". Update submodule now?"
-msgstr ""
+msgstr "Το Commit %1!s! δεν βρεθικε στο \"%2!s!\". Να εκσυγχρονίστει η υπομονάδα τωρα;"
 
 #. Resource IDs: (IDS_LOG_NOT_VISIBLE)
 #, c-format
 msgid "Commit %s is NOT visible right now."
-msgstr ""
+msgstr "Το Commit %s δεν είναι Ορατό τώρα."
 
 #. Resource IDs: (IDS_COMMIT_COMMITPUSH)
 msgid "Commit && &Push"
-msgstr ""
+msgstr "Commit && &Push"
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
-msgstr ""
+msgstr "Ημερομηνία Commit"
 
 #. Resource IDs: (IDS_LOG_COMMIT_EMAIL)
 msgid "Commit Email"
-msgstr ""
+msgstr "Ηλεκτρονική διεύθυνση Commit"
 
 #. Resource IDs: (IDS_COMMIT_FINISH)
 msgid "Commit Finish"
-msgstr ""
+msgstr "Τέλος Commit"
 
 #. Resource IDs: (IDS_PROPERTIES_WND)
 msgid "Commit Info"
-msgstr ""
+msgstr "Πληροφορίες Commit"
 
 #. Resource IDs: (IDS_PROC_COMMITMESSAGE)
 msgid "Commit Message"
-msgstr ""
+msgstr "Μήνυμα Commit"
 
 #. Resource IDs: (IDS_LOG_COMMIT_NAME)
 msgid "Commit Name"
-msgstr ""
+msgstr "Όνομα Commit"
 
 #. Resource IDs: (Dialog IDD_LOGORDERING: Control id 1750)
 msgid "Commit Ordering:"
-msgstr ""
+msgstr "Ταξινόμηση Commit:"
 
 #. Resource IDs: (IDS_PROC_COMMIT_SUPERPROJECT)
 msgid "Commit super project"
-msgstr ""
+msgstr "Commit σε Υπέρεργο"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1110)
 msgid "Commit to:"
@@ -2907,7 +2908,7 @@ msgstr "Δεσμέυσες ανα ημερομηνία"
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYUNIT)
 #, c-format
 msgid "Commits each %s"
-msgstr ""
+msgstr "Commits καθε %s"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1135)
 msgid "Commits each week:"
@@ -2919,7 +2920,7 @@ msgstr "Δεσμεύει τις αλλαγές σας στην Αποθήκη"
 
 #. Resource IDs: (IDS_PROC_LOG_COMMITTEREMAIL)
 msgid "Committer Email"
-msgstr ""
+msgstr "Ηλεκτρονική διεύθυνση Committer"
 
 #. Resource IDs: (IDS_COMMITDLG_UNVERSIONEDFOLDERWARNING)
 msgid ""
@@ -2927,11 +2928,11 @@ msgid ""
 "You might want to add these folders recursively by using the 'Add...' context menu item.\n"
 "\n"
 "Are you sure that you want to continue the commit?"
-msgstr ""
+msgstr "Committing ενα φάκελου χωρίς έκδοση δεν θα προσθέσει και τα αντικειμένα παιδία του!\nΜιπος θελετε να προσθέσετε τους φάκελους αναδρομικά με την χρηση του αντικειμένου 'Προσθέτω...' στο μενού πλαισίου.\n\nΕίστε σίγουροι ότι θέλετε να συνεχίσετε με το Commit;"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Common Name:"
-msgstr ""
+msgstr "Κοινό όνομα:"
 
 #. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
 #. ID_VIEW_COMPAREHEADREVISIONS - Menu)
@@ -2940,15 +2941,15 @@ msgstr "Σύγκριση &ΚΕΦΑΛΙΚΩΝ εκδόσεων"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
 msgid "Compare change sets"
-msgstr ""
+msgstr "Συγκρίνετε σύνολα αλλαγών"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
-msgstr ""
+msgstr "Συγκρίνετε επιλεγμένες αναφορές"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
 msgid "Compare tags"
-msgstr ""
+msgstr "Συγκρίνε ετικέτες"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
@@ -2961,7 +2962,7 @@ msgstr "Σύγκριση κενών"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARE)
 msgid "Compare with &working tree"
-msgstr ""
+msgstr "Συγκρίνε με το &τρέχον δέντρο"
 
 #. Resource IDs: (IDS_LOG_COMPAREWITHBASE)
 msgid "Compare with b&ase"
@@ -2975,7 +2976,7 @@ msgstr "Σύγκριση με προηγούμενη εκδόση"
 msgid ""
 "Compares all whitespaces when diffing\n"
 "Compare whitespaces"
-msgstr ""
+msgstr "Συγκρίνει ολα τα κενά λευκού οταν ψάχνει για διαφορές\nΣυγκρίνε κενά λευκού"
 
 #. Resource IDs: (IDS_MENUDESCDIFF)
 msgid ""
@@ -2989,29 +2990,29 @@ msgstr "Ολοκληρωθηκε"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Config"
-msgstr ""
+msgstr "Config"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535, Dialog
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535, Dialog IDD_SETTINGSDIALOGS3:
 #. Control id 65535)
 msgid "Config source"
-msgstr ""
+msgstr "Config πηγής"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535)
 msgid "Config type:"
-msgstr ""
+msgstr "Τύπος Config:"
 
 #. Resource IDs: (cmdRegexFilterConfig2_LabelTitle_RESID)
 msgid "Configure Filter Regex"
-msgstr ""
+msgstr "Διαμορφώστε φίλτρο Regex"
 
 #. Resource IDs: (IDS_CONFIGUREREGEXES, ID_REGEXFILTER - Menu)
 msgid "Configure Filter Regexes"
-msgstr ""
+msgstr "Διαμορφώστε φίλτρα Regexes"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 236)
 msgid "Configure Hook Scripts"
-msgstr ""
+msgstr "Διαμορφώστε Άγκιστρα Σενάριων"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 284)
 msgid "Configure Issue Tracker Integration"
@@ -3021,11 +3022,11 @@ msgstr "Ρύθμιση ενσωμάτωσης Issue Tracker"
 msgid ""
 "Configure alternative editor. Preferably one which can handle *nix line "
 "endings."
-msgstr ""
+msgstr "Διαμορφώστε εναλλακτικό κειμενογράφο. Κατά προτίμηση έναν που μπορεί να χειριστεί τέλος γραμμών unix."
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
-msgstr ""
+msgstr "Διαμορφώστε git.exe"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure the program used for comparing different revisions of files"
@@ -3037,24 +3038,24 @@ msgstr "Παραμετροποίσηση του χρησιμοποιούμενο
 
 #. Resource IDs: (IDS_FIRSTSTART_USERTITLE)
 msgid "Configure user information"
-msgstr ""
+msgstr "Διαμορφώστε πληροφορίες χρήστη"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
-msgstr ""
+msgstr "Διαμορφώστε πρόγραμμα θεασής για GNU διαφορες αρχείων (patch  αρχεία)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1768)
 msgid "Confirm to kill running git process"
-msgstr ""
+msgstr "Επιβεβαιώστε για να τερματίσετε την διεργασία git"
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4568,
 #. IDS_PATHACTIONS_CONFLICT)
 msgid "Conflict"
-msgstr ""
+msgstr "Σύγκρουση"
 
 #. Resource IDs: (IDS_PROC_CONFLICTFILES)
 msgid "Conflict Files"
-msgstr ""
+msgstr "Συγκρουόμενα αρχεία"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Conflict resolved"
@@ -3067,7 +3068,7 @@ msgstr "Διιστάση"
 
 #. Resource IDs: (IDS_PROC_SYNC_CONFLICTS)
 msgid "Conflicts"
-msgstr ""
+msgstr "Συγκρούσεις "
 
 #. Resource IDs: (IDS_STATUSBAR_CONFLICTS)
 #, c-format
@@ -3076,11 +3077,11 @@ msgstr "Διιστάσεις: %d"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "Context lines for patches"
-msgstr ""
+msgstr "Γραμμές πλαισίου για patches"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1564, IDS_CONTINUEBUTTON)
 msgid "Continue"
-msgstr ""
+msgstr "Να συνεχίσει"
 
 #. Resource IDs: (IDS_EDIT_SPACE2TAB)
 msgid "Convert spaces to tabs"
@@ -3105,11 +3106,11 @@ msgstr "Αντιγραφή"
 
 #. Resource IDs: (IDS_BLAME_POPUP_COPYHASHTOCLIPBOARD, IDS_COPY_COMMIT_HASH)
 msgid "Copy SHA-1 to clipboard"
-msgstr ""
+msgstr "Αντιγραφή SHA-1 στο πρόχειρο"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYEXT)
 msgid "Copy all information to clipboard"
-msgstr ""
+msgstr "Αντιγραφή όλον τον πληροφορίες στο πρόχειρο"
 
 #. Resource IDs: (IDS_PROC_COPYRENAME)
 msgid "Copy and rename"
@@ -3117,15 +3118,15 @@ msgstr "Αντιγραφή και μετονομασία"
 
 #. Resource IDs: (IDS_BLAME_POPUP_COPYLOGTOCLIPBOARD)
 msgid "Copy log to clipboard"
-msgstr ""
+msgstr "Αντιγραφή ημερολόγιο στο πρόχειρο"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPY)
 msgid "Copy paths to clipboard"
-msgstr ""
+msgstr "Αντιγραφή μονοπάτιων στο πρόχειρο"
 
 #. Resource IDs: (IDS_COPY_REF_NAMES)
 msgid "Copy ref names"
-msgstr ""
+msgstr "Αντιγραφή ονομάτων των αναφορών"
 
 #. Resource IDs: (IDS_FILEDIFF_POPCLIPBOARD)
 msgid "Copy selection to cli&pboard"
@@ -3144,12 +3145,12 @@ msgstr "Αντιγραφή στο πρόχειρο"
 #. Resource IDs: (IDS_PROC_NEWNAMECOPY)
 #, c-format
 msgid "Copy: New name for %s"
-msgstr ""
+msgstr "Αντιγραφή: Νέο όνομα για %s"
 
 #. Resource IDs: (IDS_PROC_COPYINGPROG)
 #, c-format
 msgid "Copying %s"
-msgstr ""
+msgstr "Αντιγραφή %s"
 
 #. Resource IDs: (IDS_PROC_COPYING)
 msgid "Copying..."
@@ -3157,12 +3158,12 @@ msgstr "Γίνεται αντιγραφή..."
 
 #. Resource IDs: (IDS_SPELLEDIT_CORRECTIONS)
 msgid "Corrections"
-msgstr ""
+msgstr "Διορθώσεις"
 
 #. Resource IDs: (IDS_ERR_FAILEDIGNOREPROPERTY)
 #, c-format
 msgid "Could not add %s to the ignore list!"
-msgstr ""
+msgstr "Δεν ήταν δυνατό να προστεθεί το %s στον κατάλογο με τα παραβλεπόμενα αρχεία!"
 
 #. Resource IDs: (IDS_CHECKNEWER_NETERROR)
 msgid "Could not check for a newer version!"
@@ -3171,7 +3172,7 @@ msgstr "Δεν ήταν δυνατό να γίνει έλεγχος για μι�
 #. Resource IDs: (IDS_CHECKNEWER_NETERROR_FORMAT)
 #, c-format
 msgid "Could not check for a newer version! %1!s! (Error code: 0x%2!08X!)"
-msgstr ""
+msgstr "Δεν ήταν δυνατό να γίνει έλεγχος για μια ποιό καινουργια έκδοση! %1!s! (Κωδικός λάθους: 0x%2!08X!)"
 
 #. Resource IDs: (IDS_ERR_COPYFILES)
 #, c-format
@@ -3179,7 +3180,7 @@ msgid ""
 "Could not copy the files!\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "Δεν γίνεται να αντιγράφει το αρχείο\n\n%s"
 
 #. Resource IDs: (AFX_IDP_FILE_DIR_FULL)
 #, c-format
@@ -3192,14 +3193,14 @@ msgstr "Δεν μπορεί να προσδιοριστεί η τελευταί�
 
 #. Resource IDs: (IDS_ERR_NOTFOUND_SUPER_PRJECT)
 msgid "Could not find Super-project"
-msgstr ""
+msgstr "Δεν μπόρεσε να βρεθεί υπερέργο"
 
 #. Resource IDs: (IDS_ERR_GITNEEDHACKS)
 msgid ""
 "Could not find \"msysgit\" or \"windows\" in versionstring of git.exe.\n"
 "If you are using git of the cygwin or msys2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"cygwin git\" or \"msys2 git\"."
-msgstr ""
+msgstr "Δεν βρέθηκε \"msysgit\" η \"windows\" στην συμβολοσειρά έκδοσης του git.exe.\nΑν χρησιμοποιείτε το git με περιβάλλον cygwin η msys2 πρέπει να ενεργοποιήσετε ειδικά hacks.\nΓια περισσότερες πληροφορίες ψάξτε στην βοήθεια την λέξη-κλειδί \"cygwin git\" η \"msys2 git\"."
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -3222,7 +3223,7 @@ msgstr "Δεν μπορεί να ανοιχθεί το %1 γιατί υπάρχ�
 msgid ""
 "Could not open the file\n"
 "%s"
-msgstr ""
+msgstr "Δεν γίνεται να ανοιχτεί το αρχείο\n%s"
 
 #. Resource IDs: (AFX_IDP_FILE_REMOVE_CURRENT)
 #, c-format
@@ -3232,26 +3233,26 @@ msgstr "Δεν μπορεί να αφαιρεθεί το %1 γιατί βρίσ�
 #. Resource IDs: (IDS_ERR_FAILEDUNIGNOREPROPERTY)
 #, c-format
 msgid "Could not remove %s from the ignore list"
-msgstr ""
+msgstr "Δεν ήταν δυνατό να διαγραφεί το %s από τον κατάλογο των παρεβλεπομένων αρχείων"
 
 #. Resource IDs: (IDS_PROC_COMBINE_ERRORSTEP1)
 msgid "Could not reset to first commit (first step). Aborting..."
-msgstr ""
+msgstr "Δεν ήταν δυνατό να γίνει επαναφορά στο πρώτο Commit (πρώτο βήμα). Ακύρωση..."
 
 #. Resource IDs: (IDS_PROC_COMBINE_ERRORSTEP2)
 msgid "Could not reset to last commit (second step). Aborting..."
-msgstr ""
+msgstr "Δεν ήταν δυνατό να γίνει επαναφορά στο τελευταίο Commit (δεύτερο βήμα). Ακύρωση..."
 
 #. Resource IDs: (IDS_PROC_COMBINE_ERRORRESETHEAD)
 msgid "Could not reset to original HEAD."
-msgstr ""
+msgstr "Δεν ήταν δυνατό να γίνει επαναφορά στο αρχικό HEAD."
 
 #. Resource IDs: (IDS_ERR_NOURLOFFILE)
 #, c-format
 msgid ""
 "Could not retrieve URL of the file!\n"
 "%s"
-msgstr ""
+msgstr "Δεν ήταν δυνατό να ανεβρεθεί το URL του αρχείου!\n%s"
 
 #. Resource IDs: (IDS_ERR_MAINFRAME_FILEVERSIONNOTFOUND)
 #, c-format
@@ -3270,7 +3271,7 @@ msgid ""
 "Could not start diff viewer!\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "Δεν γίνεται να ξεκινήσει ο θεατής διαφόρων!\n\n%s"
 
 #. Resource IDs: (IDS_ERR_EXTDIFFSTART)
 #, c-format
@@ -3278,7 +3279,7 @@ msgid ""
 "Could not start external diff program!\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "Δεν γίνεται να ξεκινήσει το εξωτερικό πρόγραμμα συγκρίσεων διαφόρων!\n\n%s"
 
 #. Resource IDs: (IDS_ERR_EXTMERGESTART)
 #, c-format
@@ -3286,7 +3287,7 @@ msgid ""
 "Could not start external merge program!\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "Δεν γίνεται να ξεκινήσει το εξωτερικό πρόγραμμα συγχώνευσης!\n\n%s"
 
 #. Resource IDs: (IDS_ERR_GITDLLMISSING)
 msgid ""
@@ -3305,11 +3306,11 @@ msgid ""
 "Could not start text viewer!\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "Δεν γίνεται να ξεκινήσει ο κειμενογράφος!\n\n%s"
 
 #. Resource IDs: (IDS_ERR_PAGEANT)
 msgid "Could not start the Putty Agent (pageant)."
-msgstr ""
+msgstr "Δεν γίνεται να ξεκινήσει το Putty Agent (pageant)."
 
 #. Resource IDs: (IDS_ERR_THREADSTARTFAILED)
 msgid "Could not start thread!"
@@ -3317,16 +3318,16 @@ msgstr "Δεν γινόταν να ξεκινίσει η διεργασία!"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1501)
 msgid "Coun&t"
-msgstr ""
+msgstr "Αρίθμησ&η"
 
 #. Resource IDs: (IDS_FIND_COUNT)
 #, c-format
 msgid "Count: %u matches."
-msgstr ""
+msgstr "Αρίθμηση:%uταιριάζει."
 
 #. Resource IDs: (IDS_MENUBRANCH)
 msgid "Create &Branch..."
-msgstr ""
+msgstr "Δημιουργία &Branch..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
@@ -3334,15 +3335,15 @@ msgstr "Δημιουργία &βιβλιοθήκης"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1527)
 msgid "Create &New Branch"
-msgstr ""
+msgstr "Δημιουργία &Νέου Branch..."
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
-msgstr ""
+msgstr "Δημιουργία &Tag..."
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
-msgstr ""
+msgstr "Δημιουργία &patch αρχείου"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1641)
 msgid "Create .gitignore file"
