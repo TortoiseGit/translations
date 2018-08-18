@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-18 08:53+0000\n"
+"PO-Revision-Date: 2018-08-18 14:14+0000\n"
 "Last-Translator: Falital <falital@hotmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/lznuaa/tortoisegit/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -3207,7 +3207,7 @@ msgstr "Δεν βρέθηκε \"msysgit\" η \"windows\" στην συμβολο
 msgid ""
 "Could not get read version information from git.exe.\n"
 "Got: \"%s\""
-msgstr ""
+msgstr "Δεν ήταν δυνατό να διαβαστεί η πληροφορία έκδοσης από το git.exe.\n Επέστρεψε: \"%s\""
 
 #. Resource IDs: (IDS_ERR_NOSTATUS)
 msgid "Could not get the status!"
@@ -3259,7 +3259,7 @@ msgstr "Δεν ήταν δυνατό να ανεβρεθεί το URL του α�
 msgid ""
 "Could not retrieve revision %1!s! of the file %2!s!.\n"
 "Patching is not possible!"
-msgstr ""
+msgstr "Δεν ήταν δυνατό να ανακτηθεί η έκδωση %1!s! του αρχείου  %2!s!.\nΔεν μπορεί να γίνει διόρθωση!"
 
 #. Resource IDs: (IDS_ERR_TGITBLAME)
 msgid "Could not start TortoiseGitBlame"
@@ -3294,7 +3294,7 @@ msgid ""
 "Could not start git.exe. A dynamic library (dll) is missing.\n"
 "You might need to specify an extra PATH.\n"
 "Check help file for \"Extra PATH\"."
-msgstr "Δεν ήταν δυνατή η εκκίνηση του git.exe. "
+msgstr "Δεν ήταν δυνατή η εκκίνηση του git.exe. Μια δυναμικη βιβλιοθηκη (dll) λιπει.\nΊσως χρειαστείτε να ορισετε μια επιπλεον μεταβλητη PATH.\nΔείτε το αρχείο βοήθειας για \"Extra PATH\"."
 
 #. Resource IDs: (AFX_IDP_FAILED_TO_START_PRINT)
 msgid "Could not start print job."
@@ -3377,7 +3377,7 @@ msgstr "Δημιουργία Ετικέτα σε αυτήν την έκδοση.
 msgid ""
 "Create a new document\n"
 "New"
-msgstr ""
+msgstr "ια "
 
 #. Resource IDs: (IDS_CLONE_DEPTH_TT)
 msgid ""
@@ -3386,37 +3386,37 @@ msgid ""
 "clone or fetch from it, nor push from nor into it), but is adequate if you "
 "are only interested in the recent history of a large project with a long "
 "history, and would want to send in fixes as patches."
-msgstr ""
+msgstr "Δημιουργίστε ενα νεο ριχο κλονο με τιν ιστορια περικομμένη σε ενα συγγεκριμενο αριθμο εκδοσεων. Ενα ριχο αποθετήριο εχε"
 
 #. Resource IDs: (ID_EDIT_CREATEUNIFIEDDIFFFILE - Menu)
 msgid "Create patch file"
-msgstr ""
+msgstr "Δημιουργία patch αρχείου"
 
 #. Resource IDs: (IDS_PROC_REQUESTPULL)
 msgid "Create pull &request"
-msgstr ""
+msgstr "Δημιουργία &αίτημα Pull"
 
 #. Resource IDs: (IDS_MENUCREATEREPOS)
 msgid "Create repositor&y here..."
-msgstr ""
+msgstr "Δημιουργία ενός repositor&y εδώ..."
 
 #. Resource IDs: (IDS_PROC_CREATED)
 msgid "Created"
-msgstr ""
+msgstr "Δημιουργήθηκε"
 
 #. Resource IDs: (IDS_MENUDESCCOPY)
 msgid "Creates a branch or tag"
-msgstr ""
+msgstr "Δημιουργία Branch η Ετικέτας"
 
 #. Resource IDs: (IDS_SETTINGS_CREATELIB_TT)
 msgid "Creates a library folder with special settings for Git working trees"
-msgstr ""
+msgstr "Δημιουργεί ένα φάκελο βιβλιοθήκης με ειδικές ρύθμισης για τα τρέχοντα δέντρα του Git"
 
 #. Resource IDs: (cmdCreateUnifiedDiff)
 msgid ""
 "Creates a patch file from the differences of the two files\n"
 "Create patch file"
-msgstr ""
+msgstr "Δημιουργεί ενα αρχείο patch απο τησ διαφορες αναμεσα στα δυο αρχεια\nΔημιουργια αρχείο patch"
 
 #. Resource IDs: (IDS_MENUDESCCREATEREPOS)
 msgid "Creates a repository database at the current location"
@@ -3428,19 +3428,19 @@ msgstr "Δημιουργία ενός ενοιαίου αρχείου διαφο
 
 #. Resource IDs: (IDS_PROC_CREATINGPULLREUQEST)
 msgid "Creating pull-request..."
-msgstr ""
+msgstr "Δημιουργία αιτήματος Pull..."
 
 #. Resource IDs: (IDS_GITCREDENTIAL_HELPEREMPTY)
 msgid "Credential helper must not be empty."
-msgstr ""
+msgstr "Ο βοηθός πιστοποιητικών πρέπει να είναι κενός. "
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535)
 msgid "Credential helper:"
-msgstr ""
+msgstr "Βοηθός πιστοποιητικών:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 65535)
 msgid "Credentials"
-msgstr ""
+msgstr "Πιστοποιητικά"
 
 #. Resource IDs: (IDS_SCIEDIT_CUT)
 msgid "Cu&t"
@@ -3449,17 +3449,17 @@ msgstr "Απ&οκοπή"
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 1784, Dialog
 #. IDD_SETTINGSCOLORS_2: Control id 65535)
 msgid "Current Branch"
-msgstr ""
+msgstr "Τρέχων Branch"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Current Branch:"
-msgstr ""
+msgstr "Τρέχων Branch:"
 
 #. Resource IDs: (IDS_PROC_COMMIT_DETACHEDWARNING)
 msgid ""
 "Current HEAD is detached, you are working on (no branch).\n"
 "Do you want to create a branch now?"
-msgstr ""
+msgstr "Δεν ήταν Τρέχων HEAD είναι αποσπασμένο, δουλεύετε στο (κανένα branch).\n Θέλετε να δημιουργήσετε ένα Branch τώρα;"
 
 #. Resource IDs: (IDS_REBASE_UPTODATE_FMT)
 #, c-format
@@ -3467,7 +3467,7 @@ msgid ""
 "Current branch \"%s\" is up to date\n"
 "\n"
 "If you want to force a rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "Τρέχων Branch \"%s\" είναι ενημερωμένο\n\nΑμα θελετε να εξαναγκασετε μια αναπροσαρμογή ακομα και αν ο τρέχων Branch ειναι απόγονος απο το commit στο οπιο κανετε αναπροσαρμογή, παρακαλο επιλιξτε το κουτάκι \"Αναγκασμός αναπροσαρμογής\"."
 
 #. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
 msgid ""
@@ -3482,11 +3482,11 @@ msgstr "Η τρέχουσα έκδοση είναι: "
 #. Resource IDs: (IDS_CHECKNEWER_CURRENTVERSION)
 #, c-format
 msgid "Current version is: %s"
-msgstr ""
+msgstr "Τρέχων έκδοση ειναι: %s"
 
 #. Resource IDs: (IDS_TOOLBAR_CUSTOMIZE)
 msgid "Customize..."
-msgstr ""
+msgstr "Προσάρμοσε..."
 
 #. Resource IDs: (57635)
 msgid ""
@@ -3496,15 +3496,15 @@ msgstr "Αποκοπή της επιλογής και τοποθέτηση στ�
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Cyrillic"
-msgstr ""
+msgstr "Κυριλλικά"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 1624)
 msgid "DCommit Type"
-msgstr ""
+msgstr "Τύπος DCommit"
 
 #. Resource IDs: (IDS_MENUDAEMON)
 msgid "Daemon"
-msgstr ""
+msgstr "Δαίμονας"
 
 #. Resource IDs: (IDS_LOG_DATE, IDS_STATUSLIST_COLDATE)
 msgid "Date"
@@ -3512,7 +3512,7 @@ msgstr "Ημερομηνία"
 
 #. Resource IDs: (IDS_DATELASTCOMMIT)
 msgid "Date Last Commit"
-msgstr ""
+msgstr "Τελευταία ημερομηνία Commit"
 
 #. Resource IDs: (IDS_DEFAULT)
 msgid "Default"
@@ -3520,7 +3520,7 @@ msgstr "Προεπιλογή"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Default limitation of log messages:"
-msgstr ""
+msgstr "Προεπιλεγμένος περιορισμός των μηνυμάτων ημερολόγιου:"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1064)
 msgid "Default to UTF-8 encoding"
@@ -3534,29 +3534,29 @@ msgstr "Διαγραφή"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCHES)
 #, c-format
 msgid "Delete %d branches"
-msgstr ""
+msgstr "Διαγραφή%dbranches"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCHES)
 #, c-format
 msgid "Delete %d remote branches"
-msgstr ""
+msgstr "Διαγραφή%dαπομακρυσμένων branches"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAGS)
 #, c-format
 msgid "Delete %d tags"
-msgstr ""
+msgstr "Διαγραφή%dετικετών "
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
 msgid "Delete &local"
-msgstr ""
+msgstr "Διαγραφή &τοπικού"
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
-msgstr ""
+msgstr "Διαγραφή αναφοράς..."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEALLTAGS)
 msgid "Delete all tags"
-msgstr ""
+msgstr "Διαγραφή όλων τον ετικετών"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE)
 #, c-format
@@ -3565,11 +3565,11 @@ msgstr "Διέγραψε και &αγνόησε %d αντικείμενα με �
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE2)
 msgid "Delete and &ignore multiple items by name"
-msgstr ""
+msgstr "Διαγραφή και &αγνόηση πολλαπλών αντικείμενων κατά όνομα"
 
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
-msgstr ""
+msgstr "Διαγραφή και προσθήκη στην λίστα &αγνόησης"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK)
 #, c-format
@@ -3578,62 +3578,62 @@ msgstr "Διαγραφή και παράβλεψη %d στοιχείων με &�
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK2)
 msgid "Delete and ignore multiple items by &extension"
-msgstr ""
+msgstr "Διαγραφή και αγνόηση πολλαπλών αντικείμενων κατά &επέκταση"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
-msgstr ""
+msgstr "Διαγραφή branch"
 
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "Delete branch/tag"
-msgstr ""
+msgstr "Διαγραφή branch/ετικέτα"
 
 #. Resource IDs: (IDS_DELETE_LOCALTAG)
 msgid "Delete local tag"
-msgstr ""
+msgstr "Διαγραφή τοπικης ετικέτας"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCH)
 msgid "Delete remote branch"
-msgstr ""
+msgstr "Διαγραφή απομακρυσμένου branch"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 4579)
 msgid "Delete remote tag - TortoiseGit"
-msgstr ""
+msgstr "Διαγραφή απομακρυσμένης ετικέτας - TortoiseGit"
 
 #. Resource IDs: (IDS_DELETEREMOTETAGON)
 #, c-format
 msgid "Delete remote tags on \"%s\"..."
-msgstr ""
+msgstr "Διαγραφή απομακρυσμένη ετικέτας στο \"%s\"..."
 
 #. Resource IDs: (IDS_DELETEREMOTETAG)
 msgid "Delete remote tags..."
-msgstr ""
+msgstr "Διαγραφή απομακρυσμένη ετικέτας..."
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_DELETESUBMODULE)
 msgid "Delete submodule"
-msgstr ""
+msgstr "Διαγραφή υπομονάδας"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAG)
 msgid "Delete tag"
-msgstr ""
+msgstr "Διαγραφή ετικέτας"
 
 #. Resource IDs: (IDS_DELETE_REMOTETAG)
 msgid "Delete tag on remote"
-msgstr ""
+msgstr "Διαγραφή ετικέτας σε απομακρυσμένο"
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
-msgstr ""
+msgstr "Διαγραφή του υπάρχων branch η χρήση ενός διαφορετικού ονόματος"
 
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4570)
 msgid "Delete/modify merge conflict"
-msgstr ""
+msgstr "Διαγραφή/τροποποίηση συγχώνευσης σύγκρουσης"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK3)
 msgid ""
 "Delete\n"
 "The file is removed."
-msgstr ""
+msgstr "Διαγραφή\nΤο αρχείο εχει αφαιρεθεί."
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1709, Dialog
 #. IDD_SETTINGSOVERLAYHANDLERS: Control id 1551, IDS_DELETED,
@@ -3648,11 +3648,11 @@ msgstr "Προσθήκη και διαγραφή του επιλεγμένου �
 
 #. Resource IDs: (IDS_MENUDESCREMOVE)
 msgid "Deletes files/folders from version control"
-msgstr ""
+msgstr "Διαγραφη αρχεία/φάκελους από τον έλεγχο έκδοσης"
 
 #. Resource IDs: (IDS_MENUDESCREMOVEKEEP)
 msgid "Deletes files/folders from version control but keeps the file"
-msgstr ""
+msgstr "Διαγραφη αρχεία/φάκελους από τον έλεγχο έκδοσης αλλά διατηρεί τα αρχεία"
 
 #. Resource IDs: (IDS_SETTINGS_CLEARACTIONLOG_TT)
 msgid "Deletes the action log file"
@@ -3664,7 +3664,7 @@ msgstr "Διαγράφεται"
 
 #. Resource IDs: (IDS_SETTINGS_DELCACHE)
 msgid "Deleting cached data"
-msgstr ""
+msgstr "Διαγραφή δεδομένων προσωρινής μνήμης"
 
 #. Resource IDs: (IDS_SETTINGS_DELFILE)
 msgid "Deleting file"
@@ -3672,11 +3672,11 @@ msgstr "Διαγραφή αρχείου"
 
 #. Resource IDs: (IDS_DELETING_REMOTE_REFS)
 msgid "Deleting remote refs..."
-msgstr ""
+msgstr "Διαγραφή απομακρυσμένων αναφορών..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 65535)
 msgid "Delivery:"
-msgstr ""
+msgstr "Διανομή:"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1646, Dialog IDD_PULLFETCH:
 #. Control id 1646)
@@ -3685,11 +3685,11 @@ msgstr "Βάθος"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Describe"
-msgstr ""
+msgstr "Περιγραφή"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Describe Strategy"
-msgstr ""
+msgstr "Περιγραφή Στρατηγικής"
 
 #. Resource IDs: (IDS_DESCRIPTION)
 msgid "Description"
@@ -3701,7 +3701,7 @@ msgstr "Απεπιλογή πίνακα αλλαγών"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1501)
 msgid "Destination"
-msgstr ""
+msgstr "Προορισμός"
 
 #. Resource IDs: (AFX_IDP_FAILED_DISK_FULL)
 msgid "Destination disk drive is full."
@@ -3709,31 +3709,31 @@ msgstr "Ο προοριζόμενος δίσκος είναι γεμάτος."
 
 #. Resource IDs: (32880)
 msgid "Detect and highlight moved blocks"
-msgstr ""
+msgstr "Ανιχνεύει και επισημαίνει μετατεθειμένα μπλοκ"
 
 #. Resource IDs: (32793)
 msgid "Detect moved and copied lines from existing files at any commit"
-msgstr ""
+msgstr "Ανιχνεύει μετατεθειμένες και αντιγραμμένες γραμμές από τα υπάρχοντα αρχεία σε οποιοδήποτε commit"
 
 #. Resource IDs: (32792)
 msgid ""
 "Detect moved and copied lines from existing files at the commit where the "
 "destination file has been created"
-msgstr ""
+msgstr "Ανιχνεύει μετατεθειμένες και αντιγραμμένες γραμμές από τα υπάρχοντα αρχεία στο commit, όπου το αρχείο προορισμού έχει δημιουργηθεί"
 
 #. Resource IDs: (32791)
 msgid "Detect moved and copied lines from files modified in the same commit"
-msgstr ""
+msgstr "Ανιχνεύει μετατεθειμένες και αντιγραμμένες γραμμές σε τροποποιημένα αρχεία από το ίδιο commit"
 
 #. Resource IDs: (32790)
 msgid "Detect moved or copied lines within a file"
-msgstr ""
+msgstr "Ανιχνεύει μετατεθειμένες και αντιγραμμένες γραμμές σε ένα αρχείο"
 
 #. Resource IDs: (AFX_IDS_DIB_FORMAT)
 msgid ""
 "Device Independent Bitmap\n"
 "a device independent bitmap"
-msgstr ""
+msgstr "Ανεξάρτητα από συσκευή χάρτης δυαδικών ψηφίων\nένας ανεξάρτητα από συσκευή χάρτης δυαδικών ψηφίων"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1277)
 msgid "Dialog sizes and positions"
@@ -3741,39 +3741,39 @@ msgstr "Θέσεις και μεγέθη διαλόγων"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "Dialogs"
-msgstr ""
+msgstr "Διάλογοι"
 
 #. Resource IDs: (cmdGroupDiff_LabelTitle_RESID)
 msgid "Diff"
-msgstr ""
+msgstr "Διαφορά"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1789)
 msgid "Diff Options"
-msgstr ""
+msgstr "Επιλογές Διαφόρων "
 
 #. Resource IDs: (IDS_MENUDIFFTWO)
 msgid "Diff Two Commits"
-msgstr ""
+msgstr "Διαφορές ανάμεσα σε δυο Commits"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 192)
 msgid "Diff Viewer"
-msgstr ""
+msgstr "Θεατής Διαφορων"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 193)
 msgid "Diff Viewer::Merge Tool"
-msgstr ""
+msgstr "Θεατής Διαφορων::Εργαλείο Συγχώνευσης"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff added lines"
-msgstr ""
+msgstr "Diff πρόσθεσε γραμμές"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff command"
-msgstr ""
+msgstr "εντολή Diff"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff comment"
-msgstr ""
+msgstr "σχόλιο Diff "
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 65535)
 msgid "Diff file:"
@@ -3781,33 +3781,33 @@ msgstr "Αρχείο διαφορών:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff header"
-msgstr ""
+msgstr "επικεφαλίδα Diff"
 
 #. Resource IDs: (IDS_MENUDIFFLATER)
 msgid "Diff later"
-msgstr ""
+msgstr "Diff αργότερα"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff position"
-msgstr ""
+msgstr "θέση Diff"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff removed lines"
-msgstr ""
+msgstr "Diff αφαιρεμένων γραμμών"
 
 #. Resource IDs: (IDS_MENUDIFFNOW)
 #, c-format
 msgid "Diff with \"%s\""
-msgstr ""
+msgstr "Diff με \"%s\""
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_DIFFWITHPARENT)
 #, c-format
 msgid "Diff with parent %d"
-msgstr ""
+msgstr "Diff με γονιό%d"
 
 #. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
 msgid "Differ"
-msgstr ""
+msgstr "Διάφερε"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1302)
 msgid "Difference between"
@@ -3819,15 +3819,15 @@ msgstr "Διαφορά:"
 
 #. Resource IDs: (IDS_PROC_STATISTICS_DIFF)
 msgid "Diffing commits"
-msgstr ""
+msgstr "Διάφερε commits"
 
 #. Resource IDs: (IDS_MENUDESCPREVDIFF)
 msgid "Diffs the working tree file with the one before the last commit"
-msgstr ""
+msgstr "Diffs το αχρείο του τρέχοντος δέντρου με αυτό προ το τελευταίου commit"
 
 #. Resource IDs: (IDS_MENUDESCDIFFTWO)
 msgid "Diffs two any commits"
-msgstr ""
+msgstr "Diffs οποιαδήποτε δυο commits"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 65535, Dialog
 #. IDD_OPENDLG: Control id 65535)
@@ -3836,25 +3836,25 @@ msgstr "Κατάλογος:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1796)
 msgid "Disable sounds"
-msgstr ""
+msgstr "Απενεργοποιήστε τους ήχους"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1536)
 msgid "Disable status cache for elevated processes"
-msgstr ""
+msgstr "Απενεργοποιήστε την κατάσταση της προσωρινή μνήμης για τις ανυψωμένες διεργασίες"
 
 #. Resource IDs: (IDS_SETTINGS_RECURSIVE_TT)
 msgid ""
 "Disable this option if you have really big working trees and experience\n"
 "too much disk access when browsing the working tree."
-msgstr ""
+msgstr "Απενεργοποιήστε την επιλογη αμα εχετε ενα πολυ μεγαλα δεντρα εργασίας και εμπειρία\nυπερβολική πρόσβαση στο δίσκο κατά την περιήγηση στο δέντρο εργασίας."
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKSBUTTON)
 msgid "Disable update checks"
-msgstr ""
+msgstr "Απενεργοποιήστε τους ελέγχους ενημέρωσης"
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_DISABLED)
 msgid "Disabled"
-msgstr ""
+msgstr "Απενεργοποιημένο"
 
 #. Resource IDs: (AFX_IDP_FILE_DISKFULL)
 #, c-format
@@ -3868,13 +3868,13 @@ msgstr "Σφάλμα αποστολής: %1"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1910)
 msgid "Display branch revision number"
-msgstr ""
+msgstr "Απεικόνισε το νούμερο έκδοσης του branch"
 
 #. Resource IDs: (57609)
 msgid ""
 "Display full pages\n"
 "Print Preview"
-msgstr ""
+msgstr "Απεικόνισε πλήρες σελίδες\nΕκτύπωσε προεπισκόπηση"
 
 #. Resource IDs: (57669)
 msgid ""
@@ -3902,23 +3902,23 @@ msgstr "Εμφάνιση πληροφοριών εφαρμογής, αριθμό
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1075)
 msgid "Display subject and body of commit messages"
-msgstr ""
+msgstr "Απεικόνισε θέμα και σώμα του μηνύματος του commit"
 
 #. Resource IDs: (IDS_PROC_NOTSHOWAGAINCONTINUE)
 msgid "Do &not show me this warning again (if Continue is selected)"
-msgstr ""
+msgstr "Να &μην εμφανιστεί ξανά αυτή η προειδοποίηση (αν επιλεγεί η επιλογή Συνέχεια)"
 
 #. Resource IDs: (IDS_PROC_NOTSHOWAGAINIGNORE)
 msgid "Do &not show me this warning again (if Ignore is selected)"
-msgstr ""
+msgstr "Να &μην εμφανιστεί ξανά αυτή η προειδοποίηση (αν επιλεγεί η επιλογή Αγνοώ)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1407)
 msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
-msgstr ""
+msgstr "Μην επιλέγετε αυτόματα τα αρχεία που \"λυπουν\" (διαγραμμένα, αλλά unstaged)"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1669)
 msgid "Do not autoselect submodules"
-msgstr ""
+msgstr "Μην επιλέγετε αυτομάτως υπομονάδες"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid "Do not show the context menu for the following paths:"
@@ -3926,75 +3926,75 @@ msgstr "Να μην εμφανίζεται το αναδυόμενο μενού 
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1730)
 msgid "Do not use recycle bin"
-msgstr ""
+msgstr "Μην χρησιμοποιείτε το κάδο ανακύκλωσης"
 
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "Do you really want to delete ALL %d stash?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να διαγράψετε ΟΛΑ %dτα stash;"
 
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
 msgid "Do you really want to delete \"%s\"?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να διαγράψετε \"%s\";"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
 "Do you really want to disable automatic update checks for TortoiseGit?\n"
 "\n"
 "Automatic update checks can be re-enabled in TortoiseGit settings on the General page."
-msgstr ""
+msgstr "Θέλετε πραγματικά να απενεργοποιήσετε τους ελέγχους αυτόματης ενημέρωσης για το TortoiseGit;\nΟι έλεγχοι αυτόματης ενημέρωσης μπορούν να ενεργοποιηθούν ξανά στις ρυθμίσεις TortoiseGit στη σελίδα Γενικά."
 
 #. Resource IDs: (IDS_PROC_MARK_ASSUMEVALID)
 msgid "Do you really want to mark the selected file(s) as assume-valid?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να επισημάνετε τα επιλεγμένα αρχεία ως θεωρητικά έγκυρα;"
 
 #. Resource IDs: (IDS_PROC_MARK_SKIPWORKTREE)
 msgid "Do you really want to mark the selected file(s) as skip-worktree?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να επισημάνετε τα επιλεγμένα αρχεία ως παραλειπόμενα-δέντρου εργασίας;"
 
 #. Resource IDs: (IDS_PROC_FORCEMOVE)
 msgid "Do you really want to move this file or folder?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να μετακινήσετε αυτό το αρχείο ή φάκελο;"
 
 #. Resource IDs: (IDS_PROC_DELETENREFS)
 #, c-format
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
-msgstr ""
+msgstr "Θέλετε πραγματικά να διαγράψετε οριστικά τις %dεπιλεγμένες αναφορές; ΔΕΝ μπορεί να ανακτηθεί!"
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να ωθήσετε όλους τους τοπικούς κλάδους;"
 
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
 msgid "Do you really want to remove \"%s\" from the index?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να αφαιρέσετε \"%s\" από το ευρετήριο;"
 
 #. Resource IDs: (IDS_WARN_REMOVE)
 #, c-format
 msgid "Do you really want to remove \"%s\"?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να αφαιρέσετε το \"%s\";"
 
 #. Resource IDs: (IDS_WARN_DELETE_MANY_FROM_INDEX)
 #, c-format
 msgid ""
 "Do you really want to remove the %d selected files/directories from the "
 "index?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να καταργήσετε τα %d επιλεγμένα αρχεία / καταλόγους από το ευρετήριο;"
 
 #. Resource IDs: (IDS_WARN_DELETE_MANY)
 #, c-format
 msgid "Do you really want to remove the %d selected files/directories?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να καταργήσετε τα %d επιλεγμένα αρχεία / καταλόγους;"
 
 #. Resource IDs: (IDS_STATUSLIST_RESTOREPATH)
 msgid ""
 "Do you really want to restore the copy? You will lose all changes that you "
 "have done after creating the copy."
-msgstr ""
+msgstr "Θέλετε πραγματικά να επαναφέρετε το αντίγραφο; Θα χάσετε όλες τις αλλαγές που κάνατε μετά τη δημιουργία του αντιγράφου."
 
 #. Resource IDs: (IDS_LOG_REVERTTOREV_CONFIRM)
 #, c-format
@@ -4002,7 +4002,7 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "and go back to this revision? These changes will be reverted by reverse-merging the revisions into your working tree."
-msgstr ""
+msgstr "Θέλετε πραγματικά να επαναφέρετε όλες τις αλλαγές στο\n%s\nκαι να επιστρέψετε στην αναθεώρηση αυτή; Αυτές οι αλλαγές θα επανέλθουν με την αντίστροφη συγχώνευση των αναθεωρήσεων στο δέντρο εργασίας σας."
 
 #. Resource IDs: (IDS_LOG_REVERT_CONFIRM)
 #, c-format
@@ -4010,21 +4010,21 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "which were made in this revision? These changes will be reverted by reverse-merging the revision into your working tree."
-msgstr ""
+msgstr "Θέλετε πραγματικά να επαναφέρετε όλες τις αλλαγές στο\n%s\nπου έγιναν σε αυτήν την αναθεώρηση; Αυτές οι αλλαγές θα επανέλθουν με την αντίστροφη συγχώνευση της αναθεώρησης στο δέντρο εργασίας σας."
 
 #. Resource IDs: (IDS_PROC_UNSET_IGNORELOCALCHANGES)
 msgid ""
 "Do you really want to unflag the selected file(s) as skip-worktree or "
 "assume-unchanged?"
-msgstr ""
+msgstr "Θέλετε πραγματικά να ξεμπλοκάρετε τα επιλεγμένα αρχεία ως παραλειπόμενo-δέντρο-εργασίας ή υποθέστε-αμετάβλητα;"
 
 #. Resource IDs: (IDS_SETTINGS_FETCH_ADDEDREMOTE)
 msgid "Do you want to fetch remote branches from the newly added remote?"
-msgstr ""
+msgstr "Θέλετε να ανακτήσετε απο απομακρυσμένα branches από το νέο απομακρυσμένο που προστέθηκε;"
 
 #. Resource IDs: (IDS_WARNMODIFIEDOUTSIDE_TASK2)
 msgid "Do you want to load the changed files?"
-msgstr ""
+msgstr "Θέλετε να φορτώσετε τα αλλαγμένα αρχεία;"
 
 #. Resource IDs: (IDS_MARKASRESOLVED)
 #, c-format
@@ -4032,11 +4032,11 @@ msgid ""
 "Do you want to mark the file\n"
 "%s\n"
 "as resolved?"
-msgstr ""
+msgstr "Θέλετε να επισημάνετε το αρχείο\n%s\nπως επιλύθηκε;"
 
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_3)
 msgid "Do you want to recover these auto-saved documents?"
-msgstr ""
+msgstr "Θέλετε να ανακτήσετε αυτά τα αυτόματα αποθηκευμένα έγγραφα;"
 
 #. Resource IDs: (IDS_WARNMODIFIEDLOOSECHANGESOPTIONS)
 msgid ""
@@ -4046,11 +4046,11 @@ msgstr "Θέλετε να επαναφόρτωσετε τα έγγραφα να 
 
 #. Resource IDs: (IDS_SEECHANGES)
 msgid "Do you want to see changes?"
-msgstr ""
+msgstr "Θέλετε να δείτε αλλαγές;"
 
 #. Resource IDs: (IDS_DCOMMIT_STASH_POP)
 msgid "Do you want to stash pop now?"
-msgstr ""
+msgstr "Θέλετε να αφαιρέσετε το τελευταίο stash τώρα;"
 
 #. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Document :"
@@ -4059,53 +4059,53 @@ msgstr "Έγγραφο :"
 #. Resource IDs: (IDS_PROC_SYNC_PUSH_UNKNOWNBRANCH)
 #, c-format
 msgid "Don't know what will push because unknown branch \"%s\""
-msgstr ""
+msgstr "Δεν είναι γνωστό τι θα σταλεί διότι ο κλάδος είναι άγνωστος \"%s\""
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSH_UNKNOWN)
 msgid "Don't know what will push because you enter URL"
-msgstr ""
+msgstr "Δεν είναι γνωστό τι θα σταλεί διότι εισάγετε τη διεύθυνση URL"
 
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_6)
 msgid ""
 "Don't recover the auto-saved documents\n"
 "Use the last explicitly saved versions of the documents"
-msgstr ""
+msgstr "Μην ανακτήσετε τα αυτόματα αποθηκευμένα έγγραφα\nΧρησιμοποιήστε ρητά την τελευταία αποθηκευμένη έκδοση των εγγράφων"
 
 #. Resource IDs: (IDS_ASKFORSAVE_NOSAVE_OPEN)
 msgid ""
 "Don't save\n"
 "Close the views without saving the modifications"
-msgstr ""
+msgstr "Μην αποθηκεύετε\nΚλείστε τις προβολές χωρίς να αποθηκεύσετε τις τροποποιήσεις"
 
 #. Resource IDs: (IDS_ASKFORSAVE_TASK7)
 msgid ""
 "Don't save\n"
 "Reload the views without saving the modifications"
-msgstr ""
+msgstr "Μην αποθηκεύετε\nΕπαναφόρτωση των προβολών χωρίς αποθήκευση των τροποποιήσεων"
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOW)
 msgid "Don't show this message again"
-msgstr ""
+msgstr "Να μην εμφανίζεται ξανά αυτό το μήνυμα"
 
 #. Resource IDs: (IDS_DONE)
 msgid "Done"
-msgstr ""
+msgstr "Εγινε"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1384)
 msgid "Down"
-msgstr ""
+msgstr "Κάτω"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1698)
 msgid "Download"
-msgstr ""
+msgstr "Κατεβάστε"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535)
 msgid "Download language packs:"
-msgstr ""
+msgstr "Λήψη πακέτων γλώσσας:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1073)
 msgid "Draw tag/branch labels on right side"
-msgstr ""
+msgstr "Σχεδιάστε tag/branch ετικέτες στη δεξιά πλευρά"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1079)
 msgid "Drive Types"
@@ -4117,28 +4117,28 @@ msgstr "Δίσκους A: και B:"
 
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
-msgstr ""
+msgstr "Αφήστε &ένα stash"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
-msgstr ""
+msgstr "Στεγνό τρέξιμο"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1279)
 msgid "Dummy Button Form "
-msgstr ""
+msgstr "Ψεύτικο Κουμπί Φόρμας"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1659, Dialog
 #. IDD_REBASE: Control id 1566)
 msgid "Dumy Group For locat TabCtr"
-msgstr ""
+msgstr "Ψεύτικη Ομάδα Για τοπικά TabCtr"
 
 #. Resource IDs: (cmdEditEnabled_Keytip_RESID, cmdTabEdit_Keytip_RESID)
 msgid "E"
-msgstr ""
+msgstr "Ε"
 
 #. Resource IDs: (IDS_PROC_REBASE_UNSELECTED_EDIT)
 msgid "E&dit unselected"
-msgstr ""
+msgstr "Ε&πεξεργασία δεν έχει επιλεγεί"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "E&xclude paths:"
@@ -4154,19 +4154,19 @@ msgstr "Ε&ξαγογή..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1097)
 msgid "E&xternal"
-msgstr ""
+msgstr "Ε&ξωτερικό"
 
 #. Resource IDs: (Dialog IDD_ENCODING: Control id 303)
 msgid "EOL"
-msgstr ""
+msgstr "EOL"
 
 #. Resource IDs: (5064 - Menu)
 msgid "EUC-KR"
-msgstr ""
+msgstr "EUC-KR"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Eastern European"
-msgstr ""
+msgstr "Ανατολικής Ευρώπης"
 
 #. Resource IDs: (IDS_EDIT_MENU, IDS_PATHACTIONS_EDIT, IDS_REBASE_EDIT,
 #. cmdGroupEdit_LabelTitle_RESID, cmdTabEdit_LabelTitle_RESID)
@@ -4175,19 +4175,19 @@ msgstr "Επεξεργασία"
 
 #. Resource IDs: (IDS_PROC_EDITGLOBALGITCONFIG)
 msgid "Edit &global .gitconfig"
-msgstr ""
+msgstr "Επεξεργασία &καθολικού .gitconfig"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1383)
 msgid "Edit &local .git/config"
-msgstr ""
+msgstr "Επεξεργασία &τοπικού .git/config"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1755)
 msgid "Edit .tgitconfig"
-msgstr ""
+msgstr "Επεξεργασία .tgitconfig"
 
 #. Resource IDs: (IDS_EDIT_NOTES, IDS_PROGS_TITLE_EDITNOTES)
 msgid "Edit Notes"
-msgstr ""
+msgstr "Επεξεργασία Σημειώσεων"
 
 #. Resource IDs: (IDS_LOG_POPUP_EDITAUTHOR)
 msgid "Edit author"
@@ -4195,7 +4195,7 @@ msgstr "Επεξεργασία συγγραφέα"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_EDITDESCRIPTION)
 msgid "Edit description"
-msgstr ""
+msgstr "Επεξεργασία περιγραφής"
 
 #. Resource IDs: (IDS_DLGTITLE_EDIT_DIFF_TOOL)
 msgid "Edit extension specific diff program"
@@ -4207,15 +4207,15 @@ msgstr "Επεξεργασία επεκτάσεως συγκεκριμένου �
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1382)
 msgid "Edit gl&obal .gitconfig"
-msgstr ""
+msgstr "Επεξεργασία &καθολικού .gitconfig"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1718)
 msgid "Edit global &XDG git/config"
-msgstr ""
+msgstr "Επεξεργασία καθολικού &XDG git/config"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_EDITLOCALGONCFIG)
 msgid "Edit local git config"
-msgstr ""
+msgstr "Επεξεργασία τοπικού git config"
 
 #. Resource IDs: (IDS_LOG_POPUP_EDITLOG)
 msgid "Edit log message"
@@ -4223,7 +4223,7 @@ msgstr "Επεξεργασία καταγραφικού μυνήματος"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1384)
 msgid "Edit s&ystemwide gitconfig"
-msgstr ""
+msgstr "Επεξεργασία gitconfig  σε όλο το σ&ύστημα"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ: Control id 1382, Dialog
 #. IDD_SETTINGSHOOKS: Control id 1331)
@@ -4234,7 +4234,7 @@ msgstr "Επεξεργασία..."
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 1770, Dialog IDD_SETTINGSDIALOGS3:
 #. Control id 1770)
 msgid "Effective"
-msgstr ""
+msgstr "Αποτελεσματικός"
 
 #. Resource IDs: (IDS_SETTINGS_PROXYSERVER_TT)
 msgid "Either the name or IP of the proxy server"
@@ -4242,15 +4242,15 @@ msgstr "Ή το όνομα ή την ΙΡ του πληρεξούσιου δια
 
 #. Resource IDs: (IDS_LOG_EMAIL)
 msgid "Email"
-msgstr ""
+msgstr "Ηλεκτρονική διεύθυνση"
 
 #. Resource IDs: (IDS_ERR_ADDRESS_NO_EMPTY)
 msgid "Email Address To and CC can't empty at the same time."
-msgstr ""
+msgstr "Ηλεκτρονικές διεύθυνσης προς και κοινοποίηση δεν μπορεί να είναι και τα δυο κενά."
 
 #. Resource IDs: (IDS_LOG_FILTER_EMAILS)
 msgid "Emails"
-msgstr ""
+msgstr "Ηλεκτρονικές διεύθυνσης"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Empty"
@@ -4258,19 +4258,19 @@ msgstr "Άδειο"
 
 #. Resource IDs: (cmdEditEnabled_LabelTitle_RESID)
 msgid "Enable Edit"
-msgstr ""
+msgstr "Ενεργοποιήστε επεξεργασία"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1510)
 msgid "Enable EditorConfig"
-msgstr ""
+msgstr "Ενεργοποιήστε EditorConfig"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1766)
 msgid "Enable Gravatar"
-msgstr ""
+msgstr "Ενεργοποιήστε Gravatar"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 1788)
 msgid "Enable drag context menu"
-msgstr ""
+msgstr "Ενεργοποιήστε μενού πλαισίου σουρίσματος"
 
 #. Resource IDs: (IDS_SETTINGS_ENABLELOGCACHE_TT)
 msgid ""
