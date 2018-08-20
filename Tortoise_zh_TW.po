@@ -28,8 +28,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-19 11:48+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-08-20 03:59+0000\n"
+"Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -167,7 +167,7 @@ msgstr "復原了 %1!d! 個檔案到 %2!s!。"
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr "在 %2!d! 個檔案中選擇了 %1!d! 個檔案."
+msgstr "在 %2!d! 個檔案中選擇了 %1!d! 個檔案。"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -183,7 +183,7 @@ msgstr "%1!d!分鐘前"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr "前 %1!d! 名活躍作者 (至少有 %2!d!(%3!d!%%) 次送交數)"
+msgstr "前 %1!d! 名活躍作者（至少有 %2!d! 個提交數，約 %3!d!%%）"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
@@ -2588,7 +2588,7 @@ msgstr "勾選你希望出現在第一層選單的選單項目，而不是出現
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
 "menu (SHIFT + right click)"
-msgstr "勾選你想移到「擴展」快顯功能表的項目（需按住 Shift 鍵 + 滑鼠右鍵才會顯示）"
+msgstr "勾選你想「隱藏」的快顯功能表項目（需按住 Shift 鍵 + 滑鼠右鍵才會顯示它們）"
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
@@ -2606,7 +2606,7 @@ msgstr "勾選："
 msgid ""
 "Checked items will be hidden in the context menu by default and will only be"
 " visible if the shift key is pressed while opening the context menu."
-msgstr "預設會在快顯功能表中隱藏這些被勾選的項目，除非同時按下 Shift 鍵才會在快顯功能表中顯示這些項目。"
+msgstr "預設將勾選的項目隱藏起來\n只有同時按下 Shift 鍵時才會顯示這些項目"
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -2861,7 +2861,7 @@ msgstr "提交"
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
 msgid "Commit %1!s! not found in \"%2!s!\". Update submodule now?"
-msgstr "在「%2!s!」中被找不到提交「%1!s! 」。立即更新子模組？"
+msgstr "在「%2!s!」中被找不到提交「%1!s!」。立即更新子模組？"
 
 #. Resource IDs: (IDS_LOG_NOT_VISIBLE)
 #, c-format
@@ -5748,7 +5748,7 @@ msgstr "圖示 (*.ico, *.jpg, *.png, *.bmp, *.gif)|*.ico;*.jpg;*.jpeg;*.png;*.bm
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Icons/Design/Code:\t\tLuebbe Onken"
-msgstr "圖示／設計／程式：\t\tLuebbe Onken"
+msgstr "圖示／設計／程式：\tLuebbe Onken"
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_IDENTICAL)
 msgid "Identical"
@@ -6277,7 +6277,7 @@ msgstr "列出說明主題\n說明主題"
 msgid ""
 "List a renamed file as \"long/path/{to => for}/file.txt\" instead of "
 "\"long/path/for/file.txt (from long/path/to/file.txt)\"."
-msgstr "顯示一重新命名檔案為「long/path/{to => for}/file.txt」而非 「long/path/for/file.txt (from long/path/to/file.txt)」。"
+msgstr "顯示「重新命名檔案」為易讀格式\n「long/path/{to => for}/file.txt」\n而非完整格式\n 「long/path/for/file.txt (from long/path/to/file.txt)」"
 
 #. Resource IDs: (Dialog IDD_OPEN: Control id 130)
 msgid "Load Images"
@@ -10659,7 +10659,7 @@ msgstr "取消勾選"
 msgid ""
 "Unchecked items will appear in the TortoiseGit submenu, checked items "
 "directly in the main context menu."
-msgstr "未被勾選的項目會顯示在 TortoiseGit 次選單中，而勾選的項目會直接顯示在快顯功能表中。"
+msgstr "勾選的項目會直接顯示在快顯功能表中\n未被勾選的項目會顯示在 TortoiseGit 子選單中"
 
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
