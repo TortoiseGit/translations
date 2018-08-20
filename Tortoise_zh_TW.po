@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-20 03:59+0000\n"
+"PO-Revision-Date: 2018-08-20 09:10+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -819,7 +819,7 @@ msgstr "語系(&L)："
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1602)
 msgid "&Launch Rebase After Fetch"
-msgstr "下載後執行變基(&L)"
+msgstr "獲取後執行變基(&L)"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1065)
 msgid "&Limit search to modified lines"
@@ -2066,7 +2066,7 @@ msgstr "無合併、新增、刪除時自動關閉"
 msgid ""
 "Auto-complete suggests words (usually class or member names)\n"
 "from the files that you have changed as you type a log message."
-msgstr "在輸入日誌訊息時，自動從這次有修改的檔案內容中\n提示單字（通常是類別或成員的名稱）。"
+msgstr "在輸入日誌訊息時，自動從這次有修改的檔案內容中提示單字\n（通常是類別或成員的名稱）。"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1505)
 msgid "AutoLoad Putty &Key"
@@ -2997,7 +2997,7 @@ msgstr "比對所有空白字元\n比對空白字元"
 msgid ""
 "Compares the file with the last committed revision to show you the changes "
 "you made"
-msgstr "比對此檔案與上次送交的版本並列出你所做的變動"
+msgstr " 比對工作目錄的檔案與最新提交的版本，並顯示之間變更的內容。"
 
 #. Resource IDs: (IDS_SVNACTION_COMPLETED)
 msgid "Completed"
@@ -3037,7 +3037,7 @@ msgstr "設定 Bug 追蹤系統整合功能"
 msgid ""
 "Configure alternative editor. Preferably one which can handle *nix line "
 "endings."
-msgstr "設定用來比對不同版本檔案的工具程式，最好能處理 *nix 檔案。"
+msgstr "設定文字編輯器，最好能處理 *nix 換行符號。"
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
@@ -3838,7 +3838,7 @@ msgstr "正在比較提交"
 
 #. Resource IDs: (IDS_MENUDESCPREVDIFF)
 msgid "Diffs the working tree file with the one before the last commit"
-msgstr "比較工作目錄檔案與前次送交版本的差異"
+msgstr "比較工作目錄的檔案與上上次提交版本，並顯示之間的差異內容。"
 
 #. Resource IDs: (IDS_MENUDESCDIFFTWO)
 msgid "Diffs two any commits"
@@ -5804,7 +5804,7 @@ msgstr "設定此選項時，含有無版本控制的檔案會使上層的資料
 #. Resource IDs: (IDS_SETTINGS_GITCONFIG_INHERIT_TT)
 msgid ""
 "If this is enabled, no value is stored or overwritten at this config level."
-msgstr "如果勾選這個，在這個等級下的組態值將不會被「儲存／覆寫」。而是直接延用較低優先權等級的組態值。"
+msgstr "如果勾選這個，在這個等級下的組態值將不會被「儲存／覆寫」\n（直接延用較低優先權等級的組態值）。"
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
@@ -6615,7 +6615,7 @@ msgstr "移動：%s 的新名稱"
 
 #. Resource IDs: (IDS_SETTINGS_USERECYCLEBIN_TT)
 msgid "Moves the modified files to the recycle bin first before reverting"
-msgstr "將修改過的檔案移至資源回收筒再進行復原"
+msgstr "將工作區已修改過的檔案先移到資源回收筒，再進行「復原」操作。"
 
 #. Resource IDs: (IDS_PROC_MOVINGPROG)
 #, c-format
@@ -6950,7 +6950,7 @@ msgstr "注意：資料夾含有無版本控制的檔案。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid "Note: this affects all Tortoise clients, not just TortoiseGit!"
-msgstr "注意：這將影響到所有的 Tortoise 客户端，不僅僅是 TortoiseGit！"
+msgstr "注意：這將影響到所有的 Tortoise 客户端程式，不僅僅是 TortoiseGit！"
 
 #. Resource IDs: (IDS_NOTES)
 msgid "Notes"
@@ -6987,7 +6987,7 @@ msgstr "偵測「移動行」或「複製行」所需的字元數："
 
 #. Resource IDs: (IDS_SETTINGS_DESCRIBEABBREVIATEDSIZE_TT)
 msgid "Number of characters to show in the abbreviated hash part"
-msgstr "縮寫中雜湊值顯示的位數"
+msgstr "縮寫雜湊值顯示的位數"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1160)
 msgid "Number of weeks:"
@@ -7799,13 +7799,13 @@ msgstr "變基"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1769)
 msgid "Randomize Sync Dialog startup position"
-msgstr "隨機化同步視窗啟動位置"
+msgstr "「同步(Sync)」視窗啟動位置隨機化"
 
 #. Resource IDs: (IDS_SYNCDIALOGRANDOMPOS_TT)
 msgid ""
 "Randomize the startup position of Sync Dialog. This prevents from pressing "
 "the Pull button of same dialog"
-msgstr "隨機化同步視窗的啟動位置。這可以防止按到相同對話框中的拉取按鈕。"
+msgstr "將「同步(Sync)」視窗的啟動位置隨機化，\n主要用來防止按到相同視窗中的拉取(Pull)按鈕。\n例如開啟二個不同版本庫的同步視窗，視窗 A 按了拉取按鈕後，切換到視窗 B 準備按拉取按鈕的同時，視窗 A 因為完成拉取動作而彈出來成為目前視窗，結果誤按了視窗 A 的拉取按鈕。"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1535)
 msgid "Range"
@@ -8825,7 +8825,7 @@ msgstr "請選擇掛鉤指令檔"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1405)
 msgid "Select items automatically"
-msgstr "自動選擇項目"
+msgstr "自動勾選項目"
 
 #. Resource IDs: (IDS_SETTINGS_SELECTMERGE)
 msgid "Select merge application"
@@ -9072,7 +9072,7 @@ msgid ""
 "Show branch revision number (git rev-list --count --first-parent) in log "
 "dialog and after a push to a remote branch; this is not guaranteed to be "
 "unique, please see help"
-msgstr "在日誌視窗顯示分支累加版本號碼 (git rev-list --count --first-parent)。注意: 這個號碼無法保證是唯一的。請參考說明文件。"
+msgstr "顯示分支的累加版本號碼 (git rev-list --count --first-parent)。\n顯示在日誌視窗的提交雜湊值後面，以及推送分支到遠端後的進度視窗中。\n注意: 這個號碼無法保證是唯一的，細節請參考說明文件。"
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is on"
@@ -9440,7 +9440,7 @@ msgstr "開始二分法模式"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 1542)
 msgid "Start registry editor"
-msgstr "啟動登錄檔編輯器"
+msgstr "直接修改登錄機碼"
 
 #. Resource IDs: (IDS_MENUDESCDAEMON)
 msgid "Starts a git server running git protocol"
@@ -10190,7 +10190,7 @@ msgstr "子模組的目錄中包含有修改或是未納入版本控制的檔案
 msgid ""
 "There are currently %d overlay handlers installed besides the ones Tortoise "
 "uses."
-msgstr "除了 Tortoise 以外，目前還有 %d 個圖示覆蓋。"
+msgstr "除了 Tortoise 以外，系統中還安裝了其它 %d 個圖示覆蓋。"
 
 #. Resource IDs: (IDS_SAVE_MORE)
 msgid ""
@@ -10413,7 +10413,7 @@ msgstr "TortoiseGit 需要藉由一個 git 執行檔來執行實際的 git 操�
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
 msgid "TortoiseGit will not show the following overlays: %s"
-msgstr "TortoiseGit 不會顯示以下的圖示覆蓋：%s"
+msgstr "TortoiseGit 可能不會顯示以下的圖示覆蓋：%s"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1096)
 msgid "TortoiseGit&UDiff"
@@ -11219,7 +11219,7 @@ msgstr "在套用補綴檔時，忽略空白字元的變更。"
 msgid ""
 "When closing a progress dialog with a running git process, ask for "
 "confirmation before killing it"
-msgstr "當想要關閉仍有執行中 git 程序的進度視窗時，需經確認後才能停止它。"
+msgstr "當進度視窗被關閉的同時，尚有 git 程序正在執行，則需要經過確認後才能關閉它。"
 
 #. Resource IDs: (IDS_SETTINGS_ENABLEDRAGCONTEXTMENU_TT)
 msgid ""
@@ -11231,13 +11231,13 @@ msgstr "啟用後，在拖曳「資料夾／檔案」時，將顯示 TortoiseGit
 msgid ""
 "When enabled, larger version numbers come first. It is because latest "
 "versions are usually more useful."
-msgstr "啟用後，較大的版本號在前面，因為新版通常比較有用。"
+msgstr "啟用後，較大的版本號會先列在前面，以方便查看最新版本。"
 
 #. Resource IDs: (IDS_SETTINGS_SELECTFILESONCOMMIT_TT)
 msgid ""
 "When enabled, the versioned items listed in the commit dialog are "
 "automatically selected"
-msgstr "啟用時，送交視窗中有版本控制的項目會自動被選取。"
+msgstr "啟用時，自動選取提交視窗中有版本控制的項目。"
 
 #. Resource IDs: (IDS_AM_3WAY_TT)
 msgid ""
@@ -11254,7 +11254,7 @@ msgstr "如果遠端名稱為空，當你鍵入 URL 時遠端名稱將被自動�
 
 #. Resource IDs: (IDS_SETTINGS_DESCRIBESTRATEGY_TT)
 msgid "Whether to reference only annotated tags, all tags or all refs"
-msgstr "搜尋參照的依據可以是 (1)只有含附註的標籤、(2)所有標籤、(3)所有參照"
+msgstr "搜尋參照的依據可以是\n(1)只有含附註的標籤\n(2)所有標籤\n(3)所有參照"
 
 #. Resource IDs: (IDS_NEED_TO_RESOLVE_CONFLICTS_HINT)
 msgid ""
