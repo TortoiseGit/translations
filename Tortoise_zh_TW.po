@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-20 09:10+0000\n"
+"PO-Revision-Date: 2018-08-21 02:48+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -2943,7 +2943,7 @@ msgid ""
 "You might want to add these folders recursively by using the 'Add...' context menu item.\n"
 "\n"
 "Are you sure that you want to continue the commit?"
-msgstr "提交無版本控制的資料夾並不會自動加入底下的子項目！\n使用「加入...」快顯功能表選項可以加入底下全部子資料夾下的檔案。\n\n確定要進行提交嗎？"
+msgstr "提交尚未版本控制的資料夾並不會自動加入底下的子項目！\n使用「加入...」快顯功能表選項可以加入底下全部子資料夾下的檔案。\n\n確定要進行提交嗎？"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Common Name:"
@@ -4519,7 +4519,7 @@ msgstr "匯出這個版本..."
 
 #. Resource IDs: (IDS_PROC_EXPORT_2)
 msgid "Export unversioned files too"
-msgstr "匯出無版本控制的檔案"
+msgstr "匯出尚未版本控制的檔案"
 
 #. Resource IDs: (IDS_SVNPROGRESS_EXPORTING)
 #, c-format
@@ -5415,7 +5415,7 @@ msgstr "小幫手："
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 1660)
 msgid "Hide Menus for unversioned paths"
-msgstr "隱藏未版本控制路徑的選單"
+msgstr "在尚未版本控制的資料夾上隱藏選單"
 
 #. Resource IDs: (IDS_PROC_COMMIT_HIDEPATCH)
 msgid "Hide Patch<<"
@@ -5793,13 +5793,13 @@ msgstr "啟用時，工作目錄中設定為除外的資料夾\n仍然會顯示�
 msgid ""
 "If set, files inside unversioned folders can be shown in the status control.\n"
 "The status control is used for example in the commit dialog."
-msgstr "設定此選項時，位於無版本控制目錄下的檔案也會在狀態中顯示。\n例如在提交視窗中就會用到這個功能。"
+msgstr "設定此選項時，位於尚未版本控制目錄下的檔案也會在狀態中顯示。\n例如在提交視窗中就會用到這個功能。"
 
 #. Resource IDs: (IDS_SETTINGS_UNVERSIONEDASMODIFIED_TT)
 msgid ""
 "If set, then unversioned files will mark the status of the parent directory as modified\n"
 "i.e. they get the modified overlay icon."
-msgstr "設定此選項時，含有無版本控制的檔案會使上層的資料夾被標記為已修改\n也就是會顯示已修改的圖示。"
+msgstr "設定此選項時，含有尚未版本控制的檔案會使上層的資料夾被標記為已修改\n也就是會顯示已修改的圖示。"
 
 #. Resource IDs: (IDS_SETTINGS_GITCONFIG_INHERIT_TT)
 msgid ""
@@ -6805,7 +6805,7 @@ msgstr "沒有變動的檔案或目錄，不需要 TortoiseGit 復原！"
 msgid ""
 "No files to show with the current setting.\n"
 "Check one or more settings below to see unversioned, ignored and/or unmodified files."
-msgstr "目前設定下沒有可顯示的檔案。\n勾選以下的設定以顯示無版本控制的、忽略的、或是無變更的檔案。"
+msgstr "目前設定下沒有可顯示的檔案。\n勾選以下的設定以顯示尚未版本控制的、忽略的、或是無變更的檔案。"
 
 #. Resource IDs: (IDS_COMMITDLG_NOTHINGTOCOMMIT)
 msgid ""
@@ -6818,7 +6818,7 @@ msgid ""
 "No files were changed or added since\n"
 "the last commit.\n"
 "Do you want to see the unversioned files?"
-msgstr "從上次提交以來沒有任何檔案\n變動或加入。\n要檢視未加入版本控制的檔案嗎？"
+msgstr "從上次提交以來沒有任何檔案\n變動或加入。\n要檢視尚未加入版本控制的檔案嗎？"
 
 #. Resource IDs: (33002)
 msgid "No filter"
@@ -6946,7 +6946,7 @@ msgstr "注意：這些設定值也會套用在補綴瀏覽視窗。"
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
-msgstr "注意：資料夾含有無版本控制的檔案。"
+msgstr "注意：資料夾含有尚未版本控制的檔案。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid "Note: this affects all Tortoise clients, not just TortoiseGit!"
@@ -8993,7 +8993,7 @@ msgstr "顯示參照日誌(&R)"
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1073,
 #. IDS_PROC_LOG_SHOWUNVERSIONED)
 msgid "Show &Unversioned Files"
-msgstr "顯示未版本控制的檔案(&U)"
+msgstr "顯示尚未版本控制的檔案(&U)"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1203, Dialog
 #. IDD_COMMITDLG: Control id 1203, Dialog IDD_LOGMESSAGE: Control id 1203)
@@ -9967,7 +9967,7 @@ msgstr "檔案\n%s\n不是有效的文字檔！"
 msgid ""
 "The folder %s\n"
 "contains unversioned and/or modified file(s). Do you want to remove it anyway?"
-msgstr "目錄 %s\n裡有未做版本控制以及可能有修改過的檔案。確定要刪除嗎？"
+msgstr "目錄 %s\n裡有尚未做版本控制以及可能有修改過的檔案。確定要刪除嗎？"
 
 #. Resource IDs: (IDS_WARN_FOLDERNOTEXIST)
 #, c-format
@@ -10183,7 +10183,7 @@ msgstr "對方的"
 msgid ""
 "There are changes or unversioned items inside one or more submodule.\n"
 "Those files are not listed for commit. You need to commit those files in submodule"
-msgstr "子模組的目錄中包含有修改或是未納入版本控制的檔案。\n那些檔案不會列在提交列表中，你必須在子模組內提交那些檔案。"
+msgstr "子模組的目錄中包含有修改或是尚未版本控制的檔案。\n那些檔案不會列在提交列表中，你必須在子模組內提交那些檔案。"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO)
 #, c-format
@@ -10727,11 +10727,11 @@ msgstr "未命名"
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1703, Dialog
 #. IDD_SETTINGSOVERLAYHANDLERS: Control id 1462)
 msgid "Unversioned"
-msgstr "未有版本控制"
+msgstr "未版本控制"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1313)
 msgid "Unversioned files mark parent folder as modified"
-msgstr "含有無版本控制的檔案時，將上層資料夾標記為「已修改」"
+msgstr "含有尚未版本控制的檔案時，將上層資料夾標記為「已修改」"
 
 #. Resource IDs: (IDS_SVNPROGRESS_UNVERSION)
 #, c-format
@@ -11455,7 +11455,7 @@ msgstr "你選擇了一個資料夾\n只能匯出到 zip 檔"
 msgid ""
 "You selected an unversioned file.\n"
 "The file will be added to version control when you commit."
-msgstr "你選擇了無版本控制的檔案。\n提交時，它會被加入版本控制。"
+msgstr "你選擇了尚未版本控制的檔案。\n提交時，它會被加入版本控制。"
 
 #. Resource IDs: (IDS_COMMITDLG_HISTORYHINT_TT)
 msgid ""
@@ -11527,15 +11527,15 @@ msgstr "縮放到 100% (&1)"
 
 #. Resource IDs: (32804)
 msgid "Zoom to fit"
-msgstr "縮放至合適大小"
+msgstr "縮放至符合頁面"
 
 #. Resource IDs: (32809)
 msgid "Zoom to fit in height"
-msgstr "縮放至合適高度"
+msgstr "縮放至符合高度"
 
 #. Resource IDs: (32810)
 msgid "Zoom to fit in width"
-msgstr "縮放至合適闊度"
+msgstr "縮放至符合寬度"
 
 #. Resource IDs: (IDS_CHERRYPICK_MERGECOMMIT)
 #, c-format
