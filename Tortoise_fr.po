@@ -26,7 +26,7 @@
 # guillaumefrancois55 <guillaume.francois55@gmail.com>, 2011
 # Jack, 2015
 # jeremy shields <jeremy.shields@orange.fr>, 2016
-# Jonathan GRIFFON <kugan49@gmail.com>, 2017
+# Jonathan GRIFFON <kugan49@gmail.com>, 2017-2018
 # Kegnarok <kegnarok.rm@laposte.net>, 2013
 # Kerzzy <6greenday6@gmail.com>, 2015
 # Le Gall Nicolas <contact@nlegall.fr>, 2014
@@ -61,8 +61,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-17 14:58+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-08-28 14:35+0000\n"
+"Last-Translator: Jonathan GRIFFON <kugan49@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2053,7 +2053,7 @@ msgstr "Noms de l'auteur"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\tStefan Kueng"
-msgstr ""
+msgstr "Auteur:\t\t\tStefan Kueng"
 
 #. Resource IDs: (IDS_LOG_FILTER_AUTHORS)
 msgid "Authors"
@@ -2894,7 +2894,7 @@ msgstr "Livrer"
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
 msgid "Commit %1!s! not found in \"%2!s!\". Update submodule now?"
-msgstr ""
+msgstr "Livraison %1!s! non trouvée dans \"%2!s!\". Mettre à jour le sous-module maintenant ?"
 
 #. Resource IDs: (IDS_LOG_NOT_VISIBLE)
 #, c-format
@@ -3220,7 +3220,7 @@ msgstr "Ne peut pas vérifier la disponibilité d'une nouvelle version!"
 #. Resource IDs: (IDS_CHECKNEWER_NETERROR_FORMAT)
 #, c-format
 msgid "Could not check for a newer version! %1!s! (Error code: 0x%2!08X!)"
-msgstr ""
+msgstr "Ne peut pas vérifier la disponibilité d'une nouvelle version!  %1!s! (Code d'erreur: 0x%2!08X!)"
 
 #. Resource IDs: (IDS_ERR_COPYFILES)
 #, c-format
@@ -3307,7 +3307,7 @@ msgstr "Ne peut pas obtenir l'URL du fichier!\n%s"
 msgid ""
 "Could not retrieve revision %1!s! of the file %2!s!.\n"
 "Patching is not possible!"
-msgstr ""
+msgstr "Ne peut pas récupérer la révision %1!s! du fichier %2!s!.\nL'application du patch n'est pas possible !"
 
 #. Resource IDs: (IDS_ERR_TGITBLAME)
 msgid "Could not start TortoiseGitBlame"
@@ -3515,7 +3515,7 @@ msgid ""
 "Current branch \"%s\" is up to date\n"
 "\n"
 "If you want to force a rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "La branche courante \"%s\" est à jour\n\nSi vous voulez forcer un rebase, même si la branche courante est un descendant de la livraison sur laquelle vous rebasez, veuillez cocher la case \"Forcer Rebase\" ci-dessous."
 
 #. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
 msgid ""
@@ -4511,7 +4511,7 @@ msgstr "Erreur de validation du certificat de serveur pour \"%s\" :"
 msgid ""
 "Error while reading/writing the registry key %1!s!\n"
 "%2!s!"
-msgstr ""
+msgstr "Erreur lors de la lecture/écriture de la clé de registre %1!s!\n%2!s!"
 
 #. Resource IDs: (IDS_PROC_EVERYTHINGUPDATED)
 msgid "Everything updated."
@@ -4606,7 +4606,7 @@ msgstr "Échec pour retourner à l'ancienne version"
 #. Resource IDs: (IDS_STATUSLIST_CHECKOUTFILEFAILED)
 #, c-format
 msgid "Failed to checkout file \"%1!s!\" of revision %2!s! to \"%3!s!\"."
-msgstr ""
+msgstr "Echec de l'extraction du fichier \"%1!s!\" de la révision %2!s! vers \"%3!s!\"."
 
 #. Resource IDs: (IDS_CHECKOUTFAILED)
 #, c-format
@@ -4675,7 +4675,7 @@ msgstr "Échec de la définition / suppression de la liste de modifications '%s'
 msgid ""
 "Failed to start the issue tracker COM provider '%1!s!'.\n"
 "%2!s!"
-msgstr ""
+msgstr "Échec au démarrage du fournisseur COM du système de suivi des problèmes '%1!s!'.\n%2!s!"
 
 #. Resource IDs: (IDS_ERR_PAEGENTTIMEOUT)
 msgid "Failed waiting for pageant to finish loading key."
@@ -4692,12 +4692,12 @@ msgstr "Transfert rapide"
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1484, Dialog IDD_PULLFETCH:
 #. Control id 1484)
 msgid "Fast Forward O&nly"
-msgstr ""
+msgstr "Transfert rapide &seulement"
 
 #. Resource IDs: (IDS_PROC_REBASE_FFTO)
 #, c-format
 msgid "Fast forward to \"%s\""
-msgstr ""
+msgstr "Transfert rapide vers \"%s\""
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCH)
 msgid "Fetc&h"
@@ -4984,7 +4984,7 @@ msgid ""
 "For the current branch \"%1!s!\" no tracked branch is configured.\n"
 "Do you want to set the selected branch \"%2!s!\" as tracked branch?\n"
 "This will automatically select it for push and pull in the future."
-msgstr ""
+msgstr "Pour la branche courante \"%1!s!\" , aucune branche surveillée n'est configurée.\nVoulez-vous désigner la branche \"%2!s!\" comme une branche surveillée?\nCela va la sélectionner automatiquement pour les futurs poussées et tirages."
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -11298,7 +11298,7 @@ msgid ""
 "If you want to abort the merge, do a hard reset on HEAD or select abort merge on the context menu.\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "Lors d'une fusion, c'est-à-dire lors de l'intégration des changement d'une autre branche (a distance) dans votre branche locale,  un conflit dans au moins un fichier est apparu. Cela veux dire que vous devez le résoudre manuellement ( c'est-à-dire que vous devez intégrer vos changements dans un fichier qui a aussi été modifié dans l'autre branche).\n\nAprès avoir résolu tous les fichiers, vous devrez effectuer une livraison pour compléter la fusion.\n\nSi vous voulez abandonner la fusion, fait une annulation sur la branche HEAD ou sélectionnez Abandonner la fusion dans le menu contextuel.\n\nConsultez l'aide pour plus d'informations."
 
 #. Resource IDs: (IDS_DAEMON_SECURITY_WARN)
 msgid ""
@@ -11373,7 +11373,7 @@ msgstr "Modification de l,rborescence de travail"
 
 #. Resource IDs: (cmdViewWrapLines_LabelTitle_RESID)
 msgid "Wrap Lines"
-msgstr ""
+msgstr "Retour automatique à la ligne"
 
 #. Resource IDs: (ID_VIEW_WRAPLONGLINES - Menu)
 msgid "Wrap long lines"
@@ -11577,7 +11577,7 @@ msgid ""
 "is a merge commit.\n"
 "\n"
 "Which parent do you want to pick?"
-msgstr ""
+msgstr "\"%1!s!\" - \"%2!s!\"\nEst une livraison fusionnée.\n\nQuelle branche parente voulez-vous choisir?"
 
 #. Resource IDs: (IDS_PROC_COPY_REPOSITORY)
 #, c-format
@@ -11725,7 +11725,7 @@ msgstr "externe"
 
 #. Resource IDs: (IDS_CONFLICT_NOTASUBMODULE)
 msgid "file, not a submodule"
-msgstr ""
+msgstr "fichier, pas un sous-module"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
@@ -11905,7 +11905,7 @@ msgid ""
 "previous rebase directory rebase-apply still exists but mbox given.\n"
 "\n"
 "Do you want to"
-msgstr ""
+msgstr "le répertoire précédent sur lequel appliquer le rebase existe toujours mais est un mbox.\n\nQue voulez-vous ?"
 
 #. Resource IDs: (AFX_IDS_PRINTDEFAULTEXT)
 msgid "prn"
