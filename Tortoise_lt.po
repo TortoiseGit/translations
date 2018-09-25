@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-09-25 09:05+0000\n"
+"PO-Revision-Date: 2018-09-25 15:48+0000\n"
 "Last-Translator: Andrius Burokas\n"
 "Language-Team: Lithuanian (http://www.transifex.com/lznuaa/tortoisegit/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -602,12 +602,12 @@ msgstr "K&eisti/Išskirti patvirtinimą"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
-msgstr ""
+msgstr "Siųsti pataisą &el. laišku"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Email:"
-msgstr ""
+msgstr "&El. pašto adresas"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1023, Dialog
 #. IDD_SETTINGSHOOKCONFIG: Control id 1023)
@@ -1871,7 +1871,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCIMPORTPATCH)
 msgid "Apply a series of patches from a mailbox"
-msgstr ""
+msgstr "Taikyti pataisas iš el. pašto dėžutės"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1072)
 msgid "Apply unified diff"
@@ -1998,11 +1998,11 @@ msgstr "Autorius"
 
 #. Resource IDs: (IDS_PROC_LOG_AUTHOREMAIL)
 msgid "Author Email"
-msgstr ""
+msgstr "Autoriaus el. pašto adresas"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
 msgid "Author email addresses"
-msgstr ""
+msgstr "Autoriaus el. pašto adresas"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
 msgid "Author names"
@@ -2819,7 +2819,7 @@ msgstr "Spalvos"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1481)
 msgid "Combine One Mail"
-msgstr ""
+msgstr "Apjungti į vieną el. laišką"
 
 #. Resource IDs: (IDS_COMBINE_TO_ONE)
 msgid "Combine to one commit"
@@ -2860,7 +2860,7 @@ msgstr "Patvirtinimas %s dabar NĖRA matomas."
 
 #. Resource IDs: (IDS_COMMIT_COMMITPUSH)
 msgid "Commit && &Push"
-msgstr ""
+msgstr "&Patvirtinti ir Įkelti"
 
 #. Resource IDs: (IDS_LOG_COMMIT_DATE)
 msgid "Commit Date"
@@ -2868,7 +2868,7 @@ msgstr "Patvirtinimo data"
 
 #. Resource IDs: (IDS_LOG_COMMIT_EMAIL)
 msgid "Commit Email"
-msgstr ""
+msgstr "Patvirtinimo el. pašto adresas"
 
 #. Resource IDs: (IDS_COMMIT_FINISH)
 msgid "Commit Finish"
@@ -2925,7 +2925,7 @@ msgstr "Patvirtina pakeitimus talpykloje"
 
 #. Resource IDs: (IDS_PROC_LOG_COMMITTEREMAIL)
 msgid "Committer Email"
-msgstr ""
+msgstr "Patvirtintojo el. pašto adresas"
 
 #. Resource IDs: (IDS_COMMITDLG_UNVERSIONEDFOLDERWARNING)
 msgid ""
@@ -4247,15 +4247,15 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_EMAIL)
 msgid "Email"
-msgstr ""
+msgstr "El. pašto adresas"
 
 #. Resource IDs: (IDS_ERR_ADDRESS_NO_EMPTY)
 msgid "Email Address To and CC can't empty at the same time."
-msgstr ""
+msgstr "Nenurodytas el. laiško gavėjo adresas."
 
 #. Resource IDs: (IDS_LOG_FILTER_EMAILS)
 msgid "Emails"
-msgstr ""
+msgstr "El. pašto adresai"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Empty"
@@ -5249,7 +5249,7 @@ msgstr "Talpyklos kūrimo metu gauta Git klaida!\n"
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
 " meta data for your commits (not for authentication)."
-msgstr ""
+msgstr "Git reikalauja įvesti vartotojo vardą ir el. pašto adresą. Abu naudojami patvirtinimo metu (ne tapatybės nustatymui)."
 
 #. Resource IDs: (32787)
 msgid "Git revision list contains the complete file history"
@@ -6390,11 +6390,11 @@ msgstr "Macintosh"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1582)
 msgid "Mail"
-msgstr ""
+msgstr "El. paštas"
 
 #. Resource IDs: (AFX_IDP_INVALID_MAPI_DLL)
 msgid "Mail system DLL is invalid."
-msgstr ""
+msgstr "El. pašto sisteminė biblioteka yra netinkama."
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1653)
 msgid "Make it Bare (No working directories)"
@@ -6661,7 +6661,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 321)
 msgid "Network::Email"
-msgstr ""
+msgstr "Tinklas::El.paštas"
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 30721, IDS_NEW)
 msgid "New"
@@ -8874,44 +8874,44 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1)
 msgid "Send"
-msgstr ""
+msgstr "Siųsti"
 
 #. Resource IDs: (IDS_PROGRS_CMD_SENDMAIL)
 msgid "Send Email"
-msgstr ""
+msgstr "Siųsti el. laišką"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1587, Dialog
 #. IDD_REQUESTPULL: Control id 1587)
 msgid "Send Mail after create"
-msgstr ""
+msgstr "Siųsti el. laišką po sukūrimo"
 
 #. Resource IDs: (AFX_IDP_FAILED_MAPI_SEND)
 msgid "Send Mail failed to send message."
-msgstr ""
+msgstr "Nepavyko išsiųsti el. laiško"
 
 #. Resource IDs: (IDS_MENUSENDMAIL, IDS_MENU_SENDMAIL)
 msgid "Send Mail..."
-msgstr ""
+msgstr "Siųsti el. laišką..."
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 320)
 msgid "Send Patch"
-msgstr ""
+msgstr "Siųsti pataisą"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_SENDMAIL)
 msgid "Send Patch by Email"
-msgstr ""
+msgstr "Siųsti pataisą el. laišku"
 
 #. Resource IDs: (IDS_MENUDESSENDMAIL)
 msgid "Send Patch(es) by eMail"
-msgstr ""
+msgstr "Siųsti pataisą(as) el. laišku"
 
 #. Resource IDs: (IDS_SVNACTION_POSTFIX)
 msgid "Sending content"
-msgstr ""
+msgstr "Siunčiama"
 
 #. Resource IDs: (IDS_SVNACTION_SENDMAIL_START)
 msgid "Sending..."
-msgstr ""
+msgstr "Siunčiama..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1409)
 msgid "Server &address:"
@@ -9718,7 +9718,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCSYNC)
 msgid "Sync Remote Repositories, including pull, push, email patch and so on"
-msgstr ""
+msgstr "Sinchronizuoti nutolusias talpyklas, įtraukiant parsiuntimą, įkėlimą, pataisas el. laišku ir t.t."
 
 #. Resource IDs: (IDS_MENUSYNC)
 msgid "Sync..."
@@ -10609,7 +10609,7 @@ msgstr "UTF-8"
 
 #. Resource IDs: (AFX_IDP_FAILED_MAPI_LOAD)
 msgid "Unable to load mail system support."
-msgstr ""
+msgstr "Nepavyko paleisti el. pašto sistemos."
 
 #. Resource IDs: (AFX_IDP_SERVER_BUSY)
 msgid "Unable to process command, server busy."
@@ -10782,7 +10782,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
 msgid "Use .mailmap"
-msgstr ""
+msgstr "Naudoti .mailmap"
 
 #. Resource IDs: (IDS_PROC_USELFS_TT)
 msgid "Use Git LFS"
@@ -11002,7 +11002,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "User Email:"
-msgstr ""
+msgstr "Vartotojo el. pašto adresas:"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "User Info"
@@ -11020,7 +11020,7 @@ msgstr ""
 msgid ""
 "User name and email must be set before commit.\n"
 "Do you want to set these now?"
-msgstr ""
+msgstr "Vartotojo vardas ir el. pašto adresas turi būti įvesti prieš patvirtinimą.\nAr norite juos įvesti dabar?"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1650)
 msgid "User&name:"
