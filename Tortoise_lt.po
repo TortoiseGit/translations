@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-09-25 15:48+0000\n"
+"PO-Revision-Date: 2018-09-26 08:09+0000\n"
 "Last-Translator: Andrius Burokas\n"
 "Language-Team: Lithuanian (http://www.transifex.com/lznuaa/tortoisegit/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -2872,35 +2872,35 @@ msgstr "Patvirtinimo el. pašto adresas"
 
 #. Resource IDs: (IDS_COMMIT_FINISH)
 msgid "Commit Finish"
-msgstr ""
+msgstr "Patvirtinimo pabaiga"
 
 #. Resource IDs: (IDS_PROPERTIES_WND)
 msgid "Commit Info"
-msgstr ""
+msgstr "Patvirtinimo informacija"
 
 #. Resource IDs: (IDS_PROC_COMMITMESSAGE)
 msgid "Commit Message"
-msgstr ""
+msgstr "Patvirtinimo aprašas"
 
 #. Resource IDs: (IDS_LOG_COMMIT_NAME)
 msgid "Commit Name"
-msgstr ""
+msgstr "Patvirtinimo pavadinimas"
 
 #. Resource IDs: (Dialog IDD_LOGORDERING: Control id 1750)
 msgid "Commit Ordering:"
-msgstr ""
+msgstr "Patvirtinimo eiliškumas:"
 
 #. Resource IDs: (IDS_PROC_COMMIT_SUPERPROJECT)
 msgid "Commit super project"
-msgstr ""
+msgstr "Patvirtinti viršesnį projektą"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1110)
 msgid "Commit to:"
-msgstr ""
+msgstr "Patvirtinti į:"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMMIT, IDS_STATUSLIST_CONTEXT_COMMIT)
 msgid "Commit..."
-msgstr "Patvirtinti ..."
+msgstr "Patvirtinti..."
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHOR)
 msgid "Commits by author"
@@ -2913,11 +2913,11 @@ msgstr "Patvirtinimai pagal datą"
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYUNIT)
 #, c-format
 msgid "Commits each %s"
-msgstr ""
+msgstr "Patvirtinimai per %s"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1135)
 msgid "Commits each week:"
-msgstr ""
+msgstr "Patvirtinimai per savaitę:"
 
 #. Resource IDs: (IDS_MENUDESCCOMMIT)
 msgid "Commits your changes to the repository"
@@ -2933,7 +2933,7 @@ msgid ""
 "You might want to add these folders recursively by using the 'Add...' context menu item.\n"
 "\n"
 "Are you sure that you want to continue the commit?"
-msgstr ""
+msgstr "Patvirtinant neversijuotą katalogą jo turinio elementai nebus rekursyviai pridėti!\nJums vertėtų pridėti šiuos katalogus naudojant kontekstinio meniu parinktį 'Pridėti...'.\n\nAr pratęsti patvirtinimą?"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Common Name:"
@@ -2987,7 +2987,7 @@ msgstr ""
 msgid ""
 "Compares the file with the last committed revision to show you the changes "
 "you made"
-msgstr ""
+msgstr "Palygina failą su paskutine patvirtinta revizija ir parodo jūsų atliktus pakeitimus"
 
 #. Resource IDs: (IDS_SVNACTION_COMPLETED)
 msgid "Completed"
@@ -3194,11 +3194,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOPREVREVISION)
 msgid "Could not determine the last committed revision!"
-msgstr ""
+msgstr "Nepavyko nustatyti paskutinio patvirtinimo!"
 
 #. Resource IDs: (IDS_ERR_NOTFOUND_SUPER_PRJECT)
 msgid "Could not find Super-project"
-msgstr ""
+msgstr "Nepavyko rasti viršesnio projekto"
 
 #. Resource IDs: (IDS_ERR_GITNEEDHACKS)
 msgid ""
@@ -3242,11 +3242,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_COMBINE_ERRORSTEP1)
 msgid "Could not reset to first commit (first step). Aborting..."
-msgstr ""
+msgstr "Nepavyko atstatyti į pradinę būseną iki pirmo patvirtinimo (pirmas žingsnis). Nutraukiama..."
 
 #. Resource IDs: (IDS_PROC_COMBINE_ERRORSTEP2)
 msgid "Could not reset to last commit (second step). Aborting..."
-msgstr ""
+msgstr "Nepavyko atstatyti į pradinę būseną iki paskutinio patvirtinimo (antras žingsnis). Nutraukiama..."
 
 #. Resource IDs: (IDS_PROC_COMBINE_ERRORRESETHEAD)
 msgid "Could not reset to original HEAD."
@@ -10115,7 +10115,7 @@ msgid ""
 "The submodule \"%s\" is dirty.\n"
 "Merely committing the superproject cannot track or save such changes to the submodule.\n"
 "Commit the submodule now or ignore dirty changes?"
-msgstr ""
+msgstr "Submodulis \"%s\" turi pakeitimų.\nPatvirtinant tik viršesnį projektą šie pakeitimai nebus išsaugomi.\nAr patvirtinti submodulį dabar, ar ignoruoti pakeitimus jame?"
 
 #. Resource IDs: (IDS_WARN_GITINIT_SPECIALFOLDER)
 #, c-format
