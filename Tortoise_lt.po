@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-09-26 08:09+0000\n"
+"PO-Revision-Date: 2018-09-26 12:29+0000\n"
 "Last-Translator: Andrius Burokas\n"
 "Language-Team: Lithuanian (http://www.transifex.com/lznuaa/tortoisegit/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -691,7 +691,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1607)
 msgid "&Force Rebase"
-msgstr ""
+msgstr "Priverstinai perkelti ir apjungti"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1608)
 msgid "&From:"
@@ -809,7 +809,7 @@ msgstr "&Kalba:"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1602)
 msgid "&Launch Rebase After Fetch"
-msgstr ""
+msgstr "Pa&leisti perkėlimą ir apjungimą po gavimo"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1065)
 msgid "&Limit search to modified lines"
@@ -1025,7 +1025,7 @@ msgstr "Patvirtinti vėl"
 
 #. Resource IDs: (IDS_REBASEBUTTON)
 msgid "&Rebase"
-msgstr ""
+msgstr "Pe&rkelti ir apjungti"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1694)
 msgid "&Recursive"
@@ -1892,7 +1892,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REBASE_ABORT)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr ""
+msgstr "Ar tikrai norite nutraukti perkėlimą ir apjungimą?"
 
 #. Resource IDs: (IDS_REALLYCANCEL)
 msgid "Are you sure you want to cancel?"
@@ -3472,13 +3472,13 @@ msgid ""
 "Current branch \"%s\" is up to date\n"
 "\n"
 "If you want to force a rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "Šaka \"%s\" yra atnaujinta\n\nJei norite priverstinai perkelti ir apjungti, net jei ši šaka yra paveldima iš patvirtinimo kurį norite perkelti ir apjungti, tuomet apačioje pažymėkite parinktį \"Priverstinis perkėlimas ir apjungimas\"."
 
 #. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
 msgid ""
 "Current branch is up to date or newer than the fetched branch. Open rebase "
 "anyway?"
-msgstr ""
+msgstr "Ši šaka yra ne senesnė nei gauta šaka. Ar atverti perkėlimą ir apjungimą?"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
@@ -4966,7 +4966,7 @@ msgstr ""
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto.\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
-msgstr ""
+msgstr "Priverstinai perkelti ir apjungti, net jei ši šaka yra paveldima iš patvirtinimo kurį norite perkelti ir apjungti.\nPaprastai šis veiksmas pasibaigia pranešimu \"Ši šaka yra atnaujinta\"."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1796)
 msgid "Force: May discard"
@@ -5001,13 +5001,13 @@ msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not runnig a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "Rastas užrakto failas parodo, kad perkėlimo ir apjungimo procesas yra aktyvuotas. Tai draudžia šį veiksmą.\n\nJei jūs šiuo metu nesate paleidę perkėlimo ir apjungimo, galite pašalinti užrakto failą ir tęsti veiksmus."
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
 "proceed."
-msgstr ""
+msgstr "Patvirtinimo aprašas tuščias. Norėdami tęsti perkėlimą ir apjungimą, privalote jį pateikti."
 
 #. Resource IDs: (Dialog IDD_AUTOTEXTTESTDLG: Control id 65535)
 msgid "Found auto words:"
@@ -5223,7 +5223,7 @@ msgstr "Git SVN DCommit"
 
 #. Resource IDs: (IDS_MENUSVNREBASE_DESC)
 msgid "Git SVN Rebase"
-msgstr ""
+msgstr "Git SVN perkėlimas ir apjungimas"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 326)
 msgid "Git Synchronization"
@@ -6843,7 +6843,7 @@ msgstr ""
 msgid ""
 "No need to rebase\n"
 "\"%1!s!\" equals \"%2!s!\""
-msgstr ""
+msgstr "Perkėlimas ir apjungimas nereikalingas\n\"%1!s!\" lygus \"%2!s!\""
 
 #. Resource IDs: (IDS_PROC_NOPREVIOUSVERSION)
 msgid "No previous version."
@@ -6948,7 +6948,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_NOTHINGTOREBASE)
 msgid "Nothing to Rebase"
-msgstr ""
+msgstr "Nerasta ką perkelti ir apjungti"
 
 #. Resource IDs: (IDS_ERROR_NOTHING_COMMIT)
 msgid "Nothing to commit"
@@ -8097,7 +8097,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_REMOVESTALEBUTTON)
 msgid "Remove stale lock file"
-msgstr ""
+msgstr "Pašalinti neveiksnų užrakto failą"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1631)
 msgid "Remove unmanaged directories with .git folder (-f)"
