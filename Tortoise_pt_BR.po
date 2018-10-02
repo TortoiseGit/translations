@@ -47,8 +47,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-17 14:58+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2018-10-02 12:22+0000\n"
+"Last-Translator: Ricardo Souza (RCDMK) <rcdmk@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/lznuaa/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -176,12 +176,12 @@ msgstr "%1!d! Anos atrás"
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%1!d! commits ahead \"%2!s!\""
-msgstr ""
+msgstr "%1!d! submissões à frente de \"%2!s!\""
 
 #. Resource IDs: (IDS_STATUSLIST_FILESREVERTED)
 #, c-format
 msgid "%1!d! files reverted to %2!s!."
-msgstr ""
+msgstr "%1!d! arquivos revertidos para %2!s!."
 
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
@@ -217,22 +217,22 @@ msgstr "%1!s! (%2!s!)"
 #. Resource IDs: (IDS_PROGRS_PATHATREV)
 #, c-format
 msgid "%1!s! - at revision: %2!d!"
-msgstr ""
+msgstr "%1!s! - na revisão: %2!d!"
 
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%1!s! in %2!s!"
-msgstr ""
+msgstr "%1!s! em %2!s!"
 
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
 msgid "%1!s! requires Git >= %2!s!"
-msgstr ""
+msgstr "%1!s! requer Git >= %2!s!"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
 msgid "%1!s!, at %2!s!"
-msgstr ""
+msgstr "%1!s!, em %2!s!"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -855,7 +855,7 @@ msgstr "Número da &linha"
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
 msgid "&Line number (%1!d! - %2!d!)"
-msgstr ""
+msgstr "Número da &linha (%1!d! - %2!d!)"
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
@@ -1868,7 +1868,7 @@ msgstr "Ocorreu um erro desconhecido ao acessar %1."
 #. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d!"
-msgstr ""
+msgstr "Um tipo de linha desconhecido foi encontrado na linha %d!"
 
 #. Resource IDs: (IDS_ANNOTATEDTAGS)
 msgid "Annotated tags"
@@ -2039,7 +2039,7 @@ msgstr "Nomes do autor"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\tStefan Kueng"
-msgstr ""
+msgstr "Autor:\t\t\tStefan Kueng"
 
 #. Resource IDs: (IDS_LOG_FILTER_AUTHORS)
 msgid "Authors"
@@ -2260,7 +2260,7 @@ msgstr "Núm. Rev. Ramo"
 msgid ""
 "Branch \"%1!s!\" behind \"%2!s!\"\n"
 "\"%3!s!\" will fastforward to \"%4!s!\""
-msgstr ""
+msgstr "Ramo \"%1!s!\" atrás de \"%2!s!\"\n\"%3!s!\" avançará para \"%4!s!\""
 
 #. Resource IDs: (IDS_B_T_INVALID)
 msgid "Branch/Tag name is invalid."
@@ -2388,7 +2388,7 @@ msgid ""
 "%1!s!\n"
 "to\n"
 "%2!s!"
-msgstr ""
+msgstr "Não é possível copiar \n%1!s!\npara\n%2!s!"
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 2, Dialog
 #. AFX_IDD_PRINTDLG: Control id 2, Dialog IDD_ADD: Control id 2, Dialog
@@ -2532,12 +2532,12 @@ msgstr "Arquivos Alterados"
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTROROOT)
 #, c-format
 msgid "Changed files between %1!s! and %2!s!"
-msgstr ""
+msgstr "Arquivos modificados entre %1!s! e %2!s!"
 
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTRO)
 #, c-format
 msgid "Changed files between %1!s!, %2!s! and %3!s!, %4!s!"
-msgstr ""
+msgstr "Arquivos modificados entre %1!s!, %2!s! e %3!s!, %4!s!"
 
 #. Resource IDs: (IDS_CHECKUPDATE_SUMMARY)
 #, c-format
@@ -2721,12 +2721,12 @@ msgstr "Limpar"
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_URLHIST_TT)
 #, c-format
 msgid "Clears %1!ld! URLs stored for %2!ld! working trees"
-msgstr ""
+msgstr "Limpa %1!ld! URLs armazenadas para %2!ld! árvores de trabalho"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_LOGHIST_TT)
 #, c-format
 msgid "Clears %1!ld! log messages stored for %2!ld! working trees"
-msgstr ""
+msgstr "Limpa %1!ld! mensagens no histórico para %2!ld! árvores de trabalho"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_AUTH_TT)
 #, c-format
@@ -2880,7 +2880,7 @@ msgstr "Submeter"
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
 msgid "Commit %1!s! not found in \"%2!s!\". Update submodule now?"
-msgstr ""
+msgstr "Submissão %1!s! não encontrada em \"%2!s!\". Atualizar submódulo agora?"
 
 #. Resource IDs: (IDS_LOG_NOT_VISIBLE)
 #, c-format
@@ -3206,7 +3206,7 @@ msgstr "Não foi possível verficar a existência de uma nova versão!"
 #. Resource IDs: (IDS_CHECKNEWER_NETERROR_FORMAT)
 #, c-format
 msgid "Could not check for a newer version! %1!s! (Error code: 0x%2!08X!)"
-msgstr ""
+msgstr "Não foi possível verificar uma nova versão! %1!s! (Código de erro: 0x%2!08X!)"
 
 #. Resource IDs: (IDS_ERR_COPYFILES)
 #, c-format
@@ -3293,7 +3293,7 @@ msgstr "Não foi possível recuperar a URL do arquivo!\n%s"
 msgid ""
 "Could not retrieve revision %1!s! of the file %2!s!.\n"
 "Patching is not possible!"
-msgstr ""
+msgstr "Não foi possível obter a revisão %1!s! do arquivo %2!s!.\nNão é possível aplicar correção!"
 
 #. Resource IDs: (IDS_ERR_TGITBLAME)
 msgid "Could not start TortoiseGitBlame"
@@ -3501,7 +3501,7 @@ msgid ""
 "Current branch \"%s\" is up to date\n"
 "\n"
 "If you want to force a rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "Ramo atual \"%s\" está atualizado\n\nSe você quer forçar uma reorganização mesmo se o ramo atual for um descendente da submissão que você está reorganizando sobre, por favor marque a caixa \"Forçar Reorganização\"."
 
 #. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
 msgid ""
@@ -4497,7 +4497,7 @@ msgstr "Erro ao validar certificado do servidor para \"%s\":"
 msgid ""
 "Error while reading/writing the registry key %1!s!\n"
 "%2!s!"
-msgstr ""
+msgstr "Erro ao ler/escrever a chave de registro %1!s!\n%2!s!"
 
 #. Resource IDs: (IDS_PROC_EVERYTHINGUPDATED)
 msgid "Everything updated."
@@ -4592,7 +4592,7 @@ msgstr "Reversão falhou"
 #. Resource IDs: (IDS_STATUSLIST_CHECKOUTFILEFAILED)
 #, c-format
 msgid "Failed to checkout file \"%1!s!\" of revision %2!s! to \"%3!s!\"."
-msgstr ""
+msgstr "Falha ao restaurar arquivo \"%1!s!\" da revisão %2!s! para \"%3!s!\"."
 
 #. Resource IDs: (IDS_CHECKOUTFAILED)
 #, c-format
@@ -4661,7 +4661,7 @@ msgstr "Falha ao definir/remover a lista de alterações '%s'"
 msgid ""
 "Failed to start the issue tracker COM provider '%1!s!'.\n"
 "%2!s!"
-msgstr ""
+msgstr "Falha ao iniciar provedor COM do rastreador de problemas '%1!s!'.\n%2!s!"
 
 #. Resource IDs: (IDS_ERR_PAEGENTTIMEOUT)
 msgid "Failed waiting for pageant to finish loading key."
@@ -4683,7 +4683,7 @@ msgstr "Ava&nçar Rápido Apenas"
 #. Resource IDs: (IDS_PROC_REBASE_FFTO)
 #, c-format
 msgid "Fast forward to \"%s\""
-msgstr ""
+msgstr "Avançar para \"%s\""
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCH)
 msgid "Fetc&h"
