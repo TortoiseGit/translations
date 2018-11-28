@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-17 14:58+0000\n"
+"PO-Revision-Date: 2018-11-28 19:12+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/lznuaa/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -471,6 +471,10 @@ msgstr "&Odevzdat..."
 msgid "&Compare revisions"
 msgstr "&Porovnat revize"
 
+#. Resource IDs: (IDS_LOG_POPUP_COMPAREWITHPREVIOUS)
+msgid "&Compare with previous revision"
+msgstr ""
+
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
 msgstr "&Zhuštěný graf"
@@ -502,7 +506,7 @@ msgid "&Default"
 msgstr "&Výchozí"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 1, IDS_DELETEBUTTON,
-#. IDS_MENUREMOVE)
+#. IDS_DELETE_BRANCHTAG_SHORT, IDS_MENUREMOVE)
 msgid "&Delete"
 msgstr "&Smazat"
 
@@ -513,6 +517,10 @@ msgstr "&Smazat (ponechat místní)"
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1507)
 msgid "&Delete Filter"
 msgstr "&Smazat filtr"
+
+#. Resource IDs: (IDS_DELETE_BRANCHTAG)
+msgid "&Delete branch/tag"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
 msgid "&Delete remote && local"
@@ -553,6 +561,12 @@ msgstr "&Provést totéž u ostatních"
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
 msgid "&Don't ask me again"
 msgstr "&Již se mě neptat"
+
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK4)
+msgid ""
+"&Don't run\n"
+"Do not run the script"
+msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
 msgid "&Don't show this message again"
@@ -692,6 +706,10 @@ msgstr "&Vynutit"
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1607)
 msgid "&Force Rebase"
 msgstr "&Vynutit přeskládání"
+
+#. Resource IDs: (IDS_CREATE_PATCH)
+msgid "&Format Patch..."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1608)
 msgid "&From:"
@@ -856,6 +874,11 @@ msgstr "&Maximální délka řádku pro jeho rozdíly"
 #. IDD_SUBMODULE_UPDATE: Control id 1735, IDS_MERGEBUTTON)
 msgid "&Merge"
 msgstr "&Sloučení"
+
+#. Resource IDs: (IDS_LOG_POPUP_MERGEREV)
+#, c-format
+msgid "&Merge to \"%s\"..."
+msgstr ""
 
 #. Resource IDs: (IDS_MERGE_UNRELATED)
 msgid "&Merge unrelated history"
@@ -1111,6 +1134,12 @@ msgstr "&Vrátit změnu od tohoto odevzdání"
 msgid "&Revert changes by these commits"
 msgstr "&Vrátit změnu od těchto odevzdání"
 
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK3)
+msgid ""
+"&Run\n"
+"Run the hook script"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 65535)
 msgid "&SSH client:"
 msgstr "&Klient SSH:"
@@ -1193,6 +1222,10 @@ msgstr "&Lišta stavu"
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
 msgstr "&Přejít na novou větev"
+
+#. Resource IDs: (IDS_SWITCH_BRANCH)
+msgid "&Switch/Checkout to"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1173)
 msgid "&Symbol View"
@@ -1305,8 +1338,7 @@ msgstr "&Varovat když v odevzdání chybí Podepsal(a)"
 msgid "&Whole Project"
 msgstr "&Celý projekt"
 
-#. Resource IDs: (Dialog IDD_FIND: Control id 1066, Dialog IDD_FIND: Control
-#. id 20085)
+#. Resource IDs: (Dialog IDD_FIND: Control id 1066)
 msgid "&Whole word"
 msgstr "&Celé slovo"
 
@@ -1639,6 +1671,14 @@ msgstr "&Přidat \"Podepsal(a)\""
 msgid "Add another commit?"
 msgstr "Přidat další odevzdání?"
 
+#. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_EXE)
+msgid "Add as Executable (+x)"
+msgstr ""
+
+#. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_LINK)
+msgid "Add as Symlink"
+msgstr ""
+
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
 msgstr "Přidat program pro porovnání na základě přípony"
@@ -1876,6 +1916,10 @@ msgstr "Použít řadu záplat z poštovní schránky"
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1072)
 msgid "Apply unified diff"
 msgstr "Použít sjednocený rozdíl"
+
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK2)
+msgid "Approve or reject client-side hook script"
+msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Arabic"
@@ -2319,6 +2363,10 @@ msgstr "&Zkontrolovat nyní"
 msgid "C&ommit"
 msgstr "&Odevzdat"
 
+#. Resource IDs: (IDS_LOG_POPUP_COMMIT)
+msgid "C&ommit..."
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
 msgstr "&Vytvořit větev/značku z revize"
@@ -2606,6 +2654,14 @@ msgstr "Získat"
 msgid "Checkout with merge"
 msgstr "Získání se sloučením"
 
+#. Resource IDs: (IDS_CHERRY_PICK_VERSIONS)
+msgid "Cherr&y Pick selected commits..."
+msgstr ""
+
+#. Resource IDs: (IDS_CHERRY_PICK_VERSION)
+msgid "Cherr&y Pick this commit..."
+msgstr ""
+
 #. Resource IDs: (IDS_PROGS_TITLE_CHERRYPICK)
 msgid "Cherry Pick"
 msgstr "Výběr nejlepšího"
@@ -2613,14 +2669,6 @@ msgstr "Výběr nejlepšího"
 #. Resource IDs: (IDS_PROC_CHERRYPICKFAILED)
 msgid "Cherry Pick failed"
 msgstr "Výběr nejlepšího selhal"
-
-#. Resource IDs: (IDS_CHERRY_PICK_VERSIONS)
-msgid "Cherry Pick selected commits..."
-msgstr "Vybrat nejlepší ze zvolených odevzdání..."
-
-#. Resource IDs: (IDS_CHERRY_PICK_VERSION)
-msgid "Cherry Pick this commit..."
-msgstr "Vybrat toto odevzdání jako nejlepší..."
 
 #. Resource IDs: (IDS_CHERRYPICKFAILEDSKIP)
 msgid "Cherry-pick failed! Skip this commit?"
@@ -2817,13 +2865,13 @@ msgstr "Barvit podle věku, &průběžné"
 msgid "Colors"
 msgstr "Barvy"
 
+#. Resource IDs: (IDS_COMBINE_TO_ONE)
+msgid "Com&bine to one commit"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1481)
 msgid "Combine One Mail"
 msgstr "Spojit jeden email"
-
-#. Resource IDs: (IDS_COMBINE_TO_ONE)
-msgid "Combine to one commit"
-msgstr "Spojit do jednoho odevzdání"
 
 #. Resource IDs: (IDS_PROGRS_CMDINFO)
 msgid "Command"
@@ -2898,7 +2946,7 @@ msgstr "Odevzdat super projekt"
 msgid "Commit to:"
 msgstr "Odevzdat do:"
 
-#. Resource IDs: (IDS_LOG_POPUP_COMMIT, IDS_STATUSLIST_CONTEXT_COMMIT)
+#. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMMIT)
 msgid "Commit..."
 msgstr "Odevzdat..."
 
@@ -2939,14 +2987,14 @@ msgstr "Odevzdáním složky bez verze nebudou rekurzivně přidány její podř
 msgid "Common Name:"
 msgstr "Společný název:"
 
+#. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
+msgid "Comp&are change sets"
+msgstr ""
+
 #. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
 #. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "&Porovnat čelní revize"
-
-#. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
-msgid "Compare change sets"
-msgstr ""
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -2973,7 +3021,7 @@ msgstr "Porovnat s &pracovním stromem"
 msgid "Compare with b&ase"
 msgstr "Porovnat se &zdrojem"
 
-#. Resource IDs: (IDS_BLAME_POPUP_COMPARE, IDS_LOG_POPUP_COMPAREWITHPREVIOUS)
+#. Resource IDs: (IDS_BLAME_POPUP_COMPARE)
 msgid "Compare with previous revision"
 msgstr "Porovnat s předchozí revizí"
 
@@ -3342,6 +3390,10 @@ msgstr "Vytvořit &knihovnu"
 msgid "Create &New Branch"
 msgstr "Vytvořit &novou větev"
 
+#. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
+msgid "Create &Tag at this version..."
+msgstr ""
+
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
 msgstr "Vytvořit &značku..."
@@ -3354,13 +3406,13 @@ msgstr ""
 msgid "Create .gitignore file"
 msgstr "Vytvořit soubor .gitignore"
 
+#. Resource IDs: (IDS_CREATE_BRANCH_AT_THIS)
+msgid "Create Br&anch at this version..."
+msgstr ""
+
 #. Resource IDs: (IDS_PROGS_TITLE_CREATEBRANCH)
 msgid "Create Branch"
 msgstr "Vytvořit větev"
-
-#. Resource IDs: (IDS_CREATE_BRANCH_AT_THIS)
-msgid "Create Branch at this version..."
-msgstr "Vytvořit větev při této verzi..."
 
 #. Resource IDs: (Dialog IDD_CREATECHANGELIST: Control id 243)
 msgid "Create Changelist"
@@ -3373,10 +3425,6 @@ msgstr "Vytvořit řadovou záplatu..."
 #. Resource IDs: (IDS_PROGS_TITLE_CREATETAG)
 msgid "Create Tag"
 msgstr "Vytvořit značku"
-
-#. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
-msgid "Create Tag at this version..."
-msgstr "Vytvořit značku při této verzi..."
 
 #. Resource IDs: (57600)
 msgid ""
@@ -3531,8 +3579,7 @@ msgstr "Výchozí omezení zprávy záznamu:"
 msgid "Default to UTF-8 encoding"
 msgstr "Standardně kódovat v UTF-8"
 
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4571,
-#. IDS_DELETE_BRANCHTAG_SHORT)
+#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4571)
 msgid "Delete"
 msgstr "Smazat"
 
@@ -3588,10 +3635,6 @@ msgstr "Smazat a ignorovat mnoho položek podle &přípony"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
 msgstr "Smazat větev"
-
-#. Resource IDs: (IDS_DELETE_BRANCHTAG)
-msgid "Delete branch/tag"
-msgstr "Smazat větev/značku"
 
 #. Resource IDs: (IDS_DELETE_LOCALTAG)
 msgid "Delete local tag"
@@ -3917,6 +3960,10 @@ msgstr "&Toto varování již nepotřebuji vidět (pokud je zvoleno Pokračovat)
 msgid "Do &not show me this warning again (if Ignore is selected)"
 msgstr "&Toto varování již nepotřebuji vidět (pokud je zvoleno Ignorovat)"
 
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK5)
+msgid "Do not ask again for this script"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1407)
 msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
 msgstr "Nevybírat automaticky \"chybějící\" soubory (smazané, ale nezařazené)"
@@ -4153,6 +4200,10 @@ msgstr "&Vynechat cesty:"
 msgid "E&xit"
 msgstr "&Ukončit"
 
+#. Resource IDs: (IDS_EXPORT_TO_THIS)
+msgid "E&xport this version..."
+msgstr ""
+
 #. Resource IDs: (IDS_MENUEXPORT)
 msgid "E&xport..."
 msgstr "E&xportovat..."
@@ -4178,6 +4229,10 @@ msgstr "Východoevropské"
 msgid "Edit"
 msgstr "Upravit"
 
+#. Resource IDs: (IDS_EDIT_NOTES)
+msgid "Edit &Notes"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_EDITGLOBALGITCONFIG)
 msgid "Edit &global .gitconfig"
 msgstr "Upravit &globální .gitconfig"
@@ -4190,7 +4245,7 @@ msgstr "Upravit &místní .git/config"
 msgid "Edit .tgitconfig"
 msgstr "Upravit .tgitconfig"
 
-#. Resource IDs: (IDS_EDIT_NOTES, IDS_PROGS_TITLE_EDITNOTES)
+#. Resource IDs: (IDS_PROGS_TITLE_EDITNOTES)
 msgid "Edit Notes"
 msgstr "Upravit poznámky"
 
@@ -4503,10 +4558,6 @@ msgstr "Exportovat adresář:"
 msgid "Export selection to..."
 msgstr "Exportovat výběr do..."
 
-#. Resource IDs: (IDS_EXPORT_TO_THIS)
-msgid "Export this version..."
-msgstr "Exportovat tuto verzi..."
-
 #. Resource IDs: (IDS_PROC_EXPORT_2)
 msgid "Export unversioned files too"
 msgstr "Exportovat také soubory bez verze"
@@ -4621,6 +4672,13 @@ msgstr "Nelze provést serverovou operaci."
 #. Resource IDs: (AFX_IDP_FAILED_TO_SAVE_DOC)
 msgid "Failed to save document."
 msgstr "Dokument nelze uložit."
+
+#. Resource IDs: (IDS_ERRORSAVE)
+#, c-format
+msgid ""
+"Failed to save file \"%s\":\n"
+"%s"
+msgstr ""
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTFAILED)
 #, c-format
@@ -4816,6 +4874,10 @@ msgstr "Soubory"
 msgid "Filter by"
 msgstr "Filtrovat podle"
 
+#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
+msgid "Filter match"
+msgstr ""
+
 #. Resource IDs: (IDS_FILEDIFF_FILTERCUE)
 msgid "Filter paths"
 msgstr "Filtrovat cesty"
@@ -4980,10 +5042,6 @@ msgstr "Pořpedí"
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 312)
 msgid "Format Patch"
 msgstr "Formát záplaty"
-
-#. Resource IDs: (IDS_CREATE_PATCH)
-msgid "Format Patch..."
-msgstr "Formátovat záplatu..."
 
 #. Resource IDs: (IDS_FORWARDN)
 #, c-format
@@ -5796,6 +5854,14 @@ msgid ""
 "If this is enabled, no value is stored or overwritten at this config level."
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKS_APPROVE_SECURITYHINT)
+msgid ""
+"If you are executing a versioned file from the repository, please note that "
+"the content possibly have been altered by third parties unnoticed (e.g. "
+"after pull or merge). Keep this in mind especially if you approve a "
+"repository hook permanently."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
 "If you plan to work inside this folder, leave this unchecked. Typically a "
@@ -6488,11 +6554,6 @@ msgid ""
 "Merge between original branch, working tree contents, and the branch to "
 "switch to"
 msgstr "Sloučení mezi původní větví, obsahem pracovního stromu a větví na kterou přejít"
-
-#. Resource IDs: (IDS_LOG_POPUP_MERGEREV, IDS_LOG_POPUP_MERGEREVS)
-#, c-format
-msgid "Merge to \"%s\"..."
-msgstr "Sloučit do \"%s\"..."
 
 #. Resource IDs: (IDS_PATHACTIONS_MERGED, IDS_SVNACTION_MERGED,
 #. IDS_VIEWTITLE_MERGED)
@@ -7775,6 +7836,11 @@ msgstr ""
 msgid "R&AM drives"
 msgstr "Jednotky R&AM"
 
+#. Resource IDs: (IDS_RESET_TO_THIS_FORMAT)
+#, c-format
+msgid "R&eset \"%s\" to this..."
+msgstr ""
+
 #. Resource IDs: (IDS_RESTORE_FROM_INDEX)
 msgid "R&estore this file from index"
 msgstr "&Odstranit tento soubor z rejstříku"
@@ -7843,8 +7909,8 @@ msgstr "Přeskládat"
 
 #. Resource IDs: (IDS_REBASE_THIS_FORMAT)
 #, c-format
-msgid "Rebase \"%s\" onto this..."
-msgstr "Přeskládat \"%s\" nad toto..."
+msgid "Rebase \"%s\" onto this...(&G)"
+msgstr ""
 
 #. Resource IDs: (IDS_MENUREBASE)
 msgid "Rebase..."
@@ -8225,11 +8291,6 @@ msgstr "Resetovat"
 msgid "Reset Type"
 msgstr "Typ resetování"
 
-#. Resource IDs: (IDS_RESET_TO_THIS_FORMAT)
-#, c-format
-msgid "Reset \"%s\" to this..."
-msgstr "Resetovat \"%s\" na toto..."
-
 #. Resource IDs: (Dialog IDD_RESET: Control id 1522)
 msgid "Reset active branch"
 msgstr "resetovat aktivní větev"
@@ -8422,6 +8483,10 @@ msgstr "Pravé zobrazení:"
 #. Resource IDs: (Dialog IDD_OPEN: Control id 65535)
 msgid "Right image"
 msgstr "Pravý obrázek"
+
+#. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1848)
+msgid "Run for this repository"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1335)
 msgid "Run when working tree path is under:"
@@ -9041,6 +9106,10 @@ msgstr "Zobrazit &Přehled"
 msgid "Show Whitespaces"
 msgstr "Zobrazit mezery"
 
+#. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1210)
+msgid "Show all &staged files"
+msgstr ""
+
 #. Resource IDs: (32813)
 msgid "Show an overview of the whole graph"
 msgstr "Zobrazit přehled celého grafu"
@@ -9065,10 +9134,10 @@ msgid ""
 msgstr "Zobrazit číslo revize větve (git rev-list --count --first-parent) v dialogovém okně záznamu a po odeslání do vzdálené větve; není zaručeno že číslo bude jedinečné, pro další inforamci si přečtěte nápovědu"
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
-msgid "Show branches this commit is on"
-msgstr "Zobrazit větve na kterých je odevzdání"
+msgid "Show branches this commit is &on"
+msgstr ""
 
-#. Resource IDs: (IDS_LOG_POPUP_GNUDIFF, IDS_LOG_POPUP_GNUDIFF_CH)
+#. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
 msgstr "Zobrazit změny jako &sjednocený rozdíl"
 
@@ -9638,6 +9707,10 @@ msgstr "Podmoduly"
 msgid "Success"
 msgstr "Úspěch"
 
+#. Resource IDs: (IDS_SWITCH_TO_THIS)
+msgid "Sw&itch/Checkout to this..."
+msgstr ""
+
 #. Resource IDs: (IDS_PROGRS_TITLE_SWITCH)
 msgid "Switch"
 msgstr "Přejít"
@@ -9691,14 +9764,6 @@ msgstr "Přepnout na předchozí okno dokumentu"
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 304)
 msgid "Switch/Checkout"
 msgstr "Přejít/Získat"
-
-#. Resource IDs: (IDS_SWITCH_BRANCH)
-msgid "Switch/Checkout to"
-msgstr "Přejít/Získat na"
-
-#. Resource IDs: (IDS_SWITCH_TO_THIS)
-msgid "Switch/Checkout to this..."
-msgstr "Přejít/Získat na toto..."
 
 #. Resource IDs: (IDS_MENUDESCSWITCH)
 msgid "Switch/Checkout working tree to another branch/tag"
@@ -9974,6 +10039,10 @@ msgid ""
 "The hook script returned an error:\n"
 "%s"
 msgstr "Hákový skript vrátil chybu:\n%s"
+
+#. Resource IDs: (IDS_ERR_HOOKNOTAPPROVED)
+msgid "The hook script was not approved to run!"
+msgstr ""
 
 #. Resource IDs: (IDS_INVALIDIMAGEINFO)
 msgid "The image can not be shown."
@@ -10306,6 +10375,14 @@ msgstr "Název této vzdálené je v konfliktu se získaným specifikátorem odk
 #. Resource IDs: (IDS_PROC_NOCLEAN)
 msgid "This task requires a clean working tree."
 msgstr "Tato operace vyžaduje čistý pracovní strom."
+
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK1)
+#, c-format
+msgid ""
+"This working copy has a client-side hook script configured. Do you want this script to run?\n"
+"The command line to run is:\n"
+"%ls"
+msgstr ""
 
 #. Resource IDs: (IDS_TREE_DIFF)
 msgid "Three way diff"

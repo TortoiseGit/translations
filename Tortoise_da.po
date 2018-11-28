@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-08-17 14:58+0000\n"
+"PO-Revision-Date: 2018-11-28 19:12+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Danish (http://www.transifex.com/lznuaa/tortoisegit/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -468,6 +468,10 @@ msgstr "&Arkivér..."
 msgid "&Compare revisions"
 msgstr "&Sammenlign revisioner"
 
+#. Resource IDs: (IDS_LOG_POPUP_COMPAREWITHPREVIOUS)
+msgid "&Compare with previous revision"
+msgstr ""
+
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
 msgstr ""
@@ -499,7 +503,7 @@ msgid "&Default"
 msgstr "&Standard"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 1, IDS_DELETEBUTTON,
-#. IDS_MENUREMOVE)
+#. IDS_DELETE_BRANCHTAG_SHORT, IDS_MENUREMOVE)
 msgid "&Delete"
 msgstr "S&let"
 
@@ -510,6 +514,10 @@ msgstr "&Slet (behold lokalt)"
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1507)
 msgid "&Delete Filter"
 msgstr "&Slet Filter"
+
+#. Resource IDs: (IDS_DELETE_BRANCHTAG)
+msgid "&Delete branch/tag"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
 msgid "&Delete remote && local"
@@ -549,6 +557,12 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
 msgid "&Don't ask me again"
+msgstr ""
+
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK4)
+msgid ""
+"&Don't run\n"
+"Do not run the script"
 msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
@@ -688,6 +702,10 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1607)
 msgid "&Force Rebase"
+msgstr ""
+
+#. Resource IDs: (IDS_CREATE_PATCH)
+msgid "&Format Patch..."
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1608)
@@ -853,6 +871,11 @@ msgstr "&Max linie længde for indlejrede forskelle"
 #. IDD_SUBMODULE_UPDATE: Control id 1735, IDS_MERGEBUTTON)
 msgid "&Merge"
 msgstr "&Flet"
+
+#. Resource IDs: (IDS_LOG_POPUP_MERGEREV)
+#, c-format
+msgid "&Merge to \"%s\"..."
+msgstr ""
 
 #. Resource IDs: (IDS_MERGE_UNRELATED)
 msgid "&Merge unrelated history"
@@ -1108,6 +1131,12 @@ msgstr ""
 msgid "&Revert changes by these commits"
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK3)
+msgid ""
+"&Run\n"
+"Run the hook script"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 65535)
 msgid "&SSH client:"
 msgstr "&SSH-klient:"
@@ -1189,6 +1218,10 @@ msgstr "&Statuslinje"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
+msgstr ""
+
+#. Resource IDs: (IDS_SWITCH_BRANCH)
+msgid "&Switch/Checkout to"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1173)
@@ -1302,8 +1335,7 @@ msgstr ""
 msgid "&Whole Project"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_FIND: Control id 1066, Dialog IDD_FIND: Control
-#. id 20085)
+#. Resource IDs: (Dialog IDD_FIND: Control id 1066)
 msgid "&Whole word"
 msgstr "&Helt ord"
 
@@ -1636,6 +1668,14 @@ msgstr ""
 msgid "Add another commit?"
 msgstr ""
 
+#. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_EXE)
+msgid "Add as Executable (+x)"
+msgstr ""
+
+#. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_LINK)
+msgid "Add as Symlink"
+msgstr ""
+
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
 msgstr "Tilføj filendelse-specifikt sammenligningsprogram"
@@ -1873,6 +1913,10 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1072)
 msgid "Apply unified diff"
 msgstr "Aktiver unified diff"
+
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK2)
+msgid "Approve or reject client-side hook script"
+msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Arabic"
@@ -2316,6 +2360,10 @@ msgstr "C&heck nu"
 msgid "C&ommit"
 msgstr ""
 
+#. Resource IDs: (IDS_LOG_POPUP_COMMIT)
+msgid "C&ommit..."
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_POPUP_COPY)
 msgid "C&reate branch/tag from revision"
 msgstr "O&pret gren/mærke fra revision"
@@ -2603,20 +2651,20 @@ msgstr "Hent arbejdskopi"
 msgid "Checkout with merge"
 msgstr ""
 
+#. Resource IDs: (IDS_CHERRY_PICK_VERSIONS)
+msgid "Cherr&y Pick selected commits..."
+msgstr ""
+
+#. Resource IDs: (IDS_CHERRY_PICK_VERSION)
+msgid "Cherr&y Pick this commit..."
+msgstr ""
+
 #. Resource IDs: (IDS_PROGS_TITLE_CHERRYPICK)
 msgid "Cherry Pick"
 msgstr ""
 
 #. Resource IDs: (IDS_PROC_CHERRYPICKFAILED)
 msgid "Cherry Pick failed"
-msgstr ""
-
-#. Resource IDs: (IDS_CHERRY_PICK_VERSIONS)
-msgid "Cherry Pick selected commits..."
-msgstr ""
-
-#. Resource IDs: (IDS_CHERRY_PICK_VERSION)
-msgid "Cherry Pick this commit..."
 msgstr ""
 
 #. Resource IDs: (IDS_CHERRYPICKFAILEDSKIP)
@@ -2814,12 +2862,12 @@ msgstr "Farvelæg efter alder, &fortløbende"
 msgid "Colors"
 msgstr "Farver"
 
-#. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1481)
-msgid "Combine One Mail"
+#. Resource IDs: (IDS_COMBINE_TO_ONE)
+msgid "Com&bine to one commit"
 msgstr ""
 
-#. Resource IDs: (IDS_COMBINE_TO_ONE)
-msgid "Combine to one commit"
+#. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1481)
+msgid "Combine One Mail"
 msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_CMDINFO)
@@ -2895,7 +2943,7 @@ msgstr ""
 msgid "Commit to:"
 msgstr "Arkivér til:"
 
-#. Resource IDs: (IDS_LOG_POPUP_COMMIT, IDS_STATUSLIST_CONTEXT_COMMIT)
+#. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMMIT)
 msgid "Commit..."
 msgstr "Arkivér..."
 
@@ -2936,14 +2984,14 @@ msgstr ""
 msgid "Common Name:"
 msgstr ""
 
+#. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
+msgid "Comp&are change sets"
+msgstr ""
+
 #. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
 #. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "Sammenlign &HEAD-revisioner"
-
-#. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
-msgid "Compare change sets"
-msgstr ""
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -2970,7 +3018,7 @@ msgstr ""
 msgid "Compare with b&ase"
 msgstr "Sammenlign med b&asisfilen"
 
-#. Resource IDs: (IDS_BLAME_POPUP_COMPARE, IDS_LOG_POPUP_COMPAREWITHPREVIOUS)
+#. Resource IDs: (IDS_BLAME_POPUP_COMPARE)
 msgid "Compare with previous revision"
 msgstr "Sammenlign med forrige version"
 
@@ -3339,6 +3387,10 @@ msgstr "Opret &Bibliotek"
 msgid "Create &New Branch"
 msgstr ""
 
+#. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
+msgid "Create &Tag at this version..."
+msgstr ""
+
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
 msgstr ""
@@ -3351,12 +3403,12 @@ msgstr ""
 msgid "Create .gitignore file"
 msgstr ""
 
-#. Resource IDs: (IDS_PROGS_TITLE_CREATEBRANCH)
-msgid "Create Branch"
+#. Resource IDs: (IDS_CREATE_BRANCH_AT_THIS)
+msgid "Create Br&anch at this version..."
 msgstr ""
 
-#. Resource IDs: (IDS_CREATE_BRANCH_AT_THIS)
-msgid "Create Branch at this version..."
+#. Resource IDs: (IDS_PROGS_TITLE_CREATEBRANCH)
+msgid "Create Branch"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_CREATECHANGELIST: Control id 243)
@@ -3369,10 +3421,6 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGS_TITLE_CREATETAG)
 msgid "Create Tag"
-msgstr ""
-
-#. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
-msgid "Create Tag at this version..."
 msgstr ""
 
 #. Resource IDs: (57600)
@@ -3528,8 +3576,7 @@ msgstr ""
 msgid "Default to UTF-8 encoding"
 msgstr "Sæt UFT-8 tegnsæt som standard"
 
-#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4571,
-#. IDS_DELETE_BRANCHTAG_SHORT)
+#. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4571)
 msgid "Delete"
 msgstr "Slet"
 
@@ -3584,10 +3631,6 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCH)
 msgid "Delete branch"
-msgstr ""
-
-#. Resource IDs: (IDS_DELETE_BRANCHTAG)
-msgid "Delete branch/tag"
 msgstr ""
 
 #. Resource IDs: (IDS_DELETE_LOCALTAG)
@@ -3914,6 +3957,10 @@ msgstr ""
 msgid "Do &not show me this warning again (if Ignore is selected)"
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK5)
+msgid "Do not ask again for this script"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1407)
 msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
 msgstr ""
@@ -4150,6 +4197,10 @@ msgstr "&Udelad stier:"
 msgid "E&xit"
 msgstr "&Afslut"
 
+#. Resource IDs: (IDS_EXPORT_TO_THIS)
+msgid "E&xport this version..."
+msgstr ""
+
 #. Resource IDs: (IDS_MENUEXPORT)
 msgid "E&xport..."
 msgstr "E&ksporter..."
@@ -4175,6 +4226,10 @@ msgstr ""
 msgid "Edit"
 msgstr "Rediger"
 
+#. Resource IDs: (IDS_EDIT_NOTES)
+msgid "Edit &Notes"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_EDITGLOBALGITCONFIG)
 msgid "Edit &global .gitconfig"
 msgstr ""
@@ -4187,7 +4242,7 @@ msgstr ""
 msgid "Edit .tgitconfig"
 msgstr ""
 
-#. Resource IDs: (IDS_EDIT_NOTES, IDS_PROGS_TITLE_EDITNOTES)
+#. Resource IDs: (IDS_PROGS_TITLE_EDITNOTES)
 msgid "Edit Notes"
 msgstr ""
 
@@ -4500,10 +4555,6 @@ msgstr ""
 msgid "Export selection to..."
 msgstr ""
 
-#. Resource IDs: (IDS_EXPORT_TO_THIS)
-msgid "Export this version..."
-msgstr ""
-
 #. Resource IDs: (IDS_PROC_EXPORT_2)
 msgid "Export unversioned files too"
 msgstr "Eksporter også ikke-versionerede filer"
@@ -4618,6 +4669,13 @@ msgstr "Det lykkedes ikke at udføre serveroperation."
 #. Resource IDs: (AFX_IDP_FAILED_TO_SAVE_DOC)
 msgid "Failed to save document."
 msgstr "Det lykkedes ikke at gemme dokumentet."
+
+#. Resource IDs: (IDS_ERRORSAVE)
+#, c-format
+msgid ""
+"Failed to save file \"%s\":\n"
+"%s"
+msgstr ""
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTFAILED)
 #, c-format
@@ -4813,6 +4871,10 @@ msgstr "Filer"
 msgid "Filter by"
 msgstr "Filtrer med"
 
+#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
+msgid "Filter match"
+msgstr ""
+
 #. Resource IDs: (IDS_FILEDIFF_FILTERCUE)
 msgid "Filter paths"
 msgstr "Filtrér stier"
@@ -4976,10 +5038,6 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 312)
 msgid "Format Patch"
-msgstr ""
-
-#. Resource IDs: (IDS_CREATE_PATCH)
-msgid "Format Patch..."
 msgstr ""
 
 #. Resource IDs: (IDS_FORWARDN)
@@ -5793,6 +5851,14 @@ msgid ""
 "If this is enabled, no value is stored or overwritten at this config level."
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKS_APPROVE_SECURITYHINT)
+msgid ""
+"If you are executing a versioned file from the repository, please note that "
+"the content possibly have been altered by third parties unnoticed (e.g. "
+"after pull or merge). Keep this in mind especially if you approve a "
+"repository hook permanently."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
 "If you plan to work inside this folder, leave this unchecked. Typically a "
@@ -6484,11 +6550,6 @@ msgstr "Reintegreringsfletning"
 msgid ""
 "Merge between original branch, working tree contents, and the branch to "
 "switch to"
-msgstr ""
-
-#. Resource IDs: (IDS_LOG_POPUP_MERGEREV, IDS_LOG_POPUP_MERGEREVS)
-#, c-format
-msgid "Merge to \"%s\"..."
 msgstr ""
 
 #. Resource IDs: (IDS_PATHACTIONS_MERGED, IDS_SVNACTION_MERGED,
@@ -7772,6 +7833,11 @@ msgstr ""
 msgid "R&AM drives"
 msgstr "&Hukommelsesdrev"
 
+#. Resource IDs: (IDS_RESET_TO_THIS_FORMAT)
+#, c-format
+msgid "R&eset \"%s\" to this..."
+msgstr ""
+
 #. Resource IDs: (IDS_RESTORE_FROM_INDEX)
 msgid "R&estore this file from index"
 msgstr ""
@@ -7840,7 +7906,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_REBASE_THIS_FORMAT)
 #, c-format
-msgid "Rebase \"%s\" onto this..."
+msgid "Rebase \"%s\" onto this...(&G)"
 msgstr ""
 
 #. Resource IDs: (IDS_MENUREBASE)
@@ -8222,11 +8288,6 @@ msgstr ""
 msgid "Reset Type"
 msgstr ""
 
-#. Resource IDs: (IDS_RESET_TO_THIS_FORMAT)
-#, c-format
-msgid "Reset \"%s\" to this..."
-msgstr ""
-
 #. Resource IDs: (Dialog IDD_RESET: Control id 1522)
 msgid "Reset active branch"
 msgstr ""
@@ -8419,6 +8480,10 @@ msgstr "Højre visning: "
 #. Resource IDs: (Dialog IDD_OPEN: Control id 65535)
 msgid "Right image"
 msgstr "Højre billede"
+
+#. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1848)
+msgid "Run for this repository"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1335)
 msgid "Run when working tree path is under:"
@@ -9038,6 +9103,10 @@ msgstr "Vis ove&rsigt"
 msgid "Show Whitespaces"
 msgstr "Vis blanktegn"
 
+#. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1210)
+msgid "Show all &staged files"
+msgstr ""
+
 #. Resource IDs: (32813)
 msgid "Show an overview of the whole graph"
 msgstr "Vis en oversigt over hele grafen"
@@ -9062,10 +9131,10 @@ msgid ""
 msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
-msgid "Show branches this commit is on"
+msgid "Show branches this commit is &on"
 msgstr ""
 
-#. Resource IDs: (IDS_LOG_POPUP_GNUDIFF, IDS_LOG_POPUP_GNUDIFF_CH)
+#. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
 msgstr "Vis ændringer som &unified diff"
 
@@ -9635,6 +9704,10 @@ msgstr ""
 msgid "Success"
 msgstr "Succes"
 
+#. Resource IDs: (IDS_SWITCH_TO_THIS)
+msgid "Sw&itch/Checkout to this..."
+msgstr ""
+
 #. Resource IDs: (IDS_PROGRS_TITLE_SWITCH)
 msgid "Switch"
 msgstr "Skift"
@@ -9687,14 +9760,6 @@ msgstr "Skift til foregående dokumentvindue"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 304)
 msgid "Switch/Checkout"
-msgstr ""
-
-#. Resource IDs: (IDS_SWITCH_BRANCH)
-msgid "Switch/Checkout to"
-msgstr ""
-
-#. Resource IDs: (IDS_SWITCH_TO_THIS)
-msgid "Switch/Checkout to this..."
 msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCSWITCH)
@@ -9970,6 +10035,10 @@ msgstr ""
 msgid ""
 "The hook script returned an error:\n"
 "%s"
+msgstr ""
+
+#. Resource IDs: (IDS_ERR_HOOKNOTAPPROVED)
+msgid "The hook script was not approved to run!"
 msgstr ""
 
 #. Resource IDs: (IDS_INVALIDIMAGEINFO)
@@ -10302,6 +10371,14 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_NOCLEAN)
 msgid "This task requires a clean working tree."
+msgstr ""
+
+#. Resource IDs: (IDS_HOOKS_APPROVE_TASK1)
+#, c-format
+msgid ""
+"This working copy has a client-side hook script configured. Do you want this script to run?\n"
+"The command line to run is:\n"
+"%ls"
 msgstr ""
 
 #. Resource IDs: (IDS_TREE_DIFF)
