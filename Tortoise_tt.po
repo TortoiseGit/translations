@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2018 the TortoiseGit team
+# Copyright (C) 2008-2019 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-11-28 19:12+0000\n"
+"PO-Revision-Date: 2019-01-02 19:23+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Tatar (http://www.transifex.com/lznuaa/tortoisegit/language/tt/)\n"
 "MIME-Version: 1.0\n"
@@ -316,6 +316,12 @@ msgstr ""
 msgid "&Abort"
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKFAILED_TASK3)
+msgid ""
+"&Abort\n"
+"You can fix the reason the hook script failed first."
+msgstr ""
+
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
 msgstr ""
@@ -427,7 +433,8 @@ msgstr ""
 msgid "&Clean up..."
 msgstr ""
 
-#. Resource IDs: (ID_EDIT_CLEAR - Menu)
+#. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1848, ID_EDIT_CLEAR -
+#. Menu)
 msgid "&Clear"
 msgstr ""
 
@@ -1023,6 +1030,12 @@ msgstr ""
 msgid "&Proceed"
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKFAILED_TASK4)
+msgid ""
+"&Proceed anyway\n"
+"Ignore the hook script and run the command anyway."
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
 msgstr ""
@@ -1210,6 +1223,10 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Menu)
 msgid "&Status Bar"
+msgstr ""
+
+#. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1849)
+msgid "&Store credentials..."
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
@@ -2664,7 +2681,9 @@ msgid "Cherry Pick failed"
 msgstr ""
 
 #. Resource IDs: (IDS_CHERRYPICKFAILEDSKIP)
-msgid "Cherry-pick failed! Skip this commit?"
+msgid ""
+"Cherry-pick failed (please see log in the cherry pick/rebase dialog for "
+"details)! Skip this commit?"
 msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
@@ -5519,6 +5538,10 @@ msgstr ""
 msgid "Hook Type:"
 msgstr ""
 
+#. Resource IDs: (IDS_HOOKFAILED_TASK2)
+msgid "Hook script failed"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
 msgstr ""
@@ -7403,7 +7426,7 @@ msgstr ""
 msgid "Password"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1761, IDS_AUTH_PASSWORD)
+#. Resource IDs: (IDS_AUTH_PASSWORD)
 msgid "Password:"
 msgstr ""
 
@@ -7681,6 +7704,10 @@ msgstr ""
 #. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Printing"
 msgstr "Бастырыла"
+
+#. Resource IDs: (IDS_HOOK_FORCEDPROCEED)
+msgid "Proceed anyway"
+msgstr ""
 
 #. Resource IDs: (IDS_PROGS_TOOLCOL)
 msgid "Program"
@@ -9927,6 +9954,12 @@ msgid ""
 "Do you want to save now or discard changes?"
 msgstr ""
 
+#. Resource IDs: (IDS_CHERRYPICK_EMPTY)
+msgid ""
+"The current commit will be empty (e.g., due to conflict resolution). Skip "
+"the commit or keep the message only commit?"
+msgstr ""
+
 #. Resource IDs: (IDS_ERROR_NOCLEAN_STASH)
 msgid ""
 "The current working tree is not clean.\n"
@@ -10024,6 +10057,13 @@ msgid ""
 "%s\n"
 "does not exist.\n"
 "Would you like to create it first?"
+msgstr ""
+
+#. Resource IDs: (IDS_HOOK_ERRORMSG)
+#, c-format
+msgid ""
+"The hook script returned an error:\n"
+"%ls"
 msgstr ""
 
 #. Resource IDs: (IDS_ERR_HOOKFAILED)
@@ -10229,12 +10269,6 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 1681,
 #. IDS_VIEWTITLE_THEIRS)
 msgid "Theirs"
-msgstr ""
-
-#. Resource IDs: (IDS_COMMITDLG_EXTERNALS)
-msgid ""
-"There are changes or unversioned items inside one or more submodule.\n"
-"Those files are not listed for commit. You need to commit those files in submodule"
 msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO)

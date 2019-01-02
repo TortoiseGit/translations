@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2018 the TortoiseGit team
+# Copyright (C) 2008-2019 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -7,7 +7,7 @@
 # Daniel Sahlberg <daniel.l.sahlberg@gmail.com>, 2015
 # Fredrik Velin <figgemail@gmail.com>, 2014
 # Johan Foglemark <johanfoglemark@gmail.com>, 2011,2013
-# Johan Jacobsson <johan.jacobsson@telia.com>, 2014-2015
+# Johan Jacobsson <johan.jacobsson@telia.com>, 2014-2015,2019
 # LordDaimos <karl.sjogren@gmail.com>, 2011
 # Kim Svensson <ks6g10@soton.ac.uk>, 2011
 # Kim Svensson <ks@linux.com>, 2011
@@ -26,8 +26,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2018-11-28 19:12+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2019-01-02 22:13+0000\n"
+"Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/lznuaa/tortoisegit/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,12 +155,12 @@ msgstr "%1!d! år sedan"
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%1!d! commits ahead \"%2!s!\""
-msgstr ""
+msgstr "%1!d! arkiveringar före \"%2!s!\""
 
 #. Resource IDs: (IDS_STATUSLIST_FILESREVERTED)
 #, c-format
 msgid "%1!d! files reverted to %2!s!."
-msgstr ""
+msgstr "%1!d! filer återställda till %2!s!."
 
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
@@ -196,22 +196,22 @@ msgstr "%1!s! (%2!s!)"
 #. Resource IDs: (IDS_PROGRS_PATHATREV)
 #, c-format
 msgid "%1!s! - at revision: %2!d!"
-msgstr ""
+msgstr "%1!s! - i revision: %2!d!"
 
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%1!s! in %2!s!"
-msgstr ""
+msgstr "%1!s! i %2!s!"
 
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
 msgid "%1!s! requires Git >= %2!s!"
-msgstr ""
+msgstr "%1!s! kräver Git >= %2!s!"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
 msgid "%1!s!, at %2!s!"
-msgstr ""
+msgstr "%1!s!, vid %2!s!"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -331,6 +331,12 @@ msgstr "&3-vägsförena"
 msgid "&Abort"
 msgstr "&Avbryt"
 
+#. Resource IDs: (IDS_HOOKFAILED_TASK3)
+msgid ""
+"&Abort\n"
+"You can fix the reason the hook script failed first."
+msgstr ""
+
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
 msgstr "&Om TortoiseGitBlame..."
@@ -442,7 +448,8 @@ msgstr "&Avbryt"
 msgid "&Clean up..."
 msgstr "&Städa..."
 
-#. Resource IDs: (ID_EDIT_CLEAR - Menu)
+#. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1848, ID_EDIT_CLEAR -
+#. Menu)
 msgid "&Clear"
 msgstr "&Töm"
 
@@ -1038,6 +1045,12 @@ msgstr "&Skriv ut...\tCtrl+P"
 msgid "&Proceed"
 msgstr "&Fortsätt"
 
+#. Resource IDs: (IDS_HOOKFAILED_TASK4)
+msgid ""
+"&Proceed anyway\n"
+"Ignore the hook script and run the command anyway."
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
 msgstr "&Pull"
@@ -1226,6 +1239,10 @@ msgstr "&Stasha"
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Menu)
 msgid "&Status Bar"
 msgstr "&Statusrad"
+
+#. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1849)
+msgid "&Store credentials..."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
@@ -1484,7 +1501,7 @@ msgstr "<Autoskapad av Git>"
 
 #. Resource IDs: (IDS_PROC_LOG_BASIC_REFS)
 msgid "<Basic Refs>"
-msgstr ""
+msgstr "<Basic Refs>"
 
 #. Resource IDs: (IDS_PROC_LOG_LOCAL_BRANCHES)
 msgid "<Local Branches>"
@@ -2359,7 +2376,7 @@ msgstr ""
 
 #. Resource IDs: (cmdCopy_Keytip_RESID)
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1216, Dialog
 #. IDD_SETTINGSMAIN: Control id 1215, Dialog IDD_SETTINGSMAIN: Control id
@@ -2679,8 +2696,10 @@ msgid "Cherry Pick failed"
 msgstr "Cherry Pick misslyckades"
 
 #. Resource IDs: (IDS_CHERRYPICKFAILEDSKIP)
-msgid "Cherry-pick failed! Skip this commit?"
-msgstr "Cherry-pick misslyckades! Hoppa över denna arkivering?"
+msgid ""
+"Cherry-pick failed (please see log in the cherry pick/rebase dialog for "
+"details)! Skip this commit?"
+msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Chinese"
@@ -4194,7 +4213,7 @@ msgstr "Dumy Group For locat TabCtr"
 
 #. Resource IDs: (cmdEditEnabled_Keytip_RESID, cmdTabEdit_Keytip_RESID)
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #. Resource IDs: (IDS_PROC_REBASE_UNSELECTED_EDIT)
 msgid "E&dit unselected"
@@ -4605,7 +4624,7 @@ msgstr "Externa program:"
 
 #. Resource IDs: (cmdFind_Keytip_RESID)
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -5134,7 +5153,7 @@ msgstr "Ytterligare inställningar för arkiveringar finns under 'Dialog 3'."
 
 #. Resource IDs: (cmdGotoLine_Keytip_RESID)
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -5533,6 +5552,10 @@ msgstr "Kroktyp"
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1334)
 msgid "Hook Type:"
 msgstr "Kroktyp:"
+
+#. Resource IDs: (IDS_HOOKFAILED_TASK2)
+msgid "Hook script failed"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
@@ -6175,7 +6198,7 @@ msgstr "Koreanska"
 
 #. Resource IDs: (cmdViewWrapLines_Keytip_RESID)
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1847)
 msgid "LFS"
@@ -7418,7 +7441,7 @@ msgstr "Föräld(er/rar)"
 msgid "Password"
 msgstr "Lösenord"
 
-#. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1761, IDS_AUTH_PASSWORD)
+#. Resource IDs: (IDS_AUTH_PASSWORD)
 msgid "Password:"
 msgstr "Lösenord:"
 
@@ -7696,6 +7719,10 @@ msgstr "Utskriftsfiler (*.prn)|*.prn|Alla filer (*.*)|*.*||"
 #. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Printing"
 msgstr "Skriver ut"
+
+#. Resource IDs: (IDS_HOOK_FORCEDPROCEED)
+msgid "Proceed anyway"
+msgstr ""
 
 #. Resource IDs: (IDS_PROGS_TOOLCOL)
 msgid "Program"
@@ -9942,6 +9969,12 @@ msgid ""
 "Do you want to save now or discard changes?"
 msgstr ""
 
+#. Resource IDs: (IDS_CHERRYPICK_EMPTY)
+msgid ""
+"The current commit will be empty (e.g., due to conflict resolution). Skip "
+"the commit or keep the message only commit?"
+msgstr ""
+
 #. Resource IDs: (IDS_ERROR_NOCLEAN_STASH)
 msgid ""
 "The current working tree is not clean.\n"
@@ -10040,6 +10073,13 @@ msgid ""
 "does not exist.\n"
 "Would you like to create it first?"
 msgstr "Mappen \n%s\nfinns inte.\nVill du skapa den först?"
+
+#. Resource IDs: (IDS_HOOK_ERRORMSG)
+#, c-format
+msgid ""
+"The hook script returned an error:\n"
+"%ls"
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_HOOKFAILED)
 #, c-format
@@ -10245,12 +10285,6 @@ msgstr "Deras fil:"
 #. IDS_VIEWTITLE_THEIRS)
 msgid "Theirs"
 msgstr "Deras"
-
-#. Resource IDs: (IDS_COMMITDLG_EXTERNALS)
-msgid ""
-"There are changes or unversioned items inside one or more submodule.\n"
-"Those files are not listed for commit. You need to commit those files in submodule"
-msgstr "Det finns ändringar eller icke versionshanterade objekt i en eller flera sub-moduler.\nDessa filer är inte listade i arkiveringen. Du måste arkivera dessa filer i sub-modulen"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO)
 #, c-format
