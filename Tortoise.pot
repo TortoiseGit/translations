@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-01-24 09:22+0000\n"
+"PO-Revision-Date: 2019-02-12 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/lznuaa/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -516,13 +516,13 @@ msgstr "&Delete (keep local)"
 msgid "&Delete Filter"
 msgstr "&Delete Filter"
 
+#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
+msgid "&Delete branch on remote && local remote-tracking branch"
+msgstr "&Delete branch on remote && local remote-tracking branch"
+
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
 msgstr "&Delete branch/tag"
-
-#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
-msgid "&Delete remote && local"
-msgstr "&Delete remote && local"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -3609,8 +3609,8 @@ msgid "Delete %d tags"
 msgstr "Delete %d tags"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
-msgid "Delete &local"
-msgstr "Delete &local"
+msgid "Delete &local remote-tracking branch"
+msgstr "Delete &local remote-tracking branch"
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
@@ -6942,6 +6942,10 @@ msgstr "No status cache. Only versioned folders get an overlay, files don't get 
 msgid "No thesaurus suggestions"
 msgstr "No thesaurus suggestions"
 
+#. Resource IDs: (IDS_NOGITREPO)
+msgid "No valid git repository found."
+msgstr "No valid git repository found."
+
 #. Resource IDs: (IDS_NOWORKINGCOPY)
 msgid "No working directory found."
 msgstr "No working directory found."
@@ -9915,10 +9919,10 @@ msgstr "The \"number of\" value for those \"Last N\" options.\nShould be > 0"
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH)
 #, c-format
 msgid ""
-"The branch \"%s\" is a remote branch.\n"
+"The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr "The branch \"%s\" is a remote branch.\n\nDo you really want to delete it?"
+msgstr "The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n\nDo you really want to delete it?"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"

@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-01-24 09:22+0000\n"
+"PO-Revision-Date: 2019-02-12 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -541,13 +541,13 @@ msgstr "&Eliminar (mantener local)"
 msgid "&Delete Filter"
 msgstr "&Borrar filtro"
 
+#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
+msgid "&Delete branch on remote && local remote-tracking branch"
+msgstr ""
+
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
 msgstr ""
-
-#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
-msgid "&Delete remote && local"
-msgstr "&Eliminar en remoto y local"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -3634,8 +3634,8 @@ msgid "Delete %d tags"
 msgstr "Suprimir %d etiquetas"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
-msgid "Delete &local"
-msgstr "Suprimir &local"
+msgid "Delete &local remote-tracking branch"
+msgstr ""
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
@@ -6967,6 +6967,10 @@ msgstr "Sin caché de estado. Sólo las carpetas versionadas tendrán superposic
 msgid "No thesaurus suggestions"
 msgstr "No hay sugerencias de sinónimos"
 
+#. Resource IDs: (IDS_NOGITREPO)
+msgid "No valid git repository found."
+msgstr ""
+
 #. Resource IDs: (IDS_NOWORKINGCOPY)
 msgid "No working directory found."
 msgstr "No hay directorio de trabajo."
@@ -9940,10 +9944,10 @@ msgstr "El valor \"número de\" para esas \"Últimas N\" opciones.\nDebe ser > 0
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH)
 #, c-format
 msgid ""
-"The branch \"%s\" is a remote branch.\n"
+"The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr "El ramal (branch) \"%s\" es un ramal remoto (remote).\n\n¿Está seguro de querer borrarlo?"
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"

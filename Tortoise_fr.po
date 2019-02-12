@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-01-24 09:22+0000\n"
+"PO-Revision-Date: 2019-02-12 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -568,13 +568,13 @@ msgstr "&Supprimer (conserver localement)"
 msgid "&Delete Filter"
 msgstr "Supprimer le filtre"
 
+#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
+msgid "&Delete branch on remote && local remote-tracking branch"
+msgstr ""
+
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
 msgstr ""
-
-#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
-msgid "&Delete remote && local"
-msgstr "&Supprimer à distance et en local"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -3661,8 +3661,8 @@ msgid "Delete %d tags"
 msgstr "Supprimer %d étiquettes"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
-msgid "Delete &local"
-msgstr "Supprimer &localement"
+msgid "Delete &local remote-tracking branch"
+msgstr ""
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
@@ -6994,6 +6994,10 @@ msgstr "Pas de cache du statut. Seuls les répertoires versionnés sont recouver
 msgid "No thesaurus suggestions"
 msgstr "Aucune suggestion du thésaurus"
 
+#. Resource IDs: (IDS_NOGITREPO)
+msgid "No valid git repository found."
+msgstr ""
+
 #. Resource IDs: (IDS_NOWORKINGCOPY)
 msgid "No working directory found."
 msgstr "Aucun répertoire de travail trouvé."
@@ -9967,10 +9971,10 @@ msgstr ""
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH)
 #, c-format
 msgid ""
-"The branch \"%s\" is a remote branch.\n"
+"The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr "La branche \"%s\" est distante.\n\nSouhaitez-vous réellement la supprimer?"
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"

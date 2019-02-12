@@ -41,7 +41,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-01-24 09:22+0000\n"
+"PO-Revision-Date: 2019-02-12 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -548,13 +548,13 @@ msgstr "删除并保留本地副本(&D)"
 msgid "&Delete Filter"
 msgstr "删除过滤器(&D)"
 
+#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
+msgid "&Delete branch on remote && local remote-tracking branch"
+msgstr ""
+
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
 msgstr ""
-
-#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
-msgid "&Delete remote && local"
-msgstr "删除远端和本地(&D)"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -3641,8 +3641,8 @@ msgid "Delete %d tags"
 msgstr "删除%d标签"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
-msgid "Delete &local"
-msgstr "删除本地(&L)"
+msgid "Delete &local remote-tracking branch"
+msgstr ""
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
@@ -6974,6 +6974,10 @@ msgstr "无状态缓存。只有受版本控制的文件夹获得图标覆盖，
 msgid "No thesaurus suggestions"
 msgstr "没有建议辞典"
 
+#. Resource IDs: (IDS_NOGITREPO)
+msgid "No valid git repository found."
+msgstr ""
+
 #. Resource IDs: (IDS_NOWORKINGCOPY)
 msgid "No working directory found."
 msgstr "没有找到工作目录。"
@@ -9947,10 +9951,10 @@ msgstr "“最近 xx” 选项应该是数字值。\n应该 > 0"
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH)
 #, c-format
 msgid ""
-"The branch \"%s\" is a remote branch.\n"
+"The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr "分支“%s”是一个远端分支。\n\n您确定要删除它吗？"
+msgstr ""
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"

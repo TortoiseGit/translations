@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-01-24 09:22+0000\n"
+"PO-Revision-Date: 2019-02-12 21:07+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/lznuaa/tortoisegit/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -530,12 +530,12 @@ msgstr "&Hapus (pertahankan lokal)"
 msgid "&Delete Filter"
 msgstr ""
 
-#. Resource IDs: (IDS_DELETE_BRANCHTAG)
-msgid "&Delete branch/tag"
+#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
+msgid "&Delete branch on remote && local remote-tracking branch"
 msgstr ""
 
-#. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
-msgid "&Delete remote && local"
+#. Resource IDs: (IDS_DELETE_BRANCHTAG)
+msgid "&Delete branch/tag"
 msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
@@ -3623,7 +3623,7 @@ msgid "Delete %d tags"
 msgstr ""
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
-msgid "Delete &local"
+msgid "Delete &local remote-tracking branch"
 msgstr ""
 
 #. Resource IDs: (IDS_REFLOG_DEL)
@@ -6956,6 +6956,10 @@ msgstr "Tidak ada tembolok status. Hanya folder berversi yang memperoleh lapisan
 msgid "No thesaurus suggestions"
 msgstr "Tidak ada saran kamus"
 
+#. Resource IDs: (IDS_NOGITREPO)
+msgid "No valid git repository found."
+msgstr ""
+
 #. Resource IDs: (IDS_NOWORKINGCOPY)
 msgid "No working directory found."
 msgstr ""
@@ -9929,7 +9933,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH)
 #, c-format
 msgid ""
-"The branch \"%s\" is a remote branch.\n"
+"The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
 msgstr ""
