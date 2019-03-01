@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-02-28 07:08+0000\n"
+"PO-Revision-Date: 2019-03-01 08:05+0000\n"
 "Last-Translator: Yue Lin Ho <yuelinho777@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1244,7 +1244,7 @@ msgstr "狀態列(&S)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1849)
 msgid "&Store credentials..."
-msgstr "儲存憑證(&S)"
+msgstr "儲存憑證...(&S)"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
@@ -1808,7 +1808,7 @@ msgstr "所有本地分支"
 msgid ""
 "All or some options are limited. In order to change all these settings, you "
 "need Administrator rights."
-msgstr "有些選項(或全部)被限制了，它們需要管理者權限才能被更改設定值。"
+msgstr "有些選項(或全部)被限制更改了，更改它們需要管理者權限。"
 
 #. Resource IDs: (IDS_ALLREFS)
 msgid "All refs"
@@ -7890,7 +7890,7 @@ msgstr "虛擬磁碟(&A)"
 #. Resource IDs: (IDS_RESET_TO_THIS_FORMAT)
 #, c-format
 msgid "R&eset \"%s\" to this..."
-msgstr ""
+msgstr "重設「%s」到這個版本...(&E)"
 
 #. Resource IDs: (IDS_RESTORE_FROM_INDEX)
 msgid "R&estore this file from index"
@@ -7961,7 +7961,7 @@ msgstr "變基"
 #. Resource IDs: (IDS_REBASE_THIS_FORMAT)
 #, c-format
 msgid "Rebase \"%s\" onto this...(&G)"
-msgstr ""
+msgstr "變基「%s」到這...(&G)"
 
 #. Resource IDs: (IDS_MENUREBASE)
 msgid "Rebase..."
@@ -9186,7 +9186,7 @@ msgstr "顯示分支的累加版本號碼 (git rev-list --count --first-parent)�
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is &on"
-msgstr ""
+msgstr "顯示這提交在哪些分支上(&O)"
 
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
@@ -9760,7 +9760,7 @@ msgstr "成功"
 
 #. Resource IDs: (IDS_SWITCH_TO_THIS)
 msgid "Sw&itch/Checkout to this..."
-msgstr ""
+msgstr "切換／取出到這個版本...(&I)"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_SWITCH)
 msgid "Switch"
@@ -9951,7 +9951,7 @@ msgid ""
 "The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr ""
+msgstr "「%s」是遠端追蹤分支，是本地端用來代表遠端上的同名分支。你可以只刪除它，或者刪除它們二個。\n\n你真的想要刪除它（們）？"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -9989,7 +9989,7 @@ msgstr "已切換到不同的憑證小幫手。\n要「儲存」或「放棄變�
 msgid ""
 "The current commit will be empty (e.g., due to conflict resolution). Skip "
 "the commit or keep the message only commit?"
-msgstr ""
+msgstr "目前的提交內容會是空的（例如解完衝突後所造成的）。略過或者保留只有訊息內容的空提交？"
 
 #. Resource IDs: (IDS_ERROR_NOCLEAN_STASH)
 msgid ""
@@ -10095,7 +10095,7 @@ msgstr "資料夾 \n%s\n 不存在。\n是否要先建立？"
 msgid ""
 "The hook script returned an error:\n"
 "%ls"
-msgstr ""
+msgstr "掛鉤指令檔回傳錯誤：\n%ls"
 
 #. Resource IDs: (IDS_ERR_HOOKFAILED)
 #, c-format
@@ -10106,7 +10106,7 @@ msgstr "掛鉤指令檔傳回錯誤：\n%s"
 
 #. Resource IDs: (IDS_ERR_HOOKNOTAPPROVED)
 msgid "The hook script was not approved to run!"
-msgstr ""
+msgstr "不允許執行該掛鉤指令檔！"
 
 #. Resource IDs: (IDS_INVALIDIMAGEINFO)
 msgid "The image can not be shown."
@@ -10440,7 +10440,7 @@ msgid ""
 "This working copy has a client-side hook script configured. Do you want this script to run?\n"
 "The command line to run is:\n"
 "%ls"
-msgstr ""
+msgstr "工作目錄設置了客戶端掛鉤指令檔。你想要執行該指令檔嗎?\n即將被執行的命令列指令是：\n%ls"
 
 #. Resource IDs: (IDS_TREE_DIFF)
 msgid "Three way diff"
@@ -10744,7 +10744,7 @@ msgstr "UTF-8"
 
 #. Resource IDs: (IDS_ERR_CHANGELIST_LOAD)
 msgid "Unable to load changelists"
-msgstr ""
+msgstr "無法載入 changelists"
 
 #. Resource IDs: (AFX_IDP_FAILED_MAPI_LOAD)
 msgid "Unable to load mail system support."
@@ -10773,7 +10773,7 @@ msgstr "無法重建工作目錄路徑！\n如果檔案名稱有變動，可能�
 
 #. Resource IDs: (IDS_ERR_CHANGELIST_SAVE)
 msgid "Unable to save changelists"
-msgstr ""
+msgstr "無法儲存 changelists"
 
 #. Resource IDs: (AFX_IDP_SET_NOT_SUPPORTED)
 msgid "Unable to write read-only property."
