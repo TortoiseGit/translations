@@ -36,14 +36,14 @@
 # Yoshitaka Yamashita <drum@magic-touch.org>, 2013
 # youten, 2011
 # 大川剛 <tu44okawa3@gmail.com>, 2016
-# 藤本理弘 <mfujimot@gmail.com>, 2013,2015,2017
+# 藤本理弘 <mfujimot@gmail.com>, 2013,2015,2017,2019
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-03-25 15:16+0000\n"
-"Last-Translator: fshin\n"
+"PO-Revision-Date: 2019-05-05 18:18+0000\n"
+"Last-Translator: 藤本理弘 <mfujimot@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,7 +81,7 @@ msgstr "%.2f MiB 転送しました"
 #. Resource IDs: (AFX_IDP_ARCH_BADCLASS)
 #, c-format
 msgid "%1 contained an unexpected object."
-msgstr "%1 は想定外のオブジェクトを含んでいます。"
+msgstr "%1 は想定外のオブジェクトを含んでいました。"
 
 #. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
@@ -351,7 +351,7 @@ msgstr "中止(&A)"
 msgid ""
 "&Abort\n"
 "You can fix the reason the hook script failed first."
-msgstr ""
+msgstr "中止 (&Abort)\n先にフックスクリプトが失敗した原因を修正します。"
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
@@ -597,7 +597,7 @@ msgstr "次からは確認しない(&D)"
 msgid ""
 "&Don't run\n"
 "Do not run the script"
-msgstr ""
+msgstr "実行しない (&D)\nスクリプトを実行しない"
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
 msgid "&Don't show this message again"
@@ -1258,7 +1258,7 @@ msgstr "ステータスバー(&S)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1849)
 msgid "&Store credentials..."
-msgstr ""
+msgstr "資格情報を保存 (&S)..."
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
@@ -2085,35 +2085,35 @@ msgstr "認証データ"
 
 #. Resource IDs: (IDS_LOG_AUTHOR, IDS_STATUSLIST_COLAUTHOR)
 msgid "Author"
-msgstr "著者"
+msgstr "作者"
 
 #. Resource IDs: (IDS_PROC_LOG_AUTHOREMAIL)
 msgid "Author Email"
-msgstr "著者アドレス"
+msgstr "作者メールアドレス"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
 msgid "Author email addresses"
-msgstr "著者メールアドレス"
+msgstr "作者メールアドレス"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
 msgid "Author names"
-msgstr "著者名"
+msgstr "作者名"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\tStefan Kueng"
-msgstr ""
+msgstr "作者:\t\t\tStefan Kueng"
 
 #. Resource IDs: (IDS_LOG_FILTER_AUTHORS)
 msgid "Authors"
-msgstr "著者"
+msgstr "作者"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
 msgid "Authors (full)"
-msgstr "著者（フル）"
+msgstr "作者（フル）"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
-msgstr "著者名の大文字/小文字を区別する"
+msgstr "作者名の大文字/小文字を区別する"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto CrLf convert"
@@ -3001,7 +3001,7 @@ msgstr "コミット..."
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHOR)
 msgid "Commits by author"
-msgstr "著者×コミット数"
+msgstr "作者×コミット数"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATE)
 msgid "Commits by date"
@@ -4300,7 +4300,7 @@ msgstr "ノートを編集"
 
 #. Resource IDs: (IDS_LOG_POPUP_EDITAUTHOR)
 msgid "Edit author"
-msgstr "著者を編集"
+msgstr "作者を編集"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_EDITDESCRIPTION)
 msgid "Edit description"
