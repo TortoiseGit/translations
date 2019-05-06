@@ -42,7 +42,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-05-05 18:18+0000\n"
+"PO-Revision-Date: 2019-05-06 01:47+0000\n"
 "Last-Translator: 藤本理弘 <mfujimot@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1024,7 +1024,7 @@ msgstr "オーバーレイイメージ(&O)\tO"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1523)
 msgid "&Override branch if exists"
-msgstr "既存ブランチがあれば上書きする(&O)"
+msgstr "既存のブランチがあれば上書きする(&O)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1411, Dialog
 #. IDD_SIMPLEPROMPT: Control id 65535, Dialog IDD_USER_PASSWD: Control id
@@ -1065,7 +1065,7 @@ msgstr "続行(&P)"
 msgid ""
 "&Proceed anyway\n"
 "Ignore the hook script and run the command anyway."
-msgstr ""
+msgstr "強制的に実行(&P)\nフックスクリプトを無視して強制的にコマンドを実行します。"
 
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
@@ -1213,7 +1213,7 @@ msgstr "Gitへのパスを設定(&S)"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1486)
 msgid "&Set upstream/track remote branch"
-msgstr "上流/追跡しているリモートブランチに設定(&S)"
+msgstr "上流/追跡中のリモートブランチに設定(&S)"
 
 #. Resource IDs: (IDS_MENUSETTINGS)
 msgid "&Settings"
@@ -1714,11 +1714,11 @@ msgstr "他のコミットを追加しますか?"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_EXE)
 msgid "Add as Executable (+x)"
-msgstr ""
+msgstr "実行可能属性を追加 (+x)"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_LINK)
 msgid "Add as Symlink"
-msgstr ""
+msgstr "シンボリックリンクとして追加"
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
@@ -2342,7 +2342,7 @@ msgstr "参照(&W)..."
 
 #. Resource IDs: (IDS_MENUREFBROWSE)
 msgid "Browse References"
-msgstr "リファレンスをブラウズ"
+msgstr "参照先を表示"
 
 #. Resource IDs: (IDS_SETTINGS_EXTDIFFBROWSE_TT)
 msgid "Browse for the external diff program"
@@ -2350,7 +2350,7 @@ msgstr "外部差分ツールを参照"
 
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 322)
 msgid "Browse references"
-msgstr "リファレンスをブラウズ"
+msgstr "参照先を表示"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1069)
 msgid "Browse..."
@@ -4925,7 +4925,7 @@ msgstr "絞り込み条件:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
 msgid "Filter match"
-msgstr ""
+msgstr "一致フィルター"
 
 #. Resource IDs: (IDS_FILEDIFF_FILTERCUE)
 msgid "Filter paths"
@@ -6965,7 +6965,7 @@ msgstr "直近のバージョンではありません。"
 
 #. Resource IDs: (IDS_ERROR_NOREF)
 msgid "No reference found"
-msgstr "リファレンスが見つかりません"
+msgstr "参照先が見つかりません"
 
 #. Resource IDs: (IDS_SPELLEDIT_NOCORRECTIONS)
 msgid "No spell corrections"
@@ -7331,7 +7331,7 @@ msgstr "ヘルプを開く\nヘルプトピック"
 
 #. Resource IDs: (IDS_MENUDESCREFBROWSE)
 msgid "Opens the Reference Browser dialog."
-msgstr "リファレンスブラウザーのダイアログを開く。"
+msgstr "参照先ブラウザーのダイアログを開きます。"
 
 #. Resource IDs: (IDS_MENUDESCREPOBROWSE)
 msgid "Opens the repository browser"
@@ -8843,7 +8843,7 @@ msgstr "保存されたデータ"
 #. Resource IDs: (IDS_PROC_SAVECONFIGFAILED)
 #, c-format
 msgid "Saving config failed (key: \"%1!s!\", value: \"%2!s!\")."
-msgstr ""
+msgstr "設定の保存に失敗しました (キー: \"%1!s!\", 値: \"%2!s!\")。"
 
 #. Resource IDs: (IDS_PROC_FAILEDSAVINGNOTES)
 msgid "Saving notes failed."
@@ -9200,7 +9200,7 @@ msgstr "ブランチリビジョン番号 (git rev-list --count --first-parent) 
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is &on"
-msgstr ""
+msgstr "このコミットが所属するブランチを表示(&O)"
 
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
@@ -9381,7 +9381,7 @@ msgstr "refラベルで、ref名の一部を記号で表示する"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid "Show the selected items on the first level of the context menu:"
-msgstr ""
+msgstr "選択された項目は、コンテキストメニューの最上位に表示されます。"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
@@ -9421,7 +9421,7 @@ msgstr "TortoiseGitについての情報表示"
 
 #. Resource IDs: (IDS_MENUDESCREFLOG)
 msgid "Shows reference log"
-msgstr "リファレンスログの表示"
+msgstr "参照ログの表示"
 
 #. Resource IDs: (IDS_SETTINGS_SHOWACTIONLOG_TT)
 msgid "Shows the action log file in the default text editor"
@@ -10116,7 +10116,7 @@ msgstr ""
 msgid ""
 "The hook script returned an error:\n"
 "%s"
-msgstr "フックスクリプトはエラーを返しました:\n%s"
+msgstr "フックスクリプトがエラーを返しました:\n%s"
 
 #. Resource IDs: (IDS_ERR_HOOKNOTAPPROVED)
 msgid "The hook script was not approved to run!"
@@ -10758,7 +10758,7 @@ msgstr "UTF-8"
 
 #. Resource IDs: (IDS_ERR_CHANGELIST_LOAD)
 msgid "Unable to load changelists"
-msgstr ""
+msgstr "変更リストが読み込めません"
 
 #. Resource IDs: (AFX_IDP_FAILED_MAPI_LOAD)
 msgid "Unable to load mail system support."
@@ -10787,7 +10787,7 @@ msgstr "作業ツリーのパスを再構築できません。\nファイル名�
 
 #. Resource IDs: (IDS_ERR_CHANGELIST_SAVE)
 msgid "Unable to save changelists"
-msgstr ""
+msgstr "変更リストを保存できません"
 
 #. Resource IDs: (AFX_IDP_SET_NOT_SUPPORTED)
 msgid "Unable to write read-only property."
@@ -10800,13 +10800,13 @@ msgstr "%1 に書き込めません。読み取り専用か、他の誰かが開
 
 #. Resource IDs: (AFX_IDS_CHECKLISTBOX_UNCHECK)
 msgid "Uncheck"
-msgstr "未チェック"
+msgstr "チェックを外す"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid ""
 "Unchecked items will appear in the TortoiseGit submenu, checked items "
 "directly in the main context menu."
-msgstr ""
+msgstr "項目のチェックを外すと TortoiseGit のサブメニューに現れ、チェックした項目はコンテキストメニューに直接現れます。"
 
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
