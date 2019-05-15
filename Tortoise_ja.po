@@ -42,7 +42,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-05-06 01:47+0000\n"
+"PO-Revision-Date: 2019-05-15 11:37+0000\n"
 "Last-Translator: 藤本理弘 <mfujimot@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -217,7 +217,7 @@ msgstr "%1!s! - リビジョン: %2!d"
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%1!s! in %2!s!"
-msgstr ""
+msgstr "%1!s! / %2!s!"
 
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
@@ -227,7 +227,7 @@ msgstr "%1!s! にはバージョン %2!s! 以上の Git が必要です。"
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
 msgid "%1!s!, at %2!s!"
-msgstr ""
+msgstr "%1!s! (%2!s!)"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
@@ -1822,7 +1822,7 @@ msgstr "すべてのローカルブランチ"
 msgid ""
 "All or some options are limited. In order to change all these settings, you "
 "need Administrator rights."
-msgstr ""
+msgstr "一部またはすべてのオプションが制限されています。これらの設定を変更するには、管理者権限が必要です。"
 
 #. Resource IDs: (IDS_ALLREFS)
 msgid "All refs"
@@ -1926,7 +1926,7 @@ msgstr "%1 にアクセス中に何らかのエラーが発生しました。"
 #. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d!"
-msgstr ""
+msgstr "想定外の種類の行が%d行目で見つかりました。"
 
 #. Resource IDs: (IDS_ANNOTATEDTAGS)
 msgid "Annotated tags"
@@ -1966,7 +1966,7 @@ msgstr "Unified形式の差分を適用"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK2)
 msgid "Approve or reject client-side hook script"
-msgstr ""
+msgstr "クライアントサイドフックスクリプトを承認または拒否"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Arabic"
@@ -2454,7 +2454,7 @@ msgid ""
 "%1!s!\n"
 "to\n"
 "%2!s!"
-msgstr ""
+msgstr "%1!s!\nを\n%2!s!\nにコピーできませんでした。"
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 2, Dialog
 #. AFX_IDD_PRINTDLG: Control id 2, Dialog IDD_ADD: Control id 2, Dialog
@@ -2598,12 +2598,12 @@ msgstr "変更されたファイル"
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTROROOT)
 #, c-format
 msgid "Changed files between %1!s! and %2!s!"
-msgstr ""
+msgstr "%1!s! から %2!s! までの間で変更されたファイル"
 
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTRO)
 #, c-format
 msgid "Changed files between %1!s!, %2!s! and %3!s!, %4!s!"
-msgstr ""
+msgstr "%1!s!, %2!s! から %3!s!, %4!s! までの間に変更されたファイル"
 
 #. Resource IDs: (IDS_CHECKUPDATE_SUMMARY)
 #, c-format
@@ -3038,7 +3038,7 @@ msgstr "Common Name:"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARECHANGESET)
 msgid "Comp&are change sets"
-msgstr ""
+msgstr "変更セットを比較 (&A)"
 
 #. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
 #. ID_VIEW_COMPAREHEADREVISIONS - Menu)
@@ -4572,7 +4572,7 @@ msgstr "\"%s\" のためのサーバー証明書の検証におけるエラー:"
 msgid ""
 "Error while reading/writing the registry key %1!s!\n"
 "%2!s!"
-msgstr ""
+msgstr "レジストリキー %1!s! の読み取り/書き込みでエラーが発生しました\n%2!s!"
 
 #. Resource IDs: (IDS_PROC_EVERYTHINGUPDATED)
 msgid "Everything updated."
@@ -4663,7 +4663,7 @@ msgstr "変更の取り消しに失敗しました"
 #. Resource IDs: (IDS_STATUSLIST_CHECKOUTFILEFAILED)
 #, c-format
 msgid "Failed to checkout file \"%1!s!\" of revision %2!s! to \"%3!s!\"."
-msgstr ""
+msgstr "リビジョン %2!s! のファイル \"%1!s!\" の \"%3!s!\" へのチェックアウトに失敗しました。"
 
 #. Resource IDs: (IDS_CHECKOUTFAILED)
 #, c-format
@@ -4727,7 +4727,7 @@ msgstr "ドキュメントを保存できませんでした。"
 msgid ""
 "Failed to save file \"%s\":\n"
 "%s"
-msgstr ""
+msgstr "ファイル \"%s\" の保存に失敗しました。\n%s"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTFAILED)
 #, c-format
@@ -5233,7 +5233,7 @@ msgstr "全般::コンテキストメニュー"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
 msgid "General::Context Menu 2"
-msgstr ""
+msgstr "全般::コンテキストメニュー2"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
