@@ -47,7 +47,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-07-06 08:30+0000\n"
+"PO-Revision-Date: 2019-08-29 15:42+0000\n"
 "Last-Translator: Stanislav Kroter <krotersv@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -1263,7 +1263,7 @@ msgstr "&Строка статуса"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1849)
 msgid "&Store credentials..."
-msgstr ""
+msgstr "&Сохранить идентификационные данные..."
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
@@ -3654,7 +3654,7 @@ msgstr "Удалить %d метки"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
 msgid "Delete &local remote-tracking branch"
-msgstr ""
+msgstr "Удалить &локальную ветку внешнего хранилища"
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
@@ -4016,7 +4016,7 @@ msgstr "&Не показывать это предупреждение снов�
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK5)
 msgid "Do not ask again for this script"
-msgstr ""
+msgstr "Не спрашивать больше об этом сценарии."
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1407)
 msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
@@ -4285,7 +4285,7 @@ msgstr "Поправить"
 
 #. Resource IDs: (IDS_EDIT_NOTES)
 msgid "Edit &Notes"
-msgstr ""
+msgstr "Править &Заметки"
 
 #. Resource IDs: (IDS_PROC_EDITGLOBALGITCONFIG)
 msgid "Edit &global .gitconfig"
@@ -4930,7 +4930,7 @@ msgstr "Фильтр по"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535)
 msgid "Filter match"
-msgstr ""
+msgstr "Совпадение фильтра"
 
 #. Resource IDs: (IDS_FILEDIFF_FILTERCUE)
 msgid "Filter paths"
@@ -5582,7 +5582,7 @@ msgstr "Тип Хука:"
 
 #. Resource IDs: (IDS_HOOKFAILED_TASK2)
 msgid "Hook script failed"
-msgstr ""
+msgstr "Сценарий ловушки потерпел неудачу"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
@@ -9205,7 +9205,7 @@ msgstr "Показывать номер ревизии ветви (git rev-list 
 
 #. Resource IDs: (IDS_LOG_POPUP_SHOWBRANCHES)
 msgid "Show branches this commit is &on"
-msgstr ""
+msgstr "Показать ветки, &в которые этот коммит входит"
 
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
@@ -9779,7 +9779,7 @@ msgstr "Успешно"
 
 #. Resource IDs: (IDS_SWITCH_TO_THIS)
 msgid "Sw&itch/Checkout to this..."
-msgstr ""
+msgstr "Пере&ключение на.../Извлечение этой..."
 
 #. Resource IDs: (IDS_PROGRS_TITLE_SWITCH)
 msgid "Switch"
@@ -9970,7 +9970,7 @@ msgid ""
 "The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr ""
+msgstr "Ветка \"%s\" является веткой внешнего хранилища, которая локально представляет внешнюю ветку.\n\nВы действительно хотите удалить её?"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -10008,7 +10008,7 @@ msgstr "Удостоверяющий центр был изменён.\nСохр
 msgid ""
 "The current commit will be empty (e.g., due to conflict resolution). Skip "
 "the commit or keep the message only commit?"
-msgstr ""
+msgstr "Текущий коммит будет пустым (например из-за разрешения конфликтов). Пропустить этот коммит или оставить только сообщение коммита?"
 
 #. Resource IDs: (IDS_ERROR_NOCLEAN_STASH)
 msgid ""
@@ -10114,7 +10114,7 @@ msgstr "Папка\n%s\nне существует.\nЖелаете ли вы с�
 msgid ""
 "The hook script returned an error:\n"
 "%ls"
-msgstr ""
+msgstr "Сценарий ловушки вернул ошибку:\n%ls"
 
 #. Resource IDs: (IDS_ERR_HOOKFAILED)
 #, c-format
@@ -10125,7 +10125,7 @@ msgstr "Хук скрипт вернул ошибку:\n%s"
 
 #. Resource IDs: (IDS_ERR_HOOKNOTAPPROVED)
 msgid "The hook script was not approved to run!"
-msgstr ""
+msgstr "Сценарий ловушки не одобрен к запуску!"
 
 #. Resource IDs: (IDS_INVALIDIMAGEINFO)
 msgid "The image can not be shown."
@@ -10459,7 +10459,7 @@ msgid ""
 "This working copy has a client-side hook script configured. Do you want this script to run?\n"
 "The command line to run is:\n"
 "%ls"
-msgstr ""
+msgstr "Эта рабочая копия имеет настроенный сценарий ловушки на клиентской стороне. Вы хотите запустить этот сценарий?\nКомандная строка для запуска:\n%ls"
 
 #. Resource IDs: (IDS_TREE_DIFF)
 msgid "Three way diff"
@@ -10763,7 +10763,7 @@ msgstr "UTF-8"
 
 #. Resource IDs: (IDS_ERR_CHANGELIST_LOAD)
 msgid "Unable to load changelists"
-msgstr ""
+msgstr "Невозможно загрузить списки изменений"
 
 #. Resource IDs: (AFX_IDP_FAILED_MAPI_LOAD)
 msgid "Unable to load mail system support."
@@ -10792,7 +10792,7 @@ msgstr "Невозможно воссоздать путь в рабочей к�
 
 #. Resource IDs: (IDS_ERR_CHANGELIST_SAVE)
 msgid "Unable to save changelists"
-msgstr ""
+msgstr "Невозможно сохранить списки изменений"
 
 #. Resource IDs: (AFX_IDP_SET_NOT_SUPPORTED)
 msgid "Unable to write read-only property."
