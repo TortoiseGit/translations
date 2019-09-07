@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-09-07 03:43+0000\n"
+"PO-Revision-Date: 2019-09-07 15:50+0000\n"
 "Last-Translator: Tetsuhiko Koto\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -553,7 +553,7 @@ msgstr "フィルターを削除(&D)"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
 msgid "&Delete branch on remote && local remote-tracking branch"
-msgstr "リモートのブランチと、ローカルの追跡ブランチを削除(&D)"
+msgstr "リモートのブランチと、ローカルの「リモート追跡ブランチ」を削除(&D)"
 
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
@@ -798,7 +798,7 @@ msgstr "隠す(&H)"
 
 #. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
 msgid "&Hide/Show the patch file list"
-msgstr "パッチファイルの 一覧を表示/非表示(&H)"
+msgstr "パッチファイルの一覧を表示/非表示(&H)"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
@@ -2344,7 +2344,7 @@ msgstr "参照(&W)..."
 
 #. Resource IDs: (IDS_MENUREFBROWSE)
 msgid "Browse References"
-msgstr "refsブラウザ"
+msgstr "refブラウザ"
 
 #. Resource IDs: (IDS_SETTINGS_EXTDIFFBROWSE_TT)
 msgid "Browse for the external diff program"
@@ -2352,7 +2352,7 @@ msgstr "外部差分ツールを参照"
 
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 322)
 msgid "Browse references"
-msgstr "refsブラウザ"
+msgstr "refブラウザ"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1069)
 msgid "Browse..."
@@ -3062,7 +3062,7 @@ msgstr "２つのファイルを比較"
 #. Resource IDs: (ID_VIEW_COMPAREWHITESPACES - Menu,
 #. cmdCompareWhitespaces_LabelTitle_RESID)
 msgid "Compare whitespaces"
-msgstr "空白類 を比較"
+msgstr "空白類を比較"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARE)
 msgid "Compare with &working tree"
@@ -3494,7 +3494,7 @@ msgstr "指定された個数のリビジョンに切り捨てられた履歴を
 
 #. Resource IDs: (ID_EDIT_CREATEUNIFIEDDIFFFILE - Menu)
 msgid "Create patch file"
-msgstr "パッチ を作成"
+msgstr "パッチを作成"
 
 #. Resource IDs: (IDS_PROC_REQUESTPULL)
 msgid "Create pull &request"
@@ -3651,7 +3651,7 @@ msgstr "%d タグを削除"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
 msgid "Delete &local remote-tracking branch"
-msgstr "ローカルの追跡ブランチを削除(&L)"
+msgstr "ローカルの「リモート追跡ブランチ」を削除(&L)"
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
@@ -4065,7 +4065,7 @@ msgstr "本当にこのファイルもしくはフォルダーを移動させて
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
-msgstr "本当に選択した %d refs を完全に削除していいですか？ 取り消す事はできません！"
+msgstr "本当に選択した %d 件の ref を完全に削除していいですか？ 取り消す事はできません！"
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
@@ -4369,7 +4369,7 @@ msgstr "空"
 
 #. Resource IDs: (cmdEditEnabled_LabelTitle_RESID)
 msgid "Enable Edit"
-msgstr "編集を 有効化"
+msgstr "編集を有効化"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1510)
 msgid "Enable EditorConfig"
@@ -5539,7 +5539,7 @@ msgstr "Ref比較リストにおいて変更のないものを隠す"
 
 #. Resource IDs: (ID_VIEW_SHOWFILELIST - Menu)
 msgid "Hide/Show the patch file list"
-msgstr "パッチファイルの 一覧を表示/非表示"
+msgstr "パッチファイルの一覧を表示/非表示"
 
 #. Resource IDs: (cmdShowFileList)
 msgid ""
@@ -5915,7 +5915,7 @@ msgid ""
 "the content possibly have been altered by third parties unnoticed (e.g. "
 "after pull or merge). Keep this in mind especially if you approve a "
 "repository hook permanently."
-msgstr ""
+msgstr "リポジトリからのバージョン管理されたファイルを実行する場合、コンテンツが第三者によってこっそり変更されている可能性があることに注意してください（例えばプルやマージ後）。特に、リポジトリフックを永続的に承認する場合は、十分注意してください。"
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
@@ -5951,7 +5951,7 @@ msgstr "拡張子によって%d個の項目を無視する(&E)"
 #. Resource IDs: (ID_VIEW_IGNORECOMMENTS - Menu,
 #. cmdViewIgnoreComments_LabelTitle_RESID)
 msgid "Ignore Comments"
-msgstr "コメント を無視"
+msgstr "コメントを無視"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1692)
 msgid "Ignore File"
@@ -5968,7 +5968,7 @@ msgstr "すべての空白を無視"
 #. Resource IDs: (ID_VIEW_IGNOREALLWHITESPACECHANGES - Menu,
 #. cmdIgnoreAllWhitespaceChanges_LabelTitle_RESID)
 msgid "Ignore all whitespace changes"
-msgstr "全空白類の 変更を無視"
+msgstr "全空白類の変更を無視"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORBLANKLINES)
 msgid "Ignore blank lines"
@@ -6015,7 +6015,7 @@ msgstr "空白類を無視"
 #. Resource IDs: (ID_VIEW_IGNOREWHITESPACECHANGES - Menu,
 #. cmdIgnoreWhitespaceChanges_LabelTitle_RESID)
 msgid "Ignore whitespace changes"
-msgstr "空白類の 変更を無視"
+msgstr "空白類の変更を無視"
 
 #. Resource IDs: (32786)
 msgid "Ignore whitespace when comparing the parents version and the child's "
@@ -6125,7 +6125,7 @@ msgstr "行内差分"
 #. Resource IDs: (ID_VIEW_INLINEDIFFWORD - Menu,
 #. cmdViewInlineDiffWord_LabelTitle_RESID)
 msgid "Inline diff word-wise"
-msgstr "単語単位 行内差分"
+msgstr "単語単位の行内差分"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Inline differences"
@@ -6180,7 +6180,7 @@ msgid ""
 "Do you want to ignore this warning and keep these lines or abort committing in order to edit the commit message?\n"
 "\n"
 "You can automatically remove these lines by enabling \"Strip lines starting with \"#\" in commit messages\" in TortoiseGit settings."
-msgstr ""
+msgstr "コミットメッセージに競合のヒントがあるようです (「# Conflicts:」のような行)。このヒントは、Gitをコマンドラインで使用するユーザー向けに自動的に追加されたもので、保持する必要はありません。\n\nこの警告を無視してこれらの行を保持しますか？　それとも、コミットメッセージを編集するためにコミットを中止しますか？\n\nTortoiseGitの設定で「コミットメッセージにおいて、\"#\" で始まる行を取り除く」を有効にすると、これらの行を自動的に削除できます。"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1074)
 msgid "J&ump to first conflict when loading"
@@ -6537,7 +6537,7 @@ msgstr "リモートを管理"
 #. Resource IDs: (IDS_SVNPROGRESS_MENUMARKASRESOLVED, ID_EDIT_MARKASRESOLVED -
 #. Menu, cmdMarkResolved_LabelTitle_RESID)
 msgid "Mark as resolved"
-msgstr "解決済み とする"
+msgstr "解決済みとする"
 
 #. Resource IDs: (IDS_MARKASRESOLVED_TASK3)
 msgid ""
@@ -6831,17 +6831,17 @@ msgstr "次へ"
 #. Resource IDs: (ID_NAVIGATE_NEXTCONFLICT - Menu,
 #. cmdNavigateNextConflict_LabelTitle_RESID)
 msgid "Next conflict"
-msgstr "次の 競合"
+msgstr "次の競合"
 
 #. Resource IDs: (ID_NAVIGATE_NEXTDIFFERENCE - Menu,
 #. cmdNavigateNextDifference_LabelTitle_RESID)
 msgid "Next difference"
-msgstr "次の 相違"
+msgstr "次の相違"
 
 #. Resource IDs: (ID_NAVIGATE_NEXTINLINEDIFF - Menu,
 #. cmdNavigateNextInlineDiff_LabelTitle_RESID)
 msgid "Next inline difference"
-msgstr "次の 行内相違"
+msgstr "次の行内相違"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1481, Dialog IDD_PULLFETCH:
 #. Control id 1481)
@@ -7333,11 +7333,11 @@ msgstr "ヘルプを開く\nヘルプトピック"
 
 #. Resource IDs: (IDS_MENUDESCREFBROWSE)
 msgid "Opens the Reference Browser dialog."
-msgstr "refsブラウザを開く"
+msgstr "refブラウザを開く"
 
 #. Resource IDs: (IDS_MENUDESCREPOBROWSE)
 msgid "Opens the repository browser"
-msgstr "refsブラウザを開く"
+msgstr "refブラウザを開く"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1517, Dialog IDD_MERGE:
 #. Control id 1517, IDS_SETTINGS_CONF_NAMECOL)
@@ -7712,17 +7712,17 @@ msgstr "以前のバージョン"
 #. Resource IDs: (ID_NAVIGATE_PREVIOUSCONFLICT - Menu,
 #. cmdNavigatePreviousConflict_LabelTitle_RESID)
 msgid "Previous conflict"
-msgstr "前の 競合"
+msgstr "前の競合"
 
 #. Resource IDs: (ID_NAVIGATE_PREVIOUSDIFFERENCE - Menu,
 #. cmdNavigatePreviousDifference_LabelTitle_RESID)
 msgid "Previous difference"
-msgstr "前の 相違"
+msgstr "前の相違"
 
 #. Resource IDs: (ID_NAVIGATE_PREVINLINEDIFF - Menu,
 #. cmdNavigatePreviousInlineDiff_LabelTitle_RESID)
 msgid "Previous inline difference"
-msgstr "前の 行内相違"
+msgstr "前の行内相違"
 
 #. Resource IDs: (57608)
 msgid ""
@@ -8077,7 +8077,7 @@ msgstr "更新中"
 #. Resource IDs: (65535 - PopupMenu, Dialog IDD_REGEXFILTER: Control id 165,
 #. cmdRegexFilterConfig1, cmdRegexFilterConfig1_LabelTitle_RESID)
 msgid "Regex Filter"
-msgstr "正規表現 フィルター"
+msgstr "正規表現フィルター"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 164)
 msgid "Regex Filters"
@@ -9171,11 +9171,11 @@ msgstr "概要を表示(&R)"
 #. Resource IDs: (ID_VIEW_WHITESPACES - Menu,
 #. cmdShowWhitespaces_LabelTitle_RESID)
 msgid "Show Whitespaces"
-msgstr "空白類 を表示"
+msgstr "空白類を表示"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1210)
 msgid "Show all &staged files"
-msgstr ""
+msgstr "すべてのインデックスへの登録を表示(&S)"
 
 #. Resource IDs: (32813)
 msgid "Show an overview of the whole graph"
@@ -9482,7 +9482,7 @@ msgstr "ターゲットが見つからないのでスキップ"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1098)
 msgid "Smart tab char"
-msgstr "タブ/スペース を推測"
+msgstr "タブ/スペースを推測"
 
 #. Resource IDs: (IDS_RESET_SOFT)
 msgid "Soft"
@@ -9795,7 +9795,7 @@ msgstr "前のウィンドウ区画に切り替える\n前の区画"
 #. Resource IDs: (ID_VIEW_ONEWAYDIFF - Menu,
 #. cmdViewOneWayDiff_LabelTitle_RESID)
 msgid "Switch between single and double pane view"
-msgstr "1画面/2画面表示 の切り替え"
+msgstr "1画面/2画面表示の切り替え"
 
 #. Resource IDs: (cmdViewOneWayDiff)
 msgid ""
@@ -9806,7 +9806,7 @@ msgstr "1画面・2画面表示を切り替える\n1画面/2画面表示の切�
 #. Resource IDs: (ID_VIEW_SWITCHLEFT - Menu,
 #. cmdViewSwitchLeft_LabelTitle_RESID)
 msgid "Switch left and right view"
-msgstr "左右のビュー を入れ替え"
+msgstr "左右のビューを入れ替え"
 
 #. Resource IDs: (cmdViewSwitchLeft)
 msgid ""
@@ -9967,7 +9967,7 @@ msgid ""
 "The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr ""
+msgstr "ブランチ \"%s\" は、リモートのブランチを手元（ローカル）で表現する、「リモート追跡ブランチ」（リモートのブランチを追跡しているブランチ）です。\n\n本当に削除しますか？"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -10005,7 +10005,7 @@ msgstr "資格情報ヘルパーが変更されました。変更を保存しま
 msgid ""
 "The current commit will be empty (e.g., due to conflict resolution). Skip "
 "the commit or keep the message only commit?"
-msgstr ""
+msgstr "現在のコミットは空です（たとえば、競合解決の結果）。コミットをスキップするか、それとも、メッセージのみのコミットを行いますか？"
 
 #. Resource IDs: (IDS_ERROR_NOCLEAN_STASH)
 msgid ""
@@ -10031,7 +10031,7 @@ msgstr "次のエラーにより、差分ツールは中止されました:\n%s"
 msgid ""
 "The entered source ref is ambiguous.\n"
 "You have to make it unique (e.g. by adding \"refs/heads/\" as a prefix for branches or \"refs/tags/\" for tags)!"
-msgstr "入力されたソースのref が曖昧です。\n一意に指定する必要があります(例えば、ブランチのプレフィックスとして「refs/heads/」を追加したり、タグに「refs/tags/」を追加したりします)。"
+msgstr "入力されたソースのref が曖昧です。\n一意に指定する必要があります(例えば、ブランチのプレフィックスとして「refs/heads/」を追加したり、タグに「refs/tags/」を追加したりしてください)。"
 
 #. Resource IDs: (IDS_REBASE_BRANCH_FF)
 msgid ""
@@ -10122,7 +10122,7 @@ msgstr "フックスクリプトがエラーを返しました:\n%s"
 
 #. Resource IDs: (IDS_ERR_HOOKNOTAPPROVED)
 msgid "The hook script was not approved to run!"
-msgstr ""
+msgstr "フックスクリプトの実行は承認されませんでした"
 
 #. Resource IDs: (IDS_INVALIDIMAGEINFO)
 msgid "The image can not be shown."
@@ -10456,7 +10456,7 @@ msgid ""
 "This working copy has a client-side hook script configured. Do you want this script to run?\n"
 "The command line to run is:\n"
 "%ls"
-msgstr ""
+msgstr "この作業コピーには、クライアント側のフックスクリプトが構成されています。このスクリプトを実行しますか？\n実行するコマンドラインは次のとおりです:\n%ls"
 
 #. Resource IDs: (IDS_TREE_DIFF)
 msgid "Three way diff"
@@ -10644,7 +10644,7 @@ msgid ""
 " agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr "TortoiseGitPlink は推奨される SSH クライアントです。鍵ペアがまだない場合は、鍵ペアを生成する必要があります。秘密鍵は保管し、公開鍵をホスティングプラットフォームに設定します。 PuTTY 認証エージェントを使用してパスワードをキャッシュします（PuTTY キーがリモート用に構成されている場合は自動的に実行されます）。高度なヒントについては、<a id=\"manual\">マニュアル</a>と <a id=\"sshfaq\">FAQ</a> を参照してください。"
+msgstr "TortoiseGitPlink は推奨される SSH クライアントです。鍵ペアがまだない場合は、鍵ペアを生成する必要があります。秘密鍵を安全な場所に保管し、公開鍵をホスティングプラットフォームに設定してください。パスワードをキャッシュするには、PuTTY 認証エージェントを使用してください（PuTTY キーがリモート用に構成されている場合は自動的に実行されます）。高度なヒントについては、<a id=\"manual\">マニュアル</a>と <a id=\"sshfaq\">FAQ</a> を参照してください。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -11022,19 +11022,19 @@ msgstr "設定済サーバーを使用"
 #. Resource IDs: (ID_EDIT_USELEFTBLOCK - Menu,
 #. cmdUseLeftBlock_LabelTitle_RESID)
 msgid "Use left block"
-msgstr "左ブロック を使用"
+msgstr "左ブロックを使用"
 
 #. Resource IDs: (ID_EDIT_USELEFTFILE - Menu, cmdUseLeftFile_LabelTitle_RESID)
 msgid "Use left file"
-msgstr "左の ファイル を使用"
+msgstr "左のファイルを使用"
 
 #. Resource IDs: (ID_EDIT_USETHEIRBLOCK - Menu)
 msgid "Use left text block"
-msgstr "左の テキスト ブロック を使用"
+msgstr "左のテキストブロックを使用"
 
 #. Resource IDs: (ID_EDIT_USETHEIRTHENMYBLOCK - Menu)
 msgid "Use left text block then right"
-msgstr "左→右の順で テキスト ブロック を使用"
+msgstr "左→右の順でテキストブロックを使用"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1762)
 msgid "Use local branch color for current branch"
@@ -11050,19 +11050,19 @@ msgstr "正規表現を使用する"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USERIGHT)
 msgid "Use right block"
-msgstr "右ブロック を使用"
+msgstr "右ブロックを使用"
 
 #. Resource IDs: (ID_EDIT_USEMYBLOCK - Menu)
 msgid "Use right text block"
-msgstr "右の テキスト ブロック を使用"
+msgstr "右のテキストブロックを使用"
 
 #. Resource IDs: (ID_EDIT_USEMINETHENTHEIRBLOCK - Menu)
 msgid "Use right text block then left"
-msgstr "右→左の順で テキスト ブロック を使用"
+msgstr "右→左の順でテキストブロックを使用"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1091)
 msgid "Use spaces"
-msgstr "スペース を使用"
+msgstr "スペースを使用"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1426)
 msgid "Use system locale for date/time"
@@ -11070,43 +11070,43 @@ msgstr "日付/時刻にシステムロケールを使用する"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRBLOCK)
 msgid "Use text block from &left"
-msgstr "左の テキスト ブロック を使用(&L)"
+msgstr "左のテキストブロックを使用(&L)"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURBLOCK)
 msgid "Use text block from &right"
-msgstr "右の テキスト ブロック を使用(&R)"
+msgstr "右のテキストブロックを使用(&R)"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHEIRANDYOURBLOCK)
 msgid "Use text block from l&eft before right"
-msgstr "左→右の順で テキスト ブロック を使用(&E)"
+msgstr "左→右の順でテキストブロックを使用(&E)"
 
 #. Resource IDs: (cmdUseTheirsThenMineBlock)
 msgid ""
 "Use text block from left before right file\n"
 "Use left file text block then right"
-msgstr "左→右の順で テキスト ブロック を使用\n左のファイルのテキストブロックを使用し、それから右を使用する"
+msgstr "左→右の順でテキストブロックを使用\n左のファイルのテキストブロックを使用し、それから右を使用する"
 
 #. Resource IDs: (cmdUseTheirsBlock)
 msgid ""
 "Use text block from left file\n"
 "Use left file text block"
-msgstr "左の テキスト ブロック を使用\n左のファイルのテキストブロックを使用する"
+msgstr "左のテキストブロックを使用\n左のファイルのテキストブロックを使用する"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEYOURANDTHEIRBLOCK)
 msgid "Use text block from r&ight before left"
-msgstr "右→左の順で テキスト ブロック を使用(&I)"
+msgstr "右→左の順でテキストブロックを使用(&I)"
 
 #. Resource IDs: (cmdUseMineThenTheirsBlock)
 msgid ""
 "Use text block from right file before left\n"
 "Use right file text block then left"
-msgstr "右→左の順で テキスト ブロック を使用\n右のファイルのテキストブロックを使用し、それから左を使用する"
+msgstr "右→左の順でテキストブロックを使用\n右のファイルのテキストブロックを使用し、それから左を使用する"
 
 #. Resource IDs: (cmdUseMineBlock)
 msgid ""
 "Use text block from right file\n"
 "Use right file text block"
-msgstr "右の テキスト ブロック を使用\n右のファイルのテキストブロックを使用する"
+msgstr "右のテキストブロックを使用\n右のファイルのテキストブロックを使用する"
 
 #. Resource IDs: (cmdUseLeftBlock)
 msgid ""
@@ -11116,7 +11116,7 @@ msgstr "左ビューのテキストブロックを使用する\n左側のブロ�
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USETHISBLOCK)
 msgid "Use th&is text block"
-msgstr "この テキスト ブロック を使用(&I)"
+msgstr "このテキストブロックを使用(&I)"
 
 #. Resource IDs: (IDS_COMMIT_AS_COMMIT_DATE_TT)
 msgid "Use the current time by setting the author date to the commit date."
@@ -11414,7 +11414,7 @@ msgid ""
 "If you want to abort the merge, do a hard reset on HEAD or select abort merge on the context menu.\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "マージ中、つまり別の（リモート）ブランチの変更をローカルブランチに統合しているときに、少なくとも1つのファイルで競合が発生しました。これは手動で解決する必要があります（つまり、あなたの変更を、別のブランチで変更されたファイルに統合する必要があります）。\n\nすべてのファイルを解決した後、マージを完了するためにコミットを実行してください。\n\nまたは、マージを中止したければ、戻りたいリビジョンへリセット(HARDオプションの)を行うか、コンテキストメニューで「マージの中止」を選択してください。\n\n詳細については、ヘルプを参照してください。"
 
 #. Resource IDs: (IDS_DAEMON_SECURITY_WARN)
 msgid ""
@@ -11493,7 +11493,7 @@ msgstr "行の折り返し"
 
 #. Resource IDs: (ID_VIEW_WRAPLONGLINES - Menu)
 msgid "Wrap long lines"
-msgstr "長い行を 折り返す"
+msgstr "長い行を折り返す"
 
 #. Resource IDs: (cmdViewWrapLines)
 msgid ""
