@@ -44,7 +44,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-09-07 15:50+0000\n"
+"PO-Revision-Date: 2019-09-07 17:22+0000\n"
 "Last-Translator: Tetsuhiko Koto\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -173,12 +173,12 @@ msgstr "%1!d! 年前"
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%1!d! commits ahead \"%2!s!\""
-msgstr "%1!d! 個のコミット(\"%2!s!\"に対して)"
+msgstr "%1!d! 件のコミット(\"%2!s!\"に対して)"
 
 #. Resource IDs: (IDS_STATUSLIST_FILESREVERTED)
 #, c-format
 msgid "%1!d! files reverted to %2!s!."
-msgstr "%1!d! 個のファイルを %2!s! まで戻しました。"
+msgstr "%1!d! 件のファイルを %2!s! まで戻しました。"
 
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
@@ -188,7 +188,7 @@ msgstr "選択ファイル数 %1!d! 、全体ファイル数 %2!d!"
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
 msgid "%1!d! items selected"
-msgstr "%1!d! 個のアイテムを選択"
+msgstr "%1!d! 件のアイテムを選択"
 
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
@@ -290,12 +290,12 @@ msgstr "%Ts\n%Ts"
 #. Resource IDs: (IDS_FILESCHANGES)
 #, c-format
 msgid "%d files changed"
-msgstr "%d 個のファイルを変更しました"
+msgstr "%d 件のファイルを変更しました"
 
 #. Resource IDs: (IDS_PROC_FILESREMOVED)
 #, c-format
 msgid "%d files removed."
-msgstr "%d 個のファイルを削除しました。"
+msgstr "%d 件のファイルを削除しました。"
 
 #. Resource IDs: (IDS_ALPHABUTTONTT)
 #, c-format
@@ -413,7 +413,7 @@ msgstr "ダイアログを自動的に閉じる(&A):"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1505)
 msgid "&Autoload Putty Key"
-msgstr "Putty 認証キーの自動ロード(&A)"
+msgstr "Putty 鍵の自動ロード(&A)"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1015)
 msgid "&Backup original file"
@@ -997,7 +997,7 @@ msgstr "1ページ(&O)"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1828)
 msgid "&Onto"
-msgstr "つなぎ先(&O)"
+msgstr "&Onto"
 
 #. Resource IDs: (IDS_LOG_POPUP_OPEN, IDS_REPOBROWSE_OPEN,
 #. cmdOpen_LabelTitle_RESID)
@@ -1215,7 +1215,7 @@ msgstr "Gitへのパスを設定(&S)"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1486)
 msgid "&Set upstream/track remote branch"
-msgstr "上流/追跡中のリモートブランチに設定(&S)"
+msgstr "上流/追跡対象のリモートブランチに設定(&S)"
 
 #. Resource IDs: (IDS_MENUSETTINGS)
 msgid "&Settings"
@@ -1268,7 +1268,7 @@ msgstr "新しいブランチに切り替える(&S)"
 
 #. Resource IDs: (IDS_SWITCH_BRANCH)
 msgid "&Switch/Checkout to"
-msgstr "切り替え(&S):"
+msgstr "切り替え/チェックアウト(&S):"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1173)
 msgid "&Symbol View"
@@ -1613,7 +1613,7 @@ msgstr "TortoiseGit について(&B)"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1)
 msgid "A&pply"
-msgstr "適用(&A)"
+msgstr "適用(&P)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1128)
 msgid "Abbreviate renamings"
@@ -2000,7 +2000,7 @@ msgstr "本当に、ファイルの競合を解決済としてもよろしいで
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr "本当に%d個の項目をの変更を取り消してもよろしいですか？ 最後の更新以降のすべての変更が失われます。"
+msgstr "本当に%d件の項目の変更を取り消してもよろしいですか？ 最後の更新以降のすべての変更が失われます。"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
@@ -2153,11 +2153,11 @@ msgstr "ログメッセージを入力する際に、変更したファイル内
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1505)
 msgid "AutoLoad Putty &Key"
-msgstr "Putty 認証キーの自動ロード(&K)"
+msgstr "Putty 鍵の自動ロード(&K)"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1619)
 msgid "Autoload Putty &Key"
-msgstr "Putty 認証キーの自動ロード(&K)"
+msgstr "Putty 鍵の自動ロード(&K)"
 
 #. Resource IDs: (IDS_COLOURPICKER_DEFAULTTEXT)
 msgid "Automatic"
@@ -2808,7 +2808,7 @@ msgstr "%1!ld!件のユーザー名/パスワードの組、%2!ld!件のSSL証�
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
 msgid "Clears cached logs from %ld repositories"
-msgstr "%ld個のリポジトリのログのキャッシュをクリアする"
+msgstr "%ld件のリポジトリについて、ログのキャッシュをクリアする"
 
 #. Resource IDs: (IDS_SETTINGS_CLEARAUTH_TT)
 msgid ""
@@ -3070,7 +3070,7 @@ msgstr "作業ツリーと比較(&W)"
 
 #. Resource IDs: (IDS_LOG_COMPAREWITHBASE)
 msgid "Compare with b&ase"
-msgstr "作業ベースと比較(&B)"
+msgstr "作業ベースと比較(&A)"
 
 #. Resource IDs: (IDS_BLAME_POPUP_COMPARE)
 msgid "Compare with previous revision"
@@ -3427,7 +3427,7 @@ msgstr "カウント(&T)"
 #. Resource IDs: (IDS_FIND_COUNT)
 #, c-format
 msgid "Count: %u matches."
-msgstr "カウント: %u個の一致。"
+msgstr "カウント: %u件の一致。"
 
 #. Resource IDs: (IDS_MENUBRANCH)
 msgid "Create &Branch..."
@@ -3490,7 +3490,7 @@ msgid ""
 "clone or fetch from it, nor push from nor into it), but is adequate if you "
 "are only interested in the recent history of a large project with a long "
 "history, and would want to send in fixes as patches."
-msgstr "指定された個数のリビジョンに切り捨てられた履歴を複製します。\nこのリポジトリには、多くの制限があります（このリポジトリから複製、フェッチ、プッシュすることはできませんし、このリポジトリへプッシュすることもできません）。\nこのオプションは、あなたが、長い履歴を持つ大きなプロジェクトの最近の変更だけに興味があり、修正をパッチの形式で送信する場合に適しています。"
+msgstr "指定されたリビジョン数の履歴に限定した、浅いコピーを作成します。\n浅いコピーのリポジトリには、多くの制限があります（このリポジトリから複製、フェッチ、プッシュすることはできませんし、このリポジトリへプッシュすることもできません）。\nこのオプションは、あなたが、長い履歴を持つ大きなプロジェクトの最近の変更だけに興味があり、修正をパッチの形式で送信する場合に適しています。"
 
 #. Resource IDs: (ID_EDIT_CREATEUNIFIEDDIFFFILE - Menu)
 msgid "Create patch file"
@@ -3637,12 +3637,12 @@ msgstr "削除"
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEBRANCHES)
 #, c-format
 msgid "Delete %d branches"
-msgstr "%d 個のブランチを削除"
+msgstr "%d 件のブランチを削除"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETEREMOTEBRANCHES)
 #, c-format
 msgid "Delete %d remote branches"
-msgstr "%d 個のリモートブランチを削除"
+msgstr "%d 件のリモートブランチを削除"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAGS)
 #, c-format
@@ -3664,7 +3664,7 @@ msgstr "すべてのタグを削除"
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE)
 #, c-format
 msgid "Delete and &ignore %d items by name"
-msgstr "名前で %d 個のアイテムを削除して無視(&I)"
+msgstr "名前で %d 件のアイテムを削除して無視(&I)"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLE2)
 msgid "Delete and &ignore multiple items by name"
@@ -3677,7 +3677,7 @@ msgstr "削除して無視リストに追加(&I)"
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK)
 #, c-format
 msgid "Delete and ignore %d items by &extension"
-msgstr "拡張子で %d 個のアイテムを削除して無視(&E) "
+msgstr "拡張子で %d 件のアイテムを削除して無視(&E) "
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK2)
 msgid "Delete and ignore multiple items by &extension"
@@ -4086,12 +4086,12 @@ msgstr "本当に \"%s\" を削除しても宜しいですか？"
 msgid ""
 "Do you really want to remove the %d selected files/directories from the "
 "index?"
-msgstr "本当に、選択した %d 個のファイル/ディレクトリをインデックスから削除してもよろしいですか？"
+msgstr "本当に、選択した %d 件のファイル/ディレクトリをインデックスから削除してもよろしいですか？"
 
 #. Resource IDs: (IDS_WARN_DELETE_MANY)
 #, c-format
 msgid "Do you really want to remove the %d selected files/directories?"
-msgstr "本当に、選択した %d 個のファイル/ディレクトリを削除してもよろしいですか？"
+msgstr "本当に、選択した %d 件のファイル/ディレクトリを削除してもよろしいですか？"
 
 #. Resource IDs: (IDS_STATUSLIST_RESTOREPATH)
 msgid ""
@@ -5054,7 +5054,7 @@ msgid ""
 "For the current branch \"%1!s!\" no tracked branch is configured.\n"
 "Do you want to set the selected branch \"%2!s!\" as tracked branch?\n"
 "This will automatically select it for push and pull in the future."
-msgstr "現在のブランチ \"%1!s!\" について、追跡ブランチ (tracked branch) が設定されていません。\n選択されたブランチ \"%2!s!\" を追跡ブランチに設定しますか?\nこれにより、プッシュ/プルの対象として自動的に選択されるようになります。"
+msgstr "現在のブランチ \"%1!s!\" について、追跡対象のブランチ (tracked branch) が設定されていません。\n選択されたブランチ \"%2!s!\" を追跡対象のブランチに設定しますか?\nこれにより、プッシュ/プルの対象として自動的に選択されるようになります。"
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -5066,14 +5066,14 @@ msgid ""
 "Force push only if the remote reference points to the same commit as the remote tracking branch.\n"
 "This can cause the remote repository to lose commits; use it with care.\n"
 "This option corresponds to the --force-with-lease git option."
-msgstr "追跡しているリモートのブランチが、このローカルリポジトリが把握しているのと同じコミットにある時に限り、強制的にプッシュします。\nリモートリポジトリのコミットを失う可能性があります。\nこのオプションは、git の --force--with-lease に相当します。"
+msgstr "リモートの追跡対象のブランチ (tracked branch) が、このローカルリポジトリの「リモート追跡ブランチ  (remote-tracking branch)」(リモートブランチを追跡しているブランチ) と同じコミットを指している場合に限り、強制的にプッシュします。\nリモートリポジトリのコミットを失う可能性があります。注意して使用してください。\nこのオプションは、git の --force--with-lease に相当します。"
 
 #. Resource IDs: (IDS_FORCE_TT)
 msgid ""
 "Force push to the selected remote reference and override it without any safety checks.\n"
 "This can cause the remote repository to lose unseen commits; use it with care.\n"
 "This option corresponds to the --force git option."
-msgstr "安全性のチェックなしに、選択されたリモートの参照へプッシュし、上書きします。\nこれによって、リモートリポジトリの、まだ把握していないコミットが失われるかもしれません。\nこのオプションは、git の --force に相当します。"
+msgstr "安全性のチェックなしに、選択されたリモートの参照へプッシュし、上書きします。\nこれによって、リモートリポジトリの、まだ把握していないコミットが失われるかもしれません。注意して使用してください。\nこのオプションは、git の --force に相当します。"
 
 #. Resource IDs: (IDS_REBASE_FORCE_TT)
 msgid ""
@@ -5457,7 +5457,7 @@ msgstr "変更リストのグループ化"
 
 #. Resource IDs: (IDS_SHOWFILES_HIDEPATHS)
 msgid "H&ide Unrelated Changed Paths"
-msgstr "無関係な変更のパスを隠す(&H)"
+msgstr "無関係な変更のパスを隠す(&I)"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1353, Dialog IDD_DIFFFILES:
 #. Control id 1354, Dialog IDD_REPOSITORY_BROWSER: Control id 1684)
@@ -5946,7 +5946,7 @@ msgstr "無視"
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLEMASK)
 #, c-format
 msgid "Ignore %d items by &extension"
-msgstr "拡張子によって%d個の項目を無視する(&E)"
+msgstr "拡張子によって%d件の項目を無視する(&E)"
 
 #. Resource IDs: (ID_VIEW_IGNORECOMMENTS - Menu,
 #. cmdViewIgnoreComments_LabelTitle_RESID)
@@ -6184,7 +6184,7 @@ msgstr "コミットメッセージに競合のヒントがあるようです (�
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1074)
 msgid "J&ump to first conflict when loading"
-msgstr "読込時に最初の競合へ移動"
+msgstr "読込時に最初の競合へ移動(&U)"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Japanese"
@@ -6397,7 +6397,7 @@ msgstr "画像を開く"
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1505, Dialog IDD_SUBMODULE_ADD:
 #. Control id 1505)
 msgid "Load Putty &Key"
-msgstr "Putty 認証キーのロード(&K)"
+msgstr "Putty 鍵のロード(&K)"
 
 #. Resource IDs: (IDS_WARNMODIFIEDOUTSIDE_TASK3)
 msgid ""
@@ -7873,7 +7873,7 @@ msgstr "タグをプッシュ(&G)"
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Putty Key:"
-msgstr "Putty 認証キー:"
+msgstr "Putty 鍵:"
 
 #. Resource IDs: (IDS_PUTTYKEYFILEFILTER)
 msgid "Putty Private Key (*.ppk)|*.ppk|All Files (*.*)|*.*||"
@@ -8191,7 +8191,7 @@ msgstr "削除"
 #. Resource IDs: (IDS_INPUT_REMOVEMORE)
 #, c-format
 msgid "Remove %ld items"
-msgstr "%ld 個の項目を削除"
+msgstr "%ld 件の項目を削除"
 
 #. Resource IDs: (IDS_INPUT_REMOVEONE)
 #, c-format
@@ -8208,7 +8208,7 @@ msgstr "ブランチを削除(&B)"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1628)
 msgid "Remove &non-ignored untracked files (-f)"
-msgstr "無視リストにない、バージョン管理外のファイルを削除 (-f) (&A)"
+msgstr "無視リストにない、バージョン管理外のファイルを削除 (-f) (&N)"
 
 #. Resource IDs: (cmdViewIgnoreComments)
 msgid ""
@@ -8582,7 +8582,7 @@ msgstr "統計(&T)"
 
 #. Resource IDs: (IDS_MENUSWITCH)
 msgid "S&witch/Checkout..."
-msgstr "切り替え(&W)..."
+msgstr "切り替え/チェックアウト(&W)..."
 
 #. Resource IDs: (IDS_HASH, IDS_LOG_FILTER_REVS, IDS_LOG_HASH)
 msgid "SHA-1"
@@ -8647,7 +8647,7 @@ msgstr "SVN Rev"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Sa&feCrLf:"
-msgstr "Sa&feCrLf:"
+msgstr "SafeCrLf(&F):"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Safe Crlf:"
@@ -9400,14 +9400,14 @@ msgstr "表示/非表示"
 #. Resource IDs: (IDS_REFBROWSE_INFO)
 #, c-format
 msgid "Showing %1!d! ref(s), %2!d! ref(s) selected"
-msgstr "%1!d!個のrefを表示中。%2!d!個のrefを選択しています。"
+msgstr "%1!d!件のrefを表示中。%2!d!件のrefを選択しています。"
 
 #. Resource IDs: (IDS_PROC_LOG_STATS)
 #, c-format
 msgid ""
 "Showing %1!ld! revision(s), from revision %2!s! to revision %3!s! - %4!ld! "
 "revision(s) selected, %5!ld! file(s) selected"
-msgstr "%1!ld! 個のリビジョンを表示中(リビジョン %2!s! から %3!s! まで)。 %4!ld! 個のリビジョンを選択、 %5!ld! 個のファイルを選択しています。"
+msgstr "%1!ld! 件のリビジョンを表示中(リビジョン %2!s! から %3!s! まで)。 %4!ld! 件のリビジョンを選択、 %5!ld! 件のファイルを選択しています。"
 
 #. Resource IDs: (IDS_MENUDESCREVISIONGRAPH)
 msgid "Shows a graphical representation of copies/tags/branches"
@@ -9776,7 +9776,7 @@ msgstr "成功"
 
 #. Resource IDs: (IDS_SWITCH_TO_THIS)
 msgid "Sw&itch/Checkout to this..."
-msgstr "ここへ切り替え(&W)..."
+msgstr "ここへ切り替え/チェックアウト(&I)..."
 
 #. Resource IDs: (IDS_PROGRS_TITLE_SWITCH)
 msgid "Switch"
@@ -9830,7 +9830,7 @@ msgstr "前のドキュメントウィンドウに切り替える"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 304)
 msgid "Switch/Checkout"
-msgstr "切り替え"
+msgstr "切り替え/チェックアウト"
 
 #. Resource IDs: (IDS_MENUDESCSWITCH)
 msgid "Switch/Checkout working tree to another branch/tag"
@@ -9967,7 +9967,7 @@ msgid ""
 "The branch \"%s\" is a remote-tracking branch which locally represents a remote branch.\n"
 "\n"
 "Do you really want to delete it?"
-msgstr "ブランチ \"%s\" は、リモートのブランチを手元（ローカル）で表現する、「リモート追跡ブランチ」（リモートのブランチを追跡しているブランチ）です。\n\n本当に削除しますか？"
+msgstr "ブランチ \"%s\" は、リモートのブランチを手元（ローカル）で表現する、「リモート追跡ブランチ (remote-tracking branch)」（リモートのブランチを追跡しているブランチ）です。\n\n本当に削除しますか？"
 
 #. Resource IDs: (IDS_ERR_PATCH_CHUNKMISMATCH)
 msgid "The chunk size did not match the number of added/removed lines!"
@@ -10323,7 +10323,7 @@ msgstr "あちら側"
 msgid ""
 "There are currently %d overlay handlers installed besides the ones Tortoise "
 "uses."
-msgstr "Tortoise以外で、現在 %d 個のオーバーレイハンドラーがインストールされています。"
+msgstr "Tortoise以外で、現在 %d 件のオーバーレイハンドラーがインストールされています。"
 
 #. Resource IDs: (IDS_SAVE_MORE)
 msgid ""
@@ -10644,7 +10644,7 @@ msgid ""
 " agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr "TortoiseGitPlink は推奨される SSH クライアントです。鍵ペアがまだない場合は、鍵ペアを生成する必要があります。秘密鍵を安全な場所に保管し、公開鍵をホスティングプラットフォームに設定してください。パスワードをキャッシュするには、PuTTY 認証エージェントを使用してください（PuTTY キーがリモート用に構成されている場合は自動的に実行されます）。高度なヒントについては、<a id=\"manual\">マニュアル</a>と <a id=\"sshfaq\">FAQ</a> を参照してください。"
+msgstr "TortoiseGitPlink は推奨される SSH クライアントです。鍵ペアがまだない場合は、鍵ペアを生成する必要があります。秘密鍵を安全な場所に保管し、公開鍵をホスティングプラットフォームに設定してください。パスワードをキャッシュするには、PuTTY 認証エージェントを使用してください（PuTTY 鍵がリモート用に構成されている場合は自動的に実行されます）。高度なヒントについては、<a id=\"manual\">マニュアル</a>と <a id=\"sshfaq\">FAQ</a> を参照してください。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -10683,15 +10683,15 @@ msgstr "追跡(&K)"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11023)
 msgid "Tracked Remote Branch:"
-msgstr "追跡中のリモートブランチ:"
+msgstr "追跡対象のリモートブランチ:"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Tracked Remote URL:"
-msgstr "追跡しているリモートのURL"
+msgstr "追跡対象のリモートのURL"
 
 #. Resource IDs: (IDS_TRACKEDBRANCH)
 msgid "Tracked branch"
-msgstr "追跡しているブランチ"
+msgstr "追跡対象のブランチ"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_SPEED)
 #, c-format
@@ -11564,7 +11564,7 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr "%d 個のファイルを選択して差分表示しようとしています。それぞれのファイル毎に新しく差分ビュアーが起動します。本当に、そんなに沢山のファイルの差分を一度に表示してよろしいですか？"
+msgstr "%d 件のファイルを選択して差分表示しようとしています。それぞれのファイル毎に新しく差分ビュアーが起動します。本当に、そんなに沢山のファイルの差分を一度に表示してよろしいですか？"
 
 #. Resource IDs: (IDS_COMMITDLG_NOISSUEWARNING)
 msgid ""
