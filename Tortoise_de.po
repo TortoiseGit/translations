@@ -26,8 +26,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-08-13 13:40+0000\n"
-"Last-Translator: Obareo\n"
+"PO-Revision-Date: 2019-10-03 14:37+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6061,8 +6061,8 @@ msgid "In Commits"
 msgstr "Eingehende Eintragungen"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
-msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr "Um das Zusammenführen abzubrechen, ist ein Reset (auf HEAD) notwendig."
+msgid "In order to abort a merge progress a reset (to HEAD) is needed."
+msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT2)
 msgid ""
@@ -6960,10 +6960,6 @@ msgid ""
 "No status cache. Only versioned folders get an overlay, files don't get an "
 "overlay"
 msgstr "Kein Statuspuffer. Nur versionierte Ordner erhalten ein überlagertes Symbol, Dateien nicht."
-
-#. Resource IDs: (IDS_SPELLEDIT_NOTHESAURUS)
-msgid "No thesaurus suggestions"
-msgstr "Keine Thesaurusvorschläge"
 
 #. Resource IDs: (IDS_NOGITREPO)
 msgid "No valid git repository found."
@@ -9186,6 +9182,10 @@ msgstr "Zeigt die Zweig-Revisionsnummer (git rev-list --count --first-parent) im
 msgid "Show branches this commit is &on"
 msgstr "Zeige &Referenzen auf denen diese Revision liegt"
 
+#. Resource IDs: (ID_VIEW_SHOWBRANCHINGSANDMERGES - Menu)
+msgid "Show branchings and &merges"
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
 msgstr "Zeige Änderungen als &Standard-Diff"
@@ -9273,6 +9273,10 @@ msgstr "Zeige Log"
 #. Resource IDs: (IDS_STATUSLIST_SHOWLOGOLDNAME)
 msgid "Show log &before rename/copy"
 msgstr "Zeige Log &vor Umbenennung/Kopieren"
+
+#. Resource IDs: (ID_VIEW_SHOWLOGID - Menu)
+msgid "Show log ID instead of SHA-1"
+msgstr ""
 
 #. Resource IDs: (IDS_SHOWLOG_OF)
 #, c-format
@@ -10339,10 +10343,6 @@ msgid ""
 "have been ignored or the global ignore configuration setting."
 msgstr "Es gibt nichts hinzuzufügen.\nAlle Dateien und Ordner befinden sich entweder bereits unter Versionskontrolle oder sie werden ignoriert."
 
-#. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
-msgid "Thesaurus"
-msgstr "Thesaurus"
-
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_2)
 msgid ""
 "These are more recently saved than the currently open documents and contain "
@@ -10936,10 +10936,6 @@ msgstr "Beachte HTTP Pfadkomponente"
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1066)
 msgid "Use Ribbons"
 msgstr "Benutze Ribbons"
-
-#. Resource IDs: (Dialog IDD_PUSH: Control id 1497)
-msgid "Use Thin &Pack (For slow network connections)"
-msgstr "Benutze Thin-&Pack (für langsame Netzwerkverbindungen)"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1064)
 msgid "Use Unified Diff from &clipboard"
@@ -11608,8 +11604,10 @@ msgid "Z"
 msgstr "Z"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
-msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
-msgstr "ZIP-Archiv (*.zip)|*.zip|Alle Dateien (*.*)|*.*||"
+msgid ""
+"ZIP archive (*.zip)|*.zip|TAR archive (*.tar)|*.tar|TAR GZIP archive "
+"(*.tar.gz)|*.tar.gz|All Files (*.*)|*.*||"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1074)
 msgid "Zip File"

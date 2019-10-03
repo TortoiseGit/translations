@@ -19,7 +19,7 @@
 # Jose Luis Tirado <joseluis.tirado@gmail.com>, 2015-2016
 # Jose Luis Tirado <joseluis.tirado@gmail.com>, 2015
 # juancentro <jmtruppia@gmail.com>, 2011
-# luebbe <luebbe.opensource@gmail.com>, 2011
+# Lübbe Onken <luebbe.opensource@gmail.com>, 2011
 # Luis Valencia <luis.valencia.medina@gmail.com>, 2012
 # Mark O'Neill <phoenixteam1@gmail.com>, 2011
 # pascow <clogaffo@gmail.com>, 2011
@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-02-22 16:39+0000\n"
+"PO-Revision-Date: 2019-10-03 14:37+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/lznuaa/tortoisegit/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -6069,8 +6069,8 @@ msgid "In Commits"
 msgstr "En Consignas"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
-msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr "Para abortar una combinación (merge) en curso es necesario un restablecimiento (reset, hasta HEAD (última consignación))."
+msgid "In order to abort a merge progress a reset (to HEAD) is needed."
+msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT2)
 msgid ""
@@ -6968,10 +6968,6 @@ msgid ""
 "No status cache. Only versioned folders get an overlay, files don't get an "
 "overlay"
 msgstr "Sin caché de estado. Sólo las carpetas versionadas tendrán superposiciones, los archivos no tendrán superposiciones"
-
-#. Resource IDs: (IDS_SPELLEDIT_NOTHESAURUS)
-msgid "No thesaurus suggestions"
-msgstr "No hay sugerencias de sinónimos"
 
 #. Resource IDs: (IDS_NOGITREPO)
 msgid "No valid git repository found."
@@ -9194,6 +9190,10 @@ msgstr "Muestra el número de revisión del ramal (git rev-list --count --first-
 msgid "Show branches this commit is &on"
 msgstr ""
 
+#. Resource IDs: (ID_VIEW_SHOWBRANCHINGSANDMERGES - Menu)
+msgid "Show branchings and &merges"
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
 msgstr "Mostrar cambios como dif. &unificado"
@@ -9281,6 +9281,10 @@ msgstr "Mostrar reg."
 #. Resource IDs: (IDS_STATUSLIST_SHOWLOGOLDNAME)
 msgid "Show log &before rename/copy"
 msgstr "Mostrar reg. &antes de renombrar/copiar"
+
+#. Resource IDs: (ID_VIEW_SHOWLOGID - Menu)
+msgid "Show log ID instead of SHA-1"
+msgstr ""
 
 #. Resource IDs: (IDS_SHOWLOG_OF)
 #, c-format
@@ -10347,10 +10351,6 @@ msgid ""
 "have been ignored or the global ignore configuration setting."
 msgstr "No hay nada que añadir.\nTodos los ficheros y carpetas están bien bajo control de versión,\nhan sido ignorados o están bajo la configuración de ignorado global."
 
-#. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
-msgid "Thesaurus"
-msgstr "Diccionario"
-
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_2)
 msgid ""
 "These are more recently saved than the currently open documents and contain "
@@ -10944,10 +10944,6 @@ msgstr "Usar el componente de ruta HTTP"
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1066)
 msgid "Use Ribbons"
 msgstr "Usar cintas (ribbons)"
-
-#. Resource IDs: (Dialog IDD_PUSH: Control id 1497)
-msgid "Use Thin &Pack (For slow network connections)"
-msgstr "Usar Thin &Pack (Para conexiones de red lentas)"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1064)
 msgid "Use Unified Diff from &clipboard"
@@ -11616,8 +11612,10 @@ msgid "Z"
 msgstr "Z"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
-msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
-msgstr "Archivo ZIP (*.zip)|*.zip|Todos los ficheros (*.*)|*.*||"
+msgid ""
+"ZIP archive (*.zip)|*.zip|TAR archive (*.tar)|*.tar|TAR GZIP archive "
+"(*.tar.gz)|*.tar.gz|All Files (*.*)|*.*||"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1074)
 msgid "Zip File"

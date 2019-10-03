@@ -14,8 +14,8 @@
 # Kim KiHyeon <kmkh12@paran.com>, 2011
 # kim minhyouk <apollo8900@naver.com>, 2015
 # kmshts, 2012
-# luebbe <luebbe.opensource@gmail.com>, 2011
-# luebbe <luebbe.opensource@gmail.com>, 2011
+# Lübbe Onken <luebbe.opensource@gmail.com>, 2011
+# Lübbe Onken <luebbe.opensource@gmail.com>, 2011
 # Mandy Cho <chohy@yahoo.com>, 2013
 # Gyusun Yeom <omniavinco@gmail.com>, 2012
 # 이피시소리 <pcsori@gmail.com>, 2014
@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-02-22 16:39+0000\n"
+"PO-Revision-Date: 2019-10-03 14:37+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -6066,8 +6066,8 @@ msgid "In Commits"
 msgstr "In Commits"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
-msgid "In order to abort a merge progess a reset (to HEAD) is needed."
-msgstr "병합을 되돌리기 위해 되돌릴 방법을 고르세요."
+msgid "In order to abort a merge progress a reset (to HEAD) is needed."
+msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT2)
 msgid ""
@@ -6965,10 +6965,6 @@ msgid ""
 "No status cache. Only versioned folders get an overlay, files don't get an "
 "overlay"
 msgstr "상태 캐시를 사용하지 않으며, 버전관리 대상인 폴더만 아이콘 오버레이가 표시됩니다."
-
-#. Resource IDs: (IDS_SPELLEDIT_NOTHESAURUS)
-msgid "No thesaurus suggestions"
-msgstr "유의어 추천을 하지 않습니다."
 
 #. Resource IDs: (IDS_NOGITREPO)
 msgid "No valid git repository found."
@@ -9191,6 +9187,10 @@ msgstr ""
 msgid "Show branches this commit is &on"
 msgstr ""
 
+#. Resource IDs: (ID_VIEW_SHOWBRANCHINGSANDMERGES - Menu)
+msgid "Show branchings and &merges"
+msgstr ""
+
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
 msgstr "Unified diff 형식으로 차이점 보기(&U)"
@@ -9278,6 +9278,10 @@ msgstr "로그 보기"
 #. Resource IDs: (IDS_STATUSLIST_SHOWLOGOLDNAME)
 msgid "Show log &before rename/copy"
 msgstr "Show log &before rename/copy"
+
+#. Resource IDs: (ID_VIEW_SHOWLOGID - Menu)
+msgid "Show log ID instead of SHA-1"
+msgstr ""
 
 #. Resource IDs: (IDS_SHOWLOG_OF)
 #, c-format
@@ -10344,10 +10348,6 @@ msgid ""
 "have been ignored or the global ignore configuration setting."
 msgstr ""
 
-#. Resource IDs: (IDS_SPELLEDIT_THESAURUS)
-msgid "Thesaurus"
-msgstr "색인"
-
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_2)
 msgid ""
 "These are more recently saved than the currently open documents and contain "
@@ -10941,10 +10941,6 @@ msgstr "Use HTTP path component"
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1066)
 msgid "Use Ribbons"
 msgstr "리본 사용"
-
-#. Resource IDs: (Dialog IDD_PUSH: Control id 1497)
-msgid "Use Thin &Pack (For slow network connections)"
-msgstr "최소한의 데이터만 전달(느린 네트워크 용도) (&P)"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1064)
 msgid "Use Unified Diff from &clipboard"
@@ -11613,7 +11609,9 @@ msgid "Z"
 msgstr ""
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
-msgid "ZIP archive (*.zip)|*.zip|All Files (*.*)|*.*||"
+msgid ""
+"ZIP archive (*.zip)|*.zip|TAR archive (*.tar)|*.tar|TAR GZIP archive "
+"(*.tar.gz)|*.tar.gz|All Files (*.*)|*.*||"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1074)
