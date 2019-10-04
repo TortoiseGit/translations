@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-10-03 14:37+0000\n"
+"PO-Revision-Date: 2019-10-04 19:05+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -6062,7 +6062,7 @@ msgstr "Eingehende Eintragungen"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
 msgid "In order to abort a merge progress a reset (to HEAD) is needed."
-msgstr ""
+msgstr "Um das Zusammenführen abzubrechen, ist ein Reset (auf HEAD) notwendig."
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT2)
 msgid ""
@@ -8425,6 +8425,10 @@ msgstr "Eintragung Rückgängig machen"
 msgid "Revert commit %s"
 msgstr "Eintragung %s Rückgängig machen"
 
+#. Resource IDs: (IDS_REVERTCOMMITS)
+msgid "Revert the selected commit(s)?"
+msgstr "Änderungen der markierten Eintragung(en) &Rückgängig machen?"
+
 #. Resource IDs: (IDS_LOG_POPUP_REVERTTOPARENT)
 msgid "Revert to parent revision"
 msgstr "Auf Eltern-Revision zurücksetzen"
@@ -9184,7 +9188,7 @@ msgstr "Zeige &Referenzen auf denen diese Revision liegt"
 
 #. Resource IDs: (ID_VIEW_SHOWBRANCHINGSANDMERGES - Menu)
 msgid "Show branchings and &merges"
-msgstr ""
+msgstr "Verzweigungen und Zusammenführungen anzeigen."
 
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
@@ -9276,7 +9280,7 @@ msgstr "Zeige Log &vor Umbenennung/Kopieren"
 
 #. Resource IDs: (ID_VIEW_SHOWLOGID - Menu)
 msgid "Show log ID instead of SHA-1"
-msgstr ""
+msgstr "Zeige Protokoll-ID statt des SHA-1"
 
 #. Resource IDs: (IDS_SHOWLOG_OF)
 #, c-format
@@ -11607,7 +11611,7 @@ msgstr "Z"
 msgid ""
 "ZIP archive (*.zip)|*.zip|TAR archive (*.tar)|*.tar|TAR GZIP archive "
 "(*.tar.gz)|*.tar.gz|All Files (*.*)|*.*||"
-msgstr ""
+msgstr "ZIP Archiv (*.zip)|*.zip|TAR Archiv (*.tar)|*.tar|TAR GZIP Archiv (*.tar.gz)|*.tar.gz|Alle Dateien (*.*)|*.*||"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1074)
 msgid "Zip File"
