@@ -21,14 +21,15 @@
 # Victor Yarema <victor.yarema@gmail.com>, 2015
 # Vitaliy Grabchuk <vitaliygrabchuk@gmail.com>, 2017,2019
 # Vitaliy Katerusha <vitali_kat@hotmail.com>, 2011
+# Volodymyr Korniichuk <VolodymyrKorn@gmail.com>, 2019
 # Віктор Лелейко <victor.leleyko@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-10-25 06:45+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2019-11-05 20:08+0000\n"
+"Last-Translator: Volodymyr Korniichuk <VolodymyrKorn@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/lznuaa/tortoisegit/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -489,7 +490,7 @@ msgstr "По&рівняти ревізії"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPAREWITHPREVIOUS)
 msgid "&Compare with previous revision"
-msgstr ""
+msgstr "По&рівняти з попередньою ревізією"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
@@ -582,7 +583,7 @@ msgstr "&Не запитувати мене знову"
 msgid ""
 "&Don't run\n"
 "Do not run the script"
-msgstr ""
+msgstr "&Не запускати\nНе запускати скрипт"
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
 msgid "&Don't show this message again"
@@ -591,7 +592,7 @@ msgstr "&Більше не показувати це повідомлення"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr ""
+msgstr "&Не зберігати ці налаштування зараз."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -737,7 +738,7 @@ msgstr "&Згенерувати ключі PuTTY"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Git"
-msgstr ""
+msgstr "&Git"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -860,7 +861,7 @@ msgstr "&Номер рядка"
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
 msgid "&Line number (%1!d! - %2!d!)"
-msgstr ""
+msgstr "&Рядок номер (%1!d! - %2!d!)"
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
@@ -894,7 +895,7 @@ msgstr "З&лити"
 #. Resource IDs: (IDS_LOG_POPUP_MERGEREV)
 #, c-format
 msgid "&Merge to \"%s\"..."
-msgstr ""
+msgstr "З&лити в \"%s\"..."
 
 #. Resource IDs: (IDS_MERGE_UNRELATED)
 msgid "&Merge unrelated history"
@@ -1251,7 +1252,7 @@ msgstr "&Переключитись на нову гілку"
 
 #. Resource IDs: (IDS_SWITCH_BRANCH)
 msgid "&Switch/Checkout to"
-msgstr ""
+msgstr "&Переключитись на"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1173)
 msgid "&Symbol View"
@@ -1807,7 +1808,7 @@ msgstr "Усі локальні гілки"
 msgid ""
 "All or some options are limited. In order to change all these settings, you "
 "need Administrator rights."
-msgstr ""
+msgstr "Деякі налаштування обмежено. Для їх зміни вам потрібні права Адміністратора."
 
 #. Resource IDs: (IDS_ALLREFS)
 msgid "All refs"
@@ -1972,7 +1973,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_REALLYCANCEL)
 msgid "Are you sure you want to cancel?"
-msgstr ""
+msgstr "Ви впевнені, що хочете відмінити?"
 
 #. Resource IDs: (IDS_PROC_RESOLVE)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -2086,7 +2087,7 @@ msgstr "Ім'я автора"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\tStefan Kueng"
-msgstr ""
+msgstr "Автор:\t\t\tStefan Kueng"
 
 #. Resource IDs: (IDS_LOG_FILTER_AUTHORS)
 msgid "Authors"
@@ -2422,7 +2423,7 @@ msgstr "Розрахувати"
 #. Resource IDs: (IDS_ERR_GITCALLFAILED)
 #, c-format
 msgid "Calling git.exe failed (exit code: %d). Please check the git.exe path."
-msgstr ""
+msgstr "Виклик git.exe не вдався (код результату: %d). Будь ласка, перевірте шлях до git.exe."
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1127)
 msgid "Can double-click in log list to compare with previous revision"
@@ -3125,7 +3126,7 @@ msgstr "Кофігурувати програму, призначену для �
 
 #. Resource IDs: (IDS_FIRSTSTART_USERTITLE)
 msgid "Configure user information"
-msgstr ""
+msgstr "Конфігурувати інформацію про користувача"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
@@ -4057,7 +4058,7 @@ msgstr ""
 #. Resource IDs: (IDS_WARN_DELETE_ONE_FROM_INDEX)
 #, c-format
 msgid "Do you really want to remove \"%s\" from the index?"
-msgstr ""
+msgstr "Чи дійсно ви хочете видалити з індексу \"%s\"?"
 
 #. Resource IDs: (IDS_WARN_REMOVE)
 #, c-format
@@ -4187,7 +4188,7 @@ msgstr "Завантажити"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535)
 msgid "Download language packs:"
-msgstr ""
+msgstr "Завантажити мовні пакети:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1073)
 msgid "Draw tag/branch labels on right side"
@@ -4397,7 +4398,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Encode"
-msgstr ""
+msgstr "Кодувати"
 
 #. Resource IDs: (Dialog IDD_ENCODING: Control id 300, Dialog IDD_ENCODING:
 #. Control id 301, IDS_TEXTIDENTICAL_ENCODING)
@@ -4442,7 +4443,7 @@ msgstr "Під час запису %1 трапилася несподівана 
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1759)
 msgid "Encryption"
-msgstr ""
+msgstr "Шифрування"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1617)
 msgid "End"
@@ -4557,7 +4558,7 @@ msgstr "Помилка перевірки сертіфікату сервера 
 msgid ""
 "Error while reading/writing the registry key %1!s!\n"
 "%2!s!"
-msgstr ""
+msgstr "Помилка читання або запису ключа реєстру %1!s!\n%2!s!"
 
 #. Resource IDs: (IDS_PROC_EVERYTHINGUPDATED)
 msgid "Everything updated."
@@ -4582,11 +4583,11 @@ msgstr "Експортувати"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1383)
 msgid "Export Zip File"
-msgstr ""
+msgstr "Експортувати Zip-файл"
 
 #. Resource IDs: (IDS_CHECKOUT_EXPORTDIR)
 msgid "Export directory:"
-msgstr ""
+msgstr "Папка експорту:"
 
 #. Resource IDs: (IDS_LOG_POPUP_EXPORT)
 msgid "Export selection to..."
@@ -4712,7 +4713,7 @@ msgstr "Не вдалося зберегти документ."
 msgid ""
 "Failed to save file \"%s\":\n"
 "%s"
-msgstr ""
+msgstr "Не вдалося зберегти файл \"%s\":\n%s"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTFAILED)
 #, c-format
@@ -5218,7 +5219,7 @@ msgstr "Загальне::Контекстне меню"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
 msgid "General::Context Menu 2"
-msgstr ""
+msgstr "Загальне::Контекстне меню 2"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "General::Dialogs 1"
@@ -5566,7 +5567,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
-msgstr ""
+msgstr "Я не використовую Git for Windows та потребую обхідних шляхів"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "I&nclude paths:"
@@ -6037,11 +6038,11 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 329,
 #. IDS_MENUSVNIGNORE_DESC)
 msgid "Import SVN Ignore"
-msgstr ""
+msgstr "Імпортувати SVN Ignore"
 
 #. Resource IDs: (IDS_MENUSVNIGNORE)
 msgid "Import SVN Ignore ..."
-msgstr ""
+msgstr "Імпортувати SVN Ignore ..."
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1640)
 msgid ""
@@ -6059,7 +6060,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_INCOMMITS)
 msgid "In Commits"
-msgstr ""
+msgstr "В фіксаціях"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
 msgid "In order to abort a merge progress a reset (to HEAD) is needed."
@@ -6183,7 +6184,7 @@ msgstr "KOI8-U"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_KEEP)
 msgid "Keep"
-msgstr ""
+msgstr "Залишити"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1126)
 msgid "Keep changelists"
@@ -6191,7 +6192,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_KEEPFILELOCAL)
 msgid "Keep file locally?"
-msgstr ""
+msgstr "Залишити файл локально?"
 
 #. Resource IDs: (IDS_ASKFORSAVE_NEEDRESOLVE)
 msgid ""
