@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2019 the TortoiseGit team
+# Copyright (C) 2008-2020 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-10-25 06:45+0000\n"
+"PO-Revision-Date: 2020-01-01 22:45+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -1359,6 +1359,10 @@ msgstr "사용자명(&U):"
 msgid "&View"
 msgstr "보기(&V)"
 
+#. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
+msgid "&View effective config"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
 msgstr "커밋할 때 서명을 빠뜨리면 경고하기(&W)"
@@ -1998,6 +2002,10 @@ msgstr "정말 \"%s\"에 저장하겠습니까?"
 msgid "Arrange &vertical\tV"
 msgstr "수직 정렬(&V)\tV"
 
+#. Resource IDs: (ID_VIEW_ARROW_POINT_TO_MERGES - Menu)
+msgid "Arrows point towards merges"
+msgstr ""
+
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTSET)
 #, c-format
 msgid "Assigned to changelist '%s'"
@@ -2256,6 +2264,10 @@ msgstr "소스 파일의 각 행에 대해 마지막으로 수정한 사람을 �
 #. Resource IDs: (ID_VIEW_BLENDALPHA - Menu)
 msgid "Blend alpha"
 msgstr "알파 혼합"
+
+#. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1852)
+msgid "Block TortoiseGit while executing the external merge tool"
+msgstr ""
 
 #. Resource IDs: (cmdGroupBlocks_LabelTitle_RESID)
 msgid "Blocks"
@@ -2854,6 +2866,10 @@ msgstr "저장소 복제"
 msgid "Clone into Bare Repo"
 msgstr "기본 저장소로 복제"
 
+#. Resource IDs: (IDS_CLONE_BARE_REPO_TT)
+msgid "Clone into a git repository without the working tree."
+msgstr ""
+
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
 msgstr "복제하기..."
@@ -3033,6 +3049,10 @@ msgstr ""
 #. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "&HEAD 리비전 비교"
+
+#. Resource IDs: (IDS_LOG_POPUP_COMPARE_PARENT_WC)
+msgid "Compare parent with working tree"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -6128,6 +6148,18 @@ msgid ""
 "Paste"
 msgstr "클립보드 내용을 붙임\n붙여넣기"
 
+#. Resource IDs: (IDS_CLONE_BRANCH_TT)
+msgid ""
+"Instead of pointing the newly created HEAD to the branch pointed to by the "
+"cloned repository’s HEAD, point to specific branch instead."
+msgstr ""
+
+#. Resource IDs: (IDS_CLONE_ORIGIN_NAME_TT)
+msgid ""
+"Instead of using the remote name \"origin\" to keep track of the upstream "
+"repository, use the specific name."
+msgstr ""
+
 #. Resource IDs: (AFX_IDP_FAILED_MEMORY_ALLOC)
 msgid "Insufficient memory to perform operation."
 msgstr "명령을 수행하기에 메모리가 충분하지 않습니다."
@@ -6854,6 +6886,12 @@ msgstr "No HEAD found"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
 msgid "No a/ and b/ prefixes"
+msgstr ""
+
+#. Resource IDs: (IDS_CLONE_NO_CHECKOUT_TT)
+msgid ""
+"No checkout of HEAD is performed after the clone is complete.\n"
+"This makes the working tree empty."
 msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
@@ -9773,6 +9811,10 @@ msgstr ""
 msgid "Submodules"
 msgstr "서브모듈"
 
+#. Resource IDs: (IDS_CLONE_RECURSIVE_TT)
+msgid "Submodules are initialized and cloned using their default settings."
+msgstr ""
+
 #. Resource IDs: (IDS_SUCCESS)
 msgid "Success"
 msgstr "완료"
@@ -10705,6 +10747,10 @@ msgstr "투명색(&C)..."
 msgid "Trim right"
 msgstr "Trim right"
 
+#. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1853)
+msgid "Trust the exitcode of the external mege tool for auto resolving"
+msgstr ""
+
 #. Resource IDs: (IDS_SVNERR_CLEANUPORFRESHCHECKOUT)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
 msgstr "'정리' 하십시오. 정리되지 않는다면 깨끗이 다시 체크아웃하셔야합니다."
@@ -11335,6 +11381,14 @@ msgstr "경고"
 #. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "경고!"
+
+#. Resource IDs: (IDS_MERGESUCCESSFUL)
+#, c-format
+msgid ""
+"Was the merge of\n"
+"%s\n"
+"successful?"
+msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT4)
 msgid ""

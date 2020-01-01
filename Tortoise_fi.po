@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2019 the TortoiseGit team
+# Copyright (C) 2008-2020 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-10-25 06:45+0000\n"
+"PO-Revision-Date: 2020-01-01 22:45+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/lznuaa/tortoisegit/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -1344,6 +1344,10 @@ msgstr "&Käyttäjä:"
 msgid "&View"
 msgstr "&Näytä"
 
+#. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
+msgid "&View effective config"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
 msgstr ""
@@ -1983,6 +1987,10 @@ msgstr ""
 msgid "Arrange &vertical\tV"
 msgstr ""
 
+#. Resource IDs: (ID_VIEW_ARROW_POINT_TO_MERGES - Menu)
+msgid "Arrows point towards merges"
+msgstr ""
+
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTSET)
 #, c-format
 msgid "Assigned to changelist '%s'"
@@ -2241,6 +2249,10 @@ msgstr "Selvittää tiedoston jokaiselle riville tiedot sen tekijästä ja versi
 #. Resource IDs: (ID_VIEW_BLENDALPHA - Menu)
 msgid "Blend alpha"
 msgstr "Läpinäkyvyystila"
+
+#. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1852)
+msgid "Block TortoiseGit while executing the external merge tool"
+msgstr ""
 
 #. Resource IDs: (cmdGroupBlocks_LabelTitle_RESID)
 msgid "Blocks"
@@ -2839,6 +2851,10 @@ msgstr ""
 msgid "Clone into Bare Repo"
 msgstr ""
 
+#. Resource IDs: (IDS_CLONE_BARE_REPO_TT)
+msgid "Clone into a git repository without the working tree."
+msgstr ""
+
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
 msgstr ""
@@ -3018,6 +3034,10 @@ msgstr ""
 #. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "Vertaa &uusimpia (HEAD) versioita"
+
+#. Resource IDs: (IDS_LOG_POPUP_COMPARE_PARENT_WC)
+msgid "Compare parent with working tree"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -6113,6 +6133,18 @@ msgid ""
 "Paste"
 msgstr "Lisää leikepöydän sisältö\nLiitä"
 
+#. Resource IDs: (IDS_CLONE_BRANCH_TT)
+msgid ""
+"Instead of pointing the newly created HEAD to the branch pointed to by the "
+"cloned repository’s HEAD, point to specific branch instead."
+msgstr ""
+
+#. Resource IDs: (IDS_CLONE_ORIGIN_NAME_TT)
+msgid ""
+"Instead of using the remote name \"origin\" to keep track of the upstream "
+"repository, use the specific name."
+msgstr ""
+
 #. Resource IDs: (AFX_IDP_FAILED_MEMORY_ALLOC)
 msgid "Insufficient memory to perform operation."
 msgstr "Liian vähän muistia operaation suorittamiseen."
@@ -6839,6 +6871,12 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
 msgid "No a/ and b/ prefixes"
+msgstr ""
+
+#. Resource IDs: (IDS_CLONE_NO_CHECKOUT_TT)
+msgid ""
+"No checkout of HEAD is performed after the clone is complete.\n"
+"This makes the working tree empty."
 msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
@@ -9758,6 +9796,10 @@ msgstr ""
 msgid "Submodules"
 msgstr ""
 
+#. Resource IDs: (IDS_CLONE_RECURSIVE_TT)
+msgid "Submodules are initialized and cloned using their default settings."
+msgstr ""
+
 #. Resource IDs: (IDS_SUCCESS)
 msgid "Success"
 msgstr "Onnistuminen"
@@ -10690,6 +10732,10 @@ msgstr "Läpinäkyvä &väri..."
 msgid "Trim right"
 msgstr "Tasoita oikealta"
 
+#. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1853)
+msgid "Trust the exitcode of the external mege tool for auto resolving"
+msgstr ""
+
 #. Resource IDs: (IDS_SVNERR_CLEANUPORFRESHCHECKOUT)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
 msgstr "Kokeile 'Siivoa'-komentoa. Jos se ei toimi, sinun täytyy hakea uusimman version työkopio uudelleen."
@@ -11320,6 +11366,14 @@ msgstr "Varoitus"
 #. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "Varoitus!"
+
+#. Resource IDs: (IDS_MERGESUCCESSFUL)
+#, c-format
+msgid ""
+"Was the merge of\n"
+"%s\n"
+"successful?"
+msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT4)
 msgid ""

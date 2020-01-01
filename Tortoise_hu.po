@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2019 the TortoiseGit team
+# Copyright (C) 2008-2020 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -12,6 +12,7 @@
 # Gábor Prótár <protar.gabor@gmail.com>, 2013-2014
 # Hgrg <hgrg.wp@gmail.com>, 2013
 # Hgrg <hgrg.wp@gmail.com>, 2013,2017
+# kla <kl-o@freemail.hu>, 2020
 # Máté Széles <szelessm@gmail.com>, 2018
 # Péter Handbauer <loserock@gmail.com>, 2014-2016
 # Petrovics Sándor <egeramasrol@gmail.com>, 2014,2016
@@ -21,7 +22,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2019-10-25 06:45+0000\n"
+"PO-Revision-Date: 2020-01-01 22:45+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/lznuaa/tortoisegit/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -1349,6 +1350,10 @@ msgstr "&Felhasználónév:"
 msgid "&View"
 msgstr "&Nézet"
 
+#. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
+msgid "&View effective config"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
 msgstr ""
@@ -1988,6 +1993,10 @@ msgstr ""
 msgid "Arrange &vertical\tV"
 msgstr ""
 
+#. Resource IDs: (ID_VIEW_ARROW_POINT_TO_MERGES - Menu)
+msgid "Arrows point towards merges"
+msgstr ""
+
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTSET)
 #, c-format
 msgid "Assigned to changelist '%s'"
@@ -2246,6 +2255,10 @@ msgstr "Minden sornak kiírja a legutóbbi módosítóját"
 #. Resource IDs: (ID_VIEW_BLENDALPHA - Menu)
 msgid "Blend alpha"
 msgstr "Alfa keverése"
+
+#. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1852)
+msgid "Block TortoiseGit while executing the external merge tool"
+msgstr ""
 
 #. Resource IDs: (cmdGroupBlocks_LabelTitle_RESID)
 msgid "Blocks"
@@ -2844,6 +2857,10 @@ msgstr "Tároló klónozása"
 msgid "Clone into Bare Repo"
 msgstr "Klónozás csupasz tárolóba"
 
+#. Resource IDs: (IDS_CLONE_BARE_REPO_TT)
+msgid "Clone into a git repository without the working tree."
+msgstr ""
+
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
 msgstr "Klónozás..."
@@ -3023,6 +3040,10 @@ msgstr ""
 #. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
 msgstr "&FŐ verziók összehasonlítása"
+
+#. Resource IDs: (IDS_LOG_POPUP_COMPARE_PARENT_WC)
+msgid "Compare parent with working tree"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -5928,19 +5949,19 @@ msgstr "%d fájl kizárása &kiterjesztés alapján"
 #. Resource IDs: (ID_VIEW_IGNORECOMMENTS - Menu,
 #. cmdViewIgnoreComments_LabelTitle_RESID)
 msgid "Ignore Comments"
-msgstr ""
+msgstr "Megjegyzések kihagyása"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1692)
 msgid "Ignore File"
-msgstr ""
+msgstr "Fájl kihagyása"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1686)
 msgid "Ignore Type"
-msgstr ""
+msgstr "Típus kihagyása"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNOREALLSPACE)
 msgid "Ignore all space"
-msgstr ""
+msgstr "Összes szóköz kihagyása"
 
 #. Resource IDs: (ID_VIEW_IGNOREALLWHITESPACECHANGES - Menu,
 #. cmdIgnoreAllWhitespaceChanges_LabelTitle_RESID)
@@ -5949,7 +5970,7 @@ msgstr "Láthatatlan karakterek eltérésének figyelmen kívül hagyása"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORBLANKLINES)
 msgid "Ignore blank lines"
-msgstr ""
+msgstr "Üres sorok kihaqyása"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1067)
 msgid "Ignore case cha&nges"
@@ -5967,7 +5988,7 @@ msgstr "Elem(ek) kihagyása csak a tartalmazó mappá(k)ban"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1688)
 msgid "Ignore item(s) recursively"
-msgstr ""
+msgstr "Elem(ek) rekurzív kihagyása"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1018)
 msgid "Ignore line &endings (recommended)"
@@ -5979,7 +6000,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORESPACEATEOL)
 msgid "Ignore space at EOL"
-msgstr ""
+msgstr "Sorvégi szóköz kihagyása"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORESPACECHANGE)
 msgid "Ignore space change"
@@ -5987,7 +6008,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 1676)
 msgid "Ignore whitespace"
-msgstr ""
+msgstr "Láthatatlan karakter kiagyása"
 
 #. Resource IDs: (ID_VIEW_IGNOREWHITESPACECHANGES - Menu,
 #. cmdIgnoreWhitespaceChanges_LabelTitle_RESID)
@@ -6005,7 +6026,7 @@ msgstr "Figyelmen kívül hagyott"
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_IGNOREDFILES)
 msgid "Ignored Files"
-msgstr ""
+msgstr "Figyelmen kívül hagyott fájlok"
 
 #. Resource IDs: (cmdIgnoreAllWhitespaceChanges)
 msgid ""
@@ -6118,6 +6139,18 @@ msgid ""
 "Paste"
 msgstr "A vágólap tartalmának beillesztése\nBeillesztés"
 
+#. Resource IDs: (IDS_CLONE_BRANCH_TT)
+msgid ""
+"Instead of pointing the newly created HEAD to the branch pointed to by the "
+"cloned repository’s HEAD, point to specific branch instead."
+msgstr ""
+
+#. Resource IDs: (IDS_CLONE_ORIGIN_NAME_TT)
+msgid ""
+"Instead of using the remote name \"origin\" to keep track of the upstream "
+"repository, use the specific name."
+msgstr ""
+
 #. Resource IDs: (AFX_IDP_FAILED_MEMORY_ALLOC)
 msgid "Insufficient memory to perform operation."
 msgstr "Nincs elég memória a művelet elvégzéséhez."
@@ -6132,7 +6165,7 @@ msgstr "Rossz pénznem."
 
 #. Resource IDs: (IDS_ERR_INVALIDREV)
 msgid "Invalid revision number!"
-msgstr ""
+msgstr "Érvénytelen verziószám!"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Issuer:"
@@ -6177,7 +6210,7 @@ msgstr "KOI8-U"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_KEEP)
 msgid "Keep"
-msgstr ""
+msgstr "Megtartás"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1126)
 msgid "Keep changelists"
@@ -6283,7 +6316,7 @@ msgstr "Utolsó &jó állapot:"
 
 #. Resource IDs: (IDS_LAST_SEL_DATE)
 msgid "Last selected date"
-msgstr ""
+msgstr "Legutóbb kiválasztott dátum"
 
 #. Resource IDs: (IDS_MENUDESCCONFLICT)
 msgid "Launches the external diff/merge program to solve the conflicts"
@@ -6336,7 +6369,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "Line width"
-msgstr ""
+msgstr "Sorhosszúság"
 
 #. Resource IDs: (Dialog IDD_GOTODLG: Control id 65535)
 msgid "Line:"
@@ -6414,7 +6447,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
-msgstr ""
+msgstr "Helyi üzenet"
 
 #. Resource IDs: (IDS_CHSTAT_WCCOL)
 msgid "Local status"
@@ -6844,6 +6877,12 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1588)
 msgid "No a/ and b/ prefixes"
+msgstr ""
+
+#. Resource IDs: (IDS_CLONE_NO_CHECKOUT_TT)
+msgid ""
+"No checkout of HEAD is performed after the clone is complete.\n"
+"This makes the working tree empty."
 msgstr ""
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
@@ -9763,6 +9802,10 @@ msgstr ""
 msgid "Submodules"
 msgstr ""
 
+#. Resource IDs: (IDS_CLONE_RECURSIVE_TT)
+msgid "Submodules are initialized and cloned using their default settings."
+msgstr ""
+
 #. Resource IDs: (IDS_SUCCESS)
 msgid "Success"
 msgstr ""
@@ -10695,6 +10738,10 @@ msgstr "&Átlátszó szín..."
 msgid "Trim right"
 msgstr "Vágás jobbra"
 
+#. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1853)
+msgid "Trust the exitcode of the external mege tool for auto resolving"
+msgstr ""
+
 #. Resource IDs: (IDS_SVNERR_CLEANUPORFRESHCHECKOUT)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
 msgstr "Próbáld meg a \"Tisztítás\"-t! Ha nem működik, le kell kérned egy új munkapéldányt."
@@ -11325,6 +11372,14 @@ msgstr "Figyelem"
 #. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
 msgstr "Figyelem!"
+
+#. Resource IDs: (IDS_MERGESUCCESSFUL)
+#, c-format
+msgid ""
+"Was the merge of\n"
+"%s\n"
+"successful?"
+msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT4)
 msgid ""
