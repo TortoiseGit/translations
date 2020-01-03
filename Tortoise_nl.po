@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-01-01 22:45+0000\n"
+"PO-Revision-Date: 2020-01-03 00:51+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/lznuaa/tortoisegit/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -3130,6 +3130,10 @@ msgid ""
 "Configure alternative editor. Preferably one which can handle *nix line "
 "endings."
 msgstr "Configureer een editor. Bij voorkeur een editor die om kan gaan met *nix regeleinden."
+
+#. Resource IDs: (IDS_CONFIGUREDEFAULT)
+msgid "Configure default"
+msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
@@ -7844,7 +7848,9 @@ msgid "Pull (fetch and merge) commits from a remote branch."
 msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
-msgid "Pull requires the selected local branch to be the current branch."
+msgid ""
+"Pull requires the selected local branch to be the current branch.\n"
+"Do you want to switch to the selected branch?"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 302)
@@ -9855,6 +9861,11 @@ msgid ""
 "Switch left and right view"
 msgstr "Wissel de inhoud van het linker en rechter venster\nWissel linker en rechter venster"
 
+#. Resource IDs: (IDS_PROC_SYNC_SWITCHTO)
+#, c-format
+msgid "Switch to \"%s\""
+msgstr ""
+
 #. Resource IDs: (AFX_IDS_SCNEXTWINDOW)
 msgid "Switch to the next document window"
 msgstr "Ga naar het volgende documentvenster"
@@ -10980,7 +10991,7 @@ msgstr "Gebruik 'hun' tekstblok"
 msgid "Use 'theirs' text block then 'mine'"
 msgstr "Gebruik 'hun' tekstblok en dan 'mijn' tekstblok"
 
-#. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
+#. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1911)
 msgid "Use .mailmap"
 msgstr ".Mailmap gebruiken"
 

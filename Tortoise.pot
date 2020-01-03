@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-01-01 22:45+0000\n"
+"PO-Revision-Date: 2020-01-03 00:51+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: English (http://www.transifex.com/lznuaa/tortoisegit/language/en/)\n"
 "MIME-Version: 1.0\n"
@@ -3112,6 +3112,10 @@ msgid ""
 "Configure alternative editor. Preferably one which can handle *nix line "
 "endings."
 msgstr "Configure alternative editor. Preferably one which can handle *nix line endings."
+
+#. Resource IDs: (IDS_CONFIGUREDEFAULT)
+msgid "Configure default"
+msgstr "Configure default"
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
@@ -7826,8 +7830,10 @@ msgid "Pull (fetch and merge) commits from a remote branch."
 msgstr "Pull (fetch and merge) commits from a remote branch."
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
-msgid "Pull requires the selected local branch to be the current branch."
-msgstr "Pull requires the selected local branch to be the current branch."
+msgid ""
+"Pull requires the selected local branch to be the current branch.\n"
+"Do you want to switch to the selected branch?"
+msgstr "Pull requires the selected local branch to be the current branch.\nDo you want to switch to the selected branch?"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 302)
 msgid "Pull/Fetch"
@@ -9837,6 +9843,11 @@ msgid ""
 "Switch left and right view"
 msgstr "Switch the contents of the left and right view\nSwitch left and right view"
 
+#. Resource IDs: (IDS_PROC_SYNC_SWITCHTO)
+#, c-format
+msgid "Switch to \"%s\""
+msgstr "Switch to \"%s\""
+
 #. Resource IDs: (AFX_IDS_SCNEXTWINDOW)
 msgid "Switch to the next document window"
 msgstr "Switch to the next document window"
@@ -10962,7 +10973,7 @@ msgstr "Use 'theirs' text block"
 msgid "Use 'theirs' text block then 'mine'"
 msgstr "Use 'theirs' text block then 'mine'"
 
-#. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1911)
+#. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1911)
 msgid "Use .mailmap"
 msgstr "Use .mailmap"
 
