@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-01-03 00:51+0000\n"
+"PO-Revision-Date: 2020-01-16 21:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/lznuaa/tortoisegit/language/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -2464,15 +2464,15 @@ msgstr ""
 #. IDD_REPOSITORY_BROWSER: Control id 2, Dialog IDD_REQUESTPULL: Control id 2,
 #. Dialog IDD_RESET: Control id 2, Dialog IDD_RESOLVE: Control id 2, Dialog
 #. IDD_REVERT: Control id 2, Dialog IDD_REVGRAPHFILTER: Control id 2, Dialog
-#. IDD_SENDMAIL: Control id 2, Dialog IDD_SETTINGSBUGTRAQADV: Control id 2,
-#. Dialog IDD_SETTINGSHOOKCONFIG: Control id 2, Dialog IDD_SETTINGSPROGSADV:
-#. Control id 2, Dialog IDD_SIMPLEPROMPT: Control id 2, Dialog IDD_STASH:
-#. Control id 2, Dialog IDD_SUBMODULE_ADD: Control id 2, Dialog
-#. IDD_SUBMODULE_UPDATE: Control id 2, Dialog IDD_SVNDCOMMITTYPE: Control id
-#. 2, Dialog IDD_SVNIGNORE: Control id 2, Dialog IDD_SVNPROGRESS: Control id
-#. 2, Dialog IDD_TOOLASSOC: Control id 2, Dialog IDD_URL: Control id 2, Dialog
-#. IDD_USER_PASSWD: Control id 2, IDS_MSGBOX_CANCEL,
-#. IDS_PROC_OVERWRITEEXPORT_CANCEL)
+#. IDD_SELECTREMOTEREF: Control id 2, Dialog IDD_SENDMAIL: Control id 2,
+#. Dialog IDD_SETTINGSBUGTRAQADV: Control id 2, Dialog IDD_SETTINGSHOOKCONFIG:
+#. Control id 2, Dialog IDD_SETTINGSPROGSADV: Control id 2, Dialog
+#. IDD_SIMPLEPROMPT: Control id 2, Dialog IDD_STASH: Control id 2, Dialog
+#. IDD_SUBMODULE_ADD: Control id 2, Dialog IDD_SUBMODULE_UPDATE: Control id 2,
+#. Dialog IDD_SVNDCOMMITTYPE: Control id 2, Dialog IDD_SVNIGNORE: Control id
+#. 2, Dialog IDD_SVNPROGRESS: Control id 2, Dialog IDD_TOOLASSOC: Control id
+#. 2, Dialog IDD_URL: Control id 2, Dialog IDD_USER_PASSWD: Control id 2,
+#. IDS_MSGBOX_CANCEL, IDS_PROC_OVERWRITEEXPORT_CANCEL)
 msgid "Cancel"
 msgstr "Отказ"
 
@@ -7198,14 +7198,15 @@ msgstr "OEM-US"
 #. IDD_REPOSITORY_BROWSER: Control id 1, Dialog IDD_REQUESTPULL: Control id 1,
 #. Dialog IDD_RESET: Control id 1, Dialog IDD_RESOLVE: Control id 1, Dialog
 #. IDD_RESOLVE_CONFLICT: Control id 4569, Dialog IDD_REVERT: Control id 1,
-#. Dialog IDD_SETTINGSBUGTRAQADV: Control id 1, Dialog IDD_SETTINGSHOOKCONFIG:
-#. Control id 1, Dialog IDD_SETTINGSPROGSADV: Control id 1, Dialog
-#. IDD_SIMPLEPROMPT: Control id 1, Dialog IDD_STASH: Control id 1, Dialog
-#. IDD_STATGRAPH: Control id 1, Dialog IDD_SUBMODULE_ADD: Control id 1, Dialog
-#. IDD_SUBMODULE_UPDATE: Control id 1, Dialog IDD_SVNDCOMMITTYPE: Control id
-#. 1, Dialog IDD_SVNIGNORE: Control id 1, Dialog IDD_SVNPROGRESS: Control id
-#. 1, Dialog IDD_TOOLASSOC: Control id 1, Dialog IDD_URL: Control id 1, Dialog
-#. IDD_USER_PASSWD: Control id 1, IDS_MSGBOX_OK)
+#. Dialog IDD_SELECTREMOTEREF: Control id 1, Dialog IDD_SETTINGSBUGTRAQADV:
+#. Control id 1, Dialog IDD_SETTINGSHOOKCONFIG: Control id 1, Dialog
+#. IDD_SETTINGSPROGSADV: Control id 1, Dialog IDD_SIMPLEPROMPT: Control id 1,
+#. Dialog IDD_STASH: Control id 1, Dialog IDD_STATGRAPH: Control id 1, Dialog
+#. IDD_SUBMODULE_ADD: Control id 1, Dialog IDD_SUBMODULE_UPDATE: Control id 1,
+#. Dialog IDD_SVNDCOMMITTYPE: Control id 1, Dialog IDD_SVNIGNORE: Control id
+#. 1, Dialog IDD_SVNPROGRESS: Control id 1, Dialog IDD_TOOLASSOC: Control id
+#. 1, Dialog IDD_URL: Control id 1, Dialog IDD_USER_PASSWD: Control id 1,
+#. IDS_MSGBOX_OK)
 msgid "OK"
 msgstr "OK"
 
@@ -8153,7 +8154,8 @@ msgstr ""
 msgid "Remote"
 msgstr "Отдалечено"
 
-#. Resource IDs: (Dialog IDD_PULLFETCH: Control id 65535)
+#. Resource IDs: (Dialog IDD_PULLFETCH: Control id 65535, Dialog
+#. IDD_SELECTREMOTEREF: Control id 65535)
 msgid "Remote &Branch:"
 msgstr ""
 
@@ -8195,7 +8197,8 @@ msgid "Remote status"
 msgstr "Отдалечено състояние"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535, Dialog
-#. IDD_SETTINREMOTE: Control id 65535)
+#. IDD_SELECTREMOTEREF: Control id 65535, Dialog IDD_SETTINREMOTE: Control id
+#. 65535)
 msgid "Remote:"
 msgstr "Отдалечено:"
 
@@ -8976,6 +8979,10 @@ msgstr "Избор на програма за сливане"
 #. Resource IDs: (IDS_LOG_MERGETO)
 msgid "Select merge target"
 msgstr "Избор на цел на сливането"
+
+#. Resource IDs: (Dialog IDD_SELECTREMOTEREF: Control id 4601)
+msgid "Select remote ref - TortoiseGit"
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCLOSE_TT)
 msgid ""
@@ -11322,8 +11329,8 @@ msgstr ""
 msgid "View Patch"
 msgstr "Виж пътя"
 
-#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1637,
-#. IDS_PROC_COMMIT_SHOWPATCH)
+#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1637, Dialog IDD_DIFFFILES:
+#. Control id 1637, IDS_PROC_COMMIT_SHOWPATCH)
 msgid "View Patch>>"
 msgstr "Виж поправката>>"
 

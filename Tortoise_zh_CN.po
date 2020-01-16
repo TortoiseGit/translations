@@ -13,7 +13,7 @@
 # Garfield Yao <field977@gmail.com>, 2011
 # Gones <liejie050911@163.com>, 2013
 # Gong Gong <gongong83@gmail.com>, 2013
-# shuyu liu <liushuyu011@gmail.com>, 2014,2016
+# liushuyu011 <liushuyu011@gmail.com>, 2014,2016
 # loveyu <yuht@qq.com>, 2012
 # Lübbe Onken <luebbe.opensource@gmail.com>, 2011,2013
 # lznuaa <lznuaa@gmail.com>, 2013-2014,2017
@@ -25,7 +25,7 @@
 # RAMBOO <ramboooo@126.com>, 2013
 # RAMBOO <ramboooo@126.com>, 2013
 # Shengbin Meng <shengbinmeng@gmail.com>, 2013
-# shuyu liu <liushuyu011@gmail.com>, 2014,2016
+# liushuyu011 <liushuyu011@gmail.com>, 2014,2016
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013,2017-2019
 # szkingrose <1072258106@qq.com>, 2014
 # Verplusor, 2011
@@ -43,7 +43,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-01-03 00:51+0000\n"
+"PO-Revision-Date: 2020-01-16 21:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -2491,15 +2491,15 @@ msgstr "无法复制 \n%1!s!\n到\n%2!s!"
 #. IDD_REPOSITORY_BROWSER: Control id 2, Dialog IDD_REQUESTPULL: Control id 2,
 #. Dialog IDD_RESET: Control id 2, Dialog IDD_RESOLVE: Control id 2, Dialog
 #. IDD_REVERT: Control id 2, Dialog IDD_REVGRAPHFILTER: Control id 2, Dialog
-#. IDD_SENDMAIL: Control id 2, Dialog IDD_SETTINGSBUGTRAQADV: Control id 2,
-#. Dialog IDD_SETTINGSHOOKCONFIG: Control id 2, Dialog IDD_SETTINGSPROGSADV:
-#. Control id 2, Dialog IDD_SIMPLEPROMPT: Control id 2, Dialog IDD_STASH:
-#. Control id 2, Dialog IDD_SUBMODULE_ADD: Control id 2, Dialog
-#. IDD_SUBMODULE_UPDATE: Control id 2, Dialog IDD_SVNDCOMMITTYPE: Control id
-#. 2, Dialog IDD_SVNIGNORE: Control id 2, Dialog IDD_SVNPROGRESS: Control id
-#. 2, Dialog IDD_TOOLASSOC: Control id 2, Dialog IDD_URL: Control id 2, Dialog
-#. IDD_USER_PASSWD: Control id 2, IDS_MSGBOX_CANCEL,
-#. IDS_PROC_OVERWRITEEXPORT_CANCEL)
+#. IDD_SELECTREMOTEREF: Control id 2, Dialog IDD_SENDMAIL: Control id 2,
+#. Dialog IDD_SETTINGSBUGTRAQADV: Control id 2, Dialog IDD_SETTINGSHOOKCONFIG:
+#. Control id 2, Dialog IDD_SETTINGSPROGSADV: Control id 2, Dialog
+#. IDD_SIMPLEPROMPT: Control id 2, Dialog IDD_STASH: Control id 2, Dialog
+#. IDD_SUBMODULE_ADD: Control id 2, Dialog IDD_SUBMODULE_UPDATE: Control id 2,
+#. Dialog IDD_SVNDCOMMITTYPE: Control id 2, Dialog IDD_SVNIGNORE: Control id
+#. 2, Dialog IDD_SVNPROGRESS: Control id 2, Dialog IDD_TOOLASSOC: Control id
+#. 2, Dialog IDD_URL: Control id 2, Dialog IDD_USER_PASSWD: Control id 2,
+#. IDS_MSGBOX_CANCEL, IDS_PROC_OVERWRITEEXPORT_CANCEL)
 msgid "Cancel"
 msgstr "取消"
 
@@ -7225,14 +7225,15 @@ msgstr "OEM-US"
 #. IDD_REPOSITORY_BROWSER: Control id 1, Dialog IDD_REQUESTPULL: Control id 1,
 #. Dialog IDD_RESET: Control id 1, Dialog IDD_RESOLVE: Control id 1, Dialog
 #. IDD_RESOLVE_CONFLICT: Control id 4569, Dialog IDD_REVERT: Control id 1,
-#. Dialog IDD_SETTINGSBUGTRAQADV: Control id 1, Dialog IDD_SETTINGSHOOKCONFIG:
-#. Control id 1, Dialog IDD_SETTINGSPROGSADV: Control id 1, Dialog
-#. IDD_SIMPLEPROMPT: Control id 1, Dialog IDD_STASH: Control id 1, Dialog
-#. IDD_STATGRAPH: Control id 1, Dialog IDD_SUBMODULE_ADD: Control id 1, Dialog
-#. IDD_SUBMODULE_UPDATE: Control id 1, Dialog IDD_SVNDCOMMITTYPE: Control id
-#. 1, Dialog IDD_SVNIGNORE: Control id 1, Dialog IDD_SVNPROGRESS: Control id
-#. 1, Dialog IDD_TOOLASSOC: Control id 1, Dialog IDD_URL: Control id 1, Dialog
-#. IDD_USER_PASSWD: Control id 1, IDS_MSGBOX_OK)
+#. Dialog IDD_SELECTREMOTEREF: Control id 1, Dialog IDD_SETTINGSBUGTRAQADV:
+#. Control id 1, Dialog IDD_SETTINGSHOOKCONFIG: Control id 1, Dialog
+#. IDD_SETTINGSPROGSADV: Control id 1, Dialog IDD_SIMPLEPROMPT: Control id 1,
+#. Dialog IDD_STASH: Control id 1, Dialog IDD_STATGRAPH: Control id 1, Dialog
+#. IDD_SUBMODULE_ADD: Control id 1, Dialog IDD_SUBMODULE_UPDATE: Control id 1,
+#. Dialog IDD_SVNDCOMMITTYPE: Control id 1, Dialog IDD_SVNIGNORE: Control id
+#. 1, Dialog IDD_SVNPROGRESS: Control id 1, Dialog IDD_TOOLASSOC: Control id
+#. 1, Dialog IDD_URL: Control id 1, Dialog IDD_USER_PASSWD: Control id 1,
+#. IDS_MSGBOX_OK)
 msgid "OK"
 msgstr "确定"
 
@@ -8180,7 +8181,8 @@ msgstr "提醒：请在冲突解决后提交您的变更"
 msgid "Remote"
 msgstr "远端"
 
-#. Resource IDs: (Dialog IDD_PULLFETCH: Control id 65535)
+#. Resource IDs: (Dialog IDD_PULLFETCH: Control id 65535, Dialog
+#. IDD_SELECTREMOTEREF: Control id 65535)
 msgid "Remote &Branch:"
 msgstr "远端分支(&B):"
 
@@ -8222,7 +8224,8 @@ msgid "Remote status"
 msgstr "远端状态"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535, Dialog
-#. IDD_SETTINREMOTE: Control id 65535)
+#. IDD_SELECTREMOTEREF: Control id 65535, Dialog IDD_SETTINREMOTE: Control id
+#. 65535)
 msgid "Remote:"
 msgstr "远端:"
 
@@ -9003,6 +9006,10 @@ msgstr "选择合并工具"
 #. Resource IDs: (IDS_LOG_MERGETO)
 msgid "Select merge target"
 msgstr "选择合并目标"
+
+#. Resource IDs: (Dialog IDD_SELECTREMOTEREF: Control id 4601)
+msgid "Select remote ref - TortoiseGit"
+msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCLOSE_TT)
 msgid ""
@@ -11349,8 +11356,8 @@ msgstr "视图栏"
 msgid "View Patch"
 msgstr "查看补丁"
 
-#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1637,
-#. IDS_PROC_COMMIT_SHOWPATCH)
+#. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1637, Dialog IDD_DIFFFILES:
+#. Control id 1637, IDS_PROC_COMMIT_SHOWPATCH)
 msgid "View Patch>>"
 msgstr "查看补丁>>"
 
