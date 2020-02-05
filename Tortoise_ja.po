@@ -29,7 +29,7 @@
 # Tatsuya Ishikawa, 2019
 # Tetsuhiko Koto, 2014
 # Tetsuhiko Koto, 2012-2014
-# Tetsuhiko Koto, 2014-2019
+# Tetsuhiko Koto, 2014-2020
 # Tetsuya Morimoto <tetsuya.morimoto@gmail.com>, 2011
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2012-2013
 # YANO Tetsu <tetuyano+transi@gmail.com>, 2013
@@ -44,8 +44,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-01-16 21:40+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2020-02-05 15:35+0000\n"
+"Last-Translator: Tetsuhiko Koto\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -375,7 +375,7 @@ msgstr "フィルターを追加(&A)"
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1382, Dialog
 #. IDD_SETTINREMOTE: Control id 1382)
 msgid "&Add New/Save"
-msgstr "新規に追加/保存(&A)"
+msgstr "新規追加/保存(&A)"
 
 #. Resource IDs: (IDS_PROC_COMMIT_ADDSIGNOFFBUTTON)
 msgid "&Add it"
@@ -1374,7 +1374,7 @@ msgstr "表示(&V)"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
 msgid "&View effective config"
-msgstr ""
+msgstr "実効値を表示(&V)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
@@ -2017,7 +2017,7 @@ msgstr "垂直方向に並べる(&V)\tV"
 
 #. Resource IDs: (ID_VIEW_ARROW_POINT_TO_MERGES - Menu)
 msgid "Arrows point towards merges"
-msgstr ""
+msgstr "矢印をマージの方向に向ける"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTSET)
 #, c-format
@@ -2280,7 +2280,7 @@ msgstr "アルファブレンド"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1852)
 msgid "Block TortoiseGit while executing the external merge tool"
-msgstr ""
+msgstr "外部マージツールを実行している間、TortoiseGit をブロックする"
 
 #. Resource IDs: (cmdGroupBlocks_LabelTitle_RESID)
 msgid "Blocks"
@@ -2881,7 +2881,7 @@ msgstr "Bareリポジトリにクローン"
 
 #. Resource IDs: (IDS_CLONE_BARE_REPO_TT)
 msgid "Clone into a git repository without the working tree."
-msgstr ""
+msgstr "作業ツリーなしでgitリポジトリを複製します。"
 
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
@@ -3065,7 +3065,7 @@ msgstr "&HEADのリビジョンを比較(&H)"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARE_PARENT_WC)
 msgid "Compare parent with working tree"
-msgstr ""
+msgstr "親と作業ツリーを比較"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -3150,7 +3150,7 @@ msgstr "*nix 行を編集可能なエディターを設定"
 
 #. Resource IDs: (IDS_CONFIGUREDEFAULT)
 msgid "Configure default"
-msgstr ""
+msgstr "デフォルトを設定"
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
@@ -4369,7 +4369,7 @@ msgstr "編集..."
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 1770, Dialog IDD_SETTINGSDIALOGS3:
 #. Control id 1770)
 msgid "Effective"
-msgstr "有効値"
+msgstr "実効値"
 
 #. Resource IDs: (IDS_SETTINGS_PROXYSERVER_TT)
 msgid "Either the name or IP of the proxy server"
@@ -5399,7 +5399,7 @@ msgid ""
 "The \"Effective\" tab shows you the effective values for the current scope (read-only).\n"
 "Select any level to see the values stored there.\n"
 "In order to change settings select a level, enter the values and select where to store to."
-msgstr "Gitは、階層的な設定の概念を使用しています。\nすなわち、いくつかのレベルが有り、高いレベルの設定値は、低いレベルの設定値を上書きします。\n「有効値」では、現在のスコープで、結果的に使用される設定の値が表示され、これはリードオンリーです。\nローカル/グローバル/システムといったレベルを選択すると、そのレベルの設定値が表示されます。\n設定の値を変えるには、レベルを選び、値を設定し、どこに値を保存したいかを選択してください。"
+msgstr "Gitは、階層的な設定の概念を使用しています。\nすなわち、いくつかのレベルが有り、高いレベルの設定値は、低いレベルの設定値を上書きします。\n「実効値」では、現在のスコープで、結果的に使用される設定の値が表示され、これはリードオンリーです。\nローカル/グローバル/システムといったレベルを選択すると、そのレベルの設定値が表示されます。\n設定の値を変えるには、レベルを選び、値を設定し、どこに値を保存したいかを選択してください。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 4591)
 msgid "Git::Credential"
@@ -6169,13 +6169,13 @@ msgstr "クリップボードの内容を挿入する\n貼り付け"
 msgid ""
 "Instead of pointing the newly created HEAD to the branch pointed to by the "
 "cloned repository’s HEAD, point to specific branch instead."
-msgstr ""
+msgstr "複製したリポジトリのHEADの代わりに、指定したブランチをHEADにします。"
 
 #. Resource IDs: (IDS_CLONE_ORIGIN_NAME_TT)
 msgid ""
 "Instead of using the remote name \"origin\" to keep track of the upstream "
 "repository, use the specific name."
-msgstr ""
+msgstr "上流のリポジトリを追跡するのに、\"orign\" の代わりに指定されたリモートの名前を使用します。"
 
 #. Resource IDs: (AFX_IDP_FAILED_MEMORY_ALLOC)
 msgid "Insufficient memory to perform operation."
@@ -6909,7 +6909,7 @@ msgstr "a/ と b/ のプレフィックスがありません"
 msgid ""
 "No checkout of HEAD is performed after the clone is complete.\n"
 "This makes the working tree empty."
-msgstr ""
+msgstr "クローンが終了したときに、HEADをチェックアウトしません。\nこれは、作業ツリーを空にします。"
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""
@@ -7869,7 +7869,7 @@ msgstr "リモートリポジトリからコミットを取り寄せてマージ
 msgid ""
 "Pull requires the selected local branch to be the current branch.\n"
 "Do you want to switch to the selected branch?"
-msgstr ""
+msgstr "プルするには、選択されているローカルブランチがカレントブランチであることが必要です。\n選択されたブランチに切り替えますか?"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 302)
 msgid "Pull/Fetch"
@@ -9010,7 +9010,7 @@ msgstr "マージするターゲットを選択"
 
 #. Resource IDs: (Dialog IDD_SELECTREMOTEREF: Control id 4601)
 msgid "Select remote ref - TortoiseGit"
-msgstr ""
+msgstr "リモートのrefを選択"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCLOSE_TT)
 msgid ""
@@ -9839,7 +9839,7 @@ msgstr "サブモジュール"
 
 #. Resource IDs: (IDS_CLONE_RECURSIVE_TT)
 msgid "Submodules are initialized and cloned using their default settings."
-msgstr ""
+msgstr "サブモジュールは、それらのデフォルトの設定で、初期化され複製されます。"
 
 #. Resource IDs: (IDS_SUCCESS)
 msgid "Success"
@@ -9888,7 +9888,7 @@ msgstr "左と右のビューの内容を入れ替える\n左右のビューを�
 #. Resource IDs: (IDS_PROC_SYNC_SWITCHTO)
 #, c-format
 msgid "Switch to \"%s\""
-msgstr ""
+msgstr "\"%s\" へ切り替え"
 
 #. Resource IDs: (AFX_IDS_SCNEXTWINDOW)
 msgid "Switch to the next document window"
