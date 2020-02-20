@@ -18,7 +18,7 @@
 # Obareo, 2019
 # peu <peu@rekoba.de>, 2013
 # Stefan Kueng <tortoisesvn@gmail.com>, 2014
-# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2019
+# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2020
 # Thilo Berger <thilob.tb34@gmail.com>, 2017
 # Torsten Widmann <goover0976@googlemail.com>, 2012
 msgid ""
@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-01-16 21:40+0000\n"
+"PO-Revision-Date: 2020-02-20 20:40+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1356,7 +1356,7 @@ msgstr "&Ansicht"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
 msgid "&View effective config"
-msgstr ""
+msgstr "&Zeige effektive Konfiguration"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
@@ -1999,7 +1999,7 @@ msgstr "&Vertikal ausrichten\tV"
 
 #. Resource IDs: (ID_VIEW_ARROW_POINT_TO_MERGES - Menu)
 msgid "Arrows point towards merges"
-msgstr ""
+msgstr "Pfeile zeigen zu den Zusammenführknoten"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTSET)
 #, c-format
@@ -2262,7 +2262,7 @@ msgstr "Differenz/Überblenden"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1852)
 msgid "Block TortoiseGit while executing the external merge tool"
-msgstr ""
+msgstr "Blockiere TortoiseGIt während das Vergleichsprogramm ausgeführt wird"
 
 #. Resource IDs: (cmdGroupBlocks_LabelTitle_RESID)
 msgid "Blocks"
@@ -2863,7 +2863,7 @@ msgstr "In Bare-Projektarchiv klonen"
 
 #. Resource IDs: (IDS_CLONE_BARE_REPO_TT)
 msgid "Clone into a git repository without the working tree."
-msgstr ""
+msgstr "Klone in ein Git Repository ohne Arbeitsbaum."
 
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
@@ -3047,7 +3047,7 @@ msgstr "&HEAD Revisionen vergleichen"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARE_PARENT_WC)
 msgid "Compare parent with working tree"
-msgstr ""
+msgstr "Vergleiche Vorgänger mit Arbeitsbaum"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -3132,7 +3132,7 @@ msgstr "Alternativen Editor einrichten. Möglichst einer, der mit *nix-Zeilenend
 
 #. Resource IDs: (IDS_CONFIGUREDEFAULT)
 msgid "Configure default"
-msgstr ""
+msgstr "Standard konfigurieren"
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
@@ -6151,13 +6151,13 @@ msgstr "Inhalt der Zwischenablage einfügen\nEinfügen"
 msgid ""
 "Instead of pointing the newly created HEAD to the branch pointed to by the "
 "cloned repository’s HEAD, point to specific branch instead."
-msgstr ""
+msgstr "Benutze einen bestimmten Zweig anstatt den neu erstellten HEAD auf den Zweig zu zeigen, auf den der HEAD des geklonten Repositorys zeigt"
 
 #. Resource IDs: (IDS_CLONE_ORIGIN_NAME_TT)
 msgid ""
 "Instead of using the remote name \"origin\" to keep track of the upstream "
 "repository, use the specific name."
-msgstr ""
+msgstr "Benutze einen anderen Namen für das entfernte Repository anstatt \"origin\"."
 
 #. Resource IDs: (AFX_IDP_FAILED_MEMORY_ALLOC)
 msgid "Insufficient memory to perform operation."
@@ -6891,7 +6891,7 @@ msgstr "Keine a/ und b/ Präfixe"
 msgid ""
 "No checkout of HEAD is performed after the clone is complete.\n"
 "This makes the working tree empty."
-msgstr ""
+msgstr "Der HEAD wird nicht ausgechecket, wenn das Klonen abgeschlossen ist.\nDies resultiert in einem leeren Arbeitsbaum."
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""
@@ -7851,7 +7851,7 @@ msgstr "Aktualisiere Eintragungen (Anfordern und Zusammenführen) von einem entf
 msgid ""
 "Pull requires the selected local branch to be the current branch.\n"
 "Do you want to switch to the selected branch?"
-msgstr ""
+msgstr "Eine Anforderung erfordert, dass der ausgewählte lokale Zweig der aktuelle Zeig ist.\nSoll zum gewählten Zweig gewechselt werden?"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 302)
 msgid "Pull/Fetch"
@@ -8992,7 +8992,7 @@ msgstr "Ziel auswählen"
 
 #. Resource IDs: (Dialog IDD_SELECTREMOTEREF: Control id 4601)
 msgid "Select remote ref - TortoiseGit"
-msgstr ""
+msgstr "Entfernte Referenz wählen - TortoiseGit"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCLOSE_TT)
 msgid ""
@@ -9821,7 +9821,7 @@ msgstr "Submodule"
 
 #. Resource IDs: (IDS_CLONE_RECURSIVE_TT)
 msgid "Submodules are initialized and cloned using their default settings."
-msgstr ""
+msgstr "Submodule werden mit ihren Standardeinstellungen initialisiert und geklont"
 
 #. Resource IDs: (IDS_SUCCESS)
 msgid "Success"
@@ -9870,7 +9870,7 @@ msgstr "Vertauscht die Inhalte des rechten und des linken Fensters\nTauscht die 
 #. Resource IDs: (IDS_PROC_SYNC_SWITCHTO)
 #, c-format
 msgid "Switch to \"%s\""
-msgstr ""
+msgstr "Wechsele zu \"%s\""
 
 #. Resource IDs: (AFX_IDS_SCNEXTWINDOW)
 msgid "Switch to the next document window"
@@ -10762,7 +10762,7 @@ msgstr "rechts abschneiden/bereinigen"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1853)
 msgid "Trust the exitcode of the external mege tool for auto resolving"
-msgstr ""
+msgstr "Vertraue dem Exit-Code des externen Vergleichprogramms zur automatischen Konfliktlösung"
 
 #. Resource IDs: (IDS_SVNERR_CLEANUPORFRESHCHECKOUT)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
@@ -11401,7 +11401,7 @@ msgid ""
 "Was the merge of\n"
 "%s\n"
 "successful?"
-msgstr ""
+msgstr "Wurde das Zusammenführen von\n%s\nerfolgreich abgeschlossen?"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT4)
 msgid ""
