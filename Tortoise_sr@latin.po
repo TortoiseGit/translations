@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-03-06 10:14+0000\n"
+"PO-Revision-Date: 2020-03-06 14:36+0000\n"
 "Last-Translator: Dušan Pavlović <pawla93slash@gmail.com>\n"
 "Language-Team: Serbian (Latin) (http://www.transifex.com/lznuaa/tortoisegit/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
@@ -1855,11 +1855,11 @@ msgstr "Uvek koristi sistemska lokalna podešavanja za prikaz vremena i datuma"
 
 #. Resource IDs: (IDS_AMENDBUTTON)
 msgid "Amend"
-msgstr ""
+msgstr "Unesi ispravke"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1555)
 msgid "Amend &Last Commit"
-msgstr ""
+msgstr "Unesi ispravke &Poslednjeg Ureza"
 
 #. Resource IDs: (IDS_SETTINGS_ALTERNATIVEEDITOR_TT)
 msgid ""
@@ -1875,7 +1875,7 @@ msgid ""
 "You can specify the following parameters to the path:\n"
 "%base: the base file\n"
 "%mine: the modified file"
-msgstr ""
+msgstr "Eksterna aplikacija za upoređivanje\nrazličitih revizija datoteka\n\nMogu se podesiti sledeći parametri putanje:\n%base: bazna datoteka\n%mine: modifikovana datoteka"
 
 #. Resource IDs: (IDS_SETTINGS_EXTMERGE_TT)
 #, c-format
@@ -1888,7 +1888,7 @@ msgid ""
 "%theirs: the file as it is in the repository\n"
 "%mine: your own file, with your changes\n"
 "%base: the original file without your changes"
-msgstr ""
+msgstr "Eksterna aplikacija za razrešavanje\ndatoteka sa konfliktima.\n\nMogu se podesiti sledeći parametri putanje:\n%merged: datoteka sa konfliktom, gde se čuva\n%theirs: verzija datoteke koja je u spremištu\n%mine: lokalna datoteka, sa vašim izmenama\n%base: originalna datoteka bez izmena"
 
 #. Resource IDs: (AFX_IDP_FILE_INVALID_FILE)
 #, c-format
@@ -1923,7 +1923,7 @@ msgstr "Dodaj ovaj blok levo"
 
 #. Resource IDs: (ID_FILE_APPLYPATCH - Menu)
 msgid "Apply &Patch..."
-msgstr ""
+msgstr "Prihvati &Zakrpi..."
 
 #. Resource IDs: (IDS_MENUIMPORTPATCH)
 msgid "Apply Patch Serial..."
@@ -1960,7 +1960,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_CONFIRMRESETCOLUMNORDER)
 msgid "Are you sure to reset columns?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da vratite raspored kolona na podrazumevano?"
 
 #. Resource IDs: (IDS_PROC_REBASE_ABORT)
 msgid "Are you sure you want to abort the rebase process?"
@@ -1968,7 +1968,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_REALLYCANCEL)
 msgid "Are you sure you want to cancel?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da prekinete?"
 
 #. Resource IDs: (IDS_PROC_RESOLVE)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -1979,12 +1979,12 @@ msgstr "Jeste li sigurni da želite označiti fajl(e) u sukobu kao rešenu(e)?"
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "Da li ste sigurni da želite da vratite izmene %d datoteke(a)? Izgubićete SVE izmene od poslednjeg ažuriranja!"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
 msgid "Are you sure you want to save to \"%s\"?"
-msgstr ""
+msgstr "Da li ste sigurni da želite da sačuvate na \"%s\"?"
 
 #. Resource IDs: (ID_VIEW_ARRANGEVERTICAL - Menu)
 msgid "Arrange &vertical\tV"
@@ -2030,7 +2030,7 @@ msgstr "U reviziji: %d"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_RENAMEONLYBRANCHES)
 msgid "At the moment, you can only rename branches."
-msgstr ""
+msgstr "Trenutno, samo nazivi grana mogu biti izmenjeni."
 
 #. Resource IDs: (AFX_IDS_NOT_SUPPORTED_EXCEPTION)
 msgid "Attempted an unsupported operation."
@@ -2053,7 +2053,7 @@ msgstr "Pokušaj pisanja u fajl za čitanja %1."
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 65535)
 msgid "Attention: This command affects the whole working tree!"
-msgstr ""
+msgstr "Pažnja: Ova komanda ima uticaj na celo radno stablo!"
 
 #. Resource IDs: (Dialog IDD_PROMPT: Control id 131, Dialog IDD_SIMPLEPROMPT:
 #. Control id 160)
@@ -2074,19 +2074,19 @@ msgstr "Autor"
 
 #. Resource IDs: (IDS_PROC_LOG_AUTHOREMAIL)
 msgid "Author Email"
-msgstr ""
+msgstr "Elektronska pošta autora"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
 msgid "Author email addresses"
-msgstr ""
+msgstr "Elektronske pošte utora"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
 msgid "Author names"
-msgstr ""
+msgstr "Imena autora"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\tStefan Kueng"
-msgstr ""
+msgstr "Autor:\t\t\tStefan Kueng"
 
 #. Resource IDs: (IDS_LOG_FILTER_AUTHORS)
 msgid "Authors"
@@ -2094,7 +2094,7 @@ msgstr "Autori"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
 msgid "Authors (full)"
-msgstr ""
+msgstr "Autori (puno ime)"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
@@ -2122,7 +2122,7 @@ msgstr "Automatsko zatvaranje ako nema grešaka"
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOPTIONS)
 msgid "Auto-close if no further options are available"
-msgstr ""
+msgstr "Automatski zatvori ako ne postoje dodatne mogućnosti "
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOMERGES)
 msgid "Auto-close if no merges, adds or deletes"
@@ -2136,11 +2136,11 @@ msgstr "Za vreme upisa poruke dnevnika automatska dopuna predlaže reči\n(obič
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1505)
 msgid "AutoLoad Putty &Key"
-msgstr ""
+msgstr "Automatski učitaj Putty &Ključ"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1619)
 msgid "Autoload Putty &Key"
-msgstr ""
+msgstr "Automatski učitaj Putty &Ključ"
 
 #. Resource IDs: (IDS_COLOURPICKER_DEFAULTTEXT)
 msgid "Automatic"
@@ -2195,7 +2195,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROPERTIES_BASICINFO)
 msgid "Basic Info"
-msgstr ""
+msgstr "Osnovne informacije"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "Between files:"
@@ -2263,7 +2263,7 @@ msgstr "Blokovi"
 
 #. Resource IDs: (IDS_BODY)
 msgid "Body"
-msgstr ""
+msgstr "Telo"
 
 #. Resource IDs: (IDS_ERR_TWOLOGPARAMS)
 msgid ""
@@ -2300,7 +2300,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_BRANCHNAME)
 msgid "Branch Name"
-msgstr ""
+msgstr "Grana"
 
 #. Resource IDs: (IDS_REV_COUNTER)
 msgid "Branch RevNo"
@@ -11651,13 +11651,13 @@ msgstr "Morate ponovo pokrenuti računar kako bi aktivirali izmene."
 
 #. Resource IDs: (IDS_PROC_NOZIPFILE)
 msgid "You must select a filename for the zip-file!"
-msgstr ""
+msgstr "Morate odabrati naziv zip datoteke!"
 
 #. Resource IDs: (IDS_PROCEXPORTERRFOLDER)
 msgid ""
 "You selected a folder.\n"
 "Exports are only possible to a (zip) file."
-msgstr ""
+msgstr "Izabrali ste fasciklu.\nMoguće je izvesti jedino moguć u (zip) datoteku."
 
 #. Resource IDs: (IDS_COMMITDLG_ASKADD)
 msgid ""
@@ -11682,17 +11682,17 @@ msgstr "Vaša verzija je : %d.%d.%d.%d"
 
 #. Resource IDs: (cmdUndo_Keytip_RESID)
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #. Resource IDs: (IDS_ARCHIVEFILEFILTER)
 msgid ""
 "ZIP archive (*.zip)|*.zip|TAR archive (*.tar)|*.tar|TAR GZIP archive "
 "(*.tar.gz)|*.tar.gz|All Files (*.*)|*.*||"
-msgstr ""
+msgstr "ZIP arhiva (*.zip)|*.zip|TAR arhiva (*.tar)|*.tar|TAR GZIP arhiva (*.tar.gz)|*.tar.gz|Sve datotke (*.*)|*.*||"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1074)
 msgid "Zip File"
-msgstr ""
+msgstr "Zip datoteka"
 
 #. Resource IDs: (ID_VIEW_ZOOMOUT - Menu)
 msgid "Zoo&m out\t-"
@@ -11775,17 +11775,17 @@ msgstr ""
 msgid ""
 "\"%s\" exited with an error, however, without generating any output such as "
 "an error message."
-msgstr ""
+msgstr "\"%s\" je završen sa greškom, međutim, nikakav izlaz kao što je poruka greške nije pritom generisan."
 
 #. Resource IDs: (IDS_PROC_REFINVALID)
 #, c-format
 msgid "\"%s\" is invalid."
-msgstr ""
+msgstr "\"%s\" nije validno."
 
 #. Resource IDs: (IDS_ERR_NOT_REPOSITORY)
 #, c-format
 msgid "\"%s\" is not git repository"
-msgstr ""
+msgstr "\"%s\" nije git spremište"
 
 #. Resource IDs: (IDS_PROC_DELETEREF)
 #, c-format
@@ -11819,7 +11819,7 @@ msgstr "i podržite TortoiseSVN programere"
 
 #. Resource IDs: (IDS_SETTINGS_READONLYNAME)
 msgid "assume-valid"
-msgstr ""
+msgstr "podrazumevaj-ispravno"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORX)
 msgid "author"
@@ -11828,11 +11828,11 @@ msgstr "autor"
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYAUTHORMOREX)
 #, c-format
 msgid "author (>= 0.5%)"
-msgstr ""
+msgstr "autor (>= 0.5%)"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "based on TortoiseSVN (https://tortoisesvn.net/)"
-msgstr ""
+msgstr "bazirano na TortoiseSVN (https://tortoisesvn.net/)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535)
 msgid "bugtraq.append"
@@ -11864,7 +11864,7 @@ msgstr "bugtraq.warningifnoissue"
 
 #. Resource IDs: (IDS_CONFLICT_REFTOBEMERGED)
 msgid "changes to-be-integrated"
-msgstr ""
+msgstr "izmene za integrisanje"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYCOL)
 #, c-format
@@ -11894,7 +11894,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1580)
 msgid "eMail settings"
-msgstr ""
+msgstr "podešavanja elektronske pošte"
 
 #. Resource IDs: (IDS_STATUSEXTERNAL)
 msgid "external"
@@ -11945,7 +11945,7 @@ msgstr "nedovršeno"
 #. Control id 1780, Dialog IDD_SETTINGSDIALOGS3: Control id 1781, Dialog
 #. IDD_SETTINGSDIALOGS3: Control id 1782)
 msgid "inherit"
-msgstr ""
+msgstr "nasledi"
 
 #. Resource IDs: (IDS_STATUSLIST_KEEPLOCAL)
 msgid "item kept locally"
@@ -12002,7 +12002,7 @@ msgstr "nedostaje"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "missing/deleted/replaced"
-msgstr ""
+msgstr "nedostaje/obrisano/zamenjeno"
 
 #. Resource IDs: (IDS_STATUSMODIFIED)
 msgid "modified"
@@ -12010,7 +12010,7 @@ msgstr "izmenjeno"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "modified/copied"
-msgstr ""
+msgstr "izmenjeno/kopirano"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXMONTH)
 msgid "month"
@@ -12018,7 +12018,7 @@ msgstr "mesec"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1681)
 msgid "new branch"
-msgstr ""
+msgstr "nova  grana"
 
 #. Resource IDs: (IDS_NO)
 msgid "no"
@@ -12046,7 +12046,7 @@ msgstr "normalno"
 
 #. Resource IDs: (IDS_NOTFOUND)
 msgid "not found"
-msgstr ""
+msgstr "nije pronađeno"
 
 #. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
 msgid "not initialized"
@@ -12098,7 +12098,7 @@ msgstr "relativna putanja"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "renamed"
-msgstr ""
+msgstr "preimenovano"
 
 #. Resource IDs: (IDS_STATUSREPLACED)
 msgid "replaced"
