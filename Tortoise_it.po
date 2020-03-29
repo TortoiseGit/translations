@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-03-29 10:30+0000\n"
+"PO-Revision-Date: 2020-03-29 16:00+0000\n"
 "Last-Translator: skynet_italy <skynetitaly@hotmail.it>\n"
 "Language-Team: Italian (http://www.transifex.com/lznuaa/tortoisegit/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -868,7 +868,7 @@ msgstr "&Numero linea"
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
 msgid "&Line number (%1!d! - %2!d!)"
-msgstr ""
+msgstr "&Linea numero (%1!d! - %2!d!)"
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
@@ -1198,7 +1198,7 @@ msgstr "&Salva\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "&Ricerca.."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -2746,15 +2746,15 @@ msgstr "Puli"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1630)
 msgid "Clean Type"
-msgstr ""
+msgstr "Tipo di pulizia"
 
 #. Resource IDs: (IDS_CLEAN_NO_RECYCLEBIN)
 msgid "Clean permanently"
-msgstr ""
+msgstr "Pulizia permanente"
 
 #. Resource IDs: (IDS_CLEAN_TO_RECYCLEBIN)
 msgid "Clean to recycle bin"
-msgstr ""
+msgstr "Pulizia cestino"
 
 #. Resource IDs: (IDS_PROC_SYNC_CLEANUPSTALEBRANCHES)
 msgid "Clean up stale remote branches"
@@ -3064,11 +3064,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_COMPARETAGS)
 msgid "Compare tags"
-msgstr ""
+msgstr "Confronta i tags"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COMPARETWOFILES)
 msgid "Compare two files"
-msgstr "Compara due file"
+msgstr "Confronta due file"
 
 #. Resource IDs: (ID_VIEW_COMPAREWHITESPACES - Menu,
 #. cmdCompareWhitespaces_LabelTitle_RESID)
@@ -3790,7 +3790,7 @@ msgstr "Cancellazione riferimenti remoti..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 65535)
 msgid "Delivery:"
-msgstr ""
+msgstr "Consegna:"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1646, Dialog IDD_PULLFETCH:
 #. Control id 1646)
@@ -5363,7 +5363,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 65535)
 msgid "Git for Windows"
-msgstr "Git for Windows"
+msgstr "Git per Windows"
 
 #. Resource IDs: (IDS_PROC_REPOCREATEERR)
 msgid "Git reported an error while creating a repository!\n"
@@ -8640,7 +8640,7 @@ msgstr "SHA-256:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1585)
 msgid "SMTP Server requires authentication"
-msgstr ""
+msgstr "SMTP Server richiesta autorizzazione"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1757)
 msgid "SMTP Server:"
@@ -8648,7 +8648,7 @@ msgstr "SMTP Server:"
 
 #. Resource IDs: (IDS_SMTP_DIRECTLY)
 msgid "SMTP, directly to destination server"
-msgstr ""
+msgstr "SMTP, direttamente al server di destinazione"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1081)
 msgid "SSH"
@@ -9433,7 +9433,7 @@ msgstr "Visualizza caratteri speciali per spazi e ritorni a capo\nVisualizza spa
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1314)
 msgid "Show status of subrepositories in parent folders"
-msgstr ""
+msgstr "Visualizza lo stato dei sottorepositori nelle cartelle principali"
 
 #. Resource IDs: (IDS_SETTINGS_SYMBOLIZEREFNAMES_TT)
 msgid "Show symbols on ref labels to substitute part of the ref names"
@@ -9441,7 +9441,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid "Show the selected items on the first level of the context menu:"
-msgstr ""
+msgstr "Visulizza gli elementi selezionati al primo livello del menu contestuale:"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
@@ -10875,7 +10875,7 @@ msgstr "Deseleziona"
 msgid ""
 "Unchecked items will appear in the TortoiseGit submenu, checked items "
 "directly in the main context menu."
-msgstr ""
+msgstr "Le voci deselezionate appariranno nel sottomenu TortoiseGit, selezionate direttamente nel menu contestuale principale. "
 
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
