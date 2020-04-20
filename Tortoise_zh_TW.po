@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-02-21 04:17+0000\n"
+"PO-Revision-Date: 2020-04-20 17:16+0000\n"
 "Last-Translator: Will 保哥 <doggy.huang@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1360,7 +1360,7 @@ msgstr "檢視(&V)"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
 msgid "&View effective config"
-msgstr ""
+msgstr "檢視有效設定(&V)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
@@ -2003,7 +2003,7 @@ msgstr "垂直排列(&V)\tV"
 
 #. Resource IDs: (ID_VIEW_ARROW_POINT_TO_MERGES - Menu)
 msgid "Arrows point towards merges"
-msgstr ""
+msgstr "箭頭指向合併"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTSET)
 #, c-format
@@ -2266,7 +2266,7 @@ msgstr "混合半透明"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1852)
 msgid "Block TortoiseGit while executing the external merge tool"
-msgstr ""
+msgstr "執行外部合併工具時鎖住 TortoiseGit"
 
 #. Resource IDs: (cmdGroupBlocks_LabelTitle_RESID)
 msgid "Blocks"
@@ -2851,27 +2851,27 @@ msgstr "剪貼簿"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_CLONE, IDS_PROG_CLONE)
 msgid "Clone"
-msgstr "克隆"
+msgstr "複製"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1572)
 msgid "Clone Existing Repository"
-msgstr "克隆存在的版本庫"
+msgstr "複製現存的版本庫"
 
 #. Resource IDs: (IDS_MENUDESCCLONE)
 msgid "Clone a repository"
-msgstr "克隆版本庫"
+msgstr "複製版本庫"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1653)
 msgid "Clone into Bare Repo"
-msgstr "克隆成純版本庫"
+msgstr "複製成純版本庫"
 
 #. Resource IDs: (IDS_CLONE_BARE_REPO_TT)
 msgid "Clone into a git repository without the working tree."
-msgstr ""
+msgstr "複製一個沒有工作目錄的版本庫"
 
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
-msgstr "克隆..."
+msgstr "複製..."
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 2, Dialog
 #. IDD_GITPROGRESS: Control id 1, Dialog IDD_SYNC: Control id 1)
@@ -3051,7 +3051,7 @@ msgstr "比較 &HEAD 版本"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARE_PARENT_WC)
 msgid "Compare parent with working tree"
-msgstr ""
+msgstr "比對親代與工作目錄"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -3136,7 +3136,7 @@ msgstr "設定文字編輯器，最好能處理 *nix 換行符號。"
 
 #. Resource IDs: (IDS_CONFIGUREDEFAULT)
 msgid "Configure default"
-msgstr ""
+msgstr "設定預設值"
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
@@ -5350,7 +5350,7 @@ msgstr "Git同步"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 297)
 msgid "Git clone - TortoiseGit"
-msgstr "Git克隆 - TortoiseGit"
+msgstr "Git 複製 - TortoiseGit"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_NOMSYSGIT)
 msgid "Git directory not set (see \"General\" settings page)."
@@ -6895,7 +6895,7 @@ msgstr "不使用前綴「a/」和「b/」（以相容 svn 補綴格式）"
 msgid ""
 "No checkout of HEAD is performed after the clone is complete.\n"
 "This makes the working tree empty."
-msgstr ""
+msgstr "複製完成後不要取出 HEAD 內容。這會讓你的工作目錄是空的。"
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""
