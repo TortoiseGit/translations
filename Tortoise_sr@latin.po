@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-03-26 15:26+0000\n"
+"PO-Revision-Date: 2020-04-28 14:16+0000\n"
 "Last-Translator: Dušan Pavlović <pawla93slash@gmail.com>\n"
 "Language-Team: Serbian (Latin) (http://www.transifex.com/lznuaa/tortoisegit/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
@@ -288,7 +288,7 @@ msgstr "%ld od %ld"
 #. Resource IDs: (IDS_DIFF_WCNAME)
 #, c-format
 msgid "%s: Working Tree"
-msgstr ""
+msgstr "%s: Radno stablo"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -485,7 +485,7 @@ msgstr "&Uporedi sa prethodnom revizijom"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
-msgstr ""
+msgstr "&Kompresovani Graf"
 
 #. Resource IDs: (IDS_MSGBOX_CONTINUE)
 msgid "&Continue"
@@ -528,11 +528,11 @@ msgstr "&Obriši filter"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
 msgid "&Delete branch on remote && local remote-tracking branch"
-msgstr ""
+msgstr "&Obriši udaljenu granu && lokalnu granu koja je prati"
 
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
-msgstr "&Obriši granu/etiketu"
+msgstr "&Obriši granu/oznaku"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -583,7 +583,7 @@ msgstr "&Ne prikazuj više ovu poruku"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr ""
+msgstr "&Ne čuvajte ove postavke sada."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -620,16 +620,16 @@ msgstr "&Izmeni..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
-msgstr ""
+msgstr "&Izmeni/Razdvoj urez"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
-msgstr ""
+msgstr "&Pošalji zakrpu e-poštom"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Email:"
-msgstr ""
+msgstr "&E-pošta:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1023, Dialog
 #. IDD_SETTINGSHOOKCONFIG: Control id 1023)
@@ -852,7 +852,7 @@ msgstr "&Brojevi linija"
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
 msgid "&Line number (%1!d! - %2!d!)"
-msgstr ""
+msgstr "&Linija broj (%1!d! - %2!d!)"
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
@@ -911,7 +911,7 @@ msgstr "&Poruka:"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
 msgid "&Mixed: Leave working tree untouched, reset index"
-msgstr ""
+msgstr "&Pomešano: Ostavi radno stablo neizmenjeno, resetuj indeks"
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
@@ -948,11 +948,11 @@ msgstr "&Sledeća Stranica"
 
 #. Resource IDs: (IDS_MSGBOX_NO)
 msgid "&No"
-msgstr ""
+msgstr "&Ne"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1734)
 msgid "&No fetch"
-msgstr ""
+msgstr "&Bez preuzimanja"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1702)
 msgid "&None"
@@ -972,7 +972,7 @@ msgstr "&Jedna Strana"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1828)
 msgid "&Onto"
-msgstr ""
+msgstr "&Na"
 
 #. Resource IDs: (IDS_LOG_POPUP_OPEN, IDS_REPOBROWSE_OPEN,
 #. cmdOpen_LabelTitle_RESID)
@@ -1016,7 +1016,7 @@ msgstr "&Nalepi"
 
 #. Resource IDs: (IDS_PROC_REBASE_SELECTALL_PICK)
 msgid "&Pick ALL"
-msgstr ""
+msgstr "&Pokupi SVE"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1414)
 msgid "&Port:"
@@ -1090,11 +1090,11 @@ msgstr "&Podseti me kasnije"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1617)
 msgid "&Remote Branch:"
-msgstr ""
+msgstr "&Udaljena grana:"
 
 #. Resource IDs: (IDS_VIEW_SHOWREMOTEBRANCHLABELS)
 msgid "&Remote branches"
-msgstr ""
+msgstr "&Udaljene grane"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1490, Dialog IDD_PUSH:
 #. Control id 1503)
@@ -1110,7 +1110,7 @@ msgstr "&Ukloni"
 
 #. Resource IDs: (IDS_REMOVE_FROM_INDEX)
 msgid "&Remove this file from index"
-msgstr ""
+msgstr "&Ukloni ovaj fajl iz indeksa"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1511)
 msgid "&Replace"
@@ -1202,7 +1202,7 @@ msgstr "&Podešavanja..."
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Signing key ID:"
-msgstr ""
+msgstr "&ID ključa za potpisivanje:"
 
 #. Resource IDs: (IDS_SKIPBUTTON)
 msgid "&Skip"
@@ -1257,7 +1257,7 @@ msgstr "&Veličina taba:"
 #. Control id 1513, Dialog IDD_MERGE: Control id 1513, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1513, Dialog IDD_RESET: Control id 1513)
 msgid "&Tag"
-msgstr ""
+msgstr "&Oznaka"
 
 #. Resource IDs: (IDS_VIEW_SHOWTAGLABELS)
 msgid "&Tags"
@@ -1265,7 +1265,7 @@ msgstr "&Oznake"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535)
 msgid "&Tags:"
-msgstr ""
+msgstr "&Oznake:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1222)
 msgid "&Timeout in seconds to stop the auto-completion parsing"
@@ -1425,7 +1425,7 @@ msgstr "- %d"
 
 #. Resource IDs: (IDS_PROC_PUSHFETCH_ALLREMOTES)
 msgid "- all -"
-msgstr ""
+msgstr "- sve -"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1131)
 msgid "--&all"
@@ -1524,7 +1524,7 @@ msgstr "?"
 msgid ""
 "A branch with the same name as your entered tag name already exists (so the short ref is ambiguous).\n"
 "This can cause problems so you should avoid it."
-msgstr ""
+msgstr "Grana sa istim imenom kao kao i uneto ime oznake već postoji (kratka referenca je onda dvosmislena).\nOvo može prouzrokovati probleme pa bi trebalo da ga izbegavate."
 
 #. Resource IDs: (IDS_B_EXISTS)
 msgid "A branch with this name already exists."
@@ -1570,11 +1570,11 @@ msgstr "Traženi resurs je nedostupan."
 msgid ""
 "A tag with the same name as your entered branch name already exists (so the short ref is ambiguous).\n"
 "This can cause problems so you should avoid it."
-msgstr ""
+msgstr "Oznaka sa istim imenom kao kao i uneto ime grane već postoji (kratka referenca je onda dvosmislena).\nOvo može prouzrokovati probleme pa bi trebalo da ga izbegavate."
 
 #. Resource IDs: (IDS_T_EXISTS)
 msgid "A tag with this name already exists."
-msgstr "Etiketa sa istim nazivom već postoji."
+msgstr "Oznaka sa istim nazivom već postoji."
 
 #. Resource IDs: (IDS_SETTINGS_DIFFVIEWER_TT)
 msgid ""
@@ -1811,7 +1811,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ALLTAGS)
 msgid "All tags"
-msgstr ""
+msgstr "Sve oznake"
 
 #. Resource IDs: (IDS_FETCH_TAGS_ONLY)
 msgid "All tags only"
@@ -1911,7 +1911,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ANNOTATEDTAGS)
 msgid "Annotated tags"
-msgstr ""
+msgstr "Označene oznake"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_APPENDRIGHT)
 msgid "Append right block"
@@ -2315,7 +2315,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_B_T_INVALID)
 msgid "Branch/Tag name is invalid."
-msgstr ""
+msgstr "Naziv grane/oznake nije validan."
 
 #. Resource IDs: (IDS_B_T_NOTEMPTY)
 msgid "Branch/Tag name must not be empty or is invalid."
@@ -6800,7 +6800,7 @@ msgstr "Novo &ime:"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 309)
 msgid "New Branch/Tag"
-msgstr "Nova Grana/Tag"
+msgstr "Nova Grana/Oznaka"
 
 #. Resource IDs: (IDS_NEWHASH)
 msgid "New hash"
