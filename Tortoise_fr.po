@@ -33,7 +33,7 @@
 # Kegnarok <kegnarok.rm@laposte.net>, 2013
 # Kerzzy <6greenday6@gmail.com>, 2015
 # Le Gall Nicolas <contact@nlegall.fr>, 2014
-# Librius <inactive+Librius@transifex.com>, 2014
+# 556b8933f5444413a6e3eb8ce0499357_237b366 <dc7a580f2694f34a68331c39892a2ae0_170598>, 2014
 # Linus Fredrich Levisse <linukcs@live.fr>, 2011
 # lkppo, 2012
 # Lübbe Onken <l.onken@rac.de>, 2011
@@ -53,19 +53,19 @@
 # Raphaël MICHEL <raphael.michel@tymsoft.fr>, 2015-2016,2018
 # ShevAbam, 2015
 # peter griffin <softy@yopmail.com>, 2013
-# lkppo, 2012
+# 4a14a73d523224463300dea5e0502458_3dab472, 2012
 # Stéphane Aulery <saulery@legtux.org>, 2016-2020
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2014
 # ykatchou <ykatchou@gmail.com>, 2012-2013
-# Yohann Berger <inactive+yberger@transifex.com>, 2015
-# Yohann Berger <inactive+yberger@transifex.com>, 2015
+# d25d9e2161b89af316b61f449106a075_fbd05c9 <8465a6d6bba4183be55c93639397a626_353654>, 2015
+# d25d9e2161b89af316b61f449106a075_fbd05c9 <8465a6d6bba4183be55c93639397a626_353654>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-03-28 10:45+0000\n"
-"Last-Translator: Jack\n"
+"PO-Revision-Date: 2020-06-13 14:17+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -553,6 +553,14 @@ msgstr "Aide d’&identification :"
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1662)
 msgid "&Custom"
 msgstr "&Personnalisé"
+
+#. Resource IDs: (ID_VIEW_DARKMODE - Menu)
+msgid "&Dark Mode"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_DARKMODE - Menu)
+msgid "&Dark Mode\tD"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1269)
 msgid "&Default"
@@ -2952,6 +2960,11 @@ msgstr "Colorer par age, de façon &continuelle"
 msgid "Colors"
 msgstr "Couleurs"
 
+#. Resource IDs: (IDS_INDICATOR_COLUMN)
+#, c-format
+msgid "Column: %d"
+msgstr ""
+
 #. Resource IDs: (IDS_COMBINE_TO_ONE)
 msgid "Com&bine to one commit"
 msgstr "Com&biner en une seule livraison"
@@ -3653,6 +3666,16 @@ msgstr "Type de DCommit"
 #. Resource IDs: (IDS_MENUDAEMON)
 msgid "Daemon"
 msgstr "Service"
+
+#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1699)
+msgid "Dark theme"
+msgstr ""
+
+#. Resource IDs: (IDS_DARKTHEME_TT)
+msgid ""
+"Dark theme requires at least Win10 1803, and it must be enabled in the "
+"Windows system settings."
+msgstr ""
 
 #. Resource IDs: (IDS_LOG_DATE, IDS_STATUSLIST_COLDATE)
 msgid "Date"
@@ -4995,6 +5018,26 @@ msgstr "Filtré"
 msgid "Find"
 msgstr "Rechercher"
 
+#. Resource IDs: (cmdFindNext_LabelTitle_RESID)
+msgid "Find Next"
+msgstr ""
+
+#. Resource IDs: (cmdFindPrev_LabelTitle_RESID)
+msgid "Find Previous"
+msgstr ""
+
+#. Resource IDs: (cmdFindPrev)
+msgid ""
+"Find the last occurrence of the selected text\n"
+"Search Previous"
+msgstr ""
+
+#. Resource IDs: (cmdFindNext)
+msgid ""
+"Find the next occurrence of the selected text\n"
+"Search Next"
+msgstr ""
+
 #. Resource IDs: (57636, cmdFind)
 msgid ""
 "Find the specified text\n"
@@ -5722,6 +5765,10 @@ msgstr "ID:32817:V +L"
 #. Accelerator Entry for Menu ID:32818; 'Fit image &heights\tH'
 msgid "ID:32818:V   +H"
 msgstr "ID:32818:V +H"
+
+#. Accelerator Entry for Menu ID:32819; '&Dark Mode\tD'
+msgid "ID:32819:V   +D"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32822; ''
 msgid "ID:32822:V C +F"
@@ -6612,6 +6659,11 @@ msgstr "Marquer ce bloc"
 #. Resource IDs: (IDS_ASKFORSAVE_MARKEDBLOCKS)
 msgid "Marked Blocks"
 msgstr "Blocs marqués"
+
+#. Resource IDs: (IDS_INDICATOR_MARKEDWORDCOUNT)
+#, c-format
+msgid "Marked words: %s"
+msgstr ""
 
 #. Resource IDs: (cmdMarkResolved)
 msgid ""
@@ -11114,6 +11166,10 @@ msgstr ""
 #. Resource IDs: (IDS_SMTP_CONFIGURED)
 msgid "Use configured server"
 msgstr "Utiliser le serveur configuré"
+
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 1513)
+msgid "Use dark mode"
+msgstr ""
 
 #. Resource IDs: (ID_EDIT_USELEFTBLOCK - Menu,
 #. cmdUseLeftBlock_LabelTitle_RESID)

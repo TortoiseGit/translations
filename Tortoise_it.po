@@ -20,14 +20,14 @@
 # Lübbe Onken <luebbe.opensource@gmail.com>, 2011
 # Michele Locati <mlocati@gmail.com>, 2012
 # Nathan McCoy, 2013
-# Nicolò Altamura <inactive+nicoalta01@transifex.com>, 2015
+# 43e8222b3be8174d9b39e58a02616ea6_2d981e6 <f7f11e626526fcf8e9a9a6903fb04e7f_345563>, 2015
 # Paolo Crocetti <crocettipaolo@gmail.com>, 2017
 # Roberto Casazza <roberto.casazza@alice.it>, 2011
 # Rossano Praderi <rossano.praderi@yahoo.com>, 2015
 # Rossano Praderi <rossano.praderi@yahoo.com>, 2015
 # Silvia, 2013
-# Simone Mazzotti <simaz96@yandex.com>, 2016
-# Simone Mazzotti <simaz96@yandex.com>, 2016
+# Simone Mazzotti <simaz96@vivaldi.net>, 2016
+# Simone Mazzotti <simaz96@vivaldi.net>, 2016
 # skynet_italy <skynetitaly@hotmail.it>, 2020
 # Sven Strickroth <sstrickroth@googlemail.com>, 2016,2018,2020
 msgid ""
@@ -35,8 +35,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-03-29 22:47+0000\n"
-"Last-Translator: skynet_italy <skynetitaly@hotmail.it>\n"
+"PO-Revision-Date: 2020-06-13 14:17+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/lznuaa/tortoisegit/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -524,6 +524,14 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1662)
 msgid "&Custom"
 msgstr "&Personalizzato"
+
+#. Resource IDs: (ID_VIEW_DARKMODE - Menu)
+msgid "&Dark Mode"
+msgstr ""
+
+#. Resource IDs: (ID_VIEW_DARKMODE - Menu)
+msgid "&Dark Mode\tD"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1269)
 msgid "&Default"
@@ -2923,6 +2931,11 @@ msgstr "Colore in base all'età, &continuo"
 msgid "Colors"
 msgstr "Colori"
 
+#. Resource IDs: (IDS_INDICATOR_COLUMN)
+#, c-format
+msgid "Column: %d"
+msgstr ""
+
 #. Resource IDs: (IDS_COMBINE_TO_ONE)
 msgid "Com&bine to one commit"
 msgstr ""
@@ -3623,6 +3636,16 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDAEMON)
 msgid "Daemon"
+msgstr ""
+
+#. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1699)
+msgid "Dark theme"
+msgstr ""
+
+#. Resource IDs: (IDS_DARKTHEME_TT)
+msgid ""
+"Dark theme requires at least Win10 1803, and it must be enabled in the "
+"Windows system settings."
 msgstr ""
 
 #. Resource IDs: (IDS_LOG_DATE, IDS_STATUSLIST_COLDATE)
@@ -4966,6 +4989,26 @@ msgstr "Filtrato"
 msgid "Find"
 msgstr "Trova"
 
+#. Resource IDs: (cmdFindNext_LabelTitle_RESID)
+msgid "Find Next"
+msgstr ""
+
+#. Resource IDs: (cmdFindPrev_LabelTitle_RESID)
+msgid "Find Previous"
+msgstr ""
+
+#. Resource IDs: (cmdFindPrev)
+msgid ""
+"Find the last occurrence of the selected text\n"
+"Search Previous"
+msgstr ""
+
+#. Resource IDs: (cmdFindNext)
+msgid ""
+"Find the next occurrence of the selected text\n"
+"Search Next"
+msgstr ""
+
 #. Resource IDs: (57636, cmdFind)
 msgid ""
 "Find the specified text\n"
@@ -5693,6 +5736,10 @@ msgstr "ID:32817:V   +W"
 #. Accelerator Entry for Menu ID:32818; 'Fit image &heights\tH'
 msgid "ID:32818:V   +H"
 msgstr "ID:32818:V   +H"
+
+#. Accelerator Entry for Menu ID:32819; '&Dark Mode\tD'
+msgid "ID:32819:V   +D"
+msgstr ""
 
 #. Accelerator Entry for Menu ID:32822; ''
 msgid "ID:32822:V C +F"
@@ -6583,6 +6630,11 @@ msgstr "Marca questo blocco"
 #. Resource IDs: (IDS_ASKFORSAVE_MARKEDBLOCKS)
 msgid "Marked Blocks"
 msgstr "Blocchi segnati"
+
+#. Resource IDs: (IDS_INDICATOR_MARKEDWORDCOUNT)
+#, c-format
+msgid "Marked words: %s"
+msgstr ""
 
 #. Resource IDs: (cmdMarkResolved)
 msgid ""
@@ -11084,6 +11136,10 @@ msgstr ""
 
 #. Resource IDs: (IDS_SMTP_CONFIGURED)
 msgid "Use configured server"
+msgstr ""
+
+#. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 1513)
+msgid "Use dark mode"
 msgstr ""
 
 #. Resource IDs: (ID_EDIT_USELEFTBLOCK - Menu,
