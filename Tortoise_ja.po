@@ -44,8 +44,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-08-16 15:43+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2020-09-22 13:57+0000\n"
+"Last-Translator: Tetsuhiko Koto\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1356,7 +1356,7 @@ msgstr "その他/判定に失敗(&U)"
 
 #. Resource IDs: (Dialog IDD_LFS_LOCKS: Control id 32927)
 msgid "&Unlock"
-msgstr ""
+msgstr "ロック解除(&U)"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
@@ -1617,7 +1617,7 @@ msgstr "このタグ名は既に存在します"
 msgid ""
 "A viewer program for GNU diff files (patch files).\n"
 "If you don't have one use NotePad."
-msgstr "GNU 形式の差分ファイル（パッチファイル）用のビューアープログラムを指定する。\nデフォルトではメモ帳を使用する。"
+msgstr "GNU 形式の差分ファイル（パッチファイル）用のビューアプログラムを指定する。\nデフォルトではメモ帳を使用する。"
 
 #. Resource IDs: (IDS_ABORTBUTTON)
 msgid "A&bort"
@@ -3417,7 +3417,7 @@ msgid ""
 "Could not start diff viewer!\n"
 "\n"
 "%s"
-msgstr "差分ビュアーを起動出来ませんでした。\n\n%s"
+msgstr "差分ビューアを起動出来ませんでした。\n\n%s"
 
 #. Resource IDs: (IDS_ERR_EXTDIFFSTART)
 #, c-format
@@ -3452,7 +3452,7 @@ msgid ""
 "Could not start text viewer!\n"
 "\n"
 "%s"
-msgstr "テキストビュアーを起動出来ませんでした。\n\n%s"
+msgstr "テキストビューアを起動出来ませんでした。\n\n%s"
 
 #. Resource IDs: (IDS_ERR_PAGEANT)
 msgid "Could not start the Putty Agent (pageant)."
@@ -3908,11 +3908,11 @@ msgstr "２つのコミットの差分"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 192)
 msgid "Diff Viewer"
-msgstr "差分ビューアー"
+msgstr "差分ビューア"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 193)
 msgid "Diff Viewer::Merge Tool"
-msgstr "差分ビューアー::マージツール"
+msgstr "差分ビューア::マージツール"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff added lines"
@@ -5155,7 +5155,7 @@ msgstr "現在のブランチが、接続しようとしているコミットの
 
 #. Resource IDs: (IDS_PROGS_LFS_FORCEUNLOCK)
 msgid "Force unlock"
-msgstr ""
+msgstr "強制ロック解除"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1796)
 msgid "Force: May discard"
@@ -6323,19 +6323,19 @@ msgstr "LFS"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_LFS_LOCK)
 msgid "LFS Lock"
-msgstr ""
+msgstr "LFSロック"
 
 #. Resource IDs: (IDS_STATUSLIST_COLLFSLOCK)
 msgid "LFS Lock Owner"
-msgstr ""
+msgstr "LFSロック保持者"
 
 #. Resource IDs: (Dialog IDD_LFS_LOCKS: Control id 176)
 msgid "LFS Locks"
-msgstr ""
+msgstr "LFSロック"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_LFS_UNLOCK)
 msgid "LFS Unlock"
-msgstr ""
+msgstr "LFSロック解除"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "LINE1"
@@ -6375,7 +6375,7 @@ msgstr "言語:"
 
 #. Resource IDs: (IDS_MENUDESCLFS)
 msgid "Large file storage"
-msgstr ""
+msgstr "Large file storage (大容量ファイルストレージ)"
 
 #. Resource IDs: (IDS_LAST_N_COMMITS)
 #, c-format
@@ -6572,11 +6572,11 @@ msgstr "位置バー"
 
 #. Resource IDs: (IDS_MENULFSLOCK, IDS_PROGRS_CMD_LFS_LOCK)
 msgid "Lock"
-msgstr ""
+msgstr "ロック"
 
 #. Resource IDs: (IDS_MENUDESCLFSLOCK)
 msgid "Locks a file using LFS"
-msgstr ""
+msgstr "LFSを用いてファイルをロックする"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -7182,7 +7182,7 @@ msgstr "もしあなたが、自動保存されたドキュメントの復元を
 msgid ""
 "Note: These settings also apply to the Patch Viewer dialog.\n"
 "To select whether you would like to use the build-in or any alterative diff viewer program go to \"Diff Viewer\" preferences section in the leftward tree."
-msgstr ""
+msgstr "注：これらの設定は、パッチビューアダイアログにも適用されます。\nビルトインの差分ビューアを使用するか、代わりの差分ビューアを使用するかを選択するには、左側のツリーの「差分ビューア」設定セクションを選択してください。"
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
@@ -9127,7 +9127,7 @@ msgstr "追跡するブランチを選択"
 
 #. Resource IDs: (IDS_SETTINGS_SELECTDIFFVIEWER)
 msgid "Select viewer for diff-files"
-msgstr "ファイルの差分を表示するビューアーを選択"
+msgstr "ファイルの差分を表示するビューアを選択"
 
 #. Resource IDs: (IDS_ASKFORSAVEAS_MORE)
 msgid "Select what file you want to save as"
@@ -9434,7 +9434,7 @@ msgstr "行番号を表示する(&S)"
 
 #. Resource IDs: (IDS_MENULFSLOCKS)
 msgid "Show locked files"
-msgstr ""
+msgstr "ロックされたファイルを表示"
 
 #. Resource IDs: (Dialog IDD_COMMITISONREFS: Control id 1132, Dialog
 #. IDD_DIFFFILES: Control id 1132, Dialog IDD_DIFFSUBMODULE: Control id 1132,
@@ -9578,7 +9578,7 @@ msgstr "複製/タグ/ブランチの関連をグラフィカルに表示"
 
 #. Resource IDs: (IDS_MENUDESCLFSLOCKS)
 msgid "Shows a list of all files locked using LFS"
-msgstr ""
+msgstr "LFSを用いたファイルロックの一覧を表示する"
 
 #. Resource IDs: (IDS_MENUDESCSHOWCHANGED)
 msgid "Shows all files which were changed since the last commit."
@@ -10780,7 +10780,7 @@ msgid ""
 "/overlay\t\tto enable overlay mode\n"
 "/fit\t\tto fit the images sizes\n"
 "/showinfo\t\tto show the image info boxes"
-msgstr "TortoiseGitIDiff: TortoiseSVNの画像差分ビュアー\n\n利用可能なコマンドラインパラメーター:\n/left:\"左の画像のパス\"\n/lefttitle:\"左の画像のタイトル\"\n/right:\"右の画像のパス\"\n/righttitle:\"右の画像のタイトル\"\n/overlay\t\tオーバーレイモードを有効\n/fit\t\tイメージサイズに合わせる\n/showinfo\t\t画像の情報ボックスを表示"
+msgstr "TortoiseGitIDiff: TortoiseSVNの画像差分ビューア\n\n利用可能なコマンドラインパラメーター:\n/left:\"左の画像のパス\"\n/lefttitle:\"左の画像のタイトル\"\n/right:\"右の画像のパス\"\n/righttitle:\"右の画像のタイトル\"\n/overlay\t\tオーバーレイモードを有効\n/fit\t\tイメージサイズに合わせる\n/showinfo\t\t画像の情報ボックスを表示"
 
 #. Resource IDs: (100, 32897, AFX_IDS_APP_TITLE, Dialog IDD_OPENDLG: Control
 #. id 130, IDS_APPNAME)
@@ -11035,11 +11035,11 @@ msgstr "未知のrefの種類"
 
 #. Resource IDs: (IDS_MENULFSUNLOCK, IDS_PROGRS_CMD_LFS_UNLOCK)
 msgid "Unlock"
-msgstr ""
+msgstr "ロック解除"
 
 #. Resource IDs: (IDS_MENUDESCLFSUNLOCK)
 msgid "Unlocks a file using LFS"
-msgstr ""
+msgstr "LFSを用いたファイルロックを解除する"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_UNMARKBLOCK)
 msgid "Unmark this block"
@@ -11476,7 +11476,7 @@ msgstr "パッチを表示>>"
 
 #. Resource IDs: (IDS_LOG_POPUP_VIEWPATHREV)
 msgid "View revision for path in &webviewer"
-msgstr "パスのリビジョンをウェブビューアーで表示(&W)"
+msgstr "パスのリビジョンをウェブビューアで表示(&W)"
 
 #. Resource IDs: (IDS_LOG_POPUP_VIEWREV)
 msgid "View revision in alternative editor"
@@ -11734,7 +11734,7 @@ msgstr "リネームでリファレンス(ref)のタイプを変えることは�
 msgid ""
 "You did not edit the message template.\n"
 "Proceed without individual commit message?"
-msgstr ""
+msgstr "メッセージはテンプレートから変更されていません。\n個別のコミットメッセージなしで続行しますか？"
 
 #. Resource IDs: (IDS_PROC_OLDMSYSGIT)
 #, c-format
@@ -11766,7 +11766,7 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr "%d 件のファイルを選択して差分表示しようとしています。それぞれのファイル毎に新しく差分ビュアーが起動します。本当に、そんなに沢山のファイルの差分を一度に表示してよろしいですか？"
+msgstr "%d 件のファイルを選択して差分表示しようとしています。それぞれのファイル毎に新しく差分ビューアが起動します。本当に、そんなに沢山のファイルの差分を一度に表示してよろしいですか？"
 
 #. Resource IDs: (IDS_COMMITDLG_NOISSUEWARNING)
 msgid ""
