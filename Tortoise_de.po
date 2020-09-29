@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-08-16 15:43+0000\n"
+"PO-Revision-Date: 2020-09-29 13:31+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -518,11 +518,11 @@ msgstr "&Individuell"
 
 #. Resource IDs: (ID_VIEW_DARKMODE - Menu)
 msgid "&Dark Mode"
-msgstr ""
+msgstr "&Dunkler Modus"
 
 #. Resource IDs: (ID_VIEW_DARKMODE - Menu)
 msgid "&Dark Mode\tD"
-msgstr ""
+msgstr "&Dunkler Modus\tD"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1269)
 msgid "&Default"
@@ -1338,7 +1338,7 @@ msgstr "&Unbekannte Laufwerke"
 
 #. Resource IDs: (Dialog IDD_LFS_LOCKS: Control id 32927)
 msgid "&Unlock"
-msgstr ""
+msgstr "&Entsperren"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
@@ -2930,7 +2930,7 @@ msgstr "Farben"
 #. Resource IDs: (IDS_INDICATOR_COLUMN)
 #, c-format
 msgid "Column: %d"
-msgstr ""
+msgstr "Spalte: %d"
 
 #. Resource IDs: (IDS_COMBINE_TO_ONE)
 msgid "Com&bine to one commit"
@@ -3636,13 +3636,13 @@ msgstr "Dämon"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 1699)
 msgid "Dark theme"
-msgstr ""
+msgstr "Dunkler Modus"
 
 #. Resource IDs: (IDS_DARKTHEME_TT)
 msgid ""
 "Dark theme requires at least Win10 1803, and it must be enabled in the "
 "Windows system settings."
-msgstr ""
+msgstr "Der dunkle Modus erfordert mindestens Windows 10 1803 und muss zusätzlich in den Windows-Einstellungen aktiviert werden."
 
 #. Resource IDs: (IDS_LOG_DATE, IDS_STATUSLIST_COLDATE)
 msgid "Date"
@@ -4987,23 +4987,23 @@ msgstr "Suchen"
 
 #. Resource IDs: (cmdFindNext_LabelTitle_RESID)
 msgid "Find Next"
-msgstr ""
+msgstr "Weitersuchen"
 
 #. Resource IDs: (cmdFindPrev_LabelTitle_RESID)
 msgid "Find Previous"
-msgstr ""
+msgstr "Rückwärts suchen"
 
 #. Resource IDs: (cmdFindPrev)
 msgid ""
 "Find the last occurrence of the selected text\n"
 "Search Previous"
-msgstr ""
+msgstr "Sucht das letzte vorkommen des markierten Texts\nRückwärts suchen"
 
 #. Resource IDs: (cmdFindNext)
 msgid ""
 "Find the next occurrence of the selected text\n"
 "Search Next"
-msgstr ""
+msgstr "Sucht das nächste vorkommen des markierten Texts\nWeitersuchen"
 
 #. Resource IDs: (57636, cmdFind)
 msgid ""
@@ -5137,7 +5137,7 @@ msgstr "Zwinge das neu Aufbauen, selbst wen der aktuelle Zweig ein Nachkomme der
 
 #. Resource IDs: (IDS_PROGS_LFS_FORCEUNLOCK)
 msgid "Force unlock"
-msgstr ""
+msgstr "Zwangsentsperren"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1796)
 msgid "Force: May discard"
@@ -5740,7 +5740,7 @@ msgstr "ID:32818:V   +H"
 
 #. Accelerator Entry for Menu ID:32819; '&Dark Mode\tD'
 msgid "ID:32819:V   +D"
-msgstr ""
+msgstr "ID:32819:V   +D"
 
 #. Accelerator Entry for Menu ID:32822; ''
 msgid "ID:32822:V C +F"
@@ -6305,19 +6305,19 @@ msgstr "LFS"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_LFS_LOCK)
 msgid "LFS Lock"
-msgstr ""
+msgstr "LFS Sperre"
 
 #. Resource IDs: (IDS_STATUSLIST_COLLFSLOCK)
 msgid "LFS Lock Owner"
-msgstr ""
+msgstr "LFS Sperren-Besitzer"
 
 #. Resource IDs: (Dialog IDD_LFS_LOCKS: Control id 176)
 msgid "LFS Locks"
-msgstr ""
+msgstr "LFS Sperren"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_LFS_UNLOCK)
 msgid "LFS Unlock"
-msgstr ""
+msgstr "LFS Entsperren"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "LINE1"
@@ -6357,7 +6357,7 @@ msgstr "Sprache:"
 
 #. Resource IDs: (IDS_MENUDESCLFS)
 msgid "Large file storage"
-msgstr ""
+msgstr "Large file storage"
 
 #. Resource IDs: (IDS_LAST_N_COMMITS)
 #, c-format
@@ -6554,11 +6554,11 @@ msgstr "Navigationsleiste"
 
 #. Resource IDs: (IDS_MENULFSLOCK, IDS_PROGRS_CMD_LFS_LOCK)
 msgid "Lock"
-msgstr ""
+msgstr "Sperren"
 
 #. Resource IDs: (IDS_MENUDESCLFSLOCK)
 msgid "Locks a file using LFS"
-msgstr ""
+msgstr "Sperrt eine Datei bei LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6663,7 +6663,7 @@ msgstr "Makierte Blöcke"
 #. Resource IDs: (IDS_INDICATOR_MARKEDWORDCOUNT)
 #, c-format
 msgid "Marked words: %s"
-msgstr ""
+msgstr "Markierte Wörter: %s"
 
 #. Resource IDs: (cmdMarkResolved)
 msgid ""
@@ -7164,7 +7164,7 @@ msgstr "Wenn Sie die automatisch gespeicherten Dokumente wieder herstellen, müs
 msgid ""
 "Note: These settings also apply to the Patch Viewer dialog.\n"
 "To select whether you would like to use the build-in or any alterative diff viewer program go to \"Diff Viewer\" preferences section in the leftward tree."
-msgstr ""
+msgstr "Beachten Sie: Diese Einstellungen wirken sich ebenfalls auf den Diffdateien-Viewer aus.\nUm zu wählen, ob Sie das eingebauten Diffdatei-Anzeigeprogramm oder eine alternative nutzen möchten, gehen Sie bei den Einstellungen links zu \"Vergleichsprogramm\"."
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
@@ -9416,7 +9416,7 @@ msgstr "Zeige Zeilen&nummern"
 
 #. Resource IDs: (IDS_MENULFSLOCKS)
 msgid "Show locked files"
-msgstr ""
+msgstr "Zeige gesperrte Dateien"
 
 #. Resource IDs: (Dialog IDD_COMMITISONREFS: Control id 1132, Dialog
 #. IDD_DIFFFILES: Control id 1132, Dialog IDD_DIFFSUBMODULE: Control id 1132,
@@ -9560,7 +9560,7 @@ msgstr "Zeigt eine graphische Darstellung der Zweige/Marken"
 
 #. Resource IDs: (IDS_MENUDESCLFSLOCKS)
 msgid "Shows a list of all files locked using LFS"
-msgstr ""
+msgstr "Zeigt eine Liste aller gesperrten Dateien in LFS"
 
 #. Resource IDs: (IDS_MENUDESCSHOWCHANGED)
 msgid "Shows all files which were changed since the last commit."
@@ -11017,11 +11017,11 @@ msgstr "Unbekannter Ref Typ"
 
 #. Resource IDs: (IDS_MENULFSUNLOCK, IDS_PROGRS_CMD_LFS_UNLOCK)
 msgid "Unlock"
-msgstr ""
+msgstr "Entsperren"
 
 #. Resource IDs: (IDS_MENUDESCLFSUNLOCK)
 msgid "Unlocks a file using LFS"
-msgstr ""
+msgstr "Entsperrt eine Datei bei LFS"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_UNMARKBLOCK)
 msgid "Unmark this block"
@@ -11187,7 +11187,7 @@ msgstr "Benutze konfigurierten Server"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 1513)
 msgid "Use dark mode"
-msgstr ""
+msgstr "Verwende den dunklen Modus"
 
 #. Resource IDs: (ID_EDIT_USELEFTBLOCK - Menu,
 #. cmdUseLeftBlock_LabelTitle_RESID)
@@ -11716,7 +11716,7 @@ msgstr "Sie können nicht den Ref-Typ mit einer Umbenennung verändern."
 msgid ""
 "You did not edit the message template.\n"
 "Proceed without individual commit message?"
-msgstr ""
+msgstr "Sie haben die Vorlage für die EIntragenachricht nicht verändert.\nFortfahren ohne eine individuelle Nachricht?"
 
 #. Resource IDs: (IDS_PROC_OLDMSYSGIT)
 #, c-format
