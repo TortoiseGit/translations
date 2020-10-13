@@ -21,6 +21,7 @@
 # 이피시소리 <pcsori@gmail.com>, 2014
 # 이피시소리 <pcsori@gmail.com>, 2014
 # Sangjun Jung <spamcoffee+transifex@gmail.com>, 2011
+# sr <simryangdaniel@nate.com>, 2020
 # Sven Strickroth <sstrickroth@googlemail.com>, 2020
 # TaeDong Kim <fly1004@gmail.com>, 2011,2013,2016
 # yang <hebory@gmail.com>, 2013
@@ -32,8 +33,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-10-07 09:37+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2020-10-13 09:06+0000\n"
+"Last-Translator: sr <simryangdaniel@nate.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -477,7 +478,7 @@ msgstr "커밋(&C)"
 
 #. Resource IDs: (IDS_MENUCOMMITSUBMODULE)
 msgid "&Commit submodule..."
-msgstr "&Commit submodule..."
+msgstr "서브모듈 커밋(&C)..."
 
 #. Resource IDs: (IDS_PROC_COMMIT_NOADDSIGNOFFBUTTON)
 msgid "&Commit w/o"
@@ -553,7 +554,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
-msgstr ""
+msgstr "브랜치/태그 삭제(&D)"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -1163,11 +1164,11 @@ msgstr "재시도(&R)"
 
 #. Resource IDs: (IDS_LOG_POPUP_REVERTREV)
 msgid "&Revert change by this commit"
-msgstr "이 커밋 변경을 취소(&R)"
+msgstr "이 커밋 변경을 되돌리기(&R)"
 
 #. Resource IDs: (IDS_LOG_POPUP_REVERTREVS)
 msgid "&Revert changes by these commits"
-msgstr "이 커밋 변경들을 취소(&R)"
+msgstr "이 커밋 변경들을 되돌리기(&R)"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK3)
 msgid ""
@@ -2329,7 +2330,7 @@ msgstr "브랜치 이름"
 
 #. Resource IDs: (IDS_REV_COUNTER)
 msgid "Branch RevNo"
-msgstr ""
+msgstr "브랜치 리비전 번호"
 
 #. Resource IDs: (IDS_REBASE_FASTFORWARD_FMT)
 #, c-format
@@ -3461,7 +3462,7 @@ msgstr "개수: %u 일치."
 
 #. Resource IDs: (IDS_MENUBRANCH)
 msgid "Create &Branch..."
-msgstr ""
+msgstr "브랜치 생성(&B)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
@@ -3469,7 +3470,7 @@ msgstr "라이브러리 생성(&L)"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1527)
 msgid "Create &New Branch"
-msgstr ""
+msgstr "새 브랜치 생성(&N)"
 
 #. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
 msgid "Create &Tag at this version..."
@@ -8576,7 +8577,7 @@ msgstr "Revert commit"
 #. Resource IDs: (IDS_PROC_REVERTCOMMIT)
 #, c-format
 msgid "Revert commit %s"
-msgstr "Revert commit %s"
+msgstr " %s 커밋 되돌리기"
 
 #. Resource IDs: (IDS_REVERTCOMMITS)
 msgid "Revert the selected commit(s)?"
@@ -8589,7 +8590,7 @@ msgstr "Revert to parent revision"
 #. Resource IDs: (IDS_FILEDIFF_POPREVERTTOREV)
 #, c-format
 msgid "Revert to revision %s"
-msgstr "Revert to revision %s"
+msgstr " %s리비전으로 되돌리기"
 
 #. Resource IDs: (IDS_SVNACTION_REVERT)
 msgid "Reverted"
@@ -10079,7 +10080,7 @@ msgstr "꼬리표 정보"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_TAGBRANCHES)
 msgid "Tag/branch names"
-msgstr ""
+msgstr "태그/브랜치 이름"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1485)
 msgid "Tags"
@@ -10953,7 +10954,7 @@ msgid ""
 "This can happen if the file has been renamed.\n"
 "Please start the log dialog on this specific file alone and then revert the changes\n"
 "from the top pane in the log dialog."
-msgstr "Unable to reconstruct working tree path!\nThis can happen if the file has been renamed.\nPlease start the log dialog on this specific file alone and then revert the changes\nfrom the top pane in the log dialog."
+msgstr "작업 트리 경로를 재구성할 수 없습니다!\n파일 이름이 변경된 경우에 생길 수 있는 문제입니다.\n이 파일에 대한 로그 대화창을 실행해서 변경 내역을\n로그 대화창 최상단 영역의 변경 내역을 되돌리세요."
 
 #. Resource IDs: (IDS_ERR_CHANGELIST_SAVE)
 msgid "Unable to save changelists"
