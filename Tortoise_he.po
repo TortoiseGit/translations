@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-10-14 08:46+0000\n"
+"PO-Revision-Date: 2020-10-15 12:23+0000\n"
 "Last-Translator: Asaf Gamliel <asaph141@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/lznuaa/tortoisegit/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -171,7 +171,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr ""
+msgstr "%1!d! דקות ו%2!d! שניות"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -257,12 +257,12 @@ msgstr ""
 #. Resource IDs: (IDS_FILESCHANGES)
 #, c-format
 msgid "%d files changed"
-msgstr ""
+msgstr "%d קבצים שונו"
 
 #. Resource IDs: (IDS_PROC_FILESREMOVED)
 #, c-format
 msgid "%d files removed."
-msgstr ""
+msgstr "%d קבצים הוסרו"
 
 #. Resource IDs: (IDS_ALPHABUTTONTT)
 #, c-format
@@ -481,7 +481,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_CONTINUE)
 msgid "&Continue"
-msgstr ""
+msgstr "&המשך"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ: Control id 1471, Dialog
 #. IDD_SETTINGSHOOKS: Control id 1367, IDS_EDIT_COPY, ID_EDIT_COPY - Menu)
@@ -668,7 +668,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
-msgstr ""
+msgstr "&קובץ"
 
 #. Resource IDs: (ID_VIEW_FILTER - Menu)
 msgid "&Filter"
@@ -729,7 +729,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Git"
-msgstr ""
+msgstr "&Git"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
@@ -810,7 +810,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_INSTALL)
 msgid "&Install"
-msgstr ""
+msgstr "&התקן"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1016)
 msgid "&Jump to first difference when loading"
@@ -826,12 +826,12 @@ msgstr ""
 
 #. Resource IDs: (IDS_VIEW_LABELS)
 msgid "&Labels"
-msgstr ""
+msgstr "&תוויות"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535,
 #. Dialog IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Language:"
-msgstr ""
+msgstr "&שפה:"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1602)
 msgid "&Launch Rebase After Fetch"
@@ -898,15 +898,15 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1012)
 msgid "&Merging"
-msgstr ""
+msgstr "&מאחד"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1648)
 msgid "&Message"
-msgstr ""
+msgstr "&מסר"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1241)
 msgid "&Message:"
-msgstr ""
+msgstr "&מסר"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
@@ -919,12 +919,12 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1515)
 msgid "&Name"
-msgstr ""
+msgstr "&שם"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Name:"
-msgstr ""
+msgstr "&שם:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Navigate"
@@ -936,15 +936,15 @@ msgstr ""
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 65535)
 msgid "&New "
-msgstr ""
+msgstr "&חדש"
 
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1014)
 msgid "&Next >"
-msgstr ""
+msgstr "&הבא >"
 
 #. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58114)
 msgid "&Next Page"
-msgstr ""
+msgstr "&העמוד הבא"
 
 #. Resource IDs: (IDS_MSGBOX_NO)
 msgid "&No"
@@ -968,7 +968,7 @@ msgstr ""
 
 #. Resource IDs: (AFX_IDS_ONEPAGE)
 msgid "&One Page"
-msgstr ""
+msgstr "&עמוד אחד"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1828)
 msgid "&Onto"
