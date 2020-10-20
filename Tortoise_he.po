@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-10-20 06:18+0000\n"
+"PO-Revision-Date: 2020-10-20 11:55+0000\n"
 "Last-Translator: Asaf Gamliel <asaph141@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/lznuaa/tortoisegit/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -342,7 +342,7 @@ msgstr "&הוסף מסנן"
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1382, Dialog
 #. IDD_SETTINREMOTE: Control id 1382)
 msgid "&Add New/Save"
-msgstr ""
+msgstr "&הוסף חדש\\שמור"
 
 #. Resource IDs: (IDS_PROC_COMMIT_ADDSIGNOFFBUTTON)
 msgid "&Add it"
@@ -364,7 +364,7 @@ msgstr "&הכל"
 
 #. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 3936)
 msgid "&All Branches"
-msgstr ""
+msgstr "&כל הענפים"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1613)
 msgid "&Apply Patch"
@@ -406,11 +406,11 @@ msgstr ""
 #. Control id 1512, Dialog IDD_MERGE: Control id 1512, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1512, Dialog IDD_RESET: Control id 1512)
 msgid "&Branch"
-msgstr ""
+msgstr "&ענף"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 4566)
 msgid "&Branch:"
-msgstr ""
+msgstr "&ענף:"
 
 #. Resource IDs: (IDS_LOG_BROWSEREPO)
 msgid "&Browse repository"
@@ -520,7 +520,7 @@ msgstr "&מחק"
 
 #. Resource IDs: (IDS_MENUREMOVEKEEP)
 msgid "&Delete (keep local)"
-msgstr ""
+msgstr "&מחק (שמור עותק מקומי)"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1507)
 msgid "&Delete Filter"
@@ -532,23 +532,23 @@ msgstr ""
 
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
-msgstr ""
+msgstr "&מחק ענף/תג"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
-msgstr ""
+msgstr "&זהה שורות שהוזזו או הועתקו"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "&Detect moved or copied lines:"
-msgstr ""
+msgstr "&זהה שורות שהוזזו או הועתקו:"
 
 #. Resource IDs: (IDS_MENUDIFF)
 msgid "&Diff"
-msgstr ""
+msgstr "&הבדלים"
 
 #. Resource IDs: (IDS_MENUPREVDIFF)
 msgid "&Diff with previous version"
-msgstr ""
+msgstr "&הבדלים עם גירסה קודמת"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 65535)
 msgid "&Directory:"
@@ -568,7 +568,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
 msgid "&Don't ask me again"
-msgstr ""
+msgstr "&אל תשאל אותי שוב"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK4)
 msgid ""
@@ -646,7 +646,7 @@ msgstr ""
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
-msgstr ""
+msgstr "&יציאה"
 
 #. Resource IDs: (ID_FILE_EXIT - Menu)
 msgid "&Exit\tCtrl+W"
@@ -659,7 +659,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1092, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1095)
 msgid "&External"
-msgstr ""
+msgstr "&חיצוני"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
@@ -709,7 +709,7 @@ msgstr ""
 #. IDD_SUBMODULE_ADD: Control id 1480, Dialog IDD_SUBMODULE_UPDATE: Control id
 #. 1480, Dialog IDD_SYNC: Control id 1521)
 msgid "&Force"
-msgstr ""
+msgstr "&אלץ"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1607)
 msgid "&Force Rebase"
@@ -721,7 +721,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1608)
 msgid "&From:"
-msgstr ""
+msgstr "&מתוך:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
@@ -843,11 +843,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Limit:"
-msgstr ""
+msgstr "&גבול:"
 
 #. Resource IDs: (Dialog IDD_GOTO: Control id 1078)
 msgid "&Line number"
-msgstr ""
+msgstr "&מספר שורה"
 
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
@@ -864,15 +864,15 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1616)
 msgid "&Local Branch:"
-msgstr ""
+msgstr "&ענף מקומי:"
 
 #. Resource IDs: (IDS_VIEW_SHOWLOCALBRANCHLABELS)
 msgid "&Local branches"
-msgstr ""
+msgstr "&ענפים מקומיים"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1504)
 msgid "&Local:"
-msgstr ""
+msgstr "&מקומי:"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "&Max line length for inline diffs"
@@ -881,12 +881,12 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1526, Dialog
 #. IDD_SUBMODULE_UPDATE: Control id 1735, IDS_MERGEBUTTON)
 msgid "&Merge"
-msgstr ""
+msgstr "&איחוד"
 
 #. Resource IDs: (IDS_LOG_POPUP_MERGEREV)
 #, c-format
 msgid "&Merge to \"%s\"..."
-msgstr ""
+msgstr "&איחוד אל \"%s\"..."
 
 #. Resource IDs: (IDS_MERGE_UNRELATED)
 msgid "&Merge unrelated history"
@@ -894,7 +894,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
-msgstr ""
+msgstr "&איחוד..."
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1012)
 msgid "&Merging"
@@ -928,11 +928,11 @@ msgstr "&שם:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Navigate"
-msgstr ""
+msgstr "&ניווט"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1049)
 msgid "&Network drives"
-msgstr ""
+msgstr "&כונני רשת"
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 65535)
 msgid "&New "
@@ -948,7 +948,7 @@ msgstr "&העמוד הבא"
 
 #. Resource IDs: (IDS_MSGBOX_NO)
 msgid "&No"
-msgstr ""
+msgstr "&לא"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1734)
 msgid "&No fetch"
@@ -956,7 +956,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1702)
 msgid "&None"
-msgstr ""
+msgstr "&ללא"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1661)
 msgid "&Notepad2"
@@ -964,7 +964,7 @@ msgstr "&Notepad2"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
-msgstr ""
+msgstr "&אישור"
 
 #. Resource IDs: (AFX_IDS_ONEPAGE)
 msgid "&One Page"
@@ -977,7 +977,7 @@ msgstr ""
 #. Resource IDs: (IDS_LOG_POPUP_OPEN, IDS_REPOBROWSE_OPEN,
 #. cmdOpen_LabelTitle_RESID)
 msgid "&Open"
-msgstr ""
+msgstr "&פתח"
 
 #. Resource IDs: (IDS_PROC_GOTOMSYSGITWEBSITE)
 msgid "&Open Git for Windows WebSite"
@@ -4577,7 +4577,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ERR_ERROR, IDS_STATE_ERROR)
 msgid "Error"
-msgstr ""
+msgstr "שגיאה"
 
 #. Resource IDs: (IDS_PROC_ICONCACHENOTREBUILT)
 msgid "Error rebuilding Shell Icon Cache!"
@@ -4605,7 +4605,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_AUTOTEXTTESTDLG: Control id 2)
 msgid "Exit"
-msgstr ""
+msgstr "יציאה"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_EXPLORE)
 msgid "Explore to"
@@ -4614,11 +4614,11 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 238, IDS_PROGRS_CMD_EXPORT,
 #. IDS_PROGRS_TITLE_EXPORT)
 msgid "Export"
-msgstr ""
+msgstr "ייצוא"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1383)
 msgid "Export Zip File"
-msgstr ""
+msgstr "ייצוא קובץ ZIP"
 
 #. Resource IDs: (IDS_CHECKOUT_EXPORTDIR)
 msgid "Export directory:"
@@ -4626,7 +4626,7 @@ msgstr "ייצא תיקיה:"
 
 #. Resource IDs: (IDS_LOG_POPUP_EXPORT)
 msgid "Export selection to..."
-msgstr ""
+msgstr "ייצוא בחירה אל..."
 
 #. Resource IDs: (IDS_PROC_EXPORT_2)
 msgid "Export unversioned files too"
@@ -4647,7 +4647,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FILEDIFF_EXT, IDS_PROGS_EXTCOL, IDS_STATUSLIST_COLEXT)
 msgid "Extension"
-msgstr ""
+msgstr "סיומת"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1722)
 msgid "Extension specific programs"
@@ -4655,11 +4655,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_TOOLASSOC: Control id 65535)
 msgid "Extension:"
-msgstr ""
+msgstr "סיומת:"
 
 #. Resource IDs: (IDS_SVNACTION_EXTERNAL)
 msgid "External"
-msgstr ""
+msgstr "חיצוני"
 
 #. Resource IDs: (Dialog IDD_TOOLASSOC: Control id 65535)
 msgid "External Program:"
@@ -4667,7 +4667,7 @@ msgstr ""
 
 #. Resource IDs: (cmdFind_Keytip_RESID)
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #. Resource IDs: (IDS_MENUFETCH)
 msgid "F&etch..."
@@ -4833,20 +4833,20 @@ msgstr ""
 #. Resource IDs: (IDS_CHSTAT_FILECOL, IDS_COMMITDLG_FILE, IDS_FILEDIFF_FILE,
 #. IDS_LOG_FILE)
 msgid "File"
-msgstr ""
+msgstr "קובץ"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_ENCODING)
 msgid "File Encoding"
-msgstr ""
+msgstr "קידוד קובץ"
 
 #. Resource IDs: (IDS_STATGRAPH_FILECHANGESBYUNIT)
 #, c-format
 msgid "File changes each %s"
-msgstr ""
+msgstr "הקובץ משתנה מדי %s"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1138)
 msgid "File changes each week:"
-msgstr ""
+msgstr "הקובץ משתנה מדי שבוע:"
 
 #. Resource IDs: (IDS_DIFF_TITLE)
 msgid "File diffs"
@@ -4858,11 +4858,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK2)
 msgid "File is empty."
-msgstr ""
+msgstr "הקובץ ריק"
 
 #. Resource IDs: (IDS_STATUSLIST_EMPTYMSG)
 msgid "File list is empty"
-msgstr ""
+msgstr "רשימת הקבצים ריקה"
 
 #. Resource IDs: (Dialog IDD_FILEPATCHES: Control id 135, IDS_PATCH_TITLE)
 msgid "File patches"
@@ -4938,7 +4938,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1707)
 msgid "Files"
-msgstr ""
+msgstr "קבצים"
 
 #. Resource IDs: (IDS_LOG_FILTER_BY)
 msgid "Filter by"
@@ -4954,16 +4954,16 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 1479)
 msgid "Filter:"
-msgstr ""
+msgstr "מסנן:"
 
 #. Resource IDs: (Dialog IDD_COMMITISONREFS: Control id 1834, Dialog IDD_FIND:
 #. Control id 20090)
 msgid "Filter: "
-msgstr ""
+msgstr "מסנן:"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Filtered"
-msgstr ""
+msgstr "מסונן"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 139, Dialog IDD_FIND: Control id
 #. 20100, ID_EDIT_FIND - Menu, cmdFind_LabelTitle_RESID)
@@ -5020,7 +5020,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FINISHBUTTON)
 msgid "Finish"
-msgstr ""
+msgstr "סיום"
 
 #. Resource IDs: (IDS_PROC_REBASEFINISHED)
 msgid "Finished rebasing."
@@ -5028,7 +5028,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_FINISHED, IDS_PROGRS_TITLEFIN)
 msgid "Finished!"
-msgstr ""
+msgstr "הסתיים!"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FIRSTPARENT)
 msgid "First Parent"
@@ -5190,17 +5190,17 @@ msgstr ""
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_FROM_EXISTING_FILES)
 msgid "From existing files"
-msgstr ""
+msgstr "מתוך קבצים קיימים"
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_FROM_MODIFIED_FILES)
 msgid "From modified files"
-msgstr ""
+msgstr "מתוך קבצים ששונו"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 65535, Dialog
 #. IDD_LOGMESSAGE: Control id 1200, Dialog IDD_REVGRAPHFILTER: Control id
 #. 65535)
 msgid "From:"
-msgstr ""
+msgstr "מתוך:"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
 msgid "Full commit data without changed paths"
@@ -5220,7 +5220,7 @@ msgstr ""
 
 #. Resource IDs: (cmdGotoLine_Keytip_RESID)
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #. Resource IDs: (IDS_VIEW_SHOWGRAVATAR)
 msgid "G&ravatar"
@@ -5245,32 +5245,32 @@ msgstr ""
 
 #. Resource IDs: (IDS_SVNPROGRESS_EXPORTINGWAIT)
 msgid "Gathering information. Please wait..."
-msgstr ""
+msgstr "אוסף מידע. אנא המתן..."
 
 #. Resource IDs: (IDS_PROGS_TITLE_GATHERSTATISTICS)
 msgid "Gathering statistics"
-msgstr ""
+msgstr "אוסף סטטיסטיקות"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 107, Dialog
 #. IDD_SETTINGSMAIN: Control id 143)
 msgid "General"
-msgstr ""
+msgstr "כללי"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 333)
 msgid "General::Alternative editor"
-msgstr ""
+msgstr "כללי::עורך חלופי"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 315)
 msgid "General::Colors 1"
-msgstr ""
+msgstr "כללי::צבעים 1"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 212)
 msgid "General::Colors 2"
-msgstr ""
+msgstr "כללי::צבעים 2"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 316)
 msgid "General::Colors 3"
-msgstr ""
+msgstr "כללי:: צבעים 3"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 195)
 msgid "General::Context Menu"
@@ -5436,23 +5436,23 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_GOTO: Control id 155)
 msgid "Go To Line"
-msgstr ""
+msgstr "עבור אל שורה"
 
 #. Resource IDs: (Dialog IDD_GOTODLG: Control id 221)
 msgid "Go to line"
-msgstr ""
+msgstr "עבור אל שורה"
 
 #. Resource IDs: (cmdNavigateNextConflict)
 msgid ""
 "Go to the next conflict\n"
 "Next conflict"
-msgstr ""
+msgstr "עבור להתנגשות הבאה\nההתנגשות הבאה"
 
 #. Resource IDs: (cmdNavigateNextDifference)
 msgid ""
 "Go to the next difference\n"
 "Next difference"
-msgstr ""
+msgstr "עבור להבדל הבא\nההבדל הבא"
 
 #. Resource IDs: (cmdNavigateNextInlineDiff)
 msgid ""
@@ -5480,19 +5480,19 @@ msgstr ""
 
 #. Resource IDs: (ID_EDIT_GOTOLINE - Menu, cmdGotoLine_LabelTitle_RESID)
 msgid "Goto Line"
-msgstr ""
+msgstr "עבור אל שורה"
 
 #. Resource IDs: (IDS_LOG_GRAPH)
 msgid "Graph"
-msgstr ""
+msgstr "גרף"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1134)
 msgid "Graph type:"
-msgstr ""
+msgstr "סוג גרף:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Greek"
-msgstr ""
+msgstr "יוונית"
 
 #. Resource IDs: (IDS_STATUSLIST_SHOWGROUPS)
 msgid "Group changelists"
@@ -5522,7 +5522,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Hebrew"
-msgstr ""
+msgstr "עברית"
 
 #. Resource IDs: (Dialog IDD_ADD: Control id 9, Dialog IDD_ADD_REMOTE: Control
 #. id 9, Dialog IDD_APPLY_PATCH_LIST: Control id 9, Dialog IDD_BISECTSTART:
@@ -5546,7 +5546,7 @@ msgstr ""
 #. IDD_SVNDCOMMITTYPE: Control id 9, Dialog IDD_SYNC: Control id 9,
 #. IDS_MSGBOX_HELP)
 msgid "Help"
-msgstr ""
+msgstr "עזרה"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535)
 msgid "Helper:"
@@ -5593,7 +5593,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_HINT)
 msgid "Hint"
-msgstr ""
+msgstr "רמז"
 
 #. Resource IDs: (IDS_HINTLASTMESSAGES)
 msgid ""
@@ -5639,7 +5639,7 @@ msgstr "IBugTraqProvider"
 
 #. Resource IDs: (IDS_LOG_ID)
 msgid "ID"
-msgstr ""
+msgstr "מזהה"
 
 #. Accelerator Entry for Menu ID:220; '&Go to\tCtrl+G'
 msgid "ID:220:V C +G"
@@ -5903,7 +5903,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_IDENTICAL)
 msgid "Identical"
-msgstr ""
+msgstr "זהה"
 
 #. Resource IDs: (IDS_SETTINGS_ONLYEXPLORER_TT)
 msgid ""
@@ -6092,7 +6092,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_TITLE_IMPORT)
 msgid "Import"
-msgstr ""
+msgstr "ייבוא"
 
 #. Resource IDs: (IDS_PROGRS_CMD_IMPORT)
 #, c-format
@@ -6116,7 +6116,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROGRESSIMPORT)
 #, c-format
 msgid "Importing file %s"
-msgstr ""
+msgstr "מייבא קובץ %s"
 
 #. Resource IDs: (IDS_PROC_SYNC_INCHANGELIST)
 msgid "In ChangeList"
@@ -6138,7 +6138,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
-msgstr ""
+msgstr "כלול &תגים"
 
 #. Resource IDs: (Dialog IDD_ADD: Control id 1068)
 msgid "Include &ignored files"
@@ -6154,7 +6154,7 @@ msgstr ""
 
 #. Resource IDs: (AFX_IDP_INVALID_FILENAME)
 msgid "Incorrect filename."
-msgstr ""
+msgstr "שם קובץ לא תקין"
 
 #. Resource IDs: (IDS_IMPORT_DEFAULTMSG)
 msgid "Initial import"
@@ -6181,7 +6181,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_INPUTDLG: Control id 161)
 msgid "Input"
-msgstr ""
+msgstr "קלט"
 
 #. Resource IDs: (57637, cmdPaste)
 msgid ""
@@ -6248,7 +6248,7 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Japanese"
-msgstr ""
+msgstr "יפנית"
 
 #. Resource IDs: (5068 - Menu)
 msgid "KOI8-R"
@@ -6260,7 +6260,7 @@ msgstr "KOI8-U"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_KEEP)
 msgid "Keep"
-msgstr ""
+msgstr "שמור"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1126)
 msgid "Keep changelists"
