@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-10-20 11:55+0000\n"
+"PO-Revision-Date: 2020-10-21 14:38+0000\n"
 "Last-Translator: Asaf Gamliel <asaph141@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/lznuaa/tortoisegit/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%1!s! in %2!s!"
-msgstr ""
+msgstr "%1!s! ב%2!s!"
 
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
@@ -196,21 +196,21 @@ msgstr ""
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
 msgid "%1!s!, at %2!s!"
-msgstr ""
+msgstr "%1!s!, בתוך %2!s!"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
 msgid ""
 "%1!s!\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr ""
+msgstr "%1!s!\nמציג %2!s! קבצים, %3!s! תת-מודולים ו%4!s! תיקיות, %5!s! פריטים בסך הכל "
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOFILE)
 #, c-format
 msgid ""
 "%1!s!\n"
 "Size %2!s!"
-msgstr ""
+msgstr "%1!s!\nגודל %2!s!"
 
 #. Resource IDs: (AFX_IDP_SCRIPT_ERROR)
 #, c-format
@@ -294,7 +294,7 @@ msgstr ""
 msgid ""
 "%s\n"
 "Do you want to remove it anyway?"
-msgstr ""
+msgstr "%s\nהאם ברצונך להסיר אותו בכל מקרה?"
 
 #. Resource IDs: (IDS_ERR_FILE_NOTAFILE)
 #, c-format
@@ -302,7 +302,7 @@ msgid ""
 "%s\n"
 "is a directory, not a file!\n"
 "TortoiseGitMerge can't diff directories."
-msgstr ""
+msgstr "%s\nהוא תיקייה, לא קובץ!\nTortoiseGitMerge לא יכול להציג הבדלים עבור תיקיות."
 
 #. Resource IDs: (Dialog IDD_RENAME: Control id 1483)
 msgid "&..."
@@ -612,7 +612,7 @@ msgstr "&ערוך מסנן"
 
 #. Resource IDs: (IDS_MENUCONFLICT)
 msgid "&Edit conflicts"
-msgstr ""
+msgstr "&ערוך התנגשויות"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1099)
 msgid "&Edit..."
@@ -2447,7 +2447,7 @@ msgid ""
 "%1!s!\n"
 "to\n"
 "%2!s!"
-msgstr ""
+msgstr "לא יכול להעתיק את \n%1!s!\nאל\n%2!s!"
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 2, Dialog
 #. AFX_IDD_PRINTDLG: Control id 2, Dialog IDD_ADD: Control id 2, Dialog
@@ -5200,7 +5200,7 @@ msgstr "מתוך קבצים ששונו"
 #. IDD_LOGMESSAGE: Control id 1200, Dialog IDD_REVGRAPHFILTER: Control id
 #. 65535)
 msgid "From:"
-msgstr "מתוך:"
+msgstr "מ:"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_FULLNOPATHS)
 msgid "Full commit data without changed paths"
@@ -11513,7 +11513,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
-msgstr ""
+msgstr "ברוך הבא לTortoiseGit!"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Western European"
@@ -11674,7 +11674,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_YESTOALL)
 msgid "Yes to all"
-msgstr ""
+msgstr "כן לכל"
 
 #. Resource IDs: (IDS_CHECKNEWER_YOURUPTODATE)
 msgid "You already have the latest version installed."
@@ -11729,7 +11729,7 @@ msgstr ""
 msgid ""
 "You have modified properties without saving them first.\n"
 "Do you want to save them now?"
-msgstr ""
+msgstr "שינית מאפיינים מבלי לשמור אותם תחילה.\nהאם ברצונך לשמור אותם כעת?"
 
 #. Resource IDs: (IDS_STATUSLIST_WARN_MAXDIFF)
 #, c-format
@@ -11737,7 +11737,7 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr ""
+msgstr "בחרת %d פריטים שעבורם יוצגו ההבדלים.\nעבור כל אחד מהפריטים ייפתח חלון נפרד של מציג ההבדלים.\nהאם אתה בטוח שברצונך להציג את ההבדלים עבור כל כך הרבה פריטים בבת אחת?"
 
 #. Resource IDs: (IDS_COMMITDLG_NOISSUEWARNING)
 msgid ""
@@ -11899,7 +11899,7 @@ msgstr ""
 #. Resource IDs: (IDS_ERR_NOT_REPOSITORY)
 #, c-format
 msgid "\"%s\" is not git repository"
-msgstr ""
+msgstr "\"%s\" אינו מאגר של git"
 
 #. Resource IDs: (IDS_PROC_DELETEREF)
 #, c-format
@@ -11907,7 +11907,7 @@ msgid ""
 "\"%s\" will be permanently deleted. It can NOT be recovered!\n"
 "\n"
 "Do you really want to continue?"
-msgstr ""
+msgstr "\"%s\" יימחק לצמיתות. לא תהיה אפשרות לשחזר אותו!\n\nהאם אתה בטוח שברצונך להמשיך?"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_GITAMACTIVE)
 msgid ""
@@ -12099,7 +12099,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOCAL_GCM)
 msgid "manager - this repository only"
-msgstr ""
+msgstr "מנהל - מאגר זה בלבד"
 
 #. Resource IDs: (IDS_SYSTEM_GCMCORE)
 msgid "manager-core - all Windows users"
@@ -12252,12 +12252,12 @@ msgstr ""
 #. Resource IDs: (AFX_IDS_PRINTTOFILE)
 #, c-format
 msgid "to %1"
-msgstr ""
+msgstr "אל %1"
 
 #. Resource IDs: (IDS_PROC_CPYMVPROG2, IDS_SVNPROGRESS_EXPORTINGTO)
 #, c-format
 msgid "to %s"
-msgstr ""
+msgstr "אל %s"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "u&nknown changes"
