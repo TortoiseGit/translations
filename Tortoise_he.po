@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-10-22 09:57+0000\n"
+"PO-Revision-Date: 2020-10-22 13:30+0000\n"
 "Last-Translator: Asaf Gamliel <asaph141@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/lznuaa/tortoisegit/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -560,7 +560,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DISCARDBUTTON)
 msgid "&Discard"
-msgstr ""
+msgstr "&השלך"
 
 #. Resource IDs: (IDS_DO_SAME_FOR_REST)
 msgid "&Do the same for the rest"
@@ -578,7 +578,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
 msgid "&Don't show this message again"
-msgstr ""
+msgstr "&אל תציג שוב הודעה זו"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
@@ -604,7 +604,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REBASE_SELECTALL_EDIT)
 msgid "&Edit ALL"
-msgstr ""
+msgstr "&ערוך הכל"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1506)
 msgid "&Edit Filter"
@@ -629,7 +629,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Email:"
-msgstr ""
+msgstr "&דואר אלקטרוני"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1023, Dialog
 #. IDD_SETTINGSHOOKCONFIG: Control id 1023)
@@ -1054,7 +1054,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
-msgstr ""
+msgstr "&דחף את כל הענפים"
 
 #. Resource IDs: (IDS_COMMIT_RECOMMIT, IDS_PROC_COMMIT_RECOMMIT)
 msgid "&ReCommit"
@@ -1078,7 +1078,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1382)
 msgid "&Refresh"
-msgstr ""
+msgstr "&רענון"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20093)
 msgid "&Regular Expression"
@@ -1126,7 +1126,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_RESOLVEDBUTTON)
 msgid "&Resolved"
-msgstr ""
+msgstr "&נפתר"
 
 #. Resource IDs: (IDS_RESTOREBUTTON)
 msgid "&Restore"
@@ -1349,7 +1349,7 @@ msgstr "&שם משתמש:"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog IDD_LOGMESSAGE: Control id 1777)
 msgid "&View"
-msgstr ""
+msgstr "&תצוגה"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
 msgid "&View effective config"
@@ -1362,11 +1362,11 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1203, Dialog
 #. IDD_SUBMODULE_UPDATE: Control id 1203)
 msgid "&Whole Project"
-msgstr ""
+msgstr "&כל הפרוייקט"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1066)
 msgid "&Whole word"
-msgstr ""
+msgstr "&כל המילה"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_WITHIN_FILE - Menu)
 msgid "&Within file"
@@ -1532,7 +1532,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_B_EXISTS)
 msgid "A branch with this name already exists."
-msgstr ""
+msgstr "כבר קיים ענף בשם זה."
 
 #. Resource IDs: (1088)
 msgid ""
@@ -1578,7 +1578,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_T_EXISTS)
 msgid "A tag with this name already exists."
-msgstr ""
+msgstr "כבר קיים תג בשם זה."
 
 #. Resource IDs: (IDS_SETTINGS_DIFFVIEWER_TT)
 msgid ""
@@ -8176,11 +8176,11 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 1382,
 #. Dialog IDD_LOGMESSAGE: Control id 1382, IDS_MENUREFRESH)
 msgid "Refresh"
-msgstr ""
+msgstr "רענון"
 
 #. Resource IDs: (IDS_PROC_SYNC_REFRESHING)
 msgid "Refreshing..."
-msgstr ""
+msgstr "מרענן..."
 
 #. Resource IDs: (65535 - PopupMenu, Dialog IDD_REGEXFILTER: Control id 165,
 #. cmdRegexFilterConfig1, cmdRegexFilterConfig1_LabelTitle_RESID)
@@ -8356,7 +8356,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Removed"
-msgstr ""
+msgstr "הוסר"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTCLEAR)
 msgid "Removed from changelist"
@@ -8377,21 +8377,21 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 1753,
 #. IDS_PATHACTIONS_RENAME, IDS_PROC_BROWSEREFS_RENAME)
 msgid "Rename"
-msgstr ""
+msgstr "שנה שם"
 
 #. Resource IDs: (IDS_PROC_RENAME)
 #, c-format
 msgid "Rename %s"
-msgstr ""
+msgstr "שנה שם של %s"
 
 #. Resource IDs: (Dialog IDD_RENAME: Control id 151)
 msgid "Rename - TortoiseGit"
-msgstr ""
+msgstr "שנה שם - TortoiseGit"
 
 #. Resource IDs: (IDS_RENAME_INFO)
 #, c-format
 msgid "Rename \"%s\":"
-msgstr ""
+msgstr "שנה שם של \"%s\":"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_RENAME)
 msgid "Rename/move"
@@ -8409,30 +8409,30 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1512)
 msgid "Replace &All"
-msgstr ""
+msgstr "החלף &הכל"
 
 #. Resource IDs: (57641)
 msgid ""
 "Replace specific text with different text\n"
 "Replace"
-msgstr ""
+msgstr "החלף טקסט מסוים עם טקסט שונה\nהחלף"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 65535)
 msgid "Replace with:"
-msgstr ""
+msgstr "החלף עם:"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTER: Control id 65535)
 msgid "Replace:"
-msgstr ""
+msgstr "החלף:"
 
 #. Resource IDs: (IDS_FIND_REPLACED)
 #, c-format
 msgid "Replaced %d matches"
-msgstr ""
+msgstr "הוחלפו %d התאמות"
 
 #. Resource IDs: (IDS_SVNACTION_REPLACED)
 msgid "Replacing"
-msgstr ""
+msgstr "מחליף"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1618)
 msgid "Repository &URL"
@@ -8444,7 +8444,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_ADD: Control id 65535)
 msgid "Repository:"
-msgstr ""
+msgstr "מאגר:"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 334)
 msgid "Request pull"
@@ -8497,14 +8497,14 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_RESOLVED, IDS_SVNACTION_RESOLVE)
 msgid "Resolved"
-msgstr ""
+msgstr "נפתר"
 
 #. Resource IDs: (IDS_SVNPROGRESS_RESOLVED)
 #, c-format
 msgid ""
 "Resolved:\n"
 "%s"
-msgstr ""
+msgstr "נפתר:\n%s"
 
 #. Resource IDs: (IDS_MENUDESCRESOLVE)
 msgid "Resolves conflicted files"
@@ -8663,7 +8663,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_OPEN: Control id 65535)
 msgid "Right image"
-msgstr ""
+msgstr "תמונה ימנית"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1848)
 msgid "Run for this repository"
@@ -8675,7 +8675,7 @@ msgstr ""
 
 #. Resource IDs: (cmdSave_Keytip_RESID)
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1383, Dialog IDD_RESET:
 #. Control id 1383)
@@ -8692,7 +8692,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 1132)
 msgid "S&tatistics"
-msgstr ""
+msgstr "ס&טטיסטיקות"
 
 #. Resource IDs: (IDS_MENUSWITCH)
 msgid "S&witch/Checkout..."
@@ -8795,15 +8795,15 @@ msgstr ""
 
 #. Resource IDs: (ID_FILE_SAVE - Menu)
 msgid "Save"
-msgstr ""
+msgstr "שמור"
 
 #. Resource IDs: (cmdSaveAs_LabelTitle_RESID)
 msgid "Save &as"
-msgstr ""
+msgstr "שמור &בשם"
 
 #. Resource IDs: (IDS_REPOBROWSE_SAVEAS, ID_FILE_SAVE_AS - Menu)
 msgid "Save &as..."
-msgstr ""
+msgstr "שמור &בשם..."
 
 #. Resource IDs: (ID_FILE_SAVEAS - Menu)
 msgid "Save &as...\tCtrl+Shift+S"
@@ -8811,7 +8811,7 @@ msgstr ""
 
 #. Resource IDs: (AFX_IDS_SAVEFILE)
 msgid "Save As"
-msgstr ""
+msgstr "שמור בשם"
 
 #. Resource IDs: (IDS_ASKFORSAVE_SAVEBOTTOMAS)
 msgid ""
@@ -8821,7 +8821,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SAVE)
 msgid "Save File"
-msgstr ""
+msgstr "שמור קובץ"
 
 #. Resource IDs: (IDS_ASKFORSAVE_SAVELEFTAS)
 msgid ""
@@ -8877,11 +8877,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_ASKFORSAVEAS)
 msgid "Save as"
-msgstr ""
+msgstr "שמור בשם"
 
 #. Resource IDs: (IDS_SAVEASTITLE)
 msgid "Save as..."
-msgstr ""
+msgstr "שמור בשם..."
 
 #. Resource IDs: (IDS_ASKFORSAVE_TASK6)
 msgid ""
@@ -8892,11 +8892,11 @@ msgstr ""
 #. Resource IDs: (AFX_IDP_ASK_TO_SAVE)
 #, c-format
 msgid "Save changes to %1?"
-msgstr ""
+msgstr "לשמור שינויים ב%1?"
 
 #. Resource IDs: (IDS_ASKFORSAVE_TASK2)
 msgid "Save modifications."
-msgstr ""
+msgstr "שמור שינויים"
 
 #. Resource IDs: (IDS_SAVEPATCH)
 msgid "Save patch file"
@@ -8928,7 +8928,7 @@ msgstr ""
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535, Dialog IDD_SETTINGSDIALOGS3:
 #. Control id 65535)
 msgid "Save to:"
-msgstr ""
+msgstr "שמור אל:"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1385)
 msgid "Save unified diff"
@@ -8967,7 +8967,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_AUTOTEXTTESTDLG: Control id 1522)
 msgid "Scan"
-msgstr ""
+msgstr "סריקה"
 
 #. Resource IDs: (Dialog IDD_BUGTRAQREGEXTESTER: Control id 1014, Dialog
 #. IDD_CHECKFORUPDATES: Control id 1014, Dialog IDD_COMMITDLG: Control id
@@ -8978,7 +8978,7 @@ msgstr "Scintilla"
 
 #. Resource IDs: (ID_FILE_SETTINGS - Menu)
 msgid "Se&ttings..."
-msgstr ""
+msgstr "הג&דרות"
 
 #. Resource IDs: (IDS_LOG_POPUP_FIND)
 msgid "Search &log messages..."
@@ -9003,15 +9003,15 @@ msgstr ""
 
 #. Resource IDs: (IDS_SELECT)
 msgid "Select"
-msgstr ""
+msgstr "בחירה"
 
 #. Resource IDs: (IDS_SCIEDIT_SELECTALL)
 msgid "Select &All"
-msgstr ""
+msgstr "בחר &הכל"
 
 #. Resource IDs: (IDS_SELECTFILE)
 msgid "Select File..."
-msgstr ""
+msgstr "בחר קובץ..."
 
 #. Resource IDs: (IDS_SETTINGS_SELECTSSH)
 msgid "Select SSH client"
@@ -9019,7 +9019,7 @@ msgstr ""
 
 #. Resource IDs: (AFX_IDP_PARSE_RADIO_BUTTON)
 msgid "Select a button."
-msgstr ""
+msgstr "בחר כפתור"
 
 #. Resource IDs: (AFX_IDS_HELPMODEMESSAGE)
 msgid "Select an object on which to get Help"
@@ -9035,7 +9035,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SELECTFILE)
 msgid "Select file"
-msgstr ""
+msgstr "בחר קובץ"
 
 #. Resource IDs: (IDS_SETTINGS_BUGTRAQ_SELECTFOLDERPATH)
 msgid "Select folder to associate with this issue tracker"
@@ -9061,7 +9061,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1405)
 msgid "Select items automatically"
-msgstr ""
+msgstr "בחר פריטים באופן אוטומטי"
 
 #. Resource IDs: (IDS_SETTINGS_SELECTMERGE)
 msgid "Select merge application"
@@ -9120,11 +9120,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_SELECTION_HISTORY)
 msgid "Selection History"
-msgstr ""
+msgstr "היסטוריית בחירה"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1)
 msgid "Send"
-msgstr ""
+msgstr "שלח"
 
 #. Resource IDs: (IDS_PROGRS_CMD_SENDMAIL)
 msgid "Send Email"
@@ -9157,7 +9157,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SVNACTION_POSTFIX)
 msgid "Sending content"
-msgstr ""
+msgstr "שולח תוכן"
 
 #. Resource IDs: (IDS_SVNACTION_SENDMAIL_START)
 msgid "Sending..."
@@ -9165,7 +9165,7 @@ msgstr "שולח..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1409)
 msgid "Server &address:"
-msgstr ""
+msgstr "&כתובת שרת:"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1558)
 msgid "Set au&thor"
@@ -9191,11 +9191,11 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 1017, IDS_SETTINGSTITLE,
 #. ID_VIEW_OPTIONS - Menu, cmdSettings_LabelTitle_RESID)
 msgid "Settings"
-msgstr ""
+msgstr "הגדרות"
 
 #. Resource IDs: (IDS_PROC_SETTINGS_TITLE)
 msgid "Settings - TortoiseGit"
-msgstr ""
+msgstr "הגדרות - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1270,
 #. IDS_STATUSLIST_CONTEXT_SHELL)
@@ -9297,11 +9297,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_SHOWALLTAGS - Menu)
 msgid "Show all tags"
-msgstr ""
+msgstr "הצג את כל התגים"
 
 #. Resource IDs: (32813)
 msgid "Show an overview of the whole graph"
-msgstr ""
+msgstr "הצג סקירה של כל הגרף"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1074)
 msgid "Show asterisk log prefix"
@@ -9313,7 +9313,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_SHOWAUTHOR - Menu)
 msgid "Show author"
-msgstr ""
+msgstr "הצג מחבר"
 
 #. Resource IDs: (IDS_SETTINGS_SHOWREVCOUNTER_TT)
 msgid ""
@@ -9361,7 +9361,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1696,
 #. IDS_PROC_SHOWDIFF)
 msgid "Show diff"
-msgstr ""
+msgstr "הצג הבדלים"
 
 #. Resource IDs: (IDS_HEADER_DIFFLEFTTOBASE, IDS_HEADER_DIFFRIGHTTOBASE)
 msgid "Show diff separately"
@@ -9381,7 +9381,7 @@ msgstr ""
 
 #. Resource IDs: (32802, ID_VIEW_SHOWFILENAME - Menu)
 msgid "Show file name"
-msgstr ""
+msgstr "הצג שם קובץ"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1782)
 msgid "Show git.exe execution timings and timestamp"
@@ -9582,15 +9582,15 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1532)
 msgid "Since"
-msgstr ""
+msgstr "מאז"
 
 #. Resource IDs: (IDS_LOG_SIZE, IDS_STATUSLIST_COLSIZE)
 msgid "Size"
-msgstr ""
+msgstr "גודל"
 
 #. Resource IDs: (IDS_PATHACTIONS_SKIP, IDS_REBASE_SKIP)
 msgid "Skip"
-msgstr ""
+msgstr "דלג"
 
 #. Resource IDs: (IDS_PROC_SKIPPATCH)
 #, c-format
@@ -9654,7 +9654,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SCIEDIT_SPLITLINES)
 msgid "Split lines"
-msgstr ""
+msgstr "פצל שורות"
 
 #. Resource IDs: (57653)
 msgid ""
@@ -9783,7 +9783,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 179, IDS_STATGRAPH_STATS)
 msgid "Statistics"
-msgstr ""
+msgstr "סטטיסטיקות"
 
 #. Resource IDs: (IDS_COMMITDLG_STATUS, IDS_STATUSLIST_COLSTATUS,
 #. IDS_SVNACTION_STATUS)
@@ -9841,7 +9841,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_FILTER_SUBJECT, IDS_SUBJECT)
 msgid "Subject"
-msgstr ""
+msgstr "נושא"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1714, Dialog
 #. IDD_DIFFSUBMODULE: Control id 1715, Dialog IDD_RESOLVESUBMODULECONFLICT:
@@ -9849,11 +9849,11 @@ msgstr ""
 #. Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 1717, Dialog IDD_SENDMAIL:
 #. Control id 65535)
 msgid "Subject:"
-msgstr ""
+msgstr "נושא:"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_SUBJECTS)
 msgid "Subjects"
-msgstr ""
+msgstr "נושאים"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"
@@ -10046,7 +10046,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535, IDS_PROC_TAG)
 msgid "Tag"
-msgstr ""
+msgstr "תג"
 
 #. Resource IDs: (IDS_PROC_TAG_FF)
 msgid "Tag (FF)"
@@ -10062,7 +10062,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1485)
 msgid "Tags"
-msgstr ""
+msgstr "תגים"
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 65535)
 msgid "Tags:"
@@ -10082,11 +10082,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 1787)
 msgid "Test"
-msgstr ""
+msgstr "בדיקה"
 
 #. Resource IDs: (IDS_PROGRS_DRYRUN)
 msgid "Test Only"
-msgstr ""
+msgstr "בדיקה בלבד"
 
 #. Resource IDs: (IDS_TEXTFILEFILTER)
 msgid "Text Files (*.txt)|*.txt|All Files (*.*)|*.*||"
@@ -10190,7 +10190,7 @@ msgstr ""
 #. Resource IDs: (IDS_ERR_PATCH_INVALIDPATCHFILE)
 #, c-format
 msgid "The file %s does not exist!"
-msgstr ""
+msgstr "הקובץ %s לא קיים!"
 
 #. Resource IDs: (IDS_ERR_PATCH_FILENOTINPATCH)
 #, c-format
@@ -10211,7 +10211,7 @@ msgid ""
 "%s\n"
 "is empty.\n"
 "Do you want to remove the file?"
-msgstr ""
+msgstr "הקובץ\n%s\nריק.\nהאם ברצונך להסיר את הקובץ?"
 
 #. Resource IDs: (IDS_ERR_FILE_TOOBIG)
 msgid "The file is too big"
