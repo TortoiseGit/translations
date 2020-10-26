@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-10-25 09:40+0000\n"
+"PO-Revision-Date: 2020-10-26 10:41+0000\n"
 "Last-Translator: Asaf Gamliel <asaph141@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/lznuaa/tortoisegit/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -536,19 +536,19 @@ msgstr "&מחק ענף/תג"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
-msgstr "&זהה שורות שהוזזו או הועתקו"
+msgstr "&זהה שורות שהועברוו או הועתקו"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "&Detect moved or copied lines:"
-msgstr "&זהה שורות שהוזזו או הועתקו:"
+msgstr "&זהה שורות שהועברו או הועתקו:"
 
 #. Resource IDs: (IDS_MENUDIFF)
 msgid "&Diff"
-msgstr "&הבדלים"
+msgstr "&השוואה"
 
 #. Resource IDs: (IDS_MENUPREVDIFF)
 msgid "&Diff with previous version"
-msgstr "&הבדלים עם גירסה קודמת"
+msgstr "&השוואה עם גרסה קודמת"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 65535)
 msgid "&Directory:"
@@ -693,7 +693,7 @@ msgstr ""
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FOLLOWRENAMES, ID_VIEW_FOLLOWRENAMES -
 #. Menu)
 msgid "&Follow renames"
-msgstr ""
+msgstr "עקוב אחר שינויי שם"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "&Font for log messages:"
@@ -786,11 +786,11 @@ msgstr "&התעלם"
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE)
 #, c-format
 msgid "&Ignore %d items by name"
-msgstr "התעלם מ%dפריטים על פי השם"
+msgstr "התעלם מ%dפריטים לפי שם"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE2)
 msgid "&Ignore multiple items by name"
-msgstr ""
+msgstr "&התעלם מפריטים מרובים לפי שם"
 
 #. Resource IDs: (ID_VIEW_IGNORE_WHITESPACE - Menu)
 msgid "&Ignore whitespace"
@@ -802,7 +802,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUIMPORT)
 msgid "&Import..."
-msgstr "&&ייבא"
+msgstr "&ייבא..."
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1693)
 msgid "&Initialize submodules (--init)"
@@ -822,7 +822,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_COMMIT_RESTOREFILES_KEEP)
 msgid "&Keep current state"
-msgstr ""
+msgstr "&שמור מצב נוכחי"
 
 #. Resource IDs: (IDS_VIEW_LABELS)
 msgid "&Labels"
@@ -915,7 +915,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
-msgstr ""
+msgstr "&בלוקים שהועברו"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1515)
 msgid "&Name"
@@ -1170,7 +1170,7 @@ msgstr ""
 #. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVEGRAPHAS - Menu,
 #. ID_FILE_SAVESTATGRAPHAS - Menu)
 msgid "&Save graph as..."
-msgstr ""
+msgstr "&שמור גרף בשם..."
 
 #. Resource IDs: (IDS_FILEDIFF_POPSAVELIST)
 msgid "&Save list of selected files to..."
@@ -1182,7 +1182,7 @@ msgstr "&שמור\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr "&חפש"
+msgstr "&חפש..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -1202,7 +1202,7 @@ msgstr "&הגדרות..."
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Signing key ID:"
-msgstr "&כן"
+msgstr ""
 
 #. Resource IDs: (IDS_SKIPBUTTON)
 msgid "&Skip"
@@ -1484,7 +1484,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1020)
 msgid "< &Previous"
-msgstr ""
+msgstr "<&הקודם"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535, Dialog
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535, Dialog IDD_SETTINGSDIALOGS3:
@@ -1625,7 +1625,7 @@ msgstr ""
 
 #. Resource IDs: (cmdAbout_LabelTitle_RESID)
 msgid "Abou&t TortoiseGitMerge"
-msgstr ""
+msgstr "אודו&ת TortoiseGitMerge"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 129)
 msgid "About TortoiseGit"
@@ -1650,7 +1650,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ACTION, IDS_FILEDIFF_ACTION, IDS_PROGRS_ACTION)
 msgid "Action"
-msgstr ""
+msgstr "פעולה"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 65535)
 msgid "Action log"
@@ -1658,7 +1658,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_ACTIONS)
 msgid "Actions"
-msgstr ""
+msgstr "פעולות"
 
 #. Resource IDs: (AFX_IDS_SCTASKLIST)
 msgid "Activate Task List"
@@ -1769,7 +1769,7 @@ msgstr "מתקדם"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 170)
 msgid "Advanced Diff/Merge Settings"
-msgstr ""
+msgstr "הגדרות השוואה/איחוד מתקדמות"
 
 #. Resource IDs: (IDS_DLGTITLE_ADV_DIFF)
 msgid "Advanced diff settings"
@@ -3436,27 +3436,27 @@ msgstr ""
 #. Resource IDs: (IDS_FIND_COUNT)
 #, c-format
 msgid "Count: %u matches."
-msgstr ""
+msgstr "כמות: %u התאמות"
 
 #. Resource IDs: (IDS_MENUBRANCH)
 msgid "Create &Branch..."
-msgstr ""
+msgstr "יצירת &ענף..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
-msgstr ""
+msgstr "יצירת &ספריה"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1527)
 msgid "Create &New Branch"
-msgstr ""
+msgstr "יצירת &ענף חדש"
 
 #. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
 msgid "Create &Tag at this version..."
-msgstr ""
+msgstr "יצירת &תג בגרסה זו"
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
-msgstr ""
+msgstr "יצירת &תג..."
 
 #. Resource IDs: (cmdCreateUnifiedDiff_LabelTitle_RESID)
 msgid "Create &patch file"
@@ -3468,11 +3468,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_CREATE_BRANCH_AT_THIS)
 msgid "Create Br&anch at this version..."
-msgstr ""
+msgstr "יצירת ע&נף בגרסה זו"
 
 #. Resource IDs: (IDS_PROGS_TITLE_CREATEBRANCH)
 msgid "Create Branch"
-msgstr ""
+msgstr "יצירת ענף"
 
 #. Resource IDs: (Dialog IDD_CREATECHANGELIST: Control id 243)
 msgid "Create Changelist"
@@ -3484,7 +3484,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGS_TITLE_CREATETAG)
 msgid "Create Tag"
-msgstr ""
+msgstr "יצירת תג"
 
 #. Resource IDs: (57600)
 msgid ""
@@ -3511,15 +3511,15 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUCREATEREPOS)
 msgid "Create repositor&y here..."
-msgstr ""
+msgstr "יצירת מאג&ר כאן..."
 
 #. Resource IDs: (IDS_PROC_CREATED)
 msgid "Created"
-msgstr ""
+msgstr "נוצר"
 
 #. Resource IDs: (IDS_MENUDESCCOPY)
 msgid "Creates a branch or tag"
-msgstr ""
+msgstr "יצירת ענף או תג"
 
 #. Resource IDs: (IDS_SETTINGS_CREATELIB_TT)
 msgid "Creates a library folder with special settings for Git working trees"
@@ -3557,16 +3557,16 @@ msgstr ""
 
 #. Resource IDs: (IDS_SCIEDIT_CUT)
 msgid "Cu&t"
-msgstr ""
+msgstr "גזו&ר"
 
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 1784, Dialog
 #. IDD_SETTINGSCOLORS_2: Control id 65535)
 msgid "Current Branch"
-msgstr ""
+msgstr "ענף נוכחי"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Current Branch:"
-msgstr ""
+msgstr "ענף נוכחי:"
 
 #. Resource IDs: (IDS_PROC_COMMIT_DETACHEDWARNING)
 msgid ""
@@ -3590,12 +3590,12 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
-msgstr ""
+msgstr "הגרסה הנוכחית:"
 
 #. Resource IDs: (IDS_CHECKNEWER_CURRENTVERSION)
 #, c-format
 msgid "Current version is: %s"
-msgstr ""
+msgstr "הגרסה הנוכחית: %s"
 
 #. Resource IDs: (IDS_TOOLBAR_CUSTOMIZE)
 msgid "Customize..."
@@ -3778,7 +3778,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SVNACTION_DELETING)
 msgid "Deleting"
-msgstr ""
+msgstr "מוחק"
 
 #. Resource IDs: (IDS_SETTINGS_DELCACHE)
 msgid "Deleting cached data"
@@ -3786,7 +3786,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_DELFILE)
 msgid "Deleting file"
-msgstr ""
+msgstr "מוחק קובץ"
 
 #. Resource IDs: (IDS_DELETING_REMOTE_REFS)
 msgid "Deleting remote refs..."
@@ -3799,7 +3799,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1646, Dialog IDD_PULLFETCH:
 #. Control id 1646)
 msgid "Depth"
-msgstr ""
+msgstr "עומק"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Describe"
@@ -3819,7 +3819,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1501)
 msgid "Destination"
-msgstr ""
+msgstr "יעד"
 
 #. Resource IDs: (AFX_IDP_FAILED_DISK_FULL)
 msgid "Destination disk drive is full."
@@ -3845,7 +3845,7 @@ msgstr ""
 
 #. Resource IDs: (32790)
 msgid "Detect moved or copied lines within a file"
-msgstr ""
+msgstr "זהה שורות שהועברו או הועתקו בתוך קובץ"
 
 #. Resource IDs: (AFX_IDS_DIB_FORMAT)
 msgid ""
@@ -7190,7 +7190,7 @@ msgstr "מספר המחברים:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "Number of characters required for moved or copied line detection:"
-msgstr "מספר התווים הנדרשים לזיהוי שורה שהוזזה או הועתקה:"
+msgstr "מספר התווים הנדרשים לזיהוי שורה שהועברה או הועתקה:"
 
 #. Resource IDs: (IDS_SETTINGS_DESCRIBEABBREVIATEDSIZE_TT)
 msgid "Number of characters to show in the abbreviated hash part"
