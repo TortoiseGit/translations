@@ -10,6 +10,7 @@
 # Ian Yoon <learder@gmail.com>, 2012
 # jeiea <solum5013@gmail.com>, 2013
 # Jinbaek Lee <jinb92@gmail.com>, 2016
+# Juhee Park <uu7470@gmail.com>, 2020
 # 오준일 <juniri123@gmail.com>, 2018
 # Kim KiHyeon <kmkh12@paran.com>, 2011
 # kim minhyouk <apollo8900@naver.com>, 2015
@@ -33,8 +34,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-10-17 16:25+0000\n"
-"Last-Translator: sr <simryangdaniel@nate.com>\n"
+"PO-Revision-Date: 2020-12-19 19:17+0000\n"
+"Last-Translator: Juhee Park <uu7470@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -336,13 +337,13 @@ msgstr "&3 way merge"
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
-msgstr "중단(&A)"
+msgstr "중단"
 
 #. Resource IDs: (IDS_HOOKFAILED_TASK3)
 msgid ""
 "&Abort\n"
 "You can fix the reason the hook script failed first."
-msgstr ""
+msgstr "중단\n훅 스크립트가 실패한 이유를 고칠 수 있습니다."
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
@@ -495,7 +496,7 @@ msgstr "리비전 비교(&C)"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPAREWITHPREVIOUS)
 msgid "&Compare with previous revision"
-msgstr ""
+msgstr "이전 리비전과 비교"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
@@ -517,7 +518,7 @@ msgstr "복사(&C)\tCtrl+C"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "&Credential helper:"
-msgstr ""
+msgstr "자격 증명 도움말:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1662)
 msgid "&Custom"
@@ -525,7 +526,7 @@ msgstr "사용자 지정(&C)"
 
 #. Resource IDs: (ID_VIEW_DARKMODE - Menu)
 msgid "&Dark Mode"
-msgstr ""
+msgstr "다크 모드"
 
 #. Resource IDs: (ID_VIEW_DARKMODE - Menu)
 msgid "&Dark Mode\tD"
@@ -596,7 +597,7 @@ msgstr "다시 묻지 않음(&D)"
 msgid ""
 "&Don't run\n"
 "Do not run the script"
-msgstr ""
+msgstr "실행하지 않음\n이 스크립트를 실행하지 않음"
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
 msgid "&Don't show this message again"
@@ -605,7 +606,7 @@ msgstr "이 메시지를 다시 표시하지 않음(&D)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr ""
+msgstr "현재 설정을 저장하지 않음"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -686,7 +687,7 @@ msgstr "다른 프로그램(&E)"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Extra PATH:"
-msgstr ""
+msgstr "다른 경로:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
@@ -1046,7 +1047,7 @@ msgstr "포트(&P):"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
 msgid "&Preserve merges"
-msgstr ""
+msgstr "병합 방지"
 
 #. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58116)
 msgid "&Print..."
@@ -1174,7 +1175,7 @@ msgstr "이 커밋 변경들을 되돌리기(&R)"
 msgid ""
 "&Run\n"
 "Run the hook script"
-msgstr ""
+msgstr "실행\n훅 스크립트를 실행하기"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 65535)
 msgid "&SSH client:"
@@ -1204,7 +1205,7 @@ msgstr "저장(&S)\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "검색"
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
@@ -1375,7 +1376,7 @@ msgstr "보기(&V)"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
 msgid "&View effective config"
-msgstr ""
+msgstr "효과적인 config 보기"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
@@ -1663,7 +1664,7 @@ msgstr "TortoiseGitMerge 정보"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 1)
 msgid "Accept certificate"
-msgstr ""
+msgstr "자격 승인"
 
 #. Resource IDs: (AFX_IDP_FILE_ACCESS_DENIED)
 #, c-format
@@ -1725,7 +1726,7 @@ msgstr "실행파일로 추가 (+x)"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_LINK)
 msgid "Add as Symlink"
-msgstr ""
+msgstr "심볼릭 링크를 추가하세요."
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
@@ -1829,7 +1830,7 @@ msgstr "모든 로컬 브랜치"
 msgid ""
 "All or some options are limited. In order to change all these settings, you "
 "need Administrator rights."
-msgstr ""
+msgstr "전부 또는 일부의 옵션이 제한됩니다. 모든 이런 설정을 바꾸기 위해 Administrator 권리가 필요합니다."
 
 #. Resource IDs: (IDS_ALLREFS)
 msgid "All refs"
@@ -1937,7 +1938,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ANNOTATEDTAGS)
 msgid "Annotated tags"
-msgstr ""
+msgstr "주석이 달린 태그"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_APPENDRIGHT)
 msgid "Append right block"
@@ -1994,7 +1995,7 @@ msgstr "재배치를 정말 중단하겠습니까?"
 
 #. Resource IDs: (IDS_REALLYCANCEL)
 msgid "Are you sure you want to cancel?"
-msgstr ""
+msgstr "정말 취소하시겠습니까?"
 
 #. Resource IDs: (IDS_PROC_RESOLVE)
 msgid "Are you sure you want to mark the conflicted file(s) as resolved?"
@@ -2088,7 +2089,7 @@ msgstr "인증"
 
 #. Resource IDs: (IDS_FIRSTSTART_AUTHENTICATIONTITLE)
 msgid "Authentication and credential store"
-msgstr ""
+msgstr "인증 및 자격 저장소 "
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1278)
 msgid "Authentication data"
@@ -2205,7 +2206,7 @@ msgstr "막대 그래프"
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 1385,
 #. IDS_PROC_DIFF_BASE)
 msgid "Base"
-msgstr ""
+msgstr "기준"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1522)
 msgid "Base On"
@@ -2245,7 +2246,7 @@ msgstr "Bisect reset"
 
 #. Resource IDs: (IDS_MENUBISECTSKIP)
 msgid "Bisect skip"
-msgstr ""
+msgstr "이분검색 생략"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
@@ -2577,7 +2578,7 @@ msgstr "중부 유럽"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Certificate verification failed!"
-msgstr ""
+msgstr "인증서 검증 실패"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1697)
 msgid "Change log"
@@ -6723,7 +6724,7 @@ msgstr "재통합 병합"
 msgid ""
 "Merge between original branch, working tree contents, and the branch to "
 "switch to"
-msgstr ""
+msgstr "기존 브랜치, 작업 트릐 내용 및 전환할 브랜치를 병합하십시오."
 
 #. Resource IDs: (IDS_PATHACTIONS_MERGED, IDS_SVNACTION_MERGED,
 #. IDS_VIEWTITLE_MERGED)
