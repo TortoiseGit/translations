@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2020-12-19 19:17+0000\n"
+"PO-Revision-Date: 2020-12-20 09:43+0000\n"
 "Last-Translator: Juhee Park <uu7470@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lznuaa/tortoisegit/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -1065,7 +1065,7 @@ msgstr "계속(&P)"
 msgid ""
 "&Proceed anyway\n"
 "Ignore the hook script and run the command anyway."
-msgstr ""
+msgstr "어쨌든 계속(&P)\n훅 스크립트를 무시하고 명령을 실행한다."
 
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
@@ -1254,7 +1254,7 @@ msgstr "임시 보관(&S)"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Menu)
 msgid "&Status Bar"
-msgstr "&Status Bar"
+msgstr "상태 바(&S)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1849)
 msgid "&Store credentials..."
@@ -1627,7 +1627,7 @@ msgstr "파일 이름 바꾼 로그 줄이기"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Abbreviated size"
-msgstr ""
+msgstr "축약된 크기"
 
 #. Resource IDs: (Dialog IDD_GITPROGRESS: Control id 2, Dialog IDD_REBASE:
 #. Control id 1565, Dialog IDD_RESOLVE_CONFLICT: Control id 2)
@@ -1934,7 +1934,7 @@ msgstr "%1에 접근 중에 알 수 없는 오류가 발생했습니다."
 #. Resource IDs: (IDS_ERR_PATCH_UNKNOWNLINETYPE)
 #, c-format
 msgid "An unknown line type was found in line %d!"
-msgstr ""
+msgstr "알 수 없는 라인 유형이 발견되었습니다. 라인번호 %d !"
 
 #. Resource IDs: (IDS_ANNOTATEDTAGS)
 msgid "Annotated tags"
@@ -1974,7 +1974,7 @@ msgstr "Unified Diff 적용"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK2)
 msgid "Approve or reject client-side hook script"
-msgstr ""
+msgstr "클라이언트 측 훅 스크립트를 승인 또는 거절"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Arabic"
@@ -2006,7 +2006,7 @@ msgstr "충돌한 파일들을 해결되었음으로 처리하는 것이 확실�
 msgid ""
 "Are you sure you want to revert %d item(s)? You will lose ALL changes since "
 "the last update!"
-msgstr ""
+msgstr "정말 %d개 항목을 되돌리겠습니까? 마지막 업데이트 이후의 모든 변경사항이 사라집니다!"
 
 #. Resource IDs: (IDS_WARNUSERSAFEDIFFERENT)
 #, c-format
@@ -2137,7 +2137,7 @@ msgstr "Auto Crlf:"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto&CrLf:"
-msgstr ""
+msgstr "Auto&CrLf:"
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOCONFLICTS)
 msgid "Auto-close if no conflicts"
@@ -2282,7 +2282,7 @@ msgstr "알파 혼합"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1852)
 msgid "Block TortoiseGit while executing the external merge tool"
-msgstr ""
+msgstr "외부 병합 툴을 실행하는 동안 TortoiseGit 블럭"
 
 #. Resource IDs: (cmdGroupBlocks_LabelTitle_RESID)
 msgid "Blocks"
@@ -2470,7 +2470,7 @@ msgid ""
 "%1!s!\n"
 "to\n"
 "%2!s!"
-msgstr ""
+msgstr "%1!s!를 %2!s!로 복사할 수 없습니다. "
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 2, Dialog
 #. AFX_IDD_PRINTDLG: Control id 2, Dialog IDD_ADD: Control id 2, Dialog
@@ -2547,7 +2547,7 @@ msgstr "Cancel\nStay with current settings"
 msgid ""
 "Cannot combine commits now.\n"
 "Make sure you are viewing the log of your current branch and no filters are applied."
-msgstr ""
+msgstr "커밋을 지금 결합할 수 없습니다. \n현재 브랜치의 로그를 보고 있고 필터가 적용되지 않았는지 확인하세요."
 
 #. Resource IDs: (IDS_B_CANNOTFORCECURRENT)
 msgid ""
@@ -2615,12 +2615,12 @@ msgstr "변경된 파일"
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTROROOT)
 #, c-format
 msgid "Changed files between %1!s! and %2!s!"
-msgstr ""
+msgstr "%1!s! 및 %2!s! 사이에 변경된 파일"
 
 #. Resource IDs: (IDS_FILEDIFF_CHANGEDLISTINTRO)
 #, c-format
 msgid "Changed files between %1!s!, %2!s! and %3!s!, %4!s!"
-msgstr ""
+msgstr " %1!s!, %2!s!과 %3!s!, %4!s! 사이에 변경된 파일"
 
 #. Resource IDs: (IDS_CHECKUPDATE_SUMMARY)
 #, c-format
@@ -2690,7 +2690,7 @@ msgstr "TortoiseGit 하위 메뉴가 아닌 최상위 컨텍스트 메뉴에서 
 msgid ""
 "Check those menu entries you want to appear only in the extended context "
 "menu (SHIFT + right click)"
-msgstr ""
+msgstr "확장 컨텍스트 메뉴(시프트+우클릭)에서 볼 항목을 체크하세요"
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
@@ -2708,7 +2708,7 @@ msgstr "체크:"
 msgid ""
 "Checked items will be hidden in the context menu by default and will only be"
 " visible if the shift key is pressed while opening the context menu."
-msgstr ""
+msgstr "확인된 아이템들은 기본적으로 숨겨지고 컨텍스트 메뉴가 열려있는 동안 쉬프트 키가 눌렸을 때에 보일 것 입니다."
 
 #. Resource IDs: (IDS_PROGRS_CMD_CHECKOUT, IDS_PROGRS_TITLE_CHECKOUT)
 msgid "Checkout"
@@ -2738,7 +2738,7 @@ msgstr "Cherry Pick failed"
 msgid ""
 "Cherry-pick failed (please see log in the cherry pick/rebase dialog for "
 "details)! Skip this commit?"
-msgstr ""
+msgstr "Cherry-pick 실패(자세한 내용은 Cherry chick/rebase 대화 상자의 로그를 참조하십시오.)! 현재 커밋을 생략하시겠습니까?"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Chinese"
@@ -2884,7 +2884,7 @@ msgstr "기본 저장소로 복제"
 
 #. Resource IDs: (IDS_CLONE_BARE_REPO_TT)
 msgid "Clone into a git repository without the working tree."
-msgstr ""
+msgstr "워킹 트리 없이 깃 저장소로 복제"
 
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
@@ -2903,13 +2903,13 @@ msgstr "수동으로 닫습니다."
 msgid ""
 "Close print preview mode\n"
 "Cancel Preview"
-msgstr "Close print preview mode\nCancel Preview"
+msgstr "프린트 미리보기 모드 종료\n미리보기 닫기"
 
 #. Resource IDs: (57602)
 msgid ""
 "Close the active document\n"
 "Close"
-msgstr "Close the active document\nClose"
+msgstr "활성화된 문서 닫기\n닫기"
 
 #. Resource IDs: (AFX_IDS_SCCLOSE)
 msgid "Close the active window and prompts to save the documents"
@@ -3158,11 +3158,11 @@ msgstr "대체 편집기를 지정합니다. *nix계열의 줄바꿈 문자를 �
 
 #. Resource IDs: (IDS_CONFIGUREDEFAULT)
 msgid "Configure default"
-msgstr ""
+msgstr "기본값 설정"
 
 #. Resource IDs: (IDS_FIRSTSTART_GITTITLE)
 msgid "Configure git.exe"
-msgstr ""
+msgstr "git.exe 파일 설정"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure the program used for comparing different revisions of files"
@@ -3174,7 +3174,7 @@ msgstr "충돌한 파일을 해결하는 프로그램을 설정합니다."
 
 #. Resource IDs: (IDS_FIRSTSTART_USERTITLE)
 msgid "Configure user information"
-msgstr ""
+msgstr "사용자 정보 설정"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
@@ -3308,7 +3308,7 @@ msgstr "새 버전을 확인할 수 없습니다!"
 #. Resource IDs: (IDS_CHECKNEWER_NETERROR_FORMAT)
 #, c-format
 msgid "Could not check for a newer version! %1!s! (Error code: 0x%2!08X!)"
-msgstr ""
+msgstr "새 버전을 확인할 수 없음! %1!s! (오류 코드: 0x%2!08X!)"
 
 #. Resource IDs: (IDS_ERR_COPYFILES)
 #, c-format
