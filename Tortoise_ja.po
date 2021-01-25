@@ -45,8 +45,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2021-01-24 08:19+0000\n"
-"Last-Translator: S.Tsukamoto <Shun.G.Tsukamoto@gmail.com>\n"
+"PO-Revision-Date: 2021-01-25 06:58+0000\n"
+"Last-Translator: 藤本理弘 <mfujimot@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/lznuaa/tortoisegit/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1877,7 +1877,7 @@ msgstr "最新状態です。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 333)
 msgid "Alternative editor"
-msgstr ""
+msgstr "代替エディタ"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1482)
 msgid "Always push to the selected remote archive for this local branch"
@@ -2952,15 +2952,15 @@ msgstr "色"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 315)
 msgid "Colors 1"
-msgstr ""
+msgstr "色 1"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 212)
 msgid "Colors 2"
-msgstr ""
+msgstr "色 2"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 316)
 msgid "Colors 3"
-msgstr ""
+msgstr "色 3"
 
 #. Resource IDs: (IDS_INDICATOR_COLUMN)
 #, c-format
@@ -3371,7 +3371,7 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in version string of git.exe.\n"
 "If you are using git of the Cygwin or MSYS2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "git.exe のバージョン文字列に \"msysgit\" または \"windows\" が見つかりませんでした。\nCygwin または MSYS2 環境の git を使用している場合は、特別なハックを有効にする必要があります。\n詳細については、ヘルプファイルをキーワード \"Cygwin git\" または \"MSYS2 git\" で参照してください。"
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -3603,7 +3603,7 @@ msgstr "プルリクエスト作成..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 4591)
 msgid "Credential"
-msgstr ""
+msgstr "資格情報"
 
 #. Resource IDs: (IDS_GITCREDENTIAL_HELPEREMPTY)
 msgid "Credential helper must not be empty."
@@ -3925,15 +3925,15 @@ msgstr "ダイアログ"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "Dialogs 1"
-msgstr ""
+msgstr "ダイアログ 1"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 197)
 msgid "Dialogs 2"
-msgstr ""
+msgstr "ダイアログ 2"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "Dialogs 3"
-msgstr ""
+msgstr "ダイアログ 3"
 
 #. Resource IDs: (cmdGroupDiff_LabelTitle_RESID)
 msgid "Diff"
@@ -5216,14 +5216,14 @@ msgstr "前進 %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in version string of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "git.exe のバージョン文字列に \"msysgit\" または \"windows\" が見つかったにもかかわらず、特別なハックが有効になっています。これらのハックは Git for Windows を利用する場合無効にする必要があります。\n詳細については、ヘルプファイルをキーワード \"Cygwin git\" または \"MSYS2 git\" で参照してください。"
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not running a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "TortoiseGit のリベース処理が実行中であることを示すロックファイルが見つかりました。これはこの操作をブロックします。\n\nあなたが現在 TortoiseGit のリベース処理を実行中でない場合、古いロックファイルを削除して、続行することができます。"
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
@@ -5903,7 +5903,7 @@ msgstr "アイコンオーバーレイ"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 184)
 msgid "Icon Set"
-msgstr ""
+msgstr "アイコンセット"
 
 #. Resource IDs: (IDS_ICONFILEFILTER)
 msgid ""
@@ -6134,7 +6134,7 @@ msgstr "%s をインポート"
 
 #. Resource IDs: (IDS_PROC_SYNC_INCHANGELIST)
 msgid "In Changelist"
-msgstr ""
+msgstr "変更リストにて"
 
 #. Resource IDs: (IDS_PROC_SYNC_INCOMMITS)
 msgid "In Commits"
@@ -6207,7 +6207,7 @@ msgstr "クリップボードの内容を挿入する\n貼り付け"
 msgid ""
 "Instead of pointing the newly created HEAD to the branch pointed to by the "
 "cloned repository's HEAD, point to specific branch instead."
-msgstr ""
+msgstr "新しく作成された HEAD を、クローンされたリポジトリの HEAD が指すブランチを指すのではなく、特定のブランチを指すようにします。"
 
 #. Resource IDs: (IDS_CLONE_ORIGIN_NAME_TT)
 msgid ""
@@ -6233,11 +6233,11 @@ msgstr "不正なリビジョン番号！"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 4571)
 msgid "Issue Tracker Config"
-msgstr ""
+msgstr "課題追跡システムの設定"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ: Control id 283)
 msgid "Issue Tracker Integration"
-msgstr ""
+msgstr "課題追跡システムとの統合"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Issuer:"
@@ -6721,7 +6721,7 @@ msgstr "マージの再統合"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 193)
 msgid "Merge Tool"
-msgstr ""
+msgstr "マージツール"
 
 #. Resource IDs: (IDS_PROC_SWITCH_MERGE_TT)
 msgid ""
@@ -7171,7 +7171,7 @@ msgstr "もしあなたが、自動保存されたドキュメントの復元を
 msgid ""
 "Note: These settings also apply to the Patch Viewer dialog.\n"
 "To select whether you would like to use the build-in or any alternative diff viewer program go to \"Diff Viewer\" preferences section in the leftward tree."
-msgstr ""
+msgstr "注：これらの設定は、パッチビューアダイアログにも適用されます。\nビルトインの差分ビューアを使用するか、代わりの差分ビューアを使用するかを選択するには、左側のツリーの「差分ビューア」設定セクションを選択してください。"
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
@@ -7488,7 +7488,7 @@ msgstr "Others"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCHANGELIST)
 msgid "Out Changelist"
-msgstr ""
+msgstr "送り出し変更リスト"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCOMMITS)
 msgid "Out Commits"
@@ -7508,7 +7508,7 @@ msgstr "Output.prn"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 338)
 msgid "Overlay Handlers"
-msgstr ""
+msgstr "オーバーレイハンドラー"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_OVERWRITE)
 msgid "Overwrite"
@@ -9256,7 +9256,7 @@ msgstr "表示"
 
 #. Resource IDs: (IDS_MENUREFLOG)
 msgid "Show &RefLog"
-msgstr ""
+msgstr "RefLogを表示(&R)"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1073,
 #. IDS_PROC_LOG_SHOWUNVERSIONED)
@@ -9429,7 +9429,7 @@ msgstr "ラベルの付いたコミットのみ(&B)"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1063)
 msgid "Show line number&s"
-msgstr ""
+msgstr "行番号を表示する(&S)"
 
 #. Resource IDs: (IDS_MENULFSLOCKS)
 msgid "Show locked files"
@@ -10757,7 +10757,7 @@ msgid ""
 "\n"
 "TortoiseGitBlame.Document\n"
 "TortoiseGitBlame.Document"
-msgstr ""
+msgstr "TortoiseGitBlame\n\nTortoiseGitBlame\n\n\nTortoiseGitBlame.Document\nTortoiseGitBlame.Document"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 153, IDS_APP_TITLE)
 msgid "TortoiseGitIDiff"
@@ -10879,7 +10879,7 @@ msgstr "行末の空白を削除"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1853)
 msgid "Trust the exitcode of the external merge tool for auto resolving"
-msgstr ""
+msgstr "自動的な解決のために外部マージツールの終了コードを信頼する"
 
 #. Resource IDs: (IDS_SVNERR_CLEANUPORFRESHCHECKOUT)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
@@ -11128,7 +11128,7 @@ msgstr ".mailmap を使用"
 
 #. Resource IDs: (IDS_PROC_USELFS_TT)
 msgid "Use Git LFS (only required for Git < 2.15 and Git LFS < 2.3)"
-msgstr ""
+msgstr "Git LFS を使用 (Git 2.15 未満と Git LFS 2.3 未満のみ必要)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
