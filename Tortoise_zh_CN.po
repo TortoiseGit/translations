@@ -34,7 +34,7 @@
 # xiaobing chen <olivetchan@qq.com>, 2016
 # Xijian Yan, 2018
 # XY <1642787610@qq.com>, 2020
-# YFdyh000 <yfdyh000@gmail.com>, 2013,2016,2019-2020
+# YFdyh000 <yfdyh000@gmail.com>, 2013,2016,2019-2021
 # YFdyh000 <yfdyh000@gmail.com>, 2013,2016
 # YFdyh000 <yfdyh000@gmail.com>, 2013-2018
 # zhang chuan <zhangchuan.cn@gmail.com>, 2011
@@ -44,8 +44,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2021-02-26 18:18+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2021-03-19 19:23+0000\n"
+"Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1876,7 +1876,7 @@ msgstr "已经最新"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 333)
 msgid "Alternative editor"
-msgstr ""
+msgstr "替代编辑器"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1482)
 msgid "Always push to the selected remote archive for this local branch"
@@ -2173,7 +2173,7 @@ msgstr "自动完成建议的字符（通常是类名或成员名）\n它来自�
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "AutoCrLf:"
-msgstr ""
+msgstr "自动换行符:"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1505)
 msgid "AutoLoad Putty &Key"
@@ -2951,15 +2951,15 @@ msgstr "颜色"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 315)
 msgid "Colors 1"
-msgstr ""
+msgstr "颜色一"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 212)
 msgid "Colors 2"
-msgstr ""
+msgstr "颜色二"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 316)
 msgid "Colors 3"
-msgstr ""
+msgstr "颜色三"
 
 #. Resource IDs: (IDS_INDICATOR_COLUMN)
 #, c-format
@@ -3239,11 +3239,11 @@ msgstr "冲突: %d"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 195)
 msgid "Context Menu"
-msgstr ""
+msgstr "右键菜单"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
 msgid "Context Menu 2"
-msgstr ""
+msgstr "右键菜单二"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "Context lines for patches"
@@ -3370,7 +3370,7 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in version string of git.exe.\n"
 "If you are using git of the Cygwin or MSYS2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "git.exe 的版本字符串中未找到 \"msysgit\" 或 \"windows\"。\n如果您在使用的为 Cygwin 或 MSYS2 环境的 git，您需要启用特殊处理。\n您可以在帮助文件中查阅 \"Cygwin git\" 或 \"MSYS2 git\" 了解更多信息。"
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -3602,7 +3602,7 @@ msgstr "正在创建拉取请求..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 4591)
 msgid "Credential"
-msgstr ""
+msgstr "凭证"
 
 #. Resource IDs: (IDS_GITCREDENTIAL_HELPEREMPTY)
 msgid "Credential helper must not be empty."
@@ -3924,15 +3924,15 @@ msgstr "对话框"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "Dialogs 1"
-msgstr ""
+msgstr "对话框组一"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 197)
 msgid "Dialogs 2"
-msgstr ""
+msgstr "对话框组二"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "Dialogs 3"
-msgstr ""
+msgstr "对话框组三"
 
 #. Resource IDs: (cmdGroupDiff_LabelTitle_RESID)
 msgid "Diff"
@@ -5215,14 +5215,14 @@ msgstr "向前 %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in version string of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "在 git.exe 的版本字符串找到 \"msysgit\" 或 \"windows\"，但您已启用对 git.exe 的特殊处理。\n这些特殊处理必须禁用才能正确配合 Git for Windows 运作！\n您可以在帮助文件中查阅 \"Cygwin git\" 或 \"MSYS2 git\" 了解更多信息。"
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not running a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "发现一个锁文件，它表示 TortoiseGit 变基流程正在运行。这阻止了此操作。\n\n如果您并无运行 TortoiseGit 变基流程，则可以移除残留的锁文件以继续操作。"
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
@@ -5902,7 +5902,7 @@ msgstr "图标覆盖"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 184)
 msgid "Icon Set"
-msgstr ""
+msgstr "图标集"
 
 #. Resource IDs: (IDS_ICONFILEFILTER)
 msgid ""
@@ -6133,7 +6133,7 @@ msgstr "正在导入文件 %s"
 
 #. Resource IDs: (IDS_PROC_SYNC_INCHANGELIST)
 msgid "In Changelist"
-msgstr ""
+msgstr "将传入的变更"
 
 #. Resource IDs: (IDS_PROC_SYNC_INCOMMITS)
 msgid "In Commits"
@@ -6206,7 +6206,7 @@ msgstr "插入剪贴板内容\n粘贴"
 msgid ""
 "Instead of pointing the newly created HEAD to the branch pointed to by the "
 "cloned repository's HEAD, point to specific branch instead."
-msgstr ""
+msgstr "不将新创建的 HEAD 指向所克隆仓库的 HEAD 指向的分支，改为指向特定分支。"
 
 #. Resource IDs: (IDS_CLONE_ORIGIN_NAME_TT)
 msgid ""
@@ -6232,11 +6232,11 @@ msgstr "无效的修订版本号！"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 4571)
 msgid "Issue Tracker Config"
-msgstr ""
+msgstr "问题跟踪器配置"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ: Control id 283)
 msgid "Issue Tracker Integration"
-msgstr ""
+msgstr "问题跟踪器集成"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Issuer:"
@@ -6720,7 +6720,7 @@ msgstr "合并复兴分支"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 193)
 msgid "Merge Tool"
-msgstr ""
+msgstr "合并工具"
 
 #. Resource IDs: (IDS_PROC_SWITCH_MERGE_TT)
 msgid ""
@@ -7170,7 +7170,7 @@ msgstr "如果您选择恢复自动保存的文档，您必须明确地将它们
 msgid ""
 "Note: These settings also apply to the Patch Viewer dialog.\n"
 "To select whether you would like to use the build-in or any alternative diff viewer program go to \"Diff Viewer\" preferences section in the leftward tree."
-msgstr ""
+msgstr "注意：这些设置也适用于“补丁查看器”对话框。\n要选择是否要使用内置的或任何其他差异查看器程序，请转到左侧树中的“差异查看器”首选项部分。"
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
@@ -7487,7 +7487,7 @@ msgstr "对方的"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCHANGELIST)
 msgid "Out Changelist"
-msgstr ""
+msgstr "将推送的变更"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCOMMITS)
 msgid "Out Commits"
@@ -7507,7 +7507,7 @@ msgstr "Output.prn"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 338)
 msgid "Overlay Handlers"
-msgstr ""
+msgstr "覆盖处理器"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_OVERWRITE)
 msgid "Overwrite"
@@ -8181,7 +8181,7 @@ msgstr "引用列表"
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1354, Dialog
 #. IDD_REVGRAPHFILTER: Control id 1729)
 msgid "RefBrowser"
-msgstr ""
+msgstr "浏览引用"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1588, IDS_REFLOG)
 msgid "RefLog"
@@ -8189,7 +8189,7 @@ msgstr "引用记录"
 
 #. Resource IDs: (IDS_REFBROWSE)
 msgid "Reference Browser"
-msgstr ""
+msgstr "引用浏览器"
 
 #. Resource IDs: (Dialog IDD_COMMITISONREFS: Control id 4596)
 msgid "References commit is on"
@@ -8792,7 +8792,7 @@ msgstr "检查换行符(&F):"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "SafeCrLf:"
-msgstr ""
+msgstr "安全换行符:"
 
 #. Resource IDs: (IDS_SAME, IDS_TAGCOMPARE_SAME)
 msgid "Same"
@@ -9255,7 +9255,7 @@ msgstr "显示"
 
 #. Resource IDs: (IDS_MENUREFLOG)
 msgid "Show &RefLog"
-msgstr ""
+msgstr "显示引用记录(&R)"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1073,
 #. IDS_PROC_LOG_SHOWUNVERSIONED)
@@ -9428,7 +9428,7 @@ msgstr "仅显示有块状标签的提交(&B)"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1063)
 msgid "Show line number&s"
-msgstr ""
+msgstr "显示行号(&S)"
 
 #. Resource IDs: (IDS_MENULFSLOCKS)
 msgid "Show locked files"
@@ -10250,7 +10250,7 @@ msgstr "文件过大，无法打开。"
 
 #. Resource IDs: (IDS_MODIFIEDASKSAVE)
 msgid "The file was modified. Do you want to save the changes?"
-msgstr ""
+msgstr "文件已修改，是否保存更改？"
 
 #. Resource IDs: (IDS_PROC_OVERWRITE_CONFIRM)
 #, c-format
@@ -10760,7 +10760,7 @@ msgid ""
 "\n"
 "TortoiseGitBlame.Document\n"
 "TortoiseGitBlame.Document"
-msgstr ""
+msgstr "TortoiseGitBlame\n\nTortoiseGitBlame\n\n\nTortoiseGitBlame.Document\nTortoiseGitBlame.Document"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 153, IDS_APP_TITLE)
 msgid "TortoiseGitIDiff"
@@ -10882,7 +10882,7 @@ msgstr "去掉行尾空格"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1853)
 msgid "Trust the exitcode of the external merge tool for auto resolving"
-msgstr ""
+msgstr "信任并解析外部合并工具的退出码（exitcode）"
 
 #. Resource IDs: (IDS_SVNERR_CLEANUPORFRESHCHECKOUT)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
@@ -11131,7 +11131,7 @@ msgstr "使用 .mailmap"
 
 #. Resource IDs: (IDS_PROC_USELFS_TT)
 msgid "Use Git LFS (only required for Git < 2.15 and Git LFS < 2.3)"
-msgstr ""
+msgstr "使用 Git LFS（仅当 Git < 2.15 且 Git LFS < 2.3 时必须）"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
@@ -11718,7 +11718,7 @@ msgstr "您要求拉取，但没有指定远程分支。"
 #. Resource IDs: (IDS_PRUNE_OPTION_GUIDE)
 msgid ""
 "You can configure it for all remotes or global on the Git settings page."
-msgstr ""
+msgstr "您可以在 Git 设置页面上针对所有远端或全局配置。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid ""
