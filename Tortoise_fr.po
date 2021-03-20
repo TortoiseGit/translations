@@ -11,7 +11,7 @@
 # bauland <nicolas.bauland@laposte.net>, 2014
 # Benoît Locher, 2017
 # Benoît Locher, 2017
-# Benoit Neil <sukender@free.fr>, 2019
+# Benoit Neil <sukender@free.fr>, 2019,2021
 # Christophe SAUVEUR <christophe@xhaleera.com>, 2011-2012
 # deathart <deathart@hotmail.fr>, 2013-2014
 # Dirk Hoffmann <Hoffmann@cppm.in2p3.fr>, 2015
@@ -64,8 +64,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2021-02-26 18:18+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2021-03-20 09:31+0000\n"
+"Last-Translator: Benoit Neil <sukender@free.fr>\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1896,7 +1896,7 @@ msgstr "Déjà à jour."
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 333)
 msgid "Alternative editor"
-msgstr ""
+msgstr "Éditeur alternatif"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1482)
 msgid "Always push to the selected remote archive for this local branch"
@@ -2193,7 +2193,7 @@ msgstr "La complétion automatique suggère des mots (habituellement des classes
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "AutoCrLf:"
-msgstr ""
+msgstr "AutoCrLf :"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1505)
 msgid "AutoLoad Putty &Key"
@@ -2971,15 +2971,15 @@ msgstr "Couleurs"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 315)
 msgid "Colors 1"
-msgstr ""
+msgstr "Couleurs 1"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 212)
 msgid "Colors 2"
-msgstr ""
+msgstr "Couleurs 2"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 316)
 msgid "Colors 3"
-msgstr ""
+msgstr "Couleurs 3"
 
 #. Resource IDs: (IDS_INDICATOR_COLUMN)
 #, c-format
@@ -3194,7 +3194,7 @@ msgstr "Configurer les scripts hook"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 284)
 msgid "Configure Issue Tracker Integration"
-msgstr "Configurer Intégration du Système de Suivi de Problèmes"
+msgstr "Configurer l'intégration du traqueur d'incidents"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 65535)
 msgid ""
@@ -3259,11 +3259,11 @@ msgstr "Conflits : %d"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 195)
 msgid "Context Menu"
-msgstr ""
+msgstr "Menu contextuel"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
 msgid "Context Menu 2"
-msgstr ""
+msgstr "Menu contextuel 2"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "Context lines for patches"
@@ -3390,7 +3390,7 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in version string of git.exe.\n"
 "If you are using git of the Cygwin or MSYS2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "Impossible de trouver \"msysgit\" ou \"windows\" dans la chaine de version de git.exe. Si vous utilisez git dans un environnement Cygwin ou MSYS2, il est nécessaire d'activer les hacks (contournement) spéciaux.\nVous pouvez trouver plus d'informations dans l'aide avec les mots-clés \"Cygwin Git\" ou \"MSYS2 Git\"."
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -3622,7 +3622,7 @@ msgstr "Création de demande d'extraction..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 4591)
 msgid "Credential"
-msgstr ""
+msgstr "Identifiant"
 
 #. Resource IDs: (IDS_GITCREDENTIAL_HELPEREMPTY)
 msgid "Credential helper must not be empty."
@@ -4849,7 +4849,7 @@ msgstr "Échec de la définition / suppression de la liste de modifications '%s'
 msgid ""
 "Failed to start the issue tracker COM provider '%1!s!'.\n"
 "%2!s!"
-msgstr "Échec au démarrage du fournisseur COM du système de suivi des problèmes '%1!s!'.\n%2!s!"
+msgstr "Échec au démarrage du fournisseur COM du système de traqueur d'incidents '%1!s!'.\n%2!s!"
 
 #. Resource IDs: (IDS_ERR_PAEGENTTIMEOUT)
 msgid "Failed waiting for pageant to finish loading key."
@@ -5235,14 +5235,14 @@ msgstr "Transférer %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in version string of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "\"msysgit\" ou \"windows\" trouvé dans la chaine de version de git.exe, mais les hacks (contournements) de git.exe sont activées. Ces hacks doivent être désactivés pour que Git pour Windows fonctionne correctement!\nVous pouvez trouver plus d'informations dans l'aide avec les mots-clés \"Cygwin Git\" ou \"MSYS2 git\"."
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not running a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "Un fichier de verrouillage indiquant qu'un processus de rebase de TortoiseGit est en cours d'exécution a été trouvé. Cela bloque cette opération.\n\nSi vous n'exécutez pas de processus de rebase Tortoise Git pour le moment, vous pouvez supprimer le fichier de verrouillage obsolète pour continuer."
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
@@ -5922,7 +5922,7 @@ msgstr "Recouvrements d'icône"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 184)
 msgid "Icon Set"
-msgstr ""
+msgstr "Jeu d'icônes"
 
 #. Resource IDs: (IDS_ICONFILEFILTER)
 msgid ""
@@ -6153,7 +6153,7 @@ msgstr "Import du fichier %s"
 
 #. Resource IDs: (IDS_PROC_SYNC_INCHANGELIST)
 msgid "In Changelist"
-msgstr ""
+msgstr "Liste de changements entrants"
 
 #. Resource IDs: (IDS_PROC_SYNC_INCOMMITS)
 msgid "In Commits"
@@ -6226,7 +6226,7 @@ msgstr "Insérer le presse papiers\nColler"
 msgid ""
 "Instead of pointing the newly created HEAD to the branch pointed to by the "
 "cloned repository's HEAD, point to specific branch instead."
-msgstr ""
+msgstr "Au lieu de pointer le HEAD nouvellement créé vers la branche pointée par le HEAD du dépôt cloné, pointez plutôt sur une branche spécifique."
 
 #. Resource IDs: (IDS_CLONE_ORIGIN_NAME_TT)
 msgid ""
@@ -6252,11 +6252,11 @@ msgstr "Numéro de révision invalide!"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 4571)
 msgid "Issue Tracker Config"
-msgstr ""
+msgstr "Configuration du traqueur d'incidents"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ: Control id 283)
 msgid "Issue Tracker Integration"
-msgstr ""
+msgstr "Intégration de traqueur d'incidents"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Issuer:"
@@ -6740,7 +6740,7 @@ msgstr "Fusionner Réintégrer"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 193)
 msgid "Merge Tool"
-msgstr ""
+msgstr "Outil de fusion"
 
 #. Resource IDs: (IDS_PROC_SWITCH_MERGE_TT)
 msgid ""
@@ -7190,7 +7190,7 @@ msgstr "Notez que si vous choisissez de récupérer les documents automatiquemen
 msgid ""
 "Note: These settings also apply to the Patch Viewer dialog.\n"
 "To select whether you would like to use the build-in or any alternative diff viewer program go to \"Diff Viewer\" preferences section in the leftward tree."
-msgstr ""
+msgstr "Note : ces réglages s'appliquent aussi à la fenêtre de visualisation des Patchs.\nPour sélectionner de quelle manière vous voudriez utiliser la version intégrée ou un autre programme de visualisation, allez à \"Visualisateur de différences\" dans les préférences dans l'arbre à gauche."
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
@@ -7507,7 +7507,7 @@ msgstr "Autres"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCHANGELIST)
 msgid "Out Changelist"
-msgstr ""
+msgstr "Liste de changements sortants"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCOMMITS)
 msgid "Out Commits"
@@ -8812,7 +8812,7 @@ msgstr "Sa&feCrLf:"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "SafeCrLf:"
-msgstr ""
+msgstr "SafeCrLf :"
 
 #. Resource IDs: (IDS_SAME, IDS_TAGCOMPARE_SAME)
 msgid "Same"
@@ -9086,7 +9086,7 @@ msgstr "Sélectionner un fichier"
 
 #. Resource IDs: (IDS_SETTINGS_BUGTRAQ_SELECTFOLDERPATH)
 msgid "Select folder to associate with this issue tracker"
-msgstr "Sélectionnez le répertoire à associer avec ce système de suivi de problèmes"
+msgstr "Sélectionnez le répertoire à associer avec ce système de traqueur d'incidents"
 
 #. Resource IDs: (IDS_PROC_EXPORT_1)
 msgid ""
@@ -9448,7 +9448,7 @@ msgstr "Afficher uniquement les commentaires rédigés"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1063)
 msgid "Show line number&s"
-msgstr ""
+msgstr "Voir les numéros de ligne&s"
 
 #. Resource IDs: (IDS_MENULFSLOCKS)
 msgid "Show locked files"
@@ -10270,7 +10270,7 @@ msgstr "Le fichier est trop volumineux pour être ouvert."
 
 #. Resource IDs: (IDS_MODIFIEDASKSAVE)
 msgid "The file was modified. Do you want to save the changes?"
-msgstr ""
+msgstr "Le fichier a été modifié. Voulez-vous enregistrer les changements ?"
 
 #. Resource IDs: (IDS_PROC_OVERWRITE_CONFIRM)
 #, c-format
