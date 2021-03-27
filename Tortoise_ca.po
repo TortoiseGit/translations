@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2021-03-27 16:59+0000\n"
+"PO-Revision-Date: 2021-03-27 17:56+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -329,7 +329,7 @@ msgstr "&Avorta"
 msgid ""
 "&Abort\n"
 "You can fix the reason the hook script failed first."
-msgstr ""
+msgstr "&Interromp\nPodeu resoldre el motiu pel qual ha fallat l'script hook."
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
@@ -583,7 +583,7 @@ msgstr "&No m'ho preguntis més"
 msgid ""
 "&Don't run\n"
 "Do not run the script"
-msgstr ""
+msgstr "&No executar\nNo executar l'script"
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
 msgid "&Don't show this message again"
@@ -1051,7 +1051,7 @@ msgstr "&Continua"
 msgid ""
 "&Proceed anyway\n"
 "Ignore the hook script and run the command anyway."
-msgstr ""
+msgstr "&Continua de totes maneres\nIgnora l'script hook i executa l'ordre de totes maneres."
 
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
@@ -1161,7 +1161,7 @@ msgstr "Restitueix els canvis fets per aquestes entregues"
 msgid ""
 "&Run\n"
 "Run the hook script"
-msgstr ""
+msgstr "&Executa\nExecuta l'script hook"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 65535)
 msgid "&SSH client:"
@@ -1964,7 +1964,7 @@ msgstr "Aplicar Comparació unificada"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK2)
 msgid "Approve or reject client-side hook script"
-msgstr ""
+msgstr "Aprova o rebutja l'script hook al costat client"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Arabic"
@@ -2009,7 +2009,7 @@ msgstr "Organitza &verticalment\tV"
 
 #. Resource IDs: (ID_VIEW_ARROW_POINT_TO_MERGES - Menu)
 msgid "Arrows point towards merges"
-msgstr ""
+msgstr "Les fletxes apunten cap a les fusions"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTSET)
 #, c-format
@@ -2956,11 +2956,11 @@ msgstr "Comanda"
 
 #. Resource IDs: (IDS_SETTINGS_HOOKS_COMMANDLINECOL)
 msgid "Command Line"
-msgstr "Línia de comandes"
+msgstr "Línia d'ordre"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1336)
 msgid "Command Line To Execute:"
-msgstr "Comanda a Executar:"
+msgstr "Línia d'ordre a executar:"
 
 #. Resource IDs: (AFX_IDP_COMMAND_FAILURE)
 msgid "Command failed."
@@ -3146,7 +3146,7 @@ msgstr "Configurar Filtres regex"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 236)
 msgid "Configure Hook Scripts"
-msgstr "Configura scripts d'interconnexió"
+msgstr "Configura scripts hook"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 284)
 msgid "Configure Issue Tracker Integration"
@@ -4077,7 +4077,7 @@ msgstr "No em mostris més aquest avís (si prems Ignora)"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK5)
 msgid "Do not ask again for this script"
-msgstr ""
+msgstr "No tornar a preguntar per aquest script"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1407)
 msgid "Do not auto-select \"missing\" files (deleted, but unstaged)"
@@ -5567,7 +5567,7 @@ msgstr "Amaga pedaç<<"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1326)
 msgid "Hide the script while running"
-msgstr "Amaga el script mentres s'està executant"
+msgstr "Amaga l'script mentre s'està executant"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
 msgid "Hide the selected items in the context menu:"
@@ -5604,19 +5604,19 @@ msgstr "Consell: Els missatges d'entrega recents estan disponibles amb el menú 
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKS: Control id 103)
 msgid "Hook Scripts"
-msgstr "Scripts d'interconnexió"
+msgstr "Scripts hook"
 
 #. Resource IDs: (IDS_SETTINGS_HOOKS_TYPECOL)
 msgid "Hook Type"
-msgstr "Tipus d'interconnexió"
+msgstr "Tipus de hook"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1334)
 msgid "Hook Type:"
-msgstr "Tipus d'interconnexió:"
+msgstr "Tipus de hook:"
 
 #. Resource IDs: (IDS_HOOKFAILED_TASK2)
 msgid "Hook script failed"
-msgstr ""
+msgstr "Ha fallat l'script hook"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
@@ -6117,7 +6117,7 @@ msgstr "Entregues rebudes"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
 msgid "In order to abort a merge progress a reset (to HEAD) is needed."
-msgstr ""
+msgstr "Cal reinicialitzar (a HEAD) per interrompre la fusió en curs"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT2)
 msgid ""
@@ -7704,13 +7704,13 @@ msgstr "Diagrama de sectors"
 
 #. Resource IDs: (IDS_ERR_NOHOOKCOMMANDPECIFIED)
 msgid "Please enter a hook script to execute."
-msgstr "Introdueix un scripts d'interconnexió per executar."
+msgstr "Introduïu un script hook per executar."
 
 #. Resource IDs: (IDS_ERR_NOHOOKPATHSPECIFIED)
 msgid ""
 "Please enter a path where to apply the hook script to. Use \"*\" for all "
 "paths."
-msgstr "Introduïu un camí on aplicar l'script d'interconnexió. Useu \"*\" per a tots els camins."
+msgstr "Introduïu un camí on aplicar l'script hook. Useu \"*\" per a tots els camins."
 
 #. Resource IDs: (IDS_GITCHANGED_NEEDRESTART)
 msgid "Please restart TortoiseGit for the changes of git.exe to take effect."
@@ -7725,7 +7725,7 @@ msgstr "Vegeu <a id=\"manual\">manual</a> per a consells generals. Per exemple, 
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
-msgstr "Seleccioneu un tipus d'interconnexió"
+msgstr "Seleccioneu un tipus de hook"
 
 #. Resource IDs: (IDS_SELECTBRANCH)
 msgid "Please select branch"
@@ -7766,7 +7766,7 @@ msgstr "Port :"
 
 #. Resource IDs: (IDS_HOOKTYPE_POSTCOMMIT)
 msgid "Post-Commit Hook"
-msgstr "Interconnexió Post-Entrega"
+msgstr "Hook Post-Entrega"
 
 #. Resource IDs: (IDS_HOOKTYPE_POSTPUSH)
 msgid "Post-Push Hook"
@@ -7778,7 +7778,7 @@ msgstr "Pàgina Prè&via"
 
 #. Resource IDs: (IDS_HOOKTYPE_PRECOMMIT)
 msgid "Pre-Commit Hook"
-msgstr "Interconnexió Pre-Entrega"
+msgstr "Hook Pre-Entrega"
 
 #. Resource IDs: (IDS_HOOKTYPE_PREPUSH)
 msgid "Pre-Push Hook"
@@ -7786,7 +7786,7 @@ msgstr "Interconnexió Pre-empenta"
 
 #. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
 msgid "Pre-rebase hook"
-msgstr "Interconnexió Pre-rebase"
+msgstr "Hook Pre-rebase"
 
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
@@ -7857,7 +7857,7 @@ msgstr "Imprimint"
 
 #. Resource IDs: (IDS_HOOK_FORCEDPROCEED)
 msgid "Proceed anyway"
-msgstr ""
+msgstr "Continua de totes maneres"
 
 #. Resource IDs: (IDS_PROGS_TOOLCOL)
 msgid "Program"
@@ -8670,7 +8670,7 @@ msgstr "Imatge dreta"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1848)
 msgid "Run for this repository"
-msgstr ""
+msgstr "Executa per aquest dipòsit"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1335)
 msgid "Run when working tree path is under:"
@@ -9060,7 +9060,7 @@ msgstr "Selecciona carpeta a on desar els fitxers seleccionats"
 
 #. Resource IDs: (IDS_SETTINGS_HOOKS_SELECTSCRIPTFILE)
 msgid "Select hook script file"
-msgstr "Selecciona fitxer amb l'script d'interconnexió"
+msgstr "Selecciona fitxer amb l'script hook"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1405)
 msgid "Select items automatically"
@@ -9695,7 +9695,7 @@ msgstr "Inicia la tria"
 
 #. Resource IDs: (IDS_HOOKTYPE_STARTCOMMIT)
 msgid "Start Commit Hook"
-msgstr "Interconnexió d'inici Entrega"
+msgstr "Hook d'inici Entrega"
 
 #. Resource IDs: (IDS_PROC_REBASE_STARTREBASE, IDS_PROC_STARTREBASEBUTTON)
 msgid "Start Rebase"
@@ -10265,7 +10265,7 @@ msgstr "La carpeta \n%s\nno existeix.\nVoleu crear-la?"
 msgid ""
 "The hook script returned an error:\n"
 "%ls"
-msgstr ""
+msgstr "L'script hook ha retornat un error:\n%ls"
 
 #. Resource IDs: (IDS_ERR_HOOKFAILED)
 #, c-format
@@ -10276,7 +10276,7 @@ msgstr "L'script d'interconnexió ha retornat un error:\n%s"
 
 #. Resource IDs: (IDS_ERR_HOOKNOTAPPROVED)
 msgid "The hook script was not approved to run!"
-msgstr ""
+msgstr "L'script hook no està aprovat per ser executat"
 
 #. Resource IDs: (IDS_INVALIDIMAGEINFO)
 msgid "The image can not be shown."
@@ -10606,7 +10606,7 @@ msgid ""
 "This working copy has a client-side hook script configured. Do you want this script to run?\n"
 "The command line to run is:\n"
 "%ls"
-msgstr ""
+msgstr "Aquesta còpia de treball té un script hook configurat al cantó client. El voleu executar?\nLínia d'ordre a executar:\n%ls"
 
 #. Resource IDs: (IDS_TREE_DIFF)
 msgid "Three way diff"
