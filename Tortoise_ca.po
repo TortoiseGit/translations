@@ -13,15 +13,15 @@
 # el_libre como el chaval <el.libre@gmail.com>, 2011
 # Lübbe Onken <luebbe.opensource@gmail.com>, 2013
 # Lübbe Onken <luebbe.opensource@gmail.com>, 2013
-# Sven Strickroth <sstrickroth@googlemail.com>, 2013,2015,2020
+# Sven Strickroth <sstrickroth@googlemail.com>, 2013,2015,2020-2021
 # TempEmail.net <abanibi@tempemail.net>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2021-03-28 10:13+0000\n"
-"Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
+"PO-Revision-Date: 2021-04-01 08:57+0000\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3346,7 +3346,7 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in version string of git.exe.\n"
 "If you are using git of the Cygwin or MSYS2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "No s'ha trobat \"msysgit\" o \"windows\" a la cadena de versió de git.exe.\nSi useu el git del Cygwin o de l'entorn MSYS2 cal activar uns hacks especials.\nVegeu més informació al fitxer d'ajuda amb la clau \"Cygwin Git\" o \"MSYS2 Git\"."
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -5191,14 +5191,14 @@ msgstr "Avança %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in version string of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "S'ha trobat \"msysgit\" o \"windows\" a la cadena de versió de git.exe, però els hacks del git.exe estan activats. Cal desactivar aquests hacks per a un funcionament correcte del Git del Windows.\nVegeu més informació al fitxer d'ajuda amb la clau \"Cygwin Git\" o \"MSYS2 Git\"."
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not running a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "S'ha trobat un fitxer de bloqueig indicant que s'està executant un procés de rebase del TortoiseGit. Això bloqueja aquesta operació.\n\nSi ara mateix no esteu executant un procés de rebase del TortoiseGit, per continuar podeu eliminar el fitxer de bloqueig."
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
@@ -5878,7 +5878,7 @@ msgstr "Sobreposició d'icones"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 184)
 msgid "Icon Set"
-msgstr ""
+msgstr "Conjunt d'icones"
 
 #. Resource IDs: (IDS_ICONFILEFILTER)
 msgid ""
@@ -6208,11 +6208,11 @@ msgstr "El número de revisió no és vàlid!"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 4571)
 msgid "Issue Tracker Config"
-msgstr ""
+msgstr "Configuració del rastreig d'incidències"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ: Control id 283)
 msgid "Issue Tracker Integration"
-msgstr ""
+msgstr "Integració del Seguidor d'Incidències"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Issuer:"
@@ -7483,7 +7483,7 @@ msgstr "Sortida.prn"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 338)
 msgid "Overlay Handlers"
-msgstr ""
+msgstr "Conjunt d'icones"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_OVERWRITE)
 msgid "Overwrite"
@@ -8768,7 +8768,7 @@ msgstr "Sa&feCrLf:"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "SafeCrLf:"
-msgstr ""
+msgstr "SafeCrLf:"
 
 #. Resource IDs: (IDS_SAME, IDS_TAGCOMPARE_SAME)
 msgid "Same"
@@ -12115,15 +12115,15 @@ msgstr "manager - només aquest dipòsit"
 
 #. Resource IDs: (IDS_SYSTEM_GCMCORE)
 msgid "manager-core - all Windows users"
-msgstr ""
+msgstr "manager-core - tots els usuaris de Windows"
 
 #. Resource IDs: (IDS_GLOBAL_GCMCORE)
 msgid "manager-core - current Windows user"
-msgstr ""
+msgstr "manager-core - l'usuari de windows actual"
 
 #. Resource IDs: (IDS_LOCAL_GCMCORE)
 msgid "manager-core - this repository only"
-msgstr ""
+msgstr "manager-core - només aquest dipòsit"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1494)
 msgid "master"
