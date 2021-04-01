@@ -36,19 +36,19 @@
 # Rodrigo Monte <rodrigo.monte86@gmail.com>, 2014
 # Samuel Facchinello (samuelfac) <samuelfac@gmail.com>, 2017
 # Samuel Facchinello (samuelfac) <samuelfac@gmail.com>, 2017
-# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2015
+# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2015,2021
 # Thiago Feldhaus <thiagofcf@gmail.com>, 2016,2018
 # Thiago Feldhaus <thiagofcf@gmail.com>, 2016
 # Thiago Feldhaus <thiagofcf@gmail.com>, 2016,2019
 # Tiago G. Sala, 2018
-# Tiago G. Sala, 2018
+# Tiago Sala, 2018
 # Victor Westmann <victor.westmann@gmail.com>, 2012,2015
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2021-02-26 18:18+0000\n"
+"PO-Revision-Date: 2021-04-01 10:34+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/lznuaa/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -2151,7 +2151,7 @@ msgstr "Converter automaticamente CrLf"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto&CrLf:"
-msgstr ""
+msgstr "Auto&CrLf:"
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOCONFLICTS)
 msgid "Auto-close if no conflicts"
@@ -2177,7 +2177,7 @@ msgstr "O autocompletar sugere palavras (geralmente nomes de classes ou\nmembros
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "AutoCrLf:"
-msgstr ""
+msgstr "AutoCrLf:"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1505)
 msgid "AutoLoad Putty &Key"
@@ -2955,15 +2955,15 @@ msgstr "Cores"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 315)
 msgid "Colors 1"
-msgstr ""
+msgstr "Cores 1"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 212)
 msgid "Colors 2"
-msgstr ""
+msgstr "Cores 2"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 316)
 msgid "Colors 3"
-msgstr ""
+msgstr "Cores 3"
 
 #. Resource IDs: (IDS_INDICATOR_COLUMN)
 #, c-format
@@ -3243,11 +3243,11 @@ msgstr "Conflitos: %d"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 195)
 msgid "Context Menu"
-msgstr ""
+msgstr "Menu de Contexto"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
 msgid "Context Menu 2"
-msgstr ""
+msgstr "Menu de Contexto 2"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "Context lines for patches"
@@ -3374,7 +3374,7 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in version string of git.exe.\n"
 "If you are using git of the Cygwin or MSYS2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "Não foi possível encontrar a string de versão do \"msysgit\" ou \"windows\" para o git.exe.\nSe você está usando o ambiente Cygwin ou MSYS2, você precisa ativar os hacks especiais.\nPara mais informações, procure no arquivo de ajuda por \"Cygwin Git\" ou \"MSYS2 Git\"."
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -3928,15 +3928,15 @@ msgstr "Diálogos"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 196)
 msgid "Dialogs 1"
-msgstr ""
+msgstr "Diálogos 1"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 197)
 msgid "Dialogs 2"
-msgstr ""
+msgstr "Diálogos 2"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 4593)
 msgid "Dialogs 3"
-msgstr ""
+msgstr "Diálogos 3"
 
 #. Resource IDs: (cmdGroupDiff_LabelTitle_RESID)
 msgid "Diff"
@@ -5219,14 +5219,14 @@ msgstr "Avançar %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in version string of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "Encontrada string de versão do git \"msysgit\" ou \"windows\", entretanto, você tem os hacks do git.exe ativos. Estes hacks devem ser desativados para funcionamento correto com o Git para Windows!\nVocê pode encontrar mais informações no arquivo de ajuda para as palavras-chave \"Cygwin Git\" ou \"MSYS2 Git\"."
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not running a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "Um arquivo de trava foi encontrado, indicando que um processo de reorganização do TortoiseGit está em execução. Isto bloqueia esta operação.\n\nSe você não está executando um processo de reorganização do TortoiseGit agora, você pode remover este arquivo de trava sobressalente para continuar."
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
@@ -6236,11 +6236,11 @@ msgstr "Número de revisão inválido!"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 4571)
 msgid "Issue Tracker Config"
-msgstr ""
+msgstr "Configuração dos Rastreadores de Problemas"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ: Control id 283)
 msgid "Issue Tracker Integration"
-msgstr ""
+msgstr "Integração com o Rastreador de Problemas"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Issuer:"
@@ -6724,7 +6724,7 @@ msgstr "Reintegrar Combinação"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 193)
 msgid "Merge Tool"
-msgstr ""
+msgstr "Ferramenta de Combinação"
 
 #. Resource IDs: (IDS_PROC_SWITCH_MERGE_TT)
 msgid ""
@@ -7511,7 +7511,7 @@ msgstr "Output.prn"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 338)
 msgid "Overlay Handlers"
-msgstr ""
+msgstr "Gerenciadores de Sobreposição"
 
 #. Resource IDs: (IDS_PROC_OVERWRITEEXPORT_OVERWRITE)
 msgid "Overwrite"
@@ -8796,7 +8796,7 @@ msgstr "CrLfSe&guro:"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "SafeCrLf:"
-msgstr ""
+msgstr "SafeCrLf:"
 
 #. Resource IDs: (IDS_SAME, IDS_TAGCOMPARE_SAME)
 msgid "Same"
@@ -12131,27 +12131,27 @@ msgstr "linhas: %d(+) %d(-) arquivos: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s
 
 #. Resource IDs: (IDS_SYSTEM_GCM)
 msgid "manager - all Windows users"
-msgstr "gerenciador - todos os usuários do Windows"
+msgstr "manager - todos os usuários do Windows"
 
 #. Resource IDs: (IDS_GLOBAL_GCM)
 msgid "manager - current Windows user"
-msgstr "gerenciador - usuário atual do Windows"
+msgstr "manager - usuário atual do Windows"
 
 #. Resource IDs: (IDS_LOCAL_GCM)
 msgid "manager - this repository only"
-msgstr "gerenciador - este repositório apenas"
+msgstr "manager - este repositório apenas"
 
 #. Resource IDs: (IDS_SYSTEM_GCMCORE)
 msgid "manager-core - all Windows users"
-msgstr ""
+msgstr "manager-core - todos os usuários do Windows"
 
 #. Resource IDs: (IDS_GLOBAL_GCMCORE)
 msgid "manager-core - current Windows user"
-msgstr ""
+msgstr "manager-core - usuário atual do Windows"
 
 #. Resource IDs: (IDS_LOCAL_GCMCORE)
 msgid "manager-core - this repository only"
-msgstr ""
+msgstr "manager-core - este repositório apenas"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1494)
 msgid "master"
