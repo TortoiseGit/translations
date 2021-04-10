@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2021-04-10 09:46+0000\n"
+"PO-Revision-Date: 2021-04-10 16:22+0000\n"
 "Last-Translator: Joan Monguillot <jmonguillot@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/lznuaa/tortoisegit/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -1816,7 +1816,7 @@ msgstr "Totes les branques locals"
 msgid ""
 "All or some options are limited. In order to change all these settings, you "
 "need Administrator rights."
-msgstr ""
+msgstr "Algunes o totes les opcions tenen limitacions. Per canviar aquests paràmetres us calen drets d'administrador."
 
 #. Resource IDs: (IDS_ALLREFS)
 msgid "All refs"
@@ -3485,7 +3485,7 @@ msgstr "Crea una &nova branca..."
 
 #. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
 msgid "Create &Tag at this version..."
-msgstr ""
+msgstr "Crea e&tiqueta en aquesta revisió..."
 
 #. Resource IDs: (IDS_MENUTAG)
 msgid "Create &Tag..."
@@ -5952,7 +5952,7 @@ msgid ""
 "the content possibly have been altered by third parties unnoticed (e.g. "
 "after pull or merge). Keep this in mind especially if you approve a "
 "repository hook permanently."
-msgstr ""
+msgstr "Si esteu executant un fitxer versionat del dipòsit, considereu la possibilitat de que el contingut s'hagi alterat per altres parts (p. e. després d'estirar o fusionar). Tingueu-ho present especialment si aproveu un hook pel dipòsit de forma permanent."
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
@@ -6188,7 +6188,7 @@ msgstr "En lloc de que el nou HEAD apunti a la branca apuntada pel HEAD clonat, 
 msgid ""
 "Instead of using the remote name \"origin\" to keep track of the upstream "
 "repository, use the specific name."
-msgstr ""
+msgstr "En lloc d'usar el nom remot \"origen\" per seguir el dipòsit upstream, usar el nom específic."
 
 #. Resource IDs: (AFX_IDP_FAILED_MEMORY_ALLOC)
 msgid "Insufficient memory to perform operation."
@@ -7463,7 +7463,7 @@ msgstr "Altres"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCHANGELIST)
 msgid "Out Changelist"
-msgstr ""
+msgstr "Fora de la llista de canvis"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCOMMITS)
 msgid "Out Commits"
@@ -7926,7 +7926,7 @@ msgstr "Estira (recupera i fusiona) entregues des d'una branca remota."
 msgid ""
 "Pull requires the selected local branch to be the current branch.\n"
 "Do you want to switch to the selected branch?"
-msgstr ""
+msgstr "Estira necessita que la branca seleccionada sigui la branca actual.\nVoleu canviar a la branca seleccionada?"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 302)
 msgid "Pull/Fetch"
@@ -7955,7 +7955,7 @@ msgstr "Empeny"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1492)
 msgid "Push &option:"
-msgstr ""
+msgstr "&Opció Empeny:"
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 1786)
 msgid "Push Default"
@@ -8114,7 +8114,7 @@ msgstr "Només Registre"
 msgid ""
 "Recover the auto-saved documents\n"
 "Open the auto-saved versions instead of the explicitly saved versions"
-msgstr "Recupera els documents auto-desats.\nObre les versions auto-desades enlloc de les versions desades explícitament"
+msgstr "Recupera els documents auto-desats\nObre les versions auto-desades en lloc de les versions desades explícitament"
 
 #. Resource IDs: (IDS_REBASE_ABORT_TT)
 msgid "Recover to the status before rebase"
@@ -10155,7 +10155,7 @@ msgstr "S'ha canviat l'auxiliar de credencials.\nVoleu desar els canvis o descar
 msgid ""
 "The current commit will be empty (e.g., due to conflict resolution). Skip "
 "the commit or keep the message only commit?"
-msgstr ""
+msgstr "L'entrega actual quedarà buida (degut per exemple a resolució de conflictes). Ometre l'entrega o mantenir el missatge de només entrega?"
 
 #. Resource IDs: (IDS_ERROR_NOCLEAN_STASH)
 msgid ""
@@ -10858,7 +10858,7 @@ msgstr "Retalla espais de la dreta"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1853)
 msgid "Trust the exitcode of the external merge tool for auto resolving"
-msgstr ""
+msgstr "Confiar en el codi de sortida de l'eina de fusió externa per a la resolució automàtica"
 
 #. Resource IDs: (IDS_SVNERR_CLEANUPORFRESHCHECKOUT)
 msgid "Try a 'Cleanup'. If that doesn't work you need to do a fresh checkout."
@@ -11107,7 +11107,7 @@ msgstr "Utilitza .mailmap"
 
 #. Resource IDs: (IDS_PROC_USELFS_TT)
 msgid "Use Git LFS (only required for Git < 2.15 and Git LFS < 2.3)"
-msgstr ""
+msgstr "Utilitzar Git LFS (només cal per Git < 2.15 i Git LFS < 2.3)"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1761)
 msgid "Use HTTP path component"
