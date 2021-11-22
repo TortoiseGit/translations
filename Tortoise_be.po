@@ -4,6 +4,7 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
+# liquidvacuum <liquidvacuum@yandex.ru>, 2021
 # Viktar Palstsiuk <vipals@gmail.com>, 2015-2016
 # Раман, 2019
 msgid ""
@@ -11,8 +12,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2021-05-30 13:25+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2021-11-22 22:31+0000\n"
+"Last-Translator: liquidvacuum <liquidvacuum@yandex.ru>\n"
 "Language-Team: Belarusian (http://www.transifex.com/lznuaa/tortoisegit/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -721,7 +722,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1608)
 msgid "&From:"
-msgstr ""
+msgstr "&Ад:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
@@ -944,7 +945,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58114)
 msgid "&Next Page"
-msgstr ""
+msgstr "&Наступная старонка"
 
 #. Resource IDs: (IDS_MSGBOX_NO)
 msgid "&No"
@@ -1273,11 +1274,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_TOOLBAR - Menu)
 msgid "&Toolbar"
-msgstr ""
+msgstr "&Панэль прылад"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Toolbars and Docking Windows"
-msgstr ""
+msgstr "&Панэлі прылад і зачапляемыя вокны"
 
 #. Resource IDs: (IDS_MENUSUBMENU)
 msgid "&TortoiseGit"
@@ -1703,7 +1704,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_LINK)
 msgid "Add as Symlink"
-msgstr ""
+msgstr "Дадаць як сімвалічную спасылку"
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
@@ -1719,7 +1720,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUIGNORE)
 msgid "Add to &ignore list"
-msgstr ""
+msgstr "Дадаць ў спіс &ігнаравання"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ: Control id 1279, Dialog
 #. IDD_SETTINGSHOOKS: Control id 1279, IDS_STATUSLIST_CONTEXT_ADD_RECURSIVE)
@@ -2223,16 +2224,16 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUBISECTRESET)
 msgid "Bisect reset"
-msgstr ""
+msgstr "Скінуць бінарны пошук"
 
 #. Resource IDs: (IDS_MENUBISECTSKIP)
 msgid "Bisect skip"
-msgstr ""
+msgstr "Прамінуць бінарны пошук"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 4574,
 #. IDS_MENUBISECTSTART)
 msgid "Bisect start"
-msgstr ""
+msgstr "Пачаць бінарны пошук"
 
 #. Resource IDs: (AFX_IDS_BITMAP_FORMAT)
 msgid ""
@@ -2300,7 +2301,7 @@ msgstr ""
 #. Control id 1579, Dialog IDD_SUBMODULE_ADD: Control id 1586,
 #. IDS_PROC_BRANCH)
 msgid "Branch"
-msgstr ""
+msgstr "Галіна"
 
 #. Resource IDs: (IDS_PROC_BRANCH_FF)
 msgid "Branch (FF)"
@@ -2308,7 +2309,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_BRANCHNAME)
 msgid "Branch Name"
-msgstr ""
+msgstr "Назва галіны"
 
 #. Resource IDs: (IDS_REV_COUNTER)
 msgid "Branch RevNo"
@@ -2331,7 +2332,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1518)
 msgid "Branch:"
-msgstr ""
+msgstr "Галіна:"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1383)
 msgid "Bro&wse..."
@@ -2845,7 +2846,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_CLIPBOARD_PROGRESS_DEST)
 msgid "Clipboard"
-msgstr ""
+msgstr "Буфер абмену"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_CLONE, IDS_PROG_CLONE)
 msgid "Clone"
@@ -3464,7 +3465,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUBRANCH)
 msgid "Create &Branch..."
-msgstr ""
+msgstr "Стварыць &галіну..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMAIN: Control id 1683)
 msgid "Create &Library"
@@ -3472,7 +3473,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1527)
 msgid "Create &New Branch"
-msgstr ""
+msgstr "Стварыць &новую галіну"
 
 #. Resource IDs: (IDS_CREATE_TAG_AT_THIS)
 msgid "Create &Tag at this version..."
@@ -3496,7 +3497,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGS_TITLE_CREATEBRANCH)
 msgid "Create Branch"
-msgstr ""
+msgstr "Стварыць галіну"
 
 #. Resource IDs: (Dialog IDD_CREATECHANGELIST: Control id 243)
 msgid "Create Changelist"
@@ -3590,11 +3591,11 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 1784, Dialog
 #. IDD_SETTINGSCOLORS_2: Control id 65535)
 msgid "Current Branch"
-msgstr ""
+msgstr "Бягучая галіна"
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "Current Branch:"
-msgstr ""
+msgstr "Бягучая галіна:"
 
 #. Resource IDs: (IDS_PROC_COMMIT_DETACHEDWARNING)
 msgid ""
@@ -3719,7 +3720,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDELETEIGNORE)
 msgid "Delete and add to &ignore list"
-msgstr ""
+msgstr "Выдаліць і дадаць у спіс &ігнаравання"
 
 #. Resource IDs: (IDS_MENUDELETEIGNOREMULTIPLEMASK)
 #, c-format
@@ -3839,7 +3840,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DESCRIPTION)
 msgid "Description"
-msgstr ""
+msgstr "Апісанне"
 
 #. Resource IDs: (IDS_STATUSLIST_UNCHECKGROUP)
 msgid "Deselect changelist"
@@ -4337,7 +4338,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_EDIT_NOTES)
 msgid "Edit &Notes"
-msgstr ""
+msgstr "Рэдагаваць &нататкі"
 
 #. Resource IDs: (IDS_PROC_EDITGLOBALGITCONFIG)
 msgid "Edit &global .gitconfig"
@@ -4353,7 +4354,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGS_TITLE_EDITNOTES)
 msgid "Edit Notes"
-msgstr ""
+msgstr "Рэдагаваць нататкі"
 
 #. Resource IDs: (IDS_LOG_POPUP_EDITAUTHOR)
 msgid "Edit author"
@@ -4683,7 +4684,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_FILEDIFF_EXT, IDS_PROGS_EXTCOL, IDS_STATUSLIST_COLEXT)
 msgid "Extension"
-msgstr ""
+msgstr "Пашырэнне"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1722)
 msgid "Extension specific programs"
@@ -4691,7 +4692,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_TOOLASSOC: Control id 65535)
 msgid "Extension:"
-msgstr ""
+msgstr "Пашырэнне:"
 
 #. Resource IDs: (IDS_SVNACTION_EXTERNAL)
 msgid "External"
@@ -4826,28 +4827,28 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_TITLE_FETCH)
 msgid "Fetch"
-msgstr ""
+msgstr "Выцягнуць"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHREBASE)
 msgid "Fetch && Re&base"
-msgstr ""
+msgstr "Выцягнуць і пера&базаваць"
 
 #. Resource IDs: (IDS_PROC_SYNC_FETCHALL)
 msgid "Fetch all refs"
-msgstr ""
+msgstr "Выцягнуць усе спасылкі"
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr ""
+msgstr "Выцягнуць фіксацыі з аддаленага рэпазіторыя"
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
-msgstr ""
+msgstr "Выцягнуць з рэпазіторыя SVN"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_FETCHFROM)
 #, c-format
 msgid "Fetch from \"%s\""
-msgstr ""
+msgstr "Выцягнуць з \"%s\""
 
 #. Resource IDs: (IDS_LOG_FETCHINGSTATUS)
 msgid "Fetching Status..."
@@ -4869,7 +4870,7 @@ msgstr ""
 #. Resource IDs: (IDS_CHSTAT_FILECOL, IDS_COMMITDLG_FILE, IDS_FILEDIFF_FILE,
 #. IDS_LOG_FILE)
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_ENCODING)
 msgid "File Encoding"
@@ -5068,11 +5069,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FIRSTPARENT)
 msgid "First Parent"
-msgstr ""
+msgstr "Першы продак"
 
 #. Resource IDs: (IDS_LOG_SHOW_FIRST_PARENT)
 msgid "First Parent Only"
-msgstr ""
+msgstr "Толькі першы продак"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 4599,
 #. Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 4598, Dialog
@@ -5204,7 +5205,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1385, Dialog IDD_MERGE:
 #. Control id 1522, Dialog IDD_SETTINGSMTP: Control id 65535)
 msgid "From"
-msgstr ""
+msgstr "Ад"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1604)
 msgid "From &SVN Repository"
@@ -6719,7 +6720,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_MESSAGE, IDS_MESSAGE)
 msgid "Message"
-msgstr ""
+msgstr "Паведамленне"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1719)
 msgid "Message onl&y"
@@ -6732,7 +6733,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1742, IDS_LOG_FILTER_MESSAGES,
 #. IDS_LOG_POPUP_CLIPBOARD_MSGS)
 msgid "Messages"
-msgstr ""
+msgstr "Паведамлення"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1158)
 msgid "Min"
@@ -6878,7 +6879,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_NEWMESSAGE)
 msgid "New message"
-msgstr ""
+msgstr "Новае паведамленне"
 
 #. Resource IDs: (IDS_PROC_NEWNAME)
 #, c-format
@@ -6912,17 +6913,17 @@ msgstr ""
 #. Resource IDs: (ID_NAVIGATE_NEXTCONFLICT - Menu,
 #. cmdNavigateNextConflict_LabelTitle_RESID)
 msgid "Next conflict"
-msgstr ""
+msgstr "Наступны канфлікт"
 
 #. Resource IDs: (ID_NAVIGATE_NEXTDIFFERENCE - Menu,
 #. cmdNavigateNextDifference_LabelTitle_RESID)
 msgid "Next difference"
-msgstr ""
+msgstr "Наступнае адрозненне"
 
 #. Resource IDs: (ID_NAVIGATE_NEXTINLINEDIFF - Menu,
 #. cmdNavigateNextInlineDiff_LabelTitle_RESID)
 msgid "Next inline difference"
-msgstr ""
+msgstr "Наступнае адрозненне ў радку"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1481, Dialog IDD_PULLFETCH:
 #. Control id 1481)
@@ -7149,7 +7150,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_NOTES)
 msgid "Notes"
-msgstr ""
+msgstr "Нататкі"
 
 #. Resource IDs: (IDS_PROC_NOTHINGTOREBASE)
 msgid "Nothing to Rebase"
@@ -7561,11 +7562,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #. Resource IDs: (IDS_AUTH_PASSWORD)
 msgid "Password:"
-msgstr ""
+msgstr "Пароль:"
 
 #. Resource IDs: (cmdPaste_LabelTitle_RESID)
 msgid "Paste"
@@ -7765,7 +7766,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58115)
 msgid "Pre&v Page"
-msgstr ""
+msgstr "Папярэ&дняя старонка"
 
 #. Resource IDs: (IDS_HOOKTYPE_PRECOMMIT)
 msgid "Pre-Commit Hook"
@@ -7797,26 +7798,26 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_PREV - Menu)
 msgid "Previous"
-msgstr ""
+msgstr "Папярэдні"
 
 #. Resource IDs: (IDS_PROC_PREVIOUSVERSION)
 msgid "Previous Version"
-msgstr ""
+msgstr "Папярэдняя версія"
 
 #. Resource IDs: (ID_NAVIGATE_PREVIOUSCONFLICT - Menu,
 #. cmdNavigatePreviousConflict_LabelTitle_RESID)
 msgid "Previous conflict"
-msgstr ""
+msgstr "Папярэдні канфлікт"
 
 #. Resource IDs: (ID_NAVIGATE_PREVIOUSDIFFERENCE - Menu,
 #. cmdNavigatePreviousDifference_LabelTitle_RESID)
 msgid "Previous difference"
-msgstr ""
+msgstr "Папярэдняе адрозненне"
 
 #. Resource IDs: (ID_NAVIGATE_PREVINLINEDIFF - Menu,
 #. cmdNavigatePreviousInlineDiff_LabelTitle_RESID)
 msgid "Previous inline difference"
-msgstr ""
+msgstr "Папярэдняе адрозненне ў радку"
 
 #. Resource IDs: (57608)
 msgid ""
@@ -7836,7 +7837,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Printer :"
-msgstr ""
+msgstr "Прынтар:"
 
 #. Resource IDs: (AFX_IDS_PRINTFILTER)
 msgid "Printer Files (*.prn)|*.prn|All Files (*.*)|*.*||"
@@ -7962,7 +7963,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
-msgstr ""
+msgstr "Даслаць нататкі"
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSHTAGS)
 msgid "Push ta&gs"
@@ -8242,7 +8243,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 65535, Dialog
 #. IDD_SELECTREMOTEREF: Control id 65535)
 msgid "Remote &Branch:"
-msgstr ""
+msgstr "Аддаленая &галіна:"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1618)
 msgid "Remote &URL:"
@@ -8255,7 +8256,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_2: Control id 65535,
 #. IDS_PROC_REMOTEBRANCH)
 msgid "Remote Branch"
-msgstr ""
+msgstr "Аддаленая галіна"
 
 #. Resource IDs: (IDS_TAGCOMPARE_REMOTEHASH)
 msgid "Remote SHA1"
@@ -8438,7 +8439,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_ADD: Control id 65535)
 msgid "Repository:"
-msgstr ""
+msgstr "Рэпазіторый:"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 334)
 msgid "Request pull"
@@ -8952,7 +8953,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_FAILEDSAVINGNOTES)
 msgid "Saving notes failed."
-msgstr ""
+msgstr "Не атрымалася захаваць нататкі."
 
 #. Resource IDs: (Dialog IDD_AUTOTEXTTESTDLG: Control id 1522)
 msgid "Scan"
@@ -9694,7 +9695,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCBISECTSTART)
 msgid "Start bisect mode..."
-msgstr ""
+msgstr "Пачаць бінарны пошук..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 1542)
 msgid "Start registry editor"
@@ -9813,7 +9814,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCBISECTRESET)
 msgid "Stops bisect mode"
-msgstr ""
+msgstr "Спыніць бінарны пошук"
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1833)
 msgid "Stored decisions"
@@ -9987,7 +9988,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11031)
 msgid "Symlink"
-msgstr ""
+msgstr "Сімвалічная спасылка"
 
 #. Resource IDs: (IDS_MENUDESCSYNC)
 msgid "Sync Remote Repositories, including pull, push, email patch and so on"
@@ -10865,13 +10866,13 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1642)
 msgid "Type"
-msgstr ""
+msgstr "Тып"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1720, Dialog
 #. IDD_RESOLVESUBMODULECONFLICT: Control id 1720, Dialog
 #. IDD_RESOLVESUBMODULECONFLICT: Control id 1722)
 msgid "Type:"
-msgstr ""
+msgstr "Тып:"
 
 #. Resource IDs: (Dialog IDD_URL: Control id 164, IDS_STATUSLIST_COLURL)
 msgid "URL"
