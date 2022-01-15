@@ -18,7 +18,7 @@
 # Obareo, 2019,2021
 # peu <peu@rekoba.de>, 2013
 # Stefan Kueng <tortoisesvn@gmail.com>, 2014
-# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2021
+# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2022
 # Thilo Berger <thilob.tb34@gmail.com>, 2017
 # Torsten Widmann <goover0976@googlemail.com>, 2012
 msgid ""
@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2022-01-03 14:09+0000\n"
+"PO-Revision-Date: 2022-01-15 14:38+0000\n"
 "Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1239,7 +1239,7 @@ msgstr "ALLE &Zusammenfassen"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Staging"
-msgstr ""
+msgstr "&Staging"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1616)
 msgid "&Start"
@@ -1347,7 +1347,7 @@ msgstr "&Entsperren"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Unstaging"
-msgstr ""
+msgstr "&Unstaging"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
@@ -1406,7 +1406,7 @@ msgstr "füge \"cherry picked from\" &hinzu"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "&force"
-msgstr ""
+msgstr "&zwingen"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
@@ -2926,7 +2926,7 @@ msgstr "Einklappen"
 
 #. Resource IDs: (IDS_LOG_POPUP_COLLAPSE)
 msgid "Collapse revisions"
-msgstr ""
+msgstr "Revisionen zusammenfassen"
 
 #. Resource IDs: (cmdViewCollapsed)
 msgid ""
@@ -4673,7 +4673,7 @@ msgstr "Beenden"
 
 #. Resource IDs: (IDS_LOG_POPUP_EXPAND)
 msgid "Expand collapsed revisions"
-msgstr ""
+msgstr "Zusammengefasste Revisionen erweitern"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_EXPLORE)
 msgid "Explore to"
@@ -5276,7 +5276,7 @@ msgstr "Vollständige Daten"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FULLHISTORY)
 msgid "Full history"
-msgstr ""
+msgstr "Full-History"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
@@ -5590,11 +5590,11 @@ msgstr "Patch verstecken<<"
 
 #. Resource IDs: (IDS_PROC_COMMIT_HIDE_STAGING)
 msgid "Hide Staging<<"
-msgstr ""
+msgstr "Verstecke Staging<<"
 
 #. Resource IDs: (IDS_PROC_COMMIT_HIDE_UNSTAGING)
 msgid "Hide Unstaging<<"
-msgstr ""
+msgstr "Verstecke Unstaging<<"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1326)
 msgid "Hide the script while running"
@@ -6242,7 +6242,7 @@ msgid ""
 "Invalid selection.\n"
 "\n"
 "If this is a single-line file that has been modified, you must click the checkbox to stage or unstage the whole file."
-msgstr ""
+msgstr "Ungültige Auswahl.\n\nWenn es sich um eine einzeilige Datei handelt, die geändert wurde, müssen Sie das Kontrollkästchen anklicken, um die gesamte Datei in den Zustand zu versetzen oder den Zustand aufzuheben."
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 4571)
 msgid "Issue Tracker Config"
@@ -7609,12 +7609,12 @@ msgstr "Elternteil(e)"
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1639,
 #. IDS_PROC_COMMIT_PARTIAL_STAGING)
 msgid "Partial Staging>>"
-msgstr ""
+msgstr "Partielles Staging>>"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1638,
 #. IDS_PROC_COMMIT_PARTIAL_UNSTAGING)
 msgid "Partial Unstaging>>"
-msgstr ""
+msgstr "Partielles Unstaging>>"
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
@@ -9731,17 +9731,19 @@ msgstr "Gestapelte Balken"
 msgid "Stacked Line Graph"
 msgstr "Gestapelte Linien"
 
-#. Resource IDs: (ID_STAGING_STAGESELECTEDHUNKS - Menu)
+#. Resource IDs: (IDS_PROC_STAGE_SELECTED_HUNKS, ID_STAGING_STAGESELECTEDHUNKS
+#. - Menu)
 msgid "Stage selected &hunks"
-msgstr ""
+msgstr "Stage gewählten A&bschnitt"
 
-#. Resource IDs: (ID_STAGING_STAGESELECTEDLINES - Menu)
+#. Resource IDs: (IDS_PROC_STAGE_SELECTED_LINES, ID_STAGING_STAGESELECTEDLINES
+#. - Menu)
 msgid "Stage selected &lines"
-msgstr ""
+msgstr "Stage markierte &Zeilen"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1855)
 msgid "Staging support (EXPERIMENTAL)"
-msgstr ""
+msgstr "Staging unterstützung (EXPERIMENTELL)"
 
 #. Resource IDs: (IDS_TOOLBAR_STANDARD)
 msgid "Standard"
@@ -10705,11 +10707,11 @@ msgstr "Filter an/abschalten"
 
 #. Resource IDs: (IDS_STATUSLIST_TOOMANYITEMS)
 msgid "Too many files to display."
-msgstr ""
+msgstr "Zu viele Dateien um diese anzuzeigen."
 
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 65535)
 msgid "Top context menu on Windows 11"
-msgstr ""
+msgstr "Oberstes Kontextmenü in WIndows 11"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 4594, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535, IDS_APPNAME)
@@ -11031,7 +11033,7 @@ msgstr "Abwählen"
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 65535)
 msgid ""
 "Unchecked items are not shown in the top menu but only in the original menu"
-msgstr ""
+msgstr "Nicht markierte Einträge werden nicht im oberen Menü angezeigt, sondern nur im ursprünglichen Menü"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid ""
@@ -11106,13 +11108,15 @@ msgstr "Nicht aufgelöste Konflikte!"
 msgid "Unset tracked branch"
 msgstr "Beobachteten entfernten Zweig nicht mehr beobachten"
 
-#. Resource IDs: (ID_UNSTAGING_UNSTAGESELECTEDHUNKS - Menu)
+#. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_HUNKS,
+#. ID_UNSTAGING_UNSTAGESELECTEDHUNKS - Menu)
 msgid "Unstage selected &hunks"
-msgstr ""
+msgstr "Unstage gewählten A&bschnitt"
 
-#. Resource IDs: (ID_UNSTAGING_UNSTAGESELECTEDLINES - Menu)
+#. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_LINES,
+#. ID_UNSTAGING_UNSTAGESELECTEDLINES - Menu)
 msgid "Unstage selected &lines"
-msgstr ""
+msgstr "Unstage markierte &Zeilen"
 
 #. Resource IDs: (AFX_IDS_UNTITLED)
 msgid "Untitled"
@@ -11516,11 +11520,11 @@ msgstr "Patch anzeigen"
 
 #. Resource IDs: (IDS_VIEWPATCH_HEAD_INDEX)
 msgid "View Patch - HEAD to index"
-msgstr ""
+msgstr "Zeige Patch - HEAD zum Index"
 
 #. Resource IDs: (IDS_VIEWPATCH_INDEX_WORKTREE)
 msgid "View Patch - index to working tree"
-msgstr ""
+msgstr "Zeige Patch - Index zum Arbeitsbaum"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1637, Dialog IDD_DIFFFILES:
 #. Control id 1637, IDS_PROC_COMMIT_SHOWPATCH)
@@ -11666,7 +11670,7 @@ msgid ""
 "You can also click \"Partial Staging\" or \"Partial Unstaging\". A window shows up where you can select hunks or lines in the currently selected file and stage or unstage them.\n"
 "\n"
 "Please note that, for performance reasons, the file's group (Modified Files, Not Versioned Files...) and status (Added, Modified, Unknown...) are not updated when clicking its checkbox. If you want to see the updated group and status, you can trigger a full refresh by pressing F5."
-msgstr ""
+msgstr "In diesem Modus zeigt das Kontrollkästchen für jede Datei ihren Stagingstatus an:\n- Aktiviert bedeutet, dass alle Änderungen an der Datei gestaged sind.\n- Nicht markiert bedeutet, dass alle Änderungen an der Datei nicht gestaged sind.\n- Ein graues Quadrat bedeutet, dass nur einige Änderungen für die Datei gestaged sind.\n\nWenn Sie die Kontrollkästchen anklicken, wird die gesamte Datei sofort gestaged oder unstaged.\n\nSie können auch auf \"Partielles Staging\" oder \"Partielles Unstaging\" klicken. Es wird ein Fenster angezeigt, in dem Sie Abschnitte oder Zeilen in der aktuell ausgewählten Datei stagen oder unstagen können.\n\nBitte beachten Sie, dass aus Leistungsgründen die Gruppe (Geänderte Dateien, Nicht versionierte Dateien...) und der Status (Hinzugefügt, Geändert, Unbekannt...) der Datei nicht aktualisiert werden, wenn Sie auf das Kontrollkästchen klicken. Wenn Sie die aktualisierte Gruppe und den aktualisierten Stati sehen möchten, können Sie eine vollständige Aktualisierung auslösen, indem Sie F5 drücken."
 
 #. Resource IDs: (IDS_NEED_TO_RESOLVE_CONFLICTS_HINT)
 msgid ""
@@ -11696,7 +11700,7 @@ msgstr "Leerzeichen"
 
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 4602)
 msgid "Windows 11 Context Menu"
-msgstr ""
+msgstr "Windows 11 Kontextmenü"
 
 #. Resource IDs: (5020 - Menu)
 msgid "Windows-1250"
@@ -12129,7 +12133,7 @@ msgstr "Datei-/Verzeichnisnamen"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "force &with lease"
-msgstr ""
+msgstr "erz&wingen \"with lease\""
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
