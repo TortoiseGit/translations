@@ -4,14 +4,15 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
+# Stefan Baltov <stefan.baltov77@gmail.com>, 2022
 # Stefan Baltov <stefan.baltov7@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2022-01-03 14:09+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2022-01-17 21:57+0000\n"
+"Last-Translator: Stefan Baltov <stefan.baltov77@gmail.com>\n"
 "Language-Team: Macedonian (http://www.transifex.com/lznuaa/tortoisegit/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,12 +65,12 @@ msgstr ""
 #. Resource IDs: (AFX_IDP_ARCH_BADINDEX)
 #, c-format
 msgid "%1 has a bad format."
-msgstr ""
+msgstr "%1 има лош формат."
 
 #. Resource IDs: (AFX_IDP_FILE_NOT_FOUND)
 #, c-format
 msgid "%1 was not found."
-msgstr ""
+msgstr "%1 не е пронајден."
 
 #. Resource IDs: (IDS_DAY_AGO)
 #, c-format
@@ -144,17 +145,17 @@ msgstr ""
 #. Resource IDs: (IDS_STATUSLIST_FILESREVERTED)
 #, c-format
 msgid "%1!d! files reverted to %2!s!."
-msgstr ""
+msgstr "%1!d! датотеки се вратено во %2!s!."
 
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr ""
+msgstr "%1!d! датотеки избрани од вкупно %2!d!"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
 msgid "%1!d! items selected"
-msgstr ""
+msgstr "%1!d! избрани ставки"
 
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
@@ -170,7 +171,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
 msgid "%1!ld! minute(s) and %2!ld! second(s)"
-msgstr "%1!d! минута/и и %2!d! секунда/и"
+msgstr "%1!d! минута(и) и %2!d! секунда(и)"
 
 #. Resource IDs: (IDS_CONFLICT_INFOTEXT)
 #, c-format
@@ -180,17 +181,17 @@ msgstr "%1!d! (%2!d!)"
 #. Resource IDs: (IDS_PROGRS_PATHATREV)
 #, c-format
 msgid "%1!s! - at revision: %2!d!"
-msgstr ""
+msgstr "%1!s! - во ревизија: %2!d!"
 
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%1!s! in %2!s!"
-msgstr ""
+msgstr "%1!s! во %2!s!"
 
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
 msgid "%1!s! requires Git >= %2!s!"
-msgstr ""
+msgstr "%1!s! потребна е Git верзија >= %2!s!"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
@@ -216,7 +217,7 @@ msgstr ""
 msgid ""
 "%1: %2\n"
 "Continue running script?"
-msgstr ""
+msgstr "%1: %2\nПродолжи со извршување на скриптата?"
 
 #. Resource IDs: (AFX_IDP_FAILED_INVALID_PATH)
 #, c-format
@@ -224,7 +225,7 @@ msgid ""
 "%1\n"
 "Cannot find this file.\n"
 "Verify that the correct path and file name are given."
-msgstr ""
+msgstr "%1\nДатотеката не е пронајдена.\nПровери дали е дадена точната патека или името на датотеката."
 
 #. Resource IDs: (IDS_CONFIG_GLOBAL_TT)
 #, c-format
@@ -234,12 +235,12 @@ msgstr ""
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALBYTESTRANSFERRED)
 #, c-format
 msgid "%I64d Bytes transferred"
-msgstr ""
+msgstr "%I64d бајти пренесени"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALTRANSFERRED)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr ""
+msgstr "%I64d KiB пренесени"
 
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERED)
 #, c-format
@@ -251,17 +252,17 @@ msgstr ""
 msgid ""
 "%Ts\n"
 "%Ts"
-msgstr ""
+msgstr "%Ts\n%Ts"
 
 #. Resource IDs: (IDS_FILESCHANGES)
 #, c-format
 msgid "%d files changed"
-msgstr ""
+msgstr "%d датотеки се изменети"
 
 #. Resource IDs: (IDS_PROC_FILESREMOVED)
 #, c-format
 msgid "%d files removed."
-msgstr ""
+msgstr "%d датотеки се избришани."
 
 #. Resource IDs: (IDS_ALPHABUTTONTT)
 #, c-format
@@ -274,7 +275,7 @@ msgstr ""
 #. Resource IDs: (IDS_DIMENSIONSANDFRAMES)
 #, c-format
 msgid "%ld of %ld"
-msgstr ""
+msgstr "%ld од %ld"
 
 #. Resource IDs: (IDS_DIFF_WCNAME)
 #, c-format
@@ -293,7 +294,7 @@ msgstr ""
 msgid ""
 "%s\n"
 "Do you want to remove it anyway?"
-msgstr ""
+msgstr "%s\nДали сигурно сакаш да го избришиш?"
 
 #. Resource IDs: (IDS_ERR_FILE_NOTAFILE)
 #, c-format
@@ -301,11 +302,11 @@ msgid ""
 "%s\n"
 "is a directory, not a file!\n"
 "TortoiseGitMerge can't diff directories."
-msgstr ""
+msgstr "%s\nе папка, не е датотека!\nTortoiseGitMerge не може да спореди папки."
 
 #. Resource IDs: (Dialog IDD_RENAME: Control id 1483)
 msgid "&..."
-msgstr ""
+msgstr "&..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1656)
 msgid "&3 way merge"
@@ -313,7 +314,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
-msgstr ""
+msgstr "&Прекини"
 
 #. Resource IDs: (IDS_HOOKFAILED_TASK3)
 msgid ""
@@ -323,51 +324,51 @@ msgstr ""
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
-msgstr ""
+msgstr "&За TortoiseGitBlame..."
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitMerge..."
-msgstr ""
+msgstr "&За TortoiseGitMerge..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1382, Dialog
 #. IDD_REBASE: Control id 1382)
 msgid "&Add"
-msgstr ""
+msgstr "&Додај"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1505)
 msgid "&Add Filter"
-msgstr ""
+msgstr "&Додај филтер"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1382, Dialog
 #. IDD_SETTINREMOTE: Control id 1382)
 msgid "&Add New/Save"
-msgstr ""
+msgstr "&Додај нов/Зачувај"
 
 #. Resource IDs: (IDS_PROC_COMMIT_ADDSIGNOFFBUTTON)
 msgid "&Add it"
-msgstr ""
+msgstr "&Додај го"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1098, IDS_MENUADD)
 msgid "&Add..."
-msgstr ""
+msgstr "&Додај..."
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1845,
 #. Dialog IDD_SETTINGSPROGSDIFF: Control id 1090, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1093)
 msgid "&Advanced..."
-msgstr ""
+msgstr "&Напредно..."
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1701)
 msgid "&All"
-msgstr ""
+msgstr "&Сите"
 
 #. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 3936)
 msgid "&All Branches"
-msgstr ""
+msgstr "&Сите гранки"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1613)
 msgid "&Apply Patch"
-msgstr ""
+msgstr "&Примени закрпа"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1013)
 msgid "&Apply unified diff"
@@ -375,7 +376,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 65535)
 msgid "&Autoclose Git.exe dialog:"
-msgstr ""
+msgstr "&Автоматски затвори го Git.exe прозорецот:"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1505)
 msgid "&Autoload Putty Key"
@@ -383,7 +384,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1015)
 msgid "&Backup original file"
-msgstr ""
+msgstr "&Резервна копија од оригиналната датотека"
 
 #. Resource IDs: (IDS_MENUBLAME)
 msgid "&Blame"
@@ -405,24 +406,24 @@ msgstr ""
 #. Control id 1512, Dialog IDD_MERGE: Control id 1512, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1512, Dialog IDD_RESET: Control id 1512)
 msgid "&Branch"
-msgstr ""
+msgstr "&Гранка"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 4566)
 msgid "&Branch:"
-msgstr ""
+msgstr "&Гранка:"
 
 #. Resource IDs: (IDS_LOG_BROWSEREPO)
 msgid "&Browse repository"
-msgstr ""
+msgstr "&Пребарај го складиштето"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1382, Dialog IDD_OPENDLG:
 #. Control id 1001, Dialog IDD_OPENDLG: Control id 1009, IDS_PROC_CLONE_DIR)
 msgid "&Browse..."
-msgstr ""
+msgstr "&Пребарај..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1051)
 msgid "&CD-ROM"
-msgstr ""
+msgstr "&CD-ROM"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 2)
 msgid "&Cancel"
@@ -430,7 +431,7 @@ msgstr "&Откажи"
 
 #. Resource IDs: (IDS_MENUCLEANUP)
 msgid "&Clean up..."
-msgstr ""
+msgstr "&Исчисти..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1848, ID_EDIT_CLEAR -
 #. Menu)
@@ -502,11 +503,11 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_DARKMODE - Menu)
 msgid "&Dark Mode"
-msgstr ""
+msgstr "&Темна тема"
 
 #. Resource IDs: (ID_VIEW_DARKMODE - Menu)
 msgid "&Dark Mode\tD"
-msgstr ""
+msgstr "&Темна тема\tD"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1269)
 msgid "&Default"
@@ -531,7 +532,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
-msgstr ""
+msgstr "&Избриши гранка/ознака"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -623,7 +624,7 @@ msgstr "&Уреди/Подели ги конфликтите"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
-msgstr ""
+msgstr "&Испрати ја закрпата по е-пошта"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 65535)
@@ -663,7 +664,7 @@ msgstr "&Надворешни"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Extra PATH:"
-msgstr ""
+msgstr "&Дополнителна ПАТЕКА:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
@@ -9715,11 +9716,13 @@ msgstr ""
 msgid "Stacked Line Graph"
 msgstr ""
 
-#. Resource IDs: (ID_STAGING_STAGESELECTEDHUNKS - Menu)
+#. Resource IDs: (IDS_PROC_STAGE_SELECTED_HUNKS, ID_STAGING_STAGESELECTEDHUNKS
+#. - Menu)
 msgid "Stage selected &hunks"
 msgstr ""
 
-#. Resource IDs: (ID_STAGING_STAGESELECTEDLINES - Menu)
+#. Resource IDs: (IDS_PROC_STAGE_SELECTED_LINES, ID_STAGING_STAGESELECTEDLINES
+#. - Menu)
 msgid "Stage selected &lines"
 msgstr ""
 
@@ -11090,11 +11093,13 @@ msgstr ""
 msgid "Unset tracked branch"
 msgstr ""
 
-#. Resource IDs: (ID_UNSTAGING_UNSTAGESELECTEDHUNKS - Menu)
+#. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_HUNKS,
+#. ID_UNSTAGING_UNSTAGESELECTEDHUNKS - Menu)
 msgid "Unstage selected &hunks"
 msgstr ""
 
-#. Resource IDs: (ID_UNSTAGING_UNSTAGESELECTEDLINES - Menu)
+#. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_LINES,
+#. ID_UNSTAGING_UNSTAGESELECTEDLINES - Menu)
 msgid "Unstage selected &lines"
 msgstr ""
 
