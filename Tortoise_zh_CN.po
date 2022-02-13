@@ -34,7 +34,7 @@
 # xiaobing chen <olivetchan@qq.com>, 2016
 # Xijian Yan, 2018
 # XY <1642787610@qq.com>, 2020
-# YFdyh000 <yfdyh000@gmail.com>, 2013,2016,2019-2021
+# YFdyh000 <yfdyh000@gmail.com>, 2013,2016,2019-2022
 # YFdyh000 <yfdyh000@gmail.com>, 2013,2016
 # YFdyh000 <yfdyh000@gmail.com>, 2013-2018
 # zhang chuan <zhangchuan.cn@gmail.com>, 2011
@@ -44,8 +44,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2022-01-24 04:12+0000\n"
-"Last-Translator: lznuaa <lznuaa@gmail.com>\n"
+"PO-Revision-Date: 2022-02-13 12:53+0000\n"
+"Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -780,7 +780,7 @@ msgstr "跳转(&G)\tCtrl+G"
 
 #. Resource IDs: (IDS_SHOWFILES_GRAYPATHS)
 msgid "&Gray Unrelated Changed Paths"
-msgstr "灰化无关的修改路径(&G)"
+msgstr "灰化当前路径外的修改(&G)"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1511, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1511)
@@ -1257,7 +1257,7 @@ msgstr "并合全部(&S)"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Staging"
-msgstr ""
+msgstr "暂存(&S)"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1616)
 msgid "&Start"
@@ -1365,7 +1365,7 @@ msgstr "＆开锁"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Unstaging"
-msgstr ""
+msgstr "取消暂存(&U)"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
@@ -1391,7 +1391,7 @@ msgstr "用户名(&U): "
 
 #. Resource IDs: (65535 - PopupMenu, Dialog IDD_LOGMESSAGE: Control id 1777)
 msgid "&View"
-msgstr "查看(&V)"
+msgstr "视图(&V)"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
 msgid "&View effective config"
@@ -1424,7 +1424,7 @@ msgstr "添加“摘取自”(&A)"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "&force"
-msgstr ""
+msgstr "强制覆盖所有(&F)"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
@@ -2944,7 +2944,7 @@ msgstr "折叠"
 
 #. Resource IDs: (IDS_LOG_POPUP_COLLAPSE)
 msgid "Collapse revisions"
-msgstr ""
+msgstr "折叠修订"
 
 #. Resource IDs: (cmdViewCollapsed)
 msgid ""
@@ -4691,7 +4691,7 @@ msgstr "退出"
 
 #. Resource IDs: (IDS_LOG_POPUP_EXPAND)
 msgid "Expand collapsed revisions"
-msgstr ""
+msgstr "展开已折叠修订"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_EXPLORE)
 msgid "Explore to"
@@ -5294,7 +5294,7 @@ msgstr "完整数据"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FULLHISTORY)
 msgid "Full history"
-msgstr ""
+msgstr "完整历史记录"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
@@ -5542,7 +5542,7 @@ msgstr "分组修改列表"
 
 #. Resource IDs: (IDS_SHOWFILES_HIDEPATHS)
 msgid "H&ide Unrelated Changed Paths"
-msgstr "隐藏不相关的文件(&I)"
+msgstr "隐藏当前路径外的修改(&I)"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1353, Dialog IDD_DIFFFILES:
 #. Control id 1354, Dialog IDD_REPOSITORY_BROWSER: Control id 1684)
@@ -5608,11 +5608,11 @@ msgstr "隐藏补丁<<"
 
 #. Resource IDs: (IDS_PROC_COMMIT_HIDE_STAGING)
 msgid "Hide Staging<<"
-msgstr ""
+msgstr "隐藏暂存<<"
 
 #. Resource IDs: (IDS_PROC_COMMIT_HIDE_UNSTAGING)
 msgid "Hide Unstaging<<"
-msgstr ""
+msgstr "隐藏未暂存<<"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1326)
 msgid "Hide the script while running"
@@ -6260,7 +6260,7 @@ msgid ""
 "Invalid selection.\n"
 "\n"
 "If this is a single-line file that has been modified, you must click the checkbox to stage or unstage the whole file."
-msgstr ""
+msgstr "无效选择。\n\n如果这是已被修改的单行文件，则必须点击复选框来暂存或取消暂存整个文件。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 4571)
 msgid "Issue Tracker Config"
@@ -7627,12 +7627,12 @@ msgstr "父节点"
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1639,
 #. IDS_PROC_COMMIT_PARTIAL_STAGING)
 msgid "Partial Staging>>"
-msgstr ""
+msgstr "部分暂存>>"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1638,
 #. IDS_PROC_COMMIT_PARTIAL_UNSTAGING)
 msgid "Partial Unstaging>>"
-msgstr ""
+msgstr "部分未暂存>>"
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
@@ -9143,7 +9143,7 @@ msgstr "选择远端 ref - TortoiseGit"
 #. Resource IDs: (IDS_SETTINGS_AUTOCLOSE_TT)
 msgid ""
 "Select the behavior of the progress dialog at the end of the operation."
-msgstr ""
+msgstr "选择在操作结束后如何处理进度对话框。"
 
 #. Resource IDs: (57642)
 msgid ""
@@ -9516,7 +9516,7 @@ msgstr "即便一个标签已在提交中精确描述，仍然显示长格式"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1383, Dialog IDD_RESET:
 #. Control id 1383)
 msgid "Show modified files in &working tree"
-msgstr ""
+msgstr "显示工作树中已被修改的文件(&W)"
 
 #. Resource IDs: (25308)
 msgid ""
@@ -9752,16 +9752,16 @@ msgstr "叠加折线图"
 #. Resource IDs: (IDS_PROC_STAGE_SELECTED_HUNKS, ID_STAGING_STAGESELECTEDHUNKS
 #. - Menu)
 msgid "Stage selected &hunks"
-msgstr ""
+msgstr "暂存选中的块(&H)"
 
 #. Resource IDs: (IDS_PROC_STAGE_SELECTED_LINES, ID_STAGING_STAGESELECTEDLINES
 #. - Menu)
 msgid "Stage selected &lines"
-msgstr ""
+msgstr "暂存选中的行(&L)"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1855)
 msgid "Staging support (EXPERIMENTAL)"
-msgstr ""
+msgstr "暂存支持（实验性！）"
 
 #. Resource IDs: (IDS_TOOLBAR_STANDARD)
 msgid "Standard"
@@ -10725,11 +10725,11 @@ msgstr "切换过滤器"
 
 #. Resource IDs: (IDS_STATUSLIST_TOOMANYITEMS)
 msgid "Too many files to display."
-msgstr ""
+msgstr "要显示的文件太多。"
 
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 65535)
 msgid "Top context menu on Windows 11"
-msgstr ""
+msgstr "Windows 11 中的顶置右键菜单"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 4594, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535, IDS_APPNAME)
@@ -11051,7 +11051,7 @@ msgstr "取消选中"
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 65535)
 msgid ""
 "Unchecked items are not shown in the top menu but only in the original menu"
-msgstr ""
+msgstr "未选中的项不会在顶置菜单中显示，而会显示在原菜单中"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid ""
@@ -11129,12 +11129,12 @@ msgstr "取消跟踪分支"
 #. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_HUNKS,
 #. ID_UNSTAGING_UNSTAGESELECTEDHUNKS - Menu)
 msgid "Unstage selected &hunks"
-msgstr ""
+msgstr "取消暂存选中的块(&H)"
 
 #. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_LINES,
 #. ID_UNSTAGING_UNSTAGESELECTEDLINES - Menu)
 msgid "Unstage selected &lines"
-msgstr ""
+msgstr "取消暂存选中的行(&L)"
 
 #. Resource IDs: (AFX_IDS_UNTITLED)
 msgid "Untitled"
@@ -11538,11 +11538,11 @@ msgstr "查看补丁"
 
 #. Resource IDs: (IDS_VIEWPATCH_HEAD_INDEX)
 msgid "View Patch - HEAD to index"
-msgstr ""
+msgstr "查看补丁 - HEAD 至 index"
 
 #. Resource IDs: (IDS_VIEWPATCH_INDEX_WORKTREE)
 msgid "View Patch - index to working tree"
-msgstr ""
+msgstr "查看补丁 - index 至 工作树"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1637, Dialog IDD_DIFFFILES:
 #. Control id 1637, IDS_PROC_COMMIT_SHOWPATCH)
@@ -11590,7 +11590,7 @@ msgstr "等待输入"
 
 #. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 1776)
 msgid "Walk Be&havior"
-msgstr ""
+msgstr "浏览模式(&H)"
 
 #. Resource IDs: (IDS_WARN_WARNING)
 msgid "Warning"
@@ -11718,7 +11718,7 @@ msgstr "空白字符"
 
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 4602)
 msgid "Windows 11 Context Menu"
-msgstr ""
+msgstr "Windows 11 右键菜单"
 
 #. Resource IDs: (5020 - Menu)
 msgid "Windows-1250"
@@ -12151,7 +12151,7 @@ msgstr "文件/文件夹名称"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "force &with lease"
-msgstr ""
+msgstr "强制覆盖已知(&W)"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
