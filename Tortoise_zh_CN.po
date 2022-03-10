@@ -5,6 +5,7 @@
 # 
 # Translators:
 # 乙酸鋰 <ch3cooli@gmail.com>, 2014
+# Cyberwolf <letian14@hotmail.com>, 2022
 # Entong Shen <dexter_shen@hotmail.com>, 2011
 # fang zheng <fz0000@sina.com>, 2011-2012
 # flypopo <flypopo.reg@qq.com>, 2015
@@ -44,8 +45,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2022-02-13 12:53+0000\n"
-"Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2022-03-10 17:46+0000\n"
+"Last-Translator: Cyberwolf <letian14@hotmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/lznuaa/tortoisegit/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11688,7 +11689,7 @@ msgid ""
 "You can also click \"Partial Staging\" or \"Partial Unstaging\". A window shows up where you can select hunks or lines in the currently selected file and stage or unstage them.\n"
 "\n"
 "Please note that, for performance reasons, the file's group (Modified Files, Not Versioned Files...) and status (Added, Modified, Unknown...) are not updated when clicking its checkbox. If you want to see the updated group and status, you can trigger a full refresh by pressing F5."
-msgstr ""
+msgstr "在此模式下，每个文件的复选框反映了其暂存状态：\n- 勾选意味着该文件的所有修改都已被暂存\n- 未勾选意味着该文件的所有修改都未被暂存\n- 灰色的方块意味着该文件只有部分修改被暂存。\n\n点击这些复选框可以立即对整个文件进行暂存或解除暂存。\n\n您也可以点击 \"部分暂存 \"或 \"部分解除暂存\"。这时会出现一个窗口，你可以在当前选定的文件中选择几块或几行，对它们进行暂存或解除暂存。\n\n请注意，由于性能的原因，当点击文件的复选框时，文件的组（已修改的文件，没有版本的文件...）和状态（已添加，已修改，未知...）不会更新。如果你想看到更新的组别和状态，你可以按F5键触发一次完全刷新。"
 
 #. Resource IDs: (IDS_NEED_TO_RESOLVE_CONFLICTS_HINT)
 msgid ""
