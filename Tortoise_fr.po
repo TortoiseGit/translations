@@ -33,6 +33,7 @@
 # Jonathan GRIFFON <kugan49@gmail.com>, 2017-2020
 # Kegnarok <kegnarok.rm@laposte.net>, 2013
 # Kerzzy <6greenday6@gmail.com>, 2015
+# Laurent TARREL, 2022
 # Le Gall Nicolas <contact@nlegall.fr>, 2014
 # 556b8933f5444413a6e3eb8ce0499357_237b366 <dc7a580f2694f34a68331c39892a2ae0_170598>, 2014
 # Linus Fredrich Levisse <linukcs@live.fr>, 2011
@@ -66,8 +67,8 @@ msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2022-01-17 17:17+0000\n"
-"Last-Translator: Clément Forest <Clement.Forest@cae.com>\n"
+"PO-Revision-Date: 2022-03-13 18:04+0000\n"
+"Last-Translator: Laurent TARREL\n"
 "Language-Team: French (http://www.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1279,7 +1280,7 @@ msgstr "&Écraser TOUT"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Staging"
-msgstr ""
+msgstr "&Présélectionner"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1616)
 msgid "&Start"
@@ -1387,7 +1388,7 @@ msgstr "&Débloquer"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Unstaging"
-msgstr ""
+msgstr "&Dé-présélectionner"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
@@ -1446,7 +1447,7 @@ msgstr "&ajouter \"cherry picked depuis\""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "&force"
-msgstr ""
+msgstr "&forcer"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
@@ -5630,11 +5631,11 @@ msgstr "Cacher le patch<<"
 
 #. Resource IDs: (IDS_PROC_COMMIT_HIDE_STAGING)
 msgid "Hide Staging<<"
-msgstr ""
+msgstr "Cacher la présélection<<"
 
 #. Resource IDs: (IDS_PROC_COMMIT_HIDE_UNSTAGING)
 msgid "Hide Unstaging<<"
-msgstr ""
+msgstr "Cacher la dé-présélection<<"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1326)
 msgid "Hide the script while running"
@@ -7649,12 +7650,12 @@ msgstr "parents(s)"
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1639,
 #. IDS_PROC_COMMIT_PARTIAL_STAGING)
 msgid "Partial Staging>>"
-msgstr ""
+msgstr "Présélection partielle>>"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1638,
 #. IDS_PROC_COMMIT_PARTIAL_UNSTAGING)
 msgid "Partial Unstaging>>"
-msgstr ""
+msgstr "Dé-présélectionner partielle>>"
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
@@ -9779,7 +9780,7 @@ msgstr ""
 #. Resource IDs: (IDS_PROC_STAGE_SELECTED_LINES, ID_STAGING_STAGESELECTEDLINES
 #. - Menu)
 msgid "Stage selected &lines"
-msgstr ""
+msgstr "Présélection des &lignes sélectionnées"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1855)
 msgid "Staging support (EXPERIMENTAL)"
@@ -10747,11 +10748,11 @@ msgstr "Basculer les filtres"
 
 #. Resource IDs: (IDS_STATUSLIST_TOOMANYITEMS)
 msgid "Too many files to display."
-msgstr ""
+msgstr "Trop de fichiers à afficher."
 
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 65535)
 msgid "Top context menu on Windows 11"
-msgstr ""
+msgstr "Menu contextuel supérieur de Windows 11"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 4594, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535, IDS_APPNAME)
@@ -11151,12 +11152,12 @@ msgstr "Désélectionner la branche suivie"
 #. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_HUNKS,
 #. ID_UNSTAGING_UNSTAGESELECTEDHUNKS - Menu)
 msgid "Unstage selected &hunks"
-msgstr ""
+msgstr "Dé-présélectionner les &hunks sélectectionnés"
 
 #. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_LINES,
 #. ID_UNSTAGING_UNSTAGESELECTEDLINES - Menu)
 msgid "Unstage selected &lines"
-msgstr ""
+msgstr "Dé-présélectionner les &lines sélectionnées"
 
 #. Resource IDs: (AFX_IDS_UNTITLED)
 msgid "Untitled"
@@ -11560,11 +11561,11 @@ msgstr "Afficher un patch"
 
 #. Resource IDs: (IDS_VIEWPATCH_HEAD_INDEX)
 msgid "View Patch - HEAD to index"
-msgstr ""
+msgstr "Voir le correctif - HEAD à l'index"
 
 #. Resource IDs: (IDS_VIEWPATCH_INDEX_WORKTREE)
 msgid "View Patch - index to working tree"
-msgstr ""
+msgstr "Voir le correctif - Indexer à l'arborescence de travail"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1637, Dialog IDD_DIFFFILES:
 #. Control id 1637, IDS_PROC_COMMIT_SHOWPATCH)
@@ -11740,7 +11741,7 @@ msgstr "Espacements"
 
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 4602)
 msgid "Windows 11 Context Menu"
-msgstr ""
+msgstr "Menu contextuel Windows 11"
 
 #. Resource IDs: (5020 - Menu)
 msgid "Windows-1250"
