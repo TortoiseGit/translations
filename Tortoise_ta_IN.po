@@ -8,15 +8,16 @@
 # Jeyanthinath Muthuram <jeyanthinath10@gmail.com>, 2017-2018
 # kathiresanmoorthy <kathiresanmoorthy@gmail.com>, 2012
 # Sven Strickroth <sstrickroth@googlemail.com>, 2015
-# அனிஷ் பிரபு தி <anishprabu243@gmail.com>, 2021
-# தமிழ்நேரம் திருக்குறள் <anishprabu.t@gmail.com>, 2021
+# அனிச் பிரபு தி <anishprabu243@gmail.com>, 2021
+# நேரம் தமிழ் <anishprabu.t@gmail.com>, 2021
+# நேரம் தமிழ் <anishprabu.t@gmail.com>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
-"PO-Revision-Date: 2022-01-03 14:09+0000\n"
-"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>\n"
+"PO-Revision-Date: 2011-11-27 06:19+0000\n"
+"Last-Translator: நேரம் தமிழ் <anishprabu.t@gmail.com>, 2022\n"
 "Language-Team: Tamil (India) (http://www.transifex.com/lznuaa/tortoisegit/language/ta_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -144,12 +145,12 @@ msgstr "%1!d! ஆண்டுகளுக்கு முன்"
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
 msgid "%1!d! commits ahead \"%2!s!\""
-msgstr ""
+msgstr "%1!d! உறுதிகள் முன்னால் \"%2!s!\""
 
 #. Resource IDs: (IDS_STATUSLIST_FILESREVERTED)
 #, c-format
 msgid "%1!d! files reverted to %2!s!."
-msgstr ""
+msgstr "%1!d! கோப்புகள் %2!s! க்கு மாற்றப்பட்டன!."
 
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
@@ -159,7 +160,7 @@ msgstr "%1!d! files ேதர்வு ெசய்யப்பட்டுள�
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
 msgid "%1!d! items selected"
-msgstr ""
+msgstr "%1!d! தேர்ந்தெடுக்கப்பட்ட பொருட்கள்"
 
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
@@ -372,7 +373,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1613)
 msgid "&Apply Patch"
-msgstr ""
+msgstr "&ஒட்டுப்போடு"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1013)
 msgid "&Apply unified diff"
@@ -392,29 +393,29 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUBLAME)
 msgid "&Blame"
-msgstr ""
+msgstr "&பழி கூறு"
 
 #. Resource IDs: (IDS_LOG_POPUP_BLAMEDIFF)
 msgid "&Blame changes"
-msgstr ""
+msgstr "&பழி கூறு மாற்றங்கள்"
 
 #. Resource IDs: (IDS_FILEDIFF_POPBLAME, IDS_LOG_POPUP_BLAMEREVS)
 msgid "&Blame revisions"
-msgstr ""
+msgstr "&பழி கூறு திருத்தங்கள்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Border:"
-msgstr ""
+msgstr "&எல்லை:"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1512, Dialog IDD_GITSWITCH:
 #. Control id 1512, Dialog IDD_MERGE: Control id 1512, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1512, Dialog IDD_RESET: Control id 1512)
 msgid "&Branch"
-msgstr ""
+msgstr "&கிளை"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 4566)
 msgid "&Branch:"
-msgstr ""
+msgstr "&கிளை:"
 
 #. Resource IDs: (IDS_LOG_BROWSEREPO)
 msgid "&Browse repository"
@@ -435,12 +436,12 @@ msgstr "&ரத்துசெய்"
 
 #. Resource IDs: (IDS_MENUCLEANUP)
 msgid "&Clean up..."
-msgstr ""
+msgstr "&சுத்தம் செய்..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1848, ID_EDIT_CLEAR -
 #. Menu)
 msgid "&Clear"
-msgstr ""
+msgstr "&சுத்தம்"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1686)
 msgid "&Clear stash"
@@ -556,7 +557,7 @@ msgstr "&முந்தைய பதிப்பில் வேறுபாட
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 65535)
 msgid "&Directory:"
-msgstr ""
+msgstr "&அடைவு:"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_DISABLED - Menu)
 msgid "&Disabled"
@@ -9720,11 +9721,13 @@ msgstr ""
 msgid "Stacked Line Graph"
 msgstr ""
 
-#. Resource IDs: (ID_STAGING_STAGESELECTEDHUNKS - Menu)
+#. Resource IDs: (IDS_PROC_STAGE_SELECTED_HUNKS, ID_STAGING_STAGESELECTEDHUNKS
+#. - Menu)
 msgid "Stage selected &hunks"
 msgstr ""
 
-#. Resource IDs: (ID_STAGING_STAGESELECTEDLINES - Menu)
+#. Resource IDs: (IDS_PROC_STAGE_SELECTED_LINES, ID_STAGING_STAGESELECTEDLINES
+#. - Menu)
 msgid "Stage selected &lines"
 msgstr ""
 
@@ -11095,11 +11098,13 @@ msgstr ""
 msgid "Unset tracked branch"
 msgstr ""
 
-#. Resource IDs: (ID_UNSTAGING_UNSTAGESELECTEDHUNKS - Menu)
+#. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_HUNKS,
+#. ID_UNSTAGING_UNSTAGESELECTEDHUNKS - Menu)
 msgid "Unstage selected &hunks"
 msgstr ""
 
-#. Resource IDs: (ID_UNSTAGING_UNSTAGESELECTEDLINES - Menu)
+#. Resource IDs: (IDS_PROC_UNSTAGE_SELECTED_LINES,
+#. ID_UNSTAGING_UNSTAGESELECTEDLINES - Menu)
 msgid "Unstage selected &lines"
 msgstr ""
 
