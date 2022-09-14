@@ -9,15 +9,16 @@
 # kathiresanmoorthy <kathiresanmoorthy@gmail.com>, 2012
 # Sven Strickroth <sstrickroth@googlemail.com>, 2015
 # அனிச் பிரபு தி <anishprabu243@gmail.com>, 2021
+# அனிச் பிரபு தி <anishprabu243@gmail.com>, 2021
 # நேரம் தமிழ் <anishprabu.t@gmail.com>, 2021
-# நேரம் தமிழ் <anishprabu.t@gmail.com>, 2022
+# நேரம் தமிழ் <anishprabu.t@gmail.com>, 2021-2022
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseGit\n"
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: நேரம் தமிழ் <anishprabu.t@gmail.com>, 2022\n"
+"Last-Translator: நேரம் தமிழ் <anishprabu.t@gmail.com>, 2021-2022\n"
 "Language-Team: Tamil (India) (http://www.transifex.com/lznuaa/tortoisegit/language/ta_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +56,7 @@ msgstr "%.2f மெகா பைட்டுகள் பரிமாற்ற�
 #. Resource IDs: (AFX_IDP_ARCH_BADCLASS)
 #, c-format
 msgid "%1 contained an unexpected object."
-msgstr "%1 எதிர்பாராத object-கைள ெகாண்டிருந்தது"
+msgstr "%1 எதிர்பாராத பொருளை கொண்டிருந்தது"
 
 #. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
@@ -70,12 +71,12 @@ msgstr "%1 தவறான schema-ைவ ெகாண்டுள்ளது"
 #. Resource IDs: (AFX_IDP_ARCH_BADINDEX)
 #, c-format
 msgid "%1 has a bad format."
-msgstr "%1 bad format-ஐ ெகாண்டுள்ளது"
+msgstr "%1 மோசமான வடிவம் கொண்டுள்ளது"
 
 #. Resource IDs: (AFX_IDP_FILE_NOT_FOUND)
 #, c-format
 msgid "%1 was not found."
-msgstr "%1 இல்ைல"
+msgstr "%1 கிடைக்கவில்லை"
 
 #. Resource IDs: (IDS_DAY_AGO)
 #, c-format
@@ -135,7 +136,7 @@ msgstr "%1!d! வாரங்களுக்கு முன்"
 #. Resource IDs: (IDS_YEAR_AGO)
 #, c-format
 msgid "%1!d! Year ago"
-msgstr "%1!d! ஆண்டுக்கு முன் "
+msgstr "%1!d! ஆண்டுக்கு முன்"
 
 #. Resource IDs: (IDS_YEARS_AGO)
 #, c-format
@@ -155,7 +156,7 @@ msgstr "%1!d! கோப்புகள் %2!s! க்கு மாற்றப�
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr "%1!d! files ேதர்வு ெசய்யப்பட்டுள்ளது , %2!d! files ெமாத்தம்"
+msgstr "%1!d! files தேர்வு செய்யப்பட்டுள்ளது , %2!d! files மொத்தம்"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
@@ -208,7 +209,7 @@ msgstr ""
 msgid ""
 "%1!s!\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOFILE)
 #, c-format
@@ -307,7 +308,7 @@ msgid ""
 "%s\n"
 "is a directory, not a file!\n"
 "TortoiseGitMerge can't diff directories."
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_RENAME: Control id 1483)
 msgid "&..."
@@ -336,7 +337,7 @@ msgid "&About TortoiseGitMerge..."
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1382, Dialog
-#. IDD_REBASE: Control id 1382)
+#. IDD_REBASE: Control id 1382, Dialog IDD_WORKTREE_LIST: Control id 1382)
 msgid "&Add"
 msgstr "&சேர்"
 
@@ -373,7 +374,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1613)
 msgid "&Apply Patch"
-msgstr "&ஒட்டுப்போடு"
+msgstr "இடு"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1013)
 msgid "&Apply unified diff"
@@ -409,7 +410,8 @@ msgstr "&எல்லை:"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1512, Dialog IDD_GITSWITCH:
 #. Control id 1512, Dialog IDD_MERGE: Control id 1512, Dialog
-#. IDD_NEW_BRANCH_TAG: Control id 1512, Dialog IDD_RESET: Control id 1512)
+#. IDD_NEW_BRANCH_TAG: Control id 1512, Dialog IDD_RESET: Control id 1512,
+#. Dialog IDD_WORKTREE_CREATE: Control id 1512)
 msgid "&Branch"
 msgstr "&கிளை"
 
@@ -434,6 +436,10 @@ msgstr "&CD-ROM"
 msgid "&Cancel"
 msgstr "&ரத்துசெய்"
 
+#. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1858)
+msgid "&Checkout"
+msgstr ""
+
 #. Resource IDs: (IDS_MENUCLEANUP)
 msgid "&Clean up..."
 msgstr "&சுத்தம் செய்..."
@@ -445,7 +451,7 @@ msgstr "&சுத்தம்"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1686)
 msgid "&Clear stash"
-msgstr ""
+msgstr "பதுக்கிவைத்ததை துடை"
 
 #. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58112, Dialog
 #. IDD_CHECKFORUPDATES: Control id 1)
@@ -455,17 +461,18 @@ msgstr "&மூடு"
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1514, Dialog IDD_GITSWITCH:
 #. Control id 1514, Dialog IDD_MERGE: Control id 1514, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1514, Dialog IDD_RESET: Control id 1514,
-#. Dialog IDD_SYNC: Control id 1625)
+#. Dialog IDD_SYNC: Control id 1625, Dialog IDD_WORKTREE_CREATE: Control id
+#. 1514)
 msgid "&Commit"
 msgstr "&ஒப்படை"
 
 #. Resource IDs: (IDS_MENUCOMMITSUBMODULE)
 msgid "&Commit submodule..."
-msgstr ""
+msgstr "துணைதொகுதி ஒப்படை..."
 
 #. Resource IDs: (IDS_PROC_COMMIT_NOADDSIGNOFFBUTTON)
 msgid "&Commit w/o"
-msgstr "&ஒப்படை w/o"
+msgstr "&ஒப்படை இவைஇன்றி"
 
 #. Resource IDs: (IDS_MENUCOMMIT)
 msgid "&Commit..."
@@ -539,6 +546,10 @@ msgstr ""
 msgid "&Delete branch/tag"
 msgstr ""
 
+#. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1857)
+msgid "&Detach"
+msgstr ""
+
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
 msgstr ""
@@ -609,7 +620,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REBASE_SELECTALL_EDIT)
 msgid "&Edit ALL"
-msgstr ""
+msgstr "அனைத்தும் &தொகு"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1506)
 msgid "&Edit Filter"
@@ -625,7 +636,7 @@ msgstr "&தொகு..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
-msgstr ""
+msgstr "&தொகு பிரி"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
@@ -713,13 +724,13 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_LFS_LOCKS: Control id 1480, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1521, Dialog IDD_SUBMODULE_ADD: Control id
 #. 1480, Dialog IDD_SUBMODULE_UPDATE: Control id 1480, Dialog IDD_SYNC:
-#. Control id 1521)
+#. Control id 1521, Dialog IDD_WORKTREE_CREATE: Control id 1521)
 msgid "&Force"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1607)
 msgid "&Force Rebase"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_CREATE_PATCH)
 msgid "&Format Patch..."
@@ -755,7 +766,8 @@ msgid "&Gray Unrelated Changed Paths"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1511, Dialog
-#. IDD_NEW_BRANCH_TAG: Control id 1511)
+#. IDD_NEW_BRANCH_TAG: Control id 1511, Dialog IDD_WORKTREE_CREATE: Control id
+#. 1511)
 msgid "&HEAD"
 msgstr "&HEAD"
 
@@ -812,7 +824,7 @@ msgstr "&இறக்குமதி..."
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1693)
 msgid "&Initialize submodules (--init)"
-msgstr ""
+msgstr "துணைதொகுதிகள்"
 
 #. Resource IDs: (IDS_PROC_INSTALL)
 msgid "&Install"
@@ -841,7 +853,7 @@ msgstr "&மொழி:"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1602)
 msgid "&Launch Rebase After Fetch"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1065)
 msgid "&Limit search to modified lines"
@@ -878,6 +890,10 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1504)
 msgid "&Local:"
+msgstr ""
+
+#. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1515)
+msgid "&Location"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
@@ -1050,6 +1066,10 @@ msgid ""
 "Ignore the hook script and run the command anyway."
 msgstr ""
 
+#. Resource IDs: (Dialog IDD_WORKTREE_LIST: Control id 1383)
+msgid "&Prune"
+msgstr ""
+
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
 msgstr "&இழு"
@@ -1068,7 +1088,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_REBASEBUTTON)
 msgid "&Rebase"
-msgstr ""
+msgstr "&மறுதளம்"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1694)
 msgid "&Recursive"
@@ -1237,7 +1257,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_STASHBUTTON)
 msgid "&Stash"
-msgstr ""
+msgstr "பதுக்கிவை"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Menu)
 msgid "&Status Bar"
@@ -1265,7 +1285,8 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1513, Dialog IDD_GITSWITCH:
 #. Control id 1513, Dialog IDD_MERGE: Control id 1513, Dialog
-#. IDD_NEW_BRANCH_TAG: Control id 1513, Dialog IDD_RESET: Control id 1513)
+#. IDD_NEW_BRANCH_TAG: Control id 1513, Dialog IDD_RESET: Control id 1513,
+#. Dialog IDD_WORKTREE_CREATE: Control id 1513)
 msgid "&Tag"
 msgstr ""
 
@@ -1321,11 +1342,11 @@ msgstr "&தளர்த்து"
 
 #. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS, ID_VIEW_UNIFIEDDIFF - Menu)
 msgid "&Unified diff"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF_PARENT)
 msgid "&Unified diff with"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1061)
 msgid "&Unknown drives"
@@ -1472,7 +1493,8 @@ msgstr "--&all"
 #. IDD_SETTINREMOTE: Control id 1483, Dialog IDD_SUBMODULE_ADD: Control id
 #. 1384, Dialog IDD_SUBMODULE_ADD: Control id 1583, Dialog IDD_SUBMODULE_ADD:
 #. Control id 1584, Dialog IDD_SYNC: Control id 1382, Dialog IDD_SYNC: Control
-#. id 1383, Dialog IDD_TOOLASSOC: Control id 1104)
+#. id 1383, Dialog IDD_TOOLASSOC: Control id 1104, Dialog IDD_WORKTREE_CREATE:
+#. Control id 1382, Dialog IDD_WORKTREE_CREATE: Control id 1483)
 msgid "..."
 msgstr "..."
 
@@ -1598,7 +1620,7 @@ msgstr ""
 msgid ""
 "A viewer program for GNU diff files (patch files).\n"
 "If you don't have one use NotePad."
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_ABORTBUTTON)
 msgid "A&bort"
@@ -1721,7 +1743,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_MERGE_TOOL)
 msgid "Add extension specific merge program"
@@ -1742,7 +1764,7 @@ msgstr "சேர்..."
 
 #. Resource IDs: (Dialog IDD_TOOLASSOC: Control id 171)
 msgid "Add/Edit Extension Specific Diff/Merge Program"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1705, Dialog
 #. IDD_SETCOLORPAGE: Control id 65535, Dialog IDD_SETTINGSOVERLAYHANDLERS:
@@ -1783,15 +1805,15 @@ msgstr "மேம்பட்ட"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 170)
 msgid "Advanced Diff/Merge Settings"
-msgstr ""
+msgstr "மேம்பட்ட வேறுபாடு"
 
 #. Resource IDs: (IDS_DLGTITLE_ADV_DIFF)
 msgid "Advanced diff settings"
-msgstr ""
+msgstr "மேம்பட்ட வேறுபாடு"
 
 #. Resource IDs: (IDS_DLGTITLE_ADV_MERGE)
 msgid "Advanced merge settings"
-msgstr ""
+msgstr "மேம்பட்ட"
 
 #. Resource IDs: (IDS_ALL)
 msgid "All"
@@ -1897,7 +1919,7 @@ msgid ""
 "You can specify the following parameters to the path:\n"
 "%base: the base file\n"
 "%mine: the modified file"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_SETTINGS_EXTMERGE_TT)
 #, c-format
@@ -1945,27 +1967,27 @@ msgstr ""
 
 #. Resource IDs: (ID_FILE_APPLYPATCH - Menu)
 msgid "Apply &Patch..."
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (IDS_MENUIMPORTPATCH)
 msgid "Apply Patch Serial..."
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (IDS_MENU_APPLY, IDS_OPENDIFFFILETITLE)
 msgid "Apply Patch..."
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 311)
 msgid "Apply Patches"
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (IDS_MENUDESCIMPORTPATCH)
 msgid "Apply a series of patches from a mailbox"
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1072)
 msgid "Apply unified diff"
-msgstr ""
+msgstr "வேறுபாடு இடு"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK2)
 msgid "Approve or reject client-side hook script"
@@ -1986,7 +2008,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REBASE_ABORT)
 msgid "Are you sure you want to abort the rebase process?"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_REALLYCANCEL)
 msgid "Are you sure you want to cancel?"
@@ -2100,15 +2122,15 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSEMAIL)
 msgid "Author email addresses"
-msgstr ""
+msgstr "ஆசிரியர்"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSNAME)
 msgid "Author names"
-msgstr ""
+msgstr "ஆசிரியர் பெயர்கள்"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "Author:\t\t\tStefan Kueng"
-msgstr ""
+msgstr "ஆசிரியர்:\t\t\tStefan Kueng"
 
 #. Resource IDs: (IDS_LOG_FILTER_AUTHORS)
 msgid "Authors"
@@ -2116,11 +2138,11 @@ msgstr "ஆசிரியர்கள்"
 
 #. Resource IDs: (IDS_LOG_POPUP_CLIPBOARD_AUTHORSFULL)
 msgid "Authors (full)"
-msgstr ""
+msgstr "ஆசிரியர்கள் (முழு)"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1265)
 msgid "Authors case sensitive"
-msgstr ""
+msgstr "ஆசிரியர்கள் வழக்கு உணர்திறன்"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto CrLf convert"
@@ -2132,7 +2154,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOCONFLICTS)
 msgid "Auto-close if no conflicts"
-msgstr ""
+msgstr "முரண்பாடுகள்"
 
 #. Resource IDs: (IDS_PROGRS_CLOSE_NOERROR)
 msgid "Auto-close if no errors"
@@ -2203,7 +2225,8 @@ msgstr ""
 msgid "Base"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1522)
+#. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1522, Dialog
+#. IDD_WORKTREE_CREATE: Control id 1522)
 msgid "Base On"
 msgstr ""
 
@@ -2347,7 +2370,8 @@ msgstr ""
 msgid "Branch:"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_CLONE: Control id 1383)
+#. Resource IDs: (Dialog IDD_CLONE: Control id 1383, Dialog
+#. IDD_WORKTREE_CREATE: Control id 1384)
 msgid "Bro&wse..."
 msgstr ""
 
@@ -2357,7 +2381,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_EXTDIFFBROWSE_TT)
 msgid "Browse for the external diff program"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_BROWSE_REFS: Control id 322)
 msgid "Browse references"
@@ -2497,8 +2521,8 @@ msgstr ""
 #. Dialog IDD_SUBMODULE_UPDATE: Control id 2, Dialog IDD_SVNDCOMMITTYPE:
 #. Control id 2, Dialog IDD_SVNIGNORE: Control id 2, Dialog IDD_SVNPROGRESS:
 #. Control id 2, Dialog IDD_TOOLASSOC: Control id 2, Dialog IDD_URL: Control
-#. id 2, Dialog IDD_USER_PASSWD: Control id 2, IDS_MSGBOX_CANCEL,
-#. IDS_PROC_OVERWRITEEXPORT_CANCEL)
+#. id 2, Dialog IDD_USER_PASSWD: Control id 2, Dialog IDD_WORKTREE_CREATE:
+#. Control id 2, IDS_MSGBOX_CANCEL, IDS_PROC_OVERWRITEEXPORT_CANCEL)
 msgid "Cancel"
 msgstr "ரத்துசெய்"
 
@@ -2524,7 +2548,7 @@ msgstr ""
 msgid ""
 "Cancel\n"
 "Resolve the conflicts first."
-msgstr ""
+msgstr "முரண்பாடுகள்"
 
 #. Resource IDs: (IDS_ASKFORSAVE_CANCEL_OPEN)
 msgid ""
@@ -2557,7 +2581,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ERR_DIFF_NEWLINES)
 msgid "Cannot show diff because of inconsistent newlines in the file."
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_LOG_FILTER_CASESENSITIVE)
 msgid "Case-sensitive"
@@ -2645,7 +2669,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1242)
 msgid "Changes made (double-click on file for diff):"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "Char position where to show a border line in commit text boxes:"
@@ -2689,7 +2713,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_RELATIVETIMES_TT)
 msgid "Check to show relative times in log messages"
-msgstr ""
+msgstr "தொடர்புடைய"
 
 #. Resource IDs: (IDS_SETTINGS_SHORTDATEFORMAT_TT)
 msgid "Check to use a less verbose date and time format in log messages"
@@ -2733,7 +2757,7 @@ msgstr ""
 msgid ""
 "Cherry-pick failed (please see log in the cherry pick/rebase dialog for "
 "details)! Skip this commit?"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Chinese"
@@ -2843,7 +2867,7 @@ msgstr ""
 msgid ""
 "Click on \"Advanced\" to specify alternate diff programs based on file "
 "extension"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 65535)
 msgid ""
@@ -2985,7 +3009,7 @@ msgstr "ஒப்படை"
 #. Resource IDs: (IDS_REPOBROWSEASKSUBMODULEUPDATE)
 #, c-format
 msgid "Commit %1!s! not found in \"%2!s!\". Update submodule now?"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_LOG_NOT_VISIBLE)
 #, c-format
@@ -3189,7 +3213,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 65535)
 msgid "Configure viewer program for GNU diff files (patch files)"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1768)
 msgid "Confirm to kill running git process"
@@ -3198,29 +3222,29 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_RESOLVE_CONFLICT: Control id 4568,
 #. IDS_PATHACTIONS_CONFLICT)
 msgid "Conflict"
-msgstr ""
+msgstr "முரண்பாடு"
 
 #. Resource IDs: (IDS_PROC_CONFLICTFILES)
 msgid "Conflict Files"
-msgstr ""
+msgstr "முரண்பாடு கோப்புகள்"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Conflict resolved"
-msgstr ""
+msgstr "முரண்பாடு நீக்கப்பட்டது"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535,
 #. IDS_STATE_CONFLICTS, IDS_SVNACTION_CONFLICTED)
 msgid "Conflicted"
-msgstr ""
+msgstr "முரண்பாட்டது"
 
 #. Resource IDs: (IDS_PROC_SYNC_CONFLICTS)
 msgid "Conflicts"
-msgstr ""
+msgstr "முரண்பாடுகள்"
 
 #. Resource IDs: (IDS_STATUSBAR_CONFLICTS)
 #, c-format
 msgid "Conflicts: %d"
-msgstr ""
+msgstr "முரண்பாடுகள்: %d"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 195)
 msgid "Context Menu"
@@ -3426,7 +3450,7 @@ msgid ""
 "Could not start diff viewer!\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_ERR_EXTDIFFSTART)
 #, c-format
@@ -3434,7 +3458,7 @@ msgid ""
 "Could not start external diff program!\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_ERR_EXTMERGESTART)
 #, c-format
@@ -3579,7 +3603,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCCREATEPATCH)
 msgid "Creates a unified diff file with all changes you made"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_PROC_CREATINGPULLREUQEST)
 msgid "Creating pull-request..."
@@ -3626,13 +3650,13 @@ msgid ""
 "Current branch \"%s\" is up to date\n"
 "\n"
 "If you want to force a rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "மறுதளம் மறுதளம்"
 
 #. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
 msgid ""
 "Current branch is up to date or newer than the fetched branch. Open rebase "
 "anyway?"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
@@ -3775,7 +3799,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_DELETESUBMODULE)
 msgid "Delete submodule"
-msgstr ""
+msgstr "துணைதொகுதி நீக்கு"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAG)
 msgid "Delete tag"
@@ -3921,61 +3945,61 @@ msgstr ""
 
 #. Resource IDs: (cmdGroupDiff_LabelTitle_RESID)
 msgid "Diff"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1789)
 msgid "Diff Options"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_MENUDIFFTWO)
 msgid "Diff Two Commits"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 192)
 msgid "Diff Viewer"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff added lines"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff command"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff comment"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 65535)
 msgid "Diff file:"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff header"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_MENUDIFFLATER)
 msgid "Diff later"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff position"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 65535)
 msgid "Diff removed lines"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_MENUDIFFNOW)
 #, c-format
 msgid "Diff with \"%s\""
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_STATUSLIST_GROUP_DIFFWITHPARENT)
 #, c-format
 msgid "Diff with parent %d"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_TAGCOMPARE_DIFFER)
 msgid "Differ"
@@ -3987,22 +4011,22 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1022)
 msgid "Diffing"
-msgstr ""
+msgstr "வேறுபாடுசெய்"
 
 #. Resource IDs: (IDS_PROC_STATISTICS_DIFF)
 msgid "Diffing commits"
-msgstr ""
+msgstr "வேறுபாடுசெய்"
 
 #. Resource IDs: (IDS_MENUDESCPREVDIFF)
 msgid "Diffs the working tree file with the one before the last commit"
-msgstr ""
+msgstr "வேறுபாடுகள்"
 
 #. Resource IDs: (IDS_MENUDESCDIFFTWO)
 msgid "Diffs two any commits"
-msgstr ""
+msgstr "வேறுபாடுகள்"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 65535, Dialog
-#. IDD_OPENDLG: Control id 65535)
+#. IDD_OPENDLG: Control id 65535, Dialog IDD_WORKTREE_CREATE: Control id 1518)
 msgid "Directory:"
 msgstr "அடைவு:"
 
@@ -4094,7 +4118,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1669)
 msgid "Do not autoselect submodules"
-msgstr ""
+msgstr "துணைதொகுதிகள்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid "Do not show the context menu for the following paths:"
@@ -4107,11 +4131,15 @@ msgstr ""
 #. Resource IDs: (IDS_PROC_DELETEALLSTASH)
 #, c-format
 msgid "Do you really want to delete ALL %d stash?"
-msgstr ""
+msgstr "பதுக்கிவைத்த %d அனைத்தும் நீக்கவா?"
 
 #. Resource IDs: (IDS_PROC_DELETEBRANCHTAG)
 #, c-format
 msgid "Do you really want to delete \"%s\"?"
+msgstr ""
+
+#. Resource IDs: (IDS_PROC_DELETE_WORKTREE)
+msgid "Do you really want to delete the selected worktree(s)?"
 msgstr ""
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
@@ -4127,7 +4155,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_MARK_SKIPWORKTREE)
 msgid "Do you really want to mark the selected file(s) as skip-worktree?"
-msgstr ""
+msgstr "தவிர்-வேலைமரம்"
 
 #. Resource IDs: (IDS_PROC_FORCEMOVE)
 msgid "Do you really want to move this file or folder?"
@@ -4192,7 +4220,7 @@ msgstr ""
 msgid ""
 "Do you really want to unflag the selected file(s) as skip-worktree or "
 "assume-unchanged?"
-msgstr ""
+msgstr "தவிர் வேலைமரம்"
 
 #. Resource IDs: (IDS_SETTINGS_FETCH_ADDEDREMOTE)
 msgid "Do you want to fetch remote branches from the newly added remote?"
@@ -4226,7 +4254,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DCOMMIT_STASH_POP)
 msgid "Do you want to stash pop now?"
-msgstr ""
+msgstr "இப்போது பதுக்கிவைத்து தோன்றவைக்க வேண்டுமா?"
 
 #. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Document :"
@@ -4293,7 +4321,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DROPONESTASH)
 msgid "Drop &one stash"
-msgstr ""
+msgstr "பதுக்கிவை"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1731)
 msgid "Dry run"
@@ -4383,7 +4411,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_DLGTITLE_EDIT_DIFF_TOOL)
 msgid "Edit extension specific diff program"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_DLGTITLE_EDIT_MERGE_TOOL)
 msgid "Edit extension specific merge program"
@@ -4912,7 +4940,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MARKASRESOLVED_TASK2)
 msgid "File has no conflicts"
-msgstr ""
+msgstr "கோப்பில் முரண்பாடுகள் இல்லை"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY_TASK2)
 msgid "File is empty."
@@ -5176,7 +5204,7 @@ msgstr ""
 msgid ""
 "Force the rebase even if the current branch is a descendant of the commit you are rebasing onto.\n"
 "Normally the command will exit with the message \"Current branch is up to date\" in such a situation."
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_PROGS_LFS_FORCEUNLOCK)
 msgid "Force unlock"
@@ -5207,13 +5235,13 @@ msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not running a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "மறுதளம் மறுதளம்"
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
 "Found an empty commit message. You have to enter one or rebase cannot "
 "proceed."
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (Dialog IDD_AUTOTEXTTESTDLG: Control id 65535)
 msgid "Found auto words:"
@@ -5333,7 +5361,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGRESS_UNIFIEDDIFF)
 msgid "Getting unified diff"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 4569)
 msgid "Git"
@@ -5383,6 +5411,10 @@ msgstr ""
 msgid "Git Move versioned item(s) here"
 msgstr ""
 
+#. Resource IDs: (IDS_DROPNEWWORKTREE)
+msgid "Git New worktree..."
+msgstr ""
+
 #. Resource IDs: (IDS_PROCS_TITLE_GITREMOTESETTINGS)
 msgid "Git Remote Settings"
 msgstr ""
@@ -5397,7 +5429,7 @@ msgstr "Git SVN DCommit"
 
 #. Resource IDs: (IDS_MENUSVNREBASE_DESC)
 msgid "Git SVN Rebase"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 326)
 msgid "Git Synchronization"
@@ -5557,7 +5589,8 @@ msgstr ""
 #. IDD_SETTINGSBUGTRAQADV: Control id 9, Dialog IDD_SETTINGSHOOKCONFIG:
 #. Control id 9, Dialog IDD_STASH: Control id 9, Dialog IDD_SUBMODULE_ADD:
 #. Control id 9, Dialog IDD_SUBMODULE_UPDATE: Control id 9, Dialog
-#. IDD_SVNDCOMMITTYPE: Control id 9, Dialog IDD_SYNC: Control id 9,
+#. IDD_SVNDCOMMITTYPE: Control id 9, Dialog IDD_SYNC: Control id 9, Dialog
+#. IDD_WORKTREE_CREATE: Control id 9, Dialog IDD_WORKTREE_LIST: Control id 9,
 #. IDS_MSGBOX_HELP)
 msgid "Help"
 msgstr "உதவி"
@@ -6178,12 +6211,12 @@ msgstr ""
 #. Resource IDs: (ID_VIEW_INLINEDIFF - Menu,
 #. cmdViewInlineDiff_LabelTitle_RESID)
 msgid "Inline diff"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (ID_VIEW_INLINEDIFFWORD - Menu,
 #. cmdViewInlineDiffWord_LabelTitle_RESID)
 msgid "Inline diff word-wise"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Inline differences"
@@ -6265,7 +6298,7 @@ msgid ""
 "Do you want to ignore this warning and keep these lines or abort committing in order to edit the commit message?\n"
 "\n"
 "You can automatically remove these lines by enabling \"Strip lines starting with \"#\" in commit messages\" in TortoiseGit settings."
-msgstr ""
+msgstr "முரண்பாடுகள் உள்ளன"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1074)
 msgid "J&ump to first conflict when loading"
@@ -6415,7 +6448,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCCONFLICT)
 msgid "Launches the external diff/merge program to solve the conflicts"
-msgstr ""
+msgstr "வேறுபாடு முரண்பாடுகள்"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1137)
 msgid "Least active author:"
@@ -6446,16 +6479,16 @@ msgstr ""
 #. Resource IDs: (ID_VIEW_LINEDIFFBAR - Menu,
 #. cmdViewLineDiffBar_LabelTitle_RESID)
 msgid "Line diff bar"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Line differences"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_MOVED_FROM_TT)
 #, c-format
 msgid "Line moved from line %ld"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_MOVED_TO_TT)
 #, c-format
@@ -6538,7 +6571,7 @@ msgstr ""
 msgid ""
 "Local changes ignored (assumed valid/unchanged or skip worktree flagged "
 "files)"
-msgstr ""
+msgstr "தவிர் வேலைமரம்"
 
 #. Resource IDs: (IDS_TAGCOMPARE_LOCALMESSAGE)
 msgid "Local message"
@@ -6564,6 +6597,15 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENULFSLOCK, IDS_PROGRS_CMD_LFS_LOCK)
 msgid "Lock"
+msgstr ""
+
+#. Resource IDs: (IDS_LOCKED)
+msgid "Locked"
+msgstr ""
+
+#. Resource IDs: (IDS_PROC_LOCKED_WORKTREES)
+#, c-format
+msgid "Locked %d worktree(s)."
 msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCLFSLOCK)
@@ -6645,6 +6687,10 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1382,
 #. IDS_PROC_BROWSEREFS_MANAGEREMOTES)
 msgid "Manage Remotes"
+msgstr ""
+
+#. Resource IDs: (IDS_MENUDESCWORKTREE)
+msgid "Manages the worktrees of a repository"
 msgstr ""
 
 #. Resource IDs: (IDS_SVNPROGRESS_MENUMARKASRESOLVED, ID_EDIT_MARKASRESOLVED -
@@ -6909,6 +6955,10 @@ msgstr ""
 msgid "New Branch/Tag"
 msgstr ""
 
+#. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 4603)
+msgid "New Worktree"
+msgstr ""
+
 #. Resource IDs: (IDS_NEWHASH)
 msgid "New hash"
 msgstr ""
@@ -6932,7 +6982,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_NEWSUBMODULE)
 msgid "New submodule"
-msgstr ""
+msgstr "புதிய துணைதொகுதி"
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_NEWERTIME)
 msgid "Newer commit time"
@@ -7011,7 +7061,7 @@ msgstr ""
 #. Resource IDs: (IDS_SUBMODULE_EMPTYDIFF)
 msgid ""
 "No differences found! Submodule may not be updated. Update submodule now?"
-msgstr ""
+msgstr "துணைதொகுதி துணைதொகுதி"
 
 #. Resource IDs: (AFX_IDP_NO_ERROR_AVAILABLE)
 msgid "No error message is available."
@@ -7083,7 +7133,7 @@ msgstr ""
 msgid ""
 "No need to rebase\n"
 "\"%1!s!\" equals \"%2!s!\""
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_PROC_NOPREVIOUSVERSION)
 msgid "No previous version."
@@ -7174,7 +7224,7 @@ msgstr ""
 msgid ""
 "Note: These settings also apply to the Patch Viewer dialog.\n"
 "To select whether you would like to use the build-in or any alternative diff viewer program go to \"Diff Viewer\" preferences section in the leftward tree."
-msgstr ""
+msgstr "இடு வேறுபாடு வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
@@ -7190,7 +7240,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_NOTHINGTOREBASE)
 msgid "Nothing to Rebase"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_ERROR_NOTHING_COMMIT)
 msgid "Nothing to commit"
@@ -7211,7 +7261,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1161)
 msgid "Number of authors:"
-msgstr ""
+msgstr "ஆசிரியர்கள் எண்ணிக்கை"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "Number of characters required for moved or copied line detection:"
@@ -7318,7 +7368,8 @@ msgstr "OEM-US"
 #. Dialog IDD_SVNDCOMMITTYPE: Control id 1, Dialog IDD_SVNIGNORE: Control id
 #. 1, Dialog IDD_SVNPROGRESS: Control id 1, Dialog IDD_TOOLASSOC: Control id
 #. 1, Dialog IDD_URL: Control id 1, Dialog IDD_USER_PASSWD: Control id 1,
-#. IDS_MSGBOX_OK)
+#. Dialog IDD_WORKTREE_CREATE: Control id 1, Dialog IDD_WORKTREE_LIST: Control
+#. id 1, IDS_MSGBOX_OK)
 msgid "OK"
 msgstr "சரி"
 
@@ -7421,7 +7472,7 @@ msgstr ""
 msgid ""
 "Open files for diff or to apply a patch\n"
 "Open files"
-msgstr ""
+msgstr "வேறுபாடு இடு"
 
 #. Resource IDs: (IDS_PATCH_COPYFROMCLIPBOARD)
 msgid "Open from clipboard"
@@ -7469,7 +7520,7 @@ msgstr "விருப்பம்"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1517, Dialog
 #. IDD_PULLFETCH: Control id 1517, Dialog IDD_PUSH: Control id 1502, Dialog
-#. IDD_STASH: Control id 1517)
+#. IDD_STASH: Control id 1517, Dialog IDD_WORKTREE_CREATE: Control id 1517)
 msgid "Options"
 msgstr "விருப்பங்கள்"
 
@@ -7748,7 +7799,7 @@ msgstr ""
 msgid ""
 "Please enter a path where to apply the hook script to. Use \"*\" for all "
 "paths."
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (IDS_GITCHANGED_NEEDRESTART)
 msgid "Please restart TortoiseGit for the changes of git.exe to take effect."
@@ -7824,7 +7875,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_HOOKTYPE_PREREBASE)
 msgid "Pre-rebase hook"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_PROC_COMMIT_PREPARECOMMIT)
 msgid "Preparing commit..."
@@ -7948,7 +7999,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1603, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 1603, Dialog IDD_SETTINREMOTE: Control id
-#. 1603)
+#. 1603, IDS_PRUNE)
 msgid "Prune"
 msgstr ""
 
@@ -7972,7 +8023,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_PULL_DIFFS)
 msgid "Pulled Diff"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_PROC_PULL_LOG)
 msgid "Pulled Log"
@@ -8062,7 +8113,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_REBASE)
 msgid "REBASE"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1769)
 msgid "Randomize Sync Dialog startup position"
@@ -8114,18 +8165,22 @@ msgstr ""
 msgid "Read the 'Daily Use Guide' before you are stuck..."
 msgstr ""
 
+#. Resource IDs: (IDS_REASON)
+msgid "Reason"
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_REBASE: Control id 318)
 msgid "Rebase"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_REBASE_THIS_FORMAT)
 #, c-format
 msgid "Rebase \"%s\" onto this...(&G)"
-msgstr ""
+msgstr "மறுதளம் "
 
 #. Resource IDs: (IDS_MENUREBASE)
 msgid "Rebase..."
-msgstr ""
+msgstr "மறுதளம்..."
 
 #. Resource IDs: (IDS_PROC_REBASING_PROGRESS)
 #, c-format
@@ -8156,11 +8211,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_REBASE_ABORT_TT)
 msgid "Recover to the status before rebase"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1487)
 msgid "Recurse submodule"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1654)
 msgid "Recursive"
@@ -8261,7 +8316,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1072)
 msgid "Relative Times in log"
-msgstr ""
+msgstr "தொடர்புடைய"
 
 #. Resource IDs: (ID_FILE_RELOAD - Menu, cmdReload_LabelTitle_RESID)
 msgid "Reload"
@@ -8365,7 +8420,7 @@ msgstr ""
 msgid ""
 "Remove all comments before doing the diff so changes inside comments don't "
 "show as different"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_MENUUNIGNORE)
 msgid "Remove from &ignore list"
@@ -8529,7 +8584,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 4595)
 msgid "Resolve Submodule Conflict"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_SVNPROGRESS_MENURESOLVEUSING)
 #, c-format
@@ -8553,7 +8608,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_RESTARTREBASE)
 msgid "Restart rebase"
-msgstr ""
+msgstr "மறுதளம் மறுதொடக்கம்"
 
 #. Resource IDs: (IDS_MENURESTORE)
 msgid "Restore"
@@ -8630,11 +8685,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCAPPLYPATCH)
 msgid "Review/apply a unified diff file with TortoiseGitMerge"
-msgstr ""
+msgstr "இடு வேறுபாடு"
 
 #. Resource IDs: (IDS_MENUAPPLYPATCH)
 msgid "Review/apply single &patch..."
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1522, IDS_LOG_REVISION,
 #. IDS_STATUSLIST_COLREVISION)
@@ -8790,7 +8845,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUSVNREBASE)
 msgid "SVN Rebase"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_LOG_SVNREV)
 msgid "SVN Rev"
@@ -8969,11 +9024,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1385)
 msgid "Save unified diff"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1385)
 msgid "Save unified diff since HEAD"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_ERR_MAINFRAME_FILEHASCONFLICTS_TASK3)
 msgid ""
@@ -9031,7 +9086,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PATCH_SEARCHPATHTITLE)
 msgid "Searching for better path to apply patch..."
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (AFX_IDP_FILE_BAD_SEEK)
 #, c-format
@@ -9068,7 +9123,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_SELECTDIFF)
 msgid "Select diff application"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_SELECTFILE)
 msgid "Select file"
@@ -9135,7 +9190,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_SETTINGS_SELECTDIFFVIEWER)
 msgid "Select viewer for diff-files"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_ASKFORSAVEAS_MORE)
 msgid "Select what file you want to save as"
@@ -9312,13 +9367,13 @@ msgstr ""
 msgid ""
 "Show Inline-Diff word by word\n"
 "Inline diff word-wise"
-msgstr ""
+msgstr "வேறுபாடு வேறுபாடு"
 
 #. Resource IDs: (cmdViewInlineDiff)
 msgid ""
 "Show Inline-Diff\n"
 "Inline diff"
-msgstr ""
+msgstr "வேறுபாடு வேறுபாடு"
 
 #. Resource IDs: (ID_VIEW_SHOWOVERVIEW - Menu)
 msgid "Show Ove&rview"
@@ -9370,7 +9425,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (ID_VIEW_SHOWCOMPLETELOG - Menu)
 msgid "Show com&plete log"
@@ -9399,15 +9454,15 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1696,
 #. IDS_PROC_SHOWDIFF)
 msgid "Show diff"
-msgstr ""
+msgstr "வேறுபாடு காட்டு"
 
 #. Resource IDs: (IDS_HEADER_DIFFLEFTTOBASE, IDS_HEADER_DIFFRIGHTTOBASE)
 msgid "Show diff separately"
-msgstr ""
+msgstr "தனியாக வேறுபாடு காட்டு"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1556)
 msgid "Show diff to last commit"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1126)
 msgid "Show excluded folders as normal"
@@ -9471,7 +9526,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_SUBMODULE)
 msgid "Show log of submodule"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_MENULOGSUBMODULE)
 msgid "Show log of this folder"
@@ -9504,7 +9559,7 @@ msgstr ""
 msgid ""
 "Show or hide the line diff bar\n"
 "Toggle LineDiffBar"
-msgstr ""
+msgstr "வேறுபாடு வேறுபாடு"
 
 #. Resource IDs: (cmdViewLocatorBar)
 msgid ""
@@ -9647,11 +9702,11 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 11029,
 #. IDS_PATHACTIONS_SKIPWORKTREE, IDS_STATUSLIST_SKIPWORKTREE)
 msgid "Skip worktree"
-msgstr ""
+msgstr "தவிர் வேலைமரம்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 1529)
 msgid "Skip worktree (\"Locked\" in TortoiseSVN)"
-msgstr ""
+msgstr "தவிர் வேலைமரம்"
 
 #. Resource IDs: (IDS_SVNACTION_SKIP)
 msgid "Skipped"
@@ -9753,7 +9808,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_REBASE_STARTREBASE, IDS_PROC_STARTREBASEBUTTON)
 msgid "Start Rebase"
-msgstr ""
+msgstr "மறுதளம் தொடங்கு"
 
 #. Resource IDs: (IDS_MENUDESCBISECTSTART)
 msgid "Start bisect mode..."
@@ -9770,63 +9825,63 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1384, Dialog IDD_STASH:
 #. Control id 4575, Dialog IDD_SYNC: Control id 1384)
 msgid "Stash"
-msgstr ""
+msgstr "பதுக்கிவை"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1673)
 msgid "Stash &Message"
-msgstr ""
+msgstr "பதுக்கிவை &செய்தி"
 
 #. Resource IDs: (IDS_MENUSTASHAPPLY)
 msgid "Stash Apply"
-msgstr ""
+msgstr "பதுக்கிவை இடு"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILED)
 msgid "Stash Apply failed!"
-msgstr ""
+msgstr "பதுக்கிவை இடு"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYFAILEDCONFLICTS)
 msgid "Stash Apply failed, there are conflicts"
-msgstr ""
+msgstr "பதுக்கிவை இடு தோல்வி, முரண்பாடுகள் உள்ளன"
 
 #. Resource IDs: (IDS_PROC_STASHAPPLYSUCCESS)
 msgid "Stash Apply successful"
-msgstr ""
+msgstr "பதுக்கிவை இடு"
 
 #. Resource IDs: (IDS_MENUSTASHLIST)
 msgid "Stash List"
-msgstr ""
+msgstr "பதுக்கிவை"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILED)
 msgid "Stash POP failed!"
-msgstr ""
+msgstr "பதுக்கிவைத்து தோன்றவை தோல்வி"
 
 #. Resource IDs: (IDS_PROC_STASHPOPFAILEDCONFLICTS)
 msgid "Stash POP failed, there are conflicts"
-msgstr ""
+msgstr "பதுக்கிவைத்து தோன்றவை தோல்வி, முரண்பாடுகள் உள்ளன"
 
 #. Resource IDs: (IDS_PROC_STASHPOPSUCCESS)
 msgid "Stash POP successful"
-msgstr ""
+msgstr "பதுக்கிவைத்து தோன்றவை"
 
 #. Resource IDs: (IDS_MENUSTASHPOP)
 msgid "Stash Pop"
-msgstr ""
+msgstr "பதுக்கிவைத்து தோன்றவை"
 
 #. Resource IDs: (IDS_PROC_STASHSUCCESS)
 msgid "Stash Success"
-msgstr ""
+msgstr "பதுக்கிவை"
 
 #. Resource IDs: (IDS_MENUSTASHSAVE)
 msgid "Stash changes"
-msgstr ""
+msgstr "பதுக்கிவை"
 
 #. Resource IDs: (IDS_PROC_STASHFAILED)
 msgid "Stash failed!"
-msgstr ""
+msgstr "பதுக்கிவை தோல்வி!"
 
 #. Resource IDs: (IDS_PROC_STASHRUNNING)
 msgid "Stash operation running..."
-msgstr ""
+msgstr "பதுக்கிவை"
 
 #. Resource IDs: (IDS_STATE)
 msgid "State"
@@ -9886,7 +9941,7 @@ msgstr ""
 msgid ""
 "Stores the path of the file to be used for a diff on a later right-click. "
 "Hold down the Ctrl key to remove the last saved path."
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 65535)
 msgid "Strategy"
@@ -9914,63 +9969,68 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1639)
 msgid "Submodule"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_MENUUPDATEEXT)
 msgid "Submodule &Update..."
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_ADD: Control id 1589)
 msgid "Submodule Add"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_MENUSUBADD)
 msgid "Submodule Add..."
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 4576)
 msgid "Submodule Diff"
-msgstr ""
+msgstr "துணைதொகுதி வேறுபாடு"
 
 #. Resource IDs: (IDS_PROC_SYNC_SUBKODULEINIT)
 msgid "Submodule Init"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_MENUSUBSYNC, IDS_PROC_SYNC_SUBKODULESYNC)
 msgid "Submodule Sync"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 4578,
 #. IDS_PROC_SYNC_SUBKODULEUPDATE)
 msgid "Submodule Update"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1624)
 msgid "Submodule Update Options"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOEXT)
 #, c-format
 msgid ""
 "Submodule \"%1!s!\"\n"
 "Revision %2!s!"
-msgstr ""
+msgstr "துணைதொகுதி \\"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_ADD: Control id 1585)
 msgid "Submodule of Project: "
-msgstr ""
+msgstr "திட்டத்தின் துணைதொகுதி:"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1708, Dialog IDD_COMMITDLG:
 #. Control id 1708)
 msgid "Submodules"
-msgstr ""
+msgstr "துணைதொகுதிகள்"
 
 #. Resource IDs: (IDS_CLONE_RECURSIVE_TT)
 msgid "Submodules are initialized and cloned using their default settings."
-msgstr ""
+msgstr "துணைதொகுதிகள் "
 
 #. Resource IDs: (IDS_SUCCESS)
 msgid "Success"
+msgstr ""
+
+#. Resource IDs: (IDS_PROC_UNLOCKED_WORKTREES)
+#, c-format
+msgid "Successfully unlocked %d worktree(s)."
 msgstr ""
 
 #. Resource IDs: (IDS_SWITCH_TO_THIS)
@@ -10215,7 +10275,7 @@ msgstr ""
 msgid ""
 "The current working tree is not clean.\n"
 "Do you want to stash the changes?"
-msgstr ""
+msgstr "பதுக்கிவை"
 
 #. Resource IDs: (IDS_DEFAULT_SCALE_TT)
 msgid ""
@@ -10242,7 +10302,7 @@ msgid ""
 "The fetched branch fast-forwards upon the current branch.\n"
 "\n"
 "Merge or open the rebase dialog anyway?"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_ERR_PATCH_INVALIDPATCHFILE)
 #, c-format
@@ -10259,7 +10319,7 @@ msgstr ""
 msgid ""
 "The file \"%s\" does not exist in your working tree.\n"
 "Do you want to select another file to diff?"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY)
 #, c-format
@@ -10383,7 +10443,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROGRS_INFOFAILED)
 msgid "The operation failed."
-msgstr ""
+msgstr "தோல்வி"
 
 #. Resource IDs: (IDS_ERR_INVALIDPATH)
 msgid ""
@@ -10396,7 +10456,7 @@ msgstr ""
 msgid ""
 "The patch does not apply cleanly to %s and no version information is given.\n"
 "Patching is not possible!"
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (IDS_ERR_PATCH_DOESNOTMATCH)
 #, c-format
@@ -10454,7 +10514,7 @@ msgid ""
 "The remote branch has not changed.\n"
 "\n"
 "Open the rebase dialog anyway?"
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (IDS_PROC_REPOCREATEFINISHED)
 msgid "The repository was successfully created."
@@ -10472,7 +10532,7 @@ msgid ""
 "The submodule \"%s\" is dirty.\n"
 "Merely committing the superproject cannot track or save such changes to the submodule.\n"
 "Commit the submodule now or ignore dirty changes?"
-msgstr ""
+msgstr "துணைதொகுதி துணைதொகுதி"
 
 #. Resource IDs: (IDS_WARN_GITINIT_SPECIALFOLDER)
 #, c-format
@@ -10629,7 +10689,7 @@ msgid ""
 "This preserves merge commits, however, it has known bugs as re-ordering "
 "commits is not working properly (same limitation as for vanilla git rebase),"
 " see help."
-msgstr ""
+msgstr "மறுதளம்"
 
 #. Resource IDs: (AFX_IDP_DLL_BAD_VERSION)
 #, c-format
@@ -10664,7 +10724,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_TREE_DIFF)
 msgid "Three way diff"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1676)
 msgid "To"
@@ -10806,7 +10866,7 @@ msgstr "TortoiseGitIDiff"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "TortoiseGitIDiff - An image diff tool, part of TortoiseGit"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -10820,7 +10880,7 @@ msgid ""
 "/overlay\t\tto enable overlay mode\n"
 "/fit\t\tto fit the images sizes\n"
 "/showinfo\t\tto show the image info boxes"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (1, 32897, AFX_IDS_APP_TITLE, Dialog IDD_OPENDLG: Control id
 #. 130, IDS_APPNAME)
@@ -10871,7 +10931,7 @@ msgid ""
 "/title:\"title to show for the viewer\"\n"
 "/?  - this help dialog\n"
 "/p  - read diff input from console pipe"
-msgstr ""
+msgstr "வேறுபாடு வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1739)
 msgid "Total changed lines including added/deleted files:"
@@ -11057,7 +11117,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_STATUSLIST_UNSETIGNORELOCALCHANGES)
 msgid "Unflag as skip-worktree and assume-unchanged"
-msgstr ""
+msgstr "தவிர்-வேலைமரம்"
 
 #. Resource IDs: (AFX_IDS_TEXT_FORMAT)
 msgid ""
@@ -11068,7 +11128,7 @@ msgstr ""
 #. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFHEADS,
 #. ID_VIEW_UNIFIEDDIFFOFHEADREVISIONS - Menu)
 msgid "Unified &diff of HEAD revisions"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_PATHACTIONS_UNKNOWN, IDS_SUBMODULEDIFF_UNKNOWN)
 msgid "Unknown"
@@ -11080,6 +11140,10 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENULFSUNLOCK, IDS_PROGRS_CMD_LFS_UNLOCK)
 msgid "Unlock"
+msgstr ""
+
+#. Resource IDs: (IDS_UNLOCKED)
+msgid "Unlocked"
 msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCLFSUNLOCK)
@@ -11140,7 +11204,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_SUBMODULESUPDATE)
 msgid "Update Submodules"
-msgstr ""
+msgstr "துணைதொகுதிகளை மேம்படுத்து"
 
 #. Resource IDs: (IDS_SVNACTION_UPDATE)
 msgid "Updated"
@@ -11156,7 +11220,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1024)
 msgid "Use &one-pane view as default for 2-file diff"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEOTHERBLOCK)
 msgid "Use &other text block"
@@ -11176,7 +11240,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1064)
 msgid "Use Unified Diff from &clipboard"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_B_T_DIFFERENTNAMEORFORCE)
 msgid "Use a different name or use the \"Force\" option to overwrite it."
@@ -11232,7 +11296,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_COMMON_ANCESTOR)
 msgid "Use common ancestor (A...B diff)"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_SMTP_CONFIGURED)
 msgid "Use configured server"
@@ -11354,7 +11418,7 @@ msgid ""
 "Use the found path.\n"
 "Apply the patch to\n"
 "%s"
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (IDS_WARNBETTERPATCHPATHFOUND_TASK4)
 #, c-format
@@ -11362,7 +11426,7 @@ msgid ""
 "Use the original path.\n"
 "Apply the patch to\n"
 "%s"
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 1825, Dialog
 #. IDD_RESOLVESUBMODULECONFLICT: Control id 1826)
@@ -11441,7 +11505,7 @@ msgid ""
 "/saverequiredonconflicts\n"
 "/oneway <forces the one-way view>\n"
 "/line:<line number to jump to>"
-msgstr ""
+msgstr "வேறுபாடு"
 
 #. Resource IDs: (IDS_PROPVALUE, IDS_SETTINGS_CONF_VALUECOL)
 msgid "Value"
@@ -11636,7 +11700,7 @@ msgid ""
 "When the patch does not apply cleanly, fall back on 3-way merge if the patch"
 " records the identity of blobs it is supposed to apply to and we have those "
 "blobs available locally."
-msgstr ""
+msgstr "இடு இடு"
 
 #. Resource IDs: (IDS_B_T_PREFILL_ORIGIN)
 msgid ""
@@ -11748,6 +11812,14 @@ msgstr ""
 msgid "Working tree changes"
 msgstr ""
 
+#. Resource IDs: (Dialog IDD_WORKTREE_LIST: Control id 4604)
+msgid "Worktree List"
+msgstr ""
+
+#. Resource IDs: (IDS_MENUWORKTREE)
+msgid "Worktrees"
+msgstr ""
+
 #. Resource IDs: (cmdViewWrapLines_LabelTitle_RESID)
 msgid "Wrap Lines"
 msgstr ""
@@ -11836,7 +11908,7 @@ msgid ""
 "You have selected %d items to show the diff for.\n"
 "For every of these items a new instance of the diff viewer will be started.\n"
 "Do you really want to show the diff for so many items at once?"
-msgstr ""
+msgstr "வேறுபாடு வேறுபாடு"
 
 #. Resource IDs: (IDS_COMMITDLG_NOISSUEWARNING)
 msgid ""
@@ -11974,14 +12046,14 @@ msgstr ""
 msgid ""
 "\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_PROC_COPY_SUBMODULE)
 #, c-format
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
-msgstr ""
+msgstr "துணைதொகுதி"
 
 #. Resource IDs: (IDS_GITEXEERROR_NOMESSAGE)
 #, c-format
@@ -12012,7 +12084,7 @@ msgstr ""
 msgid ""
 "\"git am\" is still in apply mode.\n"
 "Do you want to abort?"
-msgstr ""
+msgstr "இடு"
 
 #. Resource IDs: (IDS_STATUSADDED)
 msgid "added"
@@ -12091,7 +12163,7 @@ msgstr "ஒப்புவி"
 
 #. Resource IDs: (IDS_STATUSCONFLICTED)
 msgid "conflicted"
-msgstr ""
+msgstr "முரண்பட்டது"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXDAY)
 msgid "day"
@@ -12099,56 +12171,56 @@ msgstr "நாள்"
 
 #. Resource IDs: (IDS_STATUSDELETED)
 msgid "deleted"
-msgstr ""
+msgstr "நீக்கப்பட்டது"
 
 #. Resource IDs: (IDS_PIPETITLE)
 msgid "diff from pipe"
-msgstr ""
+msgstr "குழாயிலிருந்து வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_SENDMAIL: Control id 1580)
 msgid "eMail settings"
-msgstr ""
+msgstr "மின்னஞ்சல் அமைப்புகள்"
 
 #. Resource IDs: (IDS_STATUSEXTERNAL)
 msgid "external"
-msgstr ""
+msgstr "வெளிப்புறம்"
 
 #. Resource IDs: (IDS_CONFLICT_NOTASUBMODULE)
 msgid "file, not a submodule"
-msgstr ""
+msgstr "கோப்பு, துணைதொகுதி அல்ல"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
-msgstr ""
+msgstr "கோப்பு/கோப்புறை பெயர்கள்"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "force &with lease"
-msgstr ""
+msgstr "குத்தகையுடன் கட்டாயப்படுத்தவும்"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
-msgstr ""
+msgstr "முழு பாதைகள்"
 
 #. Resource IDs: (IDS_PROC_PROGRESS_GITUNCLEANEXIT)
 #, c-format
 msgid "git did not exit cleanly (exit code %d)"
-msgstr ""
+msgstr "கிட் சுத்தமாக வெளியேறவில்லை (வெளியேறு குறியீடு %d)"
 
 #. Resource IDs: (IDS_GITEXEFILEFILTER)
 msgid "git.exe|git.exe||"
-msgstr ""
+msgstr "git.exe|git.exe||"
 
 #. Resource IDs: (IDS_STATUSIGNORED)
 msgid "ignored"
-msgstr ""
+msgstr "புறக்கணிக்கப்பட்டது"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1130)
 msgid "include &untracked"
-msgstr ""
+msgstr "அடங்கும் &தடுக்கப்படாதது"
 
 #. Resource IDs: (IDS_STATUSINCOMPLETE)
 msgid "incomplete"
-msgstr ""
+msgstr "முழுமையற்றது"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1780, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 1781, Dialog IDD_SETTINGIT_CONFIG: Control
@@ -12162,15 +12234,15 @@ msgstr ""
 #. Control id 1780, Dialog IDD_SETTINGSDIALOGS3: Control id 1781, Dialog
 #. IDD_SETTINGSDIALOGS3: Control id 1782)
 msgid "inherit"
-msgstr ""
+msgstr "மரபுரிமை"
 
 #. Resource IDs: (IDS_STATUSLIST_KEEPLOCAL)
 msgid "item kept locally"
-msgstr ""
+msgstr "உள்ளூரில் வைக்கப்பட்ட பொருள்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "keep the file lists in English"
-msgstr ""
+msgstr "கோப்பு பட்டியல்களை ஆங்கிலத்தில் வைத்திருங்கள்"
 
 #. Resource IDs: (IDS_STATUSLIST_STATUSLINE1)
 #, c-format
@@ -12179,7 +12251,7 @@ msgid ""
 "%s = %ld\n"
 "%s = %ld\n"
 "%s = %ld"
-msgstr ""
+msgstr "வரி: %d(+) %d(-) கோப்புகள்: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld"
 
 #. Resource IDs: (IDS_STATUSLIST_STATUSLINE2)
 #, c-format
@@ -12190,56 +12262,56 @@ msgid ""
 "%s = %ld\n"
 "%s = %ld\n"
 "%s = %ld"
-msgstr ""
+msgstr "வரி: %d(+) %d(-) கோப்புகள்: %s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s = %ld\n%s = %ld"
 
 #. Resource IDs: (IDS_SYSTEM_GCM)
 msgid "manager - all Windows users"
-msgstr ""
+msgstr "மேலாளர் - அனைத்து சாளரங்கள் பயனர்களும்"
 
 #. Resource IDs: (IDS_GLOBAL_GCM)
 msgid "manager - current Windows user"
-msgstr ""
+msgstr "மேலாளர் - தற்போதைய சாளரங்கள் பயனர்"
 
 #. Resource IDs: (IDS_LOCAL_GCM)
 msgid "manager - this repository only"
-msgstr ""
+msgstr "மேலாளர் - இந்த களஞ்சியம் மட்டும்"
 
 #. Resource IDs: (IDS_SYSTEM_GCMCORE)
 msgid "manager-core - all Windows users"
-msgstr ""
+msgstr "மேலாளர்-கரு - அனைத்து சாளரங்கள் பயனர்களும்"
 
 #. Resource IDs: (IDS_GLOBAL_GCMCORE)
 msgid "manager-core - current Windows user"
-msgstr ""
+msgstr "மேலாளர்-கரு - தற்போதைய சாளரங்கள் பயனர்"
 
 #. Resource IDs: (IDS_LOCAL_GCMCORE)
 msgid "manager-core - this repository only"
-msgstr ""
+msgstr "மேலாளர்-கரு - இந்த களஞ்சியம் மட்டும்"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1494)
 msgid "master"
-msgstr "master"
+msgstr "தலைவன்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535,
 #. IDS_STATUSMERGED)
 msgid "merged"
-msgstr ""
+msgstr "இணைக்கப்பட்டது"
 
 #. Resource IDs: (IDS_STATUSABSENT)
 msgid "missing"
-msgstr ""
+msgstr "காணவில்லை"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "missing/deleted/replaced"
-msgstr ""
+msgstr "காணவில்லை/நீக்கப்பட்டது/மாற்றப்பட்டது"
 
 #. Resource IDs: (IDS_STATUSMODIFIED)
 msgid "modified"
-msgstr ""
+msgstr "மாற்றியமைக்கப்பட்டது"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "modified/copied"
-msgstr ""
+msgstr "மாறியது/நகல்"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXMONTH)
 msgid "month"
@@ -12247,7 +12319,7 @@ msgstr "மாதம்"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1681)
 msgid "new branch"
-msgstr ""
+msgstr "புதிய கிளை"
 
 #. Resource IDs: (IDS_NO)
 msgid "no"
@@ -12255,19 +12327,19 @@ msgstr "இல்லை"
 
 #. Resource IDs: (IDS_MENUDESCDEFAULT)
 msgid "no description for this command is available"
-msgstr ""
+msgstr "இந்த கட்டளைக்கான விளக்கம் எதுவும் கிடைக்கவில்லை"
 
 #. Resource IDs: (IDS_CONFLICT_NOSUBMODULE)
 msgid "no submodule"
-msgstr ""
+msgstr "துணைதொகுதி இல்லை"
 
 #. Resource IDs: (IDS_STATUSUNVERSIONED)
 msgid "non-versioned"
-msgstr ""
+msgstr "பதிப்பு-செய்யப்படாத"
 
 #. Resource IDs: (IDS_ENCRYPT_NONE)
 msgid "none"
-msgstr ""
+msgstr "எதுவும்இல்லை"
 
 #. Resource IDs: (IDS_STATUSNORMAL)
 msgid "normal"
@@ -12275,92 +12347,92 @@ msgstr "இயல்பான"
 
 #. Resource IDs: (IDS_NOTFOUND)
 msgid "not found"
-msgstr ""
+msgstr "காணப்படவில்லை"
 
 #. Resource IDs: (IDS_CONFLICT_SUBMODULENOTINITIALIZED)
 msgid "not initialized"
-msgstr ""
+msgstr "தொடக்கப்படவில்லை"
 
 #. Resource IDs: (cmdOpen_Keytip_RESID)
 msgid "o1"
-msgstr ""
+msgstr "o1"
 
 #. Resource IDs: (IDS_STATUSOBSTRUCTED)
 msgid "obstructed"
-msgstr ""
+msgstr "தடைபட்டது"
 
 #. Resource IDs: (AFX_IDS_PRINTONPORT)
 #, c-format
 msgid "on %1"
-msgstr ""
+msgstr "%1 இல்"
 
 #. Resource IDs: (IDS_STATE_PATCHED)
 msgid "patched"
-msgstr ""
+msgstr "ஒட்டப்பட்டது"
 
 #. Resource IDs: (AFX_IDS_OCC_SCALEUNITS_PIXELS)
 msgid "pixels"
-msgstr ""
+msgstr "பிக்சல்கள்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "possible or real conflict/obstructed"
-msgstr ""
+msgstr "சாத்தியமான அல்லது உண்மையான மோதல்/தடைப்பட்டது"
 
 #. Resource IDs: (IDS_PROC_APPLYPATCH_REBASEDIRFOUND)
 msgid ""
 "previous rebase directory rebase-apply still exists but mbox given.\n"
 "\n"
 "Do you want to"
-msgstr ""
+msgstr "முந்தைய மறுதளம் கோப்புறை மறுதளம்-இடு இன்னும் உள்ளது ஆனால் எம்பொட்டி கொடுக்கப்பட்டுள்ளது.\n\nஉனக்கு வேண்டுமா"
 
 #. Resource IDs: (AFX_IDS_PRINTDEFAULTEXT)
 msgid "prn"
-msgstr "prn"
+msgstr "அச்சு"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXQUARTER)
 msgid "quarter of year"
-msgstr ""
+msgstr "காலாண்டு"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYRELPATHS)
 msgid "relative paths"
-msgstr ""
+msgstr "தொடர்புடைய பாதைகள்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_1: Control id 65535)
 msgid "renamed"
-msgstr ""
+msgstr "மறுபெயரிடப்பட்டது"
 
 #. Resource IDs: (IDS_STATUSREPLACED)
 msgid "replaced"
-msgstr ""
+msgstr "மாற்றபட்டது"
 
 #. Resource IDs: (IDS_PATCH_SEARCHPATHLINE1)
 msgid "scanning path:"
-msgstr ""
+msgstr "ஊடுகதிர்சோதி பாதை:"
 
 #. Resource IDs: (IDS_SETTINGS_LOCKEDNAME)
 msgid "skip-worktree"
-msgstr ""
+msgstr "தவிர்-வேலைமரம்"
 
 #. Resource IDs: (IDS_STATUSLIST_SWITCHEDTO)
 #, c-format
 msgid ""
 "switched to\n"
 "%s"
-msgstr ""
+msgstr "இதற்கு மாறியது\n%s"
 
 #. Resource IDs: (IDS_CARE_SUBMODULE_CHANGES)
 msgid "take care of submodule changes"
-msgstr ""
+msgstr "துணைதொகுதி மாற்றங்களை கவனித்துக்கொள்"
 
 #. Resource IDs: (AFX_IDS_PRINTTOFILE)
 #, c-format
 msgid "to %1"
-msgstr ""
+msgstr "%1 இதற்கு"
 
 #. Resource IDs: (IDS_PROC_CPYMVPROG2, IDS_SVNPROGRESS_EXPORTINGTO)
 #, c-format
 msgid "to %s"
-msgstr ""
+msgstr "%s இதற்கு"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXWEEK)
 msgid "week"
@@ -12368,23 +12440,23 @@ msgstr "வாரம்"
 
 #. Resource IDs: (IDS_SYSTEM_WINCRED)
 msgid "wincred - all Windows users"
-msgstr ""
+msgstr "சாளரங்கள்நற்சான்றிதழ்கள் - அனைத்து சாளரங்கள் பயனர்களும்"
 
 #. Resource IDs: (IDS_GLOBAL_WINCRED)
 msgid "wincred - current Windows user"
-msgstr ""
+msgstr "சாளரங்கள்நற்சான்றிதழ்கள் - தற்போதைய சாளரங்கள் பயனர்"
 
 #. Resource IDs: (IDS_LOCAL_WINCRED)
 msgid "wincred - this repository only"
-msgstr ""
+msgstr "சாளரங்கள்நற்சான்றிதழ்கள் - இந்த களஞ்சியம் மட்டும்"
 
 #. Resource IDs: (IDS_GLOBAL_WINSTORE)
 msgid "winstore - current Windows user"
-msgstr ""
+msgstr "சாளரங்கள்கடை - தற்போதைய சாளரங்கள் பயனர்"
 
 #. Resource IDs: (IDS_LOCAL_WINSTORE)
 msgid "winstore - this repository only"
-msgstr ""
+msgstr "சாளரங்கள்கடை - இந்த களஞ்சியம் மட்டும்"
 
 #. Resource IDs: (IDS_STATGRAPH_COMMITSBYDATEXYEAR)
 msgid "year"
