@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: நேரம் தமிழ் <anishprabu.t@gmail.com>, 2021-2022\n"
+"Last-Translator: அனிச் பிரபு தி <anishprabu243@gmail.com>, 2021-2022\n"
 "Language-Team: Tamil (India) (http://www.transifex.com/lznuaa/tortoisegit/language/ta_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,17 +151,17 @@ msgstr "%1!d! உறுதிமொழிகள் முன்னால் \"%2
 #. Resource IDs: (IDS_STATUSLIST_FILESREVERTED)
 #, c-format
 msgid "%1!d! files reverted to %2!s!."
-msgstr "%1!d! கோப்புகள் %2!s! க்கு மாற்றப்பட்டன!."
+msgstr "%1!d! கோப்புகள் %2!sக்கு மாற்றப்பட்டன!"
 
 #. Resource IDs: (IDS_COMMITDLG_STATISTICSFORMAT)
 #, c-format
 msgid "%1!d! files selected, %2!d! files total"
-msgstr "%1!d! files தேர்வு செய்யப்பட்டுள்ளது , %2!d! files மொத்தம்"
+msgstr "%1!d! கோப்புகள் தேர்வு செய்யப்பட்டுள்ளது , %2!d! கோப்புகள் மொத்தம்"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOMULTI)
 #, c-format
 msgid "%1!d! items selected"
-msgstr "%1!d! தேர்ந்தெடுக்கப்பட்ட பொருட்கள்"
+msgstr "%1!d! உருப்படிகள் தேர்ந்தெடுக்கப்பட்டன"
 
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
@@ -172,7 +172,7 @@ msgstr "%1!d! நிமையங்களுக்கு முன்"
 #, c-format
 msgid ""
 "%1!d! most active author(s) with at least %2!d! commits each (%3!d! %%)"
-msgstr "உறுதிமொழிகள்"
+msgstr "%1!d! மிகவும் செயலில் உள்ள ஆசிரியர்(கள்) குறைந்தது %2!d! உறுதிமொழிகள் ஒவ்வொருவரக்கும் (%3!d! %%)"
 
 #. Resource IDs: (IDS_PROGRS_TIME)
 #, c-format
@@ -187,36 +187,36 @@ msgstr "%1!s! (%2!s!)"
 #. Resource IDs: (IDS_PROGRS_PATHATREV)
 #, c-format
 msgid "%1!s! - at revision: %2!d!"
-msgstr ""
+msgstr "%1!s! - திருத்தத்தில்: %2!d!"
 
 #. Resource IDs: (IDS_PROGRS_FINALINFO)
 #, c-format
 msgid "%1!s! in %2!s!"
-msgstr ""
+msgstr "%2!s இல் %1!s!!"
 
 #. Resource IDs: (IDS_GITVER_REQUIRED)
 #, c-format
 msgid "%1!s! requires Git >= %2!s!"
-msgstr ""
+msgstr "%1!s! க்கு கிட் >= %2!s! தேவை"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALANDSPEED)
 #, c-format
 msgid "%1!s!, at %2!s!"
-msgstr ""
+msgstr "%1!s!, %2!s! இங்கு"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFO)
 #, c-format
 msgid ""
 "%1!s!\n"
 "Showing %2!d! files, %3!d! submodules and %4!d! folders, %5!d! items in total"
-msgstr "துணைதொகுதி"
+msgstr "%1!s!\n%2!d! கோப்புகள், %3!d! துணைத் தொகுதிகள் மற்றும் %4!d! கோப்புறைகள், %5!d! மொத்த உருப்படிகளைக் காட்டுகிறது"
 
 #. Resource IDs: (IDS_REPOBROWSE_INFOFILE)
 #, c-format
 msgid ""
 "%1!s!\n"
 "Size %2!s!"
-msgstr ""
+msgstr "%1!s!\nஅளவு %2!s!"
 
 #. Resource IDs: (AFX_IDP_SCRIPT_ERROR)
 #, c-format
@@ -286,7 +286,7 @@ msgstr "%ld உடைய/இல் %ld"
 #. Resource IDs: (IDS_DIFF_WCNAME)
 #, c-format
 msgid "%s: Working Tree"
-msgstr ""
+msgstr "%s: வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_PATCH_ITEMTT)
 #, c-format
@@ -774,7 +774,7 @@ msgstr "&HEAD"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1552, Dialog IDD_RESET:
 #. Control id 1552)
 msgid "&Hard: Reset working tree and index (discard all local changes)"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
 #. 57670, IDS_MENUHELP, ID_MENUHELP - Menu)
@@ -933,7 +933,7 @@ msgstr "&செய்தி:"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
 msgid "&Mixed: Leave working tree untouched, reset index"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
@@ -1236,7 +1236,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_RESET: Control id 1550)
 msgid "&Soft: Leave working tree and index untouched"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1524, Dialog IDD_PULLFETCH:
 #. Control id 1524)
@@ -1312,7 +1312,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUSUBMENU)
 msgid "&TortoiseGit"
-msgstr "&TortoiseGit"
+msgstr "&ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1091, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1094)
@@ -1425,7 +1425,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_TORTOISEGITDEFAULT)
 msgid "(TortoiseGit default)"
-msgstr ""
+msgstr "(ஆமைகிட் இயல்பான)"
 
 #. Resource IDs: (IDS_STATUSLIST_FROM)
 #, c-format
@@ -1661,11 +1661,11 @@ msgstr ""
 
 #. Resource IDs: (cmdAbout_LabelTitle_RESID)
 msgid "Abou&t TortoiseGitMerge"
-msgstr ""
+msgstr "ஆமைகிட் பற்றி"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 129)
 msgid "About TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட் பற்றி"
 
 #. Resource IDs: (Dialog IDD_ABOUTBOX: Control id 100)
 msgid "About TortoiseGitBlame"
@@ -2097,7 +2097,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 65535)
 msgid "Attention: This command affects the whole working tree!"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (Dialog IDD_PROMPT: Control id 131, Dialog IDD_SIMPLEPROMPT:
 #. Control id 160)
@@ -2300,7 +2300,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSMERGE: Control id 1852)
 msgid "Block TortoiseGit while executing the external merge tool"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (cmdGroupBlocks_LabelTitle_RESID)
 msgid "Blocks"
@@ -2413,7 +2413,7 @@ msgstr "BugTraq"
 
 #. Resource IDs: (Dialog IDD_BUGTRAQREGEXTESTER: Control id 327)
 msgid "Bugtraq Regex Tester - TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_GITPROGRESS: Control id 1382, Dialog IDD_REBASE:
 #. Control id 1559)
@@ -2681,7 +2681,7 @@ msgstr "சரிபார்"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 174)
 msgid "Check For Updates - TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1031)
 msgid "Check For Updates..."
@@ -2703,7 +2703,7 @@ msgstr ""
 msgid ""
 "Check those menu entries you want to appear in the top context menu instead "
 "of the TortoiseGit submenu"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_SETTINGS_EXTMENULAYOUT_TT)
 msgid ""
@@ -2903,7 +2903,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_CLONE_BARE_REPO_TT)
 msgid "Clone into a git repository without the working tree."
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
@@ -3108,7 +3108,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARE_PARENT_WC)
 msgid "Compare parent with working tree"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_COMPAREREFS)
 msgid "Compare selected refs"
@@ -3129,7 +3129,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARE)
 msgid "Compare with &working tree"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_LOG_COMPAREWITHBASE)
 msgid "Compare with b&ase"
@@ -3786,7 +3786,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 4579)
 msgid "Delete remote tag - TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_DELETEREMOTETAGON)
 #, c-format
@@ -4019,7 +4019,7 @@ msgstr "உறுதிமொழிகள் வேறுபாடுசெய�
 
 #. Resource IDs: (IDS_MENUDESCPREVDIFF)
 msgid "Diffs the working tree file with the one before the last commit"
-msgstr "வேறுபாடுகள்"
+msgstr "வேறுபாடுகள் வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_MENUDESCDIFFTWO)
 msgid "Diffs two any commits"
@@ -4042,7 +4042,7 @@ msgstr ""
 msgid ""
 "Disable this option if you have really big working trees and experience\n"
 "too much disk access when browsing the working tree."
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKSBUTTON)
 msgid "Disable update checks"
@@ -4147,7 +4147,7 @@ msgid ""
 "Do you really want to disable automatic update checks for TortoiseGit?\n"
 "\n"
 "Automatic update checks can be re-enabled in TortoiseGit settings on the General page."
-msgstr ""
+msgstr "ஆமைகிட் ஆமைகிட்"
 
 #. Resource IDs: (IDS_PROC_MARK_ASSUMEVALID)
 msgid "Do you really want to mark the selected file(s) as assume-valid?"
@@ -4206,7 +4206,7 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "and go back to this revision? These changes will be reverted by reverse-merging the revisions into your working tree."
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_LOG_REVERT_CONFIRM)
 #, c-format
@@ -4214,7 +4214,7 @@ msgid ""
 "Do you really want to revert all changes in\n"
 "%s\n"
 "which were made in this revision? These changes will be reverted by reverse-merging the revision into your working tree."
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_PROC_UNSET_IGNORELOCALCHANGES)
 msgid ""
@@ -4487,7 +4487,7 @@ msgstr ""
 #. Resource IDs: (IDS_SETTINGS_ENABLELOGCACHE_TT)
 msgid ""
 "Enable loading/saving log cache files (tortoisegit.data, tortoisegit.index)"
-msgstr ""
+msgstr "ஆமைகிட் ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1744)
 msgid "Enable log cache"
@@ -5130,7 +5130,7 @@ msgstr ""
 #. IDD_FIRSTSTARTWIZARD_START: Control id 276, Dialog
 #. IDD_FIRSTSTARTWIZARD_USER: Control id 4597)
 msgid "First Start Wizard - TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1617)
 msgid "First known &bad:"
@@ -5235,7 +5235,7 @@ msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not running a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr "மறுதளம் மறுதளம்"
+msgstr "ஆமைகிட் மறுதளம் மறுதளம் ஆமைகிட்"
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
@@ -5437,7 +5437,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 297)
 msgid "Git clone - TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_NOMSYSGIT)
 msgid "Git directory not set (see \"General\" settings page)."
@@ -5975,13 +5975,13 @@ msgstr ""
 #. Resource IDs: (IDS_SETTINGS_CHECKNEWER_TT)
 msgid ""
 "If enabled, TortoiseGit checks once a week if a newer version is available"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_SETTINGS_SHOWEXCLUDEDASNORMAL_TT)
 msgid ""
 "If enabled, working tree folders which are excluded from\n"
 "showing overlays still show the overlay for status 'normal'"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_SETTINGS_UNVERSIONEDRECURSE_TT)
 msgid ""
@@ -6020,7 +6020,7 @@ msgid ""
 "If you want to use a translated version of TortoiseGit and your language is "
 "missing, <a id=\"download\">download</a> and install a matching language "
 "pack now and hit \"Refresh\" before continuing."
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_EXTRAPATH_TT)
 #, c-format
@@ -6028,7 +6028,7 @@ msgid ""
 "If your git installation needs an extra entry in the PATH environment "
 "variable, you can enter it here and it will get appended to %PATH% "
 "automatically when TortoiseGit starts."
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 4577)
 msgid "Ignore"
@@ -6177,7 +6177,7 @@ msgstr ""
 msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -6298,7 +6298,7 @@ msgid ""
 "Do you want to ignore this warning and keep these lines or abort committing in order to edit the commit message?\n"
 "\n"
 "You can automatically remove these lines by enabling \"Strip lines starting with \"#\" in commit messages\" in TortoiseGit settings."
-msgstr "முரண்பாடுகள் உள்ளன"
+msgstr "முரண்பாடுகள் உள்ளன ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1074)
 msgid "J&ump to first conflict when loading"
@@ -6776,7 +6776,7 @@ msgstr ""
 msgid ""
 "Merge between original branch, working tree contents, and the branch to "
 "switch to"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_PATHACTIONS_MERGED, IDS_SVNACTION_MERGED,
 #. IDS_VIEWTITLE_MERGED)
@@ -7041,7 +7041,7 @@ msgstr ""
 msgid ""
 "No checkout of HEAD is performed after the clone is complete.\n"
 "This makes the working tree empty."
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""
@@ -7079,7 +7079,7 @@ msgstr ""
 msgid ""
 "No files or folders were modified. There is nothing for TortoiseGit to "
 "revert!"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_REPOSTATUS_EMPTYFILELIST)
 msgid ""
@@ -7109,7 +7109,7 @@ msgid ""
 "No git.exe found.\n"
 "\n"
 "TortoiseGit requires a git.exe for its operations (e.g., such as provided by the Git for Windows package)."
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_REVGRAPH_ERR_NOGRAPH)
 msgid "No graph available"
@@ -7232,7 +7232,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAYHANDLERS: Control id 65535)
 msgid "Note: this affects all Tortoise clients, not just TortoiseGit!"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_NOTES)
 msgid "Notes"
@@ -7570,7 +7570,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1521)
 msgid "Overwrite working tree changes (&force)"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (ID_FILE_PAGESETUP - Menu)
 msgid "P&age setup..."
@@ -7803,7 +7803,7 @@ msgstr "இடு"
 
 #. Resource IDs: (IDS_GITCHANGED_NEEDRESTART)
 msgid "Please restart TortoiseGit for the changes of git.exe to take effect."
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT3)
 msgid ""
@@ -8448,7 +8448,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCCLEANUP)
 msgid "Remove untracked files from the working tree, ..."
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Removed"
@@ -8482,7 +8482,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_RENAME: Control id 151)
 msgid "Rename - TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_RENAME_INFO)
 #, c-format
@@ -8729,7 +8729,7 @@ msgstr ""
 #. Resource IDs: (IDS_REVREVERTED)
 msgid ""
 "Revision(s) reverted. All changes are integrated into your working tree now."
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1712, Dialog
 #. IDD_DIFFSUBMODULE: Control id 1713, Dialog IDD_REPOSITORY_BROWSER: Control
@@ -8768,7 +8768,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1335)
 msgid "Run when working tree path is under:"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (cmdSave_Keytip_RESID)
 msgid "S"
@@ -9165,7 +9165,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SELECTREMOTEREF: Control id 4601)
 msgid "Select remote ref - TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCLOSE_TT)
 msgid ""
@@ -9288,7 +9288,7 @@ msgstr "அமைப்புகள்"
 
 #. Resource IDs: (IDS_PROC_SETTINGS_TITLE)
 msgid "Settings - TortoiseGit"
-msgstr "அமைப்புகள் - TortoiseGit"
+msgstr "அமைப்புகள் - ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1270,
 #. IDS_STATUSLIST_CONTEXT_SHELL)
@@ -9543,7 +9543,7 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1383, Dialog IDD_RESET:
 #. Control id 1383)
 msgid "Show modified files in &working tree"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (25308)
 msgid ""
@@ -9655,7 +9655,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCABOUT)
 msgid "Shows information about TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_MENUDESCREFLOG)
 msgid "Shows reference log"
@@ -10098,7 +10098,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCSWITCH)
 msgid "Switch/Checkout working tree to another branch/tag"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_FILEDIFF_SWITCHLEFTRIGHT_TT)
 msgid "Switches the comparison left<->right"
@@ -10187,7 +10187,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_ERR_MUSTBESAMEWT)
 msgid "Target and source must be in the same working tree!"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_PROC_TASKS)
 msgid "Tasks"
@@ -10275,7 +10275,7 @@ msgstr ""
 msgid ""
 "The current working tree is not clean.\n"
 "Do you want to stash the changes?"
-msgstr "பதுக்கிவை"
+msgstr "வேலை செய்யும் மரம் பதுக்கிவை"
 
 #. Resource IDs: (IDS_DEFAULT_SCALE_TT)
 msgid ""
@@ -10319,7 +10319,7 @@ msgstr ""
 msgid ""
 "The file \"%s\" does not exist in your working tree.\n"
 "Do you want to select another file to diff?"
-msgstr "வேறுபாடு"
+msgstr "வேலை செய்யும் மரம் வேறுபாடு"
 
 #. Resource IDs: (IDS_DELETEWHENEMPTY)
 #, c-format
@@ -10575,7 +10575,7 @@ msgstr ""
 msgid ""
 "The working tree is not clean and contains unstaged changes.\n"
 "Review and commit the changes?"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 65535)
 msgid "Their file:"
@@ -10671,7 +10671,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "ஆமைகிட் ஆமைகிட்"
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -10712,7 +10712,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_NOCLEAN)
 msgid "This task requires a clean working tree."
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK1)
 #, c-format
@@ -10743,7 +10743,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 65535, Dialog
 #. IDD_LOGMESSAGE: Control id 1201, Dialog IDD_REVGRAPHFILTER: Control id
@@ -10766,23 +10766,23 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 4594, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535, IDS_APPNAME)
 msgid "TortoiseGit"
-msgstr "TortoiseGit"
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_ABOUTVERSIONBOX)
 #, c-format
 msgid "TortoiseGit %d.%d.%d, Build %d - %s, %s"
-msgstr "TortoiseGit %d.%d.%d, Build %d - %s, %s"
+msgstr "ஆமைகிட் %d.%d.%d, Build %d - %s, %s"
 
 #. Resource IDs: (IDS_ABOUTVERSION)
 #, c-format
 msgid ""
 "TortoiseGit %d.%d.%d.%d %s\n"
 "%s\n"
-msgstr "TortoiseGit %d.%d.%d.%d %s\n%s\n"
+msgstr "ஆமைகிட் %d.%d.%d.%d %s\n%s\n"
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT1)
 msgid "TortoiseGit can be localized using language packs."
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_ASK_REMOVE_FROM_INDEX)
 #, c-format
@@ -10791,14 +10791,14 @@ msgid ""
 "The commit dialog cannot handle this.\n"
 "\n"
 "Do you want to restore or remove it from the index?"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_PROC_MULTIRENAME)
 #, c-format
 msgid ""
 "TortoiseGit has detected similar filenames. Do you want the files:%s\n"
 "to be renamed too?"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_PROC_RTFM)
 msgid ""
@@ -10807,42 +10807,42 @@ msgid ""
 "To use TortoiseGit please open the explorer and right-click on any folder you like\n"
 "to bring up the context menu where you will find all TortoiseGit commands.\n"
 "And read the manual!"
-msgstr "சொடுக்கவும்"
+msgstr "ஆமைகிட் ஆமைகிட் ஆமைகிட் சொடுக்கவும்"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT1)
 msgid ""
 "TortoiseGit is designed as a Shell Extension. Therefore the main interaction"
 " with TortoiseGit will be using the context menu of the Windows shell such "
 "as the Windows Explorer."
-msgstr ""
+msgstr "ஆமைகிட் ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535)
 msgid ""
 "TortoiseGit requires a git.exe for its operations. TortoiseGit tries to "
 "automatically detect a working git.exe, but if that doesn't work or you want"
 " to use a different one please specify the path manually!"
-msgstr ""
+msgstr "ஆமைகிட் ஆமைகிட்"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
 msgid "TortoiseGit will not show the following overlays: %s"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1096)
 msgid "TortoiseGit&UDiff"
-msgstr "TortoiseGit&UDiff"
+msgstr "ஆமைகிட்&Uவேறுபாடு"
 
 #. Resource IDs: (AFX_IDS_APP_TITLE, Dialog IDD_ABOUTBOX: Control id 1000,
 #. Dialog IDD_SETTINGSTBLAME: Control id 244, IDS_APPNAME)
 msgid "TortoiseGitBlame"
-msgstr "TortoiseGitBlame"
+msgstr "ஆமைகிட்Blame"
 
 #. Resource IDs: (IDS_ERR_DIFFENERTPREPO)
 #, c-format
 msgid ""
 "TortoiseGitBlame was already initialized for the repository \"%s\". Cannot "
 "switch to another repository (\"%s\") at runtime."
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (IDS_VERSION)
 #, c-format
@@ -10862,11 +10862,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 153, IDS_APP_TITLE)
 msgid "TortoiseGitIDiff"
-msgstr "TortoiseGitIDiff"
+msgstr "ஆமைகிட்வேறுபாடு"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535)
 msgid "TortoiseGitIDiff - An image diff tool, part of TortoiseGit"
-msgstr "வேறுபாடு"
+msgstr "ஆமைகிட்வேறுபாடு - ஆமைகிட்"
 
 #. Resource IDs: (IDS_COMMANDLINEHELP)
 msgid ""
@@ -10931,7 +10931,7 @@ msgid ""
 "/title:\"title to show for the viewer\"\n"
 "/?  - this help dialog\n"
 "/p  - read diff input from console pipe"
-msgstr "வேறுபாடு வேறுபாடு"
+msgstr "வேறுபாடு வேறுபாடு ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1739)
 msgid "Total changed lines including added/deleted files:"
@@ -10992,7 +10992,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUDESCSETTINGS)
 msgid "Tweak TortoiseGit"
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (Dialog IDD_SVNIGNORE: Control id 1642)
 msgid "Type"
@@ -11061,7 +11061,7 @@ msgid ""
 "This can happen if the file has been renamed.\n"
 "Please start the log dialog on this specific file alone and then revert the changes\n"
 "from the top pane in the log dialog."
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (IDS_ERR_CHANGELIST_SAVE)
 msgid "Unable to save changelists"
@@ -11089,7 +11089,7 @@ msgstr ""
 msgid ""
 "Unchecked items will appear in the TortoiseGit submenu, checked items "
 "directly in the main context menu."
-msgstr ""
+msgstr "ஆமைகிட்"
 
 #. Resource IDs: (cmdUndo_LabelTitle_RESID)
 msgid "Undo"
@@ -11578,7 +11578,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_VIEWPATCH_INDEX_WORKTREE)
 msgid "View Patch - index to working tree"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1637, Dialog IDD_DIFFFILES:
 #. Control id 1637, IDS_PROC_COMMIT_SHOWPATCH)
@@ -11630,11 +11630,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_WARN_WARNING)
 msgid "Warning"
-msgstr "எச்சரிக்கை"
+msgstr "முன்னறிவிப்பு"
 
 #. Resource IDs: (IDS_PROGRS_CONFLICTSOCCURRED_WARNING)
 msgid "Warning!"
-msgstr "எச்சரிக்கை!"
+msgstr "முன்னறிவிப்பு!"
 
 #. Resource IDs: (IDS_MERGESUCCESSFUL)
 #, c-format
@@ -11642,75 +11642,75 @@ msgid ""
 "Was the merge of\n"
 "%s\n"
 "successful?"
-msgstr ""
+msgstr "%s\nஇன் ஒன்றிணைப்பு\nவெற்றிகரமானதா?"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT4)
 msgid ""
 "We hope you enjoy using TortoiseGit! In case of questions or problems, "
 "please consult our manual or go to <a "
 "id=\"support\">https://tortoisegit.org/support/</a>"
-msgstr ""
+msgstr "நீங்கள் ஆமைகிட்டைப் பயன்படுத்த விரும்புகிறீர்கள் என்று நம்புகிறோம்! கேள்விகள் அல்லது பிரச்சனைகள் இருந்தால், தயவுசெய்து எங்கள் கையேட்டைப் பார்க்கவும் அல்லது <a id=\"support\">https://tortoisegit.org/support/</a>க்குச் செல்லவும்"
 
 #. Resource IDs: (IDS_FIRSTSTART_STARTTITLE)
 msgid "Welcome to TortoiseGit!"
-msgstr ""
+msgstr "ஆமைகிட்டுக்கு வரவேற்கிறோம்!"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Western European"
-msgstr ""
+msgstr "மேற்கு ஐரோப்பிய"
 
 #. Resource IDs: (IDS_SETTINGS_HIDEMENUS_TT)
 msgid ""
 "When activated, hold down the SHIFT key when right-clicking to get the "
 "TortoiseGit menus added to the context menu"
-msgstr ""
+msgstr "செயல்படுத்தப்படும் போது, சூழல் மெனுவில் சேர்க்கப்பட்ட ஆமைகிட் மெனுக்களை பெற வலது சொடுக்கம் செய்யும் போது SHIFT விசையை அழுத்திப் பிடிக்கவும்"
 
 #. Resource IDs: (IDS_AM_IGNORE_SPACE_TT)
 msgid ""
 "When applying a patch, ignore changes in whitespace in context lines if "
 "necessary"
-msgstr ""
+msgstr "ஒட்டைப் பயன்படுத்தும்போது, சூழல் வரிகளில் இடைவெளியால் ஏற்படும் மாற்றங்களை தேவைப்பட்டால் புறக்கணிக்கவும்"
 
 #. Resource IDs: (IDS_SETTINGS_CONFIRMKILLPROCESS_TT)
 msgid ""
 "When closing a progress dialog with a running git process, ask for "
 "confirmation before killing it"
-msgstr ""
+msgstr "இயங்கும் கிட் செயல்முறையுடன் முன்னேற்ற உரையாடலை மூடும் போது, அதைக் மூடுவதற்கு முன் உறுதிப்படுத்தல் கேட்கவும்"
 
 #. Resource IDs: (IDS_SETTINGS_ENABLEDRAGCONTEXTMENU_TT)
 msgid ""
 "When enabled, TortoiseGit move context menu items will be available when "
 "dragging folders / files"
-msgstr ""
+msgstr "இயக்கப்படும் போது, ஆமைகிட் நகர்வு சூழல் மெனு உருப்படிகள் கோப்புறைகள் / கோப்புகளை இழுக்கும்போது கிடைக்கும்"
 
 #. Resource IDs: (IDS_SORTTAGSREVERSED_TT)
 msgid ""
 "When enabled, larger version numbers come first. It is because latest "
 "versions are usually more useful."
-msgstr ""
+msgstr "இயக்கப்படும் போது, பெரிய பதிப்பு எண்கள் முதலில் வரும். ஏனெனில் சமீபத்தியபதிப்புகள் பொதுவாக மிகவும் பயனுள்ளதாக இருக்கும்."
 
 #. Resource IDs: (IDS_SETTINGS_SELECTFILESONCOMMIT_TT)
 msgid ""
 "When enabled, the versioned items listed in the commit dialog are "
 "automatically selected"
-msgstr ""
+msgstr "இயக்கப்படும் போது, உறுதிமொழி உரையாடலில் பட்டியலிடப்பட்ட பதிப்பு உருப்படிகள்தானாகத் தேர்ந்தெடுக்கப்பட்டது"
 
 #. Resource IDs: (IDS_AM_3WAY_TT)
 msgid ""
 "When the patch does not apply cleanly, fall back on 3-way merge if the patch"
 " records the identity of blobs it is supposed to apply to and we have those "
 "blobs available locally."
-msgstr "இடு இடு"
+msgstr "ஒட்டு சுத்தமாகப் பொருந்தாதபோது,  ஒட்டு அது பயன்படுத்த வேண்டிய குமிழ்களின் அடையாளத்தைப் பதிவுசெய்து இருந்தால் மற்றும் அந்த குமிழ்கள் உள்நாட்டில் கிடைக்கும் போது 3-வழி ஒன்றிணைபிற்க்குத் திரும்பும்."
 
 #. Resource IDs: (IDS_B_T_PREFILL_ORIGIN)
 msgid ""
 "When you type the URL, the remote name will be automatically filled with "
 "\"origin\" if the remote name is empty, so you do not have to."
-msgstr ""
+msgstr "நீங்கள் URL ஐ தட்டச்சு செய்யும் போது, தொலைநிலை பெயர் காலியாக இருந்தால்,தொலைநிலை பெயர் தானாகவே \"தோற்றம்\" என்று நிரப்பப்படும், நீங்கள் எதுவும் செய்ய வேண்டியதில்லை."
 
 #. Resource IDs: (IDS_SETTINGS_DESCRIBESTRATEGY_TT)
 msgid "Whether to reference only annotated tags, all tags or all refs"
-msgstr ""
+msgstr "குறிப்பிடப்பட்ட குறிச்சொற்களை மட்டும் குறிப்பிட வேண்டுமா, அனைத்து குறிச்சொற்கள் அல்லது அனைத்து குறிப்புகள்"
 
 #. Resource IDs: (IDS_TIPSTAGINGMODE)
 msgid ""
@@ -11724,7 +11724,7 @@ msgid ""
 "You can also click \"Partial Staging\" or \"Partial Unstaging\". A window shows up where you can select hunks or lines in the currently selected file and stage or unstage them.\n"
 "\n"
 "Please note that, for performance reasons, the file's group (Modified Files, Not Versioned Files...) and status (Added, Modified, Unknown...) are not updated when clicking its checkbox. If you want to see the updated group and status, you can trigger a full refresh by pressing F5."
-msgstr "சொடுக்கவும்"
+msgstr "இந்த பயன்முறையில் இருக்கும் போது, ஒவ்வொரு கோப்பின் தேர்வுப்பெட்டியும் அதன் நிலை நிலையை பிரதிபலிக்கிறது:\n- சரிபார்க்கப்பட்டது என்றால் கோப்பிற்கான அனைத்து மாற்றங்களும் நிலைநிறுத்தப்பட்டுள்ளன\n- தேர்வுநீக்கப்பட்டது என்றால், கோப்பிற்கான அனைத்து மாற்றங்களும் நிலைநிறுத்தப்படாமல் உள்ளன\n- சாம்பல் சதுரம் என்றால் கோப்பிற்கான சில மாற்றங்கள் மட்டுமே அரங்கேறுகின்றன\n\nதேர்வுப்பெட்டியை சொடுக்குவதன் மூலம் முழு கோப்பையும் உடனடியாக நிலைப்படுத்துகிறது அல்லது நிலைமாற்றுகிறது.\n\nநீங்கள் \"பகுதி நிலைப்படுத்தல்\" அல்லது \"பகுதி அரங்கேறாதது\"ஐயும் சொடுக்கலாம். தற்போது தேர்ந்தெடுக்கப்பட்ட கோப்பில் உள்ள இவறங்கள் அல்லது வரிகளைத் தேர்ந்தெடுத்து அவற்றை நிலை அல்லது நிலைமாற்றம் செய்ய ஒரு சாளரம் தோன்றும்.\n\nசெயல்திறன் காரணங்களுக்காக, கோப்பின் குழுவும் (மாற்றியமைக்கப்பட்ட கோப்புகள், பதிப்பு செய்யப்படாத கோப்புகள்...) மற்றும் நிலை (சேர்க்கப்பட்டது, மாற்றியமைக்கப்பட்டது, தெரியாதது...) அதன் தேர்வுப்பெட்டியைக் சொடுக்கும் போது புதுப்பிக்கப்படவில்லை என்பதை நினைவில் கொள்ளவும். நீங்கள் புதுப்பிக்கப்பட்டதைப் பார்க்க விரும்பினால் குழு மற்றும் நிலை, நீங்கள் F5 ஐ அழுத்துவதன் மூலம் முழு புதுப்பிப்பைத் தூண்டலாம்."
 
 #. Resource IDs: (IDS_NEED_TO_RESOLVE_CONFLICTS_HINT)
 msgid ""
@@ -11735,90 +11735,90 @@ msgid ""
 "If you want to abort the merge, do a hard reset on HEAD or select abort merge on the context menu.\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "இணைக்கும் போது, அதாவது உங்கள் உள்ளூர் கிளையில் மற்றொரு (தொலை) கிளையின் மாற்றங்களை ஒருங்கிணைக்கும் போது, குறைந்தபட்சம் ஒரு கோப்பில் முரண்பாடு ஏற்பட்டது. இதன் பொருள் நீங்கள் இதை கைமுறையாக தீர்க்க வேண்டும் (அதாவது, உங்கள் மாற்றங்களை ஒரு கோப்பில் ஒருங்கிணைக்க வேண்டும். மற்றொரு கிளையிலும் மாற்றப்பட்டது).\n\nஎல்லா கோப்புகளையும் தீர்த்த பிறகு, ஒன்றிணைப்பை முடிக்க நீங்கள் உறுதிமொழியைச் செய்ய வேண்டும்.\n\nநீங்கள் ஒன்றிணைப்பதை நிறுத்த விரும்பினால், தலையில் கடின மீட்டமைப்பைச் செய்யவும் அல்லது சூழல் மெனுவில் ஒன்றிணைப்பதை நிறுத்து என்பதைத் தேர்ந்தெடுக்கவும்.\n\nமேலும் தகவலுக்கு உதவியைப் பார்க்கவும்."
 
 #. Resource IDs: (IDS_DAEMON_SECURITY_WARN)
 msgid ""
 "While running daemon, all data of this repository is exposed without "
 "authentication and/or encryption."
-msgstr ""
+msgstr "பின்னணியில் இயக்கும் போது, இந்த களஞ்சியத்தின் அனைத்து தரவுகளும் அங்கீகாரம் மற்றும்/அல்லது குறியாக்கம் இல்லாமல் வெளிப்படும்."
 
 #. Resource IDs: (IDS_TEXTIDENTICAL_WHITESPACE)
 msgid "Whitespace changes (tabs, spaces)"
-msgstr ""
+msgstr "வெள்ளைவெளி மாற்றங்கள் (தாவல்கள், இடைவெளிகள்)"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535,
 #. cmdGroupWhitespaces_LabelTitle_RESID)
 msgid "Whitespaces"
-msgstr ""
+msgstr "வெள்ளைவெளிகள்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 4602)
 msgid "Windows 11 Context Menu"
-msgstr ""
+msgstr "சாளரங்கள் 11 சூழல் பட்டியல்"
 
 #. Resource IDs: (5020 - Menu)
 msgid "Windows-1250"
-msgstr "Windows-1250"
+msgstr "சாளரங்கள்-1250"
 
 #. Resource IDs: (5021 - Menu)
 msgid "Windows-1251"
-msgstr "Windows-1251"
+msgstr "சாளரங்கள்-1251"
 
 #. Resource IDs: (5022 - Menu)
 msgid "Windows-1252"
-msgstr "Windows-1252"
+msgstr "சாளரங்கள்-1252"
 
 #. Resource IDs: (5023 - Menu)
 msgid "Windows-1253"
-msgstr "Windows-1253"
+msgstr "சாளரங்கள்-1253"
 
 #. Resource IDs: (5024 - Menu)
 msgid "Windows-1254"
-msgstr "Windows-1254"
+msgstr "சாளரங்கள்-1254"
 
 #. Resource IDs: (5025 - Menu)
 msgid "Windows-1255"
-msgstr "Windows-1255"
+msgstr "சாளரங்கள்-1255"
 
 #. Resource IDs: (5026 - Menu)
 msgid "Windows-1256"
-msgstr "Windows-1256"
+msgstr "சாளரங்கள்-1256"
 
 #. Resource IDs: (5027 - Menu)
 msgid "Windows-1257"
-msgstr "Windows-1257"
+msgstr "சாளரங்கள்-1257"
 
 #. Resource IDs: (5028 - Menu)
 msgid "Windows-1258"
-msgstr "Windows-1258"
+msgstr "சாளரங்கள்-1258"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "Within a file:"
-msgstr ""
+msgstr "ஒரு கோப்பிற்குள்:"
 
 #. Resource IDs: (IDS_DETECT_MOVED_OR_COPIED_LINES_WITHIN_FILE)
 msgid "Within file"
-msgstr ""
+msgstr "கோப்பிற்குள்"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 158, IDS_WORKING_TREE)
 msgid "Working Tree"
-msgstr ""
+msgstr "வேலை செய்யும் மரம்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1472)
 msgid "Working Tree Path:"
-msgstr ""
+msgstr "வேலை செய்யும் மர பாதை:"
 
 #. Resource IDs: (IDS_LOG_WORKINGDIRCHANGES)
 msgid "Working tree changes"
-msgstr ""
+msgstr "வேலை செய்யும் மர மாற்றங்கள்"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_LIST: Control id 4604)
 msgid "Worktree List"
-msgstr ""
+msgstr "வேலைமரம் பட்டியல்"
 
 #. Resource IDs: (IDS_MENUWORKTREE)
 msgid "Worktrees"
-msgstr ""
+msgstr "வேலைமரங்கள்"
 
 #. Resource IDs: (cmdViewWrapLines_LabelTitle_RESID)
 msgid "Wrap Lines"
