@@ -10379,84 +10379,84 @@ msgstr ""
 msgid ""
 "The hook script returned an error:\n"
 "%ls"
-msgstr ""
+msgstr "ஹூக் ஸ்கிரிப்ட் பிழையை அளித்தது:\n%ls"
 
 #. Resource IDs: (IDS_ERR_HOOKFAILED)
 #, c-format
 msgid ""
 "The hook script returned an error:\n"
 "%s"
-msgstr ""
+msgstr "ஹூக் ஸ்கிரிப்ட் பிழையை அளித்தது:\n%s"
 
 #. Resource IDs: (IDS_ERR_HOOKNOTAPPROVED)
 msgid "The hook script was not approved to run!"
-msgstr ""
+msgstr "ஹூக் ஸ்கிரிப்ட் இயக்க அனுமதிக்கப்படவில்லை!"
 
 #. Resource IDs: (IDS_INVALIDIMAGEINFO)
 msgid "The image can not be shown."
-msgstr ""
+msgstr "படத்தை காட்ட முடியாது."
 
 #. Resource IDs: (IDS_ERR_MISSING_PROVIDER)
 msgid ""
 "The issue-tracker provider could not be created. Please check that it is "
 "installed correctly."
-msgstr ""
+msgstr "சிக்கல்-டிராக்கர் வழங்குநரை உருவாக்க முடியவில்லை. அதுதானா என்பதைச் சரிபார்க்கவும்சரியாக நிறுவப்பட்டது."
 
 #. Resource IDs: (IDS_ERR_PROVIDER_VALIDATE_FAILED)
 msgid "The issue-tracker provider was unable to validate the parameter string"
-msgstr ""
+msgstr "பிரச்சினை-கண்காணிப்பு வழங்குநரால் அளவுரு சரத்தை சரிபார்க்க முடியவில்லை"
 
 #. Resource IDs: (IDS_ERR_PATCH_NOADDFILELINE)
 #, c-format
 msgid "The line indicating the new file was expected in line %d!"
-msgstr ""
+msgstr "புதிய கோப்பைக் குறிக்கும் வரி %d வரியில் எதிர்பார்க்கப்பட்டது!"
 
 #. Resource IDs: (IDS_GOTO_OUTOFRANGE)
 #, c-format
 msgid "The line number must be in between %1!d! and %2!d!"
-msgstr ""
+msgstr "கோடு எண் %1!d! மற்றும் %2!d இடையே இருக்க வேண்டும்!"
 
 #. Resource IDs: (IDS_PROC_SYNC_NOFASTFORWARD)
 #, c-format
 msgid ""
 "The local branch \"%1!s!\" does not fast-forward to the remote branch "
 "\"%2!s!\"."
-msgstr ""
+msgstr "உள்ளூர் கிளை \"%1!s!\" தொலைதூரக் கிளைக்கு வேகமாக அனுப்பவில்லை \"%2!s!\"."
 
 #. Resource IDs: (IDS_B_T_BOTHEMPTY)
 msgid ""
 "The local branch name and the remote branch name are empty.\n"
 "Continue?"
-msgstr ""
+msgstr "உள்ளூர் கிளையின் பெயரும் தொலைதூரக் கிளையின் பெயரும் காலியாக உள்ளன.\nதொடரவா?"
 
 #. Resource IDs: (IDS_B_T_LOCALEMPTY)
 msgid ""
 "The local branch/tag name is empty. This results in a remote removal.\n"
 "Continue?"
-msgstr ""
+msgstr "உள்ளூர் கிளை/குறிச்சொல் பெயர் காலியாக உள்ளது. இதன் விளைவாக தொலைநிலை அகற்றப்படுகிறது.\nதொடரவா?"
 
 #. Resource IDs: (IDS_SETTINGS_MAXACTIONLOGLINES_TT)
 msgid ""
 "The maximum number of action log lines to keep.\n"
 "Any lines added over this limit will remove the oldest lines from the file."
-msgstr ""
+msgstr "அதிகபட்ச எண்ணிக்கையிலான செயல் பதிவு வரிகளை வைத்திருக்க வேண்டும்.\nஇந்த வரம்பிற்கு மேல் சேர்க்கப்படும் எந்த வரிகளும் கோப்பிலிருந்து பழைய வரிகளை அகற்றும்."
 
 #. Resource IDs: (IDS_PROGRS_INFOFAILED)
 msgid "The operation failed."
-msgstr "தோல்வி"
+msgstr "செயல்பாடு தோல்வியடைந்தது."
 
 #. Resource IDs: (IDS_ERR_INVALIDPATH)
 msgid ""
 "The parameters '/path' and '/pathfile' are mutually exclusive.\n"
 "You must only specify one of them."
-msgstr ""
+msgstr "/path' மற்றும் '/pathfile' அளவுருக்கள் ஒன்றுக்கொன்று பிரத்தியேகமானவை.\nஅவற்றில் ஒன்றை மட்டுமே நீங்கள் குறிப்பிட வேண்டும்."
 
 #. Resource IDs: (IDS_ERR_MAINFRAME_FILECONFLICTNOVERSION)
 #, c-format
 msgid ""
 "The patch does not apply cleanly to %s and no version information is given.\n"
 "Patching is not possible!"
-msgstr "இடு"
+msgstr "பேட்ச் %s க்கு சுத்தமாகப் பொருந்தாது மற்றும் பதிப்புத் தகவல் எதுவும் கொடுக்கப்படவில்லை.\nஒட்டு போடுவது சாத்தியமில்லை!"
 
 #. Resource IDs: (IDS_ERR_PATCH_DOESNOTMATCH)
 #, c-format
@@ -10466,7 +10466,7 @@ msgid ""
 "and the patchline\n"
 "%2!s!\n"
 "do not match!"
-msgstr ""
+msgstr "பேட்ச் காலாவதியானது போல் தெரிகிறது! கோப்பு வரி\n%1!s!\nமற்றும் பேட்ச்லைன்\n%2!s!\nபொருந்தவில்லை!"
 
 #. Resource IDs: (IDS_WARN_NOVALIDPATH)
 msgid ""
@@ -10477,7 +10477,7 @@ msgid ""
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n"
 "\n"
 "Do you want to proceed anyway?"
-msgstr ""
+msgstr "நீங்கள் உள்ளிட்ட பாதை/URL விண்டோஸில் சட்டவிரோதமானது போல் தெரிகிறது!\nஎப்படியும் முயற்சி செய்யலாம், ஆனால் பின்னர் பிழை வரலாம்.\n\nவிண்டோஸில் சரியான பாதையில் '<<>|\"?*:' அல்லது பின்வரும் சாதனப் பெயர்களில் ஒன்று இருக்கக்கூடாது:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$\n\nஎப்படியும் தொடர வேண்டுமா?"
 
 #. Resource IDs: (IDS_WARNBETTERPATCHPATHFOUND)
 #, c-format
@@ -10488,43 +10488,43 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%2!s!\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr ""
+msgstr "பாதை\n%1!s!\nபேட்ச்ஃபைலில் உள்ள பாதைகளுடன் பொருந்தவில்லை.\nஆனால் TortoiseGitMerge பாதையைக் கண்டுபிடித்தது\n%2!s!\nஅது சிறப்பாக பொருந்துகிறது. அதற்கு பதிலாக பரிந்துரைக்கப்பட்ட பாதையைப் பயன்படுத்த விரும்புகிறீர்களா?"
 
 #. Resource IDs: (IDS_PROC_CONFIRMKILLPROCESS)
 msgid ""
 "The process is still running.\n"
 "Are you sure to abort?"
-msgstr ""
+msgstr "செயல்முறை இன்னும் இயங்குகிறது.\nநிச்சயமாக கருக்கலைப்பு செய்யலாமா?"
 
 #. Resource IDs: (IDS_ERR_INVALIDREGEX)
 msgid ""
 "The regular expression is invalid!\n"
 "Please enter a valid regular expression."
-msgstr ""
+msgstr "வழக்கமான வெளிப்பாடு தவறானது!\nசரியான வழக்கமான வெளிப்பாட்டை உள்ளிடவும்."
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_OVERWRITEREMOTE)
 #, c-format
 msgid ""
 "The remote \"%s\" already exists.\n"
 "Do you want to overwrite it?"
-msgstr ""
+msgstr "ரிமோட் \"%s\" ஏற்கனவே உள்ளது.\nநீங்கள் அதை மேலெழுத விரும்புகிறீர்களா?"
 
 #. Resource IDs: (IDS_REBASE_BRANCH_UNCHANGED)
 msgid ""
 "The remote branch has not changed.\n"
 "\n"
 "Open the rebase dialog anyway?"
-msgstr "மறுதளம்"
+msgstr "தொலைநிலை கிளை மாறவில்லை.\n\nஎப்படியும் மறுதள உரையாடலைத் திறக்கவா?"
 
 #. Resource IDs: (IDS_PROC_REPOCREATEFINISHED)
 msgid "The repository was successfully created."
-msgstr ""
+msgstr "களஞ்சியம் வெற்றிகரமாக உருவாக்கப்பட்டது."
 
 #. Resource IDs: (IDS_PROGRS_REVERTMARKERS)
 msgid ""
 "The selected file appears to still have one or more conflict markers in it.\n"
 "Are you sure you want to mark the file resolved?"
-msgstr ""
+msgstr "தேர்ந்தெடுக்கப்பட்ட கோப்பில் இன்னும் ஒன்று அல்லது அதற்கு மேற்பட்ட முரண்பாடு குறிப்பான்கள் இருப்பதாகத் தெரிகிறது.\nகோப்பு தீர்க்கப்பட்டதாக நிச்சயமாகக் குறிக்க விரும்புகிறீர்களா?"
 
 #. Resource IDs: (IDS_COMMITDLG_SUBMODULEDIRTY)
 #, c-format
@@ -10532,7 +10532,7 @@ msgid ""
 "The submodule \"%s\" is dirty.\n"
 "Merely committing the superproject cannot track or save such changes to the submodule.\n"
 "Commit the submodule now or ignore dirty changes?"
-msgstr "துணைதொகுதி துணைதொகுதி"
+msgstr "துணைதொகுதி \"%s\" அழுக்காக உள்ளது.\nசூப்பர் ப்ராஜெக்ட்டை மேற்கொள்வதால், அத்தகைய மாற்றங்களை துணைத் தொகுதியில் கண்காணிக்கவோ அல்லது சேமிக்கவோ முடியாது.\nதுணைதொகுதியை இப்போதே செய்யவா அல்லது அழுக்கு மாற்றங்களை புறக்கணிக்கவா?"
 
 #. Resource IDs: (IDS_WARN_GITINIT_SPECIALFOLDER)
 #, c-format
@@ -10541,7 +10541,7 @@ msgid ""
 "%s\n"
 "is a special folder and is not supposed to be a repository root!\n"
 "Are you sure you want to initialize a git repository inside that folder?"
-msgstr ""
+msgstr "இலக்கு கோப்புறை \n%s\nஇது ஒரு சிறப்பு கோப்புறை மற்றும் இது ஒரு களஞ்சிய ரூட்டாக இருக்கக்கூடாது!\nஅந்த கோப்புறைக்குள் ஒரு ஜிட் களஞ்சியத்தை நிச்சயமாக துவக்க விரும்புகிறீர்களா?"
 
 #. Resource IDs: (IDS_WARN_GITINIT_FOLDERNOTEMPTY)
 #, c-format
@@ -10550,58 +10550,58 @@ msgid ""
 "%s\n"
 "is not empty!\n"
 "Are you sure you want to initialize a git repository inside that folder?"
-msgstr ""
+msgstr "இலக்கு கோப்புறை \n%s\nகாலியாக இல்லை!\nஅந்த கோப்புறைக்குள் ஒரு ஜிட் களஞ்சியத்தை நிச்சயமாக துவக்க விரும்புகிறீர்களா?"
 
 #. Resource IDs: (IDS_TEXTIDENTICAL_MAIN)
 msgid ""
 "The text is identical, but the files do not match!\n"
 "The following differences were found:"
-msgstr ""
+msgstr "உரை ஒரே மாதிரியாக உள்ளது, ஆனால் கோப்புகள் பொருந்தவில்லை!\nபின்வரும் வேறுபாடுகள் காணப்பட்டன:"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCOMPLETIONTIMEOUT_TT)
 msgid ""
 "The time in seconds after which the parsing of the selected files stops.\n"
 "A lower value will make the auto-completion list available sooner,\n"
 "but maybe not scan all files."
-msgstr ""
+msgstr "தேர்ந்தெடுக்கப்பட்ட கோப்புகளின் பாகுபடுத்துதல் நிறுத்தப்படும் நொடிகளில் நேரம்.\nகுறைந்த மதிப்பு தானாகவே நிறைவு பட்டியலை விரைவில் கிடைக்கும்,\nஆனால் எல்லா கோப்புகளையும் ஸ்கேன் செய்யாமல் இருக்கலாம்."
 
 #. Resource IDs: (IDS_ERR_NOCOMMONCOPYFROM)
 msgid ""
 "The two selected URL's are not created from the same root.\n"
 "It's not possible to show the log messages between them!"
-msgstr ""
+msgstr "தேர்ந்தெடுக்கப்பட்ட இரண்டு URLகளும் ஒரே மூலத்திலிருந்து உருவாக்கப்படவில்லை.\nஅவர்களுக்கிடையில் பதிவு செய்திகளைக் காட்டுவது சாத்தியமில்லை!"
 
 #. Resource IDs: (IDS_PROC_REBASE_CONTINUE_NOTCLEAN)
 msgid ""
 "The working tree is not clean and contains unstaged changes.\n"
 "Review and commit the changes?"
-msgstr "வேலை செய்யும் மரம்"
+msgstr "வேலை செய்யும் மரம்உழைக்கும் மரம் சுத்தமாக இல்லை மற்றும் நிலைமாற்றம் செய்யப்படாத மாற்றங்களைக் கொண்டுள்ளது.\nமதிப்பாய்வு செய்து மாற்றங்களைச் செய்யவா?"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 65535)
 msgid "Their file:"
-msgstr ""
+msgstr "அவர்களின் கோப்பு:"
 
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 1681,
 #. IDS_VIEWTITLE_THEIRS)
 msgid "Theirs"
-msgstr ""
+msgstr "அவர்களின்"
 
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO)
 #, c-format
 msgid ""
 "There are currently %d overlay handlers installed besides the ones Tortoise "
 "uses."
-msgstr ""
+msgstr "ஆமையைத் தவிர தற்போது %d மேலடுக்கு ஹேண்ட்லர்கள் நிறுவப்பட்டுள்ளனபயன்கள்."
 
 #. Resource IDs: (IDS_SAVE_MORE)
 msgid ""
 "There are more editable views.\n"
 "What view do you want to save?"
-msgstr ""
+msgstr "மேலும் திருத்தக்கூடிய பார்வைகள் உள்ளன.\nஎன்ன காட்சியைச் சேமிக்க விரும்புகிறீர்கள்?"
 
 #. Resource IDs: (IDS_ERR_NO_AVAILABLE_BUGTRAQ_PROVIDERS)
 msgid "There are no issue-tracker providers available."
-msgstr ""
+msgstr "சிக்கல்-கண்காணிப்பு வழங்குநர்கள் இல்லை."
 
 #. Resource IDs: (IDS_ERR_MAINFRAME_FILEHASCONFLICTS)
 #, c-format
@@ -10610,26 +10610,26 @@ msgid ""
 "You should resolve those conflicts first before saving.\n"
 "Do you want to save the file with the conflicts still there?\n"
 "If you click YES, then you have to manually resolve the conflicts in another editor!"
-msgstr "சொடுக்கவும்"
+msgstr "%d வரியில் இன்னும் தீர்க்கப்படாத முரண்பாடுகள் உள்ளன!\nசேமிப்பதற்கு முன் அந்த முரண்பாடுகளை நீங்கள் முதலில் தீர்க்க வேண்டும்.\nகோப்பை இன்னும் முரண்பாடுகளுடன் சேமிக்க விரும்புகிறீர்களா?\nஆம் என்பதைக் சொடுக்கம் செய்தால், மற்றொரு எடிட்டரில் உள்ள முரண்பாடுகளை நீங்கள் கைமுறையாகத் தீர்க்க வேண்டும்!"
 
 #. Resource IDs: (IDS_WARNMODIFIEDLOOSECHANGES)
 msgid ""
 "There are unsaved modifications!\n"
 "Do you want to save your changes?"
-msgstr ""
+msgstr "சேமிக்கப்படாத மாற்றங்கள் உள்ளன!\nஉங்கள் மாற்றங்களைச் சேமிக்க விரும்புகிறீர்களா?"
 
 #. Resource IDs: (IDS_ERR_NOTHINGTOADD)
 msgid ""
 "There is nothing to add.\n"
 "All the files and folders are either under version control,\n"
 "have been ignored or the global ignore configuration setting."
-msgstr ""
+msgstr "சேர்க்க எதுவும் இல்லை.\nஅனைத்து கோப்புகளும் கோப்புறைகளும் பதிப்புக் கட்டுப்பாட்டில் உள்ளன,\nபுறக்கணிக்கப்பட்டது அல்லது உலகளாவிய புறக்கணிப்பு உள்ளமைவு அமைப்பு."
 
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERY_ASK_2)
 msgid ""
 "These are more recently saved than the currently open documents and contain "
 "changes that were made before the application closed."
-msgstr ""
+msgstr "தற்போது திறந்திருக்கும் ஆவணங்களை விட இவை மிக சமீபத்தில் சேமிக்கப்பட்டவை மற்றும் கொண்டவைபயன்பாடு மூடுவதற்கு முன் செய்யப்பட்ட மாற்றங்கள்."
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535, Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
@@ -10637,32 +10637,32 @@ msgid ""
 "These settings will be stored to your global git configuration "
 "(%HOME%/.gitconfig) and will be used for all your git repositories as a "
 "default."
-msgstr ""
+msgstr "இந்த அமைப்புகள் உங்கள் உலகளாவிய ஜிட் உள்ளமைவில் சேமிக்கப்படும்(%HOME%/.gitconfig) மற்றும் உங்கள் அனைத்து git களஞ்சியங்களுக்கும் ஒரு இயல்புநிலை."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
-msgstr ""
+msgstr "இந்த நடவடிக்கை ரிமோட்டில் உள்ள கிளைகளை அகற்றும்."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGUNMERGED)
 msgid "This branch is not fully merged into HEAD."
-msgstr ""
+msgstr "இந்த கிளை HEAD இல் முழுமையாக இணைக்கப்படவில்லை."
 
 #. Resource IDs: (IDS_ERR_MISSINGVALUE)
 msgid "This field is required and must not be empty."
-msgstr ""
+msgstr "இந்த புலம் தேவை மற்றும் காலியாக இருக்கக்கூடாது."
 
 #. Resource IDs: (IDS_ERR_MUSTBEURL)
 msgid ""
 "This is not a valid URL.\n"
 "Please enter an URL here."
-msgstr ""
+msgstr "இது சரியான URL அல்ல.\nதயவுசெய்து இங்கே ஒரு URL ஐ உள்ளிடவும்."
 
 #. Resource IDs: (IDS_ERR_NOVALIDPATH)
 msgid ""
 "This is not a valid path!\n"
 "A valid path must not contain '<<>|\"?*:' or one of the following device names:\n"
 "com1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
-msgstr ""
+msgstr "இது சரியான பாதை அல்ல!\nசரியான பாதையில் '<<>|\"?*:' அல்லது பின்வரும் சாதனப் பெயர்களில் ஒன்று இருக்கக்கூடாது:\ncom1-com9, lpt1-lpt9, prn, aux, con, nul, clock$"
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT2)
 msgid ""
@@ -10671,44 +10671,44 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr "ஆமைகிட் ஆமைகிட்"
+msgstr "இது முதல் தொடக்க வழிகாட்டி, இது அடிப்படையை உள்ளமைக்க உதவும்அமைப்புகள். ஆமைகிட் மிகவும் கட்டமைக்கக்கூடியது, எனவே நீங்கள் செய்வது நல்லது அதன் அமைப்புகளின் உரையாடலைப் பாருங்கள். அமைப்புகள் உரையாடலைப் பயன்படுத்தி அணுகலாம்தொடக்க மெனு அல்லது விண்டோஸ் எக்ஸ்ப்ளோரரின் சூழல் மெனு: ஆமைகிட் -> அமைப்புகள்."
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
 "This operation cannot be started while the log dialog is still loading "
 "commits."
-msgstr "உறுதிமொழிகள்"
+msgstr "பதிவு உரையாடல் இன்னும் ஏற்றப்படும் போது இந்த செயல்பாட்டை தொடங்க முடியாதுஉறுதிமொழிகள்"
 
 #. Resource IDs: (IDS_GITCONFIG_SETTING)
 #, c-format
 msgid "This option represents \"%s\" git config setting."
-msgstr ""
+msgstr "இந்த விருப்பம் \"%s\" கிட் config அமைப்பைக் குறிக்கிறது."
 
 #. Resource IDs: (IDS_REBASE_PRESERVEMERGES_TT)
 msgid ""
 "This preserves merge commits, however, it has known bugs as re-ordering "
 "commits is not working properly (same limitation as for vanilla git rebase),"
 " see help."
-msgstr "உறுதிமொழிகள் உறுதிமொழிகள் மறுதளம்"
+msgstr "இது ஒன்றிணைப்பு உறுதிமொழிகளை பாதுகாக்கிறது, இருப்பினும், இது பிழைகளை மறு-வரிசைப்படுத்துதல் என்று அறியப்படுகிறதுஉறுதிமொழிகள் சரியாக வேலை செய்யவில்லை (வெண்ணிலா ஜிட் மறுதளதிற்கான அதே வரம்பு),உதவி பார்க்கவும்."
 
 #. Resource IDs: (AFX_IDP_DLL_BAD_VERSION)
 #, c-format
 msgid ""
 "This program is linked to the missing export %Ts in the file %Ts. This "
 "machine may have an incompatible version of %Ts."
-msgstr ""
+msgstr "இந்த நிரல் %Ts கோப்பில் விடுபட்ட ஏற்றுமதி %Ts உடன் இணைக்கப்பட்டுள்ளது. இது இயந்திரம் %Ts இன் இணக்கமற்ற பதிப்பைக் கொண்டிருக்கலாம்."
 
 #. Resource IDs: (AFX_IDP_DLL_LOAD_FAILED)
 #, c-format
 msgid ""
 "This program requires the file %Ts, which was not found on this system."
-msgstr ""
+msgstr "இந்த நிரலுக்கு %Ts கோப்பு தேவைப்படுகிறது, இது இந்த கணினியில் காணப்படவில்லை."
 
 #. Resource IDs: (IDS_B_T_REMOTE_NAME_COLLIDE)
 msgid ""
 "This remote name collides with fetch refspec of other remotes\n"
 "Please use another name"
-msgstr ""
+msgstr "இந்த ரிமோட் பெயர் மற்ற ரிமோட்களின் ஃபெட்ச் ரெஸ்பெக் உடன் மோதுகிறது\nவேறு பெயரைப் பயன்படுத்தவும்"
 
 #. Resource IDs: (IDS_PROC_NOCLEAN)
 msgid "This task requires a clean working tree."
