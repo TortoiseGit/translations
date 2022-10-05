@@ -236,7 +236,7 @@ msgstr "%1\nஇந்த கோப்பை கண்டுபிடிக்க
 #. Resource IDs: (IDS_CONFIG_GLOBAL_TT)
 #, c-format
 msgid "%HOME%/.gitconfig or %XDGHOME%/git/config"
-msgstr ""
+msgstr "%HOME%/.gitconfig அல்லது %XDGHOME%/கிட்/config"
 
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALBYTESTRANSFERRED)
 #, c-format
@@ -246,12 +246,12 @@ msgstr "%I64d பைட்டுகள் transfer செய்யப்பட�
 #. Resource IDs: (IDS_SVN_PROGRESS_TOTALTRANSFERRED)
 #, c-format
 msgid "%I64d KiB transferred"
-msgstr ""
+msgstr "%I64d Kiபைட்டுகள் பரிமாற்றப்பட்டது"
 
 #. Resource IDs: (AFX_IDS_AUTOSAVE_RECOVERED)
 #, c-format
 msgid "%Ts [Recovered]"
-msgstr ""
+msgstr "%Ts [மீட்கப்பட்டது]"
 
 #. Resource IDs: (AFX_IDS_EMBED_FORMAT, AFX_IDS_LINKSOURCE_FORMAT)
 #, c-format
@@ -263,12 +263,12 @@ msgstr "%Ts\n%Ts"
 #. Resource IDs: (IDS_FILESCHANGES)
 #, c-format
 msgid "%d files changed"
-msgstr ""
+msgstr "%d கோப்புகள் மாற்றப்பட்டன"
 
 #. Resource IDs: (IDS_PROC_FILESREMOVED)
 #, c-format
 msgid "%d files removed."
-msgstr ""
+msgstr "%d கோப்புகள் அகற்றப்பட்டன."
 
 #. Resource IDs: (IDS_ALPHABUTTONTT)
 #, c-format
@@ -276,7 +276,7 @@ msgid ""
 "%i%% alpha\n"
 "click to toggle alpha\n"
 "double click to automatically toggle alpha"
-msgstr "சொடுக்கவும் சொடுக்கவும்"
+msgstr "சொடுக்கவும் சொடுக்கவும்%i%% ஆல்பா\nஆல்ஃபாவை மாற்ற கிளிக் செய்யவும்\nஆல்ஃபாவை தானாக மாற்ற இருமுறை கிளிக் செய்யவும்"
 
 #. Resource IDs: (IDS_DIMENSIONSANDFRAMES)
 #, c-format
@@ -293,14 +293,14 @@ msgstr "%s: பணிபுரியும் மரம்"
 msgid ""
 "%s\n"
 "Could not be cleanly patched."
-msgstr ""
+msgstr "%s\nசுத்தமாக ஒட்ட முடியவில்லை."
 
 #. Resource IDs: (IDS_PROC_REMOVEFORCE)
 #, c-format
 msgid ""
 "%s\n"
 "Do you want to remove it anyway?"
-msgstr ""
+msgstr "%s\nஎப்படியும் அதை நீக்க வேண்டுமா?"
 
 #. Resource IDs: (IDS_ERR_FILE_NOTAFILE)
 #, c-format
@@ -308,7 +308,7 @@ msgid ""
 "%s\n"
 "is a directory, not a file!\n"
 "TortoiseGitMerge can't diff directories."
-msgstr "வேறுபாடு"
+msgstr "%s\nஒரு கோப்பகம், கோப்பு அல்ல!\nTortoiseGitMerge கோப்பகங்களை வேறுபடுத்த முடியாது."
 
 #. Resource IDs: (Dialog IDD_RENAME: Control id 1483)
 msgid "&..."
@@ -316,25 +316,25 @@ msgstr "&..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1656)
 msgid "&3 way merge"
-msgstr ""
+msgstr "&3 வழி இணைப்பு"
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
-msgstr ""
+msgstr "&கடுப்பு"
 
 #. Resource IDs: (IDS_HOOKFAILED_TASK3)
 msgid ""
 "&Abort\n"
 "You can fix the reason the hook script failed first."
-msgstr ""
+msgstr "&அபார்ட்\nகொக்கி கையெழுத்துப்படிவம் தோல்வியடைந்ததற்கான காரணத்தை நீங்கள் முதலில் சரிசெய்யலாம்."
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitBlame..."
-msgstr ""
+msgstr "&TortoiseGitBlame பற்றி..."
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitMerge..."
-msgstr ""
+msgstr "&TortoiseGitMerge பற்றி..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1382, Dialog
 #. IDD_REBASE: Control id 1382, Dialog IDD_WORKTREE_LIST: Control id 1382)
@@ -348,11 +348,11 @@ msgstr "&Filter-ஐ சேர்"
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1382, Dialog
 #. IDD_SETTINREMOTE: Control id 1382)
 msgid "&Add New/Save"
-msgstr ""
+msgstr "&புதியதைச் சேர்/சேமி"
 
 #. Resource IDs: (IDS_PROC_COMMIT_ADDSIGNOFFBUTTON)
 msgid "&Add it"
-msgstr ""
+msgstr "அதை &சேர்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSADV: Control id 1098, IDS_MENUADD)
 msgid "&Add..."
@@ -370,11 +370,11 @@ msgstr "&முழுவதும்"
 
 #. Resource IDs: (Dialog IDD_LOGMESSAGE: Control id 3936)
 msgid "&All Branches"
-msgstr ""
+msgstr "&அனைத்து கிளைகளும்"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1613)
 msgid "&Apply Patch"
-msgstr "இடு"
+msgstr "&பேட்ச் இடு"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 1013)
 msgid "&Apply unified diff"
@@ -382,27 +382,27 @@ msgstr "&ஒருங்கிணைக்கப்பட்ட வேறுப�
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 65535)
 msgid "&Autoclose Git.exe dialog:"
-msgstr ""
+msgstr "&Autoclose கிட்.exe உரையாடல்:"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1505)
 msgid "&Autoload Putty Key"
-msgstr ""
+msgstr "&புட்டி விசையை தானாக ஏற்றவும்"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1015)
 msgid "&Backup original file"
-msgstr ""
+msgstr "&அசல் கோப்பை காப்பு பிரதி எடுக்கவும்"
 
 #. Resource IDs: (IDS_MENUBLAME)
 msgid "&Blame"
-msgstr "&பழி கூறு"
+msgstr "&குற்றம்"
 
 #. Resource IDs: (IDS_LOG_POPUP_BLAMEDIFF)
 msgid "&Blame changes"
-msgstr "&பழி கூறு மாற்றங்கள்"
+msgstr "&குற்றம் மாற்றங்களை"
 
 #. Resource IDs: (IDS_FILEDIFF_POPBLAME, IDS_LOG_POPUP_BLAMEREVS)
 msgid "&Blame revisions"
-msgstr "&பழி கூறு திருத்தங்கள்"
+msgstr "&குற்றம் திருத்தங்கள்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Border:"
@@ -442,12 +442,12 @@ msgstr ""
 
 #. Resource IDs: (IDS_MENUCLEANUP)
 msgid "&Clean up..."
-msgstr "&சுத்தம் செய்..."
+msgstr "&சுத்தப்படுத்து..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1848, ID_EDIT_CLEAR -
 #. Menu)
 msgid "&Clear"
-msgstr "&சுத்தம்"
+msgstr "துடை"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1686)
 msgid "&Clear stash"
@@ -485,11 +485,11 @@ msgstr "&மீள்திருத்தங்களை ஒப்பிடவ�
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPAREWITHPREVIOUS)
 msgid "&Compare with previous revision"
-msgstr ""
+msgstr "&முந்தைய திருத்தத்துடன் ஒப்பிடு"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
-msgstr ""
+msgstr "&சுருக்கப்பட்ட வரைபடம்"
 
 #. Resource IDs: (IDS_MSGBOX_CONTINUE)
 msgid "&Continue"
@@ -507,19 +507,19 @@ msgstr "&நகலெடு\tCtrl+C"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id
 #. 65535)
 msgid "&Credential helper:"
-msgstr ""
+msgstr "&நற்சான்றிதழ் உதவியாளர்:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1662)
 msgid "&Custom"
-msgstr ""
+msgstr "&தனிப்பயன்"
 
 #. Resource IDs: (ID_VIEW_DARKMODE - Menu)
 msgid "&Dark Mode"
-msgstr ""
+msgstr "&இருண்ட பயன்முறை"
 
 #. Resource IDs: (ID_VIEW_DARKMODE - Menu)
 msgid "&Dark Mode\tD"
-msgstr ""
+msgstr "&இருண்ட பயன்முறை\tD"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1269)
 msgid "&Default"
@@ -532,19 +532,19 @@ msgstr "&நீக்கு"
 
 #. Resource IDs: (IDS_MENUREMOVEKEEP)
 msgid "&Delete (keep local)"
-msgstr "&நீக்கு (keep local)"
+msgstr "&நீக்கு (உள்ளூரில் வைக்கவும்)"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1507)
 msgid "&Delete Filter"
-msgstr "&Filter நீக்கு"
+msgstr "&வடிகட்டி நீக்கு"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCALREMOTE)
 msgid "&Delete branch on remote && local remote-tracking branch"
-msgstr ""
+msgstr "தொலைநிலை && லோக்கல் தொலைநிலை-டிராக்கிங் கிளையில் கிளையை நீக்கவும்"
 
 #. Resource IDs: (IDS_DELETE_BRANCHTAG)
 msgid "&Delete branch/tag"
-msgstr ""
+msgstr "&கிளை/குறிச்சொல்லை நீக்கு"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1857)
 msgid "&Detach"
@@ -552,11 +552,11 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
-msgstr ""
+msgstr "நகர்த்தப்பட்ட அல்லது நகலெடுக்கப்பட்ட வரிகளைக் கண்டறிக"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535)
 msgid "&Detect moved or copied lines:"
-msgstr ""
+msgstr "நகர்த்தப்பட்ட அல்லது நகலெடுக்கப்பட்ட வரிகளைக் கண்டறிக:"
 
 #. Resource IDs: (IDS_MENUDIFF)
 msgid "&Diff"
@@ -572,34 +572,34 @@ msgstr "&அடைவு:"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_DISABLED - Menu)
 msgid "&Disabled"
-msgstr ""
+msgstr "&முடக்கப்பட்டது"
 
 #. Resource IDs: (IDS_DISCARDBUTTON)
 msgid "&Discard"
-msgstr ""
+msgstr "&நிராகரி"
 
 #. Resource IDs: (IDS_DO_SAME_FOR_REST)
 msgid "&Do the same for the rest"
-msgstr ""
+msgstr "மற்றவர்களுக்கும் அதையே செய்"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
 msgid "&Don't ask me again"
-msgstr ""
+msgstr "&என்னை மீண்டும் கேட்காதே"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK4)
 msgid ""
 "&Don't run\n"
 "Do not run the script"
-msgstr ""
+msgstr "&ஓட வேண்டாம்\nஸ்கிரிப்டை இயக்க வேண்டாம்"
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
 msgid "&Don't show this message again"
-msgstr ""
+msgstr "&இந்தச் செய்தியை மீண்டும் காட்டாதே"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1839,
 #. Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 1839)
 msgid "&Don't store these settings now."
-msgstr ""
+msgstr "&இந்த அமைப்புகளை இப்போது சேமிக்க வேண்டாம்."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
 msgid "&Down"
@@ -608,7 +608,7 @@ msgstr "&கீழ்"
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1710,
 #. IDS_PROC_DOWNLOAD)
 msgid "&Download"
-msgstr ""
+msgstr "&பதிவிறக்கு"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Edit"
@@ -616,7 +616,7 @@ msgstr "&தொகு"
 
 #. Resource IDs: (IDS_PROC_EDITLOCALGITCONFIG)
 msgid "&Edit .git/config"
-msgstr ""
+msgstr "&திருத்து .கிட்/config"
 
 #. Resource IDs: (IDS_PROC_REBASE_SELECTALL_EDIT)
 msgid "&Edit ALL"
@@ -624,7 +624,7 @@ msgstr "அனைத்தும் &தொகு"
 
 #. Resource IDs: (Dialog IDD_REGEXFILTERS: Control id 1506)
 msgid "&Edit Filter"
-msgstr "&Filter-ஐ தொகு"
+msgstr "&வடிகட்டியை தொகு"
 
 #. Resource IDs: (IDS_MENUCONFLICT)
 msgid "&Edit conflicts"
@@ -636,29 +636,29 @@ msgstr "&தொகு..."
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1827)
 msgid "&Edit/Split commit"
-msgstr "&தொகு பிரி"
+msgstr "&தொகு/பிரிவு உறுதி"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1614)
 msgid "&Email Patch"
-msgstr ""
+msgstr "&மின்னஞ்சல் இணைப்பு"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535, Dialog
 #. IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Email:"
-msgstr ""
+msgstr "&மின்னஞ்சல்:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 1023, Dialog
 #. IDD_SETTINGSHOOKCONFIG: Control id 1023)
 msgid "&Enable"
-msgstr ""
+msgstr "&இயக்கு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1023)
 msgid "&Enable Proxy Server"
-msgstr ""
+msgstr "&ப்ராக்ஸி சேவையகத்தை இயக்கு"
 
 #. Resource IDs: (ID_EDIT_ENABLE - Menu)
 msgid "&Enable edit"
-msgstr "&Edit-ஐ இயலச்செய்"
+msgstr "&திருத்தத்தை இயக்கு"
 
 #. Resource IDs: (ID_MENUEXIT - Menu)
 msgid "&Exit"
@@ -670,17 +670,17 @@ msgstr "&வெளியேறு\tCtrl+W"
 
 #. Resource IDs: (IDS_FILEDIFF_POPEXPORT)
 msgid "&Export selection to..."
-msgstr ""
+msgstr "தேர்வை&ஏற்றுமதி..."
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1092, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1095)
 msgid "&External"
-msgstr "&புறம்பான"
+msgstr "&வெளிப்புறம்"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Extra PATH:"
-msgstr ""
+msgstr "&கூடுதல் பாதை:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
@@ -700,81 +700,81 @@ msgstr "&தேடு\tCtrl+F"
 
 #. Resource IDs: (ID_VIEW_FITIMAGESINWINDOW - Menu)
 msgid "&Fit images in window\tF"
-msgstr ""
+msgstr "&படங்களை சாளரத்தில் பொருத்து\tF"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1050)
 msgid "&Fixed drives"
-msgstr ""
+msgstr "&நிலையான இயக்கிகள்"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FOLLOWRENAMES, ID_VIEW_FOLLOWRENAMES -
 #. Menu)
 msgid "&Follow renames"
-msgstr ""
+msgstr "&மறுபெயர்களை பின்பற்றவும்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "&Font for log messages:"
-msgstr ""
+msgstr "பதிவு செய்திகளுக்கான & எழுத்துரு:"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535, Dialog
 #. IDD_SETTINGSTBLAME: Control id 65535, Dialog IDD_SETTINGSUDIFF: Control id
 #. 65535)
 msgid "&Font:"
-msgstr ""
+msgstr "&எழுத்துரு:"
 
 #. Resource IDs: (Dialog IDD_LFS_LOCKS: Control id 1480, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1521, Dialog IDD_SUBMODULE_ADD: Control id
 #. 1480, Dialog IDD_SUBMODULE_UPDATE: Control id 1480, Dialog IDD_SYNC:
 #. Control id 1521, Dialog IDD_WORKTREE_CREATE: Control id 1521)
 msgid "&Force"
-msgstr ""
+msgstr "&Force"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1607)
 msgid "&Force Rebase"
-msgstr "மறுதளம்"
+msgstr "&Force மறுதளம்"
 
 #. Resource IDs: (IDS_CREATE_PATCH)
 msgid "&Format Patch..."
-msgstr ""
+msgstr "&பார்மட் பேட்சை..."
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1608)
 msgid "&From:"
-msgstr ""
+msgstr "&இருந்து:"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_AUTHENTICATION: Control id 1844)
 msgid "&Generate PuTTY  key pair"
-msgstr ""
+msgstr "&புட்டி விசை ஜோடியை உருவாக்கு"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Git"
-msgstr ""
+msgstr "&கிட்"
 
 #. Resource IDs: (Dialog IDD_SVNDCOMMITTYPE: Control id 2153)
 msgid "&Git Style Commit (--rmdir)"
-msgstr ""
+msgstr "&கிட் Style Commit (--rmdir)"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Git.exe Path:"
-msgstr ""
+msgstr "&கிட்.exe பாதை:"
 
 #. Resource IDs: (ID_EDIT_GOTO - Menu)
 msgid "&Go to\tCtrl+G"
-msgstr ""
+msgstr "&செல்\tCtrl+G"
 
 #. Resource IDs: (IDS_SHOWFILES_GRAYPATHS)
 msgid "&Gray Unrelated Changed Paths"
-msgstr ""
+msgstr "&கிரே தொடர்பில்லாத மாற்றப்பட்ட பாதைகள்"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1511, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1511, Dialog IDD_WORKTREE_CREATE: Control id
 #. 1511)
 msgid "&HEAD"
-msgstr "&HEAD"
+msgstr "&தலை"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1552, Dialog IDD_RESET:
 #. Control id 1552)
 msgid "&Hard: Reset working tree and index (discard all local changes)"
-msgstr "பணிபுரியும் மரம்"
+msgstr "&ஹார்ட்: பணிபுரியும் மரம் மற்றும் குறியீட்டை மீட்டமைக்கவும் (அனைத்து உள்ளூர் மாற்றங்களையும் நிராகரிக்கவும்)"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
 #. 57670, IDS_MENUHELP, ID_MENUHELP - Menu)
@@ -791,32 +791,32 @@ msgstr "&மறை"
 
 #. Resource IDs: (cmdShowFileList_LabelTitle_RESID)
 msgid "&Hide/Show the patch file list"
-msgstr ""
+msgstr "பேட்ச் கோப்பு பட்டியலை&மறை/காண்பி"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1170)
 msgid "&Icon Set:"
-msgstr ""
+msgstr "&ஐகான் தொகுப்பு:"
 
 #. Resource IDs: (IDS_IGNOREBUTTON, IDS_MSGBOX_IGNORE)
 msgid "&Ignore"
-msgstr ""
+msgstr "&புறக்கணி"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE)
 #, c-format
 msgid "&Ignore %d items by name"
-msgstr ""
+msgstr "&பெயர் மூலம் %d உருப்படிகளை புறக்கணிக்கவும்"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLE2)
 msgid "&Ignore multiple items by name"
-msgstr ""
+msgstr "&பெயரின் மூலம் பல உருப்படிகளை புறக்கணிக்கவும்"
 
 #. Resource IDs: (ID_VIEW_IGNORE_WHITESPACE - Menu)
 msgid "&Ignore whitespace"
-msgstr ""
+msgstr "&வெள்ளைவெளியை புறக்கணிக்கவும்"
 
 #. Resource IDs: (ID_VIEW_IMAGEINFO - Menu)
 msgid "&Image info\tI"
-msgstr ""
+msgstr "&படத் தகவல்\tI"
 
 #. Resource IDs: (IDS_MENUIMPORT)
 msgid "&Import..."
@@ -824,27 +824,27 @@ msgstr "&இறக்குமதி..."
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1693)
 msgid "&Initialize submodules (--init)"
-msgstr "துணைதொகுதிகள்"
+msgstr "&துணைதொகுதிகளை துவக்கவும் (--init)"
 
 #. Resource IDs: (IDS_PROC_INSTALL)
 msgid "&Install"
-msgstr ""
+msgstr "&நிறுவு"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1016)
 msgid "&Jump to first difference when loading"
-msgstr ""
+msgstr "&ஏற்றும்போது முதல் வேறுபாட்டிற்கு செல்லவும்"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1483)
 msgid "&Keep CR"
-msgstr ""
+msgstr "வைத்திரு சிஆர்"
 
 #. Resource IDs: (IDS_PROC_COMMIT_RESTOREFILES_KEEP)
 msgid "&Keep current state"
-msgstr ""
+msgstr "&தற்போதைய நிலையை வைத்திரு"
 
 #. Resource IDs: (IDS_VIEW_LABELS)
 msgid "&Labels"
-msgstr ""
+msgstr "&லேபிள்கள்"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_LANGUAGE: Control id 65535,
 #. Dialog IDD_SETTINGSMAIN: Control id 65535)
@@ -853,11 +853,11 @@ msgstr "&மொழி:"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1602)
 msgid "&Launch Rebase After Fetch"
-msgstr "மறுதளம்"
+msgstr "&பெற்ற பிறகு மறுதளத்தை துவக்கவும்"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1065)
 msgid "&Limit search to modified lines"
-msgstr ""
+msgstr "&திருத்தப்பட்ட வரிகளுக்கு தேடலை வரம்பிடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Limit:"
@@ -870,27 +870,27 @@ msgstr "&வரிசை எண்"
 #. Resource IDs: (IDS_GOTOLINE)
 #, c-format
 msgid "&Line number (%1!d! - %2!d!)"
-msgstr ""
+msgstr "&வரி எண் (%1!d! - %2!d!)"
 
 #. Resource IDs: (ID_VIEW_LINKIMAGESTOGETHER - Menu)
 msgid "&Link image positions"
-msgstr ""
+msgstr "&பட நிலைகளை இணைக்கவும்"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1172)
 msgid "&List View"
-msgstr ""
+msgstr "&பட்டியல் பார்வை"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1616)
 msgid "&Local Branch:"
-msgstr ""
+msgstr "&உள்ளூர் கிளை:"
 
 #. Resource IDs: (IDS_VIEW_SHOWLOCALBRANCHLABELS)
 msgid "&Local branches"
-msgstr ""
+msgstr "&உள்ளூர் கிளைகள்"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1504)
 msgid "&Local:"
-msgstr ""
+msgstr "&உள்ளூர்:"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1515)
 msgid "&Location"
@@ -898,7 +898,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "&Max line length for inline diffs"
-msgstr ""
+msgstr "வரியில் வேறுபாடுகளுக்கான &அதிகபட்ச வரி நீளம்"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1526, Dialog
 #. IDD_SUBMODULE_UPDATE: Control id 1735, IDS_MERGEBUTTON)
@@ -908,11 +908,11 @@ msgstr "&இணை"
 #. Resource IDs: (IDS_LOG_POPUP_MERGEREV)
 #, c-format
 msgid "&Merge to \"%s\"..."
-msgstr ""
+msgstr "\"%s\" இதற்கு ஒன்றிணைக்கவும்..."
 
 #. Resource IDs: (IDS_MERGE_UNRELATED)
 msgid "&Merge unrelated history"
-msgstr ""
+msgstr "&தொடர்பற்ற வரலாற்றை ஒன்றிணைக்கவும்"
 
 #. Resource IDs: (IDS_MENUMERGE)
 msgid "&Merge..."
@@ -933,11 +933,11 @@ msgstr "&செய்தி:"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
 msgid "&Mixed: Leave working tree untouched, reset index"
-msgstr "பணிபுரியும் மரம்"
+msgstr "&கலவை: பணிபுரியும் மரத்தை தொடாமல் விடுங்கள், குறியீட்டை மீட்டமைக்கவும்"
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
-msgstr ""
+msgstr "&நகர்த்தப்பட்ட தொகுதிகள்"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1515)
 msgid "&Name"
@@ -950,11 +950,11 @@ msgstr "&பெயர்:"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Navigate"
-msgstr ""
+msgstr "&செல்க"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1049)
 msgid "&Network drives"
-msgstr ""
+msgstr "&நெட்வொர்க் டிரைவ்கள்"
 
 #. Resource IDs: (Dialog AFX_IDD_NEWTYPEDLG: Control id 65535)
 msgid "&New "
@@ -970,19 +970,19 @@ msgstr "&அடுத்த பக்கம்"
 
 #. Resource IDs: (IDS_MSGBOX_NO)
 msgid "&No"
-msgstr ""
+msgstr "&இல்லை"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1734)
 msgid "&No fetch"
-msgstr ""
+msgstr "&எடுத்தல் இல்லை"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1702)
 msgid "&None"
-msgstr ""
+msgstr "&ஒன்றுமில்லை"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1661)
 msgid "&Notepad2"
-msgstr "&Notepad2"
+msgstr "&நோட்பேட்2"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
@@ -994,7 +994,7 @@ msgstr "&ஒரு பக்கம்"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1828)
 msgid "&Onto"
-msgstr ""
+msgstr "&ஆன்டோ"
 
 #. Resource IDs: (IDS_LOG_POPUP_OPEN, IDS_REPOBROWSE_OPEN,
 #. cmdOpen_LabelTitle_RESID)
@@ -1003,7 +1003,7 @@ msgstr "&திற"
 
 #. Resource IDs: (IDS_PROC_GOTOMSYSGITWEBSITE)
 msgid "&Open Git for Windows WebSite"
-msgstr ""
+msgstr "&விண்டோஸ் வெப்சைட்டுக்கான ஜிட்டைத் திற"
 
 #. Resource IDs: (ID_FILE_OPEN - Menu)
 msgid "&Open...\tCtrl+O"
@@ -1015,15 +1015,15 @@ msgstr "&விருப்பங்கள்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Overlay Icon:"
-msgstr ""
+msgstr "&மேலே ஐகான்:"
 
 #. Resource IDs: (ID_VIEW_OVERLAPIMAGES - Menu)
 msgid "&Overlay images\tO"
-msgstr ""
+msgstr "&மேலடுக்கு படங்கள்\tO"
 
 #. Resource IDs: (Dialog IDD_GITSWITCH: Control id 1523)
 msgid "&Override branch if exists"
-msgstr ""
+msgstr "&கிளை இருந்தால் மேலெழுதவும்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1411, Dialog
 #. IDD_SIMPLEPROMPT: Control id 65535, Dialog IDD_USER_PASSWD: Control id
@@ -1038,15 +1038,15 @@ msgstr "&பேஸ்ட்"
 
 #. Resource IDs: (IDS_PROC_REBASE_SELECTALL_PICK)
 msgid "&Pick ALL"
-msgstr ""
+msgstr "&அனைத்தையும் தேர்ந்தெடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 1414)
 msgid "&Port:"
-msgstr ""
+msgstr "&போர்ட்:"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1608)
 msgid "&Preserve merges"
-msgstr ""
+msgstr "&சேர்க்கைகளை பாதுகாக்கவும்"
 
 #. Resource IDs: (Dialog AFX_IDD_PREVIEW_TOOLBAR: Control id 58116)
 msgid "&Print..."
@@ -1058,13 +1058,13 @@ msgstr "&அச்சிடு...\tCtrl+P"
 
 #. Resource IDs: (IDS_PROCEEDBUTTON)
 msgid "&Proceed"
-msgstr ""
+msgstr "&தொடரவும்"
 
 #. Resource IDs: (IDS_HOOKFAILED_TASK4)
 msgid ""
 "&Proceed anyway\n"
 "Ignore the hook script and run the command anyway."
-msgstr ""
+msgstr "&எப்படியும் தொடரவும்\nகொக்கி ஸ்கிரிப்டைப் புறக்கணித்து, எப்படியும் கட்டளையை இயக்கவும்."
 
 #. Resource IDs: (Dialog IDD_WORKTREE_LIST: Control id 1383)
 msgid "&Prune"
@@ -1080,11 +1080,11 @@ msgstr "&இழு..."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
-msgstr ""
+msgstr "&அனைத்து கிளைகளையும் தள்ளு"
 
 #. Resource IDs: (IDS_COMMIT_RECOMMIT, IDS_PROC_COMMIT_RECOMMIT)
 msgid "&ReCommit"
-msgstr ""
+msgstr "&மீண்டும் ஒப்புக்கொள்"
 
 #. Resource IDs: (IDS_REBASEBUTTON)
 msgid "&Rebase"
@@ -1092,7 +1092,7 @@ msgstr "&மறுதளம்"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_UPDATE: Control id 1694)
 msgid "&Recursive"
-msgstr ""
+msgstr "&சுழற்சி"
 
 #. Resource IDs: (IDS_SCIEDIT_REDO)
 msgid "&Redo"
@@ -1100,7 +1100,7 @@ msgstr "&மறுபடியும் செய்;"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1579)
 msgid "&Ref:"
-msgstr ""
+msgstr "&குறிப்பு:"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1382)
 msgid "&Refresh"
@@ -1108,24 +1108,24 @@ msgstr "&புதுப்பி"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20093)
 msgid "&Regular Expression"
-msgstr ""
+msgstr "&வழக்கமான வெளிப்பாடு"
 
 #. Resource IDs: (IDS_REMINDMELATER)
 msgid "&Remind me later"
-msgstr ""
+msgstr "&பின்னர் எனக்கு நினைவூட்டு"
 
 #. Resource IDs: (Dialog IDD_SYNC: Control id 1617)
 msgid "&Remote Branch:"
-msgstr ""
+msgstr "&தொலைநிலை கிளை:"
 
 #. Resource IDs: (IDS_VIEW_SHOWREMOTEBRANCHLABELS)
 msgid "&Remote branches"
-msgstr ""
+msgstr "&தொலை கிளைகள்"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1490, Dialog IDD_PUSH:
 #. Control id 1503)
 msgid "&Remote:"
-msgstr ""
+msgstr "&தொலைநிலை:"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1385, Dialog
 #. IDD_SETTINGSCREDENTIAL: Control id 1385, Dialog IDD_SETTINGSPROGSADV:
@@ -1136,11 +1136,11 @@ msgstr "&நீக்கு"
 
 #. Resource IDs: (IDS_REMOVE_FROM_INDEX)
 msgid "&Remove this file from index"
-msgstr ""
+msgstr "&இந்த கோப்பை அட்டவணையில் இருந்து அகற்று"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1511)
 msgid "&Replace"
-msgstr ""
+msgstr "&மாற்று"
 
 #. Resource IDs: (IDS_MENUREPOBROWSE)
 msgid "&Repo-browser"
@@ -1148,11 +1148,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1355)
 msgid "&Reset filter"
-msgstr ""
+msgstr "&வடிப்பானை மீட்டமை"
 
 #. Resource IDs: (IDS_RESOLVEDBUTTON)
 msgid "&Resolved"
-msgstr ""
+msgstr "&தீர்ந்தது"
 
 #. Resource IDs: (IDS_RESTOREBUTTON)
 msgid "&Restore"
@@ -1160,25 +1160,25 @@ msgstr "&மீட்டமை"
 
 #. Resource IDs: (IDS_PROC_COMMIT_RESTOREFILES_RESTORE)
 msgid "&Restore old state"
-msgstr ""
+msgstr "&பழைய நிலையை மீட்டமை"
 
 #. Resource IDs: (IDS_MSGBOX_RETRY)
 msgid "&Retry"
-msgstr ""
+msgstr "&மீண்டும் முயற்சிக்கவும்"
 
 #. Resource IDs: (IDS_LOG_POPUP_REVERTREV)
 msgid "&Revert change by this commit"
-msgstr ""
+msgstr "&இந்த உறுதியால் மாற்றத்தை மாற்றவும்"
 
 #. Resource IDs: (IDS_LOG_POPUP_REVERTREVS)
 msgid "&Revert changes by these commits"
-msgstr "உறுதிமொழிகள்"
+msgstr "&இந்த உறுதிமொழிகளால் மாற்றங்களை மாற்றவும்"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK3)
 msgid ""
 "&Run\n"
 "Run the hook script"
-msgstr ""
+msgstr "&ரன்\nகொக்கி ஸ்கிரிப்டை இயக்கு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROXY: Control id 65535)
 msgid "&SSH client:"
@@ -1191,16 +1191,16 @@ msgstr "&சேமி"
 #. Resource IDs: (Dialog IDD_PROMPT: Control id 1023, Dialog IDD_SIMPLEPROMPT:
 #. Control id 1023)
 msgid "&Save authentication"
-msgstr "சேமி"
+msgstr "&சேமி அங்கீகாரம்"
 
 #. Resource IDs: (IDS_REVGRAPH_SAVEPIC, ID_FILE_SAVEGRAPHAS - Menu,
 #. ID_FILE_SAVESTATGRAPHAS - Menu)
 msgid "&Save graph as..."
-msgstr "சேமி"
+msgstr "வரைபடத்தை இவ்வாறு சேமி..."
 
 #. Resource IDs: (IDS_FILEDIFF_POPSAVELIST)
 msgid "&Save list of selected files to..."
-msgstr "சேமி"
+msgstr "தேர்ந்தெடுக்கப்பட்ட கோப்புகளின் பட்டியலை &சேமி..."
 
 #. Resource IDs: (ID_FILE_SAVE - Menu)
 msgid "&Save\tCtrl+S"
@@ -1208,52 +1208,52 @@ msgstr "&சேமி\tCtrl+S"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1687)
 msgid "&Search..."
-msgstr ""
+msgstr "&தேடு..."
 
 #. Resource IDs: (IDS_PROC_SETMSYSGITPATH)
 msgid "&Set Git path"
-msgstr ""
+msgstr "&கிட் பாதையை அமைக்கவும்"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1486)
 msgid "&Set upstream/track remote branch"
-msgstr ""
+msgstr "&செட் அப்ஸ்ட்ரீம்/டிராக் தொலைநிலை கிளை"
 
 #. Resource IDs: (IDS_MENUSETTINGS)
 msgid "&Settings"
-msgstr ""
+msgstr "&அமைப்புகள்"
 
 #. Resource IDs: (ID_FILE_SETTINGS - Menu)
 msgid "&Settings..."
-msgstr ""
+msgstr "&அமைப்புகள்..."
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "&Signing key ID:"
-msgstr ""
+msgstr "&கையொப்பமிடும் விசை ஐடி:"
 
 #. Resource IDs: (IDS_SKIPBUTTON)
 msgid "&Skip"
-msgstr ""
+msgstr "&தவிர்"
 
 #. Resource IDs: (Dialog IDD_RESET: Control id 1550)
 msgid "&Soft: Leave working tree and index untouched"
-msgstr "பணிபுரியும் மரம்"
+msgstr "&மென்மை: பணிபுரியும் மரத்தையும் குறியீட்டையும் தொடாமல் விடுங்கள்"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1524, Dialog IDD_PULLFETCH:
 #. Control id 1524)
 msgid "&Squash"
-msgstr ""
+msgstr "&ஸ்குவாஷ்"
 
 #. Resource IDs: (IDS_PROC_REBASE_SELECTALL_SQUASH)
 msgid "&Squash ALL"
-msgstr ""
+msgstr "&ஸ்குவாஷ் அனைத்தும்"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Staging"
-msgstr ""
+msgstr "&நிலைப்படுத்துதல்"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1616)
 msgid "&Start"
-msgstr ""
+msgstr "&தொடங்கு"
 
 #. Resource IDs: (IDS_STASHBUTTON)
 msgid "&Stash"
@@ -1261,15 +1261,15 @@ msgstr "பதுக்கிவை"
 
 #. Resource IDs: (ID_VIEW_STATUS_BAR - Menu)
 msgid "&Status Bar"
-msgstr ""
+msgstr "&நிலைப் பட்டி"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1849)
 msgid "&Store credentials..."
-msgstr ""
+msgstr "நற்சான்றிதழ்களை&சேமிக்கவும்..."
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
-msgstr "மாறு"
+msgstr "&புதிய கிளைக்கு மாறு"
 
 #. Resource IDs: (IDS_SWITCH_BRANCH)
 msgid "&Switch/Checkout to"
@@ -1277,38 +1277,38 @@ msgstr "&மாறு/சரிபார்ப்பு இதற்கு"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1173)
 msgid "&Symbol View"
-msgstr ""
+msgstr "&சின்னக் காட்சி"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "&Tab size:"
-msgstr ""
+msgstr "&தாவல் அளவு:"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1513, Dialog IDD_GITSWITCH:
 #. Control id 1513, Dialog IDD_MERGE: Control id 1513, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1513, Dialog IDD_RESET: Control id 1513,
 #. Dialog IDD_WORKTREE_CREATE: Control id 1513)
 msgid "&Tag"
-msgstr ""
+msgstr "&குறிச்சொல்"
 
 #. Resource IDs: (IDS_VIEW_SHOWTAGLABELS)
 msgid "&Tags"
-msgstr ""
+msgstr "&குறிச்சொற்கள்"
 
 #. Resource IDs: (Dialog IDD_DELETEREMOTETAG: Control id 65535)
 msgid "&Tags:"
-msgstr ""
+msgstr "&குறிச்சொற்கள்:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1222)
 msgid "&Timeout in seconds to stop the auto-completion parsing"
-msgstr ""
+msgstr "தானியங்கி நிறைவு பாகுபடுத்தலை நிறுத்த நொடிகளில்&நேரமுடிவு"
 
 #. Resource IDs: (ID_VIEW_TOOLBAR - Menu)
 msgid "&Toolbar"
-msgstr "&டூல்பார்"
+msgstr "&கருவிப்பட்டி"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Toolbars and Docking Windows"
-msgstr ""
+msgstr "&கருவிப்பட்டிகள் மற்றும் Docking Windows"
 
 #. Resource IDs: (IDS_MENUSUBMENU)
 msgid "&TortoiseGit"
@@ -1317,15 +1317,15 @@ msgstr "&ஆமைகிட்"
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1091, Dialog
 #. IDD_SETTINGSPROGSMERGE: Control id 1094)
 msgid "&TortoiseGitMerge"
-msgstr "&TortoiseGitMerge"
+msgstr "&ஆமைகிட்GitMerge"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1605)
 msgid "&Trunk:"
-msgstr "&Trunk:"
+msgstr "&தண்டு:"
 
 #. Resource IDs: (IDS_MSGBOX_TRYAGAIN)
 msgid "&Try Again"
-msgstr ""
+msgstr "&மீண்டும் முயற்சிக்கவும்"
 
 #. Resource IDs: (AFX_IDS_TWOPAGE)
 msgid "&Two Page"
@@ -1338,27 +1338,27 @@ msgstr "&ஒருங்கிணைந்த வள இருப்பிடம
 
 #. Resource IDs: (IDS_SCIEDIT_UNDO, ID_EDIT_UNDO - Menu)
 msgid "&Undo"
-msgstr "&தளர்த்து"
+msgstr "&செயல்தவிர்"
 
 #. Resource IDs: (IDS_REVGRAPH_POPUP_UNIDIFFREVS, ID_VIEW_UNIFIEDDIFF - Menu)
 msgid "&Unified diff"
-msgstr "வேறுபாடு"
+msgstr "&ஒருங்கிணைந்த வேறுபாடு"
 
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF_PARENT)
 msgid "&Unified diff with"
-msgstr "வேறுபாடு"
+msgstr "&ஒருங்கிணைந்த வேறுபாடு இதனுடன்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1061)
 msgid "&Unknown drives"
-msgstr ""
+msgstr "&தெரியாத இயக்கிகள்"
 
 #. Resource IDs: (Dialog IDD_LFS_LOCKS: Control id 32927)
 msgid "&Unlock"
-msgstr ""
+msgstr "&திறத்தல்"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Unstaging"
-msgstr ""
+msgstr "&அன்ஸ்டேஜிங்"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
@@ -1366,15 +1366,15 @@ msgstr "&மேல்"
 
 #. Resource IDs: (IDS_LOG_POPUP_UPDATE)
 msgid "&Update item to revision"
-msgstr ""
+msgstr "&உருப்படியை மீள்பார்வைக்கு புதுப்பிக்கவும்"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 4567)
 msgid "&Upstream:"
-msgstr ""
+msgstr "&அப்ஸ்ட்ரீம்:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1184)
 msgid "&Use auto-completion of file paths and keywords"
-msgstr ""
+msgstr "&கோப்பு பாதைகள் மற்றும் முக்கிய வார்த்தைகளை தானாக நிறைவு செய்வதை பயன்படுத்தவும்"
 
 #. Resource IDs: (Dialog IDD_PROMPT: Control id 1005, Dialog
 #. IDD_SETTINGSPROXY: Control id 1410, Dialog IDD_SIMPLEPROMPT: Control id
@@ -1388,24 +1388,24 @@ msgstr "&நோக்கு"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
 msgid "&View effective config"
-msgstr ""
+msgstr "&பார்வை பயனுள்ள கட்டமைப்பை"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
-msgstr ""
+msgstr "கமிட் ஆன் சைன்ட்-ஆஃப்-பை மிஸ்ஸிங் குறித்து எச்சரிக்கவும்"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1203, Dialog
 #. IDD_SUBMODULE_UPDATE: Control id 1203)
 msgid "&Whole Project"
-msgstr ""
+msgstr "&முழு திட்டம்"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 1066)
 msgid "&Whole word"
-msgstr ""
+msgstr "&முழு வார்த்தை"
 
 #. Resource IDs: (ID_VIEW_DETECT_MOVED_OR_COPIED_LINES_WITHIN_FILE - Menu)
 msgid "&Within file"
-msgstr ""
+msgstr "&கோப்புக்குள்"
 
 #. Resource IDs: (IDS_MSGBOX_YES)
 msgid "&Yes"
@@ -1413,15 +1413,15 @@ msgstr "&ஆம்"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 1682)
 msgid "&add \"cherry picked from\""
-msgstr ""
+msgstr "&சேர் \"செர்ரி தேர்ந்தெடுக்கப்பட்டது\""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "&force"
-msgstr ""
+msgstr "&கட்டாயப்படுத்து"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
-msgstr ""
+msgstr "&இட மாற்றத்தை புறக்கணி"
 
 #. Resource IDs: (IDS_TORTOISEGITDEFAULT)
 msgid "(TortoiseGit default)"
@@ -1430,19 +1430,19 @@ msgstr "(ஆமைகிட் இயல்பான)"
 #. Resource IDs: (IDS_STATUSLIST_FROM)
 #, c-format
 msgid "(from %s)"
-msgstr ""
+msgstr "(%s இலிருந்து)"
 
 #. Resource IDs: (IDS_STATUSLIST_UNASSIGNED_CHANGESET)
 msgid "(no changelist)"
-msgstr ""
+msgstr "(மாற்றப்பட்டியல் இல்லை)"
 
 #. Resource IDs: (IDS_EMPTYLINETT)
 msgid "(no line number)"
-msgstr ""
+msgstr "(வரி எண் இல்லை)"
 
 #. Resource IDs: (IDS_STATUSLIST_NOPROPVALUE)
 msgid "(no value)"
-msgstr ""
+msgstr "(மதிப்பு இல்லை)"
 
 #. Resource IDs: (IDS_NOTFOUNDVIEWTITLEINDICATOR)
 msgid "(not found)"
@@ -1450,7 +1450,7 @@ msgstr "(கிடைக்கவில்லை)"
 
 #. Resource IDs: (IDS_STATGRAPH_EMPTYAUTHOR)
 msgid "(unknown)"
-msgstr ""
+msgstr "(தெரியாத)"
 
 #. Resource IDs: (IDS_STATUSBAR_ADDEDLINES)
 #, c-format
@@ -1464,11 +1464,11 @@ msgstr "- %d"
 
 #. Resource IDs: (IDS_PROC_PUSHFETCH_ALLREMOTES)
 msgid "- all -"
-msgstr ""
+msgstr "- அனைத்தும் -"
 
 #. Resource IDs: (Dialog IDD_STASH: Control id 1131)
 msgid "--&all"
-msgstr "--&all"
+msgstr "-&அனைத்தும்"
 
 #. Resource IDs: (Dialog IDD_BISECTSTART: Control id 1383, Dialog
 #. IDD_BISECTSTART: Control id 1672, Dialog IDD_CLONE: Control id 1384, Dialog
@@ -1500,27 +1500,27 @@ msgstr "..."
 
 #. Resource IDs: (IDS_CONFIG_LOCAL_TT)
 msgid ".git/config in the repository root"
-msgstr ""
+msgstr "ரெபோசிட்டரி ரூட்டில் .கிட்/config"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1691)
 msgid ".git/info/exclude"
-msgstr ".git/info/exclude"
+msgstr ".கிட்/info/exclude"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1690)
 msgid ".gitignore in the containing directories of the items"
-msgstr ""
+msgstr "பொருட்களின் கோப்பகங்களில்.gitignore"
 
 #. Resource IDs: (Dialog IDD_IGNORE: Control id 1689)
 msgid ".gitignore in the repository root"
-msgstr ""
+msgstr "ரெபோசிட்டரி ரூட்டில் gitignore"
 
 #. Resource IDs: (IDS_CONFIG_PROJECT_TT)
 msgid ".tgitconfig in the repository root"
-msgstr ""
+msgstr ".tgitconfig களஞ்சிய மூலத்தில்"
 
 #. Resource IDs: (Dialog IDD_FINDBAR: Control id 1020)
 msgid "< &Previous"
-msgstr ""
+msgstr "< &முந்தையது"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535, Dialog
 #. IDD_SETTINGSBUGTRAQ_CONFIG: Control id 65535, Dialog IDD_SETTINGSDIALOGS3:
@@ -1530,19 +1530,19 @@ msgstr "<<"
 
 #. Resource IDs: (IDS_PROC_LOG_ALLBRANCHES)
 msgid "<All Branches>"
-msgstr "<All Branches>"
+msgstr "<அனைத்து கிளைகளும்>"
 
 #. Resource IDs: (IDS_PROC_AUTOGENERATEDBYGIT)
 msgid "<Auto Generated by Git>"
-msgstr "<Auto Generated by Git>"
+msgstr "<கிட் மூலம் தானாக உருவாக்கப்பட்டது>"
 
 #. Resource IDs: (IDS_PROC_LOG_BASIC_REFS)
 msgid "<Basic Refs>"
-msgstr "<Basic Refs>"
+msgstr "<அடிப்படை குறிப்புகள்>"
 
 #. Resource IDs: (IDS_PROC_LOG_LOCAL_BRANCHES)
 msgid "<Local Branches>"
-msgstr "<Local Branches>"
+msgstr "<உள்ளூர் கிளைகள்>"
 
 #. Resource IDs: (IDS_PROC_LOG_NOBRANCH)
 msgid "<No branch>"
@@ -1564,7 +1564,7 @@ msgstr "?"
 msgid ""
 "A branch with the same name as your entered tag name already exists (so the short ref is ambiguous).\n"
 "This can cause problems so you should avoid it."
-msgstr "உங்கள் உள்ளிட்ட டேக் பெயரின் அதே பெயரில் ஒரு கிளை ஏற்கனவே உள்ளது (எனவே குறுகிய குறிப்பு தெளிவற்றதாக உள்ளது).\nஇது சிக்கல்களை ஏற்படுத்தும், எனவே நீங்கள் அதைத் தவிர்க்க வேண்டும்."
+msgstr "உங்கள் உள்ளிட்ட குறிச்சொல் பெயரின் அதே பெயரில் ஒரு கிளை ஏற்கனவே உள்ளது (எனவே குறுகிய குறிப்பு தெளிவற்றதாக உள்ளது).\nஇது சிக்கல்களை ஏற்படுத்தும், எனவே நீங்கள் அதைத் தவிர்க்க வேண்டும்."
 
 #. Resource IDs: (IDS_B_EXISTS)
 msgid "A branch with this name already exists."
@@ -1723,7 +1723,7 @@ msgstr "அகராதியில் '%s' ஐ சேர்"
 
 #. Resource IDs: (Dialog IDD_ADD_REMOTE: Control id 323)
 msgid "Add Remote"
-msgstr "ரிமோட்டைச் சேர்"
+msgstr "தொலைநிலையைச் சேர்"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1482)
 msgid "Add \"&Signed-off-by\""
@@ -1883,7 +1883,7 @@ msgstr "மாற்று எடிட்டர்"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1482)
 msgid "Always push to the selected remote archive for this local branch"
-msgstr "எப்போதும் இந்த உள்ளூர் கிளைக்காக தேர்ந்தெடுக்கப்பட்ட ரிமோட் காப்பகத்திற்கு தள்ளவும்"
+msgstr "எப்போதும் இந்த உள்ளூர் கிளைக்காக தேர்ந்தெடுக்கப்பட்ட தொலைநிலை காப்பகத்திற்கு தள்ளவும்"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1485)
 msgid "Always push to the selected remote branch for this local branch"
@@ -1991,7 +1991,7 @@ msgstr "ஒருங்கிணைந்த வேறுபாட்டைப�
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK2)
 msgid "Approve or reject client-side hook script"
-msgstr "வாடிக்கையாளர் பக்க ஹூக் ஸ்கிரிப்டை அங்கீகரிக்கவும் அல்லது நிராகரிக்கவும்"
+msgstr "வாடிக்கையாளர் பக்க கொக்கி ஸ்கிரிப்டை அங்கீகரிக்கவும் அல்லது நிராகரிக்கவும்"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Arabic"
@@ -3179,7 +3179,7 @@ msgstr "வடிப்பான் ரீஜெக்ஸ்களை உள்�
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 236)
 msgid "Configure Hook Scripts"
-msgstr "ஹூக் ஸ்கிரிப்ட்களை உள்ளமைக்கவும்"
+msgstr "கொக்கி கையெழுத்துப்படிவங்களை உள்ளமைக்கவும்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQADV: Control id 284)
 msgid "Configure Issue Tracker Integration"
@@ -3740,7 +3740,7 @@ msgstr "%d குறிச்சொற்களை நீக்கு"
 
 #. Resource IDs: (IDS_PROC_DELETEREMOTEBRANCH_LOCAL)
 msgid "Delete &local remote-tracking branch"
-msgstr "&உள்ளூர் ரிமோட் டிராக்கிங் கிளையை நீக்கவும்"
+msgstr "&உள்ளூர் தொலைநிலை டிராக்கிங் கிளையை நீக்கவும்"
 
 #. Resource IDs: (IDS_REFLOG_DEL)
 msgid "Delete Ref..."
@@ -3807,7 +3807,7 @@ msgstr "குறியை நீக்கு"
 
 #. Resource IDs: (IDS_DELETE_REMOTETAG)
 msgid "Delete tag on remote"
-msgstr "ரிமோட்டில் குறியை நீக்கு"
+msgstr "தொலைநிலையில் குறியை நீக்கு"
 
 #. Resource IDs: (IDS_B_DELETEORDIFFERENTNAME)
 msgid "Delete the existing branch or use a different name."
@@ -4224,7 +4224,7 @@ msgstr "தேர்ந்தெடுக்கப்பட்ட கோப்�
 
 #. Resource IDs: (IDS_SETTINGS_FETCH_ADDEDREMOTE)
 msgid "Do you want to fetch remote branches from the newly added remote?"
-msgstr "புதிதாக சேர்க்கப்பட்ட ரிமோட்டில் இருந்து ரிமோட் கிளைகளை எடுக்க விரும்புகிறீர்களா?"
+msgstr "புதிதாக சேர்க்கப்பட்ட தொலைநிலையில் இருந்து தொலைநிலை கிளைகளை எடுக்க விரும்புகிறீர்களா?"
 
 #. Resource IDs: (IDS_WARNMODIFIEDOUTSIDE_TASK2)
 msgid "Do you want to load the changed files?"
@@ -4309,7 +4309,7 @@ msgstr "மொழிப் பொதிகளைப் பதிவிறக்�
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1073)
 msgid "Draw tag/branch labels on right side"
-msgstr "வலது பக்கத்தில் டேக்/கிளை லேபிள்களை வரையவும்"
+msgstr "வலது பக்கத்தில் குறிச்சொல்/கிளை லேபிள்களை வரையவும்"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1079)
 msgid "Drive Types"
@@ -4888,7 +4888,7 @@ msgstr "அனைத்து குறிப்புகளையும் ப�
 
 #. Resource IDs: (IDS_MENUDESCFETCH)
 msgid "Fetch commits from a remote repository."
-msgstr "ரிமோட் ரிபோசிட்டரியில் இருந்து உறுதிமொழிகளை பெறவும்."
+msgstr "தொலைநிலை ரிபோசிட்டரியில் இருந்து உறுதிமொழிகளை பெறவும்."
 
 #. Resource IDs: (IDS_MENUDESCSVNFETCH)
 msgid "Fetch from SVN repository"
@@ -5191,7 +5191,7 @@ msgid ""
 "Force push only if the remote reference points to the same commit as the remote tracking branch.\n"
 "This can cause the remote repository to lose commits; use it with care.\n"
 "This option corresponds to the --force-with-lease git option."
-msgstr "உறுதிமொழிகள்ரிமோட் ரெஃபரன்ஸ் ரிமோட் டிராக்கிங் கிளையின் அதே உறுதிப்பாட்டை சுட்டிக்காட்டினால் மட்டும் கட்டாயப்படுத்தவும்.\nஇது ரிமோட் ரெபோசிட்டரி கமிட்களை இழக்கச் செய்யலாம்; கவனமாகப் பயன்படுத்தவும்.\nஇந்த விருப்பம் --force-with-lease கிட் விருப்பத்திற்கு ஒத்திருக்கிறது."
+msgstr "உறுதிமொழிகள்தொலைநிலை ரெஃபரன்ஸ் தொலைநிலை டிராக்கிங் கிளையின் அதே உறுதிப்பாட்டை சுட்டிக்காட்டினால் மட்டும் கட்டாயப்படுத்தவும்.\nஇது தொலைநிலை ரெபோசிட்டரி கமிட்களை இழக்கச் செய்யலாம்; கவனமாகப் பயன்படுத்தவும்.\nஇந்த விருப்பம் --force-with-lease கிட் விருப்பத்திற்கு ஒத்திருக்கிறது."
 
 #. Resource IDs: (IDS_FORCE_TT)
 msgid ""
@@ -5417,7 +5417,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROCS_TITLE_GITREMOTESETTINGS)
 msgid "Git Remote Settings"
-msgstr "கிட் ரிமோட் அமைப்புகள்"
+msgstr "கிட் தொலைநிலை அமைப்புகள்"
 
 #. Resource IDs: (IDS_OUTPUT_WND)
 msgid "Git Revision List"
@@ -5658,19 +5658,19 @@ msgstr "உதவிகுறிப்பு: சூழல் மெனுவை
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKS: Control id 103)
 msgid "Hook Scripts"
-msgstr "ஹூக் ஸ்கிரிப்ட்கள்"
+msgstr "கொக்கி கையெழுத்துப்படிவங்கள்"
 
 #. Resource IDs: (IDS_SETTINGS_HOOKS_TYPECOL)
 msgid "Hook Type"
-msgstr "ஹூக் வகை"
+msgstr "கொக்கி வகை"
 
 #. Resource IDs: (Dialog IDD_SETTINGSHOOKCONFIG: Control id 1334)
 msgid "Hook Type:"
-msgstr "ஹூக் வகை:"
+msgstr "கொக்கி வகை:"
 
 #. Resource IDs: (IDS_HOOKFAILED_TASK2)
 msgid "Hook script failed"
-msgstr "ஹூக் ஸ்கிரிப்ட் தோல்வியடைந்தது"
+msgstr "கொக்கி கையெழுத்துப்படிவம் தோல்வியடைந்தது"
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
@@ -6687,7 +6687,7 @@ msgstr "நிர்வகி"
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 1382,
 #. IDS_PROC_BROWSEREFS_MANAGEREMOTES)
 msgid "Manage Remotes"
-msgstr "ரிமோட்களை நிர்வகி"
+msgstr "தொலைநிலைகளை நிர்வகி"
 
 #. Resource IDs: (IDS_MENUDESCWORKTREE)
 msgid "Manages the worktrees of a repository"
@@ -7444,7 +7444,7 @@ msgstr "எண்கள் மட்டும் (விரும்பினா
 
 #. Resource IDs: (IDS_TAGCOMPARE_ONLYREMOTE)
 msgid "Only remote"
-msgstr "ரிமோட் மட்டும்"
+msgstr "தொலைநிலை மட்டும்"
 
 #. Resource IDs: (IDS_BROWSE_REFS_ONLYUNMERGED)
 msgid "Only unmerged (to HEAD)"
@@ -7793,13 +7793,13 @@ msgstr "பை வரைபடம்"
 
 #. Resource IDs: (IDS_ERR_NOHOOKCOMMANDPECIFIED)
 msgid "Please enter a hook script to execute."
-msgstr "செயல்படுத்த ஒரு ஹூக் ஸ்கிரிப்டை உள்ளிடவும்."
+msgstr "செயல்படுத்த ஒரு கொக்கி ஸ்கிரிப்டை உள்ளிடவும்."
 
 #. Resource IDs: (IDS_ERR_NOHOOKPATHSPECIFIED)
 msgid ""
 "Please enter a path where to apply the hook script to. Use \"*\" for all "
 "paths."
-msgstr "ஹூக் ஸ்கிரிப்டைப் பயன்படுத்துவதற்கான பாதையை உள்ளிடவும். அனைத்திற்கும் \"*\" பயன்படுத்தவும் பாதைகள்."
+msgstr "கொக்கி ஸ்கிரிப்டைப் பயன்படுத்துவதற்கான பாதையை உள்ளிடவும். அனைத்திற்கும் \"*\" பயன்படுத்தவும் பாதைகள்."
 
 #. Resource IDs: (IDS_GITCHANGED_NEEDRESTART)
 msgid "Please restart TortoiseGit for the changes of git.exe to take effect."
@@ -8009,7 +8009,7 @@ msgstr "இழு"
 
 #. Resource IDs: (IDS_MENUDESCPULL)
 msgid "Pull (fetch and merge) commits from a remote branch."
-msgstr "ஒரு ரிமோட் கிளையில் இருந்து உறுதிமொழிகளை இழுத்தல் (பெறுதல் மற்றும் ஒன்றிணைத்தல்) செய்தல்."
+msgstr "ஒரு தொலைநிலை கிளையில் இருந்து உறுதிமொழிகளை இழுத்தல் (பெறுதல் மற்றும் ஒன்றிணைத்தல்) செய்தல்."
 
 #. Resource IDs: (IDS_PROC_SYNC_PULLWRONGBRANCH)
 msgid ""
@@ -8056,7 +8056,7 @@ msgstr "தள்ளு ஒருங்கிணைந்த வள இருப
 
 #. Resource IDs: (IDS_MENUDESCPUSH)
 msgid "Push commits to a remote repository."
-msgstr "உறுதிமொழிகளை ஒரு ரிமோட் ரிபோசிட்டரிக்கு தள்ளுகிறது."
+msgstr "உறுதிமொழிகளை ஒரு தொலைநிலை ரிபோசிட்டரிக்கு தள்ளுகிறது."
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSHNOTES)
 msgid "Push notes"
@@ -9149,7 +9149,7 @@ msgstr "தேர்ந்தெடுக்கப்பட்ட கோப்�
 
 #. Resource IDs: (IDS_SETTINGS_HOOKS_SELECTSCRIPTFILE)
 msgid "Select hook script file"
-msgstr "ஹூக் ஸ்கிரிப்ட் கோப்பை தேர்ந்தெடு"
+msgstr "கொக்கி கையெழுத்துப்படிவம் கோப்பை தேர்ந்தெடு"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1405)
 msgid "Select items automatically"
@@ -9270,12 +9270,12 @@ msgstr "ஆசிரியர் &தேதியை அமை"
 
 #. Resource IDs: (IDS_PUSHDLG_PUSHREMOTE_TT)
 msgid "Sets the remote as the \"pushremote\" for the selected local branch."
-msgstr "தேர்ந்தெடுக்கப்பட்ட உள்ளூர் கிளைக்கு ரிமோட்டை \"புஷ்ரிமோட்\" ஆக அமைக்கிறது."
+msgstr "தேர்ந்தெடுக்கப்பட்ட உள்ளூர் கிளைக்கு தொலைநிலையை \"புஷ்தொலைநிலை\" ஆக அமைக்கிறது."
 
 #. Resource IDs: (IDS_PUSHDLG_PUSHBRANCH_TT)
 msgid ""
 "Sets the remote branch as the \"pushbranch\" for the selected local branch."
-msgstr "தேர்ந்தெடுக்கப்பட்ட உள்ளூர் கிளைக்கான ரிமோட் கிளையை \"புஷ்பிராஞ்ச்\" ஆக அமைக்கிறது."
+msgstr "தேர்ந்தெடுக்கப்பட்ட உள்ளூர் கிளைக்கான தொலைநிலை கிளையை \"புஷ்பிராஞ்ச்\" ஆக அமைக்கிறது."
 
 #. Resource IDs: (IDS_SETPROPTITLE)
 msgid "Setting properties..."
@@ -9804,7 +9804,7 @@ msgstr "செர்ரி தேர்வு தொடங்கு"
 
 #. Resource IDs: (IDS_HOOKTYPE_STARTCOMMIT)
 msgid "Start Commit Hook"
-msgstr "கமிட் ஹூக்கைத் தொடங்கு"
+msgstr "கமிட் கொக்கியைத் தொடங்கு"
 
 #. Resource IDs: (IDS_PROC_REBASE_STARTREBASE, IDS_PROC_STARTREBASEBUTTON)
 msgid "Start Rebase"
@@ -10217,7 +10217,7 @@ msgstr "தாய்"
 msgid ""
 "The Remote Config was changed.\n"
 "Do you want to save now or discard changes?"
-msgstr "ரிமோட் கான்ஃபிக் மாற்றப்பட்டது.\nஇப்போது சேமிக்க வேண்டுமா அல்லது மாற்றங்களை நிராகரிக்க வேண்டுமா?"
+msgstr "தொலைநிலை கான்ஃபிக் மாற்றப்பட்டது.\nஇப்போது சேமிக்க வேண்டுமா அல்லது மாற்றங்களை நிராகரிக்க வேண்டுமா?"
 
 #. Resource IDs: (IDS_DEFAULT_NUMBER_OF_TT)
 msgid ""
@@ -10379,18 +10379,18 @@ msgstr "கோப்புறை \n%s\nஇருக்கவில்லை.\n�
 msgid ""
 "The hook script returned an error:\n"
 "%ls"
-msgstr "ஹூக் ஸ்கிரிப்ட் பிழையை அளித்தது:\n%ls"
+msgstr "கொக்கி கையெழுத்துப்படிவம் பிழையை அளித்தது:\n%ls"
 
 #. Resource IDs: (IDS_ERR_HOOKFAILED)
 #, c-format
 msgid ""
 "The hook script returned an error:\n"
 "%s"
-msgstr "ஹூக் ஸ்கிரிப்ட் பிழையை அளித்தது:\n%s"
+msgstr "கொக்கி கையெழுத்துப்படிவம் பிழையை அளித்தது:\n%s"
 
 #. Resource IDs: (IDS_ERR_HOOKNOTAPPROVED)
 msgid "The hook script was not approved to run!"
-msgstr "ஹூக் ஸ்கிரிப்ட் இயக்க அனுமதிக்கப்படவில்லை!"
+msgstr "கொக்கி கையெழுத்துப்படிவம் இயக்க அனுமதிக்கப்படவில்லை!"
 
 #. Resource IDs: (IDS_INVALIDIMAGEINFO)
 msgid "The image can not be shown."
@@ -10507,7 +10507,7 @@ msgstr "வழக்கமான வெளிப்பாடு தவறான�
 msgid ""
 "The remote \"%s\" already exists.\n"
 "Do you want to overwrite it?"
-msgstr "ரிமோட் \"%s\" ஏற்கனவே உள்ளது.\nநீங்கள் அதை மேலெழுத விரும்புகிறீர்களா?"
+msgstr "தொலைநிலை \"%s\" ஏற்கனவே உள்ளது.\nநீங்கள் அதை மேலெழுத விரும்புகிறீர்களா?"
 
 #. Resource IDs: (IDS_REBASE_BRANCH_UNCHANGED)
 msgid ""
@@ -10641,7 +10641,7 @@ msgstr "இந்த அமைப்புகள் உங்கள் உலக
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGDELETEREMOTEBRANCHES)
 msgid "This action will remove the branches on the remote."
-msgstr "இந்த நடவடிக்கை ரிமோட்டில் உள்ள கிளைகளை அகற்றும்."
+msgstr "இந்த நடவடிக்கை தொலைநிலையில் உள்ள கிளைகளை அகற்றும்."
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_WARNINGUNMERGED)
 msgid "This branch is not fully merged into HEAD."
@@ -10708,7 +10708,7 @@ msgstr "இந்த நிரலுக்கு %Ts கோப்பு தே�
 msgid ""
 "This remote name collides with fetch refspec of other remotes\n"
 "Please use another name"
-msgstr "இந்த ரிமோட் பெயர் மற்ற ரிமோட்களின் ஃபெட்ச் ரெஸ்பெக் உடன் மோதுகிறது\nவேறு பெயரைப் பயன்படுத்தவும்"
+msgstr "இந்த தொலைநிலை பெயர் மற்ற தொலைநிலைகளின் ஃபெட்ச் ரெஸ்பெக் உடன் மோதுகிறது\nவேறு பெயரைப் பயன்படுத்தவும்"
 
 #. Resource IDs: (IDS_PROC_NOCLEAN)
 msgid "This task requires a clean working tree."
@@ -10720,7 +10720,7 @@ msgid ""
 "This working copy has a client-side hook script configured. Do you want this script to run?\n"
 "The command line to run is:\n"
 "%ls"
-msgstr "இந்த வேலை நகலில் வாடிக்கையாளர் பக்க ஹூக் ஸ்கிரிப்ட் உள்ளமைக்கப்பட்டுள்ளது. இந்த ஸ்கிரிப்ட் இயங்க வேண்டுமா?\nஇயக்க வேண்டிய கட்டளை வரி:\n%ls"
+msgstr "இந்த வேலை நகலில் வாடிக்கையாளர் பக்க கொக்கி கையெழுத்துப்படிவம் உள்ளமைக்கப்பட்டுள்ளது. இந்த கையெழுத்துப்படிவம் இயங்க வேண்டுமா?\nஇயக்க வேண்டிய கட்டளை வரி:\n%ls"
 
 #. Resource IDs: (IDS_TREE_DIFF)
 msgid "Three way diff"
@@ -10735,7 +10735,7 @@ msgid ""
 "To avoid fetching wrong tags, if this is not an official remote,\n"
 "you are advised to disable tag fetching for this remote.\n"
 "Disable tag fetching?"
-msgstr "தவறான குறிச்சொற்களைப் பெறுவதைத் தவிர்க்க, இது அதிகாரப்பூர்வ ரிமோட் இல்லையென்றால்,\nஇந்த ரிமோட்டுக்கான டேக் எடுப்பதை முடக்குமாறு உங்களுக்கு அறிவுறுத்தப்படுகிறது.\nடேக் எடுப்பதை முடக்கவா?"
+msgstr "தவறான குறிச்சொற்களைப் பெறுவதைத் தவிர்க்க, இது அதிகாரப்பூர்வ தொலைநிலை இல்லையென்றால்,\nஇந்த தொலைநிலைக்கான குறிச்சொல் எடுப்பதை முடக்குமாறு உங்களுக்கு அறிவுறுத்தப்படுகிறது.\nகுறிச்சொல் எடுப்பதை முடக்கவா?"
 
 #. Resource IDs: (IDS_PROC_WARNCLEARTEMP)
 msgid ""
@@ -10743,7 +10743,7 @@ msgid ""
 "\n"
 "If you wish to completely clear Gravatar images,\n"
 "you may also need to clear Internet Explorer Temporary Internet Files."
-msgstr "தற்காலிக கோப்புகளை அழிக்க, வேறு எந்த ஆமைகிட் பயன்பாடுகளும் இயங்கவில்லை என்பதை உறுதிசெய்ய வேண்டும்.\n\nநீங்கள் Gravatar படங்களை முழுமையாக அழிக்க விரும்பினால்,\nநீங்கள் இன்டர்நெட் எக்ஸ்புளோரர் தற்காலிக இணையக் கோப்புகளையும் அழிக்க வேண்டும்."
+msgstr "தற்காலிக கோப்புகளை அழிக்க, வேறு எந்த ஆமைகிட் பயன்பாடுகளும் இயங்கவில்லை என்பதை உறுதிசெய்ய வேண்டும்.\n\nநீங்கள் உலகளவில் அங்கீகரிக்கப்பட்ட சின்னங்களை முழுமையாக அழிக்க விரும்பினால்,\nநீங்கள் இணையதளம் ஆய்வுப்பணி தற்காலிக இணையக் கோப்புகளையும் அழிக்க வேண்டும்."
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 65535, Dialog
 #. IDD_LOGMESSAGE: Control id 1201, Dialog IDD_REVGRAPHFILTER: Control id
