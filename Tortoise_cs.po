@@ -4,7 +4,7 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Aleš Fiala <f.ales1@seznam.cz>, 2022
+# Aleš Fiala <f.ales1@seznam.cz>, 2022-2023
 # Jiří Engelthaler <engycz@gmail.com>, 2015-2016
 # Jiri Sedlak <jiri_sedlak@users.sourceforge.net>, 2017
 # Lübbe  <luebbe.tortoisesvn@gmail.com>, 2011
@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: Aleš Fiala <f.ales1@seznam.cz>, 2022\n"
+"Last-Translator: Aleš Fiala <f.ales1@seznam.cz>, 2022-2023\n"
 "Language-Team: Czech (http://www.transifex.com/lznuaa/tortoisegit/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -440,7 +440,7 @@ msgstr "&Zrušit"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1858)
 msgid "&Checkout"
-msgstr ""
+msgstr "&Získat"
 
 #. Resource IDs: (IDS_MENUCLEANUP)
 msgid "&Clean up..."
@@ -550,7 +550,7 @@ msgstr "&Smazat větev/značku"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1857)
 msgid "&Detach"
-msgstr ""
+msgstr "&Odpojit"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -892,7 +892,7 @@ msgstr "&Místní:"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1515)
 msgid "&Location"
-msgstr ""
+msgstr "&Umístění"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "&Max line length for inline diffs"
@@ -1066,7 +1066,7 @@ msgstr "&Přesto pokračovat\nIgnorovat hákový skript a přesto spustit přík
 
 #. Resource IDs: (Dialog IDD_WORKTREE_LIST: Control id 1383)
 msgid "&Prune"
-msgstr ""
+msgstr "&Ořezat"
 
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
@@ -1263,7 +1263,7 @@ msgstr "&Lišta stavu"
 
 #. Resource IDs: (Dialog IDD_SETTINGSMTP: Control id 1849)
 msgid "&Store credentials..."
-msgstr ""
+msgstr "&Uložit přihlašovací údaje..."
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1525)
 msgid "&Switch to new branch"
@@ -1271,7 +1271,7 @@ msgstr "&Přejít na novou větev"
 
 #. Resource IDs: (IDS_SWITCH_BRANCH)
 msgid "&Switch/Checkout to"
-msgstr ""
+msgstr "&Přejít/Získat na"
 
 #. Resource IDs: (Dialog IDD_SETOVERLAYICONS: Control id 1173)
 msgid "&Symbol View"
@@ -1352,11 +1352,11 @@ msgstr "&Neznámé disky"
 
 #. Resource IDs: (Dialog IDD_LFS_LOCKS: Control id 32927)
 msgid "&Unlock"
-msgstr ""
+msgstr "&Odemknout"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Unstaging"
-msgstr ""
+msgstr "&Odinscenovat"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
@@ -1386,7 +1386,7 @@ msgstr "&Zobrazení"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 1851)
 msgid "&View effective config"
-msgstr ""
+msgstr "&Zobrazit efektivní konfiguraci"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Warn on missing Signed-Off-By on commit"
@@ -1415,7 +1415,7 @@ msgstr "&Přidat \"cherry picked from\""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1480)
 msgid "&force"
-msgstr ""
+msgstr "&vynutit"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1657)
 msgid "&ignore space change"
@@ -1583,7 +1583,7 @@ msgid ""
 "A newline separated list of paths for which icon overlays are shown.\n"
 "If you add an '?' char at the end of a path, then only this path will be included.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are included too."
-msgstr ""
+msgstr "Seznam cest, oddělených novým řádkem, ve kterých jsou zobrazeny překryvy ikon.\nPokud na konci cesty přidáte znak '?', pak jsou také zahrnuty všechny soubory a podadresáře v této cestě.\nPokud na konci cesty přidáte znak '*' nebo žádný znak, pak budou zahrnuty i všechny soubory a podadresáře v této cestě."
 
 #. Resource IDs: (IDS_SETTINGS_EXCLUDECONTEXTLIST_TT)
 msgid ""
@@ -1598,7 +1598,7 @@ msgid ""
 "If you add an '?' char at the end of a path, then only this path will be excluded.\n"
 "If you add an '*' or no char at all at the end of a path, then all files and subdirs inside that path are excluded too.\n"
 "An empty list will allow overlays on all paths."
-msgstr ""
+msgstr "Seznam cest, oddělených novým řádkem, ve kterých nejsou zobrazeny překryvy ikon.\nPokud na konci cesty přidáte znak '?', pak jsou také vynechány všechny soubory a podadresáře v této cestě.\nPokud na konci cesty přidáte znak '*' nebo žádný znak, pak budou vynechány i všechny soubory a podadresáře v této cestě.\nPrázdný seznam umožňuje zobrazovat překryvy ve všech cestách."
 
 #. Resource IDs: (AFX_IDS_RESOURCE_EXCEPTION)
 msgid "A required resource was unavailable."
@@ -1659,7 +1659,7 @@ msgstr "Přerušit běžící sloučení."
 
 #. Resource IDs: (cmdAbout_LabelTitle_RESID)
 msgid "Abou&t TortoiseGitMerge"
-msgstr ""
+msgstr "O& TortoiseGitMerge"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 129)
 msgid "About TortoiseGit"
@@ -1671,7 +1671,7 @@ msgstr "O TortoiseGitBlame"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 136)
 msgid "About TortoiseGitMerge"
-msgstr "O TortoiseGotMerge"
+msgstr "O TortoiseGitMerge"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 1)
 msgid "Accept certificate"
@@ -1733,11 +1733,11 @@ msgstr "Přidat další odevzdání?"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_EXE)
 msgid "Add as Executable (+x)"
-msgstr ""
+msgstr "Přidat jako spustitelný (+x)"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_ADD_LINK)
 msgid "Add as Symlink"
-msgstr ""
+msgstr "Přidat jako symbolický odkaz"
 
 #. Resource IDs: (IDS_DLGTITLE_ADD_DIFF_TOOL)
 msgid "Add extension specific diff program"
@@ -1877,7 +1877,7 @@ msgstr "Již je aktuální."
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 333)
 msgid "Alternative editor"
-msgstr ""
+msgstr "Alternativní editor"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1482)
 msgid "Always push to the selected remote archive for this local branch"
@@ -4260,7 +4260,7 @@ msgstr "Dokument:"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
 msgid "Don't ask me &again"
-msgstr ""
+msgstr "Již se mě &neptat"
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSH_UNKNOWNBRANCH)
 #, c-format
@@ -11448,7 +11448,7 @@ msgid ""
 "Use this to modify/replace the latest checked out commit with a new commit. "
 "The message from the original commit is used as the starting point. "
 "Attention: This modifies the Git history."
-msgstr ""
+msgstr "Použijte toto k úpravě/nahrazení posledního odevzdaného odevzdání novým odevzdáním. Jako výchozí bod se použije zpráva z původního odevzdání. Upozornění: Toto upraví historii Git."
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEOTHERFILE)
 msgid "Use whole other &file"
