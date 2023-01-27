@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2022 the TortoiseGit team
+# Copyright (C) 2008-2023 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -59,7 +59,7 @@
 # 4a14a73d523224463300dea5e0502458_3dab472, 2012
 # Stéphane Aulery <saulery@legtux.org>, 2016-2020
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2014,2021
-# ykatchou <ykatchou@gmail.com>, 2012-2013
+# cd745cd4f81f65f162b839eb6db444ef_3d7aa9f <59d011ccb8be1358eda753c01d748aa7_29593>, 2012-2013
 # d25d9e2161b89af316b61f449106a075_fbd05c9 <8465a6d6bba4183be55c93639397a626_353654>, 2015
 # d25d9e2161b89af316b61f449106a075_fbd05c9 <8465a6d6bba4183be55c93639397a626_353654>, 2015
 msgid ""
@@ -631,10 +631,6 @@ msgstr "&Rejeter"
 #. Resource IDs: (IDS_DO_SAME_FOR_REST)
 msgid "&Do the same for the rest"
 msgstr "Faire de &même pour le reste"
-
-#. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
-msgid "&Don't ask me again"
-msgstr "Ne plus &demander"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK4)
 msgid ""
@@ -4309,6 +4305,10 @@ msgstr "Voulez-vous sortir la remise?"
 #. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Document :"
 msgstr "Document :"
+
+#. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
+msgid "Don't ask me &again"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSH_UNKNOWNBRANCH)
 #, c-format
@@ -11491,13 +11491,16 @@ msgstr "Utiliser la &totalité de ce fichier"
 msgid "Use this block on left"
 msgstr "Utiliser ce bloc à gauche"
 
+#. Resource IDs: (IDS_COMMIT_AMEND_TT)
+msgid ""
+"Use this to modify/replace the latest checked out commit with a new commit. "
+"The message from the original commit is used as the starting point. "
+"Attention: This modifies the Git history."
+msgstr ""
+
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEOTHERFILE)
 msgid "Use whole other &file"
 msgstr "Utiliser l'autre &fichier entier"
-
-#. Resource IDs: (IDS_COMMIT_AMEND_TT)
-msgid "Used to amend the tip of the current branch."
-msgstr "Utilisé pour corriger la tête de la branche courante."
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "User Email:"

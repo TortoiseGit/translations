@@ -1,5 +1,5 @@
 # Translation of TortoiseGit
-# Copyright (C) 2008-2022 the TortoiseGit team
+# Copyright (C) 2008-2023 the TortoiseGit team
 # 
 # This file is distributed under the same license as TortoiseGit
 # 
@@ -29,11 +29,11 @@
 # Paulo Pires <paulo.albert.pires@gmail.com>, 2015
 # Rafael H L Moretti <rafael.moretti@gmail.com>, 2016
 # Rafael Neri <rafepel@gmail.com>, 2014
-# Ricardo Souza <rcdmk@hotmail.com>, 2012
-# Ricardo Souza <rcdmk@hotmail.com>, 2022
-# Ricardo Souza <rcdmk@hotmail.com>, 2012,2016-2018
-# Ricardo Souza <rcdmk@hotmail.com>, 2016
-# Ricardo Souza <rcdmk@hotmail.com>, 2012-2015
+# Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012
+# Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2022
+# Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012,2016-2018
+# Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2016
+# Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012-2015
 # Rodrigo Monte <rodrigo.monte86@gmail.com>, 2014
 # Samuel Facchinello (samuelfac) <samuelfac@gmail.com>, 2017
 # Samuel Facchinello (samuelfac) <samuelfac@gmail.com>, 2017
@@ -50,7 +50,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: Ricardo Souza <rcdmk@hotmail.com>, 2022\n"
+"Last-Translator: Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2022\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/lznuaa/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -613,10 +613,6 @@ msgstr "&Descartar"
 #. Resource IDs: (IDS_DO_SAME_FOR_REST)
 msgid "&Do the same for the rest"
 msgstr "&Fazer o mesmo para o resto"
-
-#. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
-msgid "&Don't ask me again"
-msgstr "&Não me pergunte novamente"
 
 #. Resource IDs: (IDS_HOOKS_APPROVE_TASK4)
 msgid ""
@@ -4291,6 +4287,10 @@ msgstr "Você quer restaurar a reserva agora?"
 #. Resource IDs: (Dialog AFX_IDD_PRINTDLG: Control id 65535)
 msgid "Document :"
 msgstr "Documento :"
+
+#. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1032)
+msgid "Don't ask me &again"
+msgstr ""
 
 #. Resource IDs: (IDS_PROC_SYNC_PUSH_UNKNOWNBRANCH)
 #, c-format
@@ -11473,13 +11473,16 @@ msgstr "Use esse arquivo &inteiro"
 msgid "Use this block on left"
 msgstr "Usar este bloco à esquerda"
 
+#. Resource IDs: (IDS_COMMIT_AMEND_TT)
+msgid ""
+"Use this to modify/replace the latest checked out commit with a new commit. "
+"The message from the original commit is used as the starting point. "
+"Attention: This modifies the Git history."
+msgstr ""
+
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEOTHERFILE)
 msgid "Use whole other &file"
 msgstr "Use o outro &arquivo inteiro"
-
-#. Resource IDs: (IDS_COMMIT_AMEND_TT)
-msgid "Used to amend the tip of the current branch."
-msgstr "Usado para corrigir a ponta do ramo atual."
 
 #. Resource IDs: (Dialog IDD_PROPPAGE: Control id 65535)
 msgid "User Email:"
