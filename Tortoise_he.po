@@ -4,7 +4,7 @@
 # This file is distributed under the same license as TortoiseGit
 # 
 # Translators:
-# Asaf Gamliel <asaph141@gmail.com>, 2020-2021
+# Asaf Gamliel <asaph141@gmail.com>, 2020-2021,2023
 # Opher Shachar <ophers@gmail.com>, 2018
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: Asaf Gamliel <asaph141@gmail.com>, 2020-2021\n"
-"Language-Team: Hebrew (http://www.transifex.com/lznuaa/tortoisegit/language/he/)\n"
+"Last-Translator: Asaf Gamliel <asaph141@gmail.com>, 2020-2021,2023\n"
+"Language-Team: Hebrew (http://app.transifex.com/lznuaa/tortoisegit/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1150,7 +1150,7 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_COMMIT_RESTOREFILES_RESTORE)
 msgid "&Restore old state"
-msgstr ""
+msgstr "&שחזר מצב קיים"
 
 #. Resource IDs: (IDS_MSGBOX_RETRY)
 msgid "&Retry"
@@ -2100,7 +2100,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSSAVEDDATA: Control id 1278)
 msgid "Authentication data"
-msgstr ""
+msgstr "נתוני אימות"
 
 #. Resource IDs: (IDS_LOG_AUTHOR, IDS_STATUSLIST_COLAUTHOR)
 msgid "Author"
@@ -2213,16 +2213,16 @@ msgstr ""
 #. Resource IDs: (Dialog IDD_RESOLVESUBMODULECONFLICT: Control id 1385,
 #. IDS_PROC_DIFF_BASE)
 msgid "Base"
-msgstr ""
+msgstr "בסיס"
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1522, Dialog
 #. IDD_WORKTREE_CREATE: Control id 1522)
 msgid "Base On"
-msgstr ""
+msgstr "התבסס על"
 
 #. Resource IDs: (Dialog IDD_OPENDLG: Control id 65535)
 msgid "Base file:"
-msgstr ""
+msgstr "קובץ בסיס:"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1005)
 msgid "Based on TortoiseIDiff of TortoiseSVN"
@@ -2587,7 +2587,7 @@ msgstr "מרכז אירופאי"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 65535)
 msgid "Certificate verification failed!"
-msgstr ""
+msgstr "בדיקת אישור האבטחה נכשלה!"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1697)
 msgid "Change log"
@@ -2763,19 +2763,19 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 4572)
 msgid "Clean"
-msgstr ""
+msgstr "מחק"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1630)
 msgid "Clean Type"
-msgstr ""
+msgstr "סוג מחיקה"
 
 #. Resource IDs: (IDS_CLEAN_NO_RECYCLEBIN)
 msgid "Clean permanently"
-msgstr ""
+msgstr "מחק"
 
 #. Resource IDs: (IDS_CLEAN_TO_RECYCLEBIN)
 msgid "Clean to recycle bin"
-msgstr ""
+msgstr "מחק לסל המחזור"
 
 #. Resource IDs: (IDS_PROC_SYNC_CLEANUPSTALEBRANCHES)
 msgid "Clean up stale remote branches"
@@ -2783,11 +2783,11 @@ msgstr ""
 
 #. Resource IDs: (IDS_PROC_CLEANUP)
 msgid "Cleaning up"
-msgstr ""
+msgstr "מוחק"
 
 #. Resource IDs: (IDS_PROC_CLEANUP_INFO1)
 msgid "Cleaning up."
-msgstr ""
+msgstr "מוחק."
 
 #. Resource IDs: (IDS_PROC_CLEANUPFINISHED_FAILED)
 #, c-format
@@ -2810,7 +2810,7 @@ msgstr ""
 #. Control id 1427, Dialog IDD_SETTINGSSAVEDDATA: Control id 1726, Dialog
 #. IDD_SETTINGSSAVEDDATA: Control id 1727)
 msgid "Clear"
-msgstr ""
+msgstr "נקה"
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_URLHIST_TT)
 #, c-format
@@ -2873,7 +2873,7 @@ msgstr "לחץ כדי לראות פקודות להעברת בלוקים של ט�
 
 #. Resource IDs: (IDS_CLIPBOARD_PROGRESS_DEST)
 msgid "Clipboard"
-msgstr ""
+msgstr "לוח"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_CLONE, IDS_PROG_CLONE)
 msgid "Clone"
@@ -2926,7 +2926,7 @@ msgstr ""
 
 #. Resource IDs: (ID_VIEW_COLLAPSED - Menu, cmdViewCollapsed_LabelTitle_RESID)
 msgid "Collapse"
-msgstr ""
+msgstr "קפל"
 
 #. Resource IDs: (IDS_LOG_POPUP_COLLAPSE)
 msgid "Collapse revisions"
@@ -3115,7 +3115,7 @@ msgstr "השווה שני קבצים"
 #. Resource IDs: (ID_VIEW_COMPAREWHITESPACES - Menu,
 #. cmdCompareWhitespaces_LabelTitle_RESID)
 msgid "Compare whitespaces"
-msgstr ""
+msgstr "השווה רווחים"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARE)
 msgid "Compare with &working tree"
@@ -3238,11 +3238,11 @@ msgstr "התנגשויות: %d"
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 195)
 msgid "Context Menu"
-msgstr ""
+msgstr "תוכן"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 4573)
 msgid "Context Menu 2"
-msgstr ""
+msgstr "תוכן 2"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "Context lines for patches"
@@ -3254,11 +3254,11 @@ msgstr "המשך"
 
 #. Resource IDs: (IDS_EDIT_SPACE2TAB)
 msgid "Convert spaces to tabs"
-msgstr ""
+msgstr "המר רווחים לטאבים"
 
 #. Resource IDs: (IDS_EDIT_TAB2SPACE)
 msgid "Convert tabs to spaces"
-msgstr ""
+msgstr "המר טאבים לרווחים"
 
 #. Resource IDs: (IDS_SCIEDIT_COPY)
 msgid "Cop&y"
@@ -5239,7 +5239,7 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_AUTOTEXTTESTDLG: Control id 65535)
 msgid "Found auto words:"
-msgstr ""
+msgstr "נמצאו מילים אוטומטיות:"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1385, Dialog IDD_MERGE:
 #. Control id 1522, Dialog IDD_SETTINGSMTP: Control id 65535)
@@ -5288,7 +5288,7 @@ msgstr "נתונים מלאים"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_FULLHISTORY)
 msgid "Full history"
-msgstr ""
+msgstr "היסטוריה מלאה"
 
 #. Resource IDs: (Dialog IDD_FIND: Control id 20086)
 msgid "Full text search"
