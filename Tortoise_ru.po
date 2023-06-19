@@ -30,7 +30,7 @@
 # 82f4f02557fd4886d250a2aa0aecb530_0f90749 <0cd40767d55b0248271195f29db18a8d_208365>, 2014
 # Sergey Kuznetsov <votkinsk@gmail.com>, 2021
 # Alexander Shchekaturov <shcham@gmail.com>, 2013
-# Stanislav Kroter <krotersv@gmail.com>, 2016-2022
+# Stanislav Kroter <krotersv@gmail.com>, 2016-2023
 # Sven Strickroth <sstrickroth@googlemail.com>, 2012-2013,2020-2021
 # Дмитрий Сытьков <sytkov@gmail.com>, 2011
 # Arioch <the_Arioch@nm.ru>, 2013
@@ -50,7 +50,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: Nikita Zimin, 2023\n"
+"Last-Translator: Stanislav Kroter <krotersv@gmail.com>, 2016-2023\n"
 "Language-Team: Russian (http://app.transifex.com/lznuaa/tortoisegit/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1277,7 +1277,7 @@ msgstr "&Объединить ВСЕ"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Staging"
-msgstr ""
+msgstr "&Индексировать"
 
 #. Resource IDs: (Dialog IDD_REQUESTPULL: Control id 1616)
 msgid "&Start"
@@ -1386,7 +1386,7 @@ msgstr "&Разблокировать"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Unstaging"
-msgstr ""
+msgstr "&Убрать из индекса"
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
 msgid "&Up"
@@ -6301,7 +6301,7 @@ msgid ""
 "Invalid selection.\n"
 "\n"
 "If this is a single-line file that has been modified, you must click the checkbox to stage or unstage the whole file."
-msgstr ""
+msgstr "Неверный выбор.\n\nЕсли был изменён файл с одной строкой, то нужно установить флажок, чтобы проиндексировать файл или убрать его из индексации."
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 4571)
 msgid "Issue Tracker Config"
