@@ -2679,8 +2679,8 @@ msgid "Changelist %s moved"
 msgstr "移動了變更列表 %s"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1242)
-msgid "Changes made (double-click on file for diff):"
-msgstr "變更（雙擊檔案可檢視差異）："
+msgid "Changes made (F5: refresh, double-click on file for diff):"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "Char position where to show a border line in commit text boxes:"
@@ -3668,6 +3668,11 @@ msgid ""
 "Current branch is up to date or newer than the fetched branch. Open rebase "
 "anyway?"
 msgstr "目前分支已經是最新的，甚至比獲取（fetch）的結果還新。\n仍然要開啟「變基」視窗？"
+
+#. Resource IDs: (Dialog IDD_MERGE: Control id 65535, Dialog IDD_RESET:
+#. Control id 65535)
+msgid "Current branch:"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
@@ -8598,11 +8603,6 @@ msgstr "重設現在分支"
 #. Resource IDs: (IDS_STATUSLIST_RESETCOLUMNORDER)
 msgid "Reset columns"
 msgstr "重設行"
-
-#. Resource IDs: (IDS_PROC_RESETBRANCH)
-#, c-format
-msgid "Reset current branch \"%s\" to"
-msgstr "重設當前分支「%s」到"
 
 #. Resource IDs: (Dialog IDD_RESOLVE: Control id 207, IDS_PROGRS_CMD_RESOLVE,
 #. IDS_PROGRS_TITLE_RESOLVE)

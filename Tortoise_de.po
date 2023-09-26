@@ -18,7 +18,7 @@
 # Obareo, 2019,2021,2023
 # peu <peu@rekoba.de>, 2013
 # Stefan Kueng <tortoisesvn@gmail.com>, 2014
-# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2022
+# Sven Strickroth <sstrickroth@googlemail.com>, 2012-2023
 # Thilo Berger <thilob.tb34@gmail.com>, 2017
 # Torsten Widmann <goover0976@googlemail.com>, 2012
 msgid ""
@@ -27,7 +27,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: Obareo, 2019,2021,2023\n"
+"Last-Translator: Sven Strickroth <sstrickroth@googlemail.com>, 2012-2023\n"
 "Language-Team: German (http://app.transifex.com/lznuaa/tortoisegit/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -557,7 +557,7 @@ msgstr "&Lösche Zweig/Markierung"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1857)
 msgid "&Detach"
-msgstr ""
+msgstr "&Detach"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&Detect moved or copied lines"
@@ -899,7 +899,7 @@ msgstr "&Lokal:"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1515)
 msgid "&Location"
-msgstr ""
+msgstr "&Zielordner"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 65535)
 msgid "&Max line length for inline diffs"
@@ -2673,8 +2673,8 @@ msgid "Changelist %s moved"
 msgstr "Änderungsliste %s verschoben"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1242)
-msgid "Changes made (double-click on file for diff):"
-msgstr "Änderungen (Doppelklick auf die Datei für Unterschiede):"
+msgid "Changes made (F5: refresh, double-click on file for diff):"
+msgstr "Änderungen (F5: aktualisieren, Doppelklick auf die Datei für Unterschiede):"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "Char position where to show a border line in commit text boxes:"
@@ -3662,6 +3662,11 @@ msgid ""
 "Current branch is up to date or newer than the fetched branch. Open rebase "
 "anyway?"
 msgstr "Der aktuelle Zweig ist aktuell oder neuer als der angeforderte Zweig. Rebase trotzdem öffnen?"
+
+#. Resource IDs: (Dialog IDD_MERGE: Control id 65535, Dialog IDD_RESET:
+#. Control id 65535)
+msgid "Current branch:"
+msgstr "Aktueller Zweig:"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
@@ -8592,11 +8597,6 @@ msgstr "Aktiven Zweig zurücksetzen"
 #. Resource IDs: (IDS_STATUSLIST_RESETCOLUMNORDER)
 msgid "Reset columns"
 msgstr "Spalten rücksetzen"
-
-#. Resource IDs: (IDS_PROC_RESETBRANCH)
-#, c-format
-msgid "Reset current branch \"%s\" to"
-msgstr "Setze aktuellen Zweig \"%s\" auf"
 
 #. Resource IDs: (Dialog IDD_RESOLVE: Control id 207, IDS_PROGRS_CMD_RESOLVE,
 #. IDS_PROGRS_TITLE_RESOLVE)

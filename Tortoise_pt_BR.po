@@ -2696,8 +2696,8 @@ msgid "Changelist %s moved"
 msgstr "Lista de alterações %s foi movida"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1242)
-msgid "Changes made (double-click on file for diff):"
-msgstr "Alterações feitas (duplo clique no arquivo para comparar):"
+msgid "Changes made (F5: refresh, double-click on file for diff):"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "Char position where to show a border line in commit text boxes:"
@@ -3685,6 +3685,11 @@ msgid ""
 "Current branch is up to date or newer than the fetched branch. Open rebase "
 "anyway?"
 msgstr "O ramo atual está atualizado ou mais novo que o ramo remoto. Abrir a reorganização mesmo assim?"
+
+#. Resource IDs: (Dialog IDD_MERGE: Control id 65535, Dialog IDD_RESET:
+#. Control id 65535)
+msgid "Current branch:"
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
@@ -8615,11 +8620,6 @@ msgstr "Redefinir ramo ativo"
 #. Resource IDs: (IDS_STATUSLIST_RESETCOLUMNORDER)
 msgid "Reset columns"
 msgstr "Reiniciar colunas"
-
-#. Resource IDs: (IDS_PROC_RESETBRANCH)
-#, c-format
-msgid "Reset current branch \"%s\" to"
-msgstr "Restaurar o ramo atual \"%s\" para"
 
 #. Resource IDs: (Dialog IDD_RESOLVE: Control id 207, IDS_PROGRS_CMD_RESOLVE,
 #. IDS_PROGRS_TITLE_RESOLVE)
