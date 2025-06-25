@@ -14,6 +14,7 @@
 # Benoit Neil <sukender@free.fr>, 2019,2021
 # Christophe SAUVEUR <christophe@xhaleera.com>, 2011-2012
 # Clément Forest <Clement.Forest@cae.com>, 2022
+# David Prudhomme <david7.prudhomme@gmail.com>, 2025
 # deathart <deathart@hotmail.fr>, 2013-2014
 # Dirk Hoffmann <Hoffmann@cppm.in2p3.fr>, 2015
 # a270031086f2a0d3514bc0cb507b48f6, 2019
@@ -69,7 +70,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: Jack, 2020,2024\n"
+"Last-Translator: David Prudhomme <david7.prudhomme@gmail.com>, 2025\n"
 "Language-Team: French (http://app.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -811,7 +812,7 @@ msgstr "&Aller à\tCtrl+G"
 
 #. Resource IDs: (IDS_SHOWFILES_GRAYPATHS)
 msgid "&Gray Unrelated Changed Paths"
-msgstr "&Griser les chemins modifiés non versionés"
+msgstr "&Griser les chemins modifiés non versionnés"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1511, Dialog
 #. IDD_NEW_BRANCH_TAG: Control id 1511, Dialog IDD_WORKTREE_CREATE: Control id
@@ -1030,7 +1031,7 @@ msgstr "&Aucun"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1661)
 msgid "&Notepad"
-msgstr ""
+msgstr "&Notepad"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
@@ -1116,7 +1117,7 @@ msgstr "Continuer quand même\nIgnorer le scri&pt d'accroche et lancer la comman
 
 #. Resource IDs: (Dialog IDD_WORKTREE_LIST: Control id 1383)
 msgid "&Prune"
-msgstr ""
+msgstr "&Elaguer"
 
 #. Resource IDs: (IDS_PROC_SYNC_PULL)
 msgid "&Pull"
@@ -1348,7 +1349,7 @@ msgstr "&Tags:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1222)
 msgid "&Timeout in seconds to stop the auto-completion parsing"
-msgstr "Délai en secondes pour arrê&ter le filtrage d'autocomplétion"
+msgstr "Délai en secondes pour arrê&ter le filtrage d'auto-complétion"
 
 #. Resource IDs: (ID_VIEW_TOOLBAR - Menu)
 msgid "&Toolbar"
@@ -1422,7 +1423,7 @@ msgstr "&Branche:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS2: Control id 1184)
 msgid "&Use auto-completion of file paths and keywords"
-msgstr "&Utiliser l'autocomplétion des chemins de fichiers et des mots-clé"
+msgstr "&Utiliser l'auto-complétion des chemins de fichiers et des mots-clés"
 
 #. Resource IDs: (Dialog IDD_PROMPT: Control id 1005, Dialog
 #. IDD_SETTINGSPROXY: Control id 1410, Dialog IDD_SIMPLEPROMPT: Control id
@@ -1664,7 +1665,7 @@ msgstr "Un tag avec ce nom existe déjà."
 msgid ""
 "A viewer program for GNU diff files (patch files).\n"
 "If you don't have one use NotePad."
-msgstr "Un programme de visualisation des fichiers des fichiers de différence GNU (ou fichier patch).\nSi vous en avez pas d'autre, utilisez le NotePad."
+msgstr "Un programme de visualisation des fichiers des fichiers de différence GNU (ou fichier patch).\nSi vous n'en avez pas d'autre, utilisez le NotePad."
 
 #. Resource IDs: (IDS_ABORTBUTTON)
 msgid "A&bort"
@@ -2190,7 +2191,7 @@ msgstr "Auteurs sensibles à la casse"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto CrLf convert"
-msgstr "Convertion automatique des fins de ligne de style Windows"
+msgstr "Conversion automatique des fins de ligne de style Windows"
 
 #. Resource IDs: (Dialog IDD_SETTINGIT_CONFIG: Control id 65535)
 msgid "Auto&CrLf:"
@@ -2520,7 +2521,7 @@ msgstr "Échec de l'appel de git.exe (code de retour: %d). Vérifiez le chemin v
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 1127)
 msgid "Can double-click in log list to compare with previous revision"
-msgstr "Peut double-cliquer dans la liste du journal pour comparer avec avec la révision précédente"
+msgstr "Peut double-cliquer dans la liste de l'historique pour comparer avec la révision précédente"
 
 #. Resource IDs: (AFX_IDP_STATIC_OBJECT)
 msgid "Can not activate a static ActiveX object."
@@ -2729,7 +2730,7 @@ msgstr "Vérifier les mises à jour - TortoiseGit"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1031)
 msgid "Check For Updates..."
-msgstr "Vérifier les mises à jours..."
+msgstr "Vérifier les mises à jour..."
 
 #. Resource IDs: (IDS_MENUSHOWCHANGED)
 msgid "Check for modi&fications"
@@ -2947,7 +2948,7 @@ msgstr "Cloner vers un dépôt nu"
 
 #. Resource IDs: (IDS_CLONE_BARE_REPO_TT)
 msgid "Clone into a git repository without the working tree."
-msgstr "Cloner dans un dépot git sans l'arborescence de travail"
+msgstr "Cloner dans un dépôt git sans l'arborescence de travail"
 
 #. Resource IDs: (IDS_MENUCLONE)
 msgid "Clone..."
@@ -2994,7 +2995,7 @@ msgstr "Replier les sections inchangées\nReplier"
 
 #. Resource IDs: (ID_VIEW_COLORBYAGE - Menu)
 msgid "Color by age, &continuous"
-msgstr "Colorer par age, de façon &continuelle"
+msgstr "Colorer par âge, de façon &continuelle"
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 138, Dialog
 #. IDD_SETTINGSTBLAME: Control id 65535, Dialog IDD_SETTINGSUDIFF: Control id
@@ -4220,7 +4221,7 @@ msgstr "Voulez-vous vraiment déplacer ce fichier ou ce répertoire?"
 msgid ""
 "Do you really want to permanently delete the %d selected refs? It can NOT be"
 " recovered!"
-msgstr "Souhaitez-vous réellement supprimer les %d références sélectionnées ? Elle ne pourront PAS être récupérées !"
+msgstr "Souhaitez-vous réellement supprimer les %d références sélectionnées ? Elles ne pourront PAS être récupérées !"
 
 #. Resource IDs: (IDS_PROC_PUSH_ALLBRANCHES)
 msgid "Do you really want to push all local branches?"
@@ -4590,7 +4591,7 @@ msgstr "Encodage\nConvertir vers l'encodage spécifié\nMaintenez la touche Ctrl
 #. Resource IDs: (AFX_IDP_FILE_HARD_IO)
 #, c-format
 msgid "Encountered a hardware I/O error while accessing %1."
-msgstr "Une erreur matériel d'entrée/sortie a été rencontrée pendant l'accès à %1."
+msgstr "Une erreur matérielle d'entrée/sortie a été rencontrée pendant l'accès à %1."
 
 #. Resource IDs: (AFX_IDP_FILE_LOCKING)
 #, c-format
@@ -5264,7 +5265,7 @@ msgstr "Forcer la commande \"pousser\" seulement si la référence distante poin
 
 #. Resource IDs: (IDS_REMOVEWITHFORCE)
 msgid "Force remove"
-msgstr ""
+msgstr "Forcer la suppression"
 
 #. Resource IDs: (IDS_REBASE_FORCE_TT)
 msgid ""
@@ -5393,7 +5394,7 @@ msgstr "GDI+ ne peut créer un objet bitmap. Vous n'avez probablement plus assez
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_SIGN_TT)
 msgid "GPG signs the tag, see manual for details"
-msgstr "GPG signe l'étiquette, voir le manual pour plus de détails"
+msgstr "GPG signe l'étiquette, voir le manuel pour plus de détails"
 
 #. Resource IDs: (IDS_SVNPROGRESS_EXPORTINGWAIT)
 msgid "Gathering information. Please wait..."
@@ -5612,7 +5613,7 @@ msgstr "Regrouper les listes de changements"
 
 #. Resource IDs: (IDS_SHOWFILES_HIDEPATHS)
 msgid "H&ide Unrelated Changed Paths"
-msgstr "&Cacher les chemins modifiés non versionés"
+msgstr "&Cacher les chemins modifiés non versionnés"
 
 #. Resource IDs: (Dialog IDD_DIFFFILES: Control id 1353, Dialog IDD_DIFFFILES:
 #. Control id 1354, Dialog IDD_REPOSITORY_BROWSER: Control id 1684)
@@ -5928,7 +5929,7 @@ msgstr "ID:57643:V C +Z"
 
 #. Accelerator Entry for Menu ID:57644; ''
 msgid "ID:57644:V C +Y"
-msgstr ""
+msgstr "ID:57644:V C +Y"
 
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
@@ -6133,7 +6134,7 @@ msgstr "Ignorer tous les espaces"
 #. Resource IDs: (ID_VIEW_IGNOREALLWHITESPACECHANGES - Menu,
 #. cmdIgnoreAllWhitespaceChanges_LabelTitle_RESID)
 msgid "Ignore all whitespace changes"
-msgstr "Ignorer toutes les modification d'espace"
+msgstr "Ignorer toutes les modifications d'espace"
 
 #. Resource IDs: (IDS_DIFFOPTION_IGNORBLANKLINES)
 msgid "Ignore blank lines"
@@ -6514,7 +6515,7 @@ msgstr "Dernière livraison"
 
 #. Resource IDs: (IDS_LASTCOMMITTER)
 msgid "Last Committer"
-msgstr ""
+msgstr "Dernier auteur"
 
 #. Resource IDs: (IDS_STATUSLIST_COLLASTMODIFIED)
 msgid "Last Modified"
@@ -7171,7 +7172,7 @@ msgstr "Pas de fichiers ou répertoires modifiés. Il n'y a pas matière à reve
 msgid ""
 "No files to show with the current setting.\n"
 "Check one or more settings below to see unversioned, ignored and/or unmodified files."
-msgstr "Aucun fichier a affiché avec les réglages actuels.\nSélectionner un ou plusieurs réglages ci-dessous pour voir les fichiers non versionés, ignorés et/ou inchangés."
+msgstr "Aucun fichier à afficher avec les réglages actuels.\nSélectionner un ou plusieurs réglages ci-dessous pour voir les fichiers non versionnés, ignorés et/ou inchangés."
 
 #. Resource IDs: (IDS_COMMITDLG_NOTHINGTOCOMMIT)
 msgid ""
@@ -7184,7 +7185,7 @@ msgid ""
 "No files were changed or added since\n"
 "the last commit.\n"
 "Do you want to see the unversioned files?"
-msgstr "Aucun fichier n'a été modifié ou ajoutés depuis\nla dernière livraison.\nVoulez-vous voir les fichiers non versionés?"
+msgstr "Aucun fichier n'a été modifié ou ajoutés depuis\nla dernière livraison.\nVoulez-vous voir les fichiers non versionnés?"
 
 #. Resource IDs: (33002)
 msgid "No filter"
@@ -8542,7 +8543,7 @@ msgstr "Retirer les répertoires non pistés (-d)"
 
 #. Resource IDs: (IDS_MENUDESCCLEANUP)
 msgid "Remove untracked files from the working tree, ..."
-msgstr "Supprimer les fichiers non versionés de l'arborescence de travail, ..."
+msgstr "Supprimer les fichiers non versionnés de l'arborescence de travail, ..."
 
 #. Resource IDs: (Dialog IDD_SETCOLORPAGE: Control id 65535)
 msgid "Removed"
@@ -10649,7 +10650,7 @@ msgid ""
 "The time in seconds after which the parsing of the selected files stops.\n"
 "A lower value will make the auto-completion list available sooner,\n"
 "but maybe not scan all files."
-msgstr "Le temps en secondes après lequel le filtrage des fichiers sélectionnés s'arrête.\nUne valeur plus basse rendra la liste d'autocomplétion disponible plus rapidement,\nmais ne parcourrera peut-être pas tous les fichiers."
+msgstr "Le temps en secondes après lequel le filtrage des fichiers sélectionnés s'arrête.\nUne valeur plus basse rendra la liste d'auto-complétion disponible plus rapidement,\nmais ne parcourra peut-être pas tous les fichiers."
 
 #. Resource IDs: (IDS_ERR_NOCOMMONCOPYFROM)
 msgid ""
@@ -11847,7 +11848,7 @@ msgstr "Menu contextuel Windows 11"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 1859)
 msgid "Windows Credential Manager"
-msgstr ""
+msgstr "Windows Credential Manager"
 
 #. Resource IDs: (5020 - Menu)
 msgid "Windows-1250"
