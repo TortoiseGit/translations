@@ -31,7 +31,7 @@
 # Rafael Neri <rafepel@gmail.com>, 2014
 # Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012
 # Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2022
-# Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012,2016-2018,2023
+# Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012,2016-2018,2023,2025
 # Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2016
 # Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012-2015
 # Rodrigo Monte <rodrigo.monte86@gmail.com>, 2014
@@ -50,7 +50,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012,2016-2018,2023\n"
+"Last-Translator: Ricardo Souza (RCDMK) <rcdmk@hotmail.com>, 2012,2016-2018,2023,2025\n"
 "Language-Team: Portuguese (Brazil) (http://app.transifex.com/lznuaa/tortoisegit/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1011,7 +1011,7 @@ msgstr "&Nenhum"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSALTERNATIVEEDITOR: Control id 1661)
 msgid "&Notepad"
-msgstr ""
+msgstr "Bloco de &Notas"
 
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1, IDS_OKBUTTON)
 msgid "&OK"
@@ -3397,7 +3397,7 @@ msgstr "Não foi possível determinar a revisão mais recente submetida!"
 
 #. Resource IDs: (IDS_PROC_LOG_FETCHFILESERROR)
 msgid "Could not fetch commit or calculate diff."
-msgstr ""
+msgstr "Não foi possível obter submissão ou calcular diferença."
 
 #. Resource IDs: (IDS_ERR_NOTFOUND_SUPER_PRJECT)
 msgid "Could not find Super-project"
@@ -4991,7 +4991,7 @@ msgstr "Lista de arquivos vazia"
 
 #. Resource IDs: (IDS_STATUSLIST_EMPTYMSGFILTERED)
 msgid "File list is empty due to active filter"
-msgstr ""
+msgstr "A lista de arquivos está vazia devido ao filtro ativo."
 
 #. Resource IDs: (Dialog IDD_FILEPATCHES: Control id 135, IDS_PATCH_TITLE)
 msgid "File patches"
@@ -5226,7 +5226,7 @@ msgstr "Para o ramo atual \"%1!s!\" não há ramo rastreado configurado.\nVocê 
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "Force &with lease"
-msgstr ""
+msgstr "Forçar com &contrato"
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -5249,7 +5249,7 @@ msgstr "Força empurrar para a referência remota selecionada e a sobrescreve se
 
 #. Resource IDs: (IDS_REMOVEWITHFORCE)
 msgid "Force remove"
-msgstr ""
+msgstr "Forçar remoção"
 
 #. Resource IDs: (IDS_REBASE_FORCE_TT)
 msgid ""
@@ -5913,7 +5913,7 @@ msgstr "ID:57643:V C +Z"
 
 #. Accelerator Entry for Menu ID:57644; ''
 msgid "ID:57644:V C +Y"
-msgstr ""
+msgstr "ID:57644:V C +Y"
 
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
 #. Accelerator Entry for Menu ID:57665; 'E&xit'
@@ -6148,7 +6148,7 @@ msgstr "Ignorar &fins de linha (recomendado)"
 
 #. Resource IDs: (cmdViewIgnoreEOL_LabelTitle_RESID)
 msgid "Ignore line endings"
-msgstr ""
+msgstr "Ignorar fins de linha"
 
 #. Resource IDs: (IDS_MENUIGNOREMULTIPLEMASK2)
 msgid "Ignore multiple items by &extension"
@@ -6234,7 +6234,7 @@ msgstr "Em Submissões"
 
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1649)
 msgid "In order to abort a merge progress a reset (to HEAD) is needed."
-msgstr ""
+msgstr "Uma reversão (para HEAD) é necessária para abortar um processo de mesclagem."
 
 #. Resource IDs: (IDS_FIRSTSTART_LANGUAGEHINT2)
 msgid ""
@@ -6299,13 +6299,13 @@ msgstr "Inserir o conteúdo da Área de Transferência\nColar"
 msgid ""
 "Instead of pointing the newly created HEAD to the branch pointed to by the "
 "cloned repository's HEAD, point to specific branch instead."
-msgstr ""
+msgstr "Ao invés de apontar a nova HEAD para o ramo apontado pela HEAD do repositório, apontar para um ramo específico."
 
 #. Resource IDs: (IDS_CLONE_ORIGIN_NAME_TT)
 msgid ""
 "Instead of using the remote name \"origin\" to keep track of the upstream "
 "repository, use the specific name."
-msgstr ""
+msgstr "Ao invés de usar o nome de remoto \"origin\" para monitorar o repositório rio acima, use o nome específico."
 
 #. Resource IDs: (AFX_IDP_FAILED_MEMORY_ALLOC)
 msgid "Insufficient memory to perform operation."
@@ -6328,7 +6328,7 @@ msgid ""
 "Invalid selection.\n"
 "\n"
 "If this is a single-line file that has been modified, you must click the checkbox to stage or unstage the whole file."
-msgstr ""
+msgstr "Seleção inválida.\n\nSe este é um arquivo de uma linha que foi modificado, você precisa clicar na caixa de seleção para preparar ou desperar o arquivo inteiro."
 
 #. Resource IDs: (Dialog IDD_SETTINGSBUGTRAQ_CONFIG: Control id 4571)
 msgid "Issue Tracker Config"
@@ -6411,19 +6411,19 @@ msgstr "LFS"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_LFS_LOCK)
 msgid "LFS Lock"
-msgstr ""
+msgstr "Travar LFS"
 
 #. Resource IDs: (IDS_STATUSLIST_COLLFSLOCK)
 msgid "LFS Lock Owner"
-msgstr ""
+msgstr "Dono da Trava LFS"
 
 #. Resource IDs: (Dialog IDD_LFS_LOCKS: Control id 176)
 msgid "LFS Locks"
-msgstr ""
+msgstr "Travas LFS"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_LFS_UNLOCK)
 msgid "LFS Unlock"
-msgstr ""
+msgstr "Destravar LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSCOLORS_3: Control id 65535)
 msgid "LINE1"
@@ -6463,7 +6463,7 @@ msgstr "Idioma:"
 
 #. Resource IDs: (IDS_MENUDESCLFS)
 msgid "Large file storage"
-msgstr ""
+msgstr "Armazenamento de arquivos grandes"
 
 #. Resource IDs: (IDS_LAST_N_COMMITS)
 #, c-format
@@ -6491,7 +6491,7 @@ msgstr "Último Autor"
 
 #. Resource IDs: (IDS_DATELASTAUTHOR)
 msgid "Last Author Date"
-msgstr ""
+msgstr "Data do Último Autor"
 
 #. Resource IDs: (IDS_LASTCOMMIT)
 msgid "Last Commit"
@@ -6499,7 +6499,7 @@ msgstr "Última Submissão:"
 
 #. Resource IDs: (IDS_LASTCOMMITTER)
 msgid "Last Committer"
-msgstr ""
+msgstr "Último Autor"
 
 #. Resource IDs: (IDS_STATUSLIST_COLLASTMODIFIED)
 msgid "Last Modified"
@@ -6668,7 +6668,7 @@ msgstr "Barra de localização"
 
 #. Resource IDs: (IDS_MENULFSLOCK, IDS_PROGRS_CMD_LFS_LOCK)
 msgid "Lock"
-msgstr ""
+msgstr "Travar"
 
 #. Resource IDs: (IDS_LOCKED)
 msgid "Locked"
@@ -6677,11 +6677,11 @@ msgstr "Travado"
 #. Resource IDs: (IDS_PROC_LOCKED_WORKTREES)
 #, c-format
 msgid "Locked %d worktree(s)."
-msgstr ""
+msgstr "Travou %d árvore(s) de trabalho."
 
 #. Resource IDs: (IDS_MENUDESCLFSLOCK)
 msgid "Locks a file using LFS"
-msgstr ""
+msgstr "Travar arquivo usando LFS"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, IDS_LOG)
 msgid "Log"
@@ -6762,7 +6762,7 @@ msgstr "Gerenciar Remotos"
 
 #. Resource IDs: (IDS_MENUDESCWORKTREE)
 msgid "Manages the worktrees of a repository"
-msgstr ""
+msgstr "Gerencia as árvores de trabalho de um repositório"
 
 #. Resource IDs: (IDS_SVNPROGRESS_MENUMARKASRESOLVED, ID_EDIT_MARKASRESOLVED -
 #. Menu, cmdMarkResolved_LabelTitle_RESID)
@@ -6790,7 +6790,7 @@ msgstr "Blocos Marcados"
 #. Resource IDs: (IDS_INDICATOR_MARKEDWORDCOUNT)
 #, c-format
 msgid "Marked words: %s"
-msgstr ""
+msgstr "Palavras marcadas: %s"
 
 #. Resource IDs: (cmdMarkResolved)
 msgid ""
@@ -7028,7 +7028,7 @@ msgstr "Novo Ramo/Etiqueta"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 4603)
 msgid "New Worktree"
-msgstr ""
+msgstr "Novo Diretório de Trabalho"
 
 #. Resource IDs: (IDS_NEWHASH)
 msgid "New hash"
@@ -7112,7 +7112,7 @@ msgstr "Sem prefixos a/ e b/"
 msgid ""
 "No checkout of HEAD is performed after the clone is complete.\n"
 "This makes the working tree empty."
-msgstr ""
+msgstr "Nenhuma restauração da HEAD é realizada após a clonagem está completa.\nIsto deixa o diretório de trabalho vazio."
 
 #. Resource IDs: (IDS_ERR_NOCOMMAND)
 msgid ""
@@ -7295,7 +7295,7 @@ msgstr "Note que se você escolher recuperar os documentos, você precisa salvá
 msgid ""
 "Note: These settings also apply to the Patch Viewer dialog.\n"
 "To select whether you would like to use the build-in or any alternative diff viewer program go to \"Diff Viewer\" preferences section in the leftward tree."
-msgstr ""
+msgstr "Nota: Essas configurações também aplicam-se ao diálogo Visializador de Correção.\nPara selecionar se você gostaria de usar visualizador integrado ou qualquer programa alternativo, vá para a seção de preferências de \"Visualizador de Differenças\" na árvore à esquerda."
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
@@ -7613,7 +7613,7 @@ msgstr "Outros"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCHANGELIST)
 msgid "Out Changelist"
-msgstr ""
+msgstr "Lista de Mudanças de Saída"
 
 #. Resource IDs: (IDS_PROC_SYNC_OUTCOMMITS)
 msgid "Out Commits"
@@ -7661,7 +7661,7 @@ msgstr "PI"
 
 #. Resource IDs: (IDS_PACKAGE_REGISTERED)
 msgid "Package registered"
-msgstr ""
+msgstr "Pacote registrado"
 
 #. Resource IDs: (AFX_IDS_PRINTPAGENUM)
 #, c-format
@@ -7725,12 +7725,12 @@ msgstr "Pai(s)"
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1639,
 #. IDS_PROC_COMMIT_PARTIAL_STAGING)
 msgid "Partial Staging>>"
-msgstr ""
+msgstr "Reserva Parcial>>"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1638,
 #. IDS_PROC_COMMIT_PARTIAL_UNSTAGING)
 msgid "Partial Unstaging>>"
-msgstr ""
+msgstr "Desreserva Parcial>>"
 
 #. Resource IDs: (Dialog IDD_USER_PASSWD: Control id 4585)
 msgid "Password"
@@ -7878,7 +7878,7 @@ msgstr "Por favor, entre o caminho onde aplicar os scripts de gancho. Use \"*\" 
 
 #. Resource IDs: (IDS_GITCHANGED_NEEDRESTART)
 msgid "Please restart TortoiseGit for the changes of git.exe to take effect."
-msgstr ""
+msgstr "Por favor reinicie TortoiseGit para que alterações do git.exe tenham efeito."
 
 #. Resource IDs: (IDS_FIRSTSTART_HINT3)
 msgid ""
@@ -8090,7 +8090,7 @@ msgstr "Puxar (obter e combinar) submissões a partir de um ramo remoto."
 msgid ""
 "Pull requires the selected local branch to be the current branch.\n"
 "Do you want to switch to the selected branch?"
-msgstr ""
+msgstr "Puxar requer que o ramo local selecionado seja o ramo atual.\nVocê quer trocar pra o ramo selecionado?"
 
 #. Resource IDs: (Dialog IDD_PULLFETCH: Control id 302)
 msgid "Pull/Fetch"
@@ -8119,7 +8119,7 @@ msgstr "Empurrar"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1492)
 msgid "Push &option:"
-msgstr ""
+msgstr "Empurrar &opção:"
 
 #. Resource IDs: (Dialog IDD_SETTINREMOTE: Control id 1786)
 msgid "Push Default"
@@ -8242,7 +8242,7 @@ msgstr "Leia o 'Guia de Uso Diário' antes que você fique empacado..."
 
 #. Resource IDs: (IDS_REASON)
 msgid "Reason"
-msgstr ""
+msgstr "Razão"
 
 #. Resource IDs: (Dialog IDD_REBASE: Control id 318)
 msgid "Rebase"
@@ -8325,7 +8325,7 @@ msgstr "Lista de Referências"
 #. Resource IDs: (Dialog IDD_REVGRAPHFILTER: Control id 1354, Dialog
 #. IDD_REVGRAPHFILTER: Control id 1729)
 msgid "RefBrowser"
-msgstr ""
+msgstr "Navegador de Referências"
 
 #. Resource IDs: (Dialog IDD_REFLOG: Control id 1588, IDS_REFLOG)
 msgid "RefLog"
@@ -8333,7 +8333,7 @@ msgstr "RefLog"
 
 #. Resource IDs: (IDS_REFBROWSE)
 msgid "Reference Browser"
-msgstr ""
+msgstr "Navegador de Referências"
 
 #. Resource IDs: (Dialog IDD_COMMITISONREFS: Control id 4596)
 msgid "References commit is on"
@@ -8367,7 +8367,7 @@ msgstr "Expressão Regular:"
 
 #. Resource IDs: (Dialog IDD_SETTINGSWIN11CONTEXTMENU: Control id 1861)
 msgid "Register context menu"
-msgstr ""
+msgstr "Registrar menu de contexto"
 
 #. Resource IDs: (IDS_LOG_FILTER_REGEX_TT)
 msgid ""
