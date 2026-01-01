@@ -14,7 +14,7 @@
 # Benoit Neil <sukender@free.fr>, 2019,2021
 # Christophe SAUVEUR <christophe@xhaleera.com>, 2011-2012
 # Clément Forest <Clement.Forest@cae.com>, 2022
-# David Prudhomme <david7.prudhomme@gmail.com>, 2025
+# David Prudhomme <david7.prudhomme@gmail.com>, 2025-2026
 # deathart <deathart@hotmail.fr>, 2013-2014
 # Dirk Hoffmann <Hoffmann@cppm.in2p3.fr>, 2015
 # a270031086f2a0d3514bc0cb507b48f6, 2019
@@ -70,7 +70,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://tortoisegit.org/issues\n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: 2011-11-27 06:19+0000\n"
-"Last-Translator: David Prudhomme <david7.prudhomme@gmail.com>, 2025\n"
+"Last-Translator: David Prudhomme <david7.prudhomme@gmail.com>, 2025-2026\n"
 "Language-Team: French (http://app.transifex.com/lznuaa/tortoisegit/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -143,57 +143,57 @@ msgstr "Il y a %1!d! jours"
 #. Resource IDs: (IDS_HOUR_AGO)
 #, c-format
 msgid "%1!d! Hour ago"
-msgstr "%1!d! heure"
+msgstr "Il y a %1!d! heure"
 
 #. Resource IDs: (IDS_HOURS_AGO)
 #, c-format
 msgid "%1!d! Hours ago"
-msgstr "%1!d! heures"
+msgstr "Il y a %1!d! heures"
 
 #. Resource IDs: (IDS_MINUTE_AGO)
 #, c-format
 msgid "%1!d! Minute ago"
-msgstr "%1!d! minute"
+msgstr "Il y a %1!d! minute"
 
 #. Resource IDs: (IDS_MONTH_AGO)
 #, c-format
 msgid "%1!d! Month ago"
-msgstr "%1!d! mois"
+msgstr "Il y a %1!d! mois"
 
 #. Resource IDs: (IDS_MONTHS_AGO)
 #, c-format
 msgid "%1!d! Months ago"
-msgstr "%1!d! mois"
+msgstr "Il y a %1!d! mois"
 
 #. Resource IDs: (IDS_SECOND_AGO)
 #, c-format
 msgid "%1!d! Second ago"
-msgstr "%1!d! seconde"
+msgstr "Il y a %1!d! seconde"
 
 #. Resource IDs: (IDS_SECONDS_AGO)
 #, c-format
 msgid "%1!d! Seconds ago"
-msgstr "%1!d! secondes"
+msgstr "Il y a %1!d! secondes"
 
 #. Resource IDs: (IDS_WEEK_AGO)
 #, c-format
 msgid "%1!d! Week ago"
-msgstr "%1!d! semaine"
+msgstr "Il y a %1!d! semaine"
 
 #. Resource IDs: (IDS_WEEKS_AGO)
 #, c-format
 msgid "%1!d! Weeks ago"
-msgstr "%1!d! semaines"
+msgstr "Il y a %1!d! semaines"
 
 #. Resource IDs: (IDS_YEAR_AGO)
 #, c-format
 msgid "%1!d! Year ago"
-msgstr "%1!d! année"
+msgstr "Il y a %1!d! année"
 
 #. Resource IDs: (IDS_YEARS_AGO)
 #, c-format
 msgid "%1!d! Years ago"
-msgstr "%1!d! années"
+msgstr "Il y a %1!d! années"
 
 #. Resource IDs: (IDS_PROC_SYNC_COMMITSAHEAD)
 #, c-format
@@ -218,7 +218,7 @@ msgstr "%1!d! objets sélectionnés"
 #. Resource IDs: (IDS_MINUTES_AGO)
 #, c-format
 msgid "%1!d! minutes ago"
-msgstr "%1!d! minutes"
+msgstr "Il y a %1!d! minutes"
 
 #. Resource IDs: (IDS_STATGRAPH_AUTHORSLIDER_TT)
 #, c-format
@@ -315,7 +315,7 @@ msgstr "%Ts\n%Ts"
 #. Resource IDs: (IDS_FILESCHANGES)
 #, c-format
 msgid "%d files changed"
-msgstr "%d files modifiés"
+msgstr "%d fichiers modifiés"
 
 #. Resource IDs: (IDS_PROC_FILESREMOVED)
 #, c-format
@@ -368,7 +368,7 @@ msgstr "&..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1656)
 msgid "&3 way merge"
-msgstr "&3 manière de fusionner"
+msgstr "Fusion à &3 branches"
 
 #. Resource IDs: (IDS_MSGBOX_ABORT)
 msgid "&Abort"
@@ -386,7 +386,7 @@ msgstr "&À propos de TortoiseGitBlame..."
 
 #. Resource IDs: (ID_APP_ABOUT - Menu)
 msgid "&About TortoiseGitMerge..."
-msgstr "&A propos de TortoiseGitMerge..."
+msgstr "&À propos de TortoiseGitMerge..."
 
 #. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1382, Dialog
 #. IDD_REBASE: Control id 1382, Dialog IDD_WORKTREE_LIST: Control id 1382)
@@ -458,7 +458,7 @@ msgstr "&Annoter les révisions"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Border:"
-msgstr "$Bordure :"
+msgstr "&Bordure :"
 
 #. Resource IDs: (Dialog IDD_EXPORT: Control id 1512, Dialog IDD_GITSWITCH:
 #. Control id 1512, Dialog IDD_MERGE: Control id 1512, Dialog
@@ -490,7 +490,7 @@ msgstr "&Annuler"
 
 #. Resource IDs: (Dialog IDD_WORKTREE_CREATE: Control id 1858)
 msgid "&Checkout"
-msgstr "&Vérifier"
+msgstr "&Extraire"
 
 #. Resource IDs: (IDS_MENUCLEANUP)
 msgid "&Clean up..."
@@ -516,7 +516,7 @@ msgstr "&Fermer"
 #. Dialog IDD_SYNC: Control id 1625, Dialog IDD_WORKTREE_CREATE: Control id
 #. 1514)
 msgid "&Commit"
-msgstr "&Commit"
+msgstr "&Livrer"
 
 #. Resource IDs: (IDS_MENUCOMMITSUBMODULE)
 msgid "&Commit submodule..."
@@ -541,7 +541,7 @@ msgstr "Comparer avec la révision précédente"
 
 #. Resource IDs: (IDS_WALKBEHAVIOUR_COMPRESSED)
 msgid "&Compressed Graph"
-msgstr "$Compresser le graphique"
+msgstr "&Compresser le graphique"
 
 #. Resource IDs: (IDS_MSGBOX_CONTINUE)
 msgid "&Continue"
@@ -748,7 +748,7 @@ msgstr "&Trouver\tCtrl+F"
 
 #. Resource IDs: (ID_VIEW_FITIMAGESINWINDOW - Menu)
 msgid "&Fit images in window\tF"
-msgstr "Ajuster l'images dans la &fenêtre\tF"
+msgstr "Ajuster les images dans la &fenêtre\tF"
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 1050)
 msgid "&Fixed drives"
@@ -823,7 +823,7 @@ msgstr "&HEAD"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1552, Dialog IDD_RESET:
 #. Control id 1552)
 msgid "&Hard: Reset working tree and index (discard all local changes)"
-msgstr "&Conservateur : Réinitialiser l’arborescence de travail et l’index (annule toutes les modifications)"
+msgstr "&Brutal : Réinitialiser l'arborescence de travail et l'index (annule toutes les modifications locales)"
 
 #. Resource IDs: (65535 - PopupMenu, Dialog AFX_IDD_NEWTYPEDLG: Control id
 #. 57670, IDS_MENUHELP, ID_MENUHELP - Menu)
@@ -910,7 +910,7 @@ msgstr "&Limiter la recherche aux lignes modifiées"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Limit:"
-msgstr "$Limite:"
+msgstr "&Limite :"
 
 #. Resource IDs: (Dialog IDD_GOTO: Control id 1078)
 msgid "&Line number"
@@ -982,7 +982,7 @@ msgstr "&Commentaire :"
 #. Resource IDs: (Dialog IDD_MERGEABORT: Control id 1551, Dialog IDD_RESET:
 #. Control id 1551)
 msgid "&Mixed: Leave working tree untouched, reset index"
-msgstr "&Prudent : Laisser l’arborescence de travail inchangé et réinitialise l’index"
+msgstr "&Prudent : Laisser l'arborescence de travail inchangée et réinitialiser l'index"
 
 #. Resource IDs: (ID_VIEW_MOVEDBLOCKS - Menu)
 msgid "&Moved blocks"
@@ -1064,7 +1064,7 @@ msgstr "&Options"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS3: Control id 65535)
 msgid "&Overlay Icon:"
-msgstr "$Icon de superposition"
+msgstr "&Icône de superposition"
 
 #. Resource IDs: (ID_VIEW_OVERLAPIMAGES - Menu)
 msgid "&Overlay images\tO"
@@ -1129,7 +1129,7 @@ msgstr "Tirer..."
 
 #. Resource IDs: (Dialog IDD_NEW_BRANCH_TAG: Control id 1524)
 msgid "&Push"
-msgstr ""
+msgstr "&Pousser"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1481)
 msgid "&Push all branches"
@@ -1722,7 +1722,7 @@ msgstr "À propos de TortoiseGitBlame"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 136)
 msgid "About TortoiseGitMerge"
-msgstr "A propos de TortoiseGitMerge"
+msgstr "À propos de TortoiseGitMerge"
 
 #. Resource IDs: (Dialog IDD_CERTCHECK: Control id 1)
 msgid "Accept certificate"
@@ -5015,7 +5015,7 @@ msgstr "La liste des fichiers est vide"
 
 #. Resource IDs: (IDS_STATUSLIST_EMPTYMSGFILTERED)
 msgid "File list is empty due to active filter"
-msgstr ""
+msgstr "La liste des fichiers est vide en raison du filtre actif"
 
 #. Resource IDs: (Dialog IDD_FILEPATCHES: Control id 135, IDS_PATCH_TITLE)
 msgid "File patches"
@@ -5250,7 +5250,7 @@ msgstr "Pour la branche courante \"%1!s!\" , aucune branche surveillée n'est co
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "Force &with lease"
-msgstr ""
+msgstr "Forcer a&vec vérification"
 
 #. Resource IDs: (IDS_PROC_NEWBRANCHTAG_FORCE_TT)
 msgid ""
@@ -7117,7 +7117,7 @@ msgstr "Ne pas &fusionner"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1716)
 msgid "No Checkout"
-msgstr "Pas de vérification"
+msgstr "Pas d’extraction"
 
 #. Resource IDs: (Dialog IDD_MERGE: Control id 1482, Dialog IDD_PULLFETCH:
 #. Control id 1482)
@@ -9516,7 +9516,7 @@ msgstr "Afficher les branches où ce commit est & on"
 
 #. Resource IDs: (ID_VIEW_SHOWBRANCHINGSANDMERGES - Menu)
 msgid "Show branchings and &merges"
-msgstr "&Montrer les branches et les fusions"
+msgstr "Afficher les branches et les fusio&ns"
 
 #. Resource IDs: (IDS_LOG_POPUP_GNUDIFF)
 msgid "Show changes as &unified diff"
@@ -9883,7 +9883,7 @@ msgstr "Présélection des &lignes sélectionnées"
 
 #. Resource IDs: (Dialog IDD_COMMITDLG: Control id 1855)
 msgid "Staging support (EXPERIMENTAL)"
-msgstr ""
+msgstr "Prise en charge du staging (EXPÉRIMENTAL)"
 
 #. Resource IDs: (IDS_TOOLBAR_STANDARD)
 msgid "Standard"
@@ -11541,7 +11541,7 @@ msgid ""
 "Use this to modify/replace the latest checked out commit with a new commit. "
 "The message from the original commit is used as the starting point. "
 "Attention: This modifies the Git history."
-msgstr ""
+msgstr "Permet de modifier/remplacer le dernier commit par un nouveau. Le message du commit d'origine sert de point de départ. Attention : Cette action modifie l'historique Git."
 
 #. Resource IDs: (IDS_VIEWCONTEXTMENU_USEOTHERFILE)
 msgid "Use whole other &file"
@@ -11575,7 +11575,7 @@ msgstr "Nom d'&utilisateur:"
 
 #. Resource IDs: (1711)
 msgid "Username and email must not be empty."
-msgstr ""
+msgstr "Le nom d'utilisateur et l'adresse e-mail ne doivent pas être vides."
 
 #. Resource IDs: (Dialog IDD_SETTINGSCREDENTIAL: Control id 65535,
 #. IDS_AUTH_USERNAME)
@@ -12297,7 +12297,7 @@ msgstr "fichier, pas un sous-module"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFILENAMES)
 msgid "file/foldernames"
-msgstr "fichiers/noms de répertoire"
+msgstr "fichiers / noms de répertoire"
 
 #. Resource IDs: (IDS_STATUSLIST_CONTEXT_COPYFULLPATHS)
 msgid "full paths"
