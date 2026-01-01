@@ -520,7 +520,7 @@ msgstr "&Livrer"
 
 #. Resource IDs: (IDS_MENUCOMMITSUBMODULE)
 msgid "&Commit submodule..."
-msgstr "&Engager le sous module..."
+msgstr "&Livrer le sous-module..."
 
 #. Resource IDs: (IDS_PROC_COMMIT_NOADDSIGNOFFBUTTON)
 msgid "&Commit w/o"
@@ -638,7 +638,7 @@ msgstr "Faire de &même pour le reste"
 msgid ""
 "&Don't run\n"
 "Do not run the script"
-msgstr "Ne pas exécuter\nNe pas exécuter le script"
+msgstr "&Ne pas exécuter\nNe pas exécuter le script"
 
 #. Resource IDs: (IDS_MSGBOX_DONOTSHOWAGAIN)
 msgid "&Don't show this message again"
@@ -728,7 +728,7 @@ msgstr "&Externe"
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 65535, Dialog
 #. IDD_SETTINGSMAIN: Control id 65535)
 msgid "&Extra PATH:"
-msgstr "&Chemin supplémentaire (PATH):"
+msgstr "&Chemin supplémentaire (PATH) :"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "&File"
@@ -935,7 +935,7 @@ msgstr "Branche &locale :"
 
 #. Resource IDs: (IDS_VIEW_SHOWLOCALBRANCHLABELS)
 msgid "&Local branches"
-msgstr "Branches &locale "
+msgstr "Branches &locales"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1504)
 msgid "&Local:"
@@ -3715,7 +3715,7 @@ msgstr "La branche actuelle est à jour ou en avance par rapport à la distante.
 #. Resource IDs: (Dialog IDD_MERGE: Control id 65535, Dialog IDD_RESET:
 #. Control id 65535)
 msgid "Current branch:"
-msgstr "Branche actuelle :"
+msgstr "Branche actuelle :"
 
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1113)
 msgid "Current version is:"
@@ -3772,7 +3772,7 @@ msgstr "Défaut"
 
 #. Resource IDs: (Dialog IDD_SETTINGSDIALOGS: Control id 65535)
 msgid "Default limitation of log messages:"
-msgstr "Limites par défaut des messages du journal:"
+msgstr "Limite par défaut des messages du journal :"
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1064)
 msgid "Default to UTF-8 encoding"
@@ -3858,7 +3858,7 @@ msgstr "Supprimer les tags distants..."
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_DELETESUBMODULE)
 msgid "Delete submodule"
-msgstr "Supprimer le sous module"
+msgstr "Supprimer le sous-module"
 
 #. Resource IDs: (IDS_PROC_BROWSEREFS_DELETETAG)
 msgid "Delete tag"
@@ -4199,7 +4199,7 @@ msgstr "Voulez-vous réellement supprimer \"%s\"?"
 
 #. Resource IDs: (IDS_PROC_DELETE_WORKTREE)
 msgid "Do you really want to delete the selected worktree(s)?"
-msgstr "Voulez-vous vraiment supprimer le(s) arborescence sélectionnée(s) ?"
+msgstr "Voulez-vous vraiment supprimer le(s) arborescence(s) sélectionnée(s) ?"
 
 #. Resource IDs: (IDS_DISABLEUPDATECHECKS)
 msgid ""
@@ -4897,7 +4897,7 @@ msgstr "Échec de l'enregistrement du document."
 msgid ""
 "Failed to save file \"%s\":\n"
 "%s"
-msgstr "Impossible de sauvegarder le fichier \"%s\":\n%s"
+msgstr "Impossible de sauvegarder le fichier \"%s\" :\n%s"
 
 #. Resource IDs: (IDS_SVNACTION_CHANGELISTFAILED)
 #, c-format
@@ -5704,7 +5704,7 @@ msgstr "Masquer le script pendant l'exécution"
 
 #. Resource IDs: (Dialog IDD_SETTINGSEXTMENU: Control id 65535)
 msgid "Hide the selected items in the context menu:"
-msgstr "Masque l'élément sélectionnés dans le menu contextuel:"
+msgstr "Masquer les éléments sélectionnés dans le menu contextuel:"
 
 #. Resource IDs: (IDS_HIDEUNCHANGED)
 msgid "Hide unchanged"
@@ -7077,7 +7077,7 @@ msgstr "Nouveau nom :"
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_NEWSUBMODULE)
 msgid "New submodule"
-msgstr "Nouveaux sous modules"
+msgstr "Nouveau sous-module"
 
 #. Resource IDs: (IDS_SUBMODULEDIFF_NEWERTIME)
 msgid "Newer commit time"
@@ -8590,7 +8590,7 @@ msgstr "Renommer - TortoiseGit"
 #. Resource IDs: (IDS_RENAME_INFO)
 #, c-format
 msgid "Rename \"%s\":"
-msgstr "Renommer \"%s\":"
+msgstr "Renommer \"%s\" :"
 
 #. Resource IDs: (IDS_PROGRS_TITLE_RENAME)
 msgid "Rename/move"
@@ -9710,7 +9710,7 @@ msgstr "Afficher les symboles sur les étiquettes des ref afin de remplacer une 
 
 #. Resource IDs: (Dialog IDD_SETTINGSLOOKANDFEEL: Control id 65535)
 msgid "Show the selected items on the first level of the context menu:"
-msgstr "Affichez les éléments sélectionnés au premier niveau du menu contextuel:"
+msgstr "Afficher les éléments sélectionnés au premier niveau du menu contextuel:"
 
 #. Resource IDs: (Dialog IDD_CHANGEDFILES: Control id 1209)
 msgid "Show un&modified files"
@@ -9771,7 +9771,7 @@ msgstr "Si&gner"
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 65535, Dialog IDD_ABOUTBOX:
 #. Control id 65535)
 msgid "Significant contributions by: (see Git repository for a complete list)"
-msgstr "Contributions significatives de: (Voir le dépôt Git pour une liste complète)"
+msgstr "Contributions significatives (voir le dépôt Git pour une liste complète) de :"
 
 #. Resource IDs: (Dialog IDD_FORMAT_PATCH: Control id 1532)
 msgid "Since"
@@ -10108,7 +10108,7 @@ msgstr "Sous-module \"%1!s!\"\nRévision %2!s!"
 
 #. Resource IDs: (Dialog IDD_SUBMODULE_ADD: Control id 1585)
 msgid "Submodule of Project: "
-msgstr "Sous module du Projet:"
+msgstr "Sous-module du Projet :"
 
 #. Resource IDs: (Dialog IDD_CLEAN: Control id 1708, Dialog IDD_COMMITDLG:
 #. Control id 1708)
@@ -10249,7 +10249,7 @@ msgstr "TORTOISEGITUDIFF"
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1513)
 msgid "Ta&gs:"
-msgstr "Bali&ses:"
+msgstr "Éti&quettes"
 
 #. Resource IDs: (Dialog IDD_SETTINGSTBLAME: Control id 65535, Dialog
 #. IDD_SETTINGSUDIFF: Control id 65535)
@@ -10377,7 +10377,7 @@ msgid ""
 "The default limitation of log messages when you open Log Message dialog.\n"
 "Note: For showing all commits in Log Message dialog,\n"
 "you can right click on \"FROM\" date control, then click \"No limitation\" item."
-msgstr "La limitation par défaut des messages de journal lorsque vous ouvrez la boîte de dialogue Message de journal.\nRemarque: pour afficher tous les validations dans la boîte de dialogue Message de journal,\nvous pouvez cliquer avec le bouton droit sur le contrôle de date \"DE\", puis cliquer sur l'élément \"Aucune limitation\"."
+msgstr "La limitation par défaut des messages de journal lorsque vous ouvrez la boîte de dialogue Message de journal.\nRemarque : pour afficher tous les validations dans la boîte de dialogue Message de journal,\nvous pouvez cliquer avec le bouton droit sur le contrôle de date \"DE\", puis cliquer sur l'élément \"Aucune limitation\"."
 
 #. Resource IDs: (IDS_ERR_DIFF_DIFF)
 #, c-format
@@ -10627,7 +10627,7 @@ msgid ""
 "The submodule \"%s\" is dirty.\n"
 "Merely committing the superproject cannot track or save such changes to the submodule.\n"
 "Commit the submodule now or ignore dirty changes?"
-msgstr "Le sous-module \"%s\" est sale.\nLe simple fait de l'appliquer au super projet ne pourra pas pister ou sauver de tels changements dans le sous module.\nOn engage le sous module maintenant ou on ignore les changements sales?"
+msgstr "Le sous-module \"%s\" est sale.\nLe simple fait de l'appliquer au super projet ne pourra pas pister ou sauver de tels changements dans le sous-module.\nOn engage le sous-module maintenant ou on ignore les changements sales?"
 
 #. Resource IDs: (IDS_WARN_GITINIT_SPECIALFOLDER)
 #, c-format
@@ -10651,7 +10651,7 @@ msgstr "Le dossier cible \n%s\nn'est pas vide!\nêtes-vous sûr de vouloir comme
 msgid ""
 "The text is identical, but the files do not match!\n"
 "The following differences were found:"
-msgstr "Le texte est identique, mais les fichiers ne correspondent pas!\nLes différences suivantes ont été trouvées:"
+msgstr "Le texte est identique, mais les fichiers ne correspondent pas!\nLes différences suivantes ont été trouvées :"
 
 #. Resource IDs: (IDS_SETTINGS_AUTOCOMPLETIONTIMEOUT_TT)
 msgid ""
@@ -10766,7 +10766,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr "C'est l'assistant de premier démarrage qui vous aidera à configurer les paramètres de base. TortoiseGit est hautement configurable, il est donc conseillé d’examiner ses paramètres. La boîte de dialogue des paramètres est accessible via le menu Démarrer ou le menu contextuel de l'Explorateur Windows: TortoiseGit -> Paramètres."
+msgstr "C'est l'assistant de premier démarrage qui vous aidera à configurer les paramètres de base. TortoiseGit est hautement configurable, il est donc conseillé d’examiner ses paramètres. La boîte de dialogue des paramètres est accessible via le menu Démarrer ou le menu contextuel de l'Explorateur Windows : TortoiseGit -> Paramètres."
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -10815,7 +10815,7 @@ msgid ""
 "This working copy has a client-side hook script configured. Do you want this script to run?\n"
 "The command line to run is:\n"
 "%ls"
-msgstr "Cette copie de travail a un script de raccordement côté client configuré. Voulez-vous que ce script soit exécuté?\nLa ligne de commande à exécuter est la suivante:\n%ls"
+msgstr "Cette copie de travail a un script de raccordement côté client configuré. Voulez-vous que ce script soit exécuté ?\nLa ligne de commande à exécuter est la suivante :\n%ls"
 
 #. Resource IDs: (IDS_TREE_DIFF)
 msgid "Three way diff"
@@ -10921,7 +10921,7 @@ msgstr "TortoiseGit nécessite git.exe pour fonctionner. TortoiseGit tente de d�
 #. Resource IDs: (IDS_SETTINGS_OVERLAYINFO2)
 #, c-format
 msgid "TortoiseGit will not show the following overlays: %s"
-msgstr "TortoiseGit ne montrera pas les superpositions suivantes: %s"
+msgstr "TortoiseGit ne montrera pas les superpositions suivantes : %s"
 
 #. Resource IDs: (Dialog IDD_SETTINGSPROGSDIFF: Control id 1096)
 msgid "TortoiseGit&UDiff"
@@ -11030,11 +11030,11 @@ msgstr "TortoiseGitUDiff: l'afficheur de différence unifié pour TortoiseGit\n\
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1739)
 msgid "Total changed lines including added/deleted files:"
-msgstr "Nombre total de lignes modifiées incluant les fichiers ajoutés et supprimés:"
+msgstr "Nombre total de lignes modifiées incluant les fichiers ajoutés et supprimés :"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1737)
 msgid "Total changed lines not including added/deleted files:"
-msgstr "Nombre total de lignes modifiées sans inclure les fichiers ajoutés et supprimés:"
+msgstr "Nombre total de lignes modifiées sans inclure les fichiers ajoutés et supprimés :"
 
 #. Resource IDs: (Dialog IDD_STATGRAPH: Control id 1162)
 msgid "Total commits analyzed:"
@@ -11097,7 +11097,7 @@ msgstr "Type"
 #. IDD_RESOLVESUBMODULECONFLICT: Control id 1720, Dialog
 #. IDD_RESOLVESUBMODULECONFLICT: Control id 1722)
 msgid "Type:"
-msgstr "Type:"
+msgstr "Type :"
 
 #. Resource IDs: (Dialog IDD_URL: Control id 164, IDS_STATUSLIST_COLURL)
 msgid "URL"
@@ -11571,7 +11571,7 @@ msgstr "Le nom et l'email de l'utilisateur doivent être indiqué avant la livra
 
 #. Resource IDs: (Dialog IDD_CLONE: Control id 1650)
 msgid "User&name:"
-msgstr "Nom d'&utilisateur:"
+msgstr "Nom d'&utilisateur :"
 
 #. Resource IDs: (1711)
 msgid "Username and email must not be empty."
@@ -11712,7 +11712,7 @@ msgid ""
 "WARNING:\n"
 "Only change these settings if you are absolutely sure what you are doing!\n"
 "To set the values to their default, delete the value text."
-msgstr "ATTENTION:\nNe changez ces paramètres qui si vous êtes absolument sûrs de ce que vous faites!Pour remettre les valeurs par défaut, supprimez le texte."
+msgstr "ATTENTION :\nNe changez ces paramètres qui si vous êtes absolument sûrs de ce que vous faites ! Pour remettre les valeurs par défaut, supprimez le texte."
 
 #. Resource IDs: (IDS_SETTINGS_HOOKS_WAITCOL)
 msgid "Wait"
@@ -12152,14 +12152,14 @@ msgstr "\"%1!s!\" - \"%2!s!\"\nEst une livraison fusionnée.\n\nQuelle branche p
 msgid ""
 "\"%s\" contains a git repository. It will not work as a submodule out of the box.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or keep it as a separate repository in a subdirectory?"
-msgstr "\"%s\" contient un référentiel Git. Il ne fonctionnera pas comme un sous module prêt à l'emploi.\nVoulez-vous supprimer le fichier .git-entry et ajouter tous les fichiers du dossier parent ou le laisser comme un référentiel indépendant dans un sous répertoire?"
+msgstr "\"%s\" contient un référentiel Git. Il ne fonctionnera pas comme un sous-module prêt à l'emploi.\nVoulez-vous supprimer le fichier .git-entry et ajouter tous les fichiers du dossier parent ou le laisser comme un référentiel indépendant dans un sous répertoire?"
 
 #. Resource IDs: (IDS_PROC_COPY_SUBMODULE)
 #, c-format
 msgid ""
 "\"%s\" contains a git submodule. It is likely that this doesn't work any more on the destination after copying.\n"
 "Do you want to delete the .git-entry and add all files to the top repository or ignore this possible issue and keep it?"
-msgstr "\"%s\" contient un sous module git. C'est probablement cela qui ne fonctionne plus sur la destination après la copie.\nVoulez-vous supprimer .git-entry et ajouter tous les fichiers au référentiel au-dessus ou ignorer ce possible problème et le garder?"
+msgstr "\"%s\" contient un sous-module git. C'est probablement cela qui ne fonctionne plus sur la destination après la copie.\nVoulez-vous supprimer .git-entry et ajouter tous les fichiers au référentiel au-dessus ou ignorer ce possible problème et le garder?"
 
 #. Resource IDs: (IDS_GITEXEERROR_NOMESSAGE)
 #, c-format
@@ -12206,7 +12206,7 @@ msgstr "un fichier non nommé"
 
 #. Resource IDs: (Dialog IDD_ABOUT: Control id 1085)
 msgid "and support the developers"
-msgstr "et supportez les développeurs"
+msgstr "et supporter les développeurs"
 
 #. Resource IDs: (IDS_SETTINGS_READONLYNAME)
 msgid "assume-valid"
@@ -12509,7 +12509,7 @@ msgstr "remplacé"
 
 #. Resource IDs: (IDS_PATCH_SEARCHPATHLINE1)
 msgid "scanning path:"
-msgstr "Scan du chemin:"
+msgstr "Scan du chemin :"
 
 #. Resource IDs: (IDS_SETTINGS_LOCKEDNAME)
 msgid "skip-worktree"
