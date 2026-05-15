@@ -56,6 +56,9 @@ msgstr "%.2f MiB έχουν μεταφερθεί."
 msgid "%1 contained an unexpected object."
 msgstr "%1 περιέχει ένα αντικείμενο που δεν ήταν αναμενόμενο από το πρόγραμμα."
 
+msgid "Add \"%s\" as safe.directory."
+msgstr ""
+
 #. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
 msgid "%1 contains an incorrect path."
@@ -595,7 +598,8 @@ msgstr "&Να μην ξαναεμφανιστεί αυτό το μήνυμα"
 msgid "&Don't store these settings now."
 msgstr "&Μην αποθήκευσης αυτές της ρύθμισης τώρα."
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384, Dialog
+#. IDD_REBASE: Control id 1384)
 msgid "&Down"
 msgstr "&Κάτω "
 
@@ -1359,7 +1363,8 @@ msgstr ""
 msgid "&Unstaging"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386, Dialog
+#. IDD_REBASE: Control id 1386)
 msgid "&Up"
 msgstr "&Πανω"
 
@@ -4304,10 +4309,6 @@ msgstr "Να μην εμφανίζεται ξανά αυτό το μήνυμα"
 msgid "Done"
 msgstr "Εγινε"
 
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1384)
-msgid "Down"
-msgstr "Κάτω"
-
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1698)
 msgid "Download"
 msgstr "Κατεβάστε"
@@ -5472,6 +5473,10 @@ msgstr "Git for Windows"
 msgid "Git reported an error while creating a repository!\n"
 msgstr ""
 
+#. Resource IDs: (IDS_MENUDESCINACCESSIBLE)
+msgid "The Git repository is inaccessible and further action is required."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
@@ -6210,6 +6215,10 @@ msgstr ""
 msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
+msgstr ""
+
+#. Resource IDs: (IDS_MENUINACCESSIBLE)
+msgid "Inaccessible..."
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
@@ -10567,6 +10576,20 @@ msgid ""
 "Are you sure you want to mark the file resolved?"
 msgstr ""
 
+#. Resource IDs: (IDS_INACCESSIBLE)
+#, c-format
+msgid ""
+"The selected folder seems to be a Git working tree or repository, however, it cannot be accessed.\n"
+"\n"
+"Reasons may include:\n"
+"* Access is prevented due to security reasons and access needs to be granted using a safe.directory config entry.\n"
+"* It uses an unsupported format.\n"
+"* It contains some kind of defect and needs to be checked/repaired.\n"
+"\n"
+"The following libgit and libgit2 errors may provide further insight:\n"
+"%s"
+msgstr ""
+
 #. Resource IDs: (IDS_COMMITDLG_SUBMODULEDIRTY)
 #, c-format
 msgid ""
@@ -11229,10 +11252,6 @@ msgstr ""
 #. Resource IDs: (IDS_SVNPROGRESS_UNVERSION)
 #, c-format
 msgid "Unversioning %s"
-msgstr ""
-
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1386)
-msgid "Up"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1710)

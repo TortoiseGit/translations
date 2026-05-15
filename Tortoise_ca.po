@@ -61,6 +61,9 @@ msgstr "%.2f MiB transferits"
 msgid "%1 contained an unexpected object."
 msgstr "%1 conté un objecte no esperat."
 
+msgid "Add \"%s\" as safe.directory."
+msgstr ""
+
 #. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
 msgid "%1 contains an incorrect path."
@@ -600,7 +603,8 @@ msgstr "&No mostrar més aquest missatge "
 msgid "&Don't store these settings now."
 msgstr "&No desis ara aquesta configuració."
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384, Dialog
+#. IDD_REBASE: Control id 1384)
 msgid "&Down"
 msgstr "&Avall"
 
@@ -1364,7 +1368,8 @@ msgstr "Desbloqueja"
 msgid "&Unstaging"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386, Dialog
+#. IDD_REBASE: Control id 1386)
 msgid "&Up"
 msgstr "Amunt"
 
@@ -4309,10 +4314,6 @@ msgstr "No mostrar més aquest missatge "
 msgid "Done"
 msgstr "Fet"
 
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1384)
-msgid "Down"
-msgstr "Avall"
-
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1698)
 msgid "Download"
 msgstr "Descarrega"
@@ -5477,6 +5478,10 @@ msgstr "Git for Windows"
 msgid "Git reported an error while creating a repository!\n"
 msgstr "Git ha tingut problemes mentre creava un dipòsit.\n"
 
+#. Resource IDs: (IDS_MENUDESCINACCESSIBLE)
+msgid "The Git repository is inaccessible and further action is required."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
@@ -6216,6 +6221,10 @@ msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
 msgstr "En el següent quadre combinat trobareu tots els paquets d'idioma instal·lats que pot utilitzar aquesta versió del TortoiseGit."
+
+#. Resource IDs: (IDS_MENUINACCESSIBLE)
+msgid "Inaccessible..."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -10572,6 +10581,20 @@ msgid ""
 "Are you sure you want to mark the file resolved?"
 msgstr "El fitxer seleccionat sembla que té encara un o més marcadors de conflicte.\nEsteu segur que voleu marcar el fitxer coma resolt?"
 
+#. Resource IDs: (IDS_INACCESSIBLE)
+#, c-format
+msgid ""
+"The selected folder seems to be a Git working tree or repository, however, it cannot be accessed.\n"
+"\n"
+"Reasons may include:\n"
+"* Access is prevented due to security reasons and access needs to be granted using a safe.directory config entry.\n"
+"* It uses an unsupported format.\n"
+"* It contains some kind of defect and needs to be checked/repaired.\n"
+"\n"
+"The following libgit and libgit2 errors may provide further insight:\n"
+"%s"
+msgstr ""
+
 #. Resource IDs: (IDS_COMMITDLG_SUBMODULEDIRTY)
 #, c-format
 msgid ""
@@ -11235,10 +11258,6 @@ msgstr "Els fitxers sense versionar marquen la carpeta contenidora com a modific
 #, c-format
 msgid "Unversioning %s"
 msgstr "Deixant de versionar %s"
-
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1386)
-msgid "Up"
-msgstr "Amunt"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1710)
 msgid "Update"

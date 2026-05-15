@@ -88,6 +88,9 @@ msgstr "已传输 %.2f MiB"
 msgid "%1 contained an unexpected object."
 msgstr "%1 包含有未预期的对象。"
 
+msgid "Add \"%s\" as safe.directory."
+msgstr ""
+
 #. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
 msgid "%1 contains an incorrect path."
@@ -627,7 +630,8 @@ msgstr "不再显示此消息(&D)"
 msgid "&Don't store these settings now."
 msgstr "现在不存储这些设置(&D)"
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384, Dialog
+#. IDD_REBASE: Control id 1384)
 msgid "&Down"
 msgstr "向下(&D)"
 
@@ -1391,7 +1395,8 @@ msgstr "解锁(&U)"
 msgid "&Unstaging"
 msgstr "取消暂存(&U)"
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386, Dialog
+#. IDD_REBASE: Control id 1386)
 msgid "&Up"
 msgstr "向上(&U)"
 
@@ -4336,10 +4341,6 @@ msgstr "不再显示此信息"
 msgid "Done"
 msgstr "完成"
 
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1384)
-msgid "Down"
-msgstr "向下"
-
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1698)
 msgid "Download"
 msgstr "下载"
@@ -5504,6 +5505,10 @@ msgstr "Git for Windows"
 msgid "Git reported an error while creating a repository!\n"
 msgstr "在创建版本库时，Git 报告了一个错误！\n"
 
+#. Resource IDs: (IDS_MENUDESCINACCESSIBLE)
+msgid "The Git repository is inaccessible and further action is required."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
@@ -6243,6 +6248,10 @@ msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
 msgstr "在下列组合框中，您可以找到此版本 TortoiseGit 可以使用的所有已安装的语言包。"
+
+#. Resource IDs: (IDS_MENUINACCESSIBLE)
+msgid "Inaccessible..."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -10599,6 +10608,20 @@ msgid ""
 "Are you sure you want to mark the file resolved?"
 msgstr "选择的文件尚有一个或多个冲突标记。\n您确定要将其标记为已解决吗？"
 
+#. Resource IDs: (IDS_INACCESSIBLE)
+#, c-format
+msgid ""
+"The selected folder seems to be a Git working tree or repository, however, it cannot be accessed.\n"
+"\n"
+"Reasons may include:\n"
+"* Access is prevented due to security reasons and access needs to be granted using a safe.directory config entry.\n"
+"* It uses an unsupported format.\n"
+"* It contains some kind of defect and needs to be checked/repaired.\n"
+"\n"
+"The following libgit and libgit2 errors may provide further insight:\n"
+"%s"
+msgstr ""
+
 #. Resource IDs: (IDS_COMMITDLG_SUBMODULEDIRTY)
 #, c-format
 msgid ""
@@ -11262,10 +11285,6 @@ msgstr "如果文件夹包含未版本控制的文件，标识父文件夹为已
 #, c-format
 msgid "Unversioning %s"
 msgstr "正在将 %s 去除版本控制"
-
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1386)
-msgid "Up"
-msgstr "向上"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1710)
 msgid "Update"

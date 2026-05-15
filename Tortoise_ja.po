@@ -87,6 +87,9 @@ msgstr "%.2f MiB 転送しました"
 msgid "%1 contained an unexpected object."
 msgstr "%1 は想定外のオブジェクトを含んでいました。"
 
+msgid "Add \"%s\" as safe.directory."
+msgstr ""
+
 #. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
 msgid "%1 contains an incorrect path."
@@ -626,7 +629,8 @@ msgstr "このメッセージを再び表示しない(&D)"
 msgid "&Don't store these settings now."
 msgstr "今はこの設定を保存しない(&D)"
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384, Dialog
+#. IDD_REBASE: Control id 1384)
 msgid "&Down"
 msgstr "下へ(&D)"
 
@@ -1390,7 +1394,8 @@ msgstr "ロック解除(&U)"
 msgid "&Unstaging"
 msgstr "ステージング取り消し(&U)"
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386, Dialog
+#. IDD_REBASE: Control id 1386)
 msgid "&Up"
 msgstr "上へ(&U)"
 
@@ -4335,10 +4340,6 @@ msgstr "このメッセージを再び表示しない"
 msgid "Done"
 msgstr "終了"
 
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1384)
-msgid "Down"
-msgstr "下へ"
-
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1698)
 msgid "Download"
 msgstr "ダウンロード"
@@ -5503,6 +5504,10 @@ msgstr "Git for Windows"
 msgid "Git reported an error while creating a repository!\n"
 msgstr "リポジトリを作成する際にエラーが発生しました！\n"
 
+#. Resource IDs: (IDS_MENUDESCINACCESSIBLE)
+msgid "The Git repository is inaccessible and further action is required."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
@@ -6242,6 +6247,10 @@ msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
 msgstr "下のコンボボックスに、インストール済みで、このバージョンの TortoiseGit で使用できる、すべての言語パックがリストアップされます。"
+
+#. Resource IDs: (IDS_MENUINACCESSIBLE)
+msgid "Inaccessible..."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -10598,6 +10607,20 @@ msgid ""
 "Are you sure you want to mark the file resolved?"
 msgstr "選択されたファイル内には、まだ競合状態のファイルがあります。\n本当に、ファイルを解決済みにしてもよろしいですか？"
 
+#. Resource IDs: (IDS_INACCESSIBLE)
+#, c-format
+msgid ""
+"The selected folder seems to be a Git working tree or repository, however, it cannot be accessed.\n"
+"\n"
+"Reasons may include:\n"
+"* Access is prevented due to security reasons and access needs to be granted using a safe.directory config entry.\n"
+"* It uses an unsupported format.\n"
+"* It contains some kind of defect and needs to be checked/repaired.\n"
+"\n"
+"The following libgit and libgit2 errors may provide further insight:\n"
+"%s"
+msgstr ""
+
 #. Resource IDs: (IDS_COMMITDLG_SUBMODULEDIRTY)
 #, c-format
 msgid ""
@@ -11261,10 +11284,6 @@ msgstr "バージョン管理外のファイルを含むフォルダーに変更
 #, c-format
 msgid "Unversioning %s"
 msgstr "%s をバージョン管理から除外中"
-
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1386)
-msgid "Up"
-msgstr "上へ"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1710)
 msgid "Update"

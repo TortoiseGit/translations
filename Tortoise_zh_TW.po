@@ -73,6 +73,9 @@ msgstr "傳輸了 %.2f MiB"
 msgid "%1 contained an unexpected object."
 msgstr "%1 包含未預期的物件。"
 
+msgid "Add \"%s\" as safe.directory."
+msgstr ""
+
 #. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
 msgid "%1 contains an incorrect path."
@@ -612,7 +615,8 @@ msgstr "不再顯示此訊息(&D)"
 msgid "&Don't store these settings now."
 msgstr "現在先不儲存這些設定值(&D)。"
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1384, Dialog
+#. IDD_REBASE: Control id 1384)
 msgid "&Down"
 msgstr "向下(&D)"
 
@@ -1376,7 +1380,8 @@ msgstr ""
 msgid "&Unstaging"
 msgstr ""
 
-#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386)
+#. Resource IDs: (Dialog IDD_APPLY_PATCH_LIST: Control id 1386, Dialog
+#. IDD_REBASE: Control id 1386)
 msgid "&Up"
 msgstr "向上(&U)"
 
@@ -4321,10 +4326,6 @@ msgstr "不再顯示此訊息"
 msgid "Done"
 msgstr "完成"
 
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1384)
-msgid "Down"
-msgstr "向下"
-
 #. Resource IDs: (Dialog IDD_CHECKFORUPDATES: Control id 1698)
 msgid "Download"
 msgstr "下載"
@@ -5489,6 +5490,10 @@ msgstr "Git for Windows"
 msgid "Git reported an error while creating a repository!\n"
 msgstr "當建立版本庫時，Git 回報錯誤！\n"
 
+#. Resource IDs: (IDS_MENUDESCINACCESSIBLE)
+msgid "The Git repository is inaccessible and further action is required."
+msgstr ""
+
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
@@ -6228,6 +6233,10 @@ msgid ""
 "In the following combobox you can find all installed language packs which "
 "can be used by this version of TortoiseGit."
 msgstr "在以下組合框你可找到所有已安裝及對應此版本的 TortoiseGit 語言包"
+
+#. Resource IDs: (IDS_MENUINACCESSIBLE)
+msgid "Inaccessible..."
+msgstr ""
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -10584,6 +10593,20 @@ msgid ""
 "Are you sure you want to mark the file resolved?"
 msgstr "選擇的檔案尚有一個以上的衝突標記。\n你確定要將之視為已解決？"
 
+#. Resource IDs: (IDS_INACCESSIBLE)
+#, c-format
+msgid ""
+"The selected folder seems to be a Git working tree or repository, however, it cannot be accessed.\n"
+"\n"
+"Reasons may include:\n"
+"* Access is prevented due to security reasons and access needs to be granted using a safe.directory config entry.\n"
+"* It uses an unsupported format.\n"
+"* It contains some kind of defect and needs to be checked/repaired.\n"
+"\n"
+"The following libgit and libgit2 errors may provide further insight:\n"
+"%s"
+msgstr ""
+
 #. Resource IDs: (IDS_COMMITDLG_SUBMODULEDIRTY)
 #, c-format
 msgid ""
@@ -11247,10 +11270,6 @@ msgstr "含有尚未版本控制的檔案時，將上層資料夾標記為「已
 #, c-format
 msgid "Unversioning %s"
 msgstr "正在清除 %s 的版本控制資訊"
-
-#. Resource IDs: (Dialog IDD_REBASE: Control id 1386)
-msgid "Up"
-msgstr "向上"
 
 #. Resource IDs: (Dialog IDD_DIFFSUBMODULE: Control id 1710)
 msgid "Update"
