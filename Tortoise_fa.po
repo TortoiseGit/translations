@@ -58,9 +58,6 @@ msgstr "%.2f MiB انتقال یافت"
 msgid "%1 contained an unexpected object."
 msgstr "%1 حاوی یک شئ نامعتبر است."
 
-msgid "Add \"%s\" as safe.directory."
-msgstr ""
-
 #. Resource IDs: (AFX_IDP_FILE_BAD_PATH)
 #, c-format
 msgid "%1 contains an incorrect path."
@@ -5475,10 +5472,6 @@ msgstr "Git for Windows"
 msgid "Git reported an error while creating a repository!\n"
 msgstr ""
 
-#. Resource IDs: (IDS_MENUDESCINACCESSIBLE)
-msgid "The Git repository is inaccessible and further action is required."
-msgstr ""
-
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_USER: Control id 65535)
 msgid ""
 "Git requires that you set up a user name and email address. Both are used as"
@@ -5706,6 +5699,11 @@ msgstr ""
 
 #. Resource IDs: (Dialog IDD_FIRSTSTARTWIZARD_GIT: Control id 1841)
 msgid "I don't use Git for Windows and need special workarounds"
+msgstr ""
+
+#. Resource IDs: (IDS_PROC_ADDSAFEDIRECTORY)
+#, c-format
+msgid "I trust the path \"%s\", add it as safe.directory"
 msgstr ""
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
@@ -10263,6 +10261,10 @@ msgstr ""
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Thai"
+msgstr ""
+
+#. Resource IDs: (IDS_MENUDESCINACCESSIBLE)
+msgid "The Git repository is inaccessible and further action is required."
 msgstr ""
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_SAVEREMOTE)
