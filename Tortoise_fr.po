@@ -524,7 +524,7 @@ msgstr "&Livrer le sous-module..."
 
 #. Resource IDs: (IDS_PROC_COMMIT_NOADDSIGNOFFBUTTON)
 msgid "&Commit w/o"
-msgstr "&Livrer w/o"
+msgstr "&Livrer sans"
 
 #. Resource IDs: (IDS_MENUCOMMIT)
 msgid "&Commit..."
@@ -2888,13 +2888,13 @@ msgstr "Efface %1!ld! paires d'utilisateur/mot de passe, %2!ld! certificats SSL
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_REPOLOGHIST_TT)
 #, c-format
 msgid "Clears cached logs from %ld repositories"
-msgstr "Supprime les commentaires des répertoires %ld"
+msgstr "Efface les commentaires des répertoires %ld"
 
 #. Resource IDs: (IDS_SETTINGS_CLEARAUTH_TT)
 msgid ""
 "Clears the stored authentication.\n"
 "You will have to enter your username/password again for all repositories."
-msgstr "Supprime l'authentification stockée.\nVous devrez ressaisir vos nom/mot de passe pour tous les dépôts."
+msgstr "Efface l'authentification stockée.\nVous devrez ressaisir vos nom/mot de passe pour tous les dépôts."
 
 #. Resource IDs: (IDS_SETTINGS_SAVEDDATA_RESIZABLE_TT)
 #, c-format
@@ -3150,7 +3150,7 @@ msgstr "Comp&arer les modifications"
 #. Resource IDs: (IDS_REVGRAPH_POPUP_COMPAREHEADS,
 #. ID_VIEW_COMPAREHEADREVISIONS - Menu)
 msgid "Compare &HEAD revisions"
-msgstr "comparer les révisions &HEAD"
+msgstr "Comparer les révisions &HEAD"
 
 #. Resource IDs: (IDS_LOG_POPUP_COMPARE_PARENT_WC)
 msgid "Compare parent with working tree"
@@ -3883,7 +3883,7 @@ msgstr "Supprimer\nLe fichier est retiré."
 #. IDD_SETTINGSOVERLAYHANDLERS: Control id 1551, IDS_DELETED,
 #. IDS_PATHACTIONS_DELETE, IDS_SVNACTION_DELETE, IDS_SVN_SUMMARIZEDELETED)
 msgid "Deleted"
-msgstr "Effacé"
+msgstr "Supprimé"
 
 #. Resource IDs: (IDS_MENUDESCDELETEIGNORE)
 msgid ""
@@ -5751,7 +5751,7 @@ msgstr "Je n'utilise pas \"Git for Windows\" et j'ai besoin de contournements sp
 #. Resource IDs: (IDS_PROC_ADDSAFEDIRECTORY)
 #, c-format
 msgid "I trust the path \"%s\", add it as safe.directory"
-msgstr ""
+msgstr "J'approuve le chemin \"%s\", ajoutez-le en tant que safe.directory."
 
 #. Resource IDs: (Dialog IDD_SETTINGSOVERLAY: Control id 65535)
 msgid "I&nclude paths:"
@@ -6266,7 +6266,7 @@ msgstr "Dans la liste de choix suivante vous trouverez tout les packs de langage
 
 #. Resource IDs: (IDS_MENUINACCESSIBLE)
 msgid "Inaccessible..."
-msgstr ""
+msgstr "Inaccessible"
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1499)
 msgid "Include &Tags"
@@ -10312,7 +10312,7 @@ msgstr "Thaïlandais"
 
 #. Resource IDs: (IDS_MENUDESCINACCESSIBLE)
 msgid "The Git repository is inaccessible and further action is required."
-msgstr ""
+msgstr "Le dépôt Git est inaccessible et une intervention supplémentaire est requise."
 
 #. Resource IDs: (IDS_PROC_GITCONFIG_SAVEREMOTE)
 msgid ""
@@ -10639,7 +10639,7 @@ msgid ""
 "\n"
 "The following libgit and libgit2 errors may provide further insight:\n"
 "%s"
-msgstr ""
+msgstr "Le dossier sélectionné semble être une arborescence de travail ou un dépôt Git, mais il est impossible d'y accéder.\n\nCela peut s'expliquer par les raisons suivantes :\n* L’accès est bloqué pour des raisons de sécurité et nécessite une autorisation via une entrée de configuration safe.directory.\n* Le format utilisé n'est pas pris en charge.\n* Le dossier présente un problème et doit être vérifié ou réparé.\n\nLes erreurs libgit et libgit2 suivantes peuvent fournir des informations supplémentaires :\n%s"
 
 #. Resource IDs: (IDS_COMMITDLG_SUBMODULEDIRTY)
 #, c-format
@@ -12293,7 +12293,7 @@ msgstr "jour"
 
 #. Resource IDs: (IDS_STATUSDELETED)
 msgid "deleted"
-msgstr "effacé"
+msgstr "supprimé"
 
 #. Resource IDs: (IDS_PIPETITLE)
 msgid "diff from pipe"
