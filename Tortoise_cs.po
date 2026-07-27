@@ -3381,7 +3381,7 @@ msgid ""
 "Could not find \"msysgit\" or \"windows\" in version string of git.exe.\n"
 "If you are using git of the Cygwin or MSYS2 environment you need to enable special hacks.\n"
 "For more information see the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "V řetězci verze git.exe nelze najít \"msysgit\" nebo \"windows\".\nPokud používáte git prostředí Cygwin nebo MSYS2, musíte povolit speciální hacky.\nDalší informace naleznete v souboru nápovědy pro klíčové slovo \"Cygwin Git\" nebo \"MSYS2 Git\"."
 
 #. Resource IDs: (IDS_ERR_GITNOVALIDOUTPUT)
 #, c-format
@@ -3653,7 +3653,7 @@ msgid ""
 "Current branch \"%s\" is up to date\n"
 "\n"
 "If you want to force a rebase even if the current branch is a descendant of the commit you are rebasing onto, please check below \"Force Rebase\" checkbox."
-msgstr ""
+msgstr "Současná větev \"%s\" je aktuální\n\nPokud chcete vynutit přeskládání, i když je současná větev potomkem odevzdání, na který přeskládáváte, pak níže zaškrtněte políčko \"Vynutit přeskládání\"."
 
 #. Resource IDs: (IDS_REBASE_CURRENTBRANCHUPTODATE)
 msgid ""
@@ -5191,7 +5191,7 @@ msgid ""
 "For the current branch \"%1!s!\" no tracked branch is configured.\n"
 "Do you want to set the selected branch \"%2!s!\" as tracked branch?\n"
 "This will automatically select it for push and pull in the future."
-msgstr ""
+msgstr "Pro současnou větev \"%1!s!\" není nastavená sledovaná větev.\nChcete nastavit vybranou větev \"%2!s!\" jako sledovanou?\nTímto ji automaticky zvolíte k odesílání a přijímání."
 
 #. Resource IDs: (Dialog IDD_PUSH: Control id 1498)
 msgid "Force &with lease"
@@ -5248,14 +5248,14 @@ msgstr "Dopředu %d"
 msgid ""
 "Found \"msysgit\" or \"windows\" in version string of git.exe, however, you have git.exe hacks enabled. These hacks must be disabled for proper operation with Git for Windows!\n"
 "You can find more information in the help file for the keyword \"Cygwin Git\" or \"MSYS2 Git\"."
-msgstr ""
+msgstr "V řetězci verzí souboru git.exe se našel „msysgit“ nebo „windows“, nicméně máte povolené hacky pro git.exe. Pro správnou funkci systému Git pro Windows je nutné tyto hacky zakázat!\nVíce informací naleznete v souboru nápovědy pro klíčové slovo „Cygwin Git“ nebo „MSYS2 Git“."
 
 #. Resource IDs: (IDS_REBASELOCKFILEFOUND)
 msgid ""
 "Found a lock file indicating that a TortoiseGit rebase process is running. This blocks this operation.\n"
 "\n"
 "If you are not running a TortoiseGit rebase process right now, you can remove the stale lock file in order to continue."
-msgstr ""
+msgstr "Nalezen příznak, že již probíhá TortoiseGit rebase, proto operace nemůže pokračovat.\nPokud jste teď nespouštěli TortoiseGit rebase, můžete odstranit soubor s příznakem, abyste mohli pokračovat."
 
 #. Resource IDs: (IDS_PROC_REBASE_EMPTYCOMMITMSG)
 msgid ""
@@ -6039,7 +6039,7 @@ msgid ""
 "the content possibly have been altered by third parties unnoticed (e.g. "
 "after pull or merge). Keep this in mind especially if you approve a "
 "repository hook permanently."
-msgstr ""
+msgstr "Pokud spouštíte verzovaný soubor z repozitáře, vezměte prosím na vědomí, že obsah mohl být nepozorovaně změněn třetími stranami (např. po stažení nebo sloučení). Mějte to na paměti, zejména pokud trvale schvalujete hák repozitáře."
 
 #. Resource IDs: (Dialog IDD_CREATEREPO: Control id 1654)
 msgid ""
@@ -6053,7 +6053,7 @@ msgid ""
 "If you want to use a translated version of TortoiseGit and your language is "
 "missing, <a id=\"download\">download</a> and install a matching language "
 "pack now and hit \"Refresh\" before continuing."
-msgstr ""
+msgstr "Pokud chcete použít přeloženou verzi TortoiseGit a váš jazyk chybí, <a id=\"download\">stáhněte si</a> a nainstalujte odpovídající jazykový balíček a před pokračováním klikněte na tlačítko „Obnovit“."
 
 #. Resource IDs: (IDS_EXTRAPATH_TT)
 #, c-format
@@ -6339,7 +6339,7 @@ msgid ""
 "Do you want to ignore this warning and keep these lines or abort committing in order to edit the commit message?\n"
 "\n"
 "You can automatically remove these lines by enabling \"Strip lines starting with \"#\" in commit messages\" in TortoiseGit settings."
-msgstr ""
+msgstr "Vypadá to, že ve vaší zprávě o commitu je nápověda ke konfliktu (řádek jako \"# Konflikty:\"). Tato nápověda je automaticky přidána Gitem pro uživatele CLI a není třeba ji uchovávat.\n\nChcete toto varování ignorovat a tyto řádky ponechat, nebo chcete commit přerušit a upravit zprávu o commitu?\n\nTyto řádky můžete automaticky odstranit povolením možnosti \"Odstraňovat řádky začínající znakem \"#\" ve zprávách o commitu\" v nastavení TortoiseGit."
 
 #. Resource IDs: (Dialog IDD_SETMAINPAGE: Control id 1074)
 msgid "J&ump to first conflict when loading"
@@ -7273,7 +7273,7 @@ msgstr "Uvědomte si, že pokud vyberete obnovu automaticky uložených dokument
 msgid ""
 "Note: These settings also apply to the Patch Viewer dialog.\n"
 "To select whether you would like to use the build-in or any alternative diff viewer program go to \"Diff Viewer\" preferences section in the leftward tree."
-msgstr ""
+msgstr "Poznámka: Tato nastavení platí i pro dialogové okno Prohlížeč oprav.\nChcete-li vybrat, zda chcete použít vestavěný nebo alternativní program pro prohlížeč rozdílů, přejděte do sekce nastavení „Prohlížeč rozdílů“ v levém stromovém menu."
 
 #. Resource IDs: (Dialog IDD_REVERT: Control id 1481)
 msgid "Note: the folder contains unversioned items"
@@ -7863,7 +7863,7 @@ msgid ""
 "Please see the <a id=\"manual\">manual</a> for general hints. E.g. in most "
 "dialogs there are some shared shortcuts such as F5 for refresh or CTRL+F for"
 " search and oftentimes there are powerful context menus."
-msgstr ""
+msgstr "Obecné rady naleznete v <a id=\"manual\">manuálu</a>. Např. ve většině dialogových oken jsou k dispozici sdílené klávesové zkratky, jako je F5 pro obnovení nebo CTRL+F pro vyhledávání, a často jsou k dispozici i výkonné kontextové nabídky."
 
 #. Resource IDs: (IDS_ERR_NOHOOKTYPESPECIFIED)
 msgid "Please select a hook type"
@@ -10303,7 +10303,7 @@ msgid ""
 "When you merge changes, conflicts can arise that must be solved manually (i.e., you need to integrate your changes into a file which was also modified on another branch).\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "Commit, který vytváříte, je speciální commit. Je to merge commit, a proto obsahuje vaše změny i změny sloučené větve.\n\nNeměli byste odškrtávat soubory, pokud nevíte, co děláte.\n\nPři sloučení změn mohou vzniknout konflikty, které je nutné řešit ručně (tj. je nutné integrovat změny do souboru, který byl také upraven v jiné větvi).\n\nDalší informace naleznete v nápovědě."
 
 #. Resource IDs: (IDS_GITCREDENTIAL_OVERWRITEHELPER)
 #, c-format
@@ -10541,7 +10541,7 @@ msgid ""
 "But TortoiseGitMerge found the path\n"
 "%2!s!\n"
 "matches it better. Do you want to use the suggested path instead?"
-msgstr ""
+msgstr "Cesta\n%1!s!\nse pravděpodobně neshoduje s cestami v záplatovém souboru.\nAle TortoiseGitMerge nalezl cestu\n%2!s!\nkterá odpovídá lépe. Chcete místo vaší cesty použít navrhovanou?"
 
 #. Resource IDs: (IDS_PROC_CONFIRMKILLPROCESS)
 msgid ""
@@ -10591,7 +10591,7 @@ msgid ""
 "\n"
 "The following libgit and libgit2 errors may provide further insight:\n"
 "%s"
-msgstr ""
+msgstr "Vybraná složka se zdá být pracovním stromem nebo repozitářem Gitu, nicméně k ní nelze přistupovat.\n\nDůvody mohou zahrnovat:\n* Přístup je z bezpečnostních důvodů zablokován a je nutné jej udělit pomocí konfigurační položky safe.directory.\n* Používá nepodporovaný formát.\n* Obsahuje nějakou chybu a je třeba ji zkontrolovat/opravit.\n\nNásledující chyby v knihovnách libgit a libgit2 mohou poskytnout další informace:\n%s"
 
 #. Resource IDs: (IDS_COMMITDLG_SUBMODULEDIRTY)
 #, c-format
@@ -10738,7 +10738,7 @@ msgid ""
 "have a look into its settings dialog. The settings dialog is reachable using"
 " the start menu or the context menu of the Windows Explorer: TortoiseGit -> "
 "Settings."
-msgstr ""
+msgstr "Toto je Průvodce prvním spuštěním, který vám pomůže s konfigurací základních nastavení. TortoiseGit je vysoce konfigurovatelný, proto je vhodné podívat se do jeho dialogového okna nastavení. Dialogové okno nastavení je dostupné pomocí nabídky Start nebo kontextové nabídky Průzkumníka Windows: TortoiseGit -> Nastavení."
 
 #. Resource IDs: (IDS_PROC_LOG_ONLYONCE)
 msgid ""
@@ -10983,7 +10983,7 @@ msgid ""
 " agent for caching the password (done automatically if a PuTTY key is "
 "configured for a remote). For advanced tips & tricks see our <a "
 "id=\"manual\">manual</a> and <a id=\"sshfaq\">FAQ</a>."
-msgstr ""
+msgstr "Jako SSH klient se doporučuje TortoiseGitPlink. Pokud ještě nemáte pár klíčů, měli byste si jeden vygenerovat. Soukromý klíč uložte na bezpečné místo a veřejný klíč nastavte na své hostingové platformě. Pro ukládání hesla do mezipaměti použijte ověřovací agent PuTTY (provádí se automaticky, pokud je pro vzdálený server nakonfigurován klíč PuTTY). Pokročilé tipy a triky naleznete v našem <a id=\"manual\">manuálu</a> a <a id=\"sshfaq\">Často kladených otázkách</a>."
 
 #. Resource IDs: (Dialog IDD_SETTINGSUDIFF: Control id 357, IDS_APP_TITLE)
 msgid "TortoiseGitUDiff"
@@ -11794,7 +11794,7 @@ msgid ""
 "You can also click \"Partial Staging\" or \"Partial Unstaging\". A window shows up where you can select hunks or lines in the currently selected file and stage or unstage them.\n"
 "\n"
 "Please note that, for performance reasons, the file's group (Modified Files, Not Versioned Files...) and status (Added, Modified, Unknown...) are not updated when clicking its checkbox. If you want to see the updated group and status, you can trigger a full refresh by pressing F5."
-msgstr ""
+msgstr "V tomto režimu zaškrtávací políčko u každého souboru odráží jeho stav přípravy:\n- Zaškrtnuté znamená, že všechny změny v souboru jsou připraveny\n- Nezaškrtnuté znamená, že všechny změny v souboru nejsou připraveny\n- Šedý čtvereček znamená, že jsou připraveny pouze některé změny v souboru\n\nKliknutím na zaškrtávací políčka se okamžitě připraví nebo zruší příprava celého souboru.\n\nMůžete také kliknout na „Částečné přípravy“ nebo „Částečné zrušení přípravy“. Zobrazí se okno, kde můžete vybrat části nebo řádky v aktuálně vybraném souboru a přidat je do přípravy nebo zrušit jejich přípravu.\n\nUpozorňujeme, že z důvodu výkonu se skupina souboru (Upravené soubory, Soubory bez verze...) a stav (Přidaný, Upravený, Neznámý...) po kliknutí na zaškrtávací políčko neaktualizují. Pokud chcete zobrazit aktualizovanou skupinu a stav, můžete stisknutím klávesy F5 spustit úplnou aktualizaci."
 
 #. Resource IDs: (IDS_NEED_TO_RESOLVE_CONFLICTS_HINT)
 msgid ""
@@ -11805,7 +11805,7 @@ msgid ""
 "If you want to abort the merge, do a hard reset on HEAD or select abort merge on the context menu.\n"
 "\n"
 "See help for more information."
-msgstr ""
+msgstr "Během slučování, tj. integrace změn jiné (vzdálené) větve do vaší lokální větve, došlo ke konfliktu v alespoň jednom souboru. To znamená, že je nutné jej vyřešit ručně (tj. je nutné integrovat změny do souboru, který byl také upraven v jiné větvi).\n\nPo vyřešení všech souborů je nutné provést commit, aby se slučování dokončilo.\n\nPokud chcete slučování přerušit, proveďte tvrdý reset na větvi HEAD nebo vyberte v kontextové nabídce možnost přerušit slučování.\n\nDalší informace naleznete v nápovědě."
 
 #. Resource IDs: (IDS_DAEMON_SECURITY_WARN)
 msgid ""
